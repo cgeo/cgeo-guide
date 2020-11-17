@@ -1,0 +1,72 @@
+
+====== Asennus ja päivitys  ======
+
+===== Asennuslähde =====
+{{anchor:installation_source:}}
+
+Voit asentaa c:geon useista lähteistä, jotka on listattu alla:
+
+^ Lähde ^ Selite ^
+|[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|Helpoin tapa c:geon asentamiseen ja säännöllisten päivitysten sekä uusien versioiden vastaanottamiseen. Jos sinulla on Google-tili ja käytät Google Play -sovelluskauppaa, niin on suositeltavaa käyttää tätä tapaa c:geon asentamiseen ja päivittämiseen.|
+|[[https://github.com/cgeo/cgeo/releases/latest|APK-tiedosto]]|Jos et käytä Google Play -sovelluskauppaa (ja olet aiemmin asentanut suoraan sovelluksia laitteeseesi), voit ladata GitHub-hakemistostamme viimeisimmän c:geon version APK-tiedoston.\\ \\ :!: Huomaathan, että tällä tavalla asennettaessa et saa c:geon päivityksiä Google Playsta. Jos c:geossa on käytössä vanhentunut versio, näet kuitenkin [[installation#update|ilmoituksen]] c:geossa, mutta sinun tulee päivittää se uudempaan lataamalla uusi APK-tiedosto ja asentaa se.|
+|[[https://fdroid.cgeo.org/|FDroid-hakemisto]]|Tämä on edistyneille käyttäjille jotka haluavat rakentaa oman version FDroidin pohjalle ja tietävät mitä tekevät.|
+
+
+===== Käyttöluvat =====
+{{anchor:permissions:}}
+
+Asennusprosessin aikana  (tai ensimmäisen käynnistyksen yhteydessä, riippuen Android-versiosta) sinun tulee hyväksyä seuraavat c:geon tarvitsemat käyttöluvat laitteessasi:
+
+^ Käyttölupa ^ Selite ^
+|Sijainti|Toki c:geo tarvitsee pääsyn laitteesi GPS:ään, jotta se voi hakea sijaintisi ja näyttää sen kartalla, ja laskea suunnan sekä etäisyyden geokätköihin.|
+|Kuvat/Media/Tiedostot|Kun tallennat kätköjä offline-käyttöön, c:geo kirjoittaa tietoja puhelimesi tallennusmuistiin tai SD-korttiin. Tämän lisäksi c:geo käyttää puhelimen tallennusmuistia offline-karttojen tuontiin ja vientiin. \\ Jos liität kirjaukseesi kuvan, c:geo tarvitsee käyttöluvan puhelimesi kameraan.|
+
+<WRAP center round important 100%>
+Sinun tulee myöntää ylläluetut käyttöluvat, muuten c:geo ei toimi odotetusti!
+</WRAP>
+
+===== Päivitys =====
+{{anchor:update:}}
+
+Aika ajoittain julkaisemme uuden version c:geosta.
+
+<WRAP center round tip 100%>
+Uuden version ilmestyessä, suosittelemme että päivität asennuksen mahdollisimman pian. Vanhemmat versiot saattavat lakata toimimasta (esimerkiksi tärkeän bugikorjauksen tai palvelimessa tapahtuneen muutoksen vuoksi).
+</WRAP>
+
+Jos asensit c:geon Google Playn kautta, saat ilmoituksen Google Playsta, kun uusi versio on saatavilla. Seuraamalla tätä ilmoitusta saat päivitettyä ohjelman uusimpaan versioon.
+Lisäksi c:geo käyttää ilmoituksia c:geon etusivulla kiinnittääksesi huomion uudesta versiosta tai tilapäisistä ongelmista. Viesti voi näyttää etusivulla tältä:
+
+{{:en:notification_example.png?direct&300 |}}
+
+Voit klikata viestin päältä saadaksesi lisätietoja (väliaikaisten ongelmien aikaan) tai mennäksesi Google Playyn saadaksesi uudemman version (päivitysilmoituksen tullessa).
+
+
+===== Betaversio =====
+{{anchor:beta_version:}}
+
+Jos kehityksessä oleva uusi versio on havaittu valmiiksi julkaisuun (niin sanottu "Release candidate"), ensimmäiseksi saatamme julkaista sen betaversiona saadaksemme käyttäjiltä palautetta ja löytääksemme mahdollisia bugeja tai ongelmia, mitä ei havaittu kehityksen aikana.
+
+<WRAP center round info 100%>
+Yleensä betaversiot ovat vakaita, mutta on olemassa pieni mahdollisuus että kaikki toiminnot eivät toimi odotetusti. Haluamme kuitenkin rohkaista sinua käyttämään niitä, koska se auttaa meitä todella paljon!
+</WRAP>
+
+Myös betaversiot jaetaan Google Playn kautta ja on päivitettävissä nopeasti vakaan ja betaversion välillä automaattisesti. Liittyäksesi c:geon  betaversion testaajaksi Google Playssa käytä alla olevaa linkkiä:
+
+[[https://play.google.com/apps/testing/cgeo.geocaching|Tule c:geon betatestaajaksi!]]
+
+Kun olet aktivoinut betatestauksen, saat sekä virallisesta että betaversiosta päivityksiä. Tämä tarkoittaa sitä, että saat virallisesta versiosta normaaleja päivityksiä, mutta myös betaversiosta päivityksiä, jos siitä on saatavilla uudempi versio. Betatestaajana voit myös lähettää meille palautetta ja ongelmaraportteja siihen erikseen luodun Google Playn palautelomakkeen kautta.
+
+Kun olet rekisteröitynyt betatestaajaksi, Google play jostakin syystä näyttää ''c:geo(Beta)'' ohjelman nimenä kaupassa, vaikka meillä ei välttämättä ole aktiivista betaversiota saatavilla sillä hetkellä vaan laitteessasi on virallinen versio. Jos menet [[.mainmenu:aboutcgeo|c:geon tietoihin]], voit tarkistaa onko laitteessasi betaversio: jos version numerossa on pääte ''-RC'', niin laitteessasi on betaversio.
+
+Jos haluat lopettaa betatestauksen niin seuraa yllämainittua linkkiä ja poista valinta betatestauksesta. Tämän jälkeen voit joutua poistamaan betaversion puhelimesta ja asentamaan virallisen version Google Playsta.
+
+===== Kehitysversio =====
+{{anchor:development version:}}
+
+[[https://www.cgeo.org/development|Kotisivujemme kehitysosiossa (englanniksi)]] on lisätietoja kehitysversioista ja niin sanotuista jokaöisistä versioista.
+
+
+
+
+

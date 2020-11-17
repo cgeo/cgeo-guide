@@ -1,0 +1,21 @@
+====== Global Cache Type Filter ======
+
+{{:main_filter_default.png?nolink&100 |}}
+
+With this menu you can filter the caches shown on the live map, nearby list, and when searching by type. Just select the cache type.\\ \\ \\ \\
+
+{{:en:global_cache_type_filter_en.png?direct&400 |}}
+
+
+<WRAP center round important 40%>
+The filter setting will remain active (even if you restart c:geo) until you change or reset it.
+</WRAP>
+
+<WRAP center round info 40%>
+Please note that you can currently either see all caches or only filter exactly one type of cache. 
+</WRAP>
+
+<WRAP center round tip 40%>
+The different cache types are explained in the section [[..cacheicons|Geocache Type Icons in c:geo]].
+</WRAP>
+

@@ -1,0 +1,6 @@
+====== Generate e-book ======
+
+You can use this tool to add pages, sort them as you like and generate a PDF file as offline version of this user guide.
+Also take a look at the [[en:ebook_help|help page]].
+
+~~BOOK~~

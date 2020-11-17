@@ -1,0 +1,69 @@
+
+====== Pikalinkit ======
+
+  * [[start|c:geo Käyttöopas]]
+      * [[start#about_cgeo|Tietoja c:geosta]]
+
+    * [[start#getting_started|Käytön aloitus]]
+      * [[firststeps|c:geon käytön aloitus]]
+      * [[basicuse|c:geon peruskäyttö]]
+
+    * [[start#users_manual|Käyttöohje]]
+      * [[.mainmenu:start|Päävalikko]]
+        * [[.mainmenu:start#top_bar_menu|Yläreunan valikko]]
+        * [[.mainmenu:livemap|Live-kartta]]
+        * [[.mainmenu:lists#cache_list|Lähistöllä]]
+        * [[.mainmenu:lists|Tallennetut kätköt]]
+        * [[.mainmenu:search|Etsi]]
+        * [[.mainmenu:goto|Siirry]]
+        * [[.mainmenu:globaltypefilter|Kätkötyyppien suodatin]]
+        * [[.mainmenu:start#bottom_section|Tilatiedot]]
+      * [[.mainmenu:settings|Asetukset]]
+      * [[start#geocaches|Geokätköt]]
+        * [[cachedetails|Geokätköjen tiedot]]
+        * [[logging|Geokätköjen kirjaaminen]]
+      * [[start#trackables|Matkaajat]]
+        * [[trackabledetails|Matkaajan tiedot]]
+        * [[loggingtb|Matkaajien kirjaaminen]]
+      * [[start#coordinates_and_navigation|Koordinaatit ja navigointi]]
+        * [[coordinatedialog#waypoint_calculator|Reittipistelaskin]]
+        * [[navigation|Navigointi]]
+        * [[compass|Kompassi]]	     
+      * [[offline|Offline-kätköily]]
+        * [[offline#​gpx_import|GPX:n tuonti]]
+        * [[.mainmenu:pocketquery|Pocket Queries]]
+        * [[offline#​offline_logging|Offline-kätköily]]
+        * [[offline#​field_note_export|Kenttämuistiinpanot]]
+        * [[offline#​offline_maps|Offline-kartat]] ​  
+      * [[udc|Käyttäjän määrittämät kätköt]]
+
+    * [[start#quick_reference|Pikaohjeet]]
+      * [[cacheicons|Kätkötyypit]]
+      * [[cachemarkers|Geokätköjen merkit]]
+      * [[cachedetails#waypoint_types|Reittipisteiden tyypit]]
+      * [[mapsources|Karttalähteet]]
+      * [[basicmembers|Peruskäyttäjien rajoitukset]]
+      * [[coordformat|Koordinaattien muodot]]
+      * [[attributes|Attribuuttien kuvakkeet]]
+      * [[.mainmenu:utilityprograms|Muita käyttökelpoisia ohjelmia]]
+
+    * [[start#special_functions_and_hints|Erityistoiminnot ja vinkit]]
+      * [[offlinemaps|Offline-karttojen tutoriaali]]
+      * [[intents|Geokätköilyyn liittyvien linkkien käyttö]]
+      * [[nfc|Kätköjen jakaminen NFC:n avulla]]
+      * [[hiddenfunctions|c:geon piilotetut toiminnot]]
+      * [[http://send2.cgeo.org|send2geo:n käyttö]]
+      * [[spoilersync|Lokikuvien c:geoon synkronointi ulkoisista lähteistä]]
+      * [[notecoords|Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet]]
+      * [[quick_widgets|Pikakäytön ja pienoisohjelmien käyttö]]
+ 		
+    * [[start#plugins|Lisäosat ja laajennukset]]
+      * [[contacts|Yhteystiedot-lisäosa]]
+      * [[brouter|Brouter]]
+ 
+
+    * [[start#faq|FAQ (UKK)]]
+
+    * [[start#about_this_manual|Tietoja tästä käyttöohjeesta]]
+
+    * [[start#useful_links|Kätevät linkit]]

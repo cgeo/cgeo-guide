@@ -1,0 +1,127 @@
+====== Logging of Geocaches ======
+
+If you select to log a visit for a geocache, the following screen will be shown.
+
+{{:en:logging.png?direct&300 |}}{{:en:logging_2.png?direct&300 |}}
+
+===== Top bar menu =====
+{{anchor:top_bar_menu:}}
+
+
+
+<WRAP center round info 100%>
+The icons shown in the top bar and the contents behind the overflow menu button are distributed dynamically based on your device resolution and screen orientation. Thus it might be possible, that more or less items can be found behind the menu button or instead shown as icons in the top bar on your device.\\
+In case a menu entry is shown as an icon you can long press the icon to get a popup showing its function.
+</WRAP>
+
+^ Icon ^ Function ^ Description ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Send log|Use this button to send you log online after you finished composing it.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Add a template|This allows you to either add a [[.mainmenu:settings#placeholder_templates|template]] or your signature to the log.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Attach image]]|This allows you to select an existing image or take a new picture, which will be added to the log.|
+| |Smilies|Opens a list of smiley tags you can insert into your log.|
+| |Save offline|Saves your composed log offline only instead of sending it online.|
+| |Repeat last log|This function will insert the log text of the last cache you logged into the log text field.|
+| |Sort Trackables|You can change the sorting order of the trackable list either to sort by trackable name or by tracking code.|
+| |Clear|This will delete the log text and reset the logging screen.|
+
+===== Logging screen =====
+{{anchor:logging_screen:}}
+
+==== Log types ====
+{{anchor:log_types:}}
+
+{{ :en:logging_logtype.png?nolink&300 |}}
+
+^ Log Type ^ Description ^
+|Found it|You have found this cache.\\ This is the default log type when opening the logging screen.\\ \\ :!: This log type is no longer available if you already posted a found log for the cache.|
+|Attended|This log type is available for event caches only and is used there instead of the ''Found it'' log.|
+|Webcam photo taken|This log type is available for webcam caches only and is used there instead of the ''Found it'' log.|
+|Will attend|This log type is available for event caches only and can be used to tell the owner, that you plan to attend the event.|
+|Didn't find it|You did not find the cache.|
+|Write note|Write a comment/note for this cache.|
+|Needs Maintenance|Select this log type to report, that the cache needs owner maintenance.\\ \\ :!: This log type is no longer available for geocaching.com and some of the opencaching sites but has been replaced by the [[logging#report_problem|report problem]] function.|
+|Needs Archived|Select this log type to report, that the cache should be archived.\\ \\ :!: This log type is no longer available for geocaching.com but has been replaced by the [[logging#report_problem|report problem]] function.|
+|Maintenance Performed|This log type is only available if you are the owner of the cache and allows you to post an owner maintenance log.|
+|Disabled|This log type is only available if you are the owner of the cache and can be used to temporarily disable your cache.|
+|Enabled|This log type is only available if you are the owner of the cache and the cache is currently disabled. It can be used to enable the cache again.|
+|Archived|This log type is only available if you are the owner of the cache and can be used to permanently archive your cache.|
+
+==== Log date ====
+{{anchor:log_date:}}
+
+{{:en:logging_date.png?nolink&300 |}}
+
+By default c:geo will use the current date for the log and show ''Today'' in this field. You can however click on this field to open a calendar tool and select another date for this log.
+
+==== Report problem ====
+{{anchor:report_problem:}}
+
+{{ :en:logging_problem.png?nolink&300 |}} 
+{{ :en:logging_problem_2.png?nolink&300 |}}
+For caches from geocaching.com and some of the opencaching sites you can report, that the cache has a problem in parallel of logging your "Found it" or "Didn't find it" log.
+
+Click on the field to open a drop down menu containing the available problem reports (depending on the geocaching provider, cache type, cache status and log type):
+
+^ Menu item ^ Description ^
+|No Problem|No problem report will be attached to your log.\\ This is the default selection.|
+|Logbook is full|Informs the owner, that the logbook of the cache is full.|
+|Container might be missing|Informs the owner, that the cache container is probably gone.\\ This problem type is not available in conjunction with a "Found it" log.|
+|Container is damaged|Informs the owner, that something is wrong with the geocache container.|
+|Cache should be archived|Informs the reviewers/administrators of the geocaching provider, that this cache should be archived.|
+|Other|Another problem, which you should further describe in your log text.|
+
+==== GCVote rating ====
+{{anchor:gcvote_rating:}}
+
+{{:en:logging_gcvote.png?nolink&300 |}}
+
+This section is only shown if you enabled and authorized [[http://gcvote.com|GCVote]] in the [[.mainmenu:settings|settings]]. You can then use it to select the quality rating you want to give to the cache. Simply click on the stars to select a rating between 1 and 5 stars in steps of 0.5 stars. The subtitle will show you the textual equivalent of the rating you selected (e.g. "Better than average" = 3.5 starts).
+
+The rating will be submitted when you send the log.
+
+==== Favorite point ====
+{{anchor:favorite_point:}}
+
+{{:en:logging_favorite.png?nolink&400 |}}
+
+This field is only shown if you are premium member of geocaching.com. Activating the checkbox will assign a favorite point to the cache when the log is sent. The value in parenthesis shows the amount of remaining favorite points you have.
+
+==== Twitter ====
+{{anchor:twitter:}}
+
+{{:en:logging_twitter.png?nolink&400 |}}
+
+If you connected c:geo with [[https://twitter.com|Twitter]] in the [[.mainmenu:settings#social_media|settings]] this field will be shown. If you enable the checkbox c:geo will post a tweet in parallel to sending this log.
+
+
+===== Inventory =====
+{{anchor:inventory:}}
+
+{{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
+
+This section lists all trackable items, which are currently in your inventory. It shows the icon of the trackable type (e.g. Travelbug, Geokrety), the tracking code and the name of the trackables. You can click on any of them to see the [[trackabledetails|trackable details]].
+Using the drop down menu on the right hand side, you can select the action you would like to perform with this trackable on this cache:
+
+^ Menu item ^ Description ^
+|Do nothing|Do not perform any trackable action for this trackable when posting your log for the cache.|
+|Visited|Let this trackable visit this cache when posting your log for the cache.|
+|Dropped Off|This trackable will be dropped off into this cache when posting you log for the cache.|
+
+Below the trackable list there you can use the button ''Change All'' to select the action for all trackable items in your inventory at once.
+
+===== Attach image =====
+{{anchor:attach_image:}}
+
+Selecting the menu option ''Attach image'' from the [[logging#top_bar_menu|top bar menu]] will open a new screen, where you can attach a picture to your log.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+Selecting ''Existing'' opens your default gallery app and lets you pick an existing image from your gallery. Selecting ''New'' opens your device camera to take a new image.
+
+Afterwards you can write a caption and provide a description for the picture, which will be added to your picture on the cache log.
+You can also (optionally) select to downscale your image to different pixel sizes to reduce the data amount being transferred when posting the log with your image.
+
+<WRAP center round info 100%>
+At the moment c:geo does only support attaching a single image to each log. Attaching of multiple images is not (yet) supported.
+</WRAP>

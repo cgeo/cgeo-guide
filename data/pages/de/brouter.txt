@@ -1,0 +1,74 @@
+====== Nutzung von BRouter mit c:geo ======
+
+{{:helper_brouter.png?nolink&100 |}}
+
+Brouter ist eine kleine Android-App, die auf [[https://openstreetmap.org|OpenStreetMap]] basierende navigierte Routen, welche offline berechntet werden, zwischen zwei Koordinaten zur Verfügung stellt.
+
+Wenn BRouter auf deinem Gerät installiert und konfiguriert ist, kann c:geo es benutzen, um die normale gerade Linie, die auf der Karte zwischen deiner Position und dem Navigationsziel (Cache/Wegpunkt) angezeigt wird, durch eine geroutete Linie zu ersetzen, wie du im Beispielvergleich unten sehen kannst.
+
+^ Navigation ohne BRouter ^ Navigation mit BRouter ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+Das Routing kann je nach Bedarf für Gehen, Radfahren oder Autofahren gewählt werden und wird dir helfen, deinen Weg zum Ziel zu finden. Des weiteren kannst du dieses Routing auch zur Erstellung von individuellen Routen über mehrere Wegpunkte hintereinander nutzen, um z.B. deinen Caching-Trip zu planen.
+
+===== Installation und Konfiguration von BRouter =====
+
+Du kannst BRouter entweder von [[https://play.google.com/store/apps/details?id=btools.routingapp|Google Play]] oder direkt von der [[https://brouter.de/brouter/offline.html|Webseite]] herunterladen und installieren.
+
+Nachdem BRouter installiert ist, muss noch die Routing-Information für das gewünschte geographische Gebiet in BRouter heruntergeladen werden, damit Routen offline berechnet werden können. Ohne diese heruntergeladenen Routing-Informationen wird BRouter nicht funktionieren (es gibt keine Online-Routingfunktion).
+Um die notwendigen Routing-Information herunterzuladen, starte BRouter und wähle ''Download Manager'' wie unten dargestellt. Die Funktion ''BRouter App'' wird für c:geo nicht benötigt.
+
+{{ :en:brouter_configure1.png?direct&400 |}}
+
+BRouter informiert dich nun darüber, dass es eine größere Menge an Daten (abhängig von der Größe des Gebietes für das du Routing-Informationen herunterladen möchtest) übertragen muss. Stelle sicher kein getaktetes Netzwerk zu nutzen oder ein ausreichend großes Datenlimit zu haben, bevor du durch Auswahl von ''I know'' weitermachst.
+
+{{ :en:brouter_configure2.png?direct&400 |}}
+
+BRouter zeigt nun eine Weltkarte und du musst zum Reinzoomen auf das Gebiet klicken, für das du Routing-Informationen herunterladen möchtest. Dann siehst du die Kacheln mit den verfügbaren Routing-Informationen.
+
+{{ :en:brouter_configure3.png?direct&400 |}}
+
+Nachdem du hineingezoomt hast, kannst du die Kacheln der gewünschten geographischen Gebiete auswählen (werden dann in grün markiert) für die du Routing-Informationen herunterladen möchtest. Anschließend klickst du auf ''Start Download''.
+
+{{ :en:brouter_configure4.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Die Download-Geschwindigkeit von BRouter ist begrenzt auf 4 Mbit/s. Also dauert es je nach Anzahl der Routing-Kacheln, die du ausgewählt hast, evtl. etwas länger bis alle Informationen geladen wurden. Stelle sicher, dass du BRouter im Vordergrund geöffnet hältst, während der Download läuft.
+</WRAP>
+
+Nach dem erfolgreichen Herunterladen werden die heruntergeladenen Kacheln in blau angezeigt.
+
+{{ :en:brouter_configure6.png?direct&400 |}}
+
+Das war schon alles, aber denk daran, dass du neue Kacheln herunterladen musst wenn du die Navigationsfunktion in anderen als den gerade heruntergeladenen geographischen Gebieten nutzen möchtest. Außerdem kannst du von Zeit zu Zeit die existierenden Routing-Informationen aktualisieren, in dem du die Kacheln im Download-Manager erneut auswählst und herunterlädst.
+
+===== Nutzung in c:geo ====
+
+Nachdem du BRouter wie oben beschrieben installiert und konfiguriert hast, wird c:geo es automatisch nutzen. Es ist nicht notwendig in c:geo weitere Konfigurationen vorzunehmen, außer dass du evtl. den verwendeten Routing-Modus (Gehen, Radfahren, Auto) nach Bedarf ändern möchtest. Dies kannst du im [[en:mainmenu:livemap#routing|Routing Untermenü]] deines [[en:mainmenu:livemap#top_bar_menu|Kartenmenüs]] einstellen.
+
+BRouter wird hauptsächlich für zwei Funktionen genutzt, um Routen zu berechnen. Diese sind im Folgenden beschrieben.
+
+==== Richtungslinie ====
+
+Wenn du die Kartennavigation zu einem Cache/Wegpunkt aufrufst, wird die Richtungslinie zwischen deiner Position und dem Cache/Wegpunkt jetzt eine geroutete Linie statt einer geraden Verbindung sein.
+
+Die Entferungsangabe oben rechts wird dann eine geroutete Entfernung zusätzlich zur direkten Entfernung (Luftlinie) anzeigen.
+
+{{ :en:brouter_with.png?direct&400 |}}
+==== Individuelle Route ====
+
+Um die individuelle Routenfunktion nutzen zu können, musst du die Langklick-Funktion auf der Karte in deinen  [[.:mainmenu:settings#map_behavior|Einstellungen zum Kartenverhalten]] aktivieren.
+
+Dann kannst du ganz einfach durch langen Klick nacheinander auf verschiedene Caches/Wegpunkte auf der Karte diese mit einer gerouteten Linie verbinden. Diese Funktion ermöglicht z.B. die Planung eines Caching-Trip, wie im folgenden Beispiel gezeigt.
+
+{{ :en:brouter_individualroute.png?direct&400 |}}
+
+Um einen Cache/Wegpunkt von der Route zu entfernen, führe erneut einen langen Klick darauf aus. Desweiteren kannst du das Untermenü ''Individuelle Route'' im [[en:mainmenu:livemap#top_bar_menu|Kartenmenü]] verwenden, um deine individuelle Route zu sortieren, exportieren, importieren oder zu löschen.
+
+==== Anpassungen ====
+
+Um mögliche Verzögerungen zu minimieren berechnet BRouter standardmäßig nur Routen mit einer maximalen Länge von 10km. Du kannst diese Wert nach Bedarf zwischen 0 und 999km in den [[.:mainmenu:settings#map_content|Einstellungen des Karteninhalts]] anpassen.
+Des weiteren kannst du die die Parameter (Farbe, Dicke, Deckkraft) der auf der Karte genutzten Linien in den  [[.:mainmenu:settings#map_lines_customization|Anpassungen der Kartenlinien]] einstellen.
+
+
+

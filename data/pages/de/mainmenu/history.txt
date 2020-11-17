@@ -1,0 +1,15 @@
+====== Verlauf ======
+
+{{:ic_menu_recent_history.png?nolink&50 |}}
+
+Die Verlaufsliste sieht grundsätzlich genau wie eine normale [[lists|Cacheliste]] aus, aber sie ist auf Caches gefiltert, für die du kürzlich einen Online- oder Offline-Log geschrieben hast. Im Unterschied zu normalen Listen gespeicherter Caches kann sie auch Caches enthalten, die nicht mehr auf deinem Gerät gespeichert sind.
+
+{{:en:history.png?direct&400 |}}
+
+Der Verlauf ist ein guter Startpunkt, um auf deine ausstehenden Offline-Logs zuzugreifen und diese entweder Online oder als  [[..offline#field_note_export|FieldNote-Export]] zu senden.
+
+<WRAP center round info 50%>
+Beachte bitte, dass dies eine lokale Liste in c:geo ist, die nicht mit der Liste der kürzlich angesehenen Caches auf der Geocaching-Webseite synchronisiert wird.
+</WRAP>
+
+Wenn du in der Verlaufsliste bist, kannst du das ''Menü'' -> ''Cachs verwalten''  nutzen, und dort entweder''Offline Logs löschen'' oder ''Verlauf leeren''.

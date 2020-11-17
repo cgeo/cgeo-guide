@@ -1,0 +1,24 @@
+
+====== Geokätköjen kuvakkeet ======
+
+c:geo käyttää omia kuvakkeitaan erilaisten saatavilla olevien tyyppien näyttämiseksi. Tämä taulukko tarjoaa yleisnäkymän käytetyistä kuvakkeista, kätkötyypin sekä perusselitteen kätkötyypin perusominaisuuksista.
+
+^ Kuvake ^ Kätkötyyppi ^ Selite ^
+|{{ :type_traditional.png?nolink&40 |}}|Tradikätkö|Tämä on klassinen kätkötyyppi. Kätkö löytyy annetuista koodinaateista.|
+|{{ :type_multi.png?nolink&40 |}}|Multikätkö|Multikätkössä on vähintään kaksi sijaintia. Kätkö itse on viimeisessä sijainnissa, mutta sinun tulee vierailla useassa paikassa ja mahdollisesti ratkaista kysymyksiä/pulmia kussakin sijainnissa löytääksesi viimeisen sijainnin paikan.|
+|{{ :type_earth.png?nolink&40 |}}|Earth-kätkö|Earth-kätkö on sijoitettu paikkaan, joka on geologisesti kiinnostava kohde. Näiden kätköjen tarjoitus on opettaa kätköilijöille asioita maapallon geologiasta. Kätkön kirjaamiseksi tulee yleensä vastata kysymyksiin, joihin löytyy vastaukset vain paikan päältä. Paikan päällä ei ole fyysistä geokätköä. Lisätietoja sivustosta [[http://earthcache.org|earthcache.org]].|
+|{{ :type_mystery.png?nolink&40 |}}|Mysteerikätkö|Tämä kätkötyyppi kattaa monenlaisia kätköjä, joissa kätkö ei tyypillisesti ole ilmoitetuissa koordinaateissa, mutta on ratkaistavissa. Tyypillisesti kätköilijän tulee vastata kysymyksiin tai ratkaista kätkön kuvauksessa oleva pulma kätkön lopullisen sijainnin paljastamikseksi.|
+|{{ :type_wherigo.png?nolink&40 |}}|Wherigo-kätkö|Wherigo on tapa pelata sijaintiin riippuvia seikkailuja. Käyttäen erillistä Wherigo-sovellusta ja kätkön kasettitoedostoa, kätköilijän on pelattava sijaintiin liittyvää peliä tai vastattava sijaintiin liittyviin kysymyksiin. Lisää tietoa  [[http://wherigo.com|wherigo.com]] |
+|{{ :type_virtual.png?nolink&40 |}}|Virtuaalikätkö|Virtuaalikätkön sijainti ei sisällä fyysistä geokätköä. Sijainnissa tulee rarkaista tehtävä tai vastata kysymykseen. Jos tämä tehdään oikein ja sijainnissa on oikeasti vierailtu, tämä kätkötyyppi voidaan kirjata löydetyksi.|
+|{{ :type_letterbox.png?nolink&40 |}}|Letterbox hybridikätkö|Letterbox-kätkö käyttää vihjeitä koordinaattien sijaan. Viimeisessä sijainnissa on kätkön lisäksi myös leima, jolla voi merkata vierailunsa.|
+|{{ :type_webcam.png?nolink&40 |}}|Webkamerakätkö|Tässä kätkötyypissä sinun tulee seisoa julkisen webkameran edessä ja napata kuva tästä kamerasta. Jälkeenpäin kuva tulee lähettää lokikirjauksen kanssa löydön todentamiseksi.|
+|{{ :type_event.png?nolink&40 |}}|Tapahtumakätkö|Joskus geokätköilijät järjestävät tapahtumia tietyssä ajassa ja paikassa tavatakseen ja keskustellakseen geokätköilystä muiden geokätköilijöiden kanssa.|
+|{{ :type_mega.png?nolink&40 |}}|Mega-tapahtumakätkö|Mega-tapahtumakätkö on sama kuin tapahtuma-kätkö, mutta tapahtuma on isompi. Ainakin 500 geokätköilijän tulee ilmoittautua.|
+|{{ :type_giga.png?nolink&40 |}}|Giga-tapahtumakätkö|Giga-tapahtumakätkö on sama kuin Mega-tapahtumakätkö, mutta tapahtuma on vieläkin isompi. Ainakin 5000 geokätköilijän tulee ilmoittautua.|
+|{{ :type_cito.png?nolink&40 |}}|Siivoustapahtuma (CITO)|Siivoustapahtuma on tapahtuma, joka järjestetään ympäristön siivousta tai vastaavaa varten. Jälkeenpäin voidaan asettaa uusi geokätkö samaan paikkaan. CITO on lyhenne sanoista Cache-In-Trash-Out. |
+|{{ :type_ape.png?nolink&40 |}}|Project APE-kätkö|Vuonna 2001 asetettiin 14 geokätköä elokuvan "Apinoiden Planeetta" tukemiseksi. Vain muutama geokätkö on vielä jäljellä tänä päivänä, mikä tekee tämän tyypin harvinaisemmaksi tyypiksi.|
+|{{ :type_hq.png?nolink&40 |}}|Groundspeakin päämaja-kätkö|Vain yksi tätä tyyppiä oleva kätkö on olemassa, ja se sijaitsee Groundspeakin (yritys Geocaching.com:in takana) päämajassa, Seattlessa, Washingtonissa, USAssa.|
+|{{ :type_unknown.png?nolink&40 |}}|Tuntematon kätkötyyppi|Jos tämä kätkötyyppi näytetään, joko c:geo ei pystynyt (vielä) latamaan kätkön tyyppiä, tai se on kätkö, jota ei täysin tueta c:geossa (kuten Lab-kätköt geocaching.comissa) tai se on erillinen Tuntematon kätkötyyppi (opencachingin tukema kätkötyyppi)|
+
+
+

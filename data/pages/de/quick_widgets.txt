@@ -1,0 +1,46 @@
+====== Schnellzugriff und Widget-Funktionen ======
+
+Du kannst einige Schnellzugriffe und Widgets nutzen, um schnelleren Zugriff auf einige Funktionen von c:geo zu erhalten.
+
+<WRAP center round important 100%>
+Die Verfügbarkeit und Visualisierung dieser Funktionen hängen von der Android-Version und den Launcher-Funktionen auf deinem Gerät ab.
+</WRAP>
+
+===== Schnellzugriff =====
+
+Mit dem Schnellzugriff kannst du das normale c:geo Startsymbol nutzen, um direkt zu bestimmten Funktionen von c:geo zu springen.
+Um diesen Schnellzugriff zu nutzen, klicke lange auf das c:geo Symbol.
+
+Daraufhin wird eine Auswahl von Hauptfunktionen, wie im folgenden Bild dargestellt, angezeigt:
+
+{{ :en:quickaccess_creation.png?direct&300 |}}
+
+Du kannst direkt auf die gezeigte Funktion zugreifen, indem du diese auswählst.
+Weiterhin kannst du diese Funktionen ziehen und auf deinem Desktop ablegen (Drag & Drop) um einen dauerhaften Link zu diesen Funktionen durch Klick auf das angelegte Schnellzugriff-Symbol zu erhalten.
+
+Dies ist ein Beispiel, wie alle Schnellzugriffe auf deinem Desktop aussehen könnten:
+
+{{ :en:quickaccess_all.png?direct&400 |}}
+
+
+===== Widgets =====
+
+Die Widget-Funktion ermöglicht ähnliche Möglichkeiten wie der Schnellzugriff, hat aber einige weitere Optionen und ist auch für ältere Android-Versionen als der Schnellzugriff verfügbar.
+Um diese Funktion aufzurufen, musst du die Widget-Auswahl auf deinem Gerät öffnen. Die Methode auf die Widget-Erstellung zuzugreifen hängt von deinem Gerät ab; üblicherweise kannst du einen langen Klick auf deinen Desktop ausführen und dann auswählen ein Widget hinzuzufügen.
+
+c:geo sollte hier als verfügbares Widget angezeigt werden:
+
+{{ :en:widget_creation1.png?direct&400 |}}
+
+Du musst nun das Symbol ziehen und an einer freien Stelle auf dem Desktop ablegen (Drag & Drop). Nachdem du dies gemacht hast, wird dir die folgende Auswahl angeboten:
+
+{{ :en:widget_creation2.png?direct&400 |}}
+
+Wähle einfach die gewünschte Funktion und es wird eine entsprechende Abkürzung zu dieser Funktion zu deinem Desktop hinzugefügt.
+
+Dies ist ein Beispiel, wie alle verfügbaren Widgets auf deinem Desktop aussehen könnten:
+
+{{ :en:widget_all.png?direct&400 |}}
+
+
+

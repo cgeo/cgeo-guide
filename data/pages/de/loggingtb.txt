@@ -1,0 +1,111 @@
+====== Handhabung von Trackables ======
+
+
+===== Unterstütze Trackables =====
+{{anchor:supported_trackables:}}
+
+c:geo unterstützt verschiedenste Typen von trackbaren Gegenständen von verschiedenen Plattformen:
+
+^ Symbol ^ Typ ^ Beschreibung ^ Funktionen ^
+|{{ :trackable_travelbug.png?nolink&40 |}}|Travel Bug|Trackbare Gegenstände von [[https://www.geocaching.com/track/|geocaching.com]]|Vollständige Unterstützung alles Trackable-Funktionen.|
+|{{ :trackable_geokrety.png?nolink&40 |}}|GeoKrety|Trackbare Gegenstände von [[https://www.geokrety.org|geokrety.org]]|Vollständige Unterstützung aller Trackable-Funktionen|
+|{{ :trackable_geolutins.png?nolink&30 |}}|GeoLutin|Trackbare Gegenstände von [[http://www.geolutins.com|geolutins.com]]|Nur Suche nach Trackables und Anzeige der Trackable-Informationen.|
+
+===== Suche nach einem Trackable =====
+{{anchor:searching_for_a_trackable:}}
+
+Die meisten trackbaren Gegenstände haben zwei verschiedene Codes, die zur Identifizierung und Suche nach dem Trackable genutzt werden können:
+
+  * **Öffentlicher Tracking-Code:**\\ Der nicht geheime Trackable-Code (z.B. TBxxxx, GKxxxx, GLxxxx). Dieser Code kann dazu genutzt werden nach dem Trackable zu suchen und seine Details anzuzeigen, aber kann nicht genutzt werden um den Trackable zu loggen.\\ \\ Du kannst den öffentlichen Code zur Suche nach einem Trackable entweder im [[.mainmenu:search|Suchmenü]] oder der [[.mainmenu:quicksearch|Schnellsuche]] verwenden.\\ \\ Die Suche zeigt dir die [[[[trackabledetails|Trackable-Details]] des Trackables, von wo du den Trackable auch loggen kannst (wenn du auch dessen geheimen Code kennst).
+
+  * **Geheimer Tracking-Code:**\\ Ein nicht öffentlicher Code, der typischerweise nur auf dem trackbaren Gegenstand notiert ist. Um sicherzustellen, dass du den Trackables wirklich gesehen/bewegt hast, wird dieser Code benötigt um einen Log für den Trackable zu schreiben.\\ \\ Der geheime Code wird benötigt, wenn während du ein Log für den Trackable schreibst. Für Trackables von geocaching.com kannst du den geheimein Code auch zur Suche im [[.mainmenu:search|Suchmenü]] verwenden. Dies funktioniert leider nicht für andere Trackble-Marken, da c:geo die Marke des Trackable anhand des geheimen Codes nicht unterscheiden kann und daher geocaching.com als Standardwert annimmt.\\ \\ Die[[.mainmenu:quicksearch|Schnellsuche]] kann auch genutzt werden um einen Trackable mit seinem geheimen Code zu suchen, außer wenn der geheime Code zufällig mit einem für Geocaches reservierten Prefix (z.B. GCxxxx, OCxxxx, OUxxxx) anfängt; in dieser Fall kann c:geo nicht unterscheiden, ob du nach einem Trackable oder einem Geocache suchst. In solchen Fällen musst du stattdessen die [[.mainmenu:search|Suchfunktion]] benutzen.\\ \\ Die Suche zeigt dir die [[[[trackabledetails|Trackable-Details]] des Trackables, von wo du den Trackable auch loggen kannst.
+
+
+===== Loggen eines Trackable =====
+{{anchor:logging_a_trackable:}}
+
+Aus der Ansicht der Trackable-Details kannst du das Menü nutzen um den Trackable zu loggen. Dies öffnet die folgende Ansicht:
+
+{{:en:loggingtb.png?direct&400 |}}
+
+==== Titelzeilen-Menü ====
+{{anchor:top_bar_menu:}}
+
+
+<WRAP center round info 100%>
+Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen. 
+</WRAP>
+
+^ Icon ^ Function ^ Description ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Senden|Benutze diese Schaltfläche um deinen Log abzusenden, wenn du ihn fertig geschrieben hast.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Hinzufügen|Dies ermöglichst es dir entweder eine [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Log hinzuzufügen.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+| |Smileys|Öffnet eine Liste von Smiley-Markierungen, die du in deinen Logtext einfügen kannst.|
+| |Verwende das letzte Log erneut|Diese Funktion fügt den Logtext deines zuletzt geloggten Trackables in das Textfeld ein.|
+
+
+==== Logtyp ====
+{{anchor:log_type:}}
+
+{{ :en:loggingtb_logtype.png?nolink&400 |}}
+
+Abhängig von der Marke des Trackables, seinem aktuellen Status und ob du Besitzer des Trackables bist, stehen unterschiedliche Logtypen durch Klick auf das Feld zur Verfügung:
+
+^Logtyp ^ Beschreibung ^
+|Mitgenommen|Du hast den Trackable aus dem Geocache entnommen, in dem er momentan gelistet ist.|
+|Gesehen|Du willst nur mitteilen, dass du diesen Trackable gesehen hast aber keine weitere Aktion mit ihm durchführen.|
+|Abgelegt|Du hast diesen Trackable in einem Geocache abgelegt.\\ \\ :!: Dieser Logtyp ist nur für GeoKrety verfügbar, da "Abgelegt"-Logs für geocaching.com Trackables immer mit dem Cache-Log verbunden sind, und daher auf der [[logging#inventory|Geocache-Logseite]] eingegeben werden.|
+|Besucht|Du lässt diesen Trackable einen Geocache besuchen.\\ \\ :!: Dieser Logtyp ist nur für GeoKrety verfügbar, da "Besucht"-Logs für geocaching.com Trackables immer mit dem Cache-Log verbunden sind, und daher auf der [[logging#inventory|Geocache-Logseite]] eingegeben werden.|
+|Woanders mitgenommen|Du möchteste diesen Trackable in den Inventar übernommen, hast ihn aber nicht in einem Cache gefunden, sondern von einem anderen Nutzer oder einem unbekannten Standort übernommen.|
+|Bemerkung|Du möchtest eine Bemerkung/Notiz zu diesem Trackable schreiben.|
+|Zur Sammlung hinzufügen|Wenn ein geocaching.com Trackable als sammelbar markiert ist, kannst du diesen Logtyp nutzen um den Trackable aus deinem Inventar in deine persönliche Sammlung zu übernehmen.|
+|Zum Inventar hinzufügen|Wenn ein geocaching.com Trackable aktuell in deiner Sammlung ist, kannst du diesen Logtyp nutzen um den Trackable aus deiner Sammlung in dein Inventar zu übernehmen.|
+
+
+==== Logdatum / Uhrzeit ====
+{{anchor:log_date_time:}}
+
+{{:en:loggingtb_datetime.png?nolink&400 |}}
+Wähle das Datum (und die Uhrzeit - nur für GeoKrety unterstützt) zu deinem Log.
+
+==== Tracking code ====
+{{anchor:tracking_code:}}
+
+{{:en:loggingtb_trackingcode.png?nolink&400 |}}
+
+Gib den geheimen Tracking-Code in dieses Feld ein, bevor du das Log absendest. Du benötigst den geheimen Code für alle Logtypen außer ''Bemerkung''. GeoKrety benötigt auch für die ''Bemerkung'' den geheimen Code.
+
+Der geheime Code wird in diesem Feld bereits angezeigt, wenn du ihn genutzt hast um nach diesem Trackable zu suchen oder der Trackable derzeit in deinem Inventar ist.
+
+
+==== Logtext ====
+{{anchor:log_text:}}
+
+{{:en:loggingtb_logtext.png?nolink&400 |}}
+
+Gib hier deinen individuellen Logtext ein.
+
+==== Soziale Medien ====
+{{anchor:social_media:}}
+
+{{:en:loggingtb_socialmedia.png?nolink&400 |}}
+
+Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]] mit [[https://twitter.com|Twitter]] verbunden hast, wird dieses Feld angezeigt. Wenn du die Schaltfläche aktivierst, postet c:geo einen Tweet gemeinsam mit dem Absenden des Logs.
+
+==== Spezielle Felder ====
+{{anchor:special_fields:}}
+
+{{:en:loggingtb_dropoff_gk.png?nolink&300 |}}
+
+Wenn du ein ''Abgelegt''-Log für einen GeoKrety Trackable schreibst, musst du den Geocode und/oder die Koordinaten des Caches angeben, wo du ihn abgelegt hast.
+
+Benutze das Feld ''Geocode'' um den Geocode des Caches anzugeben, wo du ihn abgelegt hast oder klicke auf ''Koordinaten'' um den [[coordinatedialog|Koordinaten-Eingabedialog]] zu öffnen und die Koordination einzugeben, an denen du den Trackable abgelegt hast.
+
+===== Trackable-Inventar =====
+{{anchor:trackable_inventory:}}
+
+Das Trackable-Inventar ist die Liste der Trackables, die du derzeit in Besitz hast (d.h. du hast sie aus einem Cache entnommen oder von einem anderen User übernommen).
+
+Momentan unterstützt c:geo keine dedizierte Ansicht deines Trackable-Inventars. Du kannst allerdings kein komplettes Inventar im 
+[[logging#inventory|iInventar-Bereich]] der [[logging|Geocache-Logseite]] sehen, während du ein Log für einen Geocache schreibst.

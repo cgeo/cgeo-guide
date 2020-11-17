@@ -1,0 +1,89 @@
+FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
+
+FIXME **Diese Seite wurde noch nicht vollständig übersetzt. Bitte helfen Sie bei der Übersetzung.**\\ //(diesen Absatz entfernen, wenn die Übersetzung abgeschlossen wurde)//
+
+====== Traduction de ce Guide d'Utilisation ======
+
+===== Avertissement =====
+
+Si vous voulez contribuer à traduire ce guide d'utilisation dans une autre langue, merci de nous contacter [[support@cgeo.org?subject=User guide translation|contact us]]. Nous vous ouvrons alors un compte et vous pouvez démarrer en suivant.
+Afin de contribuer à traduire ce guide d'utilisation, vous devez avoir un minimum de connaissances sur le système Wiki, tout simplement !
+
+===== Premiers pas =====
+
+Une fois votre compte enregistré pour ce Wiki, vous pouvez commencer votre traduction en ouvrant une page existant en Anglais, puis en choisissant votre langue de traduction (en utilisant le sélecteur de langue en haut à gauche) et en créant cette page dans votre propre langue. Si la langue que vous choisissez n'est pas listée, informez-nous pour l'ajouter.
+
+Dès la création de la page de traduction, le système Wiki insère automatiquement un logo FIXME pour informer que la traduction de cette page est en cours et insère la page en Anglais au-dessous. C'est votre point de départ pour la traduction pas à pas.
+
+Une fois la traduction terminée, supprimez le logo FIXME en haut de la page.
+
+===== Guide de Formatage =====
+
+Ce Wiki utilise majoritairement les règles normales de syntaxe Dokuwiki mais en raison de l'utilisation de l'extension de traduction multilingue, certaines spécificités sont à considérer :
+
+  * À certains endroits du guide, des liens hypertextes (introduits par #) sont utilisés pour référencer un paragraphe en particulier, sur une page à l'intérieur de la page elle-même mais aussi depuis d'autres pages (par ex. ''cachedetails#top_bar_menu''). Le système Dokuwiki active automatiquement les hyperliens de tous les titres (par ex. ''==== Top Bar Menu ====''), ce qui est un bon point en général mais qui peut aussi surcharger la traduction, ces hyperliens changeant une fois ces titres traduits.\\ Par conséquent, une extension supplémentaire est utilisée (pour définir un hyperlien à ne pas traduire) sous chaque titre (par ex. ''%%{{%%anchor:top_bar_menu%%}}%%''). Cela signifie que vous pouvez ou non traduire les titres en Français mais qu'il n'est pas nécessaire de tenir compte des hyperliens utilisés dans chacun des liens de la page. Laissez simplement en place l'étiquette du lien hypertexte sur votre traduction.
+
+  * Pour pouvoir être utilisé dans de nombreuses langues, le logiciel Dokuwiki utilise des mots réservés propres à chacune d'entre elles (par ex. ''en:cachedetails'' pour l'Anglais, ''fr:cachedetails'' pour le Français).
+
+
+
+
+
+
+
+
+
+
+
+====== Translation of this User Guide ======
+
+===== Requirements =====
+
+If you would like to help translating this user guide into another language, please [[support@cgeo.org?subject=User guide translation|contact us]]. We will then register an account for you and you can start right away.
+
+In order to help translating this user guide, you should have a basic knowledge about Wiki systems, that's all.
+
+===== Getting started =====
+
+After you received an account for this Wiki, you can start your translation by simply opening an existing English page, changing the language to your translation language (using the language selector at top left) and creating this page in your language. If your target language is not listed there, please inform our team to get it enabled.
+
+When you start creating the page, the Wiki system will automatically insert a FIXME placeholder to remind, that the translation of the page is ongoing and will paste the English page underneath. You should use this as a starting point and one-by-one translate the page.
+
+Once you are done with translation you can remove the FIXME placeholder on top of the page.
+
+===== Formatting Guideline =====
+
+Wherever possible, this Wiki uses the normal syntax rules of DokuWiki, but due to the usage of the multilingual translation plugin, some specialties need to be considered:
+
+  * At some places in the user guide anchors (initiated with #) are used to reference a certain paragraph on a page from within the page itself but also from other pages (e.g. ''cachedetails#top_bar_menu''). The DokuWiki system automatically enables anchors for all headlines (e.g. ''==== Top Bar Menu ===='') , which is a nice feature in general but can make translation cumbersome, as those anchors will change once you translate these headlines.\\ Therefore we are using just another anchor plugin additionally and used it to define a not-to-be-translated anchor below each headline (e.g. ''%%{{%%anchor:top_bar_menu%%}}%%''). This means that you can freely translate the headlines to your language but do not need to care about anchors used in any links on the page. Just leave the anchor tag unchanged on your translated page.
+
+  * In order to serve different languages the DokuWiki translation plugin uses dedicated namespaces for each language (e.g. ''en:cachedetails'' for English, ''de:cachedetails'' for German). So all your translation pages need to be in or below the namespace representing the ISO-code of your language. This will happen automatically if you start creating the pages as described above. Normally it would also be necessary to change the namespace of every link used within the pages, to target the correct language.\\ We tried to make this obsolete by only using relative links (e.g. ''.:cachedetails'' instead of ''en:cachedetails''). This means all the links you initially have on a new page when starting your translation should already target the namespace of your language, **you don't need to change any of them**.
+
+  * Please be aware, that most of the screenshots used throughout this guide are in English only. It might be wise to keep it like this, as when changes in the app occur, updating this picture will update it on all localized pages as well. \\ If you still want to localize them: All images which are localized shall be stored below the namespace of that language to allow easy distinction. Additionally all images which need no localization (e.g. icon images) are already stored in the [root] namespace and can be used in all languages.
+
+  * Besides the different content pages, there is also a page called ''sidebar'' which contains the quick navigation links you can see left of the content. To translate this page, simply open the [[en:sidebar|english sidebar]] and start translating this page as initially described.
+
+  * When translating the user guide please kindly keep your formatting as close as possible to the original, only translating the word but not changing the layouts, boxes, etc. This will allow an easier tracking of outdated translations, once the original page was changed.
+
+  * For some languages (e.g. German, Spanish) there is a distinction between formal and informal adressing of the user/reader. We decided to use the informal adressing (e.g. german "du") for this user guide. However you can also translate the pages in a way that no direct adressing of the user/reader is required (e.g. using passive form), while this might not always work.
+
+  * The user guide at many places (e.g. in tables explaining the different menu items) uses the same wording/strings as they are used within the app. When translating the user guide, you should take care to also use the strings/words which are used in your language in c:geo menus. When a certain menu entry is referenced elsewhere in the guide (within the text) it is usually set in ''quotation marks'' to make the reader aware, that this is a menu wording/string. Also here you should use the wording/string which c:geo uses in your language.
+
+  * If you modify your translated page and even more important if you modify, please kindly do fill in a short description of the change into the "Edit summary" below the edit window. It will help others a lot, e.g. when keeping track of changes later on which need to be adapted onto the translated pages. We meanwhile activated the enforcement of summary, so you either have to tick "Minor change" or fill in the "Edit summary" before saving. We encourage you to also fill in a summary for minor changes to enhance transparency.
+
+  * Last but not least: If you become aware of mistakes in the translation of c:geo itself (or are simply willing to also help translating the app itself) you can contribute on https://crowdin.com/project/cgeo
+
+===== Don't be afraid =====
+
+Just start editing...don't be afraid to break something. Due to the Wiki typical revision system you will always be able to restore unwanted changes by reverting to an older revision of the page.
+
+===== Useful tools =====
+
+  * [[internal:playground:playground|A playground, which you can use freely to test formatting or syntax]]
+  * [[internal:wiki:syntax|DokuWiki Syntax]]
+  * [[internal:orphans|A summary of the status of each page. You can find wanted/orphaned pages here.]]
+  * [[internal:changes|List of recent changes]]
+
+
+
+

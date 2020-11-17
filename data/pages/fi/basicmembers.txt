@@ -1,0 +1,19 @@
+
+====== Rajoitukset peruskäyttäjille ======
+
+[[https://www.geocaching.com|geocaching.com]] tarjoaa ilmaisen perusjäsenyyden sekä premiumjäsenyyden, joka vaatii vuosimaksun. Premiumjäsenyys tuo mukanaan lisätoimintoja, jotka eivät ole saatavilla perusjäsenille.
+
+Kun c:geo itse on avoimeen lähdekoodiin perustuva ohjelma ja täysin ilmainen käyttää, jotkin c:geon toiminnot ovat kuitenkin saatavilla vain geocaching.comin premiumjäsenille, koska ne hyödyntävät näytä premium-toimintoja. Lisäksi jotkut c:geon toiminnot toimivat eri tavalla tai rajoitetusti peruskäyttäjille.
+
+c:geo ei ole millään tavalla liitoksissa tai yhteistyössä geocaching.comin kanssa. Premiumjäsenyys on [[https://www.geocaching.com|geocaching.comin]] tuote ja tulee hankkia heidän verkkosivulta. Sinun tulee itse päättää, haluatko käyttää premiumjäsenyyden tuomia etuja ja onko siitä tarpeisiisi hyötyä.
+
+Seuraava taulukko tarjoaa yleisnäkymän perusjäsenyyden rajoituksista ja erilaisuuksista c:geossa:
+ 
+^ Toiminto ^ Rajoitus/Ero peruskäyttäjille ^
+|Vain Premium-jäsenille tarkoitetut kätköt|Kätkön omistaja voi rajoittaa heidän kätköjen näkyvyyttä vain premiumjäsenille. Peruskäyttäjänä et pääse avaamaan näiden kätköjen [[cachedetails|tietosivua]] tai nähdä niiden sijaintia.|
+|[[.mainmenu:lists|Hakutulosten listat]]|Perusjäsenille hakutulikset eivät sisällä koordinaatteja tai muita yksityiskohtaisia tietoja, joten hakutulosten kartoitus ei ole mahdollista, vaan sinun tulee avata tai tallentaa kätköt ensin jotta voit käyttää niitä kartalla.\\ Lisäksi hakutuliksissa näytettävä etäisyys ja suunta ovat vain arvioita.|
+|[[.mainmenu:pocketquery|Pocket Query]]|Pocket Query on premiumjäsenyyden ominaisuus, joten tämä valinta näytetään c:geossa vain jos olet premiumjäsen.|
+|[[cachedetails#favorite|Suosikkipisteet]]|Suosikkipisteiden asettaminen löydetyille kätköille on premiumjäsenyyden ominaisuus. Kaikki suosikkipisteisiin liittyvät toiminnot ovat piilotettu perusjäseniltä.|
+|[[cachedetails#personal_note|Oman muistiinpanon lataus]]|Kaikki käyttäjät voivat luoda omia muistiinpanoja, mutta vain premiumjäsenet voivat ladata nämä muistiinpanot kätkön sivulle palvelimelle.|
+
+

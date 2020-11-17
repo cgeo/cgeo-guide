@@ -1,0 +1,29 @@
+====== Ir Para ======
+
+{{:main_any_default.png?nolink&100 |}}
+
+O menu "Ir Para..." pode ser usado para navegar para qualquer coordenada, mesmo não existindo nenhuma geocache ou ponto de interesse no local. Pode ainda ser utilizado para planear pontos de interesse.\\ \\ \\ \\
+
+{{ :pt:goto.png?direct&400 |}}
+
+Para inserir as coordenadas, pressione na secção de coordenadas para abrir a [[..coordinatedialog|caixa de diálogo]]. Se pretender planear um ponto de interesse a partir desta posição poderá opcionalmente inserir o azimute e a distância em baixo.
+
+A última secção desta página apresenta o histórico de coordenadas pesquisadas anteriormente com a data/hora correspondente.
+
+O menu do topo tem várias opções disponíveis:
+
+<WRAP center round info 100%>
+Os ícones apresentados na barra superior e os conteúdos escondidos no menu são distribuídos de forma dinâmica com base na resolução e orientação do seu dispositivo. Devido a este facto, poderá ser possível visualizar, mais ou menos itens no menu ou como ícones na barra superior.\\
+No caso de uma função no menu ser apresentada como ícone, poderá premir durante uns segundos o mesmo para ver a sua função.
+</WRAP>
+
+
+^ Ícone ^ Descrição ^
+|{{:ic_menu_compass.png?nolink&40 |}}| Pressionando este ícone vai iniciar a sua [[.settings#navigation|ferramenta de navegação preferida]] para navegar até à coordenada selecionada.\\ Pressionando durante uns segundos vai iniciar a sua [[.settings#navigation|ferramenta de navegação secundária]].|
+|{{:ic_menu_goto.png?nolink&40 |}}|Abre a lista das [[..navigation|ferramentas de navegação]] disponíveis.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}| Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|Caches próximas| Vai pesquisar as [[.lists#cache_list|caches próximas]] às coordenadas selecionandas.| 
+|Limpar histórico| Limpa o histórico apresentado na parte inferior do ecrã.|
+
+
+

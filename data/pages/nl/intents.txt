@@ -1,0 +1,11 @@
+====== Geocaching gerelateerde links ======
+
+C:geo registreert zichzelf voor geocaching-specifieke hyperlinks, zodat c:geo wordt weergegeven als mogelijke doel-app, wanneer je op één van die links in een andere app klikt.
+
+Bijvoorbeeld: c:geo registreert zich voor links beginnend met '' http://coord.info/GC '' die worden gebruikt in e-mails die door geocaching.com aan hun gebruikers wordt verzonden en die een bepaalde cachelijst als doel hebben. 
+Door in elke app op deze link te klikken en c:geo als doelapp te selecteren, worden de cachegegevens van de gekoppelde cache direct geopend in c:geo. 
+Hetzelfde geldt voor geocaching-gerelateerde links van andere geocaching-platforms.
+Wanneer wordt gevraagd welke app moet worden gebruikt om deze koppelingen te openen, kunt je ook c:geo als standaard-app voor dit koppelingstype selecteren. Daarnazal je apparaat direct c:geo openen wanneer op een dergelijke link wordt geklikt.
+
+<WRAP center round tip 100%>
+Het nadeel van het toewijzen van c:geo op alle geocache-gerelateerde links als standaard is, dat (afhankelijk van je apparaat en Android-versie) de functie '' Openen in browser '' van c:geo nu alleen c:geo zelf kan openen. \ \ Onze [[http://faq.cgeo.org#open-in-browser | FAQ]] beschrijft hoe dit probleem op te lossen.</WRAP>

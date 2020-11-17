@@ -1,0 +1,23 @@
+====== Icônes des géocaches ======
+
+c:geo utilise des icônes spécifiques pour les différents types de géocaches disponibles. Le tableau suivant vous montre une vue d'ensemble des icônes utilisées, du type de cache correspondant et une description de base des caractéristiques de ce type de cache.
+
+^ Icône ^ Type de cache ^ Description de base ^
+|{{ :type_traditional.png?nolink&40 |}}|Traditionnelle|C'est le type classique des géocaches. La cache se trouve aux coordonnées indiquées.|
+|{{ :type_multi.png?nolink&40 |}}|Multiple|Une cache multiple utilise au moins 2 positions. La cache en elle-même se trouve à la position finale mais vous devez vous rendre à plusieurs endroits et possiblement répondre à des questions ou résoudre des énigmes à chaque étape pour découvrir la position finale.|
+|{{ :type_earth.png?nolink&40 |}}|Earthcache|Une cache de ce type se trouve à un endroit d'intérêt géologique. Le but de ces géocaches est d'initier les géocacheurs à la géologie. À cet endroit il faudra répondre à des questions pour valider la cache car il n'y a pas de cache physique à trouver. Plus d'informations sont disponible sur [[https://www.geosociety.org/GSA/Education_Careers/Field_Experiences/EarthCache/GSA/fieldexp/EarthCache/home.aspx|geosociety.org]](en).|
+|{{ :type_mystery.png?nolink&40 |}}|Mystère|Ce type de géocaches couvre plusieurs possibilités où la cache n'est habituellement pas située aux coordonnées indiquées mais ont besoin d'être devinées. Typiquement il faut répondre à des question et résoudre l'énigme en description pour trouver la vrai position de la cache.|
+|{{ :type_wherigo.png?nolink&40 |}}|Wherigo|Wherigo est un moyen de participer à des aventures géolocalisées. Utilisant une application dédiée et la fiche de la cache, le géocacheur doit jouer à un jeu ou répondre à des questions, le tout basé sur sa position. Plus d'informations sur [[https://www.wherigo.com|wherigo.com]](en).|
+|{{ :type_virtual.png?nolink&40 |}}|Virtuelle|Une cache virtuelle, comme son nom l'indique, ne contient pas de cache physique. À la position indiquée le géocacheur doit remplir une mission ou répondre à une question. Si cela est fait correctement et l'endroit véritablement visité, la cache peut être marquée comme trouvée.|
+|{{ :type_letterbox.png?nolink&40 |}}| Boîte aux lettres hybride|Une géocache de type boîte aux lettres utilise des indices au lieu de coordonnées. Un tampon encreur se trouve à la destination finale pour vous permettre d'enregistrer votre découverte.|
+|{{ :type_webcam.png?nolink&40 |}}|Webcam|Pour ce type de géocaches vous devez vous placer devant une caméra publique et prendre une image de vous via cette caméra. Vous devez poster cette image dans le carnet de visites pour prétendre à votre découverte.|
+|{{ :type_event.png?nolink&40 |}}|Événement|Parfois les géocacheurs organisent des événements à certains moments et à certains endroits pour se retrouver et discuter autour du géocaching.|
+|{{ :type_mega.png?nolink&40 |}}|Méga-événement|Une cache méga-événement est identique à une cache événement mais l'événement est plus important. Un minimum de 500 géocacheurs ont besoin d'être inscrits.|
+|{{ :type_giga.png?nolink&40 |}}|Giga-événement|Une cache giga-événement est identique à une cache méga-événement mais l'événement est encore plus important. Un minimum de 5000 géocacheurs ont besoin d'être inscrits.|
+|{{ :type_cito.png?nolink&40 |}}|Événement Cache In Trash Out|Un événement Cache In Trash Out (CITO) est un événement organisé pour nettoyer l’environnement (ou faire une tâche similaire) et optionnellement placer après coup une nouvelle géocache sur le lieu du nettoyage.|
+|{{ :type_ape.png?nolink&40 |}}|Project APE Cache|À l'origine 14 géocaches de ce type ont été placées en 2001 pour promouvoir le film [[https://fr.wikipedia.org/wiki/La_Plan%C3%A8te_des_singes_(film,_2001)|La Planète des singes]]. Seulement quelques caches existent encore aujourd'hui ce qui en fait un des types de caches les plus rares.|
+|{{ :type_hq.png?nolink&40 |}}|Quartier Général (Geocaching HQ)|Il existe une unique cache de ce type située au quartier général de Groundspeak, l'entreprise derrière geocaching.com, à Seattle aux États Unis.|
+|{{ :type_unknown.png?nolink&40 |}}|Type inconnu|Si une cache de ce type apparait alors soit c:geo n'a pas (encore) chargé le type de cette géocache, soit il n'est pas supporté explicitement par c:geo, soit il s'agit du type inconnu comme définit sur les plateformes d'Opencaching.|
+
+
+

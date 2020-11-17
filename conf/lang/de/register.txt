@@ -1,0 +1,17 @@
+====== Als Nutzer registrieren ======
+
+===== Danke, dass du mitwirken möchtest dieses Benutzerhandbuch zu verbessern! =====
+
+Nach der Registrierung erhältst du eine automatische Mail mit deinem Password. Wir empfehlen dies nach dem ersten Einloggen zu ändern.
+
+**Bitte beachten**:
+Neue Nutzer sind im "Nur lesen"-Modus, bis wir die Registrierung manuell bestätigt haben. Dies benötigt normalerweise nur ein paar Tage und wir informieren dich über die Bestätigung per Mail.
+
+Wenn du keine Bestätigung erhältst oder irgendetwas schief läuft [[support@cgeo.org?subject=User guide translation|kontaktiere uns]] bitte.
+
+**Bitte schaue dir die [[en:translation|Übersetzungs-Seite]]. Diese enthält eine kleine Anleitung zur Übersetzung des c:geo Benutzerhandbuchs mit dem DokuWiki system.**
+
+Trage unten alle Informationen ein um einen neuen Zugang zu erstellen. Stelle sicher, dass du eine **gültige Mail-Adresse** angibst.
+Der Login-Name sollte ein gültiger[[doku>pagename|Seitenname]] sein.
+
+===== Erstelle bitte nur ein Konto, wenn du planst an diesem Benutzerhandbuh mitzuwirken! Alle anderen Funktionen sind ohne jede Registrierung nutzbar. =====

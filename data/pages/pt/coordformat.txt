@@ -1,0 +1,13 @@
+====== Formatos de coordenadas ======
+
+O c:geo suporta vários formatos de coordenadas, como:
+
+^ Formato ^ Notação ^ Exemplo ^ Descrição ^
+|MinDec|DDD° MM.MMM'|N 51° 20.382 E 007° 01.820|Graus e Minutos|
+|DMS|DDD° MM' SS.SSS"|N 51° 20' 22.920" E 007° 01' 49.200"|Graus, Minutos e Segundos|
+|DegDec|DDD.DDDDD°|51.339700° 7.030333°|Graus decimais|
+|UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universal Transverse Mercator|
+
+O formato MinDec é o mais utilizado no Geocaching. Para coordenadas existentes na cache ou nos pontos de referência (Waypoints) o formato apresentado pode ser alterado carregando nas coordenadas.
+
+Quando utilizar a [[coordinatedialog|caixa de introdução de coordenadas]] conseguirá alterar o formato desejado de acordo com as notações apresentadas, except o UTM que ainda não é suportado como formato.

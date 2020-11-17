@@ -1,0 +1,7 @@
+====== Configuration Hints ======
+
+Just some small notes of things I found out, while creating this DokuWiki.
+
+  * The main logo and favorite icon for the brower top bar can be changed by just placing logo.png and favicon.ico into the root media directory
+
+  * The headers shown in the template above the edit window can be edited in /inc/lang/<language>/edit.txt. Also other template strings can be found here. (I needed to change them, because I moved the wiki and playground namespace in this wiki, thus the links were broken)

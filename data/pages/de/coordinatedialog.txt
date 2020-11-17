@@ -1,0 +1,208 @@
+====== Koordinateneingabe ======
+
+{{:en:coordinput.png?direct&300 |}}
+
+Der Koordinaten-Eingabedialog wird geöffnet, wenn du auf die Koordinaten klickt während du einen [[cachedetails#waypoint_tab|Wegpunkt]] editierst, eine [[.mainmenu:search|Suche]] ausführen möchtest oder das [[.mainmenu:goto|Gehe zu]]-Menü benutzt.
+
+Die Schaltfläsche {{:abc_ic_clear_normal.png?nolink&40|}} schließt den Dialog, ohne die Änderungen zu übernehmen; die Schaltfläche {{:abc_ic_cab_done_holo_light.png?nolink&40|}} schließt den Dialog und speichert die Änderungen.
+
+<WRAP center round tip 60%>
+Stell sicher, dass du bei der Nutzung des Wegpunkt-Rechners die Änderung hier speicherst, auch wenn noch keine gültigen Koordinaten angezeigt werden, aber du Änderungen in der Berechnung gemacht hast.
+</WRAP>
+
+===== Koordinatenformat =====
+{{anchor:coordinate_format}}
+
+{{:en:coordinput_format.png?nolink&300 |}}
+
+Durch Klick auf dieses Feld kannst du zwischen den verschiedenen [[coordformat|unterstützten Koordinatenformaten]]  wählen oder ''Schlicht'' auswählen, um das gewünschte Format manuell einzugeben. Die Eingabefelder für die Koordinaten verändern sich in Abhängigkeit vom hier gewählten Koordinatenformat.
+
+Wenn du bereits vorher Koordinaten eingegeben hattest, werden sie in das ausgewählte Format konvertiert.
+
+===== Koordinateneingabe =====
+{{anchor:coordinate_input}}
+
+{{:en:coordinput_coords.png?nolink&300 |}}
+
+Benutze diese Felder, um die Koordinaten einzugeben. Durch Klick auf N/E kannst du nach Bedarf auf S/W ändern.
+Die Anordnung der Felder hängt vom oben gewählten Koordinatenformat ab.
+
+===== Quelle für Koordinaten =====
+{{anchor:coordinate_sources}}
+
+Unterhalb der Koordinateneingabe findest du mehrere Schaltflächen um Koordinaten von unterschiedlichen Quellen einzufügen.
+Je nachdem in welchem Menü du die Koordinateneingabe verwendest und abhängig von weiteren Bedingungen, werden alle oder nur ein Teil der Schaltflächen angezeigt.
+
+^ Schaltfläche ^ Beschreibung ^
+|Meine Koordinaten|Fügt deine aktuelle Position in das Koordinatenfeld ein.|
+|Cache-Koordinaten|Fügt die Listing-Koordinaten des zugehörigen Caches in das Koordinatenfeld ein.|
+|[[coordinatedialog#waypoint_calculator|Berechne Koordinaten]]|Nutzt die oben evtl. bereits eingegebenen Koordinaten und startet den Wegpunktrechner.|
+|Aus der Zwischenablage|Diese Schaltfläche wird nur angezeigt, wenn deine Zwischenablage gültige Koordinaten enthält und erlaube dir, diese in das Koordinatenfeld einzufügen.|
+|Koordinaten löschen|Leert das Koordinatenfeld.|
+
+===== Wegpunktrechner =====
+{{anchor:waypoint_calculator}}
+
+{{:en:coordinput_calculator.png?nolink&300 |}} 
+
+c:geo bietet einen Rechner für Koordinaten, der es erlaubt Variablen und Formeln zu benutzen um Koordinaten basierend auf dem Resultat zu berechnen.
+
+Nachdem du auf ''Berechne Koordinaten '' im [[coordinatedialog#waypoint_sources|Eingabefenster]] geklickt hast, wird diese Ansicht angezeigt.
+
+Die {{:abc_ic_clear_normal.png?nolink&40|}} Schaltfläche schließt den Dialog ohne Änderungen, die {{:abc_ic_cab_done_holo_light.png?nolink&40|}} Schaltfläche schließt den Dialog, speichert die Änderungen und kehrt zum Wegpunkteditor zurück.
+
+<WRAP center round tip 60%>
+Du kannst den Rechner auch zur Vorbereitung deines Feldeinsatzes verwenden, in dem du die Variablen und Formeln eingibst aber noch keine Werte für die Variablen vergibst.\\
+Dies führt natürlich noch nicht zu einem gültigen Ergebnis, aber du kannst den aktuellen Stand jederzeit speichern indem du die Änderungen im Rechner und danach den Wegpunkt selbst speicherst.
+</WRAP>
+
+Ein Klick auf das erste Feld öffnet ein Dropdown-Menü, das es dir erlaubt zwischen den verschiedenen [[coordinatedialog#coordinate_format|Koordinaten-Formaten]] auszuwählen. Alle weiteren Funktionen werden im Folgenden erklärt.
+
+Zum besseren Verständnis zeigen wir die Nutzung des Rechners an einem Beispiel.
+
+
+
+==== Zuweisung der Hauptvariablen ====
+{{anchor:main_variable_assignment}}
+
+{{ :en:calculator_coordinates.png?nolink&400 |}}
+
+Standardmäßig zeigt dieser Bereich die Cache-Koordinaten als Startpunkt für das Zuweisen deiner Variablen.
+
+Durch __kurzen Klick__ auf jede Stelle kannst du zyklisch zwischen folgenden Funktionen für die jeweilige Stelle wechseln:
+
+  * **Zuweisung einer Variable für diese Stelle**\\ Weist die nächste ungenutzte Variable (A-Z) dieser Stelle zu.
+  * **Diese Stelle auslassen**\\ Entfernt diese Stelle komplett aus der Rechnung. Dies erlaubt Lösungen mit mehr als einer Stelle in den benachbarten Variablen.
+  * **ZUrücksetzen auf den Ursprungszustand**\\ Zeigt wieder den originalen Zahlenwert.
+
+Des weiteren kannst du auf jede Stelle einen __langen Klick__ ausführen, um manuell eine Zahl oder eine Variable einzugeben.
+
+Das Ergebnis könnte so aussehen, wie in folgendem Beispiel dargestellt:
+
+{{ :en:calculator_result_coord.png?nolink&400 |}}
+
+==== Eingabe der Hauptvariablen ====
+{{anchor:main_variable_input}}
+
+<WRAP center round important 100%>
+Für die Hauptvariablen musst du immer GROßBUCHSTABEN (A-Z) nutzen, wo hingegen du bei den Untervariablen (weiter unten beschrieben) immer Kleinbuchstaben (a-z) nutzen musst!
+</WRAP>
+
+Der Bereich unterhalb des Koordinatenfeldes zeigt Felder für alle im Koordinatenfeld zugewiesenen Hauptvariablen. In unserem Beispiel sieht es wie folgt aus, da wir vier Hauptvariablen (A,B,C,D) zugewiesen haben:
+
+{{ :en:calculator_main.png?nolink&400 |}}
+
+Du kannst nun diese Felder dazu nutzen, eine Formel mit Untervariablen (Kleinbuchstaben a-z) zuzuweisen um das Ergebnis für die Hauptvariablen zu berechnen.
+
+Die folgenden Operatoren werden in diesen Formeln unterstützt:
+
+^ Operator ^ Funktion ^ Beispiel ^
+|+|Addition|a+b|
+|-|Subtraktion|a-b|
+|*|Multiplikation|a*b|
+|/|Division|a/b|
+|%%^%%|Potenzen|a%%^%%b|
+|%|Modulo-Funktion|a%10|
+|( )|Klammern|(a+b)*c|
+
+In unserem Beispiel nutzen wir die folgenden Formeln für die Hauptvariablen (wie sie z.B. vom Cache-Besitzer in der Beschreibung vorgegeben werden) um fortzufahren:
+
+{{ :en:calculator_main_formulas.png?nolink&400 |}}
+
+==== Zuweisung von Untervariablen ====
+{{anchor:sub_variable_assignment}}
+
+<WRAP center round important 100%>
+Für die Untervariablen musst du immer Kleinbuchstaben (a-z) nutzen, wo hingegen du bei den Hauptvariablen (weiter oben beschrieben) immer GROßBUCHSTABEN (A-Z) nutzen musst! 
+</WRAP>
+
+Nach der Zuweisung von Formeln zu den Hauptvariablen wird automatisch ein Eingabefeld für jede dort genutzt Untervariable (Kleinbuchstaben a-z) erzeugt.
+
+Diese Eingabefelder können nun dazu genutzt werden numerische Werte einzugeben, die dann für die automatische Berechnung der Ergebniskoordinaten mit Hilfe der Formeln genutzt werden. Du kannst den Rechner zu jeder Zeit schließen und speichern und wieder zurückkehren um die nächste Untervariable einzugeben, sobald du den Wert gefunden hast während du den Cache löst.
+
+<WRAP center round tip 100%>
+Abhängig von der Anzahl der Haupt- und Untervariablen, musst du die Variablenbereich hin- und herwischen um alle Eingabefelder zu erreichen.\\ Du kannst dein Gerät auch ins Breitformat drehen, um alle Variablen auf einmal zu sehen.
+</WRAP>
+
+In unserem Beispiel haben wir nun die Werte für a,b,c, und d gefunden und entsprechend eingegeben:
+
+{{ :en:calculator_sub_complete.png?nolink&400 |}}
+
+
+==== Ergebnisvorhersage ====
+{{anchor:result_prediction}}
+
+Während der Eingabe der Formeln für die Hauptvariablen und den Werten für die Untervariablen wird das Ergebnis fortlaufend im Ergebnisbereich aktualisiert angezeigt.
+
+Stellen, die noch nicht gültig sind werden durch ein ''*'' ersetzt und ausgegraut. Sobald das Ergebnis gültige Koordinaten ergibt, wird das Feld komplett in weißen Zahlen angezeigt.
+
+in unserem Beispiel wird ein gültiges Ergebnis angezeigt:
+
+{{ :en:calculator_result_final.png?nolink&400 |}}
+
+==== Rechnernotizen ====
+{{anchor:calculator_notes}}
+
+Der letzte Bereich im Rechner kann dazu genutzt werden Notizen einzugeben oder einzufügen. Dies kann hilfreich sein um z.B. Teile der Cachebeschreibung, welche die zu berechnenden Formeln enthalten dort zu speichern.
+
+Der Inhalt der Rechnernotiz wird mit der Wegpunktnotiz des zur Berechnung genutzten Wegpunktes synchronisiert.
+
+==== Nutzung des "Schlicht" Koordinaten-Formats ====
+{{anchor:using_plain_coordinate_format}}
+
+Im Format //Schlicht// erfolgt die Eingabe von Koordinaten oder Koordinaten-Formeln komplett anders als in den festen Formaten. Statt klickbarer Felder für jede Stelle gibt es zwei Freitext-Felder um Breiten und Längen-Komponente der Koordinate einzugeben. 
+
+Eine einzelne Stelle oder Gruppen von Stellen können durch eine Formel ersetzt werden, die in Klammern eingeschlossen ist. Die Variablen in diesen Formeln müssen aus großgeschriebenen Einzelbuchstaben bestehen.
+
+Oft enthalten Cachebeschreibungen bereits Koordinaten in diesem erwarteten Format. Daher ist der //Schlicht//-Modus bestens dazu geeignet, um Koordinaten - so wie sie sind - aus der Beschreibung zu übernehmen.
+
+{{ :en:copy_waypoint_formulas.png?nolink&445 |}}
+
+Der //Schlicht//-Modus funktioniert am Besten mit Koordinaten im [[coordformat|MinDeg format]] ''DDD° MM.MMM'''.
+
+Um in den //Schlicht//-Modus zu gelangen, setze das Koordinatenformat auf ''Schlicht''.
+
+Kopiere den Breitengrad (N/S) der Koordinate in das erste Eingabefeld und den Längengrad (E/W) in das zweite Feld. Wenn die Koordinaten Formeln mit Variablen enthalten, werden die zugehörigen Eingabefelder darunter angezeigt.
+
+{{ :en:variable_input_fields.png?nolink&400 |}}
+
+Die Formeln aus dem oben gezeigten Beispiel, erzeugen Eingabefelder für I, K, L, M und N.
+Du kannst die Felder der Variablen nun genauso ausfüllen, wie es für die festen Formate im vorherigen Kapitel beschrieben wurde.
+
+Sobald die Eingabe für alle Variablen komplett ist, wird die Ergebnisvorhersage normalerweise weiß und zeigt die berechnete Koordinate.
+
+{{ :en:result_prediction_ok.png?nolink&400 |}}
+
+In einigen Fällen bleibt das Ergebnisfeld jedoch grau, da der Koordinatenanalysator die ursprüngliche Eingabe nicht interpretieren konnte.
+Im Bild unten ist ein falsch gesetztes Leerzeichen zwischen zwei Stellen der gleichen Gruppen, was den Analysator verwirrt.
+
+{{ :en:result_prediction_fail.png?nolink&400 |}}
+
+Typische Probleme mit Koordinaten, die aus der Cachebeschreibung kopiert wurden, sind:
+  * Klein geschriebene Variablen; Variablen müssen aus Großbuchstaben bestehen
+  * Leerzeichen zwischen den Stellen einer Gruppe ''N45° 5.(K) (I/N)(K+L+M+N)''
+  * Leerzeichen vor dem Gradzeichen ''N45 ° 5.(K)(I/N)(K+L+M+N)''
+  * Leerzeichen vor dem Dezimalpunkt ''N45° 5 .(K)(I/N)(K+L+M+N)''
+  * Leerzeichen nach dem Dezimalpunkt ''N45° 5. (K)(I/N)(K+L+M+N)''
+  * Falsches Minus-Zeichen: Es gibt viele [[https://de.wikipedia.org/wiki/Halbgeviertstrich#Gedankenstrich|verschiedene Minus-Zeichen]]. Es wird nur das Minus-Zeichen (''-'') akzeptiert
+  * Falsches Multiplikationssymbol: Manchmal wird ein ''x'' oder ein Punkt in der Mitte (''·'') statt einem Stern (''*'') als Multiplikationssymbol verwendet.
+  * Falsches Teilungs-Zeichen: Manchmal wird ein Doppelpunkt ('':'') statt dem Querstrich (''/'') als Teilungszeichen verwendet
+  * Verschachtelte eckige Klammern: ''N45° 5.[[X+Y]*10]''
+
+Genau wie bei den anderen oben beschriebenen Eingabeformaten kann der Stand der Berechnung jederzeit gespeichert werden.
+
+
+==== Weiterführende Informationen ====
+{{anchor:further_information}}
+
+Der Ersteller des Programmcodes für den Wegpunktrecher hat einige Videos veröffentlicht, in denen er die verschiedenen Nutzungsmöglichkeiten des Rechners vorführt (englischsprachig):
+
+{{youtube>eN2y5mvJul4?medium}}
+
+{{youtube>NlW2BfF-tu0?medium}}
+
+{{youtube>F-ZNAKbLCJ0?medium}}
+
+{{youtube>6_BALG5192A?medium}}
+
+

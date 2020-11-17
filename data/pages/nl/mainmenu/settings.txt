@@ -1,0 +1,264 @@
+====== c:geo Instellingen======
+
+{{:ic_menu_preferences.png?nolink&50 |}}
+
+De volgende pagina's beschrijven de functies en het instellingsmenu in c:geo.\\ \\ \\
+
+Je hebt toegang tot de instellingen door op de menuknop (knop met drie punten) rechtsboven in het hoofdmenu te klikken en '' Instellingen '' te selecteren:
+
+{{:nl:settings_1_nl.png?direct&250 |}}{{:nl:settings_2_nl.png?direct&250|}}
+
+In dit menu vind je de volgende categorieën met betrekking tot de  instellingen die hieronder in detail worden beschreven:
+
+^ Icoon ^ Menu item ^ Inhoud ^
+|{{:settings_cloud_black.png?nolink |}}|[[settings#services|Diensten]]|CConfigureer geocaching-services die je wilt gebruiken, wijzig je gebruikersaccountgegevens en toegang tot aanvullende services zoals [[http://gcvote.com|GCVote]], [[http://send2.cgeo.org|send2cgeo]]|
+|{{:settings_eye_black.png?nolink|}}|[[settings#appearance|Uiterlijk]]|Configureer afstandseeenheden, taal en app kleuren.|
+|{{:settings_details_black.png?nolink|}}|[[settings#cache_details|Cache Details]]|Pas de weergave van cachegegevens aan en verberg bepaalde caches|
+|{{:settings_map_black.png?nolink|}}|[[settings#map|Kaart]]|Configureer Kaartbronnen, mappen voor offline kaarten en stel offline kaarten en kaartdetails in.|
+|{{:settings_pen_black.png?nolink|}}|[[settings#logging|Logboek]]|Pas logboekopties aan en maak of wijzig je logging-handtekening.|
+|{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Offline gegevens]]|Instellingen voor statische kaarten en offline opslag van logbestanden en extra gegevens.|
+|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Navigatie]]|Selecteer je standaardnavigatie en stel andere externe navigatie-apps in.|
+|{{:settings_nut_black.png?nolink|}}|[[settings#system|Systeem]]|Back-up en herstel je cache database en configureer geavanceerde systeeminstellingen.|
+
+===== Diensten =====
+{{anchor:services:}}
+
+==== Geocaching ====
+{{anchor:geocaching:}}
+
+{{:en:services_1_en.png?direct&300 |}}{{:en:services_2_en.png?direct&300|}}
+                                                                                                                                                       
+In het eerste gedeelte van de service-instellingen kun je de verbinding met de verschillende ondersteunde geocachingplatforms configureren.
+Momenteel ondersteunt c:geo de volgende geocaching-services:
+
+^ Dienst ^ Beschrijving ^
+| [[https://www.geocaching.com | geocaching.com]] | Momenteel het grootste commerciële Geocaching-platform met verborgen caches wereldwijd |
+| [[https://www.opencaching.de | OpenCaching Germany]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in de hele wereld met focus op Duitsland, Oostenrijk, Zwitserland, Italië en Spanje |
+| [[https://www.opencaching.pl | OpenCaching Poland]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in Polen |
+| [[https://www.opencaching.nl | OpenCaching Nederland]] | Open-source en gratis te gebruiken Geocaching-platform voor geocaches in Nederland |
+| [[https://www.opencaching.us | Opencaching USA]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in de Verenigde Staten van Amerika |
+| [[https://www.opencaching.ro | OpenCaching Romania]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in Roemenië |
+| [[https://www.opencache.uk | Opencaching UK]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in het Verenigd Koninkrijk |
+| [[https://www.extremcaching.com | extremcaching.com]] | Particulier geocaching-geocachingplatform met focus op Geocaches met een hoge terreinklasse in Duitstalige regio's |
+| [[https://www.geocaching.su | Geocaching Russia]] | Particulier geocachingplatform voor geocaches in Rusland |
+
+<WRAP center round info 100%>
+Een gedetailleerde beschrijving van de authenticatieprocedure voor deze geocaching-services is te vinden in de [[..firststeps | Eerste stappen met c:geo]].</WRAP>
+
+Verder kun je het servicemenu gebruiken om de verbinding met de volgende aanvullende services te configureren, die later beschikbaar zijn in c:geo:
+
+^ Dienst ^ Beschrijving ^
+| [[http://gcvote.com | GCVote]] | Een platform om te stemmen over de kwaliteit van Geocaches |
+| [[https://geokrety.org | GeoKrety]] | Een alternatief platform voor trackables |
+| [[http://send2.cgeo.org | Send2cgeo]] | Biedt een browserscript aan om Geocaches rechtstreeks naar c:geo te importeren met één klik van de geocaching-website op je pc. Neem een kijkje op de website van send2cgeo voor meer informatie over deze tool.|
+
+==== Sociale media ====
+{{anchor:social_media:}}
+
+{{ :en:services_twitter_1.png?direct&400 |}}
+
+Je kunt c:geo autoriseren om te posten op [[https://www.twitter.com | Twitter]] telkens wanneer je een log voor een cache of een trackable verstuurt.
+
+{{ :nl:services_twitter_2.png?direct&400 |}}
+
+Om te autoriseren op Twitter, activeer je de dienst en klik je op '' Autoriseer c:geo ''.Onder de autorisatieknoppen kunt je de sjablonen wijzigen die worden gebruikt om een bericht op Twitter te plaatsen. Deze sjabloon gebruikt dezelfde [[settings # placeholder_templates | placeholder-sjablonen]] als in je [[settings#logging|logboek handtekening]].
+
+{{ :nl:services_twitter_3.png?direct&400 |}}
+
+Klik op de volgende pagina op '' Autorisatie starten '' om de Twitter-webpagina te openen, waar je jouw Twitter-gebruikersnaam en -wachtwoord moet invoeren en daarna akkoord gaat om c:geo toe te staan om namens jou op Twitter te posten.
+
+
+<WRAP center round tip 100%>
+c:geo ondersteunt alleen Twitter als een sociaal netwerk. Omdat het ontwikkelteam beperkte middelen heeft en zich richt op nieuwe geocachingfuncties, hebben we momenteel geen plannen om een Facebook-verbinding te implementeren.Als u echter al een Twitter-gebruiker bent en / of op zoek bent naar een manier om uw bevindingen op Facebook te plaatsen, houd er dan rekening mee dat het mogelijk is om Twitter aan Facebook te koppelen. Hierdoor zullen al je tweets ook op Facebook worden geplaatst (inclusief de c:geo tweets).
+
+Meer info hierover op de  [[https://support.twitter.com/articles/31113-using-twitter-with-facebook/|Twitter support-website]].</WRAP>
+==== Andere instellingen ====
+{{anchor:other_settings:}}
+
+{{ :en:services_androidbrowser.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Android browser|Om compatibiliteitsredenen gebruikt c:geo normaliter de identificatie van een normale pc-webbrowser bij het openen van de services. Aangezien sommige mobiele netwerkproviders het gebruik van je mobiele netwerkverbinding op een pc niet toestaan, kunnen ze het geïdentificeerde verkeer blokkeren om zich op een pc-webbrowser te richten, waardoor c:geo onbruikbaar wordt. In dit geval werken sommige services mogelijk niet of kun je niet eens geautoriseerd worden. Als je deze instelling inschakelt, wordt in plaats daarvan c:geo geïdentificeerd als een mobiele Android-browser om dit probleem op te lossen. \\We raden je aan deze optie alleen in te schakelen in geval van problemen.|
+===== Uiterlijk =====
+{{anchor:appearance:}}
+
+In dit menu kun je enkele basis instellingen van c:geo configureren met betrekking tot de gebruikers interface.
+
+{{ :en:settings_appearance.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Lichte Skin|Indien geactiveerd c:geo gebruikt zwarte letters op een witte achtergrond in plaats van de standaard witte letters op een zwarte achtergrond.//(Standaard: Uitgeschakeld)//|
+|Toon adres|Wanneer geactiveerd wordt de huidige locatienaam getoond in plaats van de locatie coördinaten onderaan het hoofdscherm. //(Standaard: Ingeschakeld)//|
+|Logs zonder opmaak tonen|Als je deze instelling inschakelt, worden alle logboekvermeldingen zonder de aangepaste kleuren weergegeven voor verbeterde leesbaarheid. //(Standaard: Uitgeschakeld)//|
+|Use English laguage|Hierdoor wordt c:geo geforceerd om de Engelse gebruikersinterface te gebruiken in plaats van je individuele telefoon taal te gebruiken. Dit kan handig zijn als je problemen hebt met verkeerde vertalingen in je taal. Een herstart van c:geo is vereist nadat je deze instelling hebt gewijzigd.//(Standaard: Uitgeschakeld)// \\ \\ :!:Houd er rekening mee dat wanneer je de optie '' Use English '' activeert, ook alle datums in Amerikaans formaat worden weergegeven. (M/D/JJJJ).|
+|Gebruik imperiale stelsel|Als je deze optie inschakelt, maakt c:geo Engelse eenheden (mijlen / voet) in plaats van metrische eenheden (meter / kilometer) op alle relevante schermen. //(Standaard: Ingeschakeld (voor de talen en-us), Uitgeschakeld (voor alle andere talen)//|
+
+===== Cache Details =====
+{{anchor:cache_details:}}
+
+{{ :nl:settings_cachedetails.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+| Toon eigen/van vrienden|Door het activeren van deze optie zal een aanvullend logboek worden getoond in de details van iedere cache met de vermeldingen van je eigen logs en de logs van je geocaching vrienden (gebaseerd op de vrienden functie op geocaching.com). //(Standaard: Ingeschakeld)//|
+|Laad details met laatst gebruikte pagina|Wanneer gedeactiveerd, zullen de cachegegevens altijd openen met de pagina '' Details '', wanneer geactiveerd zal deze functie de laatst geopende pagina onthouden en nieuwe caches op deze pagina openen (bijv. Waypoints). //(Standaard: Uitgeschakeld)//|
+|Toon richting|Deze functie toont kleine richtingspijlen in alle cachelijsten, waardoor grof informatie wordt gegeven over de richting van een cache ten opzichte van je apparaat.\\ Hoewel dit kan helpen om erachter te komen of een cache b.v. voor of achter je is, is deze functie niet ontworpen om de andere navigatiemethoden in c:geo te vervangen. //(Standaard: Ingeschakeld)// \\ \\ :!: Houd er rekening mee dat voor basis leden van geocaching.com deze functie alleen in de zoekresultaten afbeeldingen in statische richting laat zien, maar geen bewegende pijlen.|
+|Eigen en gevonden caches uitsluiten|Als dit item is geactiveerd worden caches die je bezit of al hebt gevonden in alle online functies van c:geo verborgen. Eigen en gevonden caches worden echter nog steeds weergegeven in je opgeslagen lijst met caches.\\ \\ :!: Het verbergen van eigen en gevonden caches werkt mogelijk niet altijd 100% op de livekaart vanwege technische beperkingen. Inzoomen helpt om deze beperkingen te vermijden.|
+|Uitgeschakelde caches uitsluiten|Hiermee worden tijdelijk uitgeschakelde caches verborgen in alle online functies van c:geo. Uitgeschakelde caches worden echter nog steeds weergegeven in uw opgeslagen lijst met caches.\\ \\ :!: Het verbergen van eigen en gevonden caches werkt mogelijk niet altijd 100% op de livekaart vanwege technische beperkingen. Inzoomen helpt om deze beperkingen te vermijden.|
+
+===== Map =====
+{{anchor:map:}}
+
+==== Kaartgegevens ====
+{{anchor:map_data:}}
+
+{{ :nl:settings_maps_mapdata.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Selecteer kaartbron|Hiermee kun je de kaart definiëren, die zal worden gebruikt in alle kaartfuncties van c:geo. Het menu bevat alle beschikbare online kaarten en de offline kaartbestanden die je in je map met offline kaarten kunt vinden. \\ Je kunt deze instelling ook rechtstreeks vanuit de livekaart wijzigen door op het pictogram van de kaart te klikken en een andere [[..mapsources|kaartbron]] te selecteren.|
+|Info over offline kaarten|Dit item geeft je meer gedetailleerde informatie over ondersteunde [[..offline#offline_maps|offline kaart]] formatsen em een link naar onze  [[http://faq.cgeo.org|FAQ]].|
+|Map met offline kaarten|Hier kun je de map configureren, die je Mapsforge  [[..offline#offline_maps|offline kaart]] bestanden bevat.\\ \\ :!: De automatische scan kan mogelijk niet in alle mappen / opslag zoeken. Als je kaart niet automatisch wordt gevonden, gebruik dan de knop '' Kies map '' die wordt weergegeven nadat de scan is voltooid.|
+|Info over kaart thema's|Deze info biedt meer gedetailleerde informatie over ondersteunde offline-kaartthema's en een link naar onze [[http://faq.cgeo.org|FAQ]].|
+|Kaart thema's map|Hier kunje de map configureren, die je offline kaartthema's bevat.|
+|Tekst op kaart schalen|Met deze optie kun je de tekstlabels van je offline kaarten schalen, afhankelijk van de schermresolutie van je apparaat. Als je deze optie activeert, wordt de tekst beter leesbaar op apparaten met een nogal hoge schermresolutie.//(Standaard: Ingeschakeld)//|
+
+<WRAP center round tip 100%>
+Meer informatie over de c:geo offline kaarten staat op [[..offline|Offline Caching]]!
+</WRAP>
+
+==== Kaart inhoud ====
+{{anchor:map_content}}
+
+{{ :nl:settings_maps_mapcontent.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Laat Waypoints zien in map|Hier kun je de limiet instellen voor het weergeven van waypoints van (opgeslagen) caches op de kaart. \\ Als minder dan het geselecteerde aantal caches wordt weergegeven in het zichtbare kaartgedeelte, worden hun waypoints extra weergegeven. // (standaard: 20) //|
+|Toon richting|Als je deze optie inschakelt, wordt op de kaart een richtingslijn (of een gerouteerde lijn als routeringsopties zijn geïnstalleerd) tussen je huidige positie en het navigatiedoel. \\ Je kunt de richtingslijn activeren door de kaart te openen voor een enkele cache of een cache op de kaart en activeer de functie in het pop-upvenster dat nu op de kaart wordt weergegeven (dit laatste is alleen van toepassing op offline kaarten). // (standaard: geactiveerd) // |
+|Pad tonen|Met deze optie kun je een route activeren die je positiegeschiedenis (je beweging) op de kaart toont. // (Standaard: Gedeactiveerd) // \\ \\ :!: Houd er rekening mee dat dit geen trackopname of een permanent parcours oplevert. Het zal alleen accuraat zijn zolang je de kaart gebruikt en GPS hebt ingeschakeld en er zullen hiaten of sprongen zijn in de gevallen waar je apparaat in stand-by is gezet of GPS is uitgeschakeld. Als je een betrouwbare track-opname wilt, kun je beter een gespecialiseerde app gebruiken.|
+|Route berekenen|Met deze instelling kun je de maximale afstand selecteren tot hoe ver  een route wordt berekend en op de kaart weergegeven tussen jouw positie en de geselecteerde cache. // (standaard: 10 km) // \\ \\ :!: Deze functie vereist dat de  [[.:utilityprograms|Brouter helper app]] op je apparaat is geïnstalleerd.|
+==== Mapsforge API ====
+{{anchor:mapsforge_api:}}
+
+{{ :nl:settings_maps_mapsforgeapi.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Oude Mapsforge V3|Sinds juni 2018 ondersteunt c:geo een nieuwere versie van de Mapsforge-bibliotheken. Omdat sommige functies van deze nieuwe bibliotheken nog in ontwikkeling zijn, kun je terugkeren naar de oude Mapsforge v3-bibliotheken door deze optie te activeren in geval van nood. \\ Het wordt echter ten zeerste aanbevolen om de nieuwere bibliotheken te gebruiken vanwege een bredere ondersteuning van offline kaarten en betere prestaties. // (Standaard: Uitgeschakeld) // |
+===== Logboek =====
+{{anchor:logging:}}
+
+==== Handtekening ====
+{{anchor:signature:}}
+
+{{ :nl:settings_logging_signature.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Handtekening|Alsje op deze optie drukt, wordt een tekstvenster geopend waarin je een aangepaste handtekening  kunt definiëren die kan worden toegevoegd aan elk logboek dat je opstelt met c:geo. \\ In de editor kun je klikken op ''Voeg template toe '' om een lijst met mogelijke sjablonen te krijgen en je kunt gebruiken in je logs (zie onderstaande gedetailleerde tabel).|
+|Voeg automatisch toe|Als je dit item activeert, wordt de aangepaste handtekening automatisch aan je logtekst toegevoegd wanneer je begint met het registreren van een cache met c:geo. \\ Als deze optie is gedeactiveerd, kun je de handtekening nog steeds handmatig invoegen door ''+'' en ''Handtekening'' te drukken tijdens het samenstellen van je logboek. // (standaard: gedeactiveerd) // |
+
+=== Templates ===
+{{anchor:placeholder_templates:}}
+
+Tijdens het maken van je aangepaste handtekening kun je verschillende sjablonen gebruiken, die later worden toegevoegd wanneer de handtekening wordt gebruikt:
+^ Template naam ^ Omschrijving ^ Voorbeeld^
+|[DATUM]|De huidige datum van het opstellen van de log. Het datumformaat volgt het datumformaat van je telefoon instellingen.|Juni 4, 2018|
+|[TIJD]|De huidige tijd van het opstellen van de log. Het tijdsformaat volgt het tijdsformaat van je telefoon instellingen.|14:50|
+|[DATETIME]|Combinatie van [DATUM] en [TIJD] zoals hierboven beschreven.|Juni 4, 2018 14:50|
+|[GEBRUIKER]|Jouw geocaching gebruikersnaam voor het geocaching platform waar de cache toe behoort.|Mijn gebruikersnaam|
+|[NUMMER]|Je huidige aantal vondsten op het geocaching platform waar de cache toe behoort, opgehoogd met 1, dus toont het vind nummer van de cache die je aan het loggen bent.\\ \\ :!: Houd er rekening mee dat dezetemplate niet betrouwbaar werkt als je offline loggen gebruikt. In dit geval is mogelijk handmatige bewerking vereist. | 4853 |
+|[EIGENAAR]|De geocaching gebruikersnaam ban de eigenaar van de cache die je aan het loggen bent.|SuperOwner|
+|[NAAM]|Titel van de cache die je aan het loggen bent.|Mijn eerst verstopte cache|
+|[MOEILIJKHEID]|De moeilijkheidsgraad van de cache die je aan het loggen bent|D2,5|
+|[TERREIN]|TDe moeilijkheidsgraad van het terrein van de cache die je aan het loggen bent.|T4,0|
+|[GROOTTE]|De grootte van de cache die je aan het loggen bent.|Large|
+|[URL]|De URL naar de cache pagina van de cache die je aan het loggen bent.|http://coord.info/GC77|
+|[LOGTEKST]|Met deze template wordt de hele logtekst ingevoegd, wat uiteraard niet logisch is bij gebruik in het logboek-sjabloon. Het is echter wel logisch om te worden gebruikt in het [[settings#social_media|Twitter sjabloon]]. | Dit is mijn persoonlijke log-tekst. TFTC! |
+==== Andere opties voor log ====
+{{anchor:other_logging_options:}}
+
+{{ :nl:settings_logging_otherloggingoptions.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Trackables bezoeken|Als je deze optie inschakelt, worden automatisch alle Trackables in je inventoris ingesteld als ''Bezocht'' bij het loggen van een cache. // (standaard: gedeactiveerd) // |
+|Offline Logging|Als deze functie is geactiveed  zal een '' Eén-klik offline log '' functie ter vervanging van het normale logboekscherm worden gebruikt. Het kan worden gebruikt om eenvoudig offline logs / veldnotities te genereren. \\ Het normale logboekscherm blijft beschikbaar als een submenu van het menu '' Eén-klik offline log ''. // (standaard: gedeactiveerd) // |
+
+<WRAP center round tip 100%>
+Lees meer over de c:geo offline-functies in [[..:offline|Veld notities]]!
+</WRAP>
+
+===== Offline gegevens =====
+{{anchor:offline_data:}}
+
+{{ :nl:settings_offlinedata.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Afbeeldingen opslaan|Als deze optie is geactiveerd in c:geo zullen alle afbeeldingen in de logboeken van de cache op je apparaat voor offline beschikbaarheid worden opsgeslagen. Je moet reeds opgeslagen caches vernieuwen nadat je deze functie hebt geactiveerd om hun afbeeldingen offline beschikbaar te maken. \\ Als deze optie is uitgeschakeld, worden logbestanden alleen op verzoek geladen (bij het openen van de cache details in het afbeeldingen tabblad) maar worden daarna permanent opgeslagen totdat je de cache van je apparaat hebt verwijderd. // (Standaard: Uitgeschakeld) // |
+|Vraag naar lijst|Indien geactiveerd, word je gevraagd in welke lijst de cache moet worden opgeslagen als je een cache opslaat in c:geo. Als deze is gedeactiveerd, worden alle caches opgeslagen in de standaardlijst. // (Standaard: Ingeschakeld) // |
+
+<WRAP center round tip 100%>
+Meer informatie over het offline gebruik van c:geo kun je vinden op de pagina [[..:offline|Offline gebruik]]!
+</WRAP>
+
+===== Navigatie =====
+{{anchor:navigation:}}
+
+{{ :nl:settings_navigation.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Standaard navigatie|Je kunt hier je standaardnavigatietool selecteren, waarmee je eenvoudig en snel toegang hebt tot de navigatiemethode van je voorkeur. Het geselecteerde hulpmiddel wordt gestart met een ** korte ** druk op het kompasroos pictogram boven aan de cachegegevens en het pop-upvenster voor de kaart. // (standaard: Kompas) //|
+|Secundaire navigatie|Je kunt hier je secondaraire avigatietool selecteren, waarmee je snel en gemakkelijk toegang hebt op deze methode.Het geselecteerde hulpmiddel wordt gestart met een ** lange ** druk op het kompasroos pictogram boven aan de cachegegevens en het pop-upvenster voor de kaart. // (standaard: Kaart) //|
+|Navigatiemenu|Dit gedeelte biedt de mogelijkheid om enkele van de geïnstalleerde en beschikbare navigatiemethoden die door c:geo zijn gedetecteerd, te activeren of te deactiveren. Je kunt het gebruiken om het cachenavigatiemenu op te ruimen met bijv. uitschakelen van navigatiemethoden die je nooit gebruikt. // (Standaard: alle beschikbare zijn geactiveerd) //|
+
+<WRAP center round tip 100%>
+Raadpleeg de  [[..navigation|ondersteunde navigatie methoden]] voor gedetailleerde informatie over de navigatiehulpmiddelen.
+</WRAP>
+
+
+===== Systeem =====
+{{anchor:system:}}
+
+==== GPX ====
+{{anchor:gpx:}}
+
+{{ :nl:settings_system_gpx.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|GPX Export map|Selecteer de map waarin het GPX-bestand dat is geëxporteerd uit c:geo wordt opgeslagen. // (Standaard: / cgeo / gpx) // \\ \\ :!: c:geo moet schrijfrechten hebben voor de geselecteerde map. Zorg er daarom voor dat je een map uit je interne geheugen selecteert, maar niet van de SD-kaart. |
+|GPX Import map|Selecteer de map waarin c:geo zoekt naar een GPX-bestand dat moet worden geïmporteerd in c:geo. |
+
+==== Backup ====
+{{anchor:backup:}}
+
+{{ :nl:settings_system_backup.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Backup|Als je deze functie selecteert, wordt een back-upbestand ('' cgeo.sqlite '') gemaakt met al je opgeslagen caches. Het back-upbestand wordt opgeslagen in '' / cgeo / backup '' in je interne geheugen. Als er al een back-upbestand bestaat bij gebruik van deze functie, word je gevraagd of je het wilt vervangen door de nieuwe back-up. \\ Het back-upbestand blijft behouden (zelfs alsje c:geo verwijdert) totdat je het handmatig verwijdert of vervangt deze door een nieuwe back-up.|
+|Herstel|Met deze functie wordt een bestaand back-upbestand ('' cgeo.sqlite '') uit '' / cgeo / backup '' teruggezet in je lijst met opgeslagen caches. \\ \\ :!: Het herstellen van een back-up zal ** alle ** bestaande opgeslagen caches vervangen door die in de back-up. Houd daar rekening mee bij gebruik van deze functie.|
+
+==== Database en Geocache gegevens ====
+{{anchor:database_and_geocache_data}}
+
+{{ :nl:settings_system_database_cachedata.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^
+|Database locatie - Op gebruikers-opslag|De geocachendatabase bevat voornamelijk de lijst met je opgeslagen caches. Je kunt deze database intern of in een directory in je gebruikersopslag opslaan. Als je deze opslaat in de opslag van de gebruiker, kan er geheugen vrij zijn, maar je verliest wellicht wat prestaties en c:geo werkt niet als de opslag niet toegankelijk is of als je het databasebestand verwijdert. \\ Omdat de beschikbaarheid van de database essentieel is voor het gebruik van c : geo en de typische grootte slechts een paar megabyte is, hebben we besloten het verplaatsen naar de externe SD-kaart te verbieden. Als je de optie '' Op gebruikersopslag '' inschakelt, wordt de database verplaatst naar de map '' /Android/data/cgeo.geocaching/files/databases '' (dit kan verschillen afhankelijk van je apparaat). \\ \\: !: Op de meest recente telefoons zijn de systeemopslag en de interne opslag feitelijk slechts verschillende delen van dezelfde fysieke opslag. Dus deze functie is alleen zinvol voor sommige speciale telefoontypes onder speciale omstandigheden. De SD-kaart is hier nooit bij betrokken.|
+|Geocache gegevensmap - Selecteer Geocache Gegevensmap|De extra gegevens kunnen veel groter zijn dan de hierboven genoemde geocachedatabase, omdat deze de afbeeldingen van de cachebeschrijving en (optioneel) de afbeeldingen bevat die zijn opgehaald uit logboeken en (optioneel) statische kaarten. Standaard worden deze gegevens opgeslagen in de interne gebruikersopslag in '' /Android/data/cgeo.geocaching/files/GeocacheData/ ''. Als je apparaat het gebruik van de externe SD-kaart ondersteunt, geeft deze menuoptie je de beschikbare doelmappen weer, evenals de huidige grootte vanje geocachegegevens en de beschikbare ruimte in de doelmappen. \\ \\ :!: De eerste verplaatsing van de doelmap geocachegegevens kan lang duren, afhankelijk van de hoeveelheid gegevens die moet worden verplaatst. Onderbreek het proces niet en zorg ervoor dat je apparaat voldoende is opgeladen. \\ :!: Als je de externe SD-kaart verwijdert of de SD-kaart vol is, zijn de extra geocachegegevens niet langer beschikbaar enwerkt  c:geo mogelijk niet meer zoals verwacht.|
+
+==== Diverse andere systeem instellingen ====
+{{anchor:various_other_system_settings:}}
+
+{{:nl:system_other_1.png?direct&300 |}}{{ :nl:system_other_2.png?direct&300 |}}
+
+^ Menu item ^ Omschrijving ^
+|Verweesde bestanden verwijderen|c:geo slaat cachebeelden, logbestanden en andere bestanden met betrekking tot een cache op in een aparte map (raadpleeg [[settings#database_and_geocache_data|Geocache gegevensbestand]]).  In sommige gevallen (bijvoorbeeld het herstellen van een back-up) kan deze map verouderde bestanden van caches bevatten die niet langer op het apparaat zijn opgeslagen. Deze verouderde gegevens kunnen worden verwijderd met behulp van deze functie. \\ \\ :!: Nadat je caches uit je lijst hebt verwijderd, worden de extra geocachegegevens in de cache intern opgeslagen door c:geo gedurende 72 uur om te voorkomen dat ze opnieuw moeten worden gedownload in het geval van een vergissing van de gebruiker. Daarna wordt het automatisch verwijderd. Het is niet nodig om deze functie in dit geval te gebruiken en het heeft ook geen zin omdat de gegevens nog steeds worden bewaard gedurende de periode van 72 uur.|
+|Gebruik Google Play Services|Op apparaten die zijn uitgerust met Google Play Services kan c:geo automatisch een betere geolocatieprovider gebruiken om betere locatieresultaten te krijgen en het batterijverbruik te verminderen. \\ \\ :!: Als je een externe Bluetooth GPS-ontvanger wilt gebruiken, moet je deze optie uitschakelen! \\ :!: op sommige apparaten zijn Google Play-services beschikbaar, maar werken ze niet betrouwbaar. Als je problemen met lokalisatie ondervindt of helemaal geen GPS-ontvangst hebt, probeer dan deze optie uit te schakelen.|
+|Energiebesparende modus|De modus voor laag energieverbruik vermijdt het gebruik van GPS en de gyroscoopsensor in situaties waarbij een zeer nauwkeurige locatie niet strikt noodzakelijk is (bijvoorbeeld op cachelijsten) ten koste van langere fixatietijden wanneer opnieuw hoge nauwkeurigheid vereist is. In bepaalde situaties kan dit de levensduur van de batterij verbeteren. \\ We raden je echter aan om deze optie uitgeschakeld te laten om de hoogst mogelijke nauwkeurigheid te hebben die wenselijk is voor Geocaching in het algemeen. :-) |
+|Oriëntatie sensor|Op sommige apparaten gedraagt de normale vectorrotatiesensor zich onregelmatig en geeft de verkeerde richting aan bij gebruik van het c:geo-kompas. In dit geval kun je deze optie activeren om in plaats daarvan de oriëntatiesensor te gebruiken, wat betere resultaten kan opleveren. \\ We raden aan om deze optie alleen in te schakelen in het geval van kompasproblemen op je apparaat.|
+|Schakel hardware acceleration in|Hardwareversnelling maakt grafische elementen sneller op het scherm en biedt dus een betere ervaring tijdens het gebruik van c:geo. Op sommige apparaten bevat het besturingssysteem echter bugs waardoor sommige tekst wazig lijkt (met name vetgedrukte tekens). Schakel deze optie alleen uit als dit je overkomt.|
+|Activeer foutopsporings informatie|c:geo kan veel debug-informatie genereren die nodig is voor ontwikkelingsdoeleinden. Gebruik deze functie alleen als je wordt gevraagd om een logboek naar de c:geo-ontwikkelaars te sturen of als je weet wat u doet. \\ \\v:!: Activeren van deze instelling heeft invloed op de stabiliteit van c:geo. Houd de foutopsporing loggen uitgeschakeld tijdens normaal gebruik van c:geo!|
+|Maak geheugen dump|Dit is een ontwikkelingsfunctie die kan helpen bij het opsporen van fouten in de c:geo verwerking. Het gebruik van deze functie is niet nuttig voor jou, maar zal alleen je interne opslagruimte spammen met een vrij groot dumpbestand. Gebruik het dus beter niet. :-) |
+
+
+
+
+
+
+

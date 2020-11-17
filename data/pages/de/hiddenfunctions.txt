@@ -1,0 +1,15 @@
+====== Versteckte Funktionen ======
+
+Obwohl wir versuchen jede Funktion in c:geo so zugänglich und selbsterklärend wie möglich zu gestalten, gibt es dennoch einige Abkürzungen und erweiterte Funktionen, die du evtl. nicht direkt findest.
+
+All diese versteckten Funktionen werden auch in den jeweiligen Kapiteln dieses Handbuches erklärt, aber für die, die sich schon recht gut in c:geo auskennen, haben wir sie auch hier gesammelt um noch besser mit c:geo arbeiten zu können: your usage experience:
+
+^ Wie zugreifen ^ Funktion ^ Link zum Kapitel im Benutzerhandbuch ^
+|Langer Druck auf das Listen-Symbol im Hauptmenü|Lässt dich direkt eine deiner gespeicherten Listen öffnen, anstatt zuerst die Ansicht zu öffnen und dann die Liste zu wechseln.|[[.mainmenu:start#main_icons|Hauptmenü]]|
+|Langer Druck auf globalen Filter im Hauptmenü|Setzt den vorher gewählten Filter zurück (auf ''Alle Caches'')|[[.mainmenu:start#main_icons|Hauptmenü]]|
+|Langer Druck auf das Disketten-Symbol|Fragt nicht nach der Liste, sondern speichert den Cache direkt mit der zuletzt genutzten Listenauswahl ab.|[[.mainmenu:livemap#list_management|Live-Karte]]\\ [[.cachedetails#list_management|Cache-Details]]|
+|Langer Druck auf das Kompassrosen-Symbol|Während ein kurzer Klick die Standardnavigation startet, startet ein langer Klick die zweite bevorzugte Navigation (Standard=Karte, kann in den [[.mainmenu:settings#navigation|Einstellungen]] geändert werden).|[[.mainmenu:livemap#top_bar_menu|Live-Karte]]\\ [[.cachedetails#top_bar_menu|Cache-Details]]|
+|Klick auf Filterbenachrichtigung auf der Karte oder in Listen|Wenn du einen [[.mainmenu:globaltypefilter|globalen Cachetyp-Filter]] oder einen [[.mainmenu:lists#filtering|Listenfilter]] gesetzt hast, wird die aktive Filterung durch eine Benachrichtigung oben im Bildschirm angezeigt. Ein klick auf diese Benachrichtigung bringt dich direkt zur entsprechenden Filtereinstellung, wo du den Filter anpassen oder entfernen kannst.|[[.mainmenu:lists#list_menu|Gespeicherte Listen]]|
+|Langer Klick auf eines der Titelzeilen-Symbole|Ein langer Klick auf eines der Symbole in der Titelzeile (außer der Kompassrose, wegen ihrer anderen Funktion bei langem Klick) zeigt einen Informationstext mit der Funktion des Symbols. Du kannst dies nutzen, wenn du unsicher bzgl. der Bedeutung eines Menüsymbols bist.|z.B. [[logging#top_bar_menu|Geocache loggen]]|
+
+

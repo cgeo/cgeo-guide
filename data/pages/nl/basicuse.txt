@@ -1,0 +1,56 @@
+====== c:geo Basis ======
+
+Deze pagina beschrijft enkele basisbeginselen over Geocaching en over het gebruik van c:geo om Geocaches te vinden.
+
+===== Wat is Geocaching? =====
+
+Het uitleggen van alle details van Geocaching zou hier iets te veel zijn. Er zijn echter enkele feiten die u moet weten om Geocaching te starten met c:geo:
+
+Je moet leren over de verschillende cache typen, D / T-waarderingen, etc.
+ 
+Het kan onsuccesvol zijn om een willekeurige cache te selecteren in c:geo en daarheen te navigeren. Er is veel meer dat jemoet weten om een cache te kiezen die geschikt voor je is.
+
+De meeste geocaching-platforms die worden ondersteund door c:geo bieden gedetailleerde zelfstudies over hoe Geocaching werkt. __We raden __ aan om deze tutorials te lezen om te leren wat je moet weten om je eerste cache te vinden en hoe je het kunt loggen.
+
+Vooral is het noodzakelijk om op de hoogte te zijn van de verschillende soorten caches (meestal kun je geen mystery cache vinden op de gegeven coördinaten) en de T-classificatie (een waardering van 5 betekent dat je moet klimmen / zwemmen / duiken om de cache te krijgen)).
+
+<WRAP center round important 100%>
+Zoals alle buitenactiviteiten kan geocaching gevaarlijk zijn. Geocaching gebeurt op eigen risico, noch c:geo noch een geocaching-serviceprovider neemt verantwoordelijkheid voor je activiteiten. Let op wat je doet, zoals je ook doet voor andere buitenactiviteiten.
+</WRAP>
+
+
+===== Je eerste cache vinden met c:geo =====
+
+In het c:geo hoofdmenu kun je de items ''Live kaart'' {{:main_live_default.png?nolink|}} of ''Dichtbij'' {{:main_nearby_default.png?nolink|}} kiezen om de caches in je omgeving te bekijken.
+
+{{:nl:livemap_1.png?direct&300|}}{{ :nl:lists_1_nl.png?direct&300|}}
+
+Nadat het je is gelukt om de caches op de [[.mainmenu:livemap|kaart]] of in de [[.mainmenu:lists|Nabij lijst]] te zien, kies je een cache, die je graag wilt gaan vinden (een traditional cache met een lage D/T waardering* zal een goed startpunt zijn) en open deze door op de naam te drukken en de details van deze cache te zien.
+
+//*D/T waardering: Difficulty/Terrain ofwel Moeilijkheid/Terrein waardering//
+
+{{:nl:cachedetails_details.png?direct&300 |}}
+
+Nadat je een cache item hebt geopend, kun je naar links en rechts vegen om  [[cachedetails|meer informatie]] over de cache te bekijken (bijv cache omschrijving, extra waypoints, logboek,etc.). Lees de details tekst en schenk aandacht aan de D/T-waardering* en de attributen om meer te weten te komen over hoe deze cache gevonden en gelogd kan worden.
+
+<WRAP center round important 100%>
+Nogmaals:\\
+Het is verstandig om jezelf vertrouwd te maken met de verschillende typen, terrein waarderingen, attributen etc. voordat je begint om een cache echt te gaan zoeken!
+</WRAP>
+
+Wanneer je uiteindelijk een cache hebt geselecteerd en klaar bent om deze te gaan zoeken, druk op het ''Navigatie'' icoontje {{:ic_menu_goto.png?nolink|}} in de titelbalk van de cache details. Je krijgt [[.navigation|verschillende opties]] afhankelijk van je behoeften. Hier is een korte beschrijving van de meest belangrijke navigatie methoden:
+
+  * **[[compass|Kompas]]**:\\ Dit toont continu de afstand en de richting van de cache ten opzichte van je huidige postitie.
+{{ :nl:navigate_compass.png?direct&300 |}}
+  
+
+  * **Navigatie (Rijden, Lopen, Fietsen)**:\\ Dit zal de stap-voor-stap navigatie door middel van het gebruik van Google Maps activeren.
+{{ :en:navigate_driving.png?direct&300 |}}
+
+  * **Radar** (optioneel):\\ Als je een [[.mainmenu:utilityprograms|ondersteunende radar app]] hebt geïnstalleerd zal deze worden geopend in een radar scherm. Dit lijkt op het kompas maar de werking is een beetje anders. Typisch is dat de cache coördinaten worden gemarkeerd op de radar. Zodra de markering in het centrum staat, heb je de cache coördinaten bereikt.
+<WRAP center round tip 100%>
+Dit is slechts een korte introductie ban de functionaliteiten in c:geo. Om meer te weten te komen over de c:geo functionaliteiten lees dan verder in de [[start#users_manual|c:geo Gebruikers handleiding]].
+</WRAP>
+                  
+
+

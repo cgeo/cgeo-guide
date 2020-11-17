@@ -1,0 +1,26 @@
+
+====== Geokätköjen merkkikuvakkeet ======
+
+Sekä [[.mainmenu:livemap|livekartalla]] että [[.mainmenu:lists|tallennettujen kätköjen listalla]] c:geo saattaa näyttää pieniä merkkikuvakkeita  [[cacheicons|geokätkökuvakkeiden]] nurkassa tarjotakseen lisätietoa kätköstä ilman kätkön tietojen avaamista.
+
+Seuraava taulukko selittää näiden merkkien tarkoitukset:
+
+^ Merkki ^ Nimi ^ Selite ^
+|{{ :marker_stored.png?nolink&20 |}}|Tallennettu|Tämä geokätkö on tallennettuna offline-käyttöön johonkin lostaan.\\ Tämä merkki näytetään vain kartalla, mutta ei offline-listoilla, sillä on loogista että kaikki offline-listalla olevat kätköt on tallennettu. :-)|
+|{{ :marker_found.png?nolink&20 |}}|Löydetty|Olet jo löytänyt tämän geokätkön.|
+|{{ :marker_own.png?nolink&20 |}}|Omistaja|Tämä on yksi omista geokätköistäsi.|
+|{{ :marker_personalnote.png?nolink&20 |}}|Muistiinpano|Muistiinpano on tallennettu tälle kätkölle.|
+|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Muutetut koordinaatit|Olet asettanut kätkölle uudet koordinaatit ja ne näytetään nyt näissä koordinaateissa alkuperäisten koordinaattien sijaan. Kätevä ratkaistuille mysteereille tai multeille.|
+|{{ :marker_found_offline.png?nolink&20 |}}|Offline "löytyi"-kirjaus|Olet tallentanut offline-löytökirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_not_found_offline.png?nolink&20 |}}|Offline "ei löytynyt"-kirjaus|Olet tallentanut offline-"ei löytynyt"-kirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_note.png?nolink&20 |}}|Offline "muistiinpano"-kirjaus|Olet tallentanut offline-muistiinpanokirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_maintenance.png?nolink&20 |}}|Offline "tarvitsee huoltoa"-kirjaus|Olet tallentanut offline-"tarvitsee huoltoa"-kirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_owner_maintenance.png?nolink&20 |}}|Offline "huolto suoritettu-kirjaus"|Olet tallentanut offline-"huolto suoritettu"-kirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila on saatavilla vain kätkön omistajille ja näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_archive.png?nolink&20 |}}|Offline "Tarvitsee arkistoida"-kirjaus|Olet tallentanut offline-"tarvitsee arkistoida"-kirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :marker_unknown_offline.png?nolink&20 |}}|Offline tuntematon loki|Olet tallentanut erityisen tai tuntemattoman offline-kirjauksen tälle kätkölle mutta et ole vielä lähettänyt sitä sivustolle.\\ Tämä tila näytetään vain niin kauan kuin kirjaus on offline-tilassa.|
+|{{ :dot_traditional.png?nolink&20 |}}|Vihreä listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut vihreän listamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).| 
+|{{ :dot_multi.png?nolink&20 |}}|Oranssi listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut oranssin listamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).|  
+|{{ :dot_mystery.png?nolink&20 |}}|Sininen listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut sinisen listamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).| 
+|{{ :dot_event.png?nolink&20 |}}|Punainen listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut punaisenlistamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).| 
+|{{ :dot_virtual.png?nolink&20 |}}|Turkoosi listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut turkoosin listamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).| 
+|{{ :dot_black.png?nolink&20 |}}|Musta listamerkki|Kätkö kuuluu tallennettujen kätköjen listaan, jolle olet asettanut mustan listamerkin (katso [[.mainmenu:​lists#​manage_lists|Hallitse listoja]]).| 

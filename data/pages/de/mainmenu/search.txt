@@ -1,0 +1,22 @@
+====== Suchfunktion ======
+
+{{:main_search_default.png?nolink&100 |}}
+
+Das Suchmenü enthält mehrere Suchfunktionen wie unten beschrieben. Alle Standort- und nutzerspezifischen Suchfunktionen geben als Ergebnis eine [[lists|Liste von Caches]] zurück, wo hingegen die Suche nach Geocode und Trackables direkt die [[..:cachedetails|Cache-Details]] bzw. [[..:trackabledetails|Trackable-Details]] zeigt.
+\\ \\ \\ \\
+
+{{:en:search_1_en.png?direct&400|}}{{ :en:search_2_en.png?direct&400|}}
+
+<WRAP center round info 100%>
+Grundsätzlich nutzen alle Suchfunktionen alle aktivierten Geocaching-Plattformen gleichzeitig und zeigen die Ergebnisse in einer kombinierten Liste an. Dies hängt im Detail davon ab, welche Funktionen die jeweiligen Geocaching-Dienste unterstützen, wie im [[settings#Services|Menü der Diensteeinstellung]] beschrieben ist.
+</WRAP>
+
+^ Suchfunktion ^ Beschreibung ^
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Ein Klick auf dieses Symbol zeigt eine Liste deiner eigenen Caches|
+|Koordinaten|Sucht nach Caches in der Nähe der angegebenen Koordinaten. Für mehr Informationen zur Nutzung schaue auf die Seite [[..:coordinatedialog|Koordinateneingabe]].|
+|Adresse|Suche für Caches in der Nähe einer Adresse. Wir nutzen den Google Geocoding-Dienst um die Adresse zu finden und in Koordinaten umzuwandeln.\\ Wenn die Adresse gefunden wurde, kannst du entweder eine Liste der Caches in der Nähe dieses Standortes anschauen oder die  [[livemap|Live-Karte]] für diese Adresse öffnen, indem du auf das kleine Kartensymbol in der Ergebnisliste klickst.|
+|Geocode|Sucht nach einem spezifischen Geocode für alle unterstützen Geocaching-Plattformen abhängig vom Beginn des Codes (z.B. GC77, OC1234).|
+|Stichworte|Sucht nach Caches **beginnend mit** dem angegebenen Stichwort.\\ \\ :!: Eine Stichwortsuche nach allen Caches, die das Stichwort **enthalten** ist derzeit aufgrund von technischen Einschränkungen nicht möglich.|
+|Gefunden von|Sucht nach Caches, die vom angegebenen Benutzer gefunden wurden.|
+|Versteckt von|Sucht nach Caches, die vom angegebenen Benutzer versteckt wurden.|
+|Trackable|Sucht nach Trackables unter Verwendung ihres öffentlichen oder geheimen Trackingcodes. Diese Suche unterstützt sowohl geocaching.com Trackables als auch andere Trackable-Dienste (z.B. [[http://geokrety.org|GeoKrety]]).|

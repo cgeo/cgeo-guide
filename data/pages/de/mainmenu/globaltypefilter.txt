@@ -1,0 +1,22 @@
+====== Globaler Cachetyp-Filter ======
+
+{{:main_filter_default.png?nolink&100 |}}
+
+Mit diesem Menü kannst du die Caches filtern, die auf der Live-Karte, der Nahbereichssuche und bei der Suche angezeigt werden, auf einen Cachetyp beschränken. Wähle einfach den gewünschten Cachetyp aus.
+\\ \\ \\ \\
+
+{{:en:global_cache_type_filter_en.png?direct&400 |}}
+
+
+<WRAP center round important 40%>
+Die Filtereinstellung bleibt dauerhaft aktiv (auch wenn du c:geo neu startest) bis du sie veränderst oder löschst.
+</WRAP>
+
+<WRAP center round info 40%>
+Beachte bitte, dass du derzeit nur entweder alle Caches sehen oder genau einen Cachetyp filtern kannst.
+</WRAP>
+
+<WRAP center round tip 40%>
+Die verschiedenen Cachetypen werden auf der Seite [[..cacheicons|Typen von Geocaches in c:geo]] näher erläutert.
+</WRAP>
+

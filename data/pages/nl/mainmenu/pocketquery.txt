@@ -1,0 +1,17 @@
+====== Pocket Queries ======
+
+{{:ic_menu_pocket_query_reverted.png?nolink&50 |}}
+
+Met deze functie kun je de bestaande pocketquery's op de geocaching-server bekijken en ze weergeven als een [[lists|lijst]] of de hele pocket query importeren gelijksoortig als [[..offline#gpx_import|een GPX bestand importeren]].
+
+<WRAP center round info 100%>
+Dit menu is alleen beschikbaar voor premium leden van geocaching.com premium members, omdat pocket queries een premium functie is.
+</WRAP>
+
+Na het selecteren van deze menufunctie wordt de lijst met pocketquery's als volgt vanaf de server geladen:
+
+{{:en:pocketquery.png?nolink&400 |}}
+
+In de lijst wordt elke bestaande pocketquery met de naam als titel weergegeven. De ondertitel biedt informatie over het aantal caches in elke query, de dag waarop de query is uitgevoerd en de resterende dagen dat de query beschikbaar zal zijn op de server.
+
+Het {{:ic_menu_save.png?nolink&20|}} icoon kan worden gebruikt om de hele pocket query naar één van je lijsten te laden, het  {{:abc_ic_search_api_holo_light.png?nolink&20|}} icoon zal de pocket query voor preview openen.

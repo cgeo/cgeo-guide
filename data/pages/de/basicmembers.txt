@@ -1,0 +1,17 @@
+====== Einschränkungen für geocaching.com-Basismitglieder ======
+
+[[https://www.geocaching.com|geocaching.com]] bietet sowohl eine kostenlose Basismitgliedschaft als auch eine kostenpflichtige Premiummitgliedschaft an. Die Premiummitgliedschaft enthält einige zusätzliche Funktionen, die Basismitgliedern nicht zur Verfügung stehen.
+
+Während c:geo selbst quelloffen und komplett kostenlos ist, sind daher dennoch einige Funktionen von c:geo nur für Premiummitglieder von geocaching.com verfügbar, da sie Premium-Funktionen dort nutzen. Desweiteren funktionieren einige Dinge in c:geo unterschiedlich oder nur begrenzt für Basismitglieder.
+
+C:geo hat keine kommerzielle Verbindung mit geocaching.com Die Premiummitgliedschaft ist ein Produkt von [[https://www.geocaching.com|Groundspeak]] und muss auf ihrer Webseite gekauft werden. Du musst je nach deinem Bedarf selbst entscheiden, ob du eine Premiummitgliedschaft benötigst.
+
+Die folgende Tabelle gibt dir einen Überblick über die Unterschiede und Beschränkungen für Basismitglieder in c:geo:
+ 
+^ Funktion ^ Beschränkung/Unterschied als Basismitglied ^
+|Premium only-Caches|Auf geocaching.com kann der Besitzer eines Caches entscheiden, dass sein Cache nur für Premiummitglieder sichtbar ist. Als Basismitglied kannst du daher nicht auf die [[cachedetails|Cache-Details]] dieser Caches zugreifen und seinen Standort icht sehen.|
+|[[.mainmenu:lists|Suchergebnisse]]|Für Basismitglieder enthalten die Suchergebnisse keine Koordinaten oder weitere Detailinformationen. Daher kann das Suchergebnis auch nicht auf einer Karte angezeigt werden, sondern die Caches müssen vorher geöffnet oder heruntergeladen werden.\\ Desweiteren sind die Entfernungs- und Richtungsangaben in den Suchergebnissen nur eine Abschätzung.|
+|[[.mainmenu:pocketquery|Pocket-Query]]|Pocket-Queries sind eine Premiumfunktion. Daher wird diese Menüfunktion in c:Geo nur angezeigt, wenn du ein Premiummitglied bist.|
+|[[cachedetails#favorite|Favoritenpunkte]]|Die Vergabe von Favoritenpunkten für gefundene Caches ist eine Premiumfunktion. Alle Menüpunkte zur Vergabe von Favoritenpunkten werden daher für Basismitglieder nicht angezeigt.|
+|[[cachedetails#personal_note|Hochladen der persönlichen Notiz]]|Während alle Nutzer von c:geo eine persönliche Notiz für einen Cache speichern können, können nur Premiummitglieder diese Notiz auf die Geocaching-Webseite hochladen und dort dauerhaft speichern.|
+

@@ -1,0 +1,47 @@
+====== Benutzerdefinierte Caches ======
+
+Du kannst mit c:geo benutzerdefinierte Caches erstellen. Diese können z.B. zur Planung deiner eigenen Caches oder auch nur zur Aufzeichnung von POI verwendet werden.
+Desweiteren erstellt c:geo automatisch einen benutzerdefinierten Cache um deine [[.mainmenu:goto|"Gehe zu"-Ziele]] zu speichern.
+
+Benutzerdefinierte Caches werden mit dem [[.cacheicons|Cachetyp-Symbol]] eines virtuellen Caches in deinen Listen und auf der Karte angezeigt.
+
+<WRAP center round info 100%>
+Obwohl du benutzerdefinierte Caches für die Planung deiner eigenen Cacheverstecke nutzen kannst, ist es nicht möglich deinen neuen Cache mit c:geo zu veröffentlichen. Die benutzerdefinierten Caches sind lediglich ein Hilfsmittel für die Planung aber beinhalten keine Online-Funktion um diese an die Geocaching-Plattform zu übermitteln.
+</WRAP>
+
+
+
+===== Erstellung eines benutzerdefinierten Caches =====
+
+Du kannst benutzerdefinierte Caches auf zwei Wegen erstellen:
+  - Öffne eine Liste gespeicherter Caches und wähle ''Caches verwalten'' -> ''Benutzerdefinierten Cache erstellen'' aus dem  [[.mainmenu:lists#manage_caches|Listen-Menü]].
+  - Klicke lang auf auf Karte um die Erstellung eines benutzerdefinierten Caches zu starten. Diese Langklick-Funktion musst du in den [[.mainmenu:settings#map_behavior|Einstellungen für das Kartenverhalten]] aktivieren.
+
+Nach der Durchführung dieser Schritte wirst du nach dem Titel für den benutzerdefinierten Caches gefragt:
+
+{{:en:udc_create.png?direct400|}}
+
+Danach wird der benutzerdefinierte Cache erstellt und entweder auf der aktuellen Liste (wenn aus dem [[.mainmenu:lists#manage_caches|Listen-Menü]] erstellt) oder auf deiner Standardliste (wenn durch Langklick auf der Karte erstellt) gespeichert.
+
+Wenn der Cache über die Karte erstellt wurde, enthält er bereits die Stelle, auf die du geklickt hast, als Cache-Koordinaten. Wenn du ihn pber die Liste erstellt hast, sind die Cache-Koordinaten leer, bis du einen Wegpunkt erstellt und dessen Koordinaten als Listing-Koordinaten übernimmst.
+
+So sieht ein typischer benutzerdefinierte Cache aus:
+
+^ Wegpunkte ^ Details ^ Beschreibung ^
+|{{:en:udc_waypoints.png?direct300|}}|{{:en:udc_details.png?direct300|}}|{{:en:udc_description.png?direct300|}}|
+
+===== Umgang mit benutzerdefinierten Caches =====
+
+Trotz der Tatsache, dass du den Cache selber erstellt hast, kannst du mit ihn genauso wie allen anderen Caches in c:geo verwalten (z.B. Wegpunkte hinzufügen, auf andere Listen verschieben, usw.).
+Allerdings stehen einige Funktionen (noch) nicht zur Verfügung, da es kein normaler Cache ist:
+
+^ Funktion ^ Einschränkung ^
+|Cachetyp|Benutzerdefinierte Caches sind ein eigener Cachetyp in c:geo.|
+|Cachebeschreibung|Es ist noch nicht möglich einen eigenen Text als Cachebeschreibung einzugeben. Die Beschreibung enthält nur "Dies ist ein benutzerdefinierter Cache". Es ist geplant, diese Funktion in einer zukünftigen Version von c:geo zu realisieren. Als Abhilfe kannst du die persönliche Noitz oder die Wegpunkt-Beschreibungen benutzen.|
+|Geocode|Der Geocode wird von c:geo automatisch verwaltet (nutzt das Präfix ''ZZ''). Du kannst den Geocode nicht ändern.|
+|D/T, Größe|Eine Angabe ist für benutzerdefinierte Caches nicht möglich.|
+|Attribute|Attribute werden für benutzerdefinierte Caches nicht unterstützt.|
+|Loggen|Da dies dein eigener lokal erstellter Cache ist, kannst du dafür keine Logeinträge übermitteln.|
+|Logbuch|Da dein lokal erstellter Cache von niemandem geloggt werden kann, gibt es keine Logbuchseite.|
+|Aktualisierung|Da der benutzerdefinierte Cache nur lokal gespeichert ist, kannst du es nicht zum/vom Server aktualisieren.|
+

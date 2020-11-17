@@ -1,0 +1,107 @@
+====== Trackable handling ======
+
+===== Supported trackables =====
+{{anchor:supported_trackables:}}
+
+c:geo supports various types of trackable items provided by different platforms:
+
+^ Icon ^ Type ^ Description ^ Functions ^
+|{{ :trackable_travelbug.png?nolink&40 |}}|Travel Bug|Trackable items of [[https://www.geocaching.com/track/|geocaching.com]]|Full support of all trackable functions|
+|{{ :trackable_geokrety.png?nolink&40 |}}|GeoKrety|Trackable items of [[https://www.geokrety.org|geokrety.org]]|Full support of all trackable functions|
+|{{ :trackable_geolutins.png?nolink&30 |}}|GeoLutin|Trackable items of [[http://www.geolutins.com|geolutins.com]]|Search trackable and show trackable information only.|
+
+===== Searching for a trackable =====
+{{anchor:searching_for_a_trackable:}}
+
+Most trackable items have two different lookup codes, which can be used to identify and search for the trackable:
+  * **Public trackable code:**\\ The non-secret trackable code (e.g. TBxxxx, GKxxxx, GLxxxx). This code can be used to search for the trackable and show its details, but cannot be used for logging the trackable.\\ \\ You can use the public tracking code to search for a trackable using either the [[.mainmenu:search|search function]] or the [[.mainmenu:quicksearch|quick search bar]].\\ \\ The search will show you the [[[[trackabledetails|trackable details]] of the trackable, from where you can start logging the trackable (if you also know the secret tracking code of it).
+
+  * **Secret tracking code:**\\ A non-public tracking code typically only printed on the trackable item. This code is needed to post a log for a trackable item, to ensure that you have physically seen/moved this trackable.\\ \\ The secret tracking code will be required while composing your trackable log. For geocaching.com trackables you can also use the secret code in the [[.mainmenu:search|search function]]. This will not work for other trackable brands than Travel Bugs as c:geo can not distinguish the trackable brand by its secret code and therefore assumes geocaching.com as default.\\ \\ The [[.mainmenu:quicksearch|quick search bar]] can also be used to search a trackable by its secret code unless it coincidentally starts with an identifier reserved for geocaches (e.g. GCxxxx, OCxxxx, OUxxxx), in which case c:geo cannot distinguish if you search for a secret code of a trackable or a geocache. In such cases you have to use the [[.mainmenu:search|search function]] instead. \\ \\ The search will show you the [[[[trackabledetails|trackable details]] of the trackable, from where you can start logging the trackable.
+
+===== Logging a trackable =====
+{{anchor:logging_a_trackable:}}
+
+From the trackable details view you can start logging the trackable, which will open this logging screen:
+
+{{:en:loggingtb.png?direct&400 |}}
+==== Top Bar Menu ====
+{{anchor:top_bar_menu:}}
+
+
+<WRAP center round info 100%>
+The icons shown in the top bar and the contents behind the overflow menu button are distributed dynamically based on your device resolution and screen orientation. Thus it might be possible, that more or less items can be found behind the menu button or instead shown as icons in the top bar on your device.\\
+In case a menu entry is shown as an icon you can long press the icon to get a popup showing its function.
+</WRAP>
+
+^ Icon ^ Function ^ Description ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Send log|Use this button to send your log online after you finished composing it.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Add a template|This allows you to either add a [[.mainmenu:settings#placeholder_templates|template]] or your signature to the log.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+| |Smilies|Opens a list of smiley tags you can insert into your log.|
+| |Repeat last log|This function will insert the log text of the last trackable you logged into the log text field.|
+
+
+==== Log type ====
+{{anchor:log_type:}}
+
+{{ :en:loggingtb_logtype.png?nolink&400 |}}
+
+Depending on the trackable brand, its current state and if you are owner of the trackable, different log types can be selected by clicking on this field:
+
+^Log Type ^ Description ^
+|Retrieved|You retrieved this trackable from the geocache, where it is currently listed.|
+|Discovered|You only want to report, that you have seen this trackable but did not perform any other action with it.|
+|Dropped Off|You placed this trackable into a geocache.\\ \\ :!: This log type is only available for GeoKrety, as geocaching.com dropped off logs are always combined with a cache log and therefore included on the [[logging#inventory|geocache logging page]].|
+|Visited|You want to let this trackable visit a geocache.\\ \\ :!: This log type is only available for GeoKrety, as geocaching.com visited logs are always combined with a cache log and therefore included on the [[logging#inventory|geocache logging page]].|
+|Grabbed somewhere|You want to transfer this trackable into your inventory but did not find it in a cache but grabbed it from another user or an unknown location.|
+|Note|You want to write a comment/note for this trackable.|
+|Move to Collection|If a geocaching.com trackable is marked as collectible, you can use this log type to move the trackable from your inventory to your personal trackable collection.|
+|Move to Inventory|If a geocaching.com trackable is currently in your collection, you can use this log type to move the trackable to your inventory.|
+
+
+==== Log date/time ====
+{{anchor:log_date_time:}}
+
+{{:en:loggingtb_datetime.png?nolink&400 |}}
+
+Select the date (and time - only supported for GeoKrety) associated with your log.
+
+==== Tracking code ====
+{{anchor:tracking_code:}}
+
+{{:en:loggingtb_trackingcode.png?nolink&400 |}}
+
+Enter the secret tracking code into this field before posting your log. You will need the secret code to post any log besides ''Note''. GeoKrety also requires the secret code to post a ''Note''.
+
+The secret code will be already shown in this field if you used it to search for this trackable or if this trackable is currently in your inventory.
+
+
+==== Log text ====
+{{anchor:log_text:}}
+
+{{:en:loggingtb_logtext.png?nolink&400 |}}
+
+Enter your individual log into this field.
+
+==== Social media ====
+{{anchor:social_media:}}
+
+{{:en:loggingtb_socialmedia.png?nolink&400 |}}
+
+If you connected c:geo with [[https://twitter.com|Twitter]] in the [[.mainmenu:settings#social_media|settings]] this field will be shown. If you enable the checkbox c:geo will post a tweet in parallel to sending this log.
+
+==== Special fields ====
+{{anchor:special_fields:}}
+
+{{:en:loggingtb_dropoff_gk.png?nolink&300 |}}
+
+In case you compose a ''Dropped Off'' log for a GeoKrety trackable, you will need to define the geo code and/or the coordinates of the cache, where you dropped this trackable.
+
+Use the field ''Geo code'' to enter the geo code of the cache where your dropped the trackable or click on ''Coordinates'' to open the [[coordinatedialog|coordinate input dialog]] and enter the coordinates, where you dropped off the trackable.
+
+===== Trackable Inventory =====
+{{anchor:trackable_inventory:}}
+
+The trackable inventory is the list of all trackables you currently have in your hands (i.e. you retrieved them from a cache or grabbed them from another user).
+
+At the moment c:geo does not support a dedicated view of your trackable inventory. However you will see you complete inventory on the [[logging#inventory|inventory section]] of the [[logging|cache logging page]], while composing a log for a geocache.

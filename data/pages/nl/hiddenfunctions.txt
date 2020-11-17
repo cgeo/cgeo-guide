@@ -1,0 +1,13 @@
+====== Verborgen functies in c:geo ======
+
+Hoewel we alle functies van c:geo zo toegankelijk en vanzelfsprekend mogelijk proberen te maken, zijn er nog steeds een aantal sneltoetsen en geavanceerde functies die je misschien niet meteen kunt vinden.
+
+Al deze verborgen functies worden ook uitgelegd in het relevante gedeelte van deze gebruikershandleiding, maar voor degenen die al bekend zijn met de belangrijkste c:geo-functies, hebben we ze hier ook verzameld, om de gebruikservaring te verbeteren:
+
+^ Toegang tot ^ Functie ^ Link naar deel van de gebruikershandleiding ^
+| Druk lang op het pictogram van de opgeslagen caches in het hoofdmenu | Hiermee kunt je eéén van de opgeslagen lijsten rechtstreeks kiezen en openen, in plaats van eerst de lijst te openen en vervolgens de bovenste balk te gebruiken om een andere lijst te selecteren | [[.mainmenu:start#main_icons|Hoofdmenu]] |
+| Druk lang op het algemene filterpictogram in het hoofdmenu | Reset het filter (naar '' Alle caches '') in het geval dat een filter actief is | [[.mainmenu:start#main_icons|Hoofdmenu]]|
+| Druk lang op het schijfpictogram in cachegegevens of op de kaart pop-up. Zal niet om de lijst vragen, waar de cache wordt opgeslagen, maar in plaats daarvan de laatste selectie gebruiken en opslaan | [[. .mainmenu:livemap#list_management | Live kaart]] \\ |[[.cachedetails#list_management| | cachegegevens]] |
+| Druk lang op het kompasroos icoon in cache details of kaart pop-up. Terwijl een korte klik je standaard navigatie start, zal een lange klik op dit pictogram je secundaire voorkeursnavigatie starten (Standaard = Kaart, kan worden gewijzigd in [[.mainmenu: settings#navigation | instellingen]]). | [[. mainmenu: livemap # top_bar_menu | Live kaart]] \\ [[.cachedetails# top_bar_menu | cachegegevens]] |
+| Klik op filtermelding op kaart of lijsten |Als je een [[.mainmenu:globaltypefilter|global cache type filter]] of een [[.mainmenu: lists#filtering | lijstfilter]] hebt ingesteld, wordt de actieve filtering getoond door een filterindicatie bovenaan het scherm onder het bovenste balke menu. Als je op deze indicatie drukt, worden de bijbehorende filterinstellingen direct geopend om het filter te wijzigen / verwijderen. | [[. mainmenu: lists# list_menu | Opgeslagen lijsten]] |
+| Klik lang op een pictogram in het menu van de bovenste balk | Klik lang op één van de pictogrammen in het menu van de bovenste balk in c:geo (met uitzondering van de kompasroos, vanwege de verschillende functies voor lange klikken, zoals hierboven beschreven) wordt een info tekst weergegeven van de bijbehorende functie. Je kunt dit gebruiken als je niet zeker weet wat een menu pictogram betekent. | Bijv. [[Logging# top_bar_menu | Geocaches loggen]] .|

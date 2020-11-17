@@ -1,0 +1,51 @@
+====== c:geon yhteystietolisäosa ======
+
+{{:ic_launcher_contacts-playstore.png?nolink&200 |}}
+
+Tämä on c:geon yhteystietolisäosa. Se toimii vain c:geon ollessa asennettuna ja antaa suoran pääsyn yhteystietoihisi kun napautat nimimerkkiä c:geossa.
+
+Syy, miksi emme tarjoa tätä c:geon osana vaan erillisenä lisäosana, on se, että vanhemmat Android-versiot voivat näyttää sovelluksen lupapyynnöt vain asennuksen aikana mutta ei sovelluksen käytön aikana. 
+
+Koska moni käyttäjistä eivät ymmärrä, miksi c:geo tarvitsee pääsyn yhteystietoihin, päätimme erottaa tämän toiminnon erilliseksi lisäosaksi. 
+
+Näin käyttäjät, jotka ovat kiinnostuneet kyseisestä toiminnosta, ja ymmärtävät lupien käytön tähän liittyen, voivat käyttää toimintoa. Muut käyttäjät voivat käyttää c:geota kyseisen lupapyynnön häiritsemättä.
+
+Viime aikoina Android on alkanut tukemaan sovelluksen käytön aikaisia lupia, joten saatamme tulevaisuudessa integroida toiminnon takaisin pääsovellukseen.
+
+
+===== Asennus =====
+
+Voit ladata ja asentaa c:geon yhteystietolisäosan [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Playsta]].
+
+Asennuksen jälkeen, lisäosa ei esiinny erillisenä sovelluksena laitteessasi, vaan lisäosa integroituu c:geoon yhteystietojen toimintojen osaksi.
+
+
+===== Käyttö =====
+
+Kun klikkaat käyttäjänimeä c:geon eri paikoissa (kuten [[.:cachedetails#logbook_tab|kätkön lokikirjassa]]), ilmestyvä valikko sisältää valinnan, jolla voit avata kyseisen kätköilijän yhteystiedot yhteystiedoissasi. Tämä antaa mahdollisuuden soittaa tai lähettää tekstiviesti suoraan kyseiselle kätköilijälle.
+
+{{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
+
+
+
+Jotta tämä toiminto voi löytää osuman, kyseisen henkilön nimimerkki tulee olla tallennettuna yhteystiedon ''Nimi'' tai ''Alias''/''Nimimerkki'' -kenttään. Varmistathan, että henkilön geokätköilynimimerkki on tallennettuna yhteystiedon yhteen edellämainittuun kenttään samalla tavalla kuten se näytetään c:geossa.
+
+Toissijaisesti lisäosa yrittää myös etsiä osumia verraten nimimerkkiä yhteystietoihin tallennettuun täyteen nimeen.
+
+
+
+===== Tietosuojalausunto =====
+
+==== Mitä tietoja c:geon yhteystietolisäosa kerää? ====
+
+
+Yhteystietolisäosa tarvitsee luvan käyttää laitteesi yhteystietoja, jotta se voi etsiä muiden geokätköilijöiden tietoja yhteystiedoistasi käyttöösi. C:geon yhteystietolisäosa avaa yhteystietosi vain sinun itsesi niin pyydettäessä, kun valitset "Avaa yhteystiedot" c:geossa. Niin pitkään kuin et käytä kyseistä toimintoa, lisäosa ei hae tietoja yhteystiedoistasi.
+
+==== Kuinka c:geon yhteystietolisäosa käyttää tietoja? ====
+
+Kun valitset ''Avaa yhteystiedot'', c:geon yhteystietolisäosa etsii yhteystiedoistasi mahdollista yhteensopivaa osumaa, verraten geokätköilijän nimeä yhteystietojen nimi- tai nimimerkkikentässä olevaan tietoon. Se ei kirjoita mitään yhteystietoihin tai tallenna tietoja c:geoon tai sen yhteystietolisäosaan.
+
+==== Kenen kanssa tiedot jaetaan? ====
+
+Yhteystietojasi ei kopioida c:geoon eikä jaeta kolmansille osapuolille.
+

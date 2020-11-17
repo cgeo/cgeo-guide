@@ -1,0 +1,12 @@
+====== Geokätköilyyn liittyvät linkit ======
+
+c:geo rekisteröi itsensä geokätköilyyn liittyviin linkkeihin, joten c:geo näkyy mahdollisena kohdesovelluksena kun klikkaat yhtä näistä linkeistä toisessa sovelluksessa.
+
+Esimerkiksi c:geo rekisteröi itsensä linkkeihin, jotka alkavat ''http://coord.info/GC'' jota käytetään geocaching.comin käyttäjilleen lähettämissä sähköpostiviesteissä ja kohteena on tietyn kätkön tiedot. Tällaisen linkin klikkaus missä tahansa sovelluksessa ja c:geon valitseminen kohdesovelluksena avaa linkissä olevan kätkön tiedot suoraan c:geossa. Sama pätee myös muiden geokätköilysivustoiden linkkeihin.
+
+Kun sinulta kysytään mitä sovellusta käytetään näiden linkkien aukaisuun, voit myös valita c:geon oletussovellukseksi tälle linkkityypille. Tämän jälkeen laitteesi avaa c:geon suoraan kun tällaista linkkiä klikataan.
+
+<WRAP center round tip 100%>
+Kaikkien geokätköilylinkkien asettamisella c:geolla avattavaksi on huono puoli, että (riippuen laittestasi ja Android-versiosta) käytettäessä ''Avaa selaimessa'' toimintoa c:geossa, kätkön tiedot aukeavat uudelleen itse c:geossa selaimen sijaan.\\
+[[http://faq.cgeo.org#open-in-browser|FAQ (englanniksi)]] selostaa kuinka ratkaista tämä ongelma.
+</WRAP>

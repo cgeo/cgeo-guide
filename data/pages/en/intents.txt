@@ -1,0 +1,12 @@
+====== Geocaching related links ======
+
+c:geo will register itself for geocaching specific hyperlinks, so that c:geo will be shown as possible target app, when you click on one of those links in another app.
+
+For example c:geo will register for links starting with ''http://coord.info/GC'' which is used in mails sent by geocaching.com to their users and target a certain cache listing. Clicking on this link in any app and selecting c:geo as target app, will directly open the cache details of the linked cache in c:geo. The same applies for geocaching related links of other geocaching platforms.
+
+When being asked which app to use to open these links, you can also select c:geo as default app for this link type. Afterwards your device will directly start c:geo when such a link is clicked.
+
+<WRAP center round tip 100%>
+The downside of assigning c:geo with all geocache related links as default is, that (depending on your device and Android version) using the ''Open in browser'' function of c:geo might now only open c:geo itself.\\
+Our [[http://faq.cgeo.org#open-in-browser|FAQ]] describes how to resolve this problem.
+</WRAP>

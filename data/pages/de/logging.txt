@@ -1,0 +1,125 @@
+====== Loggen von Geocaches ======
+
+Wenn du auswählst einen Logeintrag für einen Geocache zu erstellen, wird der folgende Bildschirm angezeigt:
+
+{{:en:logging.png?direct&300 |}}{{:en:logging_2.png?direct&300 |}}
+
+===== Titelzeilen-Menü =====
+{{anchor:top_bar_menu:}}
+
+<WRAP center round info 100%>
+Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+</WRAP>
+
+^ Symbol ^ Funktion ^ Beschreibung ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Senden|benutze diese Schaltfläche um dein Log online abzusenden, nachdem du es fertig geschrieben hast.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Hinzufügen|Dies erlaubt dir entweder eine Vorlage [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Logtext hinzuzufügen.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Bild hinzufügen]]|Dies erlaubt es dir ein existierende Bild zum Log hinzuzufügen oder ein neues Bild aufzunehmen, und dann zum Log hinzuzufügen.|
+| |Smileys|Öffnet eine Liste von Smiley-Markierungen, die du in deinen Logtext einfügen kannst.|
+| |Offline speichern|Speichert das geschriebene Log offline anstatt es online zu senden.|
+| |Verwende das letzte Log erneut|Diese Funktion fügt den Logtext deines zuletzt geloggten Caches in das Textfeld ein.|
+| |Trackables sortieren|Du kannst die Trackable-Liste entweder alphabetisch nach dem Trackable-Namen oder dem Tracking-Code sortieren.|
+| |Leeren|Dies löscht den Logtext und setzt den Log-Bildschirm zurück.|
+
+===== Logbildschirm =====
+{{anchor:logging_screen:}}
+
+==== Logtypen ====
+{{anchor:log_types:}}
+
+{{ :en:logging_logtype.png?nolink&300 |}}
+
+^ Logtyp ^ Beschreibung ^
+|Gefunden|Du hast den Cache gefunden.\\ Dies ist der Standard-Logtyp, wenn du den Log-Bildschirm öffnest.\\ \\ :!: Dieser Logtyp ist nicht mehr verfügbar, wenn du bereits ein Gefunden-Log für diesen Caches vorgenommen hast.|
+|Habe teilgenommen|Dieser Logtyp ist nur für Event-Caches verfügbar und ersetzt dort den ''Gefunden''-Log.|
+|Webcam-Foto gemacht|Dieser Logtyp ist nur für Webcam-Caches verfügbar und ersetzt dort den ''Gefunden''-Log.|
+|Werde teilnehmen|Dieser Logtyp ist nur bei Event-Caches verfügbar und ermöglicht es dir deine geplante Teilnahme am Event zu melden.|
+|Nicht gefunden|Du hast den Cache nicht gefunden.|
+|Bemerkung|Schreibe einen Kommentar/Bemerkung zu diesem Cache.|
+|Wartung benötigt|Wähle diesen Logtyp um mitzutielen, dass der Cache eine Wartung durch den Besitzer benötigt.\\ \\ :!:  Dieser Logtyp steht für geocaching.com und einige Opencaching-Seiten nicht mehr zur Verfügung, sondern wurde durch die Funktion [[logging#report_problem|Problem melden]] ersetzt.|
+|Sollte archiviert werden|Wähle diesen Logtyp um mitzuteilen, dass der Cache archiviert werden sollte.\\ \\ :!:  Dieser Logtyp steht für geocaching.com und einige Opencaching-Seiten nicht mehr zur Verfügung, sondern wurde durch die Funktion [[logging#report_problem|Problem melden]] ersetzt.|
+|Wartung druchgeführt|Dieser Logtyp ist nur verfügbar, wenn du der Besitzer des Caches bist und erlaubt es dir einen Log zur durchgeführten Wartung deines Caches zu schreiben.|
+|Deaktiviert|Dieser Logtyp ist nur verfügbar, wenn du der Besitzer des Caches bist und kann genutzt werden um deinen Cache temporär zu deaktivieren.|
+|Aktiviert|Dieser Logtyp ist nur verfügbar, wenn du der Besitzer des Caches bist und dieser momentan deaktiviert ist. Er kann genutzt werden um deinen Cache wieder zu aktivieren.|
+|Archiviert|Dieser Logtyp ist nur verfügbar, wenn du der Besitzer des Caches bist und kann dazu genutzt werden den Cache dauerhaft zu archivieren.|
+
+==== Logdatum ====
+{{anchor:log_date:}}
+
+{{:en:logging_date.png?nolink&300 |}}
+
+Standardmäßig wird c:geo das aktuelle Datum auswählen und ''Heute'' in diesem Feld anzeigen. Du kannst allerdings auf das Feld klicken, um ein Kalendertool zu öffnen, wo du ein anderes Datum für deinen Log auswählen kannst.
+
+==== Problem melden ====
+{{anchor:report_problem:}}
+
+{{ :en:logging_problem.png?nolink&300 |}} 
+{{ :en:logging_problem_2.png?nolink&300 |}}
+
+Für Caches von geocaching.com und einigen Opencaching-Seiten kannst du parallel zu deinem "Gefunden" oder "Nicht gefunden"-Logeintrag melden, dass es ein Problem mit diesem Cache gibt.
+
+Klicke auf das Feld um ein Dropdown-Menü zu öffnen, welches die verfügbaren Problemmeldungen (abhängig vom Geocaching-Dienst, Cachetyp, Cachestatus und Logtyp) anzeigt:
+
+^ Menüeintrag ^ Beschreibung ^
+|Kein Problen|Deinem Log wird keine Problemmeldung hinzugefügt.\\ Dies ist die Standardauswahl.|
+|Logbuch ist voll|Informiert den Besitzer darüber, dass das Logbuch des Caches voll ist.|
+|Cache ist evtl. verschwunden|Informiert den Besitzer darüber, dass der Cache evtl. nicht mehr vorhanden ist.\\ Dieser Problemtyp ist nicht im Zusammenhang mit einem "Gefunden"-Log verfügbar.|
+|Behälter ist beschädigt|Informiert den Besitzer darüber, dass etwas mit dem Behälter des Caches nicht stimmt.|
+|Cache sollte archiviert werden|Informiert den Reviewer/Administrator des Geocaching-Dienstes darüber, dass dieser Cache archiviert werden sollte.|
+|Anderes|Ein anderes Problem, welches du in deinem Logtext näher beschreiben solltest.|
+
+==== GCVote Bewertung ====
+{{anchor:gcvote_rating:}}
+
+{{:en:logging_gcvote.png?nolink&300 |}}
+
+Dieser Bereich wird nur angezeigt wenn du [[http://gcvote.com|GCVote]] in den [[.mainmenu:settings|Einstellungen]] aktiviert und autorisiert hast. Du kannst dann hier die Qualitätsbewertung für diesen Cache vornehmen. Klicke einfach auf die Sterne um eine Bewertung zwischen 1 und 5 Sternen in Schritten von 0,5 Sternen auszuwählen. Der Untertitel zeigt dir die Textbedeutung der von dir gewählten Bewertung (z.B. "Durchschnittlich" = 3 Sterne).
+
+Die Bewertung wird gesendet, sobald du das Log abschickst.
+
+==== Favoritenpunkt ====
+{{anchor:favorite_point:}}
+
+{{:en:logging_favorite.png?nolink&400 |}}
+
+Dieses Feld wird nur angezeigt, wenn du Premium-Mitglied von geocaching.com bist. Aktivieren der Schaltfläche wird dem Cache einen Favoritenpunkt verleihen, wenn du das Log abschickst. Der Wert in Klammern ist die Anzahl deiner verfügbaren Favoritenpunkte.
+
+==== Twitter ====
+{{anchor:twitter:}}
+
+{{:en:logging_twitter.png?nolink&400 |}}
+
+Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]]  mit [[https://twitter.com|Twitter]] verbunden hast wird dieses Feld angezeigt. Wenn du die Schaltfläche aktivierst, wird c:geo einen Tweet posten wenn du das Log abschickst.
+
+
+===== Inventar =====
+{{anchor:inventory:}}
+
+{{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
+
+Dieser Bereich listet die Trackables, die sich derzeit in deinem Inventar befinden. Es zeigt das Symbol des Trackable-Typs (z.B. Travelbug, Geokrety), den Tracking-Code und den Namen des Trackables. Du kannst auf einen der Einträge klicken um dir die [[trackabledetails|Details des Trackable]] anzusehen.
+Mit dem Dropdown-Menü auf der rechten Seite kannst du die gewünschte Aktion für jeden Trackable für diesen Cache auswählen:
+
+^ Menüeintrag ^ Beschreibung ^
+|Keine Aktion|Führe keine Aktion mit diesem Trackable durch, wenn das Log abgesendet wird.|
+|Besucht|Lass diesen Trackable den Cache besuchen, wenn das Log abgesendet wird.|
+|Abgelegt|Dieser Trackable wird aus deinem Inventar im Cache abgelegt, wenn das Log abgesendet wird.|
+
+Unterhalb der Trackable-Liste kannst du die Schaltfläche ''Alle ändern'' dazu nutzen, eine gemeinsame Aktion für alle Trackables in deinem Inventar auszuwählen.
+
+===== Bild hinzufügen =====
+{{anchor:attach_image:}}
+
+Die Auswahl der Menüoption ''Bild hinzufügen'' auf dem [[logging#top_bar_menu|Titelzeilen-Menü]] öffnet eine neue Ansicht, in der du ein Bild zum Log hinzufügen kannst.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+Die Auswahl von ''Vorhanden'' öffnet deine standardmäßige Galerie-App, wo du ein existierendes Bild aus der Galerie auswählen kannst. Bei Auswahl von ''Neu'' öffnet sich die Kamera deines Gerätes um ein neues Foto aufzunehmen.
+
+Danach kannst du eine Überschrift und eine Beschreibung für das Bild eingeben, die später dem Bild in deinem Log hinzugefügt werden. Du kannst auch (optional) auswählen das Bild auf eine andere Pixelgröße herunter zu skalieren um die zu übertragende Datenmenge beim Posten des Logs zu reduzieren.
+
+<WRAP center round info 100%>
+Momentan unterstützt c:geo nur ein einzelnes Bild zu jedem Log hinzuzufügen. Das Hinzufügen von mehreren Bildern wird (noch) nicht unterstützt.
+</WRAP>

@@ -1,0 +1,131 @@
+====== c:geo User Guide ======
+
+**Welcome to the c:geo online user guide!**
+
+{{ :logo_big.png?nolink&200 |}} 
+
+
+==== About c:geo ====
+{{anchor:about_cgeo:}}
+
+c:geo is an open source, full-featured, always ready-to-go unofficial Android client for geocaching.com and offers basic support for other geocaching platforms (such as Opencaching). It does not require a web browser or exports - just install it and start right away.
+
+c:geo is only a client application for geocaching and is not associated with any specific geocaching service provider.
+
+
+===== Getting Started =====
+{{anchor:getting_started:}}
+
+  * [[installation|Installing and updating c:geo]] - How to download, install, and get updates for c:geo
+  * [[installation#permissions|c:geo device permissions]] - Device permissions needed for using c:geo
+
+  * [[firststeps|First steps with c:geo]] - How to authenticate with geocaching services in c:geo
+  * [[basicuse|Basic c:geo usage]] - What is geocaching and how to find your first geocache with c:geo
+
+
+===== Users' Manual =====
+{{anchor:users_manual:}}
+
+==== Main screen ====
+{{anchor:main_menu:}}
+
+  * [[.mainmenu:start|Main screen]] - Access the main functions of c:geo
+    * [[.mainmenu:start#top_bar_menu|Top bar menu]] - Access additional functions 
+    * [[.mainmenu:livemap|Live Map]] - View a live map of geocaches
+    * [[.mainmenu:lists#cache_list|Nearby Search]] - Search for caches near you
+    * [[.mainmenu:lists|Stored Caches]] - View locally stored geocaches
+    * [[.mainmenu:search|Search]] - Search for geocaches and trackables
+    * [[.mainmenu:goto|Go to]] - Navigate to arbitrary coordinates
+    * [[.mainmenu:globaltypefilter|Global Cache Type Filter]] - Filter the displayed cache types
+    * [[.mainmenu:start#bottom_section|Bottom section]] - Monitor your status information
+
+  * [[.mainmenu:settings|Settings]] - Configure the application
+
+==== Geocaches ====
+{{anchor:geocaches:}}
+
+  * [[cachedetails|Geocache details]] - View geocache details
+  * [[Logging|Logging of Geocaches]] - Log your geocache finds
+
+==== Trackables ====
+{{anchor:trackables:}}
+
+  * [[trackabledetails|Trackable details]] - View trackable details
+  * [[loggingtb|Trackable handling]] - Search for and log trackables
+
+==== Coordinates and navigation ====
+{{anchor:coordinates_and_navigation:}}
+
+  * [[coordinatedialog|Coordinate input dialog]] - Enter specific coordinates 
+  * [[coordinatedialog#waypoint_calculator|Waypoint Calculator]] - Calculate waypoints
+  * [[navigation|Navigation]] - Navigate using the supported navigation methods and tools
+  * [[compass|Compass]] - Navigate using the built-in compass
+
+==== Offline functions ====
+{{anchor:offline_functions:}}
+
+  * [[offline|Offline caching]] - Using c:geo offline
+    * [[offline#gpx_import|GPX import]] - Import geocaches from GPX files
+    * [[.mainmenu:pocketquery|Pocket queries]] - View and import Pocket Queries
+    * [[offline#offline_logging|Offline logging]] - Log geocaches while offline
+    * [[offline#field_note_export|Field Notes]] - Export field notes
+    * [[offline#offline_maps|Offline Maps]] - Set up offline maps 
+
+==== User defined caches ====
+{{anchor:udc:}}
+
+  * [[udc|User defined caches]] - Handling of user defined caches in c:geo
+===== Quick Reference =====
+{{anchor:quick_reference:}}
+
+  * [[cacheicons|Geocache types]]
+  * [[cachemarkers|Geocache markers]]
+  * [[cachedetails#waypoint_types|Waypoint types]]
+  * [[mapsources|Map sources]] 
+  * [[basicmembers|Limitations for geocaching.com basic members]]
+  * [[coordformat|Coordinate formats]]
+  * [[attributes|Attribute icons]]
+  * [[.mainmenu:utilityprograms|Other useful apps]]
+
+===== Special Functions and Hints =====
+{{anchor:special_functions_and_hints:}}
+
+  * [[offlinemaps|Offline map tutorial]]
+  * [[intents|Open geocaching-related links with c:geo]]
+  * [[hiddenfunctions|Hidden functions in c:geo]]
+  * [[nfc|Sharing geocaches through NFC]]
+  * [[https://send2.cgeo.org|Using Send2cgeo]].
+  * [[spoilersync|Synchronizing spoiler pictures from external sources to c:geo]]
+  * [[notecoords|Waypoints created for coordinates in personal notes]]
+  * [[quick_widgets|Using quick access and widgets as shortcuts for some c:geo functions]]
+
+===== Plugins and Addon functions =====
+{{anchor:plugins}}
+  * [[contacts|Contacts plugin]] - c:geo contacts plugin
+  * [[brouter|Brouter]] - Using brouter with c:geo
+===== FAQ =====
+{{anchor:faq:}}
+
+If you encounter a problem or error, please check our [[http://faq.cgeo.org|FAQ]] for possible solutions.
+
+===== About this Manual =====
+{{anchor:about_this_manual:}}
+
+  * [[translation|Help translate this user guide!]]
+  * [[ebook_help|Download a PDF version of this guide]]
+
+<WRAP center round info 100%>
+As c:geo is continuously being improved and updated, this user guide may not reflect the most recent app version.
+</WRAP>
+
+===== Useful Links =====
+{{anchor:useful_links:}}
+
+  * [[http://www.cgeo.org|c:geo Homepage]]
+  * [[https://www.facebook.com/android.geocaching|c:geo on Facebook]]
+  * [[https://plus.google.com/105588163414303246956|c:geo on Google+]]
+  * [[https://twitter.com/android_gc|c:geo on Twitter]]
+
+  * [[https://github.com/cgeo/|c:geo development on GitHub]]
+  * [[http://www.cgeo.org/development|Get involved and contribute to c:geo development]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Donate via PayPal]]

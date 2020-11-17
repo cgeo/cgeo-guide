@@ -1,0 +1,19 @@
+====== Hulpprogramma's ======
+
+{{:ic_menu_shopping.png?nolink&50 |}}
+
+Deze functie opent een scherm met apps, die in combinatie met c:geo kunnen werken en worden gebruikt om sommige functies in c:geo te verbeteren. Je kunt op elk hulpmiddel klikken om een webpagina te openen met meer informatie en / of een downloadmogelijkheid.
+
+^ Logo ^ Naam ^ Omschrijving^
+|{{ :cgeo.png?nolink&100 |}}|[[https://send2.cgeo.org|Send to c:geo]]|Send to c:geo is een browserextensie voor je pc. Wanneer je op geocaching.com surft, kun je caches naar je smartphone verzenden met één druk op de knop direct vanuit je browser.|
+|{{ :cgeo.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=cgeo.contacts|c:geo contacts plugin]]|Hiermee kan je rechtstreeks een contactkaart (uit het adresboek) openen vanuit een [[..cachedetails # logbook_tab|logboek invoer]], zodat je gemakkelijker vrienden om hulp kunt vragen.|
+|{{ :helper_brouter.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=btools.routingapp|Brouter Offline Navigation]]|BRouter biedt offline routering aan. Als het is geïnstalleerd en de benodigde bestanden zijn gedownload, toont c:geo automatisch een route naar de cache op de normale interne [[livemap|kaart]].|
+|{{ :helper_pocketquery.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=org.pquery|Pocket Query Creator]]|Maakt het eenvoudig om Pocket Queries te creëren (en te downloaden) vanaf je huidige positie of een geselecteerd punt geselecteerd op de kaart. Vereist een premium lidmaatschap van geocaching.com.|
+|{{ :helper_google_translate.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.google.android.apps.translate|Google Translator]]|Als je vertaalpakketten downloadt in de Google Translator-app, kunt je cachebeschrijvingen en logboekvermeldingen in c:geo gemakkelijk vertalen door lang op de tekst te klikken (zelfs zonder een internetverbinding).|
+|{{ :helper_where_you_go.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=menion.android.whereyougo|WhereYouGo]]|WhereYouGo staat het spelen en zoeken van geocaches van het type Wherigo toe. c:geo kan automatisch [[..navigation| de download van cartridges starten]] binnen deze app.|
+|{{ :helper_gpsstatus.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2|GPS Status & Toolbox]]|Je kunt de radar in deze toepassing gebruiken in combinatie met c:geo. Het biedt ook veel andere GPS-gerelateerde informatie.|
+|{{ :helper_bluetoothgps.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=googoo.android.btgps|Bluetooth GPS]]|Maakt het mogelijk om een externe GPS-ontvanger te gebruiken om preciezere locatiegegevens te krijgen en de accu van je apparaat te sparen. \\ \\ :!: Houd er rekening mee dat je hiervoor het gebruik van Google Play-services in [[settings# various_other_system_settings | c:geo-instellingen]] moet uitschakelen om deze toepassing te kunnen gebruiken.|
+|{{ :helper_barcode.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.google.zxing.client.android|Barcode Scanner]]|Er zijn Greasemonkey-scripts en websites die het weergeven van geocodes als streepjescodes mogelijk maken. Met deze app kan c:geo dergelijke geocodes rechtstreeks vanaf het scherm van je computer lezen.|
+|{{ :helper_locus.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=menion.android.locus|Locus]]|Outdoor-navigatie-app voor je telefoon of tablet. Bekijk topografische kaarten offline, volg je route, jaag op geocaches, gebruik een gesproken gids en nog veel meer.|
+
+

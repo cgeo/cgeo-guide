@@ -1,0 +1,20 @@
+====== PlayGround ======
+
+<WRAP center round help 60%>
+wrapper test
+</WRAP>
+
+
+test 123
+
+[[testpage|test page]]
+
+
+[[test2]]
+
+<color #ed1c24>Red text</color>
+
+
+<WRAP center round alert 60%>
+wrap test
+</WRAP>

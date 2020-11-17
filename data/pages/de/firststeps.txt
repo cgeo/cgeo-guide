@@ -1,0 +1,82 @@
+====== Erste Schritte mit c:geo ======
+
+<WRAP center round important 100%>
+Um c:geo nutzen zu können benötigst du ein Nutzerkonto einer Geocaching-Plattform deiner Wahl. c:geo unterstützt momentan [[https://www.geocaching.com|geocaching.com]], eine internationale kommerzielle Geocaching-Plattform, sowie Opencaching-Plattformen in diversen Ländern (z.B. [[https://www.opencaching.de|Opencaching Deutschland]] und viele mehr). Wähle eine Plattform, die du nutzen möchtest und erstelle vorab ein Nutzerkonto auf ihrer Webseite (Basis-Konten sind normalerweise kostenfrei).\\ \\
+Ohne ein Nutzerkonto einer Geocaching-Plattform funktioniert c:geo nicht!
+</WRAP>
+
+===== Erste Schritte =====
+
+Wenn du c:geo nach der Installation zum ersten Mal startest, erscheint direkt der folgende "Erste Schritte" Bildschirm:
+
+{{:de:getting_started_de.png?direct&400 |}}
+
+Er erklärt die von c:geo benötigten [[installation#permissions|Berechtigungen]] auf deinem Gerät, bietet Links zu diesem Benutzerhandbuch und - am wichtigsten - bietet dir einen Knopf um die Verbindung zu Geocaching-Platformen zu konfigurierern.
+
+Wenn du auf ''"Konfiguriere deine Geocaching-Plattform(en)"'' klickst, gelangst du direkt in die Service-Einstellungen, wo du c:geo gegenüber den von dir gewünschten Geocaching-Plattformen autorisieren kannst, wie im Folgenden beschrieben wird.
+
+**Wenn du später erneut auf die Diensteeinstellungen zugreifen möchtest, findest du sie unter:\\
+''Menü → Einstellungen → Dienste''**
+
+----
+
+===== Konfiguriere deine Geocaching-Plattform(en) =====
+
+Wähle jetzt die Geocaching-Plattform, die du nutzen möchtest aus der Liste der unterstützten Dienste. Du kannst auch mehrere Platformen nutzen, indem du später auf diesen Bildschirm zurückgehst. Du findest ihn unter ''Menü → Einstellungen → Dienste''.
+
+{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
+
+===== Registrierung von c:geo mit geocaching.com =====
+
+Klicke auf die Schaltfläche ''c:geo autorisieren'' wie im Folgenden gezeigt:
+
+{{ :en:firststeps_1_en.png?direct&400 }} 
+
+Nach dem Klicken auf ''c:geo autorisieren'' öffnet sich ein Bildschirm, wo du Nutzername und Passwort für geocaching.com eingibst und abschließend auf ''Authentifizierung überprüfen'' klickst.\\
+Wenn du noch kein Nutzerkonto hast, kannst du auf die Schaltfläche ''Nutzerkonto erstellen'' klicken um die Registrierungsseite von geocaching.com zu öffnen.
+
+{{ :en:firststeps_3_en.png?direct&400 }} 
+
+Nach Abschluß der Registrierung kehrt c:geo automatisch zum Dienste-Menü zurück und die siehst die erfolgreiche Registrierung durch die Anzeige deines Benutzernamens und deines Avatars:
+
+{{ :en:firststeps_2_en.png?direct&400 }} 
+
+<WRAP center round help 100%>
+Wenn die Registrierung fehlschlägt, schaue bitte in unsere [[http://faq.cgeo.org#login-failed|FAQ]] um Hilfe zu bekommen.
+</WRAP>
+
+Nun musst du nur noch die Zurück-Taste deines Gerätes benutzen um in das Hauptmenü von c:geo zu gelanden. Beim nächsten Start von c:geo öffnet sich das Hauptmenü automatisch.
+
+===== Registrierung von c:geo mit Opencaching-Plattformen =====
+
+Wenn du c:geo mit einem anderen Dienst als geocaching.com verbinden oder die Dienste-Einstellungen erneut aufrufen möchtest, findest du dies unter:\\
+''Menü → Einstellungen → Dienste''
+
+<WRAP center round tip 100%>
+Mehr Informationen zu den von c:geo unterstützten Geocaching-Diensten findest du [[.mainmenu:settings#Services|hier]].
+</WRAP>
+
+Wähle eine Geocaching-Plattform, mit der du c:geo verbinden möchtest und aktiviere den Dienst im folgenden Bildschirm durch Klick auf die ''Aktivieren''-Box.
+Starte danach den Autorisierungsprozess durch Klick auf ''c:geo autorisieren''
+
+{{ :en:oc_en_1.png?direct&400 }}
+
+und ''Starte Autorisierung'' im nächsten Bildschirm. Wenn du noch kein Nutzerkonto hast, kannst du auf ''Nutzerkonto erstellen'' klicken, um die Registrierungsseite der Opencaching-Plattform zu öffnen.
+
+{{ :en:oc_en_2.png?direct&400 }}
+
+Nun öffnet sich die Webseite der Opencaching-Plattform in deinem Browser. Melde dich auf der Webseite mit deinem Benutzernamen und deinem Passwort und stimme - falls notwendig - auf der folgenden Seite zu, dass c:geo Zugriff auf dein Opencaching-Konto erhält.
+
+{{ :en:oc_en_3.png?direct&400 }}
+
+Nach dem Abschluss der Registrierung sollte sich c:geo wieder öffnen und die erfolgreiche Registrierung melden:
+
+{{ :en:oc_en_4.png?direct&400 }}
+
+<WRAP center round tip 100%>
+Wenn du eine Fehlermeldung erhältst oder nicht zu c:geo zurückkehrst, probiere bitte einen anderen Browser zur Registrierung zu verwenden. Du solltest auch prüfen, ob Datum und Uhrzeit auf deinem Gerät korrekt gesetzt sind.
+</WRAP>
+
+
+
+

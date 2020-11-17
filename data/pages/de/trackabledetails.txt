@@ -1,0 +1,107 @@
+====== Trackable-Details ======
+
+Die Seite Trackable-Details enthält alle Informationen über einen spezifischen Trackable. Sie kann durch Klick auf einen Trackable im Inventar-Reiter der [[cachedetails|Cache-Details]], vom Inventar welches auf der [[logging#inventory|Log-Seite]] angezeigt wird oder durch [[.mainmenu:search|direkte Suche]] nach einem öffentlichen oder geheimen Tracking-Code eines Trackables.
+
+{{ :en:tbdetails_details.png?direct&400 |}}
+
+Die Trackable-Details verteilen sich über mehrere Karteireiter, die durch Wischen von links nach rechts oder umgekehrt zugreifbar sind. Nach dem Öffnen wird immer zuerst der Reiter Details angezeigt. Im unteren Bereich des aktuellen Karteireiters siehst du den Namen des Reiters und kannst dort auch zwischen den Karteireitern wechseln. Das Titelzeilen-Menü ist auf allen Reitern identisch. 
+
+<WRAP center round info 100%>
+Da nicht alle [[loggingtb#supported_trackables|Trackable-Arten]] mit allen Funktionen unterstützt werden, könnten abhängig von der Trackable-Art einige Reiter fehlen.
+</WRAP>
+
+Du kannst die komplette Anordnung der Karteireiter in der unten stehenden Tabelle sehen. Ein Klick auf das Bild in der Tabelle öffnet eine größere Version des Bildes, ein Klick auf die Überschrift bringt dich direkt zum jeweiligen Bereich im Benutzerhandbuch: 
+
+^ [[trackabledetails#details_tab|Details]] ^ [[trackabledetails#logbook_tab|Logbuch]] ^ [[trackabledetails#images_tab|Bilder]] ^
+|{{ :en:tbdetails_details.png?direct&400 |}}|{{ :en:tbdetails_logbook.png?direct&400 |}}|{{ :en:tbdetails_images.png?direct&400 |}}|
+
+===== Titelzeilen-Menü =====
+{{anchor:top_bar_menu:}}
+
+Die Titelzeile ist von allen Reitern verfügbar und enthält verschiedene Funktionen für den Trackable:
+
+<WRAP center round info 100%>
+Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+</WRAP>
+
+^ Symbol ^ Funktion ^ Beschreibung ^
+|{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Logge Fund]]|Schreibe ein Log für diesen Trackable.|
+|{{ :ic_menu_info_details.png?nolink&40 |}}|Im Browser öffnen|Öffnet deinen Standard-Webbrwoser um die Trackable-Seite auf der Geocaching-Webseite anzuzeigen.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Aktualisieren|Aktualisiert alle Reiter des angezeigten Trackables online.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+
+===== Details =====
+{{anchor:details_tab:}}
+
+==== Beschreibung ====
+{{anchor:description:}}
+
+{{ :en:tbdetails_details_description.png?nolink&400 |}}
+
+Der erste Bereich im Reiter Details enthält alle relevanten Informationen über diesen Trackable wie unten beschrieben:
+
+^ Name ^ Beschreibung ^
+|Name|Der Name des Trackables.|
+|Marke|Zeigt die Marke des Trackables (z.B. Travel Bug für einen geocaching.com-Trackable, Geokrety für einen geokrety.org-Trackable)|
+|Tracking-Code|Der öffentliche Trackingcode (TBxxxx) dieses Trackables.|
+|Eigentümer|Der Name des Besitzers dieses Trackable.\\  Du kannst auf dieses Feld klicken um ein Kontextmenü mit spezifischen Optionen für diesen Besitzer zu öffnen.|
+|Gesehen|Der Names des Caches oder des Nutzers, wo dieser Trackable zuletzt gesehen/geloggt wurde. Zusätzlich werden die Zahl der Tage seit der letzten Sichtung angezeigt.\\ Du kannst auf dieses Feld klicken um mehr Informationen zum angezeigten Cache oder Benutzer zu bekommen.|
+|Ursprungsort|Herkunftsland dieses Trackables.|
+|Ausgesetzt|Das Datum, zu dem der Trackable ausgesetzt wurde.|
+|Zurückgelegte Stracke|Die Strecke, die dieser Trackable bereits gereist ist.\\ Abhängig von deinen  [[.mainmenu:settings#appearance|Einstellungen]] wird dieser Wert entweder in Meilen(mi) oder Kilometer(km) angezeigt.|
+
+==== Derzeitiges Ziel ====
+{{anchor:goal:}}
+
+{{:en:tbdetails_details_goal.png?nolink&400 |}}
+
+Dieser Bereich des Reiters Details zeigt die Zielbeschreibung an, die der Besitzer des Trackables eingegeben hat.
+
+Du kannst auf die Zielbeschreibung klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen.
+==== Über diesen Trackable ====
+
+{{:en:tbdetails_details_details.png?nolink&400 |}}
+
+Dieser Bereich zeigt die Detailbeschreibung dieses Trackables an, die vom Besitzer eingegeben wurde.
+
+Du kannst auf die Detailbeschreibung klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
+
+==== Foto ====
+{{anchor:image:}}
+
+{{:en:tbdetails_details_image.png?nolink&400 |}}
+
+Dieser Bereich des Reiters Details zeigt das Standardbild an, welches der Besitzer dem Trackable zugewiesen hat.
+
+Ein Klick auf das Bild öffnet es in deinem standardmäßigen Bildbetrachter.
+
+===== Logbuch =====
+{{anchor:logbook_tab:}}
+
+{{:en:tbdetails_logbook.png?direct&300 |}}
+
+Dieser Reiter enthält eine scrollbare Liste mit Logeinträgen, die jeweils den Benutzernamen, das Logdatum, den Logtyp, den mit dem Log verbundenen Cache sowie den Logtext beinhaltet.
+
+Ein Klick auf den Benutzernamen öffnet ein Kontextmenü mit benutzerbezogenen Suchoptionen.
+
+Du kannst auf den Logtext klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
+===== Bilder =====
+{{anchor:image_tab:}}
+
+{{:en:tbdetails_images.png?direct&300 |}}
+
+Dieser Reiter enthält die für den Trackable verfügbaren Bilder. Dies beinhaltet alle Bilder aus der Trackable-Beschreibung sowie alle Bilder, die in den Logeinträgen im [[trackabledetails#logbook_tab|Logbuch-Reiter]] verfügbar sind.
+
+:!:
+Dies ist nicht die gleiche Funktion wie die Trackable-Galerie auf der Geocaching-Webseite, da nur die Logbilder der letzen 35 Logeinträge aber nicht alle Bilder angezeigt werden.
+
+Ein Klick auf ein Bild öffnet das Bild in deinem Standard-Bildbetrachter.
+
+<WRAP center round tip 60%>
+Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang anklicken um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. 
+</WRAP>
+
+
+
+

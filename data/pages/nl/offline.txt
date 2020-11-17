@@ -1,0 +1,108 @@
+====== Offline caching ======
+
+===== General opmerkingen =====
+{{anchor:general_remarks:}}
+
+Het belangrijkste doel van c:geo is om online toegang te hebben tot je geocachingplatform. 
+C:geo biedt echter ook offline functionaliteit om te gebruiken zonder enige netwerkverbinding (bijvoorbeeld tijdens caching in het buitenland of buiten het bereik van mobiel netwerk).
+
+Om c:geo volledig offline te gebruiken, moet je een aantal dingen voorbereiden, afhankelijk van je behoeften:
+  * Bewaar de caches die je wilt zoeken voor offline gebruik (handmatig, via [[offline # gpx_import | GPX-import]] of vanuit een [[.mainmenu: pocketquery | PocketQuery]]).
+  * Download een [[offline # offline_maps | offline kaart]] voor het geografische gebied waar je naar toe gaat of zet ten minste [[offline # static_maps | statische kaarten]] aan.
+  * Activeer de benodigde [[.mainmenu: settings# offline_data | offline gegevens instellingen]] om bijvoorbeeld logboekafbeeldingen naast een cache opslaan om ze beschikbaar te hebben voor offline caching.
+
+Deze pagina beschrijft deze off-line gebruiksscenario's.
+
+<WRAP center round tip 100%>
+Als je gegevensoverdracht wilt voorkomen, moet je de internetverbinding op je apparaat in het algemeen toch uitschakelen, omdat c:geo altijd zal proberen in te loggen zodra je ermee bent begonnen. 
+Op de meeste apparaten wordt de internetverbinding automatisch verbroken tijdens roaming-omstandigheden of wanneer mobiele data is uitgeschakeld.</WRAP>
+===== GPX importeren =====
+{{anchor:gpx_import:}}
+
+GPX-bestanden bevatten informatie over caches en hun waypoints. Je kunt GPX-bestanden ophalen uit verschillende bronnen, bijvoorbeeld als premium lid van geocaching.com kun je lijsten van pocketquery's exporteren als GPX-bestanden.
+
+<WRAP center round info 100%>
+C:geo ondersteunt expliciet GPX-bestanden van geocaching.com en GPX-bestandsextensies van opencaching-sites, maar als je GPX-bestand van een andere bron komt maar dezelfde syntaxis gebruikt, zal het waarschijnlijk ook werken.</WRAP>
+
+Om een GPX-bestand te importeren, heb je twee opties:
+  * Gebruik een bestandsbrowser op je apparaat, klik op het GPX-bestand dat op je apparaat is opgeslagen en selecteer c:geo als doel-app. \\ Dit toont een selectievenster, waarin je de doel [[.mainmenu:lists| lijst]] moet selecteren om de caches uit het GPX-bestand te importeren.
+  * Open een [[.mainmenu: lists| lijst]] van opgeslagen caches of maak een nieuwe lijst en selecteer '' Menu '' -> '' Importeren '' -> '' Importeer GPX ''. \\ Dit zal de [[.mainmenu:lists#system | geconfigureerde]] map van GPX-bestanden gebruiken en biedt je de mogelijkheid om daar een bestand te kiezen.
+
+Nadat het importproces is voltooid, bevat de geselecteerde lijst nu de geïmporteerde caches.
+
+Houd er rekening mee dat sommige informatie over de cache niet is opgenomen in GPX-bestanden. In het geval dat je enkele van de volgende informatie nodig hebt, moet je deze handmatig toevoegen door bijv. de cache online te vernieuwen:
+
+^ Informatie ^ Omschrijving ^
+| Attributen | Om ervoor te zorgen dat de GPX-bestanden van geocaching.com de cache eigenschappen bevat, moet je ervoor kiezen om GPX-versie 1.0.1 op de website te gebruiken.|
+| GCVote-beoordeling | Omdat GCVote een externe service is, is de informatie niet opgenomen in GPX-bestanden| 
+|Lijst met afbeeldingen | Het GPX-bestand bevat de koppelingen naar elke afbeelding die de eigenaar gebruikt in zijn cachebeschrijving, maar bevat de afbeelding zelf niet. Je moet de cache online openen of de cache vernieuwen om de afbeeldingen te laden| 
+|Log afbeeldingen| Het GPX-bestand bevat de links naar afbeeldingen van gebruikers die aan hun logboekvermeldingen zijn gekoppeld, maar bevat de afbeelding zelf niet. Je moet de cache online openen of de cache vernieuwen om de afbeeldingen te laden| 
+|Favorieten | Om ervoor te zorgen dat de GPX-bestanden van geocaching.com de favorieten van een cache bevatten, moet je ervoor kiezen om GPX-versie 1.0.1 op de website te gebruiken.| 
+|Statische kaarten | Als [[offline # static_maps | statische kaarten]] zijn een optie van c:geo en staan niet in GPX-bestanden, maar worden (optioneel) als laatste stap toegevoegd tijdens het importeren van een GPX-bestand.|
+
+===== Offline loggen =====
+{{anchor:offline_logging:}}
+
+Je hebt twee mogelijkheden om offline logs samen te stellen in c:geo:
+
+  - Stel gewoon je logs samen zoals gebruikelijk maar in plaats van ze online te verzenden, sla je ze gewoon op met de functie '' Offline opeslaan '' in het [[logging # top_bar_menu | logboek scherm menu]].
+  - Schakel de functie '' Offline log '' in het [[.mainmenu: settings # other_logging_options | instelling]] in zodat dit volledig offline werkt.\\ Hoewel de eerste optie niet verschilt van online gebruik, vervangt de tweede optie het menu '' Logboek bezoeken '' door een '' Enkele klik offline log '' -menu op alle plaatsen. 
+
+Zodra de functie is geactiveerd, plaatst c:geo standaard geen logboeken online, maar slaat de gevonden status alleen offline op.
+
+Bij gebruik van deze menufunctie wordt het volgende context menu getoond:
+
+{{: nl: oneclickofflinelog.png? nolink & 400 |}}
+
+Klik gewoon op het gewenste logtype en je offline log zal worden opgeslagen. De optie '' Wissen '' is alleen beschikbaar als je al een offline logboek hebt opgeslagen voor deze cache. In dit geval is het reeds opgeslagen logtype gemarkeerd met een rood vinkje in dit menu.
+Je kunt ook '' Log bezoek'' selecteren om het normale [[logging | logboek scherm]] te openen om een compleet logboek samen te stellen en op te slaan.
+===== Veldnotities exporteren =====
+{{anchor:field_note_export:}}
+
+Veldnotities (ofwel Concepten) worden ondersteund door geocaching.com en sommige opencaching-sites en maken een offline logboekregistratie van cache vondsten en maken een batch-upload naar de website op een later tijdstip mogelijk.
+
+C:geo ondersteunt de export van veldnamen en ook een automatische upload naar de website (voor geocaching.com).
+
+De offline gelogde caches worden gemarkeerd door een oranje lijn in je [[.mainmenu: lists| lijsten]] en met een rode smiley op de [[.mainmenu: livemap | kaart]]. 
+Om de logs te exporteren, moet je de relevante lijst met opgeslagen caches of de [[.mainmenu: history | geschiedenis]] openen en '' Menu → Export → Veld notities '' selecteren
+
+{{: en: fieldnote_export.png? nolink & 400 |}}
+
+Veldnotities-exports worden opgeslagen door c:geo in de map '' / cgeo / field-notes '' in je interne opslag met een datum / tijd-stempel gebruikt als bestandsnaam zoals getoond in het exportdialoogvenster.
+
+Je kunt nu of alleen het veldnotitie bestand naar je apparaat exporteren of ze extra uploaden naar de geocaching-website door '' Uploaden naar geocaching.com '' in te schakelen.
+De optie '' Alleen sinds laatste export '' controleert de laatste uploaddatum op geocaching.com en exporteert alleen die veldnotities die na deze datum zijn gemaakt.
+
+Nadatje de veldnotities naar de geocaching-website hebt geëxporteerd, geeft de website aan dat je veldnotities in behandeling  zijn [[https://www.geocaching.com/my/fieldnotes.aspx|op deze pagina]] en kun je de logboeke notities in je browser bekijken. 
+Houd er rekening mee dat het een minuutje na de upload kan duren voordat de website de openstaande veldnotities toont.
+===== Statische kaarten=====
+{{anchor:static_maps:}}
+
+Deze functie kan worden geactiveerd in het [[.mainmenu: settings# offline_data | instellingen]] voor de cachecoördinaten en/of voor waypoints en zal Google-kaarten van het gebied rond elke opgeslagen cache downloaden als straatkaart en satellietweergave ( in totaal 5 afbeeldingen). 
+Het is een nuttige functie als je van plan bent om te cachen zonder internettoegang (en misschien zelfs zonder een offline kaart).
+
+Er zal ook een basisstratenkaart getoond worden onderaan de [[cachedetails | cache details]] pagina. De resterende kaarten zijn toegankelijk door het selecteren van Statische kaarten in de cache [[navigation | navigatiemenu]].
+
+<WRAP center rond belangrijk 100%>
+Houd er rekening mee dat Google een limiet van 1000 statische kaarten per 24 uur per gebruiker (IP) heeft. 
+Als je een vrij grote lijst met opgeslagen caches of zelfs maar enkele caches met veel waypoints hebt, kun je dit limiet gemakkelijk overschreiden (aangezien 5 afbeeldingen per cache en elk cache-waypoint worden geladen). In dit geval missen sommige statische kaarten.</WRAP>
+
+Hieronder zie je een voorbeeld van statische kaarten voor een cache. 
+Je kunt op de afbeeldingen klikken om een grotere versie te bekijken:
+
+^ Omschrijving ^ Kaart ^
+|Sterke zoom satelliet weergave|{{:en:map_1.png?direct&200|}}|
+|Lage zoom satelliet weergave|{{:en:map_2.png?direct&200|}}|
+|Sterke zoom stratenkaart weergave|{{:en:map_3.png?direct&200|}}|
+|Medium zoom stratenkaart weergave|{{:en:map_4.png?direct&200|}}|
+|Lage zoom stratenkaart weergave|{{:en:map_5.png?direct&200|}}|
+
+===== Offline kaarten =====
+{{anchor:offline_maps:}}
+
+c:geo ondersteunt op openstreetmap gebaseerde offline kaarten bestanden met behulp van de indeling [[http://mapsforge.net | mapsforge]].
+
+Dergelijke bestanden kunnen vanuit verschillende bronnen voor een betaald gebied / land worden gedownload, bijvoorbeeld [[http://download.mapsforge.org/|Mapsforge Download Server]] of [[http://openandromaps.org | OpenAndroMaps]].
+Met enige moeite kun je ook [[https://github.com/cgeo/cgeo/wiki/How-to-create-your-own-offline-maps|handmatig gemaakte]] kaarten  maken gebaseerd op openstreetmap kaarten.
+Nadat je een offline kaar hebt gedownload, moet je het opslaan in de map op je apparaat zoals gedefinieerd in de [[.mainmenu: settings#map | instellingen]]. 
+Als het bestand een geldige mapsforge offline kaart is, wordt het achteraf weergegeven in het [[.mainmenu: livemap # top_bar_menu | kaartbronnen]] op de live kaart of kunt je de kaart selecteren die moet worden gebruikt in de [[. mainmenu: settings#map | instellingen]].

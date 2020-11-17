@@ -1,0 +1,31 @@
+====== Métodos/ferramentas de navegação ======
+
+O menu seguinte é mostrado quando são escolhidas coordenadas para onde se pretende navegar e permite escolher o método/ferramenta a utilizar para esse efeito.
+
+{{ :pt:navigation.png?direct&400 |}}
+
+A tabela seguinte fornece uma visão geral dos métodos/ferramentas suportadas. Alguns itens só são apresentados se a aplicação correspondente estiver instalada.É possível personalizar os itens apresentados neste menu nas [[.mainmenu:settings#navigation|definições]].
+
+^ Nome ^ Descrição ^
+|Bússola|Abre a [[compass|bússola]] do c:geo.|
+|Radar| Abre uma aplicação que suporte a função de radar, por exemplo, o [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ O radar é semelhante à bússola, mas apresenta a sua posição no centro e a posição do destino em relação à mesma.|
+|Mostrar no mapa|Abre o [[.mainmenu:livemap|mapa]] do c:geo.|
+|Mapas estáticos|Abre os [[offline#static_maps|mapas estáticos]] anteriormente transferidos.|
+|Gravar mapas estáticos|Esta opção está disponível se ainda não existirem [[offline#static_maps|mapas estáticos]] transferidos, e vai tentar transferir os mesmos.|
+|Locus| Abre o [[.mainmenu:utilityprograms|Locus]] com as respetivas coordenadas no mapa.|
+|Navegar (Conduzir)| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] na função de navegação, dando preferência a um caminho adaptado para um carro.|
+|Navegar (Andar de bicicleta)| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] na função de navegação, dando preferência a um caminho adaptado para uma bicicleta.|
+|Navegar (Caminhar)| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] na função de navegação, dando preferência a um caminho adaptado para pedestres.|
+|Navegar (Transportes)| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] na função de navegação, dando preferência a um caminho baseado nos transportes públicos.|
+|Vista de rua| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.street|Google Street View]] nas coordenadas correspondentes.|
+|OruxMaps (Online)| Abre o [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]] na função de navegação online.|
+|OruxMaps (Offline) |Abre o [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]] na função de navegação offline.|
+|Sygic (caminhar)| Abre o [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] na função de navegação, dando preferência a um caminho adaptado para pedestres.|
+|Sygic (conduzir)| Abre o [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] na função de navegação, dando preferência a um caminho adaptado para um carro.|
+|OsmAnd| Abre o [[https://play.google.com/store/apps/details?id=net.osmand|OSMAnd]] na função de navegação offline.
+|Direcções pelo Google Maps| Abre o [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]], apresentando uma lista de direções da sua localização atual até às coordenadas.|
+|WhereYouGo| Esta função só está disponível para caches Wherigo e vai abrir a aplicação [[.mainmenu:utilityprograms|WhereYouGo]] e transferir o respetivo cartucho.|
+|Pebble| Inicia a bússola no seu pebble utilizando a aplicação [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]].|
+|Maps.me|Abre o [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|Maps.me]] na função de navegação offline.|
+|Outras aplicações externas|Esta função vai abrir outras aplicações instaladas, não suportadas diretamente pelo c:geo.\\ Esta opção normalmente abre uma caixa de diálogo no dispositivo apresentando as aplicações capazes de abrir ligações que contenham coordenadas.|
+

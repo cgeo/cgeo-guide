@@ -1,0 +1,72 @@
+====== Telepítés és frissítés ======
+
+===== Telepítési források =====
+{{anchor:installation_source:}}
+
+Több helyről is telepíthető a c:geo a lenti táblázatban felsoroltak szerint:
+
+^ Forrás ^ Leírás ^
+|[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|A legegyszerűbb módja a c:geo telepítésének és a rendszeres frissítések elvégzésének. Ha rendelkezel Google-fiókkal és használod a Google Play alkalmazást, akkor ez az ajánlott módja a c:geo telepítésének és frissítésének.|
+|[[https://github.com/cgeo/cgeo/releases/latest|APK fájl]]|Ha nem használod a Google Playt (és van tapasztalatod az alkalmazások kézzel történő telepítésében), letöltheted a c:geo legutolsó verziójának APK fájlját a Github raktárunkból.\\ \\ :!: Kérjük, vedd figyelembe, hogy a c:geo nem frissül a Google Playen keresztül ebben az esetben. Egy [[installation#update|figyelmeztetést]] látsz majd a c:geo-ban, ha megjelenik egy újabb verzió, és neked kell elvégezned a frissítést az új APK fájl letöltése után.|
+|[[https://fdroid.cgeo.org/|FDroid raktár]]|Ez haladó felhasználok számára ajánlott, akik maguk akarják megépíteni az FDroidon alapuló saját verziójukat, és tudják, hogy mit csinálnak.|
+
+
+===== Engedélyek =====
+{{anchor:permissions:}}
+
+Jóvá kell hagynod néhány alkalmazásengedélyt a c:geo számára a telepítés során:
+
+^ Engedély ^ Magyarázat ^
+|Helyadatok|Természetesen a c:geo-nak hozzá kell férni a GPS-hez, hogy meghatározhassa helyzetedet, illetve irányt és távolságot számolhasson a ládákhoz.|
+|Képek/Média/Tárhely|A c:geo adatokat ment el a telefonod belső tárhelyére vagy az SD kártyádra, amikor ládákat mentesz offline használatra. A c:geo használja a telefonod belső tárhelyét fájlok importja, exportja és offline térképek olvasása során.\\ Ha képet akarsz csatolni egy logodhoz, a c:geo-nak használnia kell a fényképezőgépet.|
+
+<WRAP center round important 100%>
+Ügyelj arra, hogy a c:geo megkapja ezeket az engedélyeket, különben nem fog az elvártaknak megfelelően működni!
+</WRAP>
+
+===== Frissítés =====
+{{anchor:update:}}
+
+Időről időre kiadjuk a c:geo frissített változatát.
+
+<WRAP center round tip 100%>
+Javasoljuk, hogy a lehető leggyorsabban frissítsd az alkalmazásodat, ha új verzió érhető el, mivel a régebbi verziók esetleg nem a várt módon működnek (például sürgős hibajavítás vagy szerveroldali változás esetén).
+</WRAP>
+
+Ha a Google Playről telepítetted a c:geo-t, egy frissítési értesítést kapsz a Google Play alkalmazástól, amint új verzió érhető el. Egyszerűen kövesd az utasításokat vagy nyisd meg a c:geo-t a Google Play alkalmazásban a c:geo frissítéséhez.
+
+A c:geo egy értesítési rendszert is használ ezenkívül, hogy felhívja figyelmedet az új verziókra vagy az átmeneti problémákra. Ilyenkor egy ehhez hasonló üzenetet láthatsz a c:geo főképernyőjén:
+
+{{:en:notification_example.png?direct&300 |}}
+
+Az üzenetre kattintva további információhoz juthatsz (néhány átmeneti probléma esetén) vagy átkerülsz a Google Playre a frissítés elvégzéséhez (frissítési értesítés esetén).
+
+
+===== Béta verzió =====
+{{anchor:beta_version:}}
+
+Ha egy új verzió készen áll a kiadásra (úgynevezett "kiadásra jelölt" verzió), első lépésként elérhetővé tehetjük béta verzióként, hogy felhasználói visszajelzéseket kapjunk, és megtaláljuk azokat a hibákat és problémákat, amelyeket nem láttunk a fejlesztés során.
+
+<WRAP center round info 100%>
+Általában ezek a béta verziók már stabilak, mégis van arra kis esély, hogy nem minden funkció működik a várt módon. Mindazonáltal azt kérjük, hogy használják ezeket a verziókat, mivel ez nagy segítség nekünk.
+</WRAP>
+
+A béta verziókat is a Google Playen keresztül terjesztjük. Automatikusan történik a váltás a verziók között. Csak annyit kell tenned, hogy engedélyezed a c:geo béta tesztelését a Google Playen a következő linken keresztül:
+
+[[https://play.google.com/apps/testing/cgeo.geocaching|c:geo béta tesztelő leszek]]
+
+Miután aktiváltad a béta tesztelést, a hivatalos verziók mellett a béta verziókat is a Google Playen keresztül kapod meg. Ez azt jelenti, hogy továbbra is megkapod az összes hivatalos verziót, de frissítést kapsz akkor is, ha egy újabb béta verzió áll rendelkezésre. Továbbá, mint béta tesztelő, elküldheted visszajelzéseidet és problémajelentéseidet egy speciális Google Play űrlapon keresztül.
+
+Amíg béta tesztelőként vagy jelölve, (valamilyen oknál fogva) mindig ''c:geo(Beta)'' lesz látható a Google Playen, még akkor is, ha épp nincs aktív béta verziónk, és a hivatalos verziót használod. Ha megnézed az [[.mainmenu:aboutcgeo|A c:geo-ról]] fület, ellenőrizheted, hogy épp béta verziót használsz-e: ha egy ''-RC'' utótagot látsz a verziószámban, akkor az egy béta verzió .
+
+Ha le akarod állítani a béta tesztelést, használd a fenti linket, és szüntesd meg a béta tesztelés mód kiválasztását. Ezt követően el kell távolítanod a béta verziót az eszközödről, és telepítened kell a normál verziót a Google Playről.
+
+===== Fejlesztői verzió =====
+{{anchor:development version:}}
+
+Tekintsd meg a [[https://www.cgeo.org/development|webhelyünk fejlesztésről szóló oldalát]], ha többet szeretnél tudni a fejlesztői verziókról és az úgynevezett éjszakai építésekről.
+
+
+
+
+

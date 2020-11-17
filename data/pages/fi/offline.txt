@@ -1,0 +1,92 @@
+====== Offline-kätköily ======
+
+===== Yleiset huomiot =====
+{{anchor:general_remarks:}}
+
+c:geon pääkäyttötarkoituksena on, että geokätköily tapahtuu online-tilassa. Kuitenkin c:geo tarjoaa myös offline-toimivuuden sen käyttämiseksi ilman internetyhteyttä (esimerkiksi ulkomailla kätköillessä tai matkapuhelinverkkojen ulkopuolella).
+
+Jotta voit käyttää c:geota kokonaan offline-tilassa, sinun tulee valmistella joitakin asioita, tarpeidesi mukaan:
+
+  * Kätköjen, jotka haluat löytää, offline-tilaan tallentaminen (manuaalisesti, [[offline#gpx_import|GPX-tuonnin]] kautta tai [[.mainmenu:pocketquery|Pocket Queryn]] kautta.
+  * Ladata [[offline#offline_maps|offline-kartta]] siitä alueesta, johon olet menossa.
+  * Aktivoida tarvitut [[.mainmenu:settings#offline_data|offlinedata-asetukset]] esimerkiksi tallentaaksesi lokikuvat kätköstä, jotta ne ovat käytettävissä offlinekätköilyä varten.
+
+Tämä sivu selostaa nämä offline-käyttöskenaariot.
+
+<WRAP center round tip 100%>
+Jos haluat, ettei ohjelma käytä ollenkaan dataa, sinun tulisi kytkeä puhelimen asetuksista internetyhteys kokonaan pois päältä, koska c:geo aina yrittää kirjautua, kun olet käynnistänyt ohjelman. Suurin osa laitteista kytkee internetyhteyden pois päältä roaming-tilassa tai jos puhelimen verkkoyhteys on kytketty pois päältä.
+</WRAP>
+
+
+===== GPX-tuonti =====
+{{anchor:gpx_import:}}
+
+GPX-tiedostot sisältävät tietoja kätköistä ja niiden reittipisteistä.
+Voit muodostaa ja ladata GPX-tiedostoja useista lähteistä, esimerkiksi geocaching.com:in premiumjäsenenä voit muodostaa ja viedä listat tai Pocket Queryt GPX-tiedostoina.
+
+<WRAP center round info 100%>
+c:geo tukee erityisesti GPX-tiedostoja, joiden lähteenä on geocaching.com tai opencaching-sivusto, mutta jos GPX-tiedostosi on jostakin muusta lähteestä, ja käyttää samaa syntaksia, myös se todennäköisesti toimii c:geossa.
+</WRAP>
+
+GPX-tiedoston tuomiseen sinulla on kaksi vaihtoehtoa:
+
+  * Käytä puhelimessasi jotakin tiedostoselainta, klikkaa laitteeseesi tallennettua GPX-tiedostoa ja valitse c:geo kohdeohjelmaksi. Tämä näyttää valintaikkunan, josta voit valita kohde[[.mainmenu:lists|listan]] kätköjen tuomiseen GPX-tiedostostasi. 
+
+  * Avaa tallennettujen kätköjen [[.mainmenu:lists|lista]] tai luo uusi lista, ja valitse ''Valikko'' -> ''Tuo'' -> ''Tuo GPX''. Tämä skannaa [[.mainmenu:lists#system|asettamasi kansion]] GPX-tiedostojen tuomiseen ja antaa sinun valita sieltä tiedoston tuotavaksi.
+
+Kun tuontiprosessi on valmis, valittu lista sisältää tuodut kätköt.
+
+Huomaathan että joitakin tietoja ei sisällytetä GPX-tiedostoon. Siinä tapauksessa kun tarvitset seuraavia tietoja, sinun tulee manuaalisesti lisätä ne esimerkiksi päivittämällä kätkö online-tilassa:
+
+^ Tieto ^ Selite ^
+|Attribuutit|Jotta geocaching.comista tuodut GPX-tiedostot voivat sisältää kätköjen attribuutit, sinun tulee valita tuontisivulla GPX-versio 1.0.1.|
+|GCVote-arvo|GCVote on erillinen palvelu, arvoa ei sisällytetä GPX-tiedostoon.|
+|Kuvauksen kuvat|GPX-tiedosto sisältää linkit kuvaukseen sisällytettyihin kuviin, mutta ei sisällä itse kuvaa. Sinun tulee avata kätkö online-tilassa tai päivittää kätkö kuvien lataamiseksi.|
+|Lokikuvat|GPX-tiedosto sisältää linkin jokaiseen lokikirjauksiin liitettyyn kuvaan, mutta ei sisällä itse kuvaa. Sinun tulee avata kätkö online-tilassa tai päivittää kätkö kuvien lataamiseksi.|
+|Suosikkipisteet|Jotta geocaching.comista tuodut GPX-tiedostot voivat sisältää kätköjen suosikkipisteet, sinun tulee valita tuontisivulla GPX-versio 1.0.1.|
+
+===== Offline-kirjaus =====
+{{anchor:offline_logging:}}
+
+Sinulla on kaksi mahdollisuutta offline-kirjauksien luomiseen c:geossa:
+
+  - Kirjaa lokikirjaukset normaalisti, mutta online-lähetyksen sijaan, tallenna ne valitsemalla [[logging#top_bar_menu|kirjausnäkymän valikosta]] ''Offline-tallennus''.
+  - Aktivoi ''Offline-lokkaus'' [[.mainmenu:settings#other_logging_options|asetuksista]] joka toimii täysin offline-tilassa.
+
+Kun ensimmäinen valinta ei eroa online-käytöstä, toinen valinta korvaa ''Kirjaa käynti''-valinnan ''Nopea offline-lokkaus''-valinnalla kaikkialla c:geossa. Kun toiminto on aktivoitu, c:geo ei lähetä lokeja online-tilassa vaan tallentaa löytöstatuksen offline-tilassa.
+
+Kun tätä toimintoa käytetään, seuraava valikko näytetään:
+
+{{:en:oneclickofflinelog.png?nolink&400 |}}
+
+Klikkaa vain halutun lokityypin päällä ja offline-kirjauksesi tallennetaan sen mukaisesti. ''Tyhjennä''-valinta on saatavilla vain, jos olet jo tallentanut offline-kirjauksen tälle kätkölle. Tässä tapauksessa jo tallennettu lokityyppi näytetään punaisella merkillä valikossa.
+
+Voit myös valita ''Kirjaa käynti'' avataksesi normaalin [[logging|kirjausnäytön]] muodostaaksesi lokin ja tallentaaksesi sen.
+
+
+
+===== Kenttämuistiinpanojen vienti =====
+{{anchor:field_note_export:}}
+
+Kenttämuistiinpanoja tuetaan geocaching.com-sivustolle ja joillekin opencaching-sivustoille, ja sallii kätkölöytöjen offline-kirjaamisen ja niiden joukkolataamisen sivustolle myöhemmin.
+
+c:geo tukee kenttämuistiinpanojen vientiä sekä niiden automaattista latausta sivustolle (geocaching.com).
+
+Offline-tilassa kirjatut kätköt merkataan [[.mainmenu:lists|listoissa]] oranssilla viivoilla sekä [[.mainmenu:livemap|kartalla]] punaisella hymiöllä. Viedäksesi kirjaukset sinun tulee avata kyseiset kätköt sisältävä lista tai [[.mainmenu:history|historia]] ja valita ''Valikko -> Vienti -> Kenttämerkinnät''
+
+{{:en:fieldnote_export.png?nolink&400 |}}
+
+c:geo tallentaa kenttämuistiinpanot laitteessasi hakemistoon ''/cgeo/fielfdnotes'' sisäiseen muistiin, sisältäen tiedoston nimenä päivämäärän/aikaleiman, kuten näytetään vientinäytössä.
+
+Voit nyt joko viedä kenttämuistiinpanotiedoston vain laitteellesi, tai halutessasi ladata ne geokätköilysivustolle valitsemalla ''Lataa geocaching.comiin''.
+
+Valinta ''Vain edellisen lähetyksen jälkeen'' tarkistaa viimeisen latauspäivän geocaching.comista ja vie vain ne kenttämuistiinpanot, jotka on muodostettu kyseisen päivän jälkeen.
+
+Kun olet vienyt kenttämuistiinpanot sivustolle, sivusto näyttää, että sinulla on odottavia kenttämuistiinpanoja [[https://www.geocaching.com/my/fieldnotes.aspx|tällä sivulla]], ja voit kirjoittaa lokit selaimessa. Huomaathan, että lataamisen jälkeen voi mennä minuutti tai kaksi, ennenkuin sivusto näyttää odottavat kenttämuistiinpanot.
+
+===== Offline-kartat =====
+{{anchor:offline_maps:}}
+
+c:geo tukee openstreetmap-pohjaisia offline-karttoja, jotka käyttävät [[http://mapsforge.net|mapsforge]]-muotoa.
+
+Lue lisää offline-karttojen käytöstä [[offlinemaps|Offline-karttojen tutoriaalista]].

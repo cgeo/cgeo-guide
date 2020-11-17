@@ -1,0 +1,155 @@
+
+
+====== Live kaart======
+
+{{:main_live_default.png?nolink&100 |}}
+
+<WRAP center round info 60%>
+Terwijl het kaartscherm wordt weergegeven, wordt je mobiele apparaat voor het gemak niet automatisch uitgeschakeld. Je moet dit scherm verlaten om terug te keren naar de automatische (getimede) uitschakeling voor energiebesparing. Natuurlijk werkt het handmatig in- en uitschakelen van uw mobiele apparaat nog steeds zoals gewoonlijk.
+</WRAP>
+
+
+{{ :nl:livemap_1.png?direct&400 |}}
+
+===== Bovenste balk=====
+{{anchor:top_bar_menu:}}
+
+{{ :nl:livemap_2.png?direct&400 |}}
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de knop worden dynamisch getoond op basis van de apparaatresolutie en de schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop worden weergegeven of als pictogrammen in de bovenste balk van uw apparaat worden getoond.\\
+Als een menu-item wordt weergegeven als pictogram, kun je langere tijd op het pictogram drukken om een pop-up te krijgen met de functie ervan.
+</WRAP>
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{ :en:livemap_mapname.png?nolink&150 |}}|Kaart info|Toont de status van de huidige kaart: ''Live kaart'' in het geval de kaart live is, ''Kaart'' als de live modus uitgeschakeld is of de naam van een lijst.\\ Daarnaast wordt het aantal caches weergegeven, die op de kaart worden getoond.|
+|{{ :en:livemap_progress.png?nolink&40 |}} |Voortgang indicator|Er wordt een draaiende voortgang indicator getoond wanneer de live kaart aan het laden is van de geocaching servers en/of van je cachelijst. Het zal verdwijnen als de live kaart klaar is met laden.|
+|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centreer Positie|Deze knop kan worden gebruikt om de kaart te centreren op je huidige positie. \\ \\ Als de kaart is gecentreerd op jouw positie zal het icoon gevuld zijn.|
+|{{ :ic_action_layers_revert.png?nolink&40 |}}|Kaartbron selectie|Gebruik deze knop om de actieve [[..:mapsources|kaartbron]] te wijzigen.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow Menu Knop|Door deze knop aan te raken worden alle overige functies getoond, die niet op de bovenste balk van je apparaat passen en zullen als daarvoor in de plaats als een lijst worden getoond. De functie s die in de lijst worden getoond worden ook in deze tabel worden beschreven.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Live aan- / uitzetten|Deze functie schakelt het automatisch updaten van de live kaart aan of uit.|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Alle opslaan|Slaat alle caches op als lijst, die momenteel worden getoond op de kaart. De caches die al opgeslagen zijn zullen tijdens dit proces worden ververst.|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Niet opgeslagen opslaand|Slaat alle caches, die worden getoond op de kaart op, behalve degenen die reeds zijn opgeslagen in een lijst.|
+| |[[livemap#map_settings|Kaartinstellingen]]|Dit zal een menu openen met verschillende opties om de kaart aan te passen (bijv. caches verbergen, toon cirkels).|
+| |[[livemap#routing|Routering]]|Deze functie maakt het mogelijk om te switchen tussen routing voorkeuren (bijv. rechte lijn, auto route, fiets route).|
+| |[[lists#cache_list|Laat zien als lijst]]|Dit zal de caches die op de kaart worden getoond presenteren als [[lists|cache lijst]].|
+| |[[settings#map_content|Spoor geschiedenis wissen]]|Dit zal de geschiedenis wissen van de sporen op de kaart.|
+===== Kaart inhoud =====
+{{anchor:map_content:}}
+
+De kaart zal je het geselecteerde [[..:mapsources|kaart type]] tonen met een live weergave van alle beschikbare caches op de getoonde locatie.
+
+De live kaart toont altijd een combinatie van caches van de door jou ingestelde geocaching platformen alsmede opgeslagen caches in jouw  [[lists|cache lijsten]] als niet opgeslagen caches. 
+
+De volgende tabel brschrijft de verschillende markeringstypen die gebruikt worden op de live kaart.
+
+<WRAP center round tip 100%>
+De tabel zal alleen de verschillende icoontjes beschrijven, niet de verschillende typen geocaches. Druk op de volgende link voor meer informatie over de [[..:cacheicons|Geocache Iconen]] en [[..:cachemarkers|Geocache markering  iconen in c:geo]], welke door heel c:geo worden gebruikt.
+</WRAP>
+
+^ Icoon ^ Omschrijving ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Deze pijl toont jouw huidige positie en oriëntatie op de kaart.|
+|{{ :marker.png?nolink&40 |}}|Positie van een cache van geocaching.com. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
+|{{ :marker_disabled.png?nolink&40 |}}|Positie van een uitgeschakelde of gearchiveerde cache van geocaching.com. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
+|{{ :marker_oc.png?nolink&40 |}}|Positie van een cache van opencaching platform. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
+|{{ :marker_disabled_oc.png?nolink&40 |}}|Positie van een uitgeschakelde of gearchiveerde cache van opencaching platform. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
+|{{ :marker_other.png?nolink&40 |}}|Positie van een cache van een ander platform dan geocaching.com of opencaching (bijv. extremcaching.com). De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
+
+===== Kaart popup scherm=====
+{{anchor:map_popup_window:}}
+
+Als je op een cache drukt op de live kaart zal er een popup scherm verschijnen boven de map met informatie over de geselecteerde cache:
+
+{{:nl:.mainmenu:livemap_popup_1.png?direct&400 |}}{{ :nl:.mainmenu:livemap_popup_2.png?direct&400 |}}
+
+==== Bovenste sectie ====
+{{anchor:top_section:}}
+
+Deze sectie van de kaart toont verschillende menu opties voor de geselecteerde cache.
+
+^ Icoon/Optie ^ Omschrijving ^
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Toont het [[..:cacheicons|cache type icoon]] en de titel van de geslecteerde cache.|
+|{{ :actionbar_compass_light.png?nolink&40 |}}|Een korte druk op dit icoontje zal je [[settings#navigation|standaard navigatie]] hulpmiddel opstarten om te kunnen navigeren naar de geselecteerde cache.\\ Bij het lang indrukken van dit icoontje zal je [[settings#navigation|secondaire navigatie]] hulpmiddel worden geactiveerd.|
+|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Deze optie schakelt de lijn van de richting / routering tussen jou en de geselecteerde cache aan of uit.\\ \\ :!: Deze optie is momenteel alleen beschikbaar op de OSM online kaart en de offline kaarten.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Deze optie opent een menu met extra opties, zoals in deze tabel verder wordt beschreven.|
+|Kompas|Dit opent het kompas voor deze cache.|
+|Navigeer|Dit opent een lijst met alle beschikbare [[settings#navigation|navigatie hulpmiddelen]] die je kunt gebruiken voor deze cache.|
+|Log bezoek|Dit opent het [[..:logging|logboek scherm]] om de geselecteerde cache te loggen.|
+|Caches rondom|Deze optie maakt een lijst van [[lists|caches dichtbij]] de coördinaten van de geselecteerde cache en zal de resultaten tonen.|
+|Open in browser|Deze optie opent de geselecteerde cache items op de  geocaching webpagina door middel van je internet browser.|
+|Deel cache|Dit zal een link naar de geselecteerde cache maken door middel van de ingebouwde Android deel opties.|
+
+==== Cache informatie ====
+{{anchor:cache_information}}
+
+De midden sectie van het kaart popup scherm toon hulpvolle informatie over de geselcteerde cache.
+Sommige informatie zal mogelijk niet worden getoond afhankelijk van de laad status van de geselceteerde cache (bijv. door de due to the [[livemap#strategy| laad strategie]].
+
+{{ :nl:.mainmenu:livemap_popup_1.png?direct&400 |}}
+
+^ Onderwerp ^ Omschrijving ^
+|Type|[[..:cacheicons|Type]] van de geselecteerde cache.|
+|Geo code|Geo code van de geselecteerde cache.|
+|Afstand|Afstand naar de coördinaten van de geselecteerde cache vanaf je huidige positie.|
+|Moeilijkheid|De moeilijkheidsgraad van de geselecteerde cache in zowel een decimaal getal als een grafische weergave.|
+|Terrein|De moeilijkheidsgraad van het terrein waar de geselecteerde cache gevonden moet worden in zowel een decimaal getal als een grafische weergave.|
+|Waardering|Toont de kwaliteit van deze cache uit de database van [[http://gcvote.com|GCVote]] indien deze service is geactiveerd in de [[settings#services|c:geo instellingen]]. De waarde wordt getoond als decimaal getal en als grafische weergave.\\ De waarde tussen haakjes is het aantal stemmen, die zijn uitgebracht voor deze cache.|
+|Favoriet|Het aantal favorieten (geocaching.com) of waarderingen (Opencaching platforms) van de geselecteerde cache.|
+|Meer details|Deze knop brengt je naar de [[..:cachedetails|cache details pagina]] van de geselecteerde waar de complete informatie over deze cache bekeken kan worden.|
+|{{:ic_menu_hint.png?40|}}|Deze knop is alleen beschikbaar als de eigenaar van de cache een hint of persoonlijke notitie heeft geplaatst [[#hint_section|onderin ]] het popup scherm.|
+
+==== Lijst beheer ====
+{{anchor:list_management:}}
+
+Deze sectie van het popup scherm toont enkele opties voor het beheren van de opslag van de geselecteerde cache.
+
+{{ :nl:livemap_popup_5.png?direct&400 |}}
+
+^ Icoon/Optie ^ Omschrijving^
+|{{ :nl:livemap_popup_6.png?nolink&200 |}}|Dit veld geeft informatie of de geselecteerde cache is opgeslagen en in in welke [[lists|cache lijsten]] adeze is opgeslagen. Daarnaast wordt getoond hoe lang geleden de cache is opgeslagen (n.b. dit geeft je een indicatie hoe up to date de getoonde details zijn).|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Door op deze knop te drukken zullen de cache gegevens ververst worden met de laatste gegevens van de   geocaching server.|
+|{{ :nl:livemap_popup_7.png?nolink&200 |}}|Indien de geselecteerde cache al is opgeslagen in je [[lists|cache lijsten]] zullen er in dit veld de namen van de lijst(en) worden getoond.|
+|{{ :ic_menu_save.png?nolink&40 |}} |Deze knop wordt alleen getoond als de geselecteerde cache nog niet is opgeslagen in je [[lists|cache lijsten]] en zal deze opslaan.\\ Bij het lan ingedrukt houden van deze knop zal de cache opslaan in de laatst gebruikte lijst, bij een kortdurende druk op deze knop zal wordem gevraagd waar de cache moet worden opgeslagen.|
+|{{ :ic_menu_edit.png?nolink&40 |}}|Als de cache al is opgeslagen in je [[lists|cache lijsten]] zal dit icoontje worden getoond en maakt het mogelijk om de lijst aan te passen of toe te voegen aan een andere lijst.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Als de cache al is opgeslagen in je [[lists|cache lijsten]] zal dit icoontje worden getoond en maakt het mogelijk om de cache te verwijderen uit je lijsten.|
+
+==== Hint/aantekening sectie ====
+{{anchor:hint_section:}}
+
+Als je gedrukt hebt op de hint knop, the hint van de eigenaar en /of je persoonlijke notitie zal dit onderin het popup scherm worden getoond. Indien de tekst lang is, zul je in dit deel van de tekst kunnen scrollen.
+
+{{ :en:livemap_popup_hint.png?direct&400 |}}
+
+
+===== Kaartinstellingen =====
+{{anchor:map_settings}}
+
+Na het selecteren van de menufunctie '' Kaartinstellingen '' wordt het volgende optiescherm getoond:
+
+{{ :nl:livemap_mapsettings.png?direct&400 |}}
+
+^ Optie ^ Omschrijving ^ 
+|Verberg eigen/gevonden caches|Indien geactiveerd, zijn je eigen en gevonden caches verborgen op de kaart. \\ Dit is dezelfde optie als ook beschikbaar in [[settings#cache_details|c:geo instellingen]] en als je het hier verandert zal het ook permanent veranderen in je instellingen. Houd er rekening mee dat er een technische beperking geldt voor het verbergen van je eigen en gevonden caches, zoals uitgelegd op de pagina [[settings # cache_details | instellingen]] |
+|Verberg uitgeschakelde caches|Als geactiveerde uitgeschakelde caches op de kaart zijn verborgen. \\ Dit is dezelfde optie als ook beschikbaar in [[settings# cache_details | c:geo-instellingen]] en dit wordt gewijzigd zal dit ook permanent in je instellingen worden gewijzigd. Houd er rekening mee dat er een technische beperking geldt voor het verbergen van verborgen caches, zoals uitgelegd op de pagina [[settings # cache_details | instellingen]] |
+|Toon richting|Hiermee wordt de richtingslijn / -routering tussen je positie en een geselecteerde cache in- of uitgeschakeld.|
+|Toon cirkels|Indien geactiveerd zal c:geo cirkels tonen met een afstand van 161 meter rond alle fysieke waypoints (dat wil zeggen traditionele caches, fysieke stadia van een cache, mystery caches met gecorrigeerde coördinaten). Dit is de minimale afstand die caches moeten hebben op geocaching.com en deze cirkel kan handig zijn wanneer je van plan bent een nieuwe cache te verbergen en een positie zoekt.|
+|Toon spoor|Met deze optie kun je een route activeren die je positiegeschiedenis (je beweging) op de kaart toont. Dit is dezelfde optie die ook beschikbaar is in [[settings#map_content|c:geo instellingen]]. Als je dit hier wijzigt, verandert dit ook permanent in uw instellingen.|
+|Gebruik compacte iconen|Deze optie schakelt over van de klassieke weergave van het cachepictogram naar een compacte weergave die alleen caches als een gekleurde stip toont. De kleuren vertegenwoordigen het cachetype volgens de kleur van het klassieke pictogram (bijv Traditional caches worden getoond als groene stip).|
+
+===== Routering=====
+{{anchor:routing:}}
+
+Na het selecteren van de menufunctie '' Routering '' wordt het volgende optiescherm getoond:
+
+<WRAP center round info 60%>
+Deze instelling wordt alleen weergegeven als een ondersteunde [[utilityprograms |routeringsapp]] is geïnstalleerd en beschikbaar is.
+</WRAP>
+
+{{:nl:livemap_routing.png?direct&400 |}}
+
+^ Optie ^ Omschrijving ^
+|Rechte lijn|Dit toont een directe lijn (hemelsbreed) tussen jouw positie en de geselecteerde cache.|
+|Wandelen|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor voetgangers.|
+|Fiets|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor fietsers.|
+|Auto|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor auto's.|
+

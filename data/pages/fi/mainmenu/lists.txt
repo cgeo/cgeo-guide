@@ -1,0 +1,225 @@
+
+====== Tallennetut kätköt ======
+
+{{:main_stored_default.png?nolink&100 |}}
+
+Tämä valikko listaa kätköt, jotka ovat sillä hetkellä tallennettu laitteeseesi offline-käyttöön. Paremman kokemuksen luomiseksi c:geo antaa mahdollisuuden lajitella kätköt erilaisiin listoihin.
+
+Voit aina tarkastella listassa olevien kätköjen tietoja, jopa silloin kun sinulla ei ole verkkoyhteyttä. Näiden listojen kaikki kätköt, sekä näiden yksityiskohtaiset tiedot, ovat tallennettuina laitteeseen. Jotkin tiedot (kuten lokikuvat) ovat saatavilla offline-tilassa vain silloin kun olet kytkenyt sen päälle [[settings#offline_data|asetuksista]].
+===== Kätkölista =====
+{{anchor:cache_list:}}
+
+<WRAP center round tip 100%>
+Kätkölistoissa käytetään myös [[..:cacheicons|c:geon kätkötyyppikuvakkeita]] sekä [[..:cachemarkers|c:geon kätkömerkkikuvakkeita]].
+</WRAP>
+
+<WRAP center round info 100%>
+Samaa listanäkymää käytetään myös [[search|hakutoiminnon]] tuloksissa, [[livemap|live-kartan]] kätköjen näyttämiseen listana sekä [[pocketquery|Pocket Queryjen]] sisällön näyttämiseen.\\
+Näissä tapauksissa - tietenkin - kätköjä ei ole välttämättä vielä tallennettu offline-listaan.
+</WRAP>
+
+{{:en:lists_1_en.png?direct&400 |}}
+
+Lista näyttää jokaisen kätkön kohdalla ensimmäisellä rivillä kätkön nimen. Toisella rivillä näytetään kätkökoodi, D/T arvot, kätkön koko, kätkön [[..:basicmembers|premium]]-tila (jos käytössä), ja onko kätköä tallennettu offline-käyttöön (käyttökelpoinen jos käytät hakutoiminnon tuloksien listaa). Alimmaisena oleva rivi näyttää kaikkien listojen nimet, joihin kyseinen kätkö on tallennettu (jos toiminto on kytketty päälle [[settings#​offline_data|asetuksista]]).\\
+Värinauha vasemmalla (kätkötyyppikuvakkeen päällä olevien kätkömerkkien lisäksi) näyttää onko kätkö <color #22b14c>löydetty</color> tai onko kätköllä <color #ed1c24>offline-loki</color> tallennettuna.
+
+Jos kätkön nimi on <del>yliviivattu</del>, kyseinen kätkö on hyllytetty. Tämän lisäksi, jos kätkön nimi on <color #ed1c24>punaisella</color>, kätkö on arkistoitu, eikä ole enää saatavilla.
+
+Lyhyt klikkaus kätkön nimen päältä avaa kätkön [[..:cachedetails|tiedot]], ja pitkä painallus avaa [[lists#context_menu|valikon]], joka tarjoaa suoran pääsyn useihin kätköön liittyviin toimintoihin.
+
+Listanäkymän oikealla puolella jokaisen kätkön kohdalla on tietoja, jotka selitetään tarkemmin alempana.
+
+^ Kuvake ^ Selite ^
+|{{ :en:lists_distance_direction.png?nolink&100 |}}|Etäisyys ja suunta kätkölle, perustuen nykyiseen sijaintiisi (geocaching.comin [[..:basicmembers|peruskäyttäjät]] näkevät tässä vain rajoitetut tiedot)|
+|{{ :en:lists_fav_vote.png?nolink&100 |}}|Numero näyttää kätkön suosikkipisteiden (geocaching.com) tai suosittelujen (opencaching) määrän.\\ Taustaväri esittää kätkön [[http://gcvote.com|GCVotessa]] saamien äänien keskiarvona:\\ Vihreä = Hyvä (enemmän kuin 3,5 tähteä)\\ Ruskea = Kohtalainen (2,5 ja 3,5 tähden välillä)\\ Punainen = Huono (vähemmän kuin 2,5 tähteä).\\ Jos taustalla ei ole yhtään väriä, niin kätköllä ei ole vielä yhtään ääntä, tai GCVote ei tue sitä (GCVote tukee tällä hetkellä vain geocaching.com kätköjä).|
+|{{ :en:lists_trackableinfo.png?nolink&100 |}}|Tämä kuvake on merkki, joka näytetään vain jos kätkössä on matkaajia. Numero sen vieressä kertoo kätkössä listattujen matkaajien määrän.|
+
+==== Lataa lisää kätköjä ====
+
+Jos näytössä oleva lista näyttää [[.search|hakutulokset]] tai [[.pocketquery|Pocket Query]]n kätköt, niin listan lopussa on nappi, jossa lukee ''Lataa lisää kätköjä (tällä hetkellä: XX)''. Tämä näyttää kuinka monta kätköä on sillä hetkellä ladattu listaan, ja klikkaus sen päältä lataa lisää hakutuloksia tai Pocket Queryssä olevia kätköjä.
+
+
+==== Alavalikko ====
+{{anchor:context_menu:}}
+
+Kätkön nimen pitkän painalluksen jälkeen, seuraava alavalikko aukeaa. Tästä löydät useita suoria toimintoja kyseiselle kätkölle:
+
+{{ :en:lists_cache_contextmenu.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Kompassi|Avaa kompassin navigoimiseksi tälle kätkölle.|
+|Navigoi|Avaa Navigoi-listan, joka listaa kaikki mahdolliset tuetut [[..:navigation|navigointivaihtoehdot]], joista voit valita itsellesi sopivan tavan navigointiin kätkölle.|
+|Tarkat tiedot|Avaa [[..:cachedetails|kätkön tiedot]]. //(sama kuin lyhyt painallus kätkön nimen päältä)//|
+|Kirjaa käynti|Avaa [[..:logging|kirjaussivun]], jolla voit tehdä kirjauksen tälle kätkölle.|
+|Poista|Poistaa kätkön nykyisestä listasta.|
+|Siirrä toiseen listaan|Siirrä kätkö toiseen listaan.|
+|Kopioi toiseen listaan|Kopioi kätkö toiseen listaan. Tämä myös pitää kätkön nykyisessä listassa.|
+|Päivitä|Päivittää kätkön tiedot geokätköilypalvelimelta.|
+
+
+===== Listavalikko =====
+{{anchor:list_menu:}}
+
+<WRAP center round info 100%>
+Kuvakkeet yläpalkissa ja sisältö kolmen pisteen menun takana jaetaan dynaamisesti laitteesi näytön resoluution ja näytön suunnan mukaisesti. Joten on mahdollista, että näytettyjen kuvakkeiden sekä menun takaa löytyvien valintojen määrä vaihtelee.\\
+Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen.
+</WRAP>
+
+{{ :en:list_menu.png?direct&400 |}}
+
+
+^ Kuvake/osio ^ Toiminto ^ Selite ^
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Listojen hallinta]]|Tämä osio näyttää joko nykyisen listan nimen tai hakutiedot (kun on käytetty hakutoimintoa ja [[search|hakutulokset]] näkyvät listana) tai Pocket Queryn nimi (kun [[pocketquery|Pocket Query]] on avattu ja sen sisältämät kätköt näkyvät listana).\\ Lisäksi kätköjen määrä nykyisessä listassa näytetään (jos suodatin käytössä, niin suodatettujen kätköjen määrä). Tämän osion painallus avaa listan luoduista listoista. Painamalla listan nimeä, kyseinen lista avautuu.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Aktiivinen suodatin|Tämä rivi näkyy silloin kun [[globaltypefilter|yleinen kätkötyyppisuodatin]] tai [[lists#filtering|listasuodatin]] on käytössä.\\ Tämän rivin klikkaus vie sinut kyseisen suodattimen asetussivulle.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Näytä kartalla]]|Näyttää listan kätköt [[livemap|live-kartalla]].|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Suodatin]]|Avaa suodattimen asetussivun, josta voi valita haluamansa kätkösuodattimen. Erilaisia hakuehtoja on saatavilla.| 
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Järjestä]]|Järjestää kätköt valitun järjestyskriteerin mukaan.|
+|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Valintatila]]|Tämän valinnan käyttö asettaa listan valintatilaan, jossa voit valita useita kätköjä. Tämän jälkeen voit käsitellä valittuja kätköjä haluamallasi tavalla ''Hallitse kätköjä''-valinnan kautta.|
+|[[lists#show_on_map|Näytä kartalla]]||Tämä on samankaltainen toiminto ''Näytä kartalla''-toiminnon kanssa, mutta myös antaa muita karttavaihtoehtoja listan karttojen näyttämiseen muilla kartoilla tai muissa ohjelmissa. |
+|[[lists#manage_caches|Hallitse kätköjä]]||Sisältää toimintoja kätköjen poistamiseen, päivittämiseen, siirtämiseen jne. \\ Voit käyttää tätä valintaa yhdessä ''Valintatila''n kanssa, jotta voit tehdä haluamasi toiminnon valitsemallesi joukolle kätköjä.|
+|[[lists#manage_lists|Hallitse listoja]]||Sisältää toimintoja listojen poistamiseen, muokkaamiseen sekä uusien kätköjen luomiseen.|
+|[[lists#import|Tuo]]||Antaa vaihtoehtoja kätköjen tuomiseen erilaisista lähteistä.|
+|[[lists#export|Vienti]]||Antaa vaihtoehtoja kätköjen, sekä niiden tietojen vientiin erilaisilla tavoilla.|
+
+==== Suodatin ====
+{{anchor:filtering:}}
+
+Tämä toiminto suodattaa kätköjä valittujen kriteerien mukaisesti.
+
+{{ :en:lists_filtermenu.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Toisin kuin [[globaltypefilter|yleinen kätkötyyppisuodatin]], tämä suodatin pätee vain listoihin, mutta voidaan tarvittaessa käyttää yhdessä yleisen kätkötyyppisuodattimen kanssa.
+</WRAP>
+
+^ Valinta ^ Selite ^
+|{{ :ic_menu_delete.png?nolink&40 |}}|Roskakorikuvake tyhjentää kaikki valitsemasi suodattimet yhdellä painalluksella.|
+|Tyyppi|Näytä vain tietyt kätkötyypit.|
+|Koko|Näytä vai tietynkokoiset kätköt.|
+|Maasto|Näytä vain kätköt, joissa on tietty maastoluokitus.|
+|Vaikeus|Näytä vain kätköt, joissa on tietty vaikeusluokitus.|
+|Määritteet|Suodata lista tietyn attribuutin mukaan (kuten "Hylätty rakennelma", "Yökätkö").\\ \\ :!: Tämä suodatin antaa luotettavia tuloksia vain silloin, kun sitä käytetään tallennettujen kätköjen listalla, ei hakutulosten listalla.|
+|Tila|Suodata kätköt tietyn tilan mukaan (kuten "Löydetty", "Reissaajien mukaan", "Vain Premium-jäsenille").|
+|Alkuperä|Suodata kätköt valitun geokätköilypalvelimen mukaan (kuten "geocaching.com", "opencaching.us").|
+|Etäisyys|Suodata kätköt tietyllä etäisyydellä sijaintisi mukaan.\\ \\ :!: Suodatettu lista ei päivity, jos sijaintisi muuttuu. Tässä tapauksessa sinun tilee asettaa suodatin uudelleen saadaksesi päivitetyn listan.|
+|Suosikit|Näytä vain kätköt, joissa on tietty suosikkipistemäärä.|
+|Suosikit[%]|Näytä vain kätköt, joissa on tietty suosikkipisteprosentti. \\ \\ :!: Tämä suodatin antaa luotettavia tuloksia vain silloin, kun sitä käytetään tallennettujen kätköjen listalla, ei hakutulosten listalla.|
+|Omia tietoja|Suodata kätköt, joihin on syötetty omia tietoja (kuten offline-lokeja tai muistiinpanoja).|
+
+==== Järjestä ====
+{{anchor:sorting:}}
+
+{{ :en:lists_sorting.png?direct&400 |}}
+
+<WRAP center round tip 100%>
+Saman järjestysvalinnan valitseminen toisen kerran järjestää listan saman kriteerin mukaan, mutta päinvastaisessa suunnassa (eli sen sijaan, että nimen mukaan järjestettäessä lista järjestetään suunnassa A -> Ö, se järjestetäänkin suunnassa Ö -> A.)
+</WRAP>
+
+^ Valinta ^ Selite ^
+|Arviointi|Järjestä kätköt [[http://gcvote.com|GCVoten]] arvosanan mukaisesti.|
+|Etäisyys|Järjestä kätköt sinun ja kätkön välisen etäisyyden mukaan. \\ //(Tämä on kätkölistojen oletusjärjestystapa)//|
+|Geokoodi|Järjestä kätköt geokoodin mukaan.|
+|Koko|Järjestä kätköt kokotiedon mukaan.|
+|Kätköjen määrä|Järjestä kätköt matkaajien mukaan. //(huono suomennos)//|
+|Laitteelle tallentamisen päivämäärä|Järjestä kätköt sen mukaan, mulloin kätkö on tallennettu laitteelle.|
+|Lokimerkinnän päivä|Järjestä kätköt sen mukaan, milloin olet logannut kätkön.|
+|Löytöjä|Järjestä kätköt löytömäärän mukaan.|
+|Maasto|Järjestä kätköt maastoarvon mukaan.|
+|Nimi|Järjestä kätköt kätkön nimen mukaan.\\ //(jos c:geo havaitsee että lista on tehty tietystä kätkösarjasta (esimerkiksi kätkötraili tietyllä nimellä ja kasvavilla numeroilla), tätä lajittelutapaa käytetään oletuksena).//|
+|Piilottamispäivä|Järjestä kätköt piilotuspäivän mukaan.\\ //(Jos lista sisältää vain tapahtumakätköjä, niin tätä lajittelutapaa käytetään oletuksena).//|
+|Suosikit|Järjestä kätköt suosikkipisteiden mukaan.|
+|Suosikit[%]|Järjestä kätkö suosikkiprosentin mukaan.\\ \\ :!: Tämä jörjestystapa on luotettava vain käytettäessä sitä tallennettujen listalla, mutta ei hakutulosten listalla.|
+|Tila|Järjestä kätköt kätkön tilan mukaan.|
+|Vaikeus|Järjestä kätköt vaikeusasteen mukaan.|
+|Äänet (oma arviointi)|Järjestä kätköt kätkölle jättämäsi [[http://gcvote.com|GCVote]]-arvioinnin mukaan.|
+
+<WRAP center round info 100%>
+Lajittelutapa säilyy istuntosi aikana, tai kunnes muutat sen.
+</WRAP>
+
+==== Valintatila ====
+{{anchor:select_mode:}}
+
+{{ :en:lists_selectmode.png?direct&400 |}}
+
+Valintatilan aktivoinnin jälkeen kätköjen viereen ilmestyy valintaruudut, kuten kuvassa. Tämä antaa sinulle mahdollisuuden valita tietyt kätköt (napauttamalla valintaruutua), jotta voit käsitellä niitä haluamallasi tavalla [[lists#manage_caches|Hallitse kätköjä]]-valikon kautta (kuten poistaa valitut kätköt).
+
+Lisäksi voit nyt myös ''Käänteinen valinta''-valinnan kautta kääntää listan valinnat päinvastaiseksi, joka voi olla kätevä, silloin kun haluat valita kaikki paitsi tietyt kätköt listallasi.
+
+Kun olet tehnyt haluamasi, käytä ''Poistu valintatilasta''-valintaa poistuaksesi valintatilasta.
+
+<WRAP center round tip 100%>
+Voit myös poistua nopeasti valintatilasta pyyhkäisemällä kätkön nimen päältä vasemmalle.
+</WRAP>
+
+==== Näytä kartalla ====
+{{anchor:show_on_map:}}
+
+{{ :en:lists_showonmap.png?direct&400 |}}
+
+Tämä valinta näyttää listan kätköt (tai [[lists#select_mode|valintatilassa]] valitut kätköt) valitsemallasi kartalla.
+
+Tämä kartta voi olla joko tuettu kartta c:geossa tai kolmannen osapuolen ohjelma kuten [[utilityprograms|Locus tai maps.me]].
+
+==== Hallitse kätköjä ====
+{{anchor:manage_caches:}}
+
+{{:en:lists_managecaches.png?direct&350|}}{{ :en:lists_managecaches_select.png?direct&350|}}
+
+Tämä valikko antaa erilaisia vaihtoehtoja kätköjen hallintaan, kuten alla kuvattu. Jos olet valinnut [[lists#select_mode|valintatilassa]] tiettyjä kätköjä, valikko näyttää hakasulkeissa valittujen kätköjen määrän, muuten valittu toiminto tapahtuu kaikille listan kätköille.
+
+Voit valita useista toiminnoista:
+^ Toiminto ^ Selite ^
+|Päivitä| Päivittää kätköt palvelimelta uusimmilla tiedoilla.|
+|Siirrä|Siirtää kätköt toiseen valittuun listaan.|
+|Kopioi|Kopioi kätköt toiseen valittuun listaan (ja pitää nämä myös nykyisessä listassa).|
+|Poista|Poistaa kätköt nykyisestä listasta.|
+|Poista aiemmat tapahtumat|Tämä valinta on käytettävissä vain, jos lista sisältää tapahtumakätköjä. Poistaa listasta menneet tapahtumakätköt.|
+|Lähetä muutetut koordinaatit|Tämä valinta aloittaa tämän listan muutettujen koordinaattien lähettämisen omiin tietoihin geokätköilypalvelimelle, valittujen kätkön kohdalle.|
+|Lähetä kaikkien kätköjen koordinaatit|Tämä valinta aloittaa kaikkien listalla olevien kätköjen muutettujen koordinaattien lähettämisen omiin tietoihin geokätköilypalvelimelle, kaikkien kätköjen kohdalle. \\ :!: **VAROITUS:​** Tämä ylikirjoittaa palvelimella olevat kätköjen koordinaattitiedot kullekin kätkölle c:geossa olevilla koordinaattitiedoilla! Tätä tulee käyttää vain erikoistapauksissa, esimerkiksi silloin kun olet tuonut GPX-tiedoston joka sisältää muutetut koordinaatit listattuina koordinaatteina. Tätä toimintoa ei voida peruuttaa ja sinun tulee käyttää sitä vain jos tiedät mitä olet tekemässä. Normaalitapauksissa saman valikon toiminto ''Lähetä muutetut koordinaatit'' riittää.|
+|Poista offline-lokit|Tämä valinta on käytettävissä vain, jos lista sisältää kätköjä, joissa on offline-loki. Poistaa offline-lokit valituista kätköistä.|
+|Luo käyttäjän määrittelemä kätkö| Tämä aloittaa [[en:udc|käyttäjän määrittämän kätkön]] luomisen.|
+
+==== Hallitse listoja ====
+{{anchor:manage_lists:}}
+
+{{ :en:lists_managelists.png?direct&400 |}}
+
+Tämä valikko antaa erilaisia vaihtoehtoja listojen hallintaan.
+
+^ Valinta ^ Selite ^
+|Luo uusi lista|Luo uuden kätkölistan.|
+|Poista valittu lista|Poistaa nykyisen kätkölistan.\\ \\ :!: Jos poistettava lista sisältää kätköjä, nämä kätköt siirretään oletuslistaan ''Tallennettu''.|
+|Nimeä uudelleen nykyinen lista|Nimeä nykyinen lista uudelleen.|
+|Poista listan kätköt muilta listoilta|Vertaa tämän listan kätköjä muiden listojen kätköihin ja poistaa muista listoista löytyvät saman kätkön kopiot.|
+|Aseta listamerkki|Tällä toiminnolla voit asettaa listamerkin haluamallasi värillä kullekin listan kätkölle. Eri värejä on saatavilla. Tämän toiminnon jälkeen tämän listan kätköjen kuvakkeet on merkattu tällä listamerkillä sekä kartalla että listoillasi. Maksimissaan 2 listamerkkiä voidaan käyttää jokaisen kätkön kohdalla.|
+
+<WRAP center round info 100%>
+''Tallennettu''-lista on oletuslista eikä sitä voi poistaa.
+</WRAP>
+
+==== Tuo ====
+{{anchor:import:}}
+
+Tämä valikko sisältää useita vaihtoehtoja kätköjen tuontiin.
+
+{{ :en:lists_import.png?direct&400 |}}
+
+^ Toiminto ^ Selite ^ 
+|Tuo Pocket Query|Avaa [[pocketquery|Pocket Query]]-näkymän kätköjen tuontiin nykyisistä Pocket Queryistä.\\ \\ :!: Tämä toiminto on saatavilla vain geocaching.comin [[..:basicmembers|Premium-jäsenille]].|
+|[[..offline#gpx_import|Tuo GPX]]|Avaa näkymän kätköjen tuontiin GPX-tiedostoista laitteessasi. Kansio, mistä GPX-tiedostoja haetaan, voidaan asettaa [[settings#gpx|asetuksista]].|
+|Tuo send2cgeo|Avaa näkymän kätköjen tuontiin [[utilityprograms|send2cgeo]]-skriptiä käyttäen.|
+|Tuo Androidista|Avaa Androidin tuontivalikon GPX-tiedoston tuontiin, antaen sinulle laajemman mahdollisuuden kätköjen tuontiin erilaisista lähteistä (kuten Google Drivestä).|
+
+==== Vienti ====
+{{anchor:export:}}
+
+Tämä valikko sisältää useita vaihtoehtoja kätköjen vientiin.
+
+{{ :en:lists_export.png?direct&400 |}}
+
+^ Valinta ^ Selite ^ 
+|GPX|Vie listan GPX-tiedostoon|
+|Kenttämerkinnät|Vie kaikki offline-lokit listastasi kenttäkirjauksiksi (kuten vapaavalintainen lataus geocaching.comiin)|
+|Omat merkinnät|Lataa kaikki listan kätköjen omat muistiinpanot palvelimelle.|

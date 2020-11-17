@@ -1,0 +1,17 @@
+====== Map Sources ======
+
+The following map types are available in c:geo.
+You can change between the map types in the [[.mainmenu:settings#maps|settings]] or in the menu of the [[.mainmenu:livemap|map]].
+
+^ Name ^ Description ^ 
+|Google:Map|An online street map provided by [[https://google.com|Google]].|
+|Google:Satellite|An online satellite view map provided by [[https://google.com|Google]].|
+|OpenStreetMap.org|An online street map provided by [[https://openstreetmap.org|OpenStreetMap.org]].|
+|OpenStreetMap.de|An online street map provided by [[https://openstreetmap.de|OpenStreetMap.de]].|
+|CyclOSM|An online map targeted to bicycle riding provided by [[https://cyclosm.org|CyclOSM.org]].|
+|OSM:Offline|[[offlinemaps|Offline maps]] rendered from map files in [[http://mapsforge.net|Mapsforge]] format.\\ Instead of OSM:Offline the names of the available map file will be shown in the selection menu.|
+
+<WRAP center round info 100%>
+Rotation of maps (into walking direction) is currently only supported on Google Maps. Thus all other map types are always displayed northbound. But we are working on it.
+</WRAP>
+

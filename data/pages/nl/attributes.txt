@@ -1,0 +1,125 @@
+====== Attributen ======
+
+Deze pagina biedt een overzicht van alle attributen pictogrammen die worden gebruikt in c:geo. 
+De attributen worden gebruikt door een cache-eigenaar om de kenmerken van een cache te beschrijven en worden weergegeven op de [[cachedetails#attributes|cache details]] pagina. 
+
+<WRAP center round tip 100%>
+Je kunt op het kenmerkgedeelte in de cachegegevens klikken om een tekstuele beschrijving te bekijken in plaats van de pictogrammen.
+</WRAP>
+
+De meeste pictogrammen kunnen worden genegeerd als ze op deze manier worden doorgehaald: {{:attribute_strikethru.png? Nolink & 20 |}} (bijvoorbeeld '24/7 beschikbaar' zou worden genegeerd als 'Niet 24/7 beschikbaar'). 
+
+Niet alle attributen zijn beschikbaar op alle geocaching-services.
+
+^ Icoon ^ Omschrijving ^
+|{{:attribute_abandonedbuilding.png?nolink&40 |}}|De geocache ligt in/bij een verlaten gebouw|
+|{{:attribute_aircraft.png?nolink&40 |}}|Vliegtuig nodig|
+|{{:attribute_all_seasons.png?nolink&40 |}}|Elk seizoen beschikbaar|
+|{{:attribute_arithmetic.png?nolink&40 |}}|Wiskundige taken moeten worden opgelost|
+|{{:attribute_ask_owner.png?nolink&40 |}}|Vraag de eigenaar voor informatie|
+|{{:attribute_audio_cache.png?nolink&40 |}}|Dit is een audio cache|
+|{{:attribute_available.png?nolink&40 |}}|Beschikbaar 24/7 (op alle tijden)|
+|{{:attribute_bicycles.png?nolink&40 |}}|Fietsen zijn toegestaan|
+|{{:attribute_boat.png?nolink&40 |}}|Mogelijk een boot nodig voor deze cache|
+|{{:attribute_breeding.png?nolink&40 |}}|Er kunnen vogels broeden in de buurt van de cache|
+|{{:attribute_byop.png?nolink&40 |}}|Neem een eigen pen mee, omdat er geen beschikbaar is in de cache|
+|{{:attribute_campfires.png?nolink&40 |}}|Kampvuren zijn toegestaan|
+|{{:attribute_camping.png?nolink&40 |}}|Kamperen is toegestaan|
+|{{:attribute_cave.png?nolink&40 |}}|De geocache bevindt zich in a grot|
+|{{:attribute_cliff.png?nolink&40 |}}|De geocache bevindt zich in de nabijheid van een klif|
+|{{:attribute_climbing.png?nolink&40 |}}|Klimmen is nodig voor deze geocache|
+|{{:attribute_compass.png?nolink&40 |}}|Kompas nodig voor deze geocache|
+|{{:attribute_cow.png?nolink&40 |}}|Dieren kunnen aanwezig zijn in de buurt van de geocache|
+|{{:attribute_danger.png?nolink&40 |}}|De geocache bevindt zich in gevaarlijk gebied|
+|{{:attribute_dangerousanimals.png?nolink&40 |}}|Gevaarlijke dieren kunnen aanwezig zijn in de buurt van de geocache|
+|{{:attribute_day.png?nolink&40 |}}|Deze geocache is overdag beschikbaar|
+|{{:attribute_dogs.png?nolink&40 |}}|Honden zijn toegestaan|
+|{{:attribute_easy_climbing.png?nolink&40 |}}|De geocache vereist eenvoudig klimmen|
+|{{:attribute_fee.png?nolink&40 |}}|Voor het vinden van deze gecocache is een entree prijs vereist|
+|{{:attribute_field_puzzle.png?nolink&40 |}}|Er moet een veldpuzzel worden opgelost|
+|{{:attribute_firstaid.png?nolink&40 |}}|Deze geocache heeft momenteel onderhoud nodig van de eigenaar zoals gerapporteerd door een andere geocacher|
+|{{:attribute_flashlight.png?nolink&40|}}|Zaklamp nodig|
+|{{:attribute_food.png?nolink&40|}}|Eten in de buurt beschikbaar|
+|{{:attribute_frontyard.png?nolink&40|}}|The cache bevindt zich op privé terrein|
+|{{:attribute_fuel.png?nolink&40|}}|Brandstof in de buurt beschikbaar|
+|{{:attribute_geohotel.png?nolink&40|}}|Deze cache is een Geohotel|
+|{{:attribute_geotour.png?nolink&40|}}|TDeze cache maakt deel uit van een Geotour|
+|{{:attribute_hike_long.png?nolink&40|}}|Lange wandeling (>10km) nodig|
+|{{:attribute_hike_med.png?nolink&40|}}|Medium wandeling (<10km) nodig|
+|{{:attribute_hike_short.png?nolink&40|}}|Korte wandeling (<1km) nodig|
+|{{:attribute_hiking.png?nolink&40|}}|De cache vereist een relevante wandeling|
+|{{:attribute_hills.png?nolink&40|}}|De cache bevindt zich in een berg gebied|
+|{{:attribute_historic_site.png?nolink&40|}}|Een historische plaats is in de buurt|
+|{{:attribute_horses.png?nolink&40|}}|Paard(rijden) is toegestaan|
+|{{:attribute_hunting.png?nolink&40|}}|De cache bevindt zich in een jachtgebied|
+|{{:attribute_in_water.png?nolink&40|}}|De cache bevindt zich onder of in water|
+|{{:attribute_inside.png?nolink&40|}}|De cache bevindt zich in een gebouw|
+|{{:attribute_investigation.png?nolink&40|}}|De cache behoeft onderzoek of voorbereiding|
+|{{:attribute_jeeps.png?nolink&40|}}|Jeeps/4WD toegestaan|
+|{{:attribute_kids.png?nolink&40|}}|De cache is geschikt voor kinderen|
+|{{:attribute_landf.png?nolink&40|}}|The cache is deel van een Lost&Found avontuur|
+|{{:attribute_letterbox.png?nolink&40|}}|Deze cache is een letterbox|
+|{{:attribute_link_only.png?nolink&40|}}|Deze cache heeft een electronisch logboek (je vindt alleen een link er naartoe)|
+|{{:attribute_magnetic.png?nolink&40|}}|De cache omvat magnetische componenten of een magneet is vereist om de cache te vinden|
+|{{:attribute_mine.png?nolink&40|}}|De cache bevindt zich in een mijn|
+|{{:attribute_motorcycles.png?nolink&40|}}|Motors zijn toegestaan|
+|{{:attribute_moving_target.png?nolink&40|}}|Dit is een verplaatsende cache|
+|{{:attribute_nature_cache.png?nolink&40|}}|Te cache bevindt zich in een natuurlijke omgeving|
+|{{:attribute_night.png?nolink&40|}}|De cache wordt aanbevolen om 's nachts te doen|
+|{{:attribute_nightcache.png?nolink&40|}}|Dit is een nacht cache|
+|{{:attribute_no_gps.png?nolink&40|}}|Een GPS apparaat is niet nodig om de cache te vinden|
+|{{:attribute_oc_only.png?nolink&40|}}|De cache is alleen beschikbaar op Opencaching|
+|{{:attribute_offset_cache.png?nolink&40|}}|Dit is een offset/multi cache|
+|{{:attribute_onehour.png?nolink&40|}}|Het vinden van deze cache kost (minder dan) een uur|
+|{{:attribute_overnight.png?nolink&40|}}|Overnachten verplicht|
+|{{:attribute_parking.png?nolink&40|}}|Parkeerplaats beschikbaar|
+|{{:attribute_parkngrab.png?nolink&40|}}|Parkeren en loggen|
+|{{:attribute_partnership.png?nolink&40|}}|Dit is een partnerschap cache|
+|{{:attribute_pedestrian_only.png?nolink&40|}}|De cache kan alleen te voet worden gedaan|
+|{{:attribute_phone.png?nolink&40|}}|Telefoon in de buurt|
+|{{:attribute_picnic.png?nolink&40|}}|Picnick tafels in de buurt|
+|{{:attribute_poi.png?nolink&40|}}|De cache bevindt zich in de buurt van een interessant punt|
+|{{:attribute_poisonoak.png?nolink&40|}}|Giftige planten in de buurt van de cache|
+|{{:attribute_public.png?nolink&40|}}|Openbaar vervoer in de buur|
+|{{:attribute_puzzle.png?nolink&40|}}|Voor deze cache moet een puzzel worden opgelost|
+|{{:attribute_quads.png?nolink&40|}}|Quads/ATV toegestaan|
+|{{:attribute_quick_cache.png?nolink&40|}}|Dit is een snelle vondst cache|
+|{{:attribute_railway.png?nolink&40|}}|Spoorweg beschikbaar|
+|{{:attribute_rappelling.png?nolink&40|}}|Hulp bij klimmen vereist|
+|{{:attribute_restrooms.png?nolink&40|}}|Toiletten beschikbaar|
+|{{:attribute_rv.png?nolink&40|}}|Stacaravans toegestaan|
+|{{:attribute_s_tool.png?nolink&40|}}|Speciale hulpmiddelen nodig|
+|{{:attribute_safari_cache.png?nolink&40|}}|Dit is een Safari cache (Opencaching)|
+|{{:attribute_scenic.png?nolink&40|}}|Schilderachtig uitzicht in de buurt|
+|{{:attribute_scuba.png?nolink&40|}}|Duikuitrusting vereist|
+|{{:attribute_seasonal.png?nolink&40|}}|Toegang tot deze cache is afhankelijk van het seizoen|
+|{{:attribute_shovel.png?nolink&40|}}|Schop nodig|
+|{{:attribute_skiis.png?nolink&40|}}|Skiën vereist / toegestaan|
+|{{:attribute_specific_access.png?nolink&40|}}|Specifieke toegangstijden zijn van toepassing|
+|{{:attribute_snow_proof.png?nolink&40|}}|Cache is sneeuw proof|
+|{{:attribute_snowmobiles.png?nolink&40|}}|Sneeuwmobielen toegestaan|
+|{{:attribute_snowshoes.png?nolink&40|}}|Sneeuwschoenen nodig|
+|{{:attribute_specific_times.png?nolink&40|}}|Cache is alleen beschikbaar op sepecifieke tijden|
+|{{:attribute_stealth.png?nolink&40|}}|Stealth nodig|
+|{{:attribute_stroller.png?nolink&40|}}|Cache is kinderwagen toegankelijk|
+|{{:attribute_survey_marker.png?nolink&40|}}|Cache heeft een elektronische marker|
+|{{:attribute_swamp.png?nolink&40|}}|Moeras dichtbij|
+|{{:attribute_swimming.png?nolink&40|}}|Zwemmen noodzakelijk|
+|{{:attribute_syringe.png?nolink&40|}}|Spuitje|
+|{{:attribute_teamwork.png?nolink&40|}}|Cache heef teamwork nodig|
+|{{:attribute_thorn.png?nolink&40|}}|Doornen in de buurt|
+|{{:attribute_ticks.png?nolink&40|}}|Teken in de buut|
+|{{:attribute_tide.png?nolink&40|}}|Cache kan afhankelijk zijn van het getij|
+|{{:attribute_touristok.png?nolink&40|}}|Toeristische cache|
+|{{:attribute_treeclimbing.png?nolink&40|}}|Boomklimmen is nodig voor deze cache|
+|{{:attribute_unknown.png?nolink&40|}}|Onbekend attribuut|
+|{{:attribute_usb_cache.png?nolink&40|}}|USB cache|
+|{{:attribute_uv.png?nolink&40|}}|UV licht nodig|
+|{{:attribute_wading.png?nolink&40|}}|Waadpak nodig|
+|{{:attribute_water.png?nolink&40|}}|Drinkwater beschikbaar|
+|{{:attribute_webcam.png?nolink&40|}}|Webcam in de buurt van de cache|
+|{{:attribute_wherigo.png?nolink&40|}}|WheriGo cache|
+|{{:attribute_winter.png?nolink&40|}}|Cache beschikbaar in de winter|
+|{{:attribute_wirelessbeacon.png?nolink&40|}}|Cache bevat een draadloos baken|
+
+

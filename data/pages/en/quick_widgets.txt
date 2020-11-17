@@ -1,0 +1,46 @@
+====== Quick access and widget functions ======
+
+You can use some quick access links and widgets to allow fast access to some functions of c:geo.
+
+<WRAP center round important 100%>
+The availability and visualization of these functions depend on Android version and launcher features on your device.
+</WRAP>
+
+===== Quick access =====
+
+With quick access you can use your normal c:geo launcher icon to directly jump to certain functions of c:geo.
+To use this quick access simply long click on the c:geo icon. 
+
+A selection of main functions will show up as shown on this picture:
+
+{{ :en:quickaccess_creation.png?direct&300 |}}
+
+You can directly access the shown functions by selecting them. 
+Additionally you could drag and drop these functions to your device desktop to get a permanent direct link to these functions by clicking the created quick access icon.
+
+This is an example how all quick access functions could look like on your phone desktop:
+
+{{ :en:quickaccess_all.png?direct&400 |}}
+
+
+===== Widgets =====
+
+The widget function provides similar possibilities as the quick access but has some more options and is available on older Android versions, than the quick access function.
+To invoke this function you will have to open the widget selection menu on your device. The method to access the widget creation depends on your device, usually you can long press on your desktop and select to add a widget to the desktop.
+
+c:geo should show up as available widget here:
+
+{{ :en:widget_creation1.png?direct&400 |}}
+
+You need to drag and drop it to a free place on your desktop. Once you did that, the following selection will be shown:
+
+{{ :en:widget_creation2.png?direct&400 |}}
+
+Just select the desired function and a corresponding shortcut to this function will be added to your desktop.
+
+This is an example how all the available widgets could look like on your phone desktop: 
+
+{{ :en:widget_all.png?direct&400 |}}
+
+
+

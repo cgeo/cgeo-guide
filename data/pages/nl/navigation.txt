@@ -1,0 +1,33 @@
+
+
+====== Navigatie methoden/hulpmiddelen======
+
+Bij het oproepen van een navigatie naar coördinaten wordt het volgende menu getoond om een geschikte navigatiemethode / hulpmiddel te selecteren.
+
+{{ :nl:navigation.png?direct&400 |}}
+
+De volgende tabel biedt een overzicht van de verschillende ondersteunde methoden / hulpmiddelen. [[.mainmenu:settings#navigation|instellingen]].
+
+^ Naam ^ Omschrijving ^
+|Kompas|Start het in c:geo gebouwde [[compass|kompas]].|
+|Radar|Start apps die een radarfunctionaliteit ondersteunen, zoals [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Een radar lijkt op een kompas maar toont je positie in het midden en de doelpositie in relatie hiermee.|
+|Toon op kaart|Opent the c:geo [[.mainmenu:livemap|kaart]]|
+|Statische kaart|Opent de [[offline#static_maps|statische kaarten]] die eerder zijn gedownload.|
+|Download statische kaart|Deze optie is alleen beschikbaar als [[offline # static_maps | statische kaarten]] nog niet is gedownload en de statische kaarten probeert te downloaden.|
+|Locus|Start [[.mainmenu:utilityprograms|Locus]] om de coördinaten op de kaart weer te geven.|
+|Navigeer (Rijden)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie per auto.|
+|Navigeer (Fiets)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie per fiets.|
+|Navigeer (Lopen)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie te voet.|
+|Navigatie (Openbaar vervoer)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie met het openbaar vervoer.|
+|Street View|Start [[https://play.google.com/store/apps/details?id=com.google.android.street|Google Street View]] op de coördinaten.|
+|OruxMaps (Online)|Start [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]] online stap voor stap navigatie.|
+|OruxMaps (Offline|Start [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]]  offline stap voor stap navigatie.|
+|Sygic (Lopen)|Start [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] stap voor stap navigatie met de voorkeur voor een wandelroute.|
+|Sygic (Rijden)|Start [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] stap voor stap navigatie met de voorkeur voor een autoroute.|
+|OsmAnd|Start [[https://play.google.com/store/apps/details?id=net.osmand|OSMAnd]] offline stap voor stap navigatie.|
+|Google Maps aanwijzingen|Opent [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] om een lijst met routebeschrijvingen van je huidige positie naar de coördinaten weer te geven.|
+|WhereYouGo|Dit item is alleen beschikbaar voor WhereiGo-caches en opent [[.mainmenu:utilityprograms | WhereYouGo]] om de benodigde cartridge te downloaden en verder te navigeren door de stadia van de cache.|
+|Pebble|Start kompas op je pebble apparaat met behulp van de [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigatie]] app.|
+|Maps.me|Start offline turn-by-turn navigation using the [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] app.|
+|Andere externe apps|Dit roept andere apps aan die niet expliciet worden ondersteund door c:geo.\\ Als u deze optie gebruikt, wordt meestal een dialoogvenster voor app-selectie op uw apparaat geopend met alle apps die koppelingen met coördinaten kunnen verwerken.|
+

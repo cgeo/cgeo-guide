@@ -1,0 +1,17 @@
+====== Kartenquellen ======
+
+Die folgenden Kartentypen sind in c:geo verfügbar.
+Du kannst zwischen ihnen in den [[.mainmenu:settings#maps|Einstellungen]] oder im Menü auf der [[.mainmenu:livemap|Karte]] wechseln.
+
+^ Name ^ Beschreibung ^ 
+|Google:Karte|Eine Online-Straßenkarte von [[https://google.com|Google]].|
+|Google:Satellit|Eine Online-Satellitenkarte von [[https://google.com|Google]].|
+|OpenStreetMap.org|Eine Online-Straßenkarte von  [[https://openstreetmap.org|OpenStreetMap.org]].|
+|OpenStreetMap.de|Eine Online-Straßenkarte von [[https://openstreetmap.de|OpenStreetMap.de]].|
+|CyclOSM|Eine Online-Straßenkarte zugeschnitten für Radfahrer von  [[https://cyclosm.org|CyclOSM.org]].|
+|OSM:Offline|[[offlinemaps|Offline-Karten]], die aus Kartendateien im [[http://mapsforge.net|Mapsforge]]-Format dargestellt werden.\\ Statt OSM:Offline wird im Auswahlmenü die Namen der verfügbaren Karten angezeigt.|
+
+<WRAP center round info 100%>
+Eine Rotation der Karte in Bewegungsrichtung wird derzeit nur auf den Google-Karten unterstützt. Alle weiteren Karten sind daher immer nach Norden ausgerichtet. Wir arbeiten allerdings an der Implementierung der Rotation.
+</WRAP>
+

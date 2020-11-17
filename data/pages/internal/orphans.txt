@@ -1,0 +1,32 @@
+====== Page status ======
+
+===== Orphaned pages =====
+
+List of orphaned pages, which are not reachable by any link from other pages.
+This means, that either these pages should be deleted (maybe created with typo?) or they need to be linked from another page to be accessible.
+
+~~ORPHANSWANTED:orphans!internal~~  
+
+Remark:
+If everything is OK and complete, only ''start'' pages of each namespace will be shown here, until they have a back link from the sidebars in their language (as this is the only point where the start page is linked).
+''sidebar'' documents of each namespace might show up as well, as they usually have no direct link pointing to them.
+The page ''ebook'' will also be listed here, as it is a system internal page used for creating custom PDFs.
+
+===== Wanted pages =====
+
+List of pages, which are used as a link but not yet exist.
+ 
+~~ORPHANSWANTED:wanted!internal~~  
+
+Remark:
+Normally the ''wiki'' namespace should not be shown here, as it is excluded in the report.
+Somehow this does not seem to work?! FIXME
+Furthermore I did not yet find out why ''mainmenu:livemap'' is listed here, as I could not find any links to it anywhere.
+
+
+
+===== Valid pages =====
+
+List of pages, which are existing and not orphaned incl. their amount of back links.
+
+~~ORPHANSWANTED:valid!internal~~  

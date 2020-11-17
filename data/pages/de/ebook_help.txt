@@ -1,0 +1,13 @@
+====== Herunterladen dieses Benutzerhandbuchs ======
+
+Du hast drei Möglichkeiten dieses Benutzerhandbuch zur Offline-Nutzung herunterzuladen:
+
+  * Durch Auswahl von ''PDF exportieren'' in der rechten Seitenleiste wird eine PDF-Datei der aktuell angezeigten Seite generiert und zum Herunterladen angeboten.\\ Mit dieser Option wird nur ein PDF für die Seite oder das Thema erzeugt, die du gerade betrachtest.
+
+  * Durch Auswahl von ''Zu Buch hinzufügen'' in der rechten Seitenleiste wird die aktuell betrachtete Seite zu einer Liste von Seiten hinzugefügt, die später gesammelt als eine PDF-Datei heruntergeladen werden können.\\ Du kannst diese Funktion nutzen um mehrere Seiten zu dieser Liste hinzuzufügen. Nachdem du mindestens eine Seite ausgewählt hast, wird ein Info-Bereich oben auf jeder Seite angezeigt, der es dir erlaubt neue Seiten hinzuzufügen oder zu entfernen und abschließen eine PDF-Datei zu erzeugen, die diese Seiten in auswählbarer Reihenfolge enthält.
+
+  * Download eines Schnappschusses des kompletten Benutzerhandbuches durch Klick auf diesen Link:\\ [[https://manual.cgeo.org/&do=export_pdfns&book_ns=de&book_title=cgeo_Benutzerhandbuch|Schappschuss des Bentzerhandbuchs als PDF herunterladen]]\\ //(Bitte hab nach Klick auf den Link etwas Geduld, die Erstellung des PDF kann bis zu einer Minute dauern) //
+
+<WRAP center round info 100%>
+Eine Offline-Version dieses Handbuchs kann zwar hilfreich sein, aber bedenke bitte, dass die Online-Version von Zeit zu Zeit geändert, korrigiert und erweitert wird. Deine Offline-Version wird also früher oder später nicht mehr aktuell sein.
+</WRAP>

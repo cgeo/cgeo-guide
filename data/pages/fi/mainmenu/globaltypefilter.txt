@@ -1,0 +1,22 @@
+
+====== Yleinen kätkötyyppisuodatin ======
+
+{{:main_filter_default.png?nolink&100 |}}
+
+Tässä valikossa voit suodattaa näytetyt kätköt tyypin mukaan. Asetus koskee live-karttaa, lähistöllä-karttaa, sekä hakua kätkötyypin mukaan. Valitse vain kätkötyyppi.\\ \\ \\ \\
+
+{{:en:global_cache_type_filter_en.png?direct&400 |}}
+
+
+<WRAP center round important 40%>
+Suodatinasetus pysyy aktiivisena (jopa silloin kun käynnistät c:geon uudelleen) kunnes vaihdat tai nollaat sen.
+</WRAP>
+
+<WRAP center round info 40%>
+Huomioithan että tällä hetkellä voit joko nähdä kaikki kätköt tai nähdä vain yhden kätkötyypin. 
+</WRAP>
+
+<WRAP center round tip 40%>
+Erilaiset kätkötyypit selitetään c:geon [[..cacheicons|kätkötyyppikuvakkeiden]] ohjesivulla.
+</WRAP>
+

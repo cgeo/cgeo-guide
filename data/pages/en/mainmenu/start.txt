@@ -1,0 +1,73 @@
+====== Main Screen ======
+
+This page describes the information shown on and the functions of the c:geo main screen.
+
+===== Main Icons =====
+{{anchor:main_icons:}}
+
+{{ :en:mainmenu_2.png?direct&400 |}}
+
+The following table describes the main menu icons:
+
+^ Icon ^ Function ^ Description ^
+|{{:main_live_default.png?nolink&100|}}|[[livemap|Live Map]]|Show a map centered on your current location, with nearby geocaches marked on it. You can drag the map to view geocaches in other locations. To see the map with up-to-date geocache locations, you need online network access. The displayed geocaches can be filtered using the Global Cache Type Filter (see below).|
+|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Nearby Search]]|List the nearby geocaches. Unlike the live map, this function creates an online query based on your current location, as acquired from GPS or the network. The query does not automatically update when you move. To use this function, you need online network access.\\ \\ If you do not have a valid GPS signal or other location information, this icon is disabled.|
+|{{:main_stored_default.png?nolink&100|}}|[[lists|Stored Caches]]|View geocaches you have stored for offline use. You can also use stored geocaches for online caching, as a to-do list. By storing geocache information, you can avoid unnecessary network bandwidth use and delays. The total number of stored geocaches is shown in the top-right of the icon.\\ If you have organized your stored geocaches into lists, you can long press the icon to jump directly to a specific list.|
+|{{:main_search_default.png?nolink&100|}}|[[search|Search]]|Search for geocaches by keyword, geocode identification, address, user name, etc.|
+|{{:main_any_default.png?nolink&100|}}|[[goto|Go To]]|Navigate to any arbitrary location using the compass, radar, turn-by-turn navigation or any other supported navigation method.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Global Cache Type Filter]]|Filter the geocaches shown on the live map, search, and your stored geocache lists by geocache type. You can choose to see all geocaches, or only those of one specific type. The text below the icon indicates the currently-active filter.\\ To clear the filter, long press the icon.|
+
+
+===== Top Bar Menu ===== 
+{{anchor:top_bar_menu:}}
+
+The top section of the main screen contains additional functions either shown as an icon in the top bar or hidden behind the overflow menu button (three-dot button). The available functions are described below.
+
+<WRAP center round info 100%>
+The number of icons you see in the top bar is determined dynamically, based on your device resolution and screen orientation. The remaining top bar items are behind the overflow menu button. \\
+To see the name of an icon in the top bar, long-press the icon.
+</WRAP>
+
+{{ :en:main_topbarmenu.png?direct&400 |}}
+
+^ Icon ^ Function ^ Description ^
+|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Quick search]]|If you are offline, search your stored geocaches using title, geocode, description, owner, log content, etc. \\ If you have network access, search both stored and online content. You can input a geocode, trackable code, username, and much more.|
+|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|History]]|View a list of geocaches you have recently logged with c:geo. \\ Note: The list is local to c:geo and is not synchronized with the recently viewed caches list on the geocaching website.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button| Open the overflow list of top bar functions that, based on your screen size, do not appear as icons. The functions include those described in this table.|
+|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open a list of your pocket queries from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Settings]]|Open the c:geo configuration menu.|
+|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Launch the settings backup function, which can be also found in the [[settings|c:geo Settings]].|
+|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|
+|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Scan Geocode]]|If a [[utilityprograms|barcode scanner]] app is installed on your device, launch it and scan barcodes that contain geocodes.|
+| |Invite friends|This function has been removed.|
+|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|About c:geo]]|View c:geo version information, contributors, contact links and other nice-to-know things about c:geo.|
+
+===== Bottom Section =====
+{{anchor:bottom_section:}}
+
+{{ :en:mainmenu_4.png?direct&400 |}}
+
+The bottom section of the main screen shows information about your login status, your current location, and satellite reception status.
+
+==== Login status ====
+{{anchor:login_status:}}
+
+The upper part of the bottom section displays your login status for each [[settings#Services|Geocaching Service]] you have configured and enabled in the [[settings|c:geo Settings]], with each service on its own row.\\
+In the above example, the user ''My username'' is successfully logged in to geocaching.com (''GC'') and opencaching.de (''OC.DE''). The figure shown after the username is the user's current find count on the respective geocaching platform optionally including a count of offline logs (shown as ''online finds + offline finds'') if the corresponding feature is activated in your [[.settings#other_logging_options|logging options]].
+
+==== Current location ====
+{{anchor:current_location:}}
+
+Below the login status information is your current location. It is shown as coordinates, or if the [[settings#Appearance|Show address]] setting is enabled, as country and city/region.\\
+In the above example, the user is located in ''USA, New York''
+
+==== Satellite status ====
+{{anchor:satellite_status}}
+
+The bottom row in this section shows you the current satellite reception status. As an example, the table below uses the information from the picture above:
+
+^Status ^ Description ^
+|Sat: 5/22|The satellite receiver on the device has found 22 satellites in total and the signal has been fixed to 5 of them.|
+|+- 4,65 m|The current positioning accuracy is 4,65 meters. Depending on your app settings, this can be shown in feet.|
+| 0 km/h|The current speed is 0 km/h. Depending on your app settings, this can be shown in ft/h.|
+|Last known|The currently-used location source:\\ \\ Last known = Last known position acquired by c:geo\\ Home = Home coordinates as defined on geocaching.com \\ GPS = Provided by GPS receiver\\ Network = Derived from mobile network information\\ Fused = Determined using both Google Play Services and GPS receiver|

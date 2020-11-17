@@ -1,0 +1,17 @@
+====== Register as new user ======
+
+===== Thanks, that you want to help improving the c:geo User Guide! =====
+
+After your registration you will receive an automated e-mail with your password. We suggest you change it after the first login to the Wiki.
+
+**Please note**:
+New accounts will be in "read only" mode until we manually approved the registration. This will usually only take some days and we will inform you about the approval by mail.
+
+If you do not receive any approval or if something goes wrong please [[support@cgeo.org?subject=User guide translation|contact us]].
+
+**Please visist the [[en:translation|translation page]] for a small tutorial about translating the c:geo User Guide using this DokuWiki system.**
+
+Fill in all the information below to create a new account. Make sure you supply a **valid e-mail address**.
+The login name should be a valid [[doku>pagename|pagename]].
+
+===== Please only create an account if you plan to contribute to this user guide! All other functions are accessible without any registration. =====

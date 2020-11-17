@@ -1,0 +1,70 @@
+====== Instalação e Atualização ======
+
+===== Instalação =====
+{{anchor:installation_source:}}
+
+Existem várias opções de onde instalar o c: geo conforme apresentado na tabela abaixo:
+
+^ Origem ^ Descrição ^
+|[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|A forma mais fácil de instalar o c: geo, e também de receber atualizações de novas versões, de forma regular. Se tem uma Conta Google e usa a aplicação Google Play no seu dispositivo, use esta forma para instalar e atualizar o c: geo.|
+|[[https://github.com/cgeo/cgeo/releases/latest|APK file]]|Se não usa o Google Play (e tem experiência com a instalação direta de aplicações), pode fazer download do arquivo APK da versão mais recente do c: geo no nosso repositório no Github.\\ \\ :!: Lembre-se que desta forma não receberá atualizações da Google Play. Irá, no entanto aparecer uma [[installation#update|notificação]] no c: geo caso sua versão esteja desactualizada, mas será necessário atualizá-la manualmente fazendo o download do novo arquivo APK.|
+|[[https://fdroid.cgeo.org/|FDroid Repository]]| Versão para utilizadores avançados (que sabem o que estão a fazer) que queiram construir sua própria versão baseada no FDroid.|
+
+
+===== Permissões =====
+{{anchor:permissions:}}
+
+Durante a instalação, será informado e será necessário concordar que o c:geo precisa de certas permissões no seu dispositivo:
+
+^ Permissão ^ Explicação ^
+|Localização|O c:geo precisa de acesso ao GPS do seu dispositivo para localizar a sua posição e calcular a distância e direção para as geocaches.|
+|Armazenamento| O c: geo irá gravar dados no armazenamento do telefone ou cartão SD assim que guardar geocaches para uso offline. Além disso, o c:geo usará o armazenamento do telefone para importar e exportar arquivos, e ler mapas offline. \\ Caso você anexe uma foto a um registo, o c:geo precisa usar a câmara do seu dispositivo.|
+
+<WRAP center round important 100%>
+Certifique-se que concede estas permissões, caso contrário, o c:geo não funcionará corretamente!
+</WRAP>
+
+===== Atualização =====
+{{anchor:update:}}
+
+Regularmente são lançadas versões atualizadas do c:geo.
+
+<WRAP center round tip 100%>
+Recomendamos que atualize a sua aplicação o mais rápido possível, se uma nova versão estiver disponível, já que as versões mais antigas podem não funcionar como o esperado (Por exemplo, no caso de uma correção de um bug urgente ou de uma alteração no lado do servidor).
+</WRAP>
+
+Se instalou o c:geo a partir da Google Play, receberá uma notificação de atualização da própria aplicação da Google Play, assim que uma nova versão estiver disponível. Pode então, simplesmente abrir essa notificação ou abrir o c:geo na Google Play para atualizar a sua aplicação do c:geo.
+
+Adicionalmente, o c:geo usa um sistema de notificação para alertá-lo sobre novas versões ou problemas temporários. Poderá então ver uma mensagem como esta no Ecrã Inicial do c:geo:
+
+{{:pt:notification_example.png?direct&300 |}}
+
+Pode carregar na mensagem para obter mais informações (opcionalmente disponível em caso de problemas temporários) ou para ser levado para a Google Play para atualizar a sua aplicação (no caso de uma notificação de atualização).
+
+===== Versão Beta =====
+{{anchor:beta_version:}}
+
+Se uma nova versão for considerada pronta para ser lançada (o chamado "Release candidate"), poderemos, em um primeiro lugar, disponibiliza-la como versão beta para obter feedback dos utilizadores e encontrar bugs ou problemas que ainda não encontramos durante o desenvolvimento.
+
+<WRAP center round info 100%>
+Normalmente, as versões beta são estáveis, mas ainda existe uma pequena possibilidade de que nem todas as funções funcionem conforme o esperado. No entanto, nós encorajamos a usá-las, pois isso realmente ajuda muito o desenvolvimento!
+</WRAP>
+
+As versões beta são distribuídas através da Google Play e funcionam perfeitamente com a atualização de, e para nossas versões normais automaticamente. Tudo o que precisa de fazer é ativar o programa de testes beta para c:geo no Google Play seguindo o seguinte link:
+
+[[https://play.google.com/apps/testing/cgeo.geocaching|Torne-se um testador beta do c:geo!]]
+
+Depois de ativar o teste beta, vai receber versões beta juntamente com as versões oficiais via Google Play. Isto significa que ainda vai receber todas as versões oficiais, mas também poderá receber uma atualização se uma nova versão beta estiver disponível. Adicionalmente como testador beta, poderá enviar comentários e relatórios de problemas via formulário de feedback na Google Play.
+
+Enquanto subscrito no teste beta do Google Play (por algum motivo) aparece sempre ''c:geo(Beta)'' no nome na loja, mesmo que não exista uma versão beta ativa e esteja na versão normal. Para verificar se está numa versão beta da aplicação poderá consultar [[.mainmenu:aboutcgeo|Sobre o c:geo]], e verificar se existe um sufixo ''-RC'' no número da versão, se existir então é uma versão beta.
+
+Se pretender sair do teste beta, use o link acima mencionado e faça "Sair do Programa". Depois disso, poderá ser nessessário desinstalar a versão beta do seu dispositivo e reinstalar a versão normal do Google Play.
+===== Versão de Desenvolvimento =====
+{{anchor:development version:}}
+
+Verifique a [[https://www.cgeo.org/development|secção de desenvolvimento do nosso site]] para saber mais sobre as versões de desenvolvimento e as nossas versões nightly.
+
+
+
+
+

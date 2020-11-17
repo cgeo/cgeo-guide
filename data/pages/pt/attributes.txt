@@ -1,0 +1,124 @@
+====== Ícones de Atributos ======
+
+Esta página fornece uma visão geral de todos os ícones de atributos utilizados no c:geo. Os ícones são utilizados pelo proprietário da cache para descrever os atributos da mesma e são mostrados na página de [[cachedetails#attributes|detalhes]]. 
+
+<WRAP center round tip 100%>
+Pode carregar na secção de atributos na página de detalhes da geocache para ver os mesmos em formato de texto, em vez dos ícones.
+</WRAP>
+
+A maioria dos ícones pode ser negado se aparecer com: {{:attribute_strikethru.png?nolink&20|}}  (Exemplo: "Disponível a toda a hora" iria passar a "Não disponível a toda a hora"). 
+
+Nem todos os atributos estão disponíveis em todos os serviços do geocaching.
+
+^ Ícone ^ Descrição ^
+|{{:attribute_abandonedbuilding.png?nolink&40 |}}|Estrutura abandonada|
+|{{:attribute_aircraft.png?nolink&40 |}}|Requer Aeronave|
+|{{:attribute_all_seasons.png?nolink&40 |}}|Todas as estações|
+|{{:attribute_arithmetic.png?nolink&40 |}}|Problema aritmético|
+|{{:attribute_ask_owner.png?nolink&40 |}}|Pergunte ao dono as condições de início|
+|{{:attribute_audio_cache.png?nolink&40 |}}|Descrição contém um ficheiro de áudio|
+|{{:attribute_available.png?nolink&40 |}}|Disponível a toda a hora|
+|{{:attribute_bicycles.png?nolink&40 |}}|Bicicletas permitidas|
+|{{:attribute_boat.png?nolink&40 |}}|Requer barco|
+|{{:attribute_breeding.png?nolink&40 |}}|Época de reprodução / natureza protegida|
+|{{:attribute_byop.png?nolink&40 |}}|Leve algo para escrever|
+|{{:attribute_campfires.png?nolink&40 |}}|Fogueiras permitidas|
+|{{:attribute_camping.png?nolink&40 |}}|Campismo disponível|
+|{{:attribute_cave.png?nolink&40 |}}|Equipamento para caverna|
+|{{:attribute_cliff.png?nolink&40 |}}|Falésia / queda de pedras|
+|{{:attribute_climbing.png?nolink&40 |}}|Subida difícil|
+|{{:attribute_compass.png?nolink&40 |}}|Bússola|
+|{{:attribute_cow.png?nolink&40 |}}|Cuidado com o gado|
+|{{:attribute_danger.png?nolink&40 |}}|Área perigosa|
+|{{:attribute_dangerousanimals.png?nolink&40 |}}|Animais perigosos|
+|{{:attribute_day.png?nolink&40 |}}|Apenas de dia|
+|{{:attribute_dogs.png?nolink&40 |}}|Cães permitidos|
+|{{:attribute_easy_climbing.png?nolink&40 |}}|Escalada leve|
+|{{:attribute_fee.png?nolink&40 |}}|Taxa de acesso ou estacionamento aplicável|
+|{{:attribute_field_puzzle.png?nolink&40 |}}|Quebra-cabeças de campo|
+|{{:attribute_firstaid.png?nolink&40 |}}|Precisa de manutenção|
+|{{:attribute_flashlight.png?nolink&40|}}|Requer lanterna|
+|{{:attribute_food.png?nolink&40|}}|Comida por perto|
+|{{:attribute_frontyard.png?nolink&40|}}|Residência privada|
+|{{:attribute_fuel.png?nolink&40|}}|Abastecimento de combustível por perto|
+|{{:attribute_geohotel.png?nolink&40|}}|Cache GeoHotel|
+|{{:attribute_geotour.png?nolink&40|}}|Parte de GeoTour|
+|{{:attribute_hike_long.png?nolink&40|}}|Longa caminhada (mais de 10 Km)|
+|{{:attribute_hike_med.png?nolink&40|}}|Caminhada média (1 Km a 10 Km)|
+|{{:attribute_hike_short.png?nolink&40|}}|Pequena caminhada (menos de 1 Km)|
+|{{:attribute_hiking.png?nolink&40|}}|Caminhada considerável|
+|{{:attribute_hills.png?nolink&40|}}|Área montanhosa|
+|{{:attribute_historic_site.png?nolink&40|}}|Local histórico|
+|{{:attribute_horses.png?nolink&40|}}|Cavalos permitidos|
+|{{:attribute_hunting.png?nolink&40|}}|Caça|
+|{{:attribute_in_water.png?nolink&40|}}|Na água|
+|{{:attribute_inside.png?nolink&40|}}|Dentro de locais fechados (grutas, edifícios, etc)|
+|{{:attribute_investigation.png?nolink&40|}}|Investigação|
+|{{:attribute_jeeps.png?nolink&40|}}|Veículos todo-o-tereno permitidos|
+|{{:attribute_kids.png?nolink&40|}}|Recomendado para crianças|
+|{{:attribute_landf.png?nolink&40|}}|Passeio de perdidos e achados|
+|{{:attribute_letterbox.png?nolink&40|}}|Letterbox (requer carimbo)|
+|{{:attribute_link_only.png?nolink&40|}}|Ligação para outro portal de caching|
+|{{:attribute_magnetic.png?nolink&40|}}|Cache magnética|
+|{{:attribute_mine.png?nolink&40|}}|Minas abandonadas|
+|{{:attribute_motorcycles.png?nolink&40|}}|Motociclos permitidos|
+|{{:attribute_moving_target.png?nolink&40|}}|Alvo em movimento|
+|{{:attribute_nature_cache.png?nolink&40|}}|Escondido no ambiente natural (florestas, montanhas, etc.)|
+|{{:attribute_night.png?nolink&40|}}|Recomendada à noite|
+|{{:attribute_nightcache.png?nolink&40|}}|Cache nocturna|
+|{{:attribute_no_gps.png?nolink&40|}}|Sem GPS (caso das letterbox, uso de bússola, etc...)|
+|{{:attribute_oc_only.png?nolink&40|}}|Só dá para registar em Opencaching|
+|{{:attribute_offset_cache.png?nolink&40|}}|Cache com offset de translação|
+|{{:attribute_onehour.png?nolink&40|}}|Demora menos de uma hora|
+|{{:attribute_overnight.png?nolink&40|}}|Necessário pernoitar|
+|{{:attribute_parking.png?nolink&40|}}|Estacionamento disponível|
+|{{:attribute_parkngrab.png?nolink&40|}}|Estacionar e encontrar|
+|{{:attribute_partnership.png?nolink&40|}}|Cache de parceria|
+|{{:attribute_pedestrian_only.png?nolink&40|}}|Acessível apenas a pé|
+|{{:attribute_phone.png?nolink&40|}}|Telefone por perto|
+|{{:attribute_picnic.png?nolink&40|}}|Mesas de piquenique por perto|
+|{{:attribute_poi.png?nolink&40|}}|Ponto de interesse|
+|{{:attribute_poisonoak.png?nolink&40|}}|Plantas venenosas|
+|{{:attribute_public.png?nolink&40|}}|Transporte público|
+|{{:attribute_puzzle.png?nolink&40|}}|Puzzle / Mistério|
+|{{:attribute_quads.png?nolink&40|}}|Quadriciclos permitidos|
+|{{:attribute_quick_cache.png?nolink&40|}}|Cache rápida|
+|{{:attribute_railway.png?nolink&40|}}|Caminho de ferro activo próximo|
+|{{:attribute_rappelling.png?nolink&40|}}|Requer equipamento de escalada|
+|{{:attribute_restrooms.png?nolink&40|}}|Casas de banho públicas por perto|
+|{{:attribute_rv.png?nolink&40|}}|Roulottes permitidas|
+|{{:attribute_s_tool.png?nolink&40|}}|Requer ferramentas especiais|
+|{{:attribute_safari_cache.png?nolink&40|}}|Reverse cache|
+|{{:attribute_scenic.png?nolink&40|}}|Vista panorâmica|
+|{{:attribute_scuba.png?nolink&40|}}|Requer equipamento de mergulho|
+|{{:attribute_seasonal.png?nolink&40|}}|Acesso sazonal|
+|{{:attribute_shovel.png?nolink&40|}}|Pode precisar de uma pá|
+|{{:attribute_skiis.png?nolink&40|}}|Requer equipamento de esqui nórdico|
+|{{:attribute_specific_access.png?nolink&40|}}|Disponível a horas específicas (pode ser necessário pagar entrada)|
+|{{:attribute_snow_proof.png?nolink&40|}}|Esconderijo à prova de neve|
+|{{:attribute_snowmobiles.png?nolink&40|}}|Veículos de neve permitidos|
+|{{:attribute_snowshoes.png?nolink&40|}}|Requer calçado de neve|
+|{{:attribute_specific_times.png?nolink&40|}}|Disponível apenas em horários específicos|
+|{{:attribute_stealth.png?nolink&40|}}|É necessário ser discreto|
+|{{:attribute_stroller.png?nolink&40|}}|Acessível a carrinhos de bebé|
+|{{:attribute_survey_marker.png?nolink&40|}}|Perto de um Ponto Geodésico|
+|{{:attribute_swamp.png?nolink&40|}}|Pântano|
+|{{:attribute_swimming.png?nolink&40|}}|Pode ser necessário nadar|
+|{{:attribute_syringe.png?nolink&40|}}|Primeiros socorros disponíveis|
+|{{:attribute_teamwork.png?nolink&40|}}|Requer trabalho de equipa|
+|{{:attribute_thorn.png?nolink&40|}}|Espinhos|
+|{{:attribute_ticks.png?nolink&40|}}|Carraças|
+|{{:attribute_tide.png?nolink&40|}}|Maré|
+|{{:attribute_touristok.png?nolink&40|}}|Turística|
+|{{:attribute_treeclimbing.png?nolink&40|}}|Requer subida a árvores|
+|{{:attribute_unknown.png?nolink&40|}}|Atributo desconhecido presente|
+|{{:attribute_usb_cache.png?nolink&40|}}|Cache USB (dead drop)|
+|{{:attribute_uv.png?nolink&40|}}|Requer luz UV|
+|{{:attribute_wading.png?nolink&40|}}|Pode requerer caminhar em local alagado|
+|{{:attribute_water.png?nolink&40|}}|Água potável por perto|
+|{{:attribute_webcam.png?nolink&40|}}|Webcam|
+|{{:attribute_wherigo.png?nolink&40|}}|Cache Wherigo|
+|{{:attribute_winter.png?nolink&40|}}|Disponível no Inverno|
+|{{:attribute_wirelessbeacon.png?nolink&40|}}|Sinal de rede sem fios|
+
+

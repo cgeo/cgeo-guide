@@ -1,0 +1,15 @@
+====== Download of this User Guide ======
+
+You have three different options to download this user guide for offline use:
+
+  * Clicking the ''Export to PDF'' icon on the right sidebar will generate a PDF file of the current page and offer it for downloading.\\ This option can only generate PDF files for the single topic/page, which is currently shown to you.
+
+  * Clicking the ''Add to book'' icon on the right sidebar will add the currently shown page to a list of pages to be downloaded.\\ You can use this function to add more pages to this list. After you added at least one page an info section will be shown on top of each page allowing you to add more pages, remove pages and to finally generate a single PDF containing all selected pages in custom order.
+
+  * Download a snapshot of the complete user guide by clicking this link:\\ [[https://manual.cgeo.org/&do=export_pdfns&book_ns=en&book_title=cgeo_Userguide|Download snapshot of the complete user guide as PDF]]\\ //(Please be patient after clicking the link, it might take some seconds to generate the PDF) //
+
+
+<WRAP center round info 100%>
+While having an offline version of this user guide can be helpful, please keep in mind that the contents of the online version might be changed, corrected and enhanced from time to time. Your offline version might become outdated sooner or later.
+</WRAP>
+

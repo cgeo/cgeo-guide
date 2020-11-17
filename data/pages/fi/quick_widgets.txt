@@ -1,0 +1,46 @@
+====== Pikakäyttö ja pienoisohjelmat ======
+
+Voit käyttää pikakuvakkeita ja pienoisohjelmia, jotta voit nopeasti käyttää joitakin c:geon toimintoja.
+
+<WRAP center round important 100%>
+Toimintojen saatavuus ja visualisointi riippuu laitteesi Android-versiosta ja kotinäytön ominaisuuksista.
+</WRAP>
+
+===== Pikakäyttö =====
+
+Pikakäytöllä voit käyttää c:geon normaalia käynnistyskuvaketta hyppääksesi nopeasti c:geon tiettyihin toimintoihin.
+Käyttääksesi tätä toimintoa, paina kotinäytössä c:geon kuvaketta pitkään.
+
+Pieni valikoima sovelluksen päätoiminnoista näytetään, kuten alla:
+
+{{ :en:quickaccess_creation.png?direct&300 |}}
+
+Voit aktivoida halutun toiminnon napauttamalla sitä.
+Lisäksi voit vetää ja pudottaa nämä toiminnot laitteesi kotinäyttöön saadaksesi pysyvän suoran pikakuvakkeen näihin toimintoihin, jotka aukeavat klikkaamalla luotua pikakuvaketta.
+
+Tässä esimerkissä näytetään kuinka kaikki toimintojen pikakuvakkeet näkyvät laitteen kotinäytössä:
+
+{{ :en:quickaccess_all.png?direct&400 |}}
+
+
+===== Pienoisohjelmat =====
+
+Pienoisohjelmatoiminto tarjoaa samankaltaiset mahdollisuudet kuten pikakuvakkeet, mutta hieman laajemmalla valikoimalla kuin pikakäyttötoiminto, ja on saatavilla vanhemmille Android-versioille.
+Aktovoidaksesi tämän toiminnon, sinun tulee valita laitteessasi pienoisohjelman valintavalikko. Tähän toimintoon pääsy riippuu laitteesta, yleensä voit painaa pitkään kotinäyttöä ja valita pienoisohjelman lisäystoiminnon.
+
+c:geon pitäisi näkyä saatavilla olevana pienoisohjelmana:
+
+{{ :en:widget_creation1.png?direct&400 |}}
+
+Sinun tulee vetää ja pudottaa se kotinäytöllesi vapaalle paikalle. Kun olet tehnyt sen, niin seuraava valinta näytetään:
+
+{{ :en:widget_creation2.png?direct&400 |}}
+
+Valitse haluamasi toiminto ja kyseisen toiminnon pikakuvake lisätään kotinäytöllesi.
+
+Tässä esimerkissä näytetään kaikki saatavilla olevat pikaohjelmat puhelimen kotinäytöllä:
+
+{{ :en:widget_all.png?direct&400 |}}
+
+
+

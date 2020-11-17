@@ -1,0 +1,107 @@
+
+
+====== Matkaajien käsittely ======
+
+===== Tuetut matkaajatyypit=====
+{{anchor:supported_trackables:}}
+
+c:geo tukee useita erilaisia matkaajatyyppejä:
+
+^ Kuvake ^ Tyyppi ^ Kuvaus ^ Toiminnot ^
+|{{ :trackable_travelbug.png?nolink&40 |}}|Travel Bug|Sivuston [[https://www.geocaching.com/track/|geocaching.com]] matkaajat|Täysi tuki kaikille matkaajatoiminnoille|
+|{{ :trackable_geokrety.png?nolink&40 |}}|GeoKrety|Sivuston [[https://www.geokrety.org|geokrety.org]] matkaajat|Täysi tuki kaikille matkaajatoiminnoille|
+|{{ :trackable_geolutins.png?nolink&30 |}}|GeoLutin|Sivuston [[http://www.geolutins.com|geolutins.com]] matkaajat|Vain matkaajan haku ja sen tietojen näyttö.|
+
+===== Matkaajan etsiminen=====
+{{anchor:searching_for_a_trackable:}}
+
+Suurimmalla osalla matkaajilla on kaksi erilaista koodia, joilla voidaan tunnistaa ja hakea tietty matkaaja:
+  * **Julkinen seurantakoodi:**\\ Ei-salainen matkaajan koodi (esim. TBxxxx, GKxxxx, GLxxxx). Tätä koodia voidaan käyttää matkaajan hakemiseen ja sen tietojen näyttämiseen, mutta sitä ei voida käyttää sen kirjaamiseen.\\ \\ Voit käyttää julkista seurantakoodia matkaajan hakemiseen joko käyttäen [[.mainmenu:search|hakutoimintoa]] tai [[.mainmenu:quicksearch|nopean haun palkkia]].\\ \\ Haku näyttää [[[[trackabledetails|matkaajan yksityiskohdat]], josta voit myös aloittaa matkaajan kirjaamisen (jos sinulla on myös tiedossa sen salainen koodi).
+
+  * **Salainen seurantakoodi:**\\ Ei-julkinen seurantakoodi, joka on tyypillisesti merkitty vain matkaajaan. Tätä koodia tarvitaan matkaajan kirjaamiseen, sen varmistukseksi että olet fyysisesti nähnyt/siirtänyt tämän matkaajan.\\ \\ Salainen koodi on pakollinen kirjoittaessasi lokia matkaajalle. geocaching.com-matkaajien kohdalla voit käyttää [[.mainmenu:search|hakutoiminnossa]] matkaajan hakemiseen myös salaista koodia. Tämä ei toimi muihin matkaajatyyppeihin kuin Travel Bug, koska c:geo ei pysty tunnistamaan matkaajan tyyppiä salaisen koodin perusteella, joten c:geo käyttää geocaching.comia oletuksena.\\ \\ Myös [[.mainmenu:quicksearch|nopean haun palkkia]] voidaan käyttää matkaajan hakemiseen salaisella koodilla, lukuunottamatta koodit, jotka alkavat kätköille varatuilla tunnisteilla (esim. GCxxxx, OCxxxx, OUxxxx), jossa tapauksessa c:geo ei pysty erottamaan etsitkö salaisella koodilla matkaajaa vai geokätköä. Tässä tapauksessa sinun tulee käyttää [[.mainmenu:search|hakutoimintoa]]. \\ \\ Haku näyttää [[[[trackabledetails|matkaajan yksityiskohdat]], josta voit myös aloittaa matkaajan kirjaamisen.
+
+===== Matkaajan kirjaus =====
+{{anchor:logging_a_trackable:}}
+
+Matkaajan tietosivulta voit aloittaa matkaajan kirjauksen, jolloin avautuu seuraava kirjausnäyttö:
+
+
+{{:en:loggingtb.png?direct&400 |}}
+==== Yläpalkin valikko ====
+{{anchor:top_bar_menu:}}
+
+
+<WRAP center round info 100%>
+Kuvakkeet yläpalkissa ja sisältö kolmen pisteen menun takana jaetaan dynaamisesti laitteesi näytön resoluution ja näytön suunnan mukaisesti. Joten on mahdollista, että näytettyjen kuvakkeiden sekä menun takaa löytyvien valintojen määrä vaihtelee.\\
+Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen.
+</WRAP>
+
+^ Kuvake ^ Toiminto ^ Selite ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Lähetä loki|Käytä tätä nappia lähettääksesi lokin kirjattavaksi kun olet saanut sen valmiiksi.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Lisää malline|Voit tästä lisätä [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksesi kirjaukseen.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+| |Hymiöt|Avaa listan hymiöistä jotka voit lisätä kirjaukseesi.|
+| |Toista edellinen loki|Lisää edelliseen matkaajaan kirjaamasi lokin tämän matkaajan lokin kirjaukseen.|
+
+
+==== Lokityyppi ====
+{{anchor:log_type:}}
+
+{{ :en:loggingtb_logtype.png?nolink&400 |}}
+
+Riippuen matkaajan merkistä, matkaajan senhetkisestä tilasta ja oletko matkaajan omistaja, erilaisia lokityyppejä voidaan valita klikkaamalla tätä kenttää:
+
+^Lokityyppi ^ Selite^
+|Otettu kätköstä|Otit tämän matkaajan kätköstä, johon se on nyt listattu.|
+|Nähty|Haluat vain kirjata matkaajan nähdyksi mutta et halua tehdä sille muuta.|
+|Pudotettu|Pudotit matkaajan kätköön.\\ \\ :!: Tämä lokityyppi on saatavilla vai GeoKretylle, sillä geocaching.com Pudotettu-lokit yhdistetään aina kätkön lokiin ja täten kirjataan [[logging#inventory|geokätkön kirjaussivulla]].|
+|Vieraili|Haluat merkata matkaajan kätköllä vierailleeksi.\\ \\ :!:  Tämä lokityyppi on saatavilla vai GeoKretylle, sillä geocaching.com Vieraili-lokit yhdistetään aina kätkön lokiin ja täten kirjataan [[logging#inventory|geokätkön kirjaussivulla]].|
+|Otettu muualta|Haluat siirtää tämän matkaajan tavaraluetteloosi. Et kuitenkaan napannut sitä kätköstä vaan toiselta käyttäjältä tai muusta tuntemattomasta sijainnista.|
+|Muistiinpano|Haluat kirjoittaa kommentin/muistiinpanon tälle matkaajalle.|
+|Siirrä kokoelmaan|Jos geocaching.com-matkaaja on merkitty keräiltäväksi, voit käyttää tätä lokityyppiä siirtääksesi matkaajan omaan matkaajakokoelmaasi.|
+|Siirrä tavaraluetteloon|Jos geocaching.com-matkaaja on tällä hetkellä kokoelmassasi, voit käyttää tätä lokityyppiä siirtääksesi matkaajan tavaraluetteloosi.|
+
+
+==== Lokikirjauksen päivämäärä/aika ====
+{{anchor:log_date_time:}}
+
+{{:en:loggingtb_datetime.png?nolink&400 |}}
+
+Valitse päivämäärä (ja aika - vain GeoKrety) lokikirjauksellesi.
+==== Seuranyakoodi ====
+{{anchor:tracking_code:}}
+
+{{:en:loggingtb_trackingcode.png?nolink&400 |}}
+
+Aseta tähän salainen seurantakoodi ennen lokikirjauksen lähettämistä. Tarvitset salaisen seurantakoodin lähettääksesi minkä tahansa muun lokin kuin ''Muistiinpano''. GeoKrety vaatii koodin myös ''Muistiinpano''-kirjaukselle.
+
+Salainen seurantakoodi näytetään tässä kentässä jos käytit sitä matkaajan etsimiseen, tai jos matkaaja on tällä hetkellä tavaraluettelossasi.
+
+==== Log text ====
+{{anchor:log_text:}}
+
+{{:en:loggingtb_logtext.png?nolink&400 |}}
+
+Kirjaa lokikirjauksesi tähän kenttään.
+
+==== Sosiaalinen media ====
+{{anchor:social_media:}}
+
+{{:en:loggingtb_socialmedia.png?nolink&400 |}}
+
+Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:settings#social_media|asetuksissa]] niin tämä kenttä näytetään. Jos valinta on päällä, c:geo tekee twiittauksen kirjauksen lähetyksen yhteydessä.
+
+==== Erikoiskentät ====
+{{anchor:special_fields:}}
+
+{{:en:loggingtb_dropoff_gk.png?nolink&300 |}}
+
+Kun luot ''Pudotettu''-kirjauksen GeoKrety-matkaajalle, sinun tulee määrittää kätkön geokoodi ja/tai koordinaatit johon tiputit tämän matkaajan.
+
+Käytä ''Geokoodi''-kenttää määrittääksesi kätkön geokoodin, johon tiputit matkaajan tai klikkaa ''Koordinaatit'' avataksesi [[coordinatedialog|koordinaattien syöttönäytön]] ja syötä koordinaatit mihin matkaaja on tiputettu.
+===== Tavaraluettelo =====
+{{anchor:trackable_inventory:}}
+
+Tavaraluettelo on lista, jossa näytetään käsissäsi olevat matkaajat (esimerkiksi olet poiminut ne kätköstä tai napannut ne toiselta käyttäjältä).
+
+Tällä hetkellä c:geo ei tue erillistä näyttöä matkaajaluettelosta. Näet kuitenkin täydellisen matkaajaluettelon [[logging|kätkön kirjaussivun]] [[logging#inventory|tavaraluettelo-osiossa]] luodessasi kirjausta geokätkölle.

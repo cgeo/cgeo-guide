@@ -1,0 +1,18 @@
+====== History ======
+
+{{:ic_menu_recent_history.png?nolink&50 |}}
+
+
+The history list does mainly look like a normal [[lists|list]] but is filtered to caches where you recently composed an online or offline log. In contrast to normal lists of stored cache it might also contain cache no longer stored on your device.
+
+{{:en:history.png?direct&400 |}}
+
+The history list is a good starting point for re accessing your pending offline logs and either sending them online or  [[..offline#field_note_export|exporting field notes]] of your offline logs.
+
+<WRAP center round info 50%>
+Please note, that this is a local list in c:geo only and not synchronized with the recently viewed caches list on the geocaching website.
+</WRAP>
+
+While on the history list you can use ''Menu'' -> ''Manage Caches'' to either ''Clear offline logs'' or ''Clear history''.
+
+

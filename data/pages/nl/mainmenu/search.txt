@@ -1,0 +1,25 @@
+
+
+====== Zoekfunctie ======
+
+{{:main_search_default.png?nolink&100 |}}
+
+Het zoekmenu biedt verschillende zoekfuncties zoals hieronder beschreven. Alle op locatie en gebruiker gebaseerde zoekopdrachten zullen een [[lists|lijst met caches]] als resultaat opleveren, terwijl de geocode-zoekopdracht en de trackable search direct de resulterende [[..:cachedetails|geocache details]] of [[..:trackabledetails|trackable details]] zullen openen.
+
+\\ \\ \\ \\
+
+{{:nl:search_1_nl.png?direct&400|}}{{ :nl:search_2_nl.png?direct&400|}}
+
+<WRAP center round info 100%>
+In principe gebruiken alle zoekfuncties alle ingeschakelde geocachingplatforms tegelijkertijd en is het resultaat een gecombineerde lijst voor alle geocaching-services. Dit is afhankelijk van de functies die worden ondersteund door de specifieke geocacheservice zoals vermeld in het menu [[settings# Services |Diensten]].
+</WRAP>
+
+^Zoekfunctie ^ Omschrijving^
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Door op dit pictogram te drukken wordt een lijst met je eigen caches geladen.|
+|Coördinaten|Zoek naar caches rondom gegeven coördinaten. Raadpleeg het [[..: coordinatedialog | Coördinaten dialoog]] voor meer informatie.|
+|Addres|Zoeken naar caches rond een straatadres. We gebruiken de Google-coderingsservice voor geocodering om het adres te vinden en om te zetten in coördinaten. \\ Als het adres is gevonden, kun je de lijst met caches in de buurt van deze locatie laden of de [[livemap | live kaart]] op dit adres openen door op het pictogram van de kleine kaart te klikken dat wordt weergegeven in het zoekresultaat.|
+|Geocode|Zoek naar een specifieke geocode op alle ondersteunde platforms, afhankelijk van het codevoorvoegsel (bijv. GC77, OC1234).|
+|Trefwoorden|Zoeken naar caches ** beginnend met ** het opgegeven zoekwoord. \\ :!: Zoeken op trefwoord voor alle caches ** met ** het zoekwoord is momenteel niet mogelijk vanwege technische beperkingen.|
+|Gevonden door gebruiker|Zoeken naar caches gevonden door de opgegeven gebruikersnaam.|
+|Verstopt door gebruikers|Zoek naar caches verborgen door de opgegeven gebruikersnaam.|
+|Trackable|Zoek naar een trackable door de openbare of geheime trackingcode te gebruiken. Deze zoekfunctie ondersteunt trackables van geocaching.com en andere trackable services (bijv. [[http://geokrety.org|GeoKrety]]).|

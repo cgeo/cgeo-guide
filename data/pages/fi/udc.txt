@@ -1,0 +1,47 @@
+====== Käyttäjän määrittämät kätköt ======
+
+Voit luoda c:geossa käyttäjän määrittämiä kätköjä. Näitä voidaan käyttää esimerkiksi uusien kätköjen suunnitteluun ja kiinnostavien paikkojen tallentamiseen.
+Tämän lisäksi c:geo luo automaattisesti oman käyttäjän määrittämän kätkön, jonne [[.mainmenu:goto|"Siirry"-toiminnon]] kohteet tallennetaan.
+
+Käyttäjän määrittämät kätköt näkyvät listoillasi ja kartalla virtuaalisen kätkön [[.cacheicons|kätkötyyppinä]].
+
+<WRAP center round info 100%>
+Samalla kun voit määrittää käyttäjän määrittämän kätkön suunnitellaksesi kätkön piilotusta, c:geon kautta ei ole kuitenkaan mahdollista lähettää uutta kätköä. Käyttäjän määrittämä kätkö -toiminto antaa pienen avun uuden kätkön suunnitteluun, mutta ei tarjoa online-tapaa uusien kätköjen lähetykseen geokätköilysivustoille.
+</WRAP>
+
+
+
+===== Käyttäjän määrittämän kätkön luonti =====
+
+Voit luoda käyttäjän määrittämän kätkön kahdella tavalla:
+  - Avaamalla tallennettujen kätköjen listan ja valitsemalla [[.mainmenu:lists#manage_caches|listavalikosta]] ''Hallitse kätköjä'' -> ''Luo käyttäjän määrittämä kätkö''.
+  - Painaa karttaa pitkään aloittaaksesi uuden käyttäjän määrittämän kätkön luonnin. Tämä pitkän painalluksen toiminto tulee aktivoida [[.mainmenu:settings#map_behavior|kartan käyttäytymisen asetuksissa]].
+
+Kun yksi näistä toiminnoista aktivoidaan, niin sinulta kysytään mikä nimi annetaan luotavalle käyttäjän määrittämälle kätkölle.
+
+{{:en:udc_create.png?direct400|}}
+
+Tämän jälkeen käyttäjän määrittämä kätkö luodaan ja tallennetaan joko nykyiselle listalle (jos toiminto on aktivoitu [[.mainmenu:lists#manage_caches|listavalikon]] kautta) tai oletuslistallesi (kartan pitkän painalluksen jälkeen).
+
+Jos kätkö luotiin kartalla, niin kätkön koordinaatit on valmiiksi asetettu perustuen sijaintiin jota painoit kartalla. Jos kätkö luotiin listalla, niin kätkön koordinaattitieto on tyhjä kunnes luot reittipisteen ja määrität sen koordinaatit kätkön koordinaatteina.
+
+Tyyppillinen käyttäjän määrittämä kätkö voi näyttää tältä:
+
+^ Reittipisteet ^ Tiedot ^ Kuvaus ^
+|{{:en:udc_waypoints.png?direct300|}}|{{:en:udc_details.png?direct300|}}|{{:en:udc_description.png?direct300|}}|
+
+===== Käyttäjän määrittämien kätköjen käsittely =====
+
+Siitä huolimatta että loit kätkön itse, sitä käsitellään c:geossa samalla tavalla kuten mitä tahansa kätköä (kuten reittipisteiden luonti, siirto muille listoille jne.).
+Jotkut toiminnot eivät ole (vielä) mahdollisia, koska se ei ole tavallinen kätkö:
+
+^ Toiminto ^ Rajoitus ^
+|Kätkötyyppi|Käyttäjän määrittämä kätkö on c:geossa oma kätkötyyppinsä.|
+|Kätkön kuvaus|Oman tekstin laittaminen kätkön kuvaukseen ei ole vielä mahdollista. Se sisältää vain tekstin "Tämä on käyttäjän määrittämä kätkö". Suunnitteilla on, että toiminto lisätään tuleviin c:geon versioihin. Voit kiertää tätä rajoitusta käyttämällä henkilökohtaisia muistiinpanoja ja/tai reittipisteiden kuvauksia.|
+|Kätkökoodi|c:geo asettaa automaattisesti kätkökoodin (käyttäen etuliitettä ''ZZ''). Et voi vaihtaa sitä.|
+|D/T, Koko|Näitä tietoja ei ole mahdollista asettaa käyttäjän määrittämille kätköille.|
+|Attribuutut|Attribuutteja ei vielä tueta käyttäjän määrittämien kätköjen osalta.|
+|Kirjaus|Koska tämä on paikallisesti luotu kätkö, siihen ei voi lähettää kirjauksia.|
+|Lokikirja|Koska paikallisesti luotua kätköä ei voida kirjata, sillä ei ole lokikirja-välilehteä.|
+|Päivitys|Koska käyttäjän määrittämä kätkö on tallennettu vain paikallisesti, et voi päivittää sitä geokätköilypalvelusta/palveluun.|
+

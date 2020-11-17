@@ -1,0 +1,19 @@
+====== Gehe zu Menü ======
+
+{{:main_any_default.png?nolink&100 |}}
+
+Das "Gehe zu..." menü kann dazu genutzt werden to beliebigen Koordinaten zu navigieren, die nicht an einen bestimmten Geocache oder Geocache-Wegpunkt gebunden sind oder eine Wegpunkt-Projektion durchzuführen.\\ 
+
+Technisch gesehen bringt dich das "Gehe zu..." Menü zum [[..:cachedetails#waypoint_tab|Wegpunkt-Reiter]] eines c:geo internen Geocaches. Die Bedienung ist also exakt gleich zu den Wegpunkten aller anderen Geocaches in c:geo. Bitte schau in den verlinkten Artikel über den Wegpunkt-Reiter und den Wegpunkt-Editor.\\ \\ \\
+
+**FIXME**: New picture needed
+
+Auf dieser Seite des Benutzerhandbuches beschreiben wir nur einige typische Anwendungsfälle.
+
+===== Durchführen einer Wegpunkt-Projektion/Peilung =====
+
+  - Klicke auf  "Wegpunkt hinzufügen"
+  - Klicke auf das Koordinatenfeld und gib die Koordinaten, von der die Projektion starten soll. Du kannst auch auf "Meine Koordinaten" klicken um den aktuellen Standort als Startpunkt festzulegen.
+  - Schließe die Koordinateneingabe und gib anschließend Entfernung und Richtung in den entsprechenden Feldern ein.
+  - Speichere den Wegpunkt
+  - Nun kannst du das "Kompassrose"-Symbol neben dem Wegpunkt nutzen um die bevorzugte Navigation zum Wegpunkt zu starten. Alternativ kannst du auch einen langen Klick auf den Wegpunkt ausführen und aus dem "Navigieren"-Menü die gewünschte Navigationsmethode (z.B. eine Karte) wählen.

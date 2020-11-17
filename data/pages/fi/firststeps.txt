@@ -1,0 +1,80 @@
+====== c:geon käytön aloitus ======
+
+<WRAP center round important 100%>
+Käyttääksesi c:geota, tarvitset käyttäjätilin valitsemallasi geokätköilysivustolla. c:geo tukee tällä hetkellä [[https://www.geocaching.com|geocaching.comia,]] kansainvälistä kaupallista geokätköilysivustoa, myös Opencaching-sivustoa useissa maissa (kuten [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], ja monta muuta). Valitse haluamasi sivusto, ja luo käyttäjätili etukäteen heidän omalla verkkosivulla (Peruskäyttäjän tili on yleensä ilmainen). \\ \\ c:geo ei toimi ilman käyttäjätiliä!
+</WRAP>
+
+===== c:geon rekisteröinti Geocaching.comissa =====
+
+Kun käynnistät c:geon ensimmäistä kertaa asennuksen jälkeen, sinut ohjataan automaattisesti seuraavalle "Käytön aloitus" -näytölle.
+
+{{:en:getting_started.png?direct&400 }}
+
+Se selostaa c:geon tarvitsemät [[installation#​permissions|käyttöluvat]], tarjoaa linkkejä tähän käyttöohjeeseen sekä - mitä tärkeintä - tarjoaa painikkeen yhteyden muodostamiseksi geokätköilyn palveluntarjoajiin.
+
+Kun klikkaat ''"Aseta geokätköilyn palveluntarjoajat"''​ sinut viedään suoraan asetuksiin, joista voit tunnistautua c:geolla haluamiisi geokätköilysivustoihin, kuten alla.
+
+**Jos haluat päästä ensiasennuksen jälkeen takaisin palveluntarjoajien asetuksiin, löydät ne seuraavasti:\\ 
+''​Valikko → Asetukset → Palvelut''​**  
+
+---- 
+
+===== Aseta geokätköilypalvelu(t) ===== 
+
+Valitse nyt tuettujen sivustojen listalta geokätköilypalvelu, mitä haluat käyttää. Voit tunnistautua useampaan palveluun palaamalla tähän näyttöön myöhemmin. Löydät ne ''Valikko → Asetukset → Palvelut''.
+
+{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
+
+===== c:geon rekisteröinti Geocaching.comin kanssa ===== 
+
+Kun olet valinnut tuettujen sivustojen listalta ''​geocaching.com'', klikkaa seuraavaksi ''Valtuuta c:geo'' kuten alla::
+
+{{ :en:firststeps_1_en.png?direct&400 }}
+
+Kun olet klikannut ''Valtuuta c:geo'', avautuu ikkuna, jossa voit syöttää geocaching.comin käyttäjätunnuksen ja salasanan, sitten klikata ''Tarkista todennus''.\\
+Jos sinulla ei ole vielä tiliä, voit klikata ''Luo käyttäjätili'' avataksesi geocaching.comin rekisteröintisivun.
+
+{{ :en:firststeps_3_en.png?direct&400 }}
+
+Kun rekisteröinti on suoritettu onnistuneesti, c:geo palaa automaattisesti palveluvalikkoon. Kun näet käyttäjänimesi sekä avatarisi näytöllä, niin rekisteröinti on onnistunut.
+
+{{ :en:firststeps_2_en.png?direct&400 }}
+
+<WRAP center round help 100%>
+Jos rekisteröinti epäonnistuu, niin käy [[http://faq.cgeo.org#login-failed|FAQ (englanniksi)]] saadaksesi apua.
+</WRAP>
+
+Nyt sinun tulee vain klikata taaksepäin laitteellasi päästäksesi c:geon päävalikkoon. Seuraavalla käynnistyksellä c:geo avaa päävalikon automaattisesti.
+
+===== c:geon rekisteröinti Opencaching.comissa =====
+
+Jos haluat yhdistää c:geon muuhun palveluun kuin geocaching.com, tai mennäksesi uudelleen palveluvalikkoon, löydät ne seuraavasti:\\
+''Valikko → Asetukset → Palvelut''
+
+<WRAP center round tip 100%>
+Löydät lisää tietoa c:geon tukemista geokätköilysivustoista [[.mainmenu:settings#Services|täältä]].
+</WRAP>
+
+Valitse geokätköilysivusto johon haluat yhdistää, ja aktivoi palvelu painamalla ''Aktivoi'' -laatikkoa. Tämän jälkeen aloita valtuutusprosessi klikkaamalla "Valtuuta c:geo"
+
+{{ :en:oc_en_1.png?direct&400 }}
+
+ja ''Aloita valtuutus'' seuraavalla näytöllä. Jos sinulla ei ole vielä tiliä, voit klikata ''Luo käyttäjätili'' avataksesi rekisteröintisivun Opencaching-sivustolla.
+
+{{ :en:oc_en_2.png?direct&400 }}
+
+Sinut ohjataan nyt Opencaching-sivustolle selaimellasi. Kirjaudu sisään käyttäjänimelläsi ja salasanallasi - ja jos vaaditaan - anna seuraavalla sivulla c:geolle käyttölupa Opencaching-tilillesi.
+
+{{ :en:oc_en_3.png?direct&400 }}
+
+Kun rekisteröinti on suoritettu, c:geon pitäisi avautua uudelleen ja näyttää onnistunut rekisteröinti.
+
+{{ :en:oc_en_4.png?direct&400 }}
+
+<WRAP center round tip 100%>
+Jos saat virhesanoman tai et palaa c:geohon, yritä rekisteröityä toisella selaimella. Tarkista myös että aika ja päivämäärä ovat laitteessasi oikein.
+</WRAP>
+
+
+
+

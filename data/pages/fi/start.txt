@@ -1,0 +1,135 @@
+
+====== c:geo Käyttöohje ======
+
+**Tervetuloa C:geon käyttöohjeeseen!**
+
+{{ :logo_big.png?nolink&200 |}} 
+
+==== Tietoja c:geosta ====
+{{anchor:about_cgeo:}}
+
+c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu, aina käyttövalmis epävirallinen ohjelma geocaching.com:in käyttöön  ja tarjoaa perustoiminnot muihin geokätköilysovelluksiin (kuten Opencaching). Se ei vaadi selainta tai tietojen siirtoa - [[installation|asenna se]] ja ohjelma on valmis.
+
+c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
+
+===== Käytön aloitus =====
+{{anchor:getting_started:}}
+
+  * [[installation|c:geon asennus ja päivitys]] - Kuinka c:geo ladataan, asennetaan ja päivitetään
+  * [[installation#permissions|c:geon käyttöluvat]] - c:geon käyttöön tarvittavat laitteen luvat
+
+  * [[firststeps|c:geon käytön aloitus]] - Kuinka tunnistautua geokätköilypalveluihin
+  * [[basicuse|c:geon peruskäyttö]] - Mitä on geokätköily ja kuinka löytää ensimmäinen kätkö c:geon avulla?
+
+
+===== Käyttöohje =====
+{{anchor:users_manual:}}
+
+==== Päänäyttö ====
+{{anchor:main_menu:}}
+
+  * [[.mainmenu:start|Päävalikko]]  - c:geon päätoiminnot
+    * [[.mainmenu:start#top_bar_menu|Yläreunan valikko]] - Lisätoiminnot 
+    * [[.mainmenu:livemap|Live-kartta]] - Geokätköjen live-kartan selaus
+    * [[.mainmenu:lists#cache_list|Lähistöllä]] - Etsi lähistöllä olevia kätköjä
+    * [[.mainmenu:lists|Tallennetut kätköt]] - Tarkastele paikallisesti tallennettuja geokätköjä
+    * [[.mainmenu:search|Etsi]] - Etsi geokätköjä ja matkaajia
+    * [[.mainmenu:goto|Siirry]] - Navigoi mielivaltaisiin koordinaatteihin
+    * [[.mainmenu:globaltypefilter|Kätkötyyppien suodatin]] - Suodata kätköt tyypin mukaan koko ohjelmassa
+    * [[.mainmenu:start#bottom_section|Tilatiedot]] - Kirjautumistilan ja muiden tietojen seuranta
+
+  * [[.mainmenu:settings|Asetukset]] - Muuta ohjelman asetuksia
+
+==== Geokätköt ====
+{{anchor:geocaches:}}
+
+  * [[cachedetails|Geokätkön tiedot]] - Geokätkön tietojen selaus
+  * [[Logging|Geokätköjen kirjaaminen]] - Kirjaa löytämäsi geokätköt
+
+==== Matkaajat ====
+{{anchor:trackables:}}
+
+  * [[trackabledetails|Matkaajan tiedot]] - Matkaajan tietojen selaus
+  * [[loggingtb|Matkaajien käsittely]] - Käsittele ja kirjaa löytämäsi matkaajat
+
+==== Koordinaatit ja navigointi ====
+{{anchor:coordinates_and_navigation:}}
+
+  * [[coordinatedialog|Koordinaattien syöttönäyttö]] - Syötä tietyt koordinaatit 
+  * [[coordinatedialog#waypoint_calculator|Reittipistelaskuri]] - Laske reittipisteen koordinaatit
+  * [[navigation|Navigaatio]] - Käytä tuettuja navigaatiotapoja ja työkaluja
+  * [[compass|Kompassi]] - Navigoi käyttäen sisäänrakennettua kompassia
+
+==== Offline-toiminnot ====
+{{anchor:offline_functions:}}
+
+  * [[offline|Offline-kätköily]] - c:geon käyttö offline-tilassa
+    * [[offline#gpx_import|GPX-tuonti]] - Tuo kätköt GPX-tiedostosta
+    * [[.mainmenu:pocketquery|Pocket Queries]] - Tuo ja selaa kätköjä Pocket Querysta
+    * [[offline#offline_logging|Offline-kirjaaminen]] - Kirjaa kätköt offline-tilassa
+    * [[offline#field_note_export|Kenttämuistiinpanot]] - Vie kenttämuistiinpanot
+    * [[offline#offline_maps|Offline-kartat]] - Aseta offline-kartat
+
+==== Käyttäjän määrittämät kätköt ====
+{{anchor:udc:}}
+
+  * [[udc|Käyttäjän määrittämät kätköt]] - Käyttäjän määrittämien kätköjen käsittely c:geossa
+
+===== Pikaohjeet =====
+{{anchor:quick_reference:}}
+
+  * [[cacheicons|Kätkötyypit]]
+  * [[cachemarkers|Geokätköjen merkit]]
+  * [[cachedetails#waypoint_types|Reittipisteiden tyypit]]
+  * [[mapsources|Karttalähteet]] 
+  * [[basicmembers|Rajoitukset geocaching.com peruskäyttäjille]]
+  * [[coordformat|Koordinaattien muodot]]
+  * [[attributes|Attribuuttien kuvakkeet]]
+  * [[.mainmenu:utilityprograms|Muita käyttökelpoisia ohjelmia]]
+
+===== Erityistoiminnot ja vinkit =====
+{{anchor:special_functions_and_hints:}}
+
+  * [[offlinemaps|Offline-karttojen tutoriaali]]
+  * [[intents|Geokätköilyyn liittyvät linkit]]
+  * [[hiddenfunctions|c:geon piilotetut toiminnot]]
+  * [[nfc|Geokätköjen jakaminen NFC:n avulla]]
+  * [[https://send2.cgeo.org|Send2cgeo:n käyttö]]
+  * [[spoilersync|Lokikuvien c:geoon synkronointi ulkoisista lähteistä]]
+  * [[notecoords|Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet]]
+  * [[quick_widgets|Pikakäytön sekä pienoiskuvakkeiden käyttö pikakuvakkeina joihinkin c:geon toimintoihin]]
+
+===== Laajennukset, lisäosat ja niiden toiminnot =====
+{{anchor:plugins}}
+  * [[contacts|Yhteystiedot-lisäosa]] - c:geo:n lisäosa yhteystietojen käsittelyä varten
+  * [[brouter|Brouter]] - Brouterin käyttö c:geon kanssa
+
+===== FAQ =====
+{{anchor:faq:}}
+
+Jos huomaat c:geossa ongelmia tai virheitä, ole hyvä ja tarkista jos löytäisit mahdollisen ratkaisun [[http://faq.cgeo.org|Usein kysytyt kysymykset (englanniksi)]].
+
+===== Tietoja tästä käyttöohjeesta =====
+{{anchor:about_this_manual:}}
+
+  * [[en:translation|Auta kääntämään tämä käyttöohje!]]
+  * [[ebook_help|Lataa tämän oppaan PDF-versio]]
+
+<WRAP center round info 100%>
+c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohjetta on päivitetty 15.11.2020.
+</WRAP>
+
+<WRAP center round info 100%>
+Jos huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
+</WRAP>
+===== Käteviä linkkejä (englanniksi) =====
+{{anchor:useful_links:}}
+
+  * [[http://www.cgeo.org|c:geo kotisivu]]
+  * [[https://www.facebook.com/android.geocaching|c:geo Facebookissa]]
+  * [[https://plus.google.com/105588163414303246956|c:geo Google+:ssa]]
+  * [[https://twitter.com/android_gc|c:geo Twitterissä]]
+
+  * [[https://github.com/cgeo/|c:geo:n kehitys GitHubissa]]
+  * [[http://www.cgeo.org/development|Auta meitä kehittämään c:geota]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Lahjoita PayPalin avulla]]

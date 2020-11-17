@@ -1,0 +1,102 @@
+====== Trackable details ======
+
+De trackable details pagina's bieden je alle informatie over een specifieke trackable. Ze kunnen worden geopend door op een trackable te klikken op de inventarispagina van de [[cachedetails| cache-details]] uit de inventaris, die wordt weergegeven op het [[logging # inventory | logboek scherm]] of door [[.mainmenu: search | direct zoeken]] voor de openbare of geheime trackingcode van een trackable.
+
+{{ :nl:tbdetails_details.png?direct&400 |}}
+
+De trackable gegevens worden verdeeld over verschillende tabbladen die toegankelijk zijn door van links naar rechts te vegen of omgekeerd. Het tabblad met details wordt altijd als eerste geopend. Onderaan op elk tabblad zie je de naam van het huidige tabblad en kun je dit ook gebruiken om tussen de tabbladen te navigeren. Het menu van de bovenste balk is hetzelfde op alle tabbladen.
+
+<WRAP center round info 100%>
+Aangezien niet alle [[loggingtb # supported_trackables | trackable merken]] worden ondersteund met al hun functies, kunnen sommige tabbladen ontbreken, afhankelijk van het trackable merk.
+</WRAP>
+
+Je kunt de volledige volgorde van de tabbladen in de onderstaande tabel bekijken. Als je op de afbeeldingen in de tabel klikt, wordt een grotere versie geopend. Als je op de naam klikt, kom je direct in het relevante gedeelte van deze gebruikershandleiding:
+
+^ [[trackabledetails#details_tab|Details]] ^ [[trackabledetails#logbook_tab|Logboek]] ^ [[trackabledetails#images_tab|Afbeeldingen]] ^
+|{{ :nl:tbdetails_details.png?direct&400 |}}|{{ :nl:tbdetails_logbook.png?direct&400 |}}|{{ :nl:tbdetails_images.png?direct&400 |}}|
+
+===== Bovenste balk Menu =====
+{{anchor:top_bar_menu:}}
+
+De bovenste balk is beschikbaar vanaf alle tabbladen en biedt verschillende functies met betrekking tot de trackable:
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de overloopmenu knop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie.
+</WRAP>
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Log aanraking]]|Schrijf een log voor deze trackable.|
+|{{ :ic_menu_info_details.png?nolink&40 |}}|Open in Browser|Opent je standaard browser om de trackable pagina op de geocaching website te bekijken.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Verversen|Ververst alle tabbladen van de trackable details vanaf de server.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloopmenu knop|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. Op de meeste apparaten wordt dit pictogram niet weergegeven omdat alle menufuncties in de menubalk passen.|
+
+===== Details Tab =====
+{{anchor:details_tab:}}
+
+==== Omschrijving ====
+{{anchor:description:}}
+
+{{ :en:tbdetails_details_description.png?nolink&400 |}}
+
+De eerste sectie op de trackable details tab toont alle relevante informatie over deze tabel.
+
+^ Naam ^ Omschrijving ^
+|Naam|De naam van de trackable.|
+|Merk|Het merk van de trackable (bijv. Travel Bug voor een geocaching.com trackable, Geokrety voor een geokrety.org trackable)|
+|Type|Het type van de trackable (bijv. Travel Bug Dog Tag).|
+|Tracking Code|De publieke traceer code (TBxxxx) van deze trackable.|
+|Eigenaar|De naam van de eigenaar van deze trackable.\\  Je kunt op dit veld klikken om een contextmenu te openen om acties met betrekking tot deze eigenaar uit te voeren.|
+|Gespot|De naam van de cache of de gebruiker, waar deze trackable voor het laatst is gezien/gelogd. Bovendien worden het aantal dagen sinds de laatste verplaatsing of logbestand voor deze trackable weergegeven.\\ Je kunt op dit veld drukken om meer informatie over de cache of de gebruiker te krijgen.|
+|Oorsprong|Land van oorsprong van deze trackable.|
+|Uitgebracht|De releasedatum van deze trackable.|
+|Afgelegd|Het aantal mijlen of kilometers dat deze trackable heeft afgelegd.\\Afhankelijk van je [[.mainmenu:settings#appearance|instellingen]] wordt deze waarde in mijlen(mi) of kilometers(km) getoond.|
+
+==== Doel====
+{{anchor:goal:}}
+
+{{:en:tbdetails_details_goal.png?nolink&400 |}}
+
+Dit gedeelte van het detailtabblad toont de beschrijving van het doel van deze trackable,  die door de eigenaar is verstrekt. Je kunt op het doel klikken om de tekst of delen ervan naar je klembord te kopiëren. 
+
+Verder kun je het gebruiken om de vertaling in een andere taal te vertalen.
+==== Details ====
+
+{{:en:tbdetails_details_details.png?nolink&400 |}}
+
+Dit gedeelte van het detailtabblad toont de gedetailleerde beschrijving van de eigenaar van deze trackable.
+
+Je  kunt op de gedetailleerde beschrijving klikken om de tekst of gedeelten ervan naar het klembord te kopiëren. Verder kun je het gebruiken om de vertaling in een andere taal te vertalen.
+==== Afbeelding ====
+{{anchor:image:}}
+
+{{:en:tbdetails_details_image.png?nolink&400 |}}
+
+Dit gedeelte van het tabblad 'trackable details' geeft de standaardafbeelding weer die de eigenaar aan deze trackable heeft toegewezen.
+
+Als je op de afbeelding klikt, wordt de afbeelding in je standaard gallerij app geopend.
+===== Logboek Tab =====
+{{anchor:logboek_tab:}}
+
+{{:nl:tbdetails_logbook.png?direct&300 |}}
+
+Dit tabblad bevat een scrollbare lijst met de logboekitems, elk met de gebruikersnaam, de logdatum, het logtype, de cache die is gekoppeld aan het traceerbare logboek en de logtekst.
+
+Als je op de gebruikersnaam klikt, wordt een contextmenu geopend met aan de eigenaar gerelateerde zoekopties.
+
+Als u op de logtekst klikt, kun je de tekst naar het klembord kopiëren. Bovendien kun je het gebruiken om het logboek in een andere taal te vertalen.
+
+===== Afbeeldingen tab =====
+{{anchor:image_tab:}}
+
+{{:nl:tbdetails_images.png?direct&300 |}}
+
+Dit tabblad bevat de beschikbare afbeeldingen voor de trackable. Het bevat alle afbeeldingen uit de trackable beschrijving en alle afbeeldingen die zijn gekoppeld aan logboekitems die beschikbaar zijn in het tabblad [[trackabledetails # logbook_tab | logboek]].
+
+:!:
+Dit is niet dezelfde functie als de galerij op de geocaching-webpagina, omdat alleen de logboeken van de 35 meest recente logvermeldingen worden getoond.
+
+Als je op een afbeelding klikt, wordt de afbeelding geopend in je standaard afbeeldings app van je apparaat.
+
+<WRAP center round tip 60%>
+Als de afbeelding coördinaten in de koptekstinformatie bevat, wordt er een klein kompasroospictogram weergegeven in de linker benedenhoek van de afbeelding. In dit geval kuntje kort klikken of lang klikken op dat pictogram om je voorkeurs- of secundaire [[navigation|navigatie]] voorkeur te starten.
+</WRAP>

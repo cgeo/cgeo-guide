@@ -1,0 +1,18 @@
+
+====== Karttalähteet ======
+
+Seuraavat karttatyypit ovt saatavilla c:geossa.
+Voit vaihtaa karttatyyppien välillä [[.mainmenu:settings#maps|asetuksissa]] tai [[.mainmenu:livemap|kartan]] valikossa.
+
+^ Nimi ^ Selite ^ 
+|Google:Kartta|[[https://google.com|Googlen]] tarjoama online-kartta.|
+|Google:Satelliitti|[[https://google.com|Googlen]] tarjoama satelliittikartta.|
+|OpenStreetMap.org|[[https://openstreetmap.org|OpenStreetMap.org]]-palvelun tarjoama katukartta.|
+|OpenStreetMap.de|[[https://openstreetmap.de|OpenStreetMap.de:n]] tarjoama katukartta.| 
+|CyclOSM|[[https://cyclosm.org|CyclOSM.org:in]] tarjoama pyöräilyyn suunniteltu karttu.|
+|OSM:Offline|[[offlinemaps|Offline-kartat]], jotka on renderöity [[http://mapsforge.net|Mapsforge]]-muodossa olevista offline-kartoista.\\ OSM:Offline-nimen sijaan saatavilla olevien karttojen nimet on näkyvillä karttavalikossa.|
+
+<WRAP center round info 100%>
+Tällä hetkellä c:geo tukee vain Google Mapsin v1-versiota, joka ei tue kartan kääntöä, joten kaikki kartat näytetään pohjoinen ylhäällä. Uusien Google Maps -versioiden tuonti ohjelmaan on kuitenkin työn alla.
+</WRAP>
+

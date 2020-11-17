@@ -1,0 +1,44 @@
+====== Wegpunkte aus Koordinaten in der persönlichen Notiz ======
+
+===== Automatische Erstellung von Wegpunkten =====
+
+Wenn deine [[cachedetails#personal_note|persönliche Notiz]] zu einem Cache gültige Koordinaten (z.B. ''N50 10.123 E010 34.876'') enthält, erstellt c:geo im [[cachedetails#waypoint_tab|Wegpunkt-Reiter]] dieses Caches automatisch einen Wegpunkt daraus.
+
+Wenn deine persönliche Notiz zum Beispiel folgendermaßen aussieht:
+
+{{:en:personalnote_wp_1.png?direct&600|}}
+
+erstellt c:geo automatisch den folgenden Wegpunkte dafür:
+
+{{:en:personalnote_wp_2.png?direct&600|}}
+
+Weitere Koordinaten in deiner persönlichen Notiz werden gleichermaßen in Wegpunkte übertragen und der Wegpunktname wird entsprechend nummeriert.
+
+<WRAP center round tip 80%>
+Wenn die Wegpunkte eines Caches bereits die gleichen Koordinaten enthalten, wie sie in deiner persönlichen Notiz gefunden wurde, erstellt c:geo nicht automatisch einen neuen Wegpunkt für diese Koordinaten, da angenommen wird, dass es in diesem Fall eine unnötige Verdoppelung wäre.
+</WRAP>
+
+===== Nutzung von Schlüsselwörtern für Wegpunkttypen =====
+
+Normalerweise definiert c:geo den Typ des Wegpunktes für Koordinaten, die in der persönlichen Notiz gefunden wurden, als ''Referenzpunkt''. Du kannst allerdings Schlüsselwörter in deiner persönlichen Notiz verwenden, um andere Wegpunkttypen zu definieren.
+
+Platziere dazu einfach eines der folgenden Schlüsselwörter vor die Koordinaten:
+
+^ Symbol ^ Wegpunkt-Typ ^ Schlüsselwort in persönlicher Notiz ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|Parkplatz|PARKING|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|Station mit Frage|PUZZLE|
+|{{ :waypoint_stage.png?nolink&40 |}}|Station eines Multi-Caches|STAGE|
+|{{ :waypoint_trailhead.png?nolink&40 |}}|Ausgangspunkt|TRAILHEAD|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|Referenzpunkt|WAYPOINT|
+|{{ :waypoint_flag.png?nolink&40 |}}|Final|FINAL|
+
+Zusätzlich funktionieren auch übersetzte Wegpunktnamen (in der Sprache, in der du c:geo verwendest), aber da c:geo in vielen verschiedenen Sprachen verfügbar ist, beschränken wir uns in dieser liste auf die englischen Schlüsselwörter.
+
+In unserem Beispiel haben wir die folgende persönliche Notiz erstellt:
+
+{{:en:personalnote_wp_3.png?direct&600|}}
+
+die dann automatisch folgende Wegpunkt für dich erstellt:
+
+{{:en:personalnote_wp_4.png?direct&600|}}
+

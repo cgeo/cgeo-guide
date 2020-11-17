@@ -1,0 +1,17 @@
+====== Lokikuvien synkronointi c:geoon ======
+
+Jotkut GPSr-laitteet (kuten Garmin) tarjoavat mahdollisuuden manuaaliseen lokikuvien lataamiseen laitteeseen myöhempää offline-käyttöä varten. Työkalut kuten [[https://gsak.net|GSAK]] täten tarjoavat toiminnon, joka generoi GPSr-laitekohtaisen offline-hakemiston lokikuvien synkronointiin.
+c:geo pystyy latamaan ja näyttämään lokikuvat online-tilassa, mutta jotkut käyttäjät tahtovat käyttää c:geota offline-tilassa, mutta myös lokikuvat saatavilla.
+
+Täten c:geo tukee lokikuvien synkronointia käyttämällä alla olevaa hakemistostruktuuria (kuten GPSr-laitteissa) seuraavasti:
+
+<WRAP center round tip 100%>
+Seuraava ohje saattaa näyttää monimutkaiselta, mutta jos käytät vastaavia lokikuvien synkronointityökaluja, koko hakemistostruktuuri luodaan ja lokikuvat lisätään automaattisesti. Kaikki mitä sinun tyypillisesti tarvitsee tietää, on oikea juurikansio (sisältäen hakemistostruktuurin), joka kopioidaan c:geo-laitteellesi.
+</WRAP>
+
+  * Juurikansio: \\ Juurikansio geokätköjen lokikuville (laitteen sisäisessä muistissa) on: ''/cgeo/GeocachePhotos/''.
+
+  * Hakemistostruktuuri: \\ Juurikansion alla olevan hakemistostruktuurin on noudatettava seuraavaa sääntöä:\\ ''/geokoodin viimeinen merkki/geokoodin toiseksi viimeinen merkki/Täysi geokoodi/'' \\ \\ Esimerkiksi: Jos kätkön koodi on GC123ABC, kyseisen kätkön lokikuvien kansio on ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+    
+
+

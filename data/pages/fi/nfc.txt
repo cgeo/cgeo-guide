@@ -1,0 +1,6 @@
+
+====== Kätköjen jakaminen NFC:n avulla ======
+
+On olemassa helppo tapa jakaa kätkö c:geon käyttäjien välillä jos molemmat laitteet tukevat [[https://fi.wikipedia.org/wiki/Near_Field_Communication|NFC:tä]]:
+
+Varmista että NFC on päällä molemmissa laitteissa. Sitten avaa [[cachedetails|kätkön lisätiedot]] yhdellä laitteella ja aseta puhelimien takaosat vastakkain. Ensimmäisessä laitteessa avautuu pienempi c:geon ikkuna, jota klikatessa lähetetään tiedot toiseen laitteeseen. Tämä avaa automaattisesti c:geon ja avaa saman kätkön tiedot toisessa laitteessa.

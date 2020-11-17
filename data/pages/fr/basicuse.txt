@@ -1,0 +1,52 @@
+====== Les bases de c:geo ======
+
+Cette page explique les bases du géocaching et comment utiliser c:geo pour trouver des géocaches.
+
+===== Qu'est ce que le géocaching ? =====
+
+Expliquer tous les détails du géocaching serait un peu trop long ici. Cependant il y a quelques points indispensables à connaitre pour démarrer le géocaching avec c:geo :
+
+Vous devez connaitre les différents types de caches, les notes de difficulté (D) et de terrain (T), etc.
+ 
+Vous pouvez échouer à trouver une cache si vous en sélectionnez une aléatoirement dans c:geo et vous dirigez vers elle. Il y a beaucoup plus à savoir pour choisir une cache qui vous convient.
+
+La plupart des plateformes de géocaching supportées par c:geo offrent un tutoriel détaillé expliquant le fonctionnement du géocaching. __Nous vous suggérons fortement__ de lire ces tutoriels pour apprendre tout ce dont vous avez besoin pour trouver votre première cache et marquer votre visite. Vous pouvez également en apprendre plus sur le géocaching sur [[https://fr.wikipedia.org/wiki/G%C3%A9ocaching|Wikipedia]].
+
+Vous devez notamment connaitre les différents types de caches (typiquement vous ne trouverez pas une cache mystère aux coordonnées indiquées) et la note de terrain T (une note de 5 veut dire que vous aurez besoin d grimper/nager/plonger pour trouver la cache).
+
+<WRAP center round important 100%>
+Comme toute activité extérieure, le géocaching peut être dangereux. Le géocaching est pratiqué à vos propres risques, ni c:geo ni aucun service de géocaching ne sont responsables de vos actions. Faites attention à ce que vous faites comme vous le ferez pour toute autre activité de plein air.
+</WRAP>
+
+
+===== Trouver votre première cache avec c:geo =====
+
+Depuis le menu principal de c:geo, utilisez les menus ''Carte'' {{:main_live_default.png?nolink|}} ou ''Proches'' {{:main_nearby_default.png?nolink|}} de c:geo pour voir quelles caches sont autour de vous.
+
+{{:fr:livemap_1.png?direct&300|}}{{ :fr:lists_nearby.png?direct&300|}}
+
+Maintenant que vous arrivez à voir des caches sur la [[.mainmenu:livemap|carte]] ou dans la liste [[.mainmenu:lists|proches]], choisissez celle que vous souhaiteriez trouver (une cache traditionnelle avec des notes D/T basses est un bon point de départ) et affichez ses détails en cliquant dessus (et sur ''Plus de détails'' si besoin).
+
+{{:fr:cachedetails_details.png?direct&300 |}}
+
+Une fois sur la page de la cache, vous pouvez balayer l'écran à gauche et à droite pour accéder à d'[[cachedetails|autres informations]] (par exemple la description de la cache, les étapes, le carnet de visites, etc). Lisez le détail de la cache et faites attention aux notes D/T et à ses attributs pour savoir comment la trouver et pour marquer votre visite.
+
+<WRAP center round important 100%>
+Encore une fois :\\
+Vous devriez vous familiariser avec les différents types, les notes de terrain, les attributs, etc, avant de commencer à chercher une cache !
+</WRAP>
+
+Une fois la cache choisie et que vous êtes prêt à vous lancer, appuyez sur l'icône ''Naviguer'' {{:ic_menu_goto.png?nolink|}} dans la bar de titre de la page de la cache. Vous avez [[.navigation|plusieurs options]] suivant vos besoins. Voici une description des méthodes de navigation les plus courantes :
+
+  * **[[compass|Boussole]]**:\\ Vous affiche constamment la distance et la direction de la cache.
+{{ :fr:navigate_compass.png?direct&300 |}}
+  
+
+  * **Navigation (voiture, piéton, vélo, transports publics)**:\\ Cela va démarrer la navigation étape par étape en utilisant Google Maps dépendamment du mode de transport choisi.
+{{ :fr:navigate_pedestrian.png?direct&300 |}}
+
+  * **Radar** (optionnel):\\ Si vous avez installé une [[.mainmenu:utilityprograms|application supportant la fonction radar]] cela va lancer cette application. Vous allez alors voir un signet aux coordonnées de la cache sur l'écran du radar. Si ce signet atteint le centre, vous avez atteint la cache.
+
+<WRAP center round tip 100%>
+Ceci est une brève introduction aux fonctionnalités de c:geo. Pour en apprendre plus à propos des fonctions et menus de c:geo, vous pouvez continuer votre lecture du [[start#users_manual|Manuel d'Utilisation]].
+</WRAP>

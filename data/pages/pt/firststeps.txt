@@ -1,0 +1,64 @@
+====== Primeiros passos no c:geo ======
+
+<WRAP center round important 100%>
+Para utilizar o c:geo, será nessessário uma conta numa plataforma geocaching. Neste momento, o c:geo suporta o [[https://www.geocaching.com|geocaching.com]], uma plataforma comercial internacional, assim como plataformas Opencaching em diversos países (por exemplo, [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]] e muitas mais). Selecione a plataforma que pretende usar e crie uma conta na sua página (Contas básicas normalmente são gratuitas).
+
+Sem uma conta numa destas plataformas de geocaching o c:geo não irá funcionar!
+</WRAP>
+
+===== Registar o c:geo com o geocaching.com =====
+
+Quando aberto pela primeira vez após a instalação, o c:geo vai abrir automaticamente as definições de serviços onde poderá introduzir o nome de utilizador e a senha que utiliza no geocaching.com.
+
+Se for nessessário aceder, mais tarde, a estas definições de serviço para o geocaching.com, poderá encontra-las em:\\
+''Menu → Definições → Serviços → Geocaching.com''
+
+Carregue no botão ''Autorizar c:geo'' como mostrado em baixo::
+
+{{ :pt:firststeps_1_pt.png?direct&400 }}
+
+Após carregar em ''Autorizar c:geo'' uma nova janela será apresentada, onde poderá introduzir o seu nome de utilizador e a senha de acesso ao geocaching.com e por fim carregar em ''Verifique a autenticação''.\\ Se ainda não tiver uma conta, poderá pressionar o botão ''Criar um conta'' para abrir a página de registo do geocaching.com.
+
+{{ :pt:firststeps_3_pt.png?direct&400 }}
+
+Após o completar o registo, o c:geo irá automaticamente voltar ao menu do serviço onde poderá agora visualizar o nome de utilizador e a foto de perfil associado à sua conta:
+
+{{ :pt:firststeps_2_pt.png?direct&400 }}
+
+<WRAP center round help 100%>
+Se o registo falhar, por favor verifique os nossos [[http://faq.cgeo.org#login-failed|FAQ]] para obter ajuda.
+</WRAP>
+
+Agora será apenas voltar atrás no seu dispositivo para chegar ao ecrã inicial do c:geo. A proxima vez que abrir o c:geo, vai ser automáticamnete aberto o ecrã inicial.
+===== Registar o c:geo com plataformas Opencaching =====
+
+Se pretender ligar o c:geo com outro serviço que não seja o geocaching.com ou voltar a aceder às definições de serviço, poderá encontra-las em:\\
+''Menu → Definições → Serviços''
+
+<WRAP center round tip 100%>
+Poderá encontrar mais informação sobre os serviços de geocaching suportados pelo c:geo [[.mainmenu:settings#Services|aqui]].
+</WRAP>
+
+Selecione a plataforma de geocaching que pretende registar e ative o serviço no seguinte ecrã carregando em ''Activar''. Após isto para começar o processo de autorização carregamos em ''Autotizar c:geo''.
+
+{{ :pt:oc_pt_1.png?direct&400 }}
+
+Após isso, no ecrã seguinte, carregue em ''Iniciar autorização''. Se ainda não tiver uma conta poderá utilizar o botão ''Criar uma conta'' para abrir a página de registo da plataforma correspondente.
+
+{{ :pt:oc_pt_2.png?direct&400 }}
+
+Será agora encaminhado para a página da plataforma Opencaching correspondente. Inicie sessão na mesma, com o seu nome de utilizador e senha e - onde necessário - autorize o acesso do c:geo à plataforma correspondente.
+
+{{ :en:oc_en_3.png?direct&400 }}
+
+Após completo o registo, o c:geo irá abrir novamente e indicar o sucesso no registo:
+
+{{ :pt:oc_pt_4.png?direct&400 }}
+
+<WRAP center round tip 100%>
+Se receber uma mensagem de erro ou o c:geo não reabrir, por favor tente utilizar um browser diferente para o registo. Verifique ainda se a data e hora do seu dispositivo está definida corretamente.
+</WRAP>
+
+
+
+

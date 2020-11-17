@@ -1,0 +1,21 @@
+====== Filtre général du type de caches ======
+
+{{:main_filter_default.png?nolink&100 |}}
+
+Grâce à ce menu vous pouvez filtrer les caches affichées sur la carte, celles de la liste des caches proches de vous et lors d'une recherche. Vous avez juste à sélectionner le type de cache souhaité.\\ \\ \\ \\
+
+{{:fr:global_cache_type_filter.png?direct&400 |}}
+
+
+<WRAP center round important 40%>
+Ce filtre reste actif (même si vous redémarrez c:geo) jusqu'à ce que vous le changez ou le réinitialisez.
+</WRAP>
+
+<WRAP center round info 40%>
+À noter que vous pouvez voir toutes les caches ou uniquement un type spécifique sélectionné. Il n'est pas possible de filtrer sur plusieurs types.  
+</WRAP>
+
+<WRAP center round tip 40%>
+Les différents types de caches sont détaillé dans la section [[..cacheicons|Icônes des géocaches]].
+</WRAP>
+

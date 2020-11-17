@@ -1,0 +1,104 @@
+====== Trackable loggen ======
+
+===== Ondersteunde trackables =====
+{{anchor:supported_trackables:}}
+
+c:geo ondersteunt diverse typen trackables verstrekt door de verschillende platformen:
+
+^ Icoon ^ Type ^ OMSCHRIJVING ^ Functie ^
+|{{ :trackable_travelbug.png?nolink&40 |}}|Travel Bug|Trackable van [[https://www.geocaching.com/track/|geocaching.com]]|Volledige ondersteuning van alle trackable functies.|
+|{{ :trackable_geokrety.png?nolink&40 |}}|GeoKrety|Trackable van [[https://www.geokrety.org|geokrety.org]]|Volledige ondersteuning van alle trackable functies.|
+|{{ :trackable_geolutins.png?nolink&30 |}}|GeoLutin|Trackable van [[http://www.geolutins.com|geolutins.com]]|Alleen zoeken van trackables en de informatie over deze trackable.|
+
+===== Zoeken van een trackable =====
+{{anchor:searching_for_a_trackable:}}
+
+De meeste trackables hebben twee verschillende opzoekcodes, die kunnen worden gebruikt om de trackable te identificeren en te zoeken:
+
+  * **Publieke trackable code:**\\ The niet geheime trackable code (e.g. TBxxxx, GKxxxx, GLxxxx). Deze code kan worden gebruikt om te zoeken naar de trackable en de details ervan te tonen, maar kan niet worden gebruikt voor het registreren van de trackable.\\ \\Je kunt de openbare trackingcode gebruiken om naar een trackable te zoeken met behulp van de [[.mainmenu:search|zoekfunctie]] of de [[.mainmenu:quicksearch|qsnel zoeken balk]].\\ \\ De zoekopdracht toont je de [[[[trackabledetails|trackable details]] van de trackable, vanuit waar je kunt beginnen met het loggen van de trackable (als je ook de geheime tracking code weet).
+
+  * **Geheime trackable code:**\\ Een niet-publieke tracking code die alleen op de trackable staat. Deze code is nodig om een trackacble te kunnen loggen en om te bewijzen dat je de trackable fysiek hebt gezien/verplaatst.\\ \\ De geheime trackingcode is vereist bij het samenstellen van je trackable log vermelding. Voor trackables van geocaching.com kun je ook de geheime code in de[[.mainmenu:search|Zoeken functie]]. Dit werkt niet voor andere trackable merken dan Travel Bugs omdat c:geo de trackable niet onderscheiden met de geheime code en gaat er daarom vanuit dat geocaching.com de standaard is.\\ \\ De [[.mainmenu:quicksearch|snelle zoekbalk]] kan ook worden gebruikt om de trackable te zoeken met de geheime coden, tenzij de code toevallig begint met een code zoals een geocache (bijv. GCxxxx, OCxxxx, OUxxxx), in dit geval kun je niet op geheime code zoeken. Gebruik in dit geval de [[.mainmenu:search|zoek functie]]. \\ \\ De zoekopdracht toont je de [[trackabledetails|trackable details]] van de trackable, vanuit waar je de trackable kun loggen.
+
+===== Loggen van een trackable =====
+{{anchor:logging_a_trackable:}}
+
+Vanuit de trackable details weergave kun je beginnen met het loggen van de trackable, waardoor dit logboek wordt geopend:
+
+{{:nl:loggingtb.png?direct&400 |}}
+==== Bovenste balk menu ====
+{{anchor:top_bar_menu:}}
+
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de overloop menuknop dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van uw apparaat. \\Als een menu-item wordt weergegeven als pictogram, kunje  lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie.
+</WRAP>
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Verzenden|Gebruik deze knop als je de logtekst hebt geschreven en klaar ben om deze online te versturen.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Toevoegen|Dit maakt het mogelijk om of een [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toe te voegen aan de log.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menuknop|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+| |Smilies|Opent een lijst met smilies die je kunt toevoegen aan je log.|
+| |Herhaal laatste log|Deze functie herhaalt de laatste log die je hebt gebruikt.|
+
+
+==== Log typen ====
+{{anchor:log_type:}}
+
+{{ :nl:loggingtb_logtype.png?nolink&400 |}}
+Afhankelijk van het trackable type, de huidige status en als je eigenaar bent van de trackable, kunnen verschillende soorten logs worden gekozen door op dit veld te klikken:
+
+^Log Type ^ Omschrijving ^
+|Uit cache gepakt|Je hebt deze trackable uit de geocache gepakt, waar deze momenteel wordt vermeld.|
+|Ontdekt|Je wilt alleen melden dat je deze trackable hebt gezien, maar er geen andere actie mee hebt uitgevoerd.|
+|Gedropt|Je hebt deze trackable in een geocache geplaatst. \\ \\:!: Dit logtype is alleen beschikbaar voor GeoKrety, omdat logboeken voor geocaching.com altijd worden gecombineerd met een cachelogboek en daarom zijn opgenomen in de [[logging#inventory|geocache logboek pagina]].|
+|Bezocht|Je wilt deze trackable een geocache laten bezoeken. \\ \\:!: Dit logtype is alleen beschikbaar voor GeoKrety, omdat geocaching.com bezochte logboeken altijd worden gecombineerd met een cachelogboek en daarom zijn opgenomen in de [[logging#inventory|geocache logboek pagina]].|
+|Ergens gepakt|Je wilt een trackable naar je inventaris verplaatsen maar vond het niet in een cache en hebt het van een andere gebruiker of onbekende locatie gepakt.|
+|Notitie|Je wilt een commentaar of notitie over deze trackable plaatsen.|
+|Naar collectie verplaatst|Als een geocaching.com trackable is gemaerkeerd als collectible kun je dit log type gebruiken om de trackable van je inventaris naar je persoonlijke collectie te verplaatsen.|
+|Naar Inventaris verplaatst|Als een geocaching.com trackable zich momenteel in je collectie bevindt, kun je deze log gebruiken om de trackable naar je inventaris te verplaatsen.|
+
+
+==== Log datum/tijd ====
+{{anchor:log_date_time:}}
+
+{{:nl:loggingtb_datetime.png?nolink&400 |}}
+
+Selecteer de datum (en tijd - alleen ondersteund voor GeoKrety) geassocieerd met je log.
+
+==== Tracking code ====
+{{anchor:tracking_code:}}
+
+{{:en:loggingtb_trackingcode.png?nolink&400 |}}
+
+Voer de geheime trackingcode in dit veld in voordat je de log instuurt. Je hebt de geheime code nodig om een log te plaatsen naast '' Opmerking ''. GeoKrety vereist ook de geheime code om een '' Notitie '' te plaatsen. 
+
+De geheime code wordt al in dit veld weergegeven als je deze hebt gebruikt om naar deze trackable te zoeken of als deze trackable zich momenteel in je inventaris bevindt.
+==== Log tekst ====
+{{anchor:log_text:}}
+
+{{:en:loggingtb_logtext.png?nolink&400 |}}
+
+In dit veld kun je jouw persoonlijke log schrijven.
+
+==== Social media ====
+{{anchor:social_media:}}
+
+{{:en:loggingtb_socialmedia.png?nolink&400 |}}
+
+Als je c:geo met [[https://twitter.com|Twitter]] hebt verbonden in de [[.mainmenu:settings#social_media|instellingen]] zal dit veld worden getoond. Als je de checkbox hebt geactiveerd zal c:geo een tweet posten parallel aan deze log.
+
+==== Speciale velden ====
+{{anchor:special_fields:}}
+
+{{:en:loggingtb_dropoff_gk.png?nolink&300 |}}
+
+Als je een ''Gedropt'' log voor een GeoKrety trackable maakt zul je de geocode en/of de xoördinaten van de cache geven waar je deze trackable hebt geplaatst.
+
+Gebruik het veld ''Geocode'' om de geocode van de cache waar je de trackable hebt geplaatst of druk op ''Coördinaten'' om het  [[coordinatedialog|coördinaten invoer scherm]] te openen en de coördinaten van de cache in te vullen.
+
+===== Trackable Inventaris =====
+{{anchor:trackable_inventory:}}
+
+De trackable inventaris is een lijst van alle trackables die je momenteel in je handen hebt (bijv. de trackables die je hebt gepakt uit een cache of ontvangen hebt van een andere gebruiker).
+
+Op dit moment c:geo ondersteunt geen speciale weergave van je trackable inventaris, maar kun je jouw complete inventaris zien in de [[logging#inventory|inventaris sectie]] van de [[logging|cache logboek pagina]], wanneer je een log voor een geocache schrijft.

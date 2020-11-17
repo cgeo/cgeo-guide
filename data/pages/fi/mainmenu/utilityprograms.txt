@@ -1,0 +1,20 @@
+====== Apuohjelmat======
+
+{{:ic_menu_shopping.png?nolink&50 |}}
+
+Tämä toiminto avaa näytön, jossa on lista ohjelmista, joka toimii yhdessä c:geon kanssa, tai voidaan käyttää joidenkin c:geon toimintojen parantamiseen. Voit klikata haluamaasi työkalua avataksesi verkkosivun lisätiedoista ja/tai latausohjeista.
+
+^ Logo ^ Nimi ^ Selite ^
+|{{ :send2cgeo.png?nolink&100 |}}|[[https://send2.cgeo.org|Lähetä c:geoon]]|Lähetä c:geoon on selaimen laajennus tietokoneellesi. Geocaching.com sivua selattaessa kätköt voi lähettää älypuhelimeen napin painalluksella suoraan selaimesta.|
+|{{ :ic_launcher_contacts.png?nolink&100 |}}|[[..:contacts|c:geo yhteystiedot -lisäosa]]|Voit avata kontaktit (puhelimen osoitekirjasta) suoraan kätkön [[..cachedetails#logbook_tab|sivulta]], joten voit helpommin pyytää apua.|
+|{{ :helper_brouter.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=btools.routingapp|Brouter Offline Navigation]]|BRouter tarjoaa offline-navigoinnin. Jos sovellus on asennettu ja tarvittavat tiedostot ladattu, c:geo näyttää automaattisesti [[livemap|kartalla]] reitin kätkölle. \\  [[..:brouter|Täältä]] löydät lyhyen oppaan siitä kuinka brouter toimii c:geon kanssa.|
+|{{ :helper_pocketquery.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=org.pquery|Luo Pocket Query]]|Tämän avulla on helppo luoda ja ladata Pocket Queryja nykyisestä sijainnistasi tai kartalta valitun pisteen perusteella. Vaatii geocaching.com:in premiumjäsenyyden.|
+|{{ :helper_google_translate.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.google.android.apps.translate|Google Kääntäjä]]|Jos lataat käännöspaketteja Google Translate -sovellukseen, voit helposti kääntää kätkökuvaukset c:geossa painamalla pitkään kätkökuvauksen tekstiä (jopailman internet-yhteyttä).|
+|{{ :helper_where_you_go.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=menion.android.whereyougo|WhereYouGo]]|WhereYouGo-sovelluksen avulla pystyy pelaamaan ja etsimään Wherigo-kätköjä. c:geo osaa [[..navigation|ladata suoraan Wherigo-kasetit]] tämän sovelluksen avulla.|
+|{{ :helper_gpsstatus.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2|GPS Status & Toolbox]]|Voit käyttää tämän sovelluksen tutkaa yhdessä c:geon kanssa. Sovellus tarjoaa myös paljon muuta GPS-informaatiota.|
+|{{ :helper_bluetoothgps.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=googoo.android.btgps|Bluetooth GPS]]|Voit käyttää ulkoista GPS-vastaanotinta saadaksesi tarkempia sijaintitietoja ja säästääksesi laitteen akkua.\\ \\ :!: Huomaathan että sinun tulee kytkeä Google Play Palvelut pois päältä [[settings#various_other_system_settings|c:geon asetuksista]], jotta voit käyttää Bluetooth GPS:ää.|
+|{{:helper_gps_locker.png?nolink&100|}}|[[https://​play.google.com/​store/​apps/​details?​id=com.silentlexx.gpslock|GPS Locker]]|GPS Locker pitää GPS-signaalin aktiivisena sovellusten välillä ja näyttösi ollessa pois päältä.|
+|{{ :helper_barcode.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.google.zxing.client.android|Barcode Scanner]]|Greasemonkey komentosarjojen ja sivuston avulla pystyy lukemaan viiva- ja geokoodeja. Tämän sovelluksen avulla c:geo lukee viiva- ja geokoodeja.|
+|{{ :helper_locus.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=menion.android.locus|Locus]]|Navigointisovellus puhelimeen tai tablettiin. Katso topo-karttoja offline-tilassa, reititä, etsi geokätköjä, käytä ääniopastusta ja paljon muuta.|
+
+

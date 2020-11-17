@@ -1,0 +1,45 @@
+====== c:geo Kontakte-Erweiterung ======
+
+{{:ic_launcher_contacts-playstore.png?nolink&200 |}}
+
+Dies ist eine Kontakte-Erweiterung für c:geo. Es funktioniert nur, wenn auch c:geo installiert ist und erlaubt den direkten Zugriff auf dein Telefonbuch, wenn du auf einen Namen in c:geo klickst.
+
+Der Grund diese Funktion als Erweiterung anstatt direkt in c:geo anzubieten war, dass ältere Android-Versionen die Abfrage der benötigten Zugriffsrechte nur bei Installation aber nicht während der Laufzeit durchführten. Da der Grund für die Anfrage zum Zugriff auf das Telefonbuch dadurch für viele Nutzer nicht verständlich war, haben wir uns entschieden diese Funktion in eine dedizierte Erweiterung auszulagern. So können Nutzer, die an einer solchen Funktion interessiert sind und damit auch verstehen, warum dieser Zugriff notwendig ist, diese bei Bedarf installieren und andere Nutzer wundern sich nicht über diese Anfrage zum Telefonbuch-Zugriff.
+
+Inzwischen unterstützt Android die Anfrage nach Zugriffsrechten während er Laufzeit des Programms, also könnten wir uns in Zukunft wieder dazu zu entschließen die Funktion zurück in die Haupt-App zu integrieren.
+
+
+===== Installation =====
+
+Du kannst die Erweiterung von [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Play]] herunterladen und installieren.
+
+Nach der Installation wird sie allerdings auf deinem Gerät nicht als dediziertes startbares Symbol angezeigt, sondern die Erweiterung integriert sich direkt als Funktion in c:geo.
+
+===== Benutzung =====
+
+Wenn du auf an verschiedenen Stellen in c:geo (z.B. im [[.:cachedetails#logbook_tab|Cache-Logbuch]]) auf den Namen eines Cachers klickst, enthält das Menü einen Eintrag um den zugehörigen Telefonbucheintrag zu öffnen. Das erlaubt dir z.B. den Cacher direkt zu kontaktieren.
+
+{{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
+
+
+Damit dieser Funktion einen Treffer findest, muss der Benutzername des Cachers im Feld ''Name'' oder ''Alias''/''Spitzname'' seines Telefonbucheintrages gespeichert sein. Stell bitte sicher, dass der Geocaching-Name genau wie in c:geo angezeigt in einem dieser Felder des Kontaktes hinterlegt ist.
+
+Alternativ wird das Plugin auch einen Treffer melden, wenn der Geocaching-Name genau dem Namen des Telefonbucheintrags entspricht.
+
+
+
+
+===== Datenschutzerklärung =====
+
+==== Welche Daten werden von der c:geo Kontakte-Erweiterung erfasst? ====
+
+Die c:geo Kontakte-Erweiterung benötigt die Berechtigung auf die Kontakte in deinem Gerät zuzugreifen. Sie wird auf deine Kontakte zugreifen um Kontaktdaten anderer Geocacher zu finden. Die c:geo Kontakte-Erweiterung wird nur auf deine Anforderung hin auf die Kontaktdaten zugreifen, wenn du den Menüpunkt “Kontakt öffnen” in c:geo nutzt. Solange du diese Funktion nicht nutzt, wird die Erweiterung niemals auf Daten in deinen Kontakten zugreifen.
+
+==== Für welche Zwecke werden die Daten durch die c:geo Kalender-Erweiterung genutzt? ====
+
+Nachdem du ''Kontakt öffnen'' ausgewählt hast, wird die c:geo Kalender-Erweiterung die Kontakte in deinem Gerät lesen um eine mögliche Übereinstimmung zwischen dem Namen des Geocachers und dem Namen oder Spitznamen in deinen Kontaktdaten zu finden. Die Erweiterung wird weder in deine Kontakte schreiben noch deine Kontakte innerhalb von c:geo oder der c:geo Kalender-Erweiterung speichern.
+
+==== An wen werden die Daten weitergegeben? ====
+
+Deine Kontaktdaten werden weder in c:geo gespeichert noch an Dritte weitergegeben.
+

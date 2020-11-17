@@ -1,0 +1,18 @@
+====== Beperkingen voor basisleden ======
+
+[[https://www.geocaching.com|geocaching.com]] biedt zowel een gratis basis lidmaatschap als een premium lidmaatschap waarvoor jaarlijks betaald moet worden. Het premium lidmaatschap heeft wat extra mogelijkheden, die niet voor basisleden beschikbaar zijn.
+
+Hoewel c:geo zelf een open-source app is en volledig gratis, zullen sommige functies van c:geo alleen beschikbaar zijn voor premium leden van geocaching.com omdat de functie een premium optie is. Sommige functies van c:geo zullen daarom anders of gelimiteerd werken foor basis leden.
+
+c:geo heeft geen zakelijke relatie met geocaching.com. Het premium lidmaatschap is een product van [[https://www.geocaching.com|geocaching.com]] en moet dan ook op hun website worden verkregen. Dit moet je voor jezelf bepalen en het is dan ook volledig afhankelijk van je eigen behoeften of je een premium lidmaatschap van geocaching.com moet nemen.
+
+TDe volgende tabel toont een overzicht van de verschillen en beperkingen die basis leden in c:geo hebben:
+ 
+^ Functie ^ Bekerking/verschil voor basisleden ^
+|Premium only caches|Op geocaching.com kan de eigenaar van de cache de zichtbaarheid van zijn caches beperken tot premiumleden. Als standaard lid heb je geen toegang tot de [[cachedetails|cache details pagina]] van deze caches of kun je hun locatie niet zien.|
+|[[.mainmenu:lists|Zoekresultaten lijsten]]|Voor basisleden zullen de zoekresultaten geen coördinaten of andere gedetailleerde informatie bevatten. Daarom zal een zoekresultaat niet op de kaart kunnen worden getoond en zul je de caches eerst moeten openen of opslaan om ze vervolgens op de kaart te kunnen bekijken.\\ Verder zijn de afstand en de richting die in de zoekresultaten worden getoond slechts een schatting.|
+|[[.mainmenu:pocketquery|Pocket Query]]|Pocket queries is een functie, die alleen voor premium leden beschikbaar is. Als gevolg daarvan is deze feature alleen zichtbaar als je een premium lid bent.|
+|[[cachedetails#favorite|Favorieten]]|Favorieten geven aan caches kan alleen als premium lid. Alle gerelateerde menu functies zullen niet worden getoond aan basis leden.|
+|[[cachedetails#personal_note|Persoonlijke notitie upload]]|Hoewel alle gebruikers persoonlijke notities kunnen maken, kunnen alleen premiumleden hun notities uploaden om te worden opgeslagen op de cachepagina van de geocaching-server.|
+
+

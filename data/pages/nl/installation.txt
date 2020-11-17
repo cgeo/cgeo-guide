@@ -1,0 +1,79 @@
+====== c:geo installaties en machtigingen ======
+{{anchor:installation:}}
+===== Installatie van c:geo =====
+{{anchor:installation_source:}}
+
+Je hebt verschillende opties om c:geo te installeren. In de onderstaande tabel lees je welke mogelijkheden er zijn en hoe deze methoden werken:
+
+^Bron^Omschrijving^
+|[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|De eenvoudigste manier om c:geo te installeren en ook de regelmatige updates voor nieuwe versies te ontvangen.\\ Als je een Google-account hebt en de Google Play-app op je apparaat gebruikt, kun je deze manier gebruiken om c:geo te installeren en bij te werken.|
+|[[https://github.com/cgeo/cgeo/releases/latest|APK file]]|Als je Google Play niet gebruikt (en ervaring hebt met de installatie van de directe app), kun je het APK-bestand van de laatste c:geo-versie downloaden van onze Github-repository.\\ \\ :!: Houd er rekening mee dat je in dit geval geen bijgewerkte versies van Google Play ontvangt. \\ Je zult echter een [[installation#update|notificatie]] zien binnen de c:geo app wanneer jouw versie niet meer up to date is, maar zal de update handmatig moeten uitvoeren door het nieuwe APK-bestand te downloaden.|
+|[[https://fdroid.cgeo.org/|FDroid Repository]]|Dit is voor gevorderde gebruikers die hun eigen versie willen bouwen op basis van FDroid en weten wat ze doen.|
+
+----
+
+===== Machtigingen=====
+{{anchor:permissions:}}
+
+Tijdens het installatieproces of wanneer je de app voor het eerst start (afhankelijk van de Android-versie), word je op de hoogte gebracht en dien je ermee akkoord te gaan dat c:geo bepaalde rechten op je apparaat nodig heeft:
+
+^ Machtiging ^ Uitleg ^
+|Locatie|Uiteraard heeft c:geo toegang nodig tot de GPS-functie op je apparaat om je locatie te bepalen en de richting en afstand tot de geocaches te berekenen.|
+|Fotos/Media/Bestanden|c:geo zal gegevens naar je telefoonopslag of SD-kaart schrijven zodra je geocaches voor offline gebruik opslaat. Daarnaast gebruikt c:geo je telefoonopslag voor het importeren en exporteren van bestanden en het lezen van offline kaarten.\\ Als je een foto bij een log bijvoegt, moet c:geo de camera van je apparaat gebruiken.|
+
+<WRAP center round important 100%>=== Zorg dat je deze machtigingen verleent, anders zal c:geo niet werken zoals verwacht! ===
+</WRAP>
+
+----
+
+===== Updaten van c:geo =====
+{{anchor:update:}}
+
+Van tijd tot tijd zullen we een bijgewerkte versie van c:geo vrijgeven.
+
+{{:en:notification_example.png?direct&300 |}}
+
+
+Als je c:geo vanuit Google Play hebt geïnstalleerd, ontvang je een updatemelding van de Google Play-app, zodra er een nieuwe versie beschikbaar is. Je kunt eenvoudig die melding volgen of c:geo in de Google Play-app openen om de c:geo-installatie bij te werken.
+
+
+
+
+
+Daarnaast gebruikt c:geo een meldingssysteem om je op de hoogte te stellen van nieuwe versies of tijdelijke problemen. Je ziet dan een bericht als dit op het c:geo hoofdscherm:
+
+
+Je kunt op het bericht klikken om meer informatie te krijgen (optioneel beschikbaar in geval van tijdelijke problemen) of naar Google Play te worden gebracht om de installatie bij te werken (in geval van een updatemelding).
+
+<WRAP center round tip 60%>
+We raden aan de installatie zo snel mogelijk bij te werken als een nieuwe release beschikbaar is, omdat oudere versies mogelijk niet meer werken zoals verwacht (bijvoorbeeld in het geval van een urgente bugfix of een wijziging aan de server).
+</WRAP>
+
+
+----
+
+===== Beta versies van c:geo =====
+{{anchor:beta_version:}}
+
+Als een nieuwe versie klaar is om te worden vrijgegeven (een zogenaamde "releasekandidaat"), kunnen we deze in een eerste stap beschikbaar maken als bètaversie om gebruikersfeedback te krijgen en bugs of problemen te vinden die we nog niet gezien hebben tijdens de ontwikkeling.
+
+<WRAP center round info 100%>
+Meestal zijn deze bètaversies stabiel, maar bestaat er een kleine kans dat niet alle functies werken zoals verwacht. We moedigen je echter aan om ze te gebruiken, omdat dit ons echt veel helpt!
+</WRAP>
+
+De bètaversies worden ook gedistribueerd via Google Play en werken naadloos samen met het automatisch updaten van en naar onze releaseversies. Het enige dat je moet doen, is bètatests voor c:geo inschakelen op Google Play door naar deze link te gaan:
+
+**[[https://play.google.com/apps/testing/cgeo.geocaching| Word bètatester voor c:geo!]]**
+
+Nadat je de bètatests hebt geactiveerd, ontvang je bèta-versies samen met de officiële versies via Google Play. Dit betekent dat je nog steeds alle officiële versies ontvangt, maar ook een update ontvangt als er een nieuwere bètaversie beschikbaar is. 
+Verder kun je als bètatester ons je feedback- en probleemrapporten sturen via een speciaal Google Play feedbackformulier.Terwijl je geabonneerd bent op de bètatest, toont Google Play (om een of andere reden) altijd '' c:geo (Beta) '' in de winkelvermelding, ook terwijl we momenteel misschien niet eens een actieve bètaversie hebben, maar je de officiële uitgegeven versie hebt. 
+Als je op [[.mainmenu:aboutcgeo |Over c:geo]] bekijkt, kunt je controleren of je op dit moment een bètaversie gebruikt: als er een achtervoegsel '' -RC '' in het versienummer staat, is dit een bètaversie .
+
+Als je de bètatest wilt beëindigen, gebruik je de bovenstaande link en schakel je de bètatestmodus uit. Daarna moet je mogelijk de bètaversie van je apparaat verwijderen en de normale versie opnieuw installeren via Google Play.
+
+----
+
+===== c:geo ontwikkeling =====
+{{anchor:development version:}}
+
+Bekijk de [[https://www.cgeo.org/development|ontwikkeling sectie van onze home pagina]] voor meer informatie over de ontwikkeling van versies en onze nightly builds.

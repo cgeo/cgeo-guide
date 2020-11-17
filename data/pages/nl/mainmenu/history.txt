@@ -1,0 +1,18 @@
+====== Geschiedenis ======
+
+{{:ic_menu_recent_history.png?nolink&50 |}}
+
+
+De geschiedenis lijst lijkt voornamelijk op een normale [[lists|lijst]] maar is gefilterd op caches, die je recentelijk hebt bewerkt in een online of oflline log. In tegenstelling tot normale of opgeslagen lijsten kan deze lijst caches bevatten, die niet meer opgeslagen zijn op je apparaat.
+
+{{:en:history.png?direct&400 |}}
+
+De geschiedenis lijst is een goed startpunt om opnieuw toegang te krijgen tot je offline logboeken en deze online te verzenden of je [[..offline#field_note_export|veldnotities]] te exporteren van je offline logboeken.
+
+<WRAP center round info 50%>
+Let op, dit is een lokale lijst in c:geo en wordt niet gesynchroniseerd met de recent bekeken cachelijst op de geocaching-website.
+</WRAP>
+
+Wanneer je in de geschiedenis lijst bent kun je naar ''Menu'' -> ''Beheer Caches'' om of de ''offline logs te verwijderen'' of de ''geschiedenis te verwijderen''.
+
+

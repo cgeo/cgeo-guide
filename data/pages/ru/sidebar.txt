@@ -1,0 +1,61 @@
+**FIXME** Эта страница пока что не переведена полностью. Пожалуйста, помогите завершить перевод.**\\ //(Сотрите это сообщение по окончании перевода.)//
+
+====== Quick Navigation ======
+
+  * [[start|c:geo User Guide]]
+      * [[start#about_cgeo|About c:geo]]
+
+    * [[start#getting_started|Getting started]]
+      * [[firststeps|First steps in c:geo]]
+      * [[basicuse|Basic use]]
+
+    * [[start#users_manual|Users manual]]
+      * [[.mainmenu:start|Main screen]]
+        * [[.mainmenu:start#top_bar_menu|Top Bar Menu]]
+        * [[.mainmenu:livemap|Live Map]]
+        * [[.mainmenu:lists|Nearby Search]]
+        * [[.mainmenu:lists|Stored caches]]
+        * [[.mainmenu:search|Search]]
+        * [[.mainmenu:goto|Go to]]
+        * [[.mainmenu:globaltypefilter|Global Cache Type Filter]]
+        * [[.mainmenu:start#bottom_section|Status infos]]
+      * [[.mainmenu:settings|Settings]]
+      * [[start#geocaches|Geocaches]]
+        * [[cachedetails|Geocache Details]]
+        * [[logging|Logging of Geocaches]]
+      * [[start#trackables|Trackables]]
+        * [[trackabledetails|Trackable Details]]
+        * [[loggingtb|Logging of Trackables]]
+      * [[start#coordinates_and_navigation|Coordinates and Navigation]]
+        * [[coordinatedialog#waypoint_calculator|Waypoint calculator]]
+        * [[navigation|Navigation]]
+        * [[compass|Compass]]
+      * [[offline|Offline caching]]
+        * [[offline#gpx_import|GPX import]]
+        * [[.mainmenu:pocketquery|Pocket queries]]
+        * [[offline#offline_logging|Offline logging]]
+        * [[offline#field_note_export|Field Notes]]
+        * [[offline#offline_maps|Offline Maps]] 
+
+
+    * [[start#quick_reference|Quick Reference]]
+      * [[cacheicons|Geocache types]]
+      * [[cachemarkers|Geocache markers]]
+      * [[cachedetails#waypoint_types|Waypoint types]]
+      * [[mapsources|Map sources]]
+      * [[basicmembers|Basic member limitations]]
+      * [[coordformat|Coordinate formats]]
+      * [[attributes|Attribute icons]]
+      * [[.mainmenu:utilityprograms|Other useful apps]]
+
+    * [[start#special_functions_and_hints|Special functions and hints]]
+      * [[intents|Using Geocaching related links]]
+      * [[nfc|Sharing caches with NFC]]
+      * [[hiddenfunctions|Hidden functions in c:geo]]
+      * [[http://send2.cgeo.org|Send to c:geo]]
+
+    * [[start#faq|FAQ]]
+
+    * [[start#about_this_manual|About this manual]]
+
+    * [[start#useful_links|Useful links]]

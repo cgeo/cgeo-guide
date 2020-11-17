@@ -1,0 +1,82 @@
+
+====== De eerste stappen met c:geo ======
+
+<WRAP center round important 100%>
+Om c:geo te gebruiken heb je een account nodig van een geocaching platform van je keuze. c:geo ondersteunt momenteel [[https://www.geocaching.com|geocaching.com]], een internationaal commercieel geocaching platform, en Opencaching platformen uit verschillende landen(bijv. [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], en veel meer). Selecteer het platform dat je gaat gebruiken en maak een gebruikersaccount op de website van het gewenste platform. (Basis accounts zijn over het algemeen gratis).\\ \\
+Zonder een account op één van de geocaching platformen zal c:geo niet werken!
+</WRAP>
+
+===== Aan de slag =====
+
+Als je c:geo voor de eerste keer na installatie start, word je rechtstreeks naar het volgende scherm "Aan de slag" geleid:
+
+{{:nl:getting_started.png?direct&400 }}
+Het legt de [[installation#permissions|machtigingen]] uit die c:geo nodig heeft op je apparaat, toont links naar deze handleiding en - het belangrijkste - toont een button om de connectie in te stellen naar de geocaching platformen.
+
+Als je op de button ''"Configureer je geocaching platform(en)"'' drukt zul je meteen naar de service instellingen worden gebracht en kun je c:geo authoriseren om te communiceren met het geocaching platform van je keuze zoals hieronder wordt beschreven.
+
+**Als je na de eerste start opnieuw toegang wilt tot de service-instellingen, vind je ze in:\\
+''Menu → Instellingen → Diensten''**
+
+----
+
+===== Configureer je geocaching platform(en) =====
+
+Selecteer nu het geocaching platform dat je gaat gebruiken uit de lijst van de ondersteunde platformen. Je kunt er verschillenden configureren door terug te gaan naar dit scherm hieronder. Je kan dit scherm vinden in ''Menu → Instellingen → Diensten''.
+
+{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
+
+===== C:geo verbinden met geocaching.com =====
+
+Nadat je ''geocaching.com'' in de lijst van ondersteunde geocaching platformen hebt geselecteerd vink je __Activeren__ aan en druk je op de button ''Autoriseer c:geo'' zoals hieronder wordt getoond:
+
+{{ :nl:firststeps_1_nl.png?direct&400 }}
+
+Nadat je op de button ''Autoriseer c:geo'' hebt gedrukt zal er een venster verschijnen waar je jouw gebruikersnaam en wachtwoord voor geocaching.com kunt invullen. Tenslotte druk je op ''Controleer authenticatie''.\\
+Als je nog geen account hebt kun je op de button ''Account aanmaken'' drukken om de registratiepagina van geocaching.com te openen.
+
+{{ :nl:firststeps_3_nl.png?direct&400 }}
+
+Na afronding van de registratie zal c:geo automatisch naar het diensten menu gaan en kun je bekijken of de registratie succelsvol heeft verlopen. Je gebruikersnaam en avatar zullen dan worden getoond:
+
+{{ :en:firststeps_2_en.png?direct&400 }}
+
+<WRAP center round help 100%>
+Indien de registratie is mislukt kijk dan op [[http://faq.cgeo.org#login-failed|FAQ]] om hulp te krijgen.
+</WRAP>
+
+Klik nu op de terug functie op je apparaat om naar het hoofdmenu van c:geo te gaan. De volgende keer wanneer c:geo wordt gestart zal c:geo automatisch naar het hoofdmenu gaan.
+
+===== C:geo verbinden met Opencaching platformen =====
+
+Als je c:geo wilt verbinden met een andere service dan geocaching.com of de service-instellingen opnieuw wilt openen, vind je ze in:\\
+''Menu → Instellingen → Diensten''
+
+<WRAP center round tip 100%>
+Voor meer informatie over de geocaching-services die worden ondersteund door c:geo klik [[.mainmenu:settings#Services|hier]].
+</WRAP>
+
+Selecteer een geocachingplatform waarmee je verbinding wilt maken en activeer de service in het volgende scherm door op het vak '' Activeren '' te klikken. 
+Start daarna het autorisatieproces door op '' autoriseer c:geo '' te klikken.
+
+{{ :nl:oc_nl_1.png?direct&400 }}
+
+Druk vervolgens op ''Start authorisatie'' in het volgende scherm. Als je nog geen account hebt, kunt u op de knop '' Account aanmaken '' klikken om de registratiepagina van het OpenCaching-platform te openen.
+
+{{ :nl:oc_nl_2.png?direct&400 }}
+
+Je wordt nu naar de webpagina van het OpenCaching-platform in je browser gebracht. Log in op de webpagina met je gebruikersnaam en wachtwoord en - indien nodig - ga akkoord op de volgende pagina om c:geo-toegang te geven tot je Opencaching-account.
+
+{{ :en:oc_en_3.png?direct&400 }}
+
+Na het voltooien van de registratie zou c:geo opnieuw moeten openen en de succesvolle registratie melden:
+
+{{ :nl:oc_nl_4.png?direct&400 }}
+
+<WRAP center round tip 100%>
+Als je een foutmelding krijgt of alsje niet terugkeert naar c:geo, probeer dan een andere browser te gebruiken voor de registratie. Controleer ook of de datum en tijd op je apparaat correct zijn ingesteld.
+</WRAP>
+
+
+
+

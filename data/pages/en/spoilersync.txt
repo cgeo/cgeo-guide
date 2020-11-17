@@ -1,0 +1,17 @@
+====== Synchronize spoiler pictures to c:geo ======
+
+Some GPSr devices (e.g. Garmin) offer the possibility to load spoiler pictures manually onto those devices to have them available for offline use. Tools like [[https://gsak.net|GSAK]] therefore have a functionality to generate these GPSr specific offline directory structures for synchronizing spoiler pictures.
+While c:geo is capable to download and show spoiler pictures online, some users still might want to use c:geo completely offline but also have the spoiler pictures available.
+
+Therefore c:geo supports to synchronize the spoiler pictures using these specific directory structures (same as on GPSr devices) as follows:
+
+<WRAP center round tip 100%>
+The following might look very complicated, however if you use corresponding spoiler sync tools the whole directory structure will be created and the spoiler pictures added automatically. All you typically need to know is the correct base directory to copy the directory structure into on your c:geo device.
+</WRAP>
+
+  * Base directory: \\ The base directory for geocache spoilersync is ''/cgeo/GeocachePhotos/'' on the internal storage of your device.
+
+  * Directory structure: \\ The structure below the base directory has to follow this rule:\\ ''/last character of the geocode/second to last character of the geocode/Full geocode/'' \\ \\ Example: If a cache is named GC123ABC, the corresponding directory will be ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+    
+
+

@@ -1,0 +1,125 @@
+
+====== Attribuuttien kuvakkeet ======
+
+Tällä sivulla selitetään c:geossa käytettävien attributtikuvakkeiden tarkoitukset. Kätkön tekijä asettaa kätkölle attribuutit ja ne näytetään [[cachedetails#attributes|kätkön tietosivulla]]. 
+
+<WRAP center round tip 100%>
+Voit napauttaa attribuuttien päältä kätkön tietosivulla nähdäksesi kuvakkeiden sijaan niiden tekstiselityksen.
+</WRAP>
+
+Suurin osa attribuuteista voidaan asettaa päinvastaiseksi asettamalla niiden päälle viiva, kuten näin: {{:attribute_strikethru.png?nolink&20|}} (esimerkiksi attribuutti "Löydettävissä kaikkina aikoina" muuttuukin attribuutiksi "Ei löydettävissä kaikkina aikoina"). 
+
+Kaikki attribuutit eivät ole saatavilla kaikissa geokätköilypalveluissa.
+
+^ Kuvake ^ Selitys ^
+|{{:attribute_abandonedbuilding.png?nolink&40 |}}|Kätkö sijaitsee hylätyssä rakennelmassa|
+|{{:attribute_aircraft.png?nolink&40 |}}|Ilma-alus tarvitaan|
+|{{:attribute_all_seasons.png?nolink&40 |}}|Saatavilla kaikkina vuodenaikoina|
+|{{:attribute_arithmetic.png?nolink&40 |}}|Matematiikan tehtäviä suoritettava|
+|{{:attribute_ask_owner.png?nolink&40 |}}|Kysy kätkön omistajalta tietoja|
+|{{:attribute_audio_cache.png?nolink&40 |}}|Tämä on äänikätkö|
+|{{:attribute_available.png?nolink&40 |}}|Saatavina 24/7 (kaikkina aikoina)|
+|{{:attribute_bicycles.png?nolink&40 |}}|Polkupyörät sallittu|
+|{{:attribute_boat.png?nolink&40 |}}|Vene ehkä tarvitaan|
+|{{:attribute_breeding.png?nolink&40 |}}|Linnut mahdollisesti pesivät kätkön lähellä|
+|{{:attribute_byop.png?nolink&40 |}}|Kätkössä ei ole kynää, joten tuo oma kynä|
+|{{:attribute_campfires.png?nolink&40 |}}|Nuotion tekeminen sallittu|
+|{{:attribute_camping.png?nolink&40 |}}|Leiriytyminen sallitty|
+|{{:attribute_cave.png?nolink&40 |}}|Geokätkö sijaitsee luolassa|
+|{{:attribute_cliff.png?nolink&40 |}}|Geokätkö sijaitsee jyrkänteen lähettyvillä|
+|{{:attribute_climbing.png?nolink&40 |}}|Kiipeilyä tarvitaan geokätkön löytämiseksi|
+|{{:attribute_compass.png?nolink&40 |}}|Kompassia tarvitaan geokätkön löytämiseksi|
+|{{:attribute_cow.png?nolink&40 |}}|Geokätkön lähettyvillä saattaa olla eläimiä|
+|{{:attribute_danger.png?nolink&40 |}}|Geokätkö sijaitsee vaarallisella alueella|
+|{{:attribute_dangerousanimals.png?nolink&40 |}}|Geokätkön lähettyvillä saattaa olla vaarallisia eläimiä|
+|{{:attribute_day.png?nolink&40 |}}|Geokätkö on saatavilla päivällä|
+|{{:attribute_dogs.png?nolink&40 |}}|Koirat sallittu|
+|{{:attribute_easy_climbing.png?nolink&40 |}}|Helppoa kiipeilyä tarvitaan geokätkön löytämiseksi|
+|{{:attribute_fee.png?nolink&40 |}}|Pääsymaksu vaaditaan kätkön löytämiseksi|
+|{{:attribute_field_puzzle.png?nolink&40 |}}|Kätkön löytämiseksi tulee ratkaista tehtäviä tai pulmia|
+|{{:attribute_firstaid.png?nolink&40 |}}|Geokätkössä on ongelma, joka vaatii kätköntekijältä toimia|
+|{{:attribute_flashlight.png?nolink&40|}}|Taskulamppu vaaditaan|
+|{{:attribute_food.png?nolink&40|}}|Ruokaa saatavilla lähistöllä|
+|{{:attribute_frontyard.png?nolink&40|}}|Kätkö sijaitsee yksityisalueella|
+|{{:attribute_fuel.png?nolink&40|}}|Polttoainetta saatavilla lähistöllä|
+|{{:attribute_geohotel.png?nolink&40|}}|Tämä kätkö on GeoHotel|
+|{{:attribute_geotour.png?nolink&40|}}|Tämä kätkö on osa GeoTouria|
+|{{:attribute_hike_long.png?nolink&40|}}|Pitkä kävely (>10km) vaaditaan|
+|{{:attribute_hike_med.png?nolink&40|}}|Keskipitkä kävely (<10km) vaaditaan|
+|{{:attribute_hike_short.png?nolink&40|}}|Lyhyt kävely (<1km) vaaditaan|
+|{{:attribute_hiking.png?nolink&40|}}|Tämä kätkö vaatii pitkää vaellusta|
+|{{:attribute_hills.png?nolink&40|}}|Kätkö sijaitsee vuoristoalueella|
+|{{:attribute_historic_site.png?nolink&40|}}|Historiallisesti merkittävä alue lähistöllä|
+|{{:attribute_horses.png?nolink&40|}}|Hevoset sallittu|
+|{{:attribute_hunting.png?nolink&40|}}|Kätkö sijaitsee metsästysalueella|
+|{{:attribute_in_water.png?nolink&40|}}|Kätkö sijaitsee vedessä tai sen alla|
+|{{:attribute_inside.png?nolink&40|}}|Kätkö sijaitsee rakennuksen sisällä|
+|{{:attribute_investigation.png?nolink&40|}}|Perusteellista tutkimista tai valmistautumista vaaditaan|
+|{{:attribute_jeeps.png?nolink&40|}}|Jeepit/nelivedot sallittu|
+|{{:attribute_kids.png?nolink&40|}}|Kätkö sopii lapsille|
+|{{:attribute_landf.png?nolink&40|}}|Kätkö on osa Lost&Found Adventurea|
+|{{:attribute_letterbox.png?nolink&40|}}|Tämä kätkö on myös geolodju|
+|{{:attribute_link_only.png?nolink&40|}}|Tässä kätkössä on elektroninen lokikirja (kätköstä löytyy vain linkki siihen)|
+|{{:attribute_magnetic.png?nolink&40|}}|Kätkössä on magneettisia komponentteja, tai magneetti vaaditaan kätkön löytämiseksi|
+|{{:attribute_mine.png?nolink&40|}}|Kätkö sijaitsee kaivoksessa|
+|{{:attribute_motorcycles.png?nolink&40|}}|Moottoripyörät sallittu|
+|{{:attribute_moving_target.png?nolink&40|}}|Tämä on liikkuva kätkö|
+|{{:attribute_nature_cache.png?nolink&40|}}|Tämä kätkö sijaitsee luonnollisessa ympäristössä|
+|{{:attribute_night.png?nolink&40|}}|Kätköä suositellaan etsittäväksi yöllä|
+|{{:attribute_nightcache.png?nolink&40|}}|Tämä on yökätkö|
+|{{:attribute_no_gps.png?nolink&40|}}|GPS-laitetta ei tarvita tämän kätkön etsimiseen|
+|{{:attribute_oc_only.png?nolink&40|}}|Tömö kätkö on saatavilla vain Opencachingissa|
+|{{:attribute_offset_cache.png?nolink&40|}}|Tämä on multikätkö tai mysteerikätkö|
+|{{:attribute_onehour.png?nolink&40|}}|Tämän kätkön löytäminen vaatii tunnin tai vähemmän|
+|{{:attribute_overnight.png?nolink&40|}}|Yön yli jäämistä vaaditaan|
+|{{:attribute_parking.png?nolink&40|}}|Autoparkki saatavilla|
+|{{:attribute_parkngrab.png?nolink&40|}}|Voit parkkerata auton kätkön viereen (Park & Grab)|
+|{{:attribute_partnership.png?nolink&40|}}|Tämä on yhteistyökätkö|
+|{{:attribute_pedestrian_only.png?nolink&40|}}|Tämän kätkön voi löytää vain jalankulkijat|
+|{{:attribute_phone.png?nolink&40|}}|Puhelin saatavilla lähistöllä|
+|{{:attribute_picnic.png?nolink&40|}}|Piknikpöytiä lähellä|
+|{{:attribute_poi.png?nolink&40|}}|Tämä kätkö sijaitsee kiinnostavan kohteen lähistöllä|
+|{{:attribute_poisonoak.png?nolink&40|}}|Myrkyllisiä kasveja kätkön lähellä|
+|{{:attribute_public.png?nolink&40|}}|Julkinen liikenne lähistöllä|
+|{{:attribute_puzzle.png?nolink&40|}}|Kätkön löytämiseksi vaaditaan pulman ratkaisu|
+|{{:attribute_quads.png?nolink&40|}}|Mönkijä sallittu|
+|{{:attribute_quick_cache.png?nolink&40|}}|Tämä on nopeasti löydettävä kätkö|
+|{{:attribute_railway.png?nolink&40|}}|Junalinja lähistöllä|
+|{{:attribute_rappelling.png?nolink&40|}}|Varustekiipeily vaaditaan|
+|{{:attribute_restrooms.png?nolink&40|}}|Käymälä saatavilla|
+|{{:attribute_rv.png?nolink&40|}}|Asuntovaunu sallittu|
+|{{:attribute_s_tool.png?nolink&40|}}|Erikoistyökaluja vaaditaan|
+|{{:attribute_safari_cache.png?nolink&40|}}|Tämä on Safari-kätkö (Opencaching)|
+|{{:attribute_scenic.png?nolink&40|}}|Maisemanäkymä lähistöllä|
+|{{:attribute_scuba.png?nolink&40|}}|Sukellusvälineet vaaditaan|
+|{{:attribute_seasonal.png?nolink&40|}}|Kätkölle pääsy riippuu vuodenajasta|
+|{{:attribute_shovel.png?nolink&40|}}|Lapio vaaditaan|
+|{{:attribute_skiis.png?nolink&40|}}|Hiihtäminen sallittu/vaaditaan|
+|{{:attribute_specific_access.png?nolink&40|}}|Erilliset aukioloajat|
+|{{:attribute_snow_proof.png?nolink&40|}}|Kätkö on lumenpitävä|
+|{{:attribute_snowmobiles.png?nolink&40|}}|Moottorikelkat sallittu|
+|{{:attribute_snowshoes.png?nolink&40|}}|Lumikengät vaaditaan|
+|{{:attribute_specific_times.png?nolink&40|}}|Kätkö saatavilla vain tiettyinä aikoina|
+|{{:attribute_stealth.png?nolink&40|}}|Vaatii huomaamatonta toimintaa|
+|{{:attribute_stroller.png?nolink&40|}}|Saavutettavissa lastenrattailla|
+|{{:attribute_survey_marker.png?nolink&40|}}|Kätkössä on elektroninen merkki|
+|{{:attribute_swamp.png?nolink&40|}}|Suo lähistöllä|
+|{{:attribute_swimming.png?nolink&40|}}|Uinti vaaditaan|
+|{{:attribute_syringe.png?nolink&40|}}|Ruisku|
+|{{:attribute_teamwork.png?nolink&40|}}|Kätkö vaatii tiimityötä|
+|{{:attribute_thorn.png?nolink&40|}}|Piikkejä lähistöllä|
+|{{:attribute_ticks.png?nolink&40|}}|Punkkeja lähistöllä|
+|{{:attribute_tide.png?nolink&40|}}|Kätkön saavutettavuus riippuu vuorovedestä|
+|{{:attribute_touristok.png?nolink&40|}}|Turistikätkö|
+|{{:attribute_treeclimbing.png?nolink&40|}}|Puukiipeily vaaditaan|
+|{{:attribute_unknown.png?nolink&40|}}|Tuntematon attribuutti|
+|{{:attribute_usb_cache.png?nolink&40|}}|USB-kätkö|
+|{{:attribute_uv.png?nolink&40|}}|UV-lamppu vaaditaan|
+|{{:attribute_wading.png?nolink&40|}}|Kahlaamista ehkä tarvitaan|
+|{{:attribute_water.png?nolink&40|}}|Juomavettä lähistöllä|
+|{{:attribute_webcam.png?nolink&40|}}|Webkamera lähistöllä|
+|{{:attribute_wherigo.png?nolink&40|}}|Wherigo-kätkö|
+|{{:attribute_winter.png?nolink&40|}}|Kätkö saatavilla talviaikana|
+|{{:attribute_wirelessbeacon.png?nolink&40|}}|Kätkö sisältää langattoman laitteen|
+
+

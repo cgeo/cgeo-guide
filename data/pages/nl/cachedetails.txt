@@ -1,0 +1,265 @@
+====== Geocache Details ======
+
+De cache details pagina's bieden je alle informatie over de specifieke caches. 
+Ze kunnen worden geopend door op een cache in een [[.mainmenu:lists|lijst]] te klikken, op de [[.mainmenu:livemap#map_popup_window|live kaart]] of door direct te [[.mainmenu:search|zoeken ]] naar de geocode van een cache.
+{{ :nl:cachedetails_details2.png?direct&300 |}}
+
+De cachegegevens worden verdeeld over verschillende tabbladen die toegankelijk zijn door van links naar rechts te vegen of omgekeerd. Tenzij je dit hebt gewijzigd in het [[.mainmenu:settings#cache_details|instellingen]] wordt het tabblad met de details altijd eerst geopend. \\
+Op het [[cachedetails#bottom_section|onderste gedeelte]] van elk tabblad zie je de naam van het huidige tabblad en kun je dit ook gebruiken om tussen de tabbladen te navigeren. Het [[cachedetails#top_bar_menu| menu bovenin het scherm]]  is hetzelfde op alle tabbladen.
+
+Je kunt de volledige volgorde van de tabbladen in de onderstaande tabel bekijken. Als je op de afbeeldingen in de tabel klikt, wordt een grotere versie geopend. Als je op de kop klikt, kom je direct in het relevante gedeelte van deze gebruikershandleiding:
+
+^ [[cachedetails#waypoint_tab|Waypoints]] ^ [[cachedetails#details_tab|Details]] ^ [[cachedetails#description_tab|Omschrijving]]^ [[cachedetails#logbook_tab|Logboek]] ^ [[cachedetails#logbook_tab|Vrienden/Eigen Logs]] ^[[cachedetails#inventory_tab|Inventaris]] ^ [[cachedetails#image_tab|Afbeeldingen]] ^
+|{{:nl:cachedetails_waypoints.png?direct&400 |}}|{{:nl:cachedetails_details2.png?direct&400 |}}|{{:nl:cachedetails_description.png?direct&400 |}}|{{:nl:cachedetails_logbook.png?direct&400 |}}|{{:nl:cachedetails_logbookfriens.png?direct&400 |}}|{{:nl:cachedetails_inventory.png?direct&400 |}}|{{:nl:cachedetails_images.png?direct&400 |}}|
+
+===== Bovenste balk menu =====
+{{anchor:top_bar_menu:}}
+
+{{ :nl:cachedetails_topbar.png?direct&400 |}}
+
+De bovenste balk is beschikbaar vanaf alle tabbladen en biedt verschillende functies met betrekking tot de cache:
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de knop overloopmenu worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er minder of meer items achter de menuknop worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\
+Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de titel van de functie.
+</WRAP>
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{:ic_menu_compass.png?nolink&40 |}}|Navigatie|Een korte druk op dit icoon zal het [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.\\ Een lange druk zal het secundaire [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.|
+|{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigatie]]|Zal de complete lijst met beschikbare navigatie hulpmiddelen tonen.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{:ic_menu_edit.png?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
+|{{:ic_menu_rotate.png?nolink&40 |}}|Caches rondom|Deze optie start de [[.mainmenu:lists|dichtbij zoeken]] functie om de caches in de buurt van de coördinaten van de cache te tonen als een lijst.|
+|{{ :ic_menu_save.png?nolink&40 |}}|Opslaan|Dit zal de cache opslaan in één of meerdere [[.mainmenu:lists|lijsten]] of - als de cache al is opgeslagen - opslaan in een andere lijst.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Verversen|Door deze optie te selecteren zal de cache worden ververst met de laatste informatie van de geocaching server.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Verwijderen|Dit zal de cache uit je lijsten verwijderen.|
+|Stemmen||Dit zal het [[http://gcvote.com|GCVote]] scherm voor de cache tonen.|
+|Deel cache||Zal een link naar de cache delen met behulp van de ingebouwde Android-share-opties.|
+|Open Geochecker||Dit opent de geochecker van deze cache in je webbrowser.\\ \\ :!: Dit menu-item is alleen beschikbaar als de cachebeschrijving van deze cache een koppeling bevat naar een (bekende) geochecker.|
+|Negeer cache||Dit zal de cache op de servers negeren lijstzetten.\\ :!: IHet negeren van een cache betekent dat deze cache nooit meer voorkomt bij het laden van gegevens van de geocaching-server. Je kunt de cache pas weer zien door dit op de geocaching-website ongedaan te maken.|
+|Exporteer Waypoints||Deze functie scant de cache-beschrijving op geldige coördinaten en maakt automatisch een routepunt voor elke coördinaat die in de lijst wordt gevonden.\\ Dit kan een nuttige functie zijn voor het geval de cache-eigenaar geen speciale waypoints heeft gemaakt, maar alleen de coördinaten in de cachebeschrijving vermeldt.|
+|Exporteren||Hiermee kun je de caches exporteren als GPX, een veldnotitie of een persoonlijke notitie.|
+|Persoonlijke notitie||Deze functie opent de editor voor de persoonlijke notitie, die ook te vinden is in de  [[cachedetails#description_tab|omschrijving tab]]|
+
+
+
+===== Details tab =====
+{{anchor:details_tab:}}
+
+Dit tabblad wordt standaard geopend (tenzij je dit gedrag in de [[.mainmenu:settings#cache_details|instellingen]] hebt aangepast) en toont je de belangrijkste informatie over de cache.
+
+
+==== Cache information ====
+{{anchor:cache_information:}}
+
+{{ :nl:details_cacheinfo.png?direct&400 |}}
+
+This section of the details tab provides information about the cache:
+
+^ Line ^ Description ^ 
+|Naam|De titel van deze cache.|
+|Type|[[cacheicons|Type]] van deze cache.|
+|Grootte|Grootte van deze cache.|
+|Geocode|Geocode van deze cache.|
+|Status|De status van deze cache. Het zal je laten zien of je de cache hebt gevonden (incl. vinddatum) of je een offline log hiervoor hebt opgeslagen. Daarnaast toont het informatie of de cache uitgeschakeld, geärchiveerd is of alleen voor Premium leden is.|
+|Afstand|Afstand vanuit je huidige positie naar de coördinaten van deze cache.|
+|Moeilijkheid|De moeilijkheidsgraad van deze cache als decimaal getal en in een grafische weergave.|
+|Terrein|Moeilijkheidsgraad van het terrein van deze cache als decimaal getal en in een grafische weergave.|
+|Waardering|Toont de kwaliteitswaardering van de cache vanuit [[http://gcvote.com|GCVote]] indien deze service is ingesteld in de  [[.mainmenu:settings#services|c:geo instellingen]] als decimaal getal en in een grafische weergave.\\ De waarde tussen haakjes is het aantal gegeven stemmen op deze cache.|
+|Favoriet|Het aantal gegeven favorieten op (geocaching.com) of aanbevelingen op (Opencaching platforms) aan deze cache.|
+|Eigen waardering|Toont de waardering die je zelf hebt gegeven op [[http://gcvote.com|GCVote]] indien deze service is geactiveerd in de  [[.mainmenu:settings#services|c:geo instellingen]] alss decimaal getal en in een grafische weergave.|
+|Eigenaar|De naam van de eigenaar van deze cache.\\ Je kan op dit veld drukken op een menu te activeren met acties gerelateerd aan deze eigenaar.|
+|Verstopt|De verstopdatum van deze cache.|
+|Locatie|Het land / staat / provincie waar de cache zich bevindt.|
+|Coördinaten|De cache coördinaten.\\ Je kunt hierop drukken om het [[.:coordformat|coordinate formaat]] van de coördinaten aan te passen in andere vormen, die door c:geo worden ondersteund.|
+
+<WRAP center round tip 100%>
+Door lang te drukken op een aantal van de hierboven genoemde velden kun je de informatie naar je klembord kopiëren en delen.
+</WRAP>
+
+
+==== Attributen ====
+{{anchor:attributes:}}
+
+{{:nl:details_attribute_icon.png?direct&400 |}}{{ :nl:details_attribute_text.png?direct&400 |}}
+
+In dit gedeelte van het tabblad Details zie je de kenmerken die de eigenaar voor zijn cache heeft toegewezen als een lijst met pictogrammen. De sectie kan ook worden weggelaten, voor het geval de eigenaar geen kenmerken voor deze cache heeft toegewezen.
+
+Je kunt klikken op de [[attributes|attribuut iconen]] om hen tekstueel weergegeven te krijgen.
+==== Lijst Beheer====
+{{anchor:list_management:}}
+
+Dit gedeelte van de cachegegevens biedt verschillende opties om de opslagstatus van de cache te beheren.
+{{ :nl:livemap_popup_5.png?direct&400 |}}
+
+^ Icoon/Optie ^ Omschrijving ^
+|{{ :en:livemap_popup_6.png?nolink&200 |}}|Dit veld geeft informatie als de geselecteerde cache op je apparaat is opgeslagen in je [[.mainmenu:lists|cache lijsten]] en hoe lang geleden deze is opgeslagen (Dit geeft je een indicatie over hoe up to date de getoonde informatie is).|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Door op deze knop te drukken zal de cache informatie worden ververst met de laatste informatie op de  geocaching server.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|Indien de geselecteerde cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit veld je de lijst(en) tonen waar deze is opgeslagen.|
+|{{ :ic_menu_save.png?nolink&40 |}} |Deze knop wordt alleen getoond als de cache nog niet is opgeslagen in je [[.mainmenu:lists|cache lijsten]] en zal deze opslaan.\\ Een lange druk op deze knop zal de cache in de laatst gebruikte lijst oplsaan. Bij een korte druk zal er om de locatie worden gevraagd.|
+|{{ :ic_menu_edit.png?nolink&40 |}}|Als de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de locatie in de lijst te bewerken of om de cache toe te voegen aan een andere lijst.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Indien de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de cache te verwijderen uit je lijsten.|
+
+==== Watchlist ====
+{{anchor:watchlist:}}
+
+{{:nl:details_watchlist.png?direct&400 |}}
+
+In dit gedeelte kun je de cache toevoegen / verwijderen uit je persoonlijke watchlist. De watchlist is een functie van de geocaching-provider. Als je een cache op je volglijst hebt, ontvang je een e-mailmelding als er een nieuw logboekitem voor deze cache is toegevoegd.
+
+De {{:ic_menu_add.png?nolink&30|}} of {{:ic_menu_remove.png?nolink&30|}} knop zal de cache toevoegen/verwijderen uit je watchlist.
+De''Volgers:'' toont het aantal mensen dat deze cache op hun watchlist hebben.
+
+==== Favorieten ====
+{{anchor:favorite}}
+
+{{:nl:details_favorite.png?direct&400 |}}
+
+In dit gedeelte wordt weergegeven of je een favoriet punt aan deze cache hebt toegekend.
+
+De {{:ic_menu_add.png?nolink&30|}} of {{:ic_menu_remove.png?nolink&30|}} knoppen worden alleen getoond als je deze cache hebt gevonden en zal je favoriet punt toevoegen/verwijderen.
+
+===== Waypoint tabblad =====
+{{anchor:waypoint_tab:}}
+
+{{:nl:cachedetails_waypoints.png?direct&300 |}}
+
+Dit tabblad bevat alle informatie over de waypoints van de cache. Het toont de waypoints die zijn gedefinieerd door de eigenaar en biedt je de mogelijkheid om je aangepaste waypoints voor deze cache toe te voegen.
+
+De waypoint informatie is gestructureerd zoals hieronder:
+
+^ Lijn ^ Omschrijving ^ 
+|Titel|Icoon en titel van het waypoint.|
+|Type en referentie|[[cachedetails#waypoint_types|Waypoint type]] and referentiecode (zoals gegeven door de server) of ''Aangepast'' als het waypoint door de gebruiker is gemaakt.|
+|Coördinaten|De coördinaten van het waypoint. Het veld kan ook leeg zijn als de eigenaar dit leeg heeft gelaten of je zelf eem waypoint zonder coördinaten hebt gemaakt (of de [[coordinatedialog#waypoint_calculator|waypoint calculator]] is gebruikt zonder geldige coördinaten).\\ \\ :!: Je kunt op de coördinaten drukken om ze in andere ondersteunde indelingen weer te geven.|
+|Omschrijving|Bevat de omschrijving van dit waypoint.|
+|{{:actionbar_compass_light.png?nolink&40 |}}|Dit icoon wordt rechts van ieder waypoint getoond als het waypoint coördinaten heeft. Een korte druk op dit icoon zal je [[.mainmenu:settings#navigation|standaard navigatie]] opstarten, een lange klik zal je  [[.mainmenu:settings#navigation|secondaire navigatie voorkeur]] opstarten ten opzichte van deze coördinaten.|
+
+Een korte druk op het waypoint zelf zal de [[cachedetails#waypoint_editor|waypoint bewerker]] openen. Een lange druk op het waypoint zal een [[cachedetails#waypoint_context_menu|context menu]] tonen met meer opties voor het waypoint.
+
+Door te drukken op ''Waypoint toevoegen'' zal de [[cachedetails#waypoint_editor|waypoint bewerker]] openen om een aangepast waypoint voor deze cache te maken.
+
+==== Waypoint typen ====
+{{anchor:waypoint_types:}}
+
+Waypoints kunnen verschillende typen bevatten, zoals hieronder wordt beschreven:
+
+^ Icoon ^ Naam ^ Omschrijving ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|Parkeergelegenheid|Coördinaten met betrekking tot deze cache waar geparkeerd kan worden.|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|Te beantwoorden vraag|Een waypoint voor een cache, waar geen fysiek stadium van een cache is verstopt, maar typisch moet hier een vraag worden beantwoord, die in de omschrijving van het waypoint kan worden getoond.|
+|{{ :waypoint_stage.png?nolink&40 |}}|Multicache-punt|Een waypoint van een cache, waar fysiek iets is verstopt met meer informatie om de cache op te lossen.|
+|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|De coördinaten van dit waypoint geven een begeleiding voor het pad dat gebruikt moet worden om de cache of een volgend waypoint te bereiken.|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|Referentie punt|Een generiek referenctie punt dat voor verschillende doeleinden kan worden gebruikt.|
+|{{ :waypoint_flag.png?nolink&40 |}}|Eindbestemming|De locatie van de uiteindelijke cache container.|
+
+==== Waypoint berwerker====
+{{anchor:waypoint_editor:}}
+
+{{ :nl:details_waypoint_editor.png?direct&400 |}}
+
+De volgende tabel geeft een beschrijving van de invoervelden van de waypoint bewerker:
+
+^ Sectie ^ Omschrijving ^
+|{{ :en:waypoint_editor_coords.png?nolink&400 |}}|Door op het coördinaten veld te drukken zal het [[coordinatedialog|coördinaten invoerscherm]] worden geopend.|
+|{{ :en:waypoint_editor_projection.png?nolink&400 |}}|Na het invoeren van de coördinaten kun je de ''Richting '' en ''Afstand '' velden invullen om een projectie op de coördinaten ten maken. Na het opslaan van de waypoint coördinaten zal de projectie worden gemaakt top basis van de opgegeven coördinaten.|
+|{{ :en:waypoint_editor_typeselector.png?nolink&400 |}}|CDoor op dit veld te drukken zal een drop down menu verschijnen waar je kunt kiezen uit de [[cachedetails#waypoint_types|waypoint typen]].|
+|{{ :en:waypoint_editor_title_note.png?nolink&400 |}}|In deze velden kun je de waypoint titel en gebruikers notities invullen.\\ Het titelveld zal automatisch worden gevuld afhankelijk van het waypoint type.|
+|{{ :en:waypoint_editor_visited.png?nolink&400 |}}|Indien dit vak wordt geactiveerd zal het waypoint als bezocht worden gemarkeerd. Daarbij zal er een vinkje bij dit waypoint in de lijst worden gezet en zal de achtergrond van het pictogram op de kaart transparant zijn.|
+|{{ :en:waypoint_editor_change.png?nolink&400 |}}|Je kunt optioneel de cache listingcoördinaten vervangen door de coördinaten van dit waypoint. Dit kan lokaal worden gedaan of (als de geocaching-provider dit ondersteunt) ook op de geocaching-server.\\ Dit is een nuttige functie om het cachepictogram naar de echte eindcoördinaten te verplaatsen (bijv een opgeloste mystery cache of laatste stadium van een  multicache) en de coördinaten permanent op te slaan op te slaan op de geocaching website.|
+
+==== Waypoint context menu ====
+{{anchor:waypoint_context_menu:}}
+
+{{:nl:details_waypoint_context.png?direct&300 |}}
+Een lange druk op een waypoint opent dit contextmenu en biedt je de volgende opties voor dit waypoint:
+
+^ Optie ^ Omschrijving ^ 
+|Bewerken|Start de bewerker voor dit waypoint.\\ Hetzelfde al een korte druk op het waypoint.|
+|Bezocht|Stel dit waypoint in als bezocht en toon een vinkje bij dit waypoint in de lijst en maakt het pictogram van dit waypoint op de kaart transparant.|
+|Coördinaten kopiëren|Kopieer de coördinaten van het waypoint naar het klembord.|
+|Coördinaten wissen|Verwijder de coördinaten van dit waypoint.\\ Deze optie is alleen beschikbaar voor aangepaste waypoints.|
+|Dubbel Waypoint|Maakt een nieuw waypoint met alle informatie van het bestaande waypoint.\\ Deze optie is handig om een door de server geleverd waypoint te klonen om dit nadien te bewerken.|
+|Verwijderen|Verwijdert dit waypoint.\\ Deze optie is alleen beschikbaar voor aangepaste waypoints.|
+|Kompas|Start de kompas navigatie voor de coördinaten van dit waypoint.|
+|Navigeer|Opent de volledige lijst met naviagatie opties voor dit waypoint.|
+|Caches rondom|Maakt een lijst van caches dichtbij de coördinaten van dit waypoint.|
+
+===== Omschrijving tab =====
+{{anchor:description_tab:}}
+
+==== Cache omschrijving====
+{{anchor:cache_description:}}
+
+{{:nl:cachedetails_description.png?direct&300 |}}
+
+Het tabblad Beschrijving bevat voornamelijk de cachebeschrijving die de eigenaar heeft opgegeven. Onder de scrollbare cache-beschrijving vind je extra secties voor de[[cachedetails#hint_section|cache hint]] en voor je [[cachedetails#personal_note|persoonlijke cache notities]].
+
+Je kunt op de cache-beschrijving klikken om de tekst of gedeelten ervan naar het klembord te kopiëren. Verder kun je het gebruiken om de tekst te laten [[.mainmenu:utilityprograms|vertalen]] in een andere taal.
+
+==== Hint sectie ====
+{{anchor:hint_section:}}
+
+{{:nl:description_hint_encoded.png?direct&400 |}}{{ :nl:description_hint_decoded.png?direct&400 |}}
+
+Dit gedeelte bevat de geheime tip als de eigenaar er één aanbiedt. Standaard is de hint gecodeerd (linker foto) om de cachelocatie niet te bederven. Om te decoderen, druk je eenvoudig op de gecodeerde tekst (rechter foto).
+
+Als de eigenaar een spoilerfoto heeft geüpload, kun je klikken op de link naar de afbeelding onder de hinttekst.
+
+
+==== Persoonlijke notitie ====
+{{anchor:personal_note:}}
+
+{{:nl:description_personalnote.png?direct&400 |}}
+
+Dit gedeelte bevat je persoonlijke cache notitie. Notities die je op de geocachingserver hebt ingevoerd, worden hier weergegeven en je hebt de mogelijkheid om de notitie toe te voegen / te bewerken en deze naar de server te uploaden (uploading van geocaching.com wordt alleen ondersteund voor[[basicmembers|premium leden]]).
+
+:!: Als er verschillende cache notities op de server aanwezig zijn en ook lokaal in c:geo terwijl de cache wordt vernieuwd, worden beide notities bewaard en gescheiden door ''- - -''.
+
+===== Logboek tab =====
+{{anchor:logbook_tab:}}
+
+{{:nl:cachedetails_logbook.png?direct&300 |}}
+
+Decache details kan twee verschillende soorten logboek tabbladen bevatten. De tab genaamd ''Logboek'' bevat de 35 meest recente logboek vermeldingen van deze cache, terwijl het tbblad ''Verienden/Eigen Logs'' alle logboek vermeldingen bevat van jezelf en je geocaching vienden (een server functie van geocaching.com).
+
+Bovenin het logboek vindt je een you will find the logbook samenvatting van de cache, met betrekking tot informatie over het type log vermeldingen en hoeveel van dit type is geplaatst bij deze cache.
+
+Daaronder zie je een lijst met logboek vermeldingen, die je naar beneden kunt scrollen. Elke log bevat de gebruikersnaam, de log datum, het type log, het totaal aantal gevonden caches van deze gebruiker en de logtekst.\\
+Kleurmarkeringen geven het verschillende logtype aan, waardoor een eenvoudig onderscheid tussen "goede" log types (bijvoorbeeld gevonden, geactiveerd) en "slechte" log types (bijvoorbeeld niet gevonden, gedeactiveerd) mogelijk wordt.
+
+:!: Als het logboek spoilers bevat, kan de logboekgebruiker beslissen om het logboekitem te versleutelen. In dit geval kun je op het logboekitem klikken om de logtekst te decoderen.
+
+Als je op de gebruikersnaam drukt, wordt een contextmenu geopend met bijbehorende gebruikers [[.mainmenu:search|zoekopties]].
+
+Door lang op de logtekst te drukken, kun je de tekst naar het klembord kopiëren. Verder kun je het gebruiken om de log tekst te  [[.mainmenu:utilityprograms|vertalen]] naar een andere taal.
+
+===== Inventaris tab =====
+{{anchor:inventory_tab:}}
+
+{{:en:cachedetails_inventory.png?direct&300 |}}
+
+Dit tabblad toont de trackable inventaris van de cache. Het tabblad is alleen aanwezig als de cache trackables bevat.
+
+Het toont het type pictogram en de naam van de trackable. 
+
+Als je op een lijstitem klikt, wordt de [[trackabledetails | trackable detail pagina]] geopend, voor meer informatie over de trackable.
+===== Afbeelding tab =====
+{{anchor:image_tab:}}
+
+{{ :nl:cachedetails_images.png?direct&300 |}}
+
+Dit tabblad bevat de afbeeldingen die beschikbaar zijn voor de cache. Het bevat alle afbeeldingen uit de cache-beschrijving en alle afbeeldingen die zijn bijgevoegd bij logboekitems die beschikbaar zijn in het [[cachedetails#logbook_tab|logboek tabblad]].
+
+:!:
+Dit is niet dezelfde functie als de cache-galerij op de geocaching-webpagina, omdat slechts de 35 van de meest recente log vermeldingen worden getoond en niet alle vermeldingen.
+
+Als je op een afbeelding klikt, wordt de afbeelding geopend in je standaard afbeeldingsprogramma.
+
+<WRAP center round tip 50%>
+Als de afbeelding coördinaten in de koptekstinformatie bevat, wordt er een klein kompas pictogram weergegeven in de linkerbenedenhoek van de afbeelding. In dit geval kun je kort of lang drukken op dat pictogram om je standaard- of secundaire  [[navigation|navigatie]] hulpmiddel voorkeur te starten.
+Door lang op de afbeelding zelf te drukken zal er een context menu verschijnen waarmee je een nieuw waypoint met deze coördinaten kan maken.
+</WRAP>
+
+
+
+

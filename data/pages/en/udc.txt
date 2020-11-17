@@ -1,0 +1,47 @@
+====== User defined caches ======
+
+You can create user defined caches with c:geo. Those can be used e.g. for planning your own caches as well as just for recording some points of interest. 
+Furthermore c:geo also automatically creates a dedicated user defined cache to store your [[.mainmenu:goto|"Go to" targets]].
+
+User defined caches show up with the [[.cacheicons|cache type indicator]] of virtual caches in your lists and map.
+
+<WRAP center round info 100%>
+While you could use an user defined cache to plan your own cache hides, it is not possible to submit your new cache via c:geo. User defined caches are only a small helper to plan your hide but do not involve any online function for submitting them to the geocaching platforms.
+</WRAP>
+
+
+
+===== Creation of user defined caches =====
+
+You can create user defined caches in two ways:
+  - Open a list of saved caches and select ''Manage Caches'' -> ''Create user defined cache'' from the [[.mainmenu:lists#manage_caches|list menu]].
+  - Long click on the map to trigger creation of a user defined cache. This long click function needs to be enabled in [[.mainmenu:settings#map_behavior|map behavior settings]].
+
+After performing on of these actions you will be prompted for the title of the user defined caches to be created.
+
+{{:en:udc_create.png?direct400|}}
+
+Afterwards the user defined cache is created and stored either on the current list (if created from the [[.mainmenu:lists#manage_caches|list menu]]) or on your default list (if created by long click on the map).
+
+If the cache was created from the map it will already have cache coordinates as defined by the location you clicked on. If you created it from the list the cache coordinates will be empty until you create a waypoint and assign its coordinates as listing coordinates.
+
+This is how a typical user defined cache could look like:
+
+^ Waypoints ^ Details ^ Description ^
+|{{:en:udc_waypoints.png?direct300|}}|{{:en:udc_details.png?direct300|}}|{{:en:udc_description.png?direct300|}}|
+
+===== Handling of user defined caches =====
+
+Besides the fact, that you created the cache yourself, it is handled in the same way as all other caches in c:geo (like creating waypoints, moving to another list, etc.). 
+Some functions however are not (yet) possible due to the fact, that it is no ordinary cache:
+
+^ Function ^ Limitation ^
+|Cache type|User defined caches is an own cache type in c:geo.|
+|Cache Description|It is not yet possible to enter custom text into the cache description. It will only contain "This is a user defined cache". It is planned to add this function in future versions of c:geo. As a workaround you can use the personal note and/or the waypoint descriptions.|
+|Geocode|The geocode will be automatically assigned by c:geo (using the prefix ''ZZ''). You cannot change it.|
+|D/T, Size|It is not possible to enter this information for user defined caches.|
+|Attributes|Attributes are not supported for user defined caches.|
+|Logging|As it is your locally created cache it is not possible to post logs for it.|
+|Logbook|As your locally created cache cannot be logged by anyone, it does not have a logbook tab.|
+|Refresh|As the user defined cache is only stored locally you cannot refresh it to/from any server.|
+

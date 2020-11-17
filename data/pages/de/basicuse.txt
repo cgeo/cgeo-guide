@@ -1,0 +1,56 @@
+====== c:geo Grundlagen ======
+
+Diese Seite beschreibt einige Grundlagen zum Geocaching und wie du c:geo nutzen kannst, um Geocaches zu finden.
+
+
+===== Was ist Geocaching? =====
+
+Alle Details des Geocaching zu erklären, würde hier ein wenig zu weit führen. Aber es gibt einige Dinge, die du wissen solltest, um mit Geocaching in c:geo zu starten:
+
+Du musst etwas über die verschiedenen Cache-Typen, D/T-Wertungen, usw. lernen.
+
+Du wirst vielleicht keinen Erfolg beim Finden eines Caches haben, wenn du einfach einen zufälligen Cache in c:geo auswählst und dorthin navigierst. Es gibt einiges mehr, was du wissen musst, um einen für dich passenden Cache auszuwählen.
+
+Die meisten der von c:geo unterstützten Plattformen bieten dir detaillierte Einführungen dazu, wie Geocaching funktioniert. __Wir empfehlen dir dringend__ diese Einführungen anzusehen, um zu lernen, was du zum Finden deines ersten Caches wissen musst und wie er geloggt wird.
+
+Insbesondere solltest du die Bedeutung der unterschiedlichen Cache-Typen (einen Mystery-Cache wirst du z.B. normalerweise nicht an den angegebenen Koordinaten finden) und T-Wertungen (eine Wertung von 5 meint, dass du klettern/schwimmen/tauchen musst, um den Cache zu finden) kennen.
+
+<WRAP center round important 100%>
+Geocaching kann - wie jeder Outdoor-Aktivität - gefährlich sein. Du praktizierst Geocaching auf eigenes Risiko, weder c:geo noch irgendein Geocaching-Dienstanbieter übernimmt die Verantwortung für dein Handeln. Pass einfach auf, was du tust, wie du es auch bei anderen Outdoor-Aktivitäten machst.
+</WRAP>
+
+
+===== Den ersten Geocache mit c:geo finden =====
+
+Nutze vom c:geo Hauptbildschirm die Menüeinträge ''Live-Karte'' {{:main_live_default.png?nolink|}} oder ''In der Nähe'' {{:main_nearby_default.png?nolink|}} um zu sehen welches Caches sich in der Umgebung befinden.
+
+{{:en:livemap_1.png?direct&300|}}{{ :en:lists_1_en.png?direct&300|}}
+
+Nachdem du es geschafft hast, Caches auf der [[.mainmenu:livemap|Karte]] oder in der [[.mainmenu:lists|Nahbereichssuche]] zu sehen, wähle einen Cache, den du gerne finden möchtest (ein Traditional-Cache mit einer niedrigen D/T-Wertung ist ein guter Startpunkt) und öffne seine Details.
+
+{{:en:cachedetails_details.png?direct&300 |}}
+
+Nachdem du das Cache-Listing geöffnet hast, kannst du nach links und rechts streichen um [[cachedetails|mehr Informationen]] über den Cache zu erhalten (z.B. Cachebeschreibung, zusätzliche Wegpunkte, Loghistorie, usw.). Lies den Listing-Text und beachte die D/T-Wertung und Attribute um mehr darüber zu lernen, wie du diesen Cache finden und loggen kannst.
+
+<WRAP center round important 100%>
+Noch einmal:\\
+Du solltest dich mit den verschiedenen Typen, Geländewertungen, Attributen, usw. vertraut machen bevor du die Suche nach dem Cache startest!
+</WRAP>
+
+Wenn du nun einen Cache ausgewählt hast und bereit zum Suchen bist, wähle das ''Navigation''-Symbol {{:ic_menu_goto.png?nolink|}}  in der Titelzeile der Cache-Details. Du hast dann je nach Bedarf [[.navigation|mehrere Möglichkeiten]] zur Navigation. Hier ist eine kurze Beschreibung der wichtigsten Navigationsmethoden:
+
+  * **[[compass|Kompass]]**:\\ Er zeigt dir dauerhaft die Entfernung und Richtung zum Cache an.
+{{ :en:navigate_compass.png?direct&300 |}}
+  
+
+  * **Navigation (Fahren, Gehen, Fahrrad)**:\\ Dies startet die Routenführung mit Google Maps.
+{{ :en:navigate_driving.png?direct&300 |}}
+
+  * **Radar** (optional):\\ Wenn du eine App installiert hast, die [[.mainmenu:utilityprograms|Radar-Funktionen]] unterstützt, öffnet sich ein Radar-Bildschirm. Dieser ist ähnlich zum Kompass, aber die Funktionsweise ist ein wenig anders. Du siehst typischerweise die Cache-Koordinaten als Markierung auf dem Radar. Wenn die Markierung das Zentrum erreicht, hast du die Cache-Koordinaten erreicht.
+
+<WRAP center round tip 100%>
+Dies ist nur eine kurze Einführung in die Funktionen von c:geo. Um mehr über die Funktionen und Menüs von c:geo zu lernen, solltest du dir die weiteren Kapitel der [[start#users_manual|c:geo Bedienungsanleitung]] durchlesen.
+</WRAP>
+                  
+
+

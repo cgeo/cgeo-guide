@@ -1,0 +1,11 @@
+====== Fazer download deste guia ======
+
+Existem duas formas de fazer o //download// deste guia para utilização //offline//:
+
+  * Carregar no ícone ''Exportar para PDF'' na barra lateral vai gerar um ficheiro PDF da página atual e fazer o download do mesmo.\\ Esta opção apenas vai gerar um PDF do tópico/página, que está a ser apresentada.
+
+  * Carregar no ícone ''Add to Book'' na barra lateral irá adicionar a página atual a uma lista de páginas para download.\\ Esta funcção pode ser utilizada para adicionar várias páginas a esta lista. Depois de adicionar pelo menos uma página, uma mensagem informativa vai aparecer no topo de cada página, permitindo adicionar mais páginas ou remover as mesmas, e por fim gerar um PDF com todas as páginas selecionadas na ordem selecionada.
+
+<WRAP center round info 100%>
+Embora ter uma versão //offline// deste guia pode ser útil, é importante lembrar que os conteúdos da versão //online// podem ser alterados, corrigidos ou melhorados de tempo a tempo. Portanto a sua versão offline poderá ficar desatualizada.
+</WRAP>

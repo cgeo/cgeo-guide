@@ -1,0 +1,127 @@
+====== Guia de Utilizador do c:geo ======
+
+**Bem-vindo ao guia de utilização do c:geo!**
+
+{{ :logo_big.png?nolink&200 |}} 
+
+<WRAP center round alert 100%>
+**Este site está em construção!**
+
+Embora consideremos o guia do utilizador concluído, gostaríamos de receber o seu //feedback// primeiro. Se faltar alguma informação ou existirem descrições incompletas ou incorretas, por favor encaminhe-nos o seu [[support@cgeo.org?subject=User Guide Feedback - pt(pt)|feedback]]!
+
+Começamos a traduzir este guia para outras línguas. Precisamos de contribuidores dispostos a ajudar na tradução deste guia para a sua língua materna. Se estiver interessado em colaborar, [[support@cgeo.org?Subject=User Guide Translation|contacte-nos]].
+
+</WRAP>
+
+==== Sobre o c:geo ====
+{{anchor:about_cgeo:}}
+
+O c:geo é uma completa, e sempre pronta, aplicação //open source// para Android (não oficial) para o geocaching.com. Oferecendo ainda suporte básico a outras plataformas (como Opencaching). Não requer um browser nem exportações - simplesmente [[installation|instala]] e começa a usar.
+
+O c:geo é apenas uma aplicação para ser usada no geocaching e não está associada a nenhum provedor de serviços de geocaching.
+
+===== Introdução =====
+{{anchor:getting_started:}}
+
+  * [[installation|Instalação e atualização do c: geo]] - Como fazer download, instalar e atualizar o c:geo
+  * [[installation#permissions|Permissões do c:geo]] - Permissões necessárias para utilizar o c:geo
+  * [[firststeps|Primeiros passos no c:geo]] - Como autenticar nos serviços do geocaching com o c:geo
+  * [[basicuse|Utilização do c:geo]] - O que é geocaching e como encontrar a sua primeira geocache com o c: geo
+
+
+===== Manual de Utilizador =====
+{{anchor:users_manual:}}
+
+==== Menu Principal ====
+{{anchor:main_menu:}}
+
+  * [[.mainmenu:start|Ecrã Inicial]]  - Aceder ás funções do menu principal
+    * [[.mainmenu:start#top_bar_menu|Menu Superior]] -  Acede a funções adicionais
+    * [[.mainmenu:livemap|Mapa]] - Ver o mapa ao vivo de geocaches
+    * [[.mainmenu:lists#cache_list|Por Perto]] - Pesquisa por caches perto da sua localização
+    * [[.mainmenu:lists|Memória]] - Ver Geocaches guardadas na memória local
+    * [[.mainmenu:search|Pesquisar]] - Pesquisa por Geocaches e Trackables
+    * [[.mainmenu:goto|Ir Para]] - Navegar para uma coordenada
+    * [[.mainmenu:globaltypefilter|Filtro global de tipo de cache]] - Filtrar as caches apresentadas por tipo
+    * [[.mainmenu:start#bottom_section|Secção Inferior]] - Monitorize a informação do estado.
+
+  * [[.mainmenu:settings|Definições]] - Configurar a aplicação
+==== Geocaches ====
+{{anchor:geocaches:}}
+
+  * [[cachedetails|Detalhes da Geocache]] - Ver detalhes da geocache
+  * [[Logging|Registo de Geocaches]] - Registas as geocaches encontradas
+
+==== Trackables ====
+{{anchor:trackables:}}
+
+  * [[trackabledetails|Detalhes de Trackables]] - Ver detalhes do trackable
+  * [[loggingtb|Tratamento de Trackables]] - Pesquisar e registar trackables
+
+==== Coordenadas e Navegação ====
+{{anchor:coordinates_and_navigation:}}
+
+  * [[coordinatedialog|Introdução de coordenadas]] - Introduzir coordenadas especificas
+  * [[coordinatedialog#waypoint_calculator|Calculador de Waypoints]] - Calcular Waypoints
+  * [[navigation|Navegação]] - Navegar utilizando os métodos e ferramentas de navegação suportados
+  * [[compass|Bússola]] - Navegar utilizando a bússola integrada
+
+==== Funções Offline ====
+{{anchor:offline_functions:}}
+
+  * [[offline|Caching Offline]] - Utilizar o c:geo Offline
+    * [[offline#gpx_import|Importar GPX]] - Importar caches a partir de ficheiros GPX
+    * [[.mainmenu:pocketquery|Pocket queries]] - Ver e importar pocket queries
+    * [[offline#offline_logging|Registo Offline]] - Registar visita de caches offline
+    * [[offline#field_note_export|Notas de Campo]] - Exportar notas de campo (Rascunhos)
+    * [[offline#offline_maps|Mapas Offline]] - Instalar mapas offline
+
+===== Referências Rápidas =====
+{{anchor:quick_reference:}}
+
+  * [[cacheicons|Tipos de Geocache]]
+  * [[cachemarkers|Marcadores de Geocache]]
+  * [[cachedetails#waypoint_types|Tipos de Waypoint]]
+  * [[mapsources|Mapas Disponíveis]] 
+  * [[basicmembers|Limitações para membros básicos do geocaching.com]]
+  * [[coordformat|Formatos de coordenadas]]
+  * [[attributes|Ícones de atributos]]
+  * [[.mainmenu:utilityprograms|Outras aplicações úteis]]
+
+===== Dicas e funções especiais =====
+{{anchor:special_functions_and_hints:}}
+
+  * [[intents|Abri links relacionados (com geocaching) no c:geo]]
+  * [[hiddenfunctions|Funções escondidas no c:geo]]
+  * [[nfc|Partilha de caches via NFC]]
+  * [[https://send2.cgeo.org|Utilizar send2cgeo]].
+
+===== FAQ =====
+{{anchor:faq:}}
+
+Se tem alguma questão ou erro, por favor leia atentamente as nossas //[[http://faq.cgeo.org|FAQ]]// para encontrar uma solução.
+
+===== Sobre este manual =====
+{{anchor:about_this_manual:}}
+
+
+  * [[en:translation|Ajuda a traduzir este guia de utilizador!]]
+  * [[ebook_help|Faz download  de uma versão PDF deste guia.]]
+
+<WRAP center round info 100%>
+Com a continua alteração e atualização do c:geo, é possível que este guia de utilizador não contenha as alterações mais recentes.
+</WRAP>
+
+
+
+===== Links Úteis =====
+{{anchor:useful_links:}}
+
+  * [[http://www.cgeo.org|Página Inicial do c:geo]]
+  * [[https://www.facebook.com/android.geocaching|c:geo no Facebook]]
+  * [[https://plus.google.com/105588163414303246956|c:geo no Google+]]
+  * [[https://twitter.com/android_gc|c:geo no Twitter]]
+
+  * [[https://github.com/cgeo/|Desenvolvimento do c:geo no GitHub]]
+  * [[http://www.cgeo.org/development|Contribui para o desenvolvimento do c: geo]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Doar via PayPal]]

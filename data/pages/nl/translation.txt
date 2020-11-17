@@ -1,0 +1,51 @@
+====== Vertaling van deze gebruikershandleiding ======
+
+===== Vereisten =====
+
+Als je wil helpen met het vertalen van deze gebruikershandleiding naar een andere taal neem dan s.v.p [[support@cgeo.org?subject=User guide translation|contact op met ons]]. We maken dan een account voor je aan waarna je gelijk kan beginnen. 
+
+Om te helpen met het vertalen heb je alleen wat basiskennis nodig van Wiki systemen.
+
+===== Beginnen =====
+
+Nadat je een account voor deze Wiki hebt ontvangen, kan je met vertalen starten door simpelweg een bestaande Engelse pagina te openen, de taal in je taal te veranderen (met behulp van de taalkiezer linksboven) en deze pagina in je taal te maken. Als je doeltaal daar niet wordt vermeld, laat dit dan weten aan ons team om het in te schakelen.
+
+Wanneer je begint met het maken van de pagina, voegt het Wiki-systeem automatisch een FIXME-plaatsaanduiding in om je eraan te herinneren dat de vertaling van de pagina aan de gang is en de Engelse pagina hieronder zal plakken. Gebruik dit als een startpunt en vertaal de pagina één voor één.
+
+Als je klaar bent met vertalen, kan je de FIXME-plaatsaanduiding boven aan de pagina verwijderen. 
+===== Opmaak Richtlijnen =====
+
+Waar mogelijk, gebruikt deze Wiki de normale syntaxisregels van DokuWiki, maar vanwege het gebruik van de meertalige vertaalplug-in, moeten enkele regels in acht worden genomen:
+
+  * Op sommige plaatsen in de gebruikershandleiding worden ankers (geïnitieerd met #) gebruikt om naar een bepaalde alinea op een pagina te verwijzen vanuit de pagina zelf maar ook vanaf andere pagina's (bijv. ''cachedetails#top_bar_menu''). Het DokuWiki-systeem schakelt automatisch ankers in voor alle headlines (bijv. ''==== Top Bar Menu ====''), wat over het algemeen een leuke functie is, maar de vertaling omslachtig kan maken, omdat deze ankers zullen veranderen zodra je deze koppen vertaalt.\\ Daarom gebruiken we alleen nog een ankerplug-in en gebruiken deze om een niet-te-vertalen-anker onder elke kop te definiëren (bijv. ''%%{{%%anchor:top_bar_menu%%}}%%''). Dit betekent dat je de koppen vrij naar je eigen taal kunt vertalen, maar dat je je geen zorgen hoeft te maken over ankers die in koppelingen op de pagina worden gebruikt. Laat de ankertag gewoon ongewijzigd op de vertaalde pagina.
+
+  * Om verschillende talen te ondersteunen, gebruikt de vertaalplugin DokuWiki speciale naamruimten voor elke taal (bijv. ''en:cachedetails'' voor Engels, ''de:cachedetails'' voor Duits). Dus al je vertaalpagina's moeten zich in of onder de naamruimte bevinden die de ISO-code (Nederlands: nl) van je taal vertegenwoordigt. Dit gebeurt automatisch als je begint met het maken van de pagina's zoals hierboven beschreven. Normaal gesproken zou het ook nodig zijn om de naamruimte van elke in de pagina's gebruikte link te wijzigen, om de juiste taal te hebben.\\ We hebben geprobeerd dit onnodig te maken door alleen relatieve links te gebruiken (bijv. ''.:cachedetails'' in plaats van ''en:cachedetails''). Dit betekent dat alle links die je oorspronkelijk op een nieuwe pagina hebt bij het starten van je vertaling al de naamruimte van je taal moeten hebben, **je hoeft er geen van te wijzigen**.
+
+  * Houd er rekening mee dat de meeste schermafbeeldingen in deze handleiding mogelijk ook moeten worden gelokaliseerd en alleen in het Engels zijn. Als je de bijbehorende schermafbeeldingen niet kunt maken, laat dan de oorspronkelijke afbeeldingslink zoals deze is (een Engelse schermafbeelding is beter dan helemaal geen schermafbeelding).\\ Alle afbeeldingen die gelokaliseerd zijn, worden onder de naamruimte van die taal opgeslagen om gemakkelijk onderscheid te kunnen maken. Bovendien zijn alle afbeeldingen die geen lokalisatie behoeven (bijv. pictogramafbeeldingen) al opgeslagen in de naamruimte van [root] en kunnen ze in alle talen worden gebruikt.
+
+  * Naast de verschillende inhoudspagina's, is er ook een pagina genaamd ''zijbalk'' die de snelle navigatielinks bevat die je links van de inhoud kunt zien. Open deze [[en:sidebar|english sidebar]] en vertaal deze pagina zoals oorspronkelijk beschreven.
+
+  * Let er bij het vertalen van de gebruikershandleiding op dat je je opmaak zo dicht mogelijk bij het origineel houdt, alleen het woord vertaalt maar niet de lay-outs, vakken enz. wijzigt. Dit zal het gemakkelijker maken om verouderde vertalingen te volgen, zodra de originele pagina is gewijzigd.
+
+  * Voor sommige talen (bijv. Duits, Spaans) is er een onderscheid tussen formeel en informeel adresseren van de gebruiker/lezer. We hebben besloten om het informeel adresseren (bijvoorbeeld de Nederlandse "je") voor deze gebruikershandleiding te gebruiken. Je kunt de pagina's echter ook zodanig vertalen dat er geen directe adressering van de gebruiker/lezer vereist is (bijvoorbeeld met behulp van een passieve vorm), terwijl dit misschien niet altijd werkt.
+
+  * De gebruikershandleiding gebruikt op veel plaatsen (bijv. in tabellen met uitleg over de verschillende menu-items) dezelfde bewoording/zinnen als die binnen de app worden gebruikt. Wanneer je de gebruikershandleiding vertaalt, moet je ervoor zorgen dat je ook de tekenreeksen/woorden gebruikt die in je taal worden gebruikt in c:geo-menu's. Wanneer ergens anders in de gids naar een bepaald menu-item wordt verwezen (in de tekst), wordt het meestal omgeven door ''aanhalingstekens'' om de lezer ervan bewust te maken dat dit een menuformulering/tekenreeks is. Ook hier zou je de bewoording/zin moeten gebruiken die c:geo in je taal gebruikt.
+
+  * Als je je vertaalde pagina wijzigt en nog belangrijker als je wijzigingen aanbrengt, vul dan alsjeblieft een korte beschrijving in van de wijziging in de "Samenvatting wijziging" onder het bewerkingsvenster. Het zal anderen helpen, bijvoorbeeld in het bijhouden van wijzigingen die later moeten worden aangepast aan de vertaalde pagina's. We hebben ondertussen het afdwingen van de samenvatting geactiveerd, dus je moet ofwel "Kleine wijziging" aankruisen of "Samenvatting bewerken" invullen voordat je opslaat. We raden je aan om ook een samenvatting in te vullen voor kleine wijzigingen om de transparantie te vergroten.
+
+  * Tenslotte: als je fouten in de vertaling van c:geo zelf tegenkomt (of gewoon bereid bent om de app zelf te helpen vertalen), kun je bijdragen op https://crowdin.com/project/cgeo
+
+===== Wees niet bang =====
+
+Begin gewoon met bewerken ... wees niet bang om iets stuk te maken. Vanwege het standaard revisiesysteem van Wiki kan je altijd ongewenste wijzigingen herstellen door terug te keren naar een oudere versie van de pagina.
+
+===== Handige tools =====
+
+  * [[internal:playground:playground|Een proeftuin, die je vrij kunt gebruiken om de opmaak of syntaxis te testen]]
+  * [[internal:wiki:syntax|DokuWiki Syntax]]
+  * [[internal:orphans|Een samenvatting van de status van elke pagina. Je kunt hier gewenste of verweesde pagina's vinden.]]
+  * [[internal:changes|Lijst met recente wijzigingen]]
+
+
+
+

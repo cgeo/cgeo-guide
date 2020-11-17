@@ -1,0 +1,16 @@
+====== About c:geo ======
+
+{{:ic_menu_info_details.png?nolink&50 |}}
+
+This page will show you various information about c:geo.
+
+The page is organized in six different tabs, which you can access by swiping from left to right or vice versa:
+
+^ Tab ^ Content ^
+|Version| Information about the currently installed version number and a link to donate to c:geo development.|
+|Help|Containing a collection of helpful links to external resources.|
+|Change Log|Information about the changes in the current version.|
+|System|Contains a collection of information to be used in case you want to contact our [[support@cgeo.org|support]]. You can use the buttons on this tab to copy the system information to your clipboard or directly send a mail containing it.|
+|Contributors|A list of people and resources helping to develop c:geo.|
+|License|The license terms under which c:geo is distributed.|
+ 

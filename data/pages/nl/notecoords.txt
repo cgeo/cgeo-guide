@@ -1,0 +1,44 @@
+====== Waypoints gemaakt uit coördinaten in persoonlijke notities ======
+
+===== Automatisch maken van waypoints =====
+Als je in een [[cachedetails#personal_note|persoonlijke notitie]] van een cache geldige coördinaten hebt (bijv. ''N50 10.123 E010 34.876'') zal c:geo automatisch een waypoint hiervan maken in het [[cachedetails#waypoint_tab|waypoint tabblad]] van deze cache.
+
+Als je bijvoorbeeld deze persoonlijke notitie hebt gemaakt
+
+{{:en:personalnote_wp_1.png?direct&600|}}
+
+zal c:geo automatisch dit waypoint hiervoor maken:
+
+{{:en:personalnote_wp_2.png?direct&600|}}
+
+Latere coördinaten in je persoonlijke notitie zullen ook op dezelfde manier naar een waypoint worden overgedragen en zal de naam van het waypoint dienovereenkomstig worden genummerd.
+
+<WRAP center round tip 80%>
+Als de waypoints van een cache al dezelfde coördinaten bevatten als in je persoonlijke notitie, maakt c:geo geen nieuw waypoint voor deze coördinaten omdat het veronderstelt dat ze in dit geval een onnodig duplicaat zijn.
+</WRAP>
+
+
+===== Using keywords for waypoint types =====
+
+Normally c:geo will define the waypoint type for coordinates found in the personal note as ''Reference Point'', however you can use keywords in your personal note to enforce another waypoint type being used.
+
+You just place one of the following keywords in front of the coordinates:
+
+^ Icon ^ Waypoint type ^ Keyword in personal note ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|Parking Area|PARKING|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|Question to Answer|PUZZLE|
+|{{ :waypoint_stage.png?nolink&40 |}}|Stage of a Multi cache|STAGE|
+|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|TRAILHEAD|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|Reference Point|WAYPOINT|
+|{{ :waypoint_flag.png?nolink&40 |}}|Final Location|FINAL|
+
+Additionally localized waypoint type names (in the language you are using c:geo) will also work, however as c:geo is available in many languages we only list the English keywords here.
+
+In our example we created the following personal note:
+
+{{:en:personalnote_wp_3.png?direct&600|}}
+
+which then automatically creates these waypoints for you:
+
+{{:en:personalnote_wp_4.png?direct&600|}}
+

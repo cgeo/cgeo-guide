@@ -1,0 +1,15 @@
+====== Funções escondidas ======
+
+Embora que o c:geo seja feito a pensar na facilidade de acesso e na clareza das suas funções, existem alguns atalhos e funções avançadas que poderá não encontrar de imediato.
+
+Todas estas funções são também explicadas na secção correspondente deste guia, mas para aqueles que já conhecem as funções básicas do c:geo, resolvemos apresentar as mesmas nesta lista, pois, poderão melhorar a sua experiência de utilização:
+
+^ Como aceder ^ Função ^ Secção no guia ^
+|Pressionar durante uns segundos no ícone de memória no ecrã inicial| Permite abrir diretamente uma das listas guardadas, em vez de abrir a lista e selecionar na barra superior outra lista. |[[.mainmenu:start#main_icons|Ecrã Inicial]]|
+|Pressionar durante uns segundos no ícone do filtro global no ecrã inicial|Desliga o filtro atual (se ativo) e volta a "Todos os tipos de Geocaches".|[[.mainmenu:start#main_icons|Ecrã Inicial]]|
+|Pressionar durante uns segundos no ícone de guardar nos detalhes da geocache ou no mapa| Esta função não pergunta qual a lista onde pretende guardar a cache, vai guardar a mesma na última lista que selecionou.|[[.mainmenu:livemap#list_management|Mapa]]\\ [[.cachedetails#list_management|Detalhes da Cache]]|
+|Pressionar durante uns segundos no ícone da rosa dos ventos, nos detalhes da cache ou no mapa|Enquanto que pressionar o ícone vai iniciar a ferramenta de navegação predefinida, pressionando durante uns segundos vai iniciar a ferramenta de navegação secundária (Predefinida = Mapa, pode ser alterada nas [[.mainmenu:settings#navigation|definições]]).|[[.mainmenu:livemap#list_management|Mapa]]\\ [[.cachedetails#list_management|Detalhes da Cache]]|
+|Pressionar na notificação do filtro, no mapa ou numa lista| Caso um [[.mainmenu:globaltypefilter|filtro global de tipo de cache]] ou um [[.mainmenu:lists#filtering|filtro de lista]] esteja ativo é apresentada uma notificação no topo do ecrã por baixo da barra superior. Se pressionar esta notificação são abertas as definições do filtro correspondente, permitindo alterar/remover o mesmo.|[[.mainmenu:lists#list_menu|Listas guardadas]]|
+|Pressionar durante uns segundos em qualquer ícone do menu superior| Se pressionar durante uns segundos em qualquer ícone de qualquer menu superior do c:geo (excepto na rosa dos ventos, como descrito em cima) vai apresentar um texto informativo sobre a função correspondente. Poderá utilizar esta função, caso não tenha a certeza da funcionalidade de um ícone|ex.[[logging#top_bar_menu|Registar Geocaches]]|
+
+

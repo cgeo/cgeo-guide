@@ -1,0 +1,14 @@
+======= Over c:geo ======
+
+{{:ic_menu_info_details.png?nolink&50 |}}
+
+Deze pagina toont je informatie over c: geo. De pagina is georganiseerd in zes verschillende tabbladen, die je kunt openen door van links naar rechts te vegen of omgekeerd:
+
+^ Tab ^ Inhoud ^
+|Versie| Informatie over het huidige geïnstalleerde versienummrt en een link om te doneren aan c:geo development.|
+|Help|Bevat behulpzame links naar externe bronnen.|
+|Aan de slag|Algemene informatie om aan de slag te gaan met geocaching en c:geo|
+|Changelog|Informatie over de wijzigingen in de huidige versie.|
+|Systeem|Bevat een collectie van informatie die gebruikt moet worden infien je contact opneemt met onze [[support@cgeo.org|support]]. Je kunt de knoppen van dit tabblad gebruiken om systeeminformatie te kopiëren naar het klembord en te verzenden via mail.|
+|Bijdragers|Een lijst van mensen en bronnen, die geholpen hebben om c:geo te ontwikkelen.|
+|Licentie|De licentie definities waaronder c:geo is gedistribueerd.|

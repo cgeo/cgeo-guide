@@ -1,0 +1,126 @@
+**FIXME** JAVÍTANDÓ **Az oldal még nincs teljesen lefordítva. Kérjük, segítsen a befejezésében!**\\ //(Töröljük ezt a bekezdést a fordítás elkészültekor.)//
+
+====== c:geo használati útmutató ======
+
+**Üdvözlünk a c:geo online használati útmutatójában!**
+
+{{ :logo_big.png?nolink&200 |}} 
+
+<WRAP center round alert 100%>
+**Jelenleg az oldal fejlesztés alatt áll!**
+
+Bár a használati útmutatót befejezettnek tekintjük mostanra, mégis szeretnénk visszajelzéseket kapni. Ha hiányolsz bármilyen információt vagy hiányos, rossz leírás látsz, kérjük, küld el nekünk az [[support@cgeo.org?subject=User Guide Feedback|észrevételeidet]]!
+
+Elkezdtük az útmutató más nyelvekre fordítását. Szükségünk van olyan közreműködőkre, akik hajlandóak segíteni az útmutató anyanyelvükre fordításában. Ha segítenél nekünk, [[support@cgeo.org?Subject=User Guide Translation|tudasd velünk]]!
+</WRAP>
+
+==== A c:geo-ról ====
+{{anchor:about_cgeo:}}
+
+A c:geo egy nyílt forráskódú, teljes értékű, mindig használatra kész, nem hivatalos geocaching.com-os kliens, mely alapvető támogatást nyújt más geocaching platformokhoz is (pl. Opencaching). Nincs szükség webböngészőre vagy exportálásra - csak telepítened kell és indulhatsz is.
+
+A c:geo egy általános geocaching kliens alkalmazás, nincs kapcsolatban egyik geocaching szolgáltatóval sem.
+
+
+===== Bevezető =====
+{{anchor:getting_started:}}
+
+  * [[installation|A c:geo telepítése és frissítése]] - Hogyan töltsük le, telepítsük és frissítsük a c:geo-t
+  * [[installation#permissions|c:geo alkalmazásengedélyek]] - A c:geo működéséhez szükséges alkalmazásengedélyek
+  * [[firststeps|Első lépések a c:geo-val]] - Az alkalmazás hitelesítése a geocaching játékszervezőnél
+  * [[basicuse|Alapvető c:geo használat]] - Mi a geocaching és hogyan találhatod meg az első ládádat a c:geo-val
+
+
+===== Felhasználói kézikönyv =====
+{{anchor:users_manual:}}
+
+==== Főmenü ====
+{{anchor:main_menu:}}
+
+  * [[.mainmenu:start|Főképernyő]] - Hozzáférés a c:geo fő funkcióihoz
+    * [[.mainmenu:start#top_bar_menu|Felső menüsor]] - Hozzáférés a többi funkcióhoz
+    * [[.mainmenu:livemap|Élő térkép]] - A ládák elő térképének megtekintése
+    * [[.mainmenu:lists#cache_list|Közelben]] - Közeli ládák keresése
+    * [[.mainmenu:lists|Mentett]] - Elmentett ládák megtekintése
+    * [[.mainmenu:search|Keresés]] - Ládák és utazók keresése
+    * [[.mainmenu:goto|Irány]] - Navigáció tetszőleges koordinátához
+    * [[.mainmenu:globaltypefilter|Globális ládatípus szűrő]] - A megjelenített ládák szűrése ládatípus szerint
+    * [[.mainmenu:start#bottom_section|Alsó sáv]] - Állapotinformáció nyomon követése
+
+  * [[.mainmenu:settings|Beállítások]] - Az alkalmazás beállítási lehetőségei
+
+==== Ládák ====
+{{anchor:geocaches:}}
+
+  * [[cachedetails|Ládaadatok]] - A ládaadatok oldal magyarázata
+  * [[Logging|Logolás]] - Találatok logolása
+
+==== Utazók ====
+{{anchor:trackables:}}
+
+  * [[trackabledetails|Utazóadatok]] - Az utazóadatok oldal magyarázata
+  * [[loggingtb|Logolás]] - Utazók kezelése és logolása
+
+==== Koordináták és navigáció ====
+{{anchor:coordinates_and_navigation:}}
+
+  * [[coordinatedialog|Koordináta bekérő ablak]] - A koordinátabevitel magyarázata
+  * [[coordinatedialog#waypoint_calculator|Útpont kalkulátor]] - Az útpont kalkulátor használata
+  * [[navigation|Navigáció]] - Támogatott navigációs módszerek és eszközök leírása
+  * [[compass|Iránytű]] - Az iránytű használata
+
+==== Offline funkciók ====
+{{anchor:offline_functions:}}
+
+  * [[offline|Offline ládázás]] - Offline használat
+    * [[offline#gpx_import|GPX importálás]] - Ládák importálása GPX fájlból
+    * [[.mainmenu:pocketquery|Pocket lekérdezések]] - Pocket lekérdezések megtekintése és importálása
+    * [[offline#offline_logging|Offline logolás]] - Ládák offline logolása
+    * [[offline#field_note_export|Offline logok]] - Offline logok exportálása
+    * [[offline#offline_maps|Offline térképek]] - Offline térképek használata
+
+===== Rövid útmutató =====
+{{anchor:quick_reference:}}
+
+  * [[cacheicons|Ládatípusok]]
+  * [[cachemarkers|Ládajelölések]]
+  * [[cachedetails#waypoint_types|Útpont típusok]]
+  * [[mapsources|Térképtípusok]] 
+  * [[basicmembers|Korlátozások a geocaching.com normál tagjai számára]]
+  * [[coordformat|Koordinátaformátumok]]
+  * [[attributes|Tulajdonságikonok]]
+  * [[.mainmenu:utilityprograms|Hasznos segédprogramok]]
+
+===== Speciális funkciók és segítségek =====
+{{anchor:special_functions_and_hints:}}
+
+  * [[intents|Geocachinggel kapcsolatos linkek használata]]
+  * [[nfc|Ládák megosztása NFC-vel]]
+  * [[hiddenfunctions|A c:geo rejtett funkciói]]
+  * [[https://send2.cgeo.org|A send2cgeo használata]]
+
+===== FAQ =====
+{{anchor:faq:}}
+
+Ha kérdésed van, először látogasd meg a [[http://faq.cgeo.org|FAQ]] oldalunkat a válaszért!
+
+===== Megjegyzés az útmutatóról =====
+{{anchor:about_this_manual:}}
+
+<WRAP center round info 100%>
+Mivel folyamatosan fejlesztjük a c:geo-t, előfordulhat, hogy ez a használati útmutató nem napra kész, nem tartalmazza a legutóbbi változások.
+</WRAP>
+
+[[en:translation|Segíts a használati útmutató fordításában!]]
+
+===== Hasznos linkek =====
+{{anchor:useful_links:}}
+
+  * [[http://www.cgeo.org|c:geo honlap]]
+  * [[https://www.facebook.com/android.geocaching|c:geo a Facebookon]]
+  * [[https://plus.google.com/105588163414303246956|c:geo a Google+-on]]
+  * [[https://twitter.com/android_gc|c:geo a Twitteren]]
+
+  * [[https://github.com/cgeo/|c:geo fejlesztése a GitHubon]]
+  * [[http://www.cgeo.org/development|Részvétel a c:geo fejlesztésében]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Adományozás PayPallal]]

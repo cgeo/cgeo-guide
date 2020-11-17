@@ -1,0 +1,25 @@
+====== Geocache-Markierungen ======
+
+Sowohl auf der [[.mainmenu:livemap|Live-Karte]] als auch in deinen Liste deiner [[.mainmenu:lists|gespeicherten Caches]] zeigt c:geo bei Bedarf kleine Markierungssymbole in den Ecken des [[cacheicons|Geocache-Symbols]] an um dir zusätzliche Informationen zu geben, ohne dass du den Cache selbst öffnen musst.
+
+Die folgende Tabelle beschreibt die Bedeutung dieser Markierungen:
+
+^ Markierung ^ Name ^ Beschreibung ^
+|{{ :marker_stored.png?nolink&20 |}}|Gespeichert|Dieser Cache ist Offline in deinen Listen gespeichert.\\ Diese Markierung wird nur auf der Karte aber nicht in den Listen angezeigt, da es logisch ist, dass jeder Cache deiner Liste bereits gespeichert ist :-)|
+|{{ :marker_found.png?nolink&20 |}}|Gefunden|Du hast diesen Cache bereits gefunden.|
+|{{ :marker_own.png?nolink&20 |}}|Im Besitz|Dies ist einer deiner eigenen Caches.|
+|{{ :marker_personalnote.png?nolink&20 |}}|Persönliche Notiz|Eine persönliche Notiz ist für den Cache gespeichert.|
+|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Geänderte Koordinaten|Du hast für diesen Cache neue Cache-Koordinaten gesetzt und der Cache wird nun an diesen modifizierten Koordinaten angezeigt. Hilfreiche Funktion für gelöste Mysteries oder Multis.|
+|{{ :marker_found_offline.png?nolink&20 |}}|Gefunden (Offline)|Du hast einen Offline-Log vom Typ ''Gefunden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.|
+|{{ :marker_not_found_offline.png?nolink&20 |}}|Nicht Gefunden (Offline)|Du hast einen Offline-Log vom Typ ''Nicht Gefunden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_note.png?nolink&20 |}}|Bemerkung (Offline)|Du hast einen Offline-Log vom Typ ''Bemerkung'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_maintenance.png?nolink&20 |}}|Benötigt Wartung (Offline)|Du hast einen Offline-Log vom Typ ''Benötigt Wartung'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_owner_maintenance.png?nolink&20 |}}|Wartung durchgeführt (Offline)|Du hast einen Offline-Log vom Typ ''Nicht Gefunden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status ist spezifisch für Cache-Besitzer und wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_archive.png?nolink&20 |}}|Sollte archiviert werden (Offline)|Du hast einen Offline-Log vom Typ ''Sollte archiviert werden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_unknown_offline.png?nolink&20 |}}|Unbekannter Log (Offline)|Du hast einen Offline-Log mit einem speziellen oder unbekannten Logtyp für diesen Cache gespeichert.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :dot_traditional.png?nolink&20 |}}|Grüne Listenmarkierung|Der Cache ist auf einer Liste gespeichert, für die du die grüne Listenmarkierung aktiviert hast (siehe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|
+|{{ :dot_multi.png?nolink&20 |}}|Grüner Listenmarker|Der Cache ist auf einer Liste gespeichert, für die du die grüne Listenmarkierung aktiviert hast (siehe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|
+|{{ :dot_mystery.png?nolink&20 |}}|Blauer Listenmarker|Der Cache ist auf einer Liste gespeichert, für die du die blaue Listenmarkierung aktiviert hast (sihe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|
+|{{ :dot_event.png?nolink&20 |}}|Roter Listenmarker|Der Cache ist auf einer Liste gespeichert, für die du die rote Listenmarkierung aktiviert hast (siehe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|
+|{{ :dot_virtual.png?nolink&20 |}}|Türkiser Listenmarker|Der Cache ist auf einer Liste gespeichert, für die du die türkise Listenmarkierung aktiviert hast (siehe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|
+|{{ :dot_black.png?nolink&20 |}}|Schwarzer Listenmarker|Der Cache ist auf einer Liste gespeichert, für die du die schwarze Listenmarkierung aktiviert hast (siehe [[.mainmenu:lists#manage_lists|Listenverwaltung]]).|

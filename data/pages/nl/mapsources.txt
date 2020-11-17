@@ -1,0 +1,17 @@
+
+
+====== Kaartbronnen ======
+
+De volgende kaart typen zijn in c:geo beschikbaar.
+Je kunt wisselen tussen de kaarttypen in de [[.mainmenu:settings#maps|instellingen]] of in het menu van de [[.mainmenu:livemap|kaart]].
+
+^ Naam ^ Omschrijving ^ 
+|Google:Map|Een online stratenkaart aangeboden door [[https://google.com|Google]].|
+|Google:Satellite|Een online satelliet kaart aangeboden door [[https://google.com|Google]].|
+|OSM:Mapnik|Een online stratenkaart aangeboden door [[https://openstreetmap.org|OpenStreetMap]].|
+|OSM:Offline|[[offlinemaps|Offline kaarten]] gerendeerd uit kaartbestanden in [[http://mapsforge.net|Mapsforge]] formaat.\\ In plaats van OSM zal de kaartnaam met de tekst (offline) worden getoond in het selectie menu.|
+
+<WRAP center round info 100%>
+Momenteel ondersteunt c:geo alleen Google maps v1, die de rotatie van de kaarten niet ondersteunen. Alle kaarten worden dus altijd naar het noorden weergegeven. We werken echter aan de implementatie van een nieuwere Google Maps-versie.
+</WRAP>
+

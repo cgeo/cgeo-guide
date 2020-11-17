@@ -1,0 +1,22 @@
+====== Pesquisar ======
+
+{{:main_search_default.png?nolink&100 |}}
+
+O menu de pesquisa fornece várias funções, que serão descritas em baixo. Todas as pesquisas com base na localização ou com base no utilizador apresentam uma [[lists|lista de caches]], enquanto que pesquisas por geo código e por trackable iram abrir diretamente os [[..:cachedetails|detalhes da geocache]] ou os [[..:trackabledetails|detalhes do trackable]].
+\\ \\ \\ \\
+
+{{:pt:search_1_pt.png?direct&400|}}{{ :pt:search_2_pt.png?direct&400|}}
+
+<WRAP center round info 100%>
+Todas a funções de pesquisa utilizam todas as plataformas de geocaching ativas em simultâneo e fornecem um resultado com base numa lista combinada de estas mesmas plataformas. Isto dependerá sempre nas funções suportadas por cada um dos serviços de geocaching como apresentado no [[settings#Services|menu de serviços nas definições]].
+</WRAP>
+
+^Função ^ Descrição ^
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Pressionando este ícone, o c:geo apresentará a lista de geocaches das quais é dono|
+|Coordenadas|Pesquisa pelas geocaches escondidas perto das coordenadas fornecidas. Para mais informações ver [[..:coordinatedialog|Caixa de introdução de Coordenadas]].|
+|Endereço|Pesquisa pelas geocaches escondidas perto do endereço introduzido. O c:geo usa o serviço de geocodificação da google para converter o endereço em coordenandas.|
+|Geo código|Pesquisa por um geo código especifico em todas as plataformas que o suportam, dependendo do prefixo utilizado (ex. GC77, OC1234).|
+|Palavras-chave|Pesquisa por caches **começadas pela** palavra chave fornecida.\\ \\ :!: A pesquisa por caches que **contenham** as palavras chave introduzidas ainda não é possível devida a limitações técnicas.|
+|Encontradas pelo utilizador|Pesquisa por caches encontradas pelo nome de utilizador fornecido.|
+|Escondidas pelo utilizador|Pesquisa por caches escondidas pelo nome de utilizador fornecido.|
+|Trackable|Pesquisa por um trackable utilizando o seu código (público ou secreto). Esta função suporta os trackables do geocaching.com, assim como de outros serviços (ex. [[http://geokrety.org|GeoKrety]]).|

@@ -1,0 +1,5 @@
+====== Changes to this wiki ======
+
+List of the last 500 changes (limited to the last 364 days):
+
+{{changes>count = 500}}

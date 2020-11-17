@@ -1,0 +1,19 @@
+====== Snel zoeken ======
+
+{{:abc_ic_search_api_holo_light.png?nolink&50 |}}
+
+Als je op deze hoofdmenu functie drukt, wordt een invoerveld in de bovenste balk geopend en tegelijkertijd een vervolgkeuzelijst weergegeven met de meest recente caches die je hebt geopend met c: geo. Je kunt door deze lijst bladeren.
+
+{{:nl:quicksearch.png?direct&400 |}}
+
+In tegenstelling tot de [[search|Zoeken]] functie zoekt deze functie door al je opgeslagen caches als de online gezochte caches en toont het resultaat in een lijst met resultaten die overeenkomt met je zoekterm. In de opgeslagen caches kun je zoeken uit bijna alle cache informatie zoals titel, geocode, omschrijving, eigenaar, logboek inhoud, en meer. Voor online zoeken kun je bijvoorbeeld de geocode, trackable code, gebruikersnaam, en veel meer invoeren.
+
+Om de snelle zoekfunctie offline te gebruiken, typ je gewoon de tekenreeks in om te zoeken. De vervolgkeuzelijst toont automatisch de offline resultaten nadat je ten minste drie cijfers hebt ingevoerd. Je kunt door deze lijst bladeren.
+
+Om in plaats daarvan een online zoekopdracht te starten, druk je gewoon op Enter nadat je de volledige zoekterm hebt ingevoerd. Als de snelzoekfunctie een bekende code voor een cache of een trackable (bijv. GCxxxx, TBxxxx, OCxxxx) in je zoekterm ziet zal er online worden gezocht naar corresponderende resultaten van de [[..cachedetails|cache details]] of [[..trackabledetails|trackable details]]. Als de cache al is opgeslagen in c:geo zal de zoekfunctie direct de opgeslagen informatie van de cache tonen in plaats van de data online op te halen.
+
+Als de snelzoekfunctie geen bekend patroon voor een cache of trackable in je zoekterm herkent, voert het  online een trefwoord zoekopdracht uit ("Begint met").
+
+<WRAP center round tip 100%>
+Elk willekeurig zescijferig patroon wordt standaard geïnterpreteerd als een geheime trackable code, zodat je eenvoudig toegang hebt tot de trackable details door middel van de snelzoekfunctie en hegt invoeren van de geheime code die  op de trackable staat.
+</WRAP>

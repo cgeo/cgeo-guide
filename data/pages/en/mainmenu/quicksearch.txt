@@ -1,0 +1,19 @@
+====== Quick search ======
+
+{{:abc_ic_search_api_holo_light.png?nolink&50 |}}
+
+Clicking on this main menu function will open an input field in the top bar and in parallel showing a drop down list of the most recent caches you opened with c:geo. You can scroll through this list.
+
+{{:en:quicksearch.png?direct&400 |}}
+
+In contrast to the main menu [[search|search function]] this quick search will also search through all your stored caches as well as online and provide you a list of results matching your search term. For offline this search covers almost all cache information such as e.g. title, geocode, description, owner, log contents, and some more. For online search you can e.g. input a geo code, trackable code, username, any much more.
+
+To use the quick search offline simply type in the string to search. The drop down list will automatically start showing the offline results after you entered at least three digits. You can scroll through this list.
+
+To instead start an online search just press Enter after entering your complete search term. If the quick search recognizes a known pattern for a cache or trackable code (e.g. GCxxxx, TBxxxx, OCxxxx) in your search term it will perform the corresponding online search and open the resulting [[..cachedetails|cache details]] or [[..trackabledetails|trackable details]]. If the cache is already stored in c:geo the search will directly open the stored information of the cache instead of getting the data online.
+
+If the quick search does not recognize any known pattern for a cache or trackable in your search term, it will perform an online keyword search ("Starts with").
+
+<WRAP center round tip 100%>
+Any random six digit pattern will by default interpreted as a Travel Bug secret code, allowing you to easily access the trackable details from the quick search by entering its secret code you read on the trackable.
+</WRAP>

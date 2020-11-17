@@ -1,0 +1,175 @@
+
+====== Live-kartta  ======
+
+{{:main_live_default.png?nolink&100 |}}
+
+<WRAP center round info 60%>
+Käytettävyyden vuoksi, laitteesi näyttö ei sammu kun kartta on näkyvillä. Sinun tulee siirtyä eri näyttöön palauttaaksesi automaattisen (ajoitetun) näytön sammuttamisen virran säästämiseksi, mutta tarvittaessa voit myös käyttää laitteen omaa virtanappia näytön sammuttamiseksi.
+</WRAP> 
+
+
+{{ :en:livemap_1.png?direct&400 |}}
+
+===== Yläpalkin valikko =====
+{{anchor:top_bar_menu:}}
+
+{{ :en:livemap_2.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Kuvakkeet yläpalkissa ja sisältö kolmen pisteen menun takana jaetaan dynaamisesti laitteesi näytön resoluution ja näytön suunnan mukaisesti. Joten on mahdollista, että näytettyjen kuvakkeiden sekä menun takaa löytyvien valintojen määrä vaihtelee.\\
+Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen.
+</WRAP>
+
+^ Kuvake ^ Toiminto ^ Selite ^
+|{{ :en:livemap_mapname.png?nolink&150 |}}|Karttainfo|Näyttää senhetkisen kartan tilan: ''Live-kartta'' kun kartta on livenä, ''Kartta'' kun live ei ole aktivoituna, tai listan nimi joka on näkyvillä kartalla sillä hetkellä.\\ Tämän lisäksi näytetään näytöllä näkyvien kätköjen määrä.|
+|{{ :en:livemap_progress.png?nolink&80 |}} |Latauspyörä|Pieni sininen viiva otsikon alla näytetään, kun live-kartta lataa tietoja geocaching-palvelimelta ja/tai sinun luomistasi kätkölistoilta. Ilmaisin poistuu kun live-kartta on latautunut.|
+|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Keskitä sijainti|Tätä nappia voidaan käyttää kartan keskittämiseksi sijaintiisi. \\ \\ Kartan ollessa keskitettynä sijaintiisi näytetään täytetty kuvake.|
+|{{ :ic_action_layers_revert.png?nolink&40 |}}|Karttanäkymä|Käytä tätä nappia vaihtaaksesi aktiivista [[..:mapsources|karttanäkymää]]|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Aktivoi/poista live | Kytkee kartan live-päivityksen päälle/pois|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Tallenna kaikki|Tallentaa kaikki kartalla näkyvät kätköt valitsemaasi listaan. Jo tallennetut kätköt päivitetään tässä toiminnossa.|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Tallenna tallentamattomat|Tallentaa kaikki (paitsi jo tallennetut) kartalla näkyvät kätköt valitsemaasi listaan.|
+| |[[livemap#map_settings|Kartan asetukset]]|Avaa valikon, joka sisältää useita valintoja karttanäkymän muokkaamiseen (kuten löydettyjen kätköjen piilotus, ympyröiden näyttö).|
+| | Kartan kääntö |Tämä avaa valikon, josta voit kytkeä kartan käännön laitteen suunnan mukaiseksi päälle/pois, tai kytkeä manuaalisen käännön päälle/pois.\\ \\ :!: Tämä toiminto on tällä hetkellä saatavilla vain Google Mapsille.| 
+| | [[livemap#hide|Piilota]] |Tämä avaa alavalikon, joka sisältää useita valintoja tiettyjen elementtien piilotukseen kartalta (kuten löydetyt kätköt, eri reittipisteiden tyypit).| 
+| |[[livemap#routing|Reitti]]|Antaa mahdollisuuden vaihtaa erilaisten reittivalintojen välillä (kuten suora linja, autoreitti, pyöräreitti). Sitä käytetään vain jos sinulla on [[..:brouter|BRouter-sovellus]] asennettuna.|
+| | Jälkihistoria |Avaa alavalikon, joka sisältää valinnan jälkihistorian (GPS:n perusteella piirretty jälki kartalla) näyttämiseen, piilottamiseen, poistamiseen ja viemiseen.|
+| | GPX jälki/reitti |Voit tästä ladata/poistaa ja näyttää kartalla GPX-muotoisen jälki/reittitiedoston sisällön.|
+| | Yksittäinen reitti |Tämä avaa alavalikon, jossa voit hallita, ladata tai piilottaa yksittäisen reitin, jonka loit painamalla pitkään elementtejä kartalla. Pitkän painalluksen toiminto tulee aktivoida [[.settings#map_behavior|kartan käyttäytymisen asetuksissa]].| 
+| |[[lists#cache_list|Näytä luettelona]]|Näyttää kartalla näkyvät kätköt [[lists|kätkölistana]].|
+| |[[settings#​map_content|Poista reittihistoria]]|Poistaa kartalle sijainnista piirretyn reitin/trailin.|
+
+===== Kartan sisältö =====
+{{anchor:map_content:}}
+
+Kartta käyttää valitsemaasi [[..:mapsources|karttatyyppiä]] ja näyttää live-näkymässä kaikki saatavilla olevat kätköt näytetyssä sijainnissa.
+
+Live-kartta näyttää aina yhdistetyn kartan kaikista c:geoon yhdistetyistä karttapalveluista, sekä kaikki kätköt jotka on tallennettu [[lists|kätkölistoihin]].
+
+Seuraava taulukko selittää live-kartalla käytettävät erilaiset merkinnät.
+
+<WRAP center round tip 100%>
+Tämä taulukko selittää vain erilaiset kuvaketyypit, mutta ei erilaisia kätkötyyppejä. c:geossa käytetään myös erilaisia [[..:cacheicons|kätkötyyppikuvakkeita]] sekä [[..:cachemarkers|kätkömerkkikuvakkeita]].
+</WRAP>
+
+^ Kuvake ^ Selite ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Tämä nuoli näyttää kartalla nykyisen sijaintisi ja suuntasi.|
+|{{ :marker.png?nolink&40 |}}|Geocaching.comin kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
+|{{ :marker_disabled.png?nolink&40 |}}|Ei käytössä olevan tai arkistoidun geocaching.comin kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen. |
+|{{ :marker_oc.png?nolink&40 |}}|Opencaching-sivuston kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
+|{{ :marker_disabled_oc.png?nolink&40 |}}|Ei käytössä olevan tai arkistoidun Opencaching-sivuston kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
+|{{ :marker_other.png?nolink&40 |}}|Muun kuin geocaching.com tai opencaching-sivuston kätkön sijainti (kuten extremcaching.com). Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
+
+
+===== Kartan popup-ikkuna =====
+{{anchor:map_popup_window:}}
+
+Kun klikkaat kätkökuvaketta kartalla, seuraava popup-ikkuna näytetään kartan päällä, näyttäen joitakin lisätietoja valitusta kätköstä:
+
+{{:en:livemap_popup_1.png?direct&400 |}}{{ :en:livemap_popup_2.png?direct&400 |}}
+
+==== Yläosa ====
+{{anchor:top_section:}}
+
+Tämä osio kartan popup-ikkunasta antaa useita toimintoja liittyen valittuun kätköön.
+
+^ Kuvake/Toiminto ^ Selite ^
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Näyttää [[..:cacheicons|kätkötyyppikuvakkeen]] ja valitun kätkön nimen.|
+|{{ :actionbar_compass_light.png?nolink&40 |}}|Lyhyt klikkaus kuvakkeen päällä aloittaa navigoinnin valitulle kätkölle käyttäen [[settings#navigation|oletusnavigointia]].\\ Pitkä painallus avaa [[settings#navigation|toissijaisen navigoinnin]].|
+|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Tämä valinta kytkee päälle/pois suoran reitin/ohjauksen sijaintisi ja kätkön sijainnin välillä.\\ \\ :!: Tämä valinta on tällä hetkellä saatavilla vain offline-kartoille tai OSM online-kartalle.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Tämä valinta avaa valikkolistan, joka sisältää lisätoimintoja. Myös nämä selitetään tässä taulukossa.|
+|Kompassi|Avaa kompassin, joka ohjaa kätkölle.|
+|Navigoi|Avaa saatavilla olevien [[settings#navigation|navigaatiotyökalujen]] listan, jotta voit aloittaa navigoinnin tälle kätkölle haluamallasi tavalla.|
+|Kirjaa käynti|Avaa [[..:logging|kirjausnäytön]], jotta voit kirjata käyntisi lokikirjaan.|
+|Toggle talking|Aloittaa tai lopettaa tekstistä puheeksi -toiminnon, joka selostaa suunnan ja etäisyyden kohteeseen englanniksi.\\ Voit myös sammuttaa näytön kun tekstistä puheeksi -toiminto on aktivoitu.|
+|Kätköt lähistöllä|Avaa [[lists|Lähistöllä]]-haun, joka hakee kätkön lähistöllä olevat muut kätköt ja näyttää tulokset listana.|
+|Avaa selaimessa|Avaa kätkön tiedot selaimessa, käyttäen laitteesi internet-selainta.|
+|Poista|Poistaa kätkön kaikista offline-listoistasi.|
+|Jaa kätkö|Avaa Androidin jakamistoiminnon, jolla voit jakaa kätkön ystävillesi.|
+
+==== Kätkön tiedot ====
+{{anchor:cache_information}}
+
+Popup-ikkunan keskiosa näyttää käytännöllisiä tietoja valitusta kätköstä.
+Joitakin tietoja saattaa puuttua, riippuen lataustilasta (johtuen esimerkiksi kartan [[livemap#strategy|latausstrategiasta]]).
+
+{{ :en:livemap_popup_4.png?direct&400 |}}
+
+^ Nimi ^ Selite ^
+|Tyyppi|Valitun kätkön [[..:cacheicons|tyyppi]].|
+|Kätkökoodi|Valitun kätkön kätkökoodi.|
+|Etäisyys|Nykyisestä sijainnistasi laskettu etäisyys kätkölle.|
+|Vaikeus|Kätkön vaikeusarvo näytettynä sekä graafisesti että numeroina.|
+|Maasto|Kätkön maastoarvo näytettynä sekä graafisesti että numeroina.|
+|Arviointi|Näyttää kätkön laatuarvioinnin [[http://gcvote.com|GCVotesta]], jos tämä palvelu on kytketty päälle [[settings#services|c:geon asetuksista]]. Arvo näytetään sekä graafisesti että numeroina.\\ Sulkeissa oleva arvo on kätkölle annettujen äänien määrä. |
+|Suosikki|Kätkön saamien suosikkipisteiden (geocaching.com) tai suosittelujen (opencaching) määrä.|
+|Lisätietoja|Avaa kyseisen kätkön [[..:cachedetails|kätkötietosivun]], joka tarjoaa täyden informaation kyseisestä kätköstä.|
+|{{:​ic_menu_hint.png?​40|}}|Tämä painike on saatavilla vain jos kätköllä on omistajan vihje tai henkilökohtainen muistiinpano. Painike näyttää vihjeen ja/tai muistiinpanon ponnahdusikkunan [[#​hint_section|alaosassa]].|
+
+==== Listojen hallinta ====
+{{anchor:list_management:}}
+
+Tämä osio popup-ikkunasta tarjoaa useita vaihtoehtoja kätkön hallitsemiseen listojen ja offline-tilan suhteen.
+
+{{ :en:livemap_popup_5.png?direct&400 |}}
+
+^ Kuvake/toiminto ^ Selite ^
+|{{ :en:livemap_popup_6.png?nolink&200 |}}|Tämä kenttä kertoo jos kyseinen kätkö on tallennettu [[lists|kätkölistoihin]] ja kuinka kauan se on ollut tallennettuna (eli milloin kätkö on tallennettu ja kuinka ajantasaisia tiedot ovat).|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Päivittää kätkön tiedot hakemalla kaikki tiedot uudestaan geokätköilypalvelusta.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|Jos kyseinen kätkö on jo tallennettu [[lists|kätkölistoihin]] niin tämä kenttä näyttää listan/listat mihin se on tallennettu.|
+|{{ :ic_menu_save.png?nolink&40 |}} |Tämä nappi näkyy vain jos valittua kätköä ei ole vielä tallennettu [[lists|kätkölistoihin]]. Painamalla kätkö voidaan tallentaa haluamaasi listaan.\\ Pitkä painallus tallentaa kätkön viimeksi käytettyyn listaan, eikä kysy mihin listaan kätkö tallennetaan.|
+|{{ :ic_menu_edit.png?nolink&40 |}}|Jos valittu kätkö on jo tallennettu johonkin [[lists|kätkölistaan,]] tämä nappi on näkyvillä ja antaa mahdollisuuden vaihtaa listaa tai lisätä valittu kätkö toiseen listaan.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Jos valittu kätkö on jo tallennettu johonkin [[lists|kätkölistaan,]] tämä nappi on näkyvillä ja antaa mahdollisuuden poistaa valittu kätkö kaikista listoista.|
+
+==== Vihje/muistiinpano-osio ====
+{{anchor:​hint_section:​}}
+
+Jos käytit vihjepainiketta ponnahdusikkunan kätkötieto-osiossa, omistajan vihje ja/tai muistiinpanosi näytetään ponnahdusikkunan alaosassa. Pitkän tekstin tapauksessa voit vierittää tätä ponnahdusikkunan osaa.
+
+{{ :en:livemap_popup_hint.png?direct&400 |}}
+
+
+===== Kartan asetukset =====
+{{anchor:map_settings}}
+
+Kun valitset valikosta toiminnon ''Kartan asetukset'', seuraavat valinnat näytetään:
+
+{{ :en:livemap_mapsettings.png?direct&400 |}}
+
+^ Toiminto ^ Selite ^ 
+|Näytä suunta|Tämä kytkee suunnan näytön kartalla pois/päälle.|
+|Näytä ympyrät|Kun tämä on päällä, c:geo näyttää fyysisten kätköjen sekä mysteerien korjattujen koordinaattien ympärillä ympyrän, jonka säde on 161 metriä. Tämä on minimietäisyys, joka tulee olla kätköjen välillä geocaching.com palvelussa. Tämä ominaisuus on käyttökelpoinen kun olet piillottamassa uutta kätköä. |
+|Käytä pieniä kuvakkeita|Tämä valinta asettaa kätköjen klassiset kätkökuvakkeet näkymään pelkästään värillisenä pisteenä. Värit on määritetty kätkökuvakkeen värin mukaiseksi (esimerkiksi tradikätköt näkyvät vihreänä pisteenä). Voit asettaa tämän ominaisuuden päälle/pois tai automaattiseksi. Automaattinen tila vaihtaa klassisten ja pienten kuvakkeiden välillä riippuen zoomaustasosta.|
+
+===== Reititys =====
+{{anchor:routing:}}
+
+Valitessa valikosta valinnan ''Reititys'' seuraavat valinnat näytetään:
+
+<WRAP center round info 60%>
+Tämä asetus näytetään vain jos tuettu [[utilityprograms|reititysohjelma]] on asennettu ja saatavilla.
+</WRAP>
+
+{{ :en:livemap_routing.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Linnuntie|Tämä asetus näyttää suoran linjan (linnuntietä) kätkölle ja etäisyyden.|
+|Kävely|Tämä asetus asettaa reititysohjelman piirtämään linjan askel askeleelta -navigointiin kävelijöille.|
+|Pyöräily|Tämä asetus asettaa reititysohjelman piirtämään linjan askel askeleelta -navigointiin pyöräilijälle.|
+|Auto|Tämä asetus asettaa reititysohjelman piirtämään linjan askel askeleelta -navigointiin autoille.|
+
+===== Elementtien piilotus =====
+{{anchor:hide:}}
+
+Kun olet valinnut toiminnon ''Piilota'', niin seuraava alavalikko näytetään:
+
+
+{{ :en:livemap_hiding.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Piilota omat/löydetyt kätköt|Tämän toiminto piilottaa kaikki omat ja löydetyt kätköt (myös niiden reittipisteet) kartalta. \\ Tämä on sama asetus, joka löytyy myös [[settings#cache_details|c:geon asetuksista]] ja sen vaihtaminen täällä vaihtaa sen myös c:geon asetuksissa.|
+|Piilota hyllytetyt kätköt|Tämä toiminto piilottaa hyllytetyt kätköt ja niiden reittipisteet kartalta. \\ Tämä on sama asetus, joka löytyy myös [[settings#cache_details|c:geon asetuksista]] ja sen vaihtaminen täällä vaihtaa sen myös c:geon asetuksissa. Huomaathan, että on olemassa teknisiä rajoituksia joidenkin kätköjen piilotukseen. Katso selitys [[settings#cache_details|asetussivulta]].|
+|Piilota arkistoidut kätköt|Tämä toiminto piilottaa arkistoidut kätköt ja niiden reittipisteet kartalta.|
+|Piilota alkuperäiset reittipisteet|Jos kätkölle on asetettu alkuperäisen reittipisteen ohittavat koordinaatit sisältävä reittipiste, niin luodaan reittipiste, joka sisältää alkuperäiset koordinaatit. Tämä toiminto piilottaa nämä alkuperäiset koordinaatit kartalta.|
+|Piilota parkkipaikka-reittipisteet|Tämä toiminto piilottaa kaikki reittipisteet joiden tyyppi on "Parkkipaikka".|
+|Piilota vieraillut reittipisteet|Tämä toiminto piilottaa kaikki reittipisteet jotka olet merkannut vierailluksi c:geossa.|

@@ -1,0 +1,19 @@
+====== Geocache markering pictogrammen ======
+
+Op de [[.mainmenu: livemap | live kaart]] en in de lijst van je [[.mainmenu: lists| opgeslagen caches]] kan c:geo kleine markeerpictogrammen in de hoeken van een [[cacheicons|geocache icoon]] laten zien om aanvullende informatie te geven zonder de cachegegevens te openen.
+
+De volgende tabel beschrijft de betekenis van deze markeringen:
+
+^Markering ^Naam ^Omschrijving ^
+|{{ :marker_stored.png?nolink&20 |}}|Opgeslagen|Deze geocache is offline opgeslagen in een van je lijsten. \\ Deze markering wordt alleen weergegeven op de kaart maar niet in je lijsten, omdat het logisch is dat alle caches in je lijsten al zijn opgeslagen. :-) |
+|{{ :marker_found.png?nolink&20 |}}|Gevonden|Je hebt deze geocache al gevonden.|
+|{{ :marker_own.png?nolink&20 |}}|In bezit|Dit is een van je eigen geocaches.|
+|{{ :marker_personalnote.png?nolink&20 |}}|Persoonlijke notitie|Voor deze geocache is een persoonlijke notitie opgeslagen.|
+|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Gemocificeerde coördinaten|Je stelt nieuwe cachecoördinaten in voor deze cache en deze wordt nu weergegeven op deze gewijzigde coördinaten in plaats van de originele coördinaten. Een handige functie voor opgeloste mysteries of multicaches.|
+|{{ :marker_found_offline.png?nolink&20 |}}|Offline gevonden log|Je hebt een offline gevonden log voor deze geocache opgeslagen, maar deze log nog niet online ingediend.|
+|{{ :marker_not_found_offline.png?nolink&20 |}}|Offline niet gevonden log|YJe hebt een offline log "Niet gevonden" voor deze geocache opgeslagen, maar deze log nog niet online ingediend.\\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_note.png?nolink&20 |}}|Offline Notitie log|/je hebt een offline notitie voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_maintenance.png?nolink&20 |}}|Offline onderhoud log|Je hebt een offline log "Onderhoud nodig" voor deze geocache opgeslagen, maar deze log nog niet online ingediend.\\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_owner_maintenance.png?nolink&20 |}}|Offline eigenaarsonderhoud log|Je hebt een offline log 'Eigenaarsonderhoud' voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status is specifiek voor cache-eigenaren en wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_archive.png?nolink&20 |}}|Offline moet worden gearchiveerd log|Je hebt voor deze geocache een offline log met de vereiste Gearchiveerde gegevens opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_unknown_offline.png?nolink&20 |}}|Offline onbekende log|Je hebt een offline log van een speciaal of onbekend type opgeslagen voor deze geocache, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang de log offline is.|

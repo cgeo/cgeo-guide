@@ -1,0 +1,14 @@
+====== Mapas Disponíveis ======
+
+Os tipos de mapas seguintes estão disponíveis no c:geo. Poderá alterar o tipo de mapa em uso nas [[.mainmenu:settings#maps|definições]] ou no menu no topo do [[.mainmenu:livemap|mapa]].
+
+^ Nome ^ Descrição ^ 
+|Google:Mapa|Mapa de ruas online fornecido pela [[https://google.com|Google]].|
+|Google:Satélite|Mapa de satélite online fornecido pela [[https://google.com|Google]].|
+|OSM:Mapnik|Mapa de ruas online fornecido pela [[https://openstreetmap.org|OpenStreetMap]].|
+|OSM:Offline|[[offline#offline_maps|Mapas Offline]] apresentados através de ficheiros de mapa em formato [[http://mapsforge.net|Mapsforge]].\\ Em vez de "OSM:Offline" será apresentado o nome dos mapas disponiveis no menu de selação.|
+
+<WRAP center round info 100%>
+Neste momento o c:geo apenas suporta o formato "Google maps v1", que não suporta a rotação do mapa. Assim todos os mapas estão orientados a Norte: Estamos, no entanto, a trabalhar na implementação de uma nova versão do Google maps.
+</WRAP>
+

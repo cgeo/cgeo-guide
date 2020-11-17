@@ -1,0 +1,18 @@
+====== Spoilerbilder zu c:geo synchronisieren ======
+
+Einige GPSr-Geräte (z.B. Garmin) ermöglichen es Spoilerbilder manuell auf diese Geräte zu kopieren um sie offline verfügbar zu haben. Tools wie [[https://gsak.net|GSAK]] haben daher eine Funktion eine Verzeichnisstruktur mit Spoilerbildern zu generieren, die man zu GPSr-Geräten synchronisieren kann.
+
+Zwar ermöglicht c:geo direkt das Herunterladen und Anzeigen von Spoilerbildern, aber einige Nutzer möchten c:geo vielleicht komplett offline nutzen aber dennoch Spoilerbilder verfügbar haben.
+
+Daher unterstützt c:geo die Synchronisierung der Spoilerbilder mit diesen spezifischen Verzeichnisstrukturen (genauso wie bei einem GPSr-Gerät) wie folgt:
+
+<WRAP center round tip 100%>
+Die folgende Beschreibung sieht sehr komplex aus, aber wenn du ein geeignetes SpoilerSync-Tool verwendest, wird die notwendige Verzeichnisstruktur von diesem Tool automatisch erzeugt. Typischerweise musst du nur das Basisverzeichnis kennnen, in das diese Verzeichnisstruktur auf deinem c:geo Geräte kopiert werden muss.
+</WRAP>
+
+  * Basisverzeichnis: \\ Das Basisverzeichnis für Spoilersync ist ''/cgeo/GeocachePhotos/'' im internen Speicher deines Gerätes.
+
+  * Verzeichnisstruktur: \\ Die Struktur unterhalb des Basisverzeichnisses muss folgender Regel entsprechen:\\ Allgemeine Fotos: ''/Letzter Buchstabe des Geocodes/Vorletzter Buchstabe des Geocodes/Voller Geocode/'' \\ \\ Beispiel: Für den Cache GC123ABC ist das zugehörige Verzeichnis ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+    
+
+

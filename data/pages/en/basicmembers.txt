@@ -1,0 +1,18 @@
+====== Basic member limitations ======
+
+[[https://www.geocaching.com|geocaching.com]] offers a free basic membership as well as a premium membership, which requires a yearly payment. The premium membership includes some additional features, which are not available for basic members.
+
+While c:geo itself is an open-source app and completely free to use, consequently also some c:geo functions are only available to premium members of geocaching.com as they make use of these premium features. Furthermore some functions of c:geo will work different or only limited for basic members.
+
+c:geo does not have any business relationship with geocaching.com. The premium membership is a product of [[https://www.geocaching.com|geocaching.com]] and needs to be obtained on their website.You have to decide yourself, if you would like to make use of a premium membership on geocaching.com according to your needs.
+
+The following table provides an overview of the differences and limitations applying for basic members in c:geo:
+ 
+^ Function ^ Limitation/Difference for basic members ^
+|Premium only caches|On geocaching.com the cache owner can restrict the visibility of their caches to premium members only. As a basic member you will not be able to access the [[cachedetails|cache detail page]] of these caches or see their location.|
+|[[.mainmenu:lists|Search result lists]]|For basic members the search results will not contain coordinates or any other detailed information. Thus mapping a search result list will not be possible and you need to open or store the caches first to use them on the map.\\ Furthermore the distance and direction shown in the search results are only an estimation.|
+|[[.mainmenu:pocketquery|Pocket Query]]|Pocket queries are a premium member feature. Consequently this menu option will only be shown in c:geo if you are a premium member.|
+|[[cachedetails#favorite|Favorite points]]|Assigning favorite points to found caches is a premium member feature. All menu functions related to favorite point assignment will not be shown to basic members.|
+|[[cachedetails#personal_note|Personal note upload]]|While all users can create personal notes only premium members can upload their notes to be stored on the cache page of the geocaching server.|
+
+

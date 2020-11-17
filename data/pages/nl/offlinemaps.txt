@@ -1,0 +1,146 @@
+====== Offline Kaart Tutorial ======
+
+
+
+===== Inleiding =====
+
+ c:geo ondersteunt op [[https://www.openstreetmap.org | Openstreetmap]] gebaseerde offline vectorkaartbestanden met de indeling [[https://mapsforge.net | mapsforge]].
+
+ Met behulp van een offline kaart in C:geo in combinatie met opgeslagen caches kun je c:geo volledig offline gebruiken (bijvoorbeeld als je geen mobiele gegevensverbinding wilt of kunt gebruiken).
+
+ Naast offline kaartbestanden ondersteunt c:geo ook gerelateerde kaartthema's.  Door een aangepast kaartthema te gebruiken in combinatie met een offline kaart, kun je de kaartweergave aanpassen aan je eigen behoeften (bijv. Hoogtelijnen, markering van wandelpaden en nog veel meer).  Sommige offline kaarten vereisen zelfs dat een passend thema wordt geïnstalleerd om correct te worden weergegeven.
+
+ In deze zelfstudie wordt beschreven hoe je dergelijke offline kaarten en thema's kunt downloaden, installeren en configureren.
+
+
+===== Downloaden van kaarten/thema's ====
+
+Ten eerste dien je een offline kaart bestand te downloaden die compatibel is en het geografische gebied bestrijkt. Er zijn enkele diensten beschikbaar op het internet die met enige regelmaat actuele kant-en-klare kaart bestanden aanbieden, 
+
+Hier zijn enkele bronnen waar je een offline kaart kunt downloaden:
+
+^ Naam ^ gebied  omschrijving ^ Compatibiliteit ^ Kosten ^
+|[[https://download.mapsforge.org|Mapsforge Map Repository]]|Wereld|Deze server host wereldwijd vooraf gebouwde kaarten en POI's die zijn gegenereerd met de laatste versie van de mapsforge-writer  plug-ins.\\ \\ //Gebruik s.v.p. deze mirrorserver voor je kaartdownloads.//|Kaarten in de mappen V4 en V5 zijn compatibel met c:geo.\\ V3-kaarten kunnen worden gebruikt als je "Oude Mapsforge V3" in c:geo's [[.mainmenu:settings#mapsforge_api|instellingen]] inschakelt, aangepaste themabestanden worden niet aangeboden, de kaartbestanden werken het beste bij het gebruik van het c:geo standaardthema.|Gratis|
+|[[https://openandromaps.org|OpenAndroMaps]]|Wereld|OpenAndroMaps biedt gratis downloadbare vectorkaarten voor smartphones.|Gebruik de link "Meertalige V4-kaart" om de compatibele versie van de kaart te downloaden.\\ We raden aan om deze kaarten te gebruiken in combinatie met het bijpassende OpenAndroMaps-kaartthema "Elevate4" dat ook op hun website kan worden gedownload. |Gratis, Donaties worden erg gewaardeerd|
+|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europa|Kaartbestanden voor Garmin-apparaten en Android-smartphones.|Zeer gedetailleerde kaarten, maar vereist het bijbehorende thema (ook beschikbaar om te downloaden op hun website) voor een juiste weergave.|Frratis, Donaties worden erg gewaardeerd|
+
+De bovenstaande tabel geeft slechts enkele voorbeelden van kaartproviders, er zijn nog meer providers aanwezig.
+
+===== Installatie =====
+
+<WRAP center round info 100%>
+Gebruikers meldden dat sommige (verkoper) tools, die worden gebruikt om bestanden tussen pc en smartphone over te zetten, de bestanden tijdens de overdracht kunnen beschadigen of wijzigen. Daarom raden we aan om alle bestanden rechtstreeks naar je smartphone te downloaden en een goede bestandsverkenner op het apparaat te gebruiken om de bestanden te decomprimeren / kopiëren / verplaatsen zoals hieronder beschreven.
+</WRAP>
+
+==== Kaartbestanden ====
+
+Het gedownload kaartbestand moet worden opgeslagen op je apparaat in de map van je keuze. Als de bestanden zijn ingepakt (''*.zip'') moet je ze eerst uitpakken. De correcte extensie van het bestand is ''*.map'' (bijv. ''netherlands.map'').
+
+Als je verschillende kaartbestanden wilt gebruiken met c:geo dien je ze allemaal in dezelfde map op te slaan. Zodra c:geo is geconfigureerd zullen de kaarten in de specifieke map worden gezocht en zullen ze allemaal te selecteren zijn in c:geo.
+
+{{:en:offlinemap_mapfile_location.jpg?direct&400|}}
+
+Voor deze tutorial gaan we er vanuit dat de kaart wordt opgeslagen in ''/sdcard/mymaps''.
+
+==== Thema's ====
+
+Als je ook (optioneel) een thema bestnd voor je offline kaart hebt gedownload, moet deze opgeslagen worden bij de bestanden van de kaart bestanden.
+
+Het thema wat je hebt gedownload zal ingepakt (''*.zip'') zijn en moet worden uitgepakt alvorens deze gebruikt kan worden door C:geo. Het ingepakte bestand bevat meestal een aantal mappen met een heleboel kleine bestanden. Zorg dat je deze structuur niet verandert wanneer je de bestanden uitpakt.
+
+De uiteindelijke mappen en bestanden moeten worden opgeslagen in een map van je keuze op je apparaat.
+
+{{:en:offlinemap_themefile_location.jpg?direct&400|}}
+
+Voor deze handleiding gaan we er vanuit dat je thema('s) worden opgeslagen in ''/sdcard/mythemes''.
+
+===== Configuratie =====
+
+Wanneer je klaar bent met het opslaan van de kaartbestanden en eventuele thema's op je apparaat, moet je de juiste locatie van deze bestanden gaan configureren zodat c:geo de juiste locatie kan vinden.
+
+Je vindt de overeenkomstige instellingen in het c:geo Menu -> Instellingen -> Kaart. Je kunt een gedetailleerde omschrijving van het instellingen menu [[.mainmenu:settings#map|hier]] vinden.
+
+In het begin zijn de gerelateerde instellingen leeg:
+
+{{ :en:offlinemap_settings_empty.png?direct&400 |}}
+
+In dit menu moet je de locatie van de kaart- en thema bestanden selecteren, die je zojuist in de vorige stap van deze handleiding hebt opgeslagen. Indien je ons voorbeeld hebt gebruikt, configureer je de locatie als volgt:
+
+^ Menu item ^ Instelling ^
+|Locatie van de offline kaarten|/sdcard/mymaps|
+|Locatie van de thema's|/sdcard/mythemes|
+
+Om deze mappen te selecteren klik je eenvoudig op het gerelateerde menu item. c:geo zal dan automatisch je map gaan scannen en de bestanden op deze locatie selecteren. Als deze map al eerder is geconfigueerd en al in het menu item staat, zullen deze automatisch al worden geselecteerd. Als er niets staat klik je op de ''Kies directory'' button bovenaan om handmatig de locatie te bepalen en te selecteren.
+
+
+{{ :en:offlinemap_file_scanner.jpg?direct&400 |}}
+
+<WRAP center round tip 100%>
+Op sommige apparaten kan het frustrerend zijn om de juiste map te vinden, omdat dezelfde map tegelijkertijd onder verschillende paden is gekoppeld, waardoor de zichtbaarheid van deze paden er van app tot app verschillend uit kunnen zien.
+Een typisch voorbeeld hiervan is dat soms ''/sdcard/mymaps'' wordt getoond in plaats van ''/storage/emulated/0/mymaps'' of zoiets als ''/storage/1234-5678/mymaps''. \\
+
+Vanwege de vele verschillende implementaties, afhankelijk van leverancier, model, Android-versie en apparaatconfiguratie, kunnen we geen algemene informatie geven, en zul je zelf het juiste pad op het apparaat moeten vinden.
+</WRAP>
+
+Als je '' Kies map '' selecteert, wordt er een bestandsverkenner geopend (het uiterlijk verschilt afhankelijk van de Android-versie en geïnstalleerde tools van derden), waar je door de mappen kunt bladeren en de juiste map kunt kiezen.
+
+De volgende afbeeldingen tonen twee verschillende typische bestandsverkenners en visualiseren de stappen die nodig zijn om te bladeren en je kaartmap te selecteren volgens ons voorbeeld. Voor het instellen van de themamap zijn de stappen identiek, maar moet je  in plaats daarvan de themamap selecteren.
+
+{{:en:offlinemap_chooser_cgeo_map.jpg?direct&300|}}
+{{ :en:offlinemap_chooser_locus_map.jpg?direct&300|}}
+
+Als we in ons voorbeeld blijven, moet de directoryconfiguratie er als volgt uitzien in het menu aan het einde:
+
+{{ :en:offlinemap_settings_done.jpg?direct&400 |}}
+Nu ben je klaar om de kaartbestanden (en thema's) te gebruiken met c: geo.
+
+
+===== Gebruik=====
+<WRAP center round important 100%>
+Na het toevoegen van nieuwe kaarten/thema's in de geconfigureerde mappen is het noodzakelijk om c:geo te herstarten in verband met het herkennen van de toegevoegde bestanden.
+</WRAP>
+
+==== Het kaartbestand gebruiken ====
+
+Als je de mappen juist hebt geconfigureerd, zal c:geo nu alle beschikbare offline kaartbestanden tonen in het kaartmenu van je (live) kaart en in c:geo Menu -> Instellingen -> Kaarten.
+
+{{:en:offlinemap_map_selector_2.jpg?direct&400|}}
+{{ :en:offlinemap_map_selector.jpg?direct&400|}}
+
+Wanneer je een kaart hebt geselecteerd zal c:geo dit kaartbestand renderen in plaats van de online kaarten.
+
+==== Het thema gebruiken ====
+
+Na het selecteren van het offline kaart bestand, kun je er een thema aan toekennen, dat zal worden gebruikt voor het renderen van de kaart.
+
+Dit kan worden gedaan in het menu van de (live) kaart door gebruik te maken van ''Selecteer kaart thema''. Als je een thema hebt geïstalleerd naast je offline kaart, stel dan hier het corresponderende thema in.
+
+{{:en:offlinemap_theme_selector.jpg?direct&400|}}
+{{ :en:offlinemap_theme_menu.jpg?direct&400|}}
+
+
+
+
+
+===== Geavanceerde thema opties =====
+Als je een thema hebt geinstalleerd, kun je de zichtbaarheid van bepaalde kaart elementen configureren. Je kunt de gerelateerde opties in het (live) kaart menu vinden onder ''Thema Opties''.
+
+{{ :en:offlinemap_advanced_themeoptions.jpg?direct&400 |}}
+
+Hier kun je een basis kaartstijl (bijv. Lopen, Fietsen, Auto) selecteren en nadien naar eigen wensen aanpassen door extra elementen van de kaart te activeren/deactiveren.
+
+{{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
+
+===== Meer lezen over offline kaarten =====
+
+Link naar handleidingen en tutorials gemaakt door c:geo gebruikers
+
+^ Link ^ Taal^ Omschrijving^ 
+|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Duits|Tutorial over c:geo en offline gebruik.|
+
+
+
+
+
+
+

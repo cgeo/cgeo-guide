@@ -1,0 +1,15 @@
+====== Spoiler afbeeldingen naar c:geo synchroniseren ======
+
+Sommige GPSr-apparaten (bijvoorbeeld Garmin) bieden de mogelijkheid om spoilerfoto's handmatig op die apparaten te laden zodat ze beschikbaar zijn voor offline gebruik. 
+Tools zoals [[https://gsak.net | GSAK]] hebben daarom een functionaliteit om deze GPSr-specifieke offline mapstructuren te genereren voor het synchroniseren van spoilerfoto's.
+Terwijl c:geo in staat is om spoilerfoto's online te downloaden en te tonen, willen sommige gebruikers mogelijk toch c:geo volledig offline gebruiken, maar hebben zo ook de spoilerfoto's beschikbaar.
+Daarom ondersteunt  c:geo het om de spoiler-foto's te synchroniseren met behulp van deze specifieke maptructuren (hetzelfde als op GPSr-apparaten) als volgt:
+
+<WRAP center round tip 100%>
+Het volgende ziet er misschien heel ingewikkeld uit, maar als je overeenkomstige spoiler synchronisatiehulpmiddelen gebruikt, wordt de hele mapstructuur gemaakt en worden de spoilerfoto's automatisch toegevoegd. 
+Het enige dat je normaal moet weten, is de juiste basis directory om de mapstructuur naar je c:geo-apparaat te kopiëren.</WRAP>
+  * Base directory: \\ De basismap voor geocache spoilersync is '' / cgeo / GeocachePhotos / '' op de interne opslag van je apparaat.
+  * Mapstructuur: \\ De structuur onder de basis directory moet deze regel volgen: \\ '' / laatste teken van de geocode / voorlaatste teken van de geocode / Volledige geocode / '' \\ \\ Voorbeeld: als een cache heet GC123ABC, zal de corresponderende map zijn: '' / cgeo / GeocachePhotos / C / B / GC123ABC / ''.
+    
+
+

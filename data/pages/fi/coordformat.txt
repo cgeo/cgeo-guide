@@ -1,0 +1,15 @@
+
+====== Koordinaattimuodot ======
+
+c:geo tukee useita koordinaattimuotoja seuraavasti:
+
+^ Muoto ^ Järjestys ^ Esimerkki ^ Selite ^
+|MinDec|DDD° MM.MMM'|N 51° 20.382 E 007° 01.820|Degrees and decimal minutes|
+|DMS|DDD° MM' SS.SSS"|N 51° 20' 22.920" E 007° 01' 49.200"|Degrees, decimal minutes and seconds|
+|DegDec|DDD.DDDDD°|51.339700° 7.030333°|Decimal degrees only|
+|UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universal Transverse Mercator|
+
+MinDec-muoto on yleisin muoto geokätköilyssä.
+Kätkön tai sen reittipisteiden näytetyt koordinaatit voidaan vaihtaa toiseen muotoon klikkaamalla niitä lyhyesti.
+
+Käytettäessä [[coordinatedialog|koordinaattien syöttönäyttöä]] voit valita halutun muodon näytön yläosasta ylläolevan taulukon mukaisesti, lukuunottamatta UTM:ia, jota ei vielä tueta koordinaattien syöttömuotona.

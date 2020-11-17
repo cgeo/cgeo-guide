@@ -1,0 +1,49 @@
+====== c:geo contacts plugin ======
+
+{{:ic_launcher_contacts-playstore.png?nolink&200 |}}
+
+This is a contacts plugin for c:geo. It will only work with the c:geo app installed and allows direct access to your contacts when clicking on a username in c:geo.
+
+The reason to provide this function as a plugin rather than in the c:geo main app was, that older Android versions could only present app 
+permission requests to the user upon installation but not during runtime. As the permission request to access the users contacts might not be easily understandable for many users, we decided to separate this function into a dedicated plugin. So users interested in such a feature and therefore also understanding the related permission requests can use it, while other users are not bothered by such permission request.
+
+Meanwhile however Android supports runtime permission, so we might decide to integrate the function back into the main app at some point in future.
+
+
+===== Installation =====
+
+You can download and install the c:geo contacts plugin from [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Play]].
+
+After installation it will not show up as dedicated launchable icon on your device, but the plugin directly integrates the contacts function into c:geo.
+
+
+===== Usage =====
+
+When you click on a username at various places in c:geo (e.g. in the [[.:cachedetails#logbook_tab|cache logbook]]) the menu will contain an item to open the corresponding contact card in your phone contacts. This will allow you to directly call or message the user.
+
+{{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
+
+
+
+In order for this function to match, the username of the person needs to be stored in the ''Name'' or ''Alias''/''Nickname'' field of your contact. Please make sure you stored the geocaching name of the person like it is shown in c:geo into one of these fields of the matching contact.
+
+Alternatively the plugin will also try to match if the geocaching name equals the full name stored in your contacts list.
+
+
+
+
+===== Data privacy statement =====
+
+==== What information is collected by the c:geo contacts plugin? ====
+
+
+The contacts plugin needs the permission to access the contacts on your device. It will access your contacts in order to be able to find the contact data of other geocachers. The c:geo contacts plugin will access your contacts only on your demand if you select the menu item “Open contact card” in c:geo. As long as you don’t use that function the plugin will never access any data of your contacts.
+
+==== How is the information used by the c:geo contacts plugin? ====
+
+After you select ''Open contact card'' the c:geo contacts plugin will read your contact data to find a possible match of the geocachers name in the name or nickname field of your contact data. It will neither write to your contact data nor store any of your contact data within c:geo or the c:geo contacts plugin itself.
+
+==== With whom is the information shared? ====
+
+Your contact data will neither by copied into c:geo nor shared with third parties.
+

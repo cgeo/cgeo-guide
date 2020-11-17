@@ -1,0 +1,10 @@
+====== Fonds de carte ======
+
+Les fonds de carte suivant sont disponibles dans c:geo.
+Vous pouvez changer le type de carte dans les [[.mainmenu:settings#maps|paramètres]] ou dans le menu de la [[.mainmenu:livemap|carte]].
+
+^ Nom ^ Description ^ 
+|Google Maps : Plan|Une carte routière en ligne fournie par [[https://google.com|Google]].|
+|Google Maps : Satellite|Une vue satellite en ligne fournie par [[https://google.com|Google]].|
+|OSM : Carte|Une carte participative en ligne fournie par [[https://openstreetmap.org|OpenStreetMap]].|
+|Hors-ligne|Des [[offlinemaps|cartes hors-ligne]] provenant de fichiers cartes utilisant le format [[https://mapsforge.net|Mapsforge]].\\ Au lieu de "Hors-ligne" les noms des cartes disponibles seront affichés dans le menu de sélection.|

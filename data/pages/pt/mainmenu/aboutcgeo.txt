@@ -1,0 +1,16 @@
+====== Sobre o c:geo ======
+
+{{:ic_menu_info_details.png?nolink&50 |}}
+
+Esta página apresenta várias informações sobre o c:geo.
+
+A página está organizada em seis separadores, que são acessíveis arrastando o ecrã da esquerda para a direita ou vice-versa:
+
+^ Separador ^ Conteúdo ^
+|Versão| Informação sobre o número da versão instalada e uma ligação para contribuir para o desenvolvimento do c:geo.|
+|Ajuda|Contem várias ligações úteis para recursos externos.|
+|Registo de alterações|Informação sobre as alterações introduzidas na versão atual do c:geo.|
+|Sistema| Contem informação relevante para ser usada no caso de pretender contactar o nosso [[support@cgeo.org|suporte]]. Poderá utilizar os botões para copiar a informação do sistema ou para enviar diretamente um email com a mesma.|
+|Contribuidores|A lista de pessoas e recursos que ajudaram o desenvolvimento do c:geo.|
+|Licença| A licença sob a qual o c:geo é distribuído.|
+ 

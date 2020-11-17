@@ -1,0 +1,146 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
+====== Mapa ======
+
+{{:main_live_default.png?nolink&100 |}}
+
+<WRAP center round info 60%>
+Para facilitar o uso, enquanto estiver na vista de mapa, o seu dispositivo não vai desligar automaticamente o ecrã. Para voltar ao modo automático, para conservar energia, é necessário sair deste mesmo ecrã. No entanto, a opção de desligar e ligar manualmente o ecrã funciona de forma normal.
+</WRAP>
+
+
+{{ :pt:livemap_1.png?direct&400 |}}
+
+===== Menu Superior =====
+{{anchor:top_bar_menu:}}
+
+{{ :pt:livemap_2.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Os ícones apresentados na barra superior e os conteúdos escondidos no menu são distribuídos de forma dinâmica com base na resolução e orientação do seu dispositivo. Devido a este facto, poderá ser possível visualizar, mais ou menos itens no menu ou como ícones na barra superior.
+No caso de uma função no menu ser apresentada como ícone, poderá premir durante uns segundos o mesmo para ver a sua função. 
+</WRAP>
+
+^ Ícone ^ Função ^ Desrição ^
+|{{ :pt:livemap_mapname.png?nolink&150 |}}|Informação do mapa|Apresenta o estado atual do mapa: ''Mapa ao vivo'' no caso da opção ao vivo estar ativa, ''Mapa'' se essa mesma opção estiver desligada, ou o nome de uma cache/lista a ser mostrada no mapa.\\ Por baixo pode visualizar o numero de caches a ser apresentadas no mapa.|
+|{{ :en:livemap_progress.png?nolink&40 |}} |Circulo de progresso|Um indicador de progresso é apresentado quando o mapa ao vivo está a carregar informação dos servidores de geocaching e/ou da sua lista de caches. Este desaparece quando o mapa ao vivo acabar de carregar estas informações.|
+|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centrar posição|Este botão pode ser utilizado para centrar o mapa na sua posição atual. \\ \\ Se o mapa já estiver centrado na sua posição o ícone vai aparecer com o centro preenchido.|
+|{{ :ic_action_layers_revert.png?nolink&40 |}}|Seleção de vista de mapa| Utilize este botão para mudar o [[..:mapsources|mapa]] ativo.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Ativar/desativar ao vivo|Esta função permite ativar ou desativar o mapa ao vivo.|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Guardar todas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas. Caches que já estiverem guardadas serão atualizadas durante o processo.|
+|{{ :ic_menu_set_as.png?nolink&40 |}}|Guardar não memorizadas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas, excepto as que já estiverem guardadas.|
+| |[[livemap#map_settings|Modos de mapa]]|Esta função abre um menu que contem várias opções para personalizar o mapa (Ex. esconder caches, mostrar círculos).|
+| |[[livemap#routing|Rotas]]|Esta função permite alterar o modo de rota pretendido (Ex. Linha a direito, carro, bicicleta).|
+| |[[lists#cache_list|Mostar como lista]]|Esta função converte as caches apresentadas no mapa em uma [[lists|lista]].|
+
+===== Conteúdo do Mapa =====
+{{anchor:map_content:}}
+
+O mapa vai usar o [[..:mapsources|tipo de mapa]] selecionado para apresentar uma vista ao vivo de todas as caches na localização selecionada.
+
+O mapa ao vivo vai apresentar sempre uma combinação de caches carregadas ao vivo, de todos os serviço de geocaching ativos, assim como as caches guardadas nas [[lists|listas]].
+
+A tabela seguinte descreve os tipos diferentes de marcadores utilizados pelo mapa ao vivo.
+
+<WRAP center round tip 100%>
+A tabela apenas descreve os diferentes tipos de ícones, não descrevendo os tipos de geocaches. Carregue nas ligações seguintes para obter mais informação sobre os [[..:cacheicons|ícones de geocaches]] e sobre os [[..:cachemarkers|ícones de marcadores de geocaches]] utilizados no c:geo.
+</WRAP>
+
+^ Ícone ^ Descrição ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Esta seta representa a sua posição e orientação atual no mapa.|
+|{{ :marker.png?nolink&40 |}}|Posição de uma cache do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :marker_disabled.png?nolink&40 |}}|Posição de uma cache desativada/arquivada do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :marker_oc.png?nolink&40 |}}|Posição de uma cache de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :marker_disabled_oc.png?nolink&40 |}}|Posição de uma cache desativada/arquivada de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :marker_other.png?nolink&40 |}}|Posição de uma cache de uma outra plataforma (ex. extremcaching.com). A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+===== Map popup window =====
+{{anchor:map_popup_window:}}
+
+If you click on a cache icon on the live map the following popup windows will be shown above the map, providing additional information for the selected cache:
+
+{{:pt:livemap_popup_1.png?direct&400 |}}{{ :pt:livemap_popup_2.png?direct&400 |}}
+
+==== Top section ====
+{{anchor:top_section:}}
+
+This section of the map popup provides several menu options concerning the selected cache.
+
+^ Icon/Option ^ Description ^
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the title of the selected cache.|
+|{{ :actionbar_compass_light.png?nolink&40 |}}|A short click on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
+|{{ :ic_menu_publish_invert.png?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.\\ \\ :!: This option is currently only available on the OSM:Mapnik online map and offline maps.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|
+|Compass|This opens the compass for this cache.|
+|Navigate|This opens the list of all available [[settings#navigation|navigation tools]] to start one of them for this cache.|
+|Log Visit|This opens the [[..:logging|logging window]] to log the selected cache.|
+|Caches around|This option starts a [[lists|nearby search]] around the coordinates of the selected cache and will display the results.|
+|Open in browser|This option opens the cache listing on the geocaching web page using your internet browser.|
+|Remove|This option will delete the cache from your stored lists. FIXME **GITHUB -> KANN WEG**|#
+|Share Cache|Will share a link to the cache using the built-in Android share options.|
+
+==== Cache information ====
+{{anchor:cache_information}}
+
+The middle section of the map popup window shows helpful information about the selected cache.
+Some of the information might not be shown depending on the loading status of the selected cache (e.g. due to the [livemap#strategy| loading strategy]].
+
+{{ :pt:livemap_popup_4.png?direct&400 |}}
+
+^ Heading ^ Description ^
+|Type|[[..:cacheicons|Type]] of the selected cache.|
+|Geo code|Geo code of the selected cache.|
+|Distance|Distance to the coordinates of the selected cache from your current position.|
+|Difficulty|Difficulty rating of the selected cache shown as decimal value as well as graphical.|
+|Terrain|Terrain rating of the selected cache shown as decimal value as well as graphical.|
+|Rating|Shows the quality rating of this cache from [[http://gcvote.com|GCVote]] if this service is enabled in the [[settings#services|c:geo settings]] as decimal value as well as graphical.\\ The value shown in parenthesis is the number of votes given for this cache.|
+|Favorite|The amount of favorite points (geocaching.com) or recommendations (Opencaching platforms) the selected cache has been awarded.|
+|More details|This button will take you to the [[..:cachedetails|cache detail page]] of the selected cache providing the full information for this geocache.|
+
+==== List managegment ====
+{{anchor:list_management:}}
+
+This section of the map popup provides several options to manage the storage state of the selected cache.
+
+{{ :pt:livemap_popup_5.png?direct&400 |}}
+
+^ Icon/Option ^ Description ^
+|{{ :pt:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Clicking this button will refresh the cache information by updating it from the geocaching server.|
+|{{ :pt:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[lists|cache lists]] this field shows you the list(s) it is stored in.|
+|{{ :ic_menu_save.png?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
+|{{ :ic_menu_edit.png?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
+
+
+==== Map settings ====
+{{anchor:map_settings}}
+
+After selecting the menu function ''Map settings'' the following option screen will be shown:
+
+{{ :pt:livemap_mapsettings.png?direct&400 |}}
+
+^ Option ^ Description ^ 
+|Hide own/found caches|If activated your owned and found caches are hidden on the map. \\ This is the same option as also available in [[settings#cache_details|c:geo settings]] and changing it here will change it also permanently in your settings. Please note, that some technical limitation apply for hiding your owned and found caches as explained on the [[settings#cache_details|settings page]] |
+|Hide disabled caches|If activated disabled caches are hidden on the map. \\ This is the same option as also available in [[settings#cache_details|c:geo settings]] and changing it here will change it also permanently in your settings. Please note, that some technical limitation apply for hiding hidden caches as explained on the [[settings#cache_details|settings page]] |
+|Show direction|This will enable/disable the direction line/routing shown between your position and a selected cache.|
+|Show circles|If activated c:geo will show circles with a distance of 1/10 mile (161 meters) around all physical waypoints (i.e. traditional caches, physical stages of a cache, mystery caches with corrected coordinates). This is the minimum distance placed caches need to have on geocaching.com and these circle might be helpful when you are planning to hide a new cache and are looking for a position.|
+|Show trail|With this option you can activate a trail showing your position history (your movement) on the map. This is the same option as also available in [[settings#map_content|c:geo settings]] and changing it here will change it also permanently in your settings.|
+
+==== Routing ====
+{{anchor:routing:}}
+
+After selecting the menu function ''Routing'' the following option screen will be shown:
+
+<WRAP center round info 60%>
+This setting is will only be shown if a supported [[utilityprograms|routing app]] is installed and available.
+</WRAP>
+
+{{:pt:livemap_routing.png?direct&400 |}}
+
+^ Option ^ Description ^
+|Straight line|This will show a direct line (air distance) between your position and the selected cache.|
+|Walk|This will set the routing app to draw a line following turn-by-turn navigation for pedestrians.|
+|Bicycle|This will set the routing app to draw a line following turn-by-turn navigation for bikers.|
+|Car|This will set the routing app to draw a line following turn-by-turn navigation for cars.|
+

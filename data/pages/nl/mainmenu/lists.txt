@@ -1,0 +1,224 @@
+
+
+
+====== Opgeslagen caches ======
+
+{{: main_stored_default.png? nolink & 100 |}}
+
+Dit menu toont de Geocaches die momenteel op je mobiele apparaat zijn opgeslagen voor offline gebruik. Voor een betere geocaching-ervaring kun je met c:geo je opgeslagen geocaches organiseren in meerdere lijsten.
+
+Je hebt altijd toegang tot de informatie in deze lijsten, ook als je geen netwerkverbinding hebt. Alle caches in deze lijsten worden offline opgeslagen met alle relevante informatie. Sommige aanvullende informatie (logbestanden) is echter alleen offline beschikbaar als je dit hebt ingeschakeld in de [[settings#offline_data|bijbehorende instellingen]].
+
+===== Cache lijst =====
+{{anchor:cache_list:}}
+
+<WRAP center round tip 100%>
+Klik op de volgende koppelingen voor informatie over de [[..:cacheicons | Geocache Type Iconen in c:geo]] en [[..: cachemarkers | Geocache-markeringspictogrammen in c:geo]], die in de cache lijsten worden gebruikt.
+</WRAP>
+
+<WRAP center round info 100%>
+Dezelfde lijstweergave wordt ook gebruikt in het resultaLijsts (NLat van [[search | zoekfuncties]], voor het weergeven van een lijst met caches op [[livemap | live kaart]] en voor het weergeven van de inhoud van [[pocketquery |pocketqueries]] . \\In dit geval worden caches in de lijst mogelijk (nog) niet opgeslagen in een offline lijst.
+</WRAP>
+
+{{:nl:lists_2_nl.png?direct&400 |}}
+
+
+De lijst toont de titel van elke geocache in de eerste rij. Hieronder staat een ondertitel met de geocode, de D / T-classificatie, de cachegrootte, de [[..:basicmembers|premium-only]] -status (indien van toepassing) en of de cache offline is opgeslagen (handig als je kijkt naar een [[search| zoekresultaat]] lijst). \\
+De kleurstreep helemaal links geeft (naast de markeringen op het pictogram van het cachetype) aan of deze cache <color #22b14c> gevonden </color> is of dat er een <color #ed1c24> offline log </color> is opgeslagen.
+
+Als de titel <del>doorgestreept</del> is, is de bijbehorende cache tijdelijk uitgeschakeld. Als de cachetitel bovendien wordt weergegeven in <color #ed1c24> rode letters </color>, wordt de cache gearchiveerd en is niet langer beschikbaar.
+
+Een korte klik op een van de lijstitems opent de [[..:cachedetails|details]] van deze cache, een lange klik opent een [[lists#context_menu |contextmenu]] met directe toegang tot sommige cache-gerelateerde functies .
+
+De informatie die voor elke geocache aan de rechterkant van de lijstweergave wordt getoond, wordt in de onderstaande tabel uitgelegd:
+
+^Icoon ^ Omschrijving ^
+|{{ :en:lists_distance_direction.png?nolink&100 |}}|Afstand en richting van de cache op basis van je huidige locatie ([[..: basicmembers | basic members]] van geocaching.com zien hier slechts een beperkte informatie).|
+|{{ :en:lists_fav_vote.png?nolink&100 |}}|Het getal toont het aantal favorieten (geocaching.com) of aanbevelingen (opencaching) van deze cache. \\ De achtergrondkleur geeft de gemiddelde [[http://gcvote.com | GCVote]] beoordeling van de cache weer: \\ Groen = Goede beoordeling (> 3,5 sterren) \\ Bruin = Gemiddelde beoordeling (tussen 2,5 en 3,5) \\ Rood = Slechte score (<2,5 sterren). \\ Als er geen kleur wordt weergegeven, cache heeft nog geen stemmen of wordt niet ondersteund in GCVote (GCVote ondersteunt momenteel alleen geocaching.com caches).|
+|{{ :en:lists_trackableinfo.png?nolink&100 |}}|Het symbool is een markering die alleen wordt weergegeven als de cache trackables bevat..|
+
+==== Meer caches optie ====
+
+Als de lijst die je hebt geopend is gemaakt op basis van een [[.search | zoekresultaat]] of een [[.pocketquery | pocket query weergave]], staat er een knop aan het einde van de lijst met het label ''Meer caches (op dit moment: XX)'' en laat zien hoeveel caches er op dit moment in de lijst zijn geladen. Als je hierop klikt, worden meer resultaten / pocket query meldingen geladen.
+
+
+==== Context menu ====
+{{anchor:context_menu:}}
+
+At a long click on one of the caches on your list, the following context menu will be opened, providing you access to some direct actions on this cache:
+
+{{ :en:lists_cache_contextmenu.png?direct&400 |}}
+
+^ Menu item ^ Description ^
+|Compass|Opens the compass to directly navigate to this cache.|
+|Navigate|Opens the complete [[..:navigation|navigation options]] to select one of the supported navigation methods to this cache.|
+|Details|Will open the [[..:cachedetails|cache details]] of this cache. //(same as short click)//|
+|Log Visit|Will take your directly to the [[..:logging|logging page]] for this cache to compose your log.|
+|Remove|Delete this cache from your current list.|
+|Move to different list|Move this cache onto another list.|
+|Copy to different list|Copy this cache onto another list but keep it also on the current list.|
+|Refresh|Update the cache details with data from the geocaching server|
+
+
+===== Lijst menu =====
+{{anchor:list_menu:}}
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de Overloop menuknop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat min of meer items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de functie ervan.
+</WRAP>
+
+{{ :en:list_menu.png?direct&400 |}}
+
+
+^ Icoon/Sectie ^ Functie ^ Omschrijving ^
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Lijst Beheer]]|Dit gedeelte toont de naam van de huidige lijst of de zoekinformatie in het geval dat een lijst wordt geopend als een [[search|zoek resultaat]] of de pocket query naam  als de lijst is geopend vanuit een [[pocketquery|pocket query]].\\ Verder de hoeveelheid caches op de huidige lijst (beperkt tot de gefilterde caches, indien van toepassing). Als je op dit gedeelte klikt, wordt de lijst met alle cachelijsten geopend om een andere cachelijst te selecteren die moet worden weergegeven.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indicatie|Deze regel wordt alleen weergegeven als een [[globaltypefilter|Global Cache Type Filter]] of een [[lists#filtering|Lijst Filter]] actief is.\\ Als je op deze regel klikt, ga je rechtstreeks naar het overeenkomstige filterdialoogvenster.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Kaart]]|Als je op dit pictogram klikt, worden de caches in deze lijst weergegeven op een [[livemap|kaart]].|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Als je op dit pictogram klikt, wordt een filterdialoogvenster geopend om de caches in je lijst te filteren op basis van verschillende criteria.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sorteren]]|Je kunt deze functie gebruiken om de lijst te sorteren op basis van je behoeften.|
+|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Selectie modus]]|Als je deze functie gebruikt, wordt de lijst in een selectiemodus gezet, zodat je een subset van caches in de lijst kunt selecteren om de functie '' Beheer caches '' op deze selectie te gebruiken.|
+|[[lists#show_on_map|Toon op kaart]]||Dit is een soortgelijke functie als de '' Kaart'' functie / het pictogram hierboven uitgelegd, maar ondersteunt ook het openen van alle caches uit de lijst op andere kaarten en in externe apps.|
+|[[lists#manage_caches|Beheer caches]]||Deze optie biedt functies voor het verwijderen, vernieuwen, verplaatsen enz. van de caches in de lijst. \\ Je kunt het combineren met de '' Selectiemodus '' om de wijziging alleen toe te passen op een subset van je lijst.|
+|[[lists#manage_lists|Beheer lijsten]]||Met deze optie kun je functies wissen, de bestaande lijst wijzigen of nieuwe lijsten maken.|
+|[[lists#import|Importeren]]||Met deze optie kun je caches uit verschillende bronnen in je cachelijsten importeren.|
+|[[lists#export|Exporteren]]||Met deze optie kun je caches of delen van de cachegegevens op verschillende manieren exporteren.|
+
+==== Filtering ====
+{{anchor:filtering:}}
+
+Met deze functie kun je de lijst filteren op basis van verschillende criteria.
+
+{{ :en:lists_filtermenu.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Anders dan het [[globaltypefilter | Global Cache Type Filter]], is dit filter alleen van toepassing op de lijsten, maar kan dit indien nodig worden gecombineerd met een algemeen filter.
+</WRAP>
+
+^ Menu item ^ Omschrijving ^
+|{{ :ic_menu_delete.png?nolink&40 |}}|Met het prullenbakpictogram bovenaan kun je de filters die je hebt toegepast verwijderen.|
+|Type|Toon alleen caches met een bepaald cachetype.|
+|Grootte|Toon alleen caches van een bepaalde grootte.|
+|Terrein|Toon alleen caches van een bepaalde moeilijkheidsgraad.|
+|Moeilijkheid|Toon alleen caches met een bepaald terrein moeilijkheidsgraad.|
+|Attributesn|Filter de lijst op een van de cachereigenschappen(bijv. "Verlaten gebouw", "Nachtcache").\\ \\ :!: Dit filter geeft alleen betrouwbare resultaten als het wordt gebruikt in een lijst met opgeslagen caches, maar niet voor zoekresultaten.|
+|Status|Filter naar caches met een bepaalde status in c:geo (bijv. "Gevonden", "Met Trackables", "Met persoonlijke gegevens").|
+|Oorsprong|Toon alleen caches van een specifieke geocaching provider (bijv. "geocaching.com", "opencaching.us").|
+|Afstand|Toon alleen caches met een bepaald afstandsbereik tot je huidige positie.\\ \\ :!: De gefilterde lijst wordt niet bijgewerkt als je van positie verandert. In dit geval moet je het filter opnieuw toepassen om een bijgewerkte gefilterde lijst te krijgen.|
+|Favorieten|Toon alleen caches met een bepaald aantal favoriete.|
+|Favorieten [%]|Toon alleen caches met een bepaald bereik van het percentage favorieten.\\ \\ :!: Dit filter geeft alleen betrouwbare resultaten als het wordt gebruikt in een lijst met opgeslagen caches, maar niet voor zoekresultaten.|
+|Met persoonlijke gegevens|Hiermee kun je caches filteren, waar je individuele informatie hebt toegevoegd (bijv. offline logs, persoonlijke notities).|
+
+==== Sorteren ====
+{{anchor:sorting:}}
+
+{{ :en:lists_sorting.png?direct&400 |}}
+
+<WRAP center round tip 100%>
+Als je dezelfde sorteeroptie tweemaal selecteert, kun je de volgorde in de gesorteerde lijst omdraaien (bijvoorbeeld sorteren op naam wordt gesorteerd op Z -> A in plaats van A -> Z).
+</WRAP>
+
+^ Menu item ^ Omschrijving ^
+|Aantal items|Sorteer op basis van het aantal geregistreerde trackables in de cache.|
+|Datum geplaatst|Sorteren op vestopdatum van de cache.\\ //(Als je lijst alleen event caches bevat, wordt deze automatisch gebruikt als standaardsortering.)//|
+|Datum gelogd|Sorteren op datum dat je de cache hebt gelogd.|
+|Datum opgeslagen op apparaat|Sorteren op datum opgeslagen van de cache in de lijst.|
+|Moeilijkheid|Sorteren op moeilijkheidsgraad van de cache.|
+|Afstand|Sorteren op afstand tussen jouw posities en de cache.\\ //(Dit is de standaardsortering voor de cachelijsts)//|
+|Populariteit|Sorteren op aantal favorieten van de cache.|
+|Populariteit [%]|Sorteren op percentage favorieten van een cache.\\ \\ :!: Deze sorteermethode geeft alleen betrouwbare resultaten als deze wordt gebruikt in een lijst met opgeslagen caches, maar niet in de zoekresultaten.|
+|Aantal keer gevonden|Sorteren op aantal gevonden caches.|
+|Geocode|orteren alfabetisch op geocode van de cache.|
+|Naam|Sorteren alfabetisch op naam van de cache.\\ //(Als c:geo detecteert dat je lijst een reeks vergelijkbare caches lijkt te bevatten (bijvoorbeeld trails met een vaste naam en opgehoogde getallen), wordt deze sortering standaard gebruikt).//|
+|Waardering|Sorteren naar [[http://gcvote.com|GCVote]] waardering van de cache.|
+|Formaat|Sorteren naar het formaat van de cache.|
+|Status|Sorteren naar status van de cache.|
+|Terrein|Sorteren naar moeilijkheidsgraad van het tereein van de cache.|
+|Stemmen(Eigen waardering)|Sorteren naar je eigen [[http://gcvote.com|GCVote]] waardering van de cache.|
+
+<WRAP center round info 100%>
+De sorteermodus die je hebt geselecteerd, blijft gedurende je huidige sessie of totdat je deze wijzigt.
+</WRAP>
+
+==== Selectiemodus ====
+{{anchor:select_mode:}}
+
+{{ :en:lists_selectmode.png?direct&400 |}}
+
+Nadat je de selectiemodus hebt geactiveerd, wordt je lijst weergegeven met selectievakjes voor elke cache, zoals weergegeven in de bovenstaande afbeelding. Hiermee kun je een aantal caches in je lijst markeren door erop te tikken en vervolgens batchacties uitvoeren op de geselecteerde caches in het menu [[lists # manage_caches | Caches beheren]] (bijvoorbeeld alle geselecteerde caches verwijderen).
+
+Bovendien kun je nu de menuoptie '' Selectie omkeren '' gebruiken om je huidige selectie om te keren, wat handig kan zijn als je alle behalve enkele caches in je lijst wilt selecteren.
+
+Als je klaar bent, gebruik je de '' Selectie modus beëindigen '' menu-optie om de selectiemodus te verlaten.
+
+<WRAP center round tip 100%>
+Je kunt ook snel de selectiemodus activeren terwijl je in een lijst bent, door van links naar rechts over een lijstitem te vegen.
+</WRAP>
+
+==== Toon op kaart ====
+{{anchor:show_on_map:}}
+
+{{ :en:lists_showonmap.png?direct&400 |}}
+
+Met deze menuoptie kuntje de caches in je lijst (of een subset ervan weergeven met behulp van de [[lists # select_mode | selectiemodus]]) op een kaart van je keuze.
+
+Dit kan een van de ondersteunde kaarttypen zijn in c:geo of een ondersteunde app van derden, zoals [[utilityprograms| Locus of maps.me]].
+==== Caches beheren ====
+
+{{anchor:manage_caches:}}
+
+{{:en:lists_managecaches.png?direct&350|}}{{ :en:lists_managecaches_select.png?direct&350|}}
+
+Met dit menu kun je de caches in je lijst op verschillende manieren beheren, zoals hieronder wordt beschreven. Als je een bepaalde aantal cache hebt geselecteerd met behulp van de [[lists# select_mode | selectiemodus]], tonen de menu-items tussen haakjes het aantal geselecteerde caches, anders worden de acties uitgevoerd voor alle caches in de lijst.
+
+Je kunt de volgende acties uitvoeren:
+^ Menu item ^ Omschrijving ^
+|Verversen|This will update the caches online with the newest information from the geocaching server.|
+|Verplaatsen|This will move the caches to another list.|
+|Kopiëren|This will copy the caches to another list (but also keep them on the current list.)|
+|Verwijderen|This will delete the caches from the current list.|
+|Afgelopen evenementen verwijderen|This menu item is only visible if your list contains event caches and will delete all events where the event date is in the past.|
+|Aangepaste coördinaten uploaden|Deze optie zal de door jou aangepaste coördinaten uploaden naar de geocaching servers.|
+|Offline logs verwijderen|This menu item is only available if caches on your list have an offline log and will allow you to delete these offline logs.|
+
+==== Lijsten beheren ====
+{{anchor:manage_lists:}}
+
+{{ :en:lists_managelists.png?direct&400 |}}
+
+Dit menu maakt het mogelijk om je cache lijsten te beheren.
+
+^ Menu item ^ Omschrijving^
+|Maak nieuwe lijst|Maakt een nieuwe cache lijst|
+|Verwijder huidige lijst|Dit zal de huidige lijst verwijderen.\\ \\ :!: Bij het verwijderen van een cache lijst zullen de caches naar de standaard lijst worden verplaatst en niet worden verwijderd.|
+|Hernoem huidige lijst|Geef de huidige lijst een andere naam.|
+|Lijdt uniek maken|Omdat een enkele cache op meerdere lijsten kan worden opgeslagen, verwijdert deze functie alle kopieën in andere lijsten, zodat de caches in je huidige lijst niet langer in een andere lijst worden opgeslagen.|
+
+<WRAP center round info 100%>
+De lijst ''Opgeslagen'' is je standaard lijst en deze kan niet worden verwijderd.
+</WRAP>
+
+==== Importeer ====
+{{anchor:import:}}
+
+Dit menu biedt opties om caches vanuit verschillende bronnen in je lijsten te importeren, zoals hieronder wordt beschreven.
+
+{{ :en:lists_import.png?direct&400 |}}
+
+^ Menu item ^ Omschrijving ^ 
+|Importeer Pocket Query|Opent het [[pocketquery|pocket query]] scherm om bestaande pocket queries te importeren.\\ \\ :!: Deze functie is alleen beschikbaar voor geocaching.com [[..:basicmembers|premium members]].|e
+|[[..offline#gpx_import|Importeer GPX]]|Maakt het mogelijk om GPX bestanden te importeren vanuit je bestandssystem.\\ De map vanuit waar de GPX bestanden worden geïmporteerd kan worden kan worden ingesteld in de [[settings#gpx|instellingen]].|
+|Importeer van send2cgeo|Maakt het mogelijk om het [[utilityprograms|send2cgeo]] script te gebruiken.|
+|Importeer van Android|Deze optie opent het Android-importmenu voor het importeren van een GPX-bestand, waardoor je een ruimere keuze aan mogelijke bestandsbronnen (bijvoorbeeld Google Drive) hebt.|
+
+==== Exporteren ====
+{{anchor:export:}}
+
+Dit menu biedt opties om caches uit je huidige lijst te exporteren, zoals hieronder beschreven.
+
+{{ :en:lists_export.png?direct&400 |}}
+
+^ Menu item ^ Description ^ 
+|GPX|Exporteert je lijst als GPX-bestand.|
+|Veld-notities|Exporteert alle bestaande offline logboeken in je lijst naar veldnotities (incl. optionele upload naar geocaching.com). |
+|Persoonlijke notities|Uploadt alle bestaande persoonlijke notities in de caches in je lijst naar de geocaching-server.|

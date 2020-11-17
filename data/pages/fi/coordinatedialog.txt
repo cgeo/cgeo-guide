@@ -1,0 +1,202 @@
+
+====== Koordinaattien syöttönäyttö ======
+
+{{:en:coordinput.png?direct&300 |}}
+
+Koordinaattien syöttönäyttö avataan jos [[cachedetails#waypoint_tab|reittipistettä]] muokattaessa klikkaat koordinattikenttää tai syötettäessä koordinaatteja [[.mainmenu:search|haku]]- tai [[.mainmenu:goto|Siirry]]-valikoissa.
+
+{{:abc_ic_clear_normal.png?nolink&40|}}-nappi sulkee syöttönäytön tallenttamatta muutoksia, {{:abc_ic_cab_done_holo_light.png?nolink&40|}} tallentaa muutokset ja sulkee syöttönäytön.
+
+<WRAP center round tip 60%>
+Varmista että tallennat muutokset etenkin käytettäessä reittipistelaskuria, sillä voi olla ettei oikeat koordinaatit ole näkyvillä, mutta haluat kuitenkin tallentaa laskuriin tekemäsi muutokset.
+</WRAP>
+
+===== Koordinaattien muoto =====
+{{anchor:coordinate_format}}
+
+{{:en:coordinput_format.png?nolink&300 |}}
+
+Tätä kenttää klikkaamalla voit valita eri [[coordformat|tuettujen koordinaattimuotojen ]] välillä tai valita ''Yksinkertainen'' syöttääksesi haluamasi muodon. Koordinaattien syöttökentät muuttavat muotoaan tämän valinnan mukaisesti.
+
+Jos olet jo syöttänyt koordinaatit, ne muunnetaan valittuun muotoon.
+===== Koordinaattien syöttö =====
+{{anchor:coordinate_input}}
+
+{{:en:coordinput_coords.png?nolink&300 |}}
+
+Käytä näitä kenttiä koordinaattien syöttämiseen. N/W-nappeja klikkaamalla voit vaihtaa niitä S/E-muotoon tarvittaessa.
+
+Kenttien asettelu ja muoto riippuu yllä valitsemastasi koordinaattien muodosta.
+===== Koordinaattilähteet =====
+{{anchor:coordinate_sources}}
+
+Koordinaattien syöttökentän alapuolella löydät useita nappeja koordinaattien hakemiseen eri lähteistä.
+Kaikki tai osa napeista voi olla näkyvillä riippuen missä kohdassa ohjelmaa käytät koordinaattien syöttönäyttöä, sekä muista olosuhteista.
+
+^ Nappi ^ Selite ^
+|Sijaintini|Asettaa tämänhetkisen sijaintisi koordinaatit koordinaattikenttään.|
+|Kätkön koordinaatit|Asettaa kätköön listatut koordinaatit koordinaattikenttään.|
+|[[coordinatedialog#waypoint_calculator|Laske koordinaatit]]|Käyttää (valinnaisesti) ylös jo asetettuja koordinaatteja ja avaa reittipistelaskurin.|
+|Leikepöydältä|Tämä nappi näytetään vain jos leikepöytä sisältää käyttökelpoiset koordinaatit ja asettaa ne koordinaattikenttään.|
+|Poista koordinaatit|Tyhjentää koordinaattikentät.|
+
+===== Reittipistelaskuri =====
+{{anchor:waypoint_calculator}}
+
+{{:en:coordinput_calculator.png?nolink&300 |}} 
+
+c:geo tarjoaa reittipistelaskurin, joka laskee annettujen muuttujien sekä yhtälöjen mukaisesti tulosten mukaiset koordinaatit.
+
+Tämä näyttö näytetään kun klikkaat [[coordinatedialog#waypoint_sources|koordinaattien syöttönäytössä]] ''Laske koordinaatit''-nappia.
+
+{{:abc_ic_clear_normal.png?nolink&40|}}-nappi sulkee näytön tallenttamatta muutoksia, {{:abc_ic_cab_done_holo_light.png?nolink&40|}}-nappi tallentaa muutokset, sulkee näytön ja palaa reittipisteen muokkaukseen.
+
+<WRAP center round tip 60%>
+Voit käyttää laskinta myös kenttäreissun valmistelemiseen määrittämällä tarvittavat muuttujat ja yhtälöt, ja jättää arvojen asettamisen muuttujille myöhemmäksi.\\
+Tämä ei tietenkään tarjoa oikeaa tulosta, mutta voit kuitenkin tallentaa milloin vain tämän hetkisen tilan tallentamalla muutokset laskimessa ja sen jälkeen tallentamalla reittipisteen tilan.
+</WRAP>
+
+Ensimmäisen kentän klikkaus avaa valikon, josta voit tarvittaessa muuttaa eri [[coordinatedialog#coordinate_format|koordinaattimuotojen]] välillä. Kaikki muut toiminnot esitellään alla.
+
+Laskurin käytön ymmärtämisen helpottamiseksi käytämme esimerkkiä laskurin käyttöön.
+==== Päämuuttujien määrittely ====
+{{anchor:main_variable_assignment}}
+
+{{ :en:calculator_coordinates.png?nolink&400 |}}
+
+Oletuksena tämä kenttä näyttää kätkön koordinaatit aloituspisteenä muuttujien asetusta varten.
+
+__Lyhyellä klikkauksella__ voit jokaisen numeron kohdalla valita haluamasi toiminnon kyseiselle numerolle:
+
+  * **Muuttujan asetus tälle numerolle**\\ Asettaa seuraavan käyttämättömän muuttujan (A-Z) tälle numerolle.
+  * **Numeron ohittaminen**\\ Poistaa tämän numeron kokonaan laskuista. Tämä sallii ratkaisut, joissa on muuttujia, joissa voi olla enemmän kuin yksi numero.
+  * **Numeronpalautus alkuperäiseksi**\\ Näyttää jälleen alkuperäisen arvon.
+
+Voit lisäksi __painaa pitkään__ numeron kohdalla syöttääksesi manuaalisesti numeron tai muuttujan.
+
+Tulos voi näyttää esimerkiksi seuraavalta:
+
+{{ :en:calculator_result_coord.png?nolink&400 |}}
+
+==== Päämuuttujien syöttö ====
+{{anchor:main_variable_input}}
+
+<WRAP center round important 100%>
+Päämuuttujille tulee käyttää aina ISOJA kirjaimia (A-Z), kun alamuuttujille (alla selitettynä) tulee käyttää aina pieniä kirjaimia (a-z)!
+</WRAP>
+
+Tämä osio koordinaattikentän alla näyttää kentän kaikille koordinaattikentässä määrittelemällesi päämuuttujille. Esimerkissämme se näyttää alla olevalta koska määritimme neljä päämuuttujaa (A,B,C,D):
+
+{{ :en:calculator_main.png?nolink&400 |}}
+
+Voit nyt käyttää näitä kenttiä määrittääksesi yhtälön käyttämällä alamuuttujia (pienet kirjaimet a-z) laskeaksesi tuloksen päämuuttujille.
+
+Näissä yhtälöissä tuetaan seuraavia laskuja:
+
+^ Lasku ^ Toiminto ^ Esimerkki ^
+|+|Lisääminen|a+b|
+|-|Vähentäminen|a-b|
+|*|Kertominen|a*b|
+|/|Jakaminen|a/b|
+|%%^%%|Potenssi|a%%^%%b|
+|%|Osamäärä|a%10|
+|( )|Sulkeet|(a+b)*c|
+
+Esimerkissä eteenpäin päästäksemme käytämme seuraavia yhtälöjä päämuuttujille (esimerkiksi kätkön omistajan kuvauksessa määrittelemät yhtälöt):
+
+{{ :en:calculator_main_formulas.png?nolink&400 |}}
+
+==== Alamuuttujien määrittely ====
+{{anchor:sub_variable_assignment}}
+
+<WRAP center round important 100%>
+Alamuuttujille tulee aina käyttää pieniä kirjaimia (a-z), kun päämuuttujille (selitettynä yllä) tulee käyttää aina ISOJA kirjaimia (A-Z)!
+</WRAP>
+
+Kun olet asettanut yhtälöt päämuuttujille, jokaiselle alamuuttujalle (pienet a-z) lisätään syöttökenttä, niiden käyttämiseksi yhtälöissä.
+
+Näitä syöttökenttiä voidaan käyttää numeeristen arvojen asettamiseksi, joita sitten käytetään automaattiseen koordinaattien laskemiseen annettujen yhtälöiden mukaisesti. Voit sulkea ja tallentaa laskimen milloin tahansa ja palata laskimeen asettamaan seuraavan alamuuttujan arvon sitä mukaan kun löydät sille oikean arvon ratkaistaessasi kätköä.
+
+<WRAP center round tip 100%>
+Pää- ja alamuuttujien määrästä riippuen sinun tulee pyyhkäistä muuttujaosiota nähdäksesi kaikki syöttökentät.\\
+Voit halutessasi myös kääntää laitetta vaakasuoraan nähdäksesi kaikki muuttujat näytöllä.
+</WRAP>
+
+Esimerkissämme löysimme arvot muuttujille a, b, ja c. Syötimme ne omille kentille:
+
+{{ :en:calculator_sub_complete.png?nolink&400 |}}
+
+==== Tuloksen ennustaminen ====
+{{anchor:result_prediction}}
+
+Kun syötät yhtälöitä päämuuttujille ja arvoja alamuuttujille, tulos näytetään lennossa sen mukaisesti tulososioissa.
+
+Numerot, joita ei ole vielä laskettu, näytetään ''*'' harmaana. Kun tulokseksi tulee oikeat koordinaatit, tuloskenttä näyttää kaikki numerot ja merkit valkoisena.
+
+Esimerkissämme oikea tulos näytetään näin:
+
+{{ :en:calculator_result_final.png?nolink&400 |}}
+
+==== Laskimen muistiinpanot ====
+{{anchor:calculator_notes}}
+
+Laskimen viimeistä osiota voidaan käyttää muistiinpanojen kirjoittamiseen tai liittämiseen, joka voi olla kätevä esimerkiksi kätkön löytämiseen vaadittavien kuvauksessa olevien yhtälöiden kopioimiseen.
+
+Laskimen muistiinpanojen sisältö synkronisoidaan laskettavan reittipisteen koordinaattien kanssa.
+==== Yksinkertaisen koordinaattimuodon käyttö ====
+{{anchor:using_plain_coordinate_format}}
+
+Koordinaattien tai koordinaattiyhtälöiden syöttö //Yksinkertainen//-tilassa toimii toisella tavalla kuin kiinteät koordinaattimuodot. Klikattavien numerokenttien sijaan esille tulee kaksi vapaamuotoista tekstikenttää johon voi syöttää koordinaattien leveysasteen ja pituusasteen.
+
+Yksittäinen tai useampi numero voidaan korvata sulkeilla erotetuilla yhtälöillä. Yhtälöissä täytyy käyttää muuttujia, jotka ovat yksittäisiä ISOJA kirjaimia.
+
+Kätkön kuvauksen koordinaatit sisältävät yleensä reittipisteet tässä odotetussa muodossa. Tällöin yksinkertainen tila sopii parhaiten, jos koordinaatit siirretään kuvauksesta "kuten ovat".
+
+{{ :en:copy_waypoint_formulas.png?nolink&445 |}}
+
+Yksinkertainen tila toimii parhaiten koordinaattien kanssa, jotka ovat [[coordformat|MinDeg-muodossa]] ''DDD° MM.MMM'''
+
+Yksinkertaisen tilan käyttöönottamiseksi vaihda "Koordinaattimuoto" tilaan ''Yksinkertainen''.
+
+Yllä olevan näyttökaappauksen esimerkin mukaisesti, kopioi koordinaattien leveysaste-osa (N/S) ensimmäiseen kenttään ja pituusaste-osa (E/W) toiseen kenttään. Jos koordinaatit sisältävät yhtälöitä muuttujineen, sen mukaiset muuttujien syöttökentät ilmestyvät alle.
+
+{{ :en:variable_input_fields.png?nolink&400 |}}
+
+Näyttökaappauksen yhtälöt muodostavat syöttökentät muuttujille I, K, L, M ja N.
+Voit täyttää muuttujien kentät arvoilla samalla tavalla kuin kiinteiddä koordinaattimuodoissa, kuten selitettynä edellisissä osioissa.
+
+Kun kaikkille muuttujille on asetettu arvo, tulosten muodostus muuttuu yleensä valkoiseksi ja näyttää lasketut koordinaatit.
+
+{{ :en:result_prediction_ok.png?nolink&400 |}}
+
+Joissakin tapauksissa tuloskenttä pysyy harmaana, koska koordinaattien purkaja ei pystynyt tulkitsemaan alkuperäisiä koordinaatteja oikein. Tässä näyttökaappauksessa koordinaateissa on VÄLILYÖNTI väärässä paikassa kahden numeron välillä, samassa ryhmässä, joka hämmentää koordinaattien purkajaa.
+
+{{ :en:result_prediction_fail.png?nolink&400 |}}
+
+Tyypilliset ongelmat kuvauksissa olevissa koordinaateissa:
+  * Muuttujat pienillä kirjaimilla; koordinaattien päämuuttujien pitää olla isolla kirjaimilla
+  * Välilyönti numeroiden keskellä samassa ryhmässä ''N45° 5.(K) (I/N)(K+L+M+N)''
+  * Välilyönti ennen astemerkkiä        ''N45 ° 5.(K)(I/N)(K+L+M+N)''
+  * Välilyönti ennen pistemerkkiä      ''N45° 5 .(K)(I/N)(K+L+M+N)''
+  * Välilyönti pistemerkin jälkeen       ''N45° 5. (K)(I/N)(K+L+M+N)''
+  * Väärä miinusmerkki: On olemassa monta [[https://fi.wikipedia.org/wiki/Viivamerkit|erilaista viivamerkkiä]] - vain standardi yhdysmerkki (''-'') hyväksytään
+  * Väärä kertomerkki: joskus kirjainta ''x'' tai keskipistettä (''·'') käytetään asteriksin sijaan (''*'')
+  * Väärä jakomerkki: joskus kaksoispistettä ('':'') käytetään vinoviivan sijaan (''/'')
+  * Hakasulkeet sisäkkäin: ''N45° 5.[[X+Y]*10]''
+
+Kuten muissakin koordinaattimuodoissa, laskimen tila voidaan tallentaa milloin tahansa tarvittaessa.
+
+==== Lisätietoja englanniksi====
+{{anchor:further_information}}
+
+Laskurin ohjelmoija on julkaissut useita videoita englanniksi, jotka näyttävät useita käyttöesimerkkejä laskimelle. //
+
+{{youtube>eN2y5mvJul4?medium}}
+
+{{youtube>NlW2BfF-tu0?medium}}
+
+{{youtube>F-ZNAKbLCJ0?medium}}
+
+{{youtube>6_BALG5192A?medium}}
+
+

@@ -1,0 +1,31 @@
+====== Navigation methods/tools ======
+
+When invoking a navigation towards coordinates the following menu will be shown to select an appropriate navigation method/tool.
+
+{{ :en:navigation.png?direct&400 |}}
+
+The following table provides an overview of the different methods/tools supported. Some items are only shown if the corresponding tool is installed. You can customize the items shown in this menu in the [[.mainmenu:settings#navigation|settings]].
+
+^ Name ^ Description ^
+|Compass|Starts the c:geo built-in [[compass|compass]].|
+|Radar|Starts apps supporting a radar functionality, such as [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ A radar is similar to a compass but showing your position in the center and the target position in relation to this.|
+|Map|Opens the c:geo [[.mainmenu:livemap|map]]|
+|Static Maps|This feature was removed.|
+|Download Static Maps|This feature was removed.|
+|Locus|Starts [[.mainmenu:utilityprograms|Locus]] to display the coordinates on the map.|
+|Navigation (Driving)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] turn-by-turn navigation using the preferences for a car route.|
+|Navigation (Bike)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]]  routing turn-by-turn navigation the preferences for a bike route.|
+|Navigation (Walking)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]]  routing turn-by-turn navigation the preferences for a walk route.|
+|Navigation (Transit)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]]  routing turn-by-turn navigation the preferences for a route with transit providers.|
+|Street View|Start [[https://play.google.com/store/apps/details?id=com.google.android.street|Google Street View]] on the coordinates.|
+|OruxMaps (Online)|Start [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]] using online turn-by-turn navigation.|
+|OruxMaps (Offline|Start [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]]  using offline turn-by-turn navigation.|
+|Sygic (Walking)|Start [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] turn-by-turn navigation using preferences for a walk route.|
+|Sygic (Driving)|Start [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] turn-by-turn navigation using preferences for a car route.|
+|OsmAnd|Start [[https://play.google.com/store/apps/details?id=net.osmand|OSMAnd]] offline turn-by-turn navigation.|
+|Google Maps Directions|Opens [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] to show a list of driving directions from your current position to the coordinates.|
+|WhereYouGo|This item is only available for Wherigo caches and will open [[.mainmenu:utilityprograms|WhereYouGo]] to download the needed cartridge and further navigate through the stages of the cache.|
+|Pebble|Start compass on your pebble device using the [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]] app.|
+|Maps.me|Start offline turn-by-turn navigation using the [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] app.|
+|Other external apps|This invokes other apps not explicitly supported by c:geo.\\ Using this option will usually open an app selection dialog on your device presenting all apps capable of digesting links containing coordinates.|
+

@@ -1,0 +1,30 @@
+
+====== Ga naar menu ======
+
+{{:main_any_default.png?nolink&100 |}}
+
+Het "Ga naar..." menu kan hebruikt worden om te navigeren naar willekeurige coördinaten, die niet zijn gebonden aan een geocache,  geocache waypoint of een gemaakte projectie.\\ \\ \\ \\
+
+{{ :nl:goto.png?direct&400 |}}
+
+Voer de coördinaten in door op het coördinaatgedeelte te klikken om het [[..coordinatedialog | invoer dialoogvenster ]] te openen. Als je vanuit deze positie een waypointprojectie wilt uitvoeren, kun je optioneel de peiling en de afstand hieronder invoeren.
+
+Het laatste gedeelte op deze pagina toont de geschiedenis van coördinaten die je eerder hebt gebruikt, samen met de bijbehorende tijd / datum.
+
+Het bovenste menu biedt verschillende opties:
+
+<WRAP center round info 100%>
+De pictogrammen in de bovenste balk en de inhoud achter de overloop menu knop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\
+Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie.
+</WRAP>
+
+
+^ Icoon ^ Omschrijving^
+|{{:ic_menu_compass.png?nolink&40 |}}| Een korte klik op dit pictogram start je [[.settings # navigation| navigatie-hulpmiddel van jouw voorkeur]] om naar de geselecteerde cache te navigeren. \\ Als je lang drukt, wordt je secundaire [[.settings#navigatie|navigatie-hulpmiddel van jouw voorkeur]] gestart.|
+|{{:ic_menu_goto.png?nolink&40 |}}|Opent de volledige lijst met beschikbare [[..navigation|navigatioe hulpmiddelen]].|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. De functie die in deze lijst wordt getoond, wordt ook in deze tabel beschreven.|
+|Caches rondeom|Zal een [[.lists # cache_list | cache lijst ]] maken met geocaches rondom de gegeven coördinaten.|
+|Maak geschiedenis leeg|Zal de geschiedenis op het onderste gedeelte van het scherm wissen.|
+
+
+

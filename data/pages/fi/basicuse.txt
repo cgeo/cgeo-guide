@@ -1,0 +1,58 @@
+
+
+====== c:geon peruskäyttö ======
+
+Tämä sivu selittää muutamia perusteita geokätköilystä, sekä kuinka c:geota käytetään geokätköjen etsimiseen.
+
+===== Mitä on geokätköily? =====
+
+Kaikkien yksityiskohtien selittäminen tässä olisi vähän liikaa, mutta on muutamia tietoja mitä sinun tulee tietää aloittaaksesi geokätköilyn c:geolla:
+
+Sinun tulee opetella eri kätkötyypit, D/T arvot, jne.
+ 
+Voi olla, että et löydä kätköä, jos vain valitset satunnaisen kätköt ja navigoit sinne.
+On paljon tietoja, mitä tulee tietää, jotta pystyt valitsemaan juuri sinulle sopivan kätkön.
+
+Suurin osa c:geon tukemista geokätköilysivustoista tarjoaa yksityiskohtaiset tutoriaalit kuinka geokätköily toimii. __Suosittelemme vahvasti__,että luet nämä tutoriaalit oppiaksesi mitä sinun tulee tietää ensimmäisen kätkösi löytämiseksi ja kuinka kirjata se.
+
+Erityisesti sinun tulee huomioida että on olemassa erityyppisiä kätköjä (Tyypillisesti et löydä mysteerikätköä annetuista koordinaateista) sekä eri maasto-arvoista (T) (maastoarvo 5 tarkoittaa että sinun tulee kiivetä/sukeltaa/uida löytääksesi kätkön).
+
+<WRAP center round important 100%>
+Kuten kaikki ulkoilma-aktiviteetit, geokätköily voi olla vaarallista. Harrastat geokätköilyä omalla riskillä, c:geo tai mikään geocaching-sivusto ei ota vastuuta aktiviteetistasi/toimistasi. Kiinnitä huomiota mitä teet, kuten myös muissa ulkoilma-aktiviteeteissa.
+</WRAP>
+
+
+===== Miten löydät ensimmäisen kätkösi c:geolla =====
+
+c:geon päävalikossa valitse ''Live-kartta'' {{:main_live_default.png?nolink|}} tai ''Lähistöllä'' {{:main_nearby_default.png?nolink|}} painike nähdäksesi mitkä kätköt ovat lähelläsi.
+
+{{:en:livemap_1.png?direct&300|}}{{ :en:lists_1_en.png?direct&300|}}
+
+Kun näet kätköjä [[.mainmenu:livemap|Live-kartalla]] tai [[.mainmenu:lists|Lähistöllä-listalla]], valitse kätkö, jonka haluaisit löytää (tradikätkö matalalla D/T-arvolla olisi hyvä ensimmäinen kätkö) ja avaa sen lisätiedot.
+
+{{:en:cachedetails_details.png?direct&300 |}}
+
+Kun olet avannut lisätiedot, voit pyyhkäistä vasemmalle tai oikealle nähdäksesi [[cachedetails|lisätietoja]] kätköstä (kuten kuvaus, reittipisteet, lokikirja, jne.). Lue teksti ja kiinnitä huomiota Vaikeus- ja Maasto-arvoon sekä attribuutteihin oppiaksesi lisää kuinka löytää ja kirjata tämä kätkö.
+
+<WRAP center round important 100%>
+Vielä kerran:\\
+Sinun tulisi tutustua eri kätkötyyppeihin, maastoarvoihin, attribuutteihin jne. ennen kuin etsit kätkön!
+</WRAP>
+
+Kun olet valinnut kätkön ja olet valmis etsimään sen, paina ''Navigoi''-kuvaketta {{:ic_menu_goto.png?nolink|}} kätkötietojen yläpalkissa.
+Sinulla on [[.navigation|useita vaihtoehtoja]] riippuen tarpeestasi. Tässä on lyhyt selitys tärkeimmistä navigaatiotavoista:
+
+  * **[[compass|Kompassi]]**:\\ Tämä näyttää jatkuvasti etäisyyden ja suunnan kätkölle.
+{{ :en:navigate_compass.png?direct&300 |}}
+  
+
+  * **Navigointi (Ajo, Kävely, Pyöräily)**:\\ Tämä aloittaa askel askeleelta navigoinnin Google Mapsissa
+{{ :en:navigate_driving.png?direct&300 |}}
+
+  * **Tutka** (valinnainen):\\ Jos olet asentanut [[.mainmenu:utilityprograms|ohjelman, joka tukee tutkatoimintoja,]] tämä aukaisee tutkanäytön. Tämä on samankaltainen kompassin kanssa, mutta työskentelytapa on erikainen. Näet kätkön koordinaatit merkkinä tutkalla. Jos merkki menee tutkan keskelle, olet saavuttanut kätkön koordinaatit.
+<WRAP center round tip 100%>
+Tämä on vain lyhyt esittely c:geon toiminnoista. Jatka [[start#users_manual|käyttöohjeen]] lukemista oppiaksesi lisää c:geon toiminnoista ja valikoista.
+</WRAP>
+                  
+
+

@@ -1,0 +1,356 @@
+
+====== c:geon asetukset======
+
+{{:ic_menu_preferences.png?nolink&50 |}}
+
+Seuraavat sivut selittävät c:geon asetussivun toiminnot.\\ \\ \\
+
+Voit avata asetukset painamalla kolmen pisteen valikkoa päävalikossa ja valitsemalla ''Asetukset'':
+
+{{:en:settings_1_en.png?direct&250 |}}{{:en:settings_2_en.png?direct&250|}}
+
+Tästä valikosta löydät seuraavat asetusluokat, mitkä selitetään yksityiskohtaisesti alla:
+
+^ Kuvake ^ Valinta ^ Sisältö ^
+|{{:settings_cloud_black.png?nolink |}}|[[settings#services|Palvelut]]|Aktivoi geokätköilypalvelut, joita haluat käyttää, muuta käyttäjätietojasi ja aktivoi lisäpalveluja kuten [[http://gcvote.com|GCVote]] ja [[http://send2.cgeo.org|send2cgeo]]|
+|{{:settings_eye_black.png?nolink|}}|[[settings#appearance|Ulkoasu]]|Aseta mittayksiköt, kieli ja ohjelman värit|
+|{{:settings_details_black.png?nolink|}}|[[settings#cache_details|Kätkön tiedot]]|Kustomoi kätkön tietojen näyttöä ja piilota tietyt kätköt|
+|{{:settings_map_black.png?nolink|}}|[[settings#map|Kartta]]|Aseta kartan lähde, offline-karttojen kansiot ja aseta offline-kartat ja niiden yksityiskohdat|
+|{{:settings_pen_black.png?nolink|}}|[[settings#logging|Kirjaaminen]]|Kustomoi kirjausasetuksia ja luo tai muokkaa omaa allekirjoitustasi|
+|{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Offline-data]]|Konfiguroi offline-käyttöön tallennettava data, tallennussijainti ja GPX-tiedostojen hakemistot|
+|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Navigointi]]|Valitse oletusnavigointitapa ja aseta muut ulkoiset navigointiohjelmat|
+|{{:settings_nut_black.png?nolink|}}|[[settings#system|Järjestelmä]]|Konfiguroi sovelluksen hakemistot sekä muut järjestelmäkohtaiset asetukset|
+|{{:​settings_backup_white.png?​nolink|}}|[[settings#​backup|Varmuuskopiointi ja palautus]]|Varmuuskopioi ja palauta kätköjen/reittipisteiden tiedot ja/tai sovelluksen tiedot/asetukset|
+
+===== Palvelut =====
+{{anchor:services:}}
+
+==== Geocaching ====
+{{anchor:geocaching:}}
+
+{{:en:services_1_en.png?direct&300 |}}{{:en:services_2_en.png?direct&300|}}
+
+Palveluasetuksien ensimmäisessä osiossa voit aktivoida c:geon käyttöön useita erilaisia geokätköilysivustoja.
+Tällä hetkellä c:geo tukee seuraavia geokätköilysivustoja/palveluita:
+
+^ Palvelu ^ Selite ^
+|[[https://www.geocaching.com|geocaching.com]]|Tällä hetkellä suurin kaupallinen geokätköilysivusto, listaa kätköjä maailmanlaajuisesti|
+|[[https://www.opencaching.de|Opencaching Germany]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä koko maailmassa, painotettuna maat Saksa, Itävalta, Sveitsi, Italia ja Espanja|
+|[[https://www.opencaching.pl|Opencaching Poland]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä Puolassa|
+|[[https://www.opencaching.nl|Opencaching Netherlands]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä Alankomaissa|
+|[[https://www.opencaching.us|Opencaching USA]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä Yhdysvalloissa|
+|[[https://www.opencaching.ro|Opencaching Romania]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä Romaniassa|
+|[[https://www.opencache.uk|Opencaching UK]]|Avoimeen lähdekoodiin perustuva ja ilmainen geokätköilysivusto, joka listaa kätköjä Iso-Britanniassa|
+|[[https://www.extremcaching.com|extremcaching.com]]|Yksityinen geokätköilysivusto, keskittyy pääasiassa korkean maastoarvon kätköihin saksankielisillä alueilla|
+|[[https://www.geocaching.su|Geocaching Russia]]|Yksityinen geokätköilysivusto Venäjän geokätköille|
+
+<WRAP center round info 100%>
+Yksityiskohtainen ohje geokätköilysivustojen tunnistautumisprosessista löytyy ohjeesta [[..firststeps|c:geon käytön aloitus]].
+</WRAP>
+
+Lisäksi voit käyttää palveluvalikkoa asettaaksesi yhteyden lisäpalveluihin, jotka ovat saatavilla c:geohon:
+
+^ Palvelu ^ Selite ^
+|[[http://gcvote.com|GCVote]]|Sivusto geokätköjen laadun arvosteluun|
+|[[https://geokrety.org|GeoKrety]]|Vaihtoehtoinen sivusto matkaajille|
+|[[http://send2.cgeo.org|Send2cgeo]]|Tarjoaa selaimen lisäosan, joka selatessa geokätköjä tietokoneella, lisää niitä c:geohon yhdellä painalluksella. Käy send2cgeon nettisivuilla saadaksesi lisätietoja tästä työkalusta.|
+
+==== Sosiaalinen media ====
+{{anchor:social_media:}}
+
+{{ :en:services_twitter_1.png?direct&400 |}}
+
+Voit valtuuttaa c:geon twiittaamaan [[https://www.twitter.com|Twitterissä]] joka kerta kun jätät lokin kätkölle tai matkaajalle. ''Twitter''-napin painamisen jälkeen valtuutusnäyttö aukeaa:
+
+{{ :en:services_twitter_2.png?direct&400 |}}
+
+Valtuuttaaksesi Twitterin aktivoi palvelu ja klikkaa ''Valtuuta c:geo''.
+Valtuutusnappien alla voit muokata mallineita, joita käytetään viestin twiittaamiseen. Mallineet käyttävät samoja [[settings#placeholder_templates|tekstimalleja]] kuin [[settings#logging|lokiallekirjoituksesi]].
+
+{{ :en:services_twitter_3.png?direct&400 |}}
+
+Seuraavalla sivulla, klikkaa ''Aloita valtuutus'' avataksesi Twitterin sivun, jossa voit syöttää käyttäjänimen ja salasanan, ja valtuuttaa c:geon twiittaamaan puolestasi.
+
+
+<WRAP center round tip 100%>
+c:geo tukee sosiaalisista medioista tällä hetkellä vain Twitteriä. Kehitystiimillä on rajoitetut resurssit, ja keskittyy uusiin geokätköilytoimintoihin, joten meillä ei ole suunnitelmia Facebook-yhteyden lisäämiseksi.
+
+Mutta jos olet jo Twitterin käyttäjä ja/tai etsit tapaa postata löytösi Facebookiin, huomaathan, että on mahdollisuus linkata Twitter Facebookiin. Linkatusta käyttäjätunnuksesta kaikki uudet twiitit (myös c:geon tekemät) lähetetään automaattisesti myös Facebookiin.
+
+Tästä löydät lisätietoja [[https://support.twitter.com/articles/31113-using-twitter-with-facebook/|Twitterin tukisivustolla]].
+</WRAP>
+
+==== Muut asetukset ====
+{{anchor:other_settings:}}
+
+{{ :en:services_androidbrowser.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Android-selain|Yhteensopivuussyiden vuoksi c:geo käyttää palveluita käytettäessä tietokoneen selaimen profiilia. Jotkut verkko-operaattorit eivät salli mobiiliyhteyden käyttöä tietokoneella, joten ne voivat estää kaiken tavallisen tietokoneen liikenteen, tehden c:geon käyttökelvottomaksi. Tässä tapauksessa jotkut palvelut eivät toimi tai et voi edes tunnistautua. Tämän valinnan aktivointi muuttaa c:geota siten, että se tunnistautuu mobiili-Android-selaimena, ratkaistakseen tämän ongelman.\\ Suosittelemme, että valitset tämän vain, jos yhteydessä on ongelmia. |
+===== Ulkoasu =====
+{{anchor:appearance:}}
+
+Tässä valikossa voit muuttaa c:geon ulkonäön perusasetuksia.
+
+{{ :en:settings_appearance.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Vaalea sävy|Tämä saa c:geon näyttämään mustan tekstin valkoisella pohjalla, sen sijaan kuin se näyttäisi valkoisen tekstin mustalla pohjalla. //(Oletus: Pois päältä)//|
+|Läpinäkyvä tausta|Tämä näyttää oman kotinäyttösi taustakuvan c:geon kotisivun taustakuvana. //(Oletus: Päällä)//| 
+|Näytä osoite|Tämä saa c:geon käyttämään käänteistä geokoodauspalvelua näyttääkseen päävalikon alareunassa koordinaattien sijaan nykyisen paikkakunnan nimen. //(Oletus: Päällä)//|
+|Yksinkertaiset lokit|Valittuna, kaikki lokikirjat näytetään ilman värejä lukemisen helpottamiseksi. //(Oletus: Pois päältä)//|
+|Käytä englanniksi|Tämä pakottaa c:geon käyttämään puhelimen kielen sijaan englanninkielistä käyttäjäliittymää. Tämä voi olla kätevä siinä tapauksessa kun sinulla on ohjelman huonojen käännösten kanssa ongelmia. c:geon uudelleenkäynnistys tarvitaan valinnan muuttamisen jälkeen. //(Oletus: Pois päältä)// \\ \\ :!: Huomaathan, että ''Käytä englanniksi''-valinta näyttää kaikki päivämäärät muodossa kuukausi/päivä/vuosi. \\ Lisäksi tämä toiminto ei toimi enää Android 8 -käyttöjärjestelmästä eteenpäin, Androidin teknisten muutosten vuoksi.|
+|Käytä brittiläistä yksikköjärjestelmää|Tämä valinta pakottaa käyttämään brittiläistä yksikköjärjestelmää (mailit/jalat) metrisen järjestelmän (kilometrit/metrit) sijaan. //(Oletus: Päällä (englannin kielelle), Pois päältä(kaikille muille kielille))//|
+
+===== Kätkön tiedot =====
+{{anchor:cache_details:}}
+
+{{ :en:settings_cachedetails.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+| Näytä ystävien/omat |Näyttää ylimääräisen lokikirjasivun, joka listaa omat kirjauksesi sekä ystäviesi kirjaukset (perustuen geocaching.com-sivuston ystävä-toimintoon). //(Oletus: Päällä)//|
+|Viimeisimmät tiedot -sivu|Kun valinta on pois päältä, ''Lisätietoja''-nappi avaa aina ''Yksityiskohdat''-sivun. Valinnan ollessa päällä c:geo muistaa viimeksi käytössä olleen sivun ja avaa kaikki kätköt tälle sivulle (kuten ''Reittipisteet''). //(Oletus: Pois päältä)//|
+|Näytä suunta|Näyttää pienen nuolen kaikissa kätkölistoissa, näyttääkseen karkean suunnan kätkölle laitteen sijaintitietoon perustuen.\\ Kun tämä voi auttaa sinua päättelemään onko kätkö esimerkiksi edessä tai takana, sitä ei ole kuitenkaan suunniteltu korvaamaan muita c:geon navigointitapoja. //(Oletus: Päällä)// \\ \\ :!: geocaching.comin peruskäyttäjät näkevät hakutuloksissa vain staattiset suuntakuvat, mutta ei liikkuvia nuolia.|
+|Piilota omat ja löydetyt|Piilottaa omat tai jo löydetyt kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
+|Piilota hyllytetyt|Piilottaa hyllytetyt kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
+|Piilota arkistoidut|Piilottaa arkistoidut kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
+|Reittipisteen siirron esto|Tämä toiminta estää **yleisesti** automaattisen reittipisteiden poiminnan henkilökohtaisista muistiinpanoistasi. Voit vaihtoehtoisesti kytkeä tämän toiminnon pois päältä jokaiselle kätkölle erikseen, poistamalla valinnan suoraan henkilökohtaisen muistiinpanon alapuolelta.|
+
+
+===== Kartta =====
+{{anchor:map:}}
+
+==== Kartan tiedot ====
+{{anchor:map_data:}}
+
+{{ :en:settings_maps_mapdata.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Karttalähde|Määrittää kartan, mitä käytetään kaikissa c:geon karttatoiminnoissa. Tämä lista sisältää kaikki saatavilla olevat online-kartat sekä offline-polusta löytyvät offline-kartat. \\ Voit vaihtaa tätä asetusta myös suoraan live-kartalta valitsemalla karttalähdekuvakkeen ja valitsemalla toisen [[..mapsources|karttalähteen]].|
+|Offline-karttojen tiedot|Tämä infovalinta tarjoaa lisätietoja tuetuista [[..offline#offline_maps|offlinekarttojen]] muodoista ja linkin meidän [[http://faq.cgeo.org|FAQ:hun]], molemmat englanniksi.|
+|Offline-karttojen polku|Tästä voit valita polun, joka sisältää Mapsforgen [[..offline#offline_maps|offlinekarttojen]] tiedostot. \\ \\ :!: Voi olla, ettei automaattinen haku pysty etsimään kaikista kansioista/muisteista. Jos karttapolkua ei löydetä automaattisesti, käytä ''Valitse kansio''-toimintoa, joka näytetään kun haku on suoritettu.|
+|Tietoja karttateemoista|Tämä infovalinta tarjoaa lisätietoja tuetuista offlinekarttateemoista ja linkin meidän [[http://faq.cgeo.org|FAQ:hun]], molemmat englanniksi.|
+|Karttateemojen polku|Tästä voit valita polun, joka sisältää offlinekarttateemat.|
+|Skaalaa kartan tekstit|Skaalaa offline-karttojen tekstit oman laitteen näytön resoluution mukaisesti. Voi helpottaa kartan tekstien luettavuutta isoilla näytöillä varustetuilla laitteilla.//(Default: Activated)//|
+|Kartan kääntö (Google Maps)|Voit kytkeä kartan käännön laitteesi suunnan mukaisesti päälle/pois tai kytkeä manuaalisen kartan käännön päälle.\\ \\ :!: Tämä toiminto on tällä hetkellä saatavilla vain Google Maps-karttoihin.|
+
+<WRAP center round tip 100%>
+Lisätietoja c:geon offline-kartoista löydät [[..offline|Offline-kätköilyn]] ohjesivulta!
+</WRAP>
+
+==== Reittipisteet ====
+{{anchor:waypoints:}}
+
+{{ :en:settings_maps_waypoints.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+| Näytä reittipisteet |Tästä voit valita, montako (tallennettujen) kätköjen reittipistettä näytetään kerralla kartalla.\\ Jos näytettäviä kätköjä on vähemmän kuin asetetun rajan verran, niin näytetään myös niiden reittipisteet. Voit joko käyttää liukusäädintä tai klikata numeroa asettaaksesi uuden arvon. //(Oletus: 20)//|
+| Piilota reittipisteet |Nämä alavalinnat antavat mahdollisuuden piilottaa tietyt reittipisteet kartalta:\\ 1. Piilota alkuperäiset reittipisteet: Jos kätkön listakoordinaatteja on muokattu, niin on luotu reittipiste, joka sisältää alkuperäiset koordinaatit. Tämä valinta piilottaa kyseiset reittipisteet.\\ 2. Piilota parkkipaikka-reittipisteet: Tämä valinta piilottaa kartalta kaikki Parkkipaikka-tyyppiset reittipisteet.\\ 3. Piilota vieraillut reittipisteet: Tämä valinta piilottaa kaikki käyttäjän c:geossa vierailluksi merkityt reittipisteet kartalta.\\ //(Oletus: Kaikki pois päältä)//|
+| Zoomaus sisältää reittipisteet |Tämä valinnan ollessa päällä, zoomaus säädetään automaattisesti niin, että se sisältää kaikki kätkön reittipisteet, jos avaat kartan tietylle kätkölle. //(Oletus: Pois päältä)//|
+==== Kartan sisältö ====
+{{anchor:map_content}}
+
+{{ :en:settings_maps_mapcontent.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Näytä suunta|Näyttää kartalla suoran linjan (tai reititetyn linjan, reititysvalinnan ollessa aktiivisena) sijaintisi ja navigointikohteen välillä.\\ Voit tällä aktivoida suuntalinjan avaamalla kartan yhdelle kätkölle, tai valitsemalla kätkön kartalla ja valitsemalla popup-ikkunasta reititystoiminnan (jälkimmäistä voidaan käyttää vain offline-kartoilla). //(Oletus: Päällä)//|
+|Näytä jälkihistoria|Voit tällä aktivoida jäljen, joka näyttää kartalla kuljetun reitin laitteen sijainnin ja liikkeidesi mukaisesti. //(Oletus: Pois päältä)// \\ \\ :!: Jälki on tarkka vain silloin kun käytät karttaa ja GPS on päällä. Jos poistut kartalta tai laitat GPS:n pois päältä, jälkeen voi tulla "hyppyjä" tai katkoksia. Jos haluat luotettavamman jäljen, sinun tulisi käyttää sitä varten räätälöityä ohjelmaa.|
+|Jälkihistorian maksimipituus| Antaa mahdollisuuden nostaa jälkihistorian käytettävissä olevan pisteiden määrää. Kun raja tulee vastaan, niin vamhimmat jäljen pisteet poistetaan, jos uusia pisteitä lisätään jälkeen. Rajan nostaminen vie enemmän puhelimen muistia. //(Oletus: 700 pistettä)//|
+|Laske reitti|Tällä asetuksella voit asettaa maksimipituuden reitille joka lasketaan ja näytetään kartalla sinun ja valitun kätkön välillä. Voit käyttää liukukytkintä tai klikata numeroa asettaaksesi uuden arvon. //(Oletus: 10km)// \\ \\ :!: Tämä toiminto vaatii [[.:utilityprograms|Brouter-apusovelluksen]] laitteeseesi asennettuna.|
+|Näytä suora etäisyys|Jos asetus on aktiivinen, suora reitti linnuntietä pitkin kohteeseen näytetään reititetyn sijainnin lisäksi, kun reititys on aktiivisena.//(Oletus: Pois päältä)//​| 
+==== Kartan käyttäytyminen ====
+{{anchor:map_behavior}}
+
+{{ :en:settings_maps_mapbehavior.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Kartan pitkä painallus|Valinnan ollessa päällä, voit painaa karttaa pitkään painamalla aktivoida kaksi eri toimintoa:\\ 1. Painaa pitkään kätköä tai sen reittipistettä, lisätäksesi sen [[en:individualroute|yksittäiseen reittiin]].\\ 2. Painaa pitkään karttaa aloittaaksesi [[en:udc|käyttäjän määrittämän kätkön]] luonnin. //(Oletus: Pois päältä)//|
+==== Läheisyysilmoitus ==== 
+{{anchor:proximity:}} 
+
+{{ :en:settings_maps_proximity.png?direct&400 |}} 
+ 
+^ Valinta ^ Selite ^ 
+|Pitkä etäisyys|Määrittää läheisyysilmoituksen pitkän etäisyyden. Voit käyttää liukukytkintä tai klikata numeroa asettaaksesi uuden arvon.| 
+|Lyhyt etäisyys|Määrittää läheisyysilmoituksen lyhyen etäisyyden. Voit käyttää liukukytkintä tai klikata numeroa asettaaksesi uuden arvon.| 
+|Yleinen läheisyysilmoitus kartalla|Kun päällä, yksittäinen ilmoitusääni annetaan jos mikä tahansa kätkö tai reittipiste kartalla on lähempänä kuin pitkä tai lyhyt etäisyys. Pitkän etäisyyden täyttyessä annetaan yksittäinen äänimerkki, lyhyen etäisyyden täyttyessä annetaan kolminkertainen äänimerkki. //(Oletus: Pois päältä)//| 
+|Tietyn reittipisteen läheisyysilmoitus|Kun päällä, toistuva äänimerkki annetaan jos valittu kätkö tai reittipiste tulee lähemmäksi kuin pitkä tai lyhyt etäisyys. Tämä toimii jos kätkön tai reittipisteen tiedot on auki, kätkön tai reittipisteen ponnahdusikkuna on esillä kartalla, tai kun kompassi on aktiivinen. Pitkän etäisyyden täyttyessä annetaan yksittäinen äänimerkki, lyhyen etäisyyden täyttyessä annetaan kolminkertainen äänimerkki. //(Oletus: Pois päältä)//| 
+|Ilmoituksen tyyppi|Tällä valinnalla voit valita, haluatko saada ääni-ilmoituksen, teksti-ilmoituksen ilmoituspalkissa vai molemmat.\\ Vinkki: Jos käytät älykelloa, niin teksti-ilmoitus sallii jonkin verran vuorovaikutusta, koska teksti-ilmoituksen pitäisi näkyä myös älykellossa. //(Oletus: Vain ääni)//|
+
+<WRAP center round important 100%> 
+Riippuen Android-versiosta ja virransäästöasetuksista, läheisyysilmoitus voi lakata toimimasta jos kytket näytön pois päältä. Tarkista laitteesi asetukset ratkaistaksesi ongelman. Olemme myös tutkimassa kuinka tätä käyttäytymistä voidaan yleensä parantaa käyttämällä taustalla olevaa aktiivista ilmoitusta. 
+</WRAP> 
+
+==== Kartan viivojen muokkaus ====
+{{anchor:maplinecustomization:}}
+
+
+
+{{:en:settings_maps_maplinecustomization.png?direct&400|}}{{ :en:settings_maps_maplinecustomization2.png?direct&400|}}
+
+Nämä valinnat antavat mahdollisuuden muokata kartan erilaisten viivojen ja ympyröiden ulkonäköä. Voit vaihtaa niiden väriä, läpinäkyvyyttä, leveyttä sekä ympyrän täyttöväriä oman halusi mukaisesti.
+
+Jokaisen värivalinnan kohdalla voit nollata värin ja läpinäkyvyyden oletukseksi jos tuntuu, että säädit jotakin väärin. Oletusleveys on 10 pikseliä.
+
+Seuraavassa taulukossa selitetään lyhyesti erilaiset viivat ja ympyrät sekä niiden käyttökohde:
+
+
+^ Valinta ^ Selite ^
+|Jälkihistoria|Jos jälkihistoria on aktivoitu [[.settings#map_content|kartan sisältöasetuksissa]], liikkeidesi mukainen piirretään kartalle.|
+|Suuntaviiva|Suuntaviiva on suora tai erityisesti reititetty navigointireitti (jos [[.utilityprograms|BRouter]]-sovellus on asennettu) nykyisestä sijainnistasi valitulle kätkölle tai reittipisteelle (navigointikohde).|
+|Yksittäinen reitti|Yksittäinen reitti on kokoelma kätköjä tai reittipisteitä, jotka olet valinnut kartalta painamalla niitä pitkään. Tätä toimintoa voidaan käyttää kätkömatkojen suunnitteluun, piirtämällä reitti kätköstä/reittipisteestä toiseen. Pitkän painalluksen toiminto tulee aktivoida [[.settings#map_behavior|kartan käyttäytymisen asetuksista]].|
+|Yksittäinen rata|Yksittäinen rata on jälki/reitti, jonka olet tuonut GPX-tiedostosta [[.livemap#top_bar_menu|livekartan valikossa]]. Tätä voidaan käyttää sen reitin visualisointiin, jota haluat seurata.|
+|Ympyrä|Jos aktivoituna [[.livemap#map_settings|kartan asetuksista]], c:geo näyttää ympyrät, joiden etäisyys on 1/10 mailia (161 metriä) kaikkien fyysisten reittipisteiden ympärillä (kuten tradikätköt, kätkön fyysiset vaiheet, mysteerikätköt, joilla on korjatut koordinaatit). Tämä on minimietäisyys, jonka tulee olla kätköjen välillä ainakin geocaching.com-sivuston sääntöjen mukaisesti. Nämä ympyrät voivat auttaa uusien kätköjen piilotuksen suunnittelussa.|
+
+==== Mapsforge-rajapinta ====
+{{anchor:mapsforge_api:}}
+
+{{ :en:settings_maps_mapsforgeapi.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Vanha Mapsforge V3|Kesäkuusta 2018 c:geo on tukenut uutta versiota Mapsforge-kirjastosta. Jotkin näiden kirjastojen toiminnot ovat vielä kehityksen alla, joten voit tarvittaessa palata vanhoihin Mapsforge v3-versioon valitsemalla tämän. \\ On kuitenkin suositeltavaa, että paremman suorituskyvyn sekä laajemman offline-karttojen tuen vuoksi käytät uudempia Mapsforgen kirjastoja.// (Oletus: Pois päältä)//|
+
+===== Kirjaaminen =====
+{{anchor:logging:}}
+
+==== Allekirjoitus ====
+{{anchor:signature:}}
+
+{{ :en:settings_logging_signature.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Allekirjoitus|Tämä valinta avaa tekstinäkymän, jossa voit muokata omaa allekirjoitusmalliasi, jota käytetään jokaisen c:geon kautta tekemäsi loggauksesi alareunassa.\\ Editorissa voit klikata ''Lisää malli'' nähdäksesi listan kaikista mallineista, joita voit käyttää (yksityistietoja alla).|
+|Lisää automaattisesti|Tämä valinta lisää allekirjoituksen lokitekstiisi automaattisesti, kun aloitat kätkön loggauksen c:geossa.\\ Jos tämä on pois päältä, voit asettaa allekirjoituksen tarvittaessa manuaalisesti valitsemalla ''+'' ja ''Allekirjoitus'' kätkön kirjausnäkymässä. //(Oletus: Pois päältä)//|
+
+=== Mallineet ===
+{{anchor:placeholder_templates:}}
+
+Luodessasi allekirjoitusta, voit käyttää useita mallineita, jotka laajennetaan myöhemmin käytettäessä allekirjoitusmallia:
+^ Mallineen nimi ^ Valinta ^ Selite ^ Esimerkki ^
+|[DATE]|Päivämäärä|Lokikirjauksen päivä. Päivämäärän muoto riippuu laitteesi päivämäärämuotoasetuksista.|4.6.2018|
+|[TIME]|Aika|Lokikirjauksen kellonaika. Kellonajan muoto riippuu laitteesi kellonaikamuotoasetuksista.|14:50|
+|[DATETIME]|Päivämäärä & aika|[DATE]:n ja [TIME]:n yhdistelmä, kuten yllä.|4.6.2018 14:50|
+|[USER]|Käyttäjä|Käyttämäsi nimimerkki siinä palvelussa, mihin nyt kirjattava kätkö on merkitty.|Käyttäjänimi|
+|[NUMBER]|Numero|Nykyinen löytömääräsi siinä palvelussa, mihin nyt kirjattava kätkö on merkitty, nostettuna yhdellä, tuloksena löytönumero kyseiselle kätkölle. Tämä malline laskee mukaan myös offline-lokit|4853|
+|[ONLINENUM]|Numero|Sama kuin [NUMBER] mutta ei ota huomioon offline-tilassa kirjattuja lokeja.|4853|
+|[OWNER]|Omistaja|Kirjattavan kätkön omistajan nimimerkki|SuperOwner|
+|[NAME]|Nimi|Kirjattavan kätkön nimi|My first hide|
+|[DIFFICULTY]|Vaikeusaste|Kirjattavan kätkön vaikeusaste|D2,5|
+|[TERRAIN]|Maasto|Kirjattavan kätkön maastoarvo|T4,0|
+|[SIZE]|Koko|Kirjattavan kätkön kokotieto|Iso|
+|[URL]|URL|Kirjattavan kätkön URL-linkki|http://coord.info/GC77|
+|[LOG]|Lokiteksti|Tämä malline sisältää itse logikirjauksen, jossa ei tietenkään ole mitään järkeä käytettäessä sitä logikirjauksessa, mutta se voi olla käytännöllinen [[settings#social_media|twiittausten mallineissa]].|Tämä on oma lokikirjaus. KK!|
+|[TYPE]|Tyyppi|Kirjattavan kätkön tyyppi.|Traditional Cache|
+
+==== Muut lokkausasetukset ====
+{{anchor:other_logging_options:}}
+
+{{ :en:settings_logging_otherloggingoptions.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Reissaajien vierailu|Tämä valinta asettaa kaikki mukanasi oleville matkaajille ''Vieraili''-valinnan kirjatessasi kätköä. //(Oletus: Pois päältä)//|
+|Offline-lokkaus|Tämä toiminto aktivoi ''nopea offline-lokkaus'' -toiminnon, korvaten normaalin kirjausnäkymän. Tätä voidaan käyttää offline-lokkausten/kenttämuistiinpanojen kirjaamiseen.\\ Normaali kirjausnäkymä on tällöin saatavilla ''nopea offlinelokkaus''-alavalikosta. //(Oletus: Pois päältä)//|
+|Näytä offline-lokit|Offline-lokien laskuri (kuten "+1") näytetään geokätköilypalvelussa olevien löytöjesi perässä [[.start#login_status|kotinäytössä]], jos sinulla on kirjauksia, joita et ole vielä lähettänyt.|
+
+<WRAP center round tip 100%>
+Lisätietoja c:geon offline-toiminnoista löydät [[..:offline|Kenttämuistiinpanot]]-kappaleesta!
+</WRAP>
+
+===== Offline-data =====
+{{anchor:offline_data:}}
+
+<WRAP center round tip 100%>
+Löydät lisätietoja c:geon offline-toiminnoista [[..:offline|Offlinekäytön]] artikkelissa!
+</WRAP>
+
+==== Yleinen ====
+{{anchor:generic:}}
+
+{{ :en:settings_offlinedata.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Tallenna kuvat|Jos tämä on aktiivinen, c:geo tallentaa kaikki kätkön lokikirjausten kuvat laitteeseesi offline-käyttöä varten. Sinun tulee päivittää aiemmin tallennetut kätköt tämän toiminnon aktivoimisen jälkeen, jotta saat niiden kuvat offline-käyttöön.\\ Jos tämä valinta on pois päältä, lokikuvat ladataan vain pyydettäessä (avattaessa ne tai menemällä Kuvat-välilehdelle) mutta pysyvät tallennettuina kunnes poistat kätkön laitteestasi. //​(Oletus: ​Pois päältä)//| 
+|Kysy listausta|Tämän ollessa aktiivisena sinulta kysytään mihin listaan kätköön tallennetaan, talletettaessa kätköä. Valinnan ollessa pois päältä kätkö tallennetaan oletuslistaan.//​(Oletus: ​Päällä)//|
+|Toiset listat|Tämän ollessa aktiivisena, c:geo näyttää kätkölistoilla jokaisen kätkön kohdalla myös muiden listojen nimet johon kyseinen kätkö on tallennettu. //​(Oletus: ​Pois päältä)//|
+
+==== GPX ====
+{{anchor:gpx:}}
+
+{{ :en:settings_system_gpx.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|GPX:n vientikansio|Valitse kansio, mihin c:geosta vietävä GPX-tiedosto tallennetaan. //(Oletus:/cgeo/gpx)// \\ \\ :!: c:geolla tulee olla kirjoituslupa valittuun kansioon, joten varmistu, että valitset kansion sisäisestä muistista, ei SD-kortilta.. |
+|GPX:n tuontikansio|Valitse kansio, mistä c:geo etsii GPX-tiedostoja tuotavaksi c:geoon.|
+
+==== Tietokanta ja kätködata ====
+{{anchor:database_and_geocache_data}}
+
+{{ :en:settings_system_database_cachedata.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Tietokannan sijainti - Ulkoisessa muistissa|Kätkötietokanta sisältää pääasiassa listan tallentamista kätköistäsi. Voit tallentaa tämän tietokannan sisäiseen tai ulkoiseen muistiin. Tietokannan sijoittaminen ulkoiseen muistiin saattaa säästää sisäistä muistia, mutta suorituskyky saattaa hieman heikentyä ja c:geo ei toimi jos ulkoinen muisti ei ole saatavilla tai poistat tietokantatiedoston.\\ Koska tietokannan saatavuus on kriittistä c:geon toimivuuden kannalta, ja koko on tyypillisesti vain muutama megatavu, päätimme kieltää siirtämästä sitä ulkoiselle SD-kortille. Valitsemalla "Ulkoisessa muistissa" tietokanta siirretään kansioon ''/Android/data/cgeo.geocaching/files/databases'' (voi vaihdella laitteesta riippuen).\\ \\ :!: Suurimmassa osassa puhelimista järjestelmän ja sisäinen muisti ovat vain eri alueita samasta fyysisestä tallennustilasta, joten tämä toiminto on käytännöllinen vain erityisissä puhelinmalleissa, ja erikoistilanteissa. SD-korttia ei käytetä tässä toiminnossa.|
+|Kätködatan kansio - Valitse kätködatan kansio|Kätköjen lisädata voi olla paljon isompi kuin yllämainittu kätkötietokanta, koska se sisältää kaikki kätkökuvauksen kuvat sekä mahdollisesti lokikirjausten kuvat sekä staattiset kartat. Oletuksena tämä data tallennetaan sisäisen muistin kansioon ''/Android/data/cgeo.geocaching/files/GeocacheData/''. Jos laitteesi tulee ulkoista SD-korttia, niin tämä valinta näyttää saatavat kansiot, sekä nykyisen kätködatan koon, ja saatavilla olevan muistin määrän kohdekansioissa.\\ \\ :!: Kätködatan siirto muistien välillä voi kestää pitkään riippuen kätködatan määrästä. Älä keskeytä prosessia. Varmista, että laiteessasi on riittävästi virtaa.\\ :!: Jos poistat SD-kortin tai SD-kortti on täynnä, kätköjen lisätiedot eivät ole saatavana ja c:geo ei luultavasti toimi odotetulla tavalla.|
+
+==== Ylläpito ====
+{{anchor:maintenance}}
+
+{{ :en:settings_offlinedata_maintenance.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Poista orpotiedostot|c:geo tallentaa kätkön kuvat, lokikuvat sekä muut tiedostot erilliseen kansioon (katso [[settings#database_and_geocache_data|Kätködatakansio]]). Joissakin tapauksissa (esimerkiksi palautettaessa varmuuskopiosta) tämä kansio saattaa sisältää vanhentuneita tiedostoja kätköistä, jotka eivät ole enää tallennettuna laitteeseen. Tämä vanhentunut tiedosto voidaan poistaa tällä toiminnolla.\\ \\ :!: Kun poistat tallennettuja kätköjä listalta, kätköjen lisädata säilytetään 3 vuorokautta, uudelleen lataamisen välttämiseksi käyttäjän virheen varalta. Tämän ajan jälkeen se poistetaan automaattisesti. Tätä toimintoa ei tarvitse tässä tapauksessa käyttää, ja sillä ei ole merkitystä koska kätködata säilytetään 72 tunnin ajan.|
+
+===== Navigaatio =====
+{{anchor:navigation:}}
+
+{{ :en:settings_navigation.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Ensisijainen navigointi|Voit valita oletusnavigointityökalun tästä, joka tarjoaa sinulle helpon ja nopean pääsyn suosimaasi navigointityökaluun. Valittu työkalu aukaistaan kompassiruusukuvakkeen **lyhyellä** klikkauksella kätkötietojen yläosassa tai kartan ponnahdusikkunassa. //(Oletus: Kompassi)//|
+|Toissijainen navigointi|Voit valita toissijaisen navigointityökalun tästä, joka tarjoaa sinulle helpon ja nopean pääsyn toissijaiseen navigointityökaluun. Valittu työkalu aukaistaan kompassiruusukuvakkeen **pitkällä** klikkauksella kätkötietojen yläosassa tai kartan ponnahdusikkunassa. //(Oletus: Kartta)//|
+|Navigointivalikko|Tämä osio tarjoaa mahdollisuuden c:geon löytämien asennettujen ja saatavilla olevien navigointitapojen päälle ja pois kytkemiseen. Voit käyttää sitä navigointivalikon siivoamiseen esim. kytkemällä pois navigointitavat joita et koskaan käytä. //(Oletus: Kaikki päällä)//​|
+
+<WRAP center round tip 100%>
+Luethan [[..navigation|tuetut navigointitavat-osion]] saadaksesi tarkempaa tietoa saatavilla olevista navigointitavoista.
+</WRAP>
+
+===== Järjestelmä =====
+{{anchor:system:}}
+{{anchor:various_other_system_settings:}}
+
+==== Geolokaatio & Orientaatio ====
+{{:en:system_other_1.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Käytä Google Play Palveluita|Laitteissa, jossa on Google Play Palvelut, c:geo voi automaattisesti käyttää parempaa geosijaintipalvelua saadakseen parempia tuloksia ja säästääkseen virtaa..\\ \\ :!: Jos haluat käyttää ulkoista Bluetooth GPS-vastaanotinta sinun tulee kytkeä tämä pois päältä!\\ :!: Joissakin laitteissa Google Play Palvelut ovat saatavilla, mutta ei toimi luotettavasti. Jos sinulla on paikannuksen kanssa ongelmia, tai paikannus ei toimi ollenkaan, kytke tämä valinta pois ja yritä uudelleen.|
+|Aktivoi virransäästötila|Virransäästötilassa c:geo välttää GPS:n ja gyroskoopin käyttöä tilanteissa, joissa tarkka sijainti ei ole välttämätön (kuten kätkölistoissa). Tämä voi kuitenkin venyttää GPS-signaalin hakemisen aikaa silloin, kun tarkkaa sijaintia tarvitaan. Joissakin tilanteissa tämä pidentää puhelimen käyttöaikaa virran suhteen\\ Suosittelemme kuitenkin tämän valinnan pitämistä pois päältä, koska korkein tarkkuus on kätevintä geokätköilyssä yleensäkin. :-)|
+|Pakota suuntatunnistimen käyttö|Joissakin laitteissa tavallinen gyroskooppi käyttäytyy väärin, antaen väärän suunnan käytettäessä c:geon kompassia. Tässä tapauksessa voit tällä valinnalla pakottaa suuntatunnistimen käytön, joka saattaa antaa paremman tuloksen.\\ Suosittelemme tämän käyttämistä vain silloin, kun kompassin käytön kanssa on ongelmia.|
+
+==== Laitteistokiihdytys & Vianetsintä ====
+{{:en:system_other_2.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Mahdollista laitteistokiihdytys|Laitteistokiihdytys renderöi graafiset elementit nopeammin näytölle ja tarjoaa paremman kokemuksen käytettäessä c:geota. Joissakin laitteissa käyttöjärjestelmä sisältää bugeja, jotka voi tehdä jotkut tekstit sumeaksi (etenkin lihavoidun tekstin). Poista tämä valinta vain kyseisessä tapauksessa.|
+|Aktivoi vianjäljitysloki|c:geo voi generoida paljon vianjäljitystietoja, joita voidaan käyttää kehitystarkoituksiin. Käytä tätä toimintoa vain silloin, kun sinua kysytään lähettämään vianjäljitysloki c:geon kehittäjille, tai jos tiedät varmasti mitä teet.\\ \\ :!: Tämä toiminto vaikuttaa c:geon vakauteen. c:geon normaalikäytössä pidä tämä valinta pois päältä!|
+|Generoi lokitiedosto|Tämä valinta generoi järjestelmän lokitiedoston, jonka voit lähettää c:geon tukeen, bugien ja kaatumisten selvittämiseksi. Käytä tätä toimintoa, kun c:geon tukitiimi on niin pyytänyt (vianjäljityslokin aktivoinnin kanssa).|
+|Luo muistivedos|Tämä on toiminto kehittäjille, joka auttaa jäljittämään ongelmia c:geon muistin käsittelyssä. Tämä toiminto ei ole kovin avulias sinulle, vaan se tekee todella ison muistivedoksen järjestelmäsi muistiin. Joten parempi, ettet käytä sitä. :-)|
+|Näytä asetukset|Tämä vianjäljitystoiminto avaa näkymän, jossa kaikki c:geon asetukset ovat nähtävillä ja muokattavissa raakamuodossa.\\ \\ :!: Minkä tahansa asetuksen muuttaminen täällä voi johtaa odottamattomaan ohjelman käyttäytymiseen tai c:geon toiminnan lakkaamiseen. Joten käytä tätä valikkoa vain silloin kun c:geon tuki erityisesti sitä pyytää!|
+===== Varmuuskopiointi / Palautus =====
+
+{{anchor:backup:}}
+
+==== Luo varmuuskopio ====
+
+{{ :en:settings_system_backup.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Varmuuskopioiden maksimimäärä|Säätämällä tätä liukusäädintä voit valita montako vanhempaa varmuuskopiota säilytetään. Kun raja saavutetaan, vanhemmat poistetaan automaattisesti. //(Oletus: 5)//| 
+|Sisällytä tilitoedot| Tämän ollessa valittuna, luotavat varmuuskopiot sisältävät kirjautumistiedot.\\ :!: **Huomaathan, että varmuuskopiotiedostot, myös niissä olevat kirjautumistiedot, voivat olla muiden laitteessasi olevien sovellusten luettavissa.**| 
+|Aloita varmuuskopiointi|Tämä toiminto aloittaa varmuuskopion luonnin tiedostoon (''cgeo.sqlite''), joka sisältää kaikki tallennetut kätkösi, ja toisen varmuuskopion luonnin tiedostoon (''cgeo-settings.xml''), joka sisältää kaikki c:geon asetukset, valinnaisesti sisältäen myös kirjautumistietosi. Varmuuskopiot tallennetaan hakemistoon ''/cgeo/backup/'' sisäiseen muistiisi, kansioon, joka nimetään varmuuskopion päivän ja ajan mukaisesti.\\ Nämä varmuuskopiot säilyvät (myös jos poistat c:geon puhelimesta) kunnes poistat ne manuaalisesti tai varmuuskopioiden maksimimäärä on saavutettu (katso yllä).| 
+
+==== Varmuuskopion palautus ====
+
+{{ :en:settings_system_backup_program.png?direct&400 |}}
+
+^ Valinta ^ Selite ^
+|Palauta|Tämä toiminto palauttaa uusimman varmuuskopion. Uusimman varmuuskopion päivämäärä ja aika näytetään tässä. Seuraavassa palautusprosessin vaiheessa voit valita, haluatko palauttaa kätkät ja/tai ohjelman asetukset. \\ \\ :!: Varmuuskopion palautus **korvaa** kaikki nykyiset tallennetut kätköt ja/tai asetukset varmuuskopiossa olevilla tiedossa. Huomioithan sen käytettäessä tätä toimintoa.|
+|Palauta toinen varmuuskopio|Tällä toiminnolla voit valita palautettavaksi muun kuin uusimman saatavilla olevan varmuuskopion. Tämän valitsemisen jälkeen näytetään hakemistovalitsin, joka listaa olemassa olevat varmuuskopiokansiot hakemistossa ''/cgeo/backup/'', jotka c:geo on nimennyt päivämäärän ja nimen mukaisesti luodessaan niitä. Valitse kansio, josta haluat palauttaa kätköt ja/tai asetukset ja paina OK jatkaaksesi palautusprosessia.\\ Valinnaisesti voit käyttää valitsinta navigoidaksesi toiseen haluamaasi sijaintiin, johon olet mahdollisesti siirtänyt varmuuskopiot, ja tehdä sieltä varmuuskopion palautuksen.|

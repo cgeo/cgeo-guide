@@ -1,0 +1,16 @@
+====== Piilotetut toiminnot ======
+
+Yritämme tehdä jokaisen toiminnon sekä saavutettavaksi että niin itsestäänselvänä kuin mahdollista, niin c:geossa on joitakin oikopolkuja ja edistyneitä toimintoja, joita et löydä välttämättä heti.
+
+Kaikki nämä piilotetut toiminnot selostetaan tässä käyttöohjeessa kyseisen toiminnon osiossa, mutta teille jotka jo tietävät kaikki c:geon toiminnot, keräsimme nämä piilotetut toiminnot tähän, jotta ne voisivat parantaa käyttökokemusta:
+
+
+^ Miten käyttää ^ Toiminto ^ Linkki käyttöohjeen osioon ^
+|Päävalikon Tallennettu-kuvakkeen pitkä painallus|Voit valita suoraan yhden tallentamistasi listoista ja avata sen, sen sijaan että avaisit listan ja sitten käyttäisit yläosan valikkoa toisen listan valitsemiseksi|[[.mainmenu:start#main_icons|Päävalikko]]|
+|Yleisen kätkötyyppisuodattimen pitkä painallus|Nollaa suodattimen (tilaan ''Kaikki kätkötyypit'') siinä tapauksessa kun suodatin on aktiivisena|[[.mainmenu:start#main_icons|Päävalikko]]|
+|Tallennuskuvakkeen pitkä painallus kätkön tiedoissa tai kartan ponnahdusikkunassa|Ei kysy listaa, johon kätkö on tallennettu, vaan käyttää viimeksi käytettyä listaa ja tallentaa kätkön siihen|[[.mainmenu:livemap#list_management|Live-kartta]]\\ [[.cachedetails#list_management|Kätkön tiedot]]|
+|Kompassikuvakkeen pitkä painallus kätkön tiedoissa tai kartan ponnahdusikkunassa|Kun lyhyt painallus avaa oletusnavigoinnin, pitkä painallus tästä aloittaa toissijaisen navigoinnin (Oletus=Kartta, voi vaihtaa [[.mainmenu:settings#navigation|asetuksissa]]).|[[.mainmenu:livemap#top_bar_menu|Live-kartta]]\\ [[.cachedetails#top_bar_menu|Kätkön tiedot]]|
+|Klikkaus suodattimen muistutuksen päällä kartalla tai listoilla|Jos olet asettanut [[.mainmenu:globaltypefilter|yleisen kätkösuodattimen]] tai  [[.mainmenu:lists#filtering|listasuodattimen]], aktiivinen suodatin näkyy suodatinmuistutuksena näytön yläosassa, ylävalikon alapuolella. Tämän muistutuksen klikkaus avaa kyseisen suodattimen asetuksen, jotta voit vaihtaa/poistaa suodattimen.|[[.mainmenu:lists#list_menu|Tallennettu-listat]]|
+|Minkä tahansa ylävalikon kuvakkeen pitkä painallus|Paina pitkään mitä tahansa kuvaketta missä tahansa ylävalikon menussa c:geossa (paitsi kompassikuvaketta sen pitkän painalluksen eri käyttäytymisen vuoksi, kuten yllä selitetty) näyttää kyseisen toiminnon tietotekstin. Voit käyttää tätä jos olet epävarma kuvakkeen tarkoituksesta.|esimerkiksi [[logging#top_bar_menu|Geokätköjen kirjaus]]|
+
+

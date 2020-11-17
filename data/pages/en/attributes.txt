@@ -1,0 +1,124 @@
+====== Attribute icons ======
+
+This page provides an overview about all attribute icons used in c:geo. The attribute icons are used by a cache owner to describe the attributes of a cache and are shown on the [[cachedetails#attributes|cache details]] page. 
+
+<WRAP center round tip 100%>
+You can click on the attribute section in the cache details to view a textual description instead of the icons.
+</WRAP>
+
+Most of the icons can be negated if they are strike through like this: {{:attribute_strikethru.png?nolink&20|}} (e.g. "Available 24/7" would be negated to "Not available 24/7"). 
+
+Not all attributes are available for all geocaching services.
+
+^ Icon ^ Description ^
+|{{:attribute_abandonedbuilding.png?nolink&40 |}}|The geocache is located in an abandoned building|
+|{{:attribute_aircraft.png?nolink&40 |}}|Aircraft needed|
+|{{:attribute_all_seasons.png?nolink&40 |}}|Available at all seasons|
+|{{:attribute_arithmetic.png?nolink&40 |}}|Mathematical tasks need to be solved|
+|{{:attribute_ask_owner.png?nolink&40 |}}|Ask the owner for information|
+|{{:attribute_audio_cache.png?nolink&40 |}}|This is an audio cache|
+|{{:attribute_available.png?nolink&40 |}}|Available 24/7 (at all times)|
+|{{:attribute_bicycles.png?nolink&40 |}}|Bicycles are allowed|
+|{{:attribute_boat.png?nolink&40 |}}|You might need a boat for this cache|
+|{{:attribute_breeding.png?nolink&40 |}}|Birds might be breeding near the cache|
+|{{:attribute_byop.png?nolink&40 |}}|You have to bring your own pen, as there is none in the cache|
+|{{:attribute_campfires.png?nolink&40 |}}|Campfires are allowed|
+|{{:attribute_camping.png?nolink&40 |}}|Camping is allowed|
+|{{:attribute_cave.png?nolink&40 |}}|The geocache is located in a cave|
+|{{:attribute_cliff.png?nolink&40 |}}|The geocache is located in the vicinity of a cliff|
+|{{:attribute_climbing.png?nolink&40 |}}|Climbing will be required for this geocache|
+|{{:attribute_compass.png?nolink&40 |}}|You will need a compass for this geocache|
+|{{:attribute_cow.png?nolink&40 |}}|Animals might be present in vicinity of the geocache|
+|{{:attribute_danger.png?nolink&40 |}}|The geocache is located in a dangerous area|
+|{{:attribute_dangerousanimals.png?nolink&40 |}}|Dangerous animals might be present in vicinity of the geocache|
+|{{:attribute_day.png?nolink&40 |}}|This geocache is available at day time|
+|{{:attribute_dogs.png?nolink&40 |}}|Dogs are allowed|
+|{{:attribute_easy_climbing.png?nolink&40 |}}|The geocache will require easy climbing|
+|{{:attribute_fee.png?nolink&40 |}}|An entrance fee is required to find this geocache|
+|{{:attribute_field_puzzle.png?nolink&40 |}}|A puzzle or some other quests needs to solved in the field|
+|{{:attribute_firstaid.png?nolink&40 |}}|This geocache currently needs owner maintenance as reported by another geocacher|
+|{{:attribute_flashlight.png?nolink&40|}}|A flashlight is required|
+|{{:attribute_food.png?nolink&40|}}|Food is available nearby|
+|{{:attribute_frontyard.png?nolink&40|}}|The cache is located on private grounds|
+|{{:attribute_fuel.png?nolink&40|}}|Fuel ist available nearby|
+|{{:attribute_geohotel.png?nolink&40|}}|This cache is a Geohotel|
+|{{:attribute_geotour.png?nolink&40|}}|This cache is part of a Geotour|
+|{{:attribute_hike_long.png?nolink&40|}}|Long hike (>10km) required|
+|{{:attribute_hike_med.png?nolink&40|}}|Medium hike (<10km) required|
+|{{:attribute_hike_short.png?nolink&40|}}|Short hike (<1km) required|
+|{{:attribute_hiking.png?nolink&40|}}|The cache requires relevant hiking|
+|{{:attribute_hills.png?nolink&40|}}|The cache is in a mountain area|
+|{{:attribute_historic_site.png?nolink&40|}}|A historic site is nearby|
+|{{:attribute_horses.png?nolink&40|}}|Horses/Riding is allowed|
+|{{:attribute_hunting.png?nolink&40|}}|The cache is located in a hunting area|
+|{{:attribute_in_water.png?nolink&40|}}|The cache is located under or in water|
+|{{:attribute_inside.png?nolink&40|}}|The cache is located inside a building|
+|{{:attribute_investigation.png?nolink&40|}}|The cache requires investigation or preparation|
+|{{:attribute_jeeps.png?nolink&40|}}|Jeeps/4WD allowed|
+|{{:attribute_kids.png?nolink&40|}}|The cache is suitable for kids|
+|{{:attribute_landf.png?nolink&40|}}|The cache is part of a Lost&Found adventure|
+|{{:attribute_letterbox.png?nolink&40|}}|This cache is a letterbox|
+|{{:attribute_link_only.png?nolink&40|}}|This cache has an electronic logbook (you will only find a link to it)|
+|{{:attribute_magnetic.png?nolink&40|}}|The cache involves magnetic components or a magnet is required to find the cache|
+|{{:attribute_mine.png?nolink&40|}}|The cache is located in a mine|
+|{{:attribute_motorcycles.png?nolink&40|}}|Motorcycles are allowed|
+|{{:attribute_moving_target.png?nolink&40|}}|This is moving cache|
+|{{:attribute_nature_cache.png?nolink&40|}}|The cache is located in a natural environment|
+|{{:attribute_night.png?nolink&40|}}|This cache is recommended to be done at night time|
+|{{:attribute_nightcache.png?nolink&40|}}|This is a night cache|
+|{{:attribute_no_gps.png?nolink&40|}}|A GPS device is not required to find this cache|
+|{{:attribute_oc_only.png?nolink&40|}}|This cache is only available on Opencaching|
+|{{:attribute_offset_cache.png?nolink&40|}}|This is an offset/multi cache|
+|{{:attribute_onehour.png?nolink&40|}}|Finding this cache needs (less than) one hour|
+|{{:attribute_overnight.png?nolink&40|}}|Overnight stay required|
+|{{:attribute_parking.png?nolink&40|}}|Car parking is available|
+|{{:attribute_parkngrab.png?nolink&40|}}|You can park your car next to the cache (Park & Grab)|
+|{{:attribute_partnership.png?nolink&40|}}|This is a partnership cache|
+|{{:attribute_pedestrian_only.png?nolink&40|}}|This cache can be done by pedestrians only|
+|{{:attribute_phone.png?nolink&40|}}|Phone available nearby|
+|{{:attribute_picnic.png?nolink&40|}}|Picnic tables nearby|
+|{{:attribute_poi.png?nolink&40|}}|The cache is nearby a point of interest|
+|{{:attribute_poisonoak.png?nolink&40|}}|Poisenous plants nearby the cache|
+|{{:attribute_public.png?nolink&40|}}|Public transport available|
+|{{:attribute_puzzle.png?nolink&40|}}|Solving a puzzle is require to find the cache|
+|{{:attribute_quads.png?nolink&40|}}|Quads/ATV allowed|
+|{{:attribute_quick_cache.png?nolink&40|}}|This is a quick to find cache|
+|{{:attribute_railway.png?nolink&40|}}|Railway available|
+|{{:attribute_rappelling.png?nolink&40|}}|Aid climbing required|
+|{{:attribute_restrooms.png?nolink&40|}}|Restrooms available|
+|{{:attribute_rv.png?nolink&40|}}|Mobile homes allowed|
+|{{:attribute_s_tool.png?nolink&40|}}|Special tools required|
+|{{:attribute_safari_cache.png?nolink&40|}}|This is a Safari cache (Opencaching)|
+|{{:attribute_scenic.png?nolink&40|}}|Scenic view nearby|
+|{{:attribute_scuba.png?nolink&40|}}|Scuba gear required|
+|{{:attribute_seasonal.png?nolink&40|}}|Access to cache might depend on season|
+|{{:attribute_shovel.png?nolink&40|}}|Shovel required|
+|{{:attribute_skiis.png?nolink&40|}}|Skiing requires/allowed|
+|{{:attribute_specific_access.png?nolink&40|}}|Specific access times apply|
+|{{:attribute_snow_proof.png?nolink&40|}}|Cache is snow proof|
+|{{:attribute_snowmobiles.png?nolink&40|}}|Snow mobiles allowed|
+|{{:attribute_snowshoes.png?nolink&40|}}|Snow shoes required|
+|{{:attribute_specific_times.png?nolink&40|}}|Cache only available at specific times|
+|{{:attribute_stealth.png?nolink&40|}}|Stealth required|
+|{{:attribute_stroller.png?nolink&40|}}|Cache is stroller accessible|
+|{{:attribute_survey_marker.png?nolink&40|}}|Cache has an electronic marker|
+|{{:attribute_swamp.png?nolink&40|}}|Swamp nearby|
+|{{:attribute_swimming.png?nolink&40|}}|Swimming required|
+|{{:attribute_syringe.png?nolink&40|}}|Syringe|
+|{{:attribute_teamwork.png?nolink&40|}}|Cache requires teamwork|
+|{{:attribute_thorn.png?nolink&40|}}|Thorns nearby|
+|{{:attribute_ticks.png?nolink&40|}}|Ticks nearby|
+|{{:attribute_tide.png?nolink&40|}}|Cache might depend on tide|
+|{{:attribute_touristok.png?nolink&40|}}|Touristic cache|
+|{{:attribute_treeclimbing.png?nolink&40|}}|Cache requires tree climbing|
+|{{:attribute_unknown.png?nolink&40|}}|Unknown attribute|
+|{{:attribute_usb_cache.png?nolink&40|}}|USB cache|
+|{{:attribute_uv.png?nolink&40|}}|UV light required|
+|{{:attribute_wading.png?nolink&40|}}|Cache might require wading|
+|{{:attribute_water.png?nolink&40|}}|Drinking water available|
+|{{:attribute_webcam.png?nolink&40|}}|Webcam nearby the cache|
+|{{:attribute_wherigo.png?nolink&40|}}|WheriGo cache|
+|{{:attribute_winter.png?nolink&40|}}|Cache available in winter time|
+|{{:attribute_wirelessbeacon.png?nolink&40|}}|Cache includes a wireless beacon|
+
+

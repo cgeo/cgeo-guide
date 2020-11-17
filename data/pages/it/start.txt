@@ -1,0 +1,10 @@
+FIXME ** Questa pagina non è ancora completamente tradotta. Chi può potrebbe aiutarne il completamento. ** \\ // (Rimuovere questo paragrafo a lavoro completato) //
+
+====== c: geo Guida utente ======
+
+<WRAP center round important 100%>
+Il manuale non è ancora presente nella tua lingua.
+Si prega di utilizzare [[en: start | English version]] invece.
+</WRAP>
+
+~~GOTO>en:start~~

@@ -1,0 +1,92 @@
+====== Offline-Caching ======
+
+===== Allgemeine Bemerkungen =====
+{{anchor:general_remarks:}}
+
+Die Hauptanwendung von c:geo ist, einen Online-Zugriff auf deine Geocaching-Plattform zu ermöglichen. Dennoch bietet c:geo auch Offline-Funktionen um es ohne jede Netzwerk-Verbindung (z.B. beim Cachen im Ausland oder außerhalb der Netzabdeckung) zu verwenden.
+
+Um c:geo komplett offline zu nutzen, musst du einige Dinge - je nach Bedarf - vorbereiten: your needs:
+
+  * Speichere die Caches, die du finden möchtest offline  (manuell, über [[offline#gpx_import|GPX-Import]] oder aus einem [[.mainmenu:pocketquery|Pocket-Query]]).
+  * Lade eine [[offline#offline_maps|Offline-Karte]] für das entsprechende geographische Gebiet.
+  * Aktiviere die benötigten [[.mainmenu:settings#offline_data|Offlinedaten-Einstellungen]] um z.B. Logbilder mit den Caches abzuspeichern, um diese ebenfalls offline verfügbar zu haben.
+
+Diese Seite beschreibt diese Offline-Szenarien.
+
+<WRAP center round tip 100%>
+Wenn du jedweden Datenverkehr vermeiden möchtest, solltest du die Internet-Verbindung deines Gerätes generell trennen, denn c:geo wird immer versuchen eine Onlineverbindung herzustellen, sobald es gestartet wird. Auf den meisten Geräten wird die Internet-Verbindung ohnehin generell unterbrochen, sobald das Gerät sich im Ausland befindet. Ansonsten solltest du z.B. den Flugmodus aktivieren.
+</WRAP>
+
+
+===== GPX-Import =====
+{{anchor:gpx_import:}}
+
+
+GPX-Dateien enthalten Informationen zu Caches und ihren Wegpunkten.
+Du kannst GPX-Dateien aus verschiedenen Quellen bekommen. Zum Beispiel kannst du als Premiummitglied von geocaching.com deine Listen oder Pocket-Queries als GPX-Datei exportieren.
+
+<WRAP center round info 100%>
+c:geo unterstützt explizit GPX-Dateien von geocaching.com und GPX-Dateierweiterungen von Opencaching-Seiten. Wenn deine GPX-Datei aus einer anderen Quelle stammt, aber die gleiche Syntax verwendet, wird sie wahrscheinlich auch funktionieren.
+</WRAP>
+
+Für den Import einer GPX-Datei hast du zwei Möglichkeiten:
+
+  * Benutze einen Datei-Browser auf deinem Gerät, klicke auf eine GPX-Datei, die auf deinem Gerät gespeichert ist und wähle c:geo als Ziel-Applikation. Dies zeigt ein Auswahlfenster, wo du auswählen musst, in welche [[.mainmenu:lists|Liste]]  die Caches aus der GPX-Datei importiert werden sollen.
+  * Öffne eine [[.mainmenu:lists|Liste]] gespeicherter Caches oder erstelle eine neue Liste und wähle dann ''Menü'' -> ''Importieren'' -> ''GPX-Datei importieren''. Dies scannt das Verzeichnis, welches du in den [[.mainmenu:lists#system|Einstellungen]] angegeben hast und bietet dir an eine der gefundenen GPX-Dateien von dort zu importieren. Nach dem Import enthält die gewählte Liste die importieren Caches.
+
+Beachte bitte, dass einige Cacheinformationen nicht in einer GPX-Datei enthalten sind. Falls du eine der folgenden Informationen benötigst, musst du sie manuell hinzufügen in dem du z.B. den Cache online aktualisierst:
+
+^ Information ^ Beschreibung ^
+|Attribute|Damit GPX-Dateien von geocaching.com auch die Attribute des Caches beinhalten, musst du auf der Webseite auswählen, dass du die GPX-Version 1.0.1 verwenden möchtest.|
+|GCVote Bewertung|Da GCVote ein externer Dienst ist, ist die Bewertungsinformation nicht in der GPX-Datei enthalten.|
+|Listingbilder|Die GPX-Datei enthält die Links zu jedem Bild, welches der Cachebesitzer in seinem Listing verwendet, aber sie enthält nicht das Bild selbst. Du musst den Cache öffnen oder ihn aktualisieren, damit die Bilder geladen und gespeichert werden.|
+|Logbilder|Die GPX-Datei enthält die Links zu jedem Bild, welches nutzer in ihren Logeinträgen angehangen haben, aber sie enthält nicht das Bild selbst. Du musst den Cache öffnen oder ihn aktualisieren, damit die Bilder geladen und gespeichert werden.|
+|Favoritenpunkte|Damit GPX-Dateien von geocaching.com auch die Anzahl der Favoritenpunkte des Caches beinhalten, musst du auf der Webseite auswählen, dass du die GPX-Version 1.0.1 verwenden möchtest.|
+
+===== Offline-Logs =====
+{{anchor:offline_logging:}}
+
+Du hast zwei Möglichkeiten Offline-Logs mit c:geo zu schreiben:
+
+  - Du schreibst einfach dein Log wie gewohnt, aber statt es online abzusenden speiherst du es indem du ''Offline speicher'' im Menü der [[logging#top_bar_menu|Logseite]] auswählst.
+  - Aktiviere die ''Offline-Log''-Funktion, welche komplett offline funktioniert, in den [[.mainmenu:settings#other_logging_options|Einstellungen]].
+
+Während sich die erstgenannte Möglichkeit nicht von der Online-Nutzung unterscheidet, ersetzt die zweite Möglichkeit den Menüeintrag  ''Besuch loggen'' durch den Menüeintrag ''Offline loggen''. Sobald die Funktion aktiviert ist, sendet c:geo also die Logeinträge nicht online, sondern speichert den Fundstatus nur offline.
+
+Wenn diese Funktion aktiviert ist, wird bei Auswahl von ''Offline loggen'' folgendes Kontextmenü angezeigt:
+
+{{:en:oneclickofflinelog.png?nolink&400 |}}
+
+Klicke einfach auf den gewünschten Logtyp und dein Offline-Log wird entsprechend automatisch gespeichert. 
+Die Funktion ''Log leeren'' ist nur verfügbar, wenn du bereits einen Offline-Log gespeichert hast. In diesem Fall ist auch der vorhandene Logtyp durch einen roten Haken im Menü markiert.
+
+Du kannst hier auch ''Besuch loggen'' auswählen um die normale [[logging|Log-Ansicht]] zu öffnen und einen eigenen Text zu schreiben, den du dann offline speicherst.
+
+
+
+=====Export von FieldNotes =====
+{{anchor:field_note_export:}}
+
+FieldNotes (auch bekannt als Feldnotizen oder "Drafts") werden von geocaching.com und einigen Opencaching-Seiten unterstützt und ermöglichen das Offline loggen und das gesammelte Hochladen dieser Offline-Logs auf die Webseite.
+
+c:geo unterstützt den Export von FieldNotes und kann diese auch automatisch auf die Webseite hochladen (nur geoaching.com). 
+
+Die offline geloggten Caches sind in deinen [[.mainmenu:lists|Listen]] durch eine orange Linie und auf der [[.mainmenu:livemap|map]] mit einen roten Smiley markiert. Um diese Caches zu exportieren musst du die entsprechende Liste gespeicherter Caches oder den [[.mainmenu:history|Verlauf]] öffnen und dort ''Menü → Export → Field Notes''  auswählen.
+
+{{:en:fieldnote_export.png?nolink&400 |}}
+
+Die exportieren FieldNotes werden von c:geo im Verzeichnis ''/cgeo/field-notes''deines internen Speichers abgelegt und mit Datum/Uhrzeit des Exports benannt (wird auch im Export-Fenster angezeigt).
+
+Du kannst nun entweder die FieldNote-Datei nur auf deinem Gerät speichern oder diese zusätzlich auf die Geocaching-Webseite hochladen, in dem du die Option ''Hochladen auf geocaching.com'' aktivierst.
+
+Die Schaltfläche ''Nur seit letztem Export'' prüft das Datum des letzten Hochladens auf geocaching.com und exportiert nur die FieldNotes, die nach diesem Zeitpunkt erstellt wurden.
+
+Nach dem Export deiner FieldNotes auf die Geocaching-Webseite, wird dir dort [[https://www.geocaching.com/my/fieldnotes.aspx|auf dieser Seite]] angezeigt, dass es ausstehende FieldNotes/Drafts gibt. Beachte bitte, dass es nach dem Hochladen eine Minute dauern könnte, bis die ausstehenden FieldNotes dort angezeigt werden.
+
+===== Offline-Karten =====
+{{anchor:offline_maps:}}
+
+c:geo unterstützt auf OpenStreetMap basierte Offline-Karten-Dateien im [[http://mapsforge.net|Mapsforge]]-Format.
+
+Weitere Erklärungen findest du in unserer [[offlinemaps|Anleitung für Offline-Karten]].
+

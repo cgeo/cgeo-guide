@@ -1,0 +1,56 @@
+====== Utilização do c:geo  ======
+
+Esta página descreve alguns princípios básicos do Geocaching e como utilizar o c:geo para encontrar Geocaches.
+===== O que é o Geocaching? =====
+
+Explicar todo sobre o Geocaching seria um pouco demais para este guia. Mas há alguns factos que tem de conhecer antes de começar a fazer Geocaching com o c:geo: 
+
+É importante aprender os diferentes tipos de caches, classificações de D (Dificuldade)/T (Terreno), atributos, etc.
+
+É possível que  não consiga encontrar uma cache se apenas selecionar uma aleatória no c:geo e navegar até à mesma.
+Há muitos mais detalhes que precisará de conhecer antes de escolher a cache que mais se adequa à sua procura.
+
+A maioria das plataformas de Geocaching que o c:geo suporta oferecem guias detalhados sobre como funciona o Geocaching. __Recomendamos__ que leia estes guias para aprender tudo o que precisa para encontrar a sua primeira geocache e como registar a visita.
+
+Deve ter especialmente atenção ao tipo de geocache (Normalmente uma cache do tipo "mistério" não está nas coordenadas publicadas) e à classificação T (uma cache T5 significa que normalmente será preciso escalar, nadar ou mergulhar para chegar à cache).
+
+<WRAP center round important 100%>
+Como qualquer atividade ao ar livre o Geocaching pode ser perigoso. Nem o c:geo, nem qualquer uma das plataformas de Geocaching se responsabilizam pelas suas atividades. Tenha atenção e precaução em relação ao que está a fazer, como faria com qualquer outra atividade ao ar livre.
+</WRAP>
+
+
+===== Encontrar a primeira cache com o c:geo =====
+
+A partir do menu principal aceda a ''Mapa'' {{:main_live_default.png?nolink|}} ou ''Por perto'' {{:main_nearby_default.png?nolink|}} para ver as caches à sua volta.
+
+{{:pt:livemap_1.png?direct&300|}}{{ :pt:lists_1_pt.png?direct&300|}}
+
+Após visualizar as caches por perto a partir do [[.mainmenu:livemap|mapa]] ou da [[.mainmenu:lists|lista]], escolha uma cache que gostaria de encontrar (uma cache tradicional com um classificação D/T baixa será um bom ponto de partida) e abra os detalhes da mesma.
+
+{{:pt:cachedetails_details.png?direct&300 |}}
+
+Após abrir a página de detalhes poderá arrastar para a esquerda ou direita para ver [[cachedetails|mais informação]] sobre a cache (ex. descrição, pontos adicionais, registos ,etc.). Leia a descrição e preste atenção à classificação D/T e aos atributos para saber mais sobre como encontrar e registar esta cache.
+
+<WRAP center round important 100%>
+Relembrando:\\
+È importante conhecer os tipos de caches diferentes, as classificações de terreno, atributos, etc. antes de começar a procurar uma cache!
+</WRAP>
+
+Após escolher a cache e estar preparado para a encontrar, carregue no ícone ''Navegar'' {{:ic_menu_goto.png?nolink|}}, localizado na barra superior da página de detalhes da cache. Estão disponíveis [[.navigation|várias opções]] dependendo da necessidade e preferência do utilizador. Aqui estão algumas das opções de navegação disponíveis e uma breve descrição:
+
+
+  * **[[compass|Bússola]]**:\\ Vai mostrar de forma constante a direção e a distância até à cache.
+{{ :pt:navigate_compass.png?direct&300 |}}
+  
+
+  * **Navegar (Conduzir, Caminhar, Andar de Bicicleta)**:\\ Vai mostrar a navegação até à cache no Google Maps.
+{{ :pt:navigate_driving.png?direct&300 |}}
+
+  * **Radar** (opcional):\\ Se estiver instalada [[.mainmenu:utilityprograms|uma aplicação de radar suportada]] esta opção mostrará o radar. Esta função é semelhante à bússola, mas o funcionamento é um pouco diferente. Tipicamente aparecerão as coordenadas da cache como um marcador no radar, se este marcador chegar ao centro do radar, significa que chegou às coordenadas.
+
+<WRAP center round tip 100%>
+Está é apenas uma breve introdução às funcionalidades do c:geo. Para saber mais sobre o funcionamento e menus do c:geo, deverá continuar a ler o [[start#users_manual|Guia de Utilizador do c:geo]].
+</WRAP>
+                  
+
+

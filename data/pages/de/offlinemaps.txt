@@ -1,0 +1,143 @@
+====== Anleitung für Offline-Karten ======
+
+===== Einführung =====
+
+c:geo unterstützt [[https://www.openstreetmap.org|Openstreetmap]] basierte Offline-Karten im [[https://mapsforge.net|Mapsforge]]-Format.
+
+Die Nutzung von Offline-Karten in c:geo in Kombination mit gespeicherten Caches ermöglichst eine komplette Offline-Nutzung von c:geo (z.B. wenn du eine mobile Datenverbindung nicht nutzen kannst oder möchtest).
+
+Zusätzlich zu Offline-Kartendateien unterstützt c:geo auch die zugehörigen Kartenthemen. Durch die Nutzung eines maßgeschneiderten Kartenthemas in Kombination mit einer Offline-Karte kannst du die Ansicht der Karte nach deinen Bedürfnissen anpassen (z.B. Höhenlinien, Wanderwegmarkierungen, und vieles mehr). Manche Offline-Karten benötigen sogar eine Installation des passenden Themas um korrekt angezeigt zu werden.
+
+Diese Anleitung beschreibt, wie man solche Offline-Karten und Themen herunterlädt, installiert und konfiguriert.
+
+===== Karten/Themen herunterladen =====
+
+Zu aller erst musst du eine kompatible Offline-Kartendatei, die das benötigte geographische Gebiet abdeckt, herunterladen. Es gibt mehrere Dienste im Internet, die regelmäßig aktualisierte und gebrauchsfertige Kartendaten bereitstellen.
+
+Die folgende Tabelle gibt einen Überblick über einiger Quellen für kompatible Karten, wo du deine Offline-Karten herunterladen kannst:
+
+^ Name ^ Abdeckung ^ Beschreibung ^ Kompatibilität ^ Kosten ^
+|[[https://download.mapsforge.org|Mapsforge Kartenserver]]|Weltweit|Dieser Server beinhaltet weltweite vor-gebaute Karte und POIs, die mit dem neuesten Mapsforge-Writer erstellt wurden.\\ \\ //Bitte nutze ihren "Mirror-Server" für deine Kartendownloads.//|Die Karten in den Verzeichnissen V4 und V5 sind kompatibel mit c:geo.\\ V3-Karten können genutzt werden, wenn du "Alte Mapsforge V3" in den c:geo [[.mainmenu:settings#mapsforge_api|Einstellungen]] aktivierst, aber wir empfehlen diese Version nicht mehr zu nutzen.\\ Angepasste Themen-Dateien werden nicht angeboten, die Karten-Dateien funktionieren am besten mit dem c:geo Standardthema.|Kostenfreie Nutzung|
+|[[https://openandromaps.org|OpenAndroMaps]]|Weltweit|OpenAndroMaps bietet herunterladbare Vektorkarten zur freien Nutzung mit Smartphones|Benutze den "Multilingual V4-map" Link um eine mit c:geo kompatible Karte herunterzuladen.\\ Wir empfehlen diese Karten zusammen mit dem passenden OpenAndroMaps-Kartenthema "Elevate 4" zu nutzen, welches auch auf dieser Webseite heruntergeladen werden kann.|Kostenfreie Nutzung, Spenden willkommen|
+|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europe|Kartendaten für Garmin-Geräte und Android-Smartphones.|Sehr detailierte Karten, aber sie benötigen ein passendes Thema (welches auch auf der Webseite heruntergeladen werden kann) um eine korrekte Ansicht zu haben.|Kostenfreie Nutzung, Spenden willkommen|
+
+Die oben stehende Tabelle gibt nur ein paar Beispiele für Kartenanbieter, es gibt noch viele weitere.
+
+===== Installation =====
+
+<WRAP center round info 100%>
+Nutzer berichten, dass einige (Hersteller)tools um Dateien zwischen PC und Smartphone zu übertragen, die Daten während der Übertragung verändern oder beschädigen. Daher empfehlen wir alle Dateien direkt auf dein Smartphone herunterzuladen und dann einen guten Datei-Explorer auf deinem Gerät zu verwenden, um die Dateien zu dekomprimieren/kopieren/verschieben wie unten beschrieben.
+</WRAP>
+
+==== Kartendateien ====
+
+Die heruntergeladene Offline-Kartendatei muss auf deinem Gerät in einem Ordner deiner Wahl gespeichert werden. Wenn die heruntergeladene Datei gepackt ist (''*.zip'') musst du sie zuerst entpacken. Die korrekte Dateinamenserweiterung für Kartendateien ist ''*.map'' (z.B. ''germany.map'').
+
+Wenn du mehrere Kartendateien zur Nutzung mit c:geo installieren möchtest, solltest du alle Dateien in den gleichen Ordner ablegen. Da c:geo später so konfiguriert wird, dass Kartendateien in einem bestimmten Ordner gesucht werden, sind dann alle diese Karten in c:geo auswählbar.
+
+{{:en:offlinemap_mapfile_location.jpg?direct&400|}}
+
+Lass uns für diese Anleitung annehmen, dass du die Datei(en) in ''/sdcard/mymaps'' abgespeichert hast.
+
+==== Themen ====
+
+Wenn du (optional) auch ein Thema für deine Offlinekarte heruntergeladen hast, musst du dieses zusätzlich zur Kartendatei auf deinem Gerät speichern.
+
+Typischerweise ist das heruntergeladene Thema gepackt (''*.zip'') und muss vor der Nutzung mit c:geo entpackt werden. Die gepackte Datei enthält meistens einige Ordner und eine Große Menge kleiner Dateien. Bitte stell sicher, dass du beim Entpacken diese Struktur beibehältst.
+
+Alle diese Dateien und Ordner musst du in einen Order deiner Wahl auf dein Gerät kopieren.
+
+{{:en:offlinemap_themefile_location.jpg?direct&400|}}
+
+Lass uns für diese Anleitung annehmen, dass du die Themendateien in ''/sdcard/mythemes'' abgespeichert hast. 
+
+===== Konfiguration =====
+
+Nachdem du die Kartendateien (und optional die Themen) auf deinem Gerät gespeichert hast, musst du in c:geo die korrekten Verzeichnissen einstellen, damit die Karten/Themen gefunden werden.
+
+Du findest die zugehörigen Einstellungen in c:geo Menü -> Einstellungen -> Karte. Eine detailierte Beschreibung des Einstellungsmenüs findest du [[.mainmenu:settings#map|hier]].
+
+Zu Beginn sind die zugehörigen Einstellungen noch leer:
+
+{{ :en:offlinemap_settings_empty.png?direct&400 |}}
+
+In diesem Menü musst du das Verzeichnis auswählen, in dem du die Kartendateien (und Themen) im vorherigen Schritt dieser Anleitung gespeichert hast.
+
+Bleiben wir bei unserem Beispiel oben, musst du also die folgenden Verzeichnisse einstellen:
+^ Menüeintrag ^ Einstellung ^
+|Verzeichnis mit Offline-Karten|/sdcard/mymaps|
+|Karten-Themes-Verzeichnis|/sdcard/mythemes|
+
+Um diese Ordner auszuwählen, klicke einfach auf dein jeweiligen Menüeintrag. c:geo durchsucht dann automatisch deine Ordner und versucht den Ordner mit den Dateien selbständig zu finden. Wenn die Liste bereits den Order mit deinen Kartendateien enthält, kannst du diesen einfach auswählen. Wenn das richtige Verzeichnis hier nicht angezeigt wird, musst du oben auf ''Verzeichnis wählen'' klicken um anschließend das Verzeichnis manuell einzugeben/auszuwählen.
+
+{{ :en:offlinemap_file_scanner.jpg?direct&400 |}}
+
+<WRAP center round tip 100%>
+Auf einigen Geräten kann die Suche des richtigen Ordners frustrierend sein, da der gleiche Ordner unter verschiedenen Pfaden gleichzeitig zu finden ist, wobei die Sichtbarkeit der Pfade in jeder App unterschiedlich sein kann. Ein typisches Beispiel ist, dass  ''/sdcard/mymaps'' auch manchmal als ''/storage/emulated/0/mymaps'' oder als so etwas wie ''/storage/1234-5678/mymaps'' angezeigt wird.\\
+Durch die vielen verschiedenen Implementierungen abhängig von Hersteller, Modell,Android-Version und Gerätekonfiguration können wir dir keine generelle Information hierzu geben, sondern du musst den richtigen Pfad auf deinem Gerät suchen.
+</WRAP>
+
+Wenn du ''Verzeichnis wählen'' anklickst, öffnet sich ein Datei-Explorer (das Aussehen hängt von deiner Android-Version und evtl. installierten Drittanbieter-Tools ab), in dem du die Ordner durchsuchen und das korrekte Verzeichnis auswählen kannst.
+
+Die folgenden Bilder zeigen zwei verschiedene typische Datei-Explorer und visualisieren die Schritte, die du machen musst um den richtigen Order für die Kartendatei gemäß unserem Beispiel auszuwählen. Die Auswahl des Themen-Ordners läuft identisch ab, nur musst du hier den Ordner mit den Themen auswählen.
+
+{{:en:offlinemap_chooser_cgeo_map.jpg?direct&300|}}
+{{ :en:offlinemap_chooser_locus_map.jpg?direct&300|}}
+
+Wenn wir bei unserem Beispiel-Verzeichnissen bleiben, sollte das Menü am Ende folgendermaßen aussehen:
+
+{{ :en:offlinemap_settings_done.jpg?direct&400 |}}
+
+Jetzt bist du bereit deine Kartendateien (und Themen) in c:geo zu nutzen.
+
+
+===== Nutzung =====
+<WRAP center round important 100%>
+Nach dem Hinzufügen von neuen Karten/Themen in die konfigurierten Verzeichnisse muss c:geo neu gestartet werden, damit die neuen Dateien erkannt werden.
+</WRAP>
+
+==== Kartendatei nutzen ====
+
+Wenn du die Verzeichnisse korrekt konfiguriert hast, wird c:geo nun alle verfügbaren Offline-Karten in der Kartenauswahl auf der (Live)karte und in c:geo Menü -> Einstellungen -> Karte anzeigen.
+
+{{:en:offlinemap_map_selector_2.jpg?direct&400|}}
+{{ :en:offlinemap_map_selector.jpg?direct&400|}}
+
+Einmal ausgewählt wird c:geo diese Kartendatei, statt einer Online-Karte, dauerhaft verwenden um die Karte darzustellen.
+
+==== Thema nutzen ====
+
+Nach der Auswahl einer Offline-Kartendatei, kannst du das Thema zuweisen, welches genutzt werden soll um die Karte darzustellen.
+
+Dies kann im Menü der Live(karte) mit dem Menüeintrag ''Kartendarstellung wählen'' ausgewählt werden. Wenn du zusammen mit deiner Offline-Karte auch ein Thema installiert hast, dann stelle sicher, dass du hier das zugehörige Thema aktiviert hast.
+
+{{:en:offlinemap_theme_selector.jpg?direct&400|}}
+{{ :en:offlinemap_theme_menu.jpg?direct&400|}}
+
+
+
+
+
+===== Erweiterte Themen-Optionen =====
+
+Wenn du ein Thema installiert hast, kannst du die Sichtbarkeit und Darstellung bestimmter Kartenelemente deinen Bedürfnissen anpassen. Du findest diese Option im Menü der Live(karte) unter ''Themen-Optionen''.
+
+{{ :en:offlinemap_advanced_themeoptions.jpg?direct&400 |}}
+
+Hier kannst du einen grundlegenden Kartenstil (z.B. Wandern, Fahrrad, Auto) auswählen und diesen danach durch Ein-/Ausschalten einzelner Kartenelemete anpassen.
+
+{{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
+
+===== Weiterführende Links zu Offline-Karten =====
+
+Links zu einigen Präsentationen und Anleitungen von c:geo Nutzern
+
+^ Link ^ Sprache ^ Beschreibung ^ 
+|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Deutsch|Präsentation zu c:geo und Offline-Nutzung|
+
+
+
+
+
+
+

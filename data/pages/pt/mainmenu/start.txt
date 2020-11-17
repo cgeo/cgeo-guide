@@ -1,0 +1,72 @@
+====== Ecrã Inicial ======
+
+Esta página descreve a informação e as funções do ecrã inicial do c:geo.
+
+===== Ícones Principais =====
+{{anchor:main_icons:}}
+
+{{ :PT:mainmenu_2.png?direct&400 |}}
+
+A tabela seguinte fornece uma visão geral dos ícones do menu principal:
+
+^ Ícone ^ Função ^ Descrição ^
+|{{:main_live_default.png?nolink&100|}}|[[livemap|Mapa]]|O mapa apresenta uma vista ao vivo da sua localização e as geocaches à volta. Pode arrastar este mapa e ver geocaches em outras localizações. É necessária conexão à internet para ver tanto o mapa como a localização mais atualizada das caches. Por favor note que as caches apresentadas estão sujeitas a filtragem, ver em baixo para mais informação.|
+|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Por Perto]]|Apresenta uma lista de geocaches por perto. Ao contrário do mapa ao vivo, esta função, mostra uma consulta online com base na sua localização (adquirida através do GPS ou da rede) Não atualiza automaticamente quando muda de localização. É necessária conexão à internet para utilizar esta função.\\ \\ Caso não exista um sinal GPS válido ou outro meio de localização, este menu será desativado.|
+|{{:main_stored_default.png?nolink&100|}}|[[lists|Memória]]|Apresenta as suas caches guardadas, prontas para uso offline. No entanto, poderá utilizar esta lista tanto para uso offline, sem conexão à internet, como também para utilização online como se fosse uma lista de "a fazer". Esta lista evita tráfego e atrasos desnecessários. Se já existirem caches guardadas então este ícone mostrará o número de caches guardadas, na parte superior direita.\\ Poderá carregar durante uns segundos neste ícone para ir diretamente para uma lista em específico.|
+|{{:main_search_default.png?nolink&100|}}|[[search|Pesquisar]]|Pesquisa caches por palavras-chave, Geo-código, endereço, nome de utilizador, etc.|
+|{{:main_any_default.png?nolink&100|}}|[[goto|Ir Para]]|Navega para uma localização, utilizando o compasso, o radar, ou outros métodos de navegação suportados.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Filtro global de tipo de cache ]]| Filtra as geocaches, apresentadas no mapa, na pesquisa e nas listas, por tipo de cache. Poderá visualizar todas as caches ou apenas as caches de um determinado tipo. O texto por baixo deste ícone irá apresentar o tipo de cache ativo no momento.\\ Poderá premir, durante uns segundos, este ícone para restaurar o filtro geral.|
+
+===== Menu Superior =====
+{{anchor:top_bar_menu:}}
+
+A parte superior do menu principal contêm funções adicionais, apresentadas como um ícone na barra superior ou escondido no chamado "menu de transbordo" (botão de três pontos). Todas as funções disponíveis estão descritas em pormenor em baixo.
+
+<WRAP center round info 100%>
+Os ícones apresentados na barra superior e os conteúdos escondidos no menu são distribuídos de forma dinâmica com base na resolução e orientação do seu dispositivo. Devido a este facto, poderá ser possível visualizar, mais ou menos itens no menu ou como ícones na barra superior.\\
+No caso de uma função no menu ser apresentada como ícone, poderá premir durante uns segundos o mesmo para ver a sua função.
+</WRAP>
+
+{{ :pt:main_topbarmenu.png?direct&400 |}}
+
+^ Ícone ^ Função ^ Descrição ^
+|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Procurar cahces]]|Ao contrário da função pesquisar do menu principal, esta pesquisa vai procurar uma lista de caches guardadas na memória assim como as online, e vai apresentar uma lista de resultados com base no termo pesquisado. No caso de caches guardadas esta função vai pesquisar quase toda a informação da cache (titulo, geo-código, descrição, dono, registos (logs), etc.) No caso das caches não guardadas poderá pesquisar geo-códigos, códigos de trackable, nome de utilizador, etc.|
+|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Histórico]]|O histórico exibe uma lista de caches que visualizou recentemente. Esta lista não está sincronizada com a lista de visualizadas recentemente no site do geocaching.com.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Abre uma lista de pocket queries a partir do servidor do geocaching.com (esta função não está disponível para [[..:basicmembers|menbros básicos]] do geocaching.com).|
+|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Definições]]|Esta função exibe os menus de configuração do c:geo.|
+|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Cópia de segurança (Backup)]]|Este ícone funciona como um atalho para a função de cópia de segurança que pode também ser acedida através das [[settings|definições]] do c:geo.|
+|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utilitários]]|Esta função exibe uma lista de aplicações úteis para o geocaching, que podem ser usadas em conjunto com c:geo.|
+|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Ler código GC]]|Se existir uma aplicação de leitura de [[utilityprograms|códigos de barras]] instalada, esta função permite ler códigos GC (Geo-códigos).|
+| |Convidar amigos|Esta função abre uma nova janela onde é possível recomendar o c:geo aos seus contactos do google.|
+|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Sobre o c:geo]]|Esta função mostra informação como a versão do c:geo, contribuidores, contactos e outros detalhes sobre o c:geo.|
+
+===== Secção Inferior =====
+{{anchor:​bottom_section:}}
+
+{{ :pt:mainmenu_4.png?direct&400 |}}
+
+A parte inferior do ecrã inicial mostra informação sobre o estado da sua sessão e informação sobre a localização atual e o está do satélite.
+
+==== Estado da Sessão (Login) ====
+{{anchor:login_status:}}
+
+No topo desta secção é apresentado uma linha com informação de sessão (login) para cada um dos [[settings#Services|serviços de Geocaching]] que configurou e ativou nas [[settings|definições do c:geo]].\\
+Neste exemplo o nome de utilizador é apresentado como ''Nome de utilizador'' e está com sessão iniciada no geocaching.com (''GC'') e no opencaching.de (''OC.DE''). O número em frente ao nome de utilizador representa as geocaches encontradas no respetivo serviço.
+
+==== Localização atual ====
+{{anchor:current_location:}}
+
+Por baixo do estado da sessão é apresentada a localização atual na forma de coordenadas ou (no caso de [[settings#Appearance|Mostrar endereço]] estar ativo) o país e a cidade/região onde está de momento.\\
+Neste exemplo o utilizador está em ''Portugal, Vila Nova de Gaia''
+
+==== Estado do satélite ====
+{{anchor:satellite_status}}
+
+A última linha desta secção mostra o estado da receção de satélite da seguinte forma (exemplo a partir da figura acima):
+
+^ Estado ^ Descrição ^
+|Sat: 0/24|O recetor de satélite do seu dispositivo encontrou 24 satélites no total e o sinal está fixado em 0 satélites de momento.|
+|+- 17,6 m|A precisão atual da localização é de 17,6 metros (dependo das suas definições, esta opção poderá ser apresentada em outras unidades de medida).|
+| 0 km/h|A velocidade atual é 0 km/h (dependo das suas definições, esta opção poderá ser apresentada em outras unidades de medida).|
+|Combinados|Mostra a fonte da localização presentada de momento\\ \\ Última Conhecida = A última posição que o c:geo adquiriu\\ Coordenadas de casa = As coordenadas definidas como casa no geocaching.com \\ GPS = Localização obtida através do receptor de GPS \\ Rede = Localização obtida através da rede móvel \\ Combinados = Localização obtida utilizando os serviços da Google Play e o sinal do recetor de GPS para uma melhor localização|

@@ -1,0 +1,120 @@
+====== Het loggen van Geocaches ======
+
+Als je een bezoek voor een geocache gaat registreren, wordt het volgende scherm weergegeven.
+
+{{:nl:logging.png?direct&300 |}}{{:nl:logging_2.png?direct&300 |}}
+
+===== Bovenste balk menu =====
+{{anchor:top_bar_menu:}}
+
+<WRAP center round info 100%>
+De pictogrammen die worden weergegeven in de bovenste balk en de inhoud achter de Overloop menu knop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie .</WRAP>
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{ :ic_menu_send.png?nolink&40 |}}|Verzenden|Gebruik deze knop om je log online te verzenden nadat je klaar bent met het samenstellen ervan.|
+|{{ :ic_menu_add.png?nolink&40 |}}|Toevoegen|Hiermee kun je een toevoegen [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toevoegen aan de log.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menu|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en worden daarom als een lijst weergegeven. De functies die in deze lijst wordt getoond, worden ook in deze tabel beschreven.|
+|{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Foto koppelen]]|Hiermee kun je een bestaande afbeelding selecteren of een nieuwe foto maken, die aan het logboek wordt toegevoegd.|
+| |Smilies|Opent een lijst met smiley pictogrammen, die je kan toevoegen aan je bericht.|
+| |Off line opslaan|Slaat je log offline op in plaats van versturen naar de geocaching server.|
+| |Herhaal laatste log|Deze functie zal de laatste log tekst, die je gebruikt hebt in het tekstveld plaatsen.|
+| |Trackable sorteren|Je kunt de volgorde van de lijst met trackables wijzigen door te sorteren op naam of op trackingcode.|
+| |Wissen|Dit zal de log tekst verwijderen en het log scherm resetten.|
+
+===== Logboekscherm =====
+{{anchor:logging_screen:}}
+
+==== Log typen ====
+{{anchor:log_types:}}
+
+{{ :nl:logging_logtype.png?nolink&300 |}}
+
+^ Log Type ^ Omschrijving ^
+|Gevonden|You have found this cache.\\ Dit is het standaard log type wanneer je het log scherm opent.\\ \\ :!: Dit log type is niet meer beschikbaar als je deze log bij deze cache eerder hebt gebruikt.|
+|Bezocht|Dit log type is beschikbaar bij event caches en gebruikt als alternatief voor de ''Gevonden'' log.|
+|Webcam foto gemaakt|Dit log type is alleen beschikbaar voor webcam caches en wordt gebruikt als alternatief coor de ''Gevonden'' log.|
+|Zal deelnemen|Dit log type is beschikbaar bij event caches en vertelt de organisator dat je bij dit evenement aanwezig zal zijn.|
+|Niet gevonden|Je hebt de cache niet gevonden.|
+|Notitie|Schrijf een commentaar / notitie voor deze cache.|
+|Onderhoud nodig|Selecteer dit log type om door te geven dat aan de eigenaar dat de cache onderhoud nodig heeft.\\ \\ :!: Dit log type is niet langer beschikbaar voor geocaching.com en sommige opencachingsites maar is vervangen door de [[logging#report_problem|rapporteer probleem]] functie.|
+|Moet worden gearchiveerd|Selecteer ditlog type om te rapporteren dat de cache zou moeten worden geärchiveerd.\\ \\ :!: Dit log type is niet langer beschikbaar voor geocaching.com en sommige opencachingsites maar is vervangen door de [[logging#report_problem|rapporteer probleem]] functie.|
+|Onderhoud uitgevoerd|Dit log type is alleen beschikbaar als je de eigenaar van de cache bent en maakt het mogelijk om te melden dat er onderhoud aan de cache is uitgevoerd.|
+|Uitgeschakeld|Dit log type is alleen beschikbaar als je de eigenaar van de cache bent en maakt het mogelijk om de cache tijdelijk uit te schakelen.|
+|Ingeschakeld|Dit log type is alleen beschikbaar als je de eigenaar van de cache bent en maakt het mogelijk om een uitgeschakelde cache weer in te schakelen.|
+|Geärchiveerd|TDit log type is alleen beschikbaar als je de eigenaar van de cache bent en maakt het mogelijk om de cache permanent uit te schakelen en te archiveren.|
+
+==== Log datum ====
+{{anchor:log_date:}}
+
+{{:nl:logging_date.png?nolink&300 |}}
+
+Standaard zal c:geo de datum van vandaag gebruiken en dit tonen als ''Vandaag'' in dit veld. Je kunt echter een andere datum selecteren wanneer je op de tekst ''Vandaag'' drukt. Er verschijnt dan een kalender waar je de gewenste datum kunt selecteren voor deze log.
+
+==== Rapporteer probleem ====
+{{anchor:report_problem:}}
+
+{{ :nl:logging_problem.png?nolink&300 |}} 
+
+Voor caches van geocaching.com en sommige van de opencaching-sites kun je parallel een probleem melden wanneer je met  "Gevonden" of "Niet gevonden" logt in het logboek.
+
+Klik op het veld om een vervolgkeuzemenu te openen met de beschikbare probleemrapporten (afhankelijk van de geocachingprovider, cachetype, cachestatus en logtype):
+
+^ Menu item ^ Omschrijving ^
+|Geen Probleem|Er wordt geen probleemrapport aan je logboek toegevoegd.\\ Dit is de standaard selectie.|
+|Logboek is vol|Informeert de eigenaar, dat het logboek van de cache vol is.|
+|Container is misschien vermist|Informeert de eigenaar, dat de cache container mogelijk is verdwenen.\\ Dit probleem type is niet beschikbaar met een "Gevonden" log.|
+|Container is beschadigd|Informeert de eigenaar, dat er iets mis is met de geocache container.|
+|Cache zou moeten worden gearchiveerd|Informeert de beheerder / reviewer van de geocaching provider, dat de cache zou moeten worden gearchiveerd.|
+|Anders|Een ander probleem dat je verder zou moeten beschrijven in je tekst.|
+
+==== GCVote waardering ====
+{{anchor:gcvote_rating:}}
+
+{{:en:logging_gcvote.png?nolink&300 |}}
+
+Dit gedeelte wordt alleen weergegeven als je dit hebt ingeschakeld en geautoriseerd bij [[http://gcvote.com|GCVote]] in de [[.mainmenu:settings|instellingen]]. Je kunt het dan gebruiken om de kwaliteitsbeoordeling te selecteren die je aan de cache wilt geven. Klik eenvoudig op de sterren om een score tussen 1 en 5 sterren in stappen van een 0,5 ster te selecteren. De ondertitel toont je de tekstuele equivalent van de classificatie die je hebt geselecteerd (bijv "Beter dan gemiddeld" = 3.5 sterren).
+
+De beoordeling wordt verzonden wanneer je het logboek verzendt.
+
+==== Favorieten ====
+{{anchor:favorite_point:}}
+
+{{:en:logging_favorite.png?nolink&400 |}}
+
+Dit veld wordt alleen getoond als je premium lid bent van geocaching.com. Als je het selectievakje inschakelt, wordt een favoriet aan de cache toegewezen wanneer het logboek wordt verzonden. De waarde tussen haakjes geeft de hoeveelheid resterende favorieten die je hebt.
+==== Twitter ====
+{{anchor:twitter:}}
+
+{{:en:logging_twitter.png?nolink&400 |}}
+
+Als je c:geo hebt verbonden met [[https://twitter.com|Twitter]] in de [[.mainmenu:settings#social_media|instellingen]], wordt dit veld weergegeven. Als je het selectievakje inschakelt zal c:geo een tweet plaatsen parallel aan het verzenden van dit logboek aan de geocaching service.
+
+===== Inventaris =====
+{{anchor:inventory:}}
+
+{{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
+
+In dit gedeelte worden alle trackables weergegeven die zich momenteel in je inventaris bevinden. Het toont het pictogram van het type (bijv. Travelbug, Geokrety), de traceercode en de naam van de trackable. Je kunt op elk van hen drukken om de [[trackabledetails|trackable details]] te bekijken.
+Via het vervolgkeuzemenu aan de rechterkant kun je de actie selecteren die je wilt uitvoeren met deze trackable in deze cache:
+
+^ Menu item ^ Omschrijving ^
+|Doe niets|Voer geen acties uit voor deze trackable bij de log van deze cache.|
+|Bezocht|Laat deze trackable deze cache bezoeken bij de log van deze cache.|
+|Gedropt|Laat deze trackable achter in het inventaris van deze cache wanneer je deze cache logt.|
+
+Onder de trackable lijst kun je op de de knop '' Alles wijzigen '' drukken om de actie voor alle trackables van je inventaris in één keer  uit te voeren.
+===== Foto koppelen =====
+{{anchor:attach_image:}}
+
+Door de optie ''Foto koppelen'' te kiezen in het menu in de [[logging#top_bar_menu|bovenste balk]] zal er een nieuw scherm verschijnen waar je een afbeelding kan toevoegen aan je log.
+
+{{ :nl:logging_attachimage.png?nolink&400 |}}
+
+Selecteer''Bestaande'' om een foto te kiezen uit je gallerij app op je apparaat. Kies ''Nieuw'' om je camera te activeren en een nieuwe afbeelding te maken.
+
+Daarna kun je een bijschrift en een omschrijving toevoegen aan de afbeelding van de cache log.
+Optioneel kun je de afbeelding verkleinen naar andere pixel grootten om het dataverkeer te verminderen wanneer je de foto met je log upload naar de geocaching provider.
+
+<WRAP center round info 100%>
+Momenteel ondersteunt c:geo dslecht één enkele afbeelding aan een log en het is nog niet mogelijk om meerdere afbeeldingen toe te voegen.
+</WRAP>
