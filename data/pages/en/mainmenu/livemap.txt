@@ -89,7 +89,7 @@ This section of the map popup provides several menu options concerning the selec
 {{anchor:cache_information}}
 
 The middle section of the map popup window shows helpful information about the selected cache.
-Some of the information might not be shown depending on the loading status of the selected cache (e.g. due to the [livemap#strategy| loading strategy]].
+Some of the information might not be shown depending on the loading status of the selected cache (e.g. due to the [[livemap#strategy| loading strategy]]).
 
 {{ :en:livemap_popup_4.png?direct&400 |}}
 
