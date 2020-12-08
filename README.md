@@ -9,9 +9,7 @@ As the current server installation is owned and maintained privately by a c:geo 
 
 ## Content of this repository
 - /data/pages - Contains the current content pages
-- /data/meta - Contains meta information of the pages
 - /data/media - Contains the current media files (Images and other files uploaded to the Wiki)
-- /data/media_meta - Meta data for the media
 - /data/attic - All old versions of the content pages
 - /data/media_attic - All the old versions of media files
 - /conf - Some relevant configuration data (without confidential information)
