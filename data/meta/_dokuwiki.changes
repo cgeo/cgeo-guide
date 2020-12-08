@@ -1,0 +1,609 @@
+1578248048	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	update		49
+1578248910	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	lil grammar fix		0
+1578249045	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	C	fi:offlinemaps	vike91	luotu		9121
+1578249487	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttojen/teemojen lataus] 		343
+1578249623	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Installation] 		79
+1578249907	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Map files] 		-7
+1578249925	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttatiedostot] 		-1
+1578249943	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttatiedostot] 		-1
+1578250162	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Themes] 		-7
+1578251220	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Configuration] 		99
+1578251291	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Usage] 		10
+1578251431	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Using the map file] 		32
+1578251544	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Using the theme] 		-30
+1578251710	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Advanced theme options] 		18
+1578251797	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Further reading on offline maps] 		40
+1578251810	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	fixme out		-10
+1578251963	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	D	fi:mmlkartat	vike91	delete page		-923
+1578252050	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	update		45
+1578252075	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	update		7
+1578252100	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	fix		1
+1578252199	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offline	vike91	update		-721
+1578252301	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:mainmenu:lists	vike91	update		76
+1578252795	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	update		-1
+1578257609	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:mainmenu:settings	vike91	update		4436
+1583172000	163.158.56.205	e	nl:sidebar	linstylemon			54
+1583172841	163.158.56.205	e	nl:offlinemaps	linstylemon	[Downloaden van kaarten/thema's] 		92
+1583173012	163.158.56.205	E	nl:offlinemaps	linstylemon	[Installation]  NL		107
+1583173187	163.158.56.205	E	nl:start	linstylemon	[Speciale functies en hints] 		6
+1583358175	163.158.56.205	E	nl:offlinemaps	linstylemon	[Map files] 		11
+1583504791	131.254.18.129	E	fr:start	ijeantet	Update Démarrage rapide		-22
+1583513966	131.254.18.129	C	fr:installation	ijeantet	Première traduction Anglais -> Français		6591
+1583586252	109.10.43.173	E	fr:installation	ijeantet	[Mise à jour] Image de notification		-53
+1583586535	109.10.43.173	E	fr:installation	ijeantet	Remove FIXME as the translation is complete		-159
+1583591032	109.10.43.173	e	fr:installation	ijeantet	Correction de typos		12
+1583592452	109.10.43.173	C	fr:firststeps	ijeantet	Première traduction Anglais -> Français (Mise en route et configuration)		4896
+1583604992	109.10.43.173	E	fr:firststeps	ijeantet	Traduction "Se connecter à geocaching.com"		588
+1583605541	109.10.43.173	E	fr:sidebar	ijeantet	Traduction du menu "Démarrage rapide"		53
+1583605576	109.10.43.173	E	fr:start	ijeantet	[A propos de c:geo] 		0
+1583605765	109.10.43.173	E	fr:start	ijeantet	Update anchors		5
+1583606099	109.10.43.173	E	fr:start	ijeantet	Update anchors		0
+1583606216	109.10.43.173	e	fr:sidebar	ijeantet			-2
+1583608486	109.10.43.173	E	fr:firststeps	ijeantet	Traduction "Se connecter à des plateformes Opencaching"		178
+1583618944	163.158.56.205	E	nl:offlinemaps	linstylemon	[Themes]  NL		50
+1583619623	163.158.56.205	e	nl:offlinemaps	linstylemon	[Configuration] 		63
+1583744065	131.254.18.129	E	fr:firststeps	ijeantet	Fin de la traduction du texte		96
+1583745600	131.254.18.129	E	fr:firststeps	ijeantet	Ajout de captures d'écran fr		18
+1583750035	131.254.18.129	C	fr:basicuse	ijeantet	Traduction "Qu'est ce que le géocaching ?"		4134
+1583752308	131.254.18.129	E	fr:basicuse	ijeantet	Traduction "Séléctionner une cache"		163
+1583759175	131.254.18.129	E	fr:basicuse	ijeantet	Traduction "Outils de navigation"		129
+1583760891	131.254.18.129	E	fr:basicuse	ijeantet	Ajout de captures d'écran fr		-175
+1583762393	131.254.18.129	E	fr:start	ijeantet	Traduction "Menu principal"		53
+1583763611	131.254.18.129	E	fr:sidebar	ijeantet	Traduction "Écran principal"		-15
+1583774534	131.254.18.129	C	fr:mainmenu:start	ijeantet	Traduction "Icônes principales"		7608
+1583835657	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Menu supérieur"		149
+1583844275	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Menu supérieur"		328
+1583844701	131.254.18.129	E	fr:mainmenu:start	ijeantet	Ajout de captures d'écran fr		0
+1584023647	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Bandeau inférieur"		376
+1584095676	131.254.18.129	e	en:mainmenu:livemap	ijeantet			1
+1584116287	131.254.18.129	C	fr:mainmenu:livemap	ijeantet	Traduction "Menu supérieur"		14366
+1584192360	109.10.43.173	E	fr:mainmenu:livemap	ijeantet	Traduction "Contenu de la carte"		148
+1584792313	2.205.118.14	E	en:mainmenu:goto	lineflyer	Start adaption to new internal cache 		-659
+1584792366	2.205.118.14	E	en:mainmenu:goto	lineflyer	New internal cache		-757
+1584792690	2.205.118.14	E	en:mainmenu:goto	lineflyer	Add waypoint projection manual		707
+1584792720	2.205.118.14	E	en:mainmenu:goto	lineflyer	[How to perform a waypoint projection] 		6
+1584793188	2.205.118.14	E	de:mainmenu:goto	lineflyer	Neues Goto-Menü		-679
+1584793213	2.205.118.14	E	de:mainmenu:goto	lineflyer	Link		1
+1584793228	2.205.118.14	E	de:mainmenu:goto	lineflyer	[Gehe zu Menü] 		1
+1584793283	2.205.118.14	E	de:mainmenu:goto	lineflyer	[Gehe zu Menü] 		1
+1584832779	37.219.160.43	E	fi:mainmenu:livemap	vike91	remove the changed flag		1
+1584833331	37.219.160.43	E	fi:mainmenu:goto	vike91	update		-541
+1584833388	37.219.160.43	E	fi:mainmenu:goto	vike91	[Kuinka laskea reittipiste käyttäen suuntaa ja etäisyyttä] 		10
+1584833443	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-3
+1584833512	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-13
+1584833568	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		3
+1584833591	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		14
+1584833649	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-1
+1584833724	37.219.160.43	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		1
+1587550594	77.251.40.128	e	nl:mainmenu:livemap	quidje	Update according several menuitem updates in crowdin		-10
+1587550669	77.251.40.128	e	nl:mainmenu:livemap	quidje	Crowding update 'show cirkel' update on this page (part II)		-6
+1587550801	77.251.40.128	E	nl:start	quidje	[c:geo Gebruikershandleiding] : no space after ':' in productname		-1
+1587550828	77.251.40.128	e	nl:start	quidje	[Over c:geo] No space in productname		-2
+1587550859	77.251.40.128	e	nl:start	quidje	[Aan de slag met c:geo] No space in productname		-1
+1587550907	77.251.40.128	e	nl:basicuse	quidje	[c:geo Basis] Removed space in productname		-1
+1587550949	77.251.40.128	e	nl:basicuse	quidje	[Wat is Geocaching?] Removed spaces in productname		-4
+1587551115	77.251.40.128	e	nl:sidebar	quidje	Removed space in productname		-1
+1587551158	77.251.40.128	e	nl:start	quidje	[Over deze handleiding] Removed space in productname		-1
+1587551174	77.251.40.128	e	nl:start	quidje	[Handige Links] Removed space in productname		-1
+1587551276	77.251.40.128	e	nl:mainmenu:settings	quidje	[c:geo Instellingen] Removed space in productname		-1
+1587551314	77.251.40.128	e	nl:mainmenu:settings	quidje	[Geocaching] Removed spaces in productname		-4
+1587551351	77.251.40.128	e	nl:mainmenu:settings	quidje	[Sociale media] Removed spaces in productname		-5
+1587551378	77.251.40.128	e	nl:mainmenu:settings	quidje	[Andere instellingen] Removed spaces in productname		-3
+1587551406	77.251.40.128	e	nl:mainmenu:settings	quidje	[Uiterlijk] removed spaces in productname		-4
+1587551437	77.251.40.128	e	nl:mainmenu:settings	quidje	[Cache Details] removed spaces in productname		-3
+1587551459	77.251.40.128	e	nl:mainmenu:settings	quidje	[Kaartgegevens] removed spaces in productname		-2
+1587551488	77.251.40.128	e	nl:mainmenu:settings	quidje	[Handtekening] removed spaces in productname		-2
+1587551512	77.251.40.128	e	nl:mainmenu:settings	quidje	[Mapsforge API] removed space in productnames		-1
+1587551530	77.251.40.128	e	nl:mainmenu:settings	quidje	[Andere opties voor log] removed space in productname		-1
+1587551559	77.251.40.128	e	nl:mainmenu:settings	quidje	[Offline gegevens] removed space in productname		-3
+1587551576	77.251.40.128	e	nl:mainmenu:settings	quidje	[Navigatie] removed space in productname		-1
+1587551604	77.251.40.128	e	nl:mainmenu:settings	quidje	[GPX] removed space in productname		-4
+1587551626	77.251.40.128	E	nl:mainmenu:settings	quidje	[Database en Geocache gegevens] removed space in productname		-2
+1587551647	77.251.40.128	e	nl:mainmenu:settings	quidje	[Backup] removed space in productname		-1
+1587551705	77.251.40.128	E	nl:mainmenu:settings	quidje	[Diverse andere systeem instellingen] removed space in productname		-9
+1587554434	77.251.40.128	e	nl:coordformat	quidje	removed 'o' from cooordinaat		-1
+1587554529	77.251.40.128	e	nl:sidebar	quidje	removed 'o' from cooordinaat		-1
+1587554838	77.251.40.128	e	nl:compass	quidje	[Kompas] removed space in productname		-1
+1587554957	77.251.40.128	e	nl:nfc	quidje	Removed space in productname		-5
+1587554992	77.251.40.128	e	nl:installation	quidje	[Installatie van c:geo] removed space from productname		-4
+1587555016	77.251.40.128	e	nl:installation	quidje	[Machtigingen] removed space from productname		-5
+1587555042	77.251.40.128	e	nl:installation	quidje	[Updaten van c:geo] removed space from productname		-6
+1587555065	77.251.40.128	e	nl:installation	quidje	[Beta versies van c:geo] removed space from productname		-4
+1587555083	77.251.40.128	E	nl:firststeps	quidje	[Aan de slag] 		-1
+1587555102	77.251.40.128	e	nl:firststeps	quidje	[C:geo verbinden met Opencaching platformen] 		-5
+1587555124	77.251.40.128	e	nl:mainmenu:start	quidje	[Bovenste balk menu] 		-2
+1587555134	77.251.40.128	e	nl:mainmenu:start	quidje	[Login status] 		-1
+1587555143	77.251.40.128	e	nl:mainmenu:start	quidje	[Satelliet status] 		-1
+1587555173	77.251.40.128	e	nl:mainmenu:livemap	quidje	[Kaartinstellingen] 		-2
+1587555193	77.251.40.128	e	nl:mainmenu:lists	quidje	[Opgeslagen caches] 		-1
+1587555206	77.251.40.128	e	nl:mainmenu:lists	quidje	[Cache lijst] 		-2
+1587555218	77.251.40.128	e	nl:mainmenu:lists	quidje	[Filtering] 		-1
+1587555237	77.251.40.128	e	nl:mainmenu:lists	quidje	[Sorteren] 		-1
+1587555248	77.251.40.128	e	nl:mainmenu:lists	quidje	[Toon op kaart] 		-1
+1587555280	77.251.40.128	e	nl:mainmenu:globaltypefilter	quidje			-1
+1587555319	77.251.40.128	e	nl:cachedetails	quidje	[Persoonlijke notitie] 		-1
+1587555342	77.251.40.128	e	nl:logging	quidje	[Twitter] 		-2
+1587555364	77.251.40.128	e	nl:loggingtb	quidje	[Zoeken van een trackable] 		-1
+1587555373	77.251.40.128	e	nl:loggingtb	quidje	[Trackable Inventaris] 		-1
+1587555406	77.251.40.128	e	nl:navigation	quidje	[Navigatie methoden/hulpmiddelen] 		-1
+1587555428	77.251.40.128	e	nl:offline	quidje	[General opmerkingen] 		-4
+1587555454	77.251.40.128	e	nl:offline	quidje	[GPX importeren] 		-3
+1587555466	77.251.40.128	e	nl:offline	quidje	[Offline loggen] 		-2
+1587555479	77.251.40.128	e	nl:offline	quidje	[Veldnotities exporteren] 		-2
+1587555488	77.251.40.128	e	nl:offline	quidje	[Offline kaarten] 		-1
+1587555510	77.251.40.128	e	nl:cacheicons	quidje	[Geocache Iconen] 		-1
+1587555527	77.251.40.128	e	nl:cachemarkers	quidje			-1
+1587555572	77.251.40.128	e	nl:mapsources	quidje	[Kaartbronnen] 		-1
+1587555605	77.251.40.128	e	nl:attributes	quidje			-1
+1587555642	77.251.40.128	e	nl:mainmenu:utilityprograms	quidje			-8
+1587555657	77.251.40.128	e	nl:offlinemaps	quidje	[Inleiding] 		-1
+1587555667	77.251.40.128	e	nl:offlinemaps	quidje	[Downloaden van kaarten/thema's] 		-2
+1587555692	77.251.40.128	e	nl:intents	quidje			-10
+1587555735	77.251.40.128	e	nl:hiddenfunctions	quidje			-2
+1587555973	77.251.40.128	e	nl:spoilersync	quidje			-4
+1587555986	77.251.40.128	e	nl:notecoords	quidje	[Automatisch maken van waypoints] 		-1
+1587556130	77.251.40.128	e	nl:start	quidje	[Hoofdmenu] 		0
+1587556192	77.251.40.128	e	nl:start	quidje	[Offline functies] 		-1
+1587736782	45.89.174.69	C	fr:mapsources	ijeantet	Traduction "Fonds de carte"		779
+1587737106	45.89.174.69	E	fr:sidebar	ijeantet	Traduction "Fonds de carte"		1
+1587747978	45.89.174.69	C	fr:cacheicons	ijeantet	Traduction "Icônes des géocaches"		4783
+1587748006	45.89.174.69	E	fr:cacheicons	ijeantet	Traduction "Icônes des géocaches"		-159
+1588066426	45.89.174.69	C	fr:mainmenu:globaltypefilter	ijeantet	Traduction "Filtre général du type de caches"		849
+1588417213	163.158.56.205	E	nl:offlinemaps	linstylemon	[Configuratie] / translated to dutch		136
+1588417259	163.158.56.205	e	nl:offlinemaps	linstylemon	[Configuratie] 		-3
+1590649683	163.158.160.54	E	nl:offlinemaps	linstylemon	[Usage] : En to NL		58
+1590649945	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		12
+1590650176	163.158.160.54	E	nl:offlinemaps	linstylemon	En to NL		35
+1590650430	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		18
+1590650713	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		8
+1590650748	163.158.160.54	E	nl:offlinemaps	linstylemon	Completed translation / delete fix me		-162
+1590651050	163.158.160.54	E	nl:nfc	linstylemon	changed url to dutch		0
+1590651716	163.158.160.54	D	playground:firststeps	linstylemon	delete		-7507
+1590651786	163.158.160.54	D	playground:installation	linstylemon	delete		-5727
+1590651810	163.158.160.54	D	playground:playground	linstylemon	delete		-8845
+1592947008	127.0.0.1	E	wiki:welcome		external edit		1705
+1595365134	2001:14bb:410:f378:e84c:585f:8ab:89fd	E	fi:start	vike91	grammar fix		8
+1597858320	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		301
+1597858544	178.26.130.151	E	en:notecoords	eddiemuc	[Automatic creation of waypoints] 		163
+1597859691	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		112
+1597861284	178.26.130.151	E	en:notecoords	eddiemuc	add first draft for advanced waypoint syntax		2079
+1597861889	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		712
+1597871180	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		416
+1597871287	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		3
+1597872210	178.26.130.151	E	en:notecoords	eddiemuc	explain waypoint backup		1017
+1597872280	178.26.130.151	E	en:notecoords	eddiemuc	[Waypoints created for coordinates in personal notes] 		10
+1603355949	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		188
+1603356069	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		13
+1603356582	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		544
+1603357258	88.69.176.81	E	en:mainmenu:livemap	lineflyer	Add hiding menu explanation		965
+1603357291	88.69.176.81	e	en:mainmenu:livemap	lineflyer	typo		1
+1603357424	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Hiding elements] 		-1
+1603357656	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Hiding elements] 		312
+1603357717	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Hiding elements] 		297
+1603357771	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Map settings] 		-1042
+1603357831	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Map settings] 		144
+1603357898	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		12
+1603358179	88.69.176.81	E	en:mainmenu:lists	lineflyer	[Manage Caches] 		27
+1603358353	88.69.176.81	E	en:mainmenu:goto	lineflyer	[Go to menu] 		11
+1603358629	88.69.176.81	E	en:mainmenu:goto	lineflyer	[Go to menu] 		-2
+1603358646	88.69.176.81	E	en:mainmenu:goto	lineflyer	[Go to menu] 		-73
+1603358753	88.69.176.81	E	en:sidebar	lineflyer	Add user defined caches		34
+1603358780	88.69.176.81	E	en:sidebar	lineflyer	syntax		1
+1603358865	88.69.176.81	E	en:start	lineflyer	[Offline functions] 		46
+1603358910	88.69.176.81	E	en:start	lineflyer	[User defined caches] 		76
+1603359240	88.69.176.81	E	en:mapsources	lineflyer	Add new map sources		214
+1603359272	88.69.176.81	E	en:mapsources	lineflyer	typo		-1
+1603359384	88.69.176.81	E	en:mapsources	lineflyer	Change info about rotation		-68
+1603359488	88.69.176.81	E	en:attributes	lineflyer	typo		1
+1603360776	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Appearance] 		153
+1603360967	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Appearance] 		109
+1603363616	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Cache Details] 		122
+1603364186	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map Data] 		194
+1603364232	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map Data] 		55
+1603364267	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		-5
+1603364376	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		44
+1603364403	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		398
+1603364436	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		-39
+1603364649	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		569
+1603364756	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Waypoints] 		165
+1603365102	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map Content] 		-104
+1603365302	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map Content] 		440
+1603365449	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map behavior] 		-1
+1603365847	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Proximity Notification] 		363
+1603365921	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Mapsforge API] 		572
+1603365931	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		7
+1603366144	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		58
+1603366155	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		1
+1603366167	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		1
+1603366237	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		1
+1603366247	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		1
+1603366264	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		7
+1603366525	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		-3
+1603368087	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		483
+1603368646	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		27
+1603368660	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		1
+1603368821	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		280
+1603368933	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		117
+1603368946	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		2
+1603369077	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		9
+1603369096	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		-10
+1603369135	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		62
+1603369242	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		459
+1603369262	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		0
+1603369513	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Signature] 		-10
+1603369581	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Signature] 		69
+1603369595	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Signature] 		0
+1603369809	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Other logging options] 		143
+1603369844	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Other logging options] 		53
+1603372348	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Other logging options] 		1
+1603373579	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Generic] 		-19
+1603373595	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Generic] 		27
+1603378661	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Acceleration & Debugging] 		223
+1603378773	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Acceleration & Debugging] 		267
+1603379592	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Backup caches / waypoints] 		515
+1603379615	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Create Backup] 		-1
+1603379693	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Create Backup] 		12
+1603379732	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Create Backup] 		4
+1603379765	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Create Backup] 		-375
+1603380174	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Backup program settings] 		-392
+1603380388	88.69.176.81	E	en:mainmenu:start	lineflyer	[Login status] 		187
+1603380462	88.69.176.81	E	en:mainmenu:start	lineflyer	[Login status] 		4
+1603382277	88.69.176.81	E	de:mainmenu:start	lineflyer	Offline Finds		191
+1603382406	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Erscheinungsbild] 		189
+1603382417	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Erscheinungsbild] 		1
+1603382524	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Erscheinungsbild] 		143
+1603382557	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Cache-Details] 		-411
+1603382733	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Cache-Details] 		174
+1603383048	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Cache-Details] 		377
+1603383169	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		219
+1603391149	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		-15
+1603391618	88.69.176.81	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		753
+1603391804	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Hiding elements] 		-151
+1603391952	88.69.176.81	E	de:mainmenu:livemap	lineflyer	[Routing] 		1424
+1603392073	88.69.176.81	E	de:mainmenu:livemap	lineflyer	[Elemente verbergen] 		17
+1603392235	88.69.176.81	E	de:mapsources	lineflyer	Neue Kartenquellen		213
+1603392250	88.69.176.81	E	en:mapsources	lineflyer	WIP note		26
+1603392264	88.69.176.81	E	de:mapsources	lineflyer	typo		1
+1603392295	88.69.176.81	E	de:mapsources	lineflyer	korrekur		-6
+1603392387	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		0
+1603392477	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		1218
+1603392497	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		-275
+1603392725	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Wegpunkte] 		11
+1603392822	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map Content] 		-162
+1603392843	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		439
+1603392997	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Map behavior] 		85
+1603393028	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		2
+1603393046	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		2
+1603393060	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		1
+1603393348	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		95
+1603393456	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		2
+1603393783	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Annäherungsbenachrichtigung] 		385
+1603393898	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Mapsforge API] 		2076
+1603394775	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Map lines customization] 		127
+1603394829	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		15
+1603395272	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Anpassung der Kartenlinien] 		88
+1603395599	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Anpassung der Kartenlinien] 		93
+1603395770	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Signatur] 		-19
+1603395876	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Andere Log-Optionen] 		204
+1603395886	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Other logging options] 		-1
+1603395948	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Andere Log-Optionen] 		-46
+1603395957	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Andere Log-Optionen] 		1
+1603396009	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Allgemein] 		-27
+1603396230	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Beschleunigung & Fehlersuche] 		627
+1603396289	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Caches / Wegpunkte sichern] 		-7
+1603396484	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sicherung erstellen] 		520
+1603396688	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sicherung erstellen] 		88
+1603396701	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sicherung erstellen] 		-1
+1603396823	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sichern der Programmeinstellungen] 		-2
+1603396838	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sicherung erstellen] 		-466
+1603397247	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Sicherung wiederherstellen] 		-457
+1603464538	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Map behavior] 		1
+1603464576	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Acceleration & Debugging] 		1
+1603464589	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Geolocation & Orientation] 		1
+1603464623	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Create Backup] 		1
+1603464635	88.69.176.81	E	en:mainmenu:settings	lineflyer	[Restore] 		1
+1603464673	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		1
+1603464694	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Positionierung & Orientierung] 		1
+1603464706	88.69.176.81	E	de:mainmenu:settings	lineflyer	[Beschleunigung & Fehlersuche] 		1
+1603464747	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Routing] 		1
+1603464765	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Hiding elements] 		1
+1603464793	88.69.176.81	E	de:mainmenu:livemap	lineflyer	[Routing] 		1
+1603464802	88.69.176.81	E	de:mainmenu:livemap	lineflyer	[Elemente verbergen] 		1
+1603474054	88.69.176.81	E	de:start	lineflyer	[Offline-Funktionen] 		132
+1603474137	88.69.176.81	E	de:sidebar	lineflyer	UDC		37
+1603474155	88.69.176.81	E	de:sidebar	lineflyer	syntax		-1
+1603474178	88.69.176.81	E	de:sidebar	lineflyer	translate		6
+1603647822	188.238.83.66	E	fi:mainmenu:goto	vike91	update		11
+1603647946	188.238.83.66	E	fi:sidebar	vike91	update		56
+1603648153	188.238.83.66	E	fi:start	vike91	update		178
+1603648166	188.238.83.66	E	fi:start	vike91	[Käyttäjän määrittämät kätköt] 		0
+1603648348	188.238.83.66	E	fi:mapsources	vike91	update		191
+1603648369	188.238.83.66	E	fi:mapsources	vike91	grammar fix		0
+1603648533	188.238.83.66	E	fi:attributes	vike91	update		-1
+1603648630	188.238.83.66	E	fi:mainmenu:lists	vike91	[Hallitse kätköjä] 		35
+1603648799	188.238.83.66	E	fi:mainmenu:start	vike91	[Kirjautumisen tila] 		211
+1603649269	188.238.83.66	E	fi:notecoords	vike91	[Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet] 		-5
+1603649365	188.238.83.66	E	fi:notecoords	vike91	[Reittipisteiden automaattinen luonti] 		193
+1603652319	188.238.83.66	E	fi:notecoords	vike91	[Avainsanojen käyttö reittipisteen tyypeissä] 		5406
+1603652428	188.238.83.66	E	fi:notecoords	vike91	[Reittipisteiden muoto (edistyneille)] 		29
+1603652563	188.238.83.66	E	fi:notecoords	vike91	[Reittipisteiden muoto (edistyneille)] 		-1
+1603652927	188.238.83.66	E	fi:notecoords	vike91	test		-59
+1603652998	188.238.83.66	E	fi:notecoords	vike91	FIXME		56
+1603738859	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		97
+1603739235	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc	lineflyer	created		651
+1603739272	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[User defined caches] 		2
+1603739291	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[User defined caches] 		9
+1603739299	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[User defined caches] 		0
+1603739580	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	.		367
+1603740200	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Create user defined caches] 		792
+1603740227	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Handling of user defined caches] 		2
+1603740245	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Create user defined caches] 		5
+1603740579	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Handling of user defined caches] 		999
+1603740676	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[User defined caches] 		316
+1603741642	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	.		-140
+1603741691	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Handling of user defined caches] 		64
+1603741718	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[How to perform a waypoint projection] 		-48
+1603742241	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Creation of user defined caches] 		14
+1603742368	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Creation of user defined caches] 		191
+1603742390	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Creation of user defined caches] 		2
+1603742431	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Creation of user defined caches] 		6
+1603742454	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[Creation of user defined caches] 		18
+1603742747	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	de:udc	lineflyer	angelegt		3542
+1603742794	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:udc	lineflyer	[User defined caches] 		1
+1603742819	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:udc	lineflyer	[Benutzerdefinierte Caches] 		1
+1603743141	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:udc	lineflyer	[Creation of user defined caches] 		136
+1603743175	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:udc	lineflyer	[Creation of user defined caches] 		12
+1603743685	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:udc	lineflyer	[Handling of user defined caches] 		177
+1603743721	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:udc	lineflyer	Ready		-179
+1603743922	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:start	lineflyer	[Special Functions and Hints] 		90
+1603744075	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:quick_widgets	lineflyer	created		358
+1603744343	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		244
+1603744564	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		379
+1603745068	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		711
+1603745093	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access and widget functions] 		0
+1603745135	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		97
+1603745320	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		23
+1603745345	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		25
+1603745730	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		8
+1603745746	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		2
+1603745785	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		2
+1603745794	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Quick access] 		0
+1603745873	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		113
+1603745904	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		8
+1603745958	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:sidebar	lineflyer	widgets		95
+1603745980	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:sidebar	lineflyer	widgets		-38
+1603746061	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		105
+1603746087	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:sidebar	lineflyer	Widgets		65
+1603746524	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	de:quick_widgets	lineflyer	angelegt		2303
+1603746787	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:quick_widgets	lineflyer	[Widgets] 		83
+1603746813	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:quick_widgets	lineflyer	[Widgets] 		-43
+1603746832	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:quick_widgets	lineflyer	[Schnellzugriff] 		-6
+1603746904	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:quick_widgets	lineflyer	[Widgets] 		25
+1603747379	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:quick_widgets	lineflyer	Remove fixme		-179
+1603749795	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:start	lineflyer	[Special Functions and Hints] 		40
+1603749838	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:start	lineflyer	[Plugins] 		57
+1603792517	88.69.176.81	E	en:start	lineflyer	[Plugins] 		71
+1603792552	88.69.176.81	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		167
+1603792684	88.69.176.81	E	en:mainmenu:utilityprograms	lineflyer	brouter		85
+1603792701	88.69.176.81	E	en:mainmenu:utilityprograms	lineflyer	brouter		2
+1603792716	88.69.176.81	E	en:mainmenu:utilityprograms	lineflyer	brouter		1
+1603792748	88.69.176.81	E	en:mainmenu:utilityprograms	lineflyer	Brouter link		3
+1603792808	88.69.176.81	E	de:mainmenu:utilityprograms	lineflyer	Brouter link		100
+1603792832	88.69.176.81	E	en:mainmenu:utilityprograms	lineflyer	typo		0
+1603792872	88.69.176.81	E	de:mainmenu:utilityprograms	lineflyer	typo		0
+1603792920	88.69.176.81	E	de:start	lineflyer	[Plugins and Addon functions] 		11
+1603793046	88.69.176.81	E	en:sidebar	lineflyer	 Add plugin section		118
+1603793132	88.69.176.81	E	de:sidebar	lineflyer	Add plugin section		119
+1603793141	88.69.176.81	E	de:start	lineflyer	[Plugins and Zusatz-Funktionen] 		-1
+1603793228	88.69.176.81	E	en:brouter	lineflyer	[Introduction] 		135
+1603793246	88.69.176.81	E	en:brouter	lineflyer	[Introduction] 		26
+1603793435	88.69.176.81	E	en:brouter	lineflyer	[Introduction] 		214
+1603793819	88.69.176.81	E	en:brouter	lineflyer	[Introduction] 		290
+1603793891	88.69.176.81	E	en:brouter	lineflyer	Icon		39
+1603793911	88.69.176.81	E	en:brouter	lineflyer	logo		-1
+1603793953	88.69.176.81	E	en:brouter	lineflyer	logo		-15
+1603793988	88.69.176.81	E	en:brouter	lineflyer	remove 		-26
+1603794865	88.69.176.81	E	en:brouter	lineflyer	[Installing brouter] 		16
+1603794872	88.69.176.81	E	en:brouter	lineflyer	[Download routing info] 		-33
+1603794923	88.69.176.81	E	en:brouter	lineflyer	[Using brouter with c:geo] 		-13
+1603794968	88.69.176.81	E	en:brouter	lineflyer	[Using brouter with c:geo] 		24
+1603794986	88.69.176.81	E	en:brouter	lineflyer	title		0
+1603795073	88.69.176.81	E	en:brouter	lineflyer	[Using BRouter with c:geo] 		-201
+1603795079	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		199
+1603795546	88.69.176.81	E	en:brouter	lineflyer	[Using BRouter with c:geo] 		79
+1603795561	88.69.176.81	E	en:brouter	lineflyer	smaller		0
+1603795580	88.69.176.81	E	en:brouter	lineflyer	samller		0
+1603795606	88.69.176.81	E	en:brouter	lineflyer	[Using BRouter with c:geo] 		-4
+1603795617	88.69.176.81	E	en:brouter	lineflyer	[Using BRouter with c:geo] 		0
+1603795774	88.69.176.81	E	en:brouter	lineflyer	[Using BRouter with c:geo] 		35
+1603795789	88.69.176.81	E	en:brouter	lineflyer	.		8
+1603795953	88.69.176.81	E	en:brouter	lineflyer	.		292
+1603796124	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		426
+1603796131	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		0
+1603796259	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		361
+1603796289	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		24
+1603796381	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		241
+1603796722	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		482
+1603796903	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		466
+1603796918	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		1
+1603796946	88.69.176.81	E	en:brouter	lineflyer	[Installing and configuring BRouter] 		9
+1603797206	88.69.176.81	E	en:brouter	lineflyer	[Usage in c:geo] 		245
+1603797248	88.69.176.81	E	en:brouter	lineflyer	[Usage in c:geo] 		99
+1603797579	88.69.176.81	E	en:brouter	lineflyer	[Usage in c:geo] 		28
+1603797663	88.69.176.81	E	en:brouter	lineflyer	[Usage in c:geo] 		57
+1603798561	88.69.176.81	E	en:brouter	lineflyer	[Usage in c:geo] 		87
+1603798649	88.69.176.81	E	en:brouter	lineflyer	[Direction line] 		336
+1603798713	88.69.176.81	E	en:brouter	lineflyer	[Individual route] 		142
+1603799092	88.69.176.81	E	en:brouter	lineflyer	[Individual route] 		254
+1603799120	88.69.176.81	E	en:brouter	lineflyer	[Individual route] 		49
+1603799316	88.69.176.81	E	en:brouter	lineflyer	[Individual route] 		242
+1603799517	88.69.176.81	C	de:brouter	lineflyer	angelegt		5020
+1603799720	88.69.176.81	E	de:brouter	lineflyer	[Nutzung von BRouter mit c:geo] 		21
+1603799948	88.69.176.81	E	de:brouter	lineflyer	[Installing and configuring BRouter] 		94
+1603800578	88.69.176.81	E	de:brouter	lineflyer	[Installation und Konfiguration von BRouter] 		261
+1603800755	88.69.176.81	E	de:brouter	lineflyer	[Usage in c:geo] 		85
+1603800886	88.69.176.81	E	de:brouter	lineflyer	[Direction line] 		31
+1603801087	88.69.176.81	E	de:brouter	lineflyer	[Individual route] 		119
+1603801107	88.69.176.81	E	de:brouter	lineflyer	Page ready		-179
+1603832175	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		69
+1603832209	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		1
+1603832263	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		80
+1604501652	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:translation	geodaniel	test 1		1197
+1604502080	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:translation	geodaniel	Rerour à l'original		-1196
+1604503464	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:translation	geodaniel	créée		7859
+1604507022	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:translation	geodaniel			1085
+1604510135	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:translation	geodaniel			-833
+1604513860	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:translation	geodaniel			474
+1604574457	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:translation	geodaniel	suite		689
+1604816360	188.238.28.94	E	fi:sidebar	vike91	update		182
+1604816396	188.238.28.94	E	fi:sidebar	vike91	update fix		11
+1604816484	188.238.28.94	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		0
+1604816589	188.238.28.94	E	fi:start	vike91	update		-127
+1604816632	188.238.28.94	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		15
+1604816772	188.238.28.94	E	fi:start	vike91	[Erityistoiminnot ja vinkit] 		114
+1604816851	188.238.28.94	E	fi:start	vike91	[FAQ] 		228
+1604816885	188.238.28.94	E	fi:start	vike91	[Käteviä linkkejä] 		14
+1604816929	188.238.28.94	E	fi:start	vike91	[FAQ] 		-10
+1604817095	188.238.28.94	E	fi:mainmenu:utilityprograms	vike91	update		64
+1604817134	188.238.28.94	e	fi:mainmenu:utilityprograms	vike91	update fix		4
+1604821701	188.238.28.94	C	fi:brouter	vike91	luotu		5040
+1604821747	188.238.28.94	E	fi:brouter	vike91	[BRouterin käyttö c:geon kanssa] 		1
+1604821758	188.238.28.94	E	fi:brouter	vike91	.		-1
+1604821814	188.238.28.94	E	fi:brouter	vike91	[BRouterin asennus ja määritys] 		0
+1604823269	188.238.28.94	C	fi:quick_widgets	vike91	luotu		2038
+1604824703	188.238.28.94	C	fi:udc	vike91	luotu		3826
+1604825686	188.238.28.94	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		1115
+1604826226	188.238.28.94	E	fi:mainmenu:livemap	vike91	[Kartan asetukset] 		-695
+1604826979	188.238.28.94	E	fi:mainmenu:livemap	vike91	[Reititys] 		1537
+1604827279	188.238.28.94	E	fi:mainmenu:settings	vike91	[Ulkoasu] 		262
+1604827300	188.238.28.94	E	fi:mainmenu:settings	vike91	[Ulkoasu] 		-2
+1604828048	188.238.28.94	E	fi:mainmenu:settings	vike91	[Kätkön tiedot] 		135
+1604828156	188.238.28.94	E	fi:mainmenu:settings	vike91	[Kartan tiedot] 		245
+1604828762	188.238.28.94	E	fi:mainmenu:settings	vike91	[Kartan tiedot] 		1049
+1604829067	188.238.28.94	E	fi:mainmenu:settings	vike91	[Reittipisteet] 		273
+1604829398	188.238.28.94	E	fi:mainmenu:settings	vike91	[Kartan sisältö] 		-243
+1604829666	188.238.28.94	E	fi:mainmenu:settings	vike91	[Kartan sisältö] 		511
+1604830846	188.238.28.94	E	fi:mainmenu:settings	vike91	[Läheisyysilmoitus] 		2469
+1604831122	188.238.28.94	E	fi:mainmenu:settings	vike91	[Allekirjoitus] 		3
+1604831215	188.238.28.94	E	fi:mainmenu:settings	vike91	[Allekirjoitus] 		73
+1604831234	188.238.28.94	E	fi:mainmenu:settings	vike91	[Allekirjoitus] 		-10
+1604831423	188.238.28.94	E	fi:mainmenu:settings	vike91	[Muut lokkausasetukset] 		229
+1604831492	188.238.28.94	E	fi:mainmenu:settings	vike91	[Yleinen] 		14
+1604831891	188.238.28.94	E	fi:mainmenu:settings	vike91	[Laitteistokiihdytys & Vianetsintä] 		637
+1604831913	188.238.28.94	E	fi:mainmenu:settings	vike91	[Laitteistokiihdytys & Vianetsintä] 		0
+1604834271	188.238.28.94	E	fi:mainmenu:settings	vike91	[Varmuuskopioi kätköt/reittipisteet] 		189
+1604834809	188.238.28.94	E	fi:mainmenu:settings	vike91	[Sovelluksen varmuuskopiointiasetukset] 		-501
+1604933726	2.203.226.133	E	en:brouter	lineflyer	Customziation		252
+1604933747	2.203.226.133	E	en:brouter	lineflyer	[Customization in c:geo] 		-1
+1604933856	2.203.226.133	E	en:brouter	lineflyer	[Customization in c:geo] 		142
+1604933870	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		-1
+1604933891	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		11
+1604933906	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		1
+1604933928	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		0
+1604933979	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		-10
+1604934030	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		74
+1604934041	2.203.226.133	E	en:brouter	lineflyer	[Customization] 		1
+1604934201	2.203.226.133	E	de:brouter	lineflyer	Anpassung		484
+1604934242	2.203.226.133	E	de:mainmenu:settings	lineflyer	[Anpassung der Kartenlinien] 		3
+1604935510	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		1
+1604935537	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		50
+1604935545	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-1
+1604935564	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		0
+1604935606	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-47
+1604935658	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		51
+1604935665	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-1
+1604935677	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		0
+1604935774	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		26
+1604935886	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		149
+1604936089	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		523
+1604936131	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		127
+1604936161	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-2
+1604936291	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		153
+1604936385	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		163
+1604936398	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-1
+1604936409	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		0
+1604936419	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		1
+1604936439	2.203.226.133	E	en:cachedetails	lineflyer	[Personal note] 		-3
+1604936879	2.203.226.133	E	de:cachedetails	lineflyer	[Persönliche Notiz] 		1167
+1605012483	188.238.68.155	E	fi:cachedetails	vike91	[Omat muistiinpanot] 		1319
+1605012798	188.238.68.155	E	fi:brouter	vike91	[Yksittäinen reitti] 		450
+1605015535	2.203.226.133	E	de:start	lineflyer	[Plugins and Zusatzfunktionen] 		0
+1605015992	2.203.226.133	E	en:mainmenu:utilityprograms	lineflyer	send2cgeo icon		5
+1605016014	2.203.226.133	E	de:mainmenu:utilityprograms	lineflyer	send2cgeo icon		5
+1605016108	2.203.226.133	E	en:mainmenu:utilityprograms	lineflyer	contact icon		16
+1605016181	2.203.226.133	C	en:contacts	lineflyer	created		325
+1605016191	2.203.226.133	E	en:contacts	lineflyer	d		0
+1605016279	2.203.226.133	E	en:contacts	lineflyer	.		188
+1605016345	2.203.226.133	E	en:mainmenu:utilityprograms	lineflyer	link to contacts plugin page		-49
+1605016363	2.203.226.133	E	en:mainmenu:utilityprograms	lineflyer	link to contacts plugin page		1
+1605016425	2.203.226.133	E	de:mainmenu:utilityprograms	lineflyer	link to contacts plugin page		-32
+1605016611	2.203.226.133	E	en:contacts	lineflyer	[Installation] 		537
+1605016820	2.203.226.133	E	en:contacts	lineflyer	[Installation] 		208
+1605025893	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		1485
+1605025927	2.203.226.133	E	en:contacts	lineflyer	[Data privacy statement] 		-6
+1605025947	2.203.226.133	E	en:contacts	lineflyer	[Data privacy statement] 		-16
+1605026229	2.203.226.133	E	en:contacts	lineflyer	[Data privacy statement] 		6
+1605026338	2.203.226.133	E	en:contacts	lineflyer	[Data privacy statement] 		18
+1605026370	2.203.226.133	E	en:contacts	lineflyer	.		2
+1605026403	2.203.226.133	E	en:contacts	lineflyer	[Installation] 		-458
+1605026527	2.203.226.133	E	en:contacts	lineflyer	[c:geo contacts plugin] 		709
+1605026556	2.203.226.133	E	en:contacts	lineflyer	[What information is collected by the c:geo contacts plugin?] 		-1
+1605026586	2.203.226.133	E	en:contacts	lineflyer	Data Privacy		0
+1605026780	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		-18
+1605026804	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		4
+1605027098	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		18
+1605027145	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		44
+1605027156	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		0
+1605027247	2.203.226.133	E	en:contacts	lineflyer	icon		4
+1605027303	2.203.226.133	E	en:contacts	lineflyer	icon		-4
+1605027446	2.203.226.133	E	en:contacts	lineflyer	icon		10
+1605027497	2.203.226.133	E	de:mainmenu:utilityprograms	lineflyer	icon		9
+1605027508	2.203.226.133	E	de:mainmenu:utilityprograms	lineflyer	link		1
+1605027708	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		13
+1605027853	2.203.226.133	E	en:contacts	lineflyer	picture		44
+1605027869	2.203.226.133	E	en:contacts	lineflyer	 v		1
+1605027885	2.203.226.133	E	en:contacts	lineflyer	picture		-2
+1605027906	2.203.226.133	E	en:contacts	lineflyer	[Usage] 		-1
+1605028290	2.203.226.133	C	de:contacts	lineflyer	angelegt		3485
+1605028324	2.203.226.133	E	de:contacts	lineflyer	[c:geo Kontakte-Plugin] 		0
+1605028384	2.203.226.133	E	de:contacts	lineflyer	[Installation] 		14
+1605028602	2.203.226.133	E	de:contacts	lineflyer	[Usage] 		32
+1605028634	2.203.226.133	E	de:contacts	lineflyer	[Data privacy statement] 		-1
+1605028738	2.203.226.133	E	de:contacts	lineflyer	.		33
+1605028780	2.203.226.133	E	de:contacts	lineflyer	[What information is collected by the c:geo contacts plugin?] 		53
+1605028841	2.203.226.133	E	de:contacts	lineflyer	[How is the information used by the c:geo contacts plugin?] 		96
+1605028849	2.203.226.133	E	de:contacts	lineflyer	[Für welche Zwecke werden die Daten durch die c:geo Kalender-Erweiterung genutzt?] 		1
+1605028869	2.203.226.133	E	de:contacts	lineflyer	[With whom is the information shared?] 		2
+1605028882	2.203.226.133	E	de:contacts	lineflyer	Remove fixme		-179
+1605028903	2.203.226.133	E	en:contacts	lineflyer	[How is the information used by the c:geo contacts plugin?] 		-2
+1605029204	2.203.226.133	E	de:start	lineflyer	[Plugins and Zusatzfunktionen] 		16
+1605029372	2.203.226.133	E	de:sidebar	lineflyer	erweiterungen		11
+1605037427	88.74.215.129	E	de:ebook_help	lineflyer	Zeit		2
+1605037911	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:mainmenu:lists	lineflyer	[Caches verwalten] 		30
+1605038003	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	D	wiki:welcome	lineflyer	Delete		-1705
+1605041580	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:translation	tester_test	Change registration process		339
+1605041635	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:translation	lineflyer	[Requirements] 		61
+1605042761	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	D	de:translation	lineflyer	Delete		-6500
+1605042773	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:start	lineflyer	[Über diese Anleitung] 		3
+1605107991	88.74.215.129	E	internal:playground:playground	lineflyer	wrap test		51
+1605264838	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:ebook_help	lineflyer	Typo		-8
+1605379841	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:start	lineflyer	[Über diese Anleitung] 		0
+1605390104	188.238.68.155	E	fi:mainmenu:utilityprograms	vike91	update		-28
+1605390121	188.238.68.155	E	fi:mainmenu:utilityprograms	vike91	fix		1
+1605390146	188.238.68.155	C	fi:contacts	vike91	luotu		3262
+1605390271	188.238.68.155	E	fi:contacts	vike91	[With whom is the information shared?] 		-18
+1605390718	188.238.68.155	E	fi:contacts	vike91	[How is the information used by the c:geo contacts plugin?] 		-7
+1605390960	188.238.68.155	E	fi:contacts	vike91	[What information is collected by the c:geo contacts plugin?] 		-33
+1605390997	188.238.68.155	E	fi:contacts	vike91	[Data privacy statement] 		-4
+1605391298	188.238.68.155	E	fi:contacts	vike91	[Usage] 		111
+1605391322	188.238.68.155	E	fi:contacts	vike91	[Käyttö] 		1
+1605391564	188.238.68.155	E	fi:contacts	vike91	[Installation] 		-14
+1605391644	188.238.68.155	E	fi:contacts	vike91	[Asennus] 		-1
+1605392139	188.238.68.155	E	fi:contacts	vike91	[c:geo contacts plugin] 		54
+1605392149	188.238.68.155	E	fi:contacts	vike91	[c:geon yhteystoetolisäosa] 		0
+1605392191	188.238.68.155	E	fi:contacts	vike91	remove fixme		-154
+1605392237	188.238.68.155	E	fi:contacts	vike91	spacing		4
+1605392307	188.238.68.155	E	fi:start	vike91	update		1
+1607343297	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:translation	silviopen	creata		12310
+1607408799	146.241.0.117	E	en:mainmenu:livemap	silviopen	fix wrong formatting		2
+1607412618	146.241.0.117	E	it:start	silviopen	creating [c: geo Guida utente] 		5659

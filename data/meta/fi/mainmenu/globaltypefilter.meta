@@ -1,0 +1,13 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1531994181;s:8:"modified";i:1531994425;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1531994425;s:2:"ip";s:14:"37.219.211.222";s:4:"type";s:1:"E";s:2:"id";s:28:"fi:mainmenu:globaltypefilter";s:4:"user";s:6:"vike91";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-153;}s:11:"contributor";a:1:{s:6:"vike91";s:15:"Ville Heikkinen";}s:5:"title";s:29:"Yleinen kätkötyyppisuodatin";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:29:"yleinen_kaetkoetyyppisuodatin";s:5:"title";s:29:"Yleinen kätkötyyppisuodatin";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:333:"Yleinen kätkötyyppisuodatin
+
+
+
+Tässä valikossa voit suodattaa näytetyt kätköt tyypin mukaan. Asetus koskee live-karttaa, lähistöllä-karttaa, sekä hakua kätkötyypin mukaan. Valitse vain kätkötyyppi.
+
+
+
+
+
+
+
+Suodatinasetus pysyy aktiivisena (jopa silloin kun käynnistät c:geon uudelleen) kunnes vaihdat tai nollaat sen.";}s:8:"relation";a:3:{s:5:"media";a:2:{s:23:"main_filter_default.png";b:1;s:34:"en:global_cache_type_filter_en.png";b:1;}s:10:"references";a:1:{s:13:"fi:cacheicons";b:1;}s:10:"firstimage";s:23:"main_filter_default.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1531994181;s:8:"modified";i:1531994425;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1531994425;s:2:"ip";s:14:"37.219.211.222";s:4:"type";s:1:"E";s:2:"id";s:28:"fi:mainmenu:globaltypefilter";s:4:"user";s:6:"vike91";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-153;}s:11:"contributor";a:1:{s:6:"vike91";s:15:"Ville Heikkinen";}}}
