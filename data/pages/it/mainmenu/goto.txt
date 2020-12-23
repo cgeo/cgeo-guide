@@ -1,0 +1,17 @@
+====== Vai a ======
+
+{{:main_any_default.png?nolink&100 |}}
+
+Il menu "Vai a ..." può essere utilizzato per navigare verso coordinate arbitrarie non legate a nessun waypoint geocache o per creare una proiezione di waypoint.\\ 
+
+Tecnicamente il menu "Vai a ..." ti porta alla scheda [[en:cachedetails#waypoint_tab|waypoint]] di un [[en:udc|cache interno]] a c:geo. Quindi l'utilizzo è esattamente lo stesso come per i waypoint di ogni altro cache in c: geo. Fare riferimento alla scheda Waypoint e alla descrizione dell'editor di waypoint nella pagina collegata.\\ \\ \\
+
+{{ :en:goto.png?400 |}}
+
+===== How to perform a waypoint projection =====
+
+  - Fare clic su "Aggiungi waypoint"
+  - Fare clic sul campo delle coordinate e immettere le coordinate su cui si baserà la proiezione. È inoltre possibile fare clic su "Coordinate attuali" per impostare la posizione corrente come punto di partenza.
+  - Confermare l'immissione delle coordinate e immettere leventuale distanza e direzione nei campi corrispondenti.
+  - Salvare il waypoint
+  - Utilizzare l'icona "rosa dei venti" accanto al waypoint per avviare la navigazione preferita verso questo waypoint. In alternativa, fare clic lungo sul waypoint e selezionare "Naviga" per richiamare altri metodi di navigazione (come l'apertura della mappa o l'avvio della navigazione passo passo).

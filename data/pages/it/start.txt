@@ -1,4 +1,3 @@
-FIXME ** Questa pagina non è ancora completamente tradotta. Chi può potrebbe aiutarne il completamento. ** \\ // (Rimuovere questo paragrafo a lavoro completato) //
 
 ====== c:geo Guida Utente ======
 
@@ -27,7 +26,7 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
 ===== Manuale utente =====
 {{anchor:users_manual:}}
 
-==== Main screen ====
+==== Schermata principale ====
 {{anchor:main_menu:}}
 
   * [[.mainmenu:start|Schermata principale]] - Accesso alle funzioni principali di c:ge
@@ -88,7 +87,7 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
   * [[attributes|Icone degli attributi]]
   * [[.mainmenu:utilityprograms|Altre app utili]]
 
-===== SFunzioni speciali e suggerimenti =====
+===== Funzioni speciali e suggerimenti =====
 {{anchor:special_functions_and_hints:}}
 
   * [[offlinemaps|Tutorial sulla mappa offline]]

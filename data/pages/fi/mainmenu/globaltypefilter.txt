@@ -3,7 +3,7 @@
 
 {{:main_filter_default.png?nolink&100 |}}
 
-Tässä valikossa voit suodattaa näytetyt kätköt tyypin mukaan. Asetus koskee live-karttaa, lähistöllä-karttaa, sekä hakua kätkötyypin mukaan. Valitse vain kätkötyyppi.\\ \\ \\ \\
+Tässä valikossa voit suodattaa näytetyt kätköt tyypin mukaan. Asetus koskee live-karttaa, lähistöllä-karttaa, sekä hakua kätkötyypin mukaan. Yksinkertaisesti, valitse vain kätkötyyppi.\\ \\ \\ \\
 
 {{:en:global_cache_type_filter_en.png?direct&400 |}}
 

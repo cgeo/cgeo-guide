@@ -4,7 +4,7 @@
 {{:main_live_default.png?nolink&100 |}}
 
 <WRAP center round info 60%>
-Käytettävyyden vuoksi, laitteesi näyttö ei sammu kun kartta on näkyvillä. Sinun tulee siirtyä eri näyttöön palauttaaksesi automaattisen (ajoitetun) näytön sammuttamisen virran säästämiseksi, mutta tarvittaessa voit myös käyttää laitteen omaa virtanappia näytön sammuttamiseksi.
+Kätevyyden vuoksi, laitteesi näyttö ei sammu kun kartta on näkyvillä. Sinun tulee siirtyä eri näyttöön palauttaaksesi automaattisen (ajoitetun) näytön sammuttamisen virran säästämiseksi, mutta tarvittaessa voit myös käyttää laitteen omaa virtanappia näytön sammuttamiseksi.
 </WRAP> 
 
 

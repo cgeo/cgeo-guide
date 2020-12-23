@@ -1,0 +1,228 @@
+====== Cache salvati ======
+{{:main_stored_default.png?nolink&100 |}}
+
+Questo menù elenca i Geocache attualmente archiviati sul tuo dispositivo mobile per l'utilizzo offline. Per una migliore esperienza di geocaching, c:geo ti consente di organizzare i tuoi geocache in più elenchi.
+
+È sempre possibile accedere alle informazioni di questi elenchi, anche se non si dispone di una connessione di rete. Tutti i cache in questi elenchi vengono archiviati offline con tutte le informazioni pertinenti. Tuttavia, alcune informazioni aggiuntive (immagini del registro) sono disponibili offline solo se abilitate nelle [[settings#offline_data|impostazioni]] corrispondenti.
+
+===== Elenco Cache =====
+{{anchor:cache_list:}}
+
+<WRAP center round tip 100%>
+Fare clic sui seguenti collegamenti per ottenere informazioni sulle [[..:cacheicons|icone dei tipi di geocache]] e le  [[..:cachemarkers|icone dei marker di geocache]] in c:geo, che vengono utilizzate negli elenchi di cache.
+</WRAP>
+
+<WRAP center round info 100%>
+La stessa visualizzazione elenco viene utilizzata anche nei risultati delle [[search|funzioni di ricerca]], per mostrare un elenco di cache sulla [[livemap|mappa live]] e per visualizzare il contenuto delle [[pocketquery|pocket queries]].\\
+
+</WRAP>
+
+{{:en:lists_1_en.png?direct&400 |}}
+
+
+L'elenco ti mostrerà il titolo di ogni geocache nella prima riga. Sotto c'è un sottotitolo che mostra il suo codice geografico, la valutazione D / T, la dimensione del cache, lo stato [[..:basicmembers|solo premium]] (se applicabile) e se il cache è archiviato offline (utile se stai guardando un elenco di [[search|risultati di ricerca]]). Se abilitato nelle [[settings#offline_data|impostazioni]], il sottotitolo mostrerà anche i nomi di tutti gli elenchi, dove è memorizzato il cache.\\
+La striscia colorata all'estrema sinistra indica (oltre ai contrassegni sull'icona del tipo di cache) se questo cache è stato  <color #22b14c>trovato</color> o ha un <color #ed1c24>registro offline</color> salvato.  
+
+Se il titolo risulta <del>barrato</del> il cache corrispondente è temporaneamente disabilitato, se il titolo del cache viene inoltre mostrato in <color #ed1c24>lettere rosse</color>, il cache è stato archiviato e non è più disponibile.
+
+Un breve clic su una delle voci dell'elenco aprirà i [[..:cachedetails|dettagli]] di questo cache, un tocco prolungato aprirà un [[lists#context_menu|menu contestuale]] con accesso diretto ad alcune funzioni relative al cache.
+
+Le informazioni mostrate per ogni geocache sul lato destro della visualizzazione elenco sono spiegate nella tabella seguente:
+^Icona ^ Descriztione ^
+|{{ :en:lists_distance_direction.png?nolink&100 |}}|Distanza e direzione verso il cache in base alla posizione corrente (gli mutenti con un [[..:basicmembers|account base]] di geocaching.com vedranno solo alcune delle informazioni)|
+|{{ :en:lists_fav_vote.png?nolink&100 |}}|Il numero mostra la quantità di punti preferiti (geocaching.com) o consigliati (opencaching) di questo cache.\\ Il colore di sfondo rappresenta la valutazione [[http://gcvote.com|GCVote]] media del cache:\\ Verde = valutazione buona (> 3,5 stelle)\\ Marrone = Voto medio (tra 2,5 e 3,5)\\ Rosso = valutazione negativa (<2,5 stelle).\\ Se non viene visualizzato alcun colore, il cache non ha ancora voti o non è supportato in GCVote (GCVote attualmente supporta solo i cache presenti su geocaching.com).|
+|{{ :en:lists_trackableinfo.png?nolink&100 |}}|Il simbolo è un marker che viene mostrato solo se il cache contiene trackables. Il numero accanto ad esso è la quantità di trackable elencati in questo cache.|
+
+==== Carica più opzioni ====
+
+Se l'elenco che hai aperto è stato creato da un [[.search|risultato di ricerca]] o da una vista di [[.pocketquery|pocket query view]] ci sarà un pulsante alla fine dell'elenco chioamato ''Carica più cache (Attualmente: XX)'' che mostra quanti cache sono stati attualmente caricati nell'elenco e cliccandolo caricherà più risultati / voci di pocket query.
+
+==== Menù contestuale ====
+{{anchor:context_menu:}}
+
+Con un lungo clic su una deli cache del tuo elenco, verrà aperto il seguente menu contestuale, che ti fornisce l'accesso ad alcune azioni dirette su questo cache:
+
+
+{{ :en:lists_cache_contextmenu.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Bussola|Apre la bussola per navigare direttamente in questo cache.|
+|Naviga|Apre le [[..:navigation|opzioni di navigazione]] complete per selezionare uno dei metodi di navigazione supportati in questo cache.|
+|Dettagli|Aprirà i [[..:cachedetails|dettagli]] di questo cache.// (uguale al clic breve)//|
+|Scrivi log|Porterà direttamente alla [[..:logging|pagina di log]] di questo cache per registrare il ritrovamento.|
+|Remuovi|Elimina questo cache dall'elenco corrente.|
+|Muovi in un altra lista|Sposta questo cache in un altra lista.|
+|Copia in una lista diversa|copia questo cache in un altra lista, senza cancellarlo dalla lista corrente.|
+|Aggiorna|Aggiorna i dettagli del cache scaricando i dati dal server di geocaching|
+
+
+===== Menù lista =====
+{{anchor:list_menu:}}
+
+<WRAP center round info 100%>
+Le icone mostrate nella barra superiore e il contenuto dietro il pulsante del menu di overflow vengono posizionati dinamicamente in base alla risoluzione del dispositivo e all'orientamento dello schermo. Pertanto potrebbe essere possibile trovare più o meno elementi dietro il pulsante del menu o mostrati invece come icone nella barra superiore del dispositivo.\\
+Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lungo l'icona per ottenere un popup che mostra la sua funzione.
+
+</WRAP>
+
+{{ :en:list_menu.png?direct&400 |}}
+
+
+^ Icona/Sezione ^ Funzione ^ Descrizione ^
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Gestione liste]]|TQuesta sezione mostra il nome dell'elenco corrente o le informazioni di ricerca nel caso in cui un elenco venga aperto come [[search|risultato della ricerca]], oppure il nome della pocket query nel caso in cui l'elenco venga aperto da una [[pocketquery|pocket query]].\\ Inoltre la quantità di cache nell'elenco corrente (limitata i cache filtrati, se applicabile). Facendo clic su questa sezione si aprirà l'elenco di tutti gli elenchi di cache per selezionare un altro elenco di cache da visualizzare.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Tipo di filtro|Questa riga verrà visualizzata solo nel caso in cui sia attivo un filtro [[globaltypefilter|globale sul tipo di cache]] oppure un [[lists#filtering|filtro sull'elenco]].\\ Facendo clic su questa riga si accederà direttamente alla finestra di dialogo del filtro corrispondente.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Mostra sulla mappa]]|Facendo clic su questa icona verranno visualizzati i cache di questo elenco su una [[livemap|mappa]].|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filtro]]|Facendo clic su questa icona si apre una finestra di dialogo per filtrare i cache nell'elenco in base a vari criteri.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
+|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Ordina]]|È possibile utilizzare questa funzione per ordinare l'elenco in base alle proprie esigenze.|
+|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Modo selezione]]|L'utilizzo di questa funzione pone l'elenco in una modalità di selezione che consente di selezionare un sottoinsieme di cache nell'elenco per utilizzare la funzione ''Gestisci cache'' su questa selezione.|
+|[[lists#show_on_map|Visualizza sulla mappa]]||Questa è una funzione simile alla funzione/icona ''Elenco mappe'' spiegata sopra, ma supporta anche l'apertura di tutte i cache dall'elenco su altre mappe e app esterne.|
+|[[lists#manage_caches|Gestisci i cache]]||TQuesta opzione fornisce funzioni per eliminare, aggiornare, spostare, ecc., i cache nell'elenco.\\ Puoi combinarlo con la ''Modo selezione'' per applicare la modifica solo a un sottoinsieme del tuo elenco.|
+|[[lists#manage_lists|Gestisci liste]]||Questa opzione fornisce funzioni per eliminare, modificare la lista esistente o creare nuove liste.|
+|[[lists#import|Importazione]]||Questa opzione consente l'importazione di cache da diverse fonti negli elenchi di cache.|
+|[[lists#export|Esportazione]]||Questa opzione consente di esportare cache o parti delle informazioni dei cache in diversi modi.|
+
+==== Filtri ====
+{{anchor:filtering:}}
+
+Questa funzione consente di filtrare l'elenco in base a vari criteri.
+
+{{ :en:lists_filtermenu.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Oltre al Filtro tipo cache globale, questo filtro si applica solo agli elenchi, ma può essere combinato con un filtro globale se necessario.
+</WRAP>
+
+^ Voce di Menù ^ Descrizione ^
+|{{ :ic_menu_delete.png?nolink&40 |}}|L'icona del cestino in alto ti consente di eliminare i filtri applicati.|
+|Tipo|Mostra solo i cache con un certo tipo di cache.|
+|Dimensione|Mostra solo i cache con una dimensione cache specifica.|
+|Terreno|Mostra solo i cache con un determinato intervallo di valutazioni del terreno.|
+|Difficoltà|Mostra solo i cache con un determinato intervallo di gradi di difficoltà.|
+|Attributi|Filtra l'elenco in base a uno degli attributi del cache// (ad es. "Edificio abbandonato", "Cache notturno").// \\ :!: Questo filtro fornirà risultati affidabili solo se utilizzato in un elenco di cache memorizzate, ma non per i risultati di ricerca.|
+|Stato|Filtro di stato per i cache con un determinato stato in c:geo (ad es. "Trovato", "Con tracciabili", "Solo PM").|
+|Salvato|Versione Beta|
+|Origine|Mostra solo i cache di uno specifico provider di geocaching (ad es. "Geocaching.com", "opencaching.us").|
+|Distanza|Mostra solo i cache con un determinato intervallo di distanza dalla posizione corrente.\\ \\ :!: L'elenco filtrato non verrà aggiornato se cambi posizione. In questo caso è necessario riapplicare il filtro per ottenere un elenco filtrato aggiornato.|
+|Preferiti|Mostra solo i cache con un determinato intervallo di punti preferiti.|
+|Preferiti [%]|Mostra solo i cache con un determinato intervallo di percentuali di punti preferiti.\\ \\ :!: Questo filtro fornirà risultati affidabili solo se utilizzato in un elenco di cache memorizzati, ma non per i risultati di ricerca.|
+|Con dati personali|Consente di filtrare i cache in cui sono state aggiunte informazioni personali (ad es. Registri offline, note personali).|
+|Assegnato a una lista|Versione Beta|
+|Nazione|Versione Beta|
+
+==== Ordina ====
+{{anchor:sorting:}}
+
+{{ :en:lists_sorting.png?direct&400 |}}
+
+<WRAP center round tip 100%>
+Selezionando due volte la stessa opzione di ordinamento potrai invertire l'ordine nell'elenco ordinato (ad esempio, l'ordinamento per nome verrà quindi ordinato da Z→A invece di A→Z).
+</WRAP>
+
+^ Voce di menù ^ Descrizione ^
+|codice Geo|Ordina alfabeticamente in base al Geocode del cache (GCxxxxx).|
+|Data |Ordina in base alla data di creazione del cache\\ //(Se l'elenco contiene solo cache evento, questo verrà automaticamente utilizzato come ordinamento predefinito.)//|
+|Data Log|Ordina in base alla data in cui hai registrato il ritrovamento del cache.|
+|Data salvataggio|Ordina in base alla data in cui hai salvato il cache nella lista.|
+|Difficoltà|Ordina per grado di difficoltà.|
+|Dimensione|Ordina per informazioni sulla dimensione del cache.|
+|Distanza|Ordina per distanza tra la tua posizione e il cache.\\ //(Questo è l'ordinamento predefinito per le liste di cache)//|
+|Il tuo Voto|Ordina in base alla personale valutazione [[http://gcvote.com|GCVote]] del cache.|
+|Nome|Ordina alfabeticamente per titolo del cache.\\ //(Se c:geo rileva che il tuo elenco sembra contenere una serie di cache 
+|Numero ritrovamenti|Ordina in base a quante volte è stato trovato un cache.|
+simili (ad esempio una traccia di cache con un nome fisso e numeri incrementati), questo ordinamento verrà utilizzato per impostazione predefinita).//|
+|Oggetti Trackable|Ordina in base alla quantità di oggetti trackable contenuti nel cache.|
+|Preferiti|Ordina per quantità di punti preferiti del cache.|
+|Preferiti [%]|Ordina per percentuale preferita del cache.\\ \\ :!: Questo metodo di ordinamento fornisce risultati affidabili solo se utilizzato in un elenco di cache memorizzate, ma non nei risultati di ricerca.|
+|Stato|Ordina in base allo stato del cache|
+|Terreno|Ordina per grado di difficoltà del terreno per raggiungere il cache.|
+|Voto|Ordina in base alla valutazione [[http://gcvote.com|GCVote]] del cache.|
+
+<WRAP center round info 100%>
+La modalità di ordinamento selezionata verrà mantenuta per tutta la sessione corrente o finché non la si modifica.
+</WRAP>
+
+==== Modo selezione ====
+{{anchor:select_mode:}}
+
+{{ :en:lists_selectmode.png?direct&400 |}}
+
+Dopo aver attivato la modalità di selezione, l'elenco verrà visualizzato con caselle di controllo davanti a ciascuna cache, come mostrato nell'immagine sopra. Ciò consente di contrassegnare alcuni cache nell'elenco toccandoli e successivamente eseguire azioni in batch sui cache selezionati dal menu [[lists#manage_caches|Gestisci cache]] (ad esempio, eliminare tutti i cache selezionati).
+
+Inoltre ora puoi utilizzare l'opzione di menu ''Inverti selezione'' per invertire la selezione corrente, il che potrebbe essere utile se desideri selezionare tutto tranne solo alcune cache nell'elenco.
+
+Al termine, utilizzare l'opzione di menu ''Esci dal modo selezione'' per uscire dalla modo selezione.
+
+<WRAP center round tip 100%>
+Puoi anche richiamare rapidamente la modalità di selezione mentre sei su un elenco, scorrendo da sinistra a destra su un elemento dell'elenco.
+</WRAP>
+
+==== Visualizza sulla mappa ====
+{{anchor:show_on_map:}}
+
+{{ :en:lists_showonmap.png?direct&400 |}}
+
+Questa opzione di menu ti consente di mostrare i cache della tua lista (o un sottoinsieme di essi utilizzando il [[lists#select_mode|modo selezione]]) su una mappa a tua scelta.
+
+Questo può essere uno dei tipi di mappa supportati in c:geo o un'app di terze parti supportata come [[utilityprograms|Locus o maps.me]].
+
+==== Gestisci i cache ====
+{{anchor:manage_caches:}}
+
+{{:en:lists_managecaches.png?direct&350|}}{{ :en:lists_managecaches_select.png?direct&350|}}
+
+Questo menu ti consente di gestire i cache del tuo elenco nei diversi modi come descritto di seguito. Nel caso in cui tu abbia selezionato un cache utilizzando il [[lists#select_mode|Modo selezione]], le voci di menu mostreranno la quantità di cache coinvolti tra parentesi, altrimenti le azioni verranno eseguite per tutti i cache presenti nella lista.
+
+Puoi attivare le seguenti azioni:
+^ Voce di menù ^ Descrizione ^
+|Aggiorna|Questo aggiornerà i cache in linea con le informazioni più recenti dal server di geocaching.|
+|Muovi|Questo sposterà i cache in un altro elenco.|
+|Copia|Questo copierà i cache in un altro elenco (ma li manterrà anche nell'elenco corrente).|
+|Elimina|Questo eliminerà i cache dall'elenco corrente.|
+|Elimina eventi passati|Questa voce di menu è visibile solo se l'elenco contiene cache di eventi e cancellerà tutti gli eventi in cui la data dell'evento è già passata.|
+|Carica coordinate modificate|Questa voce di menu attiverà un caricamento di tutte le coordinate di elenco modificate deli cache in questo elenco sul server di geocaching.|
+|Carica le coordinate per tutti i cache|Questa voce di menu attiverà un caricamento di tutte le coordinate dei cache in questo elenco come coordinate modificate sul server di geocaching.\\ :!: **ATTENZIONE:** Questo sovrascriverà le coordinate esistenti sul server per tutti i cache (o quelli selezionati) della lista con le coordinate della lista corrente in c:geo! Deve essere utilizzato solo in casi speciali, ad es. quando hai importato un file GPX che contiene coordinate corrette come elenco di coordinate. Questo non può essere annullato e dovresti usarlo solo se sai cosa stai facendo. In casi normali si usa la funzione ''Carica coordinate modificate'' nello stesso menu.|
+|Cancella i log offline|Questa voce di menu è disponibile solo se i cache nell'elenco hanno un registro offline e ti consentirà di eliminare questi registri offline.|
+|Crea cache definito dall'utente| Avvia la creazione di un [[en:udc|cache definito dall'utente]].|
+==== Gestisci Liste ====
+{{anchor:manage_lists:}}
+
+{{ :en:lists_managelists.png?direct&400 |}}
+
+Questa opzione di menu fornisce opzioni per gestire gli elenchi di cache.
+
+^ Voce di menù ^ Descrizione ^
+|Crea nuova lista|Crea un nuova lista di cache|
+|Elimina la lista corrente|Questo cancellerà la lista corrente.\\ \\ :!: L'eliminazione di una list che contiene cache, sposterà queste cache nell'elenco predefinito ma non eliminerà i cache.|
+|Rinomina la lista corrente|Assegna un nuovo nome alla lista corrente.|
+|Marca la lista come unica|Poiché un singolo cache può essere memorizzato in più liste, questa funzione eliminerà tutte le copie sulle altre liste, in modo che i cache nell'elenco corrente non vengano più archiviati in nessun altro elenco.|
+|Imposta marcatore di lista|Con questa funzione è possibile assegnare un marker di colore per i cache di questo elenco. Sono disponibili diversi colori tra cui scegliere. Successivamente le icone dei cache in questo elenco verranno mostrate con questo indicatore sulla mappa e nelle tue liste. Sulle icone del cache verranno visualizzati fino a due indicatori di elenco.|
+
+<WRAP center round info 100%>
+La lista ''Salvati'' è l'elenco predefinito e non può essere eliminato.
+</WRAP>
+
+==== Importazione ====
+{{anchor:import:}}
+
+Questo menu offre opzioni per importare i cache negli elenchi da varie fonti come descritto di seguito.
+
+{{ :en:lists_import.png?direct&400 |}}
+
+^ Voce di menù ^ Descrizione ^
+|Importa Pocket Query|Apre la schermata [[pocketquery|pocket query]] per importare i cache dalle tue pocket query esistenti.\\ \\ :!: Funzione disponibile solo per i membri con [[..:basicmembers|account premium]] di geocaching.com.|
+|[[..offline#gpx_import|Importa GPX]]|Consente di importare file GPX dal file system.\\ La cartella in cui devono essere memorizzati i file GPX da importare, può essere definita nelle [[settings#gpx|impostazioni]].|
+|Importa da send2cgeo|Consente di importare i cache utilizzando lo script [[utilityprograms|send2cgeo]].|
+|Importazione da Android|Questa opzione aprirà il menu di importazione di Android per importare un file GPX, offrendoti una scelta più ampia di possibili sorgenti di file (ad esempio Google Drive)|
+
+==== Esportazione ====
+{{anchor:export:}}
+
+Questo menu offre opzioni per esportare i cache dall'elenco corrente come descritto di seguito.
+
+{{ :en:lists_export.png?direct&400 |}}
+
+^ Voce di menù ^ Descrizione ^
+|GPX|sporta l'elenco come file GPX|
+|Field Note|Esporta tutti i registri offline esistenti nell'elenco in note sul campo (incluso il caricamento opzionale su geocaching.com)|
+|Note personali|Carica tutte le note personali esistenti neli cache nell'elenco sul server di geocaching.|

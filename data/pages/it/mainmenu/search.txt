@@ -1,0 +1,22 @@
+====== Cerca ======
+
+{{:main_search_default.png?nolink&100 |}}
+
+Il menu di ricerca fornisce diverse funzioni di ricerca come descritto di seguito. Tutte le ricerche basate sulla posizione e sugli utenti forniranno un [[lists|elenco di cache]] come risultato, mentre la ricerca per Codice geo e la quella per tracciabile apriranno direttamente i [[..:cachedetails|dettagli del geocache]] risultante o i [[..:trackabledetails|dettagli del trackable]].
+\\ \\ \\ \\
+
+{{:en:search_1_en.png?direct&400|}}{{ :en:search_2_en.png?direct&400|}}
+
+<WRAP center round info 100%>
+Fondamentalmente tutte le funzioni di ricerca utilizzeranno simultaneamente tutte le piattaforme di geocaching abilitate e forniranno il risultato in un elenco combinato di tutti i servizi di geocaching. Ciò dipende dalle funzioni supportate dal servizio di geocaching specifico come elencato nel menu di [[settings#Services|impostazione dei servizi]].
+</WRAP>
+
+^Funzione di ricerca ^ Descrizione ^
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Facendo clic su questa icona verrà caricato un elenco deli cache di tua proprietà|
+|Coordinate|Cerca i cache attorno alle coordinate fornite. Fare riferimento alla finestra di dialogo [[..:coordinatedialog|Coordinate]] per ulteriori informazioni.|
+|Indirizzo|Cerca le cache attorno a un indirizzo. Utilizziamo il servizio di codifica geografica di Google per trovare l'indirizzo e convertirlo in coordinate.\\ Se l'indirizzo è stato trovato, puoi caricare l'elenco dei cache nelle vicinanze di questa posizione o aprire la [[livemap|Mappa live]] a questo indirizzo facendo clic sulla piccola icona della mappa mostrata nei risultati della ricerca.|
+|Codice geo|Cerca un codice geo specifico in tutte le piattaforme supportate a seconda del prefisso del codice (ad esempio GCAB77C, OC1234).|
+|Parole chiave|Cerca i cache che **iniziano con** la parola chiave fornita.\\ \\ :!: La ricerca per tutti i cache **contenenti** la parola chiave non è attualmente possibile a causa di limitazioni tecniche.|
+|Trovata dall'utente|Cerca i cache trovate dal nome utente fornito.|
+|Nascosta dall'utente|Cerca i cache nascosti dal nome utente fornito.|
+|Oggetto trackable|Cerca un tracciabile utilizzando il suo codice di tracciamento pubblico o segreto. Questa ricerca supporta i trackables geocaching.com e altri servizi tracciabili (es. [[http://geokrety.org|GeoKrety]]).|

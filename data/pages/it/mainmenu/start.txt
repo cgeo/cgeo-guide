@@ -1,0 +1,72 @@
+====== Schermata principale ======
+
+Questa pagina descrive le informazioni visualizzate e le funzioni della schermata principale di c:geo.
+
+===== Icone principali =====
+{{anchor:main_icons:}}
+
+{{ :it:mainmenu_2.jpg?direct&400 |}}
+
+La tabella seguente descrive le icone del menu principale:
+
+^ Icona ^ Funzione ^ Descrizione ^
+|{{:main_live_default.png?nolink&100|}}|[[livemap|Mappa]]|Mostra una mappa centrata sulla posizione corrente, con i geocache nelle vicinanze contrassegnati su di essa. È possibile trascinare la mappa per visualizzare i geocache in altre posizioni. Per visualizzare la mappa con le posizioni geocache aggiornate, è necessario l'accesso alla rete dati cellulare. I geocache visualizzati possono essere filtrati utilizzando il filtro del tipo di cache globale (vedere di seguito).|
+|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Vicini]]|Elenca i geocache nelle vicinanze. A differenza della mappa live, questa funzione crea una query in linea basata sulla tua posizione attuale, così come acquisita dal GPS o dalla rete. La query non si aggiorna automaticamente quando ci si sposta. Per utilizzare questa funzione, è necessario l'accesso alla rete in linea.\\ \\ Se non si dispone di un segnale GPS valido o di altre informazioni sulla posizione, questa icona è disabilitata.|
+|{{:main_stored_default.png?nolink&100|}}|[[lists|Salvati]]|Visualizza i geocache archiviate per l'utilizzo offline. È inoltre possibile utilizzare i geocache archiviate per la memorizzazione nella cache in linea, come un elenco di cose da fare. Memorizzando le informazioni sui geocache, è possibile evitare l'utilizzo e i ritardi non necessari della larghezza di banda della rete. Il numero totale di geocache memorizzate è mostrato in alto a destra dell'icona.\\ Se si sono organizzati i propri geocache in elenchi, premere a lungo l'icona per passare direttamente a un elenco specifico.|
+|{{:main_search_default.png?nolink&100|}}|[[search|Cerca]]|Cerca i geocache per parola chiave, identificazione del codice geografico, indirizzo, nome utente, ecc.|
+|{{:main_any_default.png?nolink&100|}}|[[goto|Vai a]]|Naviga verso qualsiasi posizione arbitraria utilizzando la bussola, il radar, la navigazione passo passo o qualsiasi altro metodo di navigazione supportato.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Fitri per tipo di cache]]| Filtra i geocache visualizzati sulla mappa live, nella ricerca e sugli elenchi di geocache archiviati per tipo di geocache. È possibile scegliere di visualizzare tutte i geocache o solo quelle di un tipo specifico. Il testo sotto l'icona indica il filtro attualmente attivo.\\ Per cancellare il filtro, premere a lungo l'icona.|
+
+
+===== Menu della barra superiore ===== 
+{{anchor:top_bar_menu:}}
+
+La sezione superiore della schermata principale contiene funzioni aggiuntive mostrate come icone nella barra superiore o nascoste dietro il pulsante del menu extra (pulsante a tre punti). Le funzioni disponibili sono descritte di seguito.
+
+<WRAP center round info 100%>
+Il numero di icone mostrate nella barra in alto è determinato dinamicamente, in base alla risoluzione del dispositivo e all'orientamento dello schermo. Gli elementi rimanenti della barra superiore si trovano dietro il pulsante del menu extra. \\
+Per vedere il nome di un'icona nella barra in alto, premi a lungo l'icona.
+</WRAP>
+
+{{ :it:main_topbarmenu.png?direct&400 |}}
+
+^ Icona ^ Funzione ^ Descrizione ^
+|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}} |[[quicksearch|Ricerca rapida]]|Se sei offline, cerca tra geocache memorizzati utilizzando titolo, geo-code, descrizione, proprietario, contenuto del registro, ecc. \\ Se si dispone dell'accesso alla rete, cerca nei contenuti archiviati e in linea. È possibile inserire un geo-code, il codice di un trackable, un nome utente e molto altro.|
+|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Cronologia]]|Visualizza un elenco di geocache a cui hai effettuato l'accesso di recente con c:geo. \\ Nota: l'elenco è locale in c:geo e non è sincronizzato con l'elenco dei cache visualizzati di recente sul sito Web di geocaching.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Funzioni aggiuntive| Apre l'elenco delle funzioni aggiuntive della barra superiore che, in base alle dimensioni dello schermo, non vengono visualizzate come icone. Le funzioni includono quelle descritte in questa tabella.|
+|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Apri un elenco delle tue pocket queries da geocaching.com. Questa funzione non è disponibile per gli [[..:basicmembers|account base]] di geocaching.com.|
+|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Impostazioni]]|Apre il menu di configurazione c:geo.|
+|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Avvia la funzione di backup delle impostazioni, che può essere trovata anche nelle [[settings|impostazioni di c:geo]].|
+|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Programmi utili]]|Apre un elenco di collegamenti ad altre app correlate al geocaching, che possono essere utili insieme a c:geo.|
+|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Geocode Scanner]]|Se un'app di [[utilityprograms|scansione barcode]] è installata sul dispositivo, verrà avviata per eseguire la scansione dei codici a barre che contengono geocode.|
+|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Informazioni su c:geo]]|Visualizza le informazioni sulla versione di c:geo, i contributori, i link di contatto e altre cose interessanti sull'app.|
+
+===== Sezione inferiore =====
+{{anchor:bottom_section:}}
+
+{{ :en:mainmenu_4.png?direct&400 |}}
+
+La sezione inferiore della schermata principale mostra le informazioni sullo stato di accesso, la posizione corrente e lo stato di ricezione satellitare.
+
+==== Stato del Login ====
+{{anchor:login_status:}}
+
+La parte superiore della sezione inferiore mostra lo stato di accesso per ogni [[settings#Services|Piattaforma di geocaching]] configurata e abilitata nelle Impostazioni di c:geo, con ogni servizio su una propria riga.
+Nell'esempio sopra, l'utente ''My username'' ha effettuato correttamente l'accesso a geocaching.com (''GC'') e opencaching.de (''OC.DE''). La figura mostrata dopo il nome utente è il totale dei ritrovamenti attuali dell'utente sulla rispettiva piattaforma di geocaching, incluso facoltativamente un conteggio dei registri offline (mostrato come ''ritrovamenti online + ritrovamenti offline'') se la funzione corrispondente è attivata nelle [[.settings#other_logging_options|opzioni di login]].
+
+==== Posizione attuale ====
+{{anchor:current_location:}}
+
+Sotto le informazioni sullo stato di accesso c'è la tua posizione attuale. Viene visualizzato come coordinate o, se l'impostazione [[settings#Appearance|Mostra indirizzo]] è abilitata, come paese e città / regione.
+Nell'esempio sopra, l'utente si trova negli ''Stati Uniti, New York''
+
+==== Stato Satelliti ====
+{{anchor:satellite_status}}
+
+La riga inferiore di questa sezione mostra lo stato di ricezione satellitare corrente. A titolo di esempio, la tabella seguente utilizza le informazioni dall'immagine sopra:
+
+^Stato ^ Descripzione ^
+|Sat: 5/22|Il ricevitore satellitare sul dispositivo ha trovato 22 satelliti in totale e il segnale è stato fissato a 5 di essi.|
+|+- 4,65 m|L'attuale precisione di posizionamento è di 4,65 metri. A seconda delle impostazioni dell'app, questo può essere mostrato in piedi.|
+|0 km/h|La velocità attuale è di 0 km/h. A seconda delle impostazioni dell'app, questo può essere mostrato in ft/h.|v
+|Ultima nota|L'origine della posizione attualmente utilizzata:\\ Ultima nota = Ultima posizione nota acquisita da c: geo\\ Home = Coordinate di casa come definite su geocaching.com \\ GPS = Fornito dal ricevitore GPS\\ Rete = derivato dalle informazioni  sulla rete mobile\\ Fuso = Determinato utilizzando sia Google Play Services che il ricevitore GPS|

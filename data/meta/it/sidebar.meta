@@ -1,0 +1,30 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1607461616;s:8:"modified";i:1607543145;}s:7:"creator";s:6:"silvio";s:4:"user";s:9:"silviopen";s:11:"last_change";a:8:{s:4:"date";i:1607707187;s:2:"ip";s:37:"2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e";s:4:"type";s:1:"e";s:2:"id";s:10:"it:sidebar";s:4:"user";s:9:"silviopen";s:3:"sum";s:24:"piccolo errore nel testo";s:5:"extra";s:0:"";s:10:"sizechange";i:-5;}s:11:"contributor";a:1:{s:9:"silviopen";s:6:"silvio";}s:5:"title";s:16:"Quick Navigation";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:16:"quick_navigation";s:5:"title";s:16:"Quick Navigation";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:504:"Quick Navigation
+
+	*  Guida utente c:geo
+			*  A proposito di c:geo
+
+
+	*  Come iniziare
+			*  Primi passi
+			*  Le basi di c:geo
+
+
+	*  Manuale utente
+			*  Schermata Principale
+				*  Menù barra superiore
+				*  Mappa Live
+				*  Vicini
+				*  Salvati
+				*  Cerca
+				*  Vai a
+				*  Filtro globale tipo di cache
+				*  Informazioni sullo stato
+
+			*  Impostazioni
+			*  Geocache
+				*  Dettagli Geocache
+				*  Registrazione Geocache
+
+			*  Trackable
+				*  Dettagli Trackable
+				*  Registrazione …";}s:8:"relation";a:2:{s:10:"references";a:29:{s:8:"it:start";b:1;s:13:"it:firststeps";b:1;s:11:"it:basicuse";b:1;s:17:"it:mainmenu:start";b:1;s:19:"it:mainmenu:livemap";b:1;s:17:"it:mainmenu:lists";b:1;s:18:"it:mainmenu:search";b:1;s:16:"it:mainmenu:goto";b:1;s:28:"it:mainmenu:globaltypefilter";b:1;s:20:"it:mainmenu:settings";b:0;s:15:"it:cachedetails";b:0;s:10:"it:logging";b:0;s:19:"it:trackabledetails";b:0;s:12:"it:loggingtb";b:0;s:19:"it:coordinatedialog";b:0;s:13:"it:navigation";b:0;s:10:"it:compass";b:0;s:10:"it:offline";b:0;s:23:"it:mainmenu:pocketquery";b:0;s:13:"it:cacheicons";b:0;s:15:"it:cachemarkers";b:0;s:13:"it:mapsources";b:0;s:15:"it:basicmembers";b:0;s:14:"it:coordformat";b:0;s:13:"it:attributes";b:0;s:27:"it:mainmenu:utilityprograms";b:0;s:10:"it:intents";b:0;s:6:"it:nfc";b:0;s:18:"it:hiddenfunctions";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1607461616;s:8:"modified";i:1607543145;}s:7:"creator";s:6:"silvio";s:4:"user";s:9:"silviopen";s:11:"last_change";a:8:{s:4:"date";i:1607707187;s:2:"ip";s:37:"2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e";s:4:"type";s:1:"e";s:2:"id";s:10:"it:sidebar";s:4:"user";s:9:"silviopen";s:3:"sum";s:24:"piccolo errore nel testo";s:5:"extra";s:0:"";s:10:"sizechange";i:-5;}s:11:"contributor";a:1:{s:9:"silviopen";s:6:"silvio";}}}
