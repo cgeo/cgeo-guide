@@ -21,7 +21,7 @@ The top bar is available from all tabs and provides several functions related to
 
 <WRAP center round info 100%>
 The icons shown in the top bar and the contents behind the overflow menu button are distributed dynamically based on your device resolution and screen orientation. Thus it might be possible, that more or less items can be found behind the menu button or instead shown as icons in the top bar on your device.\\
-In case a menu entry is shown as an icon you can long press the icon to get a popup showing its function.
+In case a menu entry is shown as an icon you can long press the icon to get a popup showing its function, unless the double command is provided (short and long press), as in the case of the preferred and secondary navigator option)
 </WRAP>
 
 ^ Icon ^ Function ^ Description ^

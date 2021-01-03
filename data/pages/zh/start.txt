@@ -9,29 +9,27 @@
 {{ :logo_big.png?nolink&200 |}} 
 
 <WRAP center round alert 100%>
-**This site is currently under construction!**
+**本站正在建设中！**
 
-While we consider the user guide completed by now, we would like to get your feedback first. If you miss any information or see any incomplete or wrong descriptions, please provide us your [[support@cgeo.org?subject=User Guide Feedback|feedback]]!
+尽管我们认为用户指南目前已完成，但我们希望首先获得您的反馈。 如果您错过任何信息或看到任何不完整或错误的描述，[[support@cgeo.org?subject=User Guide Feedback|请向我们提供反馈]]！
 
-We started translating this guide to other languages. We need contributors, who are willing to help us translating this guide into their mother language. If you are interested in helping us with that, just [[support@cgeo.org?Subject=User Guide Translation|let us know]].
+我们开始将本指南翻译成其他语言。 我们需要贡献者愿意来帮助我们将本指南翻译成他们的母语。 如果您有兴趣帮助我们，[[support@cgeo.org?Subject=User Guide Translation|请告诉我们]]。
 </WRAP>
 
 ==== 关于 c:geo ====
 {{anchor:about_cgeo:}}
 
-c:geo is an open source, full-featured, always ready-to-go unofficial client for geocaching.com and offers basic support for other geocaching platforms (such as Opencaching). It does not require a web browser or exports - just install it and start right away.
+c:geo 是一个用于 geocaching.com 的开放源代码、功能齐全、随时可用的非官方客户端，并为其他地理藏宝平台（例如 Opencaching）提供基本支持。它不需要网络浏览器或导出 - 只需安装并立即启动。
 
-c:geo is only a client application for geocaching and is not associated with any specific geocaching service provider.
-
-
+c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任何特定的地理藏宝服务提供商相关联。
 ===== 入门 =====
 {{anchor:getting_started:}}
 
-  * [[installation|Installation and update of c:geo]] - How and from where to install c:geo and get updates?
-  * [[installation#permissions|c:geo device permissions]] - Why does c:geo need the requested permissions on your device?
+  * [[installation|c:geo 的安装和更新]] - 怎样以及从哪儿安装 c:geo 并获取更新？
+  * [[installation#permissions|c:geo 设备权限]] - 为什么 c:geo 需要在你的设备上请求的这些权限？
 
-  * [[firststeps|First steps with c:geo]] - First start of the app and authentication of the geocaching services
-  * [[basicuse|Basic use of c:geo]] - What is Geocaching and how to find your first geocache with c:geo?
+  * [[firststeps|c:geo 的第一步]] - 应用程序的首次启动和地理藏宝服务的身份验证
+  * [[basicuse|c:geo 的基本用法]] - 什么是地理藏宝以及怎样用 c:geo 找到你的第一个藏点？
 
 
 ===== 用户手册 =====
@@ -40,91 +38,91 @@ c:geo is only a client application for geocaching and is not associated with any
 ==== 主菜单 ====
 {{anchor:main_menu:}}
 
-  * [[.mainmenu:start|主屏幕]]  - The functions of the main menu
-    * [[.mainmenu:start#top_bar_menu|Top bar menu]] - The menu functions on the upper section of the main screen 
-    * [[.mainmenu:livemap|Live Map]] - The live map of geocaches
-    * [[.mainmenu:lists#cache_list|Nearby Search]] - Search for caches in your surrounding
-    * [[.mainmenu:lists|Stored Caches]] - Locally stored geocaches
-    * [[.mainmenu:search|Search]] - Search for Geocaches and Trackables
-    * [[.mainmenu:goto|Go to]] - Direct navigation to arbitrary coordinates
-    * [[.mainmenu:globaltypefilter|Global Cache Type Filter]] - Filtering of cache types
-    * [[.mainmenu:start#bottom_section|Status infos]] - The status info shown on the lower section of the main screen
+  * [[.mainmenu:start|主屏幕]]  - 主菜单功能
+    * [[.mainmenu:start#top_bar_menu|顶栏菜单]] - 主屏幕上部的菜单功能
+    * [[.mainmenu:livemap|实时地图]] - 藏点的实时地图
+    * [[.mainmenu:lists#cache_list|附近搜寻]] - 搜寻附近的藏点
+    * [[.mainmenu:lists|保存藏点]] - 本地储存的藏点
+    * [[.mainmenu:search|搜索]] - 搜索藏点和可追踪物
+    * [[.mainmenu:goto|导航]] - 直接导航到任意坐标
+    * [[.mainmenu:globaltypefilter|全局藏点类型筛选]] - 筛选藏点类型
+    * [[.mainmenu:start#bottom_section|状态信息]] - 状态信息显示在主屏幕的下部
 
-  * [[.mainmenu:settings|设置]] - Configuring the application
+  * [[.mainmenu:settings|设置]] - 应用中的设置
 
 ==== 藏点 ====
 {{anchor:geocaches:}}
 
-  * [[cachedetails|Geocache details]] - Explanation of the cache detail pages
-  * [[Logging|Logging of Geocaches]] - Logging of your Geocaching finds
+  * [[cachedetails|藏点详情]] - 藏点详情页的解释
+  * [[Logging|记录藏点日志]] - 记录你发现的藏点
 
 ==== 可追踪物 ====
 {{anchor:trackables:}}
 
-  * [[trackabledetails|Trackable details]] - Explanation of the trackable page
-  * [[loggingtb|Trackable handling]] - Handling and Logging of Trackables
+  * [[trackabledetails|可追踪物详情]] - 可追踪物页面的解释
+  * [[loggingtb|可追踪物处理]] - 可追踪物的处理和日志记录
 
 ==== 坐标和导航 ====
 {{anchor:coordinates_and_navigation:}}
 
-  * [[coordinatedialog|Coordinate input dialog]] - Explanation of coordinate input 
-  * [[coordinatedialog#waypoint_calculator|Waypoint Calculator]] - Usage of the waypoint calculator
-  * [[navigation|Navigation]] - Explanation of the supported navigation methods and tools
-  * [[compass|Compass]] - Using the compass
+  * [[coordinatedialog|坐标输入对话框]] - 坐标输入的解释
+  * [[coordinatedialog#waypoint_calculator|航点计算器]] - 航点计算器的使用
+  * [[navigation|导航]] - 支持的导航方案和工具的解释
+  * [[compass|指南针]] - 指南针的使用
 
 ==== 离线功能 ====
 {{anchor:offline_functions:}}
 
-  * [[offline|Offline caching]] - Offline use
-    * [[offline#gpx_import|GPX import]] - Importing caches from GPX files
-    * [[.mainmenu:pocketquery|Pocket queries]] - Viewing and importing pocket queries
-    * [[offline#offline_logging|Offline logging]] - Logging caches offline
-    * [[offline#field_note_export|Field Notes]] - Exporting field notes
-    * [[offline#offline_maps|Offline Maps]] - Usage of offline maps 
+  * [[offline|离线地理藏宝]] - 离线使用
+    * [[offline#gpx_import|GPX 导入]] - 从 GPX 文件导入藏点
+    * [[.mainmenu:pocketquery|口袋查询]] - 查看和导入口袋查询
+    * [[offline#offline_logging|离线记录]] - 离线记录藏点
+    * [[offline#field_note_export|实地记录]] - 导出实地记录
+    * [[offline#offline_maps|离线地图]] - 使用离线地图
 
 ===== 快速参考 =====
 {{anchor:quick_reference:}}
 
-  * [[cacheicons|Geocache types]]
-  * [[cachemarkers|Geocache markers]]
-  * [[cachedetails#waypoint_types|Waypoint types]]
-  * [[mapsources|Map sources]] 
-  * [[basicmembers|Limitations for geocaching.com basic members]]
-  * [[coordformat|Coordinate formats]]
-  * [[attributes|Attribute icons]]
-  * [[.mainmenu:utilityprograms|Useful other apps]]
+  * [[cacheicons|藏点类型]]
+  * [[cachemarkers|藏点标记]]
+  * [[cachedetails#waypoint_types|路点类型]]
+  * [[mapsources|地图来源]] 
+  * [[basicmembers|geocaching.com 基本会员的限制]]
+  * [[coordformat|坐标格式]]
+  * [[attributes|属性图标]]
+  * [[.mainmenu:utilityprograms|其他有用的应用程序]]
 
 ===== 特殊功能和提示 =====
 {{anchor:special_functions_and_hints:}}
 
-  * [[intents|Using geocaching related links]]
-  * [[nfc|Sharing caches with NFC]]
-  * [[hiddenfunctions|Hidden functions in c:geo]]
-  * [[https://send2.cgeo.org|Using send2cgeo]]
+  * [[intents|使用地理藏宝相关的链接]]
+  * [[nfc|使用 NFC 分享藏点]]
+  * [[hiddenfunctions|c:geo 中的隐藏功能]]
+  * [[https://send2.cgeo.org|使用 send2cgeo]]
 
 ===== FAQ =====
 {{anchor:faq:}}
 
-If you have a special problem or error, please do also take a look at our [[http://faq.cgeo.org|FAQ]] to find a solution.
+如果你有具体的问题或错误，请查看我们的 [[http://faq.cgeo.org|FAQ]] 来寻找解决方案。
 
 ===== 关于这个手册 =====
 {{anchor:about_this_manual:}}
 
-  * [[translation|Help translating this user guide!]]
-  * [[ebook_help|Download a PDF version of this guide]]
+  * [[translation|帮助翻译这个用户手册！]]
+  * [[ebook_help|下载本指南的 PDF 版本]]
 
 <WRAP center round info 100%>
-As c:geo is continuously advanced and updated, it might be possible that this user guide is not reflecting the most recent changes.
+随着 c:geo 的不断发展和更新，本用户指南可能没有反映出最新的更改。
 </WRAP>
 
 ===== 有用链接 =====
 {{anchor:useful_links:}}
 
-  * [[http://www.cgeo.org|c:geo Homepage]]
-  * [[https://www.facebook.com/android.geocaching|c:geo on Facebook]]
-  * [[https://plus.google.com/105588163414303246956|c:geo on Google+]]
-  * [[https://twitter.com/android_gc|c:geo on Twitter]]
+  * [[http://www.cgeo.org|c:geo 主页]]
+  * [[https://www.facebook.com/android.geocaching|c:geo 的 Facebook]]
+  * [[https://plus.google.com/105588163414303246956|c:geo 的 Google+]]
+  * [[https://twitter.com/android_gc|c:geo 的 Twitter]]
 
-  * [[https://github.com/cgeo/|c:geo Development on GitHub]]
-  * [[http://www.cgeo.org/development|Get involved and contribute to the c:geo development]]
-  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Donate via PayPal]]
+  * [[https://github.com/cgeo/|c:geo 在 GitHub 的开发]]
+  * [[http://www.cgeo.org/development|参与并贡献 c:geo 的开发]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|通过 PayPal 捐赠]]

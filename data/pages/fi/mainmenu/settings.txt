@@ -109,13 +109,13 @@ Tässä valikossa voit muuttaa c:geon ulkonäön perusasetuksia.
 
 ^ Valinta ^ Selite ^
 | Näytä ystävien/omat |Näyttää ylimääräisen lokikirjasivun, joka listaa omat kirjauksesi sekä ystäviesi kirjaukset (perustuen geocaching.com-sivuston ystävä-toimintoon). //(Oletus: Päällä)//|
-|Viimeisimmät tiedot -sivu|Kun valinta on pois päältä, ''Lisätietoja''-nappi avaa aina ''Yksityiskohdat''-sivun. Valinnan ollessa päällä c:geo muistaa viimeksi käytössä olleen sivun ja avaa kaikki kätköt tälle sivulle (kuten ''Reittipisteet''). //(Oletus: Pois päältä)//|
+|Viimeisimmät tiedot -sivu|Kun valinta on pois päältä, ''Lisätietoja''-nappi avaa aina ''Yksityiskohdat''-sivun. Valinnan ollessa päällä c:geo muistaa viimeksi käytössä olleen sivun ja avaa kaikki kätköt tälle sivulle (kuten ''reittipisteet''). //(Oletus: Pois päältä)//|
 |Näytä suunta|Näyttää pienen nuolen kaikissa kätkölistoissa, näyttääkseen karkean suunnan kätkölle laitteen sijaintitietoon perustuen.\\ Kun tämä voi auttaa sinua päättelemään onko kätkö esimerkiksi edessä tai takana, sitä ei ole kuitenkaan suunniteltu korvaamaan muita c:geon navigointitapoja. //(Oletus: Päällä)// \\ \\ :!: geocaching.comin peruskäyttäjät näkevät hakutuloksissa vain staattiset suuntakuvat, mutta ei liikkuvia nuolia.|
+|Reittipisteiden siirron esto|Tämä toiminto estää **kokonaan** toiminnon, joka siirtää automaattisesti muistiinpanoistasi löytyvät koordinaatit reittipisteiksi. Vaihtoehtoisesti, voit kytkeä tämän toiminnon pois päältä kätkökohtaisesti, poistamalla valinnan laatikosta, joka sijaitsee suoraan kätkön muistiinpanosi alapuolella.|
+|Käytä Chrome Webviewiä|Ulkoiset verkkosivut näytetään Chrome Webview -ikkunassa suoraan c:geossa sen sijaan, että ne avataan laitteesi omalla selaimella.\\ \\ :!: Tämä toiminto vaatii, että Google Chrome on asennettu laitteellesi.|
 |Piilota omat ja löydetyt|Piilottaa omat tai jo löydetyt kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
 |Piilota hyllytetyt|Piilottaa hyllytetyt kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
 |Piilota arkistoidut|Piilottaa arkistoidut kätköt kaikissa c:geon onlinetoiminnoissa, mutta ei offline-listoissa (eli tallennetuissa kätköissä).|
-|Reittipisteen siirron esto|Tämä toiminta estää **yleisesti** automaattisen reittipisteiden poiminnan henkilökohtaisista muistiinpanoistasi. Voit vaihtoehtoisesti kytkeä tämän toiminnon pois päältä jokaiselle kätkölle erikseen, poistamalla valinnan suoraan henkilökohtaisen muistiinpanon alapuolelta.|
-
 
 ===== Kartta =====
 {{anchor:map:}}

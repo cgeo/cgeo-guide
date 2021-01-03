@@ -1,5 +1,3 @@
-FIXME ** Questa pagina non è ancora completamente tradotta. Chi può potrebbe aiutarne il completamento. ** \\ // (Rimuovere questo paragrafo a lavoro completato) //
-
 ====== Primi passi con c:geo ======
 
 <WRAP center round important 100%>

@@ -22,7 +22,7 @@ Yläpalkin valikko on näkyvillä kaikilla välilehdillä ja tarjoaa kyseiselle 
 
 <WRAP center round info 100%>
 Kuvakkeet yläpalkissa ja sisältö kolmen pisteen menun takana jaetaan dynaamisesti laitteesi näytön resoluution ja näytön suunnan mukaisesti. Joten on mahdollista, että näytettyjen kuvakkeiden sekä menun takaa löytyvien valintojen määrä vaihtelee.\\
-Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen.
+Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen, paitsi silloin kun tuplakomento on asetettu (lyhyt ja pitkä painallus), kuten esimerkiksi ensi- ja toissijainen navigaatio.
 </WRAP>
 
 ^ Kuvake ^ Toiminto ^ Selite ^

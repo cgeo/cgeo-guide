@@ -164,3 +164,25 @@
 1607408799	146.241.0.117	E	en:mainmenu:livemap	silviopen	fix wrong formatting		2
 1607709818	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	silviopen	[Hiding elements] 		0
 1607709832	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	silviopen	[Hiding elements] 		0
+1608727040	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		32
+1608727121	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		71
+1608727147	2.205.118.1	E	en:mainmenu:livemap	lineflyer	Quick settings button		2
+1608727226	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		0
+1608727331	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		2
+1608727724	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map settings] 		443
+1608727773	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608727822	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		1
+1608727832	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608728013	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		366
+1608728218	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		325
+1608728269	2.205.118.1	E	en:mainmenu:livemap	lineflyer	Removed routing, now part of quick settings		-753
+1608728295	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608728364	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		321
+1608728416	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		160
+1608728516	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		516
+1608728537	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Hiding elements] removed, now part of quick settings		-1423
+1608728584	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Removed Hide and Routing, now part of map quick settings		-379
+1608728859	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		9
+1608729141	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top section] DIrection line switch in popup now available on all maps		-89
+1608729357	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top section]  Add popup menu item "Prevent waypoint from note"		156
+1608729753	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Cache information] Add favorite percentage description		92

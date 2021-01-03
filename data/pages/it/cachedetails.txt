@@ -1,0 +1,276 @@
+====== Dettagli geocache ======
+
+Le pagine dei dettagli del cache forniscono tutte le informazioni su un cache specifica. Possono essere aperti facendo clic su un cache in una [[.mainmenu:lists|lista]], dalla [[.mainmenu:livemap#map_popup_window|mappa live]] o tramite la [[.mainmenu:search|ricerca]] diretta del codice di un cache (il geocode).
+
+{{ :en:cachedetails_details.png?direct&300 |}}
+
+I dettagli del cache sono distribuiti su diverse schede accessibili scorrendo verso sinistra o destra. A meno che tu non abbia modificato le [[.mainmenu:settings#cache_details|impostazioni]] predefinite, la scheda dei dettagli si aprirà sempre per prima.\\ Nella [[cachedetails#bottom_section|sezione inferiore]] di ogni scheda puoi vedere il nome della scheda corrente e puoi anche usarlo per navigare tra le schede. Il nemu nella [[cachedetails#top_bar_menu|barra superiore]] è lo stesso in tutte le schede.
+
+Puoi vedere l'ordine completo delle schede nella tabella sottostante. Cliccando sulle immagini nella tabella si aprirà una versione ingrandita, cliccando sul titolo si accederà direttamente alla relativa sezione di questa guida utente:
+
+^ [[cachedetails#waypoint_tab|Waypoint]] ^ [[cachedetails#details_tab|Dettaglio]] ^ [[cachedetails#description_tab|Descrizione]]^ [[cachedetails#logbook_tab|Logbook]] ^ [[cachedetails#logbook_tab|Log tuoi e degli amici]] ^[[cachedetails#inventory_tab|Oggetti]] ^ [[cachedetails#image_tab|Immagini]] ^
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+
+===== Menu della barra superiore =====
+{{anchor:top_bar_menu:}}
+
+{{ :en:cachedetails_topbar.png?direct&400 |}}
+
+La barra in alto è disponibile da tutte le schede e fornisce diverse funzioni relative al cache:
+<WRAP center round info 100%>
+Le icone mostrate nella barra superiore e il contenuto del menu di overflow vengono distribuiti dinamicamente in base alla risoluzione del dispositivo e all'orientamento dello schermo. Pertanto potrebbe essere possibile trovare più o meno elementi del menu invece di essere mostrati come icone nella barra superiore del dispositivo.\\
+Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lungo l'icona per ottenere un popup che mostra la sua funzione, a parte le icone che prevedono un comando diverso a seconda che si usi un tocco breve o prolungato (come nmel caso del navigatore principale o secondario).
+</WRAP>
+
+^ Icona ^ Funzione ^ Descrizione ^
+|{{:ic_menu_compass.png?nolink&40 |}}|Navigatore preferito|Un breve clic su questa icona avvierà lo strumento di [[.mainmenu:settings#navigation|navigazione preferito]] per raggiungere il cache selezionato.\\ Una pressione lunga avvierà invece lo strumento di [[.mainmenu:settings#navigation|navigazione]] secondario.|
+|{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigazione]]|Aprirà l'elenco completo degli strumenti di navigazione disponibili.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, che vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte in questa stessa tabella.|
+|{{:ic_menu_edit.png?nolink&40 |}}|Scrivi log|Apre la [[logging|finestra di log]] per registrare il ritrovamento di un cache.|
+|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Attiva/disattiva il parlato|Avvia o interrompe l'output di sintesi vocale della direzione e della distanza dall'obbiettivo.\\ È inoltre possibile spegnere il display una volta avviata la guida vocale.|
+|{{:ic_menu_rotate.png?nolink&40 |}}|Cache qui intorno|Questo comando avvia una ricerca nei dintorni delle coordinate del cache e ne mostra il risultato sotto forma di [[.mainmenu:lists|elenco]].|
+|{{ :ic_menu_save.png?nolink&40 |}}|Salva|Memorizza il cache nei tuoi elenchi o, se è già salvato, consente di memorizzarlo in un altro elenco.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Aggiorna|La selezione di questa opzione scaricherà nuovamente le informazioni del cache aggiornandole dal server di geocaching.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Rimuovi|Questa operazione eliminerà il cache dai tuoi elenchi.|
+|Vote||This will open the [[http://gcvote.com|Vota]] Questo aprirà la finestra di dialogo GCVote per il cache.|
+|Condividi cache||Permette di condividere un link al cache utilizzando le opzioni di condivisione Android integrate.|
+|Apri Geochecker||Questo aprirà la pagina di geochecker per questo cache nel tuo browser web.\\ \\ :!: Questa voce di menu è disponibile solo se la descrizione del cache contiene un collegamento a un geochecker (noto).|
+|Ignora cache||Questo inserirà il cache nell'elenco dei server ignorati.\\ \\ :!: Ignorare un cache significa che questo cache non verrà mai più considerto durante il caricamento dei dati dal server di geocaching. Sarai in grado di vedere di nuovo il cache solo annullando l'opzione direttamente sul sito Web di geocaching.|
+|Estrai Waypoint||Questa funzione scansionerà la descrizione del cache per coordinate valide e creerà automaticamente un waypoint per ciascuna coordinata trovata nell'elenco.\\Questa può essere una funzione utile nel caso in cui il proprietario del cache non abbia creato waypoint dedicati ma ne indichi solo le coordinate nella descrizione del cache.|
+|Esportazione||Consente di esportare i cache come GPX, una nota di campo o una nota personale.|
+|note personali||Questa funzione aprirà direttamente l'editor per la nota personale, che si trova anche nella [[cachedetails#description_tab|scheda descrizione]].|
+
+
+===== Scheda dettaglio =====
+{{anchor:details_tab:}}
+
+Questa è la scheda aperta per impostazione predefinita (a meno che tu non abbia modificato il comportamento nelle impostazioni) e ti mostra le informazioni più importanti sul cache.
+
+==== Informazioni sul cache ====
+{{anchor:cache_information:}}
+
+{{ :en:details_cacheinfo.png?direct&400 |}}
+
+Questa sezione della scheda dei dettagli fornisce informazioni sul cache:
+
+^ Riga ^ Descrizione ^ 
+|Nome|Titolo di questo cache.|
+|Type|[[cacheicons|Tipo]] di cache.|
+|Geo code|Codice univoco del geocache selezionato.|
+|Stato|Stato di questo cache. Mostrerà se hai trovato il cache (inclusa la data di ricerca) o se hai memorizzato un registro offline per essa. Inoltre fornirà informazioni se il cache è disabilitato, archiviato o riservato ai membri Premium di geocaching.com.|
+|Distanza|Distanza dalla posizione corrente alle coordinates del cache selezionato.|
+|Difficoltà|Livello di difficoltà del cache selezionato mostrato come valore numerico oltre che grafico.|
+|Terreno|Valutazione della difficoltà del terreno per raggiungere il cache mostrato come valore numerico oltre che grafico|
+|Popolarità|Mostra la valutazione della qualità di questa cache da [[http://gcvote.com|GCVote]] se questo servizio è abilitato nelle [[.mainmenu:settings|impostazioni]] di c:geo come valore numerico oltre che grafico.\\ Il valore mostrato tra parentesi è il numero di voti dati per questa cache.|
+|Preferito|La quantità di punti preferiti (geocaching.com) o consigli (piattaforme di apertura del cache) che il cache selezionata è stata assegnata. Il valore percentuale è la quantità di punti preferiti divisa per il numero di risultati totali.|
+|Tua valutazione|Mostra la valutazione che hai dato a questa cache su [[http://gcvote.com|GCVote]] se questo servizio è abilitato nelle [[.mainmenu:settings#services|impostazioni]] di c:geo come valore decimale oltre che grafico.|
+|Proprietario|Il nome del proprietario di questa cache.\\È possibile fare clic su questo campo per aprire un menu contestuale per eseguire azioni relative a questo proprietario.|
+|Nascosto il|La data in cui questo cache è stato nascosto.|
+|Luogo|La provincia / Nazione in cui si trova il cache.|
+|Coordinate|Le coordinate del geocache.\\ È possibile fare clic su questo campo per visualizzarle in diversi altri  [[.:coordformat|formati di coordinate]] supportati da c:geo.|
+
+<WRAP center round tip 100%>
+Con una pressione lunga su alcuni dei campi sopra elencati, è possibile copiare le informazioni negli appunti o condividerle.
+</WRAP>
+
+
+==== Attributi ====
+{{anchor:attributes:}}
+
+{{:en:details_attribute_icon.png?direct&400 |}}{{ :en:details_attribute_text.png?direct&400 |}}
+
+Questa sezione della scheda dei dettagli ti mostrerà gli attributi che il proprietario ha assegnato al suo cache, con una serie di icone. La sezione potrebbe non essere presente, nel caso in cui il proprietario non abbia assegnato alcun attributo per questo cache.
+
+Con un tocco sulle [[attributes|icone]] degli attributi, verrà visualizzato un elenco testuale con le relative descrizioni.
+
+==== Gestione liste ====
+{{anchor:list_management:}}
+
+Questa sezione dei dettagli fornisce diverse opzioni per gestire il salvataggio del cache.
+
+{{ :en:livemap_popup_5.png?direct&400 |}}
+
+^ Icona/Opzione ^ Descrizione ^
+|{{ :en:livemap_popup_6.png?nolink&200 |}}|Questo campo fornisce informazioni se il cache selezionato è stato salvato in una [[.mainmenu:lists|lista di cache]] e da quanto tempo (ovvero fornisce un'indicazione di quanto sono aggiornati i dettagli visualizzati).|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Facendo clic su questo pulsante verranno aggiornate le informazioni del cache scaricandole dal server di geocaching.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|Nel caso in cui il cache selezionata sia già archiviata in una [[.mainmenu:lists|cache lista]], questo campo mostra i nomi di quelle in cui è archiviata. È possibile fare clic sul nome della lista per aprirla.|
+|{{ :ic_menu_save.png?nolink&40 |}} |Questo pulsante viene visualizzato solo se il cache selezionato non è ancora stato salvato in una [[.mainmenu:lists|lista]] di cache e la memorizzerà.\\Una tocco prolungato su questa icona memorizzerà il cache nell'ultimo elenco utilizzato, invece di chiedere in quale salvarlo.|
+|{{ :ic_menu_edit.png?nolink&40 |}}|Se il cache selezionato è già archiviato in una [[.mainmenu:lists|lista]] di cache, viene visualizzata questa icona che consente di modificare la lista o aggiungere il cache a un altra.|
+|{{ :ic_menu_delete.png?nolink&40 |}}|Se il cache selezionato è già archiviato in una [[.mainmenu:lists|lista]] di cache, viene visualizzata questa icona che consente di eliminare il cache da tutte le liste.|
+
+==== Watchlist ====
+{{anchor:watchlist:}}
+
+{{:en:details_watchlist.png?direct&400 |}}
+
+Questa sezione ti consente di aggiungere/rimuovere il cache dalla tua lista di cache che vuoi "tenere d'occhio".
+
+La watchlist è una funzione del provider di geocaching. Avere un cache nella tua lista di controllo ti farà ricevere una notifica via e-mail se viene aggiunta un nuovo log per questo cache.
+
+Il pulsante {{:ic_menu_add.png?nolink&30|}} o {{:ic_menu_remove.png?nolink&30|}} aggiungerà/rimuoverà il cache dalla tua lista di controllo. 
+Il valore ''Watchers:'' mostra quante persone hanno questa cache nella loro lista di controllo.
+
+
+==== Preferito ====
+{{anchor:favorite}}
+
+{{:en:details_favorite.png?direct&400 |}}
+
+Questa sezione mostra se hai assegnato un punto preferito a questo cache.
+
+Il pulsante {{:ic_menu_add.png?nolink&30|}} o {{:ic_menu_remove.png?nolink&30|}} viee mostrato solo se hai già trovato questo cache e aggiungerà/rimuoverà il cache dai preferiti.
+
+===== Scheda Waypoint =====
+{{anchor:waypoint_tab:}}
+
+{{:en:cachedetails_waypoints.png?direct&300 |}}
+
+Questa scheda contiene tutte le informazioni sui waypoint del cache. Mostra i waypoint definiti dal proprietario e ti consente di aggiungere i tuoi waypoint personalizzati per questo cache.
+
+TLe informazioni sul waypoint sono strutturate in questo modo:
+
+^ Riga ^ Descrizione ^ 
+|Titolo|Icona e titolo del waypoint|
+|Tipo e Riferimento|[[cachedetails#waypoint_types|tipo di waypoint]] e codice di riferimento (fornito dal server) oppure ''Personalizzato'' se il waypoint è stato creato da te.|
+|Coordinate|Le coordinate del waypoint. Il campo potrebbe anche essere vuoto se il proprietario non ha fornito le coordinate per il waypoint o se è stato creato un waypoint senza coordinate (o utilizzando il [[coordinatedialog#waypoint_calculator|calcolatore di waypoint]] che non fornisce ancora coordinate valide).\\ \\ :!: È possibile fare clic sulle coordinate per visualizzarle in vari altri formati supportati.|
+|Descrizione|Contiene la descrizione di questo waypoint.|
+|{{:actionbar_compass_light.png?nolink&40 |}}|Questa icona è mostrata sul lato destro di ogni waypoint, se ha delle coordinate. Un breve clic avvierà il [[.mainmenu:settings#navigation|navigatore predefinito]], un lungo clic avvierà il [[.mainmenu:settings#navigation|navigatore alternativo]] verso queste coordinate.|
+
+Un breve clic sul waypoint stesso avvierà l'[[cachedetails#waypoint_editor|editor di waypoint]]. Un lungo clic sul waypoint mostrerà un [[cachedetails#waypoint_context_menu|menu contestuale]] che fornisce più opzioni.
+
+Facendo clic su ''Aggiungi un waypoint'' si aprirà l'[[cachedetails#waypoint_editor|editor di waypoint]] per creare il waypoint personalizzato per questo cache.
+
+==== Tipi di waypoint ====
+{{anchor:waypoint_types:}}
+
+I waypoint possono avere diversi tipi come elencato di seguito:
+
+^ Icona ^ Nome ^ Descrizione ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|Parcheggio|Coordinate di un parcheggio consigliato per questo cache.|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|Domanda a cui rispondere|Un waypoint di un cache, in cui non è stato nascosto nulla, ma in genere è necessario rispondere a una domanda, solitamente fornita nella descrizione del waypoint.|
+|{{ :waypoint_stage.png?nolink&40 |}}|Fase di un cache multiplo|Un punto di passaggio di un cache, in cui una oggetto fisico è stato nascosto, che fornirà ulteriori informazioni per risolvere il cache.|
+|{{ :waypoint_trailhead.png?nolink&40 |}}|Indicazioni|Le coordinate di questo waypoint in genere forniscono una guida sul percorso da seguire per raggiungere il cache o il waypoint successivo.|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|Punto di riferimento|Un punto di riferimento generico, che può essere utilizzato per più scopi.|
+|{{ :waypoint_flag.png?nolink&40 |}}|Destinazione finale|Indica la posizione del contenitore per il finale del cache.|
+
+==== Editor di waypoint ====
+{{anchor:waypoint_editor:}}
+
+{{ :en:details_waypoint_editor.png?direct&400 |}}
+
+La tabella seguente fornisce una descrizione dei campi di input dell'editor di waypoint:
+
+^ Sezione ^ Descrizione ^
+|{{ :en:waypoint_editor_coords.png?nolink&400 |}}|Facendo clic sul campo delle coordinate si aprirà la finestra di [[coordinatedialog|immissione delle coordinate]].|
+|{{ :en:waypoint_editor_projection.png?nolink&400 |}}|Dopo aver immesso le coordinate è possibile utilizzare i campi ''Angolo'' e ''Distanza'' per calcolare la proiezione delle coordinate. Dopo aver salvato il waypoint, le coordinate verranno calcolate in base ai dati di proiezione.|
+|{{ :en:waypoint_editor_typeselector.png?nolink&400 |}}|Facendo clic su questo campo si aprirà un menu a discesa per scegliere il [[cachedetails#waypoint_types|tipo di waypoint]].|
+|{{ :en:waypoint_editor_title_note.png?nolink&400 |}}|È possibile immettere il titolo del waypoint e le note utente.\\ Il campo del titolo viene precompilato automaticamente a seconda del tipo di waypoint selezionato.|
+|{{ :en:waypoint_editor_visited.png?nolink&400 |}}|L'attivazione di questa casella imposterà il waypoint come Visitato, mostrandolo con un segno di spunta nell'elenco dei waypoint e rendendo trasparente lo sfondo dell'icona sulla mappa.|
+|{{ :en:waypoint_editor_change.png?nolink&400 |}}|Facoltativamente, puoi sostituire le coordinate dell'elenco del cache con le coordinate di questo waypoint. Questa operazione può essere eseguita solo sul dispositivo o (se il provider di geocaching lo supporta) anche sul server di geocaching.\\ Questa funzione è utile per spostare l'icona del cache sulle coordinate finali reali (ad es. Mistery-Cache risolto o ultima fase di un Multi-Cache) e anche memorizzare le coordinate in modo permanente sul sito Web di geocaching.|
+
+==== Menu contestuale del waypoint ====
+{{anchor:waypoint_context_menu:}}
+
+{{:en:details_waypoint_context.png?direct&300 |}}
+
+Un tocco prolungato su un waypoint aprirà questo menu contestuale fornendo le seguenti opzioni:
+
+^ Opzione ^ Descrizione ^ 
+|Modifica|Avvia l'editor per questo waypoint.\\ Uguale al tocco breve su un waypoint.|
+|Visitato|Imposta questo waypoint come visitato, mostrandolo con un segno di spunta nell'elenco dei waypoint e rendendo trasparente lo sfondo dell'icona sulla mappa.|
+|Copia le coordinate|Copia le coordinate del waypoint negli appunti.|
+|Elimina le coordinate|Elimina le coordinate di questo waypoint. \\ Questa opzione è disponibile solo sui waypoint personalizzati.|
+|Duplica waypoint|Crea un nuovo waypoint utilizzando tutte le informazioni del waypoint esistente.\\ Questa opzione è utile per clonare un waypoint definito dal server per modificarlo in seguito.|
+|Copia le coordinate|Copy the waypoint coordinates to the clipboard.|
+|Elimina|Elimina questo waypoint.\\ Questa opzione è disponibile solo sui waypoint personalizzati.|
+|Bussola|Inizia la navigazione con la bussola verso le coordinate di questo waypoint.|
+|Naviga|Apre l'elenco completo delle opzioni di navigazione per questo waypoint.|
+|Cache qui intorno|Esegue una ricerca di cache nelle vicinanze delle coordinate di questo waypoint.|
+
+===== Scheda descrizione =====
+{{anchor:description_tab:}}
+
+==== Descrizione Cache ====
+{{anchor:cache_description:}}
+
+{{:en:cachedetails_description.png?direct&300 |}}
+
+La scheda Descrizione contiene principalmente la descrizione del cache fornita dal proprietario. Sotto la descrizione del cache scorrevole troverai sezioni aggiuntive per il [[cachedetails#hint_section|suggerimento]] e per la tua [[cachedetails#personal_note|nota personale]].
+
+Puoi fare clic sulla descrizione del cache per copiare il testo o parti di essa negli appunti. Inoltre puoi usarlo per attivare la [[.mainmenu:utilityprograms|traduzione]] della descrizione in un'altra lingua.
+
+==== Sezione suggerimento ====
+{{anchor:hint_section:}}
+
+{{:en:description_hint_encoded.png?direct&400 |}}{{ :en:description_hint_decoded.png?direct&400 |}}
+
+Questa sezione contiene il suggerimento segreto, se il proprietario lo fornisce. Per impostazione predefinita, il suggerimento è codificato (immagine a sinistra) per non svelare la posizione del cache. Per decodificarlo, è sufficiente fare clic sul testo codificato (immagine a destra).
+
+Se il proprietario ha caricato un'immagine spoiler, troverai un collegamento cliccabile a questa immagine sotto il testo del suggerimento.
+
+
+==== Nota personale ====
+{{anchor:personal_note:}}
+
+{{ :en:description_personalnote.png?direct&400 |}}
+
+Questa sezione contiene la tua nota personale riguardante il cache. Le note che hai inserito nel server di geocaching verranno mostrate qui (per geocaching.com la sincronizzazione con il server è supportata solo per gli [[basicmembers|utenti premium]]). I pulsanti sotto la nota offrono diverse opzioni come spiegato nella tabella seguente:
+
+^ Icona ^ Nome ^ Descrizione ^
+|{{:ic_menu_waypoint_sync.png?nolink&40|}}|Copia waypoint|Copierà tutti i waypoint personalizzati di questo cache nella nota personale. Con questa funzione è possibile eseguire il backup dei waypoint creati per questo cache nella nota personale. Poiché c:geo riconosce la sintassi utilizzata, tali waypoint memorizzati verranno automaticamente ricreati dalla nota personale.|
+|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Elimina waypoint|Questo eliminerà i waypoint copiati dalla nota personale.|
+|{{:ic_menu_upload.png?nolink&40|}}|Carica sul server|Carica la nota personale locale sul server di geocaching. \\ :!: Su geocaching.com questa è una funzionalità premium per i membri.|
+|{{:ic_menu_edit.png?nolink&40|}}|Modifica nota personale|Questo aprirà la finestra dell'editor, dove puoi modificare la tua nota personale.|
+
+{{:en:description_personalnote_2.png?direct&400 |}}
+
+Questa è la finestra dell'editor in cui puoi inserire o modificare la tua nota personale relativa al cache. L'attivazione della casella di controllo ''Impedisci estrazione waypoint'' impedirà a c:geo di estrarre automaticamente le coordinate trovate nella nota personale nei waypoint di questa cache.
+
+
+<WRAP center round info 100%>
+Se esistono note differenti del cache sul server e localmente in c:geo mentre il cache viene aggiornata, entrambe le note verranno conservate e separate da ''- - -''.
+</WRAP>
+
+===== Scheda Logbook =====
+{{anchor:logbook_tab:}}
+
+{{:en:cachedetails_logbook.png?direct&300 |}}
+
+I dettagli del cache possono contenere due diverse schede del registro. La scheda denominata ''Logbook'' contiene le 35 voci di log più recenti del cache, mentre la scheda ''Log tuoi e degli amici'' contiene tutti i log dei tuoi amici geocaching (una funzione del server di geocaching.com) così come tutti i tuoi log per questo cache.
+
+Nella parte superiore del registro si trova il riepilogo del registro del cache, che fornisce informazioni su quale tipo di registro e quanti di essi sono stati pubblicati per questa cache.
+
+Di seguito verrà visualizzato un elenco scorrevole con le voci di registro, ciascuna contenente il nome utente, la data di registro, il tipo di registro, i risultati totali dell'utente e il testo del registro. \\ I segni colorati indicano il diverso tipo di registro consentendo una facile distinzione tra tipi di log "buoni" (ad es. Trovato, attivato) e tipi di log "cattivi" (ad es. Non trovato, Disattivato).
+
+:!: Nel caso in cui il log contenga spoiler, l'utente che effettua il log può decidere di crittografare la voce del log. In questo caso È possibile fare clic sulla voce del registro per decodificare il testo del registro.
+
+Facendo clic sul nome utente si aprirà un menu contestuale con le [[.mainmenu:search|opzioni di ricerca]] relative al proprietario.
+
+Un tocco prolungato sul testo del registro consente di copiare il testo negli appunti. Inoltre puoi usarlo per attivare la [[.mainmenu:utilityprograms|traduzione]] del log in un'altra lingua.
+
+===== Scheda Oggetti =====
+{{anchor:inventory_tab:}}
+
+{{:en:cachedetails_inventory.png?direct&300 |}}
+
+Questa scheda mostra l'inventario dei tracciabili presenti allinterno del cache. La scheda è presente solo se il cache contiene trackable.
+
+Mostrerà l'icona del tipo e il nome del tracciabile. Facendo clic su una voce dell'elenco si aprirà la [[trackabledetails|pagina dei dettagli]] del tkackable, fornendo ulteriori informazioni.
+
+===== Scheda Immagini =====
+{{anchor:image_tab:}}
+
+{{ :en:cachedetails_images.png?direct&300 |}}
+
+Questa scheda contiene le immagini disponibili per il cache. Conterrà tutte le immagini dalla descrizione del cache e tutte le immagini allegate alle voci del registro disponibili nella [[cachedetails#logbook_tab|scheda logbook]].
+
+:!:
+Questa non è la stessa funzione della galleria delle immagini del cache sulla pagina web di geocaching, poiché qui vengono mostrate solo le immagini dei 35 log più recenti, non tutte quelle disponibili.
+
+
+Facendo clic su un'immagine si apre l'immagine nel visualizzatore di immagini predefinito.
+
+<WRAP center round tip 50%>
+Se l'immagine contiene informazioni sulle nell'header, verrà visualizzata una piccola rosa dei venti nell'angolo inferiore sinistro dell'immagine. In questo caso puoi fare clic breve o lungo su quell'icona per avviare rispettivamente il tuo [[navigation|navigatore]] principale o secondario. Un tocco prolungato sull'immagine stessa aprirà in questo caso un menu contestuale, in cui è possibile creare un nuovo waypoint con queste coordinate.
+
+</WRAP>

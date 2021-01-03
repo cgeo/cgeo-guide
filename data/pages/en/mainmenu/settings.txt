@@ -107,12 +107,15 @@ In this menu you can configure some basic user interface settings of c:geo.
 
 ^ Menu item ^ Description ^
 | Show Friends'/Own|Activating this option will show an additional logbook page in the details of each cache, which contains all your own logs of this cache as well as all the logs of your geocaching friends (based on the friend function of geocaching.com). //(Default: Activated)//|
-|Last Details Page|When deactivated the cache details will always open with the page ''Details'' while activating this function will remember the last opened page and open any new caches on this page (e.g. Waypoints). //(Default: Deactivated)//|
+|Last Details Page|When deactivated the cache details will always open with the page ''Details'' while activating this function will remember the last opened page and open any new caches on this page (e.g. waypoints). //(Default: Deactivated)//|
 |Show Direction|This function will show small directional arrows in all cache lists, providing coarse information about the direction of a cache relative to your device.\\ While this may help to figure out if a cache is e.g. in front or behind you, it is not designed to replace the other navigation methods in c:geo. //(Default: Activated)// \\ \\ :!: Please be aware, that for basic members of geocaching.com this function will in search results only show static direction images, but no moving arrows.|
+|Disable waypoint extraction|Enabling this setting will **globally** deactivate the feature of automatic waypoint generation for coordinates found in your personal caches notes. Alternatively you can disable the feature individually for a cache by deactivating the checkbox directly below the personal cache note.|
+|Use Chrome Webview|External website will be shown in a chrome webview window directly in c:geo instead of opening your external device browser.\\ \\ :!: This function requires Google Chrome to be installed on your device.|
+
 |Exclude Own and Found|Activating this item will hide caches you own or have already found in all online functions of c:geo. Owned and found caches will however still be shown in your saved lists of caches.|
 |Exclude Disabled|This will hide temporarily disabled caches in all online functions of c:geo. Disabled caches will however still be shown in your saved lists of caches.|
 |Exclude Archived|This will hide archived caches on the map. Archived caches will however still be shown in your saved lists of caches.|
-|Waypoint Extraction|Enabling this setting will **globally** deactivate the feature of automatic waypoint generation for coordinates found in your personal caches notes. Alternatively you can disable the feature individually for a cache by deactivating the checkbox directly below the personal cache note.|
+
 ===== Map =====
 {{anchor:map:}}
 

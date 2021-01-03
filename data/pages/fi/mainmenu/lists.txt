@@ -21,9 +21,10 @@ Näissä tapauksissa - tietenkin - kätköjä ei ole välttämättä vielä tall
 {{:en:lists_1_en.png?direct&400 |}}
 
 Lista näyttää jokaisen kätkön kohdalla ensimmäisellä rivillä kätkön nimen. Toisella rivillä näytetään kätkökoodi, D/T arvot, kätkön koko, kätkön [[..:basicmembers|premium]]-tila (jos käytössä), ja onko kätköä tallennettu offline-käyttöön (käyttökelpoinen jos käytät hakutoiminnon tuloksien listaa). Alimmaisena oleva rivi näyttää kaikkien listojen nimet, joihin kyseinen kätkö on tallennettu (jos toiminto on kytketty päälle [[settings#​offline_data|asetuksista]]).\\
-Värinauha vasemmalla (kätkötyyppikuvakkeen päällä olevien kätkömerkkien lisäksi) näyttää onko kätkö <color #22b14c>löydetty</color> tai onko kätköllä <color #ed1c24>offline-loki</color> tallennettuna.
 
-Jos kätkön nimi on <del>yliviivattu</del>, kyseinen kätkö on hyllytetty. Tämän lisäksi, jos kätkön nimi on <color #ed1c24>punaisella</color>, kätkö on arkistoitu, eikä ole enää saatavilla.
+Värinauha vasemmalla (kätkötyyppikuvakkeen päällä olevien kätkömerkkien lisäksi) näyttää sen oletko kirjannut kätköön **"<color #22b14c>löytyi</color>"**- tai "**<color #ed1c24>ei löytynyt</color>"** -lokin, tai sen onko kätköllä odottava **<color #ff7f27>offline</color>**-kirjaus tallennettuna.
+
+Jos kätkön nimi on **<del>yliviivattu</del>**, kyseinen kätkö on hyllytetty. Tämän lisäksi, jos kätkön nimi on **<color #ed1c24>punaisella</color>**, kätkö on arkistoitu, eikä ole enää saatavilla.
 
 Lyhyt klikkaus kätkön nimen päältä avaa kätkön [[..:cachedetails|tiedot]], ja pitkä painallus avaa [[lists#context_menu|valikon]], joka tarjoaa suoran pääsyn useihin kätköön liittyviin toimintoihin.
 

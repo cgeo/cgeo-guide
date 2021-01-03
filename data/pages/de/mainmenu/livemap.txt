@@ -20,18 +20,16 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
 |{{ :en:livemap_mapname.png?nolink&150 |}}|Karteninformation|Zeigt den aktuellen Kartenstatus: ''Live-Karte'' wenn die Karte live ist,  ''Karte'' wenn die Aktualisierung abgeschaltet wurde oder den Namen einer Liste, welche auf der Karte angezeigt wird.\\ Darüber hinaus wird die Anzahl der auf der Karte sichtbaren Caches angezeigt.|
-|{{ :en:livemap_progress.png?nolink&80 |}} |Fortschrittsanzeige|Eine kleine blaue Linie direkt unterhalb der Titelzeile dient als  Fortschrittsanzeige, die angezeigt wird während die Live-Karte Daten vom Geocacing-Server und/oder von deinen Listen abruft. Sie verschwindet, wenn die Live-Karte fertig geladen ist.|
+|{{ :settings_map.png?nolink&40 |}} |[[livemap#map_settings|Karteneinstellungen]]|Dieses Symbol wird unten mittig auf der Karte angezegit und öffnet eine Schnelleinstellung mit diversen Optionen um die Kartendarstellung anzupassen (z.B. bestimmte Elemente verbergen).|
+|{{ :en:livemap_progress.png?nolink&80 |}} |Fortschrittsanzeige|Eine kleine blaue Linie direkt unterhalb der Titelzeile dient als  Fortschrittsanzeige, die angezeigt wird während die Live-Karte Daten vom Geocaching-Server und/oder von deinen Listen abruft. Sie verschwindet, wenn die Live-Karte fertig geladen ist.|
 |{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Position zentrieren|Diese Schaltfläche kann genutzt werden um die Karte auf deine aktuelle Position zu zentrieren.\\ \\ Wenn die Karte auf deine Position zentriert ist, wird ein gefülltes Symbol angezeigt.|
 |{{ :ic_action_layers_revert.png?nolink&40 |}}|Kartenauswahl|Benutze diese Schaltfläche um die aktive [[..:mapsources|Kartenquelle]] auswzuwählen.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Aktualisierung einschalten/ausschalten|Diese Funktion schaltet die Aktualisierung der Live-Karte an/aus.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Alle speichern|Speichert alle auf der Karte angezeigten Caches in deine Cache-Liste. Bereits gespeicherte Caches werden dabei aktualisiert.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Neue speichern|Speichert alle auf der Karte angezeigten Caches mit Ausnahme der bereits gespeocherten Caches in deine Cache-Liste.|
-| |[[livemap#map_settings|Karteneinstellungen]]|Dies öffnet ein Menü mit diversen Optionen um die Kartendarstellung anzupassen (z.B. Kreise anzeigen).|
 | | Kartendrehung |Dies öffnet ein Menü um die Drehung der Karte in Geräteausrichtung an- oder auszuschalten oder die manuelle Drehung zu aktivieren.\\ \\ :!: Diese Funktion ist derzeit nur für Google Maps verfügbar.|
-| |[[livemap#routing|Routing]]|Dieser Funktion erlaubt es zwischen verschiedenen Routing-Voreinstellungen zu wechseln (z.B. gerade Linie, Autoroute, Fahrradroute). Dies wird nur benutzt, wenn du die App [[..:brouter|BRouter]] installiert hast.|
-| | [[livemap#hide|Verbergen]] |Dieser Menüeintrag öffnet ein Untermenü mit verschiedenen Optionen um einzelne Elemente auf der Karte (wie z.B. gefundene Caches, verschiedene Wegpunkt-Typen) auszublenden.|
-| | Positionsverlauf |Öffnet ein Untermenü mit Optionen deinen POositionsverlauf auf der Karte anzuzeigen, zu verbergen, zu löschen oder zu exportieren.|
+| | Positionsverlauf |Öffnet ein Untermenü mit Optionen deinen Positionsverlauf auf der Karte anzuzeigen, zu verbergen, zu löschen oder zu exportieren.|
 | | GPX-Track/Route |Erlaubt dir den Inhalt einer GPX-Datei mit einer Route oder einem Track zu laden und auf der Karte anzuzeigen.|
 | | Individuelle Route |Öffnet ein Untermenü um eine individuelle Route zu verwalten, zu laden oder zu verbergen, die du mit langem Klick auf Elemente der Karte erzeugt hast.|
 | |[[lists#cache_list|Als Liste anzeigen]]|Dies zeigt alle auf der Karte angezeigten Caches als [[lists|Liste]].|
@@ -123,49 +121,25 @@ Wenn du die Schaltfläche für den Hinweis bei den Cacheinformationen ausgewähl
 
 {{ :en:livemap_popup_hint.png?direct&400 |}}
 
-===== Karteneinstellungen =====
+===== Karten-Schnelleinstellungen =====
 {{anchor:map_settings}}
 
-Nach der Auswahl der Menüfunktion ''Karteneinstellungen'' werden die folgenden Optionen angezeigt:
+Nach der Auswahl des Einstellungssymbols unten mittig auf der Karte werden die folgenden Optionen angezeigt:
 
 {{ :en:livemap_mapsettings.png?direct&400 |}}
 
 ^ Option ^ Beschreibung ^ 
-|Eigene/gefundene Caches ausblenden|Wenn aktiviert, werden deine gefundenen oder im Besitz befindlichen Caches auf der Karte ausgeblendet. \\ Dies ist die gleiche Option, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert. Beachte bitte, dass es einige technische Einschränkungen beim Ausblenden von eigenen und gefundenen Caches gibt, wie auf der [[settings#cache_details|Einstellungsseite]] beschrieben.|
-|Deaktivierte Caches ausblenden|Wenn aktiviert, werden deaktivierte Caches auf der Karte ausgeblendet.\\ Dies ist die gleiche Option, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert. Beachte bitte, dass es einige technische Einschränkungen beim Ausblenden von deaktivierten Caches gibt, wie auf der [[settings#cache_details|Einstellungsseite]] beschrieben.|
-|Zeige Richtungslinie|Dies aktiviert/deaktiviert die Richtungslinie/Route, die zwischen deiner aktuellen Position und dem ausgewählten Cache angezeigt wird.|
+|Eigene/gefundene Caches anzeigen|Ob deine gefundenen oder im Besitz befindlichen Caches auf der Karte angezeigt werden sollen. \\ Dies ist die gleiche Option, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
+|Deaktivierte Caches anzeigen|Ob deaktivierte Caches auf der Karte angezeigt werden sollen.\\ Dies ist die gleiche Option, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
+|Archivierte Caches anzeigen|Ob archivierte Caches auf der Karte angezeigt werden sollen.\\ \\ :!: Archivierte Caches werden niemals vom Geocaching-Server empfangen, aber es könnte archivierte Caches in deinen Listen geben, für die diese Einstellung dann gilt.|
+|Originale Wegpunkte anzeigen|Wenn ein Cache modifizierte Listing-Koordinaten hat und daher ein Wegpunkt mit den ursprünglichen Listing-Koordinaten automatisch erstellt wurde, kannst du hier steuern, ob er angezeigt werden soll.\\ Dies ist die gleiche Option, die auch in den [[settings#map|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
+|Parkplatz-Wegpunkte anzeigen|Ob Wegpunkte vom Typ "Parkplatz" angezeigt werden sollen.\\ Dies ist die gleiche Option, die auch in den [[settings#map|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
+|Besuchte Wegpunkte anzeigen|Diese Funktion steuert die Sichtbarkeit aller Wegpunkte, die vom Nutzer in c:geo als "Besucht" markiert wurden.\\ Dies ist die gleiche Option, die auch in den [[settings#map|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
 |Kreise anzeigen|Wenn aktiviert, zeigt c:geo Kreise mit einem Radius von 161m (1/10 Meile) um alle physischen Wegpunkte (d.h. Traditional Caches, physische Stationen von Caches, Mystery-Caches mit korrigierten Koordinaten). Dies ist der Minimalabstand den platzierte Caches auf geocaching.com voneinander haben müssen, was hilfreich sein kann, wenn du planst einen neuen Cache zu verstecken und nach einer Stelle dafür suchst.|
-|Spur einblenden|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte darstellt. Dies ist die gleiche Option, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung an dieser Stelle wird auch permanent in den Einstellungen gespeichert.|
-|Nutze kompakte Symbole|Diese Option wechselt von der klassischen Ansicht der Cachesymbole zu einer kompakten Ansicht, die einzelne Caches nur als farbige Punkte anzeigt. Die Farben repräsentieren den Cachetyp gemäß der Farbe der klassischen Symbole (z.B. werden Traditional-Caches als grüner Punkt angezeigt).|
+|Zeige Richtungslinie|Dies aktiviert/deaktiviert die Richtungslinie/Route, die zwischen deiner aktuellen Position und dem ausgewählten Cache angezeigt wird.|
+|Nutze kompakte Symbole|Diese Option wechselt von der klassischen Ansicht der Cachesymbole zu einer kompakten Ansicht, die einzelne Caches nur als farbige Punkte anzeigt. Die Farben repräsentieren den Cachetyp gemäß der Farbe der klassischen Symbole (z.B. werden Traditional-Caches als grüner Punkt angezeigt). Im automatischen Modus wird abhängig vom Zoom-Level der Karte zwischen normalen und kompakten Symbolen gewechselt.|
+|Routing|Hier kannst du die gewünschte Routing-Methode für die Richtungslinie zwischen deiner Position und dem gewählten Ziel-Cache/Wegpunkt auswählen. Entweder eine direkte Linie oder eine geroutete Linie für Fußgänger, Radfahrer oder Auto.\\ \\ :!: Für eine geroutete Linie wird eine konfigurierte [[..brouter|BRouter-Installation]] benötigt.|
 
-===== Routing =====
-{{anchor:routing:}}
 
-Nach Auswahl der Menüfunktion ''Routing'' werden folgende Optionen angezeigt:
 
-<WRAP center round info 60%>
-Diese Einstellung wird nur angezeigt, wenn eine unterstütze [[utilityprograms|Routing App]] installiert und verfügbar ist.
-</WRAP>
 
-{{ :en:livemap_routing.png?direct&400 |}}
-
-^ Option ^ Beschreibung ^
-|Luftlinie|Zeigt eine direkte Linie (Luftlinie) zwischen deiner Position und dem gewählten Caches.|
-|Gehen|Dies konfiguriert die Routing-App eine Linie gemäß einem Routing für Fußgänger darzustellen.|
-|Fahrrad|Dies konfiguriert die Routing-App eine Linie gemäß einem Routing für Radfahrer darzustellen.|
-|Auto|Dies konfiguriert die Routing-App eine Linie gemäß einem Routing für Autofahrer darzustellen.|
-
-===== Elemente verbergen =====
-{{anchor:hide:}}
-
-Nach Auswahl der Menüfunktion ''Verbergen'' wird das folgende Untermenü angezeigt:
-
-{{ :en:livemap_hiding.png?direct&400 |}}
-
-^ Option ^ Beschreibung ^
-|Eigene/gefundene Caches ausblenden|Diese Funktion verbirgt auf der Karte alle Caches und deren Wegpunkte, die du im Besitz oder gefunden hast.\\ Das ist die gleiche Funktion, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung hier führt auch zu einer permanenten Änderung in diesen Einstellungen.|
-|Deaktivierte Caches ausblenden|Diese Funktion verbirgt auf der Karte alle temporär deaktivierten Caches und deren Wegpunkte.\\ Das ist die gleiche Funktion, die auch in den [[settings#cache_details|c:geo Einstellungen]] verfügbar ist, und eine Änderung hier führt auch zu einer permanenten Änderung in diesen Einstellungen.|
-|Archivierte Caches ausblenden|Diese Funktion verbirgt auf der Karte alle archivierten Caches und deren Wegpunkte.|
-|Originale Wegpunkte verbergen|Wenn ein Cache modifizierte Listing-Koordinaten hat und daher ein Wegpunkt mit den ursprünglichen Listing-Koordinaten automatisch erstellt wurde, kannst du diesen hier verbergen.|
-|Park-Wegpunkte verbergen|Das Aktivieren dieser Option blendet alle Wegpunkte des Typs "Parkplatz" aus.|
-|Besuchte Wegpunkte verbergen|Diese Funktion versteckt alle Wegpunkte, die vom Nutzer in c:geo als "Besucht" markiert wurden.|

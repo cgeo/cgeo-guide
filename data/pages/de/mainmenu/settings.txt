@@ -109,11 +109,12 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 |Eigene und Logs von Freunden anzeigen|Nack Aktivieren dieser Option wird eine zusätzliche Logbuchseite angezeigt, die alle deine eigenen Logs und die Logs deiner Geocaching-Freunde (basierend auf der Freunde-Funktion von geocaching.com) anzeigt. //(Standard: Aktiviert)//|
 |Zuletzt genutzte Seite|Wenn die Option deaktiviert ist, öffnen sich die Cache-Details immer mit der Seite ''Details''. Wenn die Funktion aktiviert ist, merkt sich c:geo die zuletzt geöffnete Seite und öffnet diese Seite zuerst beim Öffnen der Cache-Details (z.B. Wegpunkte). //(Standard: Deaktiviert)//|
 |Richtung zum Cache|Diese Funktion zeigt kleine Richtungspfeile in den Cachelisten mit der Richtung zum Cache basierend auf deiner Telefonausrichtung, die dir einen groben Anhaltspunkt geben, in welche Richtung der Cache gelegen ist. \\ Während diese Funktion dir helfen kann herauszufinden ob ein Cache z.B. vor oder hinter dir ist, ist diese Funktion nicht dazu gedacht andere Navigationsmethoden in c:geo zu ersetzen. //(Standard: Aktiviert)// \\ \\ :!: Beachte bitte, dass für Basis-Mitglieder in Suchergebnissen nur statische Bilder von Richtungspfeilen angezeigt werden, die sich nicht bewegen.|
+|Wegpunkte nicht auslesen|Das Aktivieren dieser Einstellung deaktiviert **global** die Generierung von Wegpunkten aus Koordinaten, die in der persönlichen Cachenotiz gefunden wurden. Alternativ kannst du diese Funktion auch für jeden Cache individuell abschalten, indem du das entsprechende Auswahlkästchen direkt unter der jeweiligen persönlichen Cachenotiz aktivierst.|
+|Chrome Webanzeige verwenden|Externe Webseiten werden in einer Chrome-Webanzeige direkt in c:geo angezeigt anstatt deinen externen Geräte-Browser zu öffnen.\\ \\ :!: Zur Nutzung dieser Funktion muss Google Chrome auf deinem Gerät installiert sein.|
+
 |Eigene/Gefundene ausblenden|Nach Aktivierung dieser Funktion werden alle selbst versteckten und gefundenen Caches in allen Online-Funktionen von c:geo ausgeblendet. Eigene und versteckte Caches werden allerdings weiterhin in den gespeicherten Cachelisten angezeigt.|
 |Deaktivierte ausblenden|Dies blendet temporär nicht verfügbare Caches in allen Online-Funktionen von c:geo aus. Deaktivierte Caches werden allerdings weiterhin in deinen gespeicherten Cachelisten angezeigt.|
 |Archivierte ausblenden|Dies blendet archivierte Caches auf der Karte aus. Archivierte Caches werden allerdings weiterhin in deinen gespeicherten Cachelisten angezeigt.|
-|Wegpunkte nicht auslesen|Das Aktivieren dieser Einstellung deaktiviert **global** die Generierung von Wegpunkten aus Koordinaten, die in der persönlichen Cachenotiz gefunden wurden. Alternativ kannst du diese Funktion auch für jeden Cache individuell abschalten, indem du das entsprechende Auswahlkästchen direkt unter der jeweiligen persönlichen Cachenotiz aktivierst.|
-
 
 ===== Karte =====
 {{anchor:map:}}

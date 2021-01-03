@@ -21,7 +21,7 @@ In diesen Fällen sind die Caches auf der Liste natürlich ggf. noch nicht offli
 {{:en:lists_1_en.png?direct&400 |}}
 
 Die Liste zeigt dir den Titel jedes Geocaches in der ersten Zeile. Darunter befindet sich ein Untertitel der den Geocode, die D/T-Bewertung, die Cachegröße und den [[..:basicmembers|premium only]]-Status (wenn zutreffend) anzeigt. Weiterhin wird angezeigt, ob der Cache bereits offline gespeichert ist (hilfreich, wenn du dir ein [[search|Suchergebnis]] anschaust). Wenn in [[settings#offline_data|den Einstellungen]] aktiviert, werden im Untertitel auch die Namen aller Listen angezeigt, auf denen der Cache gespeichert ist.\\
-Der Farbstreifen ganz links zeigt (zusätzlich zur Markierung im Cachetyp-Symbol) an, ob dieser Cache <color #22b14c>gefunden</color> wurde, oder ein <color #ed1c24>offline-Log</color> gespeichert ist.
+Der Farbstreifen ganz links zeigt (zusätzlich zur Markierung im Cachetyp-Symbol) an, ob dieser Cache <color #22b14c>gefunden</color> wurde, ein <color #ed1c24>Nicht gefunden</color> geloggt wurde oder ein <color #ffc90e>Offline-Log</color> gespeichert ist.
 
 Wenn der Titel <del>durchgestrichen</del> ist, ist der betreffende Cache temporär deaktiviert. Wenn der Titel zusätzlich in <color #ed1c24>roten Buchstaben</color> dargestellt wird, ist der Cache archiviert oder nicht mehr verfügbar.
 

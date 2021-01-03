@@ -22,7 +22,7 @@ In this case - of course - caches on the list might not (yet) be stored in an of
 
 
 The list will show you the title of each geocache in the first row. Below this there is a subtitle showing its geo code, the D/T rating, the cache size, the [[..:basicmembers|premium-only]] status (if applicable) and whether the cache is stored offline (helpful if you are looking at a [[search|search result]] list). If enabled in [[settings#offline_data|settings]] the subtitle will also show the names of all lists, where the cache is stored.\\
-The color stripe on the very left indicates (in addition to the markers on the cache type icon) whether this cache is <color #22b14c>found</color> or has an <color #ed1c24>offline log</color> saved.
+The color stripe on the very left indicates (in addition to the markers on the cache type icon) whether this cache is <color #22b14c>found</color>, you posted that you <color #ed1c24>did not find</color> it or you have a <color #ff7f27>pending offline log</color> for it.
 
 If the title is <del>strike through</del> the corresponding cache is temporarily disabled, if the cache title is additionally shown in <color #ed1c24>red letters</color> the cache is archived and no longer available.
 

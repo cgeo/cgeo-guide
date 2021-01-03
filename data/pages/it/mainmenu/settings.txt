@@ -1,0 +1,355 @@
+====== Impostazioni di c:geo ======
+
+{{:ic_menu_preferences.png?nolink&50 |}}
+
+Le pagine seguenti descrivono le funzioni del menu di impostazione in c:geo.\\ \\ \\
+
+È possibile accedere alle impostazioni facendo clic sul pulsante del menu (pulsante con tre puntini) in alto a destra nel menu principale e selezionando ''Impostazioni'':
+
+{{:en:settings_1_en.png?direct&250 |}}{{:en:settings_2_en.png?direct&250|}}
+
+In questo menu troverai le seguenti categorie di impostazioni che verranno descritte in dettaglio di seguito:
+
+^ Icona ^ Voce di Menu ^ Contenuto ^
+|{{:settings_cloud_black.png?nolink |}}|[[settings#services|Servizi]]|Configura i servizi di geocaching che desideri utilizzare, modifica le informazioni del tuo account utente e accedi a servizi aggiuntivi come [[http://gcvote.com|GCVote]], [[http://send2.cgeo.org|send2cgeo]]|
+|{{:settings_eye_black.png?nolink|}}|[[settings#appearance|Aspetto]]|Configura unità di distanza, lingua e colori delle app|
+|{{:settings_details_black.png?nolink|}}|[[settings#cache_details|Dettagli sui Cache]]|Personalizza la visualizzazione delle informazioni sui cache e nasconde alcuni cache|
+|{{:settings_map_black.png?nolink|}}|[[settings#map|Mappa]]|Configura le fonti delle mappe, le cartelle per le mappe offline e imposta mappe offline e dettagli delle mappe|
+|{{:settings_pen_black.png?nolink|}}|[[settings#logging|Log]]|Personalizza le opzioni di registrazione e crea o modifica la tua firma di registrazione|
+|{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Dati Offline]]|Configurare i dati da salvare per l'utilizzo offline, la posizione di archiviazione e le cartelle per i file GPX.|
+|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Navigazione]]|Seleziona l'app di navigazione predefinita e imposta altre app di navigazione esterne|
+|{{:settings_nut_black.png?nolink|}}|[[settings#system|Sistema]]|Configura le directory delle app e altre impostazioni specifiche del sistema|
+|{{:settings_backup_white.png?nolink|}}|[[settings#backup|Backup & Restore]]|Esegue il backup e il ripristino dei dati dei cache/waypoint e delle impostazioni del programma|
+===== Servizi =====
+{{anchor:services:}}
+
+==== Geocaching ====
+{{anchor:geocaching:}}
+
+{{:en:services_1_en.png?direct&300 |}}{{:en:services_2_en.png?direct&300|}}
+
+Nella prima sezione delle impostazioni del servizio è possibile configurare la connessione alle diverse piattaforme di geocaching supportate. Attualmente c:geo supporta i seguenti servizi di geocaching:
+
+^ Servizio ^ Descrizione ^
+|[[https://www.geocaching.com|geocaching.com]]|La più grande piattaforma di geocaching commerciale attualmente con il maggior numero di cache nascosti al mondo|
+|[[https://www.opencaching.de|Opencaching Germany]]|Piattaforma di geocaching open-source e gratuita per geocache in tutto il mondo con focus su Germania, Austria, Svizzera, **Italia** e Spagna|
+|[[https://www.opencaching.pl|Opencaching Poland]]|Piattaforma di geocaching open source e gratuita per geocache in Polonia|
+|[[https://www.opencaching.nl|Opencaching Netherlands]]|Piattaforma di geocaching open source e gratuita per geocache nei Paesi Bassi|
+|[[https://www.opencaching.us|Opencaching USA]]|Piattaforma di geocaching open source e gratuita per geocache negli Stati Uniti d'America|
+|[[https://www.opencaching.ro|Opencaching Romania]]|Piattaforma di geocaching open-source e gratuita per geocache in Romania|
+|[[https://www.opencache.uk|Opencaching UK]]|Piattaforma di geocaching open source e gratuita per geocache nel Regno Unito|
+|[[https://www.extremcaching.com|extremcaching.com]]|Piattaforma di geocaching gestita da privati ​​con focus su Geocache con una classificazione del terreno elevata nelle regioni di lingua tedesca|
+|[[https://www.geocaching.su|Geocaching Russia]]|Piattaforma geocaching gestita da privati ​​per geocache in Russia|
+
+<WRAP center round info 100%>
+Una descrizione dettagliata della procedura di autenticazione per questi servizi di geocaching può essere trovata nei [[..firststeps|primi passi con c:geo]].
+</WRAP>
+
+Inoltre è possibile utilizzare il menu di servizio per configurare la connessione ai seguenti servizi aggiuntivi, disponibili in c:geo in seguito:
+
+^ Servizio ^ Descrizione ^
+|[[http://gcvote.com|GCVote]]|Una piattaforma per votare la qualità dei geocache|
+|[[https://geokrety.org|GeoKrety]]|Una piattaforma alternativa per i tracciabili|
+|[[http://send2.cgeo.org|Send2cgeo]]|Offre uno script del browser per importare direttamente le geocache in c:geo con un solo clic sul sito Web di geocaching sul PC. Dai un'occhiata al sito web di send2cgeo per saperne di più su questo strumento.|
+
+==== Social media ====
+{{anchor:social_media:}}
+
+{{ :en:services_twitter_1.png?direct&400 |}}
+
+Puoi autorizzare c:geo a pubblicare su [[https://www.twitter.com|Twitter]] ogni volta che invii un log per un cache o un tracciabile. Dopo aver cliccato sul pulsante ''Twitter'' verrà mostrata la schermata di autorizzazione:
+
+{{ :en:services_twitter_2.png?direct&400 |}}
+
+Per autorizzare Twitter ad attivare il servizio cliccando su ''Autorizza c:geo''.
+Sotto i pulsanti di autorizzazione è possibile modificare i modelli utilizzati per pubblicare un messaggio su Twitter. Questo modello utilizza gli stessi [[settings#placeholder_templates|modelli segnaposto]] della tua [[settings#logging|firma]].
+
+{{ :en:services_twitter_3.png?direct&400 |}}
+
+Nella pagina seguente, fai clic su ''Avvia autorizzazione'' per aprire la pagina web di Twitter, dove devi inserire il tuo nome utente e password di Twitter e successivamente accettare di consentire a c:geo di pubblicare su Twitter per tuo conto.
+
+
+<WRAP center round tip 100%>
+Al momento c:geo supporta solo Twitter come social network. Poiché il team di sviluppo dispone di risorse limitate e si sta concentrando su nuove funzionalità di geocaching, per ora non abbiamo in programma di implementare il supporto a Facebook.
+
+Tuttavia, se sei già un utente di Twitter e/o stai cercando un modo per pubblicare i tuoi risultati su Facebook, tieni presente che esiste la possibilità di collegare Twitter a Facebook. In questo modo tutti i tuoi tweet verranno pubblicati anche su Facebook (inclusi i tweet c:geo).
+
+YPuoi trovare maggiori informazioni sul sito web di [[https://support.twitter.com/articles/31113-using-twitter-with-facebook/|supporto di Twitter]].
+</WRAP>
+
+==== Altre impostazioni ====
+{{anchor:other_settings:}}
+
+{{ :en:services_androidbrowser.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Android browser|r motivi di compatibilità c:geo userà normalmente l'identificazione di un normale browser web per PC quando accede ai servizi. Poiché alcuni provider di rete mobile non consentono l'utilizzo della connessione di rete mobile su un PC, potrebbero bloccare il traffico identificato per indirizzare il browser Web di un PC, rendendo così c:geo inutilizzabile. In questo caso alcuni servizi potrebbero non funzionare o non è nemmeno possibile ottenere l'autorizzazione. L'abilitazione di questa impostazione identificherà invece c:geo come browser Android mobile per risolvere questo problema.\\Si consiglia di abilitare questa opzione solo in caso di problemi.|
+===== Aspetto =====
+{{anchor:appearance:}}
+
+n questo menu è possibile configurare alcune impostazioni dell'interfaccia utente di base di c:geo.
+
+{{ :en:settings_appearance.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Tema chiaro |Quando attivato, c:geo utilizza lettere nere su sfondo bianco invece del valore predefinito wlettere hite su sfondo nero.//(Predefinito: disattivato)//|
+|Sfondo trasparente|Quando attivato, la schermata principale di c:geo è trasparente e mostra lo sfondo del desktop come sfondo. //(Predefinito: attivato)//|
+|Visualizza indirizzo|Quando attivato, c:geo utilizzerà un servizio di geocodifica inversa per mostrare il nome della posizione corrente invece delle coordinate della posizione nella parte inferiore della schermata principale. //(Predefinito: attivato)//|
+|Log semplificati|L'attivazione di questa impostazione mostrerà tutte le voci di registro senza i colori personalizzati per una migliore leggibilità. //(Predefinito: disattivato)//|
+|Use English in c:geo|Ciò costringerà c:geo a utilizzare l'interfaccia utente inglese invece di utilizzare la lingua del telefono. Questo potrebbe essere utile in caso di problemi con traduzioni sbagliate nella tua lingua. Dopo aver modificato questa impostazione, è necessario riavviare c:geo. //(Predefinito: disattivato)// \\ \\ :!: Tieni presente che l'attivazione dell'opzione ''Usa inglese'' mostrerà anche tutte le date in formato USA (MM/GG/AAAA).\\ Inoltre, questa funzione non funzionerà più a partire da Android 8 a causa di modifiche tecniche in Android.|
+|Usa sistema Imperiale|Attivando questa opzione c:geo utilizzerà unità imperiali (miglia / piedi) invece di unità metriche (metri / chilometri) su tutte le schermate pertinenti. //(Predefinito: attivato (per le lingue en-us), disattivato (per tutte le altre lingue))//|
+
+===== Dettagli cache =====
+{{anchor:cache_details:}}
+
+{{ :en:settings_cachedetails.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+| Visualizza i tuoi/dei tuoi amici|L'attivazione di questa opzione mostrerà una pagina del registro aggiuntiva nei dettagli di ciascun cache, che contiene tutti i tuoi registri di questo cache e tutti i registri dei tuoi amici geocacher (in base alla funzione amico di geocaching.com ). //(Predefinito: attivato)//|
+|Carica ultima pagina usata nei dettagli|Quando disattivato, i dettagli dei cache si apriranno sempre con la pagina ''Dettagli'' mentre attivando questa funzione c:geo ricorderà l'ultima pagina aperta e aprirà eventuali nuovi cache su questa pagina (es. waypoint). //(Predefinito: disattivato)//|
+|Visualizza direzione|Questa funzione mostrerà piccole frecce direzionali in tutti gli elenchi di cache, fornendo informazioni grossolane sulla direzione di un cache relativa al tuo dispositivo. \\ Anche se questo può aiutare a capire se un cache è ad es. davanti o dietro di te, non è progettato per sostituire gli altri metodi di navigazione in c:geo. //(Predefinito: attivato)// \\ \\ :!: Tieni presente che per i membri di base di geocaching.com questa funzione nei risultati di ricerca mostrerà solo immagini di direzione statica, ma nessuna freccia in movimento.|
+|Disabilita estrazione waypoint|Abilitando questa opzione si disattiverà **globalmente** la funzione di generazione automatica del waypoint per le coordinate trovate nelle note personali dei cache. In alternativa puoi disabilitare la funzione individualmente per un cache disattivando la casella di controllo direttamente sotto la nota personale del cache.|
+|Usa Chrome webview|Il sito web esterno verrà mostrato in una finestra webview di Chrome direttamente in c: geo invece di aprire il browser del dispositivo esterno. \\ \\ :!: Questa funzione richiede che Google Chrome sia installato sul tuo dispositivo.|
+
+|Escludi i miei e quelli trovati|L'attivazione di questo elemento nasconderà i cache che possiedi o che hai già trovato in tutte le funzioni online di c:geo. I cache posseduti e trovati verranno comunque visualizzati negli elenchi di cache salvati.|
+|Escludi disattivati|Questo nasconderà i cache temporaneamente disabilitati in tutte le funzioni online di c:geo. I cache disabilitati verranno comunque mostrati negli elenchi di cache salvati.|
+|Escludi archiviati|Questo nasconderà i cache archiviati sulla mappa. Tuttavia, i cache archiviati verranno comunque visualizzati negli elenchi di cache salvati.|
+
+===== Mappa =====
+{{anchor:map:}}
+
+==== Dati Mappa ====
+{{anchor:map_data:}}
+
+{{ :en:settings_maps_mapdata.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Seleziona il tipo di mappa|Consente di definire la mappa, che deve essere utilizzata in tutte le funzioni mappa di c:geo. Il menu conterrà tutte le mappe online disponibili, nonché i file delle mappe offline trovati nella directory delle mappe offline. \\ È possibile modificare questa impostazione anche direttamente dalla mappa live facendo clic sull'icona del livello mappa e selezionando un'altra [[..mapsources|origine mappa]].|
+|Informazioni su mappe Offline|Questo elemento informativo fornirà informazioni più dettagliate sui formati di [[..offline#offline_maps|mappe offline]] supportati e un collegamento alle nostre [[http://faq.cgeo.org|FAQ]].|
+|Cartella con le mappe offline|Qui puoi configurare la cartella che contiene i file delle [[..offline#offline_maps|offline mappe offline]] di Mapsforge.\\ \\ :!: La scansione automatica potrebbe non essere in grado di cercare in tutte le directory / archivio. Nel caso in cui la directory della mappa non venga trovata automaticamente, utilizzare il pulsante ''Scegli cartella'' visualizzato al termine della scansione.|
+|Informazioni sui temi mappa|Questo elemento informativo fornirà informazioni più dettagliate sui temi delle mappe offline supportati e un collegamento alle nostre [[http://faq.cgeo.org|FAQ]].|
+|Cartella per i temi mappa|Qui è possibile configurare la directory, che contiene i temi della mappa offline.|
+|Ridimensiona testo mappa|TQuesta opzione consente di ridimensionare le etichette di testo delle mappe offline a seconda della risoluzione del display del dispositivo. Attivarlo contribuirà a rendere il testo più leggibile su dispositivi con una risoluzione del display piuttosto alta (impostazione predefinita: attivata). //(Predefinito: Attivato)//|
+|Rotazione mappa (Google Maps)|È possibile attivare/disattivare la rotazione della mappa in base all'intestazione del dispositivo o abilitare la rotazione manuale.\\ \\ :!: Questa funzione è attualmente disponibile solo per Google Maps.|
+
+<WRAP center round tip 100%>
+Ulteriori informazioni sulle mappe offline di c:geo leggendo il capitolo sulla [[..offline|memorizzazione offline]] dei cache!
+</WRAP>
+
+==== Waypoint ====
+{{anchor:waypoints:}}
+
+{{ :en:settings_maps_waypoints.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+| Mostra waypoint |Qui è possibile impostare il limite per la visualizzazione dei waypoint deli cache (salvate) sulla mappa.\\ Se nell'area della mappa visibile viene visualizzato un numero di cache inferiore a quello selezionato, vengono mostrati anche i relativi waypoint. Puoi anche spostare il cursore per impostare il valore o fare clic sul numero per impostare un nuovo valore. //(Predefinito: 20)//|
+| Nascondi tutti i waypoint |Questi elementi secondari consentono di nascondere alcuni tipi di waypoint sulla mappa:\\ 1. Nascondi i waypoint originali sulla mappa: se ad un cache sono state cambiate le coordinate originali e quindi è stato creato un waypoint automaticamente che contiene le coordinate dell'elenco originale, questa funzione nasconderà il waypoint con le coordinate originali.\\ 2. Nascondi i waypoint di parcheggio sulla mappa: Abilitando questa opzione verranno nascosti tutti i waypoint di tipo "Parcheggio".\\ 3. Nascondi i waypoint visitati sulla mappa: Abilitando questa opzione verranno nascosti tutti i waypoint, contrassegnati come visitati dall'utente in c:geo.\\ //(Impostazione predefinita: tutti disabilitati)//|
+| Zoom compreso waypoint |Se questa impostazione è abilitata, il livello di zoom includerà tutti i waypoint di un cache, se apri una mappa per una singoil cache. //(Impostazione predefinita: disattivata)//|
+==== Contenuto Mappa ====
+{{anchor:map_content}}
+
+{{ :en:settings_maps_mapcontent.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Mostra direzione|L'attivazione di questa opzione mostrerà una linea direzionale (o una linea indirizzata se sono installate le opzioni di percorso) sulla mappa tra la posizione corrente e l'obiettivo di navigazione.\\ È possibile attivare la linea di direzione aprendo la mappa per una singoil cache o selezionando un cache sulla mappa e attivando la funzionalità nella finestra popup dei cache ora mostrata sulla mappa (quest'ultima è applicabile solo per le mappe offline). //(Predefinito: attivato)//|
+|Mostra traccia cronologia movimenti|Con questa opzione è possibile attivare una traccia che mostra la cronologia della posizione (il movimento) sulla mappa. //(Predefinito: disattivato)// \\ \\ :!: Tieni presente che questo sarà accurato solo se utilizzi la mappa e hai il GPS abilitato e non sarà interrotto nel caso in cui il ​​dispositivo vada in standby o venga disattivato il GPS. Se desideri una registrazione delle tracce più affidabile, dovresti utilizzare un'app specializzata.|
+|Lunghezza massima traccia cronologia| Consente di aumentare la quantità di punti traccia disponibili per la traccia cronologica. Una volta raggiunto il limite, i punti registrati più vecchi verranno rimossi se vengono registrati nuovi punti. Tuttavia, aumentare il limite occuperà più memoria. //(Default: 700 punti)//|
+|Calcola percorso|Con questa impostazione è possibile selezionare la distanza massima fino alla quale un percorso viene calcolato e visualizzato sulla mappa tra la propria posizione e il cache selezionata. È possibile utilizzare il dispositivo di scorrimento per impostare il valore o fare clic sul numero per impostare un nuovo valore. //(Predefinito: 10 km)// \\ \\ :!: Questa funzione richiede che l'app [[.:utilityprograms|BRouter]] sia installata sul dispositivo.|
+|Mostra distanza|Se l'opzione è attiva, la distanza in linea retta dal bersaglio verrà mostrata in aggiunta alla distanza percorsa mentre il calcolo del percorso è attivo. //(Predefinito: Disattivato)//|
+==== Comportamento mappa ====
+{{anchor:map_behavior}}
+
+{{ :en:settings_maps_mapbehavior.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Tocco lungo sulla mappa|Se abilitato, puoi fare clic/toccare a lungo sulla mappa per due scopi:\\ 1. Un lungo clic su un cache o un waypoint aggiungerà questo cache/waypoint al [[en:individualroute|percorso individuale]].\\ 2. Un lungo clic sulla mappa attiverà la creazione di un [[en:udc|cache definito dall'utente]]. //(Predefinito: Disattivato)//|
+
+==== Notifica di prossimità ====
+{{anchor:proximity:}}
+
+{{ :en:settings_maps_proximity.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Distanza max|Definisce la distanza lontana per la notifica di prossimità. È possibile utilizzare il cursore per impostare il valore o fare clic sul numero ed inserire un nuovo valore.|
+|Distanza min|Definisce la distanza da vicino per la notifica di prossimità. Anche qui è possibile utilizzare il cursore oinserire direttamente un nuovo valore.|
+|Notifica generale di prossimità sulla mappa|Quando abilitata, viene emesso un singolo segnale acustico di notifica se qualsiasi cache o waypoint sulla mappa si avvicina a una distanza max o min. Quando si raggiunge la distanza max viene emesso un singolo segnale acustico, quando si raggiunge una distanza min viene emesso un triplo segnale acustico. //(Predefinito: Disattivato)//|
+|Notifica specifica di prossimità waypoint|Se abilitata, viene emesso un segnale acustico di notifica ripetuto se il cache o il waypoint attualmente selezionato si avvicina alla distanza max o min. Funziona se vengono aperti i dettagli del cache o del waypoint, viene visualizzato il popup del cache o del waypoint sulla mappa o quando la bussola è attiva. Quando si raggiunge la distanza max viene emesso un singolo segnale acustico, quando si raggiunge una distanza min viene emesso un triplo segnale acustico. //(Predefinito: Disattivato)//|
+|Tipo di notifica|Con questa voce di menu puoi scegliere se ricevere una notifica audio, una notifica di testo nella barra di stato o entrambe. \\Suggerimento: nel caso in cui si utilizzi anche uno smartwatch, la notifica di testo consentirà una certa interazione con esso, poiché la notifica di testo dovrebbe essere visualizzata anche sullo smartwatch. //(Impostazione predefinita: solo tono)//|
+
+<WRAP center round important 100%>
+A seconda della versione di Android e delle impostazioni di risparmio energetico del dispositivo, potrebbe accadere che la notifica di prossimità smetta di funzionare se si spegne il display del dispositivo. Si prega di consultare le impostazioni del dispositivo per risolvere questo problema. Stiamo anche studiando come migliorare il comportamento in generale per consentire la notifica in background.
+</WRAP>
+
+==== Personalizzazione delle linee della mappa ====
+{{anchor:maplinecustomization:}}
+
+
+{{:en:settings_maps_maplinecustomization.png?direct&400|}}{{ :en:settings_maps_maplinecustomization2.png?direct&400|}}
+
+Queste voci di menu consentono di personalizzare l'aspetto dei diversi tipi di linee e cerchi mostrati sulla mappa. È possibile modificare il colore e l'opacità, nonché lo spessore della linea e i colori di riempimento del cerchio in base alle proprie preferenze personali.
+
+All'interno di ogni selezione di colore è possibile ripristinare il colore e l'opacità ai valori predefiniti nel caso in cui si sia configurato male qualcosa. La larghezza predefinita è di 10 pixel.
+
+La tabella seguente descrive brevemente le diverse linee e cerchi e il loro utilizzo:
+ 
+^ Voce di Menu ^ Descrizione ^
+|Colore traccia cronologia|Se la traccia della cronologia è attivata in [[.settings#map_content|impostazioni del contenuto della mappa]] verrà tracciata sulla mappa una traccia del tuo movimento.|
+|Linea di direzione|La linea di direzione è una linea diretta o un percorso di navigazione specifico (se è installata l'app [[.utilityprograms|BRouter]]) dalla posizione corrente verso un cache o un waypoint selezionato (destinazione di navigazione).|
+|Percorso individuale|Un percorso individuale è una raccolta di cache o waypoint selezionati in sequenza facendo clic a lungo su di essi sulla mappa. Questa funzione può essere utilizzata per pianificare i propri viaggi alla ricerca di cache disegnando un percorso da un cache/waypoint a un altro. La funzione di clic lungo deve essere abilitata nelle [[.settings#map_behavior|impostazioni del comportamento della mappa]].|
+|Traccia individuale|La traccia singola è una traccia o un percorso importato da un file GPX nel [[.livemap#top_bar_menu|Menu mappa live]]. Può essere usato per visualizzare una data traccia che vuoi seguire.|
+|Cerchio|Se attivato nel menu [[.livemap#map_settings|Impostazioni mappa]] c:geo mostrerà cerchi con una distanza di 1/10 di miglio (161 metri) attorno a tutti i waypoint fisici (cioè cache tradizionali, fasi fisiche di un cache o mistery cache con coordinate corrette). Questa è la distanza minima che i cache devono avere su geocaching.com e questi cerchi potrebbero essere utili quando hai intenzione di nascondere un nuovo cache e stai cercando un nascondiglio.|
+
+
+==== Mapsforge API ====
+{{anchor:mapsforge_api:}}
+
+{{ :en:settings_maps_mapsforgeapi.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Vecchie librerie Mapsforge V3|Da giugno 2018 c:geo supporta una versione più recente delle librerie di Mapsforge. Poiché alcune funzioni di queste nuove librerie sono ancora in fase di sviluppo, puoi tornare alle vecchie librerie di Mapsforge v3 attivando questa opzione in caso di necessità. \\ Si consiglia vivamente di utilizzare le librerie più recenti grazie ad un supporto più ampio di mappe offline e prestazioni migliori. //(Predefinito: Disattivato)//|
+
+===== Registro Log =====
+{{anchor:logging:}}
+
+==== Firma ====
+{{anchor:signature:}}
+
+{{ :en:settings_logging_signature.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Firma|Facendo clic su questa opzione si aprirà una finestra di testo in cui è possibile definire il modello di firma personalizzato aggiunto a ciascun registro che si compone con c:geo. \\Nell'editor puoi fare clic su ''Stringhe speciali'' per ottenere un elenco di possibili modelli di segnaposto che puoi utilizzare nei tuoi registri (vedi tabella dettagliata di seguito).|
+|Inserisce automaticamente|L'attivazione di questo elemento inserirà automaticamente la firma personalizzata nel testo del log quando inizi a registrare un cache con c:geo. \\Se questa opzione è disattivata, puoi comunque inserire la tua firma manualmente su richiesta selezionando l'icona ''+'' nella barra superiore e ''Firma'' durante la composizione del testo. //(Predefinito: Disattivato)//|
+
+=== Stringhe speciali ===
+{{anchor:placeholder_templates:}}
+
+Durante la creazione della tua firma personalizzata puoi utilizzare diversi modelli di "segnaposto", che verranno compilati in seguito quando viene utilizzato il modello di firma:
+^ Stringa ^ Descrizione ^ Esempio ^
+|[Data]|La data corrente durante la composizione del registro. Il formato della data seguirà l'impostazione del formato della data globale del telefono.|4 giugno 2018|
+|[Ora]|L'ora corrente durante la composizione del registro. Il formato della data seguirà l'impostazione globale del formato dell'ora del telefono.|14:50|
+|[Data e ora]|Combinazione di [DATE] e [TIME] come descritto sopra.|4 Giugno 4 2018 14:50|
+|[Utente]|Il tuo nome utente di geocaching per la rispettiva piattaforma di geocaching a cui appartiene il cache a cui stai registrando.|My username|
+|[Numero cache]|Il conteggio dei log per la rispettiva piattaforma di geocaching, a cui appartiene il cache che si sta registrando, incrementato di 1, fornendo così il conteggio compreso il cache che stai registrando. Questo modello conterà anche i log offline.|4853|
+|[Numero (ignora log offline)]|Come [Numero cache] ma non considera i cache registrati offline.|4853|
+|[Proprietario]|Il nome utente di geocaching del proprietario del cache.|SuperOwner|
+|[Nome|Titolo del cache di cui stai registrando il ritrovamento.|My first hide|
+|[Difficoltà]|Il livello di difficoltà del cache.|D2,5|
+|[Terreno]|Il livello di difficoltà del terreno del cache.|T4,0|
+|[Dimensione]|Le informazioni sulla dimensione del cache.|Large|
+|[URL]|L'URL della pagina relativa al cache. |http://coord.info/GC77|
+|[Testo di Log]|Questo segnaposto inserisce l'intero testo del registro, il che ovviamente non ha senso quando lo si utilizza nel modello di registrazione. È piuttosto pensato per essere utilizzato nel [[settings#social_media|modello di Twitter]].|Questo è il mio testo personale. TFTC!|
+|[Tipo]|Il tipo di cache di cui si sta registrando il ritrovamento.|Traditional Cache|
+
+==== Altre opzioni di log ====
+{{anchor:other_logging_options:}}
+
+{{ :en:settings_logging_otherloggingoptions.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Visita TB|L'attivazione di questa opzione imposterà automaticamente tutti i Trackable del tuo inventario come ''Visitato'' quando salvi il log di un cache. //(Predefinito: Disattivato)//|
+|Log offline|L'utilizzo di questa funzione attiverà una funzione di ''registro offline con un clic'' che sostituisce la normale schermata di registrazione. Può essere utilizzato per generare facilmente registri/note di campo offline.\\ La normale schermata di registrazione sarà ancora disponibile come sottomenu del menu ''Registro offline con un clic''.//(Predefinito: Disattivato)//|
+|Mostra log offline|Abilita la visualizzazione di un contatore dei log offline (ad es. "+1") accanto al conteggio dei log online nella [[.start#login_status|schermata iniziale]], se ci sono registrazioni che non sono ancora stati inviati al server della piattaforma di geocaching.|
+
+<WRAP center round tip 100%>
+Scopri di più sulle funzioni c:geo offline leggendo il capitolo sulle [[..:offline|note di campo]]!
+</WRAP>
+
+===== Dati offline =====
+{{anchor:offline_data:}}
+
+<WRAP center round tip 100%>
+Puoi trovare maggiori dettagli riguardo al noi offlineetà di c:geo sulla pagina [[..:offline|Uso offline]]!
+</WRAP>
+==== Varie ====
+{{anchor:generic:}}
+
+{{ :en:settings_offlinedata.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Salva immagini|Se questa opzione è attivata, c:geo salverà tutte le immagini contenute nei registri dei cache sul tuo dispositivo per la disponibilità offline. È necessario aggiornare i cache già memorizzate dopo aver attivato questa funzione per rendere le loro immagini disponibili offline.\\Se questa opzione è deselezionata, le immagini del registro verranno caricate solo su richiesta (all'apertura o all'accesso della scheda dell'immagine dei cache) ma verranno comunque salvate in modo permanente fino a quando non elimini il cache dal tuo dispositivo. //(Predefinito: Disattivato)//|
+|Chiedi lista|Quando attivato ti verrà chiesto in quale elenco salvare il cache da memorizzare in c:geo. Se disattivato, tutti i cache verranno memorizzati nell'elenco predefinito. (Predefinito: attivato)
+|Altre liste|Se questa opzione è attivata, c:geo mostrerà tutti le liste in cui è memorizzato un certo cache in c:geo.//(Predefinito: Attivato)//|
+
+==== GPX ====
+{{anchor:gpx:}}
+
+{{ :en:settings_system_gpx.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Cartella di export GPX|SSelezionare la directory in cui verrà archiviato il file GPX esportato da c:geo. //(Predefinito:/cgeo/gpx)// \\ \\ :!: c:geo deve avere i permessi di scrittura nella cartella selezionata. Pertanto assicurati di selezionare una cartella dalla memoria interna ma non dalla scheda SD.|
+|Cartella di import GPX|Selezionare la directory in cui c:geo cercherà il file GPX da importare.|
+
+==== Database e dati Geocache ====
+{{anchor:database_and_geocache_data}}
+
+{{ :en:settings_system_database_cachedata.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Posizione Database - Sullo spazio utente|Il database della geocache contiene principalmente l'elenco deli cache salvate. È possibile memorizzare questo database internamente al sistema o in una directory sulla memoria utente. Averlo nella memoria dell'utente potrebbe liberare un po' di memoria, ma potresti perdere un po' di prestazioni e c:geo non funzionerà se la memoria non è accessibile o rimuovi il file del database. \\Poiché la disponibilità del database è fondamentale per l'utilizzo di c:geo e la dimensione tipica è solo di alcuni megabyte, abbiamo deciso di vietare lo spostamento sulla scheda SD esterna. Se abiliti l'opzione ''sullo spazio utente'' il database verrà spostato nella cartella ''/Android/data/cgeo.geocaching/files/databases'' (può variare a seconda del dispositivo).\\ \\ :!: Nella maggior parte dei telefoni aggiornati, la memoria di sistema e la memoria interna sono in realtà solo aree diverse della stessa memoria fisica. Quindi questa funzione avrà senso solo su alcuni tipi di telefoni particolari e in condizioni particolari. La scheda SD non è mai coinvolta in questi casi.|
+|Directory dati geocache - Saleziona Directory di dati geocache|I dati aggiuntivi possono essere molto più grandi del database geocache menzionato sopra poiché contiene le immagini della descrizione dei cache e (facoltativamente) le immagini recuperate dai registri e (facoltativamente) mappe statiche. Per impostazione predefinita, questi dati vengono archiviati nella memoria interna dell'utente in ''/Android/data/cgeo.geocaching/files/GeocacheData/''. Se il dispositivo supporta l'utilizzo della scheda SD esterna, questa opzione di menu mostrerà le directory di destinazione disponibili, nonché la dimensione corrente dei dati della geocache e lo spazio disponibile nelle directory di destinazione.\\ \\ :!: Lo spostamento iniziale dei dati del geocache potrebbe richiedere molto tempo a seconda della quantità di dati da spostare. Non interrompere il processo e assicurarsi che il dispositivo sia sufficientemente carico.\\ :!: Se si rimuove la scheda SD esterna o se la scheda SD è piena, i dati geocache aggiuntivi non saranno più disponibili e c:geo potrebbe non funzionare più come previsto.|
+
+==== Manutenzione ====
+{{anchor:maintenance}}
+
+{{ :en:settings_offlinedata_maintenance.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Elimina file orfani|c:geo memorizza le immagini dei cache, le immagini del registro e altri file relativi a un cache, in una directory separata (fare riferimento alla [[settings#database_and_geocache_data|directory dei dati del geocache]]). In alcuni casi (es. Ripristino di un backup) questa directory potrebbe contenere file obsoleti di cache non più archiviati sul dispositivo. Questi dati obsoleti possono essere eliminati utilizzando questa funzione.\\ \\ :!: Dopo aver eliminato i cache dall'elenco, i dati aggiuntivi verranno memorizzati nel cache da c:geo internamente per 72 ore per evitare di scaricarli nuovamente in caso di errore dell'utente. Successivamente verrà cancellato automaticamente. Non è necessario utilizzare questa funzione in questo caso e non avrà nemmeno senso poiché i dati vengono comunque conservati durante il periodo di 72 ore.|
+
+
+===== Navigazione =====
+{{anchor:navigation:}}
+
+{{ :en:settings_navigation.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Navigatore preferito|È possibile selezionare qui lo strumento di navigazione predefinito, che fornisce un accesso facile e veloce al metodo di navigazione preferito. Lo strumento selezionato verrà avviato con un tocco **breve** sull'icona della rosa dei venti nella parte superiore dei dettagli dei cache e nella finestra popup della mappa. //(Predefinito: bussola)//|
+|Navigazione secondaria|Qui puoi selezionare il tuo strumento di navigazione preferito secondario, che ti fornisce un accesso facile e veloce a questo metodo di navigazione. Lo strumento selezionato verrà avviato con un tocco **lungo** sull'icona della rosa dei venti nella parte superiore dei dettagli dei cache e nella finestra popup della mappa.//(Predfefinito: Mappa)//|
+|Menu "Naviga"|In questa sezione è possibile attivare o disattivare alcuni dei metodi di navigazione installati e disponibili rilevati da c:geo. Puoi usarlo per ripulire il menu di navigazione dei cache ad es. disabilitando i metodi di navigazione che non utilizzi mai. (Predefinito: tutti quelli disponibili sono attivati)//|
+
+<WRAP center round tip 100%>
+Fare riferimento ai [[..navigation|metodi di navigazione supportati]] per le informazioni dettagliate sugli strumenti di navigazione.
+</WRAP>
+
+
+===== Sistema =====
+{{anchor:system:}}
+{{anchor:various_other_system_settings:}}
+
+==== Geolocalizzazione e orientamento====
+{{ :en:system_other_1.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Usa i servizi Google Play|Sui dispositivi dotati di Google Play Services, c:geo può utilizzare automaticamente un provider di geolocalizzazione migliore per ottenere risultati di localizzazione migliori e ridurre il consumo della batteria.\\ \\ :!: Se vuoi usare un ricevitore GPS Bluetooth esterno devi disabilitare questa opzione!\\ :!: Su alcuni dispositivi i servizi di Google Play sono disponibili ma non funzionano in modo affidabile. Se riscontri problemi di localizzazione o nessuna ricezione GPS, prova a disabilitare questa opzione.|
+|Attiva risparmio energetico|La modalità a basso consumo evita di utilizzare il GPS e il sensore giroscopico in situazioni in cui non è strettamente necessaria una posizione altamente accurata (ad esempio nelle liste di cache) al costo di tempi di aggancio dei satelliti più lunghi una volta che sia nuovamente necessaria un'elevata precisione. In alcune situazioni può aiutare a migliorare la durata della batteria.\\ Si consiglia comunque di mantenere questa opzione disattivata per avere la massima precisione possibile, cosa desiderabile per il Geocaching in generale. :-)|
+|Forza uso del sensore di orientamento|Su alcuni dispositivi il normale sensore di rotazione si comporta in modo irregolare, dando la direzione sbagliata quando c:geo utilizza la bussola. In questo caso è possibile attivare questa opzione per utilizzare invece il sensore di orientamento, che potrebbe fornire risultati migliori.\\ Si consiglia di abilitare questa opzione solo in caso di problemi con la bussola sul proprio dispositivo.|
+
+==== Accelerazione & Debug ====
+{{ :en:system_other_2.png?direct&400 |}}
+^ Voce di Menu ^ Descrizione ^
+|Abilita accelerazione hardware|L'accelerazione hardware rende gli elementi grafici più velocemente sullo schermo e quindi fornisce una migliore esperienza durante l'utilizzo di c:geo. Tuttavia su alcuni dispositivi il sistema operativo contiene bug che possono far apparire parte del testo sfocato (in particolare i caratteri in grassetto). Disabilita questa opzione solo se riscontri di questi problemi.|
+|Attiva informazione di debug|c:geo può generare molte informazioni di debug necessarie per scopi di sviluppo. Utilizza questa funzione solo nel caso in cui ti venga chiesto di inviare un log agli sviluppatori di c:geo o se sai cosa stai facendo.\\ \\ :!: L'attivazione di questa impostazione influirà sulla stabilità di c:geo. Si prega di mantenere la registrazione del debug disabilitata durante il normale utilizzo di c:geo!|
+|Genera file di log|Usando questa opzione verrà generato un file di log di sistema da inviare al supporto di c:geo in caso di guasti o crash. Utilizzare quando consigliato dal team di supporto di c:geo (utile in combinazione con l'attivazione del registro di debug).|
+|Salva un memory dump della situazione attuale|Questa è una funzione di sviluppo, che può aiutare a eseguire il debug di problemi speciali nella gestione della memoria in c:geo. L'uso di questa funzione non è utile per te, ma invierà solo spam alla tua memoria interna con un file di dump piuttosto grande. Quindi meglio non usarlo. :-)|
+|Mostra impostazioni|Questa funzione di debug apre una visualizzazione in cui tutte le impostazioni di c:geo possono essere visualizzate e modificate in un formato grezzo.\\ \\ :!: Cambiare qualcosa qui potrebbe generare un comportamento indesiderato o il mancato funzionamento dell'app. Quindi usalo solo dopo una richiesta esplicita da parte del supporto di c:geo!|
+
+
+
+===== Backup / Ripristino =====
+{{anchor:backup:}}
+
+==== Crea Backup ====
+
+{{ :en:settings_system_backup.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Numero massimo di backup archiviati|Utilizzando questo cursore è possibile selezionare il numero di backup meno recenti da conservare. Quando viene raggiunto il limite, i più vecchi verranno eliminati automaticamente. //(Predefinito: 5)//|
+|Includi dati account| Se attivato, i backup creati conterranno anche le tue credenziali di accesso.\\ :!: **Tieni presente che i file di backup, quindi anche le credenziali di accesso contenute, potrebbero essere letti da altre applicazioni sul tuo dispositivo.**|
+|Avvia backup|Selezionando questa funzione verrà creato un backup (''cgeo.sqlite'') contenente tutte i cache salvate e un backup delle impostazioni del programma (''cgeo-settings.xml'') contenente tutte le impostazioni dell'app opzionalmente (vedi sopra) comprese anche le credenziali di accesso. I file di backup verranno archiviati sotto ''/cgeo/backup/'' nella memoria interna in una cartella denominata per data e ora del backup. \\ Questi file di backup verranno conservati (anche se disinstallando c:geo) fino a quando non li elimini manualmente o non viene raggiunto il limite massimo di backup archiviati (vedi sopra).|
+==== Ripristina backup ====
+
+{{ :en:settings_system_backup_program.png?direct&400 |}}
+
+^ Voce di Menu ^ Descrizione ^
+|Avvia ripristino|Questa funzione ripristinerà il backup più recente disponibile. La data/ora del backup più recente disponibile verranno mostrate qui. In un passaggio successivo durante il processo di ripristino è possibile scegliere se si desidera ripristinare i cache e/o le impostazioni del programma. \\ \\ :!: Il ripristino di un backup **sostituirà** tutte i cache e/o le impostazioni dell'app con quelle contenute nel backup. È necessario essere consapevoli di ciò, quando si utilizza questa funzione.|
+|Ripristina un backup diverso|Con questa voce di menu è possibile scegliere di ripristinare un altro backup tra quelli disponibili, invece del più recente. Dopo aver fatto clic verrà mostrato un selettore di directory che elenca le directory di backup esistenti denominate con data e ora in ''/cgeo/backup/'' così come c:geo le ha create durante il backup. Selezionare la directory da cui si desidera eseguire il ripristino e premere OK per continuare con il processo.\\ Facoltativamente, puoi utilizzare il selettore di directory per navigare in un'altra posizione, dove hai posizionato i file di backup e scegliere di ripristinare da lì.|

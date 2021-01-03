@@ -697,3 +697,65 @@
 1608696616	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	zh:sidebar	hemind	创建		2569
 1608696783	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	zh:start	hemind	headlines		-4
 1608696878	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	zh:sidebar	hemind	more headlines		-16
+1608727040	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		32
+1608727121	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		71
+1608727147	2.205.118.1	E	en:mainmenu:livemap	lineflyer	Quick settings button		2
+1608727226	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		0
+1608727331	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		2
+1608727724	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map settings] 		443
+1608727773	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608727822	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		1
+1608727832	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608728013	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		366
+1608728218	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		325
+1608728269	2.205.118.1	E	en:mainmenu:livemap	lineflyer	Removed routing, now part of quick settings		-753
+1608728295	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-2
+1608728364	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		321
+1608728416	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		160
+1608728516	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		516
+1608728537	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Hiding elements] removed, now part of quick settings		-1423
+1608728584	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Removed Hide and Routing, now part of map quick settings		-379
+1608728859	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		9
+1608729141	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top section] DIrection line switch in popup now available on all maps		-89
+1608729357	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top section]  Add popup menu item "Prevent waypoint from note"		156
+1608729753	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Cache information] Add favorite percentage description		92
+1608729830	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		-455
+1608729912	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		61
+1608729965	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karteneinstellungen] 		17
+1608730036	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		56
+1608730332	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		-116
+1608730689	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		599
+1608730712	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		1
+1608730733	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Routing] Ersetzt durch Schnelleinstellung		-770
+1608730750	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Elemente verbergen] ersetzt durch Schnelleinstellung		-1442
+1608730803	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		569
+1608730823	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		-1
+1608731091	2.205.118.1	E	en:cachemarkers	lineflyer	Support DNF		-63
+1608731110	2.205.118.1	E	en:cachemarkers	lineflyer	Support DNF		-4
+1608731174	2.205.118.1	E	de:cachemarkers	lineflyer	Unterstützung DNF		-30
+1608731280	2.205.118.1	E	en:mainmenu:lists	lineflyer	[Cache list] 		11
+1608731336	2.205.118.1	E	en:mainmenu:lists	lineflyer	[Cache list] 		62
+1608731466	2.205.118.1	E	de:mainmenu:lists	lineflyer	[Cachelisten] 		56
+1608732420	2.205.118.1	E	en:mainmenu:settings	lineflyer	[Cache Details] 		226
+1608732457	2.205.118.1	E	en:mainmenu:settings	lineflyer	[Cache Details] 		8
+1608732470	2.205.118.1	E	en:mainmenu:settings	lineflyer	[Cache Details] 		0
+1608732627	2.205.118.1	E	de:mainmenu:settings	lineflyer	[Cache-Details] 		252
+1608746657	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:mainmenu:settings	silviopen	creata		39941
+1608746711	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:settings	silviopen			37
+1608774860	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	zh:start	hemind	translate all string		-378
+1608774954	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	zh:start	hemind			2
+1608826424	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:cachedetails	silviopen	added comment on long tap for icons that provide a double function		126
+1608878628	46.132.6.132	E	fi:mainmenu:lists	vike91	[Kätkölista] 		107
+1608878794	46.132.6.132	E	fi:cachedetails	vike91	[Yläpalkin valikko] 		125
+1608879007	46.132.6.132	E	fi:cachemarkers	vike91	update		-78
+1608879407	46.132.6.132	E	fi:mainmenu:settings	vike91	[Kätkön tiedot] 		273
+1608879657	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		-336
+1608879964	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Yläosa] 		57
+1608879996	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Kartan asetukset] 		5
+1608881170	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Kartan pika-asetukset] 		2343
+1608881232	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Reititys] 		-767
+1608881258	46.132.6.132	E	fi:mainmenu:livemap	vike91	[Elementtien piilotus] 		-1536
+1608920575	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:settings	silviopen	[Dettagli cache]  alllineata traduzione alla versione inglese  più aggiornata		260
+1608920594	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:settings	silviopen	[Dettagli cache] 		2
+1608933778	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:cachedetails	silviopen	creata		24005
+1608934142	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:firststeps	silviopen	traduzione completa, escluse le immagini		-168

@@ -7,11 +7,11 @@ The following table describes the meaning of these markers:
 ^ Marker ^ Name ^ Description ^
 |{{ :marker_stored.png?nolink&20 |}}|Stored|This geocache is stored offline in one of your lists.\\ This marker is only shown on the map but not in your lists, as it is logical that all caches in your lists are already stored. :-)|
 |{{ :marker_found.png?nolink&20 |}}|Found|You have already found this geocache.|
+|{{ :marker_not_found_offline.png?nolink&20 |}}|Did not find|You have a "Did not find" log for this geocache either posted online in the past or stored offline in c:geo.|
 |{{ :marker_own.png?nolink&20 |}}|Owned|This is one of your own geocaches.|
 |{{ :marker_personalnote.png?nolink&20 |}}|Personal note|A personal note is stored for this geocache.|
 |{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Modified coordinates|You set new cache coordinates for this cache and it is now displayed at this modified coordinates instead of the original coordinates. A useful feature for solved mysteries or multis.|
 |{{ :marker_found_offline.png?nolink&20 |}}|Offline Found Log|You have stored an offline found log for this geocache but not yet submitted this log online.|
-|{{ :marker_not_found_offline.png?nolink&20 |}}|Offline Not Found Log|You have stored an offline "Did not find" log for this geocache but not yet submitted this log online.\\ This status will only be shown as long as the log is offline.|
 |{{ :marker_note.png?nolink&20 |}}|Offline Note Log|You have stored an offline note log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
 |{{ :marker_maintenance.png?nolink&20 |}}|Offline Needs Maintenance Log|You have stored an offline "Needs maintenance" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
 |{{ :marker_owner_maintenance.png?nolink&20 |}}|Offline Owner Maintenance Log|You have stored an offline "Owner Maintenance" log for this geocache but not yet submitted this log online. \\ This status is specific for cache owners and will only be shown as long as the log is offline.|
