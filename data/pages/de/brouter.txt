@@ -44,9 +44,9 @@ Das war schon alles, aber denk daran, dass du neue Kacheln herunterladen musst w
 
 ===== Nutzung in c:geo ====
 
-Nachdem du BRouter wie oben beschrieben installiert und konfiguriert hast, wird c:geo es automatisch nutzen. Es ist nicht notwendig in c:geo weitere Konfigurationen vorzunehmen, außer dass du evtl. den verwendeten Routing-Modus (Gehen, Radfahren, Auto) nach Bedarf ändern möchtest. Dies kannst du im [[en:mainmenu:livemap#routing|Routing Untermenü]] deines [[en:mainmenu:livemap#top_bar_menu|Kartenmenüs]] einstellen.
+Nachdem du BRouter wie oben beschrieben installiert und konfiguriert hast, wird c:geo es automatisch nutzen. Es ist nicht notwendig in c:geo weitere Konfigurationen vorzunehmen, außer dass du evtl. den verwendeten Routing-Modus (Gehen, Radfahren, Auto) nach Bedarf ändern möchtest. Dies kannst du im [[.:mainmenu:livemap#map_settings|Karten-Schnelleinstellungen]] einstellen.
 
-BRouter wird hauptsächlich für zwei Funktionen genutzt, um Routen zu berechnen. Diese sind im Folgenden beschrieben.
+BRouter wird hauptsächlich für zwei Funktionen genutzt, um Routen zu berechnen. Diese sind kurz im Folgenden beschrieben. Eine komplette Beschreibung der Navigationsfunktionen der Karte findest in der Beschreibung der [[.:mainmenu:livemap#map_navigation|Live-Karte]] in diesem Benutzerhandbuch.
 
 ==== Richtungslinie ====
 

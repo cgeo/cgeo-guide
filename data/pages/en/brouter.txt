@@ -47,9 +47,9 @@ You are now good to go, but remember, that you need to download new tiles here i
 ===== Usage in c:geo ====
 
 Once you installed and configured BRouter as described above, c:geo will use it automatically. There is no need for any configuration in c:geo, except that you might want to change the used routing mode (Bike, Walk, Car) according to your needs.
-You can do this in the [[en:mainmenu:livemap#routing|Routing sub menu]] of your [[en:mainmenu:livemap#top_bar_menu|map menu]].
+You can do this in the [[.:mainmenu:livemap#map_quick_settings|map quick settings]].
 
-BRouter will be used to calculate routes for mainly two functions as described below.
+BRouter will be used to calculate routes for mainly two functions as described briefly below. You can find a complete description of the map navigation lines and their functions in the [[.:mainmenu:livemap#map_navigation|live map]] description of this user guide.
 
 ==== Direction line ====
 
@@ -60,7 +60,7 @@ The distance information on the top right will show the routed distance addition
 {{ :en:brouter_with.png?direct&400 |}}
 ==== Individual route ====
 
-To make use of the individual route feature you need to enable the long lick function on the map in your [[.:mainmenu:settings#map_behavior|map behavior settings]].
+To make use of the individual route feature you need to enable the long click function on the map in your [[.:mainmenu:settings#map_behavior|map behavior settings]].
 
 Then you can simply long click sequentially on different caches/waypoints on your map to connect them with a routed line one after another. This function e.g. allows planning of your caching trip as shown in the example below.
 

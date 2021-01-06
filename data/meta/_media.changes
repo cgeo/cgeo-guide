@@ -114,3 +114,18 @@
 1608729261	2.205.118.1	E	en:livemap_popup_2.png	lineflyer			-72080
 1608729671	2.205.118.1	E	en:livemap_popup_4.png	lineflyer			-27995
 1608732262	2.205.118.1	E	en:settings_cachedetails.png	lineflyer			59206
+1609848826	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_appearance.png	lineflyer			-102537
+1609849213	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_system_backup_program.png	lineflyer			-5002
+1609849213	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_system_backup.png	lineflyer			-122464
+1609858337	2.205.118.1	C	en:livemap_individual_track.png	lineflyer	created		677577
+1609858706	2.205.118.1	C	en:livemap_indiviudal_track_2.png	lineflyer	created		96410
+1609858784	2.205.118.1	D	en:livemap_individual_track.png	lineflyer	removed		-677577
+1609858789	2.205.118.1	D	en:livemap_indiviudal_track_2.png	lineflyer	removed		-96410
+1609858810	2.205.118.1	C	en:livemap_indiviudal_track_2.png	lineflyer	created		96410
+1609858810	2.205.118.1	C	en:livemap_individual_track.png	lineflyer	created		677577
+1609859720	2.205.118.1	C	en:livemap_individual_route.png	lineflyer	created		223500
+1609860668	2.205.118.1	C	en:livemap_history_track_2.png	lineflyer	created		103847
+1609860668	2.205.118.1	C	en:livemap_history_track.png	lineflyer	created		595637
+1609862458	2.205.118.1	C	en:livemap_distance_info_3.png	lineflyer	created		289357
+1609862458	2.205.118.1	C	en:livemap_distance_info_1.png	lineflyer	created		235565
+1609862458	2.205.118.1	C	en:livemap_distance_info_2.png	lineflyer	created		289482

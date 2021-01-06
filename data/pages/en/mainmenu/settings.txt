@@ -97,7 +97,7 @@ In this menu you can configure some basic user interface settings of c:geo.
 |Transparent background|When activated the main screen of c:geo is transparent showing your desktop wallpaper as a background. //(Default: Activated)//|
 |Show Address|When activated c:geo will use a reverse geocoding service to show the current location name instead of the location coordinates at the bottom of the main screen. //(Default: Activated)//|
 |Plain Logs|Activating this setting will show all log entries without the custom colors for enhanced readability. //(Default: Deactivated)//|
-|Use English|This will force c:geo to use the English user interface instead using your individual phone language. This might be helpful in case you have problems with wrong translations in your language. A restart of c:geo is required after you modified this setting. //(Default: Deactivated)// \\ \\ :!: Be aware that activating the ''Use English'' option will also show all dates in US format (M/D/YYYY). \\ Additionally this feature will no longer work starting with Android 8 due to technical changes in Android.|
+|Select language|This setting allows you to manually set the used language for c:geo. This might be helpful in case you have problems with wrong translations in your language. A restart of c:geo is required after you modified this setting. //(Default: Use default language of the device)//|
 |Use Imperial Units|Activating this option will make c:geo use imperial units (miles/feet) instead of metric units (meter/kilometer) on all relevant screens. //(Default: Activated (for languages en-us), Deactivated (for all other languages)//|
 
 ===== Cache Details =====

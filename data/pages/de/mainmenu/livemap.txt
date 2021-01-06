@@ -140,6 +140,117 @@ Nach der Auswahl des Einstellungssymbols unten mittig auf der Karte werden die f
 |Nutze kompakte Symbole|Diese Option wechselt von der klassischen Ansicht der Cachesymbole zu einer kompakten Ansicht, die einzelne Caches nur als farbige Punkte anzeigt. Die Farben repräsentieren den Cachetyp gemäß der Farbe der klassischen Symbole (z.B. werden Traditional-Caches als grüner Punkt angezeigt). Im automatischen Modus wird abhängig vom Zoom-Level der Karte zwischen normalen und kompakten Symbolen gewechselt.|
 |Routing|Hier kannst du die gewünschte Routing-Methode für die Richtungslinie zwischen deiner Position und dem gewählten Ziel-Cache/Wegpunkt auswählen. Entweder eine direkte Linie oder eine geroutete Linie für Fußgänger, Radfahrer oder Auto.\\ \\ :!: Für eine geroutete Linie wird eine konfigurierte [[..brouter|BRouter-Installation]] benötigt.|
 
+===== Karten-Navigation =====
+{{anchor:map_navigation}}
+
+c:geo bietet mehrere Optionen um dir bei der Navigation durch verschiedene Linien auf der (Live-)Karte zu helfen:
+
+  * Du kannst eine **Richtungslinie** zwischen deiner Position und einem gewählten Ziel-Cache/Wegpunkt anzeigen lassen.
+  * Du kannst einen **GPX-Track/Route** laden, die dann auf der Karte angezeigt wird.
+  * Du kannst eine **individuelle Route** zwischen mehreren Caches/Wegpunkten anlegen.
+  * c:geo kann optional eine **Positionsverlaufs-Linie** anzeigen, die den Verlauf deiner Position (deine Bewegung) auf der Karte anzeigt.
+
+Um das beste aus der Richtungslinie und der individuellen Route herauszuholen, empfehlen wir die App [[.:brouter|BRouter]], wie im verlinkten Kapitel des Benutzerhandbuchs beschrieben, zu installieren und konfigurieren. Das ermöglicht es eine geroutete Linie statt nur einer geradlinigen Verbindung zu nutzen.
+
+Die verschiedenen Linien- und Trackarten werden nachfolgend im Detail beschrieben.
+==== Richtungslinie ====
+
+Die Richtungslinie ist eine Kartenlinie, die deine aktuelle Position mit dem ausgewählten Ziel-Cache/Wegpunkt verbindet. Es kann entweder eine gerade Linie (Luftlinie) sein oder eine geroutete Linie, wenn du [[..:brouter|BRouter]] installier und konfiguriert hast.
+
+Die Standardfarbe für diese Linie ist <color #ed1c24>rot</color>, die Linienfarbe und weitere Erscheinungsparameter können aber nach deinen Bedürfnissen im Menü für die [[.:settings#map_lines_customization|Anpassung der Kartenlinien]] eingestellt werden.
+
+Das Beispiel unten zeigt das typische Aussehen der Richtungslinite (mit und ohne Brouter).
+
+^ Richtungslinie ohne BRouter ^ Richtungslinie mit BRouter ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+Es gibt zwei Wege um die Richtungslinie zu aktivieren:
+  - Klicke auf einen Cache, der auf der Karte angezeigt wird, und aktiviere die Richtungslinie indem du auf das entsprechende Symbol{{:ic_menu_publish_invert.png?nolink&30|}}im [[livemap#map_popup_window|Popup-Fenster]] der Karte klickst.
+  - Vom [[..:cachedetails|Menü in den Cache-Details]] kannst du das Menü Navigation - Karte nutzen um die Karte inkl. Richtungslinie zu öffnen.
+==== GPX-Track/Route ====
+
+Du hast die Möglichkeit eine GPX-Track-/Routen-Datei zu laden, die dann auf der Karte angezeigt wird. Beispielsweise könnten Cache-Besitzer eine solche(n) GPX-Track/Route zur Verfügung stellen um einen Cache zu finden, oder du kannst solche GPX-Tracks/Routen mit anderen Routing-Tools selbst erstellen.
+Prinzipiell sind Tracks und Routen beides GPX-Dateien, die eine enthält einen aufgezeichneten Positionsverlaus (Track-Datei), die andere (Routen-Datei) nur einige Punkte, für die c:geo dann die Route dazwischen Punkt für Punkt berechnet.
+
+Die Standardfarbe für diese Linie ist <color #22b14c>grün</color>, die Linienfarbe und weitere Erscheinungsparameter können aber nach deinen Bedürfnissen im Menü für die [[.:settings#map_lines_customization|Anpassung der Kartenlinien]] eingestellt werden.
+
+Das unten stehende Beispiel zeigt das typische Aussehen eines/einer individuellen GPX-Tracks/Route:
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+Um eine(n) GPX-Track/Route zu laden oder entladen, musst du die Menüeinträge unterhalb von ''GPX-Track/Route'' in deinem [[livemap#top_bar_menu|Kartenmenü]] nutzen:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^Menüeintrag ^ Beschreibung ^ 
+|Lade Track/Route aus GPX|Erlaubt dir eine GPX-Datei auszuwählen, die einen Track oder eine Route enthält und diese auf der Karte anzuzeigen.|
+|Track/Route zentrieren|Bewegt und zoomt die Karte so, dass ein bereits geladener Track komplett auf der Karte angezeigt wird.|
+|Track/Route entladen|Dies entfernt eine(n) geladene(n) Track/Route von der Karte.|
+==== Individuelle Route ====
+
+Eine individuelle Route kann durch langen Klick auf mehrere Caches/Wegpunkte auf der (Live-)Karte erstellt werden. Es wird dann eine Route zwischen jedem ausgewählten Cache/Wegpunkt in der Reihenfolge der Auswahl gezeichnet. Dies erlaubt es es eine benutzerspezifische Route zwischen Cache zu erstellen und kann z.B. zur Planung deines Caching-Trips genutzt werden.
+
+<WRAP center round important 60%>
+Um die individuelle Routenfunktion nutzen zu können, musst du das Langklick-Funktion für die Karten in deinen [[.:settings#map_behavior|Einstellungen zum Kartenverhalten]] aktivieren.
+</WRAP>
+
+Die Routenpunkte werden entweder durch eine gerade Linie (Luftinie) oder alternativ durch eine geroutete Linie verbunden, wenn du [[..:brouter|BRouter]] installiert hast. Die Nutzung von BRouter wird wärmstens empfohlen, um das meiste aus dieser Funktion herauszuholen.
+
+Die Standardfarbe für diese Linie ist <color #00a2e8>blau</color>, die Linienfarbe und weitere Erscheinungsparameter können aber nach deinen Bedürfnissen im Menü für die [[.:settings#map_lines_customization|Anpassung der Kartenlinien]] eingestellt werden.
+
+Das unten stehende Beispiel zeigt das typische Aussehen einer individuellen Route.
+
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+Während du Caches/Wegpunkte durch langen Klick zur Route hinzufügen oder entfernen kannst, gibt es auch einige weitere Funktionen, die du im Menü ''Individuelle Route'' in deinem [[livemap#top_bar_menu|Kartenmenü]] finden kannst:
+
+{{ en:livemap_individual_route.png?nolink&400 |}}
+
+^ Meüeintrag ^ Beschreibung ^ 
+|Individuelle Route laden|Lädt eine vorher gespeicherte individuelle Route.|
+|Automatisch als Ziel setzen|Wenn aktiviert, wird der Startpunkt der Route als aktuelles Ziel für die Richtungslinie gesetzt (und zeigt somit den Weg zwischen der aktuellen Position zum Start der Route).\\ Das kann auf einer Geocaching-Tour praktisch sein. Ein Langklick auf einen bereits besuchten Routenpunkt entfernt diesen und dadurch wird, wenn diese Option aktiviert ist, automatisch das Ziel auf den nächsten Routenpunkt gesetzt.|
+|individuelle Route sortieren|Dies öffnet einen Dialog, in dem du die Reihenfolge der Routenpunkte verändern oder einzelne Routenpunkte löschen kannst; die Route wird anschließend neu berechnet.\\ Vergiss nicht die "Speichern"-Schaltfläche zu drücken um die Änderungen zu speichern, oder einfach den Dialog verlassen um die Änderungen zu verwerfen.|
+|Route zentrieren|Bewegt und zoomt die Karte so, dass eine bereits geladene Route komplett auf der Karte angezeigt wird.|
+|Exportiere individuelle Route|Du kannst deine individuelle Route in eine GPX-Datei exportieren.|
+|Individuelle Route löschen|Das entfernt die erstellte individuelle Route.|
+==== Positionsverlauf ====
+
+Die Positionsverlaufslinie zeigt den Verlauf der Position (deine Bewegung) auf der Karte.
+Du musst den Positionsverlauf in deinen [[.:settings#map_content|Karteninhaltseinstellungen]] aktivieren. Dort kannst du auch weitere Parameter (z.B. die maximale Länge des Tracks) einstellen.
+
+Die Standardfarbe für diese Linie ist schwarz, die Linienfarbe und weitere Erscheinungsparameter können aber nach deinen Bedürfnissen im Menü für die [[.:settings#map_lines_customization|Anpassung der Kartenlinien]] eingestellt werden.
+
+Das unten stehende Beispiel zeigt das typische Aussagen der Positionsverlaufslinie.
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+Um den Positionsverlauf zu konfigurieren, kannst du die Menüeintrage unterhalb von ''Positionsverlauf'' in deinem [[livemap#top_bar_menu|Kartenmenü]] verwenden:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^ Menüeintrag ^ Beschreibung ^ 
+|Exportiere Positionsverlauf|Erlaubt dir den Positionsverlauf in eine GPX-Datei zu exportieren.|
+|Zeige Positionsverlauf / Positionsverlauf ausblenden|Mit diesen Funktionen kannst du den Positionsverlauf an- und abschalten. Das Ausblenden des Positionsverlaufs löscht den bisherigen Verlauf nicht, sondern blendet ihn auf der Karte aus und unterbricht die Aufzeichnung.|
+|Positionsverlauf löschen|Dies löscht den Positionsverlauf und entfernt den bisherigen Track von der Karte.|
+==== Entfernungsangaben ====
+
+Während der Nutzung der Richtungslinie und/oder der individuellen Route gibt c:geo zusätzlich verschiedene Entfernungsangaben im oberen Bereich der Karte aus (wie auch sichtbar in den verschiedenen Screenshots oben). Die Entfernungen werden abhängig von deiner Geräteeinstellung in Meter/Kilometer oder Fuß/Meilen angezeigt.
+
+Abhängig davon, ob du nur eine oder beide Linien nutzt und ob du in den Einstellung zum [[.:settings#map_content|Karteninhalt]] aktiviert hast, dass dir zusätzlich zur gerouteten Entfernung (nur wenn [[..:brouter|Brouter]] installiert ist) auch die Luftlinien-Entfernung angezeigt wird, werden verschiedene Entfernungsangaben hier angezeigt.
+
+Das unten stehende Bild zeigt die Kombination aller möglichen Entfernungsangaben. Zusätzlich wird der gewählte Ziel-Cache/Wegpunkt oben links angezeigt, wenn die Richtungslinie aktiv ist.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Es werden entweder einige oder alle dieser Entfernung angezeigt, abhängig von der Konfiguration und den gerade aktiven Navigationslinien:
+
+  - Die oberste Angabe ist die Luftlinien-Entfernung für die Richtungslinie (d.h. die direkte Distanz zwischen deiner aktuellen Position und den gewählten Ziel-Cache/Wegpunkt). 
+  - Die zweite Angabe ist die geroutete Entfernung der Richtungslinie (d.h. die Entfernung zwischen deiner Position und dem gewählten Ziel-Cache/wegpunkt gemäß den [[..:brouter|BRouter]] Routing-Informationen). Wenn sowohl geroutete als auch direkte Entfernung aktiv sind, stellt das Symbol vor der Entfernungsangabe daher die geroutete Linie dar.
+  - Die dritte Angabe ist die Länge der individuellen Route.
+
+Für eine bessere Sichtbarkeit kannst du auf die Entfernungen klicken um sie zu vergrößern und wieder zu verkleinern. Wenn die direkte und die geroutete Entfernung aktiv sind, wechselt jeder Klick zyklisch zwischen vergrößerter direkter Entfernung, vergrößerter gerouteter Entfernung und der normalen kleinen Ansicht.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}
 
 
 

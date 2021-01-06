@@ -1,27 +1,3 @@
-1578248048	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	update		49
-1578248910	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	lil grammar fix		0
-1578249045	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	C	fi:offlinemaps	vike91	luotu		9121
-1578249487	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttojen/teemojen lataus] 		343
-1578249623	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Installation] 		79
-1578249907	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Map files] 		-7
-1578249925	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttatiedostot] 		-1
-1578249943	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Karttatiedostot] 		-1
-1578250162	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Themes] 		-7
-1578251220	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Configuration] 		99
-1578251291	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Usage] 		10
-1578251431	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Using the map file] 		32
-1578251544	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Using the theme] 		-30
-1578251710	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Advanced theme options] 		18
-1578251797	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	[Further reading on offline maps] 		40
-1578251810	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offlinemaps	vike91	fixme out		-10
-1578251963	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	D	fi:mmlkartat	vike91	delete page		-923
-1578252050	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	update		45
-1578252075	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	update		7
-1578252100	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:sidebar	vike91	fix		1
-1578252199	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:offline	vike91	update		-721
-1578252301	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:mainmenu:lists	vike91	update		76
-1578252795	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:start	vike91	update		-1
-1578257609	2001:14bb:410:e614:2d5f:b0e5:6393:5cc8	E	fi:mainmenu:settings	vike91	update		4436
 1583172000	163.158.56.205	e	nl:sidebar	linstylemon			54
 1583172841	163.158.56.205	e	nl:offlinemaps	linstylemon	[Downloaden van kaarten/thema's] 		92
 1583173012	163.158.56.205	E	nl:offlinemaps	linstylemon	[Installation]  NL		107
@@ -759,3 +735,135 @@
 1608920594	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:settings	silviopen	[Dettagli cache] 		2
 1608933778	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:cachedetails	silviopen	creata		24005
 1608934142	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:firststeps	silviopen	traduzione completa, escluse le immagini		-168
+1609848912	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:settings	lineflyer	[Appearance] New language selection		-228
+1609848990	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	de:mainmenu:settings	lineflyer	[Erscheinungsbild] Sprache wählen		-293
+1609849354	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	New section map navigation		54
+1609850066	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		704
+1609850199	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		209
+1609850207	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Navigation line] 		-4
+1609850326	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Navigation line] 		81
+1609850340	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		-1
+1609850395	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		14
+1609852247	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		51
+1609852324	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		77
+1609852522	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		59
+1609852543	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		8
+1609852598	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[History track] 		30
+1609852961	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		221
+1609853071	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		67
+1609853112	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:mainmenu:livemap	lineflyer	[Direction line] 		7
+1609855677	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		47
+1609855691	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		-1
+1609855762	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		-1
+1609855778	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		0
+1609855786	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		-1
+1609855957	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		78
+1609856524	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		32
+1609856535	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		-7
+1609856543	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		1
+1609857699	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		368
+1609857742	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		42
+1609857756	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		16
+1609857853	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		1
+1609858141	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		749
+1609858160	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		-100
+1609858223	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		166
+1609858235	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		23
+1609858249	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		4
+1609858262	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		8
+1609858270	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		4
+1609858362	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		41
+1609858382	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		0
+1609858390	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		2
+1609858397	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		0
+1609858466	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		-251
+1609858529	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		25
+1609858566	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		27
+1609858593	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		0
+1609858779	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		-50
+1609858821	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		50
+1609858864	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		52
+1609858881	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		1
+1609859036	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		317
+1609859056	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual track] 		-1
+1609859072	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		-1
+1609859103	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[GPX track/route] 		10
+1609859300	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		1164
+1609859319	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		-45
+1609859326	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Map navigation] 		1
+1609859346	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		5
+1609859422	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		129
+1609859480	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		-1
+1609859563	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		64
+1609859590	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		34
+1609859632	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		27
+1609859737	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		-2
+1609859790	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		1
+1609859841	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		-173
+1609860124	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		592
+1609860393	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		268
+1609860447	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		164
+1609860467	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		40
+1609860500	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		7
+1609860521	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		73
+1609860703	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		49
+1609860749	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		10
+1609860761	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Direction line] 		11
+1609860770	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[GPX track/route] 		11
+1609860831	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		497
+1609860940	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		13
+1609860985	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		64
+1609861003	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		11
+1609861161	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		344
+1609861182	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		46
+1609861216	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		40
+1609861284	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		23
+1609861771	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[History track] 		-25
+1609861829	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		200
+1609861841	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		1
+1609861866	2.205.118.1	e	en:brouter	lineflyer	[Individual route] Typo in english page		1
+1609861924	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		81
+1609862518	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		64
+1609862665	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		454
+1609862890	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		633
+1609862911	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		-90
+1609862933	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		6
+1609863084	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		270
+1609863142	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Distance information] 		99
+1609863347	2.205.118.1	E	en:brouter	lineflyer	[Usage in c:geo] 		172
+1609863377	2.205.118.1	E	en:brouter	lineflyer	[Usage in c:geo] 		6
+1609863462	2.205.118.1	E	de:brouter	lineflyer	[Nutzung in c:geo] 		178
+1609874074	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[GPX track/route] 		204
+1609874196	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[GPX track/route] 		8
+1609874218	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		8
+1609874278	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		128
+1609874293	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		0
+1609874335	2.205.118.1	E	en:mainmenu:livemap	lineflyer	[Individual route] 		229
+1609878564	2.205.118.1	E	en:brouter	lineflyer	[Usage in c:geo] Link to new quick settings		-42
+1609878615	2.205.118.1	E	de:brouter	lineflyer	[Nutzung in c:geo] 		-38
+1609878656	2.205.118.1	E	de:brouter	lineflyer	[Nutzung in c:geo] 		-6
+1609878767	2.205.118.1	E	de:mainmenu:livemap	lineflyer	Kartennavigation		8912
+1609879050	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Map navigation] 		117
+1609879108	2.205.118.1	e	en:mainmenu:livemap	lineflyer	Relative links to other pages to ease translation		-1
+1609879186	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Karten-Navigation] 		28
+1609879513	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Direction line] 		137
+1609879552	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Richtungslinie] 		8
+1609879789	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX track/route] 		85
+1609879833	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX-Track/Route] 		70
+1609880101	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX-Track/Route] 		88
+1609880153	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX-Track/Route] 		0
+1609880341	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individual route] 		95
+1609880445	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		51
+1609880469	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		1
+1609880509	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		35
+1609880517	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX-Track/Route] 		1
+1609880526	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Richtungslinie] 		1
+1609880658	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		12
+1609931033	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		70
+1609931062	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[GPX-Track/Route] 		-11
+1609931134	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Individuelle Route] 		35
+1609931482	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[History track] 		5
+1609931529	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Positionsverlauf] 		11
+1609931764	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Positionsverlauf] 		207
+1609932035	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Distance information] 		118
+1609937104	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Entfernungsangaben] 		69

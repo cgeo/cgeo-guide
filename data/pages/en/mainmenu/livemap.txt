@@ -31,8 +31,8 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Store unsaved|Saves all caches shown on the map, except the ones already stored, onto your stored caches list.|
 | | Map rotation |This will open a menu to switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
 | | History track |Opens a sub menu containing option to show/hide, clear and export the history track (the history of your movement).|
-| | GPX track/route |Allows you to load/unload and show the content of a GPX track/route file on the map.|
-| | Individual route |This will open a sub menu to manage, load or hide an individual route, which you created by long clicking elements on the map. The long click function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
+| | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
+| | Individual route |This will open a sub menu to manage, load or hide an [[livemap#map_navigation|individual route]], which you created by long clicking elements on the map. The long click function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
 | |[[lists#cache_list|Show as list]]|This will display all caches shown on the map as [[lists|cache list]].|
 | |[[settings#map_content|Clear trail history]]|This will delete the history of the position trail on map.|
 ===== Map content =====
@@ -145,4 +145,118 @@ After selecting the quick settings button, which is shown on bottom center of th
 |Use compact icons|This option will switch from the classic cache icon view to a compact view showing single caches as a colored dot only. The colors represent the cache type according to the color of the classic icon (e.g. Traditional caches are shown as green dot). You can set this feature to on/off and automatic mode. The automatic mode will toggle between classic and compact view depending on zoom level.|
 |Routing|Here you can select the desired routing mode used to draw the direction line between your position and the chosen target cache/waypoint. Either a straight line or turn-by-turn navigation for pedestrian, bike or car.\\ \\ :!: Turn-by-turn navigation requires an installed and configured [[..brouter|BRouter setup]].|
 
+===== Map navigation =====
+{{anchor:map_navigation}}
 
+c:geo provides several options to help you with navigation using different lines drawn on the (live) map: 
+
+  * It can show a **direction line** between your position and a chosen target cache/waypoint.
+  * You can load an **GPX track/route**, which will then be shown on the map.
+  * You can set an **individual route** between several caches/waypoints. 
+  * c:geo can optionally draw a **history track** showing the position history (your movement) on the map.
+
+To get the most out of the direction line and individual route it is recommended to install and configure the [[.:brouter|BRouter]] app as described in the linked section of our user guide. This will enable routed lines instead of just a straight connection line.
+
+The different line and track types are described in more detail below.
+
+==== Direction line ====
+
+The direction line is a map line which connects your current position with a chosen target cache/waypoint. This can be either a straight line or a routed line if you have [[..:brouter|BRouter]] installed and configured.
+
+The default line color is <color #ed1c24>red</color> but line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of the direction line (with and without Brouter).
+
+^ Direction line without BRouter ^ Direction line with BRouter ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+There are two ways to activate the direction line:
+  - Click on a cache, which is shown on map, and activate the direction line with the corresponding icon{{:ic_menu_publish_invert.png?nolink&30|}}shown in the [[livemap#map_popup_window|map popup]].
+  - From [[..:cachedetails|cache details menu]] use Navigation - Map to open the map including direction line.
+==== GPX track/route ====
+
+You have the possibility to load a GPX track/route file which is then shown on the map. For example cache owners might provide a GPX-track/route file to follow a certain route to find a cache, or you can generate such GPX track/route with other routing tools.
+Tracks and routes both are basically GPX files, one having a recorded track of positions (track file), the other (route file) only some waymarks, for which c:geo will route you from point to point.
+
+The default line color is <color #22b14c>green</color> but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of an individual GPX track/route.
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+To load or unload a GPX track you have to use the map menu items below ''GPX track/route'' in your [[livemap#top_bar_menu|map menu]]:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Load track/route from GPX|Allows you to select a GPX file containing a track or route to display it on the map.|
+|Center on track/route|Will move/zoom the map, so that an already loaded track/route is shown completely.|
+|Unload track/route|This will remove the loaded track/route from the map.|
+==== Individual route ====
+
+An individual route can be created by long tapping several caches/waypoints on the (live) map. A route will then be drawn between each of the selected caches/waypoints in sequence of your selection. This allows you to create a custom route between caches and can be e.g. used to plan your caching trip.
+
+<WRAP center round important 60%>
+To make use of the individual route feature you need to enable the long click function on the map in your [[.:settings#map_behavior|map behavior settings]].
+</WRAP>
+
+
+The route points will either be connected by a straight line or a routed line if you have [[..:brouter|BRouter]] installed and configured. Using BRouter for this function is highly recommended to get the most out of it.
+
+The default line color is <color #00a2e8>blue</color> but the line color and additional parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of an individual route.
+
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+While you can add and remove caches/waypoints to/from your rote by long clicking them, there are also some additional functions, which can be found below the menu item ''Individual route'' in your [[livemap#top_bar_menu|map menu]]:
+
+
+
+{{ en:livemap_individual_route.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Load individual route|Load a previously saved individual route.|
+|Set as target automatically|If activated the routing start point will be set as direction line target automatically (showing the way from your position to the starting point of the route).\\ This can be handy while doing a geocaching tour. Long-tap on a visited cache/waypoint will remove it from your individual route, and with this option activated, your next stop on your route will be set as target automatically.|
+|Sort individual route|Will open a dialog, where you can modify the sequence or remove one or more of the selected caches/waypoints on your route; The route will then be recalculated accordingly.\\ Don't forget to hit the "save" button to save your changes to the individual route, or just leave the dialog to discard them.|
+|Center on route|Will move/zoom the map, so that an the individual route is shown completely.|
+|Export individual route|You can export your created individual route into a GPX route file.|
+|Clear individual route|This will remove the created individual route.|
+==== History track ====
+
+The history track provides a line of your position history (your movement) on the map.
+You have to activate the history track in your [[.:settings#map_content|map content settings]], where you can also configure additional parameters (such as maximum length of the track).
+
+The default line color is black but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings. 
+
+The example below shows the typical appearance of a history track line. 
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+To configure the history track you can use the map menu items below ''History track'' in your [[livemap#top_bar_menu|map menu]]:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Export history track|Allows you to export your position history to a GPX track file.|
+|Hide/Show history track|Using this option you can turn the history track off/on. Turning it off will not clear the existing track but just stop recording and hide it.|
+|Clear history track|This will clear the position history and thus remove the existing track.|
+==== Distance information ====
+
+While using the direction line and/or individual route c:geo will also provide several distance figures at the top of the map (can also be seen in the dedicated screenshots above). The distances are shown in meter/kilometer or feet/mile depending on your settings.
+
+Depending on whether you use one or both lines and whether you activated to show the straight distance in addition to the routed distance (only if [[..:brouter|Brouter]] is installed) in your [[.:settings#map_content|map content settings]] several distance figures might be shown.
+
+The picture below shows a combination of all possible distance figures. Additionally the chosen target cache/waypoint is shown on top left is the direction line is active.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Some or all of these distance figures might be shown depending on configuration and active navigation lines:
+
+  - The first figure is the straight line distance for the direction line (i.e. straight distance between your current position and the chosen target cache/waypoint). The icon in front represents therefore the straight line if both routed and straight line distances are shown.
+  - The second figure is the routed line distance for the direction line (i.e. the distance between your position and the chosen target cache/waypoint according to the [[..:brouter|BRouter]] routing information). The icon in front represents therefore the routed line if both routed and straight line distances are shown.
+  - The third figure is the length of your individual route.
+
+For better visibility you can click on the distances to supersize them and reduce them again. If straight and routed distances are shown each click will let you cycle between straight distance enlarged, routed distance enlarged or normal view.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}
