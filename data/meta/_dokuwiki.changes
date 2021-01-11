@@ -867,3 +867,31 @@
 1609931764	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Positionsverlauf] 		207
 1609932035	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Distance information] 		118
 1609937104	2.205.118.1	E	de:mainmenu:livemap	lineflyer	[Entfernungsangaben] 		69
+1609986504	188.238.101.93	E	fi:mainmenu:settings	vike91	[Ulkoasu] 		-291
+1609986618	188.238.101.93	E	fi:brouter	vike91	[Käyttö c:geossa] 		-38
+1609986712	188.238.101.93	E	fi:brouter	vike91	[Käyttö c:geossa] 		196
+1610022641	2.205.118.1	e	de:spoilersync	lineflyer	Tippfehler beseitigt		-1
+1610132316	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		91
+1610132357	163.158.160.54	C	nl:quick_widgets	linstylemon	aangemaakt		2092
+1610132526	163.158.160.54	E	en:start	linstylemon	quick widgets added		16
+1610132823	163.158.160.54	R	en:start	linstylemon	old revision restored (2020/10/27 10:55)	1603792517	-16
+1610132846	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		16
+1610132994	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		167
+1610133024	163.158.160.54	C	nl:contacts	linstylemon	aangemaakt		3273
+1610133061	163.158.160.54	C	nl:brouter	linstylemon	aangemaakt		5562
+1610133157	163.158.160.54	E	nl:start	linstylemon	[Plugins and Addon functions] 		12
+1610133475	163.158.160.54	e	nl:start	linstylemon			3
+1610133948	163.158.160.54	E	nl:mainmenu:start	linstylemon	[Login status] Added offline finds text		203
+1610134158	163.158.160.54	E	nl:cachedetails	linstylemon	text change original added in wrap		136
+1610134192	163.158.160.54	e	nl:cachedetails	linstylemon			-1
+1610135383	163.158.160.54	E	nl:cachedetails	linstylemon	[Persoonlijke notitie]  added changes from personal notes		1355
+1610135928	163.158.160.54	E	nl:mapsources	linstylemon	changed text from original added 		165
+1610136183	163.158.160.54	E	nl:mainmenu:utilityprograms	linstylemon	added brouter link  text		95
+1610136230	163.158.160.54	e	nl:mainmenu:utilityprograms	linstylemon			-1
+1610136377	163.158.160.54	e	nl:mainmenu:utilityprograms	linstylemon			-2
+1610136672	163.158.160.54	E	nl:notecoords	linstylemon	title changed 		19
+1610136848	163.158.160.54	E	nl:notecoords	linstylemon	Added addition from the original file		172
+1610137353	163.158.160.54	E	nl:translation	linstylemon	added changes from original file		470
+1610137372	163.158.160.54	E	nl:translation	linstylemon	[Vereisten] 		-6
+1610137401	163.158.160.54	E	nl:translation	linstylemon	[Beginnen] 		4
+1610309862	2.205.118.1	E	de:start	lineflyer	change anzeige zurücksetzen 		-1

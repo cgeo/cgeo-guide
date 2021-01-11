@@ -99,7 +99,7 @@ Tässä valikossa voit muuttaa c:geon ulkonäön perusasetuksia.
 |Läpinäkyvä tausta|Tämä näyttää oman kotinäyttösi taustakuvan c:geon kotisivun taustakuvana. //(Oletus: Päällä)//| 
 |Näytä osoite|Tämä saa c:geon käyttämään käänteistä geokoodauspalvelua näyttääkseen päävalikon alareunassa koordinaattien sijaan nykyisen paikkakunnan nimen. //(Oletus: Päällä)//|
 |Yksinkertaiset lokit|Valittuna, kaikki lokikirjat näytetään ilman värejä lukemisen helpottamiseksi. //(Oletus: Pois päältä)//|
-|Käytä englanniksi|Tämä pakottaa c:geon käyttämään puhelimen kielen sijaan englanninkielistä käyttäjäliittymää. Tämä voi olla kätevä siinä tapauksessa kun sinulla on ohjelman huonojen käännösten kanssa ongelmia. c:geon uudelleenkäynnistys tarvitaan valinnan muuttamisen jälkeen. //(Oletus: Pois päältä)// \\ \\ :!: Huomaathan, että ''Käytä englanniksi''-valinta näyttää kaikki päivämäärät muodossa kuukausi/päivä/vuosi. \\ Lisäksi tämä toiminto ei toimi enää Android 8 -käyttöjärjestelmästä eteenpäin, Androidin teknisten muutosten vuoksi.|
+|Valitse kieli|Tästä voit valita sovelluksessa käytettävän kielen. Tämä voi olla kätevä siinä tapauksessa kun sinulla on ongelmia sovelluksen käytössä huonojen käännösten vuoksi. c:geon uudelleenkäynnistys tarvitaan valinnan muuttamisen jälkeen. //(Oletus: Käytä oletuskieltä)//|
 |Käytä brittiläistä yksikköjärjestelmää|Tämä valinta pakottaa käyttämään brittiläistä yksikköjärjestelmää (mailit/jalat) metrisen järjestelmän (kilometrit/metrit) sijaan. //(Oletus: Päällä (englannin kielelle), Pois päältä(kaikille muille kielille))//|
 
 ===== Kätkön tiedot =====

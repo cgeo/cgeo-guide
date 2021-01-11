@@ -99,7 +99,12 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[https://send2.cgeo.org|Gebruik van send2cgeo]]
   * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
   * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
+  * [[quick_widgets|Snelle toegang en widgets gebruiken als snelkoppelingen voor sommige c: geo-functies]]*
 
+===== Plugins and Addon functions =====
+{{anchor:plugins}}
+  * [[contacts|Contacts plugin]] - c:geo contacten plugin*
+  * [[brouter|Brouter]] - Gebruik maken van brouter met c:geo*
 ===== FAQ =====
 {{anchor:faq:}}
 

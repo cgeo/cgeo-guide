@@ -7,7 +7,7 @@ Zwar ermöglicht c:geo direkt das Herunterladen und Anzeigen von Spoilerbildern,
 Daher unterstützt c:geo die Synchronisierung der Spoilerbilder mit diesen spezifischen Verzeichnisstrukturen (genauso wie bei einem GPSr-Gerät) wie folgt:
 
 <WRAP center round tip 100%>
-Die folgende Beschreibung sieht sehr komplex aus, aber wenn du ein geeignetes SpoilerSync-Tool verwendest, wird die notwendige Verzeichnisstruktur von diesem Tool automatisch erzeugt. Typischerweise musst du nur das Basisverzeichnis kennnen, in das diese Verzeichnisstruktur auf deinem c:geo Geräte kopiert werden muss.
+Die folgende Beschreibung sieht sehr komplex aus, aber wenn du ein geeignetes SpoilerSync-Tool verwendest, wird die notwendige Verzeichnisstruktur von diesem Tool automatisch erzeugt. Typischerweise musst du nur das Basisverzeichnis kennnen, in das diese Verzeichnisstruktur auf deinem c:geo Gerät kopiert werden muss.
 </WRAP>
 
   * Basisverzeichnis: \\ Das Basisverzeichnis für Spoilersync ist ''/cgeo/GeocachePhotos/'' im internen Speicher deines Gerätes.

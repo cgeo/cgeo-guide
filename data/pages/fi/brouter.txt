@@ -47,10 +47,9 @@ Olet nyt valmis, mutta muista, että sinun tulee ladata BRouter-sovelluksessa uu
 ===== Käyttö c:geossa ====
 
 Kun olet ladannut ja määrittänyt BRouterin kuten yllä, c:geo käyttää sitä automaattisesti. Määritystä ei tarvita c:geossa, paitsi saatat haluta vaihtaa käytettyä reititystilaa (pyöräily, kävely, autoilu) tarpeiden mukaisesti.
-Voit tehdä tämän [[en:mainmenu:livemap#top_bar_menu|karttavalikon]] [[en:mainmenu:livemap#routing|reititysalavalikossa]].
+Voit tehdä tämän [[.:mainmenu:livemap#map_quick_settings|kartan pika-asetuksissa]].
 
-BRouteria käytetään reittien laskemiseen pääasiassa kahdessa toiminnossa, kuten alla.
-
+BRouteria käytetään reittien laskemiseen pääasiassa kahdessa toiminnossa, kuten pikaisesti alla selitettynä. Löydät yksityiskohtaisemman selostuksen kartan navigaatioviivoista ja niiden toiminnoista tämän käyttöoppaan [[.:mainmenu:livemap#map_navigation|livekartta-osiossa]].
 ==== Suuntaviiva ====
 
 Jos aloitat navigaation kätkölle/reittipisteelle karttaa käyttämällä, suuntaviiva sijaintisi ja kätkön/reittipisteen välillä on nyt reititetty, korvaten suoran viivan, joka menee linnuntietä.

@@ -21,7 +21,7 @@ De bovenste balk is beschikbaar vanaf alle tabbladen en biedt verschillende func
 
 <WRAP center round info 100%>
 De pictogrammen in de bovenste balk en de inhoud achter de knop overloopmenu worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er minder of meer items achter de menuknop worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\
-Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de titel van de functie.
+Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de titel van de functie, tenzij het dubbele commando wordt gegeven (kort en lang indrukken), zoals in het geval van de voorkeurs- en secundaire navigatoroptie.
 </WRAP>
 
 ^ Icoon ^ Functie ^ Omschrijving ^
@@ -211,9 +211,24 @@ Als de eigenaar een spoilerfoto heeft geüpload, kun je klikken op de link naar 
 
 {{:nl:description_personalnote.png?direct&400 |}}
 
-Dit gedeelte bevat je persoonlijke cache notitie. Notities die je op de geocachingserver hebt ingevoerd, worden hier weergegeven en je hebt de mogelijkheid om de notitie toe te voegen / te bewerken en deze naar de server te uploaden (uploading van geocaching.com wordt alleen ondersteund voor[[basicmembers|premium leden]]).
+Deze sectie bevat je persoonlijke cache-notitie. Notities die je hebt ingevoerd op de geocaching-server worden hier weergegeven (voor geocaching.com wordt synchronisatie met de server alleen ondersteund voor [[basicmembers | premium leden]]). De knoppen onder de notitie bieden verschillende opties, zoals uitgelegd in de onderstaande tabel:
 
-:!: Als er verschillende cache notities op de server aanwezig zijn en ook lokaal in c:geo terwijl de cache wordt vernieuwd, worden beide notities bewaard en gescheiden door ''- - -''.
+^ Icoon ^ Naam ^ Beschrijving^
+|{{:ic_menu_waypoint_sync.png?nolink&40|}}|Kopieer waypoints|Dit zal alle zelf gedefinieerde wayponts van deze cache in de persoonlijke notitie kopiëren. Met deze functie kun je een back-up maken van jouw gemaakte waypoints in de persoonlijke notitie van deze cache. Omdat c:geo de syntaxis van de opgeslagen waypoints herkent, zullen deze automatisch opnieuw worden gemaakt vanuit de persoonlijke notities.|
+|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Verwijder waypoints|Dit zal de gekopieerde waypoints verwijderen uit de persoonlijke notitie.|
+|{{:ic_menu_upload.png?nolink&40|}}|Upload naar server|Het uploaden van de lokale persoonlijke notitie naar de geocaching server.\\ :!: Op geocaching.com is dit een premium member functie.|
+|{{:ic_menu_edit.png?nolink&40|}}|Bewerk persoonlijke notitie|Dit zal het bewerkingsvenster openen, waar je jouw persoonlijke notitie kan bewerken.|
+
+{{:en:description_personalnote_2.png?direct&400 |}}
+
+Dit is het persoonlijke notitie bewerkingsvenster waar je jouw persoonlijke cache notities kan toevoegen of bewerken. Door het activeren van de checkbox ''Waypoint extractie voorkomen'' zul je voorkomen dat c:geo automatisch gevonden extractie coördinaten uit je persoonlijke notitie toevoegt aan de waypoints van deze cache.
+
+
+<WRAP center round info 100%>
+Als er verschillende cache notities bestaan op de server en lokaal in c:geo tijdens het verversen van de cache, zullen beide notities worden bewaard en gescheiden door ''- - -''.
+</WRAP>
+
+
 
 ===== Logboek tab =====
 {{anchor:logbook_tab:}}

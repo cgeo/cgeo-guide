@@ -4,7 +4,6 @@
 
 {{ :logo_big.png?nolink&200 |}} 
 
-
 ==== Über c:geo ====
 {{anchor:about_cgeo:}}
 

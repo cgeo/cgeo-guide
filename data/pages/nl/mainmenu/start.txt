@@ -50,7 +50,7 @@ Het onderste gedeelte van het hoofdscherm bevat informatie over je aanmeldingsst
 {{anchor:login_status:}}
 
 In het bovenste gedeelte van de onderste sectie wordt je aanmeldingsstatus weergegeven voor elke [[settings#Services | Geocaching service]] die je hebt geconfigureerd en ingeschakeld in de [[settings| c:geo-instellingen]], waarbij elke service op een eigen rij staat. \\
-In het bovenstaande voorbeeld is de gebruiker '' Mijn gebruikersnaam '' succesvol aangemeld bij geocaching.com ('' GC '') en opencaching.de ('' OC.DE ''). Het cijfer dat na de gebruikersnaam wordt getoond, is het huidige aantal vondsten van de gebruiker op het betreffende geocachingplatform.
+In het bovenstaande voorbeeld is de gebruiker '' Mijn gebruikersnaam '' succesvol aangemeld bij geocaching.com ('' GC '') en opencaching.de ('' OC.DE ''). Het cijfer dat na de gebruikersnaam wordt getoond, is het huidige aantal vondsten van de gebruiker op het betreffende geocachingplatform, optioneel toegevoeg met het aantal offline logs (getoond als '' het aantal vondsten + offline vondsten'') als de bijbehorende functie is geactiveerd in je [[.settings#other_logging_options|log opties]].
 ==== Huidige locatie ====
 {{anchor:current_location:}}
 

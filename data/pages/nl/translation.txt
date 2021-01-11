@@ -2,13 +2,17 @@
 
 ===== Vereisten =====
 
-Als je wil helpen met het vertalen van deze gebruikershandleiding naar een andere taal neem dan s.v.p [[support@cgeo.org?subject=User guide translation|contact op met ons]]. We maken dan een account voor je aan waarna je gelijk kan beginnen. 
+Als je wil helpen met het vertalen van deze gebruikershandleiding naar een andere taal, maak dan een account aan door op de functie ''Register'' te klikken rechts bovenin het scherm of klik simpelweg [[https://manual.cgeo.org/?do=register|hier]].
+
+Je ontvangt dan een e-mail met een wachtwoord om in te loggen op de Wiki. In eerste instantie zal je account op de "alleen lezen" modus zijn ingesteld totdat wij de registratie handmatig hebben goedgekeurd. Dit duurt meestal enkele dagen en wij zullen je per mail informeren over de goedkeuring.
+ 	+	 
+ 	+	Als je geen goedkeuring hebt ontvange of er is iets fout gegaan, neem dan s.v.p. [[support@cgeo.org?subject=User guide translation|contact]] met ons op.
 
 Om te helpen met het vertalen heb je alleen wat basiskennis nodig van Wiki systemen.
 
 ===== Beginnen =====
 
-Nadat je een account voor deze Wiki hebt ontvangen, kan je met vertalen starten door simpelweg een bestaande Engelse pagina te openen, de taal in je taal te veranderen (met behulp van de taalkiezer linksboven) en deze pagina in je taal te maken. Als je doeltaal daar niet wordt vermeld, laat dit dan weten aan ons team om het in te schakelen.
+Nadat je een goedkeuring voor deze Wiki hebt ontvangen, kan je met vertalen starten door simpelweg een bestaande Engelse pagina te openen, de taal in je taal te veranderen (met behulp van de taalkiezer linksboven) en deze pagina in je taal te maken. Als je doeltaal daar niet wordt vermeld, laat dit dan weten aan ons team om het in te schakelen.
 
 Wanneer je begint met het maken van de pagina, voegt het Wiki-systeem automatisch een FIXME-plaatsaanduiding in om je eraan te herinneren dat de vertaling van de pagina aan de gang is en de Engelse pagina hieronder zal plakken. Gebruik dit als een startpunt en vertaal de pagina één voor één.
 

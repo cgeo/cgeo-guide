@@ -1,4 +1,4 @@
-====== Waypoints gemaakt uit coördinaten in persoonlijke notities ======
+====== Persoonlijke notities gebruiken om waypoint informatie te maken en op te slaan ======
 
 ===== Automatisch maken van waypoints =====
 Als je in een [[cachedetails#personal_note|persoonlijke notitie]] van een cache geldige coördinaten hebt (bijv. ''N50 10.123 E010 34.876'') zal c:geo automatisch een waypoint hiervan maken in het [[cachedetails#waypoint_tab|waypoint tabblad]] van deze cache.
@@ -15,7 +15,8 @@ Latere coördinaten in je persoonlijke notitie zullen ook op dezelfde manier naa
 
 <WRAP center round tip 80%>
 Als de waypoints van een cache al dezelfde coördinaten bevatten als in je persoonlijke notitie, maakt c:geo geen nieuw waypoint voor deze coördinaten omdat het veronderstelt dat ze in dit geval een onnodig duplicaat zijn.
-</WRAP>
+Twee coördinaten worden als "hetzelfde" gezien als ze identiek zijn geschreven in de Geocaching standaard Decimaal-Minuten Formaat (bijv. ''N50 10.123 E010 34.876'')
+ 	</WRAP>	 	
 
 
 ===== Using keywords for waypoint types =====
