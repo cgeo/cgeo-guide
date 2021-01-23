@@ -1,4 +1,3 @@
-
 ====== c:geo Guida Utente ======
 
 **Benvenuti nella guida utente in linea di c:geo!**
@@ -13,11 +12,12 @@ c:geo è un client Android open source, completo, sempre pronto all'uso per il s
 
 c:geo è solo un'applicazione client per il geocaching e non è associata a uno specifico fornitore di servizi di geocaching.
 
+
 ===== Come iniziare =====
 {{anchor:getting_started:}}
 
   * [[installation|Installazione e aggiornamento di c:geo]] - Come scaricare, installare e ottenere aggiornamenti per c:geo
-  * [[installation#permissions|autorizzazioni dispositivo per c:geo]] – Autorizzazioni del dispositivo necessarie per l'utilizzo di c:geo
+  * [[installation#permissions|Autorizzazioni per c:geo]] – Autorizzazioni del dispositivo necessarie per l'utilizzo di c:geo
 
   * [[firststeps|Primi passi con c:geo]] - Come autenticarsi con i servizi di geocaching in c:geo
   * [[basicuse|Utilizzo di base]] - Che cos'è il geocaching e come trovare il tuo primo geocache con c:geo
@@ -65,7 +65,7 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
 {{anchor:offline_functions:}}
 
   * [[offline|Cache offline]] – Utilizzare c:geo offline
-    * [[offline#gpx_import|importazione GPX]] - Importera geocache da file GPX
+    * [[offline#gpx_import|Importazione GPX]] - Importera geocache da file GPX
     * [[.mainmenu:pocketquery|Pocket queries]] - Visualizzare e importare Pocket Queries
     * [[offline#offline_logging|Registrazione offline]] - Registrare geocache in assenza di connessione dati
     * [[offline#field_note_export|Note sul campo]] – Esportazione delle note sul campo
@@ -80,7 +80,7 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
 
   * [[cacheicons|Tipi di geocache ]]
   * [[cachemarkers|Marcatori di geocache]]
-  * [[cachedetails#waypoint_types|Tipi di waypoints]]
+  * [[cachedetails#waypoint_types|Tipi di waypoint]]
   * [[mapsources|Fonti delle mappe]] 
   * [[basicmembers|Limitazioni per account base di geocaching.com ]]
   * [[coordformat|Formati di coordinate]]

@@ -13,7 +13,7 @@ Wenn du c:geo nach der Installation zum ersten Mal startest, erscheint direkt de
 
 Er erklärt die von c:geo benötigten [[installation#permissions|Berechtigungen]] auf deinem Gerät, bietet Links zu diesem Benutzerhandbuch und - am wichtigsten - bietet dir einen Knopf um die Verbindung zu Geocaching-Platformen zu konfigurierern.
 
-Wenn du auf ''"Konfiguriere deine Geocaching-Plattform(en)"'' klickst, gelangst du direkt in die Service-Einstellungen, wo du c:geo gegenüber den von dir gewünschten Geocaching-Plattformen autorisieren kannst, wie im Folgenden beschrieben wird.
+Wenn du auf ''"Konfiguriere deine Geocaching-Plattform(en)"'' tippst, gelangst du direkt in die Service-Einstellungen, wo du c:geo gegenüber den von dir gewünschten Geocaching-Plattformen autorisieren kannst, wie im Folgenden beschrieben wird.
 
 **Wenn du später erneut auf die Diensteeinstellungen zugreifen möchtest, findest du sie unter:\\
 ''Menü → Einstellungen → Dienste''**
@@ -32,8 +32,8 @@ Klicke auf die Schaltfläche ''c:geo autorisieren'' wie im Folgenden gezeigt:
 
 {{ :en:firststeps_1_en.png?direct&400 }} 
 
-Nach dem Klicken auf ''c:geo autorisieren'' öffnet sich ein Bildschirm, wo du Nutzername und Passwort für geocaching.com eingibst und abschließend auf ''Authentifizierung überprüfen'' klickst.\\
-Wenn du noch kein Nutzerkonto hast, kannst du auf die Schaltfläche ''Nutzerkonto erstellen'' klicken um die Registrierungsseite von geocaching.com zu öffnen.
+Nach dem Klicken auf ''c:geo autorisieren'' öffnet sich ein Bildschirm, wo du Nutzername und Passwort für geocaching.com eingibst und abschließend auf ''Authentifizierung überprüfen'' tippst.\\
+Wenn du noch kein Nutzerkonto hast, kannst du auf die Schaltfläche ''Nutzerkonto erstellen'' tippen um die Registrierungsseite von geocaching.com zu öffnen.
 
 {{ :en:firststeps_3_en.png?direct&400 }} 
 
@@ -61,7 +61,7 @@ Starte danach den Autorisierungsprozess durch Klick auf ''c:geo autorisieren''
 
 {{ :en:oc_en_1.png?direct&400 }}
 
-und ''Starte Autorisierung'' im nächsten Bildschirm. Wenn du noch kein Nutzerkonto hast, kannst du auf ''Nutzerkonto erstellen'' klicken, um die Registrierungsseite der Opencaching-Plattform zu öffnen.
+und ''Starte Autorisierung'' im nächsten Bildschirm. Wenn du noch kein Nutzerkonto hast, kannst du auf ''Nutzerkonto erstellen'' tippen, um die Registrierungsseite der Opencaching-Plattform zu öffnen.
 
 {{ :en:oc_en_2.png?direct&400 }}
 

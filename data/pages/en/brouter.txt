@@ -60,13 +60,13 @@ The distance information on the top right will show the routed distance addition
 {{ :en:brouter_with.png?direct&400 |}}
 ==== Individual route ====
 
-To make use of the individual route feature you need to enable the long click function on the map in your [[.:mainmenu:settings#map_behavior|map behavior settings]].
+To make use of the individual route feature you need to enable the long tap function on the map in your [[.:mainmenu:settings#map_behavior|map behavior settings]].
 
-Then you can simply long click sequentially on different caches/waypoints on your map to connect them with a routed line one after another. This function e.g. allows planning of your caching trip as shown in the example below.
+Then you can simply long tap sequentially on different caches/waypoints on your map to connect them with a routed line one after another. This function e.g. allows planning of your caching trip as shown in the example below.
 
 {{ :en:brouter_individualroute.png?direct&400 |}}
 
-To remove one cache/waypoint from your route simply long click it again. Furthermore you can use the sub menu ''Individual route'' on your [[en:mainmenu:livemap#top_bar_menu|map menu]] to sort, export, import or clear your individual route.
+To remove one cache/waypoint from your route simply long tap it again. Furthermore you can use the sub menu ''Individual route'' on your [[en:mainmenu:livemap#top_bar_menu|map menu]] to sort, export, import or clear your individual route.
 
 ==== Customization ====
 

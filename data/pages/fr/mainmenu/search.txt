@@ -1,0 +1,22 @@
+====== Rechercher ======
+
+{{:main_search_default.png?nolink&100 |}}
+
+Le menu de recherche propose plusieurs fonctions de recherche décrites ci-dessous. Toutes les recherches basées sur un emplacement ou un utilisateur fourniront une [[lists|liste de caches]] en résultat, tandis que la recherche par géocode et la recherche d'objet voyageur ouvriront directement les vues détaillées de la [[..:cachedetails|géocache]] ou de l'[[..:trackabledetails|objet voyageurs]] en question.
+\\ \\ \\ \\
+
+{{:fr:search_1.png?direct&400|}}{{ :fr:search_2.png?direct&400|}}
+
+<WRAP center round info 100%>
+Toutes les fonctions de recherche utiliseront simultanément toutes les plates-formes de géocaching activées et fourniront le résultat dans une liste combinée provenant de tous ces services. Cela dépend cependant des fonctions prises en charge par un service de géocaching donné, comme indiqué dans les [[settings#Services|paramètres du service]].
+</WRAP>
+
+^Type de recherche ^ Description ^
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Charge une liste des caches que vous avez placées.|
+|Coordonées|Recherche des caches autour des coordonnées fournies. Reportez-vous à la [[..:coordinatedialog|boîte de dialogue]] des Coordonnées pour plus d'informations.|
+|Adresse|Recherche des caches autour d'une adresse postale. Nous utilisons le service de géocodage de Google pour trouver l'adresse et la convertir en coordonnées.\\ Si l'adresse a été trouvée, vous pouvez soit charger une liste des caches à proximité de cet emplacement, soit ouvrir la [[livemap|carte temps réel]] à cette adresse en cliquant sur la petite icône de carte affichée dans le résultat de la recherche.|
+|Code de la cache|Recherche un géocode spécifique dans toutes les plates-formes prises en charge en fonction du préfixe du code (par exemple, GC6JNOT ou OC1234).|
+|Mots-clés|Recherche les caches **commençant par** le mot clé fourni.\\ \\ :!: Une recherche par mot-clé pour tous les caches **contenant** le mot-clé n'est actuellement pas possible en raison de limitations techniques.|
+|Trouvé par|Recherche les caches trouvées par le nom d'utilisateur fourni.|
+|Cachée par|Recherche les caches placées par le nom d'utilisateur fourni.|
+|Objet voyageur|Recherche un objet voyageur en utilisant son code de suivi public ou secret. Cette recherche prend en charge les objets voyageurs de geocaching.com ainsi que d'autres services d'objets traçables (par exemple, [[http://geokrety.org|GeoKrety]]).|

@@ -3,7 +3,7 @@
 
 ===== Requirements =====
 
-If you would like to help translating this user guide into another language, just create an account using the function ''Register'' on top right of this website or simply [[https://manual.cgeo.org/?do=register|click here]].
+If you would like to help translating this user guide into another language, just create an account using the function ''Register'' on top right of this website or simply [[https://manual.cgeo.org/?do=register|tap here]].
 
 You will then receive a mail with your password to login to the Wiki. At first the account will still be in "read only" mode until we manually approved the registration. This will usually only take some days and we will inform you about the approval by mail.
 

@@ -7,7 +7,7 @@ Mentre viene visualizzata la schermata della mappa, il dispositivo mobile per co
 </WRAP>
 
 
-{{ :it:livemap_1.png?direct&400 |}}
+{{ :en:livemap_1.png?direct&400 |}}
 
 ===== Menu della barra superiore =====
 {{anchor:top_bar_menu:}}
@@ -21,6 +21,7 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, premere a lungo l'i
 
 ^ Icona ^ Funzione ^ Descrizione ^
 |{{ :en:livemap_mapname.png?nolink&150 |}}|Info mappa|Mostra lo stato corrente della mappa: ''Mappa live'' se la mappa è on line, ''Mappa'' Map se l'aggiornamento live è disabilitato o il nome di un elenco mostrato sulla mappa.\\ Inoltre viene mostrata la quantità di cache visibili sulla mappa.|
+|{{ :settings_map.png?nolink&40 |}}|[[livemap#map_settings|Modi Mappa]]|Apre un menu contenente diverse opzioni per personalizzare la visualizzazione della mappa.|
 |{{ :en:livemap_progress.png?nolink&80 |}} |Barra di progressione|Una piccola linea blu direttamente sotto la barra del titolo viene mostrata come indicatore di avanzamento mentre la mappa live sta caricando i dati dai server di geocaching e/o dagli elenchi del cache. Scomparirà se la mappa live ha terminato il caricamento.|
 |{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centra la posizione|Questo pulsante può essere utilizzato per centrare la mappa sulla posizione corrente. Se la mappa è centrata sulla tua posizione, viene visualizzata un'icona piena.|
 |{{ :ic_action_layers_revert.png?nolink&40 |}}|Selezione origine mappa|Utilizzare questo pulsante per scegliere l'[[..:mapsources|origine mappa]] da visualizzare.|
@@ -28,10 +29,7 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, premere a lungo l'i
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Abilita/disabilita live|Questa funzione attiva/disattiva l'aggiornamento della mappa live.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Archiviare tutto|Salva tutti i cache mostrati sulla mappa nell'elenco dei cache memorizzati. I cache già archiviati verranno aggiornati durante questo processo.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Archiviare non salvati|Salva tutti i cache mostrate sulla mappa, tranne quelli già memorizzati nell'elenco dei cache memorizzati.|
-| |[[livemap#map_settings|Modi Mappa]]|Apre un menu contenente diverse opzioni per personalizzare la visualizzazione della mappa.|
 | | Rotazione mappa |Apre un menu per impostare la rotazione della mappa in modalità automatica o manuale.\\ \\ :!: Questa funzione è attualmente disponibile solo per Google Maps.|
-| | [[livemap#hide|Nascondi]] |Apre un sottomenu contenente diverse opzioni per nascondere determinati elementi sulla mappa (come cache trovati, diversi tipi di waypoint).|
-| |[[livemap#routing|Instradamento]]|Questa funzione consente di alternare tra diverse preferenze di percorso (ad es. Linea retta, percorso in auto, bicicletta o a piedi). Viene mostrata solo se è installata l'app [[..:brouter|BRouter]].|
 | | Traccia cronologia |Apre un sottomenu contenente un'opzione per mostrare/nascondere, cancellare ed esportare la traccia cronologica (la cronologia dei propri movimenti).|
 | | Traccia/percorso GPX |Consente di caricare/scaricare e mostrare il contenuto di un file di traccia/percorso GPX sulla mappa.|
 | | Percorso individuale |Apre un sottomenu per gestire, caricare o nascondere un percorso individuale, creato con un tocco lungo sugli elementi della mappa. La funzione di tocco lungo deve essere abilitata nelle impostazioni del [[.settings#map_behavior|comportamento mappa]].|
@@ -84,11 +82,13 @@ Questa sezione del popup della mappa fornisce diverse opzioni di menu relative a
 |Apri nel browser|Apre la descrizione del cache sulla pagina Web di geocaching utilizzando il browser Internet.|
 |Rimuovi|Elimina il cache dalle liste in cui è stato memorizzato. FIXME **GITHUB -> KANN WEG**|#
 |Condividi Cache|Condivide un collegamento al cache utilizzando le opzioni di condivisione integrate in Android.|
+|Impedisci waypoint dalle note|Impedirà a c: geo di estrarre automaticamente le coordinate trovate nella nota personale nei waypoint di questo cache.|
 
 ==== Informazioni sul Cache ====
 {{anchor:cache_information}}
 
-La sezione centrale della finestra a comparsa della mappa mostra informazioni utili sul cache selezionato. Alcune delle informazioni potrebbero non essere visualizzate a seconda dello stato di caricamento del cache selezionato (ad esempio a causa della [[livemap#strategy| strategia di caricamento]]).
+La sezione centrale della finestra a comparsa della mappa mostra informazioni utili sul cache selezionato. 
+Alcune delle informazioni potrebbero non essere visualizzate a seconda dello stato di caricamento del cache selezionato (ad esempio a causa della [[livemap#strategy| strategia di caricamento]]).
 
 {{ :it:livemap_popup_4.png?direct&400 |}}
 
@@ -108,7 +108,7 @@ La sezione centrale della finestra a comparsa della mappa mostra informazioni ut
 
 Questa sezione del popup della mappa fornisce diverse opzioni per gestire lo stato di archiviazione del cache selezionato.
 
-{{ :it:livemap_popup_5.png?direct&400 |}}
+{{ :en:livemap_popup_5.png?direct&400 |}}
 
 ^ Icona/Opzione ^ Descrizione ^
 |{{ :it:livemap_popup_6.png?nolink&200 |}}|Questo campo indica se il cache selezionato è archiviato nelle [[lists|liste]] di cache e da quanto tempo (ovvero fornisce un'indicazione di quanto sono aggiornati i dettagli visualizzati).|
@@ -123,55 +123,140 @@ Questa sezione del popup della mappa fornisce diverse opzioni per gestire lo sta
 
 Facendo clic sul pulsante del suggerimento nella sezione delle informazioni sulla cache della finestra popup, il suggerimento del proprietario e/o la propria nota personale verranno visualizzati nella parte inferiore della finestra popup. In caso di testo lungo è possibile scorrere questa parte della finestra popup.
 
-
 {{ :it:livemap_popup_hint.png?direct&400 |}}
 
 
-===== Modi Mappa =====
+===== Impostazioni rapide della Mappa =====
 {{anchor:map_settings}}
 
-Dopo aver selezionato la voce ''Modi mappa'', verrnno mostrate li seguenti opzioni:
+Dopo aver cliccato il bottone impostazioni mappa, che si trova nella parte bassa della mappa, viene mostrata la seguente schermata:
 
-{{ :it:livemap_mapsettings.png?direct&400 |}}
+{{ :en:livemap_mapsettings.png?direct&400 |}}
 
 ^ Optione ^ Descrizione ^ 
+|Mostra cache propri o trovati|Visualizza o meno sulla mappa i cache di tua proprietà e quelli trovati.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.|
+|Mostra cache disabilitati|Visualizza o meno i cache disabilitati.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.|
+|Mostra cache archiviati|Visualizza o meno i cache archiviati sulla mappa.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.\\ \\ :!: I cache archiviati non vengono recuperati dai server di geocaching, questa impostazione si applica ad eventuali cache archiviati locolmenti nei propri elenchi.|
+|Mostra waypoint originali|Se le coordinate assegnate nel listing di un cache sono state modificate e quindi è stato creato automaticamente un waypoint che contiene le coordinate dell'elenco originale, questa funzione permette di visualizzare o meno le coordinate originali.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.|
+|Mostra waypoint dei parcheggi|Abilitando questa opzione verranno mostrati tutti i waypoint di tipo “Parcheggio”.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.|
+|Mostra waypoint visitati|Abilitando questa opzione verranno nascosti tutti i waypoint contrassegnati come "visitati" dall'utente in c:geo.\\  Questa è la stessa opzione disponibile anche nelle [[settings#cache_details|impostazioni di c:geo]]. La modifica si rifletterà in modo permanente anche nelle impostazioni.|
+|Mostra area cache|Se attivato c:geo mostrerà un cerchio con diametro di 161 metri (1/10 di miglio) attorno a tutti i waypoint fisici (cioè cache tradizionali, stage fisici di un cache, cache mistery con coordinate corrette). Questa è la distanza minima che i cache devono avere su geocaching.com e queste aree potrebbero essere utili quando si ha intenzione di creare un nuovo cache e si sta cercando un nascondiglio.|
 |Mostra direzione|Questo abiliterà/disabiliterà la linea di direzione o il percorso tra la propria posizione e un cache selezionato.|
-|mostra area cache|Se attivato c:geo mostrerà un cerchio con diametro di 1/10 di miglio (161 metri) attorno a tutti i waypoint fisici (cioè cache tradizionali, stage fisici di un cache, cache mistery con coordinate corrette). Questa è la distanza minima che i cache devono avere su geocaching.com e queste aree potrebbero essere utili quando si ha intenzione di creare un nuovo cache e si sta cercando un nascondiglio.|
-|Usa icone compatte|Questa opzione passerà dalla classica visualizzazione dell'icona del cache a una visualizzazione compatta che mostra singoli cache solo come un punto colorato. I colori rappresentano il tipo di cache in base al colore dell'icona classica (ad esempio, i cache tradizionali sono mostrati come punti verdi). È possibile impostare questa funzione in modalità on/off e automatica. La modalità automatica passerà dalla visualizzazione classica a quella compatta a seconda del livello di zoom.|
+|Usa icone compatte|Questa opzione passerà dalla classica visualizzazione dell'icona del cache a una visualizzazione compatta che mostra singoli cache solo come punti colorati. I colori rappresentano il tipo di cache in base al colore dell'icona classica (ad esempio, i cache tradizionali sono mostrati come punti verdi). È possibile impostare questa funzione in modalità on/off e automatica. La modalità automatica passerà dalla visualizzazione classica a quella compatta a seconda del livello di zoom.|
+|Instradamento|Selezionare la modalità di navigazione desiderata utilizzata per indicare il percorso tra la propria posizione e il cache/waypoint di destinazione. La scelta è tra linea retta o percorso per pedoni, bici o auto.\\ \\ :!: La navigazione passo passo richiede che l'app [[..brouter|BRouter]] sia installata e configurata.
 
 ===== Instradamento =====
 {{anchor:routing:}}
 
-Dopo aver selezionato la funzione di menu ''Instradamento'' verranno visualizzate le seguenti opzioni:
+c: geo fornisce diverse opzioni per aiutarti con la navigazione utilizzando diverse linee tracciate sulla mappa (live):
 
-<WRAP center round info 60%>
-Questa impostazione verrà visualizzata solo se è installata e disponibile un'[[utilityprograms|app di navigazione]] supportata.
+  * Può mostrare una **linea diretta** tra la tua posizione e un cache/waypoint di destinazione scelto.
+  * Puoi caricare un **traccia/percorso GPX**, che verrà poi mostrato sulla mappa.
+  * È possibile impostare un **percorso personale** che includa più cache/waypoint.
+  * c: geo può opzionalmente disegnare una **traccia cronologica** che mostra la cronologia della posizione (il tuo movimento) sulla mappa.
+
+Per ottenere il massimo dalla navigazione passo-passo e dal percorso personale si consiglia di installare e configurare l'app [[.: brouter | BRouter]] come descritto nella guida utente. Verranno così visualizzati percorsi stradali anziché solo una linea di collegamento diritta.
+
+I diversi tipi di linea e traccia sono descritti più dettagliatamente di seguito.
+
+==== Linea di direzione ====
+
+La linea di direzione è una linea della mappa che collega la posizione corrente con una cache / waypoint di destinazione scelti. Può essere una linea retta o una linea indirizzata se [[..: brouter | BRouter]] è installato e configurato.
+
+Il colore della linea predefinito è <color # ed1c24> rosso </color> ma il colore della linea e parametri di aspetto aggiuntivi possono essere configurati in base alle tue esigenze all'interno delle impostazioni [[.: Settings # map_lines_customization | map line customization]].
+
+L'esempio seguente mostra l'aspetto tipico della linea di direzione (con e senza Brouter).
+
+^ Direzione senza BRouter ^ Direzione con BRouter ^
+|{{en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+Esistono due modi per attivare la linea di direzione:
+  - Fare clic su un cache, che viene mostrato sulla mappa, e attivare la linea di direzione con l'icona corrispondente {{:ic_menu_publish_invert.png?Nolink&30|}} mostrata nel [[livemap # map_popup_window |map popup]].
+  - Da [[..:cachedetails| menu dettagli cache]] utilizzare Navigazione - Mappa per aprire la mappa inclusa la linea di direzione.
+==== GPX track/route ====
+
+Hai la possibilità di caricare un file traccia / percorso GPX che viene poi mostrato sulla mappa. Ad esempio, i proprietari della cache potrebbero fornire un file di traccia / percorso GPX per seguire un determinato percorso per trovare una cache, oppure è possibile generare tale traccia / percorso GPX con altri strumenti di routing.
+Le tracce e le rotte sono entrambe fondamentalmente file GPX, una con una traccia di posizioni registrata (file di traccia), l'altra (file di rotta) solo alcuni waymark, per i quali c: geo ti indirizzerà da un punto all'altro.
+
+Il colore della linea predefinito è <color#22b14c>verde</color> ma il colore della linea e i parametri di aspetto aggiuntivi possono essere configurati in base alle proprie esigenze tramite la [[.:settings#map_lines_customization|personalizzazione delle linee della mappa]].
+
+L'esempio seguente mostra l'aspetto tipico di una singola traccia / percorso GPX.
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+Per caricare o rimuovere una traccia GPX devi utilizzare le seguenti voci del menu della mappa  ''Traccia/percorso GPX'' nel tuo [[livemap#top_bar_menu|menu mappa]]:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^Voce del Menu ^ Descrizione ^ 
+|Carica traccia/rotta da GPX|Consente di selezionare un file GPX contenente una traccia o un percorso da visualizzare sulla mappa.|
+|Centra sulla traccia/rotta|Sposta/ingrandisce la mappa, in modo che una traccia/rotta già caricata venga mostrata completamente.|
+|Rimuovi traccia/rotta |Questo rimuoverà la traccia/rotta caricata dalla mappa. |
+==== Percorso personale ====
+
+È possibile creare un percorso individuale toccando a lungo diversi cache/waypoint sulla mappa (live). Verrà quindi tracciato un percorso tra ogni cache/waypoint. Ciò consente di creare un percorso personalizzato tra i cache e può essere ad es. utilizzato per pianificare il viaggio alla ricerca dei cache.
+
+<WRAP center round important 60%>
+Per utilizzare la funzione di percorso individuale devi abilitare la funzione di clic lungo sulla mappa nelle impostazioni del [[.:settings#map_behavior| comportamento mappa]].
 </WRAP>
 
-{{ :it:livemap_routing.png?direct&400 |}}
 
-^ Opzione ^ Descrizione ^
-|Linea diretta|Questo mostrerà una linea diretta (distanza aerea) tra la tua posizione e la cache selezionata.|
-|A piedi|Questo imposterà l'app di calcolo del percorso per tracciare una linea seguendo la navigazione passo-passo per i pedoni.|
-|Bicicletta|Questo imposterà l'app di calcolo del percorso per tracciare una linea seguendo la navigazione passo-passo per i ciclisti.|
-|Automobile|Questo imposterà l'app di calcolo del percorso per tracciare una linea seguendo la navigazione passo-passo per le auto.|
+I punti del percorso saranno collegati da una linea retta o da una percorso se [[..:brouter|BRouter]] è installato e configurato. Si consiglia vivamente di utilizzare l'app BRouter per questa funzione, ottenendo così il massimo da essa.
 
+Il colore della linea predefinito è <color#00a2e8>blu</color> ma il colore della linea e altri parametri aggiuntivi possono essere configurati in base alle tue esigenze nelle impostazioni del [[.: Settings # map_lines_customization |personalizzazione delle lineee della mappa]].
 
-===== Nascondere elementi =====
-{{anchor:hide:}}
+L'esempio seguente mostra l'aspetto tipico di un percorso personale.
 
-Selezionato la voce ''Nascondi verrà visualizzato il seguente sottomenu:
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+Sebbene tu possa aggiungere e rimuovere cache/waypoint al/dal tuo percorso facendo clic a lungo su di essi, ci sono anche alcune funzioni aggiuntive, che possono essere trovate sotto la voce di menu "Percorso individuale" nel [[livemap#top_bar_menu|menu mappa ]]:
 
 
 
-{{ :it:livemap_hiding.png?direct&400 |}}
+{{ en:livemap_individual_route.png?nolink&400 |}}
 
-^ Option ^ Description ^
-|Nascondi i tuoi cache o che hai trovato|Abilitando questa opzione verranno nascosti tutti i cache trovati e posseduti e i relativi waypoint sulla mappa. \\ È la stessa opzione disponibile anche nelle [[settings#cache_details|Impostazioni]] di c:geo e modificandola qui cambierà anche in modo permanente nelle impostazioni.|
-|Nascondi i cache disabilitati|Abilitando questa opzione verranno nascosti tutti i cache disabilitati e i relativi waypoint sulla mappa.\\ È la stessa opzione disponibile anche nelle [[settings#cache_details|Impostazioni]] di c:geo e modificandola qui cambierà anche in modo permanente nelle impostazioni. Si prega di notare che alcune limitazioni tecniche si applicano per nascondere i cache nascosti come spiegato nella pagina delle [[settings#cache_details|Impostazioni]]|
-|Nascondi cache archiviati|Abilitando questa opzione verranno nascoste tutte i cache archiviate e i relativi waypoint sulla mappa.|
-|Nascondi waypoint originali|Se le coordinate assegnate nel listing di un cache sono state modificate e quindi è stato creato un waypoint automaticamente, che contiene le coordinate dell'elenco originale, questa funzione nasconderà questo waypoint con le coordinate originali.|
-|Nascondi waypoint di parcheggio|Abilitando questa opzione verranno nascosti tutti i waypoint di tipo "Parcheggio".|
-|Nascondi waypoint visitati|Abilitando questa opzione verranno nascosti tutti i waypoint, contrassegnati come visitati dall'utente in c: geo.|
+^Voce di menu^ Descrizione ^ 
+|Carica percorso personale| Carica un percorso individuale salvato in precedenza. |
+|Imposta come target automaticamente|Se attivato, il punto di partenza del percorso verrà impostato automaticamente come target della linea di direzione (indicando il percorso dalla tua posizione al punto di partenza del percorso). \\ Questo può essere utile durante un tour di geocaching. Toccando a lungo su un cache/waypoint visitato lo rimuoverà dal tuo percorso individuale e, con questa opzione attivata, la tua prossima fermata sul percorso verrà impostata automaticamente come destinazione.
+|Ordina percorso personale|Si aprirà una finestra di dialogo, dove è possibile modificare la sequenza o rimuovere uno o più dei cache/waypoint selezionati sul percorso; Il percorso verrà quindi ricalcolato di conseguenza. \\ Non dimenticare di premere il pulsante "salva" per salvare le modifiche al percorso individuale, o semplicemente lasciare la finestra di dialogo per annullare.|
+|Centra sul percorso| Sposta/ingrandisce la mappa, in modo da visualizzare completamente il percorso individuale.|
+|Esporta percorso personale|Puoi esportare il percorso individuale creato, in un file GPX.|
+|Cancella percorso personale|Questo rimuoverà il percorso individuale creato.|
+==== Traccia cronologia ====
 
+La traccia della cronologia fornisce una linea della cronologia della tua posizione (il tuo movimento) sulla mappa.
+Devi attivare la traccia della cronologia nelle [[.:settings#map_content|impostazioni del contenuto della mappa]], dove puoi anche configurare parametri aggiuntivi (come la lunghezza massima della traccia).
 
+Il colore della linea predefinito è il nero, ma il colore della linea e altri parametri aggiuntivi possono essere configurati in base alle proprie esigenze all'interno delle impostazioni [[.:settings#map_lines_customization|personalizzazione delle linee della mappa]].
+
+L'esempio seguente mostra l'aspetto tipico di una linea di traccia della cronologia.
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+Per configurare la traccia della cronologica puoi utilizzare le voci del menu della mappa sotto "Traccia cronologica" nel tuo [[livemap#top_bar_menu|menu mappa]]:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^Voce di menu ^ Descrizione ^ 
+|Esporta traccia cronologia|Consente di esportare la cronologia delle posizioni in un file GPX. |
+|Nascondi/Mostra traccia cronologia|Utilizzando questa opzione è possibile attivare/disattivare la traccia cronologia. Disattivarla non la cancella ma interrompe la registrazione e la nasconde.|
+|Cancella traccia cronologia|Ciò cancellerà la cronologia delle posizioni e quindi rimuoverà la traccia esistente.|
+==== Distanza ====
+
+Durante l'utilizzo della linea di direzione e/o del percorso individuale, c:geo fornirà anche diverse misure della distanza nella parte superiore della mappa (può anche essere visto negli screenshot dedicati sopra). Le distanze sono visualizzate in metri/chilometri o piedi/miglia a seconda delle impostazioni.
+
+A seconda che tu utilizzi una o entrambe le linee e che tu abbia attivato la visualizzazione della distanza rettilinea oltre alla distanza percorsa (solo se [[..:brouter|Brouter]] è installato) nelle [[.:settings#map_content|impostazioni del contenuto della mappa]] potrebbero essere visualizzate diverse misure sulla distanza.
+
+L'immagine sotto mostra una combinazione di tutte le possibili misure di distanza. Inoltre, il cache/waypoint di destinazione scelto è mostrato in alto a sinistra se la linea di direzione è attiva.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Alcuni o tutti questi dati sulla distanza potrebbero essere visualizzati a seconda della configurazione e delle linee di navigazione attive:
+
+  - La prima è la distanza in linea retta per la linea di direzione (cioè la distanza in linea retta tra la posizione corrente e il cache/waypoint di destinazione scelti). L'icona davanti rappresenta quindi la linea retta se vengono mostrate sia le distanze in rotta che quelle in linea retta.
+  - La seconda è la distanza della linea di instradamento per la linea di direzione (cioè la distanza tra la tua posizione e il cache/waypoint di destinazione scelto in base alle informazioni di navigazione di [[..:brouter|BRouter]]). L'icona davanti rappresenta quindi il percorso se vengono mostrate sia la distanza diretta che il percorso.
+  - La terza è la lunghezza del tuo percorso individuale.
+
+Per una migliore visibilità è possibile fare clic sulle distanze per ingrandirle e ridurle nuovamente. Se vengono visualizzate le distanze in linea retta e il percorso, ogni clic consente di passare dalla distanza rettilinea ingrandita, alla percorso ingrandito o alla visualizzazione normale.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}

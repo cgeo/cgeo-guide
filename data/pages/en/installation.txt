@@ -41,7 +41,7 @@ Additionally c:geo uses a notification system to make you aware of new versions 
 
 {{:en:notification_example.png?direct&300 |}}
 
-You can click on the message to get more information (optionally available in case of temporary problems) or be taken to Google Play for updating your installation (in case of an update notification).
+You can tap on the message to get more information (optionally available in case of temporary problems) or be taken to Google Play for updating your installation (in case of an update notification).
 
 
 ===== Beta version =====

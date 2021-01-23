@@ -2,7 +2,7 @@
 
 {{:ic_menu_shopping.png?nolink&50 |}}
 
-Diese Funktion öffnet eine Ansicht, die Apps anzeigt, die entweder mit c:geo zusammenarbeiten oder zur Erweiterungen einiger Funktionen von c:geo genutzt werden können. Du kannst auf jedes Tool klicken um dessen Webseite mit mehr Informationen und/oder Downloadmöglichkeit zu öffnen.
+Diese Funktion öffnet eine Ansicht, die Apps anzeigt, die entweder mit c:geo zusammenarbeiten oder zur Erweiterungen einiger Funktionen von c:geo genutzt werden können. Du kannst auf jedes Tool tippen um dessen Webseite mit mehr Informationen und/oder Downloadmöglichkeit zu öffnen.
 
 ^ Logo ^ Name ^ Beschreibung ^
 |{{ :send2cgeo.png?nolink&100 |}}|[[https://send2.cgeo.org|Send to c:geo]]|Send to c:geo ist eine Browsererweiterung für deinen PC. Wenn du dir die geocaching.com-Webseite anschaust, kannst du Caches direkt von dort mit einem Klick auf dein Smarthone senden.|

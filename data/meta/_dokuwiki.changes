@@ -895,3 +895,181 @@
 1610137372	163.158.160.54	E	nl:translation	linstylemon	[Vereisten] 		-6
 1610137401	163.158.160.54	E	nl:translation	linstylemon	[Beginnen] 		4
 1610309862	2.205.118.1	E	de:start	lineflyer	change anzeige zurücksetzen 		-1
+1610532716	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	Popup window translation (uncompleted)		116
+1610532892	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:livemap	ijeantet	[Contenu de la carte] 		1
+1610534860	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	Translate Cache information		162
+1610535732	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Menu supérieur] 		0
+1610537219	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[List managegment] First translation to French		245
+1610537717	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Hint/Note section]  First translation into French		78
+1610537783	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:livemap	ijeantet	[Information de la cache] 		20
+1610537819	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Indice/note personnelle] 		-1
+1610539266	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	Update page for later translation		9395
+1610546046	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Map quick settings] Half translated in French		518
+1610561052	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:livemap	ijeantet	[Partie supérieure] 		19
+1610561150	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Paramètres rapides de la carte] 		113
+1610605818	46.132.110.151	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		-1
+1610605850	46.132.110.151	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		-450
+1610605865	46.132.110.151	E	fi:start	vike91	[Tietoja c:geosta] 		450
+1610605887	46.132.110.151	E	fi:start	vike91	[c:geo Käyttöohje] 		-449
+1610605897	46.132.110.151	E	fi:start	vike91	[Tietoja c:geosta] 		449
+1610605924	46.132.110.151	E	fi:start	vike91	[Tietoja c:geosta] 		-35
+1610605933	46.132.110.151	E	fi:start	vike91	[Tietoja c:geosta] 		3
+1610625472	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Paramètres rapides de la carte]  End of the French translation for this part		118
+1610632509	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Map navigation] French translation		209
+1610634229	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:livemap	ijeantet	[Direction line] French translation		96
+1610637599	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:mainmenu:search	ijeantet	Translate search options		2503
+1610640777	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:ebook_help	ijeantet	Translate Download of this User Guide		1619
+1610641144	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Menu principal] 		-11
+1610641223	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Quick Reference] 		6
+1610641693	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:sidebar	ijeantet	[Navigation rapide] 		-3
+1610644498	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:mainmenu:goto	ijeantet	Translate Goto page		1784
+1610644524	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:goto	ijeantet			-159
+1610650984	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass	ijeantet	Begin translation of the Compass page		4178
+1610659773	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:compass	ijeantet	[Boussole] 		5
+1610659840	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:compass	ijeantet	[Menu supérieur] 		-21
+1610661040	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:compass	ijeantet	[Top section] 		294
+1610697260	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:compass	ijeantet	[Compass view] 		122
+1610697595	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:compass	ijeantet	[Bottom section] 		76
+1610697654	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:compass	ijeantet	[Compass] End of the French translation		-159
+1610697957	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:start	ijeantet	[Statut de connexion] Update French translation		250
+1610698021	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:start	ijeantet	[Menu supérieur] 		0
+1610698192	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Coordinates and Navigation] 		10
+1610698224	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Menu principal] 		2
+1610698337	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:sidebar	ijeantet	[Navigation rapide] 		1
+1610698450	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Astuces et Fonctions avancées] 		0
+1610698645	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet			11
+1610698668	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[À propos de ce Guide d'utilisation] 		0
+1610698742	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Fonctions hors-ligne] 		0
+1610698869	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:sidebar	ijeantet	[Navigation rapide] 		19
+1610702147	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:navigation	ijeantet	[Navigation methods/tools] French translation		4029
+1610702164	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:navigation	ijeantet			-159
+1610702177	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:navigation	ijeantet			0
+1610702225	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Coordonnées et navigation] 		7
+1610706837	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:start	silviopen	[Riferimento rapido] 		-1
+1610706884	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:start	silviopen	[Funzioni offline] maiuscola iniziale		0
+1610706908	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:start	silviopen	[Come iniziare] 		0
+1610706924	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:start	silviopen	[Come iniziare] 		-12
+1610707621	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:start	silviopen			-1
+1610707958	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:start	silviopen			1
+1610715791	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:livemap	silviopen	Aggiornato - I parte per corrispondere alla versione inglese		2192
+1610723660	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:livemap	silviopen	[Impostazioni rapide della Mappa] 		1
+1610732204	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:mainmenu:utilityprograms	ijeantet	[Utility programs] French translation		4634
+1610732401	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:start	ijeantet	[Accès rapide] 		-11
+1610732428	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:sidebar	ijeantet	[Navigation rapide] 		-11
+1610746286	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:livemap	silviopen	aggiornata la traduzione per rispecchiare l'originale inglese		3970
+1610746365	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:livemap	silviopen	[Impostazioni rapide della Mappa] 		1
+1610748334	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:livemap	silviopen	completato aggiornamento pagina		3573
+1610748382	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:livemap	silviopen	[Mappa Live] 		0
+1610796370	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:mainmenu:settings	ijeantet	[c:geo Settings] Begin French translation		35261
+1610811274	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Geocaching] French translation		190
+1610812501	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Social media] French translation		156
+1610813139	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Other settings] French translation		101
+1610889862	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Geocaching] 		163
+1611226573	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:lists	silviopen	traduzione allineata alla versione inglese		36
+1611226748	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:lists	silviopen	[Cache salvati] 		-37
+1611227045	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:globaltypefilter	silviopen			-18
+1611227078	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:globaltypefilter	silviopen			8
+1611227266	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:globaltypefilter	silviopen			3
+1611227553	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:mainmenu:settings	silviopen	[Aspetto] - Seleziona lingua. Aggiornata traduzione per rispecchiare l'originale inglese 		-239
+1611227641	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	it:mainmenu:settings	silviopen	[Aspetto] 		-1
+1611306684	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Appearance] 		228
+1611310580	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:settings	ijeantet	[Cache Details] 		640
+1611435023	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map Data] 		-195
+1611435108	2.205.115.174	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		-235
+1611437397	2.205.115.174	E	en:mainmenu:lists	lineflyer	Replace clicking by tapping		-1
+1611437397	2.205.115.174	E	en:mainmenu:livemap	lineflyer	Replace clicking by tapping		-2
+1611437397	2.205.115.174	E	en:mainmenu:search	lineflyer	Replace clicking by tapping		-1
+1611437397	2.205.115.174	E	en:mainmenu:settings	lineflyer	Replace clicking by tapping		-5
+1611437397	2.205.115.174	E	en:cachedetails	lineflyer	Replace clicking by tapping		-2
+1611437397	2.205.115.174	E	en:coordinatedialog	lineflyer	Replace clicking by tapping		-3
+1611437397	2.205.115.174	E	en:firststeps	lineflyer	Replace clicking by tapping		-3
+1611437397	2.205.115.174	E	en:loggingtb	lineflyer	Replace clicking by tapping		-1
+1611437397	2.205.115.174	E	en:trackabledetails	lineflyer	Replace clicking by tapping		-2
+1611437397	2.205.115.174	E	en:ebook_help	lineflyer	Replace clicking by tapping		-2
+1611437397	2.205.115.174	E	en:quick_widgets	lineflyer	Replace clicking by tapping		-1
+1611437397	2.205.115.174	E	en:contacts	lineflyer	Replace clicking by tapping		-1
+1611437453	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace Clicking by Tapping (Capital letter)		-5
+1611437453	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace Clicking by Tapping (Capital letter)		-3
+1611437453	2.205.115.174	e	en:mainmenu:quicksearch	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:mainmenu:search	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:mainmenu:settings	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:cachedetails	lineflyer	Replace Clicking by Tapping (Capital letter)		-9
+1611437453	2.205.115.174	e	en:compass	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:intents	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:logging	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:loggingtb	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:trackabledetails	lineflyer	Replace Clicking by Tapping (Capital letter)		-6
+1611437453	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:ebook_help	lineflyer	Replace Clicking by Tapping (Capital letter)		-2
+1611437533	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace clicked by tapped		-1
+1611437533	2.205.115.174	e	en:compass	lineflyer	Replace clicked by tapped		-1
+1611437533	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace clicked by tapped		-1
+1611437533	2.205.115.174	e	en:intents	lineflyer	Replace clicked by tapped		-1
+1611437533	2.205.115.174	e	en:udc	lineflyer	Replace clicked by tapped		-1
+1611437647	2.205.115.174	e	en:mainmenu:goto	lineflyer	Replace click by tap		-4
+1611437647	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace click by tap		-8
+1611437647	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace click by tap		-12
+1611437647	2.205.115.174	e	en:mainmenu:settings	lineflyer	Replace click by tap		-28
+1611437647	2.205.115.174	e	en:mainmenu:utilityprograms	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:cachedetails	lineflyer	Replace click by tap		-42
+1611437647	2.205.115.174	e	en:coordformat	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:firststeps	lineflyer	Replace click by tap		-10
+1611437647	2.205.115.174	e	en:intents	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:logging	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:loggingtb	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:nfc	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:offline	lineflyer	Replace click by tap		-8
+1611437647	2.205.115.174	e	en:offlinemaps	lineflyer	Replace click by tap		-4
+1611437647	2.205.115.174	e	en:start	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:trackabledetails	lineflyer	Replace click by tap		-12
+1611437647	2.205.115.174	e	en:translation	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace click by tap		-10
+1611437647	2.205.115.174	e	en:installation	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:attributes	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:notecoords	lineflyer	Replace click by tap		-4
+1611437647	2.205.115.174	e	en:brouter	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:udc	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:quick_widgets	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:contacts	lineflyer	Replace click by tap		-2
+1611437694	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] Replace click by tap		-6
+1611437760	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		9
+1611437822	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		7
+1611437834	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		-9
+1611437939	2.205.115.174	e	de:installation	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:firststeps	lineflyer	Ersetze klicken durch tippen		-2
+1611437939	2.205.115.174	e	de:mainmenu:start	lineflyer	Ersetze klicken durch tippen		-3
+1611437939	2.205.115.174	e	de:mainmenu:livemap	lineflyer	Ersetze klicken durch tippen		-2
+1611437939	2.205.115.174	e	de:mainmenu:lists	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:mainmenu:goto	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:mainmenu:settings	lineflyer	Ersetze klicken durch tippen		-7
+1611437939	2.205.115.174	e	de:cachedetails	lineflyer	Ersetze klicken durch tippen		-9
+1611437939	2.205.115.174	e	de:logging	lineflyer	Ersetze klicken durch tippen		-3
+1611437939	2.205.115.174	e	de:trackabledetails	lineflyer	Ersetze klicken durch tippen		-7
+1611437939	2.205.115.174	e	de:loggingtb	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:mainmenu:utilityprograms	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:compass	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:attributes	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:offlinemaps	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:brouter	lineflyer	Ersetze klicken durch tippen		-1
+1611437988	2.205.115.174	e	de:firststeps	lineflyer	Ersetze klickst durch tippst		-2
+1611437988	2.205.115.174	e	de:mainmenu:livemap	lineflyer	Ersetze klickst durch tippst		-2
+1611437988	2.205.115.174	e	de:mainmenu:search	lineflyer	Ersetze klickst durch tippst		-1
+1611437988	2.205.115.174	e	de:mainmenu:settings	lineflyer	Ersetze klickst durch tippst		-1
+1611437988	2.205.115.174	e	de:intents	lineflyer	Ersetze klickst durch tippst		-3
+1611437988	2.205.115.174	e	de:offlinemaps	lineflyer	Ersetze klickst durch tippst		-1
+1611437988	2.205.115.174	e	de:brouter	lineflyer	Ersetze klickst durch tippst		-1
+1611437988	2.205.115.174	e	de:contacts	lineflyer	Ersetze klickst durch tippst		-2
+1611438043	2.205.115.174	e	de:mainmenu:settings	lineflyer	Ersetze klicke durch tippe		-1
+1611438043	2.205.115.174	e	de:cachedetails	lineflyer	Ersetze klicke durch tippe		-1
+1611438043	2.205.115.174	e	de:loggingtb	lineflyer	Ersetze klicke durch tippe		-1
+1611438043	2.205.115.174	e	de:offline	lineflyer	Ersetze klicke durch tippe		-1
+1611438043	2.205.115.174	e	de:offlinemaps	lineflyer	Ersetze klicke durch tippe		-1
+1611438043	2.205.115.174	e	de:quick_widgets	lineflyer	Ersetze klicke durch tippe		-1
+1611438204	2.205.115.174	e	en:mainmenu:goto	lineflyer	Replace Click by Tap (Capital letter)		-4
+1611438204	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace Click by Tap (Capital letter)		-2
+1611438204	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace Click by Tap (Capital letter)		-4
+1611438204	2.205.115.174	e	en:logging	lineflyer	Replace Click by Tap (Capital letter)		-2
+1611438204	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace Click by Tap (Capital letter)		-2
+1611438281	2.205.115.174	e	de:start	lineflyer	remove white space		-1

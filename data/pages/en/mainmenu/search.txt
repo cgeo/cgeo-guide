@@ -12,9 +12,9 @@ Basically all search functions will use all enabled geocaching platforms simulta
 </WRAP>
 
 ^Search Function ^ Description ^
-|{{ :ic_menu_myplaces.png?nolink&30 |}}|Clicking this icon will load a list of your owned caches|
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Tapping this icon will load a list of your owned caches|
 |Coordinates|Search for caches around coordinates provided. Refer to the [[..:coordinatedialog|Coordinate dialog]] for more information.|
-|Address|Search for caches around a street address. We use the Google geo coding service to find the address and convert it into coordinates.\\ If the address has been found you can either load the list of caches nearby this location or open the [[livemap|live map]] at this address by clicking on the small map icon shown in the search result.|
+|Address|Search for caches around a street address. We use the Google geo coding service to find the address and convert it into coordinates.\\ If the address has been found you can either load the list of caches nearby this location or open the [[livemap|live map]] at this address by tapping on the small map icon shown in the search result.|
 |Geo Code|Search for a specific geo code in all supported platforms depending on the code prefix (e.g. GC77, OC1234).|
 |Keywords|Search for caches **starting with** the keyword provided.\\ \\ :!: A keyword search for all caches **containing** the keyword is currently not possible due to technical limitations.|
 |Found by user|Search for caches found by the username provided.|

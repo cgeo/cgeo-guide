@@ -1,6 +1,6 @@
 ====== Trackable details ======
 
-The trackable details pages provide you all information about a specific trackable. They can be opened by clicking on a trackable in the inventory page of the [[cachedetails|cache details]], from the the inventory shown on the [[logging#inventory|logging screen]] or by [[.mainmenu:search|direct search]] for the public or secret tracking code of a trackable.
+The trackable details pages provide you all information about a specific trackable. They can be opened by tapping on a trackable in the inventory page of the [[cachedetails|cache details]], from the the inventory shown on the [[logging#inventory|logging screen]] or by [[.mainmenu:search|direct search]] for the public or secret tracking code of a trackable.
 
 {{ :en:tbdetails_details.png?direct&400 |}}
 
@@ -11,7 +11,7 @@ At the bottom section of each tab you can see the name of the current tab and yo
 As not all [[loggingtb#supported_trackables|trackable brands]] are supported with all their functions, some tabs might be missing depending on the trackable brand.
 </WRAP>
 
-You can see the complete order of the tabs in the table below. Clicking on the images in the table will open a larger version, clicking on the headline will directly take you to the relevant section in this user guide:
+You can see the complete order of the tabs in the table below. Tapping on the images in the table will open a larger version, tapping on the headline will directly take you to the relevant section in this user guide:
 
 ^ [[trackabledetails#details_tab|Details]] ^ [[trackabledetails#logbook_tab|Logbook]] ^ [[trackabledetails#images_tab|Images]] ^
 |{{ :en:tbdetails_details.png?direct&400 |}}|{{ :en:tbdetails_logbook.png?direct&400 |}}|{{ :en:tbdetails_images.png?direct&400 |}}|
@@ -30,7 +30,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Log touch]]|Compose a log for this trackable.|
 |{{ :ic_menu_info_details.png?nolink&40 |}}|Open in Browser|Opens your default browser to show the trackable page on the geocaching website.|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Refresh|Updates all tabs of the trackable details from the server.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. On most devices this icon will not be shown as all menu functions fit into the menu bar.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. On most devices this icon will not be shown as all menu functions fit into the menu bar.|
 
 ===== Details Tab =====
 {{anchor:details_tab:}}
@@ -46,8 +46,8 @@ The first section on the trackable details tab provides all relevant information
 |Name|The name of the trackable.|
 |Brand|Shows the brand of the trackable (e.g. Travel Bug for a geocaching.com trackable, Geokrety for a geokrety.org trackable)|
 |Tracking Code|The public tracking code (TBxxxx) of this trackable.|
-|Owner|The name of the owner of this trackable.\\  You can click on this field to open a context menu to perform actions related to this owner.|
-|Spotted|The name of the cache or the user, where this trackable has been last seen/logged. Additionally it shows the days since the last move or discover log for this trackable.\\ You can click on this field to get more information about the cache or the user.|
+|Owner|The name of the owner of this trackable.\\  You can tap on this field to open a context menu to perform actions related to this owner.|
+|Spotted|The name of the cache or the user, where this trackable has been last seen/logged. Additionally it shows the days since the last move or discover log for this trackable.\\ You can tap on this field to get more information about the cache or the user.|
 |Origin|Country of origin of this trackable.|
 |Released|The release date of this trackable.|
 |Traveled|The mileage this trackable already traveled.\\ Depending on your [[.mainmenu:settings#appearance|settings]] this value might be shown either in miles(mi) or kilometer(km).|
@@ -59,14 +59,14 @@ The first section on the trackable details tab provides all relevant information
 
 This section of the details tab shows the goal description provided by the owner of this trackable.
 
-You can click on the goal description to copy the text or parts of it to your clipboard. Furthermore you can use it to trigger translating the description into another language.
+You can tap on the goal description to copy the text or parts of it to your clipboard. Furthermore you can use it to trigger translating the description into another language.
 ==== Details ====
 
 {{:en:tbdetails_details_details.png?nolink&400 |}}
 
 This section of the details tab shows the detailed description provided by the owner of this trackable.
 
-You can click on the detailed description to copy the text or parts of it to your clipboard. Furthermore you can use it to trigger translating the description into another language. 
+You can tap on the detailed description to copy the text or parts of it to your clipboard. Furthermore you can use it to trigger translating the description into another language. 
 
 ==== Image ====
 {{anchor:image:}}
@@ -75,7 +75,7 @@ You can click on the detailed description to copy the text or parts of it to you
 
 This section of the trackable details tab shows the default image the owner assigned to this trackable.
 
-Clicking on the image opens the picture in your default image viewer. 
+Tapping on the image opens the picture in your default image viewer. 
 
 ===== Logbook Tab =====
 {{anchor:logbook_tab:}}
@@ -84,9 +84,9 @@ Clicking on the image opens the picture in your default image viewer.
 
 This tab contains a scroll able list with the log entries, each containing the username, the log date, the log type, the cache associated to the trackable log and the log text.
 
-Clicking on the username will open a context menu with owner related search options.
+Tapping on the username will open a context menu with owner related search options.
 
-Clicking on the log text allows you to copy the text to your clipboard. Furthermore you can use it to trigger translating the log into another language. 
+Tapping on the log text allows you to copy the text to your clipboard. Furthermore you can use it to trigger translating the log into another language. 
 
 ===== Image tab =====
 {{anchor:image_tab:}}
@@ -98,8 +98,8 @@ This tab contains the images available for the trackable. It will contain all pi
 :!:
 This is not the same function as the trackable gallery on the geocaching web page, as only the log pictures of the most recent 35 logs but not all are shown here.
 
-Clicking on an image opens the picture in your default image viewer.
+Tapping on an image opens the picture in your default image viewer.
 
 <WRAP center round tip 60%>
-If the image contains coordinates in its header info, a small compass rose icon will be shown on the lower left corner of the image. In this case you can short click or long click on that icon to start your preferred or secondary preferred [[navigation|navigation]].
+If the image contains coordinates in its header info, a small compass rose icon will be shown on the lower left corner of the image. In this case you can short tap or long tap on that icon to start your preferred or secondary preferred [[navigation|navigation]].
 </WRAP>

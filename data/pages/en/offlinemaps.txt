@@ -67,7 +67,7 @@ Sticking to our example above you need to configure the following directories he
 |Directory with offline maps|/sdcard/mymaps|
 |Map Themes Directory|/sdcard/mythemes|
 
-To select these folders simply click on the related menu item. c:geo will then automatically scan your folders trying to find the map files and offer the corresponding directory to be selected. If the list already contains the correct directory you can directly select it, if your map/theme directory is not listed you have to click the ''Choose directory'' button at the top to manually select/enter the directory.
+To select these folders simply tap on the related menu item. c:geo will then automatically scan your folders trying to find the map files and offer the corresponding directory to be selected. If the list already contains the correct directory you can directly select it, if your map/theme directory is not listed you have to tap the ''Choose directory'' button at the top to manually select/enter the directory.
 
 
 {{ :en:offlinemap_file_scanner.jpg?direct&400 |}}

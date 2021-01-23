@@ -1,0 +1,15 @@
+====== Téléchargement de ce guide d'utilisation ======
+
+Vous avez trois options différentes pour télécharger le guide d'utilisation de c:geo pour une utilisation hors ligne :
+
+  * Cliquer sur l'icône ''Exporter en PDF'' dans la barre latérale droite pour générer un fichier PDF de la page actuelle et le proposer au téléchargement.\\ Cette option ne peut générer des fichiers PDF que pour la seule rubrique/page qui vous est actuellement affichée.
+
+  * Cliquer sur l'icône ''Ajouter au livre'' dans la barre latérale droite pour ajouter la page actuellement affichée à une liste de pages à télécharger.\\ Vous pouvez utiliser cette fonction pour ajouter plusieurs pages à cette liste. Après avoir ajouté au moins une page, un bandeau d'informations s'affichera en haut de chaque page, vous permettant d'ajouter ou de supprimer des pages et de générer enfin un seul PDF contenant toutes les pages sélectionnées dans un ordre personnalisé.
+
+  * Télécharger une capture complète du guide d'utilisation au format PDF en cliquant sur ce lien :\\ [[https://manual.cgeo.org/&do=export_pdfns&book_ns=fr&book_title=cgeo_Userguide_fr|Télécharger le guide d'utilisation complet]]\\ //(Veuillez patienter après avoir cliqué sur le lien, cela peut prendre quelques secondes pour générer le PDF)//
+
+
+<WRAP center round info 100%>
+Bien qu'une version hors ligne de ce guide d'utilisation puisse être utile, n'oubliez pas que le contenu de la version en ligne peut être modifié, corrigé et amélioré de temps à autre. Votre version hors ligne deviendra donc obsolète tôt ou tard.
+</WRAP>
+

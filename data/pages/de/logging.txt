@@ -9,7 +9,7 @@ Wenn du auswählst einen Logeintrag für einen Geocache zu erstellen, wird der f
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
@@ -50,7 +50,7 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 {{:en:logging_date.png?nolink&300 |}}
 
-Standardmäßig wird c:geo das aktuelle Datum auswählen und ''Heute'' in diesem Feld anzeigen. Du kannst allerdings auf das Feld klicken, um ein Kalendertool zu öffnen, wo du ein anderes Datum für deinen Log auswählen kannst.
+Standardmäßig wird c:geo das aktuelle Datum auswählen und ''Heute'' in diesem Feld anzeigen. Du kannst allerdings auf das Feld tippen, um ein Kalendertool zu öffnen, wo du ein anderes Datum für deinen Log auswählen kannst.
 
 ==== Problem melden ====
 {{anchor:report_problem:}}
@@ -99,7 +99,7 @@ Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]]  mit [[ht
 
 {{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
 
-Dieser Bereich listet die Trackables, die sich derzeit in deinem Inventar befinden. Es zeigt das Symbol des Trackable-Typs (z.B. Travelbug, Geokrety), den Tracking-Code und den Namen des Trackables. Du kannst auf einen der Einträge klicken um dir die [[trackabledetails|Details des Trackable]] anzusehen.
+Dieser Bereich listet die Trackables, die sich derzeit in deinem Inventar befinden. Es zeigt das Symbol des Trackable-Typs (z.B. Travelbug, Geokrety), den Tracking-Code und den Namen des Trackables. Du kannst auf einen der Einträge tippen um dir die [[trackabledetails|Details des Trackable]] anzusehen.
 Mit dem Dropdown-Menü auf der rechten Seite kannst du die gewünschte Aktion für jeden Trackable für diesen Cache auswählen:
 
 ^ Menüeintrag ^ Beschreibung ^

@@ -13,7 +13,7 @@ Auf dieser Seite des Benutzerhandbuches beschreiben wir nur einige typische Anwe
 ===== Durchführen einer Wegpunkt-Projektion/Peilung =====
 
   - Klicke auf  "Wegpunkt hinzufügen"
-  - Klicke auf das Koordinatenfeld und gib die Koordinaten, von der die Projektion starten soll. Du kannst auch auf "Meine Koordinaten" klicken um den aktuellen Standort als Startpunkt festzulegen.
+  - Klicke auf das Koordinatenfeld und gib die Koordinaten, von der die Projektion starten soll. Du kannst auch auf "Meine Koordinaten" tippen um den aktuellen Standort als Startpunkt festzulegen.
   - Schließe die Koordinateneingabe und gib anschließend Entfernung und Richtung in den entsprechenden Feldern ein.
   - Speichere den Wegpunkt
   - Nun kannst du das "Kompassrose"-Symbol neben dem Wegpunkt nutzen um die bevorzugte Navigation zum Wegpunkt zu starten. Alternativ kannst du auch einen langen Klick auf den Wegpunkt ausführen und aus dem "Navigieren"-Menü die gewünschte Navigationsmethode (z.B. eine Karte) wählen.

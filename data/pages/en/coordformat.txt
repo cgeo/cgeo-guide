@@ -9,6 +9,6 @@ c:geo does support multiple coordinate formats as follows:
 |UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universal Transverse Mercator|
 
 The MinDec format is commonly used for Geocaching purposes.
-For existing coordinates in cache or waypoints you can change the displayed format by short click on the coordinates.
+For existing coordinates in cache or waypoints you can change the displayed format by short tap on the coordinates.
 
 When using the [[coordinatedialog|coordinate input dialog]] you can select the desired format in the headline of the dialog according to the notations listed above except UTM, which is not yet supported as input format.

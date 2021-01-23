@@ -9,14 +9,14 @@ The availability and visualization of these functions depend on Android version 
 ===== Quick access =====
 
 With quick access you can use your normal c:geo launcher icon to directly jump to certain functions of c:geo.
-To use this quick access simply long click on the c:geo icon. 
+To use this quick access simply long tap on the c:geo icon. 
 
 A selection of main functions will show up as shown on this picture:
 
 {{ :en:quickaccess_creation.png?direct&300 |}}
 
 You can directly access the shown functions by selecting them. 
-Additionally you could drag and drop these functions to your device desktop to get a permanent direct link to these functions by clicking the created quick access icon.
+Additionally you could drag and drop these functions to your device desktop to get a permanent direct link to these functions by tapping the created quick access icon.
 
 This is an example how all quick access functions could look like on your phone desktop:
 

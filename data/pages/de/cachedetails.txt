@@ -21,7 +21,7 @@ Die Titelzeile ist auf allen Reitern verfügbar und enthält verschiedenen Funkt
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 
@@ -68,13 +68,13 @@ Dieser Bereich des Reiters Details zeigt dir Informationen zum Cache:
 |Bewertung|Zeigt die Qualitätsbewertung von [[http://gcvote.com|GCVote]], sofern dieser Dienst in den [[.mainmenu:settings#services|c:geo Einstellungen]] aktiviert wurde, als Dezimalwert und graphische Darstellung.\\ Der in Klammern angezeigte Wert ist die Anzahl der Stimmen, die für diesen Cache abgegeben wurden.|
 |Favorit|Die Anzahl der Favoritenpunkte (geocaching.com) oder Empfehlungen (Opencaching-Plattformen), die dem Cache verliehen wurden. Die Prozentangabe ist die Anzahl der Favoritenpunkte geteilt durch die Anzahl der Funde.|
 |Eigene Bewertung|Zeigt die Bewertung, die du diesem Cache über [[http://gcvote.com|GCVote]] gegebn hast, wenn dieser Dienst in den [[.mainmenu:settings#services|c:geo Einstellungen]] aktiviert ist, als Dezimalwert und graphische Darstellung.|
-|Besitzer|Der Benutzername des Besitzers dieses Caches.\\ Du kannst auf dieses Feld klicken um ein Kontextmenü zu öffnen das dir benutzerspezifische Optionen anbietet.|
+|Besitzer|Der Benutzername des Besitzers dieses Caches.\\ Du kannst auf dieses Feld tippen um ein Kontextmenü zu öffnen das dir benutzerspezifische Optionen anbietet.|
 |Versteckt|Das Datum, an dem der Cache versteckt wurde.|
 |Bundesland|Das Bundesland/Land, in dem der Cache liegt.|
-|Koordinaten|Die Koordinaten des Caches.\\ Du kannst in dieses Feld klicken um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
+|Koordinaten|Die Koordinaten des Caches.\\ Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
 
 <WRAP center round tip 100%>
-Auf einige der genannten Felder kannst du lange klicken um ihre Information in die Zwischenablage zu kopieren oder sie zu teilen.
+Auf einige der genannten Felder kannst du lange tippen um ihre Information in die Zwischenablage zu kopieren oder sie zu teilen.
 </WRAP>
 
 
@@ -85,7 +85,7 @@ Auf einige der genannten Felder kannst du lange klicken um ihre Information in d
 
 Dieser Bereich des Reiters Details zeigt dir die Attribute, die der Cachebesitzer diesem Cache zugewiesen hat, als Symbole. Dieser Bereich kann auch fehlen, wenn der Besitzer dem Cache keine Attribute zugewiesen hat.
 
-Du kannst auf die [[attributes|Attribut-Symbole]] klicken, um sie stattdessen als Textliste anzeigen zu lassen.
+Du kannst auf die [[attributes|Attribut-Symbole]] tippen, um sie stattdessen als Textliste anzeigen zu lassen.
 
 ==== Listenverwaltung ====
 {{anchor:list_management:}}
@@ -135,7 +135,7 @@ Die Wegpunkt-Informationen sind wie folgt strukturiert:
 ^ Zeile ^ Beschreibung ^ 
 |Titel|Symbol und Titel des Wegpunktes|
 |Typ und Referenz|[[cachedetails#waypoint_types|Wegpunkt-Typ]] und Referenzcode (vom Server vergeben) oder ''Benutzerdefiniert'' wenn der Wegpunkt vom Nutzer erstellt wurde.|
-|Koordinaten|Die Koordinaten des Wegpunktes. Dieses Feld könnte auch leer sein, wenn der Besitzer keine Koordinaten für diesen Wegpunkt angegeben hat oder du Wegpunkt ohne Koordinaten erstellt hast (oder der [[coordinatedialog#waypoint_calculator|Wegpunkt-Rechner]] genutzt wird, aber noch keine gültigen Koordinaten zurückgibt).\\ \\ :!: Du kannst in dieses Feld klicken um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
+|Koordinaten|Die Koordinaten des Wegpunktes. Dieses Feld könnte auch leer sein, wenn der Besitzer keine Koordinaten für diesen Wegpunkt angegeben hat oder du Wegpunkt ohne Koordinaten erstellt hast (oder der [[coordinatedialog#waypoint_calculator|Wegpunkt-Rechner]] genutzt wird, aber noch keine gültigen Koordinaten zurückgibt).\\ \\ :!: Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
 |Beschreibung|Enthält die Beschreibung für diesen Wegpunkt.|
 |{{:actionbar_compass_light.png?nolink&40 |}}|Dieses Symbol wird auf der rechten Seite jedes Wegpunktes angezeigt, der Koordinaten hat.Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] zu diesen Koordinaten.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
 
@@ -199,14 +199,14 @@ Ein langer Klick auf einen Wegpunkt öffnet ein Kontextmenü, welches folgende O
 
 Der Reiter Beschreibung enthält hauptsächlich die Cachebeschreibung, die der Besitzer bereitgestellt hat. Unter der scrollbaren Cachebeschreibung findest du weitere Bereiche für den [[cachedetails#hint_section|Hinweis zum Cache]] und für deine [[cachedetails#personal_note|persönliche Cachenotiz]].
 
-Du kannst auf die Cachebeschreibung klicken um den Text oder teile davon in die Zwischenablage zu kopieren. Des weiteren kannst du diese Funktion dazu nutzen die Beschreibung in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
+Du kannst auf die Cachebeschreibung tippen um den Text oder teile davon in die Zwischenablage zu kopieren. Des weiteren kannst du diese Funktion dazu nutzen die Beschreibung in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
 
 ==== Hinweis ====
 {{anchor:hint_section:}}
 
 {{:en:description_hint_encoded.png?direct&400 |}}{{ :en:description_hint_decoded.png?direct&400 |}}
 
-Dieser Bereich beinhaltet den geheimen Hinweis, wenn der Besitzer einen solchen eingegeben hat. Standardmäßig ist dieser Hinweis verschlüsselt (linkes Bild) um die Cachesuche nicht zu leicht zu machen (Spoiler). Um den Hinweis zu entschlüsseln, klicke einfach auf den verschlüsselten Text (rechtes Bild).
+Dieser Bereich beinhaltet den geheimen Hinweis, wenn der Besitzer einen solchen eingegeben hat. Standardmäßig ist dieser Hinweis verschlüsselt (linkes Bild) um die Cachesuche nicht zu leicht zu machen (Spoiler). Um den Hinweis zu entschlüsseln, tippe einfach auf den verschlüsselten Text (rechtes Bild).
 
 Wenn der Besitzer ein Spoiler-Bild hochgeladen hat, findest du einen anklickbaren Link zu diesem Bilder unterhalb des Hinweistextes.
 
@@ -244,7 +244,7 @@ Am Anfang des Logbuchs findest du eine Log-Zusammenfassung für den Cache, die e
 Darunter siehst du eine scrollbare Liste der Logeinträge; jeder enthält den Benutzernamen, das Logdatum, die Gesamtfundzahl des Benutzers und den Logtext.\\
 Farbmarkierungen zeigen die unterschiedlichen Logtypen an und ermöglichen eine einfache Unterscheidung zwischen "guten" Logtypen (z.B. Gefunden, Aktiviert) und "schlechten" Logtypen (z.B. Nicht gefunden, Deaktiviert).
 
-:!:  Wenn ein Logeintrag verräterische Hinweise enthält, kann der Nutzer entscheiden den Logeintrag zu verschlüsseln. In diesem Fall musst du auf den Logeintrag klicken, um den Logtext zu entschlüsseln.
+:!:  Wenn ein Logeintrag verräterische Hinweise enthält, kann der Nutzer entscheiden den Logeintrag zu verschlüsseln. In diesem Fall musst du auf den Logeintrag tippen, um den Logtext zu entschlüsseln.
 
 Ein Klick auf den Benutzernamen öffnet ein Kontextmenü mit benutzerspezifischen [[.mainmenu:search|Suchoptionen]].
 
@@ -272,7 +272,7 @@ Dies ist nicht die gleiche Funktion, wie die Cache-Galerie auf der Geocaching-We
 Ein Klick auf ein Bild öffnet das Bild in deinem Standard-Bildbetrachter.
 
 <WRAP center round tip 50%>
-Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang anklicken um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. Ein langer Klick auf das Bild selbst öffnet ein Kontextmenü, wo du einen neuen Wegpunkt aus den gefundenen Koordinaten erstellen kannst.
+Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang antippen um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. Ein langer Klick auf das Bild selbst öffnet ein Kontextmenü, wo du einen neuen Wegpunkt aus den gefundenen Koordinaten erstellen kannst.
 </WRAP>
 
 

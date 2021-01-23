@@ -38,38 +38,38 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
 {{anchor:main_menu:}}
 
   * [[.mainmenu:start|Écran principal]]  - Les fonctionnalités du menu principal
-    * [[.mainmenu:start#top_bar_menu|Menu supérieur]] - Les fonctions de la bar supérieure de l'écran principal 
-    * [[.mainmenu:livemap|Carte]] - La carte en temps réel des géocaches
+    * [[.mainmenu:start#top_bar_menu|Menu supérieur]] - Les fonctions de la barre supérieure de l'écran principal 
+    * [[.mainmenu:livemap|Carte]] - La carte temps réel des géocaches
     * [[.mainmenu:lists#cache_list|Proches]] - Chercher des caches autour de vous
     * [[.mainmenu:lists|Enregistrées]] - Géocaches enregistrées localement 
     * [[.mainmenu:search|Recherche]] - Recherche de géocaches ou d'objets voyageurs
     * [[.mainmenu:goto|Aller à]] - Navigation directe à certaines coordonnées
-    * [[.mainmenu:globaltypefilter|Types de cache]] - Filtrage des caches par type
+    * [[.mainmenu:globaltypefilter|Filtre]] - Filtrage des caches par type
     * [[.mainmenu:start#bottom_section|Statut]] - Vos informations de statut présentées dans la partie basse de l'écran principal
 
   * [[.mainmenu:settings|Paramètres]] - Paramétrage de application
 
-==== Geocaches ====
+==== Géocaches ====
 {{anchor:geocaches:}}
 
   * [[cachedetails|Geocache details]] - Explanation of the cache detail pages
   * [[Logging|Logging of Geocaches]] - Logging of your Geocaching finds
 
-==== Trackables ====
+==== Objets voyageurs ====
 {{anchor:trackables:}}
 
   * [[trackabledetails|Trackable details]] - Explanation of the trackable page
   * [[loggingtb|Trackable handling]] - Handling and Logging of Trackables
 
-==== Coordinates and Navigation ====
+==== Coordonnées et navigation ====
 {{anchor:coordinates_and_navigation:}}
 
   * [[coordinatedialog|Coordinate input dialog]] - Explanation of coordinate input 
   * [[coordinatedialog#waypoint_calculator|Waypoint Calculator]] - Usage of the waypoint calculator
-  * [[navigation|Navigation]] - Explanation of the supported navigation methods and tools
-  * [[compass|Compass]] - Using the compass
+  * [[navigation|Navigation]] - Explication des méthodes et outils de navigation pris en charge
+  * [[compass|Boussole]] - Utilisation de la boussole
 
-==== Offline functions ====
+==== Fonctions hors ligne ====
 {{anchor:offline_functions:}}
 
   * [[offline|Offline caching]] - Offline use
@@ -79,19 +79,19 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
     * [[offline#field_note_export|Field Notes]] - Exporting field notes
     * [[offline#offline_maps|Offline Maps]] - Usage of offline maps 
 
-===== Quick Reference =====
+===== Accès rapide =====
 {{anchor:quick_reference:}}
 
-  * [[cacheicons|Geocache types]]
+  * [[cacheicons|Types de géocaches]]
   * [[cachemarkers|Geocache markers]]
   * [[cachedetails#waypoint_types|Waypoint types]]
-  * [[mapsources|Map sources]] 
+  * [[mapsources|Fonds de carte]] 
   * [[basicmembers|Limitations for geocaching.com basic members]]
   * [[coordformat|Coordinate formats]]
   * [[attributes|Attribute icons]]
-  * [[.mainmenu:utilityprograms|Useful other apps]]
+  * [[.mainmenu:utilityprograms|Outils]]
 
-===== Astuces et Fonctions avancées =====
+===== Astuces et fonctions avancées =====
 {{anchor:special_functions_and_hints:}}
 
   * [[intents|Ouvrir les liens Geocaching avec c:geo]]
@@ -104,7 +104,7 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
 
 Si vous rencontrez des difficultés ou obtenez des messages d'erreurs pendant l'utilisation de c:geo, vous pouvez aussi consulter notre [[http://faq.cgeo.org|FAQ]] afin de trouver une solution.
 
-===== A propos de ce Guide d'utilisation =====
+===== À propos de ce guide d'utilisation =====
 {{anchor:about_this_manual:}}
 
   * [[translation|Aider à la traduction de ce guide d'utilisation]]

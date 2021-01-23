@@ -40,7 +40,7 @@ Zusätzlich nutzt c:geo eine Benachrichtigungssystem um dich auf neue Versionen 
 
 {{:en:notification_example.png?direct&300 |}}
 
-Du kannst auf die Nachricht klicken um entweder mehr Informationen zu erhalten (optional im Falle von temporären Problemen) oder direkt zu Google Play zur Aktualisierung deiner Installation gebracht zu werden (im Falle einer Update-Benachrichtigung).
+Du kannst auf die Nachricht tippen um entweder mehr Informationen zu erhalten (optional im Falle von temporären Problemen) oder direkt zu Google Play zur Aktualisierung deiner Installation gebracht zu werden (im Falle einer Update-Benachrichtigung).
 
 ===== Beta-Versionen =====
 {{anchor:beta_version:}}

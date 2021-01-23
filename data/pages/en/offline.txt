@@ -30,7 +30,7 @@ c:geo explicitly supports GPX files from geocaching.com and GPX file extensions 
 
 To import a GPX file you have two options:
 
-  * Use some file browser on your device, click on the GPX file stored on your device and select c:geo as target app. This will show a selection window, where you have to select the target [[.mainmenu:lists|list]] to import the caches from your GPX file.
+  * Use some file browser on your device, tap on the GPX file stored on your device and select c:geo as target app. This will show a selection window, where you have to select the target [[.mainmenu:lists|list]] to import the caches from your GPX file.
 
   * Open a [[.mainmenu:lists|list]] of stored caches or create a new list and select ''Menu'' -> ''Import'' -> ''Import GPX''. this will scan the directory you [[.mainmenu:lists#system|configured]] to be used for GPX imports and offer you to choose a file from there.
 
@@ -53,13 +53,13 @@ You have two possibilities of composing offline logs in c:geo:
   - Just compose your logs as usual but instead of sending them online, just save them using the ''Save offline'' function in the [[logging#top_bar_menu|logging screen menu]].
   - Enable the ''Offline Log'' function in the [[.mainmenu:settings#other_logging_options|settings]] which completely works offline.
 
-While the first option is not different from online usage, the second option will replace the ''Log Visit'' menu by a ''One click offline log'' menu in all places. As soon as the function is activated, c:geo will not post logs online by default but only store the found status offline. 
+While the first option is not different from online usage, the second option will replace the ''Log Visit'' menu by a ''One tap offline log'' menu in all places. As soon as the function is activated, c:geo will not post logs online by default but only store the found status offline. 
 
 When using this menu function the following context menu will be shown:
 
-{{:en:oneclickofflinelog.png?nolink&400 |}}
+{{:en:onetapofflinelog.png?nolink&400 |}}
 
-Just click on the desired log type and your offline log will be saved accordingly. The ''Clear'' option is only available if you already have an offline log stored for this cache. In this case the log type already stored is marked with a red tick in this menu.
+Just tap on the desired log type and your offline log will be saved accordingly. The ''Clear'' option is only available if you already have an offline log stored for this cache. In this case the log type already stored is marked with a red tick in this menu.
 
 You can also select ''Log Visit'' to open the normal [[logging|logging screen]] to compose a complete log and store it.
 

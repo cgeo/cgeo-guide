@@ -34,7 +34,7 @@ Aus der Ansicht der Trackable-Details kannst du das Menü nutzen um den Trackabl
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen. 
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen. 
 </WRAP>
 
 ^ Icon ^ Function ^ Description ^
@@ -100,7 +100,7 @@ Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]] mit [[htt
 
 Wenn du ein ''Abgelegt''-Log für einen GeoKrety Trackable schreibst, musst du den Geocode und/oder die Koordinaten des Caches angeben, wo du ihn abgelegt hast.
 
-Benutze das Feld ''Geocode'' um den Geocode des Caches anzugeben, wo du ihn abgelegt hast oder klicke auf ''Koordinaten'' um den [[coordinatedialog|Koordinaten-Eingabedialog]] zu öffnen und die Koordination einzugeben, an denen du den Trackable abgelegt hast.
+Benutze das Feld ''Geocode'' um den Geocode des Caches anzugeben, wo du ihn abgelegt hast oder tippe auf ''Koordinaten'' um den [[coordinatedialog|Koordinaten-Eingabedialog]] zu öffnen und die Koordination einzugeben, an denen du den Trackable abgelegt hast.
 
 ===== Trackable-Inventar =====
 {{anchor:trackable_inventory:}}

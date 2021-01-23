@@ -13,7 +13,7 @@ If you start c:geo for the first time after installation, you will be directly t
 
 It explains the [[installation#permissions|permissions]] c:geo needs on your device, offers links to this user guide and - most importantly - offers a button to setup the connection to geocaching platforms.
 
-If you click on ''"Configure your geocaching platform(s)"'' you will directly be taken to the service settings, where you can authorize c:geo to communicate with the geocaching platform of your choice as described below.
+If you tap on ''"Configure your geocaching platform(s)"'' you will directly be taken to the service settings, where you can authorize c:geo to communicate with the geocaching platform of your choice as described below.
 
 **If you would like to access the service settings again after the first start, you will find them in:\\
 ''Menu → Settings → Services''**
@@ -28,12 +28,12 @@ Now select the geocaching platform you want to use from the list of supported pl
 
 ===== Registering c:geo with geocaching.com =====
 
-After you selected ''geocaching.com'' from the list of supported geocaching platforms you now have to click on the button ''Authorize c:geo'' as shown below::
+After you selected ''geocaching.com'' from the list of supported geocaching platforms you now have to tap on the button ''Authorize c:geo'' as shown below::
 
 {{ :en:firststeps_1_en.png?direct&400 }}
 
-After clicking on ''Authorize c:geo'' a window will be shown, where you can enter your username and password for geocaching.com and finally click on ''Check authentication''.\\
-If you do not yet have an account, you may click on the button ''Create an account'' to open the registration page of geocaching.com.
+After tapping on ''Authorize c:geo'' a window will be shown, where you can enter your username and password for geocaching.com and finally tap on ''Check authentication''.\\
+If you do not yet have an account, you may tap on the button ''Create an account'' to open the registration page of geocaching.com.
 
 {{ :en:firststeps_3_en.png?direct&400 }}
 
@@ -56,12 +56,12 @@ If you want to connect c:geo with another service than geocaching.com or re-acce
 You can find more information regarding the geocaching services supported by c:geo [[.mainmenu:settings#Services|here]].
 </WRAP>
 
-Select a geocaching platform , which you want to connect with and activate the service in the following screen by clicking the ''Activate'' box.
-Afterwards start the authorization process by clicking on ''Authorize c:geo''.
+Select a geocaching platform , which you want to connect with and activate the service in the following screen by tapping the ''Activate'' box.
+Afterwards start the authorization process by tapping on ''Authorize c:geo''.
 
 {{ :en:oc_en_1.png?direct&400 }}
 
-and ''Start authorization'' in the next screen. If you do not yet have an account, you may click on the button ''Create an acount'' to open the registration page of the Opencaching platform.
+and ''Start authorization'' in the next screen. If you do not yet have an account, you may tap on the button ''Create an acount'' to open the registration page of the Opencaching platform.
 
 {{ :en:oc_en_2.png?direct&400 }}
 

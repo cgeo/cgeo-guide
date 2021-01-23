@@ -5,12 +5,17 @@
 
 {{ :logo_big.png?nolink&200 |}} 
 
+
 ==== Tietoja c:geosta ====
 {{anchor:about_cgeo:}}
 
 c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu, aina käyttövalmis epävirallinen ohjelma geocaching.com:in käyttöön  ja tarjoaa perustoiminnot muihin geokätköilysovelluksiin (kuten Opencaching). Se ei vaadi selainta tai tietojen siirtoa - [[installation|asenna se]] ja ohjelma on valmis.
 
 c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
+
+<WRAP center round info 100%>
+c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohjetta on päivitetty 14.1.2021. \\ \\ Jos huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
+</WRAP>
 
 ===== Käytön aloitus =====
 {{anchor:getting_started:}}
@@ -114,14 +119,6 @@ Jos huomaat c:geossa ongelmia tai virheitä, ole hyvä ja tarkista jos löytäis
 
   * [[en:translation|Auta kääntämään tämä käyttöohje!]]
   * [[ebook_help|Lataa tämän oppaan PDF-versio]]
-
-<WRAP center round info 100%>
-c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohjetta on päivitetty 15.11.2020.
-</WRAP>
-
-<WRAP center round info 100%>
-Jos huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
-</WRAP>
 ===== Käteviä linkkejä (englanniksi) =====
 {{anchor:useful_links:}}
 

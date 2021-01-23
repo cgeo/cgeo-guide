@@ -1,0 +1,29 @@
+====== Outils et méthodes de navigation ======
+
+Si vous lancez la navigation via l'icône {{:ic_menu_goto.png?nolink&30}}, le menu suivant s'affiche pour vous permettre de sélectionner la méthode/outil de navigation approprié.
+
+{{ :fr:navigation.png?direct&400 |}}
+
+Le tableau suivant donne un aperçu des différentes méthodes/outils pris en charge. Certains éléments ne sont affichés que si l'outil correspondant est installé. Vous pouvez personnaliser les éléments affichés dans ce menu dans les [[.mainmenu:settings#navigation|paramètres]].
+
+^ Nom ^ Description ^
+|Boussole|Lance la [[compass|boussole]] interne à c:geo.|
+|Radar|Démarre les applications prenant en charge une fonctionnalité radar, telle que [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Un radar est similaire à une boussole mais montre votre position au centre et la position de la cible par rapport à ce point.|
+|Carte|Ouvre la [[.mainmenu:livemap|carte]] de c:geo.|
+|Locus|Démarre [[.mainmenu:utilityprograms|Locus]] et afficher les coordonnées sur cette carte.|
+|Navigation (voiture)|Démarre la navigation détaillée dans [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] pour un itinéraire en voiture.|
+|Navigation (vélo)|Démarre la navigation détaillée dans [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] pour un itinéraire à vélo.|
+|Navigation (piéton)|Démarre la navigation détaillée dans [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] pour un itinéraire à pieds.|
+|Navigation (transports publics)|Démarre la navigation détaillée dans [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] pour un itinéraire en transports en commun.|
+|Direction Google Maps|Ouvre [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] et affiche une liste des itinéraires routiers disponible de votre position actuelle aux coordonnées cibles.|
+|Street View|Ouvre [[https://play.google.com/store/apps/details?id=com.google.android.street|Google Street View]] aux coordonnées cibles.|
+|OruxMaps (en ligne)|Démarre la navigation étape par étape en ligne à l'aide de l'application [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]].|
+|OruxMaps (hors ligne)|Démarre la navigation étape par étape hors ligne à l'aide de l'application [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMaps]].|
+|Sygic (piéton)|Démarre la navigation étape par étape à l'aide de l'application [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] pour un itinéraire à pieds.|
+|Sygic (voiture)|Démarre la navigation étape par étape à l'aide de l'application [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygic]] pour un itinéraire en voiture.|
+|OsmAnd|Démarre la navigation étape par étape hors ligne à l'aide de l'application [[https://f-droid.org/fr/packages/net.osmand.plus/|OSMAnd]].|
+|WhereYouGo|Cet option n'est disponible que pour les caches Wherigo et ouvre [[.mainmenu:utilityprograms|WhereYouGo]] pour télécharger les informations nécessaire pour naviguer vers la cache.|
+|Pebble|Démarre la boussole sur votre appareil Pebble à l'aide de l'application Pebble Navigation.|
+|Maps.me|Démarre la navigation étape par étape hors ligne à l'aide de l'application [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|Maps.me]].|
+|Autres applications externes|Lance d'autres applications non explicitement prises en charge par c:geo.\\ Cette option ouvre généralement une boîte de dialogue de sélection d'applications de votre appareil affichant toutes les applications capables de comprendre des liens contenant des coordonnées.|
+

@@ -1,0 +1,17 @@
+====== Aller à ======
+
+{{:main_any_default.png?nolink&100 |}}
+
+Le menu ''Aller à'' peut être utilisé pour naviguer vers des coordonnées arbitraires non liées à un point de passage ou une géocache ou pour faire une prévision de point de passage.\\
+
+Techniquement, le menu ''Aller à'' vous amène à l'onglet [[..:cachedetails#waypoint_tab|point de passage]] de la vue détaillée d'une [[..:udc|cache interne à c:geo]]. Donc, l'utilisation est exactement la même que pour les points de passage de toutes les autres caches dans c:geo. Veuillez vous référer à l'onglet ''point de passage'' et à la description de l'éditeur de point de passage sur la page correspondante.\\ \\ \\
+
+{{ :fr:goto.png?400 |}}
+
+===== Comment effectuer une projection de point de passage =====
+
+  - Cliquer sur ''Ajouter un point de passage''.
+  - Cliquer sur le champ de coordonnées et entrer les coordonnées sur lesquelles la projection doit être basée. Vous pouvez également cliquer sur ''Ma position'' pour définir la position actuelle comme point de départ.
+  - Fermer la fenêtre de saisie des coordonnées et entrer la distance et le relèvement dans les champs correspondants.
+  - Enregistrer le point de passage.
+  - Utiliser l'icône «rose des vents» {{:actionbar_compass_light.png?nolink&30}} à côté du point de passage pour lancer votre méthode de navigation préférée vers ce point de passage. Vous pouvez également effectuer un appui long sur le point de passage et sélectionner ''Navigation'' pour utiliser d'autres méthodes de navigation (comme ouvrir la carte ou démarrer la navigation pas-à-pas).

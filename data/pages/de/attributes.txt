@@ -3,7 +3,7 @@
 Diese Seite enthält eine Übersicht aller verfügbaren Attribut-Symbole, die in c:geo genutzt werden. Die Attribute werden vom Cache-Besitzer ausgewählt um die Eigenschaften des Caches zu beschreiben und werden in den  [[cachedetails#attributes|Cache-Details]] angezeigt.
 
 <WRAP center round tip 100%>
-Du kannst auf den Bereich Attribute in den Cache-Detail klicken um statt den Symbolen eine Textbeschreibung zu sehen.
+Du kannst auf den Bereich Attribute in den Cache-Detail tippen um statt den Symbolen eine Textbeschreibung zu sehen.
 </WRAP>
 
 Die meisten Symbole können durch Durchstreichen {{:attribute_strikethru.png?nolink&20|}} negiert werden (z.B. "Rund um die Uhr verfügbar" wird zu "Nicht rund um die Uhr verfügbar").

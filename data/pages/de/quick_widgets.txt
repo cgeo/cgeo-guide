@@ -9,7 +9,7 @@ Die Verfügbarkeit und Visualisierung dieser Funktionen hängen von der Android-
 ===== Schnellzugriff =====
 
 Mit dem Schnellzugriff kannst du das normale c:geo Startsymbol nutzen, um direkt zu bestimmten Funktionen von c:geo zu springen.
-Um diesen Schnellzugriff zu nutzen, klicke lange auf das c:geo Symbol.
+Um diesen Schnellzugriff zu nutzen, tippe lange auf das c:geo Symbol.
 
 Daraufhin wird eine Auswahl von Hauptfunktionen, wie im folgenden Bild dargestellt, angezeigt:
 

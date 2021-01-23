@@ -2,7 +2,7 @@
 
 {{:ic_launcher_contacts-playstore.png?nolink&200 |}}
 
-Dies ist eine Kontakte-Erweiterung für c:geo. Es funktioniert nur, wenn auch c:geo installiert ist und erlaubt den direkten Zugriff auf dein Telefonbuch, wenn du auf einen Namen in c:geo klickst.
+Dies ist eine Kontakte-Erweiterung für c:geo. Es funktioniert nur, wenn auch c:geo installiert ist und erlaubt den direkten Zugriff auf dein Telefonbuch, wenn du auf einen Namen in c:geo tippst.
 
 Der Grund diese Funktion als Erweiterung anstatt direkt in c:geo anzubieten war, dass ältere Android-Versionen die Abfrage der benötigten Zugriffsrechte nur bei Installation aber nicht während der Laufzeit durchführten. Da der Grund für die Anfrage zum Zugriff auf das Telefonbuch dadurch für viele Nutzer nicht verständlich war, haben wir uns entschieden diese Funktion in eine dedizierte Erweiterung auszulagern. So können Nutzer, die an einer solchen Funktion interessiert sind und damit auch verstehen, warum dieser Zugriff notwendig ist, diese bei Bedarf installieren und andere Nutzer wundern sich nicht über diese Anfrage zum Telefonbuch-Zugriff.
 
@@ -17,7 +17,7 @@ Nach der Installation wird sie allerdings auf deinem Gerät nicht als dedizierte
 
 ===== Benutzung =====
 
-Wenn du auf an verschiedenen Stellen in c:geo (z.B. im [[.:cachedetails#logbook_tab|Cache-Logbuch]]) auf den Namen eines Cachers klickst, enthält das Menü einen Eintrag um den zugehörigen Telefonbucheintrag zu öffnen. Das erlaubt dir z.B. den Cacher direkt zu kontaktieren.
+Wenn du auf an verschiedenen Stellen in c:geo (z.B. im [[.:cachedetails#logbook_tab|Cache-Logbuch]]) auf den Namen eines Cachers tippst, enthält das Menü einen Eintrag um den zugehörigen Telefonbucheintrag zu öffnen. Das erlaubt dir z.B. den Cacher direkt zu kontaktieren.
 
 {{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
 

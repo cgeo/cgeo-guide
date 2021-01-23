@@ -54,7 +54,7 @@ It is possible to create a textual backup of all your user-modified waypoint dat
 
 To create the textual backup, use the button ''Add/Update waypoints'' under the personal note. A textual section will be created in your personal note starting with ''{c:geo-start}'' and ending with ''{c:geo-end}''. It contains all user-defined waypoint data from the waypoint list in advanced waypoint syntax (which is explained in the next section).
 
-To refresh the textual waypoint backup, click button ''Add/Update waypoints'' again. To removeit, click button ''Remove waypoints''.
+To refresh the textual waypoint backup, tap button ''Add/Update waypoints'' again. To removeit, tap button ''Remove waypoints''.
 
 As an example, when executed on the following waypoints:
 

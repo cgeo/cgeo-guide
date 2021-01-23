@@ -10,8 +10,8 @@ Technically the "Go To..." menu brings you to the [[en:cachedetails#waypoint_tab
 
 ===== How to perform a waypoint projection =====
 
-  - Click on "Add waypoint"
-  -  Click on the coordinate field and enter the coordinates where the projection shall be based upon. You can also click on "My coordinates" to set the current position as starting point.
+  - Tap on "Add waypoint"
+  -  Tap on the coordinate field and enter the coordinates where the projection shall be based upon. You can also tap on "My coordinates" to set the current position as starting point.
   - Close the coordinate input and enter distance and bearing in the corresponding fields
   - Save the waypoint
-  - Use the "compass rose" icon next to the waypoint to start the prefered navigation to this waypoint. Alternatively long click on the waypoint and select "Navigate" to invoke other navigation methods (such as opening map or starting turn-by-turn navigation).
+  - Use the "compass rose" icon next to the waypoint to start the prefered navigation to this waypoint. Alternatively long tap on the waypoint and select "Navigate" to invoke other navigation methods (such as opening map or starting turn-by-turn navigation).

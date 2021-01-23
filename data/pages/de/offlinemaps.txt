@@ -68,7 +68,7 @@ Bleiben wir bei unserem Beispiel oben, musst du also die folgenden Verzeichnisse
 |Verzeichnis mit Offline-Karten|/sdcard/mymaps|
 |Karten-Themes-Verzeichnis|/sdcard/mythemes|
 
-Um diese Ordner auszuwählen, klicke einfach auf dein jeweiligen Menüeintrag. c:geo durchsucht dann automatisch deine Ordner und versucht den Ordner mit den Dateien selbständig zu finden. Wenn die Liste bereits den Order mit deinen Kartendateien enthält, kannst du diesen einfach auswählen. Wenn das richtige Verzeichnis hier nicht angezeigt wird, musst du oben auf ''Verzeichnis wählen'' klicken um anschließend das Verzeichnis manuell einzugeben/auszuwählen.
+Um diese Ordner auszuwählen, tippe einfach auf dein jeweiligen Menüeintrag. c:geo durchsucht dann automatisch deine Ordner und versucht den Ordner mit den Dateien selbständig zu finden. Wenn die Liste bereits den Order mit deinen Kartendateien enthält, kannst du diesen einfach auswählen. Wenn das richtige Verzeichnis hier nicht angezeigt wird, musst du oben auf ''Verzeichnis wählen'' tippen um anschließend das Verzeichnis manuell einzugeben/auszuwählen.
 
 {{ :en:offlinemap_file_scanner.jpg?direct&400 |}}
 
@@ -77,7 +77,7 @@ Auf einigen Geräten kann die Suche des richtigen Ordners frustrierend sein, da 
 Durch die vielen verschiedenen Implementierungen abhängig von Hersteller, Modell,Android-Version und Gerätekonfiguration können wir dir keine generelle Information hierzu geben, sondern du musst den richtigen Pfad auf deinem Gerät suchen.
 </WRAP>
 
-Wenn du ''Verzeichnis wählen'' anklickst, öffnet sich ein Datei-Explorer (das Aussehen hängt von deiner Android-Version und evtl. installierten Drittanbieter-Tools ab), in dem du die Ordner durchsuchen und das korrekte Verzeichnis auswählen kannst.
+Wenn du ''Verzeichnis wählen'' antippst, öffnet sich ein Datei-Explorer (das Aussehen hängt von deiner Android-Version und evtl. installierten Drittanbieter-Tools ab), in dem du die Ordner durchsuchen und das korrekte Verzeichnis auswählen kannst.
 
 Die folgenden Bilder zeigen zwei verschiedene typische Datei-Explorer und visualisieren die Schritte, die du machen musst um den richtigen Order für die Kartendatei gemäß unserem Beispiel auszuwählen. Die Auswahl des Themen-Ordners läuft identisch ab, nur musst du hier den Ordner mit den Themen auswählen.
 

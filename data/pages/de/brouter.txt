@@ -24,11 +24,11 @@ BRouter informiert dich nun darüber, dass es eine größere Menge an Daten (abh
 
 {{ :en:brouter_configure2.png?direct&400 |}}
 
-BRouter zeigt nun eine Weltkarte und du musst zum Reinzoomen auf das Gebiet klicken, für das du Routing-Informationen herunterladen möchtest. Dann siehst du die Kacheln mit den verfügbaren Routing-Informationen.
+BRouter zeigt nun eine Weltkarte und du musst zum Reinzoomen auf das Gebiet tippen, für das du Routing-Informationen herunterladen möchtest. Dann siehst du die Kacheln mit den verfügbaren Routing-Informationen.
 
 {{ :en:brouter_configure3.png?direct&400 |}}
 
-Nachdem du hineingezoomt hast, kannst du die Kacheln der gewünschten geographischen Gebiete auswählen (werden dann in grün markiert) für die du Routing-Informationen herunterladen möchtest. Anschließend klickst du auf ''Start Download''.
+Nachdem du hineingezoomt hast, kannst du die Kacheln der gewünschten geographischen Gebiete auswählen (werden dann in grün markiert) für die du Routing-Informationen herunterladen möchtest. Anschließend tippst du auf ''Start Download''.
 
 {{ :en:brouter_configure4.png?direct&400 |}}
 

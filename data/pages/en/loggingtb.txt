@@ -36,7 +36,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 ^ Icon ^ Function ^ Description ^
 |{{ :ic_menu_send.png?nolink&40 |}}|Send log|Use this button to send your log online after you finished composing it.|
 |{{ :ic_menu_add.png?nolink&40 |}}|Add a template|This allows you to either add a [[.mainmenu:settings#placeholder_templates|template]] or your signature to the log.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 | |Smilies|Opens a list of smiley tags you can insert into your log.|
 | |Repeat last log|This function will insert the log text of the last trackable you logged into the log text field.|
 
@@ -46,7 +46,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 
 {{ :en:loggingtb_logtype.png?nolink&400 |}}
 
-Depending on the trackable brand, its current state and if you are owner of the trackable, different log types can be selected by clicking on this field:
+Depending on the trackable brand, its current state and if you are owner of the trackable, different log types can be selected by tapping on this field:
 
 ^Log Type ^ Description ^
 |Retrieved|You retrieved this trackable from the geocache, where it is currently listed.|
@@ -97,7 +97,7 @@ If you connected c:geo with [[https://twitter.com|Twitter]] in the [[.mainmenu:s
 
 In case you compose a ''Dropped Off'' log for a GeoKrety trackable, you will need to define the geo code and/or the coordinates of the cache, where you dropped this trackable.
 
-Use the field ''Geo code'' to enter the geo code of the cache where your dropped the trackable or click on ''Coordinates'' to open the [[coordinatedialog|coordinate input dialog]] and enter the coordinates, where you dropped off the trackable.
+Use the field ''Geo code'' to enter the geo code of the cache where your dropped the trackable or tap on ''Coordinates'' to open the [[coordinatedialog|coordinate input dialog]] and enter the coordinates, where you dropped off the trackable.
 
 ===== Trackable Inventory =====
 {{anchor:trackable_inventory:}}

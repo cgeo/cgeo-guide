@@ -12,10 +12,10 @@ Die folgende Tabelle gibt dir eine Übersicht über die Symbole im Hauptmenü:
 ^ Symbol ^ Funktion ^ Beschreibung ^
 |{{:main_live_default.png?nolink&100|}}|[[livemap|Live-Karte]]|Die Live-Karte zeigt eine Karte mit Geocaches um deinen aktuellen Standort. Sie kann bewegt werden, um zu sehen welche Geocaches es an anderen Standorten gibt. Du brauchst eine Internetverbindung um die Karte und aktuelle Geocache-Positionen darauf zu sehen. Beachte bitte, dass die angezeigten Geocaches ggf. gefiltert sein können, siehe den nächsten Eintrag für mehr Informationen.|
 |{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|In der Nähe]]|Erstellt dir eine Liste der Geocaches in der Umgebung. Anders als die Live-Karte startet diese Menüfunktion eine Onlinesuche basierend auf deinem aktuellen Standort (wie über GPS oder Netzwerk ermittelt). Diese aktualisiert sich nicht automatisch wenn du dich bewegst. Du benötigst eine Internetverbindung um diese Funktion zu nutzen.\\ \\ Falls es kein gültiges GPS-Signal oder andere Standort-Information gibt, ist der Menüeintrag deaktiviert.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten. Wenn du Geocaches gespeichert hast, zeigt das Symbol in der oberen rechten Ecke die Anzahl aller gespeicherten Caches.\\ Du kannst das Symbol auch lange klicken, um direkt auf eine bestimmte Liste zuzugreifen.|
+|{{:main_stored_default.png?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten. Wenn du Geocaches gespeichert hast, zeigt das Symbol in der oberen rechten Ecke die Anzahl aller gespeicherten Caches.\\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
 |{{:main_search_default.png?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.|
 |{{:main_any_default.png?nolink&100|}}|[[goto|Gehe zu]]|Navigiert zu beliebigen Koordinaten mit Hilfe von Kompass, Radar, Routenführung oder jeder anderen unterstützten Navigationsmethode.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Globaler Cachetyp-Filter]]|Filtert die Live-Karte, die Suche und deine Listen nach einem bestimmten Cachetyp. Beachte bitte, dass du entweder alle Caches siehst oder nach genau einem Cachetyp filtern kannst. Der Text unter diesem Symbol zeigt den gerade aktiven Filter an.\\ Du kannst lange auf das Symbol klicken um den Filter zurückzusetzen.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Globaler Cachetyp-Filter]]|Filtert die Live-Karte, die Suche und deine Listen nach einem bestimmten Cachetyp. Beachte bitte, dass du entweder alle Caches siehst oder nach genau einem Cachetyp filtern kannst. Der Text unter diesem Symbol zeigt den gerade aktiven Filter an.\\ Du kannst lange auf das Symbol tippen um den Filter zurückzusetzen.|
 
 
 ===== Titelzeilen-Menü ===== 
@@ -25,7 +25,7 @@ Der obere Bereich des Hauptbildschirms enthält zusätzliche Funktionen, die ent
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 {{ :en:main_topbarmenu.png?direct&400 |}}

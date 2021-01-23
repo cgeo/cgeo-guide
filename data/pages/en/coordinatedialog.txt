@@ -2,7 +2,7 @@
 
 {{:en:coordinput.png?direct&300 |}}
 
-The coordinate input dialog is opened if you click on the coordinate field while editing a [[cachedetails#waypoint_tab|waypoint]] or for entering coordinates in the [[.mainmenu:search|search]] or [[.mainmenu:goto|Go to]] menus.
+The coordinate input dialog is opened if you tap on the coordinate field while editing a [[cachedetails#waypoint_tab|waypoint]] or for entering coordinates in the [[.mainmenu:search|search]] or [[.mainmenu:goto|Go to]] menus.
 
 The {{:abc_ic_clear_normal.png?nolink&40|}} button will close the dialog without changes, the {{:abc_ic_cab_done_holo_light.png?nolink&40|}} will close the dialog and save the changes.
 
@@ -15,7 +15,7 @@ Be sure to save the changes especially when using the waypoint calculator as no 
 
 {{:en:coordinput_format.png?nolink&300 |}}
 
-By clicking on this field you can select between the different [[coordformat|supported coordinate formats]] or selecting ''Plain'' to manually input the desired format. The coordinate input fields will change their layout depending on your selection here.
+By tapping on this field you can select between the different [[coordformat|supported coordinate formats]] or selecting ''Plain'' to manually input the desired format. The coordinate input fields will change their layout depending on your selection here.
 
 If you already entered coordinates these will be converted into the selected format.
 ===== Coordinate input =====
@@ -23,7 +23,7 @@ If you already entered coordinates these will be converted into the selected for
 
 {{:en:coordinput_coords.png?nolink&300 |}}
 
-Use these fields to enter the coordinates. By clicking on N/W you can change to S/E as needed.
+Use these fields to enter the coordinates. By tapping on N/W you can change to S/E as needed.
 
 The layout of these input field depends on the coordinate format you selected above.
 
@@ -47,7 +47,7 @@ All or a subset of these buttons might be shown depending on where you use the c
 
 c:geo offers a calculator for waypoints, which allows to make use of variables and formulas to calculate coordinates based on the result.
 
-Once you clicked on ''Calculate Coordinates'' in the [[coordinatedialog#waypoint_sources|coordinate input dialog]] this screen will be shown.
+Once you tapped on ''Calculate Coordinates'' in the [[coordinatedialog#waypoint_sources|coordinate input dialog]] this screen will be shown.
 
 The {{:abc_ic_clear_normal.png?nolink&40|}} button will close the dialog without changes, the {{:abc_ic_cab_done_holo_light.png?nolink&40|}} will close the dialog, save the changes and return to the waypoint editor.
 
@@ -56,7 +56,7 @@ You can use the calculator also for preparing your field trip by entering the ne
 This will of course not yet provide a valid result, but you can still save the current state at any time by saving your changes in the calculator and afterwards saving the waypoint state.
 </WRAP>
 
-Clicking on the first field will open a drop down menu allowing to change between different coordinate formats as explained [[coordinatedialog#coordinate_format|here]]. All further functions are explained below.
+Tapping on the first field will open a drop down menu allowing to change between different coordinate formats as explained [[coordinatedialog#coordinate_format|here]]. All further functions are explained below.
 
 For easier understanding we will use an example of how the calculator can be used.
 
@@ -68,13 +68,13 @@ For easier understanding we will use an example of how the calculator can be use
 
 By default this section will show the cache coordinates as a starting point for assigning your variables.
 
-By __short clicking__ on each digit you can cycle between the following functions for this specific digit:
+By __short tapping__ on each digit you can cycle between the following functions for this specific digit:
 
   * **Assigning a variable to this digit**\\ Will assign the next unused variable (A-Z) to this digit.
   * **Omit this digit**\\ Will remove this digit completely from the calculation. This will allow solutions with more than one digit in the neighboring variables.
   * **Return to the original state**\\ Will show the original value again.
 
-Furthermore you can __long click__ each digit to manually enter a number or variable.
+Furthermore you can __long tap__ each digit to manually enter a number or variable.
 
 The result could look like this example:
 
@@ -149,7 +149,7 @@ The content of the calculator note will be synchronized to the note of the waypo
 ==== Using Plain Coordinate Format ====
 {{anchor:using_plain_coordinate_format}}
 
-Entering coordinates or coordinate formulas in //Plain// mode works completely different compared to the fixed formats. Instead of having a clickable field for each digit there are two free text fields to enter the latitude and longitude part of a coordinate.
+Entering coordinates or coordinate formulas in //Plain// mode works completely different compared to the fixed formats. Instead of having a tapable field for each digit there are two free text fields to enter the latitude and longitude part of a coordinate.
 
 A single digit or a group of digits can be replaced by a formula surrounded with parenthesis. The variables used in the formulas must consist oft single CAPITAL letters.
 

@@ -3,7 +3,7 @@
 This page provides an overview about all attribute icons used in c:geo. The attribute icons are used by a cache owner to describe the attributes of a cache and are shown on the [[cachedetails#attributes|cache details]] page. 
 
 <WRAP center round tip 100%>
-You can click on the attribute section in the cache details to view a textual description instead of the icons.
+You can tap on the attribute section in the cache details to view a textual description instead of the icons.
 </WRAP>
 
 Most of the icons can be negated if they are strike through like this: {{:attribute_strikethru.png?nolink&20|}} (e.g. "Available 24/7" would be negated to "Not available 24/7"). 

@@ -4,3 +4,6 @@
 1529330140	213.61.154.140	E	en:intents	lineflyer			0
 1529422167	213.61.154.140	e	en:intents	lineflyer	Spell check		-1
 1529927086	213.61.154.140	E	en:intents	lineflyer			341
+1611437453	2.205.115.174	e	en:intents	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437533	2.205.115.174	e	en:intents	lineflyer	Replace clicked by tapped		-1
+1611437647	2.205.115.174	e	en:intents	lineflyer	Replace click by tap		-2

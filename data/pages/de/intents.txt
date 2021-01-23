@@ -1,10 +1,10 @@
 ====== Geocaching-bezogene Links ======
 
-c:geo registriert sich selbst für Geocaching-bezogene Hyperlinks, so dass c:geo als mögliche Ziel-App angezeigt wird, wenn du in einer anderen App auf einen dieser Links klickst.
+c:geo registriert sich selbst für Geocaching-bezogene Hyperlinks, so dass c:geo als mögliche Ziel-App angezeigt wird, wenn du in einer anderen App auf einen dieser Links tippst.
 
-Zum Beispiel registriert sich c:geo für Links, die mit ''http://coord.info/GC'' beginnen. Diese werden in E-Mails von geocaching.com an ihre Nutzer verwendet um zielen auf ein spezielles Cache-Listing. Wenn du in irgendeiner App auf einen solchen Link klickst und c:geo als Ziel-App wählst, öffnet sich der Cache direkt in c:geo. Das gleiche gilt auch für Geocaching-Links von anderen Geocaching-Diensten.
+Zum Beispiel registriert sich c:geo für Links, die mit ''http://coord.info/GC'' beginnen. Diese werden in E-Mails von geocaching.com an ihre Nutzer verwendet um zielen auf ein spezielles Cache-Listing. Wenn du in irgendeiner App auf einen solchen Link tippst und c:geo als Ziel-App wählst, öffnet sich der Cache direkt in c:geo. Das gleiche gilt auch für Geocaching-Links von anderen Geocaching-Diensten.
 
-Wenn du gefragt wirst, mit welcher App du diese Links öffnen willst, kannst du c:geo auch als Standard für diese Link-Art setzen. Danach startet sich c:geo automatisch, wenn du auf einen solchen Link klickst.
+Wenn du gefragt wirst, mit welcher App du diese Links öffnen willst, kannst du c:geo auch als Standard für diese Link-Art setzen. Danach startet sich c:geo automatisch, wenn du auf einen solchen Link tippst.
 
 <WRAP center round tip 100%>
 Der Nachteil c:geo als Standard für alle geocaching-bezogenen Links zu setzen ist, dass (abhängig von deinem Gerät und Android-Version) die ''In Browser öffnen''-Funktion in c:geo dann evtl. nur c:geo selbst anbietet.\\

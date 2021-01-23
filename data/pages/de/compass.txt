@@ -10,7 +10,7 @@ Der obere Bereich des Kompass enthält weitere Funktionen, die entweder als Symb
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 

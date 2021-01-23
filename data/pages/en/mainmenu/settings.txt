@@ -4,7 +4,7 @@
 
 The following pages describe the functions of the setting menu in c:geo.\\ \\ \\
 
-You can access the settings by clicking on the menu button (three dot button) in the upper right of the main menu and selecting ''Settings'':
+You can access the settings by tapping on the menu button (three dot button) in the upper right of the main menu and selecting ''Settings'':
 
 {{:en:settings_1_en.png?direct&250 |}}{{:en:settings_2_en.png?direct&250|}}
 
@@ -58,16 +58,16 @@ Furthermore you can use the service menu to configure the connection to the foll
 
 {{ :en:services_twitter_1.png?direct&400 |}}
 
-You can authorize c:geo to post on [[https://www.twitter.com|Twitter]] each time you send a log for a cache or trackable. After clicking on the ''Twitter'' button the authorization screen will be shown:
+You can authorize c:geo to post on [[https://www.twitter.com|Twitter]] each time you send a log for a cache or trackable. After tapping on the ''Twitter'' button the authorization screen will be shown:
 
 {{ :en:services_twitter_2.png?direct&400 |}}
 
-To authorize to Twitter activate the service and click on ''Authorize c:geo''.
+To authorize to Twitter activate the service and tap on ''Authorize c:geo''.
 Below the authorization buttons you can modify the templates which are used to post a message on Twitter. This template uses the same [[settings#placeholder_templates|Placeholder templates]] as in your [[settings#logging|logging signature]].
 
 {{ :en:services_twitter_3.png?direct&400 |}}
 
-On the following page, click on ''Start authorization'' to open the Twitter web page, where you have to enter your twitter username and password and afterwards agree to allow c:geo to post on Twitter on your behalf.
+On the following page, tap on ''Start authorization'' to open the Twitter web page, where you have to enter your twitter username and password and afterwards agree to allow c:geo to post on Twitter on your behalf.
 
 
 <WRAP center round tip 100%>
@@ -125,12 +125,12 @@ In this menu you can configure some basic user interface settings of c:geo.
 {{ :en:settings_maps_mapdata.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Select Map Source|This allows you to define the map, which shall be used in all map functions of c:geo. The menu will contain all available online maps as well as the offline map files found in your offline map directory. \\ You can change this setting also directly from the live map by clicking the map layer icon and selecting another [[..mapsources|map source]].|
+|Select Map Source|This allows you to define the map, which shall be used in all map functions of c:geo. The menu will contain all available online maps as well as the offline map files found in your offline map directory. \\ You can change this setting also directly from the live map by tapping the map layer icon and selecting another [[..mapsources|map source]].|
 |Info on Offline Maps|This info item will provide you more detailed information about supported [[..offline#offline_maps|offline map]] formats and a link to our [[http://faq.cgeo.org|FAQ]].|
 |Directory with offline maps|Here you can configure the directory, which contains your Mapsforge [[..offline#offline_maps|offline map]] files.\\ \\ :!: The automatic scan might not be able to search in all directories/storage. In case your map directory is not found automatically, please use the ''Choose directory'' button shown after the scan is completed.|
 |Info on Map Themes|This info item will provide you more detailed information about supported offline map themes and a link to our [[http://faq.cgeo.org|FAQ]].|
 |Map Themes Directory|Here you can configure the directory, which contains your offline map themes.|
-|Scale Map Text|This option allows scaling the text labels of your offline maps depending on your device display resolution. Activating it will help to get the text more readable on devices with a rather high display resolution.//(Default: Activated)//|
+|Scale Map Text|This function has been removed meanwhile.|
 |Map rotation (Google Maps)|You can switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
 
 <WRAP center round tip 100%>
@@ -143,7 +143,7 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 {{ :en:settings_maps_waypoints.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-| Show Waypoints |Here you can set the limit for showing waypoints of (saved) caches on the map.\\ If less than the selected amount of caches are displayed on the visible map area, their waypoints are shown additionally. You can either use the slider to set the value or click on the number to set a new value. //(Default: 20)//|
+| Show Waypoints |Here you can set the limit for showing waypoints of (saved) caches on the map.\\ If less than the selected amount of caches are displayed on the visible map area, their waypoints are shown additionally. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 20)//|
 | Hide Waypoints |These sub items allow to hide certain waypoint types on the map:\\ 1. Hide original waypoints: If a cache has modified listing coordinates assigned and thus a waypoint automatically created, which contains the original listing coordinates, this function will hide this original coordinate waypoint.\\ 2. Hide parking waypoints: Enabling this option will hide all waypoints of the type “Parking”.\\ 3. Hide visited waypoints: Enabling this option will hide all waypoints, which are marked as visited by the user in c:geo.\\ //(Default: All off)//|
 | Zoom includes waypoints |If this setting is enabled the zoom level will include all waypoints of a cache, if you open a map for a single cache. //(Default: Off)//|
 ==== Map Content ====
@@ -155,7 +155,7 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 |Show direction|Activating this option will show a directional line (or a routed line if routing options are installed) on the map between your current position and the navigation target.\\ You can activate the direction line by opening the map for a single cache or selecting a cache on the map and activating the feature in the cache popup window now shown on the map (the latter is only applicable for offline maps). //(Default: Activated)//|
 |Show history track|With this option you can activate a track showing your position history (your movement) on the map. //(Default: Deactivated)// \\ \\ :!: Please be aware, that this will only be accurate as long as you use the map and have GPS enabled and will have gaps or jumps in case you switch your device to standby or deactivate GPS. If you would like a more reliable track recording you should rather use a specialized app.|
 |History track max. length| Allows to raise the amount of track points available for the history track. Once the limit is reached the oldest recorded points will be removed if new points are recorded. Raising the limit however allocates more memory. //(Default: 700 points)//|
-|Calculate route|With this setting you can select the maximum distance up to which a route is calculated and shown on the map between your position and the selected cache. You can either use the slider to set the value or click on the number to set a new value. //(Default: 10km)// \\ \\ :!: This function requires the [[.:utilityprograms|Brouter helper app]] to be installed on your device.|
+|Calculate route|With this setting you can select the maximum distance up to which a route is calculated and shown on the map between your position and the selected cache. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 10km)// \\ \\ :!: This function requires the [[.:utilityprograms|Brouter helper app]] to be installed on your device.|
 |Show straight distance|If the setting is active, the straight distance to the target will be shown additionally to the routed distance while routing is active. //(Default: Deactivated)//|
 ==== Map behavior ====
 {{anchor:map_behavior}}
@@ -163,15 +163,15 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 {{ :en:settings_maps_mapbehavior.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Long tap on map|If enabled you can long click/tap on the map for two purposes:\\ 1. Long click on a cache or waypoint will add this cache/waypoint to your [[en:individualroute|indiviudal route]].\\ 2. Long click on the map will trigger creation of a [[en:udc|user defined cache]]. //(Default: Deactivated)//|
+|Long tap on map|If enabled you can long tap on the map for two purposes:\\ 1. Long tap on a cache or waypoint will add this cache/waypoint to your [[.livemap#individual_route|individual route]].\\ 2. Long tap on the map will trigger creation of a [[en:udc|user defined cache]]. //(Default: Deactivated)//|
 ==== Proximity Notification ====
 {{anchor:proximity:}}
 
 {{ :en:settings_maps_proximity.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Far distance|Defines the far distance for the proximity notification. You can either use the slider to set the value or click on the number to set a new value.|
-|Near distance|Defines the near distance for the proximity notification. You can either use the slider to set the value or click on the number to set a new value.|
+|Far distance|Defines the far distance for the proximity notification. You can either use the slider to set the value or tap on the number to set a new value.|
+|Near distance|Defines the near distance for the proximity notification. You can either use the slider to set the value or tap on the number to set a new value.|
 |General proximity notification on map|When enabled a single notification beep is issued if any cache or waypoint on the map comes closer than far or near distance. When reaching the far distance a single beep is issued, when reaching near distance a triple beep is issued. //(Default: Deactivated)//|
 |Specific waypoint proximity notification|When enabled a repeated notification beep is issued if the currently selected cache or waypoint comes closer than far or near distance. This works if cache or waypoint details are opened, cache or waypoint popup on the map are shown or the compass is active. When reaching the far distance a single beep is issued, when reaching near distance a triple beep is issued. //(Default: Deactivated)//|
 |Type of notification|With this menu item you can choose whether you would like to receive an audio notification, a text notification in your status bar or both.\\ Hint: In case you are also using a smartwatch the text notification will allow some interaction with it, as the text notification should be shown on the smartwatch as well. //(Default: Tone only)//|
@@ -196,7 +196,7 @@ The following table briefly describes the different lines and circles and their 
 ^ Menu item ^ Description ^
 |History track|If the history track is activated in [[.settings#map_content|map content settings]] a track of your movement will be drawn on the map.|
 |Direction line|The direction line is a straight or specific routed navigation path (if the [[.utilityprograms|BRouter]] app is installed) from your current position towards a selected cache or waypoint (navigation target).|
-|Individual route|An individual route is a collection of caches or waypoints you selected sequentially by long clicking them on the map. This function can be used to plan your caching trips by drawing a route from one cache/waypoint to another. The long click function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
+|Individual route|An individual route is a collection of caches or waypoints you selected sequentially by long tapping them on the map. This function can be used to plan your caching trips by drawing a route from one cache/waypoint to another. The long tap function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
 |Individual track|The individual track is a track or route you imported from a GPX file in the [[.livemap#top_bar_menu|live map menu]]. It can be used to visualize a given track you want to follow.|
 |Circle|If activated in the [[.livemap#map_settings|map setting menu on the map]] c:geo will show circles with a distance of 1/10 mile (161 meters) around all physical waypoints (i.e. traditional caches, physical stages of a cache, mystery caches with corrected coordinates). This is the minimum distance placed caches need to have on geocaching.com and these circle might be helpful when you are planning to hide a new cache and are looking for a position.|
 
@@ -218,7 +218,7 @@ The following table briefly describes the different lines and circles and their 
 {{ :en:settings_logging_signature.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Signature|Clicking this option will open a text window where you can define your custom signature template appended to each log you compose with c:geo.\\ In the editor you can click on ''Insert Template'' to get a list of possible placeholder templates you can use in your logs (see detailed table below).|
+|Signature|Tapping this option will open a text window where you can define your custom signature template appended to each log you compose with c:geo.\\ In the editor you can tap on ''Insert Template'' to get a list of possible placeholder templates you can use in your logs (see detailed table below).|
 |Insert automatically|Activating this item will automatically insert the custom signature into your log text when you start logging a cache with c:geo.\\ If this option is deactivated you can still insert your signature manually on demand by selecting ''+'' and ''Signature'' while composing your log. //(Default: Deactivated)//|
 
 === Placeholder Templates ===
@@ -248,7 +248,7 @@ While creating your custom signature you can use several placeholder templates, 
 
 ^ Menu item ^ Description ^
 |Visit TBs|Enabling this option will automatically set all Trackables in your inventory as ''Visited'' when logging a cache. //(Default: Deactivated)//|
-|Offline Logging|Using this function will activate a ''One click offline log'' function replacing the normal logging screen. It can be used to easily generate offline logs/field notes.\\ The normal logging screen will still be available as a sub menu of the ''One click offline log'' menu. //(Default: Deactivated)//|
+|Offline Logging|Using this function will activate a ''One tap offline log'' function replacing the normal logging screen. It can be used to easily generate offline logs/field notes.\\ The normal logging screen will still be available as a sub menu of the ''One tap offline log'' menu. //(Default: Deactivated)//|
 |Show offline logs|An offline log counter (e.g. "+1") will be shown next to your online find count on the [[.start#login_status|home screen]], if you have found logs, that are not submitted yet.|
 
 <WRAP center round tip 100%>
@@ -304,8 +304,8 @@ You can find more details regarding the offline usage of c:geo on the page [[..:
 {{ :en:settings_navigation.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Default navigation|You can select your default navigation tool here, which provides you easy and fast access to your preferred navigation method. The selected tool will be started with a **short** click on the compass rose icon at the top of the cache details as well as the map popup window. //(Default: Compass)//|
-|Secondary navigation|You can select your secondary preferred navigation tool here, which provides you easy and fast access to this navigation method. The selected tool will be started with a **long** click on the compass rose icon at the top of the cache details as well as the map popup window. //(Default: Map)//|
+|Default navigation|You can select your default navigation tool here, which provides you easy and fast access to your preferred navigation method. The selected tool will be started with a **short** tap on the compass rose icon at the top of the cache details as well as the map popup window. //(Default: Compass)//|
+|Secondary navigation|You can select your secondary preferred navigation tool here, which provides you easy and fast access to this navigation method. The selected tool will be started with a **long** tap on the compass rose icon at the top of the cache details as well as the map popup window. //(Default: Map)//|
 |Navigation menu|This section provides the possibility to activate or deactivate some of the installed and available navigation methods detected by c:geo. You may use it to clean up the cache navigation menu by e.g. disabling navigation methods you are never using. //(Default: All available are activated)//|
 
 <WRAP center round tip 100%>
@@ -353,7 +353,7 @@ Please refer to the [[..navigation|supported navigation methods]] for detailed i
 
 ^ Menu item ^ Description ^
 |Restore|This function will restore the newest available backup. The date/time of the newest backup available will be shown here. In a next step during the restore process you can choose, whether you want to restore the caches and/or the program settings. \\ \\ :!: Restoring a backup will **replace**  all caches and/or app settings by those contained in the backup. Be aware of that, when using this function.|
-|Restore different backup|With this menu item you can select another available backup but the newest one to be selected for restoring. After clicking here a directory selector will be shown listing the existing backup directories named with date and time below ''/cgeo/backup/'' as c:geo created them during your backup. Select the directory you want to restore from and press OK to continue with thre restoration process.\\ Optionally you can use the directory chooser to navigate to another location, where you placed your backup files and choose to restore from there.|
+|Restore different backup|With this menu item you can select another available backup but the newest one to be selected for restoring. After tapping here a directory selector will be shown listing the existing backup directories named with date and time below ''/cgeo/backup/'' as c:geo created them during your backup. Select the directory you want to restore from and press OK to continue with thre restoration process.\\ Optionally you can use the directory chooser to navigate to another location, where you placed your backup files and choose to restore from there.|
 
 
 

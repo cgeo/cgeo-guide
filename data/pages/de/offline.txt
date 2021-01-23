@@ -31,7 +31,7 @@ c:geo unterstützt explizit GPX-Dateien von geocaching.com und GPX-Dateierweiter
 
 Für den Import einer GPX-Datei hast du zwei Möglichkeiten:
 
-  * Benutze einen Datei-Browser auf deinem Gerät, klicke auf eine GPX-Datei, die auf deinem Gerät gespeichert ist und wähle c:geo als Ziel-Applikation. Dies zeigt ein Auswahlfenster, wo du auswählen musst, in welche [[.mainmenu:lists|Liste]]  die Caches aus der GPX-Datei importiert werden sollen.
+  * Benutze einen Datei-Browser auf deinem Gerät, tippe auf eine GPX-Datei, die auf deinem Gerät gespeichert ist und wähle c:geo als Ziel-Applikation. Dies zeigt ein Auswahlfenster, wo du auswählen musst, in welche [[.mainmenu:lists|Liste]]  die Caches aus der GPX-Datei importiert werden sollen.
   * Öffne eine [[.mainmenu:lists|Liste]] gespeicherter Caches oder erstelle eine neue Liste und wähle dann ''Menü'' -> ''Importieren'' -> ''GPX-Datei importieren''. Dies scannt das Verzeichnis, welches du in den [[.mainmenu:lists#system|Einstellungen]] angegeben hast und bietet dir an eine der gefundenen GPX-Dateien von dort zu importieren. Nach dem Import enthält die gewählte Liste die importieren Caches.
 
 Beachte bitte, dass einige Cacheinformationen nicht in einer GPX-Datei enthalten sind. Falls du eine der folgenden Informationen benötigst, musst du sie manuell hinzufügen in dem du z.B. den Cache online aktualisierst:

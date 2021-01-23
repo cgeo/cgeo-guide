@@ -22,7 +22,7 @@ Die Titelzeile ist von allen Reitern verfügbar und enthält verschiedene Funkti
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
@@ -45,8 +45,8 @@ Der erste Bereich im Reiter Details enthält alle relevanten Informationen über
 |Name|Der Name des Trackables.|
 |Marke|Zeigt die Marke des Trackables (z.B. Travel Bug für einen geocaching.com-Trackable, Geokrety für einen geokrety.org-Trackable)|
 |Tracking-Code|Der öffentliche Trackingcode (TBxxxx) dieses Trackables.|
-|Eigentümer|Der Name des Besitzers dieses Trackable.\\  Du kannst auf dieses Feld klicken um ein Kontextmenü mit spezifischen Optionen für diesen Besitzer zu öffnen.|
-|Gesehen|Der Names des Caches oder des Nutzers, wo dieser Trackable zuletzt gesehen/geloggt wurde. Zusätzlich werden die Zahl der Tage seit der letzten Sichtung angezeigt.\\ Du kannst auf dieses Feld klicken um mehr Informationen zum angezeigten Cache oder Benutzer zu bekommen.|
+|Eigentümer|Der Name des Besitzers dieses Trackable.\\  Du kannst auf dieses Feld tippen um ein Kontextmenü mit spezifischen Optionen für diesen Besitzer zu öffnen.|
+|Gesehen|Der Names des Caches oder des Nutzers, wo dieser Trackable zuletzt gesehen/geloggt wurde. Zusätzlich werden die Zahl der Tage seit der letzten Sichtung angezeigt.\\ Du kannst auf dieses Feld tippen um mehr Informationen zum angezeigten Cache oder Benutzer zu bekommen.|
 |Ursprungsort|Herkunftsland dieses Trackables.|
 |Ausgesetzt|Das Datum, zu dem der Trackable ausgesetzt wurde.|
 |Zurückgelegte Stracke|Die Strecke, die dieser Trackable bereits gereist ist.\\ Abhängig von deinen  [[.mainmenu:settings#appearance|Einstellungen]] wird dieser Wert entweder in Meilen(mi) oder Kilometer(km) angezeigt.|
@@ -58,14 +58,14 @@ Der erste Bereich im Reiter Details enthält alle relevanten Informationen über
 
 Dieser Bereich des Reiters Details zeigt die Zielbeschreibung an, die der Besitzer des Trackables eingegeben hat.
 
-Du kannst auf die Zielbeschreibung klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen.
+Du kannst auf die Zielbeschreibung tippen um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen.
 ==== Über diesen Trackable ====
 
 {{:en:tbdetails_details_details.png?nolink&400 |}}
 
 Dieser Bereich zeigt die Detailbeschreibung dieses Trackables an, die vom Besitzer eingegeben wurde.
 
-Du kannst auf die Detailbeschreibung klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
+Du kannst auf die Detailbeschreibung tippen um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
 
 ==== Foto ====
 {{anchor:image:}}
@@ -85,7 +85,7 @@ Dieser Reiter enthält eine scrollbare Liste mit Logeinträgen, die jeweils den 
 
 Ein Klick auf den Benutzernamen öffnet ein Kontextmenü mit benutzerbezogenen Suchoptionen.
 
-Du kannst auf den Logtext klicken um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
+Du kannst auf den Logtext tippen um den Text oder Teile davon in die Zwischenablage zu kopieren. Weiterhin kannst du dies nutzen um die Beschreibung in eine andere Sprache zu übersetzen. 
 ===== Bilder =====
 {{anchor:image_tab:}}
 
@@ -99,7 +99,7 @@ Dies ist nicht die gleiche Funktion wie die Trackable-Galerie auf der Geocaching
 Ein Klick auf ein Bild öffnet das Bild in deinem Standard-Bildbetrachter.
 
 <WRAP center round tip 60%>
-Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang anklicken um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. 
+Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang antippen um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. 
 </WRAP>
 
 

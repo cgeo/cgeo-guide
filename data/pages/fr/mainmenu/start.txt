@@ -37,7 +37,7 @@ Pour voir le nom d'une icône de la barre supérieure, appuyez longuement dessus
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Bouton de débordement|Ouvre une liste des fonctionnalités de la barre supérieure qui n'apparaissent pas en tant qu'icônes à cause de la taille de votre écran. Ces fonctionnalités sont celle présentes dans ce tableau.|
 |{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Ouvre une liste de vos Pocket Queries depuis geocaching.com. C'est fonctionnalité n'est pas disponible pour les [[..:basicmembers|membres non-prenium]].|
 |{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Paramètres]]|Ouvre le menu de configuration de c:geo.|
-|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Sauvegarde/Restauration]]|Ouvre le menu de sauvegarde des caches et des paramètres de l'application. Vous pouvez également y accéder via les [[settings|paramètres de c:geo]].|
+|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Sauvegarde/Restauration]]|Ouvre le menu de sauvegarde des caches et des paramètres de l'application. Vous pouvez également y accéder via les [[settings|paramètres]] de c:geo.|
 |{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Outils]]|Ouvre une liste d'applications pour le géocaching qui peuvent être utiles en complément de c:geo.|
 |{{ :ic_menu_barcode.png?nolink&40 |}}|Scanner un géocode|Permet de scanner des codes barres représentant des géocodes si un [[utilityprograms|scanner de codes barres]] est installé sur votre appareil.|
 |{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|À propos de c:geo]]|Affiche des information à propos de c:geo telles que la version de l'application, des liens d'aide et de contact, la liste des contributeurs et plein d'autres choses intéressantes à savoir sur c:geo.| 
@@ -52,8 +52,8 @@ La partie inférieure de l'écran principal présente des informations à propos
 ==== Statut de connexion ====
 {{anchor:login_status:}}
 
-En haut de ce bandeau est affiché votre statut de connexion à chaque [[settings#Services|service de géocaching]] de vous avez activé et configuré dans les [[settings|paramètres de c:geo]], avec une ligne par service.\\
-Dans l'exemple ci-dessus, l'utilisateur ''My username'' est connecté avec succès à geocaching.com (''GC'') et Opencaching.de (''OC.DE''). Le chiffre suivant le nom d'utilisateur correspond au nombre de caches trouvées par l'utilisateur sur la plateforme de géocaching en question.
+En haut de ce bandeau est affiché votre statut de connexion à chaque [[settings#Services|service de géocaching]] de vous avez activé et configuré dans les [[settings|paramètres]] de c:geo, avec une ligne par service.\\
+Dans l'exemple ci-dessus, l'utilisateur ''My username'' est connecté avec succès à geocaching.com (''GC'') et Opencaching.de (''OC.DE''). Le chiffre suivant le nom d'utilisateur correspond au nombre de caches trouvées par l'utilisateur sur la plateforme de géocaching en question, y compris éventuellement un nombre de caches trouvées hors ligne (affichés sous la forme ''trouvailles en ligne + trouvailles hors ligne'') si la fonction correspondante est activée dans vos [[.settings#other_logging_options|options de visite]].
 
 ==== Position actuelle ====
 {{anchor:current_location:}}

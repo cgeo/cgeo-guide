@@ -5,7 +5,7 @@
 Die folgenden Seiten beschreiben die Funktionen des Einstellungsmenüs von c:geo.
 \\ \\ \\
 
-Du kannst auf die Einstellungen zugreifen, indem du auf die Menüschaltfläche (Drei-Punkt-Symbol) oben rechts im Hauptmenü klickst und dort ''Einstellungen'' auswählst:
+Du kannst auf die Einstellungen zugreifen, indem du auf die Menüschaltfläche (Drei-Punkt-Symbol) oben rechts im Hauptmenü tippst und dort ''Einstellungen'' auswählst:
 
 {{:en:settings_1_en.png?direct&250 |}}{{:en:settings_2_en.png?direct&250|}}
 
@@ -63,7 +63,7 @@ Du kannst c:geo autorisieren bei jedem Cache- oder Trackable-Log auf [[https://w
 
 {{ :en:services_twitter_2.png?direct&400 |}}
 
-Um Twitter zu autorisieren, aktiviere den Dienst und klicke auf ''c:geo autorisieren''.
+Um Twitter zu autorisieren, aktiviere den Dienst und tippe auf ''c:geo autorisieren''.
 Unterhalb der Autorisierungs-Schaltfläche kannst du die Vorlagen anpassen, welche für das Posten auf Twitter verwendet werden. Diese Vorlagen nutzen die selben [[settings#placeholder_templates|Platzhalter]], welche auch in der [[settings#logging|Log-Signatur]] verwendet werden.
 
 {{ :en:services_twitter_3.png?direct&400 |}}
@@ -126,12 +126,12 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 {{ :en:settings_maps_mapdata.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Kartenquelle wählen|Dies erlaubt dir die Karte festzulegen, welche in allen Kartenfunkionen von c:geo genutzt werden soll. Die Auswahl enthält sowohl alle verfügbaren Online-Karten als auch die Offline-Kartendateien, die in deinem Offline-Kartenverzeichnis gefunden wurden.\\ Du kannst diese Einstellung auch direkt auf der Live-Karte durch Anklicken des Kartensymbols und Auswahl einer anderen [[..mapsources|Kartenquelle]] ändern.|
+|Kartenquelle wählen|Dies erlaubt dir die Karte festzulegen, welche in allen Kartenfunkionen von c:geo genutzt werden soll. Die Auswahl enthält sowohl alle verfügbaren Online-Karten als auch die Offline-Kartendateien, die in deinem Offline-Kartenverzeichnis gefunden wurden.\\ Du kannst diese Einstellung auch direkt auf der Live-Karte durch Antippen des Kartensymbols und Auswahl einer anderen [[..mapsources|Kartenquelle]] ändern.|
 |Info zu Offline-Karten|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten [[..offline#offline_maps|Offline-Karten]] und einen Link zu unserer [[http://faq.cgeo.org|FAQ]].|
 |Verzeichnis mit Offline-Karten|Hier kannst du das Verzeichnis konfigurieren, welches deine Mapsforge [[..offline#offline_maps|Offline-Karten]] enthält.\\ \\ :!: Es ist möglich, dass der automatische Scan nicht alle Verzeichnisse oder Speichermedien durchsuchen kann. Wenn dein Kartenverzeichnis nicht automatisch gefunden wird, nutze bitte die Schaltfläche ''Verzeichnis wählen'', welche nach Abschluss des Scans angezeigt wird.|
 |Info zu Karten-Themes|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten Karten-Themen und einen Link zu unserer [[http://faq.cgeo.org|FAQ]].|
 |Karten-Themes-Verzeichnis|Hier kannst du das Verzeichnis konfigurieren, welches deine Karten-Themes enthält.|
-|Textgröße anpassen|Diese Option erlaubt es die Textkennzeichnungen auf deinen Offline-Karten abhängig von deiner Bildschirmauflösung zu skalieren. Eine Aktivierung hilft dabei, den Text auf den Karten bei Geräten mit hoher Bildschirmauflösung besser lesbar zu machen.// (Standard: Aktiviert)//|
+|Textgröße anpassen|Diese Funktion wurde mittlerweile entfernt.|
 |Kartendrehung (Google Maps)|Du kannst hier die Drehung der Karten nach Ausrichtung des Gerätes an- und ausschalten oder die manuelle Drehung erlauben. :!: Diese Funktion ist derzeit nur für Google Maps verfügbar.|
 
 <WRAP center round tip 100%>
@@ -156,7 +156,7 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 |Zeige Richtungslinie|Ein Aktiviern dieser Funktion zeigt eine Richtungslinie (oder eine Route, wenn Routingoptionen installiert sind) auf der Karte zwischen deiner Position und der Position des Navigationsziels.\\ Du aktivierst diese Richtungslinie durch Öffnen einer Karte für einen einzelnen Cache oder durch Auswahl eines Caches auf der Live-Karte und Aktivierung der Linie im Pop-up-Fenster des Caches (die zweite Möglichkeit wird derzeit nur bei Offline-Karten unterstützt). //(Standard: Aktiviert)//|
 |Zeige Positionsverlauf|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte anzeigt. //(Standard: Deaktiviert)// \\ \\ :!: Beachte bitte,dass sie nur genau ist so lange du die Karte nutzt und GPS aktiviert ist und wird Lücken haben, sobald du dein Gerät abschaltest oder GPS deaktivierst. Wenn du eine zuverlässige Aufzeichnung deines Tracks haben möchtest, solltest du lieber eine spezialisierte App dafür nutzen.|
 |Länge des Positionsverlaufs|Erlaubt es dir die Anzahl der Trackpunkte für den Positionsverlaufs zu erhöhen. Wenn das Limit erreicht ist, werden die ältesten Punkte gelöscht, wenn neue Punkte aufgezeichnet werden. Eine Anhebung der Begrenzung erhöht allerdings die Speicherauslastung. //(Standard: 700 Punkte)//|
-|Routenberechnung|Mit dieser Einstellung kannst du die maximale Entfernung setzen, bis zu der eine Route zwischen deiner Position und dem gewählten Cache berechnet und auf der Karte angezeigt wird. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl klicken und einen neuen Wert festlegen. //(Standard: 10km)// \\ \\ :!: Zur Nutzung dieser Funktion muss die [[.:utilityprograms|Brouter-App]] auf deinem Gerät installiert sein.|
+|Routenberechnung|Mit dieser Einstellung kannst du die maximale Entfernung setzen, bis zu der eine Route zwischen deiner Position und dem gewählten Cache berechnet und auf der Karte angezeigt wird. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen. //(Standard: 10km)// \\ \\ :!: Zur Nutzung dieser Funktion muss die [[.:utilityprograms|Brouter-App]] auf deinem Gerät installiert sein.|
 |Zeige Entfernung in Luftlinie|Wenn diese Option aktivier ist, wird bei aktiver Wegführung zusätzlich zur geführten Entfernung auch die Luftlinien-Entfernung angezeigt. //(Standard: Deaktiviert)//|
 
 ==== Kartenverhalten ====
@@ -173,8 +173,8 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 {{ :en:settings_maps_proximity.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Weite Entfernung|Definiert die weite Entfernung für die Annäherungsbenachrichtigung. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl klicken und einen neuen Wert festlegen.|
-|Nahe Entfernung|Definiert die nahe Entfernung für die Annäherungsbenachrichtigung. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl klicken und einen neuen Wert festlegen.|
+|Weite Entfernung|Definiert die weite Entfernung für die Annäherungsbenachrichtigung. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen.|
+|Nahe Entfernung|Definiert die nahe Entfernung für die Annäherungsbenachrichtigung. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen.|
 |Allgemeine Benachrichtigung auf der Karte|Ist diese Funktion aktiviert, wird ein einzelner Benachrichtigungston wiedergegeben, wenn irgendein Cache oder Wegpunkt auf der Karte näher als die weite oder nahe Entfernung kommt. Beim Erreichen der weiten Entfernung wird ein einzelner Ton wiedergegeben, bei Erreichen der nahen Entfernung wird ein dreifacher Ton wiedergegeben. //(Standard: Deaktiviert)//|
 |Spezielle Benachrichtigung für Wegpunkte|Ist diese Funktion aktiviert, wird ein wiederkehrender Benachrichtigungston wiedergegeben, wenn der aktuell ausgewählte Cache oder Wegpunkt näher als die weite oder nahe Entfernung kommt. Dies funktioniert wenn ein Cache oder Wegpunkt ausgewählt ist, ein Cache- oder Wegpunkt-Popup auf der Karte angezeigt wird oder der Kompass aktiv ist. Beim Erreichen der weiten Entfernung wird ein einzelner Ton wiedergegeben, bei Erreichen der nahen Entfernung wird ein dreifacher Ton wiedergegeben. //(Standard: Deaktiviert)//|
 |Art der Benachrichtigung|Mit diesem Menüeintrag kannst du auswählen, ob du eine Audiobenachrichtigung, eine Textbenachrichtigung in der Statusleiste oder beides erhalten möchtest.\\ Tipp: Wenn du auch eine Smartwatch nutzt, ermöglicht dir die Textbenachrichtigung eine Mitnutzung der Smartwatch, da die Benachrichtigung auch dort angezeigt werden sollte. //(Standard: Nur Ton)//|
@@ -221,7 +221,7 @@ Die folgende Tabelle gibt dir einen kurzen Überblick über die verschiedenen Li
 {{ :en:settings_logging_signature.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Signatur|Das Anklicken dieses Eintrags öffnet ein Textfenster, in dem du deine benutzerdefinierte Signatur festlegen kannst, die an jedes Log, welches du mit c:geo schreibst, angehangen werden kann.\\ Im Editor kannst du auf ''Platzhalter einfügen'' klicken, um eine Liste der möglichen Platzhalter (siehe Tabelle unten) anzuzeigen, die du in deiner Vorlage nutzen kannst.|
+|Signatur|Das Antippen dieses Eintrags öffnet ein Textfenster, in dem du deine benutzerdefinierte Signatur festlegen kannst, die an jedes Log, welches du mit c:geo schreibst, angehangen werden kann.\\ Im Editor kannst du auf ''Platzhalter einfügen'' tippen, um eine Liste der möglichen Platzhalter (siehe Tabelle unten) anzuzeigen, die du in deiner Vorlage nutzen kannst.|
 |Automatisch einfügen|Wenn diese Funktion aktiviert ist, wird deine benutzerdefinierte Signatur automatisch in den Logtext eingefügt, wenn du ein Log mit c:geo schreibst.\\ Wenn die Funktion deaktiviert ist, kannst du die benutzerdefinierte Signatur bei Bedarf einfügen, indem du während des Schreibens des Logs ''+'' und ''Signatur'' auswählst. //(Standard: Deaktiviert)//|
 
 === Platzhalter ===
@@ -363,7 +363,7 @@ Schaue auf die Seite [[..navigation|Unterstützte Navigationsmethoden]] für det
 
 ^ Menüeintrag ^ Beschreibung ^
 |Wiederherstellung starten|Diese Funktion stellt die neueste verfügbare Sicherung wieder her. Datum/Uhrzeit der neuesten Sicherungen werden unterhalb angezeigt. Im nächsten Schritt kannst du auswählen, ob du die Caches und/oder die Programmeinstellungen wiederherstellen willst.\\ :!: Die Wiederherstellung einer Sicherung wird alle Caches und/oder Programmeintellungen mit denen in der Sicherung **ersetzen**. Achte darauf, wenn du diese Funktion nutzt.|
-|Eine andere Sicherung wiederherstellen|Mit diesem Menüeintrag kannst du andere verfügbare Sicherungen als die Neueste zur Wiederherstellung auswählen. Nach Anklicken der Funktion wird ein Verzeichnisdialog geöffnet, der die verfügbaren Sicherungsverzeichnisse, benannt mit Datum und Uhrzeit der Sicherung, anzeigt, die unterhalb von ''/cgeo/backup'' verfügbar sind. Wähle das gewünschte Verzeichnis und drücke OK um die Wiederherstellung zu starten. Optional kannst du mit dem Verzeichnisdialog auch in ein anderes Verzeichnis wechseln, in dem du deine Sicherungsdateien abgelegt hast und diese zur Wiederherstellung auszuwählen.|
+|Eine andere Sicherung wiederherstellen|Mit diesem Menüeintrag kannst du andere verfügbare Sicherungen als die Neueste zur Wiederherstellung auswählen. Nach Antippen der Funktion wird ein Verzeichnisdialog geöffnet, der die verfügbaren Sicherungsverzeichnisse, benannt mit Datum und Uhrzeit der Sicherung, anzeigt, die unterhalb von ''/cgeo/backup'' verfügbar sind. Wähle das gewünschte Verzeichnis und drücke OK um die Wiederherstellung zu starten. Optional kannst du mit dem Verzeichnisdialog auch in ein anderes Verzeichnis wechseln, in dem du deine Sicherungsdateien abgelegt hast und diese zur Wiederherstellung auszuwählen.|
 
 
 

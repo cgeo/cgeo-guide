@@ -15,7 +15,7 @@ Während die Live-Karte angezeigt wird, wird der Bildschirm deines Gerätes nich
 
 <WRAP center round info 100%>
 Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
-Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol klicken um seine Funktion angezeigt zu bekommen.
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
 </WRAP>
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
@@ -58,7 +58,7 @@ Diese Tabelle beschreibt nur die verschiedenen Symboltypen, nicht die verschiede
 ===== Pop-up-Fenster auf der Karte =====
 {{anchor:map_popup_window:}}
 
-Wenn du ein Cachesymbol auf der Live-Karte anklickst, öffnet sich das folgende Pop-up-Fenster mit mehr Informationen über den ausgewählten Cache:
+Wenn du ein Cachesymbol auf der Live-Karte antippst, öffnet sich das folgende Pop-up-Fenster mit mehr Informationen über den ausgewählten Cache:
 
 {{:en:livemap_popup_1.png?direct&400 |}}{{ :en:livemap_popup_2.png?direct&400 |}}
 
@@ -165,7 +165,7 @@ Das Beispiel unten zeigt das typische Aussehen der Richtungslinite (mit und ohne
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 Es gibt zwei Wege um die Richtungslinie zu aktivieren:
-  - Klicke auf einen Cache, der auf der Karte angezeigt wird, und aktiviere die Richtungslinie indem du auf das entsprechende Symbol{{:ic_menu_publish_invert.png?nolink&30|}}im [[livemap#map_popup_window|Popup-Fenster]] der Karte klickst.
+  - Klicke auf einen Cache, der auf der Karte angezeigt wird, und aktiviere die Richtungslinie indem du auf das entsprechende Symbol{{:ic_menu_publish_invert.png?nolink&30|}}im [[livemap#map_popup_window|Popup-Fenster]] der Karte tippst.
   - Vom [[..:cachedetails|Menü in den Cache-Details]] kannst du das Menü Navigation - Karte nutzen um die Karte inkl. Richtungslinie zu öffnen.
 ==== GPX-Track/Route ====
 
@@ -248,7 +248,7 @@ Es werden entweder einige oder alle dieser Entfernung angezeigt, abhängig von d
   - Die zweite Angabe ist die geroutete Entfernung der Richtungslinie (d.h. die Entfernung zwischen deiner Position und dem gewählten Ziel-Cache/wegpunkt gemäß den [[..:brouter|BRouter]] Routing-Informationen). Wenn sowohl geroutete als auch direkte Entfernung aktiv sind, stellt das Symbol vor der Entfernungsangabe daher die geroutete Linie dar.
   - Die dritte Angabe ist die Länge der individuellen Route.
 
-Für eine bessere Sichtbarkeit kannst du auf die Entfernungen klicken um sie zu vergrößern und wieder zu verkleinern. Wenn die direkte und die geroutete Entfernung aktiv sind, wechselt jeder Klick zyklisch zwischen vergrößerter direkter Entfernung, vergrößerter gerouteter Entfernung und der normalen kleinen Ansicht.
+Für eine bessere Sichtbarkeit kannst du auf die Entfernungen tippen um sie zu vergrößern und wieder zu verkleinern. Wenn die direkte und die geroutete Entfernung aktiv sind, wechselt jeder Klick zyklisch zwischen vergrößerter direkter Entfernung, vergrößerter gerouteter Entfernung und der normalen kleinen Ansicht.
 
 {{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}
 

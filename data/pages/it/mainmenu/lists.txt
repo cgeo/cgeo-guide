@@ -1,4 +1,5 @@
 ====== Cache salvati ======
+
 {{:main_stored_default.png?nolink&100 |}}
 
 Questo menù elenca i Geocache attualmente archiviati sul tuo dispositivo mobile per l'utilizzo offline. Per una migliore esperienza di geocaching, c:geo ti consente di organizzare i tuoi geocache in più elenchi.
@@ -28,6 +29,7 @@ Se il titolo risulta <del>barrato</del> il cache corrispondente è temporaneamen
 Un breve clic su una delle voci dell'elenco aprirà i [[..:cachedetails|dettagli]] di questo cache, un tocco prolungato aprirà un [[lists#context_menu|menu contestuale]] con accesso diretto ad alcune funzioni relative al cache.
 
 Le informazioni mostrate per ogni geocache sul lato destro della visualizzazione elenco sono spiegate nella tabella seguente:
+
 ^Icona ^ Descriztione ^
 |{{ :en:lists_distance_direction.png?nolink&100 |}}|Distanza e direzione verso il cache in base alla posizione corrente (gli mutenti con un [[..:basicmembers|account base]] di geocaching.com vedranno solo alcune delle informazioni)|
 |{{ :en:lists_fav_vote.png?nolink&100 |}}|Il numero mostra la quantità di punti preferiti (geocaching.com) o consigliati (opencaching) di questo cache.\\ Il colore di sfondo rappresenta la valutazione [[http://gcvote.com|GCVote]] media del cache:\\ Verde = valutazione buona (> 3,5 stelle)\\ Marrone = Voto medio (tra 2,5 e 3,5)\\ Rosso = valutazione negativa (<2,5 stelle).\\ Se non viene visualizzato alcun colore, il cache non ha ancora voti o non è supportato in GCVote (GCVote attualmente supporta solo i cache presenti su geocaching.com).|
@@ -37,11 +39,11 @@ Le informazioni mostrate per ogni geocache sul lato destro della visualizzazione
 
 Se l'elenco che hai aperto è stato creato da un [[.search|risultato di ricerca]] o da una vista di [[.pocketquery|pocket query view]] ci sarà un pulsante alla fine dell'elenco chioamato ''Carica più cache (Attualmente: XX)'' che mostra quanti cache sono stati attualmente caricati nell'elenco e cliccandolo caricherà più risultati / voci di pocket query.
 
+
 ==== Menù contestuale ====
 {{anchor:context_menu:}}
 
-Con un lungo clic su una deli cache del tuo elenco, verrà aperto il seguente menu contestuale, che ti fornisce l'accesso ad alcune azioni dirette su questo cache:
-
+Con un lungo clic su uno dei cache dell'elenco, verrà aperto il seguente menu contestuale, che fornisce l'accesso ad alcune azioni dirette su questo cache:
 
 {{ :en:lists_cache_contextmenu.png?direct&400 |}}
 
@@ -52,7 +54,7 @@ Con un lungo clic su una deli cache del tuo elenco, verrà aperto il seguente me
 |Scrivi log|Porterà direttamente alla [[..:logging|pagina di log]] di questo cache per registrare il ritrovamento.|
 |Remuovi|Elimina questo cache dall'elenco corrente.|
 |Muovi in un altra lista|Sposta questo cache in un altra lista.|
-|Copia in una lista diversa|copia questo cache in un altra lista, senza cancellarlo dalla lista corrente.|
+|Copia in una lista diversa|Copia questo cache in un altra lista, senza cancellarlo dalla lista corrente.|
 |Aggiorna|Aggiorna i dettagli del cache scaricando i dati dal server di geocaching|
 
 
@@ -62,7 +64,6 @@ Con un lungo clic su una deli cache del tuo elenco, verrà aperto il seguente me
 <WRAP center round info 100%>
 Le icone mostrate nella barra superiore e il contenuto dietro il pulsante del menu di overflow vengono posizionati dinamicamente in base alla risoluzione del dispositivo e all'orientamento dello schermo. Pertanto potrebbe essere possibile trovare più o meno elementi dietro il pulsante del menu o mostrati invece come icone nella barra superiore del dispositivo.\\
 Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lungo l'icona per ottenere un popup che mostra la sua funzione.
-
 </WRAP>
 
 {{ :en:list_menu.png?direct&400 |}}
@@ -90,7 +91,7 @@ Questa funzione consente di filtrare l'elenco in base a vari criteri.
 {{ :en:lists_filtermenu.png?direct&400 |}}
 
 <WRAP center round info 100%>
-Oltre al Filtro tipo cache globale, questo filtro si applica solo agli elenchi, ma può essere combinato con un filtro globale se necessario.
+Il [[globaltypefilter|Filtro per tipo di cache]], si applica solo agli elenchi, ma può essere combinato con altri filtri se necessario.
 </WRAP>
 
 ^ Voce di Menù ^ Descrizione ^
@@ -107,8 +108,8 @@ Oltre al Filtro tipo cache globale, questo filtro si applica solo agli elenchi, 
 |Preferiti|Mostra solo i cache con un determinato intervallo di punti preferiti.|
 |Preferiti [%]|Mostra solo i cache con un determinato intervallo di percentuali di punti preferiti.\\ \\ :!: Questo filtro fornirà risultati affidabili solo se utilizzato in un elenco di cache memorizzati, ma non per i risultati di ricerca.|
 |Con dati personali|Consente di filtrare i cache in cui sono state aggiunte informazioni personali (ad es. Registri offline, note personali).|
-|Assegnato a una lista|Versione Beta|
-|Nazione|Versione Beta|
+|Assegnato a una lista|Solo versione Beta|
+|Nazione|Solo versione Beta|
 
 ==== Ordina ====
 {{anchor:sorting:}}
@@ -128,9 +129,8 @@ Selezionando due volte la stessa opzione di ordinamento potrai invertire l'ordin
 |Dimensione|Ordina per informazioni sulla dimensione del cache.|
 |Distanza|Ordina per distanza tra la tua posizione e il cache.\\ //(Questo è l'ordinamento predefinito per le liste di cache)//|
 |Il tuo Voto|Ordina in base alla personale valutazione [[http://gcvote.com|GCVote]] del cache.|
-|Nome|Ordina alfabeticamente per titolo del cache.\\ //(Se c:geo rileva che il tuo elenco sembra contenere una serie di cache 
+|Nome|Ordina alfabeticamente per titolo del cache.\\ //(Se c:geo rileva che il tuo elenco sembra contenere una serie di cache simili (ad esempio una traccia di cache con un nome fisso e numeri incrementati), questo ordinamento verrà utilizzato per impostazione predefinita).//||
 |Numero ritrovamenti|Ordina in base a quante volte è stato trovato un cache.|
-simili (ad esempio una traccia di cache con un nome fisso e numeri incrementati), questo ordinamento verrà utilizzato per impostazione predefinita).//|
 |Oggetti Trackable|Ordina in base alla quantità di oggetti trackable contenuti nel cache.|
 |Preferiti|Ordina per quantità di punti preferiti del cache.|
 |Preferiti [%]|Ordina per percentuale preferita del cache.\\ \\ :!: Questo metodo di ordinamento fornisce risultati affidabili solo se utilizzato in un elenco di cache memorizzate, ma non nei risultati di ricerca.|

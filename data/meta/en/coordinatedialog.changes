@@ -76,3 +76,7 @@
 1533127267	213.61.154.140	E	en:coordinatedialog	lineflyer	[Using ''Plain'' Coordinate Format] 		-4
 1534894111	178.27.64.1	E	en:coordinatedialog	matze2	[Using Plain Coordinate Format] Nested square brackets		43
 1539136880	37.219.233.104	E	en:coordinatedialog	vike91	Fixed the missing { in the Further information part which broke the description text and the first YT link		1
+1611437397	2.205.115.174	E	en:coordinatedialog	lineflyer	Replace clicking by tapping		-3
+1611437453	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437533	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace clicked by tapped		-1
+1611437647	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace click by tap		-6

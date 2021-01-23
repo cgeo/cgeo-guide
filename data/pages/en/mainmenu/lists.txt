@@ -10,7 +10,7 @@ You can always access the information in these lists, even if you have no networ
 {{anchor:cache_list:}}
 
 <WRAP center round tip 100%>
-Click on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used on the cache lists.
+Tap on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used on the cache lists.
 </WRAP>
 
 <WRAP center round info 100%>
@@ -26,7 +26,7 @@ The color stripe on the very left indicates (in addition to the markers on the c
 
 If the title is <del>strike through</del> the corresponding cache is temporarily disabled, if the cache title is additionally shown in <color #ed1c24>red letters</color> the cache is archived and no longer available.
 
-A short click on one of the list entries will open the [[..:cachedetails|details]] of this cache, a long click will open a [[lists#context_menu|context menu]] with direct access to some cache related functions.
+A short tap on one of the list entries will open the [[..:cachedetails|details]] of this cache, a long tap will open a [[lists#context_menu|context menu]] with direct access to some cache related functions.
 
 The information shown for each geocache on the right side of the list view is explained in the table below:
 
@@ -37,20 +37,20 @@ The information shown for each geocache on the right side of the list view is ex
 
 ==== Load more option ====
 
-If the list you opened is created from a [[.search|search result]] or a [[.pocketquery|pocket query view]] there will be a button at then end of the list labeled ''Load more caches (Currently: XX)'' showing how many caches have currently been loaded to the list and clicking on it will load more results / pocket query entries.
+If the list you opened is created from a [[.search|search result]] or a [[.pocketquery|pocket query view]] there will be a button at then end of the list labeled ''Load more caches (Currently: XX)'' showing how many caches have currently been loaded to the list and tapping on it will load more results / pocket query entries.
 
 
 ==== Context menu ====
 {{anchor:context_menu:}}
 
-At a long click on one of the caches on your list, the following context menu will be opened, providing you access to some direct actions on this cache:
+At a long tap on one of the caches on your list, the following context menu will be opened, providing you access to some direct actions on this cache:
 
 {{ :en:lists_cache_contextmenu.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
 |Compass|Opens the compass to directly navigate to this cache.|
 |Navigate|Opens the complete [[..:navigation|navigation options]] to select one of the supported navigation methods to this cache.|
-|Details|Will open the [[..:cachedetails|cache details]] of this cache. //(same as short click)//|
+|Details|Will open the [[..:cachedetails|cache details]] of this cache. //(same as short tap)//|
 |Log Visit|Will take your directly to the [[..:logging|logging page]] for this cache to compose your log.|
 |Remove|Delete this cache from your current list.|
 |Move to different list|Move this cache onto another list.|
@@ -70,11 +70,11 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 
 
 ^ Icon/Section ^ Function ^ Description ^
-|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|List Management]]|This section shows either the name of the current list or the search information in case a list is opened as a [[search|search result]] or the pocket query name in case the list is opened from a [[pocketquery|pocket query]].\\ Furthermore the amount of caches on the current list (limited to the filtered caches if applicable). Clicking on this section will open the list of all cache lists to select another cache list to display.|
-|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|This line will only show up in case a [[globaltypefilter|Global Cache Type Filter]] or a [[lists#filtering|List Filter]] is active.\\ Clicking on this line will directly take you to the corresponding filter dialog.|
-|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Map the list]]|Clicking this icon will show the caches on this list on a [[livemap|map]].|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Clicking this icon will open a filter dialog to filter the caches on your list according to various criteria.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|List Management]]|This section shows either the name of the current list or the search information in case a list is opened as a [[search|search result]] or the pocket query name in case the list is opened from a [[pocketquery|pocket query]].\\ Furthermore the amount of caches on the current list (limited to the filtered caches if applicable). Tapping on this section will open the list of all cache lists to select another cache list to display.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|This line will only show up in case a [[globaltypefilter|Global Cache Type Filter]] or a [[lists#filtering|List Filter]] is active.\\ Tapping on this line will directly take you to the corresponding filter dialog.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Map the list]]|Tapping this icon will show the caches on this list on a [[livemap|map]].|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your list according to various criteria.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 |{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sorting]]|You can use this function to sort the list according to your needs.|
 |{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Select mode]]|Using this function will put the list into a selection mode allowing you to select a subset of caches on the list in order to use the ''Manage Caches'' function on this selection.|
 |[[lists#show_on_map|Show on map]]||This is a similar function to the ''Map List'' function/icon explained above, but also supports opening all caches from the list on other maps and in external apps.|

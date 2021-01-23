@@ -25,14 +25,14 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :en:livemap_progress.png?nolink&80 |}} |Progress spinner|A small blue line directly underneath the title bar is shown as progress indicator while the live map is loading data from the geocaching servers and/or from your cache lists. It will disappear if the live map has finished loading.|
 |{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Center Position|This button can be used to center the map on your current position. \\ \\ If the map is centered to your position a filled icon is shown.|
 |{{ :ic_action_layers_revert.png?nolink&40 |}}|Map Source Selection|Use this button to change the active [[..:mapsources|map source]]|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow Menu Button|Clicking here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow Menu Button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Store all|Saves all caches shown on the map onto your stored caches list. Caches already stored will be refreshed during this process.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Store unsaved|Saves all caches shown on the map, except the ones already stored, onto your stored caches list.|
 | | Map rotation |This will open a menu to switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
 | | History track |Opens a sub menu containing option to show/hide, clear and export the history track (the history of your movement).|
 | | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
-| | Individual route |This will open a sub menu to manage, load or hide an [[livemap#map_navigation|individual route]], which you created by long clicking elements on the map. The long click function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
+| | Individual route |This will open a sub menu to manage, load or hide an [[livemap#map_navigation|individual route]], which you created by long tapping elements on the map. The long tap function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
 | |[[lists#cache_list|Show as list]]|This will display all caches shown on the map as [[lists|cache list]].|
 | |[[settings#map_content|Clear trail history]]|This will delete the history of the position trail on map.|
 ===== Map content =====
@@ -45,7 +45,7 @@ The live map always shows a combination of caches loaded live from all your enab
 The following table describes the different marker types used on the live map.
 
 <WRAP center round tip 100%>
-The table will only describe the different icon types, but not the different types of Geocaches. Click on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used throughout c:geo.
+The table will only describe the different icon types, but not the different types of Geocaches. Tap on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used throughout c:geo.
 </WRAP>
 
 ^ Icon ^ Description ^ 
@@ -60,7 +60,7 @@ The table will only describe the different icon types, but not the different typ
 ===== Map popup window =====
 {{anchor:map_popup_window:}}
 
-If you click on a cache icon on the live map the following popup windows will be shown above the map, providing additional information for the selected cache:
+If you tap on a cache icon on the live map the following popup windows will be shown above the map, providing additional information for the selected cache:
 
 {{:en:livemap_popup_1.png?direct&400 |}}{{ :en:livemap_popup_2.png?direct&400 |}}
 
@@ -71,7 +71,7 @@ This section of the map popup provides several menu options concerning the selec
 
 ^ Icon/Option ^ Description ^
 |{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the title of the selected cache.|
-|{{ :actionbar_compass_light.png?nolink&40 |}}|A short click on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
+|{{ :actionbar_compass_light.png?nolink&40 |}}|A short tap on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
 |{{ :ic_menu_publish_invert.png?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|
 |Compass|This opens the compass for this cache.|
@@ -101,7 +101,7 @@ Some of the information might not be shown depending on the loading status of th
 |Rating|Shows the quality rating of this cache from [[http://gcvote.com|GCVote]] if this service is enabled in the [[settings#services|c:geo settings]] as decimal value as well as graphical.\\ The value shown in parenthesis is the number of votes given for this cache.|
 |Favorite|The amount of favorite points (geocaching.com) or recommendations (Opencaching platforms) the selected cache has been awarded. The percentage value is the amount of favorite points divided by the number of total finds.|
 |More details|This button will take you to the [[..:cachedetails|cache detail page]] of the selected cache providing the full information for this geocache.|
-|{{:ic_menu_hint.png?40|}}|This button is only available if the cache as a owners hint or a personal note stored. Clicking the button will display the hint and/or personal note at the [[#hint_section|bottom]] of the popup window.|
+|{{:ic_menu_hint.png?40|}}|This button is only available if the cache as a owners hint or a personal note stored. Tapping the button will display the hint and/or personal note at the [[#hint_section|bottom]] of the popup window.|
 
 ==== List managegment ====
 {{anchor:list_management:}}
@@ -112,7 +112,7 @@ This section of the map popup provides several options to manage the storage sta
 
 ^ Icon/Option ^ Description ^
 |{{ :en:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Clicking this button will refresh the cache information by updating it from the geocaching server.|
+|{{ :ic_menu_refresh.png?nolink&40 |}}|Tapping this button will refresh the cache information by updating it from the geocaching server.|
 |{{ :en:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[lists|cache lists]] this field shows you the list(s) it is stored in.|
 |{{ :ic_menu_save.png?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
 |{{ :ic_menu_edit.png?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
@@ -121,7 +121,7 @@ This section of the map popup provides several options to manage the storage sta
 ==== Hint/Note section ====
 {{anchor:hint_section:}}
 
-If you clicked the hint button in the cache information section of the popup window, the owners hint and/or your personal note will be shown at the bottom of the popup window. In case of a long text you can scroll this part of the popup window.
+If you tapped the hint button in the cache information section of the popup window, the owners hint and/or your personal note will be shown at the bottom of the popup window. In case of a long text you can scroll this part of the popup window.
 
 {{ :en:livemap_popup_hint.png?direct&400 |}}
 
@@ -171,7 +171,7 @@ The example below shows the typical appearance of the direction line (with and w
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 There are two ways to activate the direction line:
-  - Click on a cache, which is shown on map, and activate the direction line with the corresponding icon{{:ic_menu_publish_invert.png?nolink&30|}}shown in the [[livemap#map_popup_window|map popup]].
+  - Tap on a cache, which is shown on map, and activate the direction line with the corresponding icon{{:ic_menu_publish_invert.png?nolink&30|}}shown in the [[livemap#map_popup_window|map popup]].
   - From [[..:cachedetails|cache details menu]] use Navigation - Map to open the map including direction line.
 ==== GPX track/route ====
 
@@ -197,7 +197,7 @@ To load or unload a GPX track you have to use the map menu items below ''GPX tra
 An individual route can be created by long tapping several caches/waypoints on the (live) map. A route will then be drawn between each of the selected caches/waypoints in sequence of your selection. This allows you to create a custom route between caches and can be e.g. used to plan your caching trip.
 
 <WRAP center round important 60%>
-To make use of the individual route feature you need to enable the long click function on the map in your [[.:settings#map_behavior|map behavior settings]].
+To make use of the individual route feature you need to enable the long tap function on the map in your [[.:settings#map_behavior|map behavior settings]].
 </WRAP>
 
 
@@ -209,7 +209,7 @@ The example below shows the typical appearance of an individual route.
 
 {{ :en:brouter_individualroute.png?direct&250 |}}
 
-While you can add and remove caches/waypoints to/from your rote by long clicking them, there are also some additional functions, which can be found below the menu item ''Individual route'' in your [[livemap#top_bar_menu|map menu]]:
+While you can add and remove caches/waypoints to/from your rote by long tapping them, there are also some additional functions, which can be found below the menu item ''Individual route'' in your [[livemap#top_bar_menu|map menu]]:
 
 
 
@@ -257,6 +257,6 @@ Some or all of these distance figures might be shown depending on configuration 
   - The second figure is the routed line distance for the direction line (i.e. the distance between your position and the chosen target cache/waypoint according to the [[..:brouter|BRouter]] routing information). The icon in front represents therefore the routed line if both routed and straight line distances are shown.
   - The third figure is the length of your individual route.
 
-For better visibility you can click on the distances to supersize them and reduce them again. If straight and routed distances are shown each click will let you cycle between straight distance enlarged, routed distance enlarged or normal view.
+For better visibility you can tap on the distances to supersize them and reduce them again. If straight and routed distances are shown each tap will let you cycle between straight distance enlarged, routed distance enlarged or normal view.
 
 {{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}
