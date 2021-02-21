@@ -6,5 +6,11 @@ Vous pouvez changer le type de carte dans les [[.mainmenu:settings#maps|paramèt
 ^ Nom ^ Description ^ 
 |Google Maps : Plan|Une carte routière en ligne fournie par [[https://google.com|Google]].|
 |Google Maps : Satellite|Une vue satellite en ligne fournie par [[https://google.com|Google]].|
-|OSM : Carte|Une carte participative en ligne fournie par [[https://openstreetmap.org|OpenStreetMap]].|
+|OpenStreetMap.org|Une carte participative en ligne fournie par [[https://openstreetmap.org|OpenStreetMap.org]].|
+|OpenStreetMap.de|Une carte participative en ligne fournie par [[https://openstreetmap.de|OpenStreetMap.de]].|
+|CyclOSM|Une carte en ligne axée sur le vélo fournie par [[https://cyclosm.org|CyclOSM.org]].|
 |Hors-ligne|Des [[offlinemaps|cartes hors-ligne]] provenant de fichiers cartes utilisant le format [[https://mapsforge.net|Mapsforge]].\\ Au lieu de "Hors-ligne" les noms des cartes disponibles seront affichés dans le menu de sélection.|
+
+<WRAP center round info 100%>
+La rotation des cartes (dans le sens de la marche) n'est actuellement prise en charge que pour Google Maps. Ainsi, tous les autres types de carte sont toujours affichés en direction nord. Mais nous y travaillons.
+</WRAP>

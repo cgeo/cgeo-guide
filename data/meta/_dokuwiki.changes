@@ -1073,3 +1073,10 @@
 1611438204	2.205.115.174	e	en:logging	lineflyer	Replace Click by Tap (Capital letter)		-2
 1611438204	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace Click by Tap (Capital letter)		-2
 1611438281	2.205.115.174	e	de:start	lineflyer	remove white space		-1
+1612259523	2a00:ee2:f012:696:48aa:bbed:dac1:6138	e	fr:start	ijeantet	[Liens utiles] 		-2
+1612259573	2a00:ee2:f012:696:48aa:bbed:dac1:6138	e	fr:start	ijeantet	[Liens utiles] 		2
+1612272572	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:translation	ijeantet	End of the French translation		-1612
+1613378871	2a00:ee2:f012:696:48aa:bbed:dac1:6138	e	fr:mainmenu:settings	ijeantet	[Map] 		2
+1613383360	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Map Data] Translate to French		247
+1613383953	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mapsources	ijeantet	Update French translation with new map sources		471
+1613385376	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Waypoints]  Translate to French		302

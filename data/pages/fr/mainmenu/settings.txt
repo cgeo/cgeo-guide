@@ -118,36 +118,36 @@ Dans ce menu, vous pouvez configurer certains paramètres de base de l'interface
 |Exclure les caches désactivées|Cette option masque les caches temporairement désactivées dans toutes les fonctions "en ligne" de c: geo. Les caches désactivées seront cependant toujours affichées dans vos listes de caches enregistrées.|
 |Exclure les éléments archivés|Cette option masque les caches archivées sur la carte. Les caches archivées seront cependant toujours affichées dans vos listes de caches enregistrées.|
 
-===== Map =====
+===== Carte =====
 {{anchor:map:}}
 
-==== Map Data ====
+==== Données cartographiques ====
 {{anchor:map_data:}}
 
-{{ :en:settings_maps_mapdata.png?direct&400 |}}
+{{ :fr:settings_maps_mapdata.png?direct&400 |}}
 
-^ Menu item ^ Description ^
-|Select Map Source|This allows you to define the map, which shall be used in all map functions of c:geo. The menu will contain all available online maps as well as the offline map files found in your offline map directory. \\ You can change this setting also directly from the live map by clicking the map layer icon and selecting another [[..mapsources|map source]].|
-|Info on Offline Maps|This info item will provide you more detailed information about supported [[..offline#offline_maps|offline map]] formats and a link to our [[http://faq.cgeo.org|FAQ]].|
-|Directory with offline maps|Here you can configure the directory, which contains your Mapsforge [[..offline#offline_maps|offline map]] files.\\ \\ :!: The automatic scan might not be able to search in all directories/storage. In case your map directory is not found automatically, please use the ''Choose directory'' button shown after the scan is completed.|
-|Info on Map Themes|This info item will provide you more detailed information about supported offline map themes and a link to our [[http://faq.cgeo.org|FAQ]].|
-|Map Themes Directory|Here you can configure the directory, which contains your offline map themes.|
-|Scale Map Text|This option allows scaling the text labels of your offline maps depending on your device display resolution. Activating it will help to get the text more readable on devices with a rather high display resolution.//(Default: Activated)//|
-|Map rotation (Google Maps)|You can switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
+^ Nom ^ Description ^
+|Choisir la source des cartes|Permet de définir la carte qui sera utilisée pour toutes les fonctions de carte de c:geo. Ce menu contiendra toutes les cartes en ligne disponibles ainsi que les fichiers de carte hors ligne trouvés dans votre répertoire de cartes hors ligne.\\ Vous pouvez également modifier ce paramètre directement à partir de la carte temps réel en cliquant sur l'icône de couche de carte et en sélectionnant une autre [[..mapsources|source de carte]].|
+|Information sur les cartes hors ligne|Fournit des informations plus détaillées sur les formats de [[..offline#offline_maps|carte hors ligne]] pris en charge et un lien vers notre [[..offlinemaps|tutoriel]].|
+|Télécharger des cartes hors ligne|Permet de sélectionner des cartes hors ligne à télécharger sur votre appareil.|
+|Dossier cartes hors ligne|Permet de configurer le répertoire qui contiendra vos fichiers de [[..offline#offline_maps|carte hors ligne]] Mapsforge.\\ \\ :!: L'analyse automatique peut ne pas être en mesure de rechercher dans tous les répertoires de votre appareil. Dans le cas où votre répertoire de carte ne serait pas trouvé automatiquement, vous pouvez utiliser le bouton ''Choisir le dossier'' affiché une fois l'analyse terminée.|
+|Information sur les thèmes de carte|Fournit des informations plus détaillées sur les thèmes de carte hors ligne pris en charge et un lien vers notre [[..offlinemaps|tutoriel]].|
+|Dossier thèmes cartes hors ligne|Permet de configurer le répertoire qui contiendra vos thèmes de carte hors ligne.|
+|Rotation de la carte (Google Maps)|Active/désactive la rotation de la carte en fonction de l'orientation de votre appareil ou active la rotation manuelle.\\ \\ :!: Cette fonction n'est actuellement disponible que pour Google Maps.|
 
 <WRAP center round tip 100%>
-Learn more about the c:geo offline maps by reading the chapter about [[..offline|Offline Caching]]!
+En savoir plus sur les cartes hors ligne dans c:geo en lisant le chapitre sur les [[..offline|fonctionnalités hors ligne]] ou directement notre [[..offlinemaps|tutoriel]] !
 </WRAP>
 
-==== Waypoints ====
+==== Points de passage ====
 {{anchor:waypoints:}}
 
-{{ :en:settings_maps_waypoints.png?direct&400 |}}
+{{ :fr:settings_maps_waypoints.png?direct&400 |}}
 
-^ Menu item ^ Description ^
-| Show Waypoints |Here you can set the limit for showing waypoints of (saved) caches on the map.\\ If less than the selected amount of caches are displayed on the visible map area, their waypoints are shown additionally. You can either use the slider to set the value or click on the number to set a new value. //(Default: 20)//|
-| Hide Waypoints |These sub items allow to hide certain waypoint types on the map:\\ 1. Hide original waypoints: If a cache has modified listing coordinates assigned and thus a waypoint automatically created, which contains the original listing coordinates, this function will hide this original coordinate waypoint.\\ 2. Hide parking waypoints: Enabling this option will hide all waypoints of the type “Parking”.\\ 3. Hide visited waypoints: Enabling this option will hide all waypoints, which are marked as visited by the user in c:geo.\\ //(Default: All off)//|
-| Zoom includes waypoints |If this setting is enabled the zoom level will include all waypoints of a cache, if you open a map for a single cache. //(Default: Off)//|
+^ Nom ^ Description ^
+|Afficher les points de passage|Ici, vous pouvez définir un seuil limite pour afficher les points de passage des caches (enregistrées) sur la carte.\\ Si le nombre de caches affichées sur la zone de carte visible est inférieur à ce seuil, leurs points de passage seront affichés en plus. Vous pouvez utiliser le curseur pour modifier le seuil ou cliquer sur le nombre pour saisir une nouvelle valeur. //(Par défaut : 20)//|
+|Masquer les points de passage|Ces options permettent de masquer certains types de points de passage sur la carte :\\ 1. Masquer les point de passage d'origine : Si une cache a une liste de coordonnées modifiées et donc un point de passage créé automatiquement, qui contient une liste de coordonnées d'origine, cette fonction masquera le point de passage d'origine.\\ 2. Masquer les points de passage de stationnement : L'activation de cette option masquera tous les points de passage de type ''Parking''.\\ 3. Masquer les points de passage visités : L'activation de cette option masquera tous les points de passage marqués comme visités par l'utilisateur dans c:geo.\\ //(Par défaut : tous désactivés)//|
+|Inclure les points de passage dans le zoom|Si ce paramètre est activé, le niveau de zoom inclura tous les points de passage d'une cache si vous ouvrez une carte pour une seul cache. //(Par défaut: désactivé)//|
 ==== Map Content ====
 {{anchor:map_content}}
 
