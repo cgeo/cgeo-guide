@@ -30,18 +30,38 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 |{{:ic_menu_edit.png?nolink&40 |}}|Log Visit|This opens the [[logging|logging window]] to log the cache.|
 |{{ :ic_menu_start_conversation.png?nolink&40 |}}|Toggle talking|Will start or stop the text-to-speech output of direction and distance towards the target.\\ You can also switch off the display once talking function has been started.|
-|{{:ic_menu_rotate.png?nolink&40 |}}|Caches around|This option starts a [[.mainmenu:lists|nearby search]] around the coordinates of the cache and will display the results.|
-|{{ :ic_menu_save.png?nolink&40 |}}|Store|Will store the cache to your [[.mainmenu:lists|lists]] or - if it is already stored - allows you to store it to another list.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Refresh|Selecting this option will refresh the cache information by updating it from the geocaching server.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Remove|This will delete the cache from your lists.|
-|Vote||This will open the [[http://gcvote.com|GCVote]] dialog for the cache.|
-|Share cache||Will share a link to the cache using the built-in Android share options.|
+|Open in Browser||Will open the cache either in your prefered internet browser or (if activated in [[.:mainmenu:settings#cache-details|cache detail settings]]) using a chrome webview inside of c:geo.|
 |Open Geochecker||This will open the geochecker of this cache in your web browser.\\ \\ :!: This menu entry is only available if the cache description of this cache contains a link to a (known) geochecker.|
-|Ignore cache||This will put the cache on the servers ignore list.\\ \\ :!: Ignoring a cache means, that this cache will never occur again when loading data from the geocaching server. You will only be able to see the cache again by unignoring it on the geocaching website.|
-|Extract Waypoints||This function will scan the cache description for valid coordinates and automatically create a waypoint for each coordinate found in the listing.\\ This can be a helpful feature in case the cache owner did not create dedicated waypoints but only lists the coordinates in the cache description.|
-|Export||Allows you to export the caches as GPX, a field note or its personal note.|
 |Personal note||This function will directly open the editor for the personal note, which can also be found in the [[cachedetails#description_tab|description tab]]|
+|Waypoints||Containing a submenu with options concerning waypoints of this cache (see next chapter for explanation).|
+|Share/Export||Submenu which contains several options to share or export the cache or its information (see next chapter for explanation).|
+|Advanced||Containing several advanced actions for the cache (see next chapter for explanation).|
 
+==== Waypoints submenu ====
+
+{{ :en:cachedetails_topbar2.png?direct&400 |}}
+
+^ Function ^ Description ^
+|Extract Waypoints|This function will scan the cache description for valid coordinates and automatically create a waypoint for each coordinate found in the listing.\\ This can be a helpful feature in case the cache owner did not create dedicated waypoints but only lists the coordinates in the cache description.|
+|Prevent/Allow waypoints from note|Activating this function will prevent/allow, that c:geo extracts coordinates found in the personal note of this cache.|
+
+==== Share/Export submenu ====
+
+{{ :en:cachedetails_topbar3.png?direct&400 |}}
+
+^ Function ^ Description ^
+|Share cache|Will share a link to the cache using the built-in Android share options.|
+|GPX|Allows you to export the caches as GPX file.|
+|Field Note|Will export your offline log for this cache as field note file.|
+
+==== Advanced submenu ====
+
+{{ :en:cachedetails_topbar4.png?direct&400 |}}
+
+^ Function ^ Description ^
+|Caches around|This option starts a [[.mainmenu:lists|nearby search]] around the coordinates of the cache and will display the results.|
+|Vote|This will open the [[http://gcvote.com|GCVote]] dialog for the cache.|
+|Ignore cache|This will put the cache on the servers ignore list.\\ \\ :!: Ignoring a cache means, that this cache will never occur again when loading data from the geocaching server. You will only be able to see the cache again by unignoring it on the geocaching website.|
 
 ===== Details tab =====
 {{anchor:details_tab:}}

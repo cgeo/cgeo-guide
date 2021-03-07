@@ -197,17 +197,18 @@ The following table briefly describes the different lines and circles and their 
 |History track|If the history track is activated in [[.settings#map_content|map content settings]] a track of your movement will be drawn on the map.|
 |Direction line|The direction line is a straight or specific routed navigation path (if the [[.utilityprograms|BRouter]] app is installed) from your current position towards a selected cache or waypoint (navigation target).|
 |Individual route|An individual route is a collection of caches or waypoints you selected sequentially by long tapping them on the map. This function can be used to plan your caching trips by drawing a route from one cache/waypoint to another. The long tap function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
-|Individual track|The individual track is a track or route you imported from a GPX file in the [[.livemap#top_bar_menu|live map menu]]. It can be used to visualize a given track you want to follow.|
+|GPX track/route|The GPX track/route you imported from a GPX file in the [[.livemap#top_bar_menu|live map menu]]. It can be used to visualize a given track you want to follow.|
 |Circle|If activated in the [[.livemap#map_settings|map setting menu on the map]] c:geo will show circles with a distance of 1/10 mile (161 meters) around all physical waypoints (i.e. traditional caches, physical stages of a cache, mystery caches with corrected coordinates). This is the minimum distance placed caches need to have on geocaching.com and these circle might be helpful when you are planning to hide a new cache and are looking for a position.|
+|Accuracy circles|This is a small circle drawn around your current position. It represents the uncertainty of your GPS position.|
 
 
-==== Mapsforge API ====
-{{anchor:mapsforge_api:}}
+==== Other map settings ====
+{{anchor:other:}}
 
-{{ :en:settings_maps_mapsforgeapi.png?direct&400 |}}
+{{ :en:settings_maps_other.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Old Mapsforge V3|Since June 2018 c:geo supports a newer version of the Mapsforge libraries. As some functions of these new libraries are still under development, you can revert back to the old Mapsforge v3 libraries by activating this option in case of need.\\ It is however highly recommended to use the newer libraries due to a wider support of offline maps and better performance. //(Default: Deactivated)//|
+|Multi-threaded (OSM)|When activated the OSM map renderer uses multiple threads on your device processor to render the map. This will speed up map drawing but might in rare cases lead to drawing problems. It should be deactivated if you encounter problems in map display. //(Default: Activated)//|
 
 ===== Logging =====
 {{anchor:logging:}}

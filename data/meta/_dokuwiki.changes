@@ -1,23 +1,3 @@
-1583172000	163.158.56.205	e	nl:sidebar	linstylemon			54
-1583172841	163.158.56.205	e	nl:offlinemaps	linstylemon	[Downloaden van kaarten/thema's] 		92
-1583173012	163.158.56.205	E	nl:offlinemaps	linstylemon	[Installation]  NL		107
-1583173187	163.158.56.205	E	nl:start	linstylemon	[Speciale functies en hints] 		6
-1583358175	163.158.56.205	E	nl:offlinemaps	linstylemon	[Map files] 		11
-1583504791	131.254.18.129	E	fr:start	ijeantet	Update Démarrage rapide		-22
-1583513966	131.254.18.129	C	fr:installation	ijeantet	Première traduction Anglais -> Français		6591
-1583586252	109.10.43.173	E	fr:installation	ijeantet	[Mise à jour] Image de notification		-53
-1583586535	109.10.43.173	E	fr:installation	ijeantet	Remove FIXME as the translation is complete		-159
-1583591032	109.10.43.173	e	fr:installation	ijeantet	Correction de typos		12
-1583592452	109.10.43.173	C	fr:firststeps	ijeantet	Première traduction Anglais -> Français (Mise en route et configuration)		4896
-1583604992	109.10.43.173	E	fr:firststeps	ijeantet	Traduction "Se connecter à geocaching.com"		588
-1583605541	109.10.43.173	E	fr:sidebar	ijeantet	Traduction du menu "Démarrage rapide"		53
-1583605576	109.10.43.173	E	fr:start	ijeantet	[A propos de c:geo] 		0
-1583605765	109.10.43.173	E	fr:start	ijeantet	Update anchors		5
-1583606099	109.10.43.173	E	fr:start	ijeantet	Update anchors		0
-1583606216	109.10.43.173	e	fr:sidebar	ijeantet			-2
-1583608486	109.10.43.173	E	fr:firststeps	ijeantet	Traduction "Se connecter à des plateformes Opencaching"		178
-1583618944	163.158.56.205	E	nl:offlinemaps	linstylemon	[Themes]  NL		50
-1583619623	163.158.56.205	e	nl:offlinemaps	linstylemon	[Configuration] 		63
 1583744065	131.254.18.129	E	fr:firststeps	ijeantet	Fin de la traduction du texte		96
 1583745600	131.254.18.129	E	fr:firststeps	ijeantet	Ajout de captures d'écran fr		18
 1583750035	131.254.18.129	C	fr:basicuse	ijeantet	Traduction "Qu'est ce que le géocaching ?"		4134
@@ -988,6 +968,10 @@
 1611437397	2.205.115.174	E	en:ebook_help	lineflyer	Replace clicking by tapping		-2
 1611437397	2.205.115.174	E	en:quick_widgets	lineflyer	Replace clicking by tapping		-1
 1611437397	2.205.115.174	E	en:contacts	lineflyer	Replace clicking by tapping		-1
+1611437453	2.205.115.174	e	en:loggingtb	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:trackabledetails	lineflyer	Replace Clicking by Tapping (Capital letter)		-6
+1611437453	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
+1611437453	2.205.115.174	e	en:ebook_help	lineflyer	Replace Clicking by Tapping (Capital letter)		-2
 1611437453	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace Clicking by Tapping (Capital letter)		-5
 1611437453	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace Clicking by Tapping (Capital letter)		-3
 1611437453	2.205.115.174	e	en:mainmenu:quicksearch	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
@@ -998,15 +982,11 @@
 1611437453	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
 1611437453	2.205.115.174	e	en:intents	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
 1611437453	2.205.115.174	e	en:logging	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
-1611437453	2.205.115.174	e	en:loggingtb	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
-1611437453	2.205.115.174	e	en:trackabledetails	lineflyer	Replace Clicking by Tapping (Capital letter)		-6
-1611437453	2.205.115.174	e	en:hiddenfunctions	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
-1611437453	2.205.115.174	e	en:ebook_help	lineflyer	Replace Clicking by Tapping (Capital letter)		-2
+1611437533	2.205.115.174	e	en:udc	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:compass	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:intents	lineflyer	Replace clicked by tapped		-1
-1611437533	2.205.115.174	e	en:udc	lineflyer	Replace clicked by tapped		-1
 1611437647	2.205.115.174	e	en:mainmenu:goto	lineflyer	Replace click by tap		-4
 1611437647	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace click by tap		-8
 1611437647	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace click by tap		-12
@@ -1080,3 +1060,25 @@
 1613383360	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Map Data] Translate to French		247
 1613383953	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mapsources	ijeantet	Update French translation with new map sources		471
 1613385376	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Waypoints]  Translate to French		302
+1615151825	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		-22
+1615151915	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		130
+1615152147	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Mapsforge API] 		-125
+1615152295	2.205.118.224	E	de:mainmenu:settings	lineflyer	[Anpassung der Kartenlinien] 		161
+1615152505	2.205.118.224	E	de:mainmenu:settings	lineflyer	[Mapsforge API] 		-192
+1615153510	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		712
+1615153544	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		-1
+1615153583	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		1
+1615153606	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		1
+1615153635	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		0
+1615153663	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		3
+1615153805	2.205.118.224	E	en:cachedetails	lineflyer	[Waypoints submenu] 		-1
+1615153814	2.205.118.224	E	en:cachedetails	lineflyer	[Share/Export submenu] 		-2
+1615153838	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		-169
+1615153849	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		-2
+1615154078	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		0
+1615154355	2.205.118.224	E	en:cachedetails	lineflyer	[Waypoints submenu] 		27
+1615154363	2.205.118.224	E	en:cachedetails	lineflyer	[Share/Export submenu] 		27
+1615154371	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		27
+1615154633	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		574
+1615154648	2.205.118.224	E	de:cachedetails	lineflyer	[Untermenü Erweitert] 		-1
+1615154673	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		3

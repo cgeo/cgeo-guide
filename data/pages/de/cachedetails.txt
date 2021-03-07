@@ -31,18 +31,39 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 |{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
 |{{:ic_menu_edit.png?nolink&40 |}}|Besuch loggen|Dies öffnet die [[logging|Log-Seite]] um den Cache zu loggen.|
 |{{ :ic_menu_start_conversation.png?nolink&40 |}}|Sprachausgabe ein-/ausschalten|Startet oder stoppt die Text-nach-Sprache Ausgabe der Richtung und Entfernung zum Ziel.\\ Du kannst die Anzeige deines Telefons ausschalten, sobald die Sprachausgabe gestartet wurde.|
-|{{:ic_menu_rotate.png?nolink&40 |}}|Caches im Umkreis|Diese Option startet eine [[.mainmenu:lists|Nahbereichssuche]] um die Koordinaten dieses Caches und zeigt die Ergebnisse.|
-|{{ :ic_menu_save.png?nolink&40 |}}|Speichern|Speichert den Cache in deinen [[.mainmenu:lists|Listen]] oder - wenn er bereits gespeichert ist - erlaubt es dir ihn in eine andere Liste zu speichern.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Aktualisieren|Auswählen dieser Option aktualisiert die Daten des Caches vom Geocaching-Server.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Entfernen|Löscht den Caches von deinen Listen.|
-|Bewerten||Dies öffnet den [[http://gcvote.com|GCVote]]-Dialog für diesen Cache.|
-|Weiterleiten||Teilt einen Link zum Cache mit Hilfe der in Android eingebauten Teilungsoptionen.|
+|Im Browser öffnen||Öffnet den Cache in deinem präferierten Internetbrowser oder nutzt (wenn aktiviert in den [[.:mainmenu:settings#cache-details|Einstellungen für Cache-Details]]) in einer Chrome-Webanzeige intern in c:geo.|
 |Öffne Geochecker||Dies öffnet den Geochecker dieses Caches in deinem Webbrowser.\\ \\ :!: Dieser Menüeintrag ist nur verfügbar, wenn die Beschreibung dieses Caches einen Link zu einem (bekannten) Geochecker enthält.|
-|Cache ignorieren||Dies setzt den Cache auf die Ignorier-Liste des Geocaching-Servers.\\ \\ :!: Einen Cache ignorieren bedeutet, dass dieser Cache nie wieder auftauchen wird, wenn du Daten vom Geocaching-Server abrufst. Du kannst diesen Cache erst wieder sehen, wenn du ihn auf der Geocaching-Webseite von der Ignorier-Liste entfernst.|
-|Wegppunkte extrahieren||Diese Funktion durchsucht die Beschreibung des Caches nach gültigen Koordinaten und erstellt für jede gefundene Koordinate automatisch einen Wegpunkt.\\ Dies ist eine hilfreiche Funktion, wenn der Cache-Owner keine dedizierten Wegunkte erstellt sondern die Koordinaten der Wegpunkt nur in die Beschreibung geschrieben hat.|
-|Exportieren||Erlaubt es den Cache als GPX-Datei, seine Field Note oder seine persönliche Notiz zu exportieren.|
 |Persönliche Notiz||Diese Funktion öffnet den Editor für die persönliche Notiz, die du auch im [[cachedetails#description_tab|Beschreibungs-Reiter]] findest.| 
+|Wegpunkte||Enthält ein Untermenü mit Optionen zu den Wegpunkten des Caches (siehe Folgekapitel).|
+|Teilen/Exportieren||Untermenü mit Optionen zum Teilen oder Exportieren des Caches oder seiner Informationen (siehe Folgekapitel).|
+|Erweitert||Enthält erweiterte Funktionen für diesen Cache.|
 
+==== Untermenü Wegpunkte ====
+
+{{ :en:cachedetails_topbar2.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^
+|Wegppunkte extrahieren|Diese Funktion durchsucht die Beschreibung des Caches nach gültigen Koordinaten und erstellt für jede gefundene Koordinate automatisch einen Wegpunkt.\\ Dies ist eine hilfreiche Funktion, wenn der Cache-Owner keine dedizierten Wegunkte erstellt sondern die Koordinaten der Wegpunkt nur in die Beschreibung geschrieben hat.|
+|Wegpunkte aus Notiz verhindern/erlauben|Verhindert/Erlaubt c:geo in der persönlichen Notiz gefundene Koordinaten als Wegpunkte zum Cache anzulegen.|
+
+==== Untermenü Teilen/Exportieren ====
+
+{{ :en:cachedetails_topbar3.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^
+|Cache teilen|Teilt einen Link zum Cache mit Hilfe der in Android eingebauten Teilungsoptionen.|
+|GPX|Erlaubt es den Cache als GPX-Datei zu exportieren.|
+|Field Notes|Exportiert dein Offline-Log für diesen Cache als FieldNote-Datei.|
+
+
+==== Untermenü Erweitert ====
+
+{{ :en:cachedetails_topbar4.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^
+|Caches im Umkreis|Diese Option startet eine [[.mainmenu:lists|Nahbereichssuche]] um die Koordinaten dieses Caches und zeigt die Ergebnisse.|
+|Bewerten|Dies öffnet den [[http://gcvote.com|GCVote]]-Dialog für diesen Cache.|
+|Cache ignorieren|Dies setzt den Cache auf die Ignorier-Liste des Geocaching-Servers.\\ \\ :!: Einen Cache ignorieren bedeutet, dass dieser Cache nie wieder auftauchen wird, wenn du Daten vom Geocaching-Server abrufst. Du kannst diesen Cache erst wieder sehen, wenn du ihn auf der Geocaching-Webseite von der Ignorier-Liste entfernst.|
 
 ===== Details =====
 {{anchor:details_tab:}}

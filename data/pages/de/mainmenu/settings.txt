@@ -199,18 +199,19 @@ Die folgende Tabelle gibt dir einen kurzen Überblick über die verschiedenen Li
 |Positionsverlaufs-Linie| Wenn der Positionsverlauf in den Einstellungen [[.settings#map_content|des Karteninhalts]] aktiviert ist, wird eine Linie deiner Bewegung auf der Karte gezeichnet.|
 |Richtungslinie|Die Richtungslinie ist eine gerade Line oder ein navigierter Pfad (wenn die [[.utilityprograms|Brouter-App]] installiert ist) zwischen deiner aktuellen Position und dem ausgewählten Cache oder Wegpunkt (Navigationsziel).|
 |Individuelle Route|Eine individuelle Route ist eine Zusammenstellung von Caches oder Wegpunkten, die du nacheinander durch langen Klick auf der Karte ausgewählt hast. Diese Funktion kann genutzt werden um deinen Caching-Ausflug zu planen, indem du eine Route von einem Cache zum nächsten erstellst. Die Langklick-Funktion muss dafür in in den Einstellungen zum [[.settings#map_behavior|Kartenverhalten]] eingeschaltet werden.|
-|Individueller Track|Ein individueller Track ist ein Track oder eine Route, die du aus einer GPX-Datei im [[.livemap#top_bar_menu|Menü der Live-Karte]] geladen hast. Er kann genutzt werden um einer vorgegebenen Route zu folgen.|
-|Kreis|Wenn es in den Einstellungen in den [[.livemap#map_settings|Karteneinstellungs-Menü der Live-Karte]] aktiviert ist, zeigt c:geo Kreise mit einem Radius von 161m (1/10 Meile) um alle physischen Wegpunkte (d.h. Traditional Caches, physische Stationen von Caches, Mystery-Caches mit korrigierten Koordinaten). Dies ist der Minimalabstand den platzierte Caches auf geocaching.com voneinander haben müssen, was hilfreich sein kann, wenn du planst einen neuen Cache zu verstecken und nach einer Stelle dafür suchst.|
+|GPX-Track/Route|Dies ist ein Track oder eine Route, die du aus einer GPX-Datei im [[.livemap#top_bar_menu|Menü der Live-Karte]] geladen hast. Er kann genutzt werden um einer vorgegebenen Route zu folgen.|
+|Kreise|Wenn es in den Einstellungen in den [[.livemap#map_settings|Karteneinstellungs-Menü der Live-Karte]] aktiviert ist, zeigt c:geo Kreise mit einem Radius von 161m (1/10 Meile) um alle physischen Wegpunkte (d.h. Traditional Caches, physische Stationen von Caches, Mystery-Caches mit korrigierten Koordinaten). Dies ist der Minimalabstand den platzierte Caches auf geocaching.com voneinander haben müssen, was hilfreich sein kann, wenn du planst einen neuen Cache zu verstecken und nach einer Stelle dafür suchst.|
+|Genauigkeitskreis|Ein Kreis, der um deine aktuelle Position auf der Karte herum entsprechend der GPS-Genauigkeit angezeigt wird. Er repräsentiert die Unsicherheit deiner Position.|
 
 
 
-==== Mapsforge API ====
-{{anchor:mapsforge_api:}}
+==== Andere Kartenfunktionen ====
+{{anchor:other:}}
 
-{{ :en:settings_maps_mapsforgeapi.png?direct&400 |}}
+{{ :en:settings_maps_other.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Alte Mapsforge V3|Seit Juni 2018 unterstützt c:geo eine neuere Version der Mapsforge-Bibliothek. Da sich einige Funktionen dieser neuen Bibliothek noch in der Entwicklung befinden, kannst du bei Bedarf durch Aktivieren dieser Funktion zur alten Mapsforge-Bibliothek V3 zurück wechseln.\\ Wir empfehlen jedoch wärmstens die neuen Bibliotheken zu nutzen, da hier mehr Offline-Karte unterstützt werden und die Leistung allgemein besser ist. //(Standard: Deaktiviert)//|
+|Parallelisiert (Openstreetmap)|Wenn aktiviert werden mehrere parallele Vorgänge auf deinem Prozessor genutzt um die Karte zu zeichnen. Dies beschleunigt die Kartendarstellung, kann jedoch in seltenen Fällen zu Problemen bei der Kartendarstellung führen. //(Standard: Aktiviert)//|
 
 ===== Loggen =====
 {{anchor:logging:}}
