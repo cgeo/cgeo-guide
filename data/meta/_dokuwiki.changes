@@ -1,36 +1,3 @@
-1583744065	131.254.18.129	E	fr:firststeps	ijeantet	Fin de la traduction du texte		96
-1583745600	131.254.18.129	E	fr:firststeps	ijeantet	Ajout de captures d'écran fr		18
-1583750035	131.254.18.129	C	fr:basicuse	ijeantet	Traduction "Qu'est ce que le géocaching ?"		4134
-1583752308	131.254.18.129	E	fr:basicuse	ijeantet	Traduction "Séléctionner une cache"		163
-1583759175	131.254.18.129	E	fr:basicuse	ijeantet	Traduction "Outils de navigation"		129
-1583760891	131.254.18.129	E	fr:basicuse	ijeantet	Ajout de captures d'écran fr		-175
-1583762393	131.254.18.129	E	fr:start	ijeantet	Traduction "Menu principal"		53
-1583763611	131.254.18.129	E	fr:sidebar	ijeantet	Traduction "Écran principal"		-15
-1583774534	131.254.18.129	C	fr:mainmenu:start	ijeantet	Traduction "Icônes principales"		7608
-1583835657	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Menu supérieur"		149
-1583844275	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Menu supérieur"		328
-1583844701	131.254.18.129	E	fr:mainmenu:start	ijeantet	Ajout de captures d'écran fr		0
-1584023647	131.254.18.129	E	fr:mainmenu:start	ijeantet	Traduction "Bandeau inférieur"		376
-1584095676	131.254.18.129	e	en:mainmenu:livemap	ijeantet			1
-1584116287	131.254.18.129	C	fr:mainmenu:livemap	ijeantet	Traduction "Menu supérieur"		14366
-1584192360	109.10.43.173	E	fr:mainmenu:livemap	ijeantet	Traduction "Contenu de la carte"		148
-1584792313	2.205.118.14	E	en:mainmenu:goto	lineflyer	Start adaption to new internal cache 		-659
-1584792366	2.205.118.14	E	en:mainmenu:goto	lineflyer	New internal cache		-757
-1584792690	2.205.118.14	E	en:mainmenu:goto	lineflyer	Add waypoint projection manual		707
-1584792720	2.205.118.14	E	en:mainmenu:goto	lineflyer	[How to perform a waypoint projection] 		6
-1584793188	2.205.118.14	E	de:mainmenu:goto	lineflyer	Neues Goto-Menü		-679
-1584793213	2.205.118.14	E	de:mainmenu:goto	lineflyer	Link		1
-1584793228	2.205.118.14	E	de:mainmenu:goto	lineflyer	[Gehe zu Menü] 		1
-1584793283	2.205.118.14	E	de:mainmenu:goto	lineflyer	[Gehe zu Menü] 		1
-1584832779	37.219.160.43	E	fi:mainmenu:livemap	vike91	remove the changed flag		1
-1584833331	37.219.160.43	E	fi:mainmenu:goto	vike91	update		-541
-1584833388	37.219.160.43	E	fi:mainmenu:goto	vike91	[Kuinka laskea reittipiste käyttäen suuntaa ja etäisyyttä] 		10
-1584833443	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-3
-1584833512	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-13
-1584833568	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		3
-1584833591	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		14
-1584833649	37.219.160.43	E	fi:mainmenu:goto	vike91	link fix attempt		-1
-1584833724	37.219.160.43	E	fi:start	vike91	[Tietoja tästä käyttöohjeesta] 		1
 1587550594	77.251.40.128	e	nl:mainmenu:livemap	quidje	Update according several menuitem updates in crowdin		-10
 1587550669	77.251.40.128	e	nl:mainmenu:livemap	quidje	Crowding update 'show cirkel' update on this page (part II)		-6
 1587550801	77.251.40.128	E	nl:start	quidje	[c:geo Gebruikershandleiding] : no space after ':' in productname		-1
@@ -987,18 +954,6 @@
 1611437533	2.205.115.174	e	en:compass	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace clicked by tapped		-1
 1611437533	2.205.115.174	e	en:intents	lineflyer	Replace clicked by tapped		-1
-1611437647	2.205.115.174	e	en:mainmenu:goto	lineflyer	Replace click by tap		-4
-1611437647	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace click by tap		-8
-1611437647	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace click by tap		-12
-1611437647	2.205.115.174	e	en:mainmenu:settings	lineflyer	Replace click by tap		-28
-1611437647	2.205.115.174	e	en:mainmenu:utilityprograms	lineflyer	Replace click by tap		-6
-1611437647	2.205.115.174	e	en:cachedetails	lineflyer	Replace click by tap		-42
-1611437647	2.205.115.174	e	en:coordformat	lineflyer	Replace click by tap		-2
-1611437647	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace click by tap		-6
-1611437647	2.205.115.174	e	en:firststeps	lineflyer	Replace click by tap		-10
-1611437647	2.205.115.174	e	en:intents	lineflyer	Replace click by tap		-2
-1611437647	2.205.115.174	e	en:logging	lineflyer	Replace click by tap		-6
-1611437647	2.205.115.174	e	en:loggingtb	lineflyer	Replace click by tap		-2
 1611437647	2.205.115.174	e	en:nfc	lineflyer	Replace click by tap		-2
 1611437647	2.205.115.174	e	en:offline	lineflyer	Replace click by tap		-8
 1611437647	2.205.115.174	e	en:offlinemaps	lineflyer	Replace click by tap		-4
@@ -1013,6 +968,18 @@
 1611437647	2.205.115.174	e	en:udc	lineflyer	Replace click by tap		-6
 1611437647	2.205.115.174	e	en:quick_widgets	lineflyer	Replace click by tap		-2
 1611437647	2.205.115.174	e	en:contacts	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:mainmenu:goto	lineflyer	Replace click by tap		-4
+1611437647	2.205.115.174	e	en:mainmenu:lists	lineflyer	Replace click by tap		-8
+1611437647	2.205.115.174	e	en:mainmenu:livemap	lineflyer	Replace click by tap		-12
+1611437647	2.205.115.174	e	en:mainmenu:settings	lineflyer	Replace click by tap		-28
+1611437647	2.205.115.174	e	en:mainmenu:utilityprograms	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:cachedetails	lineflyer	Replace click by tap		-42
+1611437647	2.205.115.174	e	en:coordformat	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:firststeps	lineflyer	Replace click by tap		-10
+1611437647	2.205.115.174	e	en:intents	lineflyer	Replace click by tap		-2
+1611437647	2.205.115.174	e	en:logging	lineflyer	Replace click by tap		-6
+1611437647	2.205.115.174	e	en:loggingtb	lineflyer	Replace click by tap		-2
 1611437694	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] Replace click by tap		-6
 1611437760	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		9
 1611437822	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		7
@@ -1082,3 +1049,18 @@
 1615154633	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		574
 1615154648	2.205.118.224	E	de:cachedetails	lineflyer	[Untermenü Erweitert] 		-1
 1615154673	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		3
+1615885329	188.238.105.29	E	fi:mainmenu:utilityprograms	vike91	update		5
+1615885377	188.238.105.29	E	fi:attributes	vike91	update		-10
+1615885426	188.238.105.29	E	fi:installation	vike91	[Päivitys] 		-7
+1615885946	188.238.105.29	E	fi:brouter	vike91	[Yksittäinen reitti] 		-5
+1615886321	188.238.105.29	E	fi:contacts	vike91	update		-25
+1615886726	188.238.105.29	E	fi:firststeps	vike91	update		12
+1615886900	188.238.105.29	E	fi:start	vike91	update		0
+1615886995	188.238.105.29	E	fi:intents	vike91	update		0
+1615887142	188.238.105.29	E	fi:logging	vike91	update		-3
+1615896250	188.238.105.29	E	fi:mainmenu:goto	vike91	update		2
+1615896281	188.238.105.29	E	fi:coordformat	vike91	update		1
+1615896332	188.238.105.29	E	fi:ebook_help	vike91	update		-17
+1615896456	188.238.105.29	E	fi:hiddenfunctions	vike91	update		4
+1615896493	188.238.105.29	E	fi:nfc	vike91	update		2
+1615896657	188.238.105.29	E	fi:udc	vike91	update		10

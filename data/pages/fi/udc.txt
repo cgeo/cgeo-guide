@@ -23,7 +23,7 @@ Kun yksi näistä toiminnoista aktivoidaan, niin sinulta kysytään mikä nimi a
 
 Tämän jälkeen käyttäjän määrittämä kätkö luodaan ja tallennetaan joko nykyiselle listalle (jos toiminto on aktivoitu [[.mainmenu:lists#manage_caches|listavalikon]] kautta) tai oletuslistallesi (kartan pitkän painalluksen jälkeen).
 
-Jos kätkö luotiin kartalla, niin kätkön koordinaatit on valmiiksi asetettu perustuen sijaintiin jota painoit kartalla. Jos kätkö luotiin listalla, niin kätkön koordinaattitieto on tyhjä kunnes luot reittipisteen ja määrität sen koordinaatit kätkön koordinaatteina.
+Jos kätkö luotiin kartalla, niin kätkön koordinaatit on valmiiksi asetettu perustuen sijaintiin jota painoit pitkään kartalla. Jos kätkö luotiin listalla, niin kätkön koordinaattitieto on tyhjä kunnes luot reittipisteen ja määrität sen koordinaatit kätkön koordinaatteina.
 
 Tyyppillinen käyttäjän määrittämä kätkö voi näyttää tältä:
 

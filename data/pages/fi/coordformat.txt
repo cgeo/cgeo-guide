@@ -10,6 +10,6 @@ c:geo tukee useita koordinaattimuotoja seuraavasti:
 |UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universal Transverse Mercator|
 
 MinDec-muoto on yleisin muoto geokätköilyssä.
-Kätkön tai sen reittipisteiden näytetyt koordinaatit voidaan vaihtaa toiseen muotoon klikkaamalla niitä lyhyesti.
+Kätkön tai sen reittipisteiden näytetyt koordinaatit voidaan vaihtaa toiseen muotoon napauttamalla niitä lyhyesti.
 
 Käytettäessä [[coordinatedialog|koordinaattien syöttönäyttöä]] voit valita halutun muodon näytön yläosasta ylläolevan taulukon mukaisesti, lukuunottamatta UTM:ia, jota ei vielä tueta koordinaattien syöttömuotona.

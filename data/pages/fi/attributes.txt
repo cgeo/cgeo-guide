@@ -4,7 +4,7 @@
 Tällä sivulla selitetään c:geossa käytettävien attributtikuvakkeiden tarkoitukset. Kätkön tekijä asettaa kätkölle attribuutit ja ne näytetään [[cachedetails#attributes|kätkön tietosivulla]]. 
 
 <WRAP center round tip 100%>
-Voit napauttaa attribuuttien päältä kätkön tietosivulla nähdäksesi kuvakkeiden sijaan niiden tekstiselityksen.
+Voit napauttaa attribuutteja kätkön tietosivulla nähdäksesi kuvakkeiden sijaan niiden tekstiselityksen.
 </WRAP>
 
 Suurin osa attribuuteista voidaan asettaa päinvastaiseksi asettamalla niiden päälle viiva, kuten näin: {{:attribute_strikethru.png?nolink&20|}} (esimerkiksi attribuutti "Löydettävissä kaikkina aikoina" muuttuukin attribuutiksi "Ei löydettävissä kaikkina aikoina"). 

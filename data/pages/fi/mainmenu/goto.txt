@@ -13,8 +13,8 @@ Tällä käyttöohjeen sivulla selostamme vain pari tyypillistä käyttötapaa.
  		 	
 ===== Kuinka laskea reittipiste käyttäen suuntaa ja etäisyyttä =====
  		 	
-  - Klikkaa "Lisää reittipiste"​
-  - Klikkaa koordinaattien kenttää ja syötä koordinaatit joihin perustuen lasketaan uudet koordinaatit käyttäen suuntaa ja etäisyyttä. Voit myös klikata "Omat koordinaatit" asettaaksesi nykyisen sijaintisi aloituspisteeksi.
+  - Napauta "Lisää reittipiste"​
+  - Napauta koordinaattien kenttää ja syötä koordinaatit joihin perustuen lasketaan uudet koordinaatit käyttäen suuntaa ja etäisyyttä. Voit myös napauttaa "Omat koordinaatit" asettaaksesi nykyisen sijaintisi aloituspisteeksi.
   - Sulje koordinaattien syöttö ja aseta omiin kenttiinsä sijainti ja suunta
   - Tallenna reittipiste
   - Käytä kompassiruusukuvaketta reittipisteen vieressä aloittaaksesi ensisijaisen navigoinnin kyseiselle reittipisteelle. Vaihtoehtoisesti voit painaa pitkään reittipistettä ja valita "Navigoi" valitaksesi muista navigointitavoista (kuten avata kartan tai aloittaa opastetun navigoinnin).

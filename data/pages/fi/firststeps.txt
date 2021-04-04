@@ -12,7 +12,7 @@ Kun käynnistät c:geon ensimmäistä kertaa asennuksen jälkeen, sinut ohjataan
 
 Se selostaa c:geon tarvitsemät [[installation#​permissions|käyttöluvat]], tarjoaa linkkejä tähän käyttöohjeeseen sekä - mitä tärkeintä - tarjoaa painikkeen yhteyden muodostamiseksi geokätköilyn palveluntarjoajiin.
 
-Kun klikkaat ''"Aseta geokätköilyn palveluntarjoajat"''​ sinut viedään suoraan asetuksiin, joista voit tunnistautua c:geolla haluamiisi geokätköilysivustoihin, kuten alla.
+Kun napautat ''"Aseta geokätköilyn palveluntarjoajat"''​ sinut viedään suoraan asetuksiin, joista voit tunnistautua c:geolla haluamiisi geokätköilysivustoihin, kuten alla.
 
 **Jos haluat päästä ensiasennuksen jälkeen takaisin palveluntarjoajien asetuksiin, löydät ne seuraavasti:\\ 
 ''​Valikko → Asetukset → Palvelut''​**  
@@ -27,12 +27,12 @@ Valitse nyt tuettujen sivustojen listalta geokätköilypalvelu, mitä haluat kä
 
 ===== c:geon rekisteröinti Geocaching.comin kanssa ===== 
 
-Kun olet valinnut tuettujen sivustojen listalta ''​geocaching.com'', klikkaa seuraavaksi ''Valtuuta c:geo'' kuten alla::
+Kun olet valinnut tuettujen sivustojen listalta ''​geocaching.com'', napauta seuraavaksi ''Valtuuta c:geo'' kuten alla::
 
 {{ :en:firststeps_1_en.png?direct&400 }}
 
-Kun olet klikannut ''Valtuuta c:geo'', avautuu ikkuna, jossa voit syöttää geocaching.comin käyttäjätunnuksen ja salasanan, sitten klikata ''Tarkista todennus''.\\
-Jos sinulla ei ole vielä tiliä, voit klikata ''Luo käyttäjätili'' avataksesi geocaching.comin rekisteröintisivun.
+Kun olet napauttanut ''Valtuuta c:geo'', avautuu ikkuna, jossa voit syöttää geocaching.comin käyttäjätunnuksen ja salasanan, sitten klikata ''Tarkista todennus''.\\
+Jos sinulla ei ole vielä tiliä, voit napauttaa ''Luo käyttäjätili'' avataksesi geocaching.comin rekisteröintisivun.
 
 {{ :en:firststeps_3_en.png?direct&400 }}
 
@@ -55,11 +55,11 @@ Jos haluat yhdistää c:geon muuhun palveluun kuin geocaching.com, tai mennäkse
 Löydät lisää tietoa c:geon tukemista geokätköilysivustoista [[.mainmenu:settings#Services|täältä]].
 </WRAP>
 
-Valitse geokätköilysivusto johon haluat yhdistää, ja aktivoi palvelu painamalla ''Aktivoi'' -laatikkoa. Tämän jälkeen aloita valtuutusprosessi klikkaamalla "Valtuuta c:geo"
+Valitse geokätköilysivusto johon haluat yhdistää, ja aktivoi palvelu napauttamalla ''Aktivoi'' -laatikkoa. Tämän jälkeen aloita valtuutusprosessi napauttamalla ''Valtuuta c:geo''.
 
 {{ :en:oc_en_1.png?direct&400 }}
 
-ja ''Aloita valtuutus'' seuraavalla näytöllä. Jos sinulla ei ole vielä tiliä, voit klikata ''Luo käyttäjätili'' avataksesi rekisteröintisivun Opencaching-sivustolla.
+ja ''Aloita valtuutus'' seuraavalla näytöllä. Jos sinulla ei ole vielä tiliä, voit napauttaa''Luo käyttäjätili'' avataksesi rekisteröintisivun Opencaching-sivustolla.
 
 {{ :en:oc_en_2.png?direct&400 }}
 

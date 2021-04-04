@@ -39,7 +39,7 @@ Lisäksi c:geo käyttää ilmoituksia c:geon etusivulla kiinnittääksesi huomio
 
 {{:en:notification_example.png?direct&300 |}}
 
-Voit klikata viestin päältä saadaksesi lisätietoja (väliaikaisten ongelmien aikaan) tai mennäksesi Google Playyn saadaksesi uudemman version (päivitysilmoituksen tullessa).
+Voit napauttaa viestiä saadaksesi lisätietoja (väliaikaisten ongelmien aikaan) tai mennäksesi Google Playyn saadaksesi uudemman version (päivitysilmoituksen tullessa).
 
 
 ===== Betaversio =====

@@ -65,7 +65,7 @@ Tämän jälkeen voit yksinkertaisesti painaa pitkään eri kätköjä/reittipis
 
 {{ :en:brouter_individualroute.png?direct&400 |}}
 
-Poistaaksesi yhden kätkön/reittipisteen reitistäsi, paina sitä uudelleen pitkään. Lisäksi voit käyttää ''Yksittäinen reitti''-alavalikkoa [[en:mainmenu:livemap#top_bar_menu|kartan valikossa]] lajitellaksesi, viedäksesi, tuodaksesi tai poistaaksesi yksittäisen reittisi.
+Poistaaksesi yhden kätkön/reittipisteen reitistäsi, paina taas sitä pitkään. Lisäksi voit käyttää ''Yksittäinen reitti''-alavalikkoa [[en:mainmenu:livemap#top_bar_menu|kartan valikossa]] lajitellaksesi, viedäksesi, tuodaksesi tai poistaaksesi yksittäisen reittisi.
 
 ==== Kustomointi ====
 

@@ -4,7 +4,7 @@
 
 Tämä on c:geon yhteystietolisäosa. Se toimii vain c:geon ollessa asennettuna ja antaa suoran pääsyn yhteystietoihisi kun napautat nimimerkkiä c:geossa.
 
-Syy, miksi emme tarjoa tätä c:geon osana vaan erillisenä lisäosana, on se, että vanhemmat Android-versiot voivat näyttää sovelluksen lupapyynnöt vain asennuksen aikana mutta ei sovelluksen käytön aikana. 
+Emme tarjoa tätä c:geon osana vaan erillisenä lisäosana koska vanhemmat Android-versiot voivat näyttää sovelluksen lupapyynnöt vain asennuksen aikana mutta ei sovelluksen käytön aikana. 
 
 Koska moni käyttäjistä eivät ymmärrä, miksi c:geo tarvitsee pääsyn yhteystietoihin, päätimme erottaa tämän toiminnon erilliseksi lisäosaksi. 
 
@@ -22,7 +22,7 @@ Asennuksen jälkeen, lisäosa ei esiinny erillisenä sovelluksena laitteessasi, 
 
 ===== Käyttö =====
 
-Kun klikkaat käyttäjänimeä c:geon eri paikoissa (kuten [[.:cachedetails#logbook_tab|kätkön lokikirjassa]]), ilmestyvä valikko sisältää valinnan, jolla voit avata kyseisen kätköilijän yhteystiedot yhteystiedoissasi. Tämä antaa mahdollisuuden soittaa tai lähettää tekstiviesti suoraan kyseiselle kätköilijälle.
+Kun napautat käyttäjänimeä c:geossa eri paikoissa (kuten [[.:cachedetails#logbook_tab|kätkön lokikirjassa]]), ilmestyvä valikko sisältää valinnan, jolla voit avata kyseisen kätköilijän yhteystiedot yhteystiedoissasi. Tätä kautta voit soittaa tai lähettää tekstiviestin suoraan kyseiselle kätköilijälle.
 
 {{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
 

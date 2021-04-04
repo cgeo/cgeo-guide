@@ -16,7 +16,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 ^ Kuvake ^ Toiminto ^ Selite ^
 |{{ :ic_menu_send.png?nolink&40 |}}|Lähetä|Tästä painikkeesta voit lähettää kirjauksesi palvelimelle, kun olet saanut sen valmiiksi.|
 |{{ :ic_menu_add.png?nolink&40 |}}|Lisää|Lisää kirjaukseen joko [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksen.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä tulee esille valikko, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
 |{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Liitä kuva]]|Voit tästä lisätä olemassa olevan kuvan, tai avata kameran, jolla otettu kuva lisätään kirjaukseen.|
 | |Hymiöt|Avaa listan hymiöistä, joita voit lisätä kirjaukseen.|
 | |Offline-tallennus|Tallentaa kirjauksen offline-tilassa sen sijaan, että se lähetetään palvelimelle.|
@@ -51,7 +51,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 
 {{:en:logging_date.png?nolink&300 |}}
 
-Oletuksena c:geo käyttää nykyistä päivää kirjauksessa ja näyttää ''Tänään'' tässä kentässä. Voit kuitenkin klikata kenttää avataksesi kalenterityökalun ja valita toisen kirjauspäivän.
+Oletuksena c:geo käyttää nykyistä päivää kirjauksessa ja näyttää ''Tänään'' tässä kentässä. Voit kuitenkin napauttaa kenttää avataksesi kalenterityökalun ja valita toisen kirjauspäivän.
 
 ==== Ilmoita ongelmasta ====
 {{anchor:report_problem:}}
@@ -61,7 +61,7 @@ Oletuksena c:geo käyttää nykyistä päivää kirjauksessa ja näyttää ''Tä
 Geocaching.com sekä joidenkin opencaching-sivustojen kätköjen kohdalla voit ilmoittaa, että kätkössä on ongelma, lähetettäessä "Löytyi" tai "Ei löytynyt" -kirjausta.
 
 
-Klikkaa kentästä avataksesi valikon, joka sisältää seuraavat ongelmaraportit (riippuen kätköilysivustosta, kätkötyypistä, kätkön tilasta ja lokityypistä):
+Napauta kenttää avataksesi valikon, joka sisältää seuraavat ongelmaraportit (riippuen kätköilysivustosta, kätkötyypistä, kätkön tilasta ja lokityypistä):
 
 ^ Valinta ^ Selite ^
 |Ei ongelmaa|Ongelmaraporttia ei liitetä kirjaukseesi.\\ Oletusvalinta.|
@@ -76,7 +76,7 @@ Klikkaa kentästä avataksesi valikon, joka sisältää seuraavat ongelmaraporti
 
 {{:en:logging_gcvote.png?nolink&300 |}}
 
-Tämä osio näytetään vain, jos olet aktivoinut ja kirjautunut [[http://gcvote.com|GCVoteen]] [[.mainmenu:settings|asetuksissa]]. Voit sitten käyttää tätä toimintoa antaaksesi arvion kätkön laadusta. Klikkaat vain tähtejä valitaksesi arvioinnin 1 ja 5 tähden välillä, 0.5 tähden välein. Tähtien alla oleva teksti näyttää vastaavan tekstiarvioinnin tähtien mukaan.
+Tämä osio näytetään vain, jos olet aktivoinut ja kirjautunut [[http://gcvote.com|GCVoteen]] [[.mainmenu:settings|asetuksissa]]. Voit sitten käyttää tätä toimintoa antaaksesi arvion kätkön laadusta. Napauta vain tähtiä valitaksesi arvioinnin 1 ja 5 tähden välillä, 0.5 tähden välein. Tähtien alla oleva teksti näyttää vastaavan tekstiarvioinnin tähtien mukaan.
 
 Arviointi lähetetään, kun lähetät lokikirjauksen.
 ==== Suosikkipiste ====
@@ -98,7 +98,7 @@ Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:setti
 
 {{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
 
-Tämä osio listaa kaikki tällä hetkellä hallussasi olevat matkaajat. Se näyttää jokaisen matkaajan kohdalla matkaajan tyypin, (esim. Travel Bug, Geokrety), seurantakoodin sekä matkaajien nimet. Voit klikata matkaajan nimeä nähdäksesi kyseisen [[trackabledetails|matkaajan tiedot]]. Jokaisen matkaajan oikealla puolella on valikko, josta voit valita mitä kyseiselle matkaajalle tehdään kätköön liittyen:
+Tämä osio listaa kaikki tällä hetkellä hallussasi olevat matkaajat. Se näyttää jokaisen matkaajan kohdalla matkaajan tyypin, (esim. Travel Bug, Geokrety), seurantakoodin sekä matkaajien nimet. Voit napauttaa matkaajan nimeä nähdäksesi kyseisen [[trackabledetails|matkaajan tiedot]]. Jokaisen matkaajan oikealla puolella on valikko, josta voit valita mitä kyseiselle matkaajalle tehdään kätköön liittyen:
 
 ^ Valinta ^ Selite ^
 |Ei toimintoa|Älä tee mitään matkaajalle kun loki lähetetään kätkösivulle.|

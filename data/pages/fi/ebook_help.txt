@@ -3,11 +3,11 @@
 
 Sinulla on kolme eri vaihtoehtoa ladataksesi tämän käyttöoppaan offline-käyttöön:
 
-  * ''Tee PDF''-napin klikkaus oikeassa sivupalkissa luo PDF-tiedoston nykyisestä sivusta ja aloittaa sen latauksen.\\ Tämä vaihtoehto luo vain yksittäisiä PDF-tiedostoja yksittäisestä aiheesta/sivusta, joka on sillä hetkellä näkyvillä.
+  * ''Tee PDF''-nappi oikeassa sivupalkissa luo PDF-tiedoston nykyisestä sivusta ja aloittaa sen latauksen.\\ Tämä vaihtoehto luo vain yksittäisiä PDF-tiedostoja yksittäisestä aiheesta/sivusta, joka on sillä hetkellä näkyvillä.
 
-  * ''Lisää kirjaan''-napin klikkaus oikeassa sivupalkissa lisää näkyvillä olevan sivun ladattavien sivujen listaan.\\ Voit käyttää tätä toimintoa lisätäksesi sivuja tähän listaan. Kun olet lisännyt listaan ainakin yhden sivun, joka sivun yläreunassa näytetään tieto-osio, jossa voit lisätä sivuja, poistaa niitä, ja lopulta luoda yhden PDF-tiedoston valitsemista sivuistasi haluamassasi sivujärjestyksessä.
+  * ''Lisää kirjaan''-nappi oikeassa sivupalkissa lisää näkyvillä olevan sivun ladattavien sivujen listaan.\\ Voit käyttää tätä toimintoa lisätäksesi sivuja tähän listaan. Kun olet lisännyt listaan ainakin yhden sivun, joka sivun yläreunassa näytetään tieto-osio, jossa voit lisätä sivuja, poistaa niitä, ja lopulta luoda yhden PDF-tiedoston valitsemista sivuistasi haluamassasi sivujärjestyksessä.
 
-  * Lataa täysi käyttöopas klikkaamalla seuraavaa linkkiä:\\ [[https://manual.cgeo.org/&do=export_pdfns&book_ns=fi&book_title=cgeo_Userguide|Lataa täydellisen käyttöohjeen näköisversio PDF-tiedostona]])\\ //(Ole kärsivällinen linkin klikkauksen jälkeen, PDF-tiedoston luomisessa menee joitakin sekunteja) //
+  * Lataa täysi käyttöopas napauttamalla seuraavaa linkkiä:\\ [[https://manual.cgeo.org/&do=export_pdfns&book_ns=fi&book_title=cgeo_Userguide|Lataa täydellisen käyttöohjeen näköisversio PDF-tiedostona]])\\ //(Ole kärsivällinen linkin klikkauksen jälkeen, PDF-tiedoston luomisessa menee joitakin sekunteja) //
 <WRAP center round info 100%>
 Vaikka offline-versio tästä oppaasta voi olla kätevä, muistathan kuitenkin, että online-versio saattaa muuttua, parantua tai korjaantua. Luomasi offline-opas voi vanhentua ennemmin tai myöhemmin.
 </WRAP>
