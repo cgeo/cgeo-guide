@@ -126,11 +126,12 @@ In this menu you can configure some basic user interface settings of c:geo.
 
 ^ Menu item ^ Description ^
 |Select Map Source|This allows you to define the map, which shall be used in all map functions of c:geo. The menu will contain all available online maps as well as the offline map files found in your offline map directory. \\ You can change this setting also directly from the live map by tapping the map layer icon and selecting another [[..mapsources|map source]].|
-|Info on Offline Maps|This info item will provide you more detailed information about supported [[..offline#offline_maps|offline map]] formats and a link to our [[http://faq.cgeo.org|FAQ]].|
-|Directory with offline maps|Here you can configure the directory, which contains your Mapsforge [[..offline#offline_maps|offline map]] files.\\ \\ :!: The automatic scan might not be able to search in all directories/storage. In case your map directory is not found automatically, please use the ''Choose directory'' button shown after the scan is completed.|
-|Info on Map Themes|This info item will provide you more detailed information about supported offline map themes and a link to our [[http://faq.cgeo.org|FAQ]].|
+|Info on Offline Maps|This info item will provide you more detailed information about supported [[..offline#offline_maps|offline map]] formats and a link to the [[..:offlinemaps|offline map tutorial]] in this user guide.|
+|Download offline map|This will open the c:geo map downloader, where you can download new offline maps from various sources or update already installed maps. Details are described in [[..:offlinemaps|the offline map tutorial]] of this user guide.|
+|Directory with offline maps|Here you can configure the directory, which contains your Mapsforge [[..offline#offline_maps|offline map]] files.|
+|Info on Map Themes|This info item will provide you more detailed information about supported offline map themes and some more hints for best practice.|
 |Map Themes Directory|Here you can configure the directory, which contains your offline map themes.|
-|Scale Map Text|This function has been removed meanwhile.|
+|Synchronize themes|In case you experience a slow performance when opening the map, you can use this option to synchronize your theme folder into an app private storage. This will increase the access speed but consume a bit more data storage.\\ \\ :!: Please make sure your theme folder does not contain any unrelated (large amount of) data before enabling this feature!|
 |Map rotation (Google Maps)|You can switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
 
 <WRAP center round tip 100%>
@@ -152,11 +153,11 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 {{ :en:settings_maps_mapcontent.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Show direction|Activating this option will show a directional line (or a routed line if routing options are installed) on the map between your current position and the navigation target.\\ You can activate the direction line by opening the map for a single cache or selecting a cache on the map and activating the feature in the cache popup window now shown on the map (the latter is only applicable for offline maps). //(Default: Activated)//|
 |Show history track|With this option you can activate a track showing your position history (your movement) on the map. //(Default: Deactivated)// \\ \\ :!: Please be aware, that this will only be accurate as long as you use the map and have GPS enabled and will have gaps or jumps in case you switch your device to standby or deactivate GPS. If you would like a more reliable track recording you should rather use a specialized app.|
 |History track max. length| Allows to raise the amount of track points available for the history track. Once the limit is reached the oldest recorded points will be removed if new points are recorded. Raising the limit however allocates more memory. //(Default: 700 points)//|
 |Calculate route|With this setting you can select the maximum distance up to which a route is calculated and shown on the map between your position and the selected cache. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 10km)// \\ \\ :!: This function requires the [[.:utilityprograms|Brouter helper app]] to be installed on your device.|
 |Show straight distance|If the setting is active, the straight distance to the target will be shown additionally to the routed distance while routing is active. //(Default: Deactivated)//|
+|Big icons for logged caches|If enabled the map will show big emoticons for logged caches instead of the cache type icon. A restart is required after changing this setting. //(Default: Deactivated)//|
 ==== Map behavior ====
 {{anchor:map_behavior}}
 

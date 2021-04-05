@@ -1,82 +1,39 @@
 ====== First steps with c:geo ======
 
-<WRAP center round important 100%>
-In order to use c:geo, you need an account of a geocaching platform of your choice. c:geo currently supports [[https://www.geocaching.com|geocaching.com]], an international commercial geocaching platform, as well as Opencaching platforms in several countries(e.g. [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], and many more). Select a platform you would like to use, and upfront create an user account on their web page (Basic accounts are normally free of charge).\\ \\
-Without an account for a geocaching platform c:geo will not work!
+{{:logo_big.png?nolink&200 |}}
+
+This page will help you to get started with c:geo. It describes how to set it up for the first use and will help you to understand the configuration wizard shown on the first start of c:geo.
+
+For instructions about how to install c:geo, please refer to our [[.:installation|installation page]].
+
+
+<WRAP center round info 100%>
+**In order to use c:geo, you need an account of a geocaching service of your choice. Without such an account c:geo will not show any caches!** \\
+If you do not yet own such a geocaching account, c:geo can guide you to the registration page of your desired geocaching service during the setup, so that you can create an account (Basic accounts are usually free of charge).\\
+Alternatively you should create an account in beforehand on the website of the geocaching service and use the credentials while setting up c:geo.
 </WRAP>
-
-===== Getting started =====
-
-If you start c:geo for the first time after installation, you will be directly taken to the following "Getting started" screen:
-
-{{:en:getting_started.png?direct&400 }}
-
-It explains the [[installation#permissions|permissions]] c:geo needs on your device, offers links to this user guide and - most importantly - offers a button to setup the connection to geocaching platforms.
-
-If you tap on ''"Configure your geocaching platform(s)"'' you will directly be taken to the service settings, where you can authorize c:geo to communicate with the geocaching platform of your choice as described below.
-
-**If you would like to access the service settings again after the first start, you will find them in:\\
-''Menu → Settings → Services''**
-
-----
-
-===== Configure your geocaching platform(s) =====
-
-Now select the geocaching platform you want to use from the list of supported platforms. You can authorize several of them by returning to this screen later on. You will find it in ''Menu → Settings → Services''.
-
-{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
-
-===== Registering c:geo with geocaching.com =====
-
-After you selected ''geocaching.com'' from the list of supported geocaching platforms you now have to tap on the button ''Authorize c:geo'' as shown below::
-
-{{ :en:firststeps_1_en.png?direct&400 }}
-
-After tapping on ''Authorize c:geo'' a window will be shown, where you can enter your username and password for geocaching.com and finally tap on ''Check authentication''.\\
-If you do not yet have an account, you may tap on the button ''Create an account'' to open the registration page of geocaching.com.
-
-{{ :en:firststeps_3_en.png?direct&400 }}
-
-After completing the registration, c:geo will automatically return to the service menu and you can see the successful registration as your username and your avatar will be shown:
-
-{{ :en:firststeps_2_en.png?direct&400 }}
-
-<WRAP center round help 100%>
-If the registration fails, please take a look in our [[http://faq.cgeo.org#login-failed|FAQ]] to get help.
-</WRAP>
-
-Now you just have to select the back function on your device to reach the main menu of c:geo. At next start of c:geo you will be automatically taken to the main menu.
-
-===== Registering c:geo with Opencaching platforms =====
-
-If you want to connect c:geo with another service than geocaching.com or re-access the service settings, you will find them in:\\
-''Menu → Settings → Services''
 
 <WRAP center round tip 100%>
 You can find more information regarding the geocaching services supported by c:geo [[.mainmenu:settings#Services|here]].
 </WRAP>
 
-Select a geocaching platform , which you want to connect with and activate the service in the following screen by tapping the ''Activate'' box.
-Afterwards start the authorization process by tapping on ''Authorize c:geo''.
+On the first startup after installing c:geo a configuration wizard will help you to get going by guiding you through the essential configuration and setup steps. While the configuration wizard should be self explanatory, we will give you some more guide and background on this page. Follow the red marks in the following pictures to get through the process. Orange marks will show optional steps or provide additional hints. You can click on the images below to enlarge them.
 
-{{ :en:oc_en_1.png?direct&400 }}
+/* Author comment: Table layout plugin used below to enforce 300px for the wizard pictures */
 
-and ''Start authorization'' in the next screen. If you do not yet have an account, you may tap on the button ''Create an acount'' to open the registration page of the Opencaching platform.
+{{tablelayout?colwidth="300px,-"}}
+^ Wizard screen ^ Explanation ^
+|{{:en:firststeps_wizard_01_welcome.png?direct&300 |}}|Tap ''Next'' to start the configuration wizard. If you are an advanced user and want to configure c:geo manually or you want to run the setup later, you might tap on ''Not Now'' to bypass the wizard.\\ \\ As long as the setup is not completed, the wizward will be shown on each start of c:geo or you can manually start it by selecting ''Configuration wizard'' in the title bar menu on the main screen.|
+|{{:en:firststeps_wizard_02_permission.png?direct&300 |}}|The wizard will ask for the permissions c:geo needs on your device and provide an explanation about why these permissions are needed.\\ \\ <WRAP center round important 100%> Please note, that c:geo will not run without these permissions! </WRAP><WRAP center round tip 100%>Depending on your Android version the permission steps of the wizard might be skipped, as you provided the permissions already while installing c:geo.</WRAP>\\ \\ Tap ''Next'' to start the permission process.|
+|{{:en:firststeps_wizard_03_permission_file.png?direct&300 |}}|After tapping ''Next'' on this screen you will be asked to provide c:geo permission to access your file system to read and store data. This is needed to store geocaches for offline use. Furthermore c:geo can import and export GPX files, offline logs and some more.\\ \\ An Android dialog will now show up and ask you to confirm this by tapping ''Allow''.\\ {{:en:firststeps_wizard_04_permission_file_confirm.png?direct&200 |}} |
+|{{:en:firststeps_wizard_05_permission_gps.png?direct&300 |}}|After tapping ''Next'' on this screen you will be asked to provide c:geo permission to access your location. This is needed as c:geo uses your location to calculate distance and direction to geocaches and show your position on a map.\\ \\ An Android dialog will now show up and ask you to confirm this by tapping ''While using the app''. \\ {{:en:firststeps_wizard_06_permission_gps_confirm.png?direct&200 | }}| 
+|{{:en:firststeps_wizard_07_basefolder.png?direct&300 |}}|c:geo will store all its user accessible data (like GPX files, offline logs, etc.) below a base folder, which you have to create or select in the next step and provide c:geo access to that folder. You can choose any folder you would like to use, we however recommend to use ''/cgeo/'' on your internal storage.\\ \\ An Android directory selector will now show up, which lets you navigate through your folders and allows you to create or select the desired folder. Note the menu I(marked in orange below) which offers more options like selecting the storage (e.g. internal or SD card) or creating a new folder. Once you selected the desired location tap ''Use this folder'' and afterwards tap ''Allow'' to confirm. \\ \\ <WRAP center round info 100%>As the directory selector is part of your Android operating system it might look slightly different depending on device and Android version.</WRAP>\\ {{:en:firststeps_wizard_08_basefolder_selector.png?direct&200|}}{{:en:firststeps_wizard_09_basefolder_confirm.png?direct&200 | }}|
+|{{:en:firststeps_wizard_10_services.png?direct&300 |}}|Now you need to setup the connection to your desired geocaching service by either tapping on ''geocaching.com'' or ''Opencaching & others''.\\ \\ After tapping ''geocaching.com'' you will see the authentication page, where you have either have to enter your existing login credentials for the website of geocaching.com.\\ \\ If you do not yet own an account, you can go to the account creation page by tapping ''Create an account'' (see orange marked box below). This will open the geocaching.com registration page, where you can create your account.\\ \\ <WRAP center round info 100%>Please note, that c:geo does not support authorization with Google, Facebook or Apple. Therefore please use the plain username/password method instead for account creation and login. Learn [[https://faq.cgeo.org/#facebook-login|in our FAQ]] how to retrieve a password for your account.</WRAP>{{:en:firststeps_wizard_11_GCAuth.png?direct&200|}}<WRAP center round help 100%>If the registration fails, please take a look in our [[http://faq.cgeo.org#login-failed|FAQ]] to get help.</WRAP>When tapping ''Opencaching & Others'' on the wizard screen you will instead see a list of supported services, where you can - similar to the example above - select the desired service and afterwards authorize to those geocaching services or create an account.\\ {{:en:firststeps_wizard_14_OCAuth.png?direct&200 | }}|
+|{{:en:firststeps_wizard_15_Advanced.png?direct&300 |}}|This step of the wizard provides advanced setup options, which are optional. Experienced users might use this step to download offline maps, companion Router apps or restore existing c:geo backups.\\ Here are some links to the relevant user guide pages for these advanced features:\\ \\ [[.:offlinemaps|Downloading and using offline maps with c:geo]]\\ [[.:brouter|Using Brouter with c:geo]]\\ [[.:mainmenu:settings#restore|Restoring backups]]\\ \\ If you are first time user you might just select ''Skip'' for now. The mentioned options can also be configured manually at a later point of time.|
+|{{:en:firststeps_wizard_16_done.png?direct&300 |}}|The least screen of the configuration wizard provides a summary of the results. Ideally it should look like the example shown.\\ If some steps are shown as not completed you might use ''Previous'' to go back and check again, else just tap on ''Finish'' to close the wizard.\\ \\ **Happy Caching with c:geo!**|
 
-{{ :en:oc_en_2.png?direct&400 }}
-
-You will now be taken to the web page of the Opencaching platform in your browser. Login to the web page with your username and password and - where required - agree on the following page to give c:geo access to your Opencaching account.
-
-{{ :en:oc_en_3.png?direct&400 }}
-
-After completing the registration c:geo should open again and report the successful registration:
-
-{{ :en:oc_en_4.png?direct&400 }}
-
-<WRAP center round tip 100%>
-If you receive an error message or you do not return to c:geo, please try to use another browser for registration. Please also check, if date and time on your device are correctly set.
-</WRAP>
-
+After completing the configuration wizard you will be taken to the c:geo main screen.
+Continue on our [[.:basicuse|Basic use page]] to learn how to find your first cache with c:geo.
 
 
 

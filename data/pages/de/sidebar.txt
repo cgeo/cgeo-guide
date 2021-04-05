@@ -4,6 +4,7 @@
       * [[start#about_cgeo|Über c:geo]]
 
     * [[start#getting_started|Erste Schritte]]
+      * [[installation|Installation und Aktualisierung]]
       * [[firststeps|Erste Schritte mit c:geo]]
       * [[basicuse|Grundlegende Nutzung]]
 

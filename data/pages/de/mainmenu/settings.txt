@@ -127,11 +127,12 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 
 ^ Menüeintrag ^ Beschreibung ^
 |Kartenquelle wählen|Dies erlaubt dir die Karte festzulegen, welche in allen Kartenfunkionen von c:geo genutzt werden soll. Die Auswahl enthält sowohl alle verfügbaren Online-Karten als auch die Offline-Kartendateien, die in deinem Offline-Kartenverzeichnis gefunden wurden.\\ Du kannst diese Einstellung auch direkt auf der Live-Karte durch Antippen des Kartensymbols und Auswahl einer anderen [[..mapsources|Kartenquelle]] ändern.|
-|Info zu Offline-Karten|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten [[..offline#offline_maps|Offline-Karten]] und einen Link zu unserer [[http://faq.cgeo.org|FAQ]].|
-|Verzeichnis mit Offline-Karten|Hier kannst du das Verzeichnis konfigurieren, welches deine Mapsforge [[..offline#offline_maps|Offline-Karten]] enthält.\\ \\ :!: Es ist möglich, dass der automatische Scan nicht alle Verzeichnisse oder Speichermedien durchsuchen kann. Wenn dein Kartenverzeichnis nicht automatisch gefunden wird, nutze bitte die Schaltfläche ''Verzeichnis wählen'', welche nach Abschluss des Scans angezeigt wird.|
-|Info zu Karten-Themes|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten Karten-Themen und einen Link zu unserer [[http://faq.cgeo.org|FAQ]].|
-|Karten-Themes-Verzeichnis|Hier kannst du das Verzeichnis konfigurieren, welches deine Karten-Themes enthält.|
-|Textgröße anpassen|Diese Funktion wurde mittlerweile entfernt.|
+|Info zu Offline-Karten|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten [[..offline#offline_maps|Offline-Karten]] und einen Link zur [[..:offlinemaps|Anleitung für Offline-Karten]] in diesem Benutzerhandbuch.|
+|Offline-Karte herunterladen|Dies öffnet den c:geo Karten-Downloader, wo du neue Offline-Karten aus verschiedenen Quellen herunterladen oder bereits installierte Karten aktualisieren kannst. Details hierzu sind in der [[..:offlinemaps|Anleitung für Offline-Karten]] dieses Benutzerhandbuches beschrieben.|
+|Verzeichnis mit Offline-Karten|Hier kannst du das Verzeichnis konfigurieren, welches deine Mapsforge [[..offline#offline_maps|Offline-Karten]] enthält.|
+|Info zu Kartendesigns|Dieser Infoeintrag enthält detaillierte Informationen über die unterstützten Karten-Themen und ein paar Hinweise zur besten Nutzung von Designs.|
+|Ordner für Kartendesigns|Hier kannst du das Verzeichnis konfigurieren, welches deine Karten-Designs enthält.|
+|Designs synchronisieren|Falls du feststellst, dass das Öffnen der Karte länger dauert, kannst du diese Option verwenden, um deine Designs in einen app-internen Speicher zu synchronisieren. Dies beschleunigt das Öffnen der Karte aber verbraucht etwas mehr Speicherplatz.\\ \\ :!: Bitte stelle sicher, dass dein Designordner keine (sehr großen) anderen Daten enthält, bevor du diese Funktion einschaltest!|
 |Kartendrehung (Google Maps)|Du kannst hier die Drehung der Karten nach Ausrichtung des Gerätes an- und ausschalten oder die manuelle Drehung erlauben. :!: Diese Funktion ist derzeit nur für Google Maps verfügbar.|
 
 <WRAP center round tip 100%>
@@ -153,11 +154,11 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 {{ :en:settings_maps_mapcontent.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Zeige Richtungslinie|Ein Aktiviern dieser Funktion zeigt eine Richtungslinie (oder eine Route, wenn Routingoptionen installiert sind) auf der Karte zwischen deiner Position und der Position des Navigationsziels.\\ Du aktivierst diese Richtungslinie durch Öffnen einer Karte für einen einzelnen Cache oder durch Auswahl eines Caches auf der Live-Karte und Aktivierung der Linie im Pop-up-Fenster des Caches (die zweite Möglichkeit wird derzeit nur bei Offline-Karten unterstützt). //(Standard: Aktiviert)//|
 |Zeige Positionsverlauf|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte anzeigt. //(Standard: Deaktiviert)// \\ \\ :!: Beachte bitte,dass sie nur genau ist so lange du die Karte nutzt und GPS aktiviert ist und wird Lücken haben, sobald du dein Gerät abschaltest oder GPS deaktivierst. Wenn du eine zuverlässige Aufzeichnung deines Tracks haben möchtest, solltest du lieber eine spezialisierte App dafür nutzen.|
 |Länge des Positionsverlaufs|Erlaubt es dir die Anzahl der Trackpunkte für den Positionsverlaufs zu erhöhen. Wenn das Limit erreicht ist, werden die ältesten Punkte gelöscht, wenn neue Punkte aufgezeichnet werden. Eine Anhebung der Begrenzung erhöht allerdings die Speicherauslastung. //(Standard: 700 Punkte)//|
 |Routenberechnung|Mit dieser Einstellung kannst du die maximale Entfernung setzen, bis zu der eine Route zwischen deiner Position und dem gewählten Cache berechnet und auf der Karte angezeigt wird. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen. //(Standard: 10km)// \\ \\ :!: Zur Nutzung dieser Funktion muss die [[.:utilityprograms|Brouter-App]] auf deinem Gerät installiert sein.|
 |Zeige Entfernung in Luftlinie|Wenn diese Option aktivier ist, wird bei aktiver Wegführung zusätzlich zur geführten Entfernung auch die Luftlinien-Entfernung angezeigt. //(Standard: Deaktiviert)//|
+|Große Symbole für geloggte Caches|Ist diese Option aktiviert, so werden für geloggte Caches große Emoticons anstelle der Cache-Typ Symbole angezeigt. Ein Ändern der Einstellung erfordert einen Neustart von c:geo. //(Standard: Deaktivert)//|
 
 ==== Kartenverhalten ====
 {{anchor:map_behavior}}
