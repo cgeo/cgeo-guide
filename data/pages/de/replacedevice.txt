@@ -1,0 +1,54 @@
+====== c:geo auf ein anderes Gerät migrieren ======
+
+Diese Seite beschreibt die Prozedur um alle deine c:geo Daten von einem Gerät auf ein anderes zu übertragen. Dies kann z.B. hilfreich sein, wenn du ein neues Gerät hast und alle deine gespeicherten Caches und Einstellungen vom alten auf das neue Geräte zu übertragen.
+
+===== Einschränkungen =====
+
+Wenn du den Schritten unten folgt, werden alle gespeicherten Caches (inklusive deren Status, Notizen und Offline-Logs), der Cache-Verlauf und alle Programmeinstellungen zu 100% identisch zwischen dem alten und neuen Gerät sein. Das sind normalerweise die Hauptpunkte für einen reibungslosen Gerätewechsel.
+
+Der beschriebene Migrationsprozess enthält allerdings nicht Offline-Karten/Designs und exportierte GPX- und FieldNote-Dateien. Du kannst diese einfach selbst erledigen, in dem du sie aus dem entsprechenden Ordner unterhalb des c:geo [[.:mainmenu:settings#system|Basisordners]] vom alten Gerät auf das neue Gerät kopierst.
+
+Bilder aus Cache-Logbüchern und Bilder aus den Cache-Beschreibungen gespeicherter Caches sind in dieser Migration nicht enthalten, da sie in einem für Nutzer unzugänglichen Systemordner abgelegt sind. Diese Daten können aber einfach durch Aktualisierung der entsprechenden Caches auf dem neuen Gerät wiederhergestellt werden.
+===== Voraussetzungen =====
+
+Du benötigst die folgenden Dinge, um diese Prozedur durchzuführen:
+
+  * Einen guten Datei-Explorer auf beiden Geräten, um Dateien zu kopieren/verschieben
+  * Eine Möglichkeit Daten von einem Gerät auf das andere zu übertragen (z.B. Kabel, E-Mai, Cloudspeicher, SD-Karte, Bluetooth)
+  * Zwei Android-Geräte. die für c:geo geeignet sind. 8-)
+
+===== Auf dem alten Gerät =====
+
+Führe die folgenden Schritte auf dem alten Gerät durch:
+
+  - Starte c:geo
+  - Gehe zu c:geo Menü → Sichern/Wiederherstellen
+  - Aktiviere die Funktion deine Zugangsdaten mit in die Sicherung einzuschließen
+  - Tippe auf ''Sicherung starten''
+  - Notiere den Ordnerpfad, der in der Meldung "Sicherung abgeschlossen" angezeigt wird (z.B. ''/cgeo/backup/2021-01-02 15-20'')
+  - Du kannst nun entweder direkt die ''Teilen''-Funktion in dieser Meldung nutzen, um das Backup zu versenden (z.B. per E-Mail, Cloudspeicher, Bluetooth) oder du öffnest einen Datei-Explorer, findest den Sicherungsordner (siehe Schritt 5) und speicherst die beiden enthaltenen Dateien an einem sicheren Ort, um sie später wieder auf dem neuen Gerät wiederherzustellen (Die Dateien heißen ''cgeo.sqlite'' und ''cgeo.settings.xml'').
+===== Auf dem neuen Gerät =====
+
+Führe die folgenden Schritte auf dem neuen Gerät durch:
+
+  - [[.:installation|Installiere]] die gleiche c:geo Version wie auf dem alten Gerät. Wenn die Versionen unterschiedlich sind, könnte die Migration fehlschlagen und einige Einschränkungen haben.
+  - Kopiere das gespeicherte Sicherung auf das neue Gerät in einen Ordner deiner Wahl
+  - Starte c:geo
+  - Folge den Schritten des [[.:firststeps|Konfigurations-Assistenten]] (die Dienste-Konfiguration kannst du überspringen, da sie Teil deiner Sicherung ist) bis du die Ansicht "Erweiterte Konfiguration" erreichst
+  - Wähle ''Wiederherstellen'' auf diesem Assistenten-Bildschirm, um eine Ordnerauswahl zu öffnen
+  - Finde des Ordner mit deiner gespeicherten Sicherung (siehe Schritt 2), wähle ''Diesen Ordner verwenden'' und bestätige mit ''Erlauben''
+  - Wähle im folgenden Dialog aus, dass du Caches/Wegpunkte und die Programmeinstellungen wiederherstellen möchtest
+  - (Optional) Während der Wiederherstellung könntest du gefragt werden, ob du die gleichen Ordner für Offline-Karten/Designs und GPX-Exporte wie auf deinem alten Gerät nutzen möchtest. Wenn du diese nutzen willst, musst du c:geo erneut Zugriff auf diese Ordner geben. Anderenfalls kannst du einfach ablehnen und die Ordner später manuell festlegen.
+  - Zum Abschluss tippe auf ''Fertig'', um den Konfigurations-Assistenten zu beenden
+
+**Das wars!**\\
+Jetzt sollte c:geo auf deinem neuen Gerät die gleichen Caches enthalten und die gleichen Einstellungen nutzen wie auf deinem alten Gerät.
+
+
+
+
+
+
+
+
+

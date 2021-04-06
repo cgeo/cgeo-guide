@@ -144,7 +144,7 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 {{ :en:settings_maps_waypoints.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-| Show Waypoints |Here you can set the limit for showing waypoints of (saved) caches on the map.\\ If less than the selected amount of caches are displayed on the visible map area, their waypoints are shown additionally. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 20)//|
+| Show Waypoints |Here you can set the limit for showing waypoints of (saved) caches on the map.\\ If less than the selected amount of caches are displayed on the visible map area, their waypoints are shown additionally. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 10)//|
 | Hide Waypoints |These sub items allow to hide certain waypoint types on the map:\\ 1. Hide original waypoints: If a cache has modified listing coordinates assigned and thus a waypoint automatically created, which contains the original listing coordinates, this function will hide this original coordinate waypoint.\\ 2. Hide parking waypoints: Enabling this option will hide all waypoints of the type “Parking”.\\ 3. Hide visited waypoints: Enabling this option will hide all waypoints, which are marked as visited by the user in c:geo.\\ //(Default: All off)//|
 | Zoom includes waypoints |If this setting is enabled the zoom level will include all waypoints of a cache, if you open a map for a single cache. //(Default: Off)//|
 ==== Map Content ====
@@ -279,8 +279,7 @@ You can find more details regarding the offline usage of c:geo on the page [[..:
 {{ :en:settings_system_gpx.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|GPX Export Directory|Select the directory where GPX file exported from c:geo will be stored. //(Default:/cgeo/gpx)// \\ \\ :!: c:geo must have write permission on the selected directory. Therefore please make sure you select a folder from your internal memory but not from your SD card. |
-|GPX Import Directory|Select the directory where c:geo will search for GPX file to be imported into c:geo.|
+|GPX Folder|Select the directory where GPX file exported from c:geo will be stored. //(Default:/cgeo/gpx)//|
 
 ==== Database and Geocache data ====
 {{anchor:database_and_geocache_data}}
@@ -319,10 +318,11 @@ Please refer to the [[..navigation|supported navigation methods]] for detailed i
 {{anchor:system:}}
 {{anchor:various_other_system_settings:}}
 
-==== Geolocation & Orientation ====
+==== Base folder, Geolocation & Orientation ====
 {{ :en:system_other_1.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
+|Base folder for public local data|Here you can modify the base folder c:geo uses to store all its user accessible data (e.g. GPX-exports, offline logs, offline maps, etc.). \\ :!: We recommend to use ''/cgeo/'' on an internal non-removable storage.|
 |Use Google Play Services|On devices equipped with Google Play Services, c:geo can automatically use a better geo location provider to get better location results and reduce the battery consumption.\\ \\ :!: If you want to use an external Bluetooth GPS receiver you have to disable this option!\\ :!: On some devices Google Play Services are available but not working reliable. If you experience localization problems or no GPS reception at all, try disabling this option.|
 |Active low-power mode|The low power mode avoids using GPS and the gyroscope sensor in situations where a highly accurate location is not strictly necessary (e.g. on cache lists) at the cost of longer fixing times once high accuracy is needed again. It can help to enhance battery life in some situations.\\ We however recommend to keep this option switched off to have the highest possible accuracy which is desirable for Geocaching in general. :-)|
 |Force use of orientation sensor|On some devices the regular rotation vector sensor behaves erratically, giving the wrong direction when using the c:geo compass. In this case you can activate this option to instead use the orientation sensor, which may provide better results.\\ We recommend to enable this option only in case of compass problems on your device.|

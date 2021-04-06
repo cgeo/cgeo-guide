@@ -80,9 +80,7 @@ This section of the map popup provides several menu options concerning the selec
 |Toggle talking|Will start or stop the text-to-speech output of direction and distance towards the target.\\ You can also switch off the display once talking function has been started.|
 |Caches around|This option starts a [[lists|nearby search]] around the coordinates of the selected cache and will display the results.|
 |Open in browser|This option opens the cache listing on the geocaching web page using your internet browser.|
-|Remove|This option will delete the cache from your stored lists. FIXME **GITHUB -> KANN WEG**|
 |Share Cache|Will share a link to the cache using the built-in Android share options.|
-|Prevent waypoints from note|This will prevent c:geo from automatically extracting coordinates found in the personal note into the waypoints of this cache.|
 
 ==== Cache information ====
 {{anchor:cache_information}}

@@ -40,7 +40,7 @@ After opening the map downloader you can choose from what source you would like 
 
 For this example we use "Mapsforge" as map source and want to download the offline map for Mexico.
 
-The top level list is usually sorted by coarse geographical regions (typically: continents) and get more specific on each lower level. Click on the magnifier icon to open the desired list/region and see its contents. If you finally found the map file you want to install, simply click on the disc icon next to it to start the download process.
+The top level list is usually sorted by coarse geographical regions (typically: continents) and get more specific on each lower level. Tap on the magnifier icon to open the desired list/region and see its contents. If you finally found the map file you want to install, simply tap on the disc icon next to it to start the download process.
 
 {{:en:offlinemap_downloader_1.png?direct&300 |}}{{:en:offlinemap_downloader_3.png?direct&300|}}
 
@@ -52,7 +52,11 @@ Confirm the following dialog to start the download.
 
 {{ :en:offlinemap_downloader_4.png?direct&400 |}}
 
-The download itself is performed in the background by the download manager of your device. When the transfer is complete, the file is copied to the c:geo map folder and set as current map automatically.
+The download itself is performed in the background by the download manager of your device. When the transfer is complete, the file is transfered to the c:geo map folder and set as current map automatically.
+
+<WRAP center round info 100%>
+Best is to keep c:geo active during the download, so that after the download is completed c:Geo can directly take over the downloaded map.
+</WRAP>
 
 {{:en:offlinemap_downloader_5a.png?direct&400|}}{{ :en:offlinemap_downloader_5b.png?direct&400|}}
 
@@ -86,19 +90,7 @@ Once the update has been downloaded you will be asked, whether you want to overw
 
 You need to repeat the process for each map/theme you would like to update.
 
-
-
-
-
-
-
-
-
-
-
-
-
-===== Usage =====
+===== Usage of offline maps =====
 
 
 ==== Selecting map files ====

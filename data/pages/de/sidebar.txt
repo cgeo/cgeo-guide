@@ -56,6 +56,8 @@
       * [[spoilersync|Synchronisierung von Spoilerbildern zu c:geo]]
       * [[notecoords|Wegpunkte aus Koordinaten in der persönlichen Notiz]]
       * [[quick_widgets|Nutzung von Schnellzugriff und Widgets]]
+      * [[replacedevice|c:geo auf ein anderes Gerät migrieren]]
+
 
     * [[start#plugins|Erweiterungen und Zusatzfunktionen]]
       * [[contacts|Kontakte-Erweiterung]]

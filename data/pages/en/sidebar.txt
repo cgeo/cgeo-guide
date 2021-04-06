@@ -57,6 +57,7 @@
       * [[spoilersync|Synchronizing spoiler pictures from external sources to c:geo]]
       * [[notecoords|Waypoints created for coordinates in personal notes]]
       * [[quick_widgets|Using quick access and widgets]]
+      * [[replacedevice|Migrating c:geo to another device]]
 
     * [[start#plugins|Plugins and Addon functions]]
       * [[contacts|Contacts plugin]]

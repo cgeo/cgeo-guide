@@ -145,7 +145,7 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 {{ :en:settings_maps_waypoints.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Wegpunkte zeigen|Hier kannst du die Begrenzung für die Anzeige von Wegpunkten (gespeicherter) Caches auf der Karte einstellen.\\ Wenn weniger als die gewählte Anzahl von Caches auf der Karte sichtbar sind, werden ihre Wegpunkte zusätzlich angezeigt. //(Standard: 20)//|
+|Wegpunkte zeigen|Hier kannst du die Begrenzung für die Anzeige von Wegpunkten (gespeicherter) Caches auf der Karte einstellen.\\ Wenn weniger als die gewählte Anzahl von Caches auf der Karte sichtbar sind, werden ihre Wegpunkte zusätzlich angezeigt. //(Standard: 10)//|
 | Wegpunkte verbergen |Diese Untereinträge erlauben es bestimmte Wegpunkt-Arten auf der Karte zu verbergen:\\ 1. Originale Wegpunkte verbergen: Wenn ein Cache modifizierte Listing-Koordinaten hat und daher ein Wegpunkt mit den ursprünglichen Listing-Koordinaten automatisch erstellt wurde, kannst du diesen hier verbergen.\\ 2. Park-Wegpunkte verbergen: Das Aktivieren dieser Option blendet alle Wegpunkte des Typs „Parkplatz“ aus.\\ 3. Besuchte Wegpunkte verbergen: Diese Funktion versteckt alle Wegpunkte, die vom Nutzer in c:geo als „Besucht“ markiert wurden.\\ //(Standard: Alle aus)//|
 | Zoom beinhaltet Wegpunkte |Wenn diese Einstellung aktiviert ist, wird der Zoom der Karte so eingestellt, dass alle Wegpunkte direkt sichtbar sind, wenn die Karte für einen einzelnen Cache geöffnet wird. //(Standard: Aus)//|
 ==== Karteninhalt ====
@@ -283,8 +283,7 @@ Mehr Details zur Offline-Nutzung findest du auf der Seite [[..:offline|Offline-N
 {{ :en:settings_system_gpx.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Verzeichnis für GPX-Exporte|Wähle das Verzeichnis wo von c:geo exportierte GPX-Dateien gespeichert werden sollen. //(Standard:/cgeo/gpx)// \\ \\ :!: c:geo muss Schreibzugriff auf das gewählte Verzeichnis haben. Stelle daher sicher, dass du ein Verzeichnis im internen Speicher deines Gerätes und nicht auf der SD-Karte auswählst.|
-|Verzeichnis für GPX-Importe|Wähle das Verzeichnis wo c:geo nach zu importierenden GPX-Dateien suchen soll.|
+|GPX-Ordner|Wähle das Verzeichnis wo von c:geo exportierte GPX-Dateien gespeichert werden sollen. //(Standard:/cgeo/gpx)//|
 
 ==== Datenbank und Geocache-Daten ====
 {{anchor:database_and_geocache_data}}
@@ -325,12 +324,13 @@ Schaue auf die Seite [[..navigation|Unterstützte Navigationsmethoden]] für det
 
 
 
-==== Positionierung & Orientierung ====
+==== Basisordner, Positionierung & Orientierung ====
 {{anchor:various_other_system_settings:}}
 
 {{ :en:system_other_1.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
+|Basisordner für öffentliche lokale Daten|Hier kannst du den Basisordner ändern, den c:geo nutzt um alle nutzer-zugreifbaren Daten (z.B. GPX-Exporte, Offline-Logs, Offline-Karten, etc.) zu speichern.\\ :!: Wir empfehlen den Ordner ''/cgeo/'' auf einem internen nicht-entfernbaren Speicher zu nutzen.|
 |Google Play-Dienst nutzen|Auf Geräten mit Google Play-Diensten kann c:geo automatisch eine bessere Positionsbestimmung nutzen. Weiterhin kann damit ein Energiesparmodus ohne GPS genutzt werden, wenn hohe Genauigkeit nicht unbedingt erforderlich ist.\\ \\ :!: Wenn du einen externen Bluetooth GPS-Empfänger nutzen möchtest, musst du diese Option deaktivieren!\\ :!: Auf einigen Geräten ist der Google Play-Dienst verfügbar, funktioniert aber nicht zuverlässig. Wenn du Probleme bei der Lokalisierung feststellst oder keinen GPS-Empfang hast, versuche diese Funktion zu deaktivieren.|
 |Energiesparmodus aktivieren|Der Energiesparmodus vermeidet die Verwendung von GPS und Gyroskop, wenn eine hochgenaue Position nicht unbedingt notwendig ist. Nachteil ist eine längere Zeit bis zum GPS-Fix. Er kann helfen die Batterielaufzeit zu verlängern, wir empfehlen allerdings diese Option ausgeschaltet zu lassen, um die bestmögliche Genauigkeit zu haben, was fürs Geocaching generell wünschenswert ist :-)|
 |Orientierungssensor nutzen|Auf einigen Geräten verhält sich der Rotationssensor fehlerhaft und zeigt die falsche Richtung an. In diesem Fall kann ein alternativer Sensor (der Orientierungssensor) bessere Ergebnisse liefern.\\ Wir empfehlen diese Option nur bei Kompass-Problemen auf deinem Gerät zu aktivieren.|

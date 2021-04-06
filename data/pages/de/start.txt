@@ -97,6 +97,8 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
   * [[spoilersync|Synchronisierung von Spoilerbildern zu c:geo]]
   * [[notecoords|Wegpunkte aus Koordinaten in der persönlichen Notiz]]
   * [[quick_widgets|Nutzung von Schnellzugriff und Widgets als Abkürzung für einige c:geo Funktionen]]
+  * [[replacedevice|c:geo auf ein anderes Gerät migrieren]]
+
 
 ===== Erweiterungen und Zusatzfunktionen =====
 {{anchor:plugins}}

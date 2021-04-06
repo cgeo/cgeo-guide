@@ -28,7 +28,9 @@ The number of icons you see in the top bar is determined dynamically, based on y
 To see the name of an icon in the top bar, long-press the icon.
 </WRAP>
 
-{{ :en:main_topbarmenu.png?direct&400 |}}
+{{:en:main_topbarmenu_2.png?direct&400|}}
+{{:en:main_topbarmenu.png?direct&400|}}
+
 
 ^ Icon ^ Function ^ Description ^
 |{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Quick search]]|If you are offline, search your stored geocaches using title, geocode, description, owner, log content, etc. \\ If you have network access, search both stored and online content. You can input a geocode, trackable code, username, and much more.|
@@ -39,8 +41,8 @@ To see the name of an icon in the top bar, long-press the icon.
 |{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Launch the settings backup function, which can be also found in the [[settings|c:geo Settings]].|
 |{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|
 |{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Scan Geocode]]|If a [[utilityprograms|barcode scanner]] app is installed on your device, launch it and scan barcodes that contain geocodes.|
-| |Invite friends|This function has been removed.|
 |{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|About c:geo]]|View c:geo version information, contributors, contact links and other nice-to-know things about c:geo.|
+| |Report problem|You can use this function to send a problem report to the c:geo support by mail.\\ :!: Please include a details description of your problem.|
 
 ===== Bottom Section =====
 {{anchor:bottom_section:}}

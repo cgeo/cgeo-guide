@@ -19,8 +19,8 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 |{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Bild hinzufügen]]|Dies erlaubt es dir ein existierende Bild zum Log hinzuzufügen oder ein neues Bild aufzunehmen, und dann zum Log hinzuzufügen.|
 | |Smileys|Öffnet eine Liste von Smiley-Markierungen, die du in deinen Logtext einfügen kannst.|
 | |Offline speichern|Speichert das geschriebene Log offline anstatt es online zu senden.|
-| |Verwende das letzte Log erneut|Diese Funktion fügt den Logtext deines zuletzt geloggten Caches in das Textfeld ein.|
 | |Trackables sortieren|Du kannst die Trackable-Liste entweder alphabetisch nach dem Trackable-Namen oder dem Tracking-Code sortieren.|
+| |Verwende das letzte Log erneut|Diese Funktion fügt den Logtext deines zuletzt geloggten Caches in das Textfeld ein.|
 | |Leeren|Dies löscht den Logtext und setzt den Log-Bildschirm zurück.|
 
 ===== Logbildschirm =====
@@ -65,7 +65,7 @@ Klicke auf das Feld um ein Dropdown-Menü zu öffnen, welches die verfügbaren P
 ^ Menüeintrag ^ Beschreibung ^
 |Kein Problen|Deinem Log wird keine Problemmeldung hinzugefügt.\\ Dies ist die Standardauswahl.|
 |Logbuch ist voll|Informiert den Besitzer darüber, dass das Logbuch des Caches voll ist.|
-|Cache ist evtl. verschwunden|Informiert den Besitzer darüber, dass der Cache evtl. nicht mehr vorhanden ist.\\ Dieser Problemtyp ist nicht im Zusammenhang mit einem "Gefunden"-Log verfügbar.|
+|Cache ist evtl. verschwunden|Informiert den Besitzer darüber, dass der Cache evtl. nicht mehr vorhanden ist.\\ :!: Dieser Problemtyp ist nicht im Zusammenhang mit einem "Gefunden"-Log verfügbar.|
 |Behälter ist beschädigt|Informiert den Besitzer darüber, dass etwas mit dem Behälter des Caches nicht stimmt.|
 |Cache sollte archiviert werden|Informiert den Reviewer/Administrator des Geocaching-Dienstes darüber, dass dieser Cache archiviert werden sollte.|
 |Anderes|Ein anderes Problem, welches du in deinem Logtext näher beschreiben solltest.|
@@ -91,7 +91,35 @@ Dieses Feld wird nur angezeigt, wenn du Premium-Mitglied von geocaching.com bist
 
 {{:en:logging_twitter.png?nolink&400 |}}
 
-Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]]  mit [[https://twitter.com|Twitter]] verbunden hast wird dieses Feld angezeigt. Wenn du die Schaltfläche aktivierst, wird c:geo einen Tweet posten wenn du das Log abschickst.
+Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]]  mit [[https://twitter.com|Twitter]] verbunden hast, wird dieses Feld angezeigt. Wenn du die Schaltfläche aktivierst, wird c:geo einen Tweet posten wenn du das Log abschickst.
+
+==== Bilder ====
+{{anchor:attach_image:}}
+
+=== Schnell-Symbole ===
+
+{{ :en:logging_images.png?nolink&400 |}}
+
+Ein Tippen auf die Symbole in diesem Bereich erlaubt dir auf schnelle Weise Bilder zu deinem Log hinzuzufügen.
+
+  * {{:ic_menu_image_multi.png?nolink&30|}} öffnet einen Dateiwähler, damit du ein auf deinem Gerät vorhandenes Bild hinzufügen kannst
+  * {{:ic_menu_camera.png?nolink&30|}} öffnet die Kamera deines Gerätes um ein Bild aufzunehmen
+
+Alternativ kannst du die Funktion ''Bild hinzufügen'' im Titelzeilen-Menü verwenden, um ein Bild mit erweiterten Optionen hinzuzufügen, so dass du Überschrift, Beschreibung und die gewünschte Skalierung während des Hinzufügens bereits einstellen kannst (siehe nächstes Kapitel).
+
+Nachdem das Bild hinzugefügt wurde, wird eine Vorschau im Bilder-Bereich des Logfensters angezeigt. Du kannst auf {{:ic_menu_delete.png?nolink&30|}} tippen, um das hinzugefügte Bild zu entfernen, und - wenn mehrere Bilder angefügt sind - kannst du {{:settings_details_black.png?nolink&30|}} nutzen um ihre Reihenfolge durch Ziehen & Ablegen zu verändern.
+
+Ein Klick auf das Vorschaubild öffnet den Editor, um die Bilddetails (Überschrift, Beschreibung und Skalierung) zu bearbeiten (siehe nächstes Kapitel).
+
+=== Bilddetails bearbeiten ===
+
+Die Auswahl des Menüpiunktes ''Bild hinzufügen'' aus dem [[logging#top_bar_menu|Titelzeilen-Menü]] öffnet ein neues Fenster, in dem du ein Bild hinzufügen kannst. Du kannst diese Ansicht auch für bereits angehängte Bilder öffnen, wenn du auf das Vorschaubild im Logfenster tippst.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+Die Auswahl von ''Vorhanden'' öffnet deine standardmäßige Galerie-App, wo du ein existierendes Bild aus der Galerie auswählen kannst. Bei Auswahl von ''Neu'' öffnet sich die Kamera deines Gerätes um ein neues Foto aufzunehmen.
+
+Danach kannst du eine Überschrift und eine Beschreibung für das Bild eingeben, die später dem Bild in deinem Log hinzugefügt werden. Du kannst auch (optional) auswählen das Bild auf eine andere Pixelgröße herunter zu skalieren um die zu übertragende Datenmenge beim Posten des Logs zu reduzieren.
 
 
 ===== Inventar =====
@@ -109,17 +137,3 @@ Mit dem Dropdown-Menü auf der rechten Seite kannst du die gewünschte Aktion f�
 
 Unterhalb der Trackable-Liste kannst du die Schaltfläche ''Alle ändern'' dazu nutzen, eine gemeinsame Aktion für alle Trackables in deinem Inventar auszuwählen.
 
-===== Bild hinzufügen =====
-{{anchor:attach_image:}}
-
-Die Auswahl der Menüoption ''Bild hinzufügen'' auf dem [[logging#top_bar_menu|Titelzeilen-Menü]] öffnet eine neue Ansicht, in der du ein Bild zum Log hinzufügen kannst.
-
-{{ :en:logging_attachimage.png?nolink&400 |}}
-
-Die Auswahl von ''Vorhanden'' öffnet deine standardmäßige Galerie-App, wo du ein existierendes Bild aus der Galerie auswählen kannst. Bei Auswahl von ''Neu'' öffnet sich die Kamera deines Gerätes um ein neues Foto aufzunehmen.
-
-Danach kannst du eine Überschrift und eine Beschreibung für das Bild eingeben, die später dem Bild in deinem Log hinzugefügt werden. Du kannst auch (optional) auswählen das Bild auf eine andere Pixelgröße herunter zu skalieren um die zu übertragende Datenmenge beim Posten des Logs zu reduzieren.
-
-<WRAP center round info 100%>
-Momentan unterstützt c:geo nur ein einzelnes Bild zu jedem Log hinzuzufügen. Das Hinzufügen von mehreren Bildern wird (noch) nicht unterstützt.
-</WRAP>

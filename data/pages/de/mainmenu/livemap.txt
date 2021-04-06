@@ -78,7 +78,6 @@ Dieser Bereich des Pop-up-Fensters enthält einige Optionen für den gewählten 
 |Sprachausgabe ein-/ausschalten|Startet oder stoppt die Text-nach-Sprache Ausgabe der Richtung und Entfernung zum Ziel.\\ Du kannst die Anzeige deines Telefons ausschalten, sobald die Sprachausgabe gestartet wurde.|
 |Caches im Umkreis|Diese Option startet eine [[lists|Nahbereichssuche]] um die Koordinaten des ausgewählten Caches und zeigt das Egebnis als Liste.|
 |Im Browser öffnen|Diese Funktion öffnet das Cachelisting auf der Geocaching-Webseite mit deinem Intenet-Browser.|
-|Entfernen|Diese Funktion löscht den Cache von deinen Listen.|
 |Weiterleiten|Nutzt die eingebauten Android-Funktionen um einen Link zum Cache zu teilen.|
 
 ==== Cacheinformation ====

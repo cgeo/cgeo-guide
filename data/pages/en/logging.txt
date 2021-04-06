@@ -21,8 +21,8 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Attach image]]|This allows you to select an existing image or take a new picture, which will be added to the log.|
 | |Smilies|Opens a list of smiley tags you can insert into your log.|
 | |Save offline|Saves your composed log offline only instead of sending it online.|
-| |Repeat last log|This function will insert the log text of the last cache you logged into the log text field.|
 | |Sort Trackables|You can change the sorting order of the trackable list either to sort by trackable name or by tracking code.|
+| |Repeat last log|This function will insert the log text of the last cache you logged into the log text field.|
 | |Clear|This will delete the log text and reset the logging screen.|
 
 ===== Logging screen =====
@@ -66,7 +66,7 @@ Tap on the field to open a drop down menu containing the available problem repor
 ^ Menu item ^ Description ^
 |No Problem|No problem report will be attached to your log.\\ This is the default selection.|
 |Logbook is full|Informs the owner, that the logbook of the cache is full.|
-|Container might be missing|Informs the owner, that the cache container is probably gone.\\ This problem type is not available in conjunction with a "Found it" log.|
+|Container might be missing|Informs the owner, that the cache container is probably gone.\\ :!: This problem type is not available in conjunction with a "Found it" log.|
 |Container is damaged|Informs the owner, that something is wrong with the geocache container.|
 |Cache should be archived|Informs the reviewers/administrators of the geocaching provider, that this cache should be archived.|
 |Other|Another problem, which you should further describe in your log text.|
@@ -94,8 +94,36 @@ This field is only shown if you are premium member of geocaching.com. Activating
 
 If you connected c:geo with [[https://twitter.com|Twitter]] in the [[.mainmenu:settings#social_media|settings]] this field will be shown. If you enable the checkbox c:geo will post a tweet in parallel to sending this log.
 
+==== Images ====
+{{anchor:attach_image:}}
 
-===== Inventory =====
+=== Quick add icons ===
+
+{{ :en:logging_images.png?nolink&400 |}}
+
+Tapping the icons in this section allows you to attach an image to your log in a fast way.
+
+  * {{:ic_menu_image_multi.png?nolink&30|}} will open a file selector to let you pick an existing picture from your device
+  * {{:ic_menu_camera.png?nolink&30|}} will open the camera on your device to take a picture
+
+Alternatively you can use the title bar menu option ''Attach image'' to add an image using the advanced menu, where you can also define the caption, description and select the scaling while adding the picture (see next chapter).
+
+After an image has been added, a preview will be shown in the images section. You can use {{:ic_menu_delete.png?nolink&30|}} to remove the attached picture and -if multiple picture are attached - use {{:settings_details_black.png?nolink&30|}} to change the order by dragging and dropping them.
+
+To edit the picture details just click on them to open the detail window, where you can edit caption, description and scaling (see next chapter).
+
+=== Edit image options ===
+
+Selecting the menu option ''Attach image'' from the [[logging#top_bar_menu|top bar menu]] will open a new screen, where you can attach a picture to your log. You can also reach this view for already attached pictures by tapping on the preview picture on the log screen.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+Selecting ''Existing'' opens a file selector and lets you pick an existing image from your gallery. Selecting ''New'' opens your device camera to take a new image (just as the quick icons described in the last chapter).
+
+Afterwards you can write a caption and provide a description for the picture, which will be added to your picture on the cache log.
+You can also (optionally) select to downscale your image to different pixel sizes to reduce the data amount being transferred when posting the log with your image.
+
+==== Inventory ====
 {{anchor:inventory:}}
 
 {{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
@@ -110,18 +138,3 @@ Using the drop down menu on the right hand side, you can select the action you w
 
 Below the trackable list there you can use the button ''Change All'' to select the action for all trackable items in your inventory at once.
 
-===== Attach image =====
-{{anchor:attach_image:}}
-
-Selecting the menu option ''Attach image'' from the [[logging#top_bar_menu|top bar menu]] will open a new screen, where you can attach a picture to your log.
-
-{{ :en:logging_attachimage.png?nolink&400 |}}
-
-Selecting ''Existing'' opens your default gallery app and lets you pick an existing image from your gallery. Selecting ''New'' opens your device camera to take a new image.
-
-Afterwards you can write a caption and provide a description for the picture, which will be added to your picture on the cache log.
-You can also (optionally) select to downscale your image to different pixel sizes to reduce the data amount being transferred when posting the log with your image.
-
-<WRAP center round info 100%>
-At the moment c:geo does only support attaching a single image to each log. Attaching of multiple images is not (yet) supported.
-</WRAP>
