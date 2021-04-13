@@ -20,6 +20,9 @@ As the current server installation is owned and maintained privately by a c:geo 
 The repository is updated manually from time to time by pushing a snapshot of the current state of the server content as a backup.
 This backup follows the guide for content backup as described here: https://www.dokuwiki.org/start?id=faq:backup
 
+## Usage of Issues for this repository
+The issue section of this repository is used (primarily by c:geo team members) to document needed corrections or additions to the user guide. It serves as a kind of ToDo list for maintainers of the user guide. The available issue labels should be used to classify the issue (e.g. Correction, Addition). Additionally milestones can be assigned to issues as a marker what release of c:geo is triggering the needed change (e.g. a new feature should only be added once the c:geo release, where it is contained is about to be or has been released).
+
 ## Restoring data to DokuWiki
 In case of need the content of this repository can be used to restore the content data (texts, media) and their meta data and history. Configuration details (such as styles and themes) and user accounts are however not covered by this repository and need to be set up manually.
 Corresponding installation and configuration guides and the DokuWiki software itself can be found on https://www.dokuwiki.org
