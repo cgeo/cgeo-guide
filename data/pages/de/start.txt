@@ -125,7 +125,6 @@ Da c:geo kontinuierlich weiterentwickelt und aktualisiert wird ist es möglich, 
 
   * [[http://www.cgeo.org|c:geo Homepage]]
   * [[https://www.facebook.com/android.geocaching|c:geo bei Facebook]]
-  * [[https://plus.google.com/105588163414303246956|c:geo bei Google+]]
   * [[https://twitter.com/android_gc|c:geo bei Twitter]]
 
   * [[https://github.com/cgeo/|c:geo Entwicklung auf Github]]

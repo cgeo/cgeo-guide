@@ -7,3 +7,6 @@
 1611437453	2.205.115.174	e	en:intents	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
 1611437533	2.205.115.174	e	en:intents	lineflyer	Replace clicked by tapped		-1
 1611437647	2.205.115.174	e	en:intents	lineflyer	Replace click by tap		-2
+1617882367	2.202.19.198	E	en:intents	lineflyer	Add hint to chrome webview		103
+1617882440	2.202.19.198	E	en:intents	lineflyer	.		32
+1617882493	2.202.19.198	E	en:intents	lineflyer	.		81

@@ -18,6 +18,6 @@ c:geo benutzt dedizierte Symbole für die unterschiedlichen verfügbaren Geoache
 |{{ :type_ape.png?nolink&40 |}}|Project APE-Cache|Ursprünglich wurden 14 Caches dieses Typs im Jahr 2001 als Promotion für den Film "Planet der Affen" versteckt. Nur wenige davon existieren heute noch, was diesen Cachetyp zu einem der seltensten Cachetypen macht.|
 |{{ :type_hq.png?nolink&40 |}}|Groundspeak Headquarter-Cache|Es gibt nur einen Geocache dieses Typs, der sich am Hauptquartier von Groundspeak, der Firma hinter geocaching.com, in Seattle, Washington/USA befindet.|
 |{{ :type_unknown.png?nolink&40 |}}|Unbekannter Cachetyp|Wenn dieser Cachetyp in c:geo angezeigt wird, konnte c:geo den Typ des Caches (noch) nicht ermitteln, es handelt sich um einen Cachetyp, den c:geo nicht unterstützt (z.B. Lab-Caches) oder es ist ein dedizierter Unbekannter Cache, wie er auf Opencaching-Plattformen unterstützt wird.|
-
+|{{ :type_cgeo.png?nolink&40 |}}|c:geo cache|Benutzt für benutzerdefinierte Caches innerhalb von c:geo|
 
 

@@ -9,7 +9,7 @@ Therefore c:geo supports to synchronize the spoiler pictures using these specifi
 The following might look very complicated, however if you use corresponding spoiler sync tools the whole directory structure will be created and the spoiler pictures added automatically. All you typically need to know is the correct base directory to copy the directory structure into on your c:geo device.
 </WRAP>
 
-  * Base directory: \\ The base directory for geocache spoilersync is ''/cgeo/GeocachePhotos/'' on the internal storage of your device.
+  * Base directory: \\ The base directory for geocache spoilersync depends on where you have defined the base directory of c:geo itself. You have to use the folder ''GeocachePhotos/'' below the [[.:mainmenu:settings#base_folder_geolocation_orientation|base folder of c:geo]] itself. Typically its then located in ''/cgeo/GeocachePhotos/'' on your internal storage if you use the default.
 
   * Directory structure: \\ The structure below the base directory has to follow this rule:\\ ''/last character of the geocode/second to last character of the geocode/Full geocode/'' \\ \\ Example: If a cache is named GC123ABC, the corresponding directory will be ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
     

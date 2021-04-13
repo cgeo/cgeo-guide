@@ -26,7 +26,7 @@ In this menu you will find the following categories of settings which will be de
 ==== Geocaching ====
 {{anchor:geocaching:}}
 
-{{:en:services_1_en.png?direct&300 |}}{{:en:services_2_en.png?direct&300|}}
+{{ :en:services_1_en.png?direct&300 |}}
 
 In the first section of the service settings you can configure the connection to the different supported geocaching platforms.
 Currently c:geo supports the following geocaching services:
@@ -46,7 +46,9 @@ Currently c:geo supports the following geocaching services:
 A detailed description of the authentication procedure for these geocaching services can be found in the [[..firststeps|First Steps with c:geo]].
 </WRAP>
 
-Furthermore you can use the service menu to configure the connection to the following additional services, which are available in c:geo afterwards::
+Furthermore you can use the service menu to configure the connection to the following additional services, which are available in c:geo afterwards:
+
+{{ :en:services_2_en.png?direct&300 |}}
 
 ^ Service ^ Description ^
 |[[http://gcvote.com|GCVote]]|A platform for voting on the quality of Geocaches|
@@ -319,6 +321,8 @@ Please refer to the [[..navigation|supported navigation methods]] for detailed i
 {{anchor:various_other_system_settings:}}
 
 ==== Base folder, Geolocation & Orientation ====
+{{anchor:base_folder_geolocation_orientation}}
+
 {{ :en:system_other_1.png?direct&400 |}}
 
 ^ Menu item ^ Description ^

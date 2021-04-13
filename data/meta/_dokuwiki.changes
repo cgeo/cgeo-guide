@@ -1452,3 +1452,44 @@
 1617734368	2.202.19.198	e	de:replacedevice	lineflyer	Remove fixme		-179
 1617734421	2.202.19.198	E	en:start	lineflyer	[Special Functions and Hints] Add migration to another device link		57
 1617734444	2.202.19.198	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		62
+1617736792	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:translation	lineflyer	[Requirements] Remove self registration, it was disabled		-398
+1617742033	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:start	lineflyer	[Useful Links] Remove G+ link		-71
+1617742052	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	de:start	lineflyer	[Nützliche Links] Remoev G+ links		-72
+1617742733	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:cacheicons	lineflyer	Add c:geo own cache type		91
+1617742780	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	de:cacheicons	lineflyer	Add c:geo own cache type		104
+1617879141	2.202.19.198	E	en:hiddenfunctions	lineflyer	Add long press pencil icon		135
+1617879201	2.202.19.198	E	de:hiddenfunctions	lineflyer	Langtipp auf Stift-Symbol hinzugefügt		154
+1617879258	2.202.19.198	e	de:hiddenfunctions	lineflyer	Typos/Wording		6
+1617880093	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
+1617880108	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		2
+1617880119	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		-1
+1617880131	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
+1617880160	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
+1617882367	2.202.19.198	E	en:intents	lineflyer	Add hint to chrome webview		103
+1617882440	2.202.19.198	E	en:intents	lineflyer	.		32
+1617882493	2.202.19.198	E	en:intents	lineflyer	.		81
+1617882606	2.202.19.198	E	de:intents	lineflyer	Add hint to chrome webview		218
+1617882785	2.202.19.198	E	en:spoilersync	lineflyer	Add base folder construction		192
+1617882801	2.202.19.198	e	en:spoilersync	lineflyer	.		0
+1617882853	2.202.19.198	E	en:spoilersync	lineflyer	Add link to base folder setting		60
+1617882886	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Base folder, Geolocation & Orientation] 		48
+1617887496	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Basisordner, Positionierung & Orientierung] 		5
+1617887635	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte aus Koordinaten in der persönlichen Notiz] 		17
+1617887856	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		180
+1617887911	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		14
+1617887967	2.202.19.198	E	en:notecoords	lineflyer	[Automatic creation of waypoints] 		2
+1617887997	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		-9
+1617888105	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		45
+1617888152	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] 		1
+1617888296	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		369
+1617888359	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] wording		5
+1617888505	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		-2
+1617889197	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] wording		-25
+1617889272	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		24
+1617889284	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		-12
+1617889321	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		3210
+1617892124	2.202.19.198	E	en:notecoords	lineflyer	[Advanced waypoint syntax] 		7
+1617892265	2.202.19.198	E	en:notecoords	lineflyer	[Using Personal Notes to create and store waypoint information] 		364
+1617892429	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		1055
+1617892682	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		268
+1618314867	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Remove trail history no longer on top level of that menu. Removed		-108

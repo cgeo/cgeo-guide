@@ -125,7 +125,6 @@ As c:geo is continuously being improved and updated, this user guide may not ref
 
   * [[http://www.cgeo.org|c:geo Homepage]]
   * [[https://www.facebook.com/android.geocaching|c:geo on Facebook]]
-  * [[https://plus.google.com/105588163414303246956|c:geo on Google+]]
   * [[https://twitter.com/android_gc|c:geo on Twitter]]
 
   * [[https://github.com/cgeo/|c:geo development on GitHub]]

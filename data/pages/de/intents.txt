@@ -7,6 +7,6 @@ Zum Beispiel registriert sich c:geo für Links, die mit ''http://coord.info/GC''
 Wenn du gefragt wirst, mit welcher App du diese Links öffnen willst, kannst du c:geo auch als Standard für diese Link-Art setzen. Danach startet sich c:geo automatisch, wenn du auf einen solchen Link tippst.
 
 <WRAP center round tip 100%>
-Der Nachteil c:geo als Standard für alle geocaching-bezogenen Links zu setzen ist, dass (abhängig von deinem Gerät und Android-Version) die ''In Browser öffnen''-Funktion in c:geo dann evtl. nur c:geo selbst anbietet.\\
-Unsere [[http://faq.cgeo.org#open-in-browser|FAQ]] beschreibt, wie du dieses Problem lösen kannst.
+Der Nachteil c:geo als Standard für alle geocaching-bezogenen Links zu setzen ist, dass (abhängig von deinem Gerät und Android-Version) die ''In Browser öffnen''-Funktion in c:geo dann evtl. nur c:geo selbst anbietet.\\ \\
+Du kannst dies vermeiden, in dem du die Funktion [[.:mainmenu:settings#cache_details|Chrome Webansicht]] in c:geo nutzt. Des weiteren beschreibt unsere [[http://faq.cgeo.org#open-in-browser|FAQ]], wie du dieses Problem auf andere Weise lösen kannst (z.B. wenn du Google Chrome auf deinem Gerät nicht verwendest).
 </WRAP>

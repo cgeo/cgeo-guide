@@ -325,7 +325,7 @@ Schaue auf die Seite [[..navigation|Unterstützte Navigationsmethoden]] für det
 
 
 ==== Basisordner, Positionierung & Orientierung ====
-{{anchor:various_other_system_settings:}}
+{{anchor:base_folder_geolocation_orientation}}
 
 {{ :en:system_other_1.png?direct&400 |}}
 

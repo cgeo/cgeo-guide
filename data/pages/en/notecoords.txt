@@ -1,5 +1,8 @@
 ====== Using Personal Notes to create and store waypoint information ======
 
+c:geo can generate waypoints from the content of your personal note. It also supports a backup of your user-modified or user-defined waypoints in c:geo to the personal note. As both ways are compatible it can also easily be used as a backup/restore of your waypoints of a cache to/from the geocaching server.
+
+This page describes in detail how these feature work.
 ===== Automatic creation of waypoints =====
 
 If your [[cachedetails#personal_note|personal note]] of a cache contains valid coordinates (e.g. ''N50 10.123 E010 34.876'') c:geo will automatically create a waypoint from it in the [[cachedetails#waypoint_tab|waypoint tab]] of this cache.
@@ -15,7 +18,7 @@ c:geo will automatically create this waypoint for it:
 Subsequent coordinates in your personal note will also be transferred to a waypoint in the same way and the waypoint name numbered accordingly.
 
 <WRAP center round tip 80%>
-If the waypoints of a cache already contain the same coordinates as found in your personal note, c:geo will not create a new waypoint for these coordinates as it assumes them to be an unnecessary duplicate in this case. Two coordinates are consideres "same" in this sense when they are identical written in Geocaching standard Decimal-Minute Format (e.g. ''N50 10.123 E010 34.876'')
+If the waypoints of a cache already contain the same coordinates as found in your personal note, c:geo will not create a new waypoint for these coordinates as it assumes them to be an unnecessary duplicate in this case. Two coordinates are consideres "same" in this sense when they are identical written in [[.:coordformat|MinDec coordinate format]] (e.g. ''N50 10.123 E010 34.876'').
 </WRAP>
 
 
@@ -25,7 +28,7 @@ Normally c:geo will define the waypoint type for coordinates found in the person
 
 You just place one of the following keywords in front of the coordinates:
 
-^ Icon ^ Waypoint type ^ Keyword in personal note ^ ShortId in personal note ^
+^ Icon ^ Waypoint type ^ Keyword in personal note ^ Short ID in personal note ^
 |{{ :waypoint_pkg.png?nolink&40 |}}|Parking Area|PARKING|P|
 |{{ :waypoint_puzzle.png?nolink&40 |}}|Question to Answer|PUZZLE|X|
 |{{ :waypoint_stage.png?nolink&40 |}}|Stage of a Multi cache|STAGE|S|
@@ -35,8 +38,8 @@ You just place one of the following keywords in front of the coordinates:
 
 c:geo will recognize the following keyword formats as waypoint type identifiers (all of them case-insensitive):
   * the keyword itself 
-  * the ShortId surrounded by parenthesis (e.g. "(f)" to define a waypoint of type "Final")
-  * the ShortId as a single word **directly before** the coordinate
+  * the ShortId surrounded by parenthesis (e.g. ''(f)'' to define a final waypoint)
+  * the ShortId **directly in front of** the coordinate
 
 Additionally localized waypoint type names (in the language you are using c:geo) will also work, however as c:geo is available in many languages we only list the English keywords here.
 
@@ -50,11 +53,11 @@ which then automatically creates these waypoints for you:
 
 ===== Backup waypoints in personal note =====
 
-It is possible to create a textual backup of all your user-modified waypoint data in the personal note. You can upload this PN and thus backup your waypoint data. Due to waypoint parsing this data can then be restored to your waypoint list in case it gets lost or is deleted from your local device.
+It is possible to create a textual backup of all your user-modified waypoint data in the personal note. You can upload this note to the geocaching server and thus easily backup your custom waypoint data. Due to the above described waypoint parsing this data can then be restored to your waypoint list in case it gets lost or is deleted from your local device.
 
 To create the textual backup, use the button ''Add/Update waypoints'' under the personal note. A textual section will be created in your personal note starting with ''{c:geo-start}'' and ending with ''{c:geo-end}''. It contains all user-defined waypoint data from the waypoint list in advanced waypoint syntax (which is explained in the next section).
 
-To refresh the textual waypoint backup, tap button ''Add/Update waypoints'' again. To removeit, tap button ''Remove waypoints''.
+To refresh the textual waypoint backup, tap button ''Add/Update waypoints'' again. To remove it, tap button ''Remove waypoints''.
 
 As an example, when executed on the following waypoints:
 
@@ -64,9 +67,10 @@ This function will create this textual backup:
 
 {{en:pn_with_stored_waypoints.png?direct&600|}}
 
+If you upload this personal note to the geocaching server, then delete the cache on your local device and later store it again in c:geo, the waypoints from the personal note will be automatically restored.
 ===== Advanced waypoint syntax =====
 
-Perhaps you noticed that waypoints from personal note were created with default names like e.g. ''Personal Note 2''. If you want to perform more advanced waypoint operations from your personal notes you have to use advanced waypoint syntax. With this you can:
+Perhaps you noticed that waypoints from personal note were created with default names like e.g. ''Personal Note 2''. If you want to perform more advanced waypoint operations from your personal notes you have to use an advanced waypoint syntax. With this you can:
   * Modify properties of predefined waypoints (=waypoints which were predefined by the cache owner in the listing): coordinate and user note
   * Create or modify waypoint type, name and user note in user-defined waypoints
 
@@ -74,8 +78,8 @@ To do this, use the following syntax in your personal note:
 
 ''@[<prefix>]<name> (<waypointTypeId>) <coordinate> "<user note>"''
 
-Advanced format is recognized when it starts with a ''@'' at the beginning of a new line. The following content is parsed:
-  * **Waypoint Name**: everything between the ''@'' and the coordinate is considered to be a part of the waypoint name, except when it is in parenthesis ''()''
+The advanced format is recognized when it starts with a ''@'' at the beginning of a new line. The following content is parsed:
+  * **Waypoint name**: everything between the ''@'' and the coordinate is considered to be a part of the waypoint name, except when it is in parenthesis ''()''
   * **Prefix**: If the ''@'' is directly followed by square brackets ''[]'', then the content of these brackets is considered to be the prefix of the waypoint you want to edit
   * **User note**: If the coordinate is immediately followed by ''"'' (in same or next line), then everything between this ''"'' and the next ''"'' is considered to be part of the waypoint's **user note** (including line breaks). If the coordinate is not followed by ''"'' but has additional content on same line, then this content is considered to be the waypoint's user note
   * **Waypoint type**: same rules apply as discussed in previous sections.

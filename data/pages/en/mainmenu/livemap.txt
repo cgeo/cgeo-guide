@@ -34,7 +34,6 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 | | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
 | | Individual route |This will open a sub menu to manage, load or hide an [[livemap#map_navigation|individual route]], which you created by long tapping elements on the map. The long tap function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
 | |[[lists#cache_list|Show as list]]|This will display all caches shown on the map as [[lists|cache list]].|
-| |[[settings#map_content|Clear trail history]]|This will delete the history of the position trail on map.|
 ===== Map content =====
 {{anchor:map_content:}}
 

@@ -3,14 +3,9 @@
 
 ===== Requirements =====
 
-If you would like to help translating this user guide into another language, just create an account using the function ''Register'' on top right of this website or simply [[https://manual.cgeo.org/?do=register|tap here]].
-
-You will then receive a mail with your password to login to the Wiki. At first the account will still be in "read only" mode until we manually approved the registration. This will usually only take some days and we will inform you about the approval by mail.
-
-If you do not receive any approval or if something goes wrong please [[support@cgeo.org?subject=User guide translation|contact us]].
+If you would like to help translating this user guide into another language, please [[support@cgeo.org?subject=User guide translation|contact us]]. We will then register an account for you and you can start right away.
 
 In order to help translating this user guide, you should have a basic knowledge about Wiki systems, that's all.
-
 ===== Getting started =====
 
 After you received an approval for this Wiki, you can start your translation by simply opening an existing English page, changing the language to your translation language (using the language selector at top left) and creating this page in your language. If your target language is not listed there, please inform our team to get it enabled.
