@@ -47,56 +47,61 @@ Dies erstellt dann automatisch diese Wegpunkt für dich:
 
 {{:en:pn_created_waypoints.png?direct&600|}}
 
-===== Backup waypoints in personal note =====
+===== Wegpunkte in der persönlichen Notiz sichern =====
 
-FIXME ÜBERSETZUNG 
+Es ist möglich eine in Text verpackte Sicherung aller benutzer-geänderten Wegpunkte in deiner persönlichen Notiz zu erstellen. Du kannst diese Notiz dann auf den Geoaching-Server hochladen (wenn der genutzte Geocaching-Dienst dies unterstützt) und hast damit eine Sicherung aller deiner benutzerdefinierten oder veränderten Wegpunkte. 
+Da die Wegpunkt aus der persönlichen Notiz beim Öffnen des Caches automatisch erkannt werden, kannst du diese einfach wiederherstellen, wenn sie lokal einmal verloren gehen oder du den Cache aus c:geo gelöscht hast.
 
-It is possible to create a textual backup of all your user-modified waypoint data in the personal note. You can upload this PN and thus backup your waypoint data. Due to waypoint parsing this data can then be restored to your waypoint list in case it gets lost or is deleted from your local device.
+Um diese Sicherung zu erstellen, tippe auf das Symbol {{:ic_menu_waypoint_sync.png?nolink&40|}} unter der persönlichen Notiz. Es wird dann eine Textpassage in deiner persönlichen Notiz erstellt, welche mit ''{c:geo-start}'' beginnt und mit ''{c:geo-end}'' endet. Diese enthält die Sicherung aller benutzerdefinierten Wegpunkte in einer erweiterten Syntax (die im nächsten Kapitel näher erläutert wird).
 
-To create the textual backup, use the button ''Add/Update waypoints'' under the personal note. A textual section will be created in your personal note starting with ''{c:geo-start}'' and ending with ''{c:geo-end}''. It contains all user-defined waypoint data from the waypoint list in advanced waypoint syntax (which is explained in the next section).
+Um diese Wegpunktsicherung zu aktualisieren, tippe nochmal auf das Symbol{{:ic_menu_waypoint_sync.png?nolink&40|}}. Um sie zu entfernen, kannst du auf das {{:ic_menu_waypoint_delete.png?nolink&40|}}-Symbol tippen.
 
-To refresh the textual waypoint backup, tap button ''Add/Update waypoints'' again. To removeit, tap button ''Remove waypoints''.
-
-As an example, when executed on the following waypoints:
+Als Beispiel ergibt eine Sicherung der folgenden Wegpunkte
 
 {{en:pn_waypoints_for_storage.png?direct&600|}}
 
-This function will create this textual backup:
+diese Sicherung in deiner persönlichen Notiz:
 
 {{en:pn_with_stored_waypoints.png?direct&600|}}
 
-===== Advanced waypoint syntax =====
+===== Erweiterte Wegpunkt-Syntax =====
 FIXME ÜBERSETZUNG!!
 
-Perhaps you noticed that waypoints from personal note were created with default names like e.g. ''Personal Note 2''. If you want to perform more advanced waypoint operations from your personal notes you have to use advanced waypoint syntax. With this you can:
-  * Modify properties of predefined waypoints (=waypoints which were predefined by the cache owner in the listing): coordinate and user note
-  * Create or modify waypoint type, name and user note in user-defined waypoints
+Vielleicht hast du bermerkt, dass Wegpunkte, die aus der persönlichen Notiz erstellt wurden, mit Standardnamen wie z.B. ''Persönliche Notiz 2'' angelegt werden. Wenn du mehr Möglichkeiten für Wegpunkte aus der persönlichen Notiz nutzen möchtest, kannst du die erweiterte Wegpunkt-Syntax nutzen.
+Damit kannst du:
 
-To do this, use the following syntax in your personal note:
+  * Die folgenden Eigenschaften vordefinierter Wegpunkte (d.g. Wegpunkte, die vom Cache-Owner vorgegeben wurden) verändern: Koordinate und die eigene Notiz
+  * Wegpunkt-Typen, -Namen und eigene Notizen für benutzerdefinierte Wegpunkt erstellen oder ändern 
 
-''@[<prefix>]<name> (<waypointTypeId>) <coordinate> "<user note>"''
+Um dies zu machen, benutze die folgende Syntax in deiner persönlichen Notiz:
 
-Advanced format is recognized when it starts with a ''@'' at the beginning of a new line. The following content is parsed:
-  * **Waypoint Name**: everything between the ''@'' and the coordinate is considered to be a part of the waypoint name, except when it is in parenthesis ''()''
-  * **Prefix**: If the ''@'' is directly followed by square brackets ''[]'', then the content of these brackets is considered to be the prefix of the waypoint you want to edit
-  * **User note**: If the coordinate is immediately followed by ''"'' (in same or next line), then everything between this ''"'' and the next ''"'' is considered to be part of the waypoint's **user note** (including line breaks). If the coordinate is not followed by ''"'' but has additional content on same line, then this content is considered to be the waypoint's user note
-  * **Waypoint type**: same rules apply as discussed in previous sections.
-  * **Coordinate**: same rules apply as discussed in previous sections. Additionally there is a "special" coordinate tag ''(NO-COORD)'' which can be used to specify an empty coordinate (this is necessary in the very special case that one wants to modify the user note of a predefined waypoint which has no coordinate)
+''@[<Präfix>]<Name> (<WegpunktTypID>) <Koordinate> "<Eigene Notiz>"''
 
-The geocaches waypoint list is modified with this information as follows:
-  * If a **prefix** is parsed and a waypoint is found with the same prefix, then it is assumed that this waypoint should be modified. This is usually only used for predefined waypoints.
-  * If a waypoint is found with the same coordinate as the waypoint parsed, then it is assumed that this waypoint should be modified.
-  * Otherwise a new waypoint is created.
+Das erweiterte Format wird erkannt wenn es mit einem ''@'' am Anfang einer neuen Zeile startet. 
+Der folgende Inhalt wird ausgelesen:
 
-In case a waypoint is modified, the following rules apply:
-  * For predefined waypoints the only things that can be modified are the coordinate (if the cache owner defined it empty) and the user note.
-  * In existing waypoints, fields are only overridden when they are empty or filled with a default value (e.g. system-generated waypoint name)
+  * **Wegpunktname**: Alles zwischen dem ''@'' und der Koordinate wird als Teil des Wegpunktnamens benutzt, außer wenn es in Klammern ''()'' steht 
+  * **Präfix**: Wenn nach dem ''@''  direkt eckige Klammern ''[]'' folgen, dann wird der Inhalt dieser Klammern als Präfix des Wegpunktes erkannt, den du bearbeiten möchtest
+  * **Eigene Notiz**:  Wenn nach der Koordinate direkt ein ''"'' in der gleichen Zeile oder der nächsten Zeile folgt, wird alles zwischen diesem ''"'' und dem nächsten ''"'' als eigene Notiz zu diesem Wegpunkt interpretiert (inklusive Zeilenumbrüche). Wenn nach der Koordinate kein ''"'' aber dennoch weiterer Inhalt in der gleichen Zeile steht, wird dies auch als eigene Notiz zum Wegpunkt erkannt.
+  * **Wegpunkttyp**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben
+  * **Koordinate**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben. Zusätzlich gibt es die spezielle Markierung ''(NO-COORD)'', die genutzt werden kann um eine leere Koordinate zu erzeugen (dies wird im seltenen Fall benötigt, dass man eine eigene Notiz zu einem existierenden vordefinierten Wegpunkt hinzufügen möchte, der keine Koordinate hat).
 
-The following examples show different texts on the left and the waypoints created out of them on the right
+Die Wegpunktliste des Geocached wird mit diesen Informationen wie folgt verändert:
 
-^ Personal note text ^ produced waypoint ^
+  * Wenn ein **Präfix** erkannt wird und es gibt einen Wegpunkt mit dem gleichen Präfix, dann wird angenommen, dass dieser Wegpunkt verändert werden soll. Das wird normalerweise für vom Owner vorgegebene Wegpunkt genutzt.
+  * Wenn ein Wegpunkt mit der gleichen Koordinate erkannt wird, wie ein bereits vorhandener Wegpunkt, wird angenommen, dass dieser Wegpunkt verändert werden soll.
+  * In allen anderen Fällen wird ein neuer Wegpunkt erstellt.
+
+Bei der Veränderung eines Wegpunktes werden die folgenden Regeln angewandt:
+
+  * Für vom Owner vorgegebene Wegpunkte können nur die Koordinate (wenn vom Owner leer gelassen) und die eigene Notiz angepasst werden.
+  * In bestehenden Wegpunkten werden Daten nur überschrieben, wenn diese entweder leer oder mit dem Standardwert (z.B. systemgenerierter Wegpunktname) gefüllt sind.
+
+Die folgenden Beispiele zeigen unterschiedliche Texte (links) und die daraus automatisch erstellten Wegpunkte (rechts):
+
+^ Text der persönlichen Notiz ^ Generierter Wegpunkt ^
 | ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
 | ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
-| ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ (Note: this example assumes that there is a predefined waypoint in the listing with prefix S5)|{{:en:station5.png}} |
+| ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Hinweis: Dieses Beispiel nimmt an, dass es einen vom Owner vorgegebenen Wegpunkt mit dem Präfix S5 im Geocache gibt//|{{:en:station5.png}} |
 
 

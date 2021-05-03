@@ -18,6 +18,8 @@ c:geo utilise des icônes spécifiques pour les différents types de géocaches 
 |{{ :type_ape.png?nolink&40 |}}|Project APE Cache|À l'origine 14 géocaches de ce type ont été placées en 2001 pour promouvoir le film [[https://fr.wikipedia.org/wiki/La_Plan%C3%A8te_des_singes_(film,_2001)|La Planète des singes]]. Seulement quelques caches existent encore aujourd'hui ce qui en fait un des types de caches les plus rares.|
 |{{ :type_hq.png?nolink&40 |}}|Quartier Général (Geocaching HQ)|Il existe une unique cache de ce type située au quartier général de Groundspeak, l'entreprise derrière geocaching.com, à Seattle aux États Unis.|
 |{{ :type_unknown.png?nolink&40 |}}|Type inconnu|Si une cache de ce type apparait alors soit c:geo n'a pas (encore) chargé le type de cette géocache, soit il n'est pas supporté explicitement par c:geo, soit il s'agit du type inconnu comme définit sur les plateformes d'Opencaching.|
+|{{ :type_cgeo.png?nolink&40 |}}|Cache c:geo|Utilisé pour les caches créées par l'utilisateur à l'intérieur de c:geo.|
+
 
 
 

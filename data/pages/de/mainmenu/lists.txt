@@ -25,7 +25,7 @@ Der Farbstreifen ganz links zeigt (zusätzlich zur Markierung im Cachetyp-Symbol
 
 Wenn der Titel <del>durchgestrichen</del> ist, ist der betreffende Cache temporär deaktiviert. Wenn der Titel zusätzlich in <color #ed1c24>roten Buchstaben</color> dargestellt wird, ist der Cache archiviert oder nicht mehr verfügbar.
 
-Ein kurzer Klick auf einen der Listeneinträge öffnet die [[..:cachedetails|Details]] des Caches, ein langer Klick öffnet ein [[lists#context_menu|Kontextmenü]] mit direkten Zugriff auf einige Funktionen für diesen Cache.
+Ein kurzes Tippen auf einen der Listeneinträge öffnet die [[..:cachedetails|Details]] des Caches, ein langes Tippen öffnet ein [[lists#context_menu|Kontextmenü]] mit direkten Zugriff auf einige Funktionen für diesen Cache.
 
 Die Information, die für jeden Geocache auf der rechten Seite der Liste angezeigt wird, ist in der folgenden Tabelle erklärt:
 
@@ -36,19 +36,19 @@ Die Information, die für jeden Geocache auf der rechten Seite der Liste angezei
 
 ==== Option zum Laden weiterer Caches ====
 
-Wenn die geöffnete Liste auf einem [[.search|Suchergebnis]] oder einer [[.pocketquery|PocketQuery-Ansicht]] basiert, gibt es an Ende der Liste eine Schaltfläche ''Lade mehr Caches (Aktuell: XX)'', die dir anzeigt wie viele Caches bereits geladen wurden und ein Klick lädt mehr Ergebnisse bzw. PocketQuery-Einträge.
+Wenn die geöffnete Liste auf einem [[.search|Suchergebnis]] oder einer [[.pocketquery|PocketQuery-Ansicht]] basiert, gibt es an Ende der Liste eine Schaltfläche ''Lade mehr Caches (Aktuell: XX)'', die dir anzeigt wie viele Caches bereits geladen wurden und ein Tippen lädt mehr Ergebnisse bzw. PocketQuery-Einträge.
 
 ==== Kontextmenü ====
 {{anchor:context_menu:}}
 
-Bei einem langen Klick auf einen Cache in deiner Liste wird das folgende Kontextmenü geöffnet, welches dir direkten Zugriff auf Aktionen für diesen Cache gibt:
+Bei einem langen Tippen auf einen Cache in deiner Liste wird das folgende Kontextmenü geöffnet, welches dir direkten Zugriff auf Aktionen für diesen Cache gibt:
 
 {{ :en:lists_cache_contextmenu.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
 |Kompass|Öffnet den Kompass um direkt zum Cache zu navigieren.|
 |Navigieren|Öffnet alle [[..:navigation|Navigationsoptionen]] um eine der Methoden der Navigation zum Cache zu starten.|
-|Details|Öffnet die [[..:cachedetails|Cachedetails]] für diesen Cache. //(das Gleiche wie ein kurzer Klick)//|
+|Details|Öffnet die [[..:cachedetails|Cachedetails]] für diesen Cache. //(das Gleiche wie ein kurzes Tippen)//|
 |Besuch loggen|Bringt dich direkt zur [[..:logging|Log-Seite]] für diesen Cache um dein Log zu verfassen.|
 |Entfernen|Löscht diesen Cache von der aktuellen Liste.|
 |Auf andere Liste verschieben|Verschiebt diesen Cache in eine andere Liste.|
@@ -68,11 +68,11 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 
 ^ Symbol/Bereich ^ Funktion ^ Beschreibung ^
-|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Listenverwaltung]]|Dieser Bereich zeigt entweder den Namen der aktuellen Liste oder, wenn die Liste auf einem [[search|Suchergebnis]] basiert, die Suchinformationen oder den Namen des Pocket-Query, wenn ein Pocket-Query als Liste angezeigt wird.\\ Des weiteren wird die Anzahl der Caches auf der Liste (ggf. beschränkt auf die gefilterten Caches - wenn anwendbar) angezeigt. Ein Klick auf diesen Bereich öffnet die Listenauswahl um eine andere Liste zur Ansicht auszuwählen.|
-|{{ :en:lists_filterindication.png?nolink&150 |}}|Filteranzeige|Diese Zeile wird nur angezeigt, wenn entweder ein [[globaltypefilter|Globaler Cachetyp-Filter]] oder ein [[lists#filtering|Listenfilter]] aktiv ist.\\ Ein Klick auf diese Zeile bringt dich direkt zum entsprechenden Filterdialog.|
-|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Zeige auf Karte]]|Ein Klick auf dieses Symbol zeigt die Caches in dieser Liste auf einer [[livemap|Karte]] an.|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Ein Klick auf dieses Symbol öffnet einen Filterdialog um die Caches dieser liste nach diversen Kriterien zu filtern.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Listenverwaltung]]|Dieser Bereich zeigt entweder den Namen der aktuellen Liste oder, wenn die Liste auf einem [[search|Suchergebnis]] basiert, die Suchinformationen oder den Namen des Pocket-Query, wenn ein Pocket-Query als Liste angezeigt wird.\\ Des weiteren wird die Anzahl der Caches auf der Liste (ggf. beschränkt auf die gefilterten Caches - wenn anwendbar) angezeigt. Ein Tippenauf diesen Bereich öffnet die Listenauswahl um eine andere Liste zur Ansicht auszuwählen.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filteranzeige|Diese Zeile wird nur angezeigt, wenn entweder ein [[globaltypefilter|Globaler Cachetyp-Filter]] oder ein [[lists#filtering|Listenfilter]] aktiv ist.\\ Ein Tipp auf diese Zeile bringt dich direkt zum entsprechenden Filterdialog.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Zeige auf Karte]]|Ein Tippen auf dieses Symbol zeigt die Caches in dieser Liste auf einer [[livemap|Karte]] an.|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Ein Tippen auf dieses Symbol öffnet einen Filterdialog um die Caches dieser liste nach diversen Kriterien zu filtern.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Tippen öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
 |{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sortierung]]|Du kannst diese Funktion nutzen um die Caches auf der Liste nach deinen Bedürfnissen zu sortieren.|
 |{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Auswahlmodus]]|Diese Funktion versetzt die Liste in einen Auswahlmodus, der es dir erlaubt eine Untermenge von Caches in der Liste auszuwählen um diese Auswahl mittels der ''Caches verwalten''-Funktion zu verwalten.|
 |[[lists#show_on_map|Zeige auf Karte]]||Dies ist eine ähnliche Funktion, wie die ''Zeige auf Karte''-Funktion welche weiter oben erklärt wird, allerdings wird auch unterstützt alle Caches der Liste in anderen Karten und ausgewählten anderen externen Apps zu öffnen.|
@@ -144,7 +144,7 @@ Die ausgewählte Sortierung wird während der gesamten Sitzung mit c:geo beibeha
 
 {{ :en:lists_selectmode.png?direct&400 |}}
 
-Nach der Aktivierung des Auswahlmodus wird deine Liste, wie im Bild oben dargestellt, mit Markierungsfeldern vor jedem Cache angezeigt. Dies erlaubt es dir einige Caches auf der Liste durch Klicken zu markieren, und danach über das [[lists#manage_caches|Caches verwalten]]-Menü gemeinsame Aktionen auf diese Caches anzuwenden (z.B. alle ausgewählten Caches löschen).
+Nach der Aktivierung des Auswahlmodus wird deine Liste, wie im Bild oben dargestellt, mit Markierungsfeldern vor jedem Cache angezeigt. Dies erlaubt es dir einige Caches auf der Liste durch Tippen zu markieren, und danach über das [[lists#manage_caches|Caches verwalten]]-Menü gemeinsame Aktionen auf diese Caches anzuwenden (z.B. alle ausgewählten Caches löschen).
 
 Zusätzlich kannst du nun den Menüeintrag ''Auswahl invertieren'' nutzen um die Auswahl umzukehren. Dies kann hilfreich sein um alle außer ein paar wenigen Caches auf deiner Liste auszuwählen.
 
