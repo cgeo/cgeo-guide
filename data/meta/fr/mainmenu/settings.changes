@@ -8,3 +8,35 @@
 1613378871	2a00:ee2:f012:696:48aa:bbed:dac1:6138	e	fr:mainmenu:settings	ijeantet	[Map] 		2
 1613383360	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Map Data] Translate to French		247
 1613385376	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Waypoints]  Translate to French		302
+1619025223	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map behavior] First translation to French		79
+1619025321	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		4
+1619025454	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		7
+1619027833	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map Content] First translation to French		66
+1619029612	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Proximity Notification] First translation to French		501
+1619046295	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Restore] First translation to French		272
+1619047256	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Create Backup] First translation to French		345
+1619047305	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Backup / Restore] Translation to French		9
+1619048821	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Navigation] First translation to French		269
+1619051048	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Acceleration & Debugging] First translation to French		427
+1619051127	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[System] Translation to French		2
+1619051957	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Geolocation & Orientation] First translation to French		408
+1619083512	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Contenu de la carte] Update picture link		0
+1619084499	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Offline Data] First translation to French		36
+1619085265	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Generic] First translation to French		310
+1619085492	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[GPX] First translation to French		-264
+1619087589	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Database and Geocache data] First translation to French		407
+1619088253	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Maintenance] First translation to French		272
+1619093764	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Logging] Translation to French		0
+1619094849	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] First translation to French		191
+1619096602	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other logging options] First translation to French		292
+1619099587	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Placeholder Templates] First translation to French		196
+1619099762	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Réseaux sociaux] Improve translation		-4
+1619103806	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map lines customization] Fist translation to French		434
+1619124381	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		2
+1619124575	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Mapsforge API]		-363
+1619125094	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	Remove Fixme as the page is fully translated to French		-159
+1619125537	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other map settings] First translation to French		332
+1619125724	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Add missing parameter		148
+1619125748	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		-1
+1619132274	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Données cartographiques] Add missing parameters		433
+1619173405	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] Fix typo		1

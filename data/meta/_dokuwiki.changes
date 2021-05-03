@@ -1,79 +1,3 @@
-1587550594	77.251.40.128	e	nl:mainmenu:livemap	quidje	Update according several menuitem updates in crowdin		-10
-1587550669	77.251.40.128	e	nl:mainmenu:livemap	quidje	Crowding update 'show cirkel' update on this page (part II)		-6
-1587550801	77.251.40.128	E	nl:start	quidje	[c:geo Gebruikershandleiding] : no space after ':' in productname		-1
-1587550828	77.251.40.128	e	nl:start	quidje	[Over c:geo] No space in productname		-2
-1587550859	77.251.40.128	e	nl:start	quidje	[Aan de slag met c:geo] No space in productname		-1
-1587550907	77.251.40.128	e	nl:basicuse	quidje	[c:geo Basis] Removed space in productname		-1
-1587550949	77.251.40.128	e	nl:basicuse	quidje	[Wat is Geocaching?] Removed spaces in productname		-4
-1587551115	77.251.40.128	e	nl:sidebar	quidje	Removed space in productname		-1
-1587551158	77.251.40.128	e	nl:start	quidje	[Over deze handleiding] Removed space in productname		-1
-1587551174	77.251.40.128	e	nl:start	quidje	[Handige Links] Removed space in productname		-1
-1587551276	77.251.40.128	e	nl:mainmenu:settings	quidje	[c:geo Instellingen] Removed space in productname		-1
-1587551314	77.251.40.128	e	nl:mainmenu:settings	quidje	[Geocaching] Removed spaces in productname		-4
-1587551351	77.251.40.128	e	nl:mainmenu:settings	quidje	[Sociale media] Removed spaces in productname		-5
-1587551378	77.251.40.128	e	nl:mainmenu:settings	quidje	[Andere instellingen] Removed spaces in productname		-3
-1587551406	77.251.40.128	e	nl:mainmenu:settings	quidje	[Uiterlijk] removed spaces in productname		-4
-1587551437	77.251.40.128	e	nl:mainmenu:settings	quidje	[Cache Details] removed spaces in productname		-3
-1587551459	77.251.40.128	e	nl:mainmenu:settings	quidje	[Kaartgegevens] removed spaces in productname		-2
-1587551488	77.251.40.128	e	nl:mainmenu:settings	quidje	[Handtekening] removed spaces in productname		-2
-1587551512	77.251.40.128	e	nl:mainmenu:settings	quidje	[Mapsforge API] removed space in productnames		-1
-1587551530	77.251.40.128	e	nl:mainmenu:settings	quidje	[Andere opties voor log] removed space in productname		-1
-1587551559	77.251.40.128	e	nl:mainmenu:settings	quidje	[Offline gegevens] removed space in productname		-3
-1587551576	77.251.40.128	e	nl:mainmenu:settings	quidje	[Navigatie] removed space in productname		-1
-1587551604	77.251.40.128	e	nl:mainmenu:settings	quidje	[GPX] removed space in productname		-4
-1587551626	77.251.40.128	E	nl:mainmenu:settings	quidje	[Database en Geocache gegevens] removed space in productname		-2
-1587551647	77.251.40.128	e	nl:mainmenu:settings	quidje	[Backup] removed space in productname		-1
-1587551705	77.251.40.128	E	nl:mainmenu:settings	quidje	[Diverse andere systeem instellingen] removed space in productname		-9
-1587554434	77.251.40.128	e	nl:coordformat	quidje	removed 'o' from cooordinaat		-1
-1587554529	77.251.40.128	e	nl:sidebar	quidje	removed 'o' from cooordinaat		-1
-1587554838	77.251.40.128	e	nl:compass	quidje	[Kompas] removed space in productname		-1
-1587554957	77.251.40.128	e	nl:nfc	quidje	Removed space in productname		-5
-1587554992	77.251.40.128	e	nl:installation	quidje	[Installatie van c:geo] removed space from productname		-4
-1587555016	77.251.40.128	e	nl:installation	quidje	[Machtigingen] removed space from productname		-5
-1587555042	77.251.40.128	e	nl:installation	quidje	[Updaten van c:geo] removed space from productname		-6
-1587555065	77.251.40.128	e	nl:installation	quidje	[Beta versies van c:geo] removed space from productname		-4
-1587555083	77.251.40.128	E	nl:firststeps	quidje	[Aan de slag] 		-1
-1587555102	77.251.40.128	e	nl:firststeps	quidje	[C:geo verbinden met Opencaching platformen] 		-5
-1587555124	77.251.40.128	e	nl:mainmenu:start	quidje	[Bovenste balk menu] 		-2
-1587555134	77.251.40.128	e	nl:mainmenu:start	quidje	[Login status] 		-1
-1587555143	77.251.40.128	e	nl:mainmenu:start	quidje	[Satelliet status] 		-1
-1587555173	77.251.40.128	e	nl:mainmenu:livemap	quidje	[Kaartinstellingen] 		-2
-1587555193	77.251.40.128	e	nl:mainmenu:lists	quidje	[Opgeslagen caches] 		-1
-1587555206	77.251.40.128	e	nl:mainmenu:lists	quidje	[Cache lijst] 		-2
-1587555218	77.251.40.128	e	nl:mainmenu:lists	quidje	[Filtering] 		-1
-1587555237	77.251.40.128	e	nl:mainmenu:lists	quidje	[Sorteren] 		-1
-1587555248	77.251.40.128	e	nl:mainmenu:lists	quidje	[Toon op kaart] 		-1
-1587555280	77.251.40.128	e	nl:mainmenu:globaltypefilter	quidje			-1
-1587555319	77.251.40.128	e	nl:cachedetails	quidje	[Persoonlijke notitie] 		-1
-1587555342	77.251.40.128	e	nl:logging	quidje	[Twitter] 		-2
-1587555364	77.251.40.128	e	nl:loggingtb	quidje	[Zoeken van een trackable] 		-1
-1587555373	77.251.40.128	e	nl:loggingtb	quidje	[Trackable Inventaris] 		-1
-1587555406	77.251.40.128	e	nl:navigation	quidje	[Navigatie methoden/hulpmiddelen] 		-1
-1587555428	77.251.40.128	e	nl:offline	quidje	[General opmerkingen] 		-4
-1587555454	77.251.40.128	e	nl:offline	quidje	[GPX importeren] 		-3
-1587555466	77.251.40.128	e	nl:offline	quidje	[Offline loggen] 		-2
-1587555479	77.251.40.128	e	nl:offline	quidje	[Veldnotities exporteren] 		-2
-1587555488	77.251.40.128	e	nl:offline	quidje	[Offline kaarten] 		-1
-1587555510	77.251.40.128	e	nl:cacheicons	quidje	[Geocache Iconen] 		-1
-1587555527	77.251.40.128	e	nl:cachemarkers	quidje			-1
-1587555572	77.251.40.128	e	nl:mapsources	quidje	[Kaartbronnen] 		-1
-1587555605	77.251.40.128	e	nl:attributes	quidje			-1
-1587555642	77.251.40.128	e	nl:mainmenu:utilityprograms	quidje			-8
-1587555657	77.251.40.128	e	nl:offlinemaps	quidje	[Inleiding] 		-1
-1587555667	77.251.40.128	e	nl:offlinemaps	quidje	[Downloaden van kaarten/thema's] 		-2
-1587555692	77.251.40.128	e	nl:intents	quidje			-10
-1587555735	77.251.40.128	e	nl:hiddenfunctions	quidje			-2
-1587555973	77.251.40.128	e	nl:spoilersync	quidje			-4
-1587555986	77.251.40.128	e	nl:notecoords	quidje	[Automatisch maken van waypoints] 		-1
-1587556130	77.251.40.128	e	nl:start	quidje	[Hoofdmenu] 		0
-1587556192	77.251.40.128	e	nl:start	quidje	[Offline functies] 		-1
-1587736782	45.89.174.69	C	fr:mapsources	ijeantet	Traduction "Fonds de carte"		779
-1587737106	45.89.174.69	E	fr:sidebar	ijeantet	Traduction "Fonds de carte"		1
-1587747978	45.89.174.69	C	fr:cacheicons	ijeantet	Traduction "Icônes des géocaches"		4783
-1587748006	45.89.174.69	E	fr:cacheicons	ijeantet	Traduction "Icônes des géocaches"		-159
-1588066426	45.89.174.69	C	fr:mainmenu:globaltypefilter	ijeantet	Traduction "Filtre général du type de caches"		849
-1588417213	163.158.56.205	E	nl:offlinemaps	linstylemon	[Configuratie] / translated to dutch		136
-1588417259	163.158.56.205	e	nl:offlinemaps	linstylemon	[Configuratie] 		-3
 1590649683	163.158.160.54	E	nl:offlinemaps	linstylemon	[Usage] : En to NL		58
 1590649945	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		12
 1590650176	163.158.160.54	E	nl:offlinemaps	linstylemon	En to NL		35
@@ -984,6 +908,8 @@
 1611437760	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		9
 1611437822	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		7
 1611437834	2.205.115.174	E	en:mainmenu:settings	lineflyer	[Map behavior] 		-9
+1611437939	2.205.115.174	e	de:offlinemaps	lineflyer	Ersetze klicken durch tippen		-1
+1611437939	2.205.115.174	e	de:brouter	lineflyer	Ersetze klicken durch tippen		-1
 1611437939	2.205.115.174	e	de:installation	lineflyer	Ersetze klicken durch tippen		-1
 1611437939	2.205.115.174	e	de:firststeps	lineflyer	Ersetze klicken durch tippen		-2
 1611437939	2.205.115.174	e	de:mainmenu:start	lineflyer	Ersetze klicken durch tippen		-3
@@ -998,8 +924,6 @@
 1611437939	2.205.115.174	e	de:mainmenu:utilityprograms	lineflyer	Ersetze klicken durch tippen		-1
 1611437939	2.205.115.174	e	de:compass	lineflyer	Ersetze klicken durch tippen		-1
 1611437939	2.205.115.174	e	de:attributes	lineflyer	Ersetze klicken durch tippen		-1
-1611437939	2.205.115.174	e	de:offlinemaps	lineflyer	Ersetze klicken durch tippen		-1
-1611437939	2.205.115.174	e	de:brouter	lineflyer	Ersetze klicken durch tippen		-1
 1611437988	2.205.115.174	e	de:firststeps	lineflyer	Ersetze klickst durch tippst		-2
 1611437988	2.205.115.174	e	de:mainmenu:livemap	lineflyer	Ersetze klickst durch tippst		-2
 1611437988	2.205.115.174	e	de:mainmenu:search	lineflyer	Ersetze klickst durch tippst		-1
@@ -1493,3 +1417,62 @@
 1617892429	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		1055
 1617892682	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		268
 1618314867	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Remove trail history no longer on top level of that menu. Removed		-108
+1619023638	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:start	ijeantet	Add missing entries		411
+1619025223	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map behavior] First translation to French		79
+1619025321	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		4
+1619025454	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		7
+1619027833	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map Content] First translation to French		66
+1619029612	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Proximity Notification] First translation to French		501
+1619046187	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	en:mainmenu:settings	ijeantet	[Restore] Fix typo		-1
+1619046295	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Restore] First translation to French		272
+1619047256	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Create Backup] First translation to French		345
+1619047305	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Backup / Restore] Translation to French		9
+1619048821	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Navigation] First translation to French		269
+1619051048	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Acceleration & Debugging] First translation to French		427
+1619051127	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[System] Translation to French		2
+1619051957	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Geolocation & Orientation] First translation to French		408
+1619083512	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Contenu de la carte] Update picture link		0
+1619084499	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Offline Data] First translation to French		36
+1619085265	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Generic] First translation to French		310
+1619085492	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[GPX] First translation to French		-264
+1619087589	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Database and Geocache data] First translation to French		407
+1619088253	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Maintenance] First translation to French		272
+1619093764	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Logging] Translation to French		0
+1619094849	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] First translation to French		191
+1619096602	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other logging options] First translation to French		292
+1619099587	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Placeholder Templates] First translation to French		196
+1619099762	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Réseaux sociaux] Improve translation		-4
+1619103806	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map lines customization] Fist translation to French		434
+1619124381	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		2
+1619124575	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Mapsforge API]		-363
+1619125094	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	Remove Fixme as the page is fully translated to French		-159
+1619125537	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other map settings] First translation to French		332
+1619125724	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Add missing parameter		148
+1619125748	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		-1
+1619132274	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Données cartographiques] Add missing parameters		433
+1619173405	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] Fix typo		1
+1619174219	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	C	fr:mainmenu:lists	ijeantet	[Stored caches] Begin French translation		17592
+1619174330	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:search	ijeantet	Fix typo		-4
+1619174579	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:cacheicons	ijeantet	Add c:geo cache type		124
+1619174620	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:cacheicons	ijeantet	Fix typo		1
+1619333559	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Cache list] First translation to French		391
+1619336828	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Load more option] First tranlastion to French		30
+1619338817	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Context menu] First translation to French		106
+1619425769	2.202.19.198	E	de:mainmenu:lists	lineflyer	Ersetze Klick durch Tipp		6
+1619452516	2.202.19.198	E	de:notecoords	lineflyer	[Advanced waypoint syntax] 		220
+1619509489	2.202.19.198	E	de:coordformat	lineflyer	Ersetze Klick durch Tipp		1
+1619510144	2.202.19.198	E	de:notecoords	lineflyer	[Backup waypoints in personal note] 		11
+1619526890	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		146
+1619526942	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		46
+1619527108	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		152
+1619528061	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		9
+1619528081	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		-1
+1619528096	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		0
+1619528185	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		51
+1619528421	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		108
+1619528447	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		-1
+1619529052	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		-21
+1619529418	2.202.19.198	E	de:notecoords	lineflyer	[Erweiterte Wegpunkt-Syntax] 		190
+1619529461	2.202.19.198	E	en:notecoords	lineflyer	[Advanced waypoint syntax] 		5
+1619529485	2.202.19.198	E	de:notecoords	lineflyer	[Erweiterte Wegpunkt-Syntax] 		5
+1620035892	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	zh:sidebar	lineflyer	n		1

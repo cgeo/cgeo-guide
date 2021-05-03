@@ -9,6 +9,6 @@ c:geo unterstützt vielfältige Koordinatenformate wie folgt:
 |UTM|ZONE RECHTSWERT HOCHWERT|32U E 362807 N 5689444|Universal Transverse Mercator|
 
 Das MinDec-Format wird üblicherweise beim Geocaching verwendet.
-Für existierende Koordinaten in Caches oder Wegpunkten kannst du das angezeigte Format durch einen kurzen Klick auf die Koordinaten ändern.
+Für existierende Koordinaten in Caches oder Wegpunkten kannst du das angezeigte Format durch einen kurzes Tippen auf die Koordinaten ändern.
 
 Bei Nutzung der [[coordinatedialog|Koordinateneingabe]] kannst du das gewünschte Format in der Kopfzeile des Dialogs entsprechend den oben beschriebenen Notationen auswählen. UTM wird derzeit noch nicht als Eingabeformat unterstützt.

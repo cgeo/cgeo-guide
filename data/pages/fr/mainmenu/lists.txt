@@ -1,0 +1,226 @@
+FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
+
+====== Caches enregistrées ======
+
+{{:main_stored_default.png?nolink&100 |}}
+
+Ce menu répertorie les géocaches actuellement stockées sur votre appareil pour une utilisation hors ligne. Pour une meilleure expérience de géocaching, c:geo vous permet d'organiser vos géocaches enregistrées dans plusieurs listes.
+
+Vous pouvez toujours accéder aux informations de ces listes, même si vous n'avez pas de connexion réseau. Toutes les caches de ces listes sont enregistrées avec toutes les informations pertinentes qui y sont liées. Cependant, certaines informations supplémentaires (comme par exemple les images du carnet de visite) ne sont disponibles hors ligne que si vous avez activé cette option dans les [[settings#offline_data|paramètres]].
+
+===== Liste de caches =====
+{{anchor:cache_list:}}
+
+<WRAP center round tip 100%>
+Cliquez sur les liens suivants pour obtenir des informations sur les icônes des [[..:cacheicons|types de géocaches dans c:geo]] et des [[..:cachemarkers|marqueurs de géocache dans c:geo]] qui sont utilisées dans les listes de caches. 
+</WRAP>
+
+<WRAP center round info 100%>
+Cette vue de liste est également utilisée comme résultat de certains types de [[search|recherche]], pour afficher une liste de caches sur la [[livemap|carte temps réel]] et pour afficher le contenu des [[pocketquery|pockets queries]].\\
+Dans ce cas - bien sûr - les caches de la liste peuvent ne pas (encore) être enregistrées dans une liste hors ligne. 
+</WRAP>
+
+{{:en:lists_1_en.png?direct&400 |}}
+
+La liste vous montrera le titre de chaque géocache sur la première ligne. En dessous, un sous-titre indique le géocode, les notes D/T, la taille de la cache, le statut [[..:basicmembers|"premium-only"]] (le cas échéant) et si la cache est stockée hors ligne (utile si vous regardez une liste de résultats de [[search|recherche]]). Si cette option est activée dans les [[settings#offline_data|paramètres]], le sous-titre indiquera également le nom de toutes les listes où la cache est enregistrée.\\
+La bande de couleur à l'extrême gauche indique (en plus des marqueurs sur l'icône du type de cache) si cette cache est <color #22b14c>trouvée</color>, si vous avez posté que vous ne l'avez <color #ed1c24>pas encore trouvée</color> ou si vous avez une <color #ff7f27>visite hors ligne en attente</color> pour cette cache. 
+
+Si le titre est <del>barré</del>, la cache correspondante est temporairement désactivée, s'il est en plus affiché en <color #ed1c24>lettres rouges</color>, la cache est archivée et n'est plus disponible.
+
+Un appui court sur l'une des entrées de la liste ouvre la [[..:cachedetails|vue détaillée]] de cette cache, un appui long ouvre un [[lists#context_menu|menu contextuel]] avec un accès direct à certaines fonctions liées à la cache.
+
+Les informations affichées pour chaque géocache sur le côté droit de la liste sont expliquées dans le tableau ci-dessous : 
+
+^Icône ^ Description ^
+|{{ :en:lists_distance_direction.png?nolink&100 |}}|Distance et direction vers la cache en fonction de votre position actuelle (les [[..:basicmembers|membres non-premium]] de geocaching.com ne verront qu'une information limitée ici)|
+|{{ :en:lists_fav_vote.png?nolink&100 |}}|Le nombre indique le nombre de points favoris (geocaching.com) ou de recommandations (opencaching) de cette cache.\\ La couleur de fond représente la note moyenne de la cache sur [[http://gcvote.com|GCVote]] :\\ Vert = Bonne évaluation (>3,5 étoiles)\\ Marron = Note moyenne (entre 2,5 et 3,5)\\ Rouge = mauvaise évaluation (<2,5 étoiles).\\ Si aucune couleur n'est affichée, cela signifie que la cache n'a pas encore reçu de votes ou qu'elle n'est pas supportée par GCVote (GCVote ne supporte actuellement que les caches geocaching.com).|
+|{{ :en:lists_trackableinfo.png?nolink&100 |}}|Ce symbole est un marqueur qui n'est affiché que si la cache contient des objets voyageurs. Le chiffre juste à côté est la quantité de ces objets répertoriés dans cette cache.|
+
+==== Option "charger plus" ====
+
+Si la liste vient d'un résultat de [[.search|recherche]] ou d'une [[.pocketquery|pocket query]], il y aura un bouton à la fin de la liste intitulé ''Charger plus de caches (actuellement : XX)'' montrant combien de caches sont actuellement dans la liste et en appuyant dessus, vous chargerez plus de résultats ou plus d'entrées de la pocket query.
+
+
+==== Menu contextuel ====
+{{anchor:context_menu:}}
+
+En appuyant longuement sur l'une des caches de votre liste, le menu contextuel suivant s'ouvrira, vous donnant accès à certaines actions directes sur cette cache :
+
+{{ :en:lists_cache_contextmenu.png?direct&400 |}}
+
+^ Nom ^ Description ^
+|Boussole|Ouvre la boussole pour naviguer directement vers cette cache.|
+|Navigation|Ouvre les [[..:navigation|options de navigation]] pour sélectionner l'une des méthodes de navigation supportée vers cette cache.|
+|Détails|Ouvre la [[..:cachedetails|vue détaillée]] de la cache. //(équivalent à un appui court)//|
+|Signaler votre Visite|Ouvre la [[..:logging|page de signalement de visite]] pour cette cache.|
+|Supprimer|Supprime cette cache de la liste actuelle.|
+|Déplacer dans une autre liste|Déplace cette cache dans une autre liste.|
+|Copier dans une autre liste|Déplace cette cache dans une autre liste mais la conserve également dans la liste actuelle.|
+|Actualiser|Actualise les informations de la cache depuis le serveur de géocaching correspondant.|
+
+
+===== List menu =====
+{{anchor:list_menu:}}
+
+<WRAP center round info 100%>
+The icons shown in the top bar and the contents behind the overflow menu button are distributed dynamically based on your device resolution and screen orientation. Thus it might be possible, that more or less items can be found behind the menu button or instead shown as icons in the top bar on your device.\\
+In case a menu entry is shown as an icon you can long press the icon to get a popup showing its function.
+</WRAP>
+
+{{ :en:list_menu.png?direct&400 |}}
+
+
+^ Icon/Section ^ Function ^ Description ^
+|{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|List Management]]|This section shows either the name of the current list or the search information in case a list is opened as a [[search|search result]] or the pocket query name in case the list is opened from a [[pocketquery|pocket query]].\\ Furthermore the amount of caches on the current list (limited to the filtered caches if applicable). Tapping on this section will open the list of all cache lists to select another cache list to display.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|This line will only show up in case a [[globaltypefilter|Global Cache Type Filter]] or a [[lists#filtering|List Filter]] is active.\\ Tapping on this line will directly take you to the corresponding filter dialog.|
+|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Map the list]]|Tapping this icon will show the caches on this list on a [[livemap|map]].|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your list according to various criteria.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sorting]]|You can use this function to sort the list according to your needs.|
+|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Select mode]]|Using this function will put the list into a selection mode allowing you to select a subset of caches on the list in order to use the ''Manage Caches'' function on this selection.|
+|[[lists#show_on_map|Show on map]]||This is a similar function to the ''Map List'' function/icon explained above, but also supports opening all caches from the list on other maps and in external apps.|
+|[[lists#manage_caches|Manage caches]]||This option provides functions to delete, refresh, move, etc. the caches on the list. \\ You can combine it with the ''Selection Mode'' to apply the change only to a subset of your list.|
+|[[lists#manage_lists|Manage lists]]||This option provides functions delete, modify the existing list or create new lists.|
+|[[lists#import|Import]]||This option allows importing of caches from several sources onto your cache lists.|
+|[[lists#export|Export]]||This option allows export of caches or parts of the cache information in several ways.|
+
+==== Filtering ====
+{{anchor:filtering:}}
+
+This function allows you to filter the list by various criteria. 
+
+{{ :en:lists_filtermenu.png?direct&400 |}}
+
+<WRAP center round info 100%>
+Other than the [[globaltypefilter|Global Cache Type Filter]] this filter does only apply to the lists, but can be combined with a global filter if needed.
+</WRAP>
+
+^ Menu item ^ Description ^
+|{{ :ic_menu_delete.png?nolink&40 |}}|The trash can icon on top allows you to delete the filters you applied.|
+|Type|Only show caches with a certain cache type.|
+|Size|Only show caches with a specific cache size.|
+|Terrain|Only show caches with a given range of terrain ratings.|
+|Difficulty|Only show caches with a given range of difficulty ratings.|
+|Attributes|Filter the list by one of the cache attributes (e.g. "Abandoned building", "Night Cache").\\ \\ :!: This filter will only give reliable results if used on a list of stored caches, but not for search results.|
+|Status|Filter to caches with a certain state in c:geo (e.g. "Found", "With Trackables", "PM-only").|
+|Origin|Only show caches from a specific geocaching provider (e.g. "geocaching.com", "opencaching.us").|
+|Distance|Only show caches with a certain distance range to your current position.\\ \\ :!: The filtered list will not be updated if you change your position. In this case you need to reapply the filter to get an updated filtered list.|
+|Favorites|Only show caches with a given range of favorite points.|
+|Favorites [%]|Only show caches with a given range of favorite point percentage.\\ \\ :!: This filter will only give reliable results if used on a list of stored caches, but not for search results.|
+|With personal data|Allows you to filter caches, where you added individual information (e.g. offline logs, personal notes).|
+
+==== Sorting ====
+{{anchor:sorting:}}
+
+{{ :en:lists_sorting.png?direct&400 |}}
+
+<WRAP center round tip 100%>
+Selecting the same sorting option twice will allow you to reverse the order in the sorted list (e.g. sorting by name will then sort from Z -> A instead of A -> Z).
+</WRAP>
+
+^ Menu item ^ Description ^
+|Count on Inventory|Sort according to the amount of registered trackables in the cache|
+|Date Hidden|Sort by hidden date of the cache.\\ //(If your list does only contain event caches, this will be automatically used as default sorting.)//|
+|Date Logged|Sort by the date you logged the cache|
+|Date stored on device|Sort by the date you stored the cache on the list.|
+|Difficulty|Sort by difficulty rating of the cache.|
+|Distance|Sort by distance between your position and the cache.\\ //(This is the default sorting for cache lists)//|
+|Favorites|Sort by amount of favorite points of the cache.|
+|Favorites [%]|Sort by favorite percentage of the cache.\\ \\ :!: This sorting method will only give reliable results when used on a list of stored caches, but not in search results.|
+|Finds|Sort by amount of total finds for a cache.|
+|Geo code|Sort alphabetically by geo code of the cache.|
+|Name|Sort alphabetically by title of the cache.\\ //(If c:geo detects that your list seems to contain a series of similar caches (e.g. a cache trails with a fixed name and incremented numbers), this sorting will be used by default).//|
+|Rating|Sort by [[http://gcvote.com|GCVote]] rating of the cache.|
+|Size|Sort by size information of the cache.|
+|Status|Sort by status of the cache.|
+|Terrain|Sort by difficulty rating of the cache.|
+|Vote (Own Rating)|Sort by your own [[http://gcvote.com|GCVote]] rating of the cache.|
+
+<WRAP center round info 100%>
+The sorting mode you selected will be kept throughout your current session or until you change it.
+</WRAP>
+
+==== Select mode ====
+{{anchor:select_mode:}}
+
+{{ :en:lists_selectmode.png?direct&400 |}}
+
+After activating the selection mode your list will be shown with check boxes in front of each cache as shown in the picture above. This allows you to mark some caches on your list by tapping on them and afterwards batch perform actions on the selected caches from the [[lists#manage_caches|Manage Caches]] menu (e.g. delete all selected caches).
+
+Additionally you can now use the ''Invert Selection'' menu option to invert your current selection, which might be helpful if you want to select all except only some caches on your list.
+
+Once you are done, use the ''Exit select mode'' menu option to leave the selection mode.
+
+<WRAP center round tip 100%>
+You can also quickly invoke the selection mode while on a list, by swiping from left to right on a list item.
+</WRAP>
+
+==== Show on map ====
+{{anchor:show_on_map:}}
+
+{{ :en:lists_showonmap.png?direct&400 |}}
+
+This menu option allows you to show the caches on your list (or a subset of them by using the [[lists#select_mode|Selection mode]]) on a map of your choice.
+
+This can either be one of the supported map types in c:geo or a supported third party app like [[utilityprograms|Locus or maps.me]].
+
+==== Manage Caches ====
+{{anchor:manage_caches:}}
+
+{{:en:lists_managecaches.png?direct&350|}}{{ :en:lists_managecaches_select.png?direct&350|}}
+
+This menu allows you to manage the caches on your list in different ways as described below. In case you selected some cache using the [[lists#select_mode|Selection mode]], the menu items will show the amount of caches selected in brackets, else the actions will be performed for all caches on the list.
+
+You can trigger the following actions:
+^ Menu item ^ Description ^
+|Refresh|This will update the caches online with the newest information from the geocaching server.|
+|Move|This will move the caches to another list.|
+|Copy|This will copy the caches to another list (but also keep them on the current list.)|
+|Remove|This will delete the caches from the current list.|
+|Delete past events|This menu item is only visible if your list contains event caches and will delete all events where the event date is in the past.|
+|Upload modified coordinates|This menu item will trigger an upload of all modified listing coordinates of caches in this list to the geocaching server.|
+|Upload coordinates for all caches|This menu item will trigger an upload of all cache coordinates of caches in this list as modified coordinates to the geocaching server. \\ :!: **WARNING:** This will overwrite the existing coordinates on the server for all (selected) caches of your list with the current listing coordinates in c:geo! This is to be used only in special cases, e.g. when you imported a GPX file which contains corrected coordinates as listing coordinates. This cannot be undone and you should only use it, if you know what you are doing. In normal cases the function ''Upload modified coordinates'' in the same menu.|
+|Clear all offline logs|This menu item is only available if caches on your list have an offline log and will allow you to delete these offline logs.|
+|Create user defined cache| This will start creation of a [[en:udc|user defined cache]].|
+==== Manage Lists ====
+{{anchor:manage_lists:}}
+
+{{ :en:lists_managelists.png?direct&400 |}}
+
+This menu option provides options to manage your cache lists.
+
+^ Menu item ^ Description ^
+|Create new list|Creates a new cache list|
+|Remove current list|This will delete the current list.\\ \\ :!: Deleting a list which contains caches, will move these caches to the default list but not delete the caches.|
+|Rename current list|Assign a new name to the current list.|
+|Make list unique|As a single cache can be stored on multiple lists, this function will delete all copies on other lists, so that the caches on your current list are no longer stored on any other list.|
+|Set list marker|With this function you can assign a color marker for the caches on this list. Different colors are available to choose from. Afterwards the cache icons of caches on this list will be shown with this marker on the map and on your lists. Up to two list markers will be shown on your cache icons.|
+
+<WRAP center round info 100%>
+The list ''Stored'' is your default list and cannot be deleted.
+</WRAP>
+
+==== Import ====
+{{anchor:import:}}
+
+This menu offers options to import caches onto your lists from various sources as described below.
+
+{{ :en:lists_import.png?direct&400 |}}
+
+^ Menu item ^ Description ^ 
+|Import Pocket Query|Opens the [[pocketquery|pocket query]] screen to import caches from your existing pocket queries.\\ \\ :!: This function is only available to geocaching.com [[..:basicmembers|premium members]].|
+|[[..offline#gpx_import|Import GPX]]|Allows you to import GPX files from your file system.\\ The folder where GPX files to be imported have to be stored, can be defined in the [[settings#gpx|settings]].|
+|Import from send2cgeo|Allows you to import caches using the [[utilityprograms|send2cgeo]] script.|
+|Import from Android|This option will open the Android import menu for importing a GPX file, offering you a wider choice of possible file sources (e.g. Google Drive)|
+
+==== Export ====
+{{anchor:export:}}
+
+This menu offers options to export caches from your current list as described below.
+
+{{ :en:lists_export.png?direct&400 |}}
+
+^ Menu item ^ Description ^ 
+|GPX|Exports your list as GPX file|
+|Field Notes|Exports all existing offline logs on your list into field notes (incl. optional upload to geocaching.com)|
+|Personal notes|Uploads all existing personal notes in the caches on your list to the geocaching server.|

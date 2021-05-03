@@ -359,7 +359,7 @@ Please refer to the [[..navigation|supported navigation methods]] for detailed i
 
 ^ Menu item ^ Description ^
 |Restore|This function will restore the newest available backup. The date/time of the newest backup available will be shown here. In a next step during the restore process you can choose, whether you want to restore the caches and/or the program settings. \\ \\ :!: Restoring a backup will **replace**  all caches and/or app settings by those contained in the backup. Be aware of that, when using this function.|
-|Restore different backup|With this menu item you can select another available backup but the newest one to be selected for restoring. After tapping here a directory selector will be shown listing the existing backup directories named with date and time below ''/cgeo/backup/'' as c:geo created them during your backup. Select the directory you want to restore from and press OK to continue with thre restoration process.\\ Optionally you can use the directory chooser to navigate to another location, where you placed your backup files and choose to restore from there.|
+|Restore different backup|With this menu item you can select another available backup but the newest one to be selected for restoring. After tapping here a directory selector will be shown listing the existing backup directories named with date and time below ''/cgeo/backup/'' as c:geo created them during your backup. Select the directory you want to restore from and press OK to continue with the restoration process.\\ Optionally you can use the directory chooser to navigate to another location, where you placed your backup files and choose to restore from there.|
 
 
 

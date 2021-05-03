@@ -77,7 +77,12 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
     * [[.mainmenu:pocketquery|Pocket queries]] - Viewing and importing pocket queries
     * [[offline#offline_logging|Offline logging]] - Logging caches offline
     * [[offline#field_note_export|Field Notes]] - Exporting field notes
-    * [[offline#offline_maps|Offline Maps]] - Usage of offline maps 
+    * [[offline#offline_maps|Offline Maps]] - Usage of offline maps
+
+==== User defined caches ====
+{{anchor:udc:}}
+
+  * [[udc|User defined caches]] - Handling of user defined caches in c:geo
 
 ===== Accès rapide =====
 {{anchor:quick_reference:}}
@@ -89,15 +94,20 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
   * [[basicmembers|Limitations for geocaching.com basic members]]
   * [[coordformat|Coordinate formats]]
   * [[attributes|Attribute icons]]
-  * [[.mainmenu:utilityprograms|Outils]]
+  * [[.mainmenu:utilityprograms|Autres applications utiles]]
 
 ===== Astuces et fonctions avancées =====
 {{anchor:special_functions_and_hints:}}
 
+  * [[offlinemaps|Offline map tutorial]]
   * [[intents|Ouvrir les liens Geocaching avec c:geo]]
   * [[hiddenfunctions|Fonctions cachées de c:geo]]
   * [[nfc|Partager des caches par NFC]]
   * [[https://send2.cgeo.org|Utiliser Send2cgeo]].
+  * [[spoilersync|Synchronizing spoiler pictures from external sources to c:geo]]
+  * [[notecoords|Waypoints created for coordinates in personal notes]]
+  * [[quick_widgets|Using quick access and widgets as shortcuts for some c:geo functions]]
+  * [[replacedevice|Migrating c:geo to another device]]
 
 ===== FAQ =====
 {{anchor:faq:}}
@@ -119,7 +129,6 @@ c:geo étant en évolution constante, ce guide peut ne pas être conforme aux de
 
   * [[http://www.cgeo.org|Site web c:geo]]
   * [[https://www.facebook.com/android.geocaching|c:geo sur Facebook]]
-  * [[https://plus.google.com/105588163414303246956|c:geo sur Google+]]
   * [[https://twitter.com/android_gc|c:geo sur Twitter]]
 
   * [[https://github.com/cgeo/|Développement de c:geo sur GitHub]]
