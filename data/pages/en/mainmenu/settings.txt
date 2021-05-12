@@ -17,7 +17,7 @@ In this menu you will find the following categories of settings which will be de
 |{{:settings_map_black.png?nolink|}}|[[settings#map|Map]]|Configure map sources, folders for offline maps and set up offline maps and map details|
 |{{:settings_pen_black.png?nolink|}}|[[settings#logging|Logging]]|Customize logging options and create or modify your logging signature|
 |{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Offline Data]]|Configure the data to be saved for offline use, the storage location and directories for GPX files.|
-|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Navigation]]|Select your default navigation and set other external navigation apps|
+|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Routing / Navigation]]|Configure offline routing, chose preferred navigation methods  and select external navigation apps|
 |{{:settings_nut_black.png?nolink|}}|[[settings#system|System]]|Configure app directories and other system specific settings|
 |{{:settings_backup_white.png?nolink|}}|[[settings#backup|Backup & Restore]]|Perform backup and restore of cache/waypoint data and program settings|
 ===== Services =====
@@ -157,8 +157,6 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 ^ Menu item ^ Description ^
 |Show history track|With this option you can activate a track showing your position history (your movement) on the map. //(Default: Deactivated)// \\ \\ :!: Please be aware, that this will only be accurate as long as you use the map and have GPS enabled and will have gaps or jumps in case you switch your device to standby or deactivate GPS. If you would like a more reliable track recording you should rather use a specialized app.|
 |History track max. length| Allows to raise the amount of track points available for the history track. Once the limit is reached the oldest recorded points will be removed if new points are recorded. Raising the limit however allocates more memory. //(Default: 700 points)//|
-|Calculate route|With this setting you can select the maximum distance up to which a route is calculated and shown on the map between your position and the selected cache. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 10km)// \\ \\ :!: This function requires the [[.:utilityprograms|Brouter helper app]] to be installed on your device.|
-|Show straight distance|If the setting is active, the straight distance to the target will be shown additionally to the routed distance while routing is active. //(Default: Deactivated)//|
 |Big icons for logged caches|If enabled the map will show big emoticons for logged caches instead of the cache type icon. A restart is required after changing this setting. //(Default: Deactivated)//|
 ==== Map behavior ====
 {{anchor:map_behavior}}
@@ -303,6 +301,26 @@ You can find more details regarding the offline usage of c:geo on the page [[..:
 
 ===== Navigation =====
 {{anchor:navigation:}}
+
+==== Offline Routing ====
+
+{{ :en:settings_navigation_routing1.png?direct&400 |}}
+
+^ Menu item ^ Description ^
+|Calculate route|With this setting you can select the maximum distance up to which a route is calculated and shown on the map between your position and the selected cache. You can either use the slider to set the value or tap on the number to set a new value. //(Default: 10km)//|
+|Show straight distance|If the setting is active, the straight distance to the target will be shown additionally to the routed distance while routing is active. //(Default: Deactivated)//|
+|Use internal routing|Activating this menu option will use the c:geo internal brouter enginge, instead of making use of the external helper app "Brouter". c:geo will then also handle download and regular update of routing tiles. The external app is not needed anymore if this settings is activated.//(Default: Deactivated)//|
+
+{{ :en:settings_navigation_routing2.png?direct&400 |}}
+
+^ Menu item ^ Description ^
+|Folder with BRouter routing data|If you use the internal routing engine, this defines the folder where routing tile data will be stored. You can either manually store/move the data into this folder or use the c:geo internal (automatic) downloader to download the needed routing tiles //(Default: Subfolder routing/segments4 below the c:geo base folder)//|
+|Automatic download|Once activated c:geo will inform you, in case routing tile data for routing request (if you create an individual route or set a waypoint as target) is missing and offer to download it automatically into the folder defined above.//(Default: Deactivated)//|
+|Update interval|If the automatic download is activated c:geo can also check periodically whether new routing tile data is available on the BRouter server and remind you to perform an update. You can set the update reminder interval here. You can set it to 0 to deactivate the update reminder //(Default: 30)//|
+|"Walk" profile|You can define which of the available Brouter routing profiles shall be used for the navigation type "Walking"|
+|"Bike" profile|You can define which of the available Brouter routing profiles shall be used for the navigation type "Bicycle"|
+|"Car" profile|You can define which of the available Brouter routing profiles shall be used for the navigation type "Car"|
+==== Navigation Tools ====
 
 {{ :en:settings_navigation.png?direct&400 |}}
 

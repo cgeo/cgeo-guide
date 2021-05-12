@@ -18,7 +18,7 @@ In diesem Menü findest du die folgenden Kategorien, welche weiter unten im Deta
 |{{:settings_map_black.png?nolink|}}|[[settings#map|Karte]]|Konfiguriere die Kartenquellen, Verzeichnisse für Offline-Karten und stelle Offline-Karten und Kartendetails ein.|
 |{{:settings_pen_black.png?nolink|}}|[[settings#logging|Loggen]]|Passe Log-Optionen an und erstelle oder bearbeite deine Log-Signatur.|
 |{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Offline-Daten]]|Konfiguriere die Daten, die für Offlinenutzung gespeichert werden, den Speicherort und die Verzeichnisse für GPX-Dateien.|
-|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Navigation]]|Wähle deine Standardnavigation und stelle die Nutzung anderer externer Navigationstools ein.|
+|{{:settings_arrow_black.png?nolink|}}|[[settings#navigation|Routing / Navigation]]|Konfiguriere das Offline-Routing, wähle die Standardnavigation und externe Navigations-Apps.|
 |{{:settings_nut_black.png?nolink|}}|[[settings#system|System]]|Konfiguriere Verzeichnisse und andere Systemeinstellungen.|
 |{{:settings_backup_white.png?nolink|}}|[[settings#backup|Sichern / Wiederherstellen]]|Sichern und Wiederherstellen von Cache- und Wegpunkt-Daten und Einstellungen.|
 
@@ -156,8 +156,6 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 ^ Menüeintrag ^ Beschreibung ^
 |Zeige Positionsverlauf|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte anzeigt. //(Standard: Deaktiviert)// \\ \\ :!: Beachte bitte,dass sie nur genau ist so lange du die Karte nutzt und GPS aktiviert ist und wird Lücken haben, sobald du dein Gerät abschaltest oder GPS deaktivierst. Wenn du eine zuverlässige Aufzeichnung deines Tracks haben möchtest, solltest du lieber eine spezialisierte App dafür nutzen.|
 |Länge des Positionsverlaufs|Erlaubt es dir die Anzahl der Trackpunkte für den Positionsverlaufs zu erhöhen. Wenn das Limit erreicht ist, werden die ältesten Punkte gelöscht, wenn neue Punkte aufgezeichnet werden. Eine Anhebung der Begrenzung erhöht allerdings die Speicherauslastung. //(Standard: 700 Punkte)//|
-|Routenberechnung|Mit dieser Einstellung kannst du die maximale Entfernung setzen, bis zu der eine Route zwischen deiner Position und dem gewählten Cache berechnet und auf der Karte angezeigt wird. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen. //(Standard: 10km)// \\ \\ :!: Zur Nutzung dieser Funktion muss die [[.:utilityprograms|Brouter-App]] auf deinem Gerät installiert sein.|
-|Zeige Entfernung in Luftlinie|Wenn diese Option aktivier ist, wird bei aktiver Wegführung zusätzlich zur geführten Entfernung auch die Luftlinien-Entfernung angezeigt. //(Standard: Deaktiviert)//|
 |Große Symbole für geloggte Caches|Ist diese Option aktiviert, so werden für geloggte Caches große Emoticons anstelle der Cache-Typ Symbole angezeigt. Ein Ändern der Einstellung erfordert einen Neustart von c:geo. //(Standard: Deaktivert)//|
 
 ==== Kartenverhalten ====
@@ -305,9 +303,31 @@ Mehr Details zur Offline-Nutzung findest du auf der Seite [[..:offline|Offline-N
 ===== Navigation =====
 {{anchor:navigation:}}
 
-{{ :en:settings_navigation.png?direct&400 |}}
+==== Offline-Routing ====
+
+{{ :en:settings_navigation_routing1.png?direct&400 |}}
+
+^ Menu item ^ Description ^
+|Routenberechnung|Mit dieser Einstellung kannst du die maximale Entfernung setzen, bis zu der eine Route zwischen deiner Position und dem gewählten Cache berechnet und auf der Karte angezeigt wird. Um den Wert festzulegen, kannst du entweder den Schieberegler nutzen oder auf die Zahl tippen und einen neuen Wert festlegen. //(Standard: 10km)// \\ \\ :!: Zur Nutzung dieser Funktion muss die [[.:utilityprograms|Brouter-App]] auf deinem Gerät installiert sein.|
+|Zeige Entfernung in Luftlinie|Wenn diese Option aktivier ist, wird bei aktiver Wegführung zusätzlich zur geführten Entfernung auch die Luftlinien-Entfernung angezeigt. //(Standard: Deaktiviert)//|
+|Internes Routing verwenden|Bei Aktivierung dieses Menüpunktes wird c:geo die interne BRouter-Implementierung nutzen, statt auf die externe Hilfs-App BRouter zurückzugreifen. c:geo wird dann auch das Herunterladen und (optional) die regelmäßige Aktualisierung der Routing-Daten übernehmen. Die externe App wird nicht mehr benötigt, wenn dieser Menüpunkt aktiviert ist. //(Standard: Deaktiviert)//|
+
+{{ :en:settings_navigation_routing2.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
+|Ordner mit BRouter Routingdaten|Wenn du die interne Routing-Funktion nutzt, bestimmt dieser Eintrag den Ordner, in dem Routingdaten abgelegt werden. Du kannst entweder manuell die Daten in diesen Ordner ablegen/verschieben oder den c:geo internen Downloader nutzen, um die benötigten Routingdaten herunterzuladen. //(Standard: Unterordner routing/segments4 unterhalb des c:geo Basisordners)//|
+|Automatisch herunterladen|Wenn dies aktiviert wurde, wird c:geo dich im Fall von fehlenden Routingdaten für deine Routinganfrage (wenn du eine individuelle Route erstellst oder einen Wegpunkt als Ziel setzt) informieren und anbieten, die fehlenden Routingdaten in den oben angegebenen Ordner herunterzuladen. //(Standard: Deaktiviert)//|
+|Aktualisierungsintervall|Wenn das automatische Herunterladen aktiviert ist, kann c:geo auch periodisch prüfen, ob neue Routingdaten verfügbar sind und dich an die Aktualisierung erinnern. Hier kannst du das Intervall einstellen, in dem du erinnert werden möchtest. Setze 0 um die Update-Erinnerung abzuschalten. //(Standard:30)//|
+|"Laufen"-Profil|Du kannst hier festlegen, welches der verfügbaren BRouter-Profile für den Navigationstyp "Laufen" genutzt werden soll.|
+|"Fahrrad"-Profil|Du kannst hier festlegen, welches der verfügbaren BRouter-Profile für den Navigationstyp "Fahrrad" genutzt werden soll.||
+|"Auto"-Profil|Du kannst hier festlegen, welches der verfügbaren BRouter-Profile für den Navigationstyp "Auto" genutzt werden soll.||
+
+==== Navigationswerkzeuge ====
+
+
+{{ :en:settings_navigation.png?direct&400 |}}
+
+^ Menüeintrag  ^  Beschreibung  ^
 |Standardnavigation|Du kannst hier dein Standard-Naviagtionstool wählen, was dir einfachen und schnellen Zugriff auf deine bevorzugte Navigationsmethode gibt. Das ausgewählte Tool kannst du mit einem **kurzen** Klick auf die Kompassrose starten, welche in den Cache-Details und im Live-Karten Pop-up-Fenster angezeigt wird. //(Standard: Kompass)//|
 |Zweitnavigation|u kannst hier dein zweites Standard-Naviagtionstool wählen, was dir einfachen und schnellen Zugriff auf deine bevorzugte Navigationsmethode gibt. Das ausgewählte Tool kannst du mit einem **langen** Klick auf die Kompassrose starten, welche in den Cache-Details und im Live-Karten Pop-up-Fenster angezeigt wird. //(Standard: Karte)//|
 |Navigationsmenü|Dieser Bereich ermöglicht es dir einzelne installierte und verfügbare Navigationsmethoden im Navigationsmenü zu aktiveren/deaktivieren. Du kannst damit die Auswahl der Navigationsmethoden auf die beschränken, die du nutzen möchtest. //(Standard: Alle verfügbaren sind aktiviert)//|
