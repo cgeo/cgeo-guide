@@ -1,13 +1,3 @@
-1590649683	163.158.160.54	E	nl:offlinemaps	linstylemon	[Usage] : En to NL		58
-1590649945	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		12
-1590650176	163.158.160.54	E	nl:offlinemaps	linstylemon	En to NL		35
-1590650430	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		18
-1590650713	163.158.160.54	E	nl:offlinemaps	linstylemon	EN to NL		8
-1590650748	163.158.160.54	E	nl:offlinemaps	linstylemon	Completed translation / delete fix me		-162
-1590651050	163.158.160.54	E	nl:nfc	linstylemon	changed url to dutch		0
-1590651716	163.158.160.54	D	playground:firststeps	linstylemon	delete		-7507
-1590651786	163.158.160.54	D	playground:installation	linstylemon	delete		-5727
-1590651810	163.158.160.54	D	playground:playground	linstylemon	delete		-8845
 1592947008	127.0.0.1	E	wiki:welcome		external edit		1705
 1595365134	2001:14bb:410:f378:e84c:585f:8ab:89fd	E	fi:start	vike91	grammar fix		8
 1597858320	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		301
@@ -1494,3 +1484,21 @@
 1620815278	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		-665
 1620815858	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Offline-Routing] 		442
 1620815977	2.205.118.53	E	de:mainmenu:settings	lineflyer	[c:geo Einstellungen] 		10
+1621375201	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] fixed typo		1
+1621377260	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:cachedetails	murggel	[Persönliche Notiz] fix typo		1
+1621546141	2a00:1e:9640:fc:11d4:e0d5:a3ef:c983	E	de:mainmenu:livemap	lineflyer	[Oberer Bereich] 		-105
+1621984367	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	it:mainmenu:lists	silviopen	[Elenco Cache]  correti alcuni refusi		-48
+1621984482	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	it:mainmenu:lists	silviopen	[Carica più opzioni] 		-15
+1622143086	163.158.160.54	E	nl:start	linstylemon	removed google + and changed url paypal		-69
+1622143585	163.158.160.54	E	nl:sidebar	linstylemon	add quick widget and replace device to menu		136
+1622143704	163.158.160.54	C	nl:replacedevice	linstylemon	aangemaakt		3746
+1622143856	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		1
+1622144548	163.158.160.54	E	nl:notecoords	linstylemon	[Using keywords for waypoint types]  translated		107
+1622144589	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1622144986	163.158.160.54	E	nl:contacts	linstylemon	page updated to latest changes		-3
+1622145153	163.158.160.54	E	nl:contacts	linstylemon	[c:geo contacts plugin] 		182
+1622145300	163.158.160.54	E	nl:contacts	linstylemon	[Installation] translation		17
+1622145494	163.158.160.54	E	nl:contacts	linstylemon	[Usage] 		130
+1622145608	163.158.160.54	E	nl:contacts	linstylemon	[Data privacy statement] 		1
+1622146031	163.158.160.54	E	nl:contacts	linstylemon	[What information is collected by the c:geo contacts plugin?] 		13
+1622146401	163.158.160.54	E	nl:contacts	linstylemon	translation		53

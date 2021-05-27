@@ -62,6 +62,8 @@
           * [[http://send2.cgeo.org|Send to c:geo]]
           * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
           * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
+          * [[quick_widgets|Snelle toegang en widgets gebruiken ]]
+          * [[replacedevice|C:geo migreren naar een ander apparaat]]
     
     * [[start#faq|FAQ]]
     

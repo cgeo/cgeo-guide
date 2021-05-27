@@ -70,7 +70,7 @@ Dieser Bereich des Pop-up-Fensters enthält einige Optionen für den gewählten 
 ^ Symbol/Option ^ Beschreibung ^
 |{{ :en:livemap_popup_3.png?nolink&150 |}}|Zeigt das [[..:cacheicons|Cachetyp-Symbol]] und den Titel des gewählten Caches.|
 |{{ :actionbar_compass_light.png?nolink&40 |}}|Ein kurzer Klick startet deine [[settings#navigation|Standardnavigation]] um zum ausgewählten Cache zu navigieren.\\ Ein langer Klick startet deine [[settings#navigation|zweite bevorzugte Navigation]].|
-|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Dieser Funktion schaltet die Richtungslinie/das Routing zwischen deiner Position und der Position des ausgewählten Caches an/aus.\\ \\ :!: Diese Funktion steht derzeit nur auf der OSM:Karte sowie auf den Offline-Karten zur Verfügung.|
+|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Dieser Funktion schaltet die Richtungslinie/das Routing zwischen deiner Position und der Position des ausgewählten Caches an/aus.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Diese Funktion öffnet eine Menü mit weiteren Menüeinträgen, die ebenfalls in dieser Tabelle beschrieben werden.|
 |Kompass|Startet den Kompass für diesen Cache.|
 |Navigieren|Dies öffnet eine Liste aller verfügbaren [[settings#navigation|Navigationstools]] um eines davon für diesen Cache zu starten.|

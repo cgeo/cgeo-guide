@@ -1,49 +1,46 @@
 FIXME **Deze pagina is nog niet volledig vertaald. Help alsjeblieft de vertaling compleet te maken.**\\ //(verwijder deze paragraaf als de vertaling is voltooid)//
 
-====== c:geo contacts plugin ======
+====== c:geo contacten plugin ======
 
 {{:ic_launcher_contacts-playstore.png?nolink&200 |}}
 
-This is a contacts plugin for c:geo. It will only work with the c:geo app installed and allows direct access to your contacts when clicking on a username in c:geo.
+Dit is een contacten-plug-in voor c: geo. Het werkt alleen als de c: geo-app is geïnstalleerd en biedt directe toegang tot je contacten wanneer je op een gebruikersnaam tikt in c: geo.
 
-The reason to provide this function as a plugin rather than in the c:geo main app was, that older Android versions could only present app 
-permission requests to the user upon installation but not during runtime. As the permission request to access the users contacts might not be easily understandable for many users, we decided to separate this function into a dedicated plugin. So users interested in such a feature and therefore also understanding the related permission requests can use it, while other users are not bothered by such permission request.
+De reden om deze functie als plug-in aan te bieden in plaats van in de c: geo-hoofdapp, was dat oudere Android-versies alleen app
+toestemmingsverzoeken aan de gebruiker konnen doen bij installatie, maar niet tijdens het afspelen van de app. Omdat het toestemmingsverzoek om toegang te krijgen tot de gebruikerscontacten voor veel gebruikers misschien niet gemakkelijk te begrijpen is, hebben we besloten om deze functie op te splitsen in een speciale plug-in. Dus gebruikers die geïnteresseerd zijn in een dergelijke functie en daarom ook de gerelateerde toestemmingsverzoeken begrijpen, kunnen deze gebruiken, terwijl andere gebruikers geen last hebben van een dergelijk toestemmingsverzoek.
 
-Meanwhile however Android supports runtime permission, so we might decide to integrate the function back into the main app at some point in future.
-
-
-===== Installation =====
-
-You can download and install the c:geo contacts plugin from [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Play]].
-
-After installation it will not show up as dedicated launchable icon on your device, but the plugin directly integrates the contacts function into c:geo.
+Ondertussen ondersteunt Android echter runtime-toestemming, dus we kunnen besluiten om de functie op een bepaald moment in de toekomst weer in de hoofdapp te integreren. 
 
 
-===== Usage =====
+===== Installatie =====
 
-When you click on a username at various places in c:geo (e.g. in the [[.:cachedetails#logbook_tab|cache logbook]]) the menu will contain an item to open the corresponding contact card in your phone contacts. This will allow you to directly call or message the user.
+Je kunt de c:geo contacten plugin downloaden en installen vanuit [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Play]].
+Na installatie zal het niet getoond worden als een af te spelen icoon op je apparaat, maar zal direct als plugin geïntergreerd worden in de contact functie in c:geo.
+
+
+===== Gebruik =====
+
+Wanneer je op verschillende plaatsen in c: geo op een gebruikersnaam tikt (bijv. In het [[.: Cachedetails # logbook_tab | cache logboek]]), zal het menu een item bevatten om de corresponderende contactkaart in je telefooncontacten te openen. Hiermee kun je de gebruiker direct bellen of een bericht sturen.
 
 {{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
 
 
 
-In order for this function to match, the username of the person needs to be stored in the ''Name'' or ''Alias''/''Nickname'' field of your contact. Please make sure you stored the geocaching name of the person like it is shown in c:geo into one of these fields of the matching contact.
+Om ervoor te zorgen dat deze functie overeenkomt, moet de gebruikersnaam van de persoon worden opgeslagen in het veld ''Naam'' of ''Alias''/''Bijnaam'' van je contactpersoon. Zorg ervoor dat je de geocaching-naam van de persoon zoals deze wordt weergegeven in c: geo hebt opgeslagen in een van deze velden van de overeenkomende contactpersoon.
 
-Alternatively the plugin will also try to match if the geocaching name equals the full name stored in your contacts list.
-
-
+Als alternatief zal de plug-in ook proberen te matchen als de geocachingnaam gelijk is aan de volledige naam die is opgeslagen in je contactenlijst.
 
 
-===== Data privacy statement =====
-
-==== What information is collected by the c:geo contacts plugin? ====
 
 
-The contacts plugin needs the permission to access the contacts on your device. It will access your contacts in order to be able to find the contact data of other geocachers. The c:geo contacts plugin will access your contacts only on your demand if you select the menu item “Open contact card” in c:geo. As long as you don’t use that function the plugin will never access any data of your contacts.
+===== Data privacy verklaring =====
 
-==== How is the information used by the c:geo contacts plugin? ====
+==== Welke informatie wordt door de c:geo contacten plugin verzameld? ====
 
-After you select ''Open contact card'' the c:geo contacts plugin will read your contact data to find a possible match of the geocachers name in the name or nickname field of your contact data. It will neither write to your contact data nor store any of your contact data within c:geo or the c:geo contacts plugin itself.
+De contacten plugin heeft toestemming nodig om toegang te krijgen tot je contactenlijst op je apparaat. Het zal deze toegang gebruiken om de contactgegevens van andere geocachers te vinden. De c:geo contacten plugin zal alleen deze toegang gebruiken wanneer je in het menu item "Open contact kaart" in C:geo selecteert. Wanneer je deze functie niet gebruikt zal de plugin nooit gebruik maken van je contactgegevens.
+==== Hoe wordt de informatie gebruikt door de c:geo contacten plugin? ====
+
+Nadat je '' Contactkaart openen '' hebt geselecteerd, zal de plug-in c: geo contacts je contactgegevens lezen om een mogelijke overeenkomst met de naam van de geocachers te vinden in het naam- of bijnaamveld van je contactgegevens. Het zal niet naar je contactgegevens schrijven en ook geen van je contactgegevens opslaan in c:geo of de c:geo contacten-plug-in zelf.
 
 ==== With whom is the information shared? ====
 

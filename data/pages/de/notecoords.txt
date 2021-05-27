@@ -67,11 +67,11 @@ diese Sicherung in deiner persönlichen Notiz:
 ===== Erweiterte Wegpunkt-Syntax =====
 FIXME ÜBERSETZUNG!!
 
-Vielleicht hast du bermerkt, dass Wegpunkte, die aus der persönlichen Notiz erstellt wurden, mit Standardnamen wie z.B. ''Persönliche Notiz 2'' angelegt werden. Wenn du mehr Möglichkeiten für Wegpunkte aus der persönlichen Notiz nutzen möchtest, kannst du die erweiterte Wegpunkt-Syntax nutzen.
+Vielleicht hast du bemerkt, dass Wegpunkte, die aus der persönlichen Notiz erstellt wurden, mit Standardnamen wie z.B. ''Persönliche Notiz 2'' angelegt werden. Wenn du mehr Möglichkeiten für Wegpunkte aus der persönlichen Notiz nutzen möchtest, kannst du die erweiterte Wegpunkt-Syntax nutzen.
 Damit kannst du:
 
-  * Die folgenden Eigenschaften vordefinierter Wegpunkte (d.g. Wegpunkte, die vom Cache-Owner vorgegeben wurden) verändern: Koordinate und die eigene Notiz
-  * Wegpunkt-Typen, -Namen und eigene Notizen für benutzerdefinierte Wegpunkt erstellen oder ändern 
+  * Die folgenden Eigenschaften vordefinierter Wegpunkte (d.h. Wegpunkte, die vom Cache-Owner vorgegeben wurden) verändern: Koordinate und die eigene Notiz
+  * Wegpunkt-Typen, -Namen und eigene Notizen für benutzerdefinierte Wegpunkte erstellen oder ändern 
 
 Um dies zu machen, benutze die folgende Syntax in deiner persönlichen Notiz:
 
@@ -86,9 +86,9 @@ Der folgende Inhalt wird ausgelesen:
   * **Wegpunkttyp**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben
   * **Koordinate**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben. Zusätzlich gibt es die spezielle Markierung ''(NO-COORD)'', die genutzt werden kann um eine leere Koordinate zu erzeugen (dies wird im seltenen Fall benötigt, dass man eine eigene Notiz zu einem existierenden vordefinierten Wegpunkt hinzufügen möchte, der keine Koordinate hat).
 
-Die Wegpunktliste des Geocached wird mit diesen Informationen wie folgt verändert:
+Die Wegpunktliste des Geocaches wird mit diesen Informationen wie folgt verändert:
 
-  * Wenn ein **Präfix** erkannt wird und es gibt einen Wegpunkt mit dem gleichen Präfix, dann wird angenommen, dass dieser Wegpunkt verändert werden soll. Das wird normalerweise für vom Owner vorgegebene Wegpunkt genutzt.
+  * Wenn ein **Präfix** erkannt wird und es gibt einen Wegpunkt mit dem gleichen Präfix, dann wird angenommen, dass dieser Wegpunkt verändert werden soll. Das wird normalerweise für vom Owner vorgegebene Wegpunkte genutzt.
   * Wenn ein Wegpunkt mit der gleichen Koordinate erkannt wird, wie ein bereits vorhandener Wegpunkt, wird angenommen, dass dieser Wegpunkt verändert werden soll.
   * In allen anderen Fällen wird ein neuer Wegpunkt erstellt.
 

@@ -21,7 +21,7 @@ La stessa visualizzazione elenco viene utilizzata anche nei risultati delle [[se
 {{:en:lists_1_en.png?direct&400 |}}
 
 
-L'elenco ti mostrerà il titolo di ogni geocache nella prima riga. Sotto c'è un sottotitolo che mostra il suo codice geografico, la valutazione D / T, la dimensione del cache, lo stato [[..:basicmembers|solo premium]] (se applicabile) e se il cache è archiviato offline (utile se stai guardando un elenco di [[search|risultati di ricerca]]). Se abilitato nelle [[settings#offline_data|impostazioni]], il sottotitolo mostrerà anche i nomi di tutti gli elenchi, dove è memorizzato il cache.\\
+L'elenco ti mostrerà il nome di ogni geocache nella prima riga. Sotto vengono elencati il geo-code, la valutazione D/T, la dimensione del cache, lo stato [[..:basicmembers|solo premium]] (se applicabile) e se il cache è archiviato offline (utile se stai guardando un elenco di [[search|risultati di ricerca]]). Se abilitato nelle [[settings#offline_data|impostazioni]], appaiono anche i nomi di tutti gli elenchi, dove è memorizzato il cache.\\
 La striscia colorata all'estrema sinistra indica (oltre ai contrassegni sull'icona del tipo di cache) se questo cache è stato  <color #22b14c>trovato</color> o ha un <color #ed1c24>registro offline</color> salvato.  
 
 Se il titolo risulta <del>barrato</del> il cache corrispondente è temporaneamente disabilitato, se il titolo del cache viene inoltre mostrato in <color #ed1c24>lettere rosse</color>, il cache è stato archiviato e non è più disponibile.
@@ -31,13 +31,13 @@ Un breve clic su una delle voci dell'elenco aprirà i [[..:cachedetails|dettagli
 Le informazioni mostrate per ogni geocache sul lato destro della visualizzazione elenco sono spiegate nella tabella seguente:
 
 ^Icona ^ Descriztione ^
-|{{ :en:lists_distance_direction.png?nolink&100 |}}|Distanza e direzione verso il cache in base alla posizione corrente (gli mutenti con un [[..:basicmembers|account base]] di geocaching.com vedranno solo alcune delle informazioni)|
+|{{ :en:lists_distance_direction.png?nolink&100 |}}|Distanza e direzione verso il cache in base alla posizione corrente (gli utenti con un [[..:basicmembers|account base]] di geocaching.com vedranno solo alcune delle informazioni)|
 |{{ :en:lists_fav_vote.png?nolink&100 |}}|Il numero mostra la quantità di punti preferiti (geocaching.com) o consigliati (opencaching) di questo cache.\\ Il colore di sfondo rappresenta la valutazione [[http://gcvote.com|GCVote]] media del cache:\\ Verde = valutazione buona (> 3,5 stelle)\\ Marrone = Voto medio (tra 2,5 e 3,5)\\ Rosso = valutazione negativa (<2,5 stelle).\\ Se non viene visualizzato alcun colore, il cache non ha ancora voti o non è supportato in GCVote (GCVote attualmente supporta solo i cache presenti su geocaching.com).|
 |{{ :en:lists_trackableinfo.png?nolink&100 |}}|Il simbolo è un marker che viene mostrato solo se il cache contiene trackables. Il numero accanto ad esso è la quantità di trackable elencati in questo cache.|
 
 ==== Carica più opzioni ====
 
-Se l'elenco che hai aperto è stato creato da un [[.search|risultato di ricerca]] o da una vista di [[.pocketquery|pocket query view]] ci sarà un pulsante alla fine dell'elenco chioamato ''Carica più cache (Attualmente: XX)'' che mostra quanti cache sono stati attualmente caricati nell'elenco e cliccandolo caricherà più risultati / voci di pocket query.
+Se l'elenco che hai aperto è il risultato di una [[.search|ricerca]] o di una vista di [[.pocketquery|pocket query]] ci sarà un pulsante alla fine dell'elenco chiamato ''Carica più cache (Attualmente: XX)'' che mostra quanti cache sono stati attualmente caricati nell'elenco e cliccandolo si caricheranno più risultati/voci di pocket query.
 
 
 ==== Menù contestuale ====

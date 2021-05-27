@@ -1,0 +1,58 @@
+FIXME **Deze pagina is nog niet volledig vertaald. Help alsjeblieft de vertaling compleet te maken.**\\ //(verwijder deze paragraaf als de vertaling is voltooid)//
+
+====== Migrate c:geo to another device ======
+
+This pages describes the procedure to take over all your c:geo data from one device to another. It can be useful, if you e.g. have a new device and want to transfer all stored caches and settings from your old to the new device.
+
+===== Limitations =====
+
+If you follow the steps below, all stored caches (including their status, notes, offline logs), the cache history and all program settings of c:geo will be 100% identical between the old and new device. These are usually the main items you want to transfer smoothly to the new device.
+
+The described migration process does however not include offline map/theme files and exported GPX and field note files. You can easily transfer those by copying them from the related folders below the [[.:mainmenu:settings#system|base folder]] of the old device to the new device.
+
+Stored log images from cache logbooks and pictures from cache descriptions will not be included in this migration as they are stored on a non-user accessible system folder. Those can however be easily restored by refreshing the relevant caches on the new device.
+
+===== Prerequisites =====
+
+You will need the following things to perform the procedure:
+
+  * A good File Explorer on both devices to copy/move files
+  * A possibility to transfer files from one device to another (cable, mail, cloud storage, SD card, Bluetooth, etc.)
+  * Two Android devices capable of running c:geo 8-)
+
+===== Tasks on the old device =====
+
+Perform the following steps on the old device:
+
+  - Start c:geo
+  - Go to c:geo Menu → Backup/Restore
+  - Enable the option to include the account data in your backup
+  - Tap on ''Start Backup''
+  - Note down the folder path shown in the "Backup finished" message (e.g. ''/cgeo/backup/2021-01-02 15-20'')
+  - You can now either directly use the ''Share'' button in this message to send the backup (e.g. by mail, cloud storage, Bluetooth) or you have to open a File Explorer, locate backup folder (see step 5) and store the contained files at a safe location for later restore on the new device (The files are named ''cgeo.sqlite'' and ''cgeo-settings.xml'').
+
+===== Tasks on the new device =====
+
+Perform the following steps on the new device:
+
+  - [[.:installation|Install]] the same c:geo version as on the old device. If the versions are different, the migration might fail or have some limitations.
+  - Copy the stored backup files onto the new device into a folder of your choice
+  - Start c:geo
+  - Follow the steps of the [[.:firststeps|configuration wizard]]  (you can skip the service configuration as your backup contains your account data) until you have reached the screen "Advanced configuration".
+  - Select ''Restore'' on this wizard screen to open a folder selecor
+  - Locate the folder with your stored backup files (see step 2), select ''Use this folder'' and confirm by ''Allow''
+  - In the following dialog select to restore caches and waypoints as well as program settings and select ''OK''
+  - (Optional) During the restoration you might be asked if you want to use the folder settings for offline maps/themes and GPX exports from your old device. If you want to use the same directories also on your new device you have to grant c:geo access to the directories on your new device during this step. Otherwise you can just decline to use them and set them manually later.
+  - Finally tap ''Done'' to end the configuration wizard
+
+**That's it!**\\
+Now c:geo on your new device should contain the same caches and have the same settings as on your old device.
+
+
+
+
+
+
+
+
+

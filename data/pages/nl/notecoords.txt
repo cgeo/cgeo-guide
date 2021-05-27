@@ -19,27 +19,27 @@ Twee coördinaten worden als "hetzelfde" gezien als ze identiek zijn geschreven 
  	</WRAP>	 	
 
 
-===== Using keywords for waypoint types =====
+===== Sleutelwoorden gebruiken voor waypoint-types =====
 
-Normally c:geo will define the waypoint type for coordinates found in the personal note as ''Reference Point'', however you can use keywords in your personal note to enforce another waypoint type being used.
+Normaal gesproken definieert c: geo het waypoint-type voor coördinaten die in de persoonlijke notitie worden gevonden als '' Referentiepunt '', maar u kunt trefwoorden in uw persoonlijke notitie gebruiken om het gebruik van een ander type waypoint af te dwingen.
 
-You just place one of the following keywords in front of the coordinates:
+Je plaatst eenvoudig een van de onderstaande sleutelwoorden voor het coördinaat:
 
-^ Icon ^ Waypoint type ^ Keyword in personal note ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parking Area|PARKING|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Question to Answer|PUZZLE|
-|{{ :waypoint_stage.png?nolink&40 |}}|Stage of a Multi cache|STAGE|
+^ Icoon ^ Waypoint type ^ Sleutelwoord in persoonlijke notitie ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|Parkeerplaats|PARKING|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|Te beantwoorden vraag|PUZZLE|
+|{{ :waypoint_stage.png?nolink&40 |}}|Multi-cache punt|STAGE|
 |{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|TRAILHEAD|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Reference Point|WAYPOINT|
-|{{ :waypoint_flag.png?nolink&40 |}}|Final Location|FINAL|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|Referentie punt|WAYPOINT|
+|{{ :waypoint_flag.png?nolink&40 |}}|Eindbestemmingn|FINAL|
 
-Additionally localized waypoint type names (in the language you are using c:geo) will also work, however as c:geo is available in many languages we only list the English keywords here.
+Ook zullen de namen van de waypointtypen in de taal waarin je c:geo gebruikt werken, maar aangezien c: geo in veel talen beschikbaar is, vermelden we hier alleen de Engelse trefwoorden.
 
-In our example we created the following personal note:
+In ons voorbeeld hebben we de volgende persoonlijke notitie gemaakt:
 
 {{:en:personalnote_wp_3.png?direct&600|}}
 
-which then automatically creates these waypoints for you:
+welke vervolgens automatisch in deze waypoints worden gemaakt:
 
 {{:en:personalnote_wp_4.png?direct&600|}}
 

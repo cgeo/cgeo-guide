@@ -241,8 +241,8 @@ Dieser Bereich enthält deine persönliche Cachenotiz. Notizen, die du auf dem G
 
 ^ Symbol ^ Name ^ Beschreibung ^
 |{{:ic_menu_waypoint_sync.png?nolink&40|}}|Kopiere Wegpunkte|Kopiert alle selbstdefinierten Wegpunkte dieses Caches in die persönliche Notiz. Da c:geo die verwendete Syntax erkennt, werden so gespeicherte Wegpunkt bei Bedarf automatisch aus der persönlichen Notiz neu erstellt.|
-|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Wegpunkte löschen|Dies löscht die kopierten Wegpunkt aus der persönlichen Notiz.|
-|{{:ic_menu_upload.png?nolink&40|}}|Hochladen|Lädt die lokale persönliche Notiz auf den Geocaching Server hoch.\\ :!: Auf geocaching.com ist dies eine Funkion für Premium-Mitglieder.|
+|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Wegpunkte löschen|Dies löscht die kopierten Wegpunkte aus der persönlichen Notiz.|
+|{{:ic_menu_upload.png?nolink&40|}}|Hochladen|Lädt die lokale persönliche Notiz auf den Geocaching Server hoch.\\ :!: Auf geocaching.com ist dies eine Funktion für Premium-Mitglieder.|
 |{{:ic_menu_edit.png?nolink&40|}}|Notiz bearbeiten|Dies öffnet ein Editor-Fenster zur Bearbeitung deiner persönlichen Notiz.|
 
 {{:en:description_personalnote_2.png?direct&400 |}}
@@ -250,7 +250,7 @@ Dieser Bereich enthält deine persönliche Cachenotiz. Notizen, die du auf dem G
 Dies ist das Bearbeitungsfenster für deine persönliche Notiz, in dem du diese eingeben oder ändern kannst. Die Aktivierung der Auswahl ''Wegpunkt-Extraktion verhindern'' verhindert, dass c:geo in der persönlichen Notiz gefundene Koordinaten automatisch als Wegpunkte zu diesem Cache hinzufügt.
 
 <WRAP center round info 100%>
-Wenn sich die persönliche Notiz auf dem Server von der lokal gespeicherten Notiz unterscheidet, wird c:geo bei der Aktualisierung des Caches beide Noptizen beibehalten und sie durch ''- - -'' trennen.
+Wenn sich die persönliche Notiz auf dem Server von der lokal gespeicherten Notiz unterscheidet, wird c:geo bei der Aktualisierung des Caches beide Notizen beibehalten und sie durch ''- - -'' trennen.
 </WRAP>
 
 ===== Logbuch =====

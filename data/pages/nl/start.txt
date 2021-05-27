@@ -124,9 +124,10 @@ Aangezien c:geo voortdurend geavanceerd en bijgewerkt wordt, is het mogelijk dat
 
   * [[http://www.cgeo.org|c:geo Startpagina]]
   * [[https://www.facebook.com/android.geocaching|c:geo op Facebook]]
-  * [[https://plus.google.com/105588163414303246956|c:geo op Google+]]
   * [[https://twitter.com/android_gc|c:geo on Twitter]]
 
   * [[https://github.com/cgeo/|c:geo Ontwikkeling op GitHub]]
   * [[http://www.cgeo.org/development| Doe mee en draag bij aan de c:geo-ontwikkeling!]]
   * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Doneren via PayPal]]
+
+
