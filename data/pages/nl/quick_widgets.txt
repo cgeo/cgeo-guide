@@ -1,46 +1,41 @@
-FIXME **Deze pagina is nog niet volledig vertaald. Help alsjeblieft de vertaling compleet te maken.**\\ //(verwijder deze paragraaf als de vertaling is voltooid)//
+====== Snelle toegang en widget functies ======
 
-====== Quick access and widget functions ======
-
-You can use some quick access links and widgets to allow fast access to some functions of c:geo.
+Je kunt enkele snelkoppelingen en widgets gebruiken om snel toegang te krijgen tot sommige functies van c: geo.
 
 <WRAP center round important 100%>
-The availability and visualization of these functions depend on Android version and launcher features on your device.
+De beschikbaarheid en visualisatie van deze functies zijn afhankelijk van de Android-versie en launcher-functies van je apparaat.
 </WRAP>
 
-===== Quick access =====
+===== Snelle toegang =====
 
-With quick access you can use your normal c:geo launcher icon to directly jump to certain functions of c:geo.
-To use this quick access simply long click on the c:geo icon. 
+Met snelle toegang kun je je normale c:geo launcher-pictogram gebruiken om direct naar bepaalde functies van c: geo te springen.
+Om deze snelle toegang te gebruiken, tik je gewoon lang op het c: geo-pictogram.
 
-A selection of main functions will show up as shown on this picture:
+Een selectie van de belangrijkste functies zal verschijnen, zoals op deze afbeelding te zien is:
 
 {{ :en:quickaccess_creation.png?direct&300 |}}
 
-You can directly access the shown functions by selecting them. 
-Additionally you could drag and drop these functions to your device desktop to get a permanent direct link to these functions by clicking the created quick access icon.
+Je kunt de weergegeven functies rechtstreeks openen door ze te selecteren.
+Bovendien kun je deze functies naar het bureaublad van je apparaat slepen en neerzetten om een permanente directe link naar deze functies te krijgen door op het aangemaakte pictogram voor snelle toegang te tikken.
 
-This is an example how all quick access functions could look like on your phone desktop:
+Dit is een voorbeeld van hoe alle functies voor snelle toegang eruit zouden kunnen zien op het bureaublad van je telefoon:
 
 {{ :en:quickaccess_all.png?direct&400 |}}
 
 
 ===== Widgets =====
-
-The widget function provides similar possibilities as the quick access but has some more options and is available on older Android versions, than the quick access function.
-To invoke this function you will have to open the widget selection menu on your device. The method to access the widget creation depends on your device, usually you can long press on your desktop and select to add a widget to the desktop.
-
+De widgetfunctie biedt vergelijkbare mogelijkheden als de snelle toegang, maar heeft wat meer opties en is beschikbaar op oudere Android-versies dan de snelle toegang.
+Om deze functie op te roepen, moet je het widgetselectiemenu op je apparaat openen. De methode om toegang te krijgen tot het maken van widgets is afhankelijk van je apparaat, meestal kun je lang op je bureaublad drukken en ervoor kiezen om een widget aan het bureaublad toe te voegen.
 c:geo should show up as available widget here:
 
 {{ :en:widget_creation1.png?direct&400 |}}
 
-You need to drag and drop it to a free place on your desktop. Once you did that, the following selection will be shown:
+Je moet het naar een vrije plaats op het bureaublad slepen en neerzetten. Zodra je dat hebt gedaan, wordt de volgende selectie weergegeven:
 
 {{ :en:widget_creation2.png?direct&400 |}}
+Selecteer gewoon de gewenste functie en een bijbehorende snelkoppeling naar deze functie wordt aan het bureaublad toegevoegd.
 
-Just select the desired function and a corresponding shortcut to this function will be added to your desktop.
-
-This is an example how all the available widgets could look like on your phone desktop: 
+Dit is een voorbeeld van hoe alle beschikbare widgets eruit zouden kunnen zien op het bureaublad van je telefoon:
 
 {{ :en:widget_all.png?direct&400 |}}
 

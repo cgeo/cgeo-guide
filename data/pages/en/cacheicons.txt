@@ -17,6 +17,7 @@ c:geo uses dedicated icons for the different types of Geocaches available. The f
 |{{ :type_cito.png?nolink&40 |}}|CITO Event Cache|CITO Event Cache are events organized for the purpose of cleaning the environment or a similar task and (optionally) afterwards place a new geocache at the location. CITO is the abbreviation for Cache-In-Trash-Out. |
 |{{ :type_ape.png?nolink&40 |}}|Project APE Cache|14 Geocaches of this type have originally been placed in 2001 to support the movie "Planet of the Apes". Only a few geocaches exist today, which makes it one of the rarest Geocache types.|
 |{{ :type_hq.png?nolink&40 |}}|Groundspeak Headquarter Cache|There is only one Geocache of this type, located at the HQ of Groundspeak, the company behind Geocaching.com, in Seattle, Washington, USA.|
+|{{ :type_advlab.png?nolink&40 |}}|Adventure Lab Cache|When playing an Adventure Lab Cache, no physical cache can be found. You have to visit a location with the special Adventure Lab Cache app and answer a question there. If this went well, the visited location will automatically be added to your number of found caches. |
 |{{ :type_unknown.png?nolink&40 |}}|Unknown Cache Type|If this cache type is shown either c:geo could not (yet) load the cache type of this Geocache, it is a cache type not explicitly supported by c:geo (e.g. Lab Caches on geocaching.com) or it is a dedicated Unknown Type Geocache as supported on opencaching platforms.|
 |{{ :type_cgeo.png?nolink&40 |}}|c:geo cache|Used for user created caches inside of c:geo|
 

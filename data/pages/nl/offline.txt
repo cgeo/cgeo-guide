@@ -25,7 +25,7 @@ GPX-bestanden bevatten informatie over caches en hun waypoints. Je kunt GPX-best
 C:geo ondersteunt expliciet GPX-bestanden van geocaching.com en GPX-bestandsextensies van opencaching-sites, maar als je GPX-bestand van een andere bron komt maar dezelfde syntaxis gebruikt, zal het waarschijnlijk ook werken.</WRAP>
 
 Om een GPX-bestand te importeren, heb je twee opties:
-  * Gebruik een bestandsbrowser op je apparaat, klik op het GPX-bestand dat op je apparaat is opgeslagen en selecteer c:geo als doel-app. \\ Dit toont een selectievenster, waarin je de doel [[.mainmenu:lists| lijst]] moet selecteren om de caches uit het GPX-bestand te importeren.
+  * Gebruik een bestandsbrowser op je apparaat, druk op het GPX-bestand dat op je apparaat is opgeslagen en selecteer c:geo als doel-app. \\ Dit toont een selectievenster, waarin je de doel [[.mainmenu:lists| lijst]] moet selecteren om de caches uit het GPX-bestand te importeren.
   * Open een [[.mainmenu: lists| lijst]] van opgeslagen caches of maak een nieuwe lijst en selecteer '' Menu '' -> '' Importeren '' -> '' Importeer GPX ''. \\ Dit zal de [[.mainmenu:lists#system | geconfigureerde]] map van GPX-bestanden gebruiken en biedt je de mogelijkheid om daar een bestand te kiezen.
 
 Nadat het importproces is voltooid, bevat de geselecteerde lijst nu de geïmporteerde caches.
@@ -46,7 +46,7 @@ Houd er rekening mee dat sommige informatie over de cache niet is opgenomen in G
 Je hebt twee mogelijkheden om offline logs samen te stellen in c:geo:
 
   - Stel gewoon je logs samen zoals gebruikelijk maar in plaats van ze online te verzenden, sla je ze gewoon op met de functie '' Offline opeslaan '' in het [[logging # top_bar_menu | logboek scherm menu]].
-  - Schakel de functie '' Offline log '' in het [[.mainmenu: settings # other_logging_options | instelling]] in zodat dit volledig offline werkt.\\ Hoewel de eerste optie niet verschilt van online gebruik, vervangt de tweede optie het menu '' Logboek bezoeken '' door een '' Enkele klik offline log '' -menu op alle plaatsen. 
+  - Schakel de functie '' Offline log '' in het [[.mainmenu: settings # other_logging_options | instelling]] in zodat dit volledig offline werkt.\\ Hoewel de eerste optie niet verschilt van online gebruik, vervangt de tweede optie het menu '' Logboek bezoeken '' door een '' Snelle offline log '' -menu op alle plaatsen. 
 
 Zodra de functie is geactiveerd, plaatst c:geo standaard geen logboeken online, maar slaat de gevonden status alleen offline op.
 
@@ -54,7 +54,7 @@ Bij gebruik van deze menufunctie wordt het volgende context menu getoond:
 
 {{: nl: oneclickofflinelog.png? nolink & 400 |}}
 
-Klik gewoon op het gewenste logtype en je offline log zal worden opgeslagen. De optie '' Wissen '' is alleen beschikbaar als je al een offline logboek hebt opgeslagen voor deze cache. In dit geval is het reeds opgeslagen logtype gemarkeerd met een rood vinkje in dit menu.
+Druk gewoon op het gewenste logtype en je offline log zal worden opgeslagen. De optie '' Wissen '' is alleen beschikbaar als je al een offline logboek hebt opgeslagen voor deze cache. In dit geval is het reeds opgeslagen logtype gemarkeerd met een rood vinkje in dit menu.
 Je kunt ook '' Log bezoek'' selecteren om het normale [[logging | logboek scherm]] te openen om een compleet logboek samen te stellen en op te slaan.
 ===== Veldnotities exporteren =====
 {{anchor:field_note_export:}}
@@ -88,7 +88,7 @@ Houd er rekening mee dat Google een limiet van 1000 statische kaarten per 24 uur
 Als je een vrij grote lijst met opgeslagen caches of zelfs maar enkele caches met veel waypoints hebt, kun je dit limiet gemakkelijk overschreiden (aangezien 5 afbeeldingen per cache en elk cache-waypoint worden geladen). In dit geval missen sommige statische kaarten.</WRAP>
 
 Hieronder zie je een voorbeeld van statische kaarten voor een cache. 
-Je kunt op de afbeeldingen klikken om een grotere versie te bekijken:
+Je kunt op de afbeeldingen drukken om een grotere versie te bekijken:
 
 ^ Omschrijving ^ Kaart ^
 |Sterke zoom satelliet weergave|{{:en:map_1.png?direct&200|}}|

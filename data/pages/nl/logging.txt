@@ -62,7 +62,7 @@ Klik op het veld om een vervolgkeuzemenu te openen met de beschikbare probleemra
 ^ Menu item ^ Omschrijving ^
 |Geen Probleem|Er wordt geen probleemrapport aan je logboek toegevoegd.\\ Dit is de standaard selectie.|
 |Logboek is vol|Informeert de eigenaar, dat het logboek van de cache vol is.|
-|Container is misschien vermist|Informeert de eigenaar, dat de cache container mogelijk is verdwenen.\\ Dit probleem type is niet beschikbaar met een "Gevonden" log.|
+|Container is misschien vermist|Informeert de eigenaar, dat de cache container mogelijk is verdwenen.\\ :!: Dit probleem type is niet beschikbaar met een "Gevonden" log.|
 |Container is beschadigd|Informeert de eigenaar, dat er iets mis is met de geocache container.|
 |Cache zou moeten worden gearchiveerd|Informeert de beheerder / reviewer van de geocaching provider, dat de cache zou moeten worden gearchiveerd.|
 |Anders|Een ander probleem dat je verder zou moeten beschrijven in je tekst.|
@@ -103,10 +103,22 @@ Via het vervolgkeuzemenu aan de rechterkant kun je de actie selecteren die je wi
 |Gedropt|Laat deze trackable achter in het inventaris van deze cache wanneer je deze cache logt.|
 
 Onder de trackable lijst kun je op de de knop '' Alles wijzigen '' drukken om de actie voor alle trackables van je inventaris in één keer  uit te voeren.
+=== Afbeeldingen ===
+
+{{ :en:logging_images.png?nolink&400 |}}
+
+Door op één van de iconen in dit gedeelte van je scherm te drukken kun je snel een afbeelding toevoegen aan je log.
+
+  * {{:ic_menu_image_multi.png?nolink&30|}} zal een bestandselector openen zodat je een bestaande foto kan toevoegenn vanaf je apparaat. 
+  * {{:ic_menu_camera.png?nolink&30|}} zal je camera openen zodat je apparaat een foto kan maken.
+
+Nadat een afbeelding is toegevoegd, wordt een voorbeeld getoond in de afbeeldingensectie. Je kunt dit gebruiken om de bijgevoegde afbeelding te verwijderen en - als er meerdere afbeeldingen zijn bijgevoegd - gebruiken om de volgorde te wijzigen door ze te slepen en neer te zetten.
+
+Om de afbeeldingsdetails te bewerken, klik je erop om het detailvenster te openen, waar je bijschrift, beschrijving en schaal kunt bewerken (zie volgend hoofdstuk).
 ===== Foto koppelen =====
 {{anchor:attach_image:}}
 
-Door de optie ''Foto koppelen'' te kiezen in het menu in de [[logging#top_bar_menu|bovenste balk]] zal er een nieuw scherm verschijnen waar je een afbeelding kan toevoegen aan je log.
+Door de optie ''Foto koppelen'' te kiezen in het menu in de [[logging#top_bar_menu|bovenste balk]] zal er een nieuw scherm verschijnen waar je een afbeelding kan toevoegen aan je log. 
 
 {{ :nl:logging_attachimage.png?nolink&400 |}}
 
@@ -115,6 +127,4 @@ Selecteer''Bestaande'' om een foto te kiezen uit je gallerij app op je apparaat.
 Daarna kun je een bijschrift en een omschrijving toevoegen aan de afbeelding van de cache log.
 Optioneel kun je de afbeelding verkleinen naar andere pixel grootten om het dataverkeer te verminderen wanneer je de foto met je log upload naar de geocaching provider.
 
-<WRAP center round info 100%>
-Momenteel ondersteunt c:geo dslecht één enkele afbeelding aan een log en het is nog niet mogelijk om meerdere afbeeldingen toe te voegen.
-</WRAP>
+Je kunt deze weergave ook voor reeds bijgevoegde foto's bereiken door op de voorbeeldafbeelding op het logscherm te tikken.

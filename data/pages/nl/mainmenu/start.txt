@@ -38,6 +38,7 @@ Het aantal pictogrammen dat je in de bovenste balk ziet, wordt dynamisch bepaald
 |{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Open een lijst met links naar aanvullende geocaching-gerelateerde apps, die handig kunnen zijn in combinatie met c:geo.|
 |{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Scan geocode]]|Als er een [[utilityprograms|barcode scanner]] app is geïnstalleerd op je apparaat kun je deze hier lanceren en barcodes scannen dat geocodes bevat.|
 |{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk de c:geo versie informatie, bijdragers, contact links en andere wetenswaardigheden over c:geo.|
+| |Rapporteer probleem|Je kunt deze functie gebruiken om een probleem te melden aan de c:geo support per mail.\\ :!: Omschrijf zo gedetailleerd mogelijk je probleem!|
 
 ===== Onderste Sectie =====
 {{anchor:bottom_section:}}

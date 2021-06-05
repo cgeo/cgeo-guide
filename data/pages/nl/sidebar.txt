@@ -43,6 +43,7 @@
           * [[offline#offline_logging|Offline loggen]]
           * [[offline#field_note_export|Veld notities]]
           * [[offline#offline_maps|Offline kaarten]] 
+          * [[udc|Gebruiker gedefinieerde caches]]
 
     * [[start#quick_reference|Snelle referenties]]
           * [[cacheicons|Geocache typen]]

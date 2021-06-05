@@ -43,7 +43,7 @@ Als je c:geo vanuit Google Play hebt geïnstalleerd, ontvang je een updatemeldin
 Daarnaast gebruikt c:geo een meldingssysteem om je op de hoogte te stellen van nieuwe versies of tijdelijke problemen. Je ziet dan een bericht als dit op het c:geo hoofdscherm:
 
 
-Je kunt op het bericht klikken om meer informatie te krijgen (optioneel beschikbaar in geval van tijdelijke problemen) of naar Google Play te worden gebracht om de installatie bij te werken (in geval van een updatemelding).
+Je kunt op het bericht drukken om meer informatie te krijgen (optioneel beschikbaar in geval van tijdelijke problemen) of naar Google Play te worden gebracht om de installatie bij te werken (in geval van een updatemelding).
 
 <WRAP center round tip 60%>
 We raden aan de installatie zo snel mogelijk bij te werken als een nieuwe release beschikbaar is, omdat oudere versies mogelijk niet meer werken zoals verwacht (bijvoorbeeld in het geval van een urgente bugfix of een wijziging aan de server).

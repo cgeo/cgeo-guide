@@ -1,0 +1,47 @@
+====== Gebruiker gedefineerde caches ======
+
+Je kunt gebruiker gedefinieerde caches maken met c: geo. Die kunnen b.v. dienen voor het plannen van je eigen caches en voor het vastleggen van enkele interessante punten.
+Bovendien maakt c: geo ook automatisch een speciale door de gebruiker gedefinieerde cache om je [[.mainmenu:goto|"Ga naar" doelen]].
+
+Gebruiker gedefineerde cachesworden getoond met het [[.cacheicons|cache type indicator]] van virtuele caches in je lijsten en op de kaart.
+
+<WRAP center round info 100%>
+Hoewel je een door de gebruiker gedefinieerde cache zou kunnen gebruiken om je eigen cache-hides te plannen, is het niet mogelijk om je nieuwe cache in te dienen via c: geo. Door de gebruiker gedefinieerde caches zijn slechts een kleine hulp bij het plannen van je verstopplaats, maar hebben geen enkele online functie om ze in te dienen bij de geocachingplatforms.
+</WRAP>
+
+
+
+===== Maken van gebruiker gedefinieerde caches =====
+
+Je kunt op twee manieren een gebruiker gedefinieerde cache maken:
+  - Open een lijst van opgeslagen caches en selecteer ''Beheer Caches'' -> ''Maak gebruiker gedefinieerde cache'' uit het [[.mainmenu:lists#manage_caches|lijst menu]].
+  - Druk langdurig op de kaart om een gebruikers gedefinieerde cache aan te maken. De functie om langdurig op de kaart te drukken moet wel worden aangezet in de [[.mainmenu:settings#map_behavior|kaart gedrag instellingen]].
+
+Na één van deze acties zal er met een prompt gevraagd worden om een titel van de te maken gebruikers gedefinieerde cache.
+
+{{:en:udc_create.png?direct400|}}
+
+Daarna wordt deze opgeslagen in je huidige lijst (indien gemaakt vanuit het [[.mainmenu:lists#manage_caches|lijst menu]]) of in je standaard lijst (wanneer deze is gemaakt vanuit de kaart).
+
+Als de cache is gemaakt vanaf de kaart, heeft deze al cachecoördinaten zoals gedefinieerd door de locatie waarop je hebt getikt. Als je het uit de lijst hebt gemaakt, zullen de cache coördinaten leeg zijn totdat je een waypoint maakt en de coördinaten ervan toewijst als lijst coördinaten.
+
+Dit is hoe een typisch gebruiker gedefinieerde cache er uit kan zien:
+
+^ Waypoints ^ Details ^ Omschrijving ^
+|{{:en:udc_waypoints.png?direct300|}}|{{:en:udc_details.png?direct300|}}|{{:en:udc_description.png?direct300|}}|
+
+===== Omgaan met gebruikers gedefinieerde caches =====
+
+Behalve dat je de cache zelf hebt aangemaakt, wordt deze op dezelfde manier afgehandeld als alle andere caches in c: geo (zoals waypoints maken, naar een andere lijst gaan, enz.).
+Sommige functies zijn echter (nog) niet mogelijk omdat het geen gewone cache is: 
+
+^ Functie ^ Limieten ^
+|Cache type|Gebruiker gedefinieerde caches zijn een eigen cache type in c:geo.|
+|Cache Omschrijving|Het is nog niet mogelijk om eigen tekst in de omschrijving te plaaten. Het zal alleen vermelden dat dit een gebruiker gedefinieerde cache is. Je kunt wel de persoonlijke notitie gebruiken of een waypoint maken met een omschrijving.|
+|Geocode|De geocode zal automatisch worden aangemaakt door c:geo (met de prefix ''ZZ''). Dit kan je niet veranderen.|
+|D/T, Grootte|Het is niet mogelijk om informatie over de gebruikers gedefinieerde cache te plaatsen.|
+|Attributen|Attributen worden niet ondersteund in gebruiker gedefinieerde caches.|
+|Loggen|Omdat het je eigen lokaal gemaakte cache is, kun je geen logjes plaatsen.|
+|Logboek|Omdat het je eigen lokaal gemaakte cache is heeft het geen logboek tab.|
+|Verversen|Omdat het je eigen lokaal gemaakte cache is en het alleen lokaal is opgeslagen kun je deze niet verversen met nieuwe data van de server.|
+

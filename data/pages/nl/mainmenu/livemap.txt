@@ -14,7 +14,7 @@ Terwijl het kaartscherm wordt weergegeven, wordt je mobiele apparaat voor het ge
 ===== Bovenste balk=====
 {{anchor:top_bar_menu:}}
 
-{{ :nl:livemap_2.png?direct&400 |}}
+{{ :en:livemap_2.png?direct&400 |}}
 
 <WRAP center round info 100%>
 De pictogrammen in de bovenste balk en de inhoud achter de knop worden dynamisch getoond op basis van de apparaatresolutie en de schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop worden weergegeven of als pictogrammen in de bovenste balk van uw apparaat worden getoond.\\
@@ -30,10 +30,11 @@ Als een menu-item wordt weergegeven als pictogram, kun je langere tijd op het pi
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Live aan- / uitzetten|Deze functie schakelt het automatisch updaten van de live kaart aan of uit.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Alle opslaan|Slaat alle caches op als lijst, die momenteel worden getoond op de kaart. De caches die al opgeslagen zijn zullen tijdens dit proces worden ververst.|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Niet opgeslagen opslaand|Slaat alle caches, die worden getoond op de kaart op, behalve degenen die reeds zijn opgeslagen in een lijst.|
-| |[[livemap#map_settings|Kaartinstellingen]]|Dit zal een menu openen met verschillende opties om de kaart aan te passen (bijv. caches verbergen, toon cirkels).|
-| |[[livemap#routing|Routering]]|Deze functie maakt het mogelijk om te switchen tussen routing voorkeuren (bijv. rechte lijn, auto route, fiets route).|
-| |[[lists#cache_list|Laat zien als lijst]]|Dit zal de caches die op de kaart worden getoond presenteren als [[lists|cache lijst]].|
-| |[[settings#map_content|Spoor geschiedenis wissen]]|Dit zal de geschiedenis wissen van de sporen op de kaart.|
+| | Kaart rotatie |Dit opent een menu om de optie om de kaart mee te laten draaien met je apparaat in- of uit te schakelen.\\ \\ :!: Deze functie is momenteel alleen beschikbaar voor Google Maps.|
+| | Geschiedenisspoor |Opent een submenu met de optie tonen/verbergen, wissen en exporteren van het geschiedenisspoor.|
+| | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
+| | Individuele route |Dit zal een submenu openen voor het beheren, laden of verbergen van een [[livemap#map_navigation|individuele route]], welke je kan maken door langdurig op een element van de kaart te drukken. Dit gedrag moet worden geactiveerd in  [[.settings#map_behavior|kaart gedrag instellingen]].|
+| |[[lists#cache_list|Show as list]]|This will display all caches shown on the map as [[lists|cache list]].|
 ===== Kaart inhoud =====
 {{anchor:map_content:}}
 

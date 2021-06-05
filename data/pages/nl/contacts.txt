@@ -1,5 +1,3 @@
-FIXME **Deze pagina is nog niet volledig vertaald. Help alsjeblieft de vertaling compleet te maken.**\\ //(verwijder deze paragraaf als de vertaling is voltooid)//
-
 ====== c:geo contacten plugin ======
 
 {{:ic_launcher_contacts-playstore.png?nolink&200 |}}
@@ -42,7 +40,7 @@ De contacten plugin heeft toestemming nodig om toegang te krijgen tot je contact
 
 Nadat je '' Contactkaart openen '' hebt geselecteerd, zal de plug-in c: geo contacts je contactgegevens lezen om een mogelijke overeenkomst met de naam van de geocachers te vinden in het naam- of bijnaamveld van je contactgegevens. Het zal niet naar je contactgegevens schrijven en ook geen van je contactgegevens opslaan in c:geo of de c:geo contacten-plug-in zelf.
 
-==== With whom is the information shared? ====
+==== Met wie wordt de informatie gedeeld? ====
 
-Your contact data will neither by copied into c:geo nor shared with third parties.
+Je contactgegevens zullen niet gekopieerd worden in C:geo of een derde partij.
 

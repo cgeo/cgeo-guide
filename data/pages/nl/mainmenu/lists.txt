@@ -13,7 +13,7 @@ Je hebt altijd toegang tot de informatie in deze lijsten, ook als je geen netwer
 {{anchor:cache_list:}}
 
 <WRAP center round tip 100%>
-Klik op de volgende koppelingen voor informatie over de [[..:cacheicons | Geocache Type Iconen in c:geo]] en [[..: cachemarkers | Geocache-markeringspictogrammen in c:geo]], die in de cache lijsten worden gebruikt.
+Druk op de volgende koppelingen voor informatie over de [[..:cacheicons | Geocache Type Iconen in c:geo]] en [[..: cachemarkers | Geocache-markeringspictogrammen in c:geo]], die in de cache lijsten worden gebruikt.
 </WRAP>
 
 <WRAP center round info 100%>
@@ -179,8 +179,9 @@ Je kunt de volgende acties uitvoeren:
 |Verwijderen|This will delete the caches from the current list.|
 |Afgelopen evenementen verwijderen|This menu item is only visible if your list contains event caches and will delete all events where the event date is in the past.|
 |Aangepaste coördinaten uploaden|Deze optie zal de door jou aangepaste coördinaten uploaden naar de geocaching servers.|
-|Offline logs verwijderen|This menu item is only available if caches on your list have an offline log and will allow you to delete these offline logs.|
-
+|Upload coördinaten voor alle caches|Deze menu optie zal alle aangepaste coördinaten van alle caches in de lijst naar de server uploaden.\\ :!: **WARNING:** Dit zal bestaande coördinaten op de server voor alle geselecteerde caches in de lijst overschrijven met de in c:geo opgeslagen coördinaten. Dit kan niet ongedaan worden gemaakt en moet dus alleen gebruikt worden als je zeker weet wat je doet.
+|Offline logs verwijderen|Dit menu item is alleen beschikbaar als de caches in je lijst een offline log hebben. Deze kan dan op dee manier worden verwijderd.|
+|Maak gebruiker gedefieerde cache| Dit zal een [[nl:udc|gebruiker gedefinieerde cache]] maken.|
 ==== Lijsten beheren ====
 {{anchor:manage_lists:}}
 
@@ -192,7 +193,7 @@ Dit menu maakt het mogelijk om je cache lijsten te beheren.
 |Maak nieuwe lijst|Maakt een nieuwe cache lijst|
 |Verwijder huidige lijst|Dit zal de huidige lijst verwijderen.\\ \\ :!: Bij het verwijderen van een cache lijst zullen de caches naar de standaard lijst worden verplaatst en niet worden verwijderd.|
 |Hernoem huidige lijst|Geef de huidige lijst een andere naam.|
-|Lijdt uniek maken|Omdat een enkele cache op meerdere lijsten kan worden opgeslagen, verwijdert deze functie alle kopieën in andere lijsten, zodat de caches in je huidige lijst niet langer in een andere lijst worden opgeslagen.|
+|Lijst uniek maken|Omdat een enkele cache op meerdere lijsten kan worden opgeslagen, verwijdert deze functie alle kopieën in andere lijsten, zodat de caches in je huidige lijst niet langer in een andere lijst worden opgeslagen.|
 
 <WRAP center round info 100%>
 De lijst ''Opgeslagen'' is je standaard lijst en deze kan niet worden verwijderd.

@@ -1502,3 +1502,52 @@
 1622145608	163.158.160.54	E	nl:contacts	linstylemon	[Data privacy statement] 		1
 1622146031	163.158.160.54	E	nl:contacts	linstylemon	[What information is collected by the c:geo contacts plugin?] 		13
 1622146401	163.158.160.54	E	nl:contacts	linstylemon	translation		53
+1622146519	163.158.160.54	E	nl:contacts	linstylemon	translated		-4
+1622146544	163.158.160.54	E	nl:contacts	linstylemon	completed translation		-165
+1622146587	163.158.160.54	e	nl:start	linstylemon	[Plugins and Addon functions] 		-1
+1622147139	163.158.160.54	E	nl:brouter	linstylemon	translated		45
+1622148975	163.158.160.54	E	nl:brouter	linstylemon	translation		123
+1622149729	163.158.160.54	E	nl:brouter	linstylemon	[Usage in c:geo] 		4
+1622149830	163.158.160.54	E	nl:brouter	linstylemon	[Direction line] 		6
+1622150000	163.158.160.54	E	nl:brouter	linstylemon	[Individual route] 		96
+1622150354	163.158.160.54	E	nl:brouter	linstylemon	[Customization] 		9
+1622150396	163.158.160.54	E	nl:brouter	linstylemon	completed translation		-165
+1622150413	163.158.160.54	E	nl:start	linstylemon	[Plugins and Addon functions] 		-1
+1622150492	163.158.160.54	E	nl:quick_widgets	linstylemon	page updated to latest changes		-3
+1622150571	163.158.160.54	E	nl:quick_widgets	linstylemon	[Quick access and widget functions] 		27
+1622150680	163.158.160.54	E	nl:quick_widgets	linstylemon	[Quick access] 		160
+1622150819	163.158.160.54	E	nl:quick_widgets	linstylemon	[Widgets] 		99
+1622150861	163.158.160.54	e	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1622150898	163.158.160.54	E	nl:quick_widgets	linstylemon	completed translation		-165
+1622150967	163.158.160.54	E	nl:installation	linstylemon	[Updaten van c:geo] 		0
+1622151513	163.158.160.54	E	nl:mainmenu:start	linstylemon	[Bovenste balk menu] 		167
+1622152332	163.158.160.54	E	nl:mainmenu:livemap	linstylemon	[Bovenste balk] 		709
+1622152355	163.158.160.54	E	nl:mainmenu:livemap	linstylemon	[Bovenste balk] 		-401
+1622152432	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Cache lijst] 		0
+1622152572	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Lijsten beheren] 		0
+1622153084	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		506
+1622153238	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		0
+1622153254	163.158.160.54	C	nl:udc	linstylemon	aangemaakt		3409
+1622153383	163.158.160.54	e	nl:sidebar	linstylemon			51
+1622153510	163.158.160.54	E	nl:start	linstylemon	UDC		160
+1622153737	163.158.160.54	E	nl:udc	linstylemon	[User defined caches] 		146
+1622153748	163.158.160.54	E	nl:udc	linstylemon	[Gebruiker gedefineerde caches] 		1
+1622154265	163.158.160.54	E	nl:udc	linstylemon	[Creation of user defined caches] 		128
+1622154699	163.158.160.54	E	nl:udc	linstylemon	[Handling of user defined caches] 		55
+1622154716	163.158.160.54	E	nl:udc	linstylemon	completed translation		-165
+1622155286	163.158.160.54	E	nl:mainmenu:goto	linstylemon	completed translation		-1001
+1622156486	163.158.160.54	E	nl:cachedetails	linstylemon	[Bovenste balk menu] 		-709
+1622157564	163.158.160.54	E	nl:cachedetails	linstylemon	completed translation		1589
+1622217600	163.158.160.54	E	nl:logging	linstylemon	[Rapporteer probleem] 		4
+1622218008	163.158.160.54	E	nl:logging	linstylemon	Added images		1048
+1622218247	163.158.160.54	E	nl:logging	linstylemon	[Quick add icons] 		-628
+1622218418	163.158.160.54	E	nl:logging	linstylemon	[Afbeeldingen] 		448
+1622218637	163.158.160.54	E	nl:logging	linstylemon	[Foto koppelen] 		-53
+1622218892	163.158.160.54	e	nl:offline	linstylemon			-5
+1622222963	163.158.160.54	E	nl:cacheicons	linstylemon	[Geocache Iconen] 		116
+1622226661	163.158.160.54	E	nl:cacheicons	linstylemon	[Geocache Iconen] 		353
+1622226776	163.158.160.54	E	en:cacheicons	linstylemon	Added Adventure Lab Cache		325
+1622228849	163.158.160.54	E	nl:offlinemaps	linstylemon	[Downloaden van kaarten/thema's] 		5838
+1622229262	163.158.160.54	E	nl:intents	linstylemon	chrome view		258
+1622229672	163.158.160.54	E	nl:spoilersync	linstylemon	changed basedirectory		250
+1622229942	163.158.160.54	E	nl:translation	linstylemon	Changed requirements		-414

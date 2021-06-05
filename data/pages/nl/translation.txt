@@ -2,13 +2,9 @@
 
 ===== Vereisten =====
 
-Als je wil helpen met het vertalen van deze gebruikershandleiding naar een andere taal, maak dan een account aan door op de functie ''Register'' te klikken rechts bovenin het scherm of klik simpelweg [[https://manual.cgeo.org/?do=register|hier]].
+Als je wilt helpen bij het vertalen van deze gebruikershandleiding in een andere taal, neem dan [[support@cgeo.org?subject=Gebruikershandleiding vertaling|contact met ons]] op. Wij maken dan een account voor je aan en je kunt direct aan de slag.
 
-Je ontvangt dan een e-mail met een wachtwoord om in te loggen op de Wiki. In eerste instantie zal je account op de "alleen lezen" modus zijn ingesteld totdat wij de registratie handmatig hebben goedgekeurd. Dit duurt meestal enkele dagen en wij zullen je per mail informeren over de goedkeuring.
- 	+	 
- 	+	Als je geen goedkeuring hebt ontvange of er is iets fout gegaan, neem dan s.v.p. [[support@cgeo.org?subject=User guide translation|contact]] met ons op.
-
-Om te helpen met het vertalen heb je alleen wat basiskennis nodig van Wiki systemen.
+Om te helpen bij het vertalen van deze gebruikershandleiding, zou je een basiskennis van Wiki-systemen moeten hebben, dat is alles.
 
 ===== Beginnen =====
 

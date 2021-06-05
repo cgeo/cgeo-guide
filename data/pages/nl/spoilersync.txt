@@ -8,7 +8,7 @@ Daarom ondersteunt  c:geo het om de spoiler-foto's te synchroniseren met behulp 
 <WRAP center round tip 100%>
 Het volgende ziet er misschien heel ingewikkeld uit, maar als je overeenkomstige spoiler synchronisatiehulpmiddelen gebruikt, wordt de hele mapstructuur gemaakt en worden de spoilerfoto's automatisch toegevoegd. 
 Het enige dat je normaal moet weten, is de juiste basis directory om de mapstructuur naar je c:geo-apparaat te kopiëren.</WRAP>
-  * Base directory: \\ De basismap voor geocache spoilersync is '' / cgeo / GeocachePhotos / '' op de interne opslag van je apparaat.
+  * Base directory: \\  De basismap voor geocache spoilersync hangt af van waar je de basismap van c: geo zelf hebt gedefinieerd. Je moet de map '' GeocachePhotos /'' in de [[.:mainmenu:settings#base_folder_geolocation_orientation|basis map van c:geo]] zelf gebruiken. Meestal bevindt het zich dan in '' / cgeo / GeocachePhotos / '' op je interne opslag als je de standaard gebruikt.
   * Mapstructuur: \\ De structuur onder de basis directory moet deze regel volgen: \\ '' / laatste teken van de geocode / voorlaatste teken van de geocode / Volledige geocode / '' \\ \\ Voorbeeld: als een cache heet GC123ABC, zal de corresponderende map zijn: '' / cgeo / GeocachePhotos / C / B / GC123ABC / ''.
     
 

@@ -29,19 +29,41 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 |{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigatie]]|Zal de complete lijst met beschikbare navigatie hulpmiddelen tonen.|
 |{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
 |{{:ic_menu_edit.png?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
-|{{:ic_menu_rotate.png?nolink&40 |}}|Caches rondom|Deze optie start de [[.mainmenu:lists|dichtbij zoeken]] functie om de caches in de buurt van de coördinaten van de cache te tonen als een lijst.|
-|{{ :ic_menu_save.png?nolink&40 |}}|Opslaan|Dit zal de cache opslaan in één of meerdere [[.mainmenu:lists|lijsten]] of - als de cache al is opgeslagen - opslaan in een andere lijst.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Verversen|Door deze optie te selecteren zal de cache worden ververst met de laatste informatie van de geocaching server.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Verwijderen|Dit zal de cache uit je lijsten verwijderen.|
-|Stemmen||Dit zal het [[http://gcvote.com|GCVote]] scherm voor de cache tonen.|
-|Deel cache||Zal een link naar de cache delen met behulp van de ingebouwde Android-share-opties.|
-|Open Geochecker||Dit opent de geochecker van deze cache in je webbrowser.\\ \\ :!: Dit menu-item is alleen beschikbaar als de cachebeschrijving van deze cache een koppeling bevat naar een (bekende) geochecker.|
-|Negeer cache||Dit zal de cache op de servers negeren lijstzetten.\\ :!: IHet negeren van een cache betekent dat deze cache nooit meer voorkomt bij het laden van gegevens van de geocaching-server. Je kunt de cache pas weer zien door dit op de geocaching-website ongedaan te maken.|
-|Exporteer Waypoints||Deze functie scant de cache-beschrijving op geldige coördinaten en maakt automatisch een routepunt voor elke coördinaat die in de lijst wordt gevonden.\\ Dit kan een nuttige functie zijn voor het geval de cache-eigenaar geen speciale waypoints heeft gemaakt, maar alleen de coördinaten in de cachebeschrijving vermeldt.|
-|Exporteren||Hiermee kun je de caches exporteren als GPX, een veldnotitie of een persoonlijke notitie.|
+|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Toespraak aan/uitzetten|Dit zal de tekst-naar-spraak output van richting en afstand naar het doel aan of uitzetten.\\ Je kunt ook het scherm uitzetten als deze functie is gestart.|
+|Open in Browser||Dit zal de cache of in je browser openen of ( indien geactiveerd) in de [[.:mainmenu:settings#cache-details|cache detail instellingen]]) door middel van een chrome webview binnen c:geo.|
+|Open Geochecker||Dit zal de geochecker van de cache openen in je internet browser.\\ \\ :!: Deze menu ingang is alleen beschikbaar als de cache omschrijving van de cache een link naar een (bekende) geochecker heeft.|
 |Persoonlijke notitie||Deze functie opent de editor voor de persoonlijke notitie, die ook te vinden is in de  [[cachedetails#description_tab|omschrijving tab]]|
+|Waypoints||Een submenu met de opties met betrekking op de waypoints van deze cache (zie volgend hoofdstuk voor meer uitleg).|
+|Delen/Exporteren||Submenu met diverse opties met betrekking tot het delen of exporteren van de cache en de informatie zie volgend hoofdstuk voor meer uitleg).|
+|Geavanceerd||Bevat diverse geavanceerde acties voor de cache. (Zie volgend hoofdstuk voor meer informatie).|
 
 
+==== Waypoints submenu ====
+
+{{ :en:cachedetails_topbar2.png?direct&400 |}}
+
+^ Functie ^ Omschrijving^
+|Gebruiker gedefinieerde waypoints verwijderen|Verwijdert alle door de gebruiker gedefinieerde waypoints uit de cache.|
+|Exporteer Waypoints|Deze functie zal in de cache omschrijving scannen naar geldige coördinaten en hier automatisch een waypoint van maken.\\ Dit kan handig zijn als de cache eigenaar geen waypoints heeft gemaakt en alleen in de omschrijving heeft geplaatst.|
+|Waypoints uit notitie voorkomen / toestaan|Door deze functie te activeren zal c:geo coördinaten gevonden in persoonlijke notities toevoegen als waypoints in de cache.|
+
+==== Delen/Exporteren submenu ====
+
+{{ :en:cachedetails_topbar3.png?direct&400 |}}
+
+^ Functie ^ Omschrijving ^
+|Deel cache|Dit zal een link naar de cache delen door middel van de ingebouwde Android deel opties.|
+|GPX|Maakt het mogelijk om je caches als GPX bestand te exporteren.|
+|Veld-notities|Dit zal je offline logjes voor deze cache als veld notitie exporteren.|
+
+==== Geavanceerd submenu ====
+
+{{ :en:cachedetails_topbar4.png?direct&400 |}}
+
+^ Functie ^ Omschrijving^
+|Caches rondom|Deze optie start een [[.mainmenu:lists|zoek nabij]] functie om caches in de omgeving van deze cache te tonen.|
+|Stem|Dit zal de [[http://gcvote.com|GCVote]] formulier openen voor deze cache.|
+|Negeer cache|Dit zal de cache op de negeerlijst van de server zetten.\\ \\ :!: Negeren van een cache betekent dat de cache nooit meer wordt geladen van de server. Je kunt deze alleen nog zien als je hem van deze lijst afhaalt op de geocaching website.|
 
 ===== Details tab =====
 {{anchor:details_tab:}}

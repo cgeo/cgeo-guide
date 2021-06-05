@@ -8,4 +8,5 @@ Hetzelfde geldt voor geocaching-gerelateerde links van andere geocaching-platfor
 Wanneer wordt gevraagd welke app moet worden gebruikt om deze koppelingen te openen, kunt je ook c:geo als standaard-app voor dit koppelingstype selecteren. Daarnazal je apparaat direct c:geo openen wanneer op een dergelijke link wordt geklikt.
 
 <WRAP center round tip 100%>
-Het nadeel van het toewijzen van c:geo op alle geocache-gerelateerde links als standaard is, dat (afhankelijk van je apparaat en Android-versie) de functie '' Openen in browser '' van c:geo nu alleen c:geo zelf kan openen. \ \ Onze [[http://faq.cgeo.org#open-in-browser | FAQ]] beschrijft hoe dit probleem op te lossen.</WRAP>
+Het nadeel van het toewijzen van c:geo op alle geocache-gerelateerde links als standaard is, dat (afhankelijk van je apparaat en Android-versie) de functie '' Openen in browser '' van c:geo nu alleen c:geo zelf kan openen. 
+Je kunt dit voorkomen door de [[.:mainmenu:settings#cache_details|Chrome Webview]] functie in c:geo te gebruiken. Eventueel kun je ook onze [[https://faq.cgeo.org#open-in-browser|FAQ]] lezen waar verschillende methodes worden beschreven om dit probleem op te lossen (bijv.  wanneer je geen gebruik wil maken van de Google Chrome browser op je apparaat).</WRAP>

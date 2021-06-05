@@ -13,18 +13,131 @@
  In deze zelfstudie wordt beschreven hoe je dergelijke offline kaarten en thema's kunt downloaden, installeren en configureren.
 
 
-===== Downloaden van kaarten/thema's ====
+===== Automatisch downloaden van kaarten/thema's ====
 
-Ten eerste dien je een offline kaart bestand te downloaden die compatibel is en het geografische gebied bestrijkt. Er zijn enkele diensten beschikbaar op het internet die met enige regelmaat actuele kant-en-klare kaart bestanden aanbieden, 
+c:geo ondersteunt een volledig automatische download en installatie functie voor offline kaarten van verschillende bronnen.
 
-Hier zijn enkele bronnen waar je een offline kaart kunt downloaden:
+==== Download bronnen ==== 
+
+De volgende tabel toont een overzicht van bronnen die door de c:geo kaart downloader worden ondersteund:
 
 ^ Naam ^ gebied  omschrijving ^ Compatibiliteit ^ Kosten ^
 |[[https://download.mapsforge.org|Mapsforge Map Repository]]|Wereld|Deze server host wereldwijd vooraf gebouwde kaarten en POI's die zijn gegenereerd met de laatste versie van de mapsforge-writer  plug-ins.\\ \\ //Gebruik s.v.p. deze mirrorserver voor je kaartdownloads.//|Kaarten in de mappen V4 en V5 zijn compatibel met c:geo.\\ V3-kaarten kunnen worden gebruikt als je "Oude Mapsforge V3" in c:geo's [[.mainmenu:settings#mapsforge_api|instellingen]] inschakelt, aangepaste themabestanden worden niet aangeboden, de kaartbestanden werken het beste bij het gebruik van het c:geo standaardthema.|Gratis|
 |[[https://openandromaps.org|OpenAndroMaps]]|Wereld|OpenAndroMaps biedt gratis downloadbare vectorkaarten voor smartphones.|Gebruik de link "Meertalige V4-kaart" om de compatibele versie van de kaart te downloaden.\\ We raden aan om deze kaarten te gebruiken in combinatie met het bijpassende OpenAndroMaps-kaartthema "Elevate4" dat ook op hun website kan worden gedownload. |Gratis, Donaties worden erg gewaardeerd|
-|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europa|Kaartbestanden voor Garmin-apparaten en Android-smartphones.|Zeer gedetailleerde kaarten, maar vereist het bijbehorende thema (ook beschikbaar om te downloaden op hun website) voor een juiste weergave.|Frratis, Donaties worden erg gewaardeerd|
+|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europa|Kaartbestanden voor Garmin-apparaten en Android-smartphones.|Zeer gedetailleerde kaarten, maar vereist het bijbehorende thema (ook beschikbaar om te downloaden op hun website) voor een juiste weergave.|Gratis, Donaties worden erg gewaardeerd|
 
-De bovenstaande tabel geeft slechts enkele voorbeelden van kaartproviders, er zijn nog meer providers aanwezig.
+==== Downloaden en intalleren va kaarten/thema's ====
+
+De c:geo kaart downloader ka op twee manieren worden gestart:
+  * Vanuit de [[.:mainmenu:livemap|Live kaart]] door de kaart kiezer te openen en op ''<offline kaart downloaden>'' te drukken.
+
+{{ :en:offlinemap_downloader_maps.png?direct&300 |}}
+
+  * Vanuit de [[.:mainmenu:settings|kaart instellingen]] en ''Offline kaart downloaden'' te selecteren.
+  * 
+{{ :en:offlinemap_downloader_settings.png?direct&300 |}}
+
+
+Nadat je de kaartdownloader hebt geopend, kun je kiezen uit welke bron je de kaart wilt downloaden door het vervolgkeuzemenu bovenaan te openen. Voor meer informatie over de verschillende kaartbronnen, neem een kijkje op [[offlinemaps # mapsources | deze lijst]] of klik op het hartpictogram rechtsboven in de kaartdownloader. 
+
+{{ :en:offlinemap_downloader_2.png?direct&400 |}}
+
+In dit voorbeeld gebruiken we "Mapsforge" als kaartbron en willen we de offline kaart voor Mexico downloaden.
+
+De lijst op het hoogste niveau is meestal gesorteerd op grove geografische regio's (meestal: continenten) en wordt specifieker op elk lager niveau. Tik op het vergrootglaspictogram om de gewenste lijst/regio te openen en de inhoud ervan te bekijken. Als je eindelijk het kaartbestand hebt gevonden dat je wilt installeren, tik je gewoon op het schijfpictogram ernaast om het downloadproces te starten. 
+
+{{:en:offlinemap_downloader_1.png?direct&300 |}}{{:en:offlinemap_downloader_3.png?direct&300|}}
+
+<WRAP center round important 100%>
+Het downloaden van een kaart kan veel netwerkverkeer veroorzaken! Zorg ervoor dat je een wifi-netwerk of een ander niet-gemeten netwerk gebruikt voordat je de download start.
+</WRAP>
+
+Bevestig de volgende schermen bij het starten van de download.
+
+{{ :en:offlinemap_downloader_4.png?direct&400 |}}
+
+De download zelf wordt op de achtergrond uitgevoerd door de downloadmanager van je apparaat. Wanneer de overdracht is voltooid, wordt het bestand overgebracht naar de map c:geo map en automatisch ingesteld als huidige kaart.
+
+<WRAP center round info 100%>
+Het beste is om c: geo actief te houden tijdens het downloaden, zodat c: Geo de gedownloade kaart direct kan overnemen nadat het downloaden is voltooid. 
+</WRAP>
+
+{{:en:offlinemap_downloader_5a.png?direct&400|}}{{ :en:offlinemap_downloader_5b.png?direct&400|}}
+
+s de gedownloade kaart een speciaal kaartthema vereist (niet van toepassing op Mapsforge), zal de downloader u achteraf automatisch vragen of u het benodigde thema ook wilt downloaden en installeren. 
+
+{{ :en:offlinemap_downloader_6.png?direct&400 |}}
+
+Dit is alles wat je hoeft te doen. De gedownloade kaart (en optioneel het gedownloade thema) wordt automatisch geselecteerd om te worden gebruikt voor je kaartweergave.
+
+Als je meer dan één offline kaart nodig hebt, kunt je het proces zo nodig herhalen.
+
+==== Controleer op updates van gedownloade kaarten  ====
+
+Je kunt de kaartdownloader ook gebruiken om te controleren op regelmatige updates van reeds eerder gedownloade kaarten en thema's. Open gewoon de kaartdownloader zoals beschreven in het bovenstaande hoofdstuk.
+
+Tik op de knop '' Controleren op updates '' om de downloader automatisch te laten controleren of er nieuwere versies van je gedownloade kaarten en thema's beschikbaar zijn.
+
+{{ :en:offlinemap_downloader_update_1.png?direct&400 |}}
+
+De downloader zal je ofwel laten zien dat er geen kaartupdate beschikbaar is of de bestanden weergeven die kunnen worden bijgewerkt. Om de kaarten / thema's bij te werken, klik je op het schijfpictogram naast de bestandsnaam.
+
+{{ :en:offlinemap_downloader_update_2a.png?direct&400 |}}
+
+{{ :en:offlinemap_downloader_update_2.png?direct&400 |}}
+
+
+
+Nadat de update is gedownload, word je gevraagd of je de bestaande (oudere) kaart wilt overschrijven of de gedownloade kaart een andere naam wil geven. Meestal wil je de oude kaart vervangen, daarom moet je '' Overschrijven '' selecteren.
+
+{{ :en:offlinemap_downloader_update_3.png?direct&400 |}}
+
+Je moet het proces herhalen voor elke kaart / thema dat je wil bijwerken.
+
+===== Gebruik van offline kaarten =====
+
+
+==== Een kaart bestand selecteren ====
+
+c: geo toont alle gedownloade offline kaartbestanden in het kaartselectiemenu op je (live) kaart en je kunt het gebruiken om te wisselen tussen je geïnstalleerde offline kaarten. 
+
+{{ :en:offlinemap_map_selector_2.png?direct&400 |}}
+
+Je kunt ook c: geo Menu -> Instellingen -> Kaart gebruiken en op '' Kaartbron selecteren '' tikken om de te gebruiken offline kaart te selecteren.
+
+{{ :en:offlinemap_map_selector.png?direct&400 |}}
+
+Eenmaal geselecteerd zal c: geo dit kaartbestand continu gebruiken om je kaart weer te geven in plaats van de online kaarten te gebruiken.
+
+==== Een thema selecteren ====
+Nadat je het te gebruiken offline kaartbestand hebt geselecteerd, kun je het thema toewijzen dat zal worden gebruikt om de kaart weer te geven.
+
+Dit kan in het menu van de (live)kaart via de menuoptie ''Selecteer kaartthema''. Als je naast je offline kaart een thema hebt geïnstalleerd, zorg er dan voor dat je hier het bijbehorende thema selecteert.
+
+{{ :en:offlinemap_theme_selector.jpg?direct&400 |}}
+
+
+==== Geavanceerde thema opties ====
+
+Als je een thema hebt geïnstalleerd, kun je de zichtbaarheid van bepaalde kaartelementen naar wens aanpassen en configureren. Je vindt de gerelateerde optie in het (live) kaartmenu onder ''Thema-opties''.
+
+{{ :en:offlinemap_advanced_themeoptions.jpg?direct&400 |}}
+
+Hier kun je een basiskaartstijl selecteren (bijv.wandelen, fietsen, auto) en deze naderhand aanpassen door aanvullende elementen van de kaart in / uit te schakelen.
+
+{{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
+
+===== Verder lezen over offline kaarten =====
+
+Link naar enkele handleidingen en tutorials gemaakt door c: geo-gebruikers 
+
+^ Link ^ Taal ^ Omschrijving^ 
+|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Duits|Tutorial over c:geo en offline gebruik|
+
+
+
+
+
 
 ===== Installatie =====
 

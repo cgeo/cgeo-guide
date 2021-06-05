@@ -5,26 +5,14 @@
 
 Het "Ga naar..." menu kan hebruikt worden om te navigeren naar willekeurige coördinaten, die niet zijn gebonden aan een geocache,  geocache waypoint of een gemaakte projectie.\\ \\ \\ \\
 
+Technisch gezien brengt het "Ga naar ..." menu je naar de [[en: cachedetails # waypoint_tab | waypoint tab]] van een [[en: udc | c: geo interne cache]]. Het gebruik is dus precies hetzelfde als voor waypoints van elke andere cache in c: geo. Raadpleeg het waypoint-tabblad en de beschrijving van de waypoint-editor op de gekoppelde pagina.\\ \\ \\ 
+
 {{ :nl:goto.png?direct&400 |}}
 
-Voer de coördinaten in door op het coördinaatgedeelte te klikken om het [[..coordinatedialog | invoer dialoogvenster ]] te openen. Als je vanuit deze positie een waypointprojectie wilt uitvoeren, kun je optioneel de peiling en de afstand hieronder invoeren.
+===== Hoe voer je een waypoint projectie uit =====
 
-Het laatste gedeelte op deze pagina toont de geschiedenis van coördinaten die je eerder hebt gebruikt, samen met de bijbehorende tijd / datum.
-
-Het bovenste menu biedt verschillende opties:
-
-<WRAP center round info 100%>
-De pictogrammen in de bovenste balk en de inhoud achter de overloop menu knop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\
-Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie.
-</WRAP>
-
-
-^ Icoon ^ Omschrijving^
-|{{:ic_menu_compass.png?nolink&40 |}}| Een korte klik op dit pictogram start je [[.settings # navigation| navigatie-hulpmiddel van jouw voorkeur]] om naar de geselecteerde cache te navigeren. \\ Als je lang drukt, wordt je secundaire [[.settings#navigatie|navigatie-hulpmiddel van jouw voorkeur]] gestart.|
-|{{:ic_menu_goto.png?nolink&40 |}}|Opent de volledige lijst met beschikbare [[..navigation|navigatioe hulpmiddelen]].|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. De functie die in deze lijst wordt getoond, wordt ook in deze tabel beschreven.|
-|Caches rondeom|Zal een [[.lists # cache_list | cache lijst ]] maken met geocaches rondom de gegeven coördinaten.|
-|Maak geschiedenis leeg|Zal de geschiedenis op het onderste gedeelte van het scherm wissen.|
-
-
-
+  - Druk op "Waypoint toevoegen"
+  -  Druk op het coördinatenveld en voer het coördinaat in waar je een projectie op wil doen. Je kunt ook drukken op "Mijn coördinaten" om je huidige positie als startpunt in te stellen.
+  - Sluit het coördinaten input veld en vul bij Richting de richting in en bij Afstand de afstand in de corresponderende velden.
+  - Sla het waypoint op
+  - Gebruik het kompas icoon naast het waypoint om naar de gewenste richting te navigeren. Ook kun je het waypoint lang ingedrukt houden en "Navigeren" selecteren.

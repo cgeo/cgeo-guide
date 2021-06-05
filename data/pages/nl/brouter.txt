@@ -1,78 +1,76 @@
-FIXME **Deze pagina is nog niet volledig vertaald. Help alsjeblieft de vertaling compleet te maken.**\\ //(verwijder deze paragraaf als de vertaling is voltooid)//
-
-====== Using BRouter with c:geo ======
+====== BRouter gebruiken met c:geo ======
 
 {{:helper_brouter.png?nolink&100 |}}
 
-BRouter is a small app available for Android, which provides navigated routes, which are calculated offline, between two coordinates based on [[https://openstreetmap.org|OpenStreetMap]] data.
+BRouter is een kleine app voor Android dat genavigeerde routes aanbiedt welke offline zijn gecalculeerd tussen twee coördinaten, gebaseerd op [[https://openstreetmap.org|OpenStreetMap]] data.
 
-If BRouter is installed and configured on your device, c:geo can use it to replace the normal straight line shown on map between your position and the navigation target (i.e. a cache or a waypoint) by a routed line as you can see in the example comparison below.
+Als Brouter is geïnstalleerd en is geconfigureerd op je apparaat zal c:geo deze gebruiken en in plaats van de normale rechte lijn op een kaart  een gerouteerfe lijn tonen tussen je positie en het doel (bijv. een cache of een waypoint). Zoals je kunt zien in de onderstaande afbeelding.
 
-^ Navigation without BRouter ^ Navigation with BRouter ^
+^ Navigatie zonder BRouter ^ Navigatie met BRouter ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
-The routing can be configured to be suitable for walking, biking or car according to your needs and will help you finding your way to the destination. Additionally you can also use this routing to create individual routes involving several waypoints sequentially to plan your caching trip.
+De route kan worden geconfigureerd om geschikt te zijn voor wandelen, fietsen of auto volgens je behoeften en zal helpen om je weg naar de bestemming te vinden. Daarnaast kun je deze routering ook gebruiken om individuele routes te maken met verschillende waypoints achter elkaar om je caching-reis te plannen.
 
-===== Installing and configuring BRouter =====
+===== Installeren en configureren van BRouter =====
 
-You can download and install BRouter either from [[https://play.google.com/store/apps/details?id=btools.routingapp|Google Play]] or directly from their [[https://brouter.de/brouter/offline.html|website]].
+Je kunt BRouter downloaden en installeren via [[https://play.google.com/store/apps/details?id=btools.routingapp|Google Play]] of rechtstreeks vanaf hun [[https://brouter.de/ brouter/offline.html|website]].
 
-After Brouter is installed you need to download routing information for the desired geographical area for BRouter to be able to offline calculate routes. Without this downloaded routing information BRouter will not work (no online routing supported).
-In order to download the needed routing information, start the BRouter app and select ''Download Manager'' as shown below. The ''Brouter App'' function is not needed for c:geo.
+Nadat Brouter is geïnstalleerd, moet je route-informatie downloaden voor het gewenste geografische gebied zodat BRouter offline routes kan berekenen. Zonder deze gedownloade routeringsinformatie zal BRouter niet werken (geen online routering ondersteund).
+Om de benodigde routeringsinformatie te downloaden, start je de BRouter-app en selecteer je '' Download Manager '' zoals hieronder weergegeven. De functie '' Brouter App '' is niet nodig voor c: geo.
 
 {{ :en:brouter_configure1.png?direct&400 |}}
 
-BRouter will inform you, that it needs to download a larger amount of data (depending on the size of the geographical area for which you want to download routing information). Make sure you do not use a metered network or have enough quota before you continue by selecting ''I know''.
+BRouter zal je informeren dat het een grotere hoeveelheid gegevens moet downloaden (afhankelijk van de grootte van het geografische gebied waarvoor je routeringsinformatie wilt downloaden). Zorg ervoor dat je geen gemeten netwerk gebruikt of voldoende quota heeft voordat je doorgaat door '' I know'' te selecteren.
 
 {{ :en:brouter_configure2.png?direct&400 |}}
 
-Brouter will now show a world map and you have to touch on the area, for which you want to download routing information, to zoom in and see the grid of the available routing information tiles.
+Brouter toont nu een wereldkaart en je moet het gebied aanraken waarvoor je routegegevens wilt downloaden om in te zoomen en het raster van de beschikbare routegegevens tegels te zien. 
 
 {{ :en:brouter_configure3.png?direct&400 |}}
 
 
-Once you zoomed in you can select the tiles (will be marked in green) of the desired geographical area(s) and select ''Start Download''  to trigger the download of routing information for this area.
+Nadat je hebt ingezoomd, kun je de tegels (wordt groen gemarkeerd) van de gewenste geografische zone (s) selecteren en ''Start Download'' selecteren om het downloaden van routegegevens voor dit gebied te starten.
 
 {{ :en:brouter_configure4.png?direct&400 |}}
 
 <WRAP center round info 100%>
-The download speed is limited by BRouter to 4 Mbit/s. So depending on the amount of routing tiles you selected the download will last a bit. Make sure to keep BRouter open in foreground while the download is in progress.
+De downloadsnelheid is met BRouter beperkt tot 4 Mbit / s. Dus afhankelijk van het aantal routeringstegels dat je hebt geselecteerd, duurt de download een poosje. Zorg ervoor dat BRouter op de voorgrond open blijft terwijl het downloaden bezig is.
 </WRAP>
 
-After successful download the tile map will now show the downloaded tiles in blue.
+Na een succesvolle download toont de tegelkaart nu de gedownloade tegels in blauw. 
 
 {{ :en:brouter_configure6.png?direct&400 |}}
 
-You are now good to go, but remember, that you need to download new tiles here if you want to use the navigation feature in other geographical areas as those you just downloaded. You might also want to update the existing routing info from time to time be downloading the needed tiles again with this download manager.
+Je bent nu klaar om te gaan, maar onthoud dat je hier nieuwe tegels moet downloaden als je de navigatiefunctie in andere geografische gebieden wilt gebruiken dan die ke zojuist hebt gedownload. Je kunt ook de bestaande routeringsinformatie van tijd tot tijd bijwerken door de benodigde tegels opnieuw te downloaden met deze downloadmanager.
 
 
-===== Usage in c:geo ====
+===== Gebruik in c:geo ====
 
-Once you installed and configured BRouter as described above, c:geo will use it automatically. There is no need for any configuration in c:geo, except that you might want to change the used routing mode (Bike, Walk, Car) according to your needs.
-You can do this in the [[.:mainmenu:livemap#map_quick_settings|map quick settings]].
+Wanneer je Brouter hebt geïnstalleerd en geconfigureerd zoals hierboven beschreven, zal c:geo het automatisch gaan gebruiken en hoeft er niets in c:geo worden geconfigureerd, behalve de gewenste routering modus (fietse, lopen of auto).Je kunt dit doen in de  [[.:mainmenu:livemap#map_quick_settings|snelle kaartinstellingen]].
 
-BRouter will be used to calculate routes for mainly two functions as described briefly below. You can find a complete description of the map navigation lines and their functions in the [[.:mainmenu:livemap#map_navigation|live map]] description of this user guide.
+Brouter zal worden gebruikt om de route te berekenen voor twee functies zoals hieronder beschreven. Je kunt een complete beschrijving van de kaart navigatie en haar functie lezen in de [[.:mainmenu:livemap#map_navigation|live kaart]] beschrijving van deze handleiding.
 
-==== Direction line ====
+==== Richting lijn ====
 
-If you invoke navigation to a cache/waypoint using the map, the direction line between your position and the cache/waypoint will now use a routed line instead of a straight line.
+Als je de navigatie naar een cache / waypoint oproept met behulp van de kaart, gebruikt de richtingslijn tussen je positie en de cache / waypoint nu een gerouteerde lijn in plaats van een rechte lijn.
 
-The distance information on the top right will show the routed distance additionally to the straight line distance.
+De afstandsinformatie rechtsboven toont de gerouteerde afstand naast de afstand in een rechte lijn. 
 
 {{ :en:brouter_with.png?direct&400 |}}
-==== Individual route ====
+==== Individuele route ====
 
-To make use of the individual route feature you need to enable the long click function on the map in your [[.:mainmenu:settings#map_behavior|map behavior settings]].
+Om gebruik te maken van de individuele routefunctie, moet je de functie voor lang klikken op de kaart in je [[.:mainmenu:settings#map_behavior|kaart gedrag instellingen]].
 
-Then you can simply long click sequentially on different caches/waypoints on your map to connect them with a routed line one after another. This function e.g. allows planning of your caching trip as shown in the example below.
+Vervolgens kun je eenvoudig achter elkaar lang op verschillende caches/waypoints op de kaart klikken om ze de een na de ander met een gerouteerde lijn te verbinden. Deze functie b.v. maakt het plannen van uw caching-trip mogelijk, zoals in het onderstaande voorbeeld wordt getoond.
 
 {{ :en:brouter_individualroute.png?direct&400 |}}
 
-To remove one cache/waypoint from your route simply long click it again. Furthermore you can use the sub menu ''Individual route'' on your [[en:mainmenu:livemap#top_bar_menu|map menu]] to sort, export, import or clear your individual route.
+Om een cache / waypoint uit je route te verwijderen, klik je er gewoon nogmaals lang op. Verder kun je het submenu ''Individuele route'' op je [[en:mainmenu:livemap#top_bar_menu|kaartmenu]] gebruiken om je individuele routes te sorteren, exporteren, importeren of te wissen.
 
-==== Customization ====
+==== Aanpassingen ====
 
-To minimize potential delays in usage of c:geo BRouter will calculate routes up to a max. length of 10km by default. You can customize this limit between 0 an 999km in the c:geo [[.:mainmenu:settings#map_content|map content settings]]. Furthermore you can customize the parameters (thickness, color and opaqueness) of the different lines shown on the map in the [[.:mainmenu:settings#map_lines_customization|map line customization settings]].
+Om mogelijke vertragingen in het gebruik van c: geo te minimaliseren, berekent BRouter routes tot een max. standaard lengte van 10 km. Je kunt deze limiet aanpassen tussen 0 en 999 km in de c:geo [[.:mainmenu:settings#map_content|Route/navigatie instellingen]].
+Daarnaast kun je de parameters aanpassen (dikte, kleur en doorzichtigheid) van de verschillende lijnen op de kaart in  [[.:mainmenu:settings#map_lines_customization|kaartlijn aanpassingen]].
 
 
 
