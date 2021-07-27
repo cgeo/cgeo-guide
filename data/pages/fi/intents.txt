@@ -7,6 +7,6 @@ Esimerkiksi c:geo rekisteröi itsensä linkkeihin, jotka alkavat ''http://coord.
 Kun sinulta kysytään mitä sovellusta käytetään näiden linkkien aukaisuun, voit myös valita c:geon oletussovellukseksi tälle linkkityypille. Tämän jälkeen laitteesi avaa c:geon suoraan kun tällaista linkkiä klikataan.
 
 <WRAP center round tip 100%>
-Kaikkien geokätköilylinkkien asettamisella c:geolla avattavaksi on huono puoli, että (riippuen laittestasi ja Android-versiosta) käytettäessä ''Avaa selaimessa'' toimintoa c:geossa, kätkön tiedot aukeavat uudelleen itse c:geossa selaimen sijaan.\\
-[[http://faq.cgeo.org#open-in-browser|FAQ (englanniksi)]] selostaa kuinka ratkaista tämä ongelma.
+Kaikkien geokätköilylinkkien asettamisella c:geolla avattavaksi on huono puoli, että (riippuen laittestasi ja Android-versiosta) käytettäessä ''Avaa selaimessa'' toimintoa c:geossa, kätkön tiedot aukeavat uudelleen itse c:geossa selaimen sijaan.\\ \\
+Voit välttää tämän aktivoimalla [[.:mainmenu:settings#cache_details|Chrome Webview]]-ominaisuuden c:geossa. Lisäksi [[https://faq.cgeo.org#open-in-browser|FAQmme (englanniksi)]] selostaa erilaisia tapoja tämän ongelman ratkaisemiseksi (esimerkiksi siinä tapauksessa kun et käytä Google Chromea laitteellasi).
 </WRAP>

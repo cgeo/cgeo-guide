@@ -2,14 +2,9 @@
 
 ===== Prérequis =====
 
-Si vous souhaitez aider à traduire ce guide d'utilisation dans une autre langue, créez simplement un compte en utilisant la fonction ''S'inscrire'' en haut à droite de ce site Web ou cliquez simplement [[https://manual.cgeo.org/?do=register|ici]].
-
-Vous recevrez ensuite un mail avec votre mot de passe pour vous connecter au Wiki. Au début, le compte sera en mode «lecture seule» jusqu'à ce que nous approuvions manuellement l'enregistrement. Cela ne prend généralement que quelques jours et nous vous informerons de l'approbation par mél.
-
-Si vous ne recevez aucune approbation ou si quelque chose ne va pas, veuillez [[support@cgeo.org?subject=User guide translation|nous contacter]].
+Si vous souhaitez aider à traduire ce guide d'utilisation dans une autre langue, [[support@cgeo.org?subject=User guide translation|contactez-nous]]. Nous créerons ensuite un compte pour vous et vous pourrez commencer tout de suite.
 
 Pour vous aider à traduire ce guide d'utilisation, vous devez simplement avoir un minimum de connaissances sur le système Wiki.
-
 ===== Premiers pas =====
 
 Une fois votre compte validé pour ce wiki, vous pouvez commencer votre traduction en ouvrant une page en anglais existante, puis en choisissant votre langue de traduction (en utilisant le sélecteur de langue en haut à gauche) et en créant cette page dans votre propre langue si elle n'existe pas encore. Si votre langue cible n'y figure pas, veuillez en informer notre équipe pour qu'elle soit ajoutée.

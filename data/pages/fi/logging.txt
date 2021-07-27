@@ -20,8 +20,8 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 |{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Liitä kuva]]|Voit tästä lisätä olemassa olevan kuvan, tai avata kameran, jolla otettu kuva lisätään kirjaukseen.|
 | |Hymiöt|Avaa listan hymiöistä, joita voit lisätä kirjaukseen.|
 | |Offline-tallennus|Tallentaa kirjauksen offline-tilassa sen sijaan, että se lähetetään palvelimelle.|
-| |Toista edellinen loki|Toistaa edelliseen kätköösi kirjaaman lokin kyseisen kätkön kirjauksen tekstikenttään.|
 | |Järjestä reissaajat|Voit vaihtaa hallussa olevien reissaajien järjestystä joko matkaajan nimen tai matkaajan seurantakoodin mukaan.|
+| |Toista edellinen loki|Toistaa edelliseen kätköösi kirjaaman lokin kyseisen kätkön kirjauksen tekstikenttään.|
 | |Tyhjennä|Poistaa logikirjauksen ja nollaa kirjausnäytön.|
 
 ===== Kirjausnäkymä =====
@@ -66,7 +66,7 @@ Napauta kenttää avataksesi valikon, joka sisältää seuraavat ongelmaraportit
 ^ Valinta ^ Selite ^
 |Ei ongelmaa|Ongelmaraporttia ei liitetä kirjaukseesi.\\ Oletusvalinta.|
 |Loki on täynnä|Ilmoittaa omistajalle, että kätkön lokikirja on täynnä.|
-|Kätkö saattaa olla kadonnut|Ilmoistaa omistajalle, että kätkö voi olla kadonnut.\\ Ei voida käyttää "Löytyi"-kirjauksen kanssa.|
+|Kätkö saattaa olla kadonnut|Ilmoistaa omistajalle, että kätkö voi olla kadonnut.\\ :!: Ei voida käyttää "Löytyi"-kirjauksen kanssa.|
 |Kätkö on vahingoittunut|Ilmoittaa omistajalle, että kätkössä on jotain vialla.|
 |Kätkö pitäisi arkistoida|Ilmoittaa kätkötarkistajille/moderaattoreille, että kätkö tulisi arkistoida.|
 |Muu|Jokin muu ongelma, joka tulisi selittää lokikirjauksessa.|
@@ -92,6 +92,34 @@ Tämä kenttä on näkyvillä vain, jos olet geocaching.com:in premium-jäsen. T
 
 Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:settings#social_media|asetuksissa]], tämä kenttä näytetään. Jos valitset tämän valinnan, niin c:geo lähettää twiittauksen logikirjauksen lähetyksen yhteydessä.
 
+==== Kuvat ====
+{{anchor:attach_image:}}
+
+=== Pikalisäyskuvakkeet ===
+
+{{ :en:logging_images.png?nolink&400 |}}
+
+Napauttamalla tämän osion kuvakkeita voit lisätä nopeasti kuvia lokikirjaukseesi nopeasti.
+
+  * {{:ic_menu_image_multi.png?nolink&30|}} avaa tiedoston valitsimen, jotta voit valita olemassa olevan kuvan laitteestasi
+  * {{:ic_menu_camera.png?nolink&30|}} avaa kameran laitteessasi, jotta voit ottaa kuvan
+
+Vaihtoehtoisesti voit käyttää otsikkopalkin valikon toimintoa ''Liitä kuva'' lisätäksesi kuvan käyttäen edistynyttä valikkoa, jossa voit myös lisätä kuvatekstin, kuvauksen ja valita kuvan skaalauksen kuvan lisäyksen yhteydessä (katso seuraava kappale).
+
+Kuvan lisäyksen jälkeen näytetään kuvat-osiossa esikatselukuva. Voit käyttää {{:ic_menu_delete.png?nolink&30|}} poistaaksesi liitetyn kuvan ja -jos kirjaukseen on liitetty useampi kuva - käyttää {{:settings_details_black.png?nolink&30|}} vaihtaaksesi kuvien järjestystä vetämällä ja pudottamalla niitä.
+
+Muokataksesi kuvan tietoja, klikkaa niitä avataksesi yksityiskohtanäkymän, jossa voit muokata kuvatekstiä, kuvausta ja skaalausta (katso seuraava kappale).
+
+=== Kuvien muokkaus ===
+
+[[logging#top_bar_menu|Yläpalkin valikon]] kautta löytyvä ''Liitä kuva'' avaa uuden näytön, jossa voit liittää kuvan kirjaukseesi. Voit avata tämän näkymän myös napauttamalla jo liitettyjä kuvia napauttamalla niiden esikatselukuvaa kirjausnäytössä.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+Valitsemalla ''Selaa...'' avautuu tiedostoselain, josta voit valita olemassa olevan kuvan galleriastasi. Valitsemalla ''Uusi'' kamera avautuu, jolla voit ottaa uuden kuvan (samat kuin pikakuvakkeet, jotka selostettiin edellisessä kappaleessa).
+
+Tämän jälkeen voit kirjoittaa kuvatekstin ja kuvauksen kuvalle, jotka liitetään kätkökirjaukseesi liitettävään kuvaan.
+Voit myös (valinnaisesti) skaalata alaspäin kuvaasi eri pikselikokoihin, jotta voit vähentää lähetettävän datan määrää, kun kuva lähetetään lokikirjauksesi yhteydessä.
 
 ===== Tavaraluettelo =====
 {{anchor:inventory:}}
@@ -106,18 +134,3 @@ Tämä osio listaa kaikki tällä hetkellä hallussasi olevat matkaajat. Se näy
 |Jätetty paikalle|Matkaaja tiputetaan kätköön kun loki lähetetään kätkösivulle.|
 
 Tavaraluettelon alapuolella on nappi ''Muuta kaikki'', josta voit valita kaikille hallussasi oleville matkaajille saman toiminnon yhdellä kertaa.
-
-===== Liitä kuva =====
-{{anchor:attach_image:}}
-
-[[logging#top_bar_menu|Ylävalikon]] valinta ''Liitä kuva'' avaa uuden ikkunan, jossa voit liittää kuvan lokikirjaukseesi.
-
-{{ :en:logging_attachimage.png?nolink&400 |}}
-
-''Selaa...''-valinta avaa oletusgalleriaohjelman ja antaa sinun valita olemassa oleva kuva galleriasta. ''Uusi''-valinta avaa kameran uuden kuvan ottamiseksi.
-
-Jälkeenpäin voit kirjoittaa kuvatekstin ja kuvauksen kuvaan, joka lisätään kirjaukseen liitettävään kuvaan. Voit myös halutessasi pienentää kuvaa haluamaasi kokoon, jos haluat säästää käytettävää dataa lähetettäessä kuvaa lokikirjauksen mukana.
-
-<WRAP center round info 100%>
-Tällä hetkellä c:geo tukee vain yhden kuvan liittämistä yhteen lokiin. Useampaa kuvaa ei tueta (vielä).
-</WRAP>

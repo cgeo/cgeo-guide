@@ -1,0 +1,16 @@
+====== Tietoja c:geosta ======
+
+{{:ic_menu_info_details.png?nolink&50 |}}
+
+Tämä sivu näyttää erilaisia tietoja c:geosta.
+
+Sivu on järjestetty kuuteen eri välilehteen, joiden välillä voit siirtyä liu'uttamalla vasemmalta oikealle tai toisinpäin:
+
+^ Välilehti ^ Sisältö ^
+|Versio| Tietoja nykyisestä versiosta sekä linkki, jonka kautta voit tehdä lahjoituksen tukeaksesi c:geon kehitystä.|
+|Ohjeet|Sisältää kokoelman hyödyllisistä linkeistä ulkoisiin palveluihin.|
+|Muutoshistoria|Tietoja nykyisen version viimeisimmistä muutoksista,|
+|Järjestelmä|Sisältää kokoelman tietoja sitä sen varalta, jos haluat ottaa yhteyttä [[support@cgeo.org|tukeemme]]. Voit käyttää tämän välilehden nappeja kopioidaksesi järjestelmätiedot leikepöydälle tai lähettääksesi suoraan sähköpostin sisältäen nämä tiedot.|
+|Avustajat|Lista ihmisistä ja resursseista, jotka auttavat kehittämään c:geota.|
+|Lisenssi|Lisenssi, jonka alla c:geota jaellaan.|
+ 

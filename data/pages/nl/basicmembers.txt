@@ -14,5 +14,6 @@ TDe volgende tabel toont een overzicht van de verschillen en beperkingen die bas
 |[[.mainmenu:pocketquery|Pocket Query]]|Pocket queries is een functie, die alleen voor premium leden beschikbaar is. Als gevolg daarvan is deze feature alleen zichtbaar als je een premium lid bent.|
 |[[cachedetails#favorite|Favorieten]]|Favorieten geven aan caches kan alleen als premium lid. Alle gerelateerde menu functies zullen niet worden getoond aan basis leden.|
 |[[cachedetails#personal_note|Persoonlijke notitie upload]]|Hoewel alle gebruikers persoonlijke notities kunnen maken, kunnen alleen premiumleden hun notities uploaden om te worden opgeslagen op de cachepagina van de geocaching-server.|
+|Adventure lab caches|Adventure lab caches van [[http://labs.geocaching.com|labs.geocaching.com]] worden alleen getoond aan premium leden van dat platform.|
 
 

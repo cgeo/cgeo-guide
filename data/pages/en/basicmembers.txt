@@ -14,5 +14,6 @@ The following table provides an overview of the differences and limitations appl
 |[[.mainmenu:pocketquery|Pocket Query]]|Pocket queries are a premium member feature. Consequently this menu option will only be shown in c:geo if you are a premium member.|
 |[[cachedetails#favorite|Favorite points]]|Assigning favorite points to found caches is a premium member feature. All menu functions related to favorite point assignment will not be shown to basic members.|
 |[[cachedetails#personal_note|Personal note upload]]|While all users can create personal notes only premium members can upload their notes to be stored on the cache page of the geocaching server.|
+|Adventure lab caches|Adventure lab caches of [[http://labs.geocaching.com|labs.geocaching.com]] are only shown to premium members of that platform.|
 
 

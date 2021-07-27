@@ -1,0 +1,17 @@
+====== Historia ======
+
+{{:ic_menu_recent_history.png?nolink&50 |}}
+
+
+Historialista näyttää normaalilta [[lists|listalta]] mutta on suodatettu kätköihin, joihin olet lähiaikoina tehnyt online- tai offlinekirjauksen. Toisin kuin normaalit kätköjä sisältävät listat, se voi sisältää myös kätköjä jotka eivät ole enää tallennettu laitteellesi.
+
+{{:en:history.png?direct&400 |}}
+
+Historialista on hyvä aloituspaikka, jos haluat nopean pääsyn odottaville offline-kirjauksille lähettääksesi ne sivustolle tai offline-kirjausten [[..offline#field_note_export|kenttämuistiinpanojen vientiin]]..
+
+<WRAP center round info 50%>
+Huomaathan, että tämä on c:geon paikallinen lista ja se ei ole ajan tasalla geokätköilypalvelun viimeksi katsottujen kätköjen listan kanssa.
+</WRAP>
+
+Historialistalla voit myös käyttää ''Valikko'' -> ''Hallitse kätköjä'' -kohdassa joko toimintoa ''Poista offline-lokit'' tai ''Tyhjennä historia''.
+

@@ -1,0 +1,36 @@
+1625506932	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	en:cachefilter	eddiemuc	created		3883
+1625507252	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			0
+1625507333	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			39
+1625507356	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-26
+1625576588	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc	[Basic filtering] 		-189
+1625590961	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			5073
+1625591088	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			1
+1625634775	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			6
+1625635157	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-1
+1625635885	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2472
+1625638712	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2
+1625638918	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-48
+1625639275	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			596
+1625674806	160.46.252.18	e	en:cachefilter	eddiemuc			808
+1625675599	160.46.252.18	e	en:cachefilter	eddiemuc			1534
+1625677003	160.46.252.18	e	en:cachefilter	eddiemuc			3793
+1625677166	160.46.252.18	e	en:cachefilter	eddiemuc	[Distance filter] 		6
+1625677188	160.46.252.18	e	en:cachefilter	eddiemuc	[Log Entry filter] 		4
+1627330619	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	change link		-1
+1627330627	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Cache Filtering] 		-1
+1627330884	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	Fix some typos and fix links to be language independant		-12
+1627331113	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	Replace click by tap		-4
+1627331486	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	[Basic filtering] 		0
+1627332270	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		143
+1627332350	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1646
+1627332459	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		-593
+1627332561	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Advanced filtering] 		29
+1627333927	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Creating and deleting filter criteria] 		37
+1627373996	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Category "Details"] 		2
+1627375783	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		10
+1627375800	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		4
+1627375816	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		13
+1627376187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		0
+1627376848	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Status filter] 		1
+1627376930	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1
+1627376956	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		47

@@ -18,7 +18,9 @@ c:geo käyttää omia kuvakkeitaan erilaisten saatavilla olevien tyyppien näytt
 |{{ :type_cito.png?nolink&40 |}}|Siivoustapahtuma (CITO)|Siivoustapahtuma on tapahtuma, joka järjestetään ympäristön siivousta tai vastaavaa varten. Jälkeenpäin voidaan asettaa uusi geokätkö samaan paikkaan. CITO on lyhenne sanoista Cache-In-Trash-Out. |
 |{{ :type_ape.png?nolink&40 |}}|Project APE-kätkö|Vuonna 2001 asetettiin 14 geokätköä elokuvan "Apinoiden Planeetta" tukemiseksi. Vain muutama geokätkö on vielä jäljellä tänä päivänä, mikä tekee tämän tyypin harvinaisemmaksi tyypiksi.|
 |{{ :type_hq.png?nolink&40 |}}|Groundspeakin päämaja-kätkö|Vain yksi tätä tyyppiä oleva kätkö on olemassa, ja se sijaitsee Groundspeakin (yritys Geocaching.com:in takana) päämajassa, Seattlessa, Washingtonissa, USAssa.|
+|{{ :type_advlab.png?nolink&40 |}}|Adventure Lab -kätkö|Pelatessa Adventure Lab-kätköä, fyysistä kätköä ei ole saatavilla. Sinun tulee vierailla sijainnissa erityistä Adventure Lab -sovellusta käyttäen ja vastata sijainnissa sovelluksen antamaan kysymykseen. Jos vastaus on oikein, niin vierailtu sijainti lisätään automaattisesti löydettyjen kätköjen määrääsi.|
 |{{ :type_unknown.png?nolink&40 |}}|Tuntematon kätkötyyppi|Jos tämä kätkötyyppi näytetään, joko c:geo ei pystynyt (vielä) latamaan kätkön tyyppiä, tai se on kätkö, jota ei täysin tueta c:geossa (kuten Lab-kätköt geocaching.comissa) tai se on erillinen Tuntematon kätkötyyppi (opencachingin tukema kätkötyyppi)|
+|{{ :type_cgeo.png?nolink&40 |}}|c:geon kätkö|Käytetään c:geossa käyttäjän luomiin sisäisiin kätköihin|
 
 
 

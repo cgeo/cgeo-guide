@@ -16,7 +16,7 @@ Pieni valikoima sovelluksen päätoiminnoista näytetään, kuten alla:
 {{ :en:quickaccess_creation.png?direct&300 |}}
 
 Voit aktivoida halutun toiminnon napauttamalla sitä.
-Lisäksi voit vetää ja pudottaa nämä toiminnot laitteesi kotinäyttöön saadaksesi pysyvän suoran pikakuvakkeen näihin toimintoihin, jotka aukeavat klikkaamalla luotua pikakuvaketta.
+Lisäksi voit vetää ja pudottaa nämä toiminnot laitteesi kotinäyttöön saadaksesi pysyvän suoran pikakuvakkeen näihin toimintoihin, jotka aukeavat napauttamalla luotua pikakuvaketta.
 
 Tässä esimerkissä näytetään kuinka kaikki toimintojen pikakuvakkeet näkyvät laitteen kotinäytössä:
 

@@ -1,17 +1,18 @@
-====== Pocket Queries ======
+====== Lists / Pocket Queries ======
 
 {{:ic_menu_pocket_query_reverted.png?nolink&50 |}}
 
-This function allows to view the existing pocket queries on the geocaching server and either show them as a [[lists|list]] or import the whole pocket query similar to [[..offline#gpx_import|importing a GPX file]].
+This function allows to view the existing pocket queries and bookmark lists on the geocaching server and either show them as a [[lists|list]] or import the whole pocket query similar to [[..offline#gpx_import|importing a GPX file]].
 
 <WRAP center round info 100%>
 This menu is only available for geocaching.com premium members as pocket queries are a premium feature.
 </WRAP>
 
-After selecting this menu function the list of pocket queries will be loaded from the server as follows:
+After selecting this menu function the list of bookmark lists and pocket queries will be loaded from the server as follows:
 
 {{:en:pocketquery.png?nolink&400 |}}
 
-The list will show each existing pocket query with its name as title. The subtitle provides information about how many caches are contained in each query, the day the query was run and the remaining days the query will be available on the server.
+The list will show each existing pocket query or bookmark list with its name as title. The subtitle provides information about how many caches are contained in each query/list.
+For pocket queries it will also contain the day the query was run and the remaining days the query will be available on the server.
 
-The {{:ic_menu_save.png?nolink&20|}} icon can be used to import the whole pocket query onto one of your lists, the {{:abc_ic_search_api_holo_light.png?nolink&20|}} icon will open the pocket query for preview.
+The {{:ic_menu_save.png?nolink&20|}} icon can be used to import the whole pocket query / list onto one of your lists, the {{:abc_ic_search_api_holo_light.png?nolink&20|}} icon will open the pocket query /list for preview.

@@ -15,7 +15,7 @@ The following table describes the main menu icons:
 |{{:main_stored_default.png?nolink&100|}}|[[lists|Stored Caches]]|View geocaches you have stored for offline use. You can also use stored geocaches for online caching, as a to-do list. By storing geocache information, you can avoid unnecessary network bandwidth use and delays. The total number of stored geocaches is shown in the top-right of the icon.\\ If you have organized your stored geocaches into lists, you can long press the icon to jump directly to a specific list.|
 |{{:main_search_default.png?nolink&100|}}|[[search|Search]]|Search for geocaches by keyword, geocode identification, address, user name, etc.|
 |{{:main_any_default.png?nolink&100|}}|[[goto|Go To]]|Navigate to any arbitrary location using the compass, radar, turn-by-turn navigation or any other supported navigation method.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Global Cache Type Filter]]|Filter the geocaches shown on the live map, search, and your stored geocache lists by geocache type. You can choose to see all geocaches, or only those of one specific type. The text below the icon indicates the currently-active filter.\\ To clear the filter, long press the icon.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Global Cache Type Filter]]|This will be replaced by the new [[..:cachefilter|filter framework]] soon.|
 
 
 ===== Top Bar Menu ===== 
@@ -36,7 +36,7 @@ To see the name of an icon in the top bar, long-press the icon.
 |{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Quick search]]|If you are offline, search your stored geocaches using title, geocode, description, owner, log content, etc. \\ If you have network access, search both stored and online content. You can input a geocode, trackable code, username, and much more.|
 |{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|History]]|View a list of geocaches you have recently logged with c:geo. \\ Note: The list is local to c:geo and is not synchronized with the recently viewed caches list on the geocaching website.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button| Open the overflow list of top bar functions that, based on your screen size, do not appear as icons. The functions include those described in this table.|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open a list of your pocket queries from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Lists / Pocket Queries]]|Open a list of your pocket queries and bookmark lists from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
 |{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Settings]]|Open the c:geo configuration menu.|
 |{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Launch the settings backup function, which can be also found in the [[settings|c:geo Settings]].|
 |{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|

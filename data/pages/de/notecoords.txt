@@ -85,6 +85,7 @@ Der folgende Inhalt wird ausgelesen:
   * **Eigene Notiz**:  Wenn nach der Koordinate direkt ein ''"'' in der gleichen Zeile oder der nächsten Zeile folgt, wird alles zwischen diesem ''"'' und dem nächsten ''"'' als eigene Notiz zu diesem Wegpunkt interpretiert (inklusive Zeilenumbrüche). Wenn nach der Koordinate kein ''"'' aber dennoch weiterer Inhalt in der gleichen Zeile steht, wird dies auch als eigene Notiz zum Wegpunkt erkannt.
   * **Wegpunkttyp**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben
   * **Koordinate**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben. Zusätzlich gibt es die spezielle Markierung ''(NO-COORD)'', die genutzt werden kann um eine leere Koordinate zu erzeugen (dies wird im seltenen Fall benötigt, dass man eine eigene Notiz zu einem existierenden vordefinierten Wegpunkt hinzufügen möchte, der keine Koordinate hat).
+  * **Formel**: Es gelten die gleichen Regeln wie in den oberen Kapiteln beschrieben. Zusätzlich gibt es die spezielle Markierung ''(F-PLAIN)'', die genutzt werden kann, um die Koordinaten des Wegpunktes in dem Koordinatenformat ''Schlicht'' zu berechnen. Oft enthalten Cachebeschreibungen bereits Koordinaten in diesem Format. Du kannst evtl. schon bekannte Werte der Variablen mit dem ''|''-Symbol getrennt angeben. \\Die Formel muss den Kriterien wie unter [[de:coordinatedialog#nutzung_des_schlicht_koordinaten-formats|Nutzung des "Schlicht" Koordinaten-Formats]] beschrieben entsprechen. \\ Kannst du die Werte für die Variablen erst nach und nach ermitteln, empfiehlt es sich, ''Wegpunkt-Extraktion verhindern'' zu aktivieren, bis du alle Variablen in der persönlichen Notiz eingegeben hast. Dann kann du den Wegpunkt mit allen Werten erzeugen und es werden auch gleich die Koordinaten berechnet. (Hinweis: die restlichen Formate sind in Bearbeitung)
 
 Die Wegpunktliste des Geocaches wird mit diesen Informationen wie folgt verändert:
 
@@ -96,6 +97,7 @@ Bei der Veränderung eines Wegpunktes werden die folgenden Regeln angewandt:
 
   * Für vom Owner vorgegebene Wegpunkte können nur die Koordinate (wenn vom Owner leer gelassen) und die eigene Notiz angepasst werden.
   * In bestehenden Wegpunkten werden Daten nur überschrieben, wenn diese entweder leer oder mit dem Standardwert (z.B. systemgenerierter Wegpunktname) gefüllt sind.
+  * Eine Formel im Format ''Schlicht'' wird nur übernommen, wenn noch keine Formel oder Koordinate eingegeben wurde.
 
 Die folgenden Beispiele zeigen unterschiedliche Texte (links) und die daraus automatisch erstellten Wegpunkte (rechts):
 
@@ -103,5 +105,5 @@ Die folgenden Beispiele zeigen unterschiedliche Texte (links) und die daraus aut
 | ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
 | ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
 | ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Hinweis: Dieses Beispiel nimmt an, dass es einen vom Owner vorgegebenen Wegpunkt mit dem Präfix S5 im Geocache gibt//|{{:en:station5.png}} |
-
+| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Hinweis: Im Wegpunkt-Rechner ist die Formel dann eingetragen//|{{:en:final_calculated.png}} |
 

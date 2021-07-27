@@ -14,4 +14,4 @@ Die folgende Tabelle gibt dir einen Überblick über die Unterschiede und Beschr
 |[[.mainmenu:pocketquery|Pocket-Query]]|Pocket-Queries sind eine Premiumfunktion. Daher wird diese Menüfunktion in c:Geo nur angezeigt, wenn du ein Premiummitglied bist.|
 |[[cachedetails#favorite|Favoritenpunkte]]|Die Vergabe von Favoritenpunkten für gefundene Caches ist eine Premiumfunktion. Alle Menüpunkte zur Vergabe von Favoritenpunkten werden daher für Basismitglieder nicht angezeigt.|
 |[[cachedetails#personal_note|Hochladen der persönlichen Notiz]]|Während alle Nutzer von c:geo eine persönliche Notiz für einen Cache speichern können, können nur Premiummitglieder diese Notiz auf die Geocaching-Webseite hochladen und dort dauerhaft speichern.|
-
+|Adventure Lab-Caches|Adventure Lab-Caches von [[http://labs.geocaching.com|labs.geocaching.com]] werden nur Premium-Mitgliedern dieser Plattform angezeigt.|

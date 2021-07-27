@@ -1,5 +1,3 @@
-1592947008	127.0.0.1	E	wiki:welcome		external edit		1705
-1595365134	2001:14bb:410:f378:e84c:585f:8ab:89fd	E	fi:start	vike91	grammar fix		8
 1597858320	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		301
 1597858544	178.26.130.151	E	en:notecoords	eddiemuc	[Automatic creation of waypoints] 		163
 1597859691	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		112
@@ -1551,3 +1549,184 @@
 1622229262	163.158.160.54	E	nl:intents	linstylemon	chrome view		258
 1622229672	163.158.160.54	E	nl:spoilersync	linstylemon	changed basedirectory		250
 1622229942	163.158.160.54	E	nl:translation	linstylemon	Changed requirements		-414
+1622924651	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	en:basicmembers	lineflyer	Add adventure lab as PM feature		150
+1622924713	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	de:basicmembers	lineflyer	Add adventure lab as PM feature		157
+1622958729	85.76.42.36	E	fi:sidebar	vike91	update		107
+1622958769	85.76.42.36	E	fi:sidebar	vike91	update		1
+1622960610	85.76.42.36	C	fi:replacedevice	vike91	luotu		4088
+1622960630	85.76.42.36	E	fi:replacedevice	vike91	[Vanhalla laitteella suoritettavat vaiheet] 		-5
+1622960712	85.76.42.36	E	fi:start	vike91	update		-16
+1622960876	85.76.42.36	E	fi:basicmembers	vike91	update		173
+1622961111	85.76.42.36	E	fi:cacheicons	vike91	update		500
+1622961218	85.76.42.36	E	fi:hiddenfunctions	vike91	update		145
+1622961386	85.76.42.36	E	fi:intents	vike91	update		223
+1622961737	85.76.42.36	E	fi:trackabledetails	vike91	update		16
+1622961999	85.76.42.36	E	fi:spoilersync	vike91	update		237
+1622962060	85.76.42.36	E	fi:quick_widgets	vike91	update		1
+1622962318	85.76.42.36	E	fi:mainmenu:lists	vike91	update		-11
+1622962387	85.76.42.36	E	fi:firststeps	vike91	update		9
+1622962453	85.76.42.36	E	fi:mainmenu:search	vike91	update		1
+1622962635	85.76.42.36	E	fi:mainmenu:start	vike91	update		191
+1622963044	85.76.42.36	C	fi:mainmenu:aboutcgeo	vike91	luotu		981
+1622963498	85.76.42.36	C	fi:mainmenu:history	vike91	luotu		960
+1622964185	85.76.42.36	C	fi:mainmenu:quicksearch	vike91	luotu		1939
+1622964784	85.76.42.36	C	fi:ebook	vike91	luotu		254
+1622964840	85.76.42.36	E	fi:ebook	vike91	bad finnish translation on book template warning		92
+1622964866	85.76.42.36	E	fi:ebook	vike91	lnkfix		-3
+1622965167	85.76.42.36	E	fi:compass	vike91	update		3
+1622965351	85.76.42.36	E	fi:coordinatedialog	vike91	update		0
+1622966714	85.76.42.36	E	fi:logging	vike91	update		1275
+1622966888	85.76.42.36	E	fi:loggingtb	vike91	update		2
+1622967098	85.76.42.36	E	fi:offline	vike91	update		0
+1622967239	85.76.42.36	E	fi:mainmenu:livemap	vike91	update		-109
+1623064886	2001:14bb:440:ee9:dd73:a872:472e:d251	E	fi:notecoords	vike91	update		807
+1623064940	2001:14bb:440:ee9:dd73:a872:472e:d251	E	fi:notecoords	vike91	[Reittipisteiden varmuuskopiointi henkilökohtaiseen muistiinpanoon] 		0
+1623073412	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:offlinemaps	vike91	Revised the whole page due to many many changes.		-1627
+1623075201	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:cachedetails	vike91	updatew		754
+1623078246	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:mainmenu:settings	vike91	update		2148
+1623078302	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:mainmenu:settings	vike91	[Luo varmuuskopio] 		0
+1623078441	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:start	vike91	[Tietoja c:geosta] 		212
+1625083551	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:notecoords	murggel	[Advanced waypoint syntax] 		1123
+1625083682	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:notecoords	murggel	added formula syntax (also the previous change)		-3
+1625084003	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] Beschreibung des tags (F-PLAIN)		1239
+1625090242	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:notecoords	murggel	[Advanced waypoint syntax] other formula formats are in progress		42
+1625090290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] die restlichen Formel-Formate sind in Arbeit		53
+1625503981	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:start	eddiemuc	[Quick Reference] 		36
+1625506932	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	en:cachefilter	eddiemuc	created		3883
+1625507252	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			0
+1625507333	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			39
+1625507356	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-26
+1625507471	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:sidebar	eddiemuc			40
+1625510314	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	C	fi:cachefilter	vike91	luotu		3919
+1625510534	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:start	vike91	update		40
+1625510573	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:sidebar	vike91	update		44
+1625511450	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:notecoords	vike91	update		1244
+1625576588	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc	[Basic filtering] 		-189
+1625590961	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			5073
+1625591088	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			1
+1625634775	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			6
+1625635157	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-1
+1625635885	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2472
+1625638712	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2
+1625638918	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-48
+1625639275	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			596
+1625674806	160.46.252.18	e	en:cachefilter	eddiemuc			808
+1625675599	160.46.252.18	e	en:cachefilter	eddiemuc			1534
+1625677003	160.46.252.18	e	en:cachefilter	eddiemuc			3793
+1625677166	160.46.252.18	e	en:cachefilter	eddiemuc	[Distance filter] 		6
+1625677188	160.46.252.18	e	en:cachefilter	eddiemuc	[Log Entry filter] 		4
+1626549347	163.158.160.54	e	nl:trackabledetails	linstylemon			-1
+1626549457	163.158.160.54	e	nl:start	linstylemon	[Snelle Referenties] 		32
+1626556214	163.158.160.54	C	nl:cachefilter	linstylemon	created and translated		20076
+1626556227	163.158.160.54	e	nl:cachefilter	linstylemon			-165
+1626556317	163.158.160.54	e	nl:mainmenu:search	linstylemon			0
+1626557252	163.158.160.54	e	nl:cachemarkers	linstylemon			-79
+1626557347	163.158.160.54	E	nl:basicmembers	linstylemon	Added Adventure Lab Cache		157
+1626558247	163.158.160.54	E	nl:notecoords	linstylemon	Added Advanced Waypoints syntax section		4363
+1626558793	163.158.160.54	E	nl:notecoords	linstylemon	[Advanced waypoint syntax]  translated		520
+1626559083	163.158.160.54	e	nl:sidebar	linstylemon			44
+1626559128	163.158.160.54	e	nl:start	linstylemon			61
+1626559192	163.158.160.54	e	nl:replacedevice	linstylemon	[Migrate c:geo to another device] translated		41
+1626559272	163.158.160.54	e	nl:replacedevice	linstylemon	[Limitations] 		129
+1626559323	163.158.160.54	e	nl:replacedevice	linstylemon	[Prerequisites] 		55
+1626559377	163.158.160.54	e	nl:replacedevice	linstylemon	[Tasks on the old device] 		59
+1626559511	163.158.160.54	E	nl:replacedevice	linstylemon	translation complete		113
+1626559521	163.158.160.54	e	nl:replacedevice	linstylemon			-165
+1626608857	2001:14bb:a4:cfd3:d036:23ba:3af3:4520	E	fi:cachefilter	vike91	update		16047
+1626608880	2001:14bb:a4:cfd3:d036:23ba:3af3:4520	E	fi:start	vike91	[Tietoja c:geosta] 		1
+1626817119	2a00:1e:9640:fc:1007:2493:897b:b806	E	de:start	lineflyer	[Schnellreferenz] 		35
+1626817149	2a00:1e:9640:fc:1007:2493:897b:b806	C	de:cachefilter	lineflyer	angelegt		18132
+1626817170	2a00:1e:9640:fc:1007:2493:897b:b806	E	de:start	lineflyer	[Schnellreferenz] 		0
+1627045784	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:translation	ijeantet	[Prérequis] Remove self registration		-465
+1627046265	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	fr:cachedetails	ijeantet	créée		22473
+1627047057	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:cachedetails	ijeantet	[Geocache Details] First translation to French		188
+1627299599	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:cachedetails	ijeantet	[Top bar menu] First translation to French		395
+1627330499	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:sidebar	lineflyer	Add cache filter to german sidebar		40
+1627330619	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	change link		-1
+1627330627	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Cache Filtering] 		-1
+1627330884	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	Fix some typos and fix links to be language independant		-12
+1627330901	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	D	de:cachefilter	lineflyer	reset		-18132
+1627331064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	de:cachefilter	lineflyer	angelegt		18311
+1627331113	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	Replace click by tap		-4
+1627331241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachefilter	lineflyer	translate		-89
+1627331470	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic filtering] 		57
+1627331486	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	[Basic filtering] 		0
+1627331697	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Standardfilter] 		33
+1627332115	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Cache Type Filter] 		70
+1627332270	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		143
+1627332350	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1646
+1627332459	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		-593
+1627332530	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		1167
+1627332540	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		28
+1627332561	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Advanced filtering] 		29
+1627332849	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		102
+1627333438	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic status filter] 		152
+1627333600	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		47
+1627333811	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		30
+1627333883	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Creating and deleting filter criteria] 		174
+1627333927	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Creating and deleting filter criteria] 		37
+1627334248	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Hinzufügen und Entfernen von Filterkriterien] 		1
+1627334457	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Load and save filters] 		147
+1627334876	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Additional filter options] 		48
+1627334953	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Available filter criteria] 		31
+1627373859	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Basic"] 		51
+1627373952	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Details"] 		45
+1627373996	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Category "Details"] 		2
+1627374376	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		117
+1627374384	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		-1
+1627374617	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "User Specific"] 		89
+1627374692	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[Filtering] removed 		-1786
+1627374754	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[List menu] Link to new filter page		-1
+1627374815	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Add filter function		174
+1627374874	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Filter] entfernt		-1989
+1627374902	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Listenmenü] LInk filter to new filter page		-1
+1627374920	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Listenmenü] 		0
+1627374939	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		181
+1627374956	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		-1
+1627374970	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:livemap	lineflyer	.		1
+1627375001	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter criteria details] 		3
+1627375596	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Text filters] 		126
+1627375783	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		10
+1627375800	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		4
+1627375816	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		13
+1627376187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		0
+1627376347	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Textfilter] 		45
+1627376558	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Date filters] 		87
+1627376598	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Datumfilter] 		2
+1627376673	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Status filter] 		104
+1627376716	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-28
+1627376848	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Status filter] 		1
+1627376930	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1
+1627376956	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		47
+1627377009	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		1
+1627377017	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		-1
+1627377064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		-1
+1627377081	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-1
+1627377577	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		167
+1627377804	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Attributes filter] 		29
+1627377914	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Size filter] 		65
+1627380241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Favorites filter] 		106
+1627380420	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Log Entry filter] 		50
+1627381555	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Logs Count filter] 		-35
+1627381747	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Distance filter] 		97
+1627381974	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Entfernungsfilter] 		-1
+1627382112	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Dynamic Checkbox filters] 		121
+1627382124	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	Remove Fixme		-179
+1627382219	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Main Icons] 		-206
+1627382289	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[List menu] 		-50
+1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:lists	lineflyer	Batch replace link to filter page		-1
+1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
+1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
+1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
+1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
+1627382545	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:globaltypefilter	lineflyer	Deprecation notice		126
+1627382603	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:globaltypefilter	lineflyer	Depracation notice		131
+1627382661	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Hauptsymbole] 		-230
+1627382731	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Top Bar Menu] PQ menu now also contains bookmark lists		27
+1627382754	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		28
+1627382841	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:pocketquery	lineflyer	Include lists as well as PQs		121
+1627382936	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:pocketquery	lineflyer	Listen hinzufügen statt nur PQ		161
+1627401684	85.76.113.117	E	fi:mainmenu:globaltypefilter	vike91	update		122
+1627401706	85.76.113.117	E	fi:mainmenu:globaltypefilter	vike91	oops,fix		8
+1627401827	85.76.113.117	E	fi:mainmenu:livemap	vike91	update		183
+1627401865	85.76.113.117	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		2

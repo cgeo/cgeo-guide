@@ -43,3 +43,37 @@ welke vervolgens automatisch in deze waypoints worden gemaakt:
 
 {{:en:personalnote_wp_4.png?direct&600|}}
 
+===== Geavanceerde waypoint-syntaxis =====
+
+Misschien heb je gemerkt dat waypoints van persoonlijke notities zijn gemaakt met standaardnamen zoals b.v. ''Persoonlijke notitie 2''. Als je meer geavanceerde waypoint-bewerkingen wilt uitvoeren vanuit je persoonlijke notities, moet je een geavanceerde waypoint-syntaxis gebruiken. Hiermee kun je:
+   * Eigenschappen wijzigen van vooraf gedefinieerde waypoints (=waypoints die vooraf zijn gedefinieerd door de cache-eigenaar in de lijst): coördinaat en gebruikersnotitie
+   *Waypoint type, naam en gebruikersnotitie wijzigen in door de gebruiker gedefinieerde waypoints
+
+Gebruik hiervoor de volgende syntaxis in je persoonlijke notitie:
+
+''@[<prefix>]<name> (<waypointTypeId>) <coordinate> "<user note>"''
+
+Het geavanceerde formaat wordt herkend wanneer het begint met een ''@'' aan het begin van een nieuwe regel. De volgende inhoud wordt geparseerd:
+* **Waypointnaam**: alles tussen ''@'' en de coördinaat wordt beschouwd als onderdeel van de waypointnaam, behalve wanneer het tussen haakjes ''()'' staat
+* **Voorvoegsel**: Als de ''@'' direct gevolgd wordt door vierkante haken ''[]'', dan wordt de inhoud van deze haken beschouwd als het voorvoegsel van het waypoint dat je wilt bewerken
+* **Gebruikersopmerking**: Als de coördinaat onmiddellijk wordt gevolgd door ''"'' (in dezelfde of volgende regel), dan wordt alles tussen deze ''"'' en de volgende ''"'' beschouwd als onderdeel van de **gebruikersnotitie** van het waypoint (inclusief regeleinden). Als het coördinaat niet wordt gevolgd door ''"'' maar aanvullende inhoud op dezelfde lijn heeft, wordt deze inhoud beschouwd als de gebruikersnotitie van het waypoint
+* **Waypoint-type**: dezelfde regels zijn van toepassing als besproken in vorige secties.
+* **Coördinaat**: dezelfde regels zijn van toepassing als besproken in vorige secties. Daarnaast is er een "speciale" coördinaten tag ''(NO-COORD)'' die kan worden gebruikt om een lege coördinaat te specificeren (dit is nodig in het zeer speciale geval dat men de gebruikersnotitie van een vooraf gedefinieerd waypoint wil wijzigen geen coördinaat)
+  * **Formule**: dezelfde regels zijn van toepassing als besproken in vorige secties. Daarnaast is er een "speciale" formule-tag ''(F-PLAIN)'' die kan worden gebruikt om een formule in het ''plain''-formaat te specificeren. Cache-listings bevatten vaak al formules in dit formaat. Je kunt elke reeds bekende waarde voor de variabelen specificeren, gescheiden door het ''|''-symbool. \\ De syntaxis van de formule moet voldoen aan de criteria zoals beschreven in [[nl:coordinatedialog#using_plain_coordinate_format|Platte coördinaten gebruiken]]. \\ Als je de waarden voor de variabelen alleen stap voor stap kunt bepalen, is het aan te raden om ''Voorkom waypoints extractie'' in te schakelen totdat je alle variabelen in de persoonlijke notitie hebt ingevoerd. Vervolgens kan het waypoint worden aangemaakt met alle waarden en worden de coördinaten berekend. (Let op: de andere formaten zijn in uitvoering)
+De lijst met geocaches-waypoints wordt als volgt aangepast met deze informatie:
+   * Als een **voorvoegsel** wordt geparseerd en er wordt een waypoint gevonden met hetzelfde prefix, dan wordt aangenomen dat dit waypoint moet worden aangepast. Dit wordt meestal alleen gebruikt voor vooraf gedefinieerde waypoints.
+   * Als een waypoint wordt gevonden met dezelfde coördinaat als het geparseerde waypoint, wordt aangenomen dat dit waypoint moet worden aangepast.
+   * Anders wordt er een nieuw waypoint aangemaakt.
+
+Indien een waypoint wordt gewijzigd, gelden de volgende regels:
+   * Voor vooraf gedefinieerde waypoints zijn de enige dingen die kunnen worden gewijzigd de coördinaat (als de cache-eigenaar deze leeg heeft gedefinieerd) en de gebruikersnotitie.
+   * In bestaande waypoints worden velden alleen overschreven als ze leeg zijn of gevuld met een standaardwaarde (bijv. door het systeem gegenereerde waypointnaam)
+   * Een formule in ''Plat''-formaat wordt alleen overgenomen als er nog geen formule of coördinaat is ingevoerd.
+
+De volgende voorbeelden tonen verschillende teksten aan de linkerkant en de waypoints die daaruit zijn gemaakt aan de rechterkant
+
+^ Persoonlijke notitie tekst ^ geproduceerd waypoint ^
+| ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
+| ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
+| ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Note: this example assumes that there is a predefined waypoint in the listing with prefix S5//|{{:en:station5.png}} |
+| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formule wordt berekend met de variabelen"'' \\ \\ //Opmerking: de formule wordt dan overgebracht naar de waypoint-calculator (formaat ''Plat'')//|{{:en:final_calculated.png}} |

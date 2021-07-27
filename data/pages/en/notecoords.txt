@@ -84,6 +84,7 @@ The advanced format is recognized when it starts with a ''@'' at the beginning o
   * **User note**: If the coordinate is immediately followed by ''"'' (in same or next line), then everything between this ''"'' and the next ''"'' is considered to be part of the waypoint's **user note** (including line breaks). If the coordinate is not followed by ''"'' but has additional content on same line, then this content is considered to be the waypoint's user note
   * **Waypoint type**: same rules apply as discussed in previous sections.
   * **Coordinate**: same rules apply as discussed in previous sections. Additionally there is a "special" coordinate tag ''(NO-COORD)'' which can be used to specify an empty coordinate (this is necessary in the very special case that one wants to modify the user note of a predefined waypoint which has no coordinate)
+  * **Formula**: same rules apply as discussed in previous sections. Additionally there is a "special" formula tag ''(F-PLAIN)'' which can be used to specify a formula in the ''plain''-format. Cache-listings often contains already formulas in this format. You can specify any already known value for the variables separate by the ''|''-symbol. \\ The syntax of the formula must satisfy the criterias as described in [[en:coordinatedialog#using_plain_coordinate_format|Using Plain Coordinate Format]]. \\ If you can determine the values for the variables only step by step, it is recommended to enable ''Prevent waypoints extraction'' until you have entered all variables in the personal note. Then the waypoint can be created with all values and the coordinates are calculated. (Note: the other formats are in progress)
 
 The geocaches waypoint list is modified with this information as follows:
   * If a **prefix** is parsed and a waypoint is found with the same prefix, then it is assumed that this waypoint should be modified. This is usually only used for predefined waypoints.
@@ -93,6 +94,7 @@ The geocaches waypoint list is modified with this information as follows:
 In case a waypoint is modified, the following rules apply:
   * For predefined waypoints the only things that can be modified are the coordinate (if the cache owner defined it empty) and the user note.
   * In existing waypoints, fields are only overridden when they are empty or filled with a default value (e.g. system-generated waypoint name)
+  * A formula in ''Plain''-format will only be adopted if no formula or coordinate has been entered yet.
 
 The following examples show different texts on the left and the waypoints created out of them on the right
 
@@ -100,4 +102,4 @@ The following examples show different texts on the left and the waypoints create
 | ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
 | ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
 | ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Note: this example assumes that there is a predefined waypoint in the listing with prefix S5//|{{:en:station5.png}} |
-
+| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Note: The formula is then transferred to the waypoint calculator (format ''Plain'')//|{{:en:final_calculated.png}} |

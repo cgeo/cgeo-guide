@@ -1,0 +1,44 @@
+1626817149	2a00:1e:9640:fc:1007:2493:897b:b806	C	de:cachefilter	lineflyer	angelegt		18132
+1627330901	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	D	de:cachefilter	lineflyer	reset		-18132
+1627331064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	de:cachefilter	lineflyer	angelegt		18311
+1627331241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachefilter	lineflyer	translate		-89
+1627331470	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic filtering] 		57
+1627331697	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Standardfilter] 		33
+1627332115	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Cache Type Filter] 		70
+1627332530	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		1167
+1627332540	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		28
+1627332849	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		102
+1627333438	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic status filter] 		152
+1627333600	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		47
+1627333811	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		30
+1627333883	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Creating and deleting filter criteria] 		174
+1627334248	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Hinzufügen und Entfernen von Filterkriterien] 		1
+1627334457	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Load and save filters] 		147
+1627334876	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Additional filter options] 		48
+1627334953	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Available filter criteria] 		31
+1627373859	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Basic"] 		51
+1627373952	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Details"] 		45
+1627374376	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		117
+1627374384	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		-1
+1627374617	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "User Specific"] 		89
+1627375001	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter criteria details] 		3
+1627375596	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Text filters] 		126
+1627376347	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Textfilter] 		45
+1627376558	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Date filters] 		87
+1627376598	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Datumfilter] 		2
+1627376673	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Status filter] 		104
+1627376716	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-28
+1627377009	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		1
+1627377017	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		-1
+1627377064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		-1
+1627377081	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-1
+1627377577	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		167
+1627377804	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Attributes filter] 		29
+1627377914	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Size filter] 		65
+1627380241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Favorites filter] 		106
+1627380420	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Log Entry filter] 		50
+1627381555	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Logs Count filter] 		-35
+1627381747	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Distance filter] 		97
+1627381974	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Entfernungsfilter] 		-1
+1627382112	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Dynamic Checkbox filters] 		121
+1627382124	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	Remove Fixme		-179

@@ -90,6 +90,7 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[cachemarkers|Geocache markering pictogrammen]]
   * [[cachedetails#waypoint_types|Waypoint typen]]
   * [[mapsources|Kaartbronnen]] 
+  * [[cachefilter|Cachefilter]]
   * [[basicmembers|Beperkingen voor basisleden]]
   * [[coordformat|Cooördinaat formaten]]
   * [[attributes|Attributen]]
@@ -105,6 +106,7 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
   * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
   * [[quick_widgets|Snelle toegang en widgets gebruiken als snelkoppelingen voor sommige c: geo-functies]]
+  * [[replacedevice|C:geo migreren naar een ander apparaat]]
 
 ===== Plugins and Addon functions =====
 {{anchor:plugins}}

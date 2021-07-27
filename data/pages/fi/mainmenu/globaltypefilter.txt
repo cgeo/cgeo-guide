@@ -1,4 +1,6 @@
-
+<WRAP center round important 100%>
+Tämä suodatin korvataan lähiaikoina  [[..:cachefilter|uudella suodatinkehyksellä]].
+</WRAP>
 ====== Yleinen kätkötyyppisuodatin ======
 
 {{:main_filter_default.png?nolink&100 |}}

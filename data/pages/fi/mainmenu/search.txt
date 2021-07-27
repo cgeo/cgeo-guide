@@ -14,9 +14,9 @@ Kaikki hakutoiminnot käyttävät kaikkia aktivoituja geokätköilypalveluja, ja
 </WRAP>
 
 ^ Hakutoiminto ^ Selite ^
-|{{ :ic_menu_myplaces.png?nolink&30 |}}|Tämän kuvakkeen klikkaus listaa kaikki omat kätkösi.|
+|{{ :ic_menu_myplaces.png?nolink&30 |}}|Tämän kuvakkeen napautus listaa kaikki omat kätkösi.|
 |Koordinaatit|Etsi kätköjä annettujen koordinaattien mukaan. Lisätietoja löytyy [[..:coordinatedialog|koordinaattinäytön]] ohjesivulta.|
-|Osoite|Etsi kätköjä annetun osoitteen mukaan. Käytämme Googlen geokoodauspalvelua ja käännämme osoitteen koordinaateiksi..\\ Osoitteen löytyessä voit joko ladata listan tämän sijainnin lähistöllä olevista kätköistä tai avata [[livemap|livekartan]] tässä osoitteessa klikkaamalla pientä karttakuvaketta hakutulosnäytössä|
+|Osoite|Etsi kätköjä annetun osoitteen mukaan. Käytämme Googlen geokoodauspalvelua ja käännämme osoitteen koordinaateiksi..\\ Osoitteen löytyessä voit joko ladata listan tämän sijainnin lähistöllä olevista kätköistä tai avata [[livemap|livekartan]] tässä osoitteessa napauttamalla pientä karttakuvaketta hakutulosnäytössä|
 |GC-koodi|Etsi tietyn kätkökoodin mukaan kaikilta tuetuilta geokätköilypalvelimilta, riippuen koodin alkuosasta (kuten GC77, OC1234).|
 |Hakusanat|Etsi kätköjä, jotka **alkavat** haetuilla sanoilla.\\ \\ :!: Hakusanalla tehtävä haku, joilla haetaan hakusanan **sisältäviä** kätköjä, ei ole tällä hetkellä teknisten rajoitusten vuoksi mahdollinen.|
 |Käyttäjä löytänyt|Etsi tietyn käyttäjänimen löytämiä kätköjä.|

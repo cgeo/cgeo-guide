@@ -1,0 +1,284 @@
+====== Kätköjen suodatus ======
+
+Kätköjen suodatusta voidaan käyttää hyödyksi useissa c:geon toiminnoissa, kuten [[.:mainmenu:livemap|live-kartalla]], [[.:mainmenu:lists|tallennetuissa kätköissä]], tai online-[[.:mainmenu:search|haussa]]. Samaa suodatinmekanismia käytetään kaikissa näissä.
+
+===== Suodattimiin pääsy =====
+
+Suodatinasetukset löytyvät asetusvalikon kautta klikkaamalla suodatinkuvaketta {{:ic_menu_filter.png?nolink&30|}}. 
+
+Jos suodatin on jo aktiivisena, se näytetään yläotsikossa yläpalkin alapuolella. Myös klikkaamalla tätä yläotsikkoa voidaan avata suodatinasetukset. Esimerkkinä seuraava kaappaus näyttää sekä suodatinkuvakkeen että suodatinyläotsikon (ympyröity punaisella), jossa nykyinen suodatin on asetettu näyttämään vain kätköt, joiden tyyppi on "Tradi".
+
+{{ :en:filter-access.png?direct&400 |}}
+
+{{anchor:filter_basic:}}
+===== Perussuodatus =====
+
+Perussuodatus mahdollistaa suodatuksen kätkötyypin, vaikeuden ja maaston mukaan:
+
+{{ :en:filter-basic.png?direct&400 |}}
+
+Seuraava taulukko selostaa suodatintoiminnot:
+
+^ Kuvake ^ Toiminto ^ Selite ^
+|{{:abc_ic_cab_done_holo_light.png?nolink&30 |}} | Aseta | Sulkee näkymän ja asettaa nykyisen näytön sisällön suodattimen mukaiseksi.|
+|{{:abc_ic_clear_normal.png?nolink&30 |}} | Peruuta | Sulkee näkymän ja peruu suodatinmuutokset. |
+|{{:ic_menu_delete.png?nolink&30 |}} | Tyhjennä | Tyhjentää suodattimen, eli asettaa sen tilaan jossa se ei suodata mitään (kaikki kätköt näytetään, kaikki maastot/vaikeudet valittu). |
+|{{:en:filter-advanced-switch.png?nolink&150|}}| Perus/Edistynyt tila | Vaihtaa perus- ja [[#filter_advanced|edistyneen]] suodatustilan välillä. |
+
+Loput näytöstä on jaettu eri osioihin. Voit asettaa suodatinkriteerin useampaan kuin yhteen osioon, jolloin suodatinkriteerit yhdistellään käyttämällä JA-logiikkaa. Esimerkiksi, valintojen **Kätkötyyppi** sekä **Vaikeus** asettaminen tilaan //Tradikätkö// ja //1.0-3.0// suodattaa vain kätköt jotka sekä ovat tyyppiä //Tradikätkö// että omaavat **Vaikeus** <= 3.0.
+
+{{anchor:filter_basic_cachetype:}}
+
+==== Kätkötyyppisuodatin ====
+
+
+Suodata kätkötyypin mukaan. Käytä laatikoita merkataksesi/poistaaksesi kätkötyypit, jotka haluat sisällyttää mukaan listaan. Käytä **Valitse kaikki** -laatikkoa nopeaksesi merkataksesi tai poistaa laatikoiden merkinnät kaikille kätkötyypeille.
+
+c:geo tukee yli 20 kätkötyyppiä useissa geokätköilypalveluissa. Helpottaaksemme suodatusnäkymää, jotkut valittavat kätkötyypit pitävät sisällään muitakin kätkötyyppejä. Tämä logiikka kopioitiin mahdollisimman tarkasti geocaching.com:in käyttäytymisestä:
+^ Kuvake ^ Kätkötyyppisuodatin ^ Suodattaa seuraavat kätkötyypit ^
+| {{ :type_traditional.png?nolink&50 |}} | Tradikätkö | Tradikätkö, Geocaching HQ, Project APE Cache |
+| {{ :type_event.png?nolink&50 |}} | Tapahtuma | Tapahtumakätkö, Megatapahtuma, Gigatapahtuma, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit, Geocaching HQ Block Party |
+| {{ :type_virtual.png?nolink&50 |}} | Virtuaali | Virtual Cache, Locationless (Reverse) Cache |
+
+{{anchor:filter_basic_difficultyterrain:}}
+==== Vaikeus/Maastosuodatin ====
+
+Suodata valintojen **Vaikeus** tai **Maasto** mukaan. Käytä liukuvalitsimia valitaksesi arvovälin, jonka mukaan kätköt suodatetaan. Suodatus tehdään sisältävästi, eli liukusäätimen asetus arvoon //1.5-3.0// sisällyttää tuloksiin kätköt joissa **Vaikeus** on //1.5//, mutta ei niitä, joissa **Vaikeus** on //1.0//.
+
+Huomaathan, että suodattimen asetus täyteen väliin (//1.0-5.0//) sisällyttää tuloksiin myös ne kätköt, joissa ei ole ollenkaan arvoa **Vaikeus** tai **Maasto** (kuten käyttäjän määrittämät kätköt).
+
+
+===== Edistynyt suodatus =====
+
+Käyttääksesi edistynyttä kätkösuodatinta, napauta **Perus/Edistynyt tilan vaihto**. Tämä vaihtaa suodatinnäkymän asettelun seuraavan kaltaiseksi:
+
+{{ :en:filter-advanced.png?direct&400 |}} 
+
+**Edistynyt**-tilassa suodatustoimintoon tulee esille useita valintoja, jotka selostetaan seuraavassa osiossa.
+
+==== Suodatinkriteerien luonti ja poisto ====
+
+**Perus**tilassa saatavilla olevat suodatinkriteerit on rajoitettu kriteereihin //Kätkötyyppi//, //Vaikeus// ja //Maasto//.
+**Edistynyt**-tilassa voit vapaasti lisätä tai poistaa suodatinkriteereitä rakentaaksesi oman henkilökohtaisen suodattimen. Voit jopa lisätä saman kriteerin useamman kerran, esimerkiksi luodaksesi suodattimen, joka sisältää useita tekstipaloja kätkön nimessä.
+
+{{ :en:filter-advanced-addremovecriteria.png?direct&400 |}} 
+
+Lisätäksesi suodatinkriteerin, napauta **Lisää suodatinkriteeri** -nappia ylhäällä oikealla. Tällöin avautuu ikkuna, joka listaa kaikki saatavilla olevat suodatinkriteerit:
+
+{{ :en:filter-advanced-criterias.png?direct&300 |}} 
+
+Kriteerin valinta lisää kyseisen kriteerin kriteerilistaan. Kaikki kriteerit selostetaan [[#filter_criterias|täällä]].
+
+Poistaaksesi suodatinkriteerin, napauta roskakorin kuvaketta {{:ic_menu_delete.png?nolink&30 |}} sen oikeassa ylänurkassa.
+
+Vaihtaaksesi listassa olevien suodatinkriteerien järjestystä, napauta ja vedä vetokuvaketta {{:settings_details_black.png?nolink&30 |}} sen oikeassa ylänurkassa.
+
+==== Lataa ja tallenna suodattimet ====
+
+Suodatinkokonaisuudet voi vapaasti tallentaa ja ladata käyttäen vapaavalintaista nimeä.
+
+{{ :en:filter-advanced-saveload.png?direct&400 |}} 
+
+Tallentaaksesi suodattimen, napauta tallennuskuvaketta {{:ic_menu_save.png?nolink&30 |}}. Esiin tulee ikkuna, jossa voit syöttää nimen suodattimelle:
+
+{{:en:filter-advanced-save-dialog.png?direct&300|}} 
+
+Ladataksesi tai poistaaksesi olemassa olevan suodattimen, napauta muokkauskuvaketta {{:ic_menu_agenda.png?nolink&30|}}. Esiin tulee ikkuna, joka sisältää kaikki olemassa olevat suodattimet, ja voit valita niistä yhden ja joko ladata tai poistaa sen:
+
+{{ :en:filter-advanced-load-dialog.png?direct&300 |}} 
+
+==== Suodattimien lisäasetukset ====
+
+Suodattimien lisäasetukset ovat saatavissa edistyneessä tilassa:
+
+{{ :en:filter-advanced-additional-options.png?direct&400 |}} 
+
+^ Toiminto ^ Selite ^
+| Käytä TAI:ta JA:n sijaan | Suodatinkriteerit yhdistellään yleensä käyttäen JA-logiikkaa (kuten selostettu kohdassa [[#filter_basic:Perustila]]). Kun tämä on valittuna, suodatinkriteerit yhdistellään käyttäen TAI-logiikkaa.|
+| Käänteinen suodatin | Kääntää suodattimen päinvastaiseksi (eli käytetään logiikkaa EI). Kääntää suodattimen päinvastaiseksi, eli suodattaa POIS ne kätköt, jotka sopivat suodatinkriteereihin, ja näyttää ne kätköt, jotka EIVÄT sovi suodatinkriteereihin.|
+| Sisällytä epävarmat osumat | Joissakin tilanteissa c:geo ei pysty arvioimaan joitakin suodattimia. Esimerkiksi //attribuutit//-suodatinta ei voida käyttää niihin kätköihin, joita ei ole tallennettu laitteeseen. Kätköt, jotka menevät tähän kategoriaan, oletetaan olevan 'epävarmoja'. koska c:geo ei voi päätellä täyttääkö ne suodatikriteerit vai ei. Normaalisti näitä kätköjä EI näytetä tuloksissa. Valitsemalla tämän, voit pyytää c:geota näyttämään kyseiset kätköt tuloksissa. |
+
+{{anchor:filter_criterias:}}
+===== Saatavilla olevat suodatinkriteerit =====
+	
+Seuraava taulukko listaa kaikki saatavilla olevat suodatinkriteerit. Näitä kriteereitä voidaan käyttää mielivaltaisten ja monimutkaisten suodattimien luomiseen **Edistynyt**-tilassa.
+
+Joitakin suodatinkriteereitä selostetaan yksityiskohtaisemmin jatko-osioissa.
+
+==== Kategoria "Perus" ====
+
+^ Suodatin ^ Selite ^ 
+| Kätkön kuvaus | [[#filter_criteria_text|Tekstisuodatin]] kätkön kuvaukseen|
+| Kätkön nimi | [[#filter_criteria_text|Tekstisuodatin]] kätkön nimeen |
+| Kätkön omistaja | [[#filter_criteria_text|Tekstisuodatin]] kätkön omistajan nimimerkkiin |
+| Kätkötyyppi | Kätkötyypin suodatin. Tämä on perussuodatin, joka selostetaan [[#filter_basic_cachetype|täällä]] |
+| Piilotuspäivä | [[#filter_criteria_date|Päivämääräsuodatin]] kätkön piilotuspäivälle |
+| Tila | Suodattaa kätköt käyttämällä eri kätkön tilan arvoja, kuten Löytyi, Oma, Hyllytetty tai Arkistoitu. Tämä suodatin selostetaan [[#filter_criteria_status|täällä]].|
+
+==== Kategoria "Yksityiskohdat" ====
+
+^ Suodatin ^ Selite ^ 
+| Alkuperä | Suodattaa kätköt niiden alkuperän mukaan, kuten //Geocaching.com// tai //opencaching.de//. Tämä on [[#filter_criteria_dynamiccheckboxlist|dynaaminen valintasuodatin]]. |
+| Kätkön attribuutit | Suodattaa kätköt käyttämällä kätkön attribuutteja, kuten "Suositellaan lapsille" tai "Vaatii huomaamatonta toimintaa". Tämä suodatin selostetaan  [[#filter_criteria_attributes|täällä]]. |
+| Kätkön koko | Suodattaa kätköt niiden koon mukaan (kuten Tavallinen, Pieni, Mikro). Tämä suodatin selostetaan [[#filter_criteria_size|täällä]]. |
+| Lokien määrä| Suodattaa kätköt lokien määrän mukaan. Tämä suodatin selostetaan [[#filter_criteria_logscount|täällä]]. |
+| Lokikirjaus | Suodattaa kätköt sen lokikirjausten sisällön mukaan. Tämä suodatin selostetaan [[#filter_criteria_logentry|täällä]]. |
+| Maasto | Suodattaa kätköt sen maastoarvon mukaan. Tämä on perussuodatin, joka selostetaan [[#filter_basic_difficultyterrain|täällä]]. |
+| Sijainti| [[#filter_criteria_text|Tekstisuodatin]] kätkön sijainnille (kuten maa tai maakunta). Kirjoittaminen tähän tekstisuodattimeen näyttää tulokset, kuten "Germany" tai "Bavaria", riippuen kätköistäsi, jotka on tallennettu laitteellesi.|
+| Suosikit | Suodattaa kätköt suosikkipisteiden mukaan. Tämä suodatin selostetaan [[#filter_criteria_favorites|täällä]]. |
+| Vaikeus | Suodattaa kätköt sen vaikeusarvon mukaan. Tämä on perussuodatin, joka selostetaan [[#filter_basic_difficultyterrain|täällä]]. |
+| Viimeinen löytöpäivä | [[#filter_criteria_date|Päivämääräsuodatin]] viimeisimmän löydön päivämäärälle|
+
+==== Kategoria "Käyttäjäkohtainen" ====
+
+^ Suodatin ^ Selite ^ 
+| Etäisyys | Suodattaa kätköt niiden etäisyyden mukaan tietystä pisteestä. Tämä suodatin selostetaan [[#filter_criteria_distance|täällä]]. | 
+| Offline-loki | [[#filter_criteria_text|Tekstisuodatin]] olemassa oleville offline-kirjauksille | 
+| Omat merkinnät | [[#filter_criteria_text|Tekstisuodatin]] kätkön henkilökohtaiselle muistiinpanolle. | 
+| Tallennettuna | Suodattaa kätköt niiden tallennusiän mukaan c:geossa (kuten montako päivää sitten kätkön offline-tiedot on viimeksi päivitetty). |
+| Tallennetut listat| Suodattaa kätköt niiden käyttäjän määrittämillä listoilla olon mukaan. Tämä on  [[#filter_criteria_dynamiccheckboxlist|dynaaminen valintasuodatin]]. | 
+
+
+{{anchor:filter_criterias:}}
+===== Suodatinkriteerien tiedot =====
+
+{{anchor:filter_criteria_text:}}
+==== Tekstisuodattimet ====
+
+Tekstisuodatin etsii tekstiä kätkötiedoista tietystä kentästä, esim. //Nimi// tai //Kuvaus//. Kaikki tätä suodatustapaa käyttävät suodattimet toimivat samalla tavalla, ja selostetaan alla käyttäen tapaa //Kätkön nimi// esimerkkinä.
+
+{{ :en:filter-criteria-textfilter.png?direct&400 |}}
+
+Tekstisuodatuksen tyyppi voidaan valita napauttamalla **Tekstisuodattimen tyyppi**-nappia, joka näyttää aluksi arvon //Sisältää//.
+Tekstityyppi sekä **Hakukenttä**än syötetty teksti määrittävät yhdessä sen, mitkä kätköt suodatetaan.
+
+^ Suodatintyyppi ^ Selite ^ 
+| On olemassa | Suodattaa kaikki kätköt, joissa suodatettu kenttä sisältää ei-tyhjän arvon. | 
+| Ei ole olemassa | Suodattaa kaikki kätköt, joissa suodatettu kenttä ei sisällä arvoa tai sisältää tyhjän arvon.| 
+| Sisältää | Suodattaa kaikki kätköt, joissa suodatettu kenttä sisältää missä tahansa kohdassa **hakukentässä** olevan tekstin.| 
+| Alkaa | Suodattaa kaikki kätköt, joissa suodatettu kenttä alkaa **hakukentässä** olevalla tekstillä.| 
+| Päättyy | Suodattaa kaikki kätköt, joissa suodatettu kenttä päättyy **hakukentässä** olevalla tekstillä.| 
+| Kuvio | Suodattaa kaikki kätköt, joissa suodatetussa kentässä oleva arvo täsmää **hakukentässä** olevaan kuvioon. Voit käyttää jokerimerkkejä **?** ja *. * edustaa nollaa, yhtä tai useampaa merkkiä, ? edustaa yhtä merkkiä. Esimerkiksi kuvio \'H?mburg*\' palauttaa tulokseksi esim. \'Homburg\' tai \'Hamburg at Night\' mutta ei \'A day in Hamburg\' tai \'Hahmburg\' |
+
+Käyttämällä valintaa **Sama kirjainkoko** voit päättää merkitseekö kirjainkoko haussa.
+
+{{anchor:filter_criteria_date:}}
+
+==== Päivämääräsuodattimet ====
+
+Päivämääräsuodatin suodattaa päivämäärän mukaisesti, verraten haettavaa päivämäärää kätkön tiedoissa olevaan päivämäärään, esim. piilotuspäivä. Kaikki tätä suodatustapaa käyttävät suodattimet toimivat samalla tavalla, ja selostetaan alla käyttäen tapaa //Piilotuspäivä// esimerkkinä.
+
+{{ :en:filter-criteria-datefilter.png?direct&400 |}} 
+
+Tämäntyyppinen suodatin antaa hakea päivämäärän perusteella Mistä - Mihin -välillä, jossa sekä Mistä että Mihin voivat olla valinnaisesti tyhjiä. Napauta kutakin painiketta **Mistä:** ja **Mihin** -merkkien vieressä asettaaksesi päivämäärän. Päivämäärän valitsimessa voit myös valita **Tyhjennä** tyhjentääksesi päivämäärän.
+
+{{anchor:filter_criteria_status:}}
+==== Tilasuodatin ====
+
+Tilasuodatin suodattaa kätköt erilaisten tila-arvojen mukaan ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-status.png?direct&400 |}} 
+
+Sisällyttääksesi/pois rajataksesi kätköjä, joissa on tilat **Aktiivinen**, **Ei käytössä** tai **Arkistoito**, napauta suodattimen yläreunassa kunkin valinnan kohdalta valinta päälle/pois tarpeen mukaan.
+
+Muut tilavalinnat antavat valita yhden seuraavista kolmesta arvosta:
+ * **Kaikki**: Kätköjä ei suodateta tämän kriteerin mukaan.
+ * **Kyllä**: Vain kätköt, jotka täyttävät tämän kriteerin, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Kyllä// sisällyttää tuloksiin vain löydetyt kätköt.
+ * **Ei**: Vain kätköt, jotka **EIVÄT** täytä tätä kriteeriä, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Ei// sisällyttää tuloksiin vain ei-löydetyt kätköt.
+
+Seuraavat tilasuodattimet ovat saatavilla (Selite selostaa mitä suodatetaan kun valitaan //Kyllä//):
+
+^ Tilasuodatin ^ Selite ^ 
+| Löydetty | Suodattaa kätköt jotka olet löytänyt. | 
+| Omat | Suodattaa kätköt jotka omistat. | 
+| Sisältää offline-lokin | Suodattaa kätköt joissa on tallennettu offline-loki. |
+| Tallennettu | Suodattaa kätköt jotka on paikallisesti tallennettu. |
+| Oma suosikki | Suodattaa kätköt joille olet antanut suosikkipisteen. |
+| Seurantalistalla| Suodattaa kätköt jotka ovat seurantalistallasi. |
+| Premium | Suodattaa kätköt jotka ovat saatavilla vain Premium-käyttäjille (vain geocaching.com). |
+| Sisältää reissaajan |Suodattaa kätköt joissa on ainakin yksi reissaaja kirjattu sisälle. |
+| Sisältää oman äänen | Suodattaa kätköt joille olet antanut äänen. |
+| Ratkaistu mysteeri | Suodattaa mysteerikätköt, joita pidetään //ratkaistuna//. Mysteeri oletetaan olevan //ratkaistu// jos sillä on joko muutetut koordinaatit tai pätevä koordinaatit sisältävä viimeinen reittipiste. |
+
+
+{{anchor:filter_criteria_attributes:}}
+==== Attribuuttisuodatin ====
+
+Attribuuttisuodatin suodattaa erilaisten attribuuttiarvojen mukaan ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-attributes.png?direct&400 |}} 
+
+Valitse useita kätkön attribuutteja suodattaaksesi kätköjä, jotka sisältävät **kaikki** valitut attribuutit. Huomaathan, että geocaching.com tukee myös käänteisiä attribuutteja, napauta attribuuttikuvaketta uudelleen valitaksesi sen //negatiivisen// version.
+
+Napauta kuvaketta pitkään nähdäksesi sen tarkoituksen vihjelaatikossa tekstinä.
+
+Käytä nappeja **Sisällytä** tai **Rajaa pois** suodattaaksesi kätköjä, jotka **sisältävät** tai **eivät sisällä** kaikkia valittuja attribuutteja.
+
+Käytä **Tyhjennä**-painiketta ylhäällä oikealla poistaaksesi nopeasti kaikkien attribuuttien valinnan.
+
+{{anchor:filter_criteria_size:}}
+==== Kokosuodatin ====
+
+Kokosuodatin suodattaa kätköt koon mukaan, kuten //Tavallinen//, //Pieni// ja //Mikro//, ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-cachesize.png?direct&400 |}} 
+
+Valitse kaikki koot, joiden mukaan haluat suodattaa kätköt. Käytä erikoisnappia //Valitse kaikki// merkataksesi/poistaaksesi merkinnän kaikista saatavilla olevista kokovaihtoehdoista.
+
+==== Suosikkisuodatin ====
+
+Suosikkisuodatin suodattaa kätköt niille annettujen suosikkipisteiden mukaan, ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-favorites.png?direct&400 |}} 
+
+Käytä **Absoluuttinen** / **Prosenttiosuus** -nappeja valitaksesi, suodatetaanko kätköt absoluuttisen pistemäärän mukaan vai prosenttiosuuden mukaan (suosikkipisteiden määrä jaettuna löytökirjausten määrä). Huomaathan, että liukusäätimen skaala vaihtuu/nollautuu jos vaihdat tätä arvoa.
+
+**Absoluuttinen**-tilassa valitse suosikkipisteiden väli, jonka mukaan haluat suodattaa kätköt. Äärioikealla olevan skaalapisteen valinta suodattaa esille vain ne kätköt, joissa on enemmän kuin 1000 suosikkipistettä.
+
+**Prosenttiosuus**-tilassa valitse suosikkipisteiden prosenttiosuuden väli välillä 0% ja 100&, jonka mukaan kätköt suodatetaan.
+
+	
+{{anchor:filter_criteria_logentry:}}
+==== Lokikirjaussuodatin ====
+
+Lokikirjaussuodatin suodattaa kätköt niihin tehtyjen kirjausten mukaan, ja näyttää tältä:
+
+{{ :en:filter-criteria-logentry.png?direct&400 |}} 
+
+Voit valita, suodatetaanko kätköt lokikirjausten mukaan seuraavasti:
+ * tietyltä käyttäjältä (esim. //EddieMuc//), tai
+ * sisältäen tietyn tekstin (kuten //TFTC//)
+
+Käytä **Sisällytä** / **Rajaa pois** -nappeja suodattaaksesi kätköt niin, että ne joko **sisältävät** tai **eivät sisällä** lokikirjaukset, jotka täyttävät kriteerit.
+
+{{anchor:filter_criteria_logscount:}}
+==== Lokimääräsuodatin ====
+
+Lokimääräsuodatin suodattaa kätköt niiden lokikirjausten perusteella, ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-logscount.png?direct&400 |}} 
+
+Napauta **Lokien määrän tyyppi**-laatikkoa (alkuasennossa //Löytyi//) valitaksesi lokityypin, jonka määrän mukaan haluat suodattaa kätkön. Valitse yksi seuraavista: //Löytyi//, //Ei löytynyt// tai //Kaikki//.
+
+Alaosassa, valitse liukusäätimellä lokikirjausten väli, joiden mukaan haluat suodattaa kätköt. Äärioikealla olevan skaalapisteen valinta suodattaa esille vain ne kätköt, joissa on enemmän kuin 1000 valitun tyypin lokia.
+
+{{anchor:filter_criteria_distance:}}
+==== Etäisyyssuodatin ====
+
+Etäisyyssyodatin suodattaa kätköt niiden etäisyyden mukaan tietystä pisteestä, ja näyttää seuraavalta:
+
+{{ :en:filter-criteria-distance.png?direct&400 |}} 
+
+  * Valitse //Käytä nykyistä sijaintia// perustaaksesi laskennan nykyiseen GPS-sijaintiisi
+  * Aseta pätevät WGS84-koordinaatit tekstikenttään laskeaksesi etäisyyden kätköön niiden perusteella.
+  * Käytä alla olevaa liukusäädintä valitaksesi minimi- ja maksimietäisyyden (kilometreissä/maileissa), jonka perusteella etsitään tuloksiin sisällytettävät kätköt.
+
+{{anchor:filter_criteria_dynamiccheckboxlist:}}
+==== Dynaaminen valintasuodatin ====
+
+
+Dynaamiset valintalistasuodattimet suodattavat yhden tai useamman arvon mukaan dynaamisesta listasta. Käytämme tässä esimerkkinä arvoja //Alkuperä// ja //Tallennetut listat// -suodattimia:
+
+{{ :en:filter-criteria-dynamiccheckboxlist.png?direct&400 |}} 
+
+Käytä listan valintoja valitaksesi ne kätköt, jotka haluat nähdä tuloksissa. Käytä valintaa //Lisää vielä kohteita// nähdäksesi lisää valintoja, joita voit lisätä.

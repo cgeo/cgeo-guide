@@ -30,7 +30,7 @@ c:geo tukee erityisesti GPX-tiedostoja, joiden lähteenä on geocaching.com tai 
 
 GPX-tiedoston tuomiseen sinulla on kaksi vaihtoehtoa:
 
-  * Käytä puhelimessasi jotakin tiedostoselainta, klikkaa laitteeseesi tallennettua GPX-tiedostoa ja valitse c:geo kohdeohjelmaksi. Tämä näyttää valintaikkunan, josta voit valita kohde[[.mainmenu:lists|listan]] kätköjen tuomiseen GPX-tiedostostasi. 
+  * Käytä puhelimessasi jotakin tiedostoselainta, napauta laitteeseesi tallennettua GPX-tiedostoa ja valitse c:geo kohdeohjelmaksi. Tämä näyttää valintaikkunan, josta voit valita kohde[[.mainmenu:lists|listan]] kätköjen tuomiseen GPX-tiedostostasi. 
 
   * Avaa tallennettujen kätköjen [[.mainmenu:lists|lista]] tai luo uusi lista, ja valitse ''Valikko'' -> ''Tuo'' -> ''Tuo GPX''. Tämä skannaa [[.mainmenu:lists#system|asettamasi kansion]] GPX-tiedostojen tuomiseen ja antaa sinun valita sieltä tiedoston tuotavaksi.
 
@@ -59,7 +59,7 @@ Kun tätä toimintoa käytetään, seuraava valikko näytetään:
 
 {{:en:oneclickofflinelog.png?nolink&400 |}}
 
-Klikkaa vain halutun lokityypin päällä ja offline-kirjauksesi tallennetaan sen mukaisesti. ''Tyhjennä''-valinta on saatavilla vain, jos olet jo tallentanut offline-kirjauksen tälle kätkölle. Tässä tapauksessa jo tallennettu lokityyppi näytetään punaisella merkillä valikossa.
+Napauta vain halutun lokityypin päällä ja offline-kirjauksesi tallennetaan sen mukaisesti. ''Tyhjennä''-valinta on saatavilla vain, jos olet jo tallentanut offline-kirjauksen tälle kätkölle. Tässä tapauksessa jo tallennettu lokityyppi näytetään punaisella merkillä valikossa.
 
 Voit myös valita ''Kirjaa käynti'' avataksesi normaalin [[logging|kirjausnäytön]] muodostaaksesi lokin ja tallentaaksesi sen.
 

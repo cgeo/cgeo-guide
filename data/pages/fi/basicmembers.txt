@@ -15,5 +15,6 @@ Seuraava taulukko tarjoaa yleisnäkymän perusjäsenyyden rajoituksista ja erila
 |[[.mainmenu:pocketquery|Pocket Query]]|Pocket Query on premiumjäsenyyden ominaisuus, joten tämä valinta näytetään c:geossa vain jos olet premiumjäsen.|
 |[[cachedetails#favorite|Suosikkipisteet]]|Suosikkipisteiden asettaminen löydetyille kätköille on premiumjäsenyyden ominaisuus. Kaikki suosikkipisteisiin liittyvät toiminnot ovat piilotettu perusjäseniltä.|
 |[[cachedetails#personal_note|Oman muistiinpanon lataus]]|Kaikki käyttäjät voivat luoda omia muistiinpanoja, mutta vain premiumjäsenet voivat ladata nämä muistiinpanot kätkön sivulle palvelimelle.|
+|Adventure lab -kätköt|[[http://labs.geocaching.com|labs.geocaching.com]]:in Adventure Lab -kätköt näytetään vain kyseisen geokätköilypalvelun premium-jäsenille.|
 
 

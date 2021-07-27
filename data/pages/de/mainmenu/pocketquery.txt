@@ -1,17 +1,18 @@
-====== Pocket-Queries ======
+====== Listen / Pocket-Queries ======
 
 {{:ic_menu_pocket_query_reverted.png?nolink&50 |}}
 
-Diese Funktion erlaubt es dir deine existierenden Pocket-Queries auf dem Geocaching-Server entweder als [[lists|Cacheliste]] anzusehen oder diese ähnlich wie beim  [[..offline#gpx_import|Import einer GPX-Datei]] zu importieren.
+Diese Funktion erlaubt es dir deine existierenden Pocket-Queries und Bookmark-Listen auf dem Geocaching-Server entweder als [[lists|Cacheliste]] anzusehen oder diese ähnlich wie beim  [[..offline#gpx_import|Import einer GPX-Datei]] zu importieren.
 
 <WRAP center round info 100%>
 Dieses Menü nicht nur für Premium-Mitglieder von geocaching.com verfügbar, da Pocket-Queries eine Premiumfunktion sind.
 </WRAP>
 
-Nach dem Auswahl dieser Menüoption wird eine Liste der Pocket-Queries vom Geocaching-Server geladen und wie folgt dargestellt:
+Nach dem Auswahl dieser Menüoption wird eine Liste der Pocket-Queries und Bookmark-Listen vom Geocaching-Server geladen und wie folgt dargestellt:
 
 {{:en:pocketquery.png?nolink&400 |}}
 
-Die Liste zeigt jeden existierenden Pocket-Query mit seinem Namen als Title. Der Untertitel gibt Informationen über die Anzahl der Caches in jedem Query, den Tag, an dem der Query ausgeführt wurde und die verbleibenden Tage, die der Query noch auf dem Server verfügbar ist.
+Die Liste zeigt jeden existierende Pocket-Query und Bookmarkliste mit ihrem Namen als Titel. Der Untertitel gibt Informationen über die Anzahl der Caches in jedem Query / auf jeder Liste.
+Bei Pocket-Queries wird zusätzlich der Tag, an dem der Query ausgeführt wurde und die verbleibenden Tage, die der Query noch auf dem Server verfügbar ist, angezeigt.
 
-Das {{:ic_menu_save.png?nolink&20|}} Symbol kann dazu genutzt werden, den gesamten Pocket-Query auf eine deiner Listen zu importieren, das {{:abc_ic_search_api_holo_light.png?nolink&20|}} Symbol öffnet den Pocket-Query zur Voransicht.
+Das {{:ic_menu_save.png?nolink&20|}} Symbol kann dazu genutzt werden, den gesamten Pocket-Query / die gesamte List auf eine deiner Listen zu importieren, das {{:abc_ic_search_api_holo_light.png?nolink&20|}} Symbol öffnet den Pocket-Query / die Liste zur Voransicht.

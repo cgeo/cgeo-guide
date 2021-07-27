@@ -71,9 +71,9 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 
 ^ Icon/Section ^ Function ^ Description ^
 |{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|List Management]]|This section shows either the name of the current list or the search information in case a list is opened as a [[search|search result]] or the pocket query name in case the list is opened from a [[pocketquery|pocket query]].\\ Furthermore the amount of caches on the current list (limited to the filtered caches if applicable). Tapping on this section will open the list of all cache lists to select another cache list to display.|
-|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|This line will only show up in case a [[globaltypefilter|Global Cache Type Filter]] or a [[lists#filtering|List Filter]] is active.\\ Tapping on this line will directly take you to the corresponding filter dialog.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|This line will only show up in case a  [[..:cachefilter|Cache Filter]] is active.\\ Tapping on this line will directly take you to the corresponding filter dialog.|
 |{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Map the list]]|Tapping this icon will show the caches on this list on a [[livemap|map]].|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[lists#filtering|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your list according to various criteria.|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[..:cachefilter|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your list according to various criteria.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 |{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sorting]]|You can use this function to sort the list according to your needs.|
 |{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Select mode]]|Using this function will put the list into a selection mode allowing you to select a subset of caches on the list in order to use the ''Manage Caches'' function on this selection.|
@@ -83,30 +83,6 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |[[lists#import|Import]]||This option allows importing of caches from several sources onto your cache lists.|
 |[[lists#export|Export]]||This option allows export of caches or parts of the cache information in several ways.|
 
-==== Filtering ====
-{{anchor:filtering:}}
-
-This function allows you to filter the list by various criteria. 
-
-{{ :en:lists_filtermenu.png?direct&400 |}}
-
-<WRAP center round info 100%>
-Other than the [[globaltypefilter|Global Cache Type Filter]] this filter does only apply to the lists, but can be combined with a global filter if needed.
-</WRAP>
-
-^ Menu item ^ Description ^
-|{{ :ic_menu_delete.png?nolink&40 |}}|The trash can icon on top allows you to delete the filters you applied.|
-|Type|Only show caches with a certain cache type.|
-|Size|Only show caches with a specific cache size.|
-|Terrain|Only show caches with a given range of terrain ratings.|
-|Difficulty|Only show caches with a given range of difficulty ratings.|
-|Attributes|Filter the list by one of the cache attributes (e.g. "Abandoned building", "Night Cache").\\ \\ :!: This filter will only give reliable results if used on a list of stored caches, but not for search results.|
-|Status|Filter to caches with a certain state in c:geo (e.g. "Found", "With Trackables", "PM-only").|
-|Origin|Only show caches from a specific geocaching provider (e.g. "geocaching.com", "opencaching.us").|
-|Distance|Only show caches with a certain distance range to your current position.\\ \\ :!: The filtered list will not be updated if you change your position. In this case you need to reapply the filter to get an updated filtered list.|
-|Favorites|Only show caches with a given range of favorite points.|
-|Favorites [%]|Only show caches with a given range of favorite point percentage.\\ \\ :!: This filter will only give reliable results if used on a list of stored caches, but not for search results.|
-|With personal data|Allows you to filter caches, where you added individual information (e.g. offline logs, personal notes).|
 
 ==== Sorting ====
 {{anchor:sorting:}}

@@ -1,14 +1,14 @@
 
 ====== Kätkön tiedot ======
 
-Kätkötietosivut tarjoavat kaikki tiedot tietystä kätköstä. Ne voidaan avata klikkaamalla kätköä [[.mainmenu:lists|listalla]], [[.mainmenu:livemap#map_popup_window|livekartalla]] tai suoraan [[.mainmenu:search|hakemalla]] kätköä geokoodin avulla.
+Kätkötietosivut tarjoavat kaikki tiedot tietystä kätköstä. Ne voidaan avata napauttamalla kätköä [[.mainmenu:lists|listalla]], [[.mainmenu:livemap#map_popup_window|livekartalla]] tai suoraan [[.mainmenu:search|hakemalla]] kätköä geokoodin avulla.
 
 {{ :en:cachedetails_details.png?direct&300 |}}
 
 Kätkön tiedot on jaettu useampaan välilehteen, joiden välillä voi liikkua pyyhkäisemällä vasemmalta oikealle tai toisinpäin. [[.mainmenu:settings#cache_details|Oletusasetuksena]] Yksityiskohdat-välilehti aukeaa aina ensimmäisenä.\\
 Jokaisen välilehden [[cachedetails#bottom_section|alaosassa]] näet nykyisen välilehden nimen, ja voit käyttää myös tätä siirtymiseen välilehtien välillä. [[cachedetails#top_bar_menu|Yläosan valikko]] on sama kaikilla välilehdillä.
 
-Näet täydellisen listan välilehdistä alla olevassa taulukossa. Kuvien klikkaus avaa isomman version, otsikoiden klikkaus vie sinut tässä käyttöoppaassa kyseisen välilehden omaan osioon:
+Näet täydellisen listan välilehdistä alla olevassa taulukossa. Kuvien napautus avaa isomman version, otsikoiden napautus vie sinut tässä käyttöoppaassa kyseisen välilehden omaan osioon:
 
 ^ [[cachedetails#waypoint_tab|Reittipisteet]] ^ [[cachedetails#details_tab|Yksityiskohdat]] ^ [[cachedetails#description_tab|Kuvaus]]^ [[cachedetails#logbook_tab|Lokikirja]] ^ [[cachedetails#logbook_tab|Ystävien/omat lokit]] ^[[cachedetails#inventory_tab|Tavaraluettelo]] ^ [[cachedetails#image_tab|Kuvat]] ^
 |{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
@@ -26,28 +26,50 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 </WRAP>
 
 ^ Kuvake ^ Toiminto ^ Selite ^
-|{{:ic_menu_compass.png?nolink&40 |}}|Ensisijainen navigointi|Lyhyt klikkaus avaa [[.mainmenu:settings#navigation|ensisijaisen navigointityökalun]] kätkölle navigoimiseksi.\\ Pitkä painallus avaa [[.mainmenu:settings#navigation|toissijaisen navigointityökalun]] kätkölle navigoimiseksi.|
+|{{:ic_menu_compass.png?nolink&40 |}}|Ensisijainen navigointi|Lyhyt napautus avaa [[.mainmenu:settings#navigation|ensisijaisen navigointityökalun]] kätkölle navigoimiseksi.\\ Pitkä painallus avaa [[.mainmenu:settings#navigation|toissijaisen navigointityökalun]] kätkölle navigoimiseksi.|
 |{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigointi]]|Avaa listan kaikista saatavilla olevista navigointityökaluista.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
 |{{:ic_menu_edit.png?nolink&40 |}}|Kirjaa käynti|Tämä avaa [[logging|lokkausnäkymän]] kätkön kirjaamiseksi.|
 |{{ :ic_menu_start_conversation.png?nolink&40 |}}|Toggle talking|Aloittaa tai lopettaa tekstistä puheeksi -toiminnon, joka selostaa suunnan ja etäisyyden kohteeseen englanniksi.\\ Voit myös sammuttaa näytön kun tekstistä puheeksi -toiminto on aktivoitu.|
-|{{:ic_menu_rotate.png?nolink&40 |}}|Kätköt lähistöllä|Tämä avaa [[.mainmenu:lists|Lähistöllä-haun]] etsiäkseen toisia kätköjä kyseisen kätkön lähistöltä, ja näyttää tulokset.|
-|{{ :ic_menu_save.png?nolink&40 |}}|Tallenna|Tallentaa kätkön [[.mainmenu:lists|listaan]] - tai jos se on jo tallennettu - antaa tallentaa kätkön toiseen listaan.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Päivitä|Päivittää kätkön tiedot uusimmilla tiedoilla geokätköilypalvelimelta.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Poista|Poistaa kätkön kaikilta listoiltasi.|
-|Äänestä||Avaa kätkön [[http://gcvote.com|GCVote]]-sivun.|
-|Jaa kätkö||Tästä voit jakaa kätkön käyttäen Androidin jakamisvaihtoehtoja.|
+|Avaa selaimessa||Avaa kätkön ensisijaisessa internetselaimessasi tai (jos aktivoituna [[.:mainmenu:settings#cache-details|kätkönäkymäasetuksissa]]) käyttäen Chrome WebViewiä c:geon sisällä.|
 |Avaa Geochecker||Avaa geocheckerin tälle kätkölle selaimessasi.\\ \\ :!: Tämä valinta on saatavilla vain jos kätkön kuvaus sisältää linkin (tunnettuun) geocheckeriin.|
-|Ohita kätkö||Tämä asettaa kätkön "ohituslistallesi".\\ \\ :!: Kätkön ohittaminen tarkoittaa että ladattaessa kätköjä palvelimelta, tämän kätkön tietoja ei enää haeta. Voit nähdä kyseisen kätkön uudelleen vain poistamalla sen ohituslistalta geokätköilysivustolla.|
-|Poimi reittipisteet||Skannaa mahdolliset reittipisteet (koordinaatit) kätkön kuvauksesta ja luo automaattisesti uuden reittipisteen jokaiselle kuvauksesta löydetylle koordinaateille.\\ Tämä voi olla kätevä, jos kätkön omistaja listaa reittipisteiden koordinaatit kuvauksessa, eikä ole luonut erillisiä reittipisteitä.|
-|Vienti||AVoit tästä viedä kätkön GPX-tiedostona, tai kätkön kenttämerkinnät sekä omat merkinnät palvelimelle.|
 |Omat merkinnät||Tämä avaa näkymän omien merkintöjen muokkaukseen. Toiminto löytyy myös [[cachedetails#description_tab|Yksityiskohdat-välilehdestä]].|
+|Reittipisteet||Sisältää alavalikon erilaisilla valinnoilla liittyen kätkön reittipisteisiin (katso seuraava kappale).|
+|Jaa / Vie||Alavalikko joka sisältää erilaisia valintoja kätkön tai sen tietojen jakamiseen tai vientiin (katso seuraava kappale).|
+|Lisäasetukset||Sisältää useita edistyneitä valintoja kätkölle (katso seuraava kappale).|
 
+
+==== Reittipisteet-alavalikko ====
+
+{{ :en:cachedetails_topbar2.png?direct&400 |}}
+
+^ Toiminto ^ Selite ^
+|Poimi reittipisteet|Tämä toiminto etsii kätkön kuvauksesta päteviä koortinaatteja ja luo automaattisesti reittipisteen jokaisesta koordinaateista, jotka löytyvät kuvauksesta.\\ Tämä on kätevä toiminto siinä tapauksessa jos kätkön omistaja ei luonut reittipisteitä, mutta on listannut koordinaatteja kätkön kuvauksessa.|
+|Estä/Salli muistiinpanoista luodut reittipisteet|Tämä toiminto sallii/kieltää sen, että c:geo luo reittipisteet kätkön henkilökohtaisista muistiinpanoista löytyvistä koordinaateista.|
+
+==== Jaa/Vie-alavalikko ====
+
+{{ :en:cachedetails_topbar3.png?direct&400 |}}
+
+^ Toiminto ^ Selite ^
+|Jaa kätkö|Jakaa linkin kätkölle käyttäen Androidin sisäänrakennettua jakamistyökalua.|
+|GPX|Antaa mahdollisuuden jakaa kätkö(t) GPX-tiedostona.|
+|Kenttämerkinnät|Vie kätkön offline-kirjauksen kenttämerkintätiedostona.|
+
+==== Lisäasetukset-alavalikko ====
+
+{{ :en:cachedetails_topbar4.png?direct&400 |}}
+
+^ Toiminto ^ Selite ^
+|Kätköt lähistöllä|Tämä valinta aloittaa [[.mainmenu:lists|Lähistöllä-haun]] perustuen kätkön koordinaatteihin ja näyttää tulokset.|
+|Anna ääni|Tämä avaa [[http://gcvote.com|GCVote]]-ikkunan kätkölle, jotta voit arvostella sen.|
+|Ohita kätkö|Tämä asettaa kätkön geokätköilypalvelun ohituslistalle.\\ \\ :!: Kätkön ohittaminen tarkoittaa, että tämä kätkö ei tule enää esille kun tietoja ladataan gekätköilypalvelusta. Voit nähdä kätkön taas uudelleen poistamalla kätkön ohituksen geokätköilysivustolla.|
 
 ===== Yksityiskohdat-välilehti =====
 {{anchor:details_tab:}}
 
 Tämä välilehti avataan oletuksena (jos et ole muuttanut ensimmäistä sivua [[.mainmenu:settings#cache_details|asetuksista]]) ja näyttää sinulle kätkön tärkeimmät tiedot.
+
 ==== Kätkön tiedot ====
 {{anchor:cache_information:}}
 
@@ -66,10 +88,10 @@ Tämä osio yksityiskohdat-välilehdestä näyttää kätkön tiedot:
 |Arviointi|Näyttää kätkön laatuarvioinnin [[http://gcvote.com|GCVotesta]], jos tämä palvelu on kytketty päälle [[settings#services|c:geon asetuksista]]. Arvo näytetään sekä graafisesti että numeroina.\\ Sulkeissa oleva arvo on kätkölle annettujen äänien määrä.|
 |Suosikki|Kätkön saamien suosikkipisteiden (geocaching.com) tai suosittelujen (opencaching) määrä. Näytetty prosenttimäärä lasketaan jakamalla suosikkipisteiden määrä löytöjen määrällä.|
 |Oma arviointi|Näyttää kätkölle [[http://gcvote.com|GCVotessa]] antamasi arvioinnin, jos tämä on aktivoitu [[.mainmenu:settings#services|c:geon asetuksista]]. Arvo näytetään sekä graafisesti että numeroina.|
-|Omistaja|Kätkön omistajan nimi.\\ Voit klikata tästä avataksesi valikon, joka sisältää toimintoja kätkön omistajaan liittyen.|
+|Omistaja|Kätkön omistajan nimi.\\ Voit napauttaa tästä avataksesi valikon, joka sisältää toimintoja kätkön omistajaan liittyen.|
 |Piilotettu|Kätkön piilotuspäivä.|
 |Sijainti|Valtio/osavaltio/maakunta, johon kätkö on piilotettu.|
-|Koordinaatit|Kätkön koordinaatit.\\ Voit klikata tätä kenttää nähdäksesi c:geon tukemat eri [[.:coordformat|koordinaattimuodot.]]|
+|Koordinaatit|Kätkön koordinaatit.\\ Voit napauttaa tästä nähdäksesi c:geon tukemat eri [[.:coordformat|koordinaattimuodot.]]|
 
 <WRAP center round tip 100%>
 Voit painaa pitkään joitakin ylläolevia kenttiä kopioidaksesi tiedon leikepöydälle tai jakaaksesi sen.
@@ -83,7 +105,8 @@ Voit painaa pitkään joitakin ylläolevia kenttiä kopioidaksesi tiedon leikep�
 
 Tämä osio yksityiskohdat-välilehdestä näyttää kätkön omistajan kätkölle asettamat attribuutit kuvakkeina. Tämä osio ei ole näkyvissä siinä tapauksessa jos omistaja ei ole asettanut kätkölle attribuutteja.
 
-Voit klikata [[attributes|attribuuttikuvakkeita]] nähdäksesi ne tekstimuodossa.
+Voit napauttaa [[attributes|attribuuttikuvakkeita]] nähdäksesi ne tekstimuodossa.
+
 ==== Listojen hallinta ====
 {{anchor:list_management:}}
 
@@ -94,7 +117,7 @@ Tämä osio yksityiskohdat-välilehdestä tarjoaa useita vaihtoehtoja kätkön h
 ^ Kuvake/toiminto ^ Selite ^
 |{{ :en:livemap_popup_6.png?nolink&200 |}}|Tämä kenttä kertoo jos kyseinen kätkö on tallennettu [[lists|kätkölistoihin]] ja kuinka kauan se on ollut tallennettuna (eli milloin kätkö on tallennettu ja kuinka ajantasaisia tiedot ovat).|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Päivittää kätkön tiedot hakemalla kaikki tiedot uudestaan geokätköilypalvelusta.|
-|{{ :en:livemap_popup_7.png?nolink&200 |}}|Jos kyseinen kätkö on jo tallennettu [[lists|kätkölistoihin]] niin tämä kenttä näyttää listan/listat mihin se on tallennettu. Voit klikata listan nimeä avaaksesi kyseisen listan.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|Jos kyseinen kätkö on jo tallennettu [[lists|kätkölistoihin]] niin tämä kenttä näyttää listan/listat mihin se on tallennettu. Voit napauttaa listan nimeä avaaksesi kyseisen listan.|
 |{{ :ic_menu_save.png?nolink&40 |}} |Tämä nappi näkyy vain jos valittua kätköä ei ole vielä tallennettu [[lists|kätkölistoihin]]. Painamalla kätkö voidaan tallentaa haluamaasi listaan.\\ Pitkä painallus tallentaa kätkön viimeksi käytettyyn listaan, eikä kysy mihin listaan kätkö tallennetaan.|
 |{{ :ic_menu_edit.png?nolink&40 |}}|Jos valittu kätkö on jo tallennettu johonkin [[lists|kätkölistaan,]] tämä nappi on näkyvillä ja antaa mahdollisuuden vaihtaa listaa tai lisätä valittu kätkö toiseen listaan.|
 |{{ :ic_menu_delete.png?nolink&40 |}}|Jos valittu kätkö on jo tallennettu johonkin [[lists|kätkölistaan,]] tämä nappi on näkyvillä ja antaa mahdollisuuden poistaa valittu kätkö kaikista listoista.|
@@ -133,13 +156,13 @@ Reittipistetiedot näkyvät seuraavasti:
 ^ Rivi ^ Selite ^ 
 |Otsikko|Reittipisteen otsikko ja kuvake|
 |Tyyppi ja referenssi|[[cachedetails#waypoint_types|Reittipisteen tyyppi]] ja (palvelun lähettämä) referenssikoodi, tai ''Oma'', jos reittipiste on itse luotu.|
-|Koordinaatit|Reittipisteen koordinaatit. Kenttä voi olla myös tyhjä, jos omistaja ei ole määrittänyt koordinaatteja, tai olet luonut reittipisteen ilman koordinaatteja (tai käyttäen [[coordinatedialog#waypoint_calculator|reittipistelaskuria]], jossa on käytetty muuttujia, joista puuttuu arvo, näin luoden vajaat koordinaatit).\\ \\ :!: Voit klikata koordinaatteja näyttääksesi ne muissa tuetuissa muodoissa.|
+|Koordinaatit|Reittipisteen koordinaatit. Kenttä voi olla myös tyhjä, jos omistaja ei ole määrittänyt koordinaatteja, tai olet luonut reittipisteen ilman koordinaatteja (tai käyttäen [[coordinatedialog#waypoint_calculator|reittipistelaskuria]], jossa on käytetty muuttujia, joista puuttuu arvo, näin luoden vajaat koordinaatit).\\ \\ :!: Voit napauttaa koordinaatteja näyttääksesi ne muissa tuetuissa muodoissa.|
 |Selite|Reittipisteen kuvaus|
-|{{:actionbar_compass_light.png?nolink&40 |}}|Tämä kuvake näytetään koordinaatit sisältävien reittipisteiden oikealla puolella. Lyhyt klikkaus avaa [[.mainmenu:settings#navigation|ensisijaisen navigoinnin]] pitkä painallus avaa [[.mainmenu:settings#navigation|toissijaisen navigoinnin]] koordinaatteihin. |
+|{{:actionbar_compass_light.png?nolink&40 |}}|Tämä kuvake näytetään koordinaatit sisältävien reittipisteiden oikealla puolella. Lyhyt napautus avaa [[.mainmenu:settings#navigation|ensisijaisen navigoinnin]] pitkä painallus avaa [[.mainmenu:settings#navigation|toissijaisen navigoinnin]] koordinaatteihin. |
 
-Reittipisteen lyhyt klikkaus avaa [[cachedetails#waypoint_editor|reittipisteen muokkausnäkymän]]. Pitkä painallus avaa [[cachedetails#waypoint_context_menu|alavalikon]], joka sisältää useita valintoja reittipisteelle.
+Reittipisteen lyhyt napautus avaa [[cachedetails#waypoint_editor|reittipisteen muokkausnäkymän]]. Pitkä painallus avaa [[cachedetails#waypoint_context_menu|alavalikon]], joka sisältää useita valintoja reittipisteelle.
 
-Klikkaamalla ''Lisää reittipiste'' avautuu [[cachedetails#waypoint_editor|reittipisteen muokkausnäkymä]], jossa voit luoda oman reittipisteen kätkölle.
+Napauttamalla ''Lisää reittipiste'' avautuu [[cachedetails#waypoint_editor|reittipisteen muokkausnäkymä]], jossa voit luoda oman reittipisteen kätkölle.
 ==== Reittipisteiden tyypit ====
 {{anchor:waypoint_types:}}
 
@@ -161,7 +184,7 @@ Reittipisteet ovat erityyppisiä, kuten alla:
 Seuraavassa taulukossa kuvataan reittipisteen muokkausnäkymän toiminnot:
 
 ^ Osio ^ Selite ^
-|{{ :en:waypoint_editor_coords.png?nolink&400 |}}|Koordinaattikentän klikkaus avaa [[coordinatedialog|koordinaattien syöttönäkymän]].|
+|{{ :en:waypoint_editor_coords.png?nolink&400 |}}|Koordinaattikentän napautus avaa [[coordinatedialog|koordinaattien syöttönäkymän]].|
 |{{ :en:waypoint_editor_projection.png?nolink&400 |}}|Koordinaattien syötön jälkeen voit halutessasi tehdä koordinaattien uudelleenlaskennan syöttämällä suunnan ja etäisyyden. Reittipisteen tallennuksen jälkeen koordinaatit lasketaan uudelleen suunnan ja etäisyyden perusteella.|
 |{{ :en:waypoint_editor_typeselector.png?nolink&400 |}}|Tässä kentässä voit valita [[cachedetails#waypoint_types|reittipisteen tyypin]].|
 |{{ :en:waypoint_editor_title_note.png?nolink&400 |}}|Näissä kentissä voit asettaa reittipisteen nimen ja muistiinpanot.\\ Reittipisteen nimi on täytetty automaattisesti valitun reittipistetyypin mukaan.|
@@ -176,7 +199,7 @@ Seuraavassa taulukossa kuvataan reittipisteen muokkausnäkymän toiminnot:
 Reittipisteen pitkä painallus avaa alavalikon, joka sisältää reittipisteelle useita toimintoja:
 
 ^ Valinta ^ Selite ^ 
-|Muokkaa|Avaa reittipisteen muokkauksen.\\ Sama kuin lyhyt reittipisteen klikkaus.|
+|Muokkaa|Avaa reittipisteen muokkauksen.\\ Sama kuin lyhyt reittipisteen napautus.|
 |Vierailtu|Asettaa reittipisteen vierailluksi, näyttäen merkin reittipisteen kohdalla listassa, ja tehden reittipisteen kuvakkeen läpinäkyväksi kartalla.|
 |Kopioi koordinaatit|Kopioi reittipisteen koordinaatit leikepöydälle.|
 |Poista koordinaatit|Poistaa reittipisteen koordinaatit.\\ Tämä valinta on saatavilla vain omille reittipisteille.|
@@ -196,15 +219,15 @@ Reittipisteen pitkä painallus avaa alavalikon, joka sisältää reittipisteelle
 
 Kuvauksen välilehti pääasiassa sisältää kätkön omistajan asettamat tiedot. Vieritettävän kätkökuvauksen alla löydät osiot, jotka sisältävät [[cachedetails#hint_section|kätkön vihjeen]] sekä [[cachedetails#personal_note|omat muistiinpanot]].
 
-Voit klikata kätkön kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Lisäksi voit käyttää tekstin valintaa aloittaaksesi kuvauksen [[.mainmenu:utilityprograms|kääntämisen]] toiselle kielelle.
+Voit napauttaa kätkön kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Lisäksi voit käyttää tekstin valintaa aloittaaksesi kuvauksen [[.mainmenu:utilityprograms|kääntämisen]] toiselle kielelle.
 ==== Vihjeosio ====
 {{anchor:hint_section:}}
 
 {{:en:description_hint_encoded.png?direct&400 |}}{{ :en:description_hint_decoded.png?direct&400 |}}
 
-Tämä osio sisältää kätkön vihjeen, jos omistaja on asettanut sellaisen. Oletuksena vihje on koodattu (vasen kuva), jotta kätkön mahdollinen paikka ei näy heti. Purkaaksesi koodauksen, klikkaa koodatun tekstin päältä (oikea kuva).
+Tämä osio sisältää kätkön vihjeen, jos omistaja on asettanut sellaisen. Oletuksena vihje on koodattu (vasen kuva), jotta kätkön mahdollinen paikka ei näy heti. Purkaaksesi koodauksen, napauta koodatun tekstin päältä (oikea kuva).
 
-Jos omistaja on ladannut kuvia kätkölle, löydät klikattavan linkin kuviin vihjetekstin alapuolella.
+Jos omistaja on ladannut kuvia kätkölle, löydät napautettavan linkin kuviin vihjetekstin alapuolella.
 ==== Omat muistiinpanot ====
 {{anchor:personal_note:}}
 
@@ -240,11 +263,12 @@ Lokikirjan yläosassa näet kätkön lokikirjan yhteenvedon, kuten minkätyyppis
 Alapuolella näkyy vieritettävä lokilista, joka kohdassa näkyy kirjaajan nimimerkki, kirjauspäivä, lokityyppi, nimimerkin löytämät kätköt, sekä lokitekstin.\\
 Värimerkit osoittavat eri lokityypit, jotta "positiiviset" (kuten löydetty, aktivoitu) ja "huonot" (kuten ei löytynyt, hyllytetty) lokityypit olisi helpompi erottaa toisistaan.
 
-:!: Jos kätkö sisältää spoilaavia tietoja, kirjaava käyttäjä voi halutessaan salata lokikirjauksen. Tässä tapauksessa voit klikata lokikirjausta purkaaksesi salauksen.
+:!: Jos kätkö sisältää spoilaavia tietoja, kirjaava käyttäjä voi halutessaan salata lokikirjauksen. Tässä tapauksessa voit napauttaa lokikirjausta purkaaksesi salauksen.
 
-Nimimerkin klikkaus avaa alavalikon, josta löytyy nimimerkkiin liittyviä [[.mainmenu:search|hakutoimintoja]].
+Nimimerkin napautus avaa alavalikon, josta löytyy nimimerkkiin liittyviä [[.mainmenu:search|hakutoimintoja]].
 
 Lokikirjauksen pitkä painallus antaa mahdollisuuden kopioida tekstin leikepöydälle. Voit lisäksi aloittaa lokin [[.mainmenu:utilityprograms|kääntämisen]] toiselle kielelle.
+
 ===== Tavaraluettelo-välilehti =====
 {{anchor:inventory_tab:}}
 
@@ -252,7 +276,8 @@ Lokikirjauksen pitkä painallus antaa mahdollisuuden kopioida tekstin leikepöyd
 
 Tämä välilehti näyttää kätköön kirjattujen matkaajien luettelon. Välilehti on näkyvissä vain jos kätkö sisältää matkaajia.
 
-Välilehti näyttää jokaisen matkaajan kohdalla matkaajan tyypin ja nimen. Nimen klikkaus avaa [[trackabledetails|matkaajan tietosivun]], joka näyttää lisätietoja kyseisestä matkaajasta.
+Välilehti näyttää jokaisen matkaajan kohdalla matkaajan tyypin ja nimen. Nimen napautus avaa [[trackabledetails|matkaajan tietosivun]], joka näyttää lisätietoja kyseisestä matkaajasta.
+
 ===== Kuvat-välilehti =====
 {{anchor:image_tab:}}
 
@@ -263,10 +288,10 @@ Tämä välilehti sisältää kätkössä saatavilla olevat kuvat, ja se näytt�
 :!:
 Tämä ei ole sama toiminto kuin geokätköilysivustolla, sillä vain 35 viimeisimmän lokikirjauksen kuvat näkyvät välilehdessä.
 
-Kuvan klikkaus avaa kuvan oletuskuvaselaimessa.
+Kuvan napautus avaa kuvan laitteen oletuskuvaselaimessa.
 
 <WRAP center round tip 50%>
-Jos kuvan tiedoissa on koordinaatit, pieni kompassikuvake näytetään kuvan vasemmassa alakulmassa. Tässä tapauksessa voit klikata tai painaa pitkään kyseistä kuvaketta aloittaaksesi ensisijaisen tai toissijaisen [[navigation|navigoinnin]] koordinaatteihin.
+Jos kuvan tiedoissa on koordinaatit, pieni kompassikuvake näytetään kuvan vasemmassa alakulmassa. Tässä tapauksessa voit napauttaa tai painaa pitkään kyseistä kuvaketta aloittaaksesi ensisijaisen tai toissijaisen [[navigation|navigoinnin]] koordinaatteihin.
 Pitkä painallus itse kuvan päältä avaa tässä tapauksessa alavalikon, jossa voit luoda uuden reittipisteen perustuen näihin koordinaatteihin.
 </WRAP>
 

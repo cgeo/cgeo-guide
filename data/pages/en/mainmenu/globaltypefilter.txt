@@ -1,3 +1,7 @@
+<WRAP center round important 100%>
+This filter will be replaced by the new [[..:cachefilter|filter framework]] soon.
+</WRAP>
+
 ====== Global Cache Type Filter ======
 
 {{:main_filter_default.png?nolink&100 |}}

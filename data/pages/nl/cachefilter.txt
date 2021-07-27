@@ -1,0 +1,279 @@
+====== Cachefiltering ======
+
+Cachefiltering kan op verschillende plaatsen in c:geo worden toegepast, b.v. op de [[:en:mainmenu:livemap|Live Kaart]], in [[:en:mainmenu:lists|Opgeslagen caches]] of bij het uitvoeren van online cache [[:en:mainmenu:search|Zoeken]]. Op al deze plaatsen wordt hetzelfde filtermechanisme gebruikt.
+
+===== Toegang tot filter =====
+
+Filterinstellingen zijn bereikbaar via het optiemenu door op het filterpictogram {{:ic_menu_filter.png?nolink&30|}} te klikken.
+
+Als er al een filter actief is, wordt deze weergegeven als een kopregel onder de titelbalk. door op deze kopregel te klikken, zijn ook de filterinstellingen te bereiken. De volgende schermafbeelding toont bijvoorbeeld zowel het filterpictogram als de filterkopregel (rood omcirkeld) waar het huidige filter is ingesteld om alleen caches van het type "Traditioneel" weer te geven.
+{{ :en:filter-access.png?direct&400 |}}
+
+{{anchor:filter_basic:}}
+===== Basisfiltering =====
+
+Met basisfiltering kun je filteren op cachetype, moeilijkheidsgraad en terrein:
+
+{{ :en:filter-basic.png?direct&400 |}}
+
+De volgende tabel beschrijft de filterfuncties:
+
+^ Icoon ^ Functie ^ Omschrijving ^
+|{{:abc_ic_cab_done_holo_light.png?nolink&30 |}} | Toepassen|Sluit het dialoogvenster en past de huidige filterinstellingen toe op de caches in de huidige context. |
+|{{:abc_ic_clear_normal.png?nolink&30 |}} | Annuleren | Sluit het dialoogvenster en breekt de filterwijzigingen af. |
+|{{:ic_menu_delete.png?nolink&30 |}} | Wissen | Wist het huidige filter, b.v. zet het in een staat waarin niets is gefilterd (alle cachetypes aangevinkt, alle moeilijkheden/terreinwaarden geselecteerd).|
+|{{:en:filter-advanced-switch.png?nolink&150|}}| Basis/Geavanceerd modus schakeaar | Schakelt tussen de basis- en [[#filter_advanced|geavanceerd]] filtermodus. |
+
+De rest van het scherm is verdeeld in verschillende secties. U kunt filtercriteria instellen in meer dan één van deze secties. In dat geval worden ze gecombineerd met EN-logica. Als u bijvoorbeeld **Cachetype** instelt op //Traditioneel// en **Moeilijkheidsgraad** op //1.0-3.0//, worden alleen caches gefilterd die beide van het type //Traditioneel// zijn en een **Moeilijkheidsgraad hebben. ** <= 3,0.
+
+
+{{anchor:filter_basic_cachetype:}}
+==== Cache Type Filter ====
+
+
+Filter op cachetype. Gebruik selectievakjes om de cachetypes die u in de resultatenlijst wilt opnemen, aan of uit te zetten. Gebruik het selectievakje **Alles selecteren** om snel alle cachetypen te markeren/deselecteren.
+
+c:geo ondersteunt meer dan 20 cachetypes van verschillende geocachingservices. Om de filterdialoog te vergemakkelijken, zullen sommige selecteerbare cachetypes dus andere cachetypes groeperen. Deze logica is zo goed mogelijk overgenomen van het gedrag van geocaching.com:
+^ Icoon ^ Cache Type Filter ^ Filtert de volgende cache typen ^
+| {{ :type_traditional.png?nolink&50 |}} | Tradi | Traditionele Cache, Geocaching HQ, Project APE Cache |
+| {{ :type_event.png?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit,Geocaching HQ Block Party |
+| {{ :type_virtual.png?nolink&50 |}} | Virtual | Virtuele Cache, Locatieloze (Omgekeerde) Cache |
+
+{{anchor:filter_basic_difficultyterrain:}}
+==== Moeilijkheid/Terrein Filter ====
+
+FFilter op **Moeilijkheidsgraad** of **Terrein**. Gebruik de respectieve schuifregelaars om een reeks waarden te selecteren waarop je caches wilt filteren. Het filteren wordt inclusief gedaan, b.v. het instellen van de schuifregelaar op //1.5-3.0// omvat b.v. caches met **Moeilijkheid** //1.5// in het resultaat, maar niet die met **Moeilijkheid** = //1.0//.
+
+Merk op dat het instellen van het filter op het hele bereik (//1.0-5.0//) ook caches in het resultaat zal bevatten die helemaal geen **Moeilijkheid** / **Terrein** hebben (zoals bijv. door de gebruiker gedefinieerde caches).
+
+
+{{anchor:filter_advanced:}}
+===== Geanavceerde filtering =====
+
+Om geavanceerde filterfuncties te gebruiken, zet u de **Basis/Geavanceerde modusschakelaar** aan. Dit zal de lay-out van het filterdialoogvenster veranderen in iets als dit:
+
+{{ :en:filter-advanced.png?direct&400 |}} 
+
+In de modus **Geavanceerd** worden verschillende dingen toegevoegd aan de filterfunctie die in de volgende sectie worden beschreven.
+
+==== Maken en verwijderen filter criteria ====
+
+In de **Basis**-modus zijn de beschikbare filtercriteria vastgesteld op exact //Cache Type//, //Moeilijkheidsgraad// en //Terrain//.
+In de modus **Geavanceerd** kunt u vrij filtercriteria toevoegen of verwijderen om uw eigen persoonlijke filter op te bouwen. U kunt dezelfde filtercriteria zelfs meerdere keren toevoegen, b.v. om een filter te maken met meerdere tekststukken in de cachenaam.
+
+{{ :en:filter-advanced-addremovecriteria.png?direct&400 |}} 
+
+Om een filtercriterium toe te voegen, tik je rechtsboven op de knop **Filtercriterium toevoegen**. Er wordt een dialoogvenster geopend met alle beschikbare filtercriteria:
+
+{{ :en:filter-advanced-criterias.png?direct&300 |}} 
+
+Als je een van de criteria kiest, wordt het betreffende filter aan de lijst met criteria toegevoegd. Alle criteria worden uitgelegd [[#filter_criterias|hier]].
+
+Om een filtercriterium te verwijderen, tik je op het prullenbakpictogram {{:ic_menu_delete.png?nolink&30 |}} in de rechterbovenhoek.
+
+Om de volgorde van filtercriteria in de lijst te wijzigen, tik en sleep je op de rechter bovenhoek van het sleeppictogram {{:settings_details_black.png?nolink&30 |}}.
+
+==== Laden en opslaan van filters ====
+
+Filteruitdrukkingen kunnen vrij worden opgeslagen en geladen met een door de gebruiker gedefinieerde naam.
+
+{{ :en:filter-advanced-saveload.png?direct&400 |}} 
+
+Gebruik het pictogram "opslaan" {{:ic_menu_save.png?nolink&30 |}} om een filter op te slaan. Er verschijnt een dialoogvenster waarin je een naam voor het filter kunt invoeren:
+
+{{:en:filter-advanced-save-dialog.png?direct&300|}} 
+
+Gebruik het pictogram "Wijzigen" {{:ic_menu_agenda.png?nolink&30|}} om een bestaand filter te laden of te verwijderen. Er verschijnt een dialoogvenster met alle bestaande filters, zodat je er een kunt selecteren en deze kunt laden of verwijderen met de respectievelijke knoppen:
+
+{{ :en:filter-advanced-load-dialog.png?direct&300 |}} 
+
+==== Additionele filter opties ====
+
+Extra filteropties zijn beschikbaar in de geavanceerde modus:
+
+{{ :en:filter-advanced-additional-options.png?direct&400 |}} 
+
+^ Functie ^ Omschrijving ^
+| Gebruik OF in plaats van EN | Gewoonlijk zijn de filtercriteria verbonden met behulp van een EN-logica (zoals beschreven in [[#filter_basic:Basic mode]]). Als dit selectievakje is aangevinkt, zijn ze verbonden via OR-logica. |
+| Filter omkeren | Als dit selectievakje is aangevinkt, wordt de logica van het filter omgekeerd (met andere woorden: er wordt een NOT voor geplaatst). Alle cachefilters op de expressie ervoor worden nu NIET gefilterd en vice versa |
+| Inclusief onduidelijke overeenkomsten | In enkele situaties kunnen sommige filters niet worden geëvalueerd door c:geo. Voor niet lokaal opgeslagen caches kan het //attributes//-filter bijvoorbeeld niet worden geëvalueerd. Caches die in deze categorie vallen, worden 'niet overtuigend' genoemd omdat c:geo niet kan beslissen of ze aan de filtercriteria voldoen of niet. Normaal worden dergelijke caches NIET getoond in de resultatenlijst. Door dit selectievakje aan te vinken, kun je c: geo vertellen om dergelijke caches in de resultatenlijst te TONEN. |
+
+{{anchor:filter_criterias:}}
+===== Beschikbare filter criteria =====
+
+De volgende tabel bevat alle beschikbare filtercriteria. Die criteria kunnen worden gebruikt om willekeurig complexe filters op te bouwen in de modus **Geavanceerd**.
+In vervolgparagrafen worden enkele filtercriteria nader toegelicht.
+
+==== Categore "Basis" ====
+
+^ Filter ^ Omschrijving ^ 
+| Cache Omschrijving | Een [[#filter_criteria_text|tekstfilter]] voor de beschrijving van de cache |
+| Cache Naam| Een [[#filter_criteria_text|tekstfilter]] voor de naam van de cache |
+| Cache Eigenaar| Een [[#filter_criteria_text|tekstfilter]] voor de eigenaar van de cache |
+| Cache Type | Filter voor het cache type. Dit is een basisfilter welke is [[#filter_basic_cachetype|hier]] beschreven|
+| Verstopt op | Een [[#filter_criteria_date|datumfilter]] voor de verstopdatum van de cache |
+| Status | Filtert caches op het gebruik van diverse statussen zoals Gevonden, Eigendom, Uitgeschakeld of Gearchiveerd. Dit filter wordt [[#filter_criteria_status|hier]] in meer details uitgelegd. |
+
+==== Categorie "Details" ====
+
+^ Filter ^ Omschrijving^ 
+| Cache Attributen | Filters caches op Cache Attributen zoals "Aanbevolen voor kinderen" of "Stealth noodzakelijk". Dit filter wordt [[#filter_criteria_attributes|hier]] in meer detail uitgelegd. |
+| Cachegrootte | Filtert caches op de grootte (bijv. Regular, Klein, Micro). Deze filtera worden [[#filter_criteria_size|hier]] in meer details uitgelegd. |
+| Moeilijkheid | Filtert caches op moeilijkheidsgraad. Dit is een basisfilter welke [[#filter_basic_difficultyterrain|hier]] wordt uitgelegd. |
+| Favorieten | Filtert caches op toegewezen favorieten punten. Dit filter wordt [[#filter_criteria_favorites|hier]] in meer details uitgelegd. |
+| Laatst gevonden Datum | Een [[#filter_criteria_date|datumfilter]] voor de laatst gevonden datum van de cache. |
+| Locatie | Een [[#filter_criteria_text|tekstfilter]] voor de locatie van de cache (bijv. Land of Staat). Bij het typen van dit tekstfilter worden suggesties gedaan voor voltooiing, zoals "Duitsland" of "Beieren", afhankelijk van de locaties van de caches die op uw apparaat zijn opgeslagen.|
+| Log invoer|Filtert caches op basis van inhoud die is opgeslagen in een van de logboekvermeldingen. Dit filter wordt [[#filter_criteria_logentry|hier]] in meer detail uitgelegd. |
+| Aantal Logs | Filtert caches gebaseerd op het aantal logs. Dit filter wordt [[#filter_criteria_logscount|hier]] in meer detail uitgelegd. |
+| Oorsprong | Filtert caches op basis van hun oorsprong, b.v. //Geocaching.com// of //opencaching.de//. Dit is een [[#filter_criteria_dynamiccheckboxlist|Dynamisch checkboxfilter]]. |
+| Terrein | Filtert caches op terreinwaarde. Dit is een basisfilter welke [[#filter_basic_difficultyterrain|hier]] is beschreven. |
+
+==== Categorie "Gebruikerspecifiek" ====
+
+^ Filter ^ Omschrijving^ 
+| Afstand| Filtert caches op hun afstand vanaf een bepaald punt. Dit filter wordt  [[#filter_criteria_distance|hier]] in meer details beschreven. | 
+| Offline Log | Een [[#filter_criteria_text|tekstfilter]] voor bestaande offline logs. | 
+| Persoonlijke Notities | Een  [[#filter_criteria_text|tekstfilter]] voor persoonlijke notities van de cache. | 
+| Opgeslagen lijsten | Filtert caches op basis van hun aanwezigheid in een door de gebruiker gedefinieerde lijst. Dit is een [[#filter_criteria_dynamiccheckboxlist|Dynamisch checkboxfilter]]. | 
+| Opgeslagen sinds | Ffiltert caches op basis van hun opslagleeftijd in c: geo (bijvoorbeeld hoeveel dagen geleden zijn de offline gegevens van deze cache voor het laatst vernieuwd). | 
+
+
+{{anchor:filter_criterias:}}
+===== Filter criteria details =====
+
+{{anchor:filter_criteria_text:}}
+==== Tekstfilters ====
+
+Tekstfilters filteren op een tekst in een specifiek veld van de cachegegevens, b.v. //Naam// of //Beschrijving//. Ze werken allemaal op dezelfde manier en worden hier uitgelegd met //Cache naam// als voorbeeld.
+
+{{ :en:filter-criteria-textfilter.png?direct&400 |}} 
+
+Het type tekstfiltering kan worden geselecteerd door op de knop **Type tekstfilter** te klikken, die in eerste instantie de waarde //Bevat// toont.
+Het teksttype samen met de tekstwaarde die is ingevoerd in veld **Zoektekst** bepaalt welke caches worden gefilterd.
+
+^ Filter Type ^ Omschrijving^ 
+| Is aanwezig| Filtert alle caches waarin het gefilterde veld een niet-lege waarde heeft. | 
+| Is niet aanwezig| Filtert alle caches waarin het gefilterde veld geen waarde of een lege waarde heeft. | 
+| Bevat| Filtert alle caches waar het gefilterde veld de **Zoektekst** op elke positie bevat. | 
+| Begint met | Filtert alle caches waar het gefilterde veld begint met de **Zoektekst**. | 
+| Eindigt met | Filtert alle caches waar het gefilterde veld eindigt met de **Zoektekst** | 
+| Patroon | Ffiltert alle caches waar de waarde van de gefilterde velden overeenkomt met het patroon in de **Zoektekst**. Je mag de jokertekens **?** en * gebruiken. * staat voor nul, één of meerdere tekens, **?** staat voor één teken. Patroon \'H?mburg*\' komt bijvoorbeeld overeen met b.v. \'Homburg\' of \'Hamburg at Night\' maar niet \'Een dag in Hamburg\' of \'Hahmburg\' |
+
+Gebruik het selectievakje **Hoofdlettergebruik** om te bepalen of tekstovereenkomst hoofdlettergevoelig moet zijn of niet.
+
+{{anchor:filter_criteria_text:}}
+==== Datumfilters ====
+
+Datumfilters filteren op een datum in een specifiek datumveld van de cachegegevens, b.v. de verstopt op datum. Ze werken allemaal op dezelfde manier en worden hier uitgelegd met //Verstopt op datum// als voorbeeld.
+
+{{ :en:filter-criteria-datefilter.png?direct&400 |}} 
+
+Met dit type filter kun je zoeken naar een Van - Tot Datum-bereik, waarbij zowel Van als Tot optioneel leeg kunnen zijn. Klik op de respectievelijke knoppen naast het label **Van** / **Tot** om een datum in te stellen. In het dialoogvenster van de datumkiezer kun je de knop **Wissen** kiezen om de datum te wissen.
+
+{{anchor:filter_criteria_status:}}
+==== Status filter ====
+
+Het statusfilter filtert op verschillende cachestatuswaarden en ziet er als volgt uit:
+
+{{ :en:filter-criteria-status.png?direct&400 |}} 
+
+Om caches op te nemen/uit te sluiten in de statussen **Actief**, **Uitgeschakeld** of **Gearchiveerd**, markeer je de respectievelijke fiches boven aan het filter.
+Met de andere statusopties kun je er allemaal een van de drie waarden voor instellen:
+* **Alle**: Caches mogen niet worden gefilterd op basis van deze criteria.
+* **Ja**: Oalleen caches die aan deze criteria voldoen, worden in het resultaat opgenomen. Als je bijvoorbeeld **Gevonden** instelt op //Ja//, worden alleen gevonden caches in het filterresultaat opgenomen.
+* **Nee**: Alleen caches die **NIET** aan deze criteria voldoen, worden in het resultaat opgenomen. Als je bijvoorbeeld **Gevonden** instelt op //Nee//, worden alleen niet-gevonden caches in het filterresultaat opgenomen.
+
+De volgende statusfilters zijn beschikbaar (beschrijving zegt wat er wordt gefilterd als je //Ja// kiest):
+
+^ Status Filter ^ Omschrijving^ 
+| Gevonden| Filtert op caches die je hebt gevonden. | 
+| Eigendom| Filters op caches die je bezit. | 
+| Opgeslagen| Filters op caches welke lokaal opgeslagen zijn. |
+| Eigen Favoriet | Filters op caches waar je een favoriet aan hebt gegeven. |
+| Op Watchlist | Filters op caches die op je watchlist staan. |
+| Premium | Filtert op Premium caches (alleen op geocaching.com) |
+| Heeft trackable | Filtert op caches die minstens aan één trackable is gekoppeld. |
+| Heeft eigen stem| Filtert op caches die je een stem hebt gegeven. |
+| Heeft offline Log | Filtert op caches die je lokaal hebt opgeslagen met een offline log. |
+| Opgeloste Mysterie | Filtert op mysterie caches welke zijn beshouwd als //opgelost//. Een mysterie wordt als //opgelost// worden als het of aangepaste coördinaten heeft of een geldige met coördinaten gevulde eindbestemming heeft. |
+
+
+{{anchor:filter_criteria_attributes:}}
+==== Attributen filter ====
+
+De attributen filters  filteren voor verschillende cacheattributenwaarden en zien er als volgt uit:
+
+{{ :en:filter-criteria-attributes.png?direct&400 |}} 
+
+Vink meerdere cache-attributen aan om caches te filteren waaraan **alle** geselecteerde attributen zijn gekoppeld. Merk op dat geocaching.com ook toewijzing van negatieve attributen ondersteunt, tik nogmaals op attribuutsymbool om de //negative//-versie te selecteren.
+
+Tik lang op een pictogram om de betekenis ervan als knopinfo te zien.
+
+Gebruik de schakelaar **Opnemen** / **Uitsluiten** om te filteren op caches **inclusief** of **exclusief** alle geselecteerde kenmerken.
+
+gebruik de **Wissen** knop in de rechterbovenhoek om snel alle cache attributen te deselecteren.
+
+{{anchor:filter_criteria_size:}}
+==== Cachegrootte filter ====
+
+De groottefilter filtert voor cachegroottes zoals //Regular//, //Klein// en //Micro//), en ziet er als volgt uit:
+
+{{ :en:filter-criteria-cachesize.png?direct&400 |}} 
+
+Markeer alle grootte buttons waar je caches op wilt filteren. Gebruik de speciale //Select all//-knop om snel alle beschikbare formaatopties te markeren of te demarkeren.
+
+{{anchor:filter_criteria_favorites:}}
+==== Favorieten filter ====
+
+Het favorietenfilter filtert op favoriete punten die aan een cache zijn toegewezen, en ziet er als volgt uit:
+
+{{ :en:filter-criteria-favorites.png?direct&400 |}} 
+
+Gebruik de schakelaar **Absoluut** / **Percentage** om te kiezen of u wilt filteren op het absolute aantal favoriete punten of op het percentage favoriete logs in vergelijking met alle gevonden logs. Merk op dat de schaal van de onderstaande schuifregelaar zal veranderen/resetten als u deze waarde omschakelt.
+
+Selecteer in de modus **Absoluut** op de schaal het bereik van favoriete punten die u wilt filteren. Het selecteren van het juiste punt van de schaal zal resulteren in het filteren van alle caches met > 1000 favoriete punten.
+
+Gebruik in de modus **Percentage** de schaal om een percentagebereik tussen 0% en 100% te selecteren om te filteren.
+
+{{anchor:filter_criteria_logentry:}}
+==== Log Entry filter ====
+
+Het logentry-filter filtert caches op basis van hun logboekvermeldingen en ziet er als volgt uit:
+
+{{ :en:filter-criteria-logentry.png?direct&400 |}} 
+
+Je kunt ervoor kiezen om caches te filteren met een logboekvermelding:
+   * door een specifieke gebruiker (bijv. //EddieMuc//), of
+   * met een specifieke tekst (bijv. //TFTC//)
+
+Gebruik de schakelaar **Opnemen** / **Uitsluiten** om te filteren op caches die **met** of **geen** een logitem hebben dat aan de geselecteerde criteria voldoet.
+
+{{anchor:filter_criteria_logscount:}}
+==== Logs Count filter ====
+
+Het filter voor het tellen van logboeken filtert caches op basis van het aantal logboeken en ziet er als volgt uit:
+
+{{ :en:filter-criteria-logscount.png?direct&400 |}} 
+Tik op de **Aantal logs type** combobox (oorspronkelijk ingesteld op //Gevonden//) om het type log te selecteren waarvan je de telling wilt filteren. Selecteer een van //Gevonden//, //Niet gevonden// of //Alle logboeken//.
+
+Selecteer in de onderstaande schuifregelaar het bereik van het aantal logboeken waarvoor je caches wilt filteren. Door het juiste punt van de schuifregelaar te selecteren, worden alle caches gefilterd met > 1000 logs van het opgegeven type.
+
+{{anchor:filter_criteria_distance:}}
+==== Afstand filter ====
+
+Het afstandsfilter filtert caches op basis van hun afstand vanaf een bepaald punt, en ziet er als volgt uit:
+
+{{ :en:filter-criteria-distance.png?direct&400 |}} 
+
+   * Markeer het selectievakje //Gebruik huidige positie// om de afstandsberekening te baseren op je huidige GPS-positie
+   * Voer een geldige WGS84-coördinaat in het tekstveld in om deze als basis voor de afstandsberekening te gebruiken.
+   * Gebruik de onderstaande schuifregelaar om de min en max afstand (in kilometers/mijlen) van caches binnen het basiscoördinaat te selecteren die in het filterresultaat moeten worden opgenomen.
+
+{{anchor:filter_criteria_dynamiccheckboxlist:}}
+==== Dynamisch Checkbox filters ====
+
+Dynamic Checkboxlist filtert filters voor een of meerdere waarden uit een meer dynamische lijst. Voorbeelden van filters die dit gebruiken zijn //Oorsprong// en //Opgeslagen lijsten// filter:
+
+{{ :en:filter-criteria-dynamiccheckboxlist.png?direct&400 |}} 
+
+Markeer de items op de lijst die je in de resultatenlijst wilt zien. Gebruik de //Voeg meer items toe// om meer items te zien om toe te voegen.

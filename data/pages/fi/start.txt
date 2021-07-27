@@ -14,7 +14,7 @@ c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu
 c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
 
 <WRAP center round info 100%>
-c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohjetta on päivitetty 16.3.2021. \\ \\ Jos huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
+c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 18.7.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös ole ajan tasalla, kuvat mukaan lukien. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
 </WRAP>
 
 ===== Käytön aloitus =====
@@ -87,6 +87,7 @@ c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tä
   * [[cachemarkers|Geokätköjen merkit]]
   * [[cachedetails#waypoint_types|Reittipisteiden tyypit]]
   * [[mapsources|Karttalähteet]] 
+  * [[cachefilter|Kätköjen suodatus]]
   * [[basicmembers|Rajoitukset geocaching.com peruskäyttäjille]]
   * [[coordformat|Koordinaattien muodot]]
   * [[attributes|Attribuuttien kuvakkeet]]
@@ -103,6 +104,7 @@ c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tä
   * [[spoilersync|Lokikuvien c:geoon synkronointi ulkoisista lähteistä]]
   * [[notecoords|Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet]]
   * [[quick_widgets|Pikakäytön sekä pienoiskuvakkeiden käyttö pikakuvakkeina joihinkin c:geon toimintoihin]]
+  * [[replacedevice|c:geon siirto toiseen laitteeseen]]
 
 ===== Laajennukset, lisäosat ja niiden toiminnot =====
 {{anchor:plugins}}
@@ -124,7 +126,6 @@ Jos huomaat c:geossa ongelmia tai virheitä, ole hyvä ja tarkista jos löytäis
 
   * [[http://www.cgeo.org|c:geo kotisivu]]
   * [[https://www.facebook.com/android.geocaching|c:geo Facebookissa]]
-  * [[https://plus.google.com/105588163414303246956|c:geo Google+:ssa]]
   * [[https://twitter.com/android_gc|c:geo Twitterissä]]
 
   * [[https://github.com/cgeo/|c:geo:n kehitys GitHubissa]]

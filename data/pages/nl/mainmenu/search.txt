@@ -17,7 +17,7 @@ In principe gebruiken alle zoekfuncties alle ingeschakelde geocachingplatforms t
 ^Zoekfunctie ^ Omschrijving^
 |{{ :ic_menu_myplaces.png?nolink&30 |}}|Door op dit pictogram te drukken wordt een lijst met je eigen caches geladen.|
 |Coördinaten|Zoek naar caches rondom gegeven coördinaten. Raadpleeg het [[..: coordinatedialog | Coördinaten dialoog]] voor meer informatie.|
-|Addres|Zoeken naar caches rond een straatadres. We gebruiken de Google-coderingsservice voor geocodering om het adres te vinden en om te zetten in coördinaten. \\ Als het adres is gevonden, kun je de lijst met caches in de buurt van deze locatie laden of de [[livemap | live kaart]] op dit adres openen door op het pictogram van de kleine kaart te klikken dat wordt weergegeven in het zoekresultaat.|
+|Addres|Zoeken naar caches rond een straatadres. We gebruiken de Google-coderingsservice voor geocodering om het adres te vinden en om te zetten in coördinaten. \\ Als het adres is gevonden, kun je de lijst met caches in de buurt van deze locatie laden of de [[livemap | live kaart]] op dit adres openen door op het pictogram van de kleine kaart te drukken dat wordt weergegeven in het zoekresultaat.|
 |Geocode|Zoek naar een specifieke geocode op alle ondersteunde platforms, afhankelijk van het codevoorvoegsel (bijv. GC77, OC1234).|
 |Trefwoorden|Zoeken naar caches ** beginnend met ** het opgegeven zoekwoord. \\ :!: Zoeken op trefwoord voor alle caches ** met ** het zoekwoord is momenteel niet mogelijk vanwege technische beperkingen.|
 |Gevonden door gebruiker|Zoeken naar caches gevonden door de opgegeven gebruikersnaam.|

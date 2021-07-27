@@ -9,9 +9,9 @@ Täten c:geo tukee lokikuvien synkronointia käyttämällä alla olevaa hakemist
 Seuraava ohje saattaa näyttää monimutkaiselta, mutta jos käytät vastaavia lokikuvien synkronointityökaluja, koko hakemistostruktuuri luodaan ja lokikuvat lisätään automaattisesti. Kaikki mitä sinun tyypillisesti tarvitsee tietää, on oikea juurikansio (sisältäen hakemistostruktuurin), joka kopioidaan c:geo-laitteellesi.
 </WRAP>
 
-  * Juurikansio: \\ Juurikansio geokätköjen lokikuville (laitteen sisäisessä muistissa) on: ''/cgeo/GeocachePhotos/''.
+  * Juurikansio: \\ Juurikansio geokätköjen spoilerikuville riippuu siitä, minne olet määritellyt c:geon oman juurikansion. Sinun tulee käyttää ''BGeocachePhotos/''-kansiota [[.:mainmenu:settings#base_folder_geolocation_orientation|c:geon oman juurikansion]] alla. Tyypillisesti tämä on sijainnissa ''/cgeo/GeocachePhotos/'', jos käytät oletusasetusta.
 
-  * Hakemistostruktuuri: \\ Juurikansion alla olevan hakemistostruktuurin on noudatettava seuraavaa sääntöä:\\ ''/geokoodin viimeinen merkki/geokoodin toiseksi viimeinen merkki/Täysi geokoodi/'' \\ \\ Esimerkiksi: Jos kätkön koodi on GC123ABC, kyseisen kätkön lokikuvien kansio on ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+  * Hakemistorakenne: \\ Juurikansion alla olevan hakemistorakenteen on noudatettava seuraavaa sääntöä:\\ ''/geokoodin viimeinen merkki/geokoodin toiseksi viimeinen merkki/Täysi geokoodi/'' \\ \\ Esimerkiksi: Jos kätkön koodi on GC123ABC, kyseisen kätkön lokikuvien kansio on ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
     
 
 

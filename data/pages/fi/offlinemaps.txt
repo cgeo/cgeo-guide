@@ -2,138 +2,138 @@
 
 ===== Johdanto =====
 
-c:geo tukee [[https://www.openstreetmap.org|Openstreetmap]]-pohjaisia offline-tilassa käytettäviä vektorikarttatiedostoja, jotka käyttävät [[https://mapsforge.net|mapsforge]]-muotoa.
+c:geo tukee [[https://www.openstreetmap.org|Openstreetmap]]-pohjaisia offline-vektorikarttatiedostoja, jotka käyttävät [[https://mapsforge.net|mapsforge-]]muotoa.
 
-Offline-kartan käyttö c:geossa yhdessä tallennettujen kätköjen kanssa antaa mahdollisuuden käyttää c:geota täysin offline-tilassa (silloin kun et halua tai voi käyttää mobiilidatayhteyttä).
+Offline-karttojen käyttäminen c:geossa yhdessä tallennettujen kätköjen kanssa antaa mahdollisuuden käyttää c:geota täysin offline-tilassa (esimerkiksi silloin kun et halua tai voi käyttää mobiilidatayhteyttä).
 
-Offlinekarttatiedostojen lisäksi c:geo tukee myös niihin liittyviä karttateemoja. Käytettäessä karttateemoja yhdessä offlinekarttojen kanssa, voit muokata tarpeesi mukaan karttanäkymää (esim. korkeuskäyrät, vaellusreittien merkinnät ja paljon muuta). Jotkut offline-kartat jopa vaativat yhteensopivan karttateematiedoston asennettuna, jotta kartat näkyvät oikein.
+Offlinekarttatiedostojen lisäksi c:geo tukee niihin liittyviä karttateemoja. Käyttämällä mukautettua karttateemaa yhdessä offline-kartan kajssa, voit mukauttaa karttanäkymää tarpeesi mukaan (kuten korkeuskäyrät, vaellusreittimerkinnät ja paljon muuta). Jotkut offline-kartat jopa vaativat yhteensopivan teeman asennettuna, jotta ne voidaan näyttää oikein.
 
-Tämä tutoriaali selittää kuinka ladata, asentaa ja konfiguroida kyseiset offline-kartat ja niiden teemat.
+Tämä tutoriaali selostaa kuinka ladata, asentaa ja määrittää nämä offline-kartat ja teemat.
 
-===== Karttojen/teemojen lataus =====
+===== Automaattinen lataus ja asennus =====
 
-Ennen kaikkea sinun tulee ladata tarvittavan alueen kattava offlinekarttatiedosto. Useita palveluita on saatavilla internetissä. Monet palvelut tarjoavat usein päivitetyt ja käyttövalmiit kartat.
+c:geo tukee täysin automaattista offline-karttojen latausta ja asennusta eri lähteistä.
 
-Seuraavat taulukot tarjoavat yleiskatsauksen joistakin yhteensopivista karttatiedostojen lähteistä, josta voit ladata offline-karttasi:
+==== Karttojen lähteet ====
+{{anchor:mapsources}}
 
-^ Nimi ^ Kattavuus ^ Selite ^ Yhteensopivuus ^ Hinnoittelu ^
-|[[https://kartat.hylly.org/|kartat.hylly.org]]|Suomi|Karttatiedostot Garmin-laitteisiin ja Android-puhelimiin.|Todella yksityiskohtaiset kartat, mutta vaativat yhteensopivan karttateeman (ladattavissa heidän verkkosivuilta) jotta kartat näkyvät oikein.|Kartat ilmaisia, asennusohje maksullinen|
-|[[https://download.mapsforge.org|Mapsforge-karttakirjasto]]|Maailma|Tämä serveri tarjoaa maailmanlaajuiset etukäteen rakennetut kartat ja mielenkiintoiset paikat. Kartat on generoitu Mapsforge-kirjoittajan osien uusimmalla versiolla.\\ \\ //Käytäthän heidän peilipalvelinta karttojesi lataukseen.//|Kartat hakemistoissa V4 ja V5 ovat yhteensopivia c:geon kanssa.\\ V3-karttoja voidaan käyttää jos aktivoit [[.mainmenu:settings#mapsforge_api|asetuksista]] päälle asetuksen "Vanha Mapsforge V3", mutta emme suosittele enää käyttämään tätä versiota.\\ Kustomoituja teematiedostoja ei ole tarjolla, karttatiedostot toimivat parhaiten kun käytetään c:geon oletusteemaa.|Ilmainen|
-|[[https://openandromaps.org|OpenAndroMaps]]|Maailma|OpenAndroMaps tarjoaa ladattavat vektorikartat älypuhelimiin ilmaiseksi.|Käytä linkkiä "Multilingual V4-map" ladataksesi kartan yhteensopivan version.\\ Suosittelemme käyttämään näitä karttoja yhdessä yhteensopivan karttateeman "Elevate4" kanssa. Karttateeman voi ladata kyseiseltä verkkosivulta.|Ilmainen, lahjoituksia arvostetaan|
-|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Eurooppa|Karttatiedostot Garmin-laitteisiin ja Android-puhelimiin.|Todella yksityiskohtaiset kartat, mutta vaativat yhteensopivan karttateeman (ladattavissa heidän verkkosivuilta) jotta kartat näkyvät oikein.|Ilmainen, lahjoituksia arvostetaan|
+Seuraavissa taulukoissa on yleisnäkymä karttatiedostolähteistä, joita c:geon karttalataaja tukee:
 
-Ylläoleva taulukko tarjoaa vain joitakin esimerkkejä karttojen tarjoajista, niitä löytyy myös lisää.
+^ Nimi ^ Kattavuus ^ Selite ^ Huomiot ^ Hinta ^
+|[[https://download.mapsforge.org|Mapsforge Map Repository]]|Maailma|Tämä palvelin isännöi maailmanlaajuiset valmiiksi rakennetut kartat ja POIt, jotka on luotu viimeisimmällä mapsforge-generaattorilla.|Mukautettuja teematiedostoja ei ole tarjolla, kartat toimivat parhaiten c:geon oletusteemalla.|Ilmainen|
+|[[https://openandromaps.org|OpenAndroMaps]]|Maailma|OpenAndroMaps tarjoaa ladattavat vektorikartat älypuhelimiin ilmaiseksi|Suosittelemme näiden karttojen käyttöä "Elevate4"-karttateeman kanssa. Karttalataaja tarjoaa kyseisen karttateeman latausta karttatiedoston latauksen jälkeen.|Ilmainen, lahjoituksia arvostetaan|
+|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Eurooppa|Karttatiedostot Garmin-laitteisiin ja Android-älypuhelimiin|Hyvin yksityiskohtaiset kartat, mutta vaativat vastaavan karttateeman (jota karttalataaja tarjoaa ladattavaksi) oikein näkymiseksi.|Ilmainen, lahjoituksia arvostetaan|
+|[[https://kartat.hylly.org/|Hylly]]|Suomi|Karttatiedostot Garmin-laitteisiin ja Android-älypuhelimiin|Hyvin yksityiskohtaiset kartat, mutta vaativat vastaavan karttateeman (jota karttalataaja tarjoaa ladattavaksi) oikein näkymiseksi.|Ilmainen, lahjoituksia arvostetaan|
 
-===== Asennus =====
+==== Lataa ja asenna kartat/teemat ====
+
+c:geon kartan lataaja voidaan avata kahdella tavalla:
+  * From the [[.:mainmenu:livemap|Karttanäkymässä]] avaamalla karttavalitsimen ja napauttamalla ''<Lataa offline-kartta>''
+{{ :en:offlinemap_downloader_maps.png?direct&300 |}}
+
+  * [[.:mainmenu:settings|Kartan asetuksista]] valitsemalla ''Lataa offline-kartta''
+{{ :en:offlinemap_downloader_settings.png?direct&300 |}}
+
+
+Karttalataajan avaamisen jälkeen, voit valita mistä lähteestä haluat ladata kartan, avaamalla alasvetovalikon yläpalkista. Saadaksesi enemmän tietoja eri kartoista, vilkaise [[offlinemaps#mapsources|tätä listaa]] tai klikkaa sydänkuvaketta karttalataajanäkymässä ylhäällä oikealla.
+
+{{ :en:offlinemap_downloader_2.png?direct&400 |}}
+
+Esimerkissämme, käytämme karttojen lähteenä "Mapsforge"a ja haluamme ladata Meksikon offlinekartat.
+
+Ylimmän tason lista on yleensä jaettu karkeasti maantieteellisiin alueisiin (yleensä maanosiin) ja tarkentuvat alemmilla tasoilla. Napauta suurennuslasinappia avataksesi haluamasi listan/alueen ja nähdäksesi sen sisällön. Kun olet löytänyt karttatiedoston, jonka haluat asentaa, napauta levykekuvaketta sen vieressä aloittaaksesi latausprosessin.
+
+{{:en:offlinemap_downloader_1.png?direct&300 |}}{{:en:offlinemap_downloader_3.png?direct&300|}}
+
+<WRAP center round important 100%>
+Kartan lataus voi aiheuttaa suuren verkkoliikenteen määrän! Käytä Wifiä tai muuta ei-mitattua verkkoa ennen latauksen aloittamista.
+</WRAP>
+
+Vahvista seuraavassa näkymässä aloittaaksesi latauksen.
+
+{{ :en:offlinemap_downloader_4.png?direct&400 |}}
+
+Lataus itse suoritetaan taustalla laitteesi lataushallinnassa. Kun lataus on suoritettu, tiedosto siirretään automaattisesti c:geon karttakansioon ja asetetaan nykyiseksi kartaksi.
 
 <WRAP center round info 100%>
-Käyttäjät ovat raportoineet, että jotkut (tarjoajien) työkalut tiedostojen siirtämiseen tietokoneen ja puhelimen välillä voivat korruptoida tai muokata tiedostoja siirron aikana. Täten suosittelemme, että lataat kaikki tiedostot suoraan puhelimellasi ja käyttämään hyväksi havaittua tiedostonhallintaohjelmaa tiedostojen purkamiseen/kopiointiin/siirtämiseen kuten alla kuvattuna.
+On parasta, että c:geo pidetään aktiivisena latauksen aikana, jotta latauksen loputtua c:geo voi heti siirtää ladatun kartan käyttöönsä.
 </WRAP>
 
-==== Karttatiedostot ====
+{{:en:offlinemap_downloader_5a.png?direct&400|}}{{ :en:offlinemap_downloader_5b.png?direct&400|}}
 
-Ladatun offlinekarttatiedoston tulee olla tallennettuna laitteeseesi haluamaasi sijaintiin. Jos ladattu tiedosto on pakattu (''*-zip''), niin sinun tulee purkaa se ensin. Oikea karttatiedoston pääte on ''*.map'' (esimerkiksi ''germany.map'').
+Jos ladattu kartta vaatii yhteensopivan karttateeman (ei koske Mapsforgea), lataaja kysyy kartan latauksen jälkeen automaattisesti, haluatko ladata myös ladata ja asentaa tarvitun teeman.
 
-Jos haluat asentaa useamman karttatiedoston c:geoon käyttöä varten, sinun tulisi tallentaa kaikki ne samaan kansioon. C:geo konfiguroidaan etsimään karttoja tietystä kansiosta, kaikki kartat on valittavissa c:geossa.
+{{ :en:offlinemap_downloader_6.png?direct&400 |}}
 
-{{:en:offlinemap_mapfile_location.jpg?direct&400|}}
+Siinä kaikki mitä sinun tulee tehdä. Ladattu kartta (ja valinnaisesti ladattu teema) valitaan automaattisesti karttanäkymässä näytettäväksi kartaksi.
 
-Tutoriaalissa oletamme että tallensit karttatiedosto(t) kansioon ''/sdcard/mymaps''.
+Jos tarvitset enemmän kuin yhden kartan, voit toistaa prosessin tarvittaessa.
 
-==== Teemat ====
+==== Ladattujen karttojen päivitysten tarkastus ====
 
-Jos (valinnaisesti) latasit myös karttateematiedoston offline-karttaasi varten, sinun tulee tallentaa myös se laitteeseesi karttatiedostojen lisäksi.
+Voit käyttää karttalataajaa myös tarkistaaksesi säännöllisesti karttapäivitykset jo ladatuille kartoille ja teemoille. Avaa vain karttalataaja kuten yllä selostettuna.
 
-Tyypillisesti ladattu teema on pakattu (''*.zip'') ja se tulee purkaa ennen kuin c:geo voi käyttää sitä. Pakattu tiedosto sisältää yleensä muutaman kansion ja paljon pieniä tiedostoja. Varmistathan että hakemisto ei muutu kun purat tämän tiedoston.
+''Tarkista päivitykset''-napin napautuksen jälkeen lataaja tarkistaa automaattisesti, onko ladattuihin karttoihin ja teemoihin saatavilla päivityksiä.
 
-Kaikki purkamisesta tulevat tiedostot tulee purkaa valitsemaasi kansioon laitteessasi. 
+{{ :en:offlinemap_downloader_update_1.png?direct&400 |}}
 
-{{:en:offlinemap_themefile_location.jpg?direct&400|}}
+Tämän jälkeen lataaja näyttää, että päivityksiä ei ole saatavilla, tai listaa tiedostot, jotka voidaan päivittää. Päivittääksesi kartat/teemat, napauta levykekuvaketta tiedostonimen vieressä.
 
-Tutoriaalissa oletamme että karttateema(t) on tallennettu kansioon ''/sdcard/mythemes''.
+{{ :en:offlinemap_downloader_update_2a.png?direct&400 |}}
 
-===== Konfigurointi =====
-
-Kun olet tallentanut karttatiedostot (valinnaisesti myös teemat) laitteellesi, sinun tulee konfiguroida c:geo käyttämään oikeita hakemistoja, jotta c:geo löytää kartat/teemat.
-
-Löydät seuraavat asetukset c:geossa kohdasta Valikko -> Asetukset -> Kartta. Yksityiskohtainen seloste tästä asetusvalikosta löytyy [[.mainmenu:settings#map|täältä]].
-
-Aluksi littyvät asetukset ovat tyhjiä:
-
-{{ :en:offlinemap_settings_empty.png?direct&400 |}}
-
-Tässä valikossa sinun tulee valita hakemisto, johon tallensit karttatiedostot (ja teemat) tämän tutoriaalin edellisessä askeleessa.
-Pysyessämme esimerkissämme, sinun tulee konfiguroida seuraavat hakemistot:
-^ Valikon valinta ^ Asetukset ^
-|Offline-karttojen hakemisto|/sdcard/mymaps|
-|Karttateemojen hakemisto|/sdcard/mythemes|
-
-Valitaksesi kansiot klikkaa kyseistä valikon valintaa. c:geo skannaa automaattisesti kansiosi, ja yrittää etsiä karttatiedostot, ja tarjoaa löydetyt kansiot valittavaksi. Jos lista sisältää oikean hakemiston, voit valita suoraan sen. Jos karttatiedoston/karttateeman hakemisto ei ole listattuna, sinun tulee klikata ''Valitse kansio''-nappia yläosassa, manuaalisesti valitaksesi tai kirjoittaaksesi hakemiston osoitteen.
-
-{{ :en:offlinemap_file_scanner.jpg?direct&400 |}}
-
-<WRAP center round tip 100%>
-Joissakin laitteissa oikean kansion löytäminen voi olla turhauttavaa, sillä sama kansio voi olla asetettu eri polkuihin yhtä aikaa, kun taas näiden polkujen näkyvyys voi vaihdella eri sovellusten välillä. Tyypillinen esimerkki on, että polku ''/sdcard/mymaps'' voi olla näytetty polkuna ''/storage/emulated/0/mymaps'' tai samankaltaisena kuin ''/storage/1234-5678/mymaps''. \\
-Monien eri toteutusten vuoksi, riippuen valmistajasta, mallista, Android-versiosta ja laitteen konfiguraatiosta, emme voi antaa geneeristä tietoa, mutta sinun tulee löytää oikea polku laitteessasi.
-</WRAP>
-
-Jos valitset ''Valitse kansio'', jokin tiedostonhallintasovellus (ulkonäkö vaihtelee Android-version sekä asennettujen kolmannen osapuolen työkalujen mukaan) avautuu, josta voit selata kansioitasi ja valita oikean kansion.
-
-Seuraavat kuvat näyttävät kaksi erilaista tyypillistä tiedostonhallintaohjelmaa ja näyttävät askeleet jotka tarvitaan karttatiedoston valitsemiseksi esimerkkimme mukaisesti. Karttateemojen kansion valitsemiseksi, askeleet ovat identtiset, mutta sinun tulee valita karttateeman kansio.
-
-{{:en:offlinemap_chooser_cgeo_map.jpg?direct&300|}}
-{{ :en:offlinemap_chooser_locus_map.jpg?direct&300|}}
-
-Pysyessämme esimerkissämme kansioiden konfiguraatio tulisi näyttää seuraavanlaiselta valikon lopussa:
-
-{{ :en:offlinemap_settings_done.jpg?direct&400 |}}
-
-Nyt olet valmis käyttämään karttatiedostojasi (ja teemojasi) c:geossa.
+{{ :en:offlinemap_downloader_update_2.png?direct&400 |}}
 
 
-===== Käyttö =====
-<WRAP center round important 100%>
-Uusien karttojen/teemojen lisäämisen jälkeen c:geo tulee käynnistää uudelleen lisättyjen tiedostojen tunnistamiseksi.
-</WRAP>
 
-==== Karttatiedoston käyttö ====
+Kun lataus on suoritettu, sinulta kysytään haluatko korvata olemassa olevat (vanhemmat) kartat vai nimetä uudelleen ladatun kartan. Yleensä päivityksen yhteydessä vanha kartta korvataan, siinä tapauksessa voit valita ''Korvaa''.
 
-Jos olet konfiguroinut kansiot oikein, c:geo näyttää nyt kaikki saatavat offlinekarttatiedostot karttojen valintavalikossa (live)kartalla ja c:geon valikossa Valikko -> Asetukset -> Kartta.
+{{ :en:offlinemap_downloader_update_3.png?direct&400 |}}
 
-{{:en:offlinemap_map_selector_2.jpg?direct&400|}}
-{{ :en:offlinemap_map_selector.jpg?direct&400|}}
+Sinun tulee toistaa prosessi jokaiselle kartalle/teemalle jonka haluat päivittää.
 
-Kun kartat on kerran valittu, c:geo käyttää kyseistä karttatiedostoa karttasi näyttämiseen onlinekarttojen tilalla.
+===== Offline-karttojen käyttö =====
 
-==== Teemojen käyttö ====
 
-Käytettävän offline-karttatiedoston valinnan jälkeen, voit asettaa teeman jota käytetään kartan renderöintiin.
+==== Karttatiedoston valinta ====
 
-Tämä tapahtuu (live)kartan valikossa valinnan ''Valitse karttateema'' kautta. Jos asensit teeman offline-karttojen kanssa, valitse myös kartan mukainen teema tässä.
+c:geo näyttää kaikki ladatut offlinekarttatiedostot (live)karttanäkymän karttavalikossa, ja voit käyttää sitä vaihtaaksesi asennettujen offlinekarttojen välillä.
 
-{{:en:offlinemap_theme_selector.jpg?direct&400|}}
-{{ :en:offlinemap_theme_menu.jpg?direct&400|}}
+{{ :en:offlinemap_map_selector_2.png?direct&400 |}}
+
+Voit käyttää myös c:geon Valikko -> Asetukset -> Kartta ja napauttaa ''Karttalähde'' valitaksesi käytettävän offlinekartan.
+
+{{ :en:offlinemap_map_selector.png?direct&400 |}}
+
+Kun kartta on valittu, c:geo käyttää kyseistä karttatiedostoa näyttääkseen kartan, sen sijaan että se hakisi karttanäkymän internetistä.
+
+==== Karttateeman valinta ====
+
+Kun olet valinnut käytettävän kartan, voit asettaa teeman, jota käytetään kartan renderöintiin.
+
+Tämän voi tehdä (live)kartan valikossa ''Valitse kartan teema''-valintaa käyttämällä. Jos asensit karttateeman offlinekartan asennuksen yhteydessä, varmista, että valitset yhteensopivan teeman tässä.
+
+{{ :en:offlinemap_theme_selector.jpg?direct&400 |}}
 
 
 
 
 
-===== Edistyneet teemavalinnat =====
+==== Edistyneet teemavalinnat ====
 
-Jos asensit teeman, voit säätää ja konfiguroida tiettyjen karttaelementtien näkyvyyttä tarpeesi mukaan. Löydät kyseisen asetuksen (live)kartan valikon valinnasta ''Teeman asetukset''.
+Jos asensit teeman, voit säätää tiettyjen karttaelementtien näkyvyyttä tarpeen mukaisesti. Löydät asetukset (live)karttanäkymän valikosta kohdasta ''Teema-asetukset''.
 
 {{ :en:offlinemap_advanced_themeoptions.jpg?direct&400 |}}
 
-Tästä voit valita kartan perustyylin (kuten Vaellus, pyöräily, autoilu) ja säätää karttaa tarpeesi mukaan kytkemällä päälle ja pois kartan lisäelementtejä.
+Tästä voit valita peruskarttateeman (esim. Vaellus, Pyöräily, Autoilu) ja säätää sitä jälkeenpäin kytkemällä päälle/pois kartan lisäelementtejä.
 
 {{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
 
-===== Lisälukemista offlinekartoista =====
+===== Lisätietoja offline-kartoista =====
 
-Linkkejä joihinkin oppaisiin ja tutoriaaleihin, jotka c:geon käyttäjät ovat tehnyt
+Linkkejä c:geon käyttäjien tekemiin oppaisiin ja tutoriaaleihin
 
 ^ Linkki ^ Kieli ^ Selite ^ 
-|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Saksa|Tutoriaali c:geon ja sen käytöstä offline-tilassa|
+|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Saksa|Tutoriaali c:geosta ja offline-käytöstä|
 
 
 

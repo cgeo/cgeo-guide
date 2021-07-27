@@ -50,6 +50,7 @@
           * [[cachemarkers|Geocache markering pictogrammen]]
           * [[cachedetails#waypoint_types|Waypoint typen]]
           * [[mapsources|Kaartbronnen]]
+          * [[cachefilter|Cache Filtering]]
           * [[basicmembers|Beperkingen voor basisleden]]
           * [[coordformat|Coördinaat formaten]]
           * [[attributes|Attributen]]

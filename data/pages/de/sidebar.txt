@@ -42,6 +42,7 @@
       * [[cachemarkers|Geocache-Markierungen]]
       * [[cachedetails#waypoint_types|Typen von Wegpunkten]]
       * [[mapsources|Kartenquellen]]
+      * [[cachefilter|Cache-Filterung]]
       * [[basicmembers|Limitierungen bei Basis-Mitgliedern]]
       * [[coordformat|Koordinatenformate]]
       * [[attributes|Attribut-Symbole]]

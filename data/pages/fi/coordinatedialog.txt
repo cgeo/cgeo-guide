@@ -3,7 +3,7 @@
 
 {{:en:coordinput.png?direct&300 |}}
 
-Koordinaattien syöttönäyttö avataan jos [[cachedetails#waypoint_tab|reittipistettä]] muokattaessa klikkaat koordinattikenttää tai syötettäessä koordinaatteja [[.mainmenu:search|haku]]- tai [[.mainmenu:goto|Siirry]]-valikoissa.
+Koordinaattien syöttönäyttö avataan jos [[cachedetails#waypoint_tab|reittipistettä]] muokattaessa napautat koordinattikenttää tai syötettäessä koordinaatteja [[.mainmenu:search|haku]]- tai [[.mainmenu:goto|Siirry]]-valikoissa.
 
 {{:abc_ic_clear_normal.png?nolink&40|}}-nappi sulkee syöttönäytön tallenttamatta muutoksia, {{:abc_ic_cab_done_holo_light.png?nolink&40|}} tallentaa muutokset ja sulkee syöttönäytön.
 
@@ -16,7 +16,7 @@ Varmista että tallennat muutokset etenkin käytettäessä reittipistelaskuria, 
 
 {{:en:coordinput_format.png?nolink&300 |}}
 
-Tätä kenttää klikkaamalla voit valita eri [[coordformat|tuettujen koordinaattimuotojen ]] välillä tai valita ''Yksinkertainen'' syöttääksesi haluamasi muodon. Koordinaattien syöttökentät muuttavat muotoaan tämän valinnan mukaisesti.
+Tätä kenttää napauttamalla voit valita eri [[coordformat|tuettujen koordinaattimuotojen ]] välillä tai valita ''Yksinkertainen'' syöttääksesi haluamasi muodon. Koordinaattien syöttökentät muuttavat muotoaan tämän valinnan mukaisesti.
 
 Jos olet jo syöttänyt koordinaatit, ne muunnetaan valittuun muotoon.
 ===== Koordinaattien syöttö =====
@@ -24,7 +24,7 @@ Jos olet jo syöttänyt koordinaatit, ne muunnetaan valittuun muotoon.
 
 {{:en:coordinput_coords.png?nolink&300 |}}
 
-Käytä näitä kenttiä koordinaattien syöttämiseen. N/W-nappeja klikkaamalla voit vaihtaa niitä S/E-muotoon tarvittaessa.
+Käytä näitä kenttiä koordinaattien syöttämiseen. N/W-nappia napauttamalla voit vaihtaa sen S/E-muotoon tarvittaessa.
 
 Kenttien asettelu ja muoto riippuu yllä valitsemastasi koordinaattien muodosta.
 ===== Koordinaattilähteet =====
@@ -47,7 +47,7 @@ Kaikki tai osa napeista voi olla näkyvillä riippuen missä kohdassa ohjelmaa k
 
 c:geo tarjoaa reittipistelaskurin, joka laskee annettujen muuttujien sekä yhtälöjen mukaisesti tulosten mukaiset koordinaatit.
 
-Tämä näyttö näytetään kun klikkaat [[coordinatedialog#waypoint_sources|koordinaattien syöttönäytössä]] ''Laske koordinaatit''-nappia.
+Tämä näyttö näytetään kun napautat [[coordinatedialog#waypoint_sources|koordinaattien syöttönäytössä]] ''Laske koordinaatit''-nappia.
 
 {{:abc_ic_clear_normal.png?nolink&40|}}-nappi sulkee näytön tallenttamatta muutoksia, {{:abc_ic_cab_done_holo_light.png?nolink&40|}}-nappi tallentaa muutokset, sulkee näytön ja palaa reittipisteen muokkaukseen.
 
@@ -56,7 +56,7 @@ Voit käyttää laskinta myös kenttäreissun valmistelemiseen määrittämäll�
 Tämä ei tietenkään tarjoa oikeaa tulosta, mutta voit kuitenkin tallentaa milloin vain tämän hetkisen tilan tallentamalla muutokset laskimessa ja sen jälkeen tallentamalla reittipisteen tilan.
 </WRAP>
 
-Ensimmäisen kentän klikkaus avaa valikon, josta voit tarvittaessa muuttaa eri [[coordinatedialog#coordinate_format|koordinaattimuotojen]] välillä. Kaikki muut toiminnot esitellään alla.
+Ensimmäisen kentän napautus avaa valikon, josta voit tarvittaessa muuttaa eri [[coordinatedialog#coordinate_format|koordinaattimuotojen]] välillä. Kaikki muut toiminnot esitellään alla.
 
 Laskurin käytön ymmärtämisen helpottamiseksi käytämme esimerkkiä laskurin käyttöön.
 ==== Päämuuttujien määrittely ====
@@ -66,7 +66,7 @@ Laskurin käytön ymmärtämisen helpottamiseksi käytämme esimerkkiä laskurin
 
 Oletuksena tämä kenttä näyttää kätkön koordinaatit aloituspisteenä muuttujien asetusta varten.
 
-__Lyhyellä klikkauksella__ voit jokaisen numeron kohdalla valita haluamasi toiminnon kyseiselle numerolle:
+__Lyhyellä napautuksella__ voit jokaisen numeron kohdalla valita haluamasi toiminnon kyseiselle numerolle:
 
   * **Muuttujan asetus tälle numerolle**\\ Asettaa seuraavan käyttämättömän muuttujan (A-Z) tälle numerolle.
   * **Numeron ohittaminen**\\ Poistaa tämän numeron kokonaan laskuista. Tämä sallii ratkaisut, joissa on muuttujia, joissa voi olla enemmän kuin yksi numero.
@@ -146,7 +146,7 @@ Laskimen muistiinpanojen sisältö synkronisoidaan laskettavan reittipisteen koo
 ==== Yksinkertaisen koordinaattimuodon käyttö ====
 {{anchor:using_plain_coordinate_format}}
 
-Koordinaattien tai koordinaattiyhtälöiden syöttö //Yksinkertainen//-tilassa toimii toisella tavalla kuin kiinteät koordinaattimuodot. Klikattavien numerokenttien sijaan esille tulee kaksi vapaamuotoista tekstikenttää johon voi syöttää koordinaattien leveysasteen ja pituusasteen.
+Koordinaattien tai koordinaattiyhtälöiden syöttö //Yksinkertainen//-tilassa toimii toisella tavalla kuin kiinteät koordinaattimuodot. Napautettavien numerokenttien sijaan esille tulee kaksi vapaamuotoista tekstikenttää johon voi syöttää koordinaattien leveysasteen ja pituusasteen.
 
 Yksittäinen tai useampi numero voidaan korvata sulkeilla erotetuilla yhtälöillä. Yhtälöissä täytyy käyttää muuttujia, jotka ovat yksittäisiä ISOJA kirjaimia.
 

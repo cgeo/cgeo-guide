@@ -43,6 +43,7 @@
       * [[cachemarkers|Geocache markers]]
       * [[cachedetails#waypoint_types|Waypoint types]]
       * [[mapsources|Map sources]]
+      * [[cachefilter|Cache Filtering]]
       * [[basicmembers|Basic member limitations]]
       * [[coordformat|Coordinate formats]]
       * [[attributes|Attribute icons]]

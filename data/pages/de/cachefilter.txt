@@ -1,0 +1,303 @@
+====== Cache-Filterung ======
+
+Die Cache-Filterung kann an verschiedenen Stellen in c:geo angewendet werden, z.B. auf der [[.:mainmenu:livemap|Live-Karte]], in den [[.:mainmenu:lists|gespeicherten Caches]] oder wenn eine Online-[[.:mainmenu:search|Cache-Suche]] ausgeführt werden soll. An all diesen Stellen wird der selbe Filtermechanismus verwendet.
+
+===== Zugriff auf Filter =====
+
+Die Filter-Einstellungen sind über das Optionsmenü durch Klick auf das Filter-Symbol {{:ic_menu_filter.png?nolink&30|}} zugänglich.
+
+Wenn bereits ein Filter aktiv ist, wird dies als Kopfzeile unterhalb der Titelzeile angezeigt. Durch Tippen dieser Kopfzeile kann man ebenso auf die Filtereinstellungen zugreifen. Beispielsweise zeigt der folgende Bildschirm sowohl das Filter-Symbol als auch die Filter-Kopfzeile (jeweils rot markiert), bei dem der Filter auf den Cache-Typ "Traditionell" gesetzt ist.
+
+{{ :en:filter-access.png?direct&400 |}}
+
+{{anchor:filter_basic:}}
+===== Standardfilter =====
+
+Die Standardfilter erlauben eine Filterung nach Cache-Typ sowie Schwierigkeits- und Geländewertung:
+
+{{ :en:filter-basic.png?direct&400 |}}
+
+Die folgende Tabelle beschreibt die Filterfunktionen:
+
+^ Symbol ^ Funktion ^ Beschreibung ^
+|{{:abc_ic_cab_done_holo_light.png?nolink&30 |}} | Anwenden | Schließt den Dialog und wendet die aktuellen Filtereinstellungen auf die Caches im aktuellen Kontext an. |
+|{{:abc_ic_clear_normal.png?nolink&30 |}} | Abbrechen | Schließt den Dialog und verwirft die Filtereinstellungen. |
+|{{:ic_menu_delete.png?nolink&30 |}} | Löschen | Löscht den aktuellen Filter, d.h. setzt ihn auf einen Status, in dem nichts gefiltert wird (alle Cachetypen ausgewählt, alle D/T-Stufen gewählt). |
+|{{:en:filter-advanced-switch.png?nolink&150|}}| Umschalter Basis/Erweitert | Schaltet zwischen Basisfilter und [[#filter_advanced|erweiterter]] Filterung um. |
+
+Der Rest des Bildschirms ist aufgeteilt in verschiedene Bereiche. Du kannst Filterkriterien in mehr als einer dieser Bereich eingeben. In diesem Fall werden sie mit einer UND-Logik angewendet. Beispielsweise wird beim Setzen von **Cache-Typ** auf //Traditionell// und **Schwierigkeit**  auf //1.0-3.0// nur Caches angezeigt, die Traditional-Caches sind und eine Schwierigkeit <=3.0 haben.
+
+{{anchor:filter_basic_cachetype:}}
+==== Cache-Typ Filter ====
+
+Filtert nach Typen von Caches. Nutze die Ankreuzfelder um Cache-Typen zu wählen/abzuwählen, die in den Resultaten angezeigt werden soll. Nutze das **Alle auswählen** Ankreuzfeld um schnell alle Cache-Typen zu wählen/abzuwählen.
+
+c:geo unterstützt mehr als 20 Cache-Typen über mehrere Geocaching-Dienste. Daher werden, um den Filterdialog einfacher zu gestalten, einige Cachetypen gruppiert. Diese Logik wurde so eng wie möglich an das typische Geocaching-Verhalten angepasst:
+^ Symbol ^ Cache-Typ ^ Filtert die folgenden Cache-Typen ^
+| {{ :type_traditional.png?nolink&50 |}} | Tradi | Traditioneller Cache, Geocaching HQ, Project APE Cache |
+| {{ :type_event.png?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit, Geocaching HQ Block Party |
+| {{ :type_virtual.png?nolink&50 |}} | Virtuell | Virtueller Cache, Locationless (Reverse) Cache |
+
+{{anchor:filter_basic_difficultyterrain:}}
+==== Schwierigkeit/Gelände-Filter ====
+
+Filtert nach **Schwierigkeit** und **Gelände**. Nutze die jeweiligen Schieberegler um einen Bereich auszuwählen, nach dem gefiltert werden soll. Die Filterung wird inklusive angewendet, d.h. das Setzen des Schiebereglers auf eine **Schwierigkeit**  von //1.5-3.0// wird Caches mit einer **Schwierigkeit** von //1.5// im Ergebnis anzeigen, aber keine Caches mit einer //Schwierigkeit// von //1.0//.
+
+Beachte, dass bei Filterung auf den gesamten Bereich (//1.0-5.0//) auch Caches inkludiert werden, die keine **Schwierigkeits**- bzw. **Gelände**wertung haben (z.B. benutzerdefinierte Caches).
+
+==== Einfacher Statusfilter ====
+
+Erlaubt es nach dem aktuellen Status eines Caches zu filtern. Du kannst auswählen, ob Caches abhängig von ihrem Status gefiltert werden sollen. Dieser Filter ist auch mit mehr Optionen im [[#filter_advanced|erweiterten]] Modus verfügbar.
+
+{{ :en:filter_basic_status.png?direct&400 |}}
+
+Um Caches im Status **Aktiv**, **Deaktiviert**  oder **Archiviert**  einzubeziehen/auszuschließen, aktiviere/deaktiviere die entsprechenden Felder oben im Filter.
+
+Die weiteren Statusoptionen erlauben es dir, einen von drei Werten auszuwählen:
+|**Alle**| Caches werden nicht nach diesem Kriterium gefiltert.|
+|**Ja**| Nur Caches, die dieses Kriterium erfüllen werden im Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Ja// nur gefundene Caches im Filterergebnis angezeigt.|
+|**Nein**| Nur Caches, die das Kriterium **NOT** erfüllen werden in das Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Nein// nur nicht gefundene Caches in das Resultat einbezogen.|
+
+Die folgenden Statusfilter ist verfügbar (Die Beschreibung gibt hier an, was gefiltert wird, wenn //Ja// ausgewählt wird):
+
+^ Statusfilter ^ Beschreibung ^ 
+| Gefunden | Filtert die Caches, die du gefunden hast. | 
+| Eigene | Filtert Caches, die dir gehören. | 
+| Mit Offline-Log | Filtert caches, zu denen du ein Offline-Log gespeichert hast. |
+
+===== Erweiterte Filterung =====
+{{anchor:filter_advanced:}}
+
+Um die erweiterten Filterfunktionen zu nutzen, schalte den **Basis/Erweitert-Umschalter** an. Dies ändert das Aussehen des Filterdialogs auf eine Ansicht wie diese:
+
+{{ :en:filter-advanced.png?direct&400 |}} 
+
+Im **erweiterten** Modus werden verschiedene Dinge zu den Filterfunktionen hinzugefügt. Diese werden im Folgenden beschrieben.
+
+==== Hinzufügen und Entfernen von Filterkriterien ====
+
+Im **Standard**-Modus sind die verfügbaren Filterkriterien auf //Cache-Typ//, //Schwierigkeit// und //Gelände// sowie einem einfachen //Statusfilter// beschränkt.
+Im **erweiterten** Modus kannst du weitere Filterkriterien frei hinzufügen um deinen eigenen persönlichen Filter zu bauen. Du kannst das gleiche Filterkriterium sogar mehrmals hinzufügen, z.B. um einen Filter zu bauen, der verschiedene Textbestandteile im Cachenamen findet.
+
+{{ :en:filter-advanced-addremovecriteria.png?direct&400 |}} 
+
+Um ein Filterkriterium hinzuzufügen, tippe auf den Knopf **Filterkriterium hinzufügen** oben rechts. Nun wird ein Dialog angezeigt, der alle verfügbaren Filterkriterien anzeigt:
+
+{{ :en:filter-advanced-criterias.png?direct&300 |}} 
+
+Die Auswahl eines Kriteriums fügt den jeweiligen Filter zur Kriterienliste hinzu. Die verschiedenen Kriterien werden [[#filter_criterias|hier]] erklärt.
+
+Um ein Filterkriterium zu entfernen, tippe auf das Papierkorb-Symbol {{:ic_menu_delete.png?nolink&30 |}} oben rechts im Kriterium.
+
+Um die Reihenfolge der Filterkriterien zu ändern, tippe und ziehe das Symbol {{:settings_details_black.png?nolink&30 |}} oben rechts im Kriterium.
+
+==== Filter laden und speichern ====
+
+Zusammengestellte Filter können beliebig unter einem benutzerdefinierten Namen gespeichert und wieder geladen werden.
+
+{{ :en:filter-advanced-saveload.png?direct&400 |}} 
+
+Um einen Filter zu speichern, nute das "Speichern"-Symbol {{:ic_menu_save.png?nolink&30 |}}. Ein Dialog erscheint, in dem du den gewünschten Namen angeben kannst.
+
+{{:en:filter-advanced-save-dialog.png?direct&300|}} 
+
+Um einen existierenden Filter zu laden oder zu löschen, nutze das "Ändern"-Symbol {{:ic_menu_agenda.png?nolink&30|}}. Ein Dialog mit allen existierenden Filtern wird nun angezeigt, der es dir erlaubt mit den entsprechenden Schaltflächen entweder einen der Filter zu laden oder zu löschen:
+
+{{ :en:filter-advanced-load-dialog.png?direct&300 |}} 
+
+==== Weitere Filteroptionen ====
+
+Weitere Filteroptionen sind im erweiterten Modus verfügbar:
+
+{{ :en:filter-advanced-additional-options.png?direct&400 |}} 
+
+^ Funktion ^ Beschreibung ^
+| Benutze ODER statt UND | Normalerweise werden die Filterkriterien (wie im [[#filter_basic:Standardmodus]] beschrieben) mit einer UND-Logik verbunden. Wenn diese Auswahl markiert ist, werden sie mit einer ODER-Logik verbunden.|
+| Filter umkehren | Wenn diese Auswahl markiert ist, wird die Logik des Filters umgekehrt (in anderen Worten: Es wird ein logisches NICHT davor angewendet).|
+| Unschlüssige Treffer einschließen | In manchen Situationen können einige Filter von c:geo nicht ausgewertet werden. Zum Beispiel kann für nicht lokal gespeicherte Caches der //Attribut//-Filter nicht ausgewertet werden. Caches, die in diese Kategorie fallen sind 'unschlüssige', da c:geo nicht entscheiden kann, ob sie die Filterkriterien erfüllen oder nicht. Normalerweise werden solche Caches NICHT in den Ergebnissen angezeigt. Durch Auswahl dieser Option kannst du c:geo anweisen, solche Caches in den Ergebnissen dennoch ANZUZEIGEN.|
+
+{{anchor:filter_criterias:}}
+===== Verfügbare Filterkriterien =====
+
+Die folgende Tabelle zeigt alle verfügbaren Filterkriterien. Diese Kriterien können dazu genutzt werden beliebig komplexe Filter im **erweiterten** Modus zu erstellen.
+
+In den folgenden Kapiteln werden einige Filterkriterien näher erläutert..
+
+==== Kategorie "Basis" ====
+
+^ Filter ^ Beschreibung ^ 
+| Cache-Beschreibung | Ein [[#filter_criteria_text|Textfilter]] für die Beschreibung des Caches. |
+| Cache-Name | Ein [[#filter_criteria_text|Textfilter]] für den Namen des Caches. |
+| Cache-Besitzer | Ein [[#filter_criteria_text|Textfilter]] für den Besitzer des Caches. |
+| Cache-Typ | Filter für den Cachetyp. Dies ist ein Basisfilter, wie  [[#filter_basic_cachetype|hier]] beschrieben. |
+| HVersteckdatum | Ein [[#filter_criteria_date|Datumfilter]] für das Versteckdatum des Caches. |
+| Status | Filtert Caches nach mehreren Statuswerten, z.B. Gefunden, Eigene, Deaktiviert oder Archiviert. Dieser Filter wird [[#filter_criteria_status|hier]] näher beschrieben. |
+
+==== Kategorie "Details" ====
+
+^ Filter ^ Beschreibung ^ 
+| Cache-Attribute | Filtert Caches mit Hilfe der Cache-Attriebute wie z.B. "Empfohlen für Kinder" oder "Heimliches Vorgehen". Dieser Filter wird [[#filter_criteria_attributes|hier]] genauer beschrieben. |
+| Cache-Größe | Filtert Caches nach ihrer Filters caches for her size (e.g. Regular, Small, Micro). This filter is explained in more details [[#filter_criteria_size|here]]. |
+| Schwierigkeit | Filtert Caches nach ihrer Schwierigkeit. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. |
+| Favoriten | Fitlert Caches nach der Anzahl der Favoritenpunkte. Dieser Filter wird [[#filter_criteria_favorites|hier]] genauer beschrieben. |
+| Letztes Funddatum | Ein [[#filter_criteria_date|Datumfilter]] für das Datum, an dem ein Cache zuletzt gefunden wurde. |
+| Ort | Ein [[#filter_criteria_text|Textfilter]] für den Ort des Caches (z.B. Bundesland oder Staat). Während der Eingabe gibt dieser Textfilter Vorschläge zur Komplettierung basierend auf den auf deinem Gerät gespeicherten Caches (z.B. "Deutschland" oder "Bayern"). |
+| Logeintrag | Filteret Caches basierend auf dem Inhalt der Logeinträge. Dieser Filter wird [[#filter_criteria_logentry|hier]] genauer beschrieben. |
+| Anzahl Logs | Filtert Caches basierend auf der Anzahl ihrer Logs. Dieser Filter wird [[#filter_criteria_logscount|hier]] genauer beschrieben. |
+| Herkunft | Filtert Caches nach ihrer Quelle/Herkunft, z.B. //geocaching.com// oder //opencaching.de// Dies ist ein  [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. |
+| Gelände | Filtert Caches nach ihrer Geländewertung. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. |
+
+==== Kategorie "Benutzerspezifisch" ====
+
+^ Filter ^ Beschreibung ^ 
+| Entfernung | Filtert caches nach ihrer Entfernung zu einem bestimmten Punkt. Dieser Filter wird [[#filter_criteria_distance|hier]] genauer beschrieben. | 
+| Offline-Log | Ein [[#filter_criteria_text|Textfilter]] für existierende Offline-Logs. | 
+| Persönliche Notizen | Ein [[#filter_criteria_text|Textfilter]] für die persönlichen Cachenotizen. | 
+| Gespeicherte Listen | Filtert Caches nach ihrer Zugehörigkeit zu benutzerspezifischen Listen. Dies ist ein [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. | 
+| Gespeichert seit | Filtert Caches basiert auf der Zeit, die sie in c:geo gespeichert sind (z.B. vor wie vielen Tagen wurde der Cache zuletzt in c:geo aktualisiert). | 
+
+
+{{anchor:filter_criterias:}}
+===== Details zu Filterkriterien =====
+
+{{anchor:filter_criteria_text:}}
+==== Textfilter ====
+
+Textfilter filtern nach einem Text in einem bestimmten Feld der Cachedaten, z.B. //Name// oder //Beschreibung//. Sie funktionieren alle nach dem gleichen Prinzip, welches hier beispielhaft für den //Cachenamen// erklärt ist.
+
+{{ :en:filter-criteria-textfilter.png?direct&400 |}} 
+
+Die Art der Filterung kann durch Tippen auf die **Textfilter-Methode**-Schaltfläche ausgewählt werden. Initial wird hier //Enthält// angezeigt.
+Die Textfilter-Methode bestimmt zusammen mit dem eingegebenen Wert im **Suchtext** welche Caches gefiltert werden.ed.
+
+^ Filter-Methode ^ Beschreibung ^ 
+| Vorhanden | Filtert alle Caches, in denen das gefilterte Element nicht leer ist. | 
+| Nicht vorhanden | Filtert alle Caches, in denen das gefilterte Element leer oder nicht vorhanden ist. | 
+| Enthält | Filtert alle Caches, in denen das gefilterte Element den **Suchtext** an beliebiger Stelle enthält. | 
+| Beginnt mit | Filtert alle Caches, in denen das gefilterte Element mit dem **Suchtext** beginnt.| 
+| Endet mit | Filtert alle Caches, in denen das gefilterte Element mit dem **Suchtext** endet.| 
+| Muster | Filtert alle Caches, wo das gefilterte Element einem Muster entspricht, dass im **Suchtext** vorgegeben wird. Du kannst die Platzhalter  **?** und ***** verwenden. Ein ***** entspricht keinem, einen oder mehreren Zeichen. Ein **?** entspricht genau einem Zeichen. Zum Beispiel findet das Muster ''H?mburg*'' z.B. ''Homburg'' oder ''Hamburg bei Nacht'' aber nicht ''Ein Tag in Hamburg'' oder ''Hahmburg''.|
+
+Nutze die Auswahl **Groß-/Kleinschreibung beachten**  um festzulegen, ob die Suche Groß-und Kleinschreibung unterscheiden soll oder nicht.
+
+{{anchor:filter_criteria_text:}}
+==== Datumfilter ====
+
+Der Datumfilter filtert nach einem Datum in bestimmten Feldern der Cachedaten, z.B. im Versteckdatum. Die Datumfilter funktionen alle nach dem gleichen Prinzip und werden hier am Beispiel des //Versteckdatum// erklärt.
+
+{{ :en:filter-criteria-datefilter.png?direct&400 |}} 
+
+Mit dieser Art von Filter kannst du nach einem Von - Bis Bereich suchen, in dem sowohl Von als auch Bis optional leer sein können.
+Tippe auf die jeweilige Schlatfläche neben der **Von** / **Bis**-Beschriftung um ein Datum zu setzen.
+In der Datumsauswahl kannst du die Schaltfläche **Leeren** verwenden um das Datum zu entfernen.
+
+{{anchor:filter_criteria_status:}}
+==== Statusfilter ====
+
+Der Statusfilter filtert nach mehreren Werten des Cachestatus und sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-status.png?direct&400 |}} 
+
+Um Caches im Status **Aktiv**, **Deaktiviert**  oder **Archiviert**  einzubeziehen/auszuschließen, aktiviere/deaktiviere die entsprechenden Felder oben im Filter.
+
+Die weiteren Statusoptionen erlauben es dir, einen von drei Werten auszuwählen:
+|**Alle**| Caches werden nicht nach diesem Kriterium gefiltert.|
+|**Ja**| Nur Caches, die dieses Kriterium erfüllen werden im Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Ja// nur gefundene Caches im Filterergebnis angezeigt.|
+|**Nein**| Nur Caches, die das Kriterium **NOT** erfüllen werden in das Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Nein// nur nicht gefundene Caches in das Resultat einbezogen.|
+
+Die folgenden Statusfilter ist verfügbar (Die Beschreibung gibt hier an, was gefiltert wird, wenn //Ja// ausgewählt wird):
+
+
+^ Statusfilter ^ Beschreibung ^ 
+| Gefunden | Filters nach Caches, die du gefunden hast. | 
+| Eigener | Filtert nach deinen eigenen Caches. | 
+| Gespeichert | Filtert nach Caches, die lokal gespeichert sind. |
+| Eigener Favorit | Filtert nach Caches, denen du einen Favoritenpunkt gegeben hast. |
+| Beobachtet | Filtert nach Caches auf deiner Watchlist. |
+| Premium | Filtert nach Premium-Caches (nur für geocaching.com) |
+| Hat Trackable | Filtert nach Caches, die mindestens einen Trackable haben. |
+| Hat eigene Wertung | Filtert nach Caches, denen du eine Bewertung gegeben hast. |
+| Hat Offline-Log | Filtert nach Caches, für die du ein Offline-Log gespeichert hast. |
+| Gelöster Mystery | Filtert nach Mystery-Caches, die als //gelöst// angesehen werden. Ein Mystery wird dann als //gelöst// angesehen, wenn dieser entweder veränderte Listing-Koordinaten hat oder einen Final-Wegpunkt mit gültigen Koordinaten vorhanden ist. |
+
+
+{{anchor:filter_criteria_attributes:}}
+==== Attributfilter ====
+
+Der Attributfilter filtert nach verschiedenen Cache-Attributen und sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-attributes.png?direct&400 |}} 
+
+Wähle mehrere Cache-Attribute um nach Caches zu filtern, die **alle** gewählten Cache-Attribute haben. Beachte bitte, dass geocaching.com auch negative Attribute unterstützt; tippe mehrfach auf ein Attribut-Symbol um die //negative// Version zu wählen.
+
+Tippe lange auf ein Symbol um seine Bedeutung als Hilfstext zu sehen..
+
+Benutze die **Mit** / **Ohne**-Schalter um entweder nach Caches **mit** oder **ohne** die gewählten Attribute zu filtern.
+
+Das **Löschen**-Symbol oben rechts kannst du nutzen, um alle gewählten Attribute schnell abzuwählen.
+
+{{anchor:filter_criteria_size:}}
+==== Größenfilter ====
+
+Der Größenfilter filtert Caches nach der angegebenen Containergröße, (z.B. //Regular//, //Micro// und //Small//). Er sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-cachesize.png?direct&400 |}} 
+
+Markiere die gewünschten Felder, die du Filtern möchtest. Das spezielle Feld //Alles auswählen// kannst du nutzen um schnell alle Felder zu wählen oder abzuwählen.
+
+{{anchor:filter_criteria_favorites:}}
+==== Favoritenfilter ====
+
+Der Favoritenfilter filtert nach der Anzahl von Favoritenpunkten, die einem Cache zugewiesen sind. Er sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-favorites.png?direct&400 |}} 
+
+Nutze den **Absolut** / **Prozentual** Umschalter um auszuwählen, ob nach absoluter Favoritenzahl oder dem Verhältnis zwischen Favoritenpunkten und Anzahl der Fundlogs gefiltert werden soll. Beachte dabei, dass sich die Skalierung des Schiebereglers beim Umschalten ändert und zurücksetzt.
+
+Im **Absolut**-Modus kannst du einen Bereich von Favoritenpunkten wählen, der gefiltert werden soll. Wenn du den Schieberegler ganz nach rechts schiebst, werden alle Caches mit >1000 Favoritenpunkten gefiltert.
+
+Im **Prozentual**-Modus kannst du den Regler nutzen um einen Bereich zwischen 0% und 100% für die Filterung auszuwählen.
+
+{{anchor:filter_criteria_logentry:}}
+==== Logeintrag-Filter ====
+
+Der Logeintrag-Filter filtert Caches basierend auf den Logeinträgen. Er sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-logentry.png?direct&400 |}} 
+
+Du kannst wählen ob du nach folgenden Logeinträgen filtern möchtest:
+  * von einem bestimmten Nutzer (z.B. //EddieMuc//), oder
+  * mit einem bestimmten Text (z.B. //TFTC//)
+
+Benutze den **Mit** / **Ohne**-Umschalter um entweder Caches zu filtern die die gewählten Bedingungen **erfüllen** oder ***nicht erfüllen**.
+
+{{anchor:filter_criteria_logscount:}}
+==== Loganzahl-Filter ====
+
+Der Loganzahl-Filter filtert Caches basierend auf der Anzahl ihrer Logs. Er sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-logscount.png?direct&400 |}} 
+
+Tippe auf die **Logtyp**-Schaltfläche (initial auf //Gefunden// gesetzt) um auswzuwählen, nach welcher Logart du filtern möchtest.
+
+Mit dem Schieberegler darunter kannst du den Bereich der Loganzahl auswählen, den du filtern möchtest. Wenn du den ganz rechten Punkt auswählst, werden alle Caches mit >1000 Logs des gewählten Logtyps gefiltert.
+
+{{anchor:filter_criteria_distance:}}
+==== Entfernungsfilter ====
+
+Der Entfernungsfilter filtert Caches basierend auf ihrer Entfernung von einem bestimmten Punkt. Er sieht folgendermaßen aus:
+
+{{ :en:filter-criteria-distance.png?direct&400 |}} 
+
+  * Wähle //Eigene Position verwenden// um die Entfernung von deinem aktuellen GPS-Standort zu verwenden
+  * Gib eine gültige WGS84-Koordinate in das Koordinatenfeld ein, um dieses als Basis für die Entfernungsberechnung zu verwenden.
+  * Nutze den Schieberegeler darunter um die minimale und maximale Entfernung (in Kilometern/Meilen) von Caches zu den gewählten Koordinaten anzugeben, die im Filterresultat enthalten sein sollen.
+
+{{anchor:filter_criteria_dynamiccheckboxlist:}}
+==== Dynamischer Auswahlfilter ====
+
+Dynamische Auswahlfilter filtern noch einem oder mehreren Werten von einer dynamisch erstellten Liste. Beispielsweise die Filter für //Herkunft// und //gespeicherte Liste// nutzen diesen Filter:
+
+{{ :en:filter-criteria-dynamiccheckboxlist.png?direct&400 |}} 
+
+Markiere die Elemente auf der Liste, die du im Filterergebnis sehen möchtest. Nutze die Schaltfläche  //Weiteres Element hinzufügen// um weitere Auswahlmöglichkeiten zu sehen, die du hinzufügen kannst.

@@ -2,7 +2,7 @@
 
 ====== Matkaajan tiedot ======
 
-Matkaajan tietosivut näyttävät kaikki tiedot tietystä matkaajasta. Matkaajan tietosivun voi aukaista klikkaamalla matkaajaa [[cachedetails|kätkön tietojen]] tavaraluettelossa, [[logging#inventory|kirjausnäkymän]] tavaraluettelossa tai suorittamalla [[.mainmenu:search|haun]] julkisella tai salaisella matkaajan seurantakoodilla.
+Matkaajan tietosivut näyttävät kaikki tiedot tietystä matkaajasta. Matkaajan tietosivun voi aukaista napauttamalla matkaajaa [[cachedetails|kätkön tietojen]] tavaraluettelossa, [[logging#inventory|kirjausnäkymän]] tavaraluettelossa tai suorittamalla [[.mainmenu:search|haun]] julkisella tai salaisella matkaajan seurantakoodilla.
 
 {{ :en:tbdetails_details.png?direct&400 |}}
 
@@ -10,10 +10,10 @@ Matkaajan tiedot jaetaan useisiin välilehtiin, joiden välillä voit vaihtaa py
 Jokaisen välilehden alaosassa näkyy nykyisen välilehden nimi ja voit myös käyttää tätä liikkumiseen välilehtien välillä. Yläosan valikko on samanlainen kaikilla välilehdillä.
 
 <WRAP center round info 100%>
-Kaikkien [[loggingtb#supported_trackables|matkaajabrändien]] kaikkia toimintoja ei välttämättä tueta, joten brändistä riippuen joitakin välilehtiä voi puuttua.
+Kaikkien [[loggingtb#supported_trackables|matkaajabrändien]] kaikkia toimintoja ei välttämättä tueta, joten merkistä riippuen joitakin välilehtiä voi puuttua.
 </WRAP>
 
-Näet välilehtien järjestyksen alla olevassa taulukossa. Klikkaamalla kuvaa saat auki isomma version, klikkaamalla otsikkoa pääset suoraan kyseiseen osioon käyttöoppaassa:
+Näet välilehtien järjestyksen alla olevassa taulukossa. Napauttamalla kuvaa saat auki isomman version, napauttamalla otsikkoa pääset suoraan kyseiseen osioon käyttöoppaassa:
 
 ^ [[trackabledetails#details_tab|Yksityiskohdat]] ^ [[trackabledetails#logbook_tab|Lokikirja]] ^ [[trackabledetails#images_tab|Kuvat]] ^
 |{{ :en:tbdetails_details.png?direct&400 |}}|{{ :en:tbdetails_logbook.png?direct&400 |}}|{{ :en:tbdetails_images.png?direct&400 |}}|
@@ -32,7 +32,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 |{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Lokkaa]]|Kirjaa loki tälle matkaajalle.|
 |{{ :ic_menu_info_details.png?nolink&40 |}}|Avaa selaimessa|Avaa matkaajaan liittyvän geokätköilysivuston sivun oletusselaimessa.|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Päivitä|Päivittää uusimmat tiedot palvelimelta kaikille välilehdille.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
 
 ===== Yksityiskohdat-välilehti =====
 {{anchor:details_tab:}}
@@ -48,8 +48,8 @@ Matkaajan yksityiskohdat-välilehden ensimmäinen osio näyttää kaikki matkaaj
 |Nimi|Matkaajan nimi|
 |Tyyppi|Matkaajan tyyppi (esim. TravelBug eli geocaching.com-matkaaja, Geokrety geokrety.org-matkaaja)|
 |Seurantakoodi|Matkaajan julkinen seurantakoodi (TBxxxx).|
-|Omistaja|Matkaajan omistajan nimi.\\ Voit klikata tätä kenttää avataksesi valikon, joka sisältää toimintoja omistajaan liittyen.|
-|Nähty|Kätkön tai käyttäjän nimi, jossa matkaaja on viimeksi nähty/lokattu. Näyttää lisäksi päivien määrän viimeisestä siirrosta tai nähty-lokkauksesta.\\ Voit klikata tätä kenttää saadaksesi lisätietoja kätköstä tai käyttäjästä.|
+|Omistaja|Matkaajan omistajan nimi.\\ Voit napauttaa tätä kenttää avataksesi valikon, joka sisältää toimintoja omistajaan liittyen.|
+|Nähty|Kätkön tai käyttäjän nimi, jossa matkaaja on viimeksi nähty/lokattu. Näyttää lisäksi päivien määrän viimeisestä siirrosta tai nähty-lokkauksesta.\\ Voit napauttaa tätä kenttää saadaksesi lisätietoja kätköstä tai käyttäjästä.|
 |Alkuperä|Matkaajan alkuperämaa.|
 |Laskettu liikkeelle|Matkaajan liikkeellelaskun päivämäärä.|
 |Matkustanut|Matkaajan matka, jonka se on jo kulkenut.\\ Riippuen [[.mainmenu:settings#appearance|asetuksistasi]] tämä arvo voi näkyä maileina (mi) tai kilometreinä (km).|
@@ -61,14 +61,14 @@ Matkaajan yksityiskohdat-välilehden ensimmäinen osio näyttää kaikki matkaaj
 
 Tämä osio yksityiskohdat-välilehdestä näyttää omistajan matkaajalle määrittelemän tavoitteen.
 
-Voit klikata tavoitteen kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
+Voit napauttaa tavoitteen kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
 ==== Tarkat tiedot ====
 
 {{:en:tbdetails_details_details.png?nolink&400 |}}
 
 Tämä osio yksityiskohdat-välilehdestä näyttää omistajan matkaajalle antamat lisätiedot.
 
-Voit klikata lisätietojen kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
+Voit napauttaa lisätietojen kuvausta kopioidaksesi tekstin tai sen osan leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
 
 ==== Kuva ====
 {{anchor:image:}}
@@ -77,7 +77,7 @@ Voit klikata lisätietojen kuvausta kopioidaksesi tekstin tai sen osan leikepöy
 
 Tämä osio yksityiskohdat-välilehdestä näyttää omistajan matkaajalle määrittämän kuvan.
 
-Kuvan klikkaus avaa sen laitteesi oletuskuvaselaimessa.
+Kuvan napautus avaa sen laitteesi oletuskuvaselaimessa.
 
 ===== Lokikirja-välilehti =====
 {{anchor:logbook_tab:}}
@@ -86,9 +86,9 @@ Kuvan klikkaus avaa sen laitteesi oletuskuvaselaimessa.
 
 Tämä välilehti sisältää vieritettävän listan lokikirjauksista. Jokainen kirjaus sisältää nimimerkin, kirjauspäivämäärän, kirjaustyypin, kirjaukseen liittyvän kätkön sekä lokitekstin.
 
-Klikkaamalla nimimerkkiä avautuu valikko, joka sisältää nimimerkkiin liittyviä toimintoja.
+Napauttamalla nimimerkkiä avautuu valikko, joka sisältää nimimerkkiin liittyviä toimintoja.
 
-Voit klikata lokitekstiä kopioidaksesi tekstin leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
+Voit napauttaa lokitekstiä kopioidaksesi tekstin leikepöydälle. Voit tällä tavalla myös aloittaa tekstin kääntämisen toiselle kielelle.
 
 ===== Kuvat-välilehti =====
 {{anchor:image_tab:}}
@@ -100,8 +100,8 @@ Tämä välilehti sisältää matkaajasta saatavilla olevat kuvat. Se sisältä�
 :!:
 Tämä ei ole sama toiminto kuin geokätköilysivuston galleria, sillä vain viimeisimmän 35 lokikirjauksen kuvat näytetään tässä, ei kaikkia.
 
-Kuvan klikkaus avaa sen laitteen oletuskuvaselaimessa.
+Kuvan napautus avaa sen laitteen oletuskuvaselaimessa.
 
 <WRAP center round tip 60%>
-Jos kuvan tiedoissa on koordinaatit, pieni kompassikuvake näytetään kuvan vasemmassa alakulmassa. Tässä tapauksessa voit klikata tai painaa pitkään kyseistä kuvaketta aloittaaksesi ensisijaisen tai toissijaisen [[navigation|navigoinnin]] koordinaatteihin. 
+Jos kuvan tiedoissa on koordinaatit, pieni kompassikuvake näytetään kuvan vasemmassa alakulmassa. Tässä tapauksessa voit napauttaa tai painaa pitkään kyseistä kuvaketta aloittaaksesi ensisijaisen tai toissijaisen [[navigation|navigoinnin]] koordinaatteihin. 
 </WRAP>

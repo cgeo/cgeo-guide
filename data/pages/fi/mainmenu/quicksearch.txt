@@ -1,0 +1,19 @@
+====== Pikahaku ======
+
+{{:abc_ic_search_api_holo_light.png?nolink&50 |}}
+
+Napauttamalla tätä päävalikon toimintoa avautuu syöttökenttä yläpalkkiin, ja alle avautuu lista, joka näyttää viimeisimmät c:geossa avaamasi kätköt. Tätä listaa voi vierittää.
+
+{{:en:quicksearch.png?direct&400 |}}
+
+Päävalikon [[search|hakutoiminnon]] lisäksi hakutoiminto etsii hakusanaa myös kaikista tallennetuista kätköistä geokätköpalveluissa olevien kätköjen lisäksi, ja palauttaa listan tuloksista, jotka täsmäävät hakutermisi kanssa. Offline-kätköistä tämä haku etsii myös melkein kaikista kätkötiedoista kuten nimi, kätkön koodi, kuvaus, omistaja, lokikirjan sisältö ja muuta. Online-hakuun voit käyttää esimerkiksi kätkön koodia, matkaajan koodia, käyttäjänimeä ja paljon muuta.
+
+Käyttääksesi pikahakua, yksinkertaisesti syötä hakusana jolla haluat etsiä. Alle ilmestyvä lista alkaa automaattisesti näyttämään offlinetulokset, kun hakusanassa on vähintään kolme merkkiä. Voit vierittää tätä listaa.
+
+Aloittaaksesi online-haun, paina Enter, kun olet syöttänyt hakusanan kokonaisuudessaan. Jos pikahaku tunnistaa tietyn kätkön tai matkaajan koodin kuvion (kuten GCxxxx, TBxxxx, OCxxxx) hakusanassasi, se suorittaa vastaavan online-haun ja avaa kyseisen hakutermin mukaiset [[..cachedetails|kätkön tiedot]] tai [[..trackabledetails|matkaajan tiedot]]. Jos kätkö on jo tallennettu c:geoon, haku avaa suoraan tallennetut kätkön tiedot sen sijaan, että ne haetaan geokätköilypalvelusta.
+
+Jos pikahaku ei tunnista tiettyä kuviota hakusanassasi, se suorittaa haun avainsanalla hakutavalla ("Alkaa näillä merkeillä").
+
+<WRAP center round tip 100%>
+Mikä tahansa satunnainen 6-merkkinen merkkijono oletetaan automaattisesti matkaajan salaiseksi koodiksi, antaen nopean pääsyn matkaajan tietoihin pikahaun kautta syöttämällä matkaajassa olevan salaisen koodin.
+</WRAP>
