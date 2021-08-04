@@ -8,6 +8,8 @@ Die Filter-Einstellungen sind über das Optionsmenü durch Klick auf das Filter-
 
 Wenn bereits ein Filter aktiv ist, wird dies als Kopfzeile unterhalb der Titelzeile angezeigt. Durch Tippen dieser Kopfzeile kann man ebenso auf die Filtereinstellungen zugreifen. Beispielsweise zeigt der folgende Bildschirm sowohl das Filter-Symbol als auch die Filter-Kopfzeile (jeweils rot markiert), bei dem der Filter auf den Cache-Typ "Traditionell" gesetzt ist.
 
+Ein langer Klick auf diese Benachrichtigung öffnet eine Liste deiner gespeicherten Filter, mit der du die aktive Filterung wechseln kannst.
+
 {{ :en:filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}

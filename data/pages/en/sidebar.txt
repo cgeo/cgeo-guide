@@ -59,10 +59,11 @@
       * [[notecoords|Waypoints created for coordinates in personal notes]]
       * [[quick_widgets|Using quick access and widgets]]
       * [[replacedevice|Migrating c:geo to another device]]
+      * [[brouter|Using routed navigation in c:geo]]
+
 
     * [[start#plugins|Plugins and Addon functions]]
       * [[contacts|Contacts plugin]]
-      * [[brouter|Brouter]]
 
     * [[start#faq|FAQ]]
 

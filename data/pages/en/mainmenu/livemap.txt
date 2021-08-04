@@ -25,7 +25,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :en:livemap_progress.png?nolink&80 |}} |Progress spinner|A small blue line directly underneath the title bar is shown as progress indicator while the live map is loading data from the geocaching servers and/or from your cache lists. It will disappear if the live map has finished loading.|
 |{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Center Position|This button can be used to center the map on your current position. \\ \\ If the map is centered to your position a filled icon is shown.|
 |{{ :ic_action_layers_revert.png?nolink&40 |}}|Map Source Selection|Use this button to change the active [[..:mapsources|map source]]|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[..:cachefilter|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your map according to various criteria.|
+|{{ :ic_menu_filter.png?nolink&50 |}}|[[..:cachefilter|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your map according to various criteria. \\ \\ If visible in the top bar, a long tap will open a list of the stored filters to change the active filter.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow Menu Button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
 |{{ :ic_menu_refresh.png?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off|
 |{{ :ic_menu_set_as.png?nolink&40 |}}|Store all|Saves all caches shown on the map onto your stored caches list. Caches already stored will be refreshed during this process.|

@@ -1730,3 +1730,54 @@
 1627401706	85.76.113.117	E	fi:mainmenu:globaltypefilter	vike91	oops,fix		8
 1627401827	85.76.113.117	E	fi:mainmenu:livemap	vike91	update		183
 1627401865	85.76.113.117	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		2
+1627402060	85.76.113.117	E	fi:mainmenu:pocketquery	vike91	update		130
+1627402203	85.76.113.117	E	fi:mainmenu:start	vike91	update		-171
+1627502611	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:hiddenfunctions	murggel	add long click on filter-indication and filter-menu-icon		321
+1627502900	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:hiddenfunctions	murggel	langer Klick auf Filter-Symbol		357
+1627502962	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachedetails	murggel	[Listenverwaltung] fix typo		2
+1627503031	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	murggel	[Zugriff auf Filter] 		141
+1627503062	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	murggel	[Zugriff auf Filter] langer Klick		1
+1627503113	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	murggel	[Accessing filter] long click		99
+1627503462	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	murggel	[Top Bar Menu] long click on filter		112
+1627503621	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:livemap	murggel	[Titelzeilen-Menü] long click on filter-icon		182
+1627503743	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	murggel	[Listenmenü] long click on filter-icon		182
+1627503803	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	murggel	[List menu] long click on filter-icon		112
+1627735895	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:hiddenfunctions	vike91	update		387
+1627735995	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		145
+1627736013	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		-1
+1627736093	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:lists	vike91	[Listavalikko] 		139
+1627737351	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:cachefilter	vike91	update		1552
+1627737430	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:cachefilter	vike91	[Suodattimien lisäasetukset] 		0
+1627738062	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:start	vike91	[Tietoja c:geosta] 		0
+1627827316	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:firststeps	lineflyer	Typo		-1
+1627888215	2001:14bb:a2:f8ae:c03:9d5a:bf50:9e78	E	fi:firststeps	vike91	A small change to remove the outdated flag		3
+1627903539	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:brouter	lineflyer	Focus description on internal brouter implementation rather than external Brouter app		-1775
+1627903616	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:start	lineflyer	[Plugins and Addon functions] Move brouter link to other chapter		-50
+1627903657	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] Place link to BRouter page into special functions chapter		68
+1627903695	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] 		-9
+1627904072	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	Internes Routing		-1964
+1627904113	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:brouter	lineflyer	[Activate routing] Add info banner about data size		110
+1627904131	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	[Routing aktivieren] 		1
+1627904153	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	[Nutzung in c:geo] 		-16
+1627905953	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] 		6
+1627905978	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] New menu item naming. Set Destination is removed		-146
+1627906222	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top section] Add explanation of orientation button and figures		454
+1627906303	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	[Titelzeilenmenü] 		-118
+1627906369	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] Add "Select Destination". It was not really removed.		146
+1627906517	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	Ziel wählen wieder hinzugefügt		143
+1627906702	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	[Oberer Bereich] 		519
+1627906760	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Erweiterungen und Zusatzfunktionen] 		-56
+1627906788	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		60
+1627906830	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:sidebar	lineflyer	Move Brouter link from plugins to special functions		26
+1627906852	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] 		-15
+1627906871	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Benutzerdefinierte Caches] 		1
+1627906977	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:sidebar	lineflyer	Brouter verschoben		34
+1627921628	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test svg		49
+1627921695	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	tt		8
+1627922117	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test svg2		-16
+1627922187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test		10
+1627922229	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	t		2
+1627923049	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:sidebar	vike91	update		33
+1627923174	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:start	vike91	update		-3
+1627925103	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:compass	vike91	update		474
+1627925829	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:brouter	vike91	update		-1757

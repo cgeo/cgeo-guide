@@ -19,3 +19,7 @@
 1531728647	213.61.154.140	E	en:compass	lineflyer	[Top Bar Menu] 		-2
 1611437453	2.205.115.174	e	en:compass	lineflyer	Replace Clicking by Tapping (Capital letter)		-1
 1611437533	2.205.115.174	e	en:compass	lineflyer	Replace clicked by tapped		-1
+1627905953	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] 		6
+1627905978	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] New menu item naming. Set Destination is removed		-146
+1627906222	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top section] Add explanation of orientation button and figures		454
+1627906369	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] Add "Select Destination". It was not really removed.		146

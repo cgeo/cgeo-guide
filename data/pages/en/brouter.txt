@@ -2,54 +2,30 @@
 
 {{:helper_brouter.png?nolink&100 |}}
 
-BRouter is a small app available for Android, which provides navigated routes, which are calculated offline, between two coordinates based on [[https://openstreetmap.org|OpenStreetMap]] data.
-
-If BRouter is installed and configured on your device, c:geo can use it to replace the normal straight line shown on map between your position and the navigation target (i.e. a cache or a waypoint) by a routed line as you can see in the example comparison below.
+BRouter is a routing engine, which is integrated into c:geo. It provides navigated routes, which are calculated offline, between two coordinates based on [[https://openstreetmap.org|OpenStreetMap]] data.
+If the [[.:mainmenu:settings#navigation|routing function]] is activated, c:geo can use it to replace the normal straight line shown on map between your position and the navigation target (i.e. a cache or a waypoint) by a routed line as you can see in the example comparison below.
 
 ^ Navigation without BRouter ^ Navigation with BRouter ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 The routing can be configured to be suitable for walking, biking or car according to your needs and will help you finding your way to the destination. Additionally you can also use this routing to create individual routes involving several waypoints sequentially to plan your caching trip.
 
-===== Installing and configuring BRouter =====
+===== Activate routing =====
 
-You can download and install BRouter either from [[https://play.google.com/store/apps/details?id=btools.routingapp|Google Play]] or directly from their [[https://brouter.de/brouter/offline.html|website]].
+You can activate the internal routing function and define further settings (like storage folder for routing files, automatic download) in  [[.:mainmenu:settings#navigation|the c:geo routing/navigation settings]] 
 
-After Brouter is installed you need to download routing information for the desired geographical area for BRouter to be able to offline calculate routes. Without this downloaded routing information BRouter will not work (no online routing supported).
-In order to download the needed routing information, start the BRouter app and select ''Download Manager'' as shown below. The ''Brouter App'' function is not needed for c:geo.
-
-{{ :en:brouter_configure1.png?direct&400 |}}
-
-BRouter will inform you, that it needs to download a larger amount of data (depending on the size of the geographical area for which you want to download routing information). Make sure you do not use a metered network or have enough quota before you continue by selecting ''I know''.
-
-{{ :en:brouter_configure2.png?direct&400 |}}
-
-Brouter will now show a world map and you have to touch on the area, for which you want to download routing information, to zoom in and see the grid of the available routing information tiles.
-
-{{ :en:brouter_configure3.png?direct&400 |}}
-
-
-Once you zoomed in you can select the tiles (will be marked in green) of the desired geographical area(s) and select ''Start Download''  to trigger the download of routing information for this area.
-
-{{ :en:brouter_configure4.png?direct&400 |}}
+After routing is activated and automatic download is active the routing information for the desired geographical area will be automatically downloaded when invoking the routing function for the first time.
 
 <WRAP center round info 100%>
-The download speed is limited by BRouter to 4 Mbit/s. So depending on the amount of routing tiles you selected the download will last a bit. Make sure to keep BRouter open in foreground while the download is in progress.
+The routing data of BRouter might be several hundred megabyte in size.
 </WRAP>
-
-After successful download the tile map will now show the downloaded tiles in blue.
-
-{{ :en:brouter_configure6.png?direct&400 |}}
-
-You are now good to go, but remember, that you need to download new tiles here if you want to use the navigation feature in other geographical areas as those you just downloaded. You might also want to update the existing routing info from time to time be downloading the needed tiles again with this download manager.
-
 
 ===== Usage in c:geo ====
 
-Once you installed and configured BRouter as described above, c:geo will use it automatically. There is no need for any configuration in c:geo, except that you might want to change the used routing mode (Bike, Walk, Car) according to your needs.
+Once you activated the routing as described above, c:geo will use it automatically. There is no need for any configuration in c:geo, except that you might want to change the used routing mode (Bike, Walk, Car) according to your needs.
 You can do this in the [[.:mainmenu:livemap#map_quick_settings|map quick settings]].
 
-BRouter will be used to calculate routes for mainly two functions as described briefly below. You can find a complete description of the map navigation lines and their functions in the [[.:mainmenu:livemap#map_navigation|live map]] description of this user guide.
+The internal BRouter engine will be used to calculate routes for mainly two functions as described briefly below. You can find a complete description of the map navigation lines and their functions in the [[.:mainmenu:livemap#map_navigation|live map]] description of this user guide.
 
 ==== Direction line ====
 
@@ -70,7 +46,7 @@ To remove one cache/waypoint from your route simply long tap it again. Furthermo
 
 ==== Customization ====
 
-To minimize potential delays in usage of c:geo BRouter will calculate routes up to a max. length of 10km by default. You can customize this limit between 0 an 999km in the c:geo [[.:mainmenu:settings#map_content|map content settings]]. Furthermore you can customize the parameters (thickness, color and opaqueness) of the different lines shown on the map in the [[.:mainmenu:settings#map_lines_customization|map line customization settings]].
+To minimize potential delays in usage of c:geo it will calculate routes up to a max. length of 10km by default. You can customize this limit between 0 an 999km in the c:geo [[.:mainmenu:settings#map_content|map content settings]]. Furthermore you can customize the parameters (thickness, color and opaqueness) of the different lines shown on the map in the [[.:mainmenu:settings#map_lines_customization|map line customization settings]].
 
 
 

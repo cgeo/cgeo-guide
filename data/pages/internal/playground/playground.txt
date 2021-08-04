@@ -1,5 +1,9 @@
 ====== PlayGround ======
 
+{{ :internal:playground:caution.svg?nolink&40 |}}
+
+
+
 <WRAP center round help 60%>
 wrapper test
 </WRAP>

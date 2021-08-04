@@ -8,6 +8,8 @@ Filter settings are reachable via the options menu by clicking the filter icon {
 
 In case a filter is already active, it is shown as a header line below the title bar. By tapping this header line, the filter settings can also be reached. For example, the following screenshot shows both the filter icon as well as the filter header line (circled in red) where the current filter is set to only show caches of type "Traditional". 
 
+A long tap on this indication will open a list of the stored filters to change the active filter.
+
 {{ :en:filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}

@@ -100,12 +100,13 @@ c:geo is only a client application for geocaching and is not associated with any
   * [[notecoords|Waypoints created for coordinates in personal notes]]
   * [[quick_widgets|Using quick access and widgets as shortcuts for some c:geo functions]]
   * [[replacedevice|Migrating c:geo to another device]]
+  * [[brouter|Use routed navigation c:geo]]
 
 
 ===== Plugins and Addon functions =====
 {{anchor:plugins}}
   * [[contacts|Contacts plugin]] - c:geo contacts plugin
-  * [[brouter|Brouter]] - Using brouter with c:geo
+
 ===== FAQ =====
 {{anchor:faq:}}
 

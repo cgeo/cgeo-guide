@@ -1,7 +1,7 @@
 ====== c:geon käytön aloitus ======
 
 <WRAP center round important 100%>
-Käyttääksesi c:geota, tarvitset käyttäjätilin valitsemallasi geokätköilysivustolla. c:geo tukee tällä hetkellä [[https://www.geocaching.com|geocaching.comia,]] kansainvälistä kaupallista geokätköilysivustoa, myös Opencaching-sivustoa useissa maissa (kuten [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], ja monta muuta sivustoa). Valitse haluamasi sivusto, ja luo käyttäjätili etukäteen heidän omalla verkkosivulla (Peruskäyttäjän tili on yleensä ilmainen). \\ \\ c:geo ei toimi ilman käyttäjätiliä!
+Käyttääksesi c:geota, tarvitset käyttäjätilin valitsemallasi geokätköilysivustolla. c:geo tukee tällä hetkellä [[https://www.geocaching.com|geocaching.comia,]] kansainvälistä kaupallista geokätköilysivustoa, ja myös Opencaching-sivustoa useissa maissa (kuten [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], ja monta muuta sivustoa). Valitse haluamasi sivusto, ja luo käyttäjätili etukäteen heidän omalla verkkosivulla (Peruskäyttäjän tili on yleensä ilmainen). \\ \\ c:geo ei toimi ilman käyttäjätiliä!
 </WRAP>
 
 ===== c:geon rekisteröinti Geocaching.comissa =====

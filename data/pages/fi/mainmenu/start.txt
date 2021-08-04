@@ -17,7 +17,7 @@ Seuraava taulukko selostaa päävalikon kuvakkeet:
 |{{:main_stored_default.png?nolink&100|}}|[[lists|Tallennettu]]|Selaa offline-tilaa varten tallentamiasi kätköjä. Voit käyttää tallennettuja geokätköjä myös online-kätköilyyn, esimerkiksi tehtävälistana. Tallentamalla geokätköt voit mahdollisesti välttää tarpeettoman verkkoliikenteen ja viiveet. Tallennettujen geokätköjen yhteismäärä näkyy kuvakkeen oikeassa ylänurkassa.\\ Jos olet järjestänyt geokätköt useampaan listaan, voit painaa tätä kuvaketta pitkään mennäksesi suoraan tiettyyn listaan.|
 |{{:main_search_default.png?nolink&100|}}|[[search|Hae]]|Hae geokätköjä avainsanan, kätkökoodin, osoitteen, käyttäjätunnuksen jne. avulla|
 |{{:main_any_default.png?nolink&100|}}|[[goto|Siirry]]|Navigoi haluttuihin koordinaatteihin käyttäen kompassia, tutkaa, askel askeleelta navigoinnilla tai millä tahansa tuetulla navigointitavalla.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Yleinen kätkötyyppisuodatin]]|Suodata live-kartalla, haussa ja listoissasi näytettävät geokätköt kätkötyypin mukaan. Voit joko valita kaikkien kätköjen tai yhden kätkötyypin välillä. Teksti kuvakkeen alla kertoo aktiivisen kätkötyypin.\\ Nollataksesi tämän suodattimen paina kuvaketta pitkään.|
+|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Yleinen kätkötyyppisuodatin]]|Tämä korvataan lähiaikoina uudella [[..:cachefilter|suodatinkehyksellä]].|
 
 
 ===== Yläpalkin valikko ===== 
@@ -39,7 +39,7 @@ Paina kuvaketta pitkään nähdäksesi toiminnon nimen.
 |{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Pikahaku]]|Offline-tilassa voit tästä etsiä tallennetuistasi geokätköistä kätkön nimen, kätkökoodin, kuvauksen, omistajan, lokitekstin tai muun vastaavan avulla. \\ Online-tilassa voit tästä etsiä sekä tallennetuista että netistä. Voit käyttää tässä tallennettujen geokätköjen tietoja, matkaajan koodia, kätkökoodia, käyttäjänimeä ja paljon muuta.|
 |{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Historia]]|Näytä geokätköt, jotka olet viimeksi kirjannut c:geolla. \\ Huomioi: Lista on paikallinen c:geossa, eikä sitä synkronoida geocaching.comin viimeksi selattujen kätköjen kanssa.|
 |{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Näytä toimintovalikko, joka sisältää toiminnot, joita ei näytetä kuvakkeena, vaan on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Avaa listasi Pocket Queryista geocaching.com-palvelimelta. Tämä ei ole saatavilla geocaching.com:in [[..:basicmembers|peruskäyttäjille]].|
+|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Listat / Pocket Queries]]|Avaa listasi Pocket Queryista ja kirjanmerkkilistoista geocaching.com-palvelimelta. Tämä ei ole saatavilla geocaching.com:in [[..:basicmembers|peruskäyttäjille]].|
 |{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Asetukset]]|Avaa c:geon asetukset|
 |{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Varmuuskopioi]]|Avaa varmuuskopiointitoiminnon, joka löytyy myös [[settings|c:geo asetuksista]].|
 |{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Apuohjelmat]]|Avaa listan muihin käteviin geokätköilyyn liittyvistä ohjelmista, joita voi käyttää c:geon ohessa.|

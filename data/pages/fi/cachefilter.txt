@@ -6,7 +6,9 @@ Kätköjen suodatusta voidaan käyttää hyödyksi useissa c:geon toiminnoissa, 
 
 Suodatinasetukset löytyvät asetusvalikon kautta klikkaamalla suodatinkuvaketta {{:ic_menu_filter.png?nolink&30|}}. 
 
-Jos suodatin on jo aktiivisena, se näytetään yläotsikossa yläpalkin alapuolella. Myös klikkaamalla tätä yläotsikkoa voidaan avata suodatinasetukset. Esimerkkinä seuraava kaappaus näyttää sekä suodatinkuvakkeen että suodatinyläotsikon (ympyröity punaisella), jossa nykyinen suodatin on asetettu näyttämään vain kätköt, joiden tyyppi on "Tradi".
+Jos suodatin on jo aktiivisena, se näytetään yläotsikossa yläpalkin alapuolella. Myös napauttamalla tätä yläotsikkoa voidaan avata suodatinasetukset. Esimerkkinä seuraava kaappaus näyttää sekä suodatinkuvakkeen että suodatinyläotsikon (ympyröity punaisella), jossa nykyinen suodatin on asetettu näyttämään vain kätköt, joiden tyyppi on "Tradi".
+
+Tämän ilmoituksen pitkä painallus avaa tallennettujen suodattimien listan, josta voit vaihtaa aktiivisen suodattimen.
 
 {{ :en:filter-access.png?direct&400 |}}
 
@@ -48,7 +50,31 @@ Suodata valintojen **Vaikeus** tai **Maasto** mukaan. Käytä liukuvalitsimia va
 Huomaathan, että suodattimen asetus täyteen väliin (//1.0-5.0//) sisällyttää tuloksiin myös ne kätköt, joissa ei ole ollenkaan arvoa **Vaikeus** tai **Maasto** (kuten käyttäjän määrittämät kätköt).
 
 
+==== Tilan perussuodatin ====
+
+Suodattaa kätkön nykyisen tilan mukaan. Voit valita suodatetaanko kätköt pois niiden tilan mukaan. Tämä suodatin on saatavilla edistyneemmillä valinnoilla [[#filter_advanced|edistyneessä]] tilassa.
+
+{{ :en:filter_basic_status.png?direct&400 |}}
+
+Sisällyttääksesi/rajataksesi pois kätköjä, jotka ovat tilassa **Aktiivinen**, **Ei käytössä** tai **Arkistoitu**, valitse/poista valinta sopivien valintojen kohdalta suodattimen yläosassa.
+
+Muut tilavalinnat sallivat valita yhden kolmesta vaihtoehdosta:
+
+|**Kaikki**| Kätköjä ei suodateta tämän kriteerin mukaan.|
+|**Kyllä**| Vain kätköt, jotka täyttävät tämän kriteerin, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Kyllä// sisällyttää tuloksiin vain löydetyt kätköt.|
+|**Ei**| Vain kätköt, jotka **EIVÄT** täytä tätä kriteeriä, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Ei// sisällyttää tuloksiin vain ei-löydetyt kätköt.|
+
+Seuraavat tilasuodattimet ovat saatavilla (Selite selostaa mitä suodatetaan kun valitaan //Kyllä//):
+
+^ Tilasuodatin ^ Selite ^ 
+| Löydetty | Suodattaa kätköt jotka olet löytänyt. | 
+| Omat | Suodattaa kätköt jotka omistat. | 
+| Sisältää offline-lokin | Suodattaa kätköt joissa on tallennettu offline-loki. |
+
+
 ===== Edistynyt suodatus =====
+
+{{anchor:filter_advanced:}}
 
 Käyttääksesi edistynyttä kätkösuodatinta, napauta **Perus/Edistynyt tilan vaihto**. Tämä vaihtaa suodatinnäkymän asettelun seuraavan kaltaiseksi:
 
@@ -58,7 +84,7 @@ Käyttääksesi edistynyttä kätkösuodatinta, napauta **Perus/Edistynyt tilan 
 
 ==== Suodatinkriteerien luonti ja poisto ====
 
-**Perus**tilassa saatavilla olevat suodatinkriteerit on rajoitettu kriteereihin //Kätkötyyppi//, //Vaikeus// ja //Maasto//.
+**Perus**tilassa saatavilla olevat suodatinkriteerit on rajoitettu kriteereihin //Kätkötyyppi//, //Vaikeus//, //Maasto//, sekä yksinkertaistettu //Tila//.
 **Edistynyt**-tilassa voit vapaasti lisätä tai poistaa suodatinkriteereitä rakentaaksesi oman henkilökohtaisen suodattimen. Voit jopa lisätä saman kriteerin useamman kerran, esimerkiksi luodaksesi suodattimen, joka sisältää useita tekstipaloja kätkön nimessä.
 
 {{ :en:filter-advanced-addremovecriteria.png?direct&400 |}} 
@@ -67,7 +93,7 @@ Lisätäksesi suodatinkriteerin, napauta **Lisää suodatinkriteeri** -nappia yl
 
 {{ :en:filter-advanced-criterias.png?direct&300 |}} 
 
-Kriteerin valinta lisää kyseisen kriteerin kriteerilistaan. Kaikki kriteerit selostetaan [[#filter_criterias|täällä]].
+Kriteerin valinta lisää kyseisen suodattimen kriteerilistaan. Kaikki kriteerit selostetaan [[#filter_criterias|täällä]].
 
 Poistaaksesi suodatinkriteerin, napauta roskakorin kuvaketta {{:ic_menu_delete.png?nolink&30 |}} sen oikeassa ylänurkassa.
 
@@ -94,7 +120,7 @@ Suodattimien lisäasetukset ovat saatavissa edistyneessä tilassa:
 {{ :en:filter-advanced-additional-options.png?direct&400 |}} 
 
 ^ Toiminto ^ Selite ^
-| Käytä TAI:ta JA:n sijaan | Suodatinkriteerit yhdistellään yleensä käyttäen JA-logiikkaa (kuten selostettu kohdassa [[#filter_basic:Perustila]]). Kun tämä on valittuna, suodatinkriteerit yhdistellään käyttäen TAI-logiikkaa.|
+| Käytä TAI:ta JA:n sijaan | Suodatinkriteerit yhdistellään yleensä käyttäen JA-logiikkaa (kuten selostettu kohdassa [[#filter_basic|Perustila]]). Kun tämä on valittuna, suodatinkriteerit yhdistellään käyttäen TAI-logiikkaa.|
 | Käänteinen suodatin | Kääntää suodattimen päinvastaiseksi (eli käytetään logiikkaa EI). Kääntää suodattimen päinvastaiseksi, eli suodattaa POIS ne kätköt, jotka sopivat suodatinkriteereihin, ja näyttää ne kätköt, jotka EIVÄT sovi suodatinkriteereihin.|
 | Sisällytä epävarmat osumat | Joissakin tilanteissa c:geo ei pysty arvioimaan joitakin suodattimia. Esimerkiksi //attribuutit//-suodatinta ei voida käyttää niihin kätköihin, joita ei ole tallennettu laitteeseen. Kätköt, jotka menevät tähän kategoriaan, oletetaan olevan 'epävarmoja'. koska c:geo ei voi päätellä täyttääkö ne suodatikriteerit vai ei. Normaalisti näitä kätköjä EI näytetä tuloksissa. Valitsemalla tämän, voit pyytää c:geota näyttämään kyseiset kätköt tuloksissa. |
 
@@ -158,7 +184,7 @@ Tekstityyppi sekä **Hakukenttä**än syötetty teksti määrittävät yhdessä 
 | Sisältää | Suodattaa kaikki kätköt, joissa suodatettu kenttä sisältää missä tahansa kohdassa **hakukentässä** olevan tekstin.| 
 | Alkaa | Suodattaa kaikki kätköt, joissa suodatettu kenttä alkaa **hakukentässä** olevalla tekstillä.| 
 | Päättyy | Suodattaa kaikki kätköt, joissa suodatettu kenttä päättyy **hakukentässä** olevalla tekstillä.| 
-| Kuvio | Suodattaa kaikki kätköt, joissa suodatetussa kentässä oleva arvo täsmää **hakukentässä** olevaan kuvioon. Voit käyttää jokerimerkkejä **?** ja *. * edustaa nollaa, yhtä tai useampaa merkkiä, ? edustaa yhtä merkkiä. Esimerkiksi kuvio \'H?mburg*\' palauttaa tulokseksi esim. \'Homburg\' tai \'Hamburg at Night\' mutta ei \'A day in Hamburg\' tai \'Hahmburg\' |
+| Kuvio | Suodattaa kaikki kätköt, joissa suodatetussa kentässä oleva arvo täsmää **hakukentässä** olevaan kuvioon. Voit käyttää jokerimerkkejä **?** ja *****. ***** edustaa nollaa, yhtä tai useampaa merkkiä, kun **?** edustaa vain yhtä merkkiä. Esimerkiksi kuvio \'H?mburg*\' palauttaa tulokseksi esim. \'Homburg\' tai \'Hamburg at Night\' mutta ei \'A day in Hamburg\' tai \'Hahmburg\' |
 
 Käyttämällä valintaa **Sama kirjainkoko** voit päättää merkitseekö kirjainkoko haussa.
 
@@ -170,7 +196,7 @@ Päivämääräsuodatin suodattaa päivämäärän mukaisesti, verraten haettava
 
 {{ :en:filter-criteria-datefilter.png?direct&400 |}} 
 
-Tämäntyyppinen suodatin antaa hakea päivämäärän perusteella Mistä - Mihin -välillä, jossa sekä Mistä että Mihin voivat olla valinnaisesti tyhjiä. Napauta kutakin painiketta **Mistä:** ja **Mihin** -merkkien vieressä asettaaksesi päivämäärän. Päivämäärän valitsimessa voit myös valita **Tyhjennä** tyhjentääksesi päivämäärän.
+Tämäntyyppinen suodatin antaa hakea päivämäärän perusteella Mistä - Mihin -välillä, jossa sekä Mistä: että Mihin: voivat olla valinnaisesti tyhjiä. Napauta kutakin painiketta **Mistä:** ja **Mihin:** -merkkien vieressä asettaaksesi päivämäärän. Päivämäärän valitsimessa voit myös valita **Tyhjennä** tyhjentääksesi päivämäärän.
 
 {{anchor:filter_criteria_status:}}
 ==== Tilasuodatin ====
@@ -182,9 +208,9 @@ Tilasuodatin suodattaa kätköt erilaisten tila-arvojen mukaan ja näyttää seu
 Sisällyttääksesi/pois rajataksesi kätköjä, joissa on tilat **Aktiivinen**, **Ei käytössä** tai **Arkistoito**, napauta suodattimen yläreunassa kunkin valinnan kohdalta valinta päälle/pois tarpeen mukaan.
 
 Muut tilavalinnat antavat valita yhden seuraavista kolmesta arvosta:
- * **Kaikki**: Kätköjä ei suodateta tämän kriteerin mukaan.
- * **Kyllä**: Vain kätköt, jotka täyttävät tämän kriteerin, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Kyllä// sisällyttää tuloksiin vain löydetyt kätköt.
- * **Ei**: Vain kätköt, jotka **EIVÄT** täytä tätä kriteeriä, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Ei// sisällyttää tuloksiin vain ei-löydetyt kätköt.
+|**Kaikki**| Kätköjä ei suodateta tämän kriteerin mukaan.|
+|**Kyllä**| Vain kätköt, jotka täyttävät tämän kriteerin, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Kyllä// sisällyttää tuloksiin vain löydetyt kätköt.|
+|**Ei**| Vain kätköt, jotka **EIVÄT** täytä tätä kriteeriä, sisällytetään tuloksiin. Esimerkiksi **Löydetty**-tilan asetus tilaan //Ei// sisällyttää tuloksiin vain ei-löydetyt kätköt.|
 
 Seuraavat tilasuodattimet ovat saatavilla (Selite selostaa mitä suodatetaan kun valitaan //Kyllä//):
 

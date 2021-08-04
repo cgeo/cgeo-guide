@@ -59,10 +59,10 @@
       * [[notecoords|Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet]]
       * [[quick_widgets|Pikakäytön ja pienoisohjelmien käyttö]]
       * [[replacedevice|c:geon siirto toiseen laitteeseen]]
+      * [[brouter|Reititetyn navigaation käyttö c:geossa]]
  		
     * [[start#plugins|Lisäosat ja laajennukset]]
       * [[contacts|Yhteystiedot-lisäosa]]
-      * [[brouter|Brouter]]
  
 
     * [[start#faq|FAQ (UKK)]]

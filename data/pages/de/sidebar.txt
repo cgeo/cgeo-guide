@@ -58,11 +58,10 @@
       * [[notecoords|Wegpunkte aus Koordinaten in der persönlichen Notiz]]
       * [[quick_widgets|Nutzung von Schnellzugriff und Widgets]]
       * [[replacedevice|c:geo auf ein anderes Gerät migrieren]]
-
+      * [[brouter|Nutzung von gerouteter Navigation in c:geo]]
 
     * [[start#plugins|Erweiterungen und Zusatzfunktionen]]
       * [[contacts|Kontakte-Erweiterung]]
-      * [[brouter|Brouter]]
 
     * [[start#faq|FAQ]]
 

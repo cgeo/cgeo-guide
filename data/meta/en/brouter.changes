@@ -57,3 +57,5 @@
 1609863377	2.205.118.1	E	en:brouter	lineflyer	[Usage in c:geo] 		6
 1609878564	2.205.118.1	E	en:brouter	lineflyer	[Usage in c:geo] Link to new quick settings		-42
 1611437647	2.205.115.174	e	en:brouter	lineflyer	Replace click by tap		-6
+1627903539	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:brouter	lineflyer	Focus description on internal brouter implementation rather than external Brouter app		-1775
+1627904113	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:brouter	lineflyer	[Activate routing] Add info banner about data size		110

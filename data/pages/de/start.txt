@@ -74,6 +74,7 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
 
   * [[udc|Benutzerdefinierte Caches]] - Umgang mit benutzerdefinierten Caches
 
+
 ===== Schnellreferenz =====
 {{anchor:quick_reference:}}
 
@@ -99,12 +100,12 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
   * [[notecoords|Wegpunkte aus Koordinaten in der persönlichen Notiz]]
   * [[quick_widgets|Nutzung von Schnellzugriff und Widgets als Abkürzung für einige c:geo Funktionen]]
   * [[replacedevice|c:geo auf ein anderes Gerät migrieren]]
+  * [[brouter| Nutzung von gerouteter Navigation in c:geo]]
 
 
 ===== Erweiterungen und Zusatzfunktionen =====
 {{anchor:plugins}}
   * [[contacts|Kontakte-Erweiterung]] - Die c:geo Kontakte-Erweiterung
-  * [[brouter|Brouter]] - Nutzung von Brouter mit c:geo
 ===== FAQ =====
 {{anchor:faq:}}
 

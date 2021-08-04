@@ -1,17 +1,19 @@
-====== Pocket Queries ======
+======Listat / Pocket Queries ======
 
 {{:ic_menu_pocket_query_reverted.png?nolink&50 |}}
 
-Tämä toiminto antaa selata geokätköilysivustolla olevia pocket queryja ja näyttää ne joko [[lists|listana]] tai tuo koko pocket queryn samalla tavalla kuin [[..offline#gpx_import|tuodessa GPX-tiedostoa]].
+Tämä toiminto antaa selata geokätköilysivustolla olevia pocket queryja ja kirjanmerkkilistoja ja näyttää ne joko [[lists|listana]] tai tuo ne samalla tavalla kuin [[..offline#gpx_import|tuodessa GPX-tiedostoa]].
 
 <WRAP center round info 100%>
 Tämä valikko on saatavilla vain geocaching.com:in premiumjäsenille, koska pocket query on premium-ominaisuus.
 </WRAP>
 
-Tämän valikon valinnan jälkeen lista pocket queryistä ladataan palvelimelta seuraavaksi:
+Tämän valikon valinnan jälkeen lista pocket queryistä ja kirjanmerkkilistoista ladataan palvelimelta:
 
 {{:en:pocketquery.png?nolink&400 |}}
 
-Lista näyttää jokaisen olemassa olevan pocket queryn, ja sen nimen otsikkona. Alaotsikko tarjoaa tietoa montako kätköä jokainen pocket query sisältää, päivä jolloin haku on suoritettu, ja jäljellä olevat saatavuuspäivät palvelimella.
+Lista näyttää jokaisen olemassa olevan pocket queryn ja kirjanmerkkilistan sekä niiden nimen otsikkoina. Alaotsikko tarjoaa tietoa montako kätköä jokainen pocket query/kirjanmerkkilista sisältää. 
 
-{{:ic_menu_save.png?nolink&20|}}-kuvaketta voi käyttää koko pocket queryn tuomiseen yhdelle listalle, \\ {{:abc_ic_search_api_holo_light.png?nolink&20|}}-kuvake avaa pocket queryn esikatselun.
+Pocket Queryjen osalta näkyy myös päivä jolloin haku on suoritettu, ja jäljellä olevat saatavuuspäivät palvelimella.
+
+{{:ic_menu_save.png?nolink&20|}}-kuvaketta voi käyttää koko pocket queryn / listan tuomiseen yhdelle listalle, \\ {{:abc_ic_search_api_holo_light.png?nolink&20|}}-kuvake avaa pocket queryn / listan esikatselun.

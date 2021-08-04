@@ -14,7 +14,7 @@ c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu
 c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
 
 <WRAP center round info 100%>
-c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 18.7.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös ole ajan tasalla, kuvat mukaan lukien. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
+c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 2.8.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös ole ajan tasalla, kuvat mukaan lukien. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
 </WRAP>
 
 ===== Käytön aloitus =====
@@ -105,11 +105,11 @@ c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tä
   * [[notecoords|Muistiinpanoihin merkatuille koordinaateille automaattisesti luodut reittipisteet]]
   * [[quick_widgets|Pikakäytön sekä pienoiskuvakkeiden käyttö pikakuvakkeina joihinkin c:geon toimintoihin]]
   * [[replacedevice|c:geon siirto toiseen laitteeseen]]
+  * [[brouter|Reititetyn navigaation käyttö c:geossa]]
 
 ===== Laajennukset, lisäosat ja niiden toiminnot =====
 {{anchor:plugins}}
   * [[contacts|Yhteystiedot-lisäosa]] - c:geo:n lisäosa yhteystietojen käsittelyä varten
-  * [[brouter|Brouter]] - Brouterin käyttö c:geon kanssa
 
 ===== FAQ =====
 {{anchor:faq:}}
