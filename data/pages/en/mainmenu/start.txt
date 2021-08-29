@@ -33,15 +33,15 @@ To see the name of an icon in the top bar, long-press the icon.
 
 
 ^ Icon ^ Function ^ Description ^
-|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Quick search]]|If you are offline, search your stored geocaches using title, geocode, description, owner, log content, etc. \\ If you have network access, search both stored and online content. You can input a geocode, trackable code, username, and much more.|
-|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|History]]|View a list of geocaches you have recently logged with c:geo. \\ Note: The list is local to c:geo and is not synchronized with the recently viewed caches list on the geocaching website.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button| Open the overflow list of top bar functions that, based on your screen size, do not appear as icons. The functions include those described in this table.|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Lists / Pocket Queries]]|Open a list of your pocket queries and bookmark lists from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
-|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Settings]]|Open the c:geo configuration menu.|
-|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Launch the settings backup function, which can be also found in the [[settings|c:geo Settings]].|
-|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|
-|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Scan Geocode]]|If a [[utilityprograms|barcode scanner]] app is installed on your device, launch it and scan barcodes that contain geocodes.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|About c:geo]]|View c:geo version information, contributors, contact links and other nice-to-know things about c:geo.|
+|{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Quick search]]|If you are offline, search your stored geocaches using title, geocode, description, owner, log content, etc. \\ If you have network access, search both stored and online content. You can input a geocode, trackable code, username, and much more.|
+|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|History]]|View a list of geocaches you have recently logged with c:geo. \\ Note: The list is local to c:geo and is not synchronized with the recently viewed caches list on the geocaching website.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow menu button| Open the overflow list of top bar functions that, based on your screen size, do not appear as icons. The functions include those described in this table.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Lists / Pocket Queries]]|Open a list of your pocket queries and bookmark lists from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Settings]]|Open the c:geo configuration menu.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Backup]]|Launch the settings backup function, which can be also found in the [[settings|c:geo Settings]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|
+|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Scan Geocode]]|If a [[utilityprograms|barcode scanner]] app is installed on your device, launch it and scan barcodes that contain geocodes.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|About c:geo]]|View c:geo version information, contributors, contact links and other nice-to-know things about c:geo.|
 | |Report problem|You can use this function to send a problem report to the c:geo support by mail.\\ :!: Please include a details description of your problem.|
 
 ===== Bottom Section =====

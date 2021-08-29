@@ -1,7 +1,7 @@
 
 ====== Geokätköjen kuvakkeet ======
 
-c:geo käyttää omia kuvakkeitaan erilaisten saatavilla olevien tyyppien näyttämiseksi. Tämä taulukko tarjoaa yleisnäkymän käytetyistä kuvakkeista, kätkötyypin sekä perusselitteen kätkötyypin perusominaisuuksista.
+c:geo käyttää omia kuvakkeitaan erilaisten saatavilla olevien kätkötyyppien näyttämiseksi. Tämä taulukko tarjoaa yleisnäkymän käytetyistä kuvakkeista, kätkötyypin sekä perusselitteen kätkötyypin perusominaisuuksista.
 
 ^ Kuvake ^ Kätkötyyppi ^ Selite ^
 |{{ :type_traditional.png?nolink&40 |}}|Tradikätkö|Tämä on klassinen kätkötyyppi. Kätkö löytyy annetuista koodinaateista.|

@@ -1,12 +1,3 @@
-1597858320	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		301
-1597858544	178.26.130.151	E	en:notecoords	eddiemuc	[Automatic creation of waypoints] 		163
-1597859691	178.26.130.151	E	en:notecoords	eddiemuc	[Using keywords for waypoint types] 		112
-1597861284	178.26.130.151	E	en:notecoords	eddiemuc	add first draft for advanced waypoint syntax		2079
-1597861889	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		712
-1597871180	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		416
-1597871287	178.26.130.151	E	en:notecoords	eddiemuc	[Advanced waypoint creation: name, user note and prefix] 		3
-1597872210	178.26.130.151	E	en:notecoords	eddiemuc	explain waypoint backup		1017
-1597872280	178.26.130.151	E	en:notecoords	eddiemuc	[Waypoints created for coordinates in personal notes] 		10
 1603355949	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		188
 1603356069	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		13
 1603356582	88.69.176.81	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		544
@@ -1781,3 +1772,16 @@
 1627923174	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:start	vike91	update		-3
 1627925103	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:compass	vike91	update		474
 1627925829	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:brouter	vike91	update		-1757
+1628599799	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cacheicons	lineflyer	Remove adventure lab from unknown cache type		-29
+1628600129	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	R	en:cacheicons	lineflyer	old revision restored (2021/05/28 20:32)	1622226776	29
+1628608471	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-14
+1628609939	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		-8
+1628727329	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:mainmenu:start	vike91	update		-14
+1628727424	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:cacheicons	vike91	small change to get the changed flag off		7
+1628727454	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		1
+1628727492	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		-1
+1628727512	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		2
+1630163095	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	murggel	[Top Bar Menu] use svg		-31
+1630267919	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:pocketquery	murggel	use svg		-22
+1630268000	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
+1630268070	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
