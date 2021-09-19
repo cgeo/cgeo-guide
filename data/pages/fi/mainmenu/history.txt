@@ -1,6 +1,6 @@
 ====== Historia ======
 
-{{:ic_menu_recent_history.png?nolink&50 |}}
+{{:ic_menu_recent_history.svg?nolink&50 |}}
 
 
 Historialista näyttää normaalilta [[lists|listalta]] mutta on suodatettu kätköihin, joihin olet lähiaikoina tehnyt online- tai offlinekirjauksen. Toisin kuin normaalit kätköjä sisältävät listat, se voi sisältää myös kätköjä jotka eivät ole enää tallennettu laitteellesi.

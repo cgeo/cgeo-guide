@@ -31,15 +31,15 @@ Per vedere il nome di un'icona nella barra in alto, premi a lungo l'icona.
 {{ :it:main_topbarmenu.png?direct&400 |}}
 
 ^ Icona ^ Funzione ^ Descrizione ^
-|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}} |[[quicksearch|Ricerca rapida]]|Se sei offline, cerca tra geocache memorizzati utilizzando titolo, geo-code, descrizione, proprietario, contenuto del registro, ecc. \\ Se si dispone dell'accesso alla rete, cerca nei contenuti archiviati e in linea. È possibile inserire un geo-code, il codice di un trackable, un nome utente e molto altro.|
-|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Cronologia]]|Visualizza un elenco di geocache a cui hai effettuato l'accesso di recente con c:geo. \\ Nota: l'elenco è locale in c:geo e non è sincronizzato con l'elenco dei cache visualizzati di recente sul sito Web di geocaching.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Funzioni aggiuntive| Apre l'elenco delle funzioni aggiuntive della barra superiore che, in base alle dimensioni dello schermo, non vengono visualizzate come icone. Le funzioni includono quelle descritte in questa tabella.|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Apri un elenco delle tue pocket queries da geocaching.com. Questa funzione non è disponibile per gli [[..:basicmembers|account base]] di geocaching.com.|
-|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Impostazioni]]|Apre il menu di configurazione c:geo.|
-|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Avvia la funzione di backup delle impostazioni, che può essere trovata anche nelle [[settings|impostazioni di c:geo]].|
-|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Programmi utili]]|Apre un elenco di collegamenti ad altre app correlate al geocaching, che possono essere utili insieme a c:geo.|
-|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Geocode Scanner]]|Se un'app di [[utilityprograms|scansione barcode]] è installata sul dispositivo, verrà avviata per eseguire la scansione dei codici a barre che contengono geocode.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Informazioni su c:geo]]|Visualizza le informazioni sulla versione di c:geo, i contributori, i link di contatto e altre cose interessanti sull'app.|
+|{{ :ic_menu_search.svg?nolink&40 |}} |[[quicksearch|Ricerca rapida]]|Se sei offline, cerca tra geocache memorizzati utilizzando titolo, geo-code, descrizione, proprietario, contenuto del registro, ecc. \\ Se si dispone dell'accesso alla rete, cerca nei contenuti archiviati e in linea. È possibile inserire un geo-code, il codice di un trackable, un nome utente e molto altro.|
+|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Cronologia]]|Visualizza un elenco di geocache a cui hai effettuato l'accesso di recente con c:geo. \\ Nota: l'elenco è locale in c:geo e non è sincronizzato con l'elenco dei cache visualizzati di recente sul sito Web di geocaching.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Funzioni aggiuntive| Apre l'elenco delle funzioni aggiuntive della barra superiore che, in base alle dimensioni dello schermo, non vengono visualizzate come icone. Le funzioni includono quelle descritte in questa tabella.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Apri un elenco delle tue pocket queries da geocaching.com. Questa funzione non è disponibile per gli [[..:basicmembers|account base]] di geocaching.com.|
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Impostazioni]]|Apre il menu di configurazione c:geo.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Backup]]|Avvia la funzione di backup delle impostazioni, che può essere trovata anche nelle [[settings|impostazioni di c:geo]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Programmi utili]]|Apre un elenco di collegamenti ad altre app correlate al geocaching, che possono essere utili insieme a c:geo.|
+|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Geocode Scanner]]|Se un'app di [[utilityprograms|scansione barcode]] è installata sul dispositivo, verrà avviata per eseguire la scansione dei codici a barre che contengono geocode.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Informazioni su c:geo]]|Visualizza le informazioni sulla versione di c:geo, i contributori, i link di contatto e altre cose interessanti sull'app.|
 
 ===== Sezione inferiore =====
 {{anchor:bottom_section:}}

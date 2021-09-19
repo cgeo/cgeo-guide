@@ -24,12 +24,12 @@ Dans le cas d'une icône, un appui long dessus affiche le nom de la fonctionnali
 ^ Icône ^ Fonction ^ Description ^
 |{{ :fr:livemap_mapname.png?nolink&150 |}}|Informations sur la carte|Affiche l'état actuel de la carte : ''Carte temps réel'' dans le cas de la carte en direct, ''Carte'' si le temps réel est désactivé ou encore le nom d'une liste de caches affichées sur la carte.\\ Le nombre de caches visibles sur la carte est également indiqué.|
 |{{ :en:livemap_progress.png?nolink&80 |}} |Barre de chargement|Une petite ligne bleue faisant office d'indicateur de progression est présente juste en dessous de la barre de titre lorsque la carte et les données sont en chargement depuis les serveurs de géocaching et/ou depuis vos listes de caches. Elle disparait une fois que la carte a fini de charger.|
-|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centrer sur la position|Ce bouton peut être utilisé pour centrer la carte sur votre position actuelle.\\ \\ Si la carte est effectivement centrée sur votre position, une icône pleine est affichée.|
-|{{ :ic_action_layers_revert.png?nolink&40 |}}|Afficher carte|Ce bouton change la [[..:mapsources|source]] du fond de carte.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Bouton de débordement|Ce bouton ouvre un menu contenant les fonctionnalités qui ne pouvaient être affichées dans la barre supérieure de l'écran et qui apparaissent donc sous forme de liste. Ces fonctions sont également décrites dans ce tableau.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Tout enregistrer|Enregistre toutes les caches affichées sur la carte dans  votre liste de caches enregistrées. Les caches déjà enregistrées verront leurs informations mises à jour pendant ce processus.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Enregistrer les non sauvegardées|Enregistre toutes les caches affichées sur la carte sauf celles déjà enregistrées dans  votre liste de caches enregistrées.|
+|{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centrer sur la position|Ce bouton peut être utilisé pour centrer la carte sur votre position actuelle.\\ \\ Si la carte est effectivement centrée sur votre position, une icône pleine est affichée.|
+|{{ :ic_action_layers.svg?nolink&40 |}}|Afficher carte|Ce bouton change la [[..:mapsources|source]] du fond de carte.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Bouton de débordement|Ce bouton ouvre un menu contenant les fonctionnalités qui ne pouvaient être affichées dans la barre supérieure de l'écran et qui apparaissent donc sous forme de liste. Ces fonctions sont également décrites dans ce tableau.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.|
+|{{ :ic_menu_save_all.svg?nolink&40 |}}|Tout enregistrer|Enregistre toutes les caches affichées sur la carte dans  votre liste de caches enregistrées. Les caches déjà enregistrées verront leurs informations mises à jour pendant ce processus.|
+|{{ :ic_menu_save.svg?nolink&40 |}}|Enregistrer les non sauvegardées|Enregistre toutes les caches affichées sur la carte sauf celles déjà enregistrées dans  votre liste de caches enregistrées.|
 | |[[livemap#map_settings|Paramètres carte]]|Ouvre un menu contenant plusieurs options pour personnaliser la carte affichée (par exemple masquer des caches, afficher les cercles, etc).|
 | |[[livemap#routing|Calcul de l'itinéraire]]|Ce bouton permet de changer les préférences de calcul d'itinéraire (à vol d'oiseau, à pied, à vélo, en voiture).|
 | |[[lists#cache_list|Lister les caches]]|Affiche toutes les caches présentes sur la carte sous forme de [[lists|liste]].|
@@ -70,9 +70,9 @@ Cette partie de la fenêtre contextuelle fournit quelques options concernant la 
 
 ^ Icône/Option ^ Description ^
 |{{ :fr:livemap_popup_3.png?nolink&150 |}}| Affiche le [[..:cacheicons|type]] ainsi que le nom de la cache sélectionnée.|
-|{{ :actionbar_compass_light.png?nolink&40 |}}|Un appui bref sur cette icône lance votre outil de [[settings#navigation|navigation par défaut]] pour vous permettre de vous diriger vers la cache sélectionnée.\\ Un appui long lance votre outil de [[settings#navigation|navigation secondaire]].|
-|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Active/désactive la ligne directionnelle entre votre position et la cache sélectionnée.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Déroule un menu contenant des options additionnelles également présentées dans ce tableau.|
+|{{ :ic_menu_compass.svg?nolink&40 |}}|Un appui bref sur cette icône lance votre outil de [[settings#navigation|navigation par défaut]] pour vous permettre de vous diriger vers la cache sélectionnée.\\ Un appui long lance votre outil de [[settings#navigation|navigation secondaire]].|
+|{{ :ic_menu_near_me.svg?nolink&40 |}}|Active/désactive la ligne directionnelle entre votre position et la cache sélectionnée.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Déroule un menu contenant des options additionnelles également présentées dans ce tableau.|
 |Boussole|Ouvre la boussole pointant vers cette cache.|
 |Navigation|Ouvre une liste des [[settings#navigation|outils de navigation]] disponibles afin d'en utiliser un pour se diriger vers cette cache.|
 |Signaler votre visite|Ouvre la fenêtre pour [[..:logging|signaler votre visite]] pour la cache sélectionnée.|
@@ -99,7 +99,7 @@ Certaines de ces informations peuvent ne pas être affichées dépendamment du s
 |Évaluation|Note de qualité de cette cache se basant sur [[http://gcvote.com|GCVote]] si ce service est activé dans les [[settings#services|paramètres de c:geo]]. Elle se présente à la fois sous forme décimale et graphique.\\ La valeur indiquée entre parenthèses est le nombre de votes donnés pour cette cache.|
 |Favori|Le nombre de points favoris (geocaching.com) ou de recommandations (plateformes Opencaching) qui ont été attribués à la cache sélectionnée.|
 |Plus de détails|Ouvre la page de [[..:cachedetails|détails de la cache]] sélectionnée fournissant les informations complètes sur cette géocache.|
-|{{:ic_menu_hint.png?40|}}|Ce bouton n'est disponible que si la cache contient un indice du propriétaire ou une note personnelle. Cliquez sur le bouton pour afficher l'indice et/ou la note personnelle [[#hint_section|en bas]] de la fenêtre contextuelle.|
+|{{:ic_menu_hint.svg?nolink&40|}}|Ce bouton n'est disponible que si la cache contient un indice du propriétaire ou une note personnelle. Cliquez sur le bouton pour afficher l'indice et/ou la note personnelle [[#hint_section|en bas]] de la fenêtre contextuelle.|
 
 ==== Gestion des listes ====
 {{anchor:list_management:}}
@@ -110,11 +110,11 @@ Cette section de la fenêtre contextuelle propose plusieurs options pour gérer 
 
 ^ Icône/Option ^ Description ^
 |{{ :fr:livemap_popup_6.png?nolink&200 |}}|Ce champ indique si la cache sélectionnée est stockée dans vos [[lists|listes de cache]] et depuis combien de temps (c'est-à-dire que cela vous donne une indication de la fraicheur des détails affichés).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Cliquer sur ce bouton pour actualiser les informations de la cache en les mettant à jour à partir du serveur de géocaching.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Cliquer sur ce bouton pour actualiser les informations de la cache en les mettant à jour à partir du serveur de géocaching.|
 |{{ :fr:livemap_popup_7.png?nolink&200 |}}|Dans le cas où la cache sélectionnée est déjà enregistrée dans vos [[lists|listes de cache]], ce champ vous montre la ou les listes dans lesquelles elle est stockée.|
-|{{ :ic_menu_save.png?nolink&40 |}} |Ce bouton n'apparaît que si la cache sélectionnée n'est pas encore enregistrée dans une de vos [[lists|listes de cache]].\\ Un appui court et un menu de sélection de la liste pour l'enregistrement s'ouvrira tandis qu'un appui long enregistrera directement la cache dans la dernière liste utilisée.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|Si la cache sélectionnée est déjà stockée dans une de vos [[lists|listes de cache]], cette icône s'affiche et vous permet de gérer les listes dans lesquelles la cache apparait.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Si la cache sélectionnée est déjà stockée dans une de vos [[lists|listes de cache]], cette icône s'affiche et vous permet de supprimer la cache de toutes vos listes.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |Ce bouton n'apparaît que si la cache sélectionnée n'est pas encore enregistrée dans une de vos [[lists|listes de cache]].\\ Un appui court et un menu de sélection de la liste pour l'enregistrement s'ouvrira tandis qu'un appui long enregistrera directement la cache dans la dernière liste utilisée.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Si la cache sélectionnée est déjà stockée dans une de vos [[lists|listes de cache]], cette icône s'affiche et vous permet de gérer les listes dans lesquelles la cache apparait.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Si la cache sélectionnée est déjà stockée dans une de vos [[lists|listes de cache]], cette icône s'affiche et vous permet de supprimer la cache de toutes vos listes.|
 
 ==== Indice/note personnelle ====
 {{anchor:hint_section:}}
@@ -170,7 +170,7 @@ L'exemple ci-dessous montre l'aspect typique de la ligne directionnelle (avec et
 |{{:fr:brouter_without.png?direct&250|}}|{{:fr:brouter_with.png?direct&250|}}|
 
 Il existe deux façons d'activer la ligne directionnelle :
-  - En cliquant sur une cache sur la carte et en activant la ligne directionnelle à l'aide l'icône correspondante{{:ic_menu_publish_invert.png?nolink&30|}} affichée dans la [[livemap#map_popup_window|fenêtre contextuelle]].
+  - En cliquant sur une cache sur la carte et en activant la ligne directionnelle à l'aide l'icône correspondante{{:ic_menu_near_me.svg?nolink&30|}} affichée dans la [[livemap#map_popup_window|fenêtre contextuelle]].
   - En sélectionnant ''Navigation'' puis ''Carte'' depuis la [[..:cachedetails|vue détaillée]] de la cache.
 ==== GPX track/route ====
 

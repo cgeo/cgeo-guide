@@ -55,9 +55,9 @@ joka luo automaattisesti seuraavat reittipisteet sinulle:
   
 On mahdollista luoda kaikista luomistasi ja muokkaamistasi reittipistetiedoista tekstimuotoinen varmuuskopio henkilökohtaiseen muistiinpanoon. Voit sitten lähettää tämän henkilökohtaisen muistiinpanon geokätköilysivustolle (jos se tukee sitä), täten helposti varmuuskopioiden luomasi reittipistetiedot. Yllä selostetun jäsennyksen ansiosta tämä tieto voidaan palauttaa reittipistelistallesi jos tieto syystä tai toisesta häviää tai poistetaan laitteestasi.
 
-Luodaksesi tekstivarmuuskopion, käytä {{:ic_menu_waypoint_sync.png?nolink&40|}}-nappia henkilökohtaisen muistiinpanon alla. Tekstimuotoinen osio luodaan muistiinpanoihin, alkaen ''{c:geo-start}'' ja päättyen ''{c:geo-end}''. Muistiinpano sisältää kaiken käyttäjän määrittämän reittipistetiedon reittipistelistasta, kirjoitettuna edistyneellä reittipistesyntaksilla (joka selostetaan seuraavassa osiossa).
+Luodaksesi tekstivarmuuskopion, käytä {{:ic_menu_waypoint_sync.svg?nolink&30|}}-nappia henkilökohtaisen muistiinpanon alla. Tekstimuotoinen osio luodaan muistiinpanoihin, alkaen ''{c:geo-start}'' ja päättyen ''{c:geo-end}''. Muistiinpano sisältää kaiken käyttäjän määrittämän reittipistetiedon reittipistelistasta, kirjoitettuna edistyneellä reittipistesyntaksilla (joka selostetaan seuraavassa osiossa).
   
-Päivittääksesi tekstimuotoisen reittipistevarmuuskopion, paina uudelleen {{:ic_menu_waypoint_sync.png?nolink&40|}}-nappia. Poistaaksesi sen, paina {{:ic_menu_waypoint_delete.png?nolink&40|}}-nappia.
+Päivittääksesi tekstimuotoisen reittipistevarmuuskopion, paina uudelleen {{:ic_menu_waypoint_sync.svg?nolink&30|}}-nappia. Poistaaksesi sen, paina {{:ic_menu_waypoint_delete.svg?nolink&30|}}-nappia.
   
 Esimerkkinä, kun toiminto suoritetaan seuraaville reittipisteille:
   

@@ -1,6 +1,6 @@
 ====== Hulpprogramma's ======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 Deze functie opent een scherm met apps, die in combinatie met c:geo kunnen werken en worden gebruikt om sommige functies in c:geo te verbeteren. Je kunt op elk hulpmiddel klikken om een webpagina te openen met meer informatie en / of een downloadmogelijkheid.
 

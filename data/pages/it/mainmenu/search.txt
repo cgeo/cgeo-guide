@@ -12,7 +12,7 @@ Fondamentalmente tutte le funzioni di ricerca utilizzeranno simultaneamente tutt
 </WRAP>
 
 ^Funzione di ricerca ^ Descrizione ^
-|{{ :ic_menu_myplaces.png?nolink&30 |}}|Facendo clic su questa icona verrà caricato un elenco deli cache di tua proprietà|
+|{{ :ic_menu_myplaces.svg?nolink&30 |}}|Facendo clic su questa icona verrà caricato un elenco deli cache di tua proprietà|
 |Coordinate|Cerca i cache attorno alle coordinate fornite. Fare riferimento alla finestra di dialogo [[..:coordinatedialog|Coordinate]] per ulteriori informazioni.|
 |Indirizzo|Cerca le cache attorno a un indirizzo. Utilizziamo il servizio di codifica geografica di Google per trovare l'indirizzo e convertirlo in coordinate.\\ Se l'indirizzo è stato trovato, puoi caricare l'elenco dei cache nelle vicinanze di questa posizione o aprire la [[livemap|Mappa live]] a questo indirizzo facendo clic sulla piccola icona della mappa mostrata nei risultati della ricerca.|
 |Codice geo|Cerca un codice geo specifico in tutte le piattaforme supportate a seconda del prefisso del codice (ad esempio GCAB77C, OC1234).|

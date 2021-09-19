@@ -34,9 +34,9 @@ De pictogrammen in de bovenste balk en de inhoud achter de overloop menuknop dyn
 </WRAP>
 
 ^ Icoon ^ Functie ^ Omschrijving ^
-|{{ :ic_menu_send.png?nolink&40 |}}|Verzenden|Gebruik deze knop als je de logtekst hebt geschreven en klaar ben om deze online te versturen.|
-|{{ :ic_menu_add.png?nolink&40 |}}|Toevoegen|Dit maakt het mogelijk om of een [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toe te voegen aan de log.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menuknop|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Verzenden|Gebruik deze knop als je de logtekst hebt geschreven en klaar ben om deze online te versturen.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Toevoegen|Dit maakt het mogelijk om of een [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toe te voegen aan de log.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menuknop|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
 | |Smilies|Opent een lijst met smilies die je kunt toevoegen aan je log.|
 | |Herhaal laatste log|Deze functie herhaalt de laatste log die je hebt gebruikt.|
 

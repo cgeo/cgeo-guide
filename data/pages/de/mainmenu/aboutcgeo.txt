@@ -1,6 +1,6 @@
 ====== Über c:geo ======
 
-{{:ic_menu_info_details.png?nolink&50 |}}
+{{:ic_menu_info_details.svg?nolink&50 |}}
 
 Diese Ansicht zeigt die verschiedene Informationen über c:geo.
 

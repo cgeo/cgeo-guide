@@ -4,7 +4,7 @@
 
 Het coördinaten invoer scherm wordt geopend als je op het coördinaatveld klikt tijdens het bewerken van een [[cachedetails#waypoint_tab|waypoint]] of voor het invoeren van coördinaten in de [[.mainmenu:search|zoeken]] of [[.mainmenu:goto|Ga naar]] menu's.
 
-De {{:abc_ic_clear_normal.png?nolink&40|}} knop zal het scherm zonder wijzigingen sluiten. De {:abc_ic_cab_done_holo_light.png?nolink&40|}} zal het scherm met wijzigingen opslaan.
+De {{:ic_menu_cancel.svg?nolink&30|}} knop zal het scherm zonder wijzigingen sluiten. De {{:ic_menu_done.svg?nolink&30|}} zal het scherm met wijzigingen opslaan.
 
 <WRAP center round tip 60%>
 Wees er zeker van dat je, vooral na het gebruik van de waypoint calculator, je opslaat, want hoewel er misschien geen geldige coördinaten worden getoond, je misschien wel de wijzigingen wilt bewaren.
@@ -49,7 +49,7 @@ c:geo biedt een calculator voor waypoints aan die het mogelijk maakt om gebruik 
 
 Wanneer je drukt op ''Coördinaten bereken'' in het [[coordinatedialog#waypoint_sources|coördinaten invoer scherm]] zal dit scherm worden getoond.
 
-De {{:abc_ic_clear_normal.png?nolink&40|}} knop zal het scherm sluiten zonder aanpassingen. De {{:abc_ic_cab_done_holo_light.png?nolink&40|}} zal het scherm sluiten, de wijzigingen opslaan en terug gaan naar de waypoint bewerker.
+De {{:ic_menu_cancel.svg?nolink&30|}} knop zal het scherm sluiten zonder aanpassingen. De {{:ic_menu_done.svg?nolink&30|}} zal het scherm sluiten, de wijzigingen opslaan en terug gaan naar de waypoint bewerker.
 
 <WRAP center round tip 60%>
 Je kunt de calculator ook gebruiken om je trip voor te bereiden door de benodigde variabelen en formules in te voeren, maar nog geen waarden voor je variabelen in te voeren.\\

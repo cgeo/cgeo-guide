@@ -1,6 +1,6 @@
 ====== Outils et méthodes de navigation ======
 
-Si vous lancez la navigation via l'icône {{:ic_menu_goto.png?nolink&30}}, le menu suivant s'affiche pour vous permettre de sélectionner la méthode/outil de navigation approprié.
+Si vous lancez la navigation via l'icône {{:ic_menu_goto.svg?nolink&30}}, le menu suivant s'affiche pour vous permettre de sélectionner la méthode/outil de navigation approprié.
 
 {{ :fr:navigation.png?direct&400 |}}
 

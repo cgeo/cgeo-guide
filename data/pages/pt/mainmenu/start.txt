@@ -30,16 +30,16 @@ No caso de uma função no menu ser apresentada como ícone, poderá premir dura
 {{ :pt:main_topbarmenu.png?direct&400 |}}
 
 ^ Ícone ^ Função ^ Descrição ^
-|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Procurar cahces]]|Ao contrário da função pesquisar do menu principal, esta pesquisa vai procurar uma lista de caches guardadas na memória assim como as online, e vai apresentar uma lista de resultados com base no termo pesquisado. No caso de caches guardadas esta função vai pesquisar quase toda a informação da cache (titulo, geo-código, descrição, dono, registos (logs), etc.) No caso das caches não guardadas poderá pesquisar geo-códigos, códigos de trackable, nome de utilizador, etc.|
-|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Histórico]]|O histórico exibe uma lista de caches que visualizou recentemente. Esta lista não está sincronizada com a lista de visualizadas recentemente no site do geocaching.com.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Abre uma lista de pocket queries a partir do servidor do geocaching.com (esta função não está disponível para [[..:basicmembers|menbros básicos]] do geocaching.com).|
-|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Definições]]|Esta função exibe os menus de configuração do c:geo.|
-|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Cópia de segurança (Backup)]]|Este ícone funciona como um atalho para a função de cópia de segurança que pode também ser acedida através das [[settings|definições]] do c:geo.|
-|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Utilitários]]|Esta função exibe uma lista de aplicações úteis para o geocaching, que podem ser usadas em conjunto com c:geo.|
-|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Ler código GC]]|Se existir uma aplicação de leitura de [[utilityprograms|códigos de barras]] instalada, esta função permite ler códigos GC (Geo-códigos).|
+|{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Procurar cahces]]|Ao contrário da função pesquisar do menu principal, esta pesquisa vai procurar uma lista de caches guardadas na memória assim como as online, e vai apresentar uma lista de resultados com base no termo pesquisado. No caso de caches guardadas esta função vai pesquisar quase toda a informação da cache (titulo, geo-código, descrição, dono, registos (logs), etc.) No caso das caches não guardadas poderá pesquisar geo-códigos, códigos de trackable, nome de utilizador, etc.|
+|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Histórico]]|O histórico exibe uma lista de caches que visualizou recentemente. Esta lista não está sincronizada com a lista de visualizadas recentemente no site do geocaching.com.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Abre uma lista de pocket queries a partir do servidor do geocaching.com (esta função não está disponível para [[..:basicmembers|menbros básicos]] do geocaching.com).|
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Definições]]|Esta função exibe os menus de configuração do c:geo.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Cópia de segurança (Backup)]]|Este ícone funciona como um atalho para a função de cópia de segurança que pode também ser acedida através das [[settings|definições]] do c:geo.|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Utilitários]]|Esta função exibe uma lista de aplicações úteis para o geocaching, que podem ser usadas em conjunto com c:geo.|
+|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Ler código GC]]|Se existir uma aplicação de leitura de [[utilityprograms|códigos de barras]] instalada, esta função permite ler códigos GC (Geo-códigos).|
 | |Convidar amigos|Esta função abre uma nova janela onde é possível recomendar o c:geo aos seus contactos do google.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Sobre o c:geo]]|Esta função mostra informação como a versão do c:geo, contribuidores, contactos e outros detalhes sobre o c:geo.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Sobre o c:geo]]|Esta função mostra informação como a versão do c:geo, contribuidores, contactos e outros detalhes sobre o c:geo.|
 
 ===== Secção Inferior =====
 {{anchor:​bottom_section:}}

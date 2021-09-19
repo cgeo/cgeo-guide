@@ -12,7 +12,7 @@ Grundsätzlich nutzen alle Suchfunktionen alle aktivierten Geocaching-Plattforme
 </WRAP>
 
 ^ Suchfunktion ^ Beschreibung ^
-|{{ :ic_menu_myplaces.png?nolink&30 |}}|Ein Klick auf dieses Symbol zeigt eine Liste deiner eigenen Caches|
+|{{ :ic_menu_myplaces.svg?nolink&30 |}}|Ein Klick auf dieses Symbol zeigt eine Liste deiner eigenen Caches|
 |Koordinaten|Sucht nach Caches in der Nähe der angegebenen Koordinaten. Für mehr Informationen zur Nutzung schaue auf die Seite [[..:coordinatedialog|Koordinateneingabe]].|
 |Adresse|Suche für Caches in der Nähe einer Adresse. Wir nutzen den Google Geocoding-Dienst um die Adresse zu finden und in Koordinaten umzuwandeln.\\ Wenn die Adresse gefunden wurde, kannst du entweder eine Liste der Caches in der Nähe dieses Standortes anschauen oder die  [[livemap|Live-Karte]] für diese Adresse öffnen, indem du auf das kleine Kartensymbol in der Ergebnisliste tippst.|
 |Geocode|Sucht nach einem spezifischen Geocode für alle unterstützen Geocaching-Plattformen abhängig vom Beginn des Codes (z.B. GC77, OC1234).|

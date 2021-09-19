@@ -1,6 +1,6 @@
 ====== History ======
 
-{{:ic_menu_recent_history.png?nolink&50 |}}
+{{:ic_menu_recent_history.svg?nolink&50 |}}
 
 
 The history list does mainly look like a normal [[lists|list]] but is filtered to caches where you recently composed an online or offline log. In contrast to normal lists of stored cache it might also contain cache no longer stored on your device.

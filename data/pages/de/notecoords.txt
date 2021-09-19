@@ -52,9 +52,9 @@ Dies erstellt dann automatisch diese Wegpunkt für dich:
 Es ist möglich eine in Text verpackte Sicherung aller benutzer-geänderten Wegpunkte in deiner persönlichen Notiz zu erstellen. Du kannst diese Notiz dann auf den Geoaching-Server hochladen (wenn der genutzte Geocaching-Dienst dies unterstützt) und hast damit eine Sicherung aller deiner benutzerdefinierten oder veränderten Wegpunkte. 
 Da die Wegpunkt aus der persönlichen Notiz beim Öffnen des Caches automatisch erkannt werden, kannst du diese einfach wiederherstellen, wenn sie lokal einmal verloren gehen oder du den Cache aus c:geo gelöscht hast.
 
-Um diese Sicherung zu erstellen, tippe auf das Symbol {{:ic_menu_waypoint_sync.png?nolink&40|}} unter der persönlichen Notiz. Es wird dann eine Textpassage in deiner persönlichen Notiz erstellt, welche mit ''{c:geo-start}'' beginnt und mit ''{c:geo-end}'' endet. Diese enthält die Sicherung aller benutzerdefinierten Wegpunkte in einer erweiterten Syntax (die im nächsten Kapitel näher erläutert wird).
+Um diese Sicherung zu erstellen, tippe auf das Symbol {{:ic_menu_waypoint_sync.svg?nolink&30|}} unter der persönlichen Notiz. Es wird dann eine Textpassage in deiner persönlichen Notiz erstellt, welche mit ''{c:geo-start}'' beginnt und mit ''{c:geo-end}'' endet. Diese enthält die Sicherung aller benutzerdefinierten Wegpunkte in einer erweiterten Syntax (die im nächsten Kapitel näher erläutert wird).
 
-Um diese Wegpunktsicherung zu aktualisieren, tippe nochmal auf das Symbol{{:ic_menu_waypoint_sync.png?nolink&40|}}. Um sie zu entfernen, kannst du auf das {{:ic_menu_waypoint_delete.png?nolink&40|}}-Symbol tippen.
+Um diese Wegpunktsicherung zu aktualisieren, tippe nochmal auf das Symbol{{:ic_menu_waypoint_sync.svg?nolink&30|}}. Um sie zu entfernen, kannst du auf das {{:ic_menu_waypoint_delete.svg?nolink&30|}}-Symbol tippen.
 
 Als Beispiel ergibt eine Sicherung der folgenden Wegpunkte
 

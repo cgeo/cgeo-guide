@@ -36,7 +36,7 @@ Relembrando:\\
 È importante conhecer os tipos de caches diferentes, as classificações de terreno, atributos, etc. antes de começar a procurar uma cache!
 </WRAP>
 
-Após escolher a cache e estar preparado para a encontrar, carregue no ícone ''Navegar'' {{:ic_menu_goto.png?nolink|}}, localizado na barra superior da página de detalhes da cache. Estão disponíveis [[.navigation|várias opções]] dependendo da necessidade e preferência do utilizador. Aqui estão algumas das opções de navegação disponíveis e uma breve descrição:
+Após escolher a cache e estar preparado para a encontrar, carregue no ícone ''Navegar'' {{:ic_menu_goto.svg?nolink|}}, localizado na barra superior da página de detalhes da cache. Estão disponíveis [[.navigation|várias opções]] dependendo da necessidade e preferência do utilizador. Aqui estão algumas das opções de navegação disponíveis e uma breve descrição:
 
 
   * **[[compass|Bússola]]**:\\ Vai mostrar de forma constante a direção e a distância até à cache.

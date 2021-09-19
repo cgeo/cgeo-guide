@@ -72,11 +72,11 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lung
 ^ Icona/Sezione ^ Funzione ^ Descrizione ^
 |{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Gestione liste]]|TQuesta sezione mostra il nome dell'elenco corrente o le informazioni di ricerca nel caso in cui un elenco venga aperto come [[search|risultato della ricerca]], oppure il nome della pocket query nel caso in cui l'elenco venga aperto da una [[pocketquery|pocket query]].\\ Inoltre la quantità di cache nell'elenco corrente (limitata i cache filtrati, se applicabile). Facendo clic su questa sezione si aprirà l'elenco di tutti gli elenchi di cache per selezionare un altro elenco di cache da visualizzare.|
 |{{ :en:lists_filterindication.png?nolink&150 |}}|Tipo di filtro|Questa riga verrà visualizzata solo nel caso in cui sia attivo un filtro [[globaltypefilter|globale sul tipo di cache]] oppure un [[..:cachefilter|filtro sull'elenco]].\\ Facendo clic su questa riga si accederà direttamente alla finestra di dialogo del filtro corrispondente.|
-|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Mostra sulla mappa]]|Facendo clic su questa icona verranno visualizzati i cache di questo elenco su una [[livemap|mappa]].|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[..:cachefilter|Filtro]]|Facendo clic su questa icona si apre una finestra di dialogo per filtrare i cache nell'elenco in base a vari criteri.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
-|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Ordina]]|È possibile utilizzare questa funzione per ordinare l'elenco in base alle proprie esigenze.|
-|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Modo selezione]]|L'utilizzo di questa funzione pone l'elenco in una modalità di selezione che consente di selezionare un sottoinsieme di cache nell'elenco per utilizzare la funzione ''Gestisci cache'' su questa selezione.|
+|{{ :ic_menu_mapmode.svg?nolink&50 |}}|[[livemap|Mostra sulla mappa]]|Facendo clic su questa icona verranno visualizzati i cache di questo elenco su una [[livemap|mappa]].|
+|{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filtro]]|Facendo clic su questa icona si apre una finestra di dialogo per filtrare i cache nell'elenco in base a vari criteri.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
+|{{ :ic_menu_sort_alphabetically.svg?nolink&50 |}}|[[lists#sorting|Ordina]]|È possibile utilizzare questa funzione per ordinare l'elenco in base alle proprie esigenze.|
+|{{ :ic_menu_select_start.svg?nolink&50 |}}|[[lists#select_mode|Modo selezione]]|L'utilizzo di questa funzione pone l'elenco in una modalità di selezione che consente di selezionare un sottoinsieme di cache nell'elenco per utilizzare la funzione ''Gestisci cache'' su questa selezione.|
 |[[lists#show_on_map|Visualizza sulla mappa]]||Questa è una funzione simile alla funzione/icona ''Elenco mappe'' spiegata sopra, ma supporta anche l'apertura di tutte i cache dall'elenco su altre mappe e app esterne.|
 |[[lists#manage_caches|Gestisci i cache]]||TQuesta opzione fornisce funzioni per eliminare, aggiornare, spostare, ecc., i cache nell'elenco.\\ Puoi combinarlo con la ''Modo selezione'' per applicare la modifica solo a un sottoinsieme del tuo elenco.|
 |[[lists#manage_lists|Gestisci liste]]||Questa opzione fornisce funzioni per eliminare, modificare la lista esistente o creare nuove liste.|
@@ -95,7 +95,7 @@ Il [[globaltypefilter|Filtro per tipo di cache]], si applica solo agli elenchi, 
 </WRAP>
 
 ^ Voce di Menù ^ Descrizione ^
-|{{ :ic_menu_delete.png?nolink&40 |}}|L'icona del cestino in alto ti consente di eliminare i filtri applicati.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|L'icona del cestino in alto ti consente di eliminare i filtri applicati.|
 |Tipo|Mostra solo i cache con un certo tipo di cache.|
 |Dimensione|Mostra solo i cache con una dimensione cache specifica.|
 |Terreno|Mostra solo i cache con un determinato intervallo di valutazioni del terreno.|

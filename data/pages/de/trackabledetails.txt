@@ -26,10 +26,10 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 </WRAP>
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
-|{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Logge Fund]]|Schreibe ein Log für diesen Trackable.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|Im Browser öffnen|Öffnet deinen Standard-Webbrwoser um die Trackable-Seite auf der Geocaching-Webseite anzuzeigen.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Aktualisieren|Aktualisiert alle Reiter des angezeigten Trackables online.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Logge Fund]]|Schreibe ein Log für diesen Trackable.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|Im Browser öffnen|Öffnet deinen Standard-Webbrwoser um die Trackable-Seite auf der Geocaching-Webseite anzuzeigen.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Aktualisieren|Aktualisiert alle Reiter des angezeigten Trackables online.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
 
 ===== Details =====
 {{anchor:details_tab:}}

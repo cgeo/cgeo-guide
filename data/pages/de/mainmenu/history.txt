@@ -1,6 +1,6 @@
 ====== Verlauf ======
 
-{{:ic_menu_recent_history.png?nolink&50 |}}
+{{:ic_menu_recent_history.svg?nolink&50 |}}
 
 Die Verlaufsliste sieht grundsätzlich genau wie eine normale [[lists|Cacheliste]] aus, aber sie ist auf Caches gefiltert, für die du kürzlich einen Online- oder Offline-Log geschrieben hast. Im Unterschied zu normalen Listen gespeicherter Caches kann sie auch Caches enthalten, die nicht mehr auf deinem Gerät gespeichert sind.
 

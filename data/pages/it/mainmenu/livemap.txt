@@ -23,12 +23,12 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, premere a lungo l'i
 |{{ :en:livemap_mapname.png?nolink&150 |}}|Info mappa|Mostra lo stato corrente della mappa: ''Mappa live'' se la mappa è on line, ''Mappa'' Map se l'aggiornamento live è disabilitato o il nome di un elenco mostrato sulla mappa.\\ Inoltre viene mostrata la quantità di cache visibili sulla mappa.|
 |{{ :settings_map.png?nolink&40 |}}|[[livemap#map_settings|Modi Mappa]]|Apre un menu contenente diverse opzioni per personalizzare la visualizzazione della mappa.|
 |{{ :en:livemap_progress.png?nolink&80 |}} |Barra di progressione|Una piccola linea blu direttamente sotto la barra del titolo viene mostrata come indicatore di avanzamento mentre la mappa live sta caricando i dati dai server di geocaching e/o dagli elenchi del cache. Scomparirà se la mappa live ha terminato il caricamento.|
-|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centra la posizione|Questo pulsante può essere utilizzato per centrare la mappa sulla posizione corrente. Se la mappa è centrata sulla tua posizione, viene visualizzata un'icona piena.|
-|{{ :ic_action_layers_revert.png?nolink&40 |}}|Selezione origine mappa|Utilizzare questo pulsante per scegliere l'[[..:mapsources|origine mappa]] da visualizzare.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Pulsante del menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Abilita/disabilita live|Questa funzione attiva/disattiva l'aggiornamento della mappa live.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Archiviare tutto|Salva tutti i cache mostrati sulla mappa nell'elenco dei cache memorizzati. I cache già archiviati verranno aggiornati durante questo processo.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Archiviare non salvati|Salva tutti i cache mostrate sulla mappa, tranne quelli già memorizzati nell'elenco dei cache memorizzati.|
+|{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centra la posizione|Questo pulsante può essere utilizzato per centrare la mappa sulla posizione corrente. Se la mappa è centrata sulla tua posizione, viene visualizzata un'icona piena.|
+|{{ :ic_action_layers.svg?nolink&40 |}}|Selezione origine mappa|Utilizzare questo pulsante per scegliere l'[[..:mapsources|origine mappa]] da visualizzare.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Pulsante del menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Abilita/disabilita live|Questa funzione attiva/disattiva l'aggiornamento della mappa live.|
+|{{ :ic_menu_save_all.svg?nolink&40 |}}|Archiviare tutto|Salva tutti i cache mostrati sulla mappa nell'elenco dei cache memorizzati. I cache già archiviati verranno aggiornati durante questo processo.|
+|{{ :ic_menu_save.svg?nolink&40 |}}|Archiviare non salvati|Salva tutti i cache mostrate sulla mappa, tranne quelli già memorizzati nell'elenco dei cache memorizzati.|
 | | Rotazione mappa |Apre un menu per impostare la rotazione della mappa in modalità automatica o manuale.\\ \\ :!: Questa funzione è attualmente disponibile solo per Google Maps.|
 | | Traccia cronologia |Apre un sottomenu contenente un'opzione per mostrare/nascondere, cancellare ed esportare la traccia cronologica (la cronologia dei propri movimenti).|
 | | Traccia/percorso GPX |Consente di caricare/scaricare e mostrare il contenuto di un file di traccia/percorso GPX sulla mappa.|
@@ -71,9 +71,9 @@ Questa sezione del popup della mappa fornisce diverse opzioni di menu relative a
 
 ^ Icona/Opzione ^ Descrizione ^
 |{{ :en:livemap_popup_3.png?nolink&150 |}}|Mostra l'[[..:cacheicons|icona del tipo di cache]] e il titolo del cache selezionato.|
-|{{ :actionbar_compass_light.png?nolink&40 |}}|Un breve clic su questa icona avvierà lo strumento [[settings#navigation|navigazione predefinito]] per navigare nella cache selezionata.\\ Una lunga pressione avvierà il tuo strumento di [[settings#navigation|navigazione secondario]].|
-|{{ :ic_menu_publish_invert.png?nolink&40 |}}|Questa opzione attiva/disattiva la linea di direzione/instradamento tra la propria posizione e il cache selezionato.\\ :!: Questa opzione è attualmente disponibile solo sulla mappa in linea OSM e sulle mappe offline.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Questa opzione apre un elenco di opzioni aggiuntive descritte anche in questa tabella.|
+|{{ :ic_menu_compass.svg?nolink&40 |}}|Un breve clic su questa icona avvierà lo strumento [[settings#navigation|navigazione predefinito]] per navigare nella cache selezionata.\\ Una lunga pressione avvierà il tuo strumento di [[settings#navigation|navigazione secondario]].|
+|{{ :ic_menu_near_me.svg?nolink&40 |}}|Questa opzione attiva/disattiva la linea di direzione/instradamento tra la propria posizione e il cache selezionato.\\ :!: Questa opzione è attualmente disponibile solo sulla mappa in linea OSM e sulle mappe offline.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Questa opzione apre un elenco di opzioni aggiuntive descritte anche in questa tabella.|
 |Bussola|Mostra lo strumento bussola che punta al cache.|
 |Naviga|Questo apre l'elenco di tutti gli [[settings#navigation|strumenti di navigazione]] disponibili per avviarne uno per raggiungere questo cache.|
 |Scrivi Log|Apre la [[..:logging|Finestra di log]] per registrare il ritrovamento del cache selezionato.|
@@ -101,7 +101,7 @@ Alcune delle informazioni potrebbero non essere visualizzate a seconda dello sta
 |Voto|Valutazione della qualità di questa cache da [[http://gcvote.com|GCVote]], se questo servizio è abilitato nelle impostazioni di c:geo, indicato come valore numerico e grafico. \\ Il valore mostrato tra parentesi è il numero di voti dati per questo cache.|
 |Popolarità|La quantità di punti preferiti (geocaching.com) o consigliato (piattaforme di opencache) assegnati al cache selezionato.|
 |Altri dettagli|Questo pulsante ti porterà alla [[..:cachedetails|pagina dei dettagli del cache]] selezionat fornendo tutte le informazioni ad esso relative.|
-|{{:ic_menu_hint.png?40|}}|Questo pulsante è disponibile solo se è stato inserito un suggerimento da parte del proprietario del cache o è stata memorizzata una nota personale. Facendo clic sul pulsante verrà visualizzato il suggerimento e/o la nota personale nella [[#hint_section|parte inferiore]] della finestra popup.|
+|{{:ic_menu_hint.svg?nolink&40|}}|Questo pulsante è disponibile solo se è stato inserito un suggerimento da parte del proprietario del cache o è stata memorizzata una nota personale. Facendo clic sul pulsante verrà visualizzato il suggerimento e/o la nota personale nella [[#hint_section|parte inferiore]] della finestra popup.|
 
 ==== Gestione delle liste ====
 {{anchor:list_management:}}
@@ -112,11 +112,11 @@ Questa sezione del popup della mappa fornisce diverse opzioni per gestire lo sta
 
 ^ Icona/Opzione ^ Descrizione ^
 |{{ :it:livemap_popup_6.png?nolink&200 |}}|Questo campo indica se il cache selezionato è archiviato nelle [[lists|liste]] di cache e da quanto tempo (ovvero fornisce un'indicazione di quanto sono aggiornati i dettagli visualizzati).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Facendo clic su questo pulsante verranno aggiornate le informazioni del cache aggiornandole dal server di geocaching.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Facendo clic su questo pulsante verranno aggiornate le informazioni del cache aggiornandole dal server di geocaching.|
 |{{ :it:livemap_popup_7.png?nolink&200 |}}|Nel caso in cui il cache selezionato sia già archiviato nelle [[lists|liste]] di cache, questo campo mostra in quali è presente.|
-|{{ :ic_menu_save.png?nolink&40 |}} |Questo pulsante viene visualizzato solo se il cache selezionato non è ancora stato memorizzato nelle [[lists|liste]] di cache e lo memorizzerà.\\ Una pressione lunga su questa icona memorizzerà il cache nell'ultima lista utilizzata, invece di proporre l'elenco di tutte.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|Se il cache selezionato è già archiviato nelle [[lists|liste]] di cache, viene visualizzata questa icona che consente di modificare l'elenco o aggiungere il cache a un altro elenco.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Se il cache selezionato è già archiviato nelle [[lists|liste]] di cache, viene visualizzata questa icona che consente di eleiminare il cache da tutte le liste.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |Questo pulsante viene visualizzato solo se il cache selezionato non è ancora stato memorizzato nelle [[lists|liste]] di cache e lo memorizzerà.\\ Una pressione lunga su questa icona memorizzerà il cache nell'ultima lista utilizzata, invece di proporre l'elenco di tutte.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Se il cache selezionato è già archiviato nelle [[lists|liste]] di cache, viene visualizzata questa icona che consente di modificare l'elenco o aggiungere il cache a un altro elenco.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Se il cache selezionato è già archiviato nelle [[lists|liste]] di cache, viene visualizzata questa icona che consente di eleiminare il cache da tutte le liste.|
 
 ==== Sezione suggerimento/Nota ====
 {{anchor:hint_section:}}
@@ -171,7 +171,7 @@ L'esempio seguente mostra l'aspetto tipico della linea di direzione (con e senza
 |{{en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 Esistono due modi per attivare la linea di direzione:
-  - Fare clic su un cache, che viene mostrato sulla mappa, e attivare la linea di direzione con l'icona corrispondente {{:ic_menu_publish_invert.png?Nolink&30|}} mostrata nel [[livemap # map_popup_window |map popup]].
+  - Fare clic su un cache, che viene mostrato sulla mappa, e attivare la linea di direzione con l'icona corrispondente {{:ic_menu_near_me.svg?Nolink&30|}} mostrata nel [[livemap # map_popup_window |map popup]].
   - Da [[..:cachedetails| menu dettagli cache]] utilizzare Navigazione - Mappa per aprire la mappa inclusa la linea di direzione.
 ==== GPX track/route ====
 

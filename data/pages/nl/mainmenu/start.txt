@@ -29,15 +29,15 @@ Het aantal pictogrammen dat je in de bovenste balk ziet, wordt dynamisch bepaald
 {{ :nl:main_topbarmenu.png?direct&400 |}}
 
 ^ Icon ^ Function ^ Description ^
-|{{ :abc_ic_search_api_holo_light.png?nolink&40 |}}|[[quicksearch|Snel zoeken]]|Als je offline bent, doorzoek je je opgeslagen geocaches met behulp van titel, geocode, beschrijving, eigenaar, logboekinhoud, enzovoort. \\ Als je netwerktoegang hebt, zoek je in zowel opgeslagen als online inhoud. Je kunt een geocode, een traceerbare code, een gebruikersnaam en nog veel meer invoeren.|
-|{{ :ic_menu_recent_history.png?nolink&40 |}} |[[history|Geschiedenis]]|Bekijk een lijst met geocaches die je recent hebt geregistreerd met c:geo. \\ Opmerking: de lijst is lokaal in c:geo en is niet gesynchroniseerd met de recent weergegeven cachelijst op de geocaching-website.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloopmenu button| Open de overlooplijst met functies van de bovenste balk die, op basis van uw schermgrootte, niet als pictogrammen worden weergegeven. De functies omvatten de functies die worden beschreven in deze tabel|
-|{{ :ic_menu_pocket_query_reverted.png?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open een lijst van je pocket queries op geocaching.com. Dit item is niet beschikbaar voor geocaching.com [[..:basicmembers|basic members]].|
-|{{ :ic_menu_preferences.png?nolink&40 |}}|[[settings|Instellingen]]|Open het c:geo configuratie menu.|
-|{{ :ic_menu_save.png?nolink&40 |}}|[[settings#backup|Backup]]|Start de back-up functie van de instellingen, die ook te vinden is in de [[settings|c:geo instellingen]].|
-|{{ :ic_menu_shopping.png?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Open een lijst met links naar aanvullende geocaching-gerelateerde apps, die handig kunnen zijn in combinatie met c:geo.|
-|{{ :ic_menu_barcode.png?nolink&40 |}}|[[utilityprograms|Scan geocode]]|Als er een [[utilityprograms|barcode scanner]] app is geïnstalleerd op je apparaat kun je deze hier lanceren en barcodes scannen dat geocodes bevat.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk de c:geo versie informatie, bijdragers, contact links en andere wetenswaardigheden over c:geo.|
+|{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Snel zoeken]]|Als je offline bent, doorzoek je je opgeslagen geocaches met behulp van titel, geocode, beschrijving, eigenaar, logboekinhoud, enzovoort. \\ Als je netwerktoegang hebt, zoek je in zowel opgeslagen als online inhoud. Je kunt een geocode, een traceerbare code, een gebruikersnaam en nog veel meer invoeren.|
+|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Geschiedenis]]|Bekijk een lijst met geocaches die je recent hebt geregistreerd met c:geo. \\ Opmerking: de lijst is lokaal in c:geo en is niet gesynchroniseerd met de recent weergegeven cachelijst op de geocaching-website.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Overloopmenu button| Open de overlooplijst met functies van de bovenste balk die, op basis van uw schermgrootte, niet als pictogrammen worden weergegeven. De functies omvatten de functies die worden beschreven in deze tabel|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open een lijst van je pocket queries op geocaching.com. Dit item is niet beschikbaar voor geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Instellingen]]|Open het c:geo configuratie menu.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Backup]]|Start de back-up functie van de instellingen, die ook te vinden is in de [[settings|c:geo instellingen]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Open een lijst met links naar aanvullende geocaching-gerelateerde apps, die handig kunnen zijn in combinatie met c:geo.|
+|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Scan geocode]]|Als er een [[utilityprograms|barcode scanner]] app is geïnstalleerd op je apparaat kun je deze hier lanceren en barcodes scannen dat geocodes bevat.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk de c:geo versie informatie, bijdragers, contact links en andere wetenswaardigheden over c:geo.|
 | |Rapporteer probleem|Je kunt deze functie gebruiken om een probleem te melden aan de c:geo support per mail.\\ :!: Omschrijf zo gedetailleerd mogelijk je probleem!|
 
 ===== Onderste Sectie =====

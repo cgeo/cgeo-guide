@@ -47,3 +47,6 @@
 1627401865	85.76.113.117	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		2
 1627735995	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		145
 1627736013	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		-1
+1630357760	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:livemap	murggel	[LiveMap] use svg		-66
+1630528834	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:livemap	murggel	[LiveMap] use svg		3
+1630598348	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:mainmenu:livemap	vike91	small change to remove the changed flag		-1

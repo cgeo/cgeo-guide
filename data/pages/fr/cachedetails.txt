@@ -27,11 +27,11 @@ Si une entrée de menu est affichée sous forme d'icône, vous pouvez appuyer lo
 </WRAP>
 
 ^ Icône ^ Fonction ^ Description ^
-|{{:ic_menu_compass.png?nolink&40 |}}|Navigation préférée|Un appui court sur cette icône lance votre outils de [[.mainmenu:settings#navigation|navigation préférée]] pour vous diriger jusqu'à la cache sélectionnée.\\ Un appui long lance votre outils de [[.mainmenu:settings#navigation|navigation secondaire]].|
-|{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigation]]|Ouvre la liste complète des outils de navigation.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Bouton de débordement|Ouvre une liste des fonctionnalités de la barre supérieure qui n'apparaissent pas en tant qu'icônes à cause de la taille de votre écran. Ces fonctionnalités sont celle présentes dans ce tableau.|
-|{{:ic_menu_edit.png?nolink&40 |}}|Signaler votre visite|Ouvre la [[logging|fenêtre de signalement de votre visite]] pour la cache sélectionnée.|
-|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Basculer la synthèse vocale|Démarre ou arrête la synthèse vocale pour la direction et la distance vers la cible.\\ Vous pouvez éteindre l'écran une fois cette fonction lancée.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Navigation préférée|Un appui court sur cette icône lance votre outils de [[.mainmenu:settings#navigation|navigation préférée]] pour vous diriger jusqu'à la cache sélectionnée.\\ Un appui long lance votre outils de [[.mainmenu:settings#navigation|navigation secondaire]].|
+|{{:ic_menu_goto.svg?nolink&40 |}}|[[navigation|Navigation]]|Ouvre la liste complète des outils de navigation.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Bouton de débordement|Ouvre une liste des fonctionnalités de la barre supérieure qui n'apparaissent pas en tant qu'icônes à cause de la taille de votre écran. Ces fonctionnalités sont celle présentes dans ce tableau.|
+|{{:ic_menu_edit.svg?nolink&40 |}}|Signaler votre visite|Ouvre la [[logging|fenêtre de signalement de votre visite]] pour la cache sélectionnée.|
+|{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Basculer la synthèse vocale|Démarre ou arrête la synthèse vocale pour la direction et la distance vers la cible.\\ Vous pouvez éteindre l'écran une fois cette fonction lancée.|
 |Navigateur||Ouvre la cache soit dans votre navigateur internet préféré, soit (si cette option est activée dans les [[.:mainmenu:settings#cache-details|paramètres des détails de la cache]]) en utilisant une vue Web de chrome à l'intérieur de c:geo.|
 |Ouvrir le geovérificateur||Ouvre le geovérificateur de cette cache dans votre navigateur web.\\ \\ :!: Cette option n'est disponible que si la description de la cache contient un lien vers un geovérificateur connu.|
 |Note personnelle||Ouvre directement l'éditeur de la note personnelle qui se trouve également dans l'[[cachedetails#description_tab|onglet description]].|
@@ -117,11 +117,11 @@ This section of the cache details provides several options to manage the storage
 
 ^ Icon/Option ^ Description ^
 |{{ :en:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[.mainmenu:lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Tapping this button will refresh the cache information by updating it from the geocaching server.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Tapping this button will refresh the cache information by updating it from the geocaching server.|
 |{{ :en:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[.mainmenu:lists|cache lists]] this field shows you the list(s) it is stored in. You can tap on the list name to open the list.|
-|{{ :ic_menu_save.png?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[.mainmenu:lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|If the selected cache is already stored in your [[.mainmenu:lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|If the selected cache is already stored in your [[.mainmenu:lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[.mainmenu:lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|If the selected cache is already stored in your [[.mainmenu:lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|If the selected cache is already stored in your [[.mainmenu:lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
 
 ==== Watchlist ====
 {{anchor:watchlist:}}
@@ -132,7 +132,7 @@ This section allows you to add/remove the cache from your personal watchlist.
 
 The watchlist is a function of the geocaching provider. Having a cache on your watchlist will make you receive a mail notification if a new logbook entry is added for this cache.
 
-The {{:ic_menu_add.png?nolink&30|}} or {{:ic_menu_remove.png?nolink&30|}} button will add/remove the cache to/from your watchlist.
+The {{:ic_menu_add.svg?nolink&30|}} or {{:ic_menu_remove.svg?nolink&30|}} button will add/remove the cache to/from your watchlist.
 The ''Watchers:'' value shows you how many people have this cache on their watchlist.
 
 ==== Favorite ====
@@ -142,7 +142,7 @@ The ''Watchers:'' value shows you how many people have this cache on their watch
 
 This section shows, whether you awarded a favorite point to this cache.
 
-The {{:ic_menu_add.png?nolink&30|}} or {{:ic_menu_remove.png?nolink&30|}} buttons are only shown if you found this cache and will add/remove the cache to/from your favorites.
+The {{:ic_menu_add.svg?nolink&30|}} or {{:ic_menu_remove.svg?nolink&30|}} buttons are only shown if you found this cache and will add/remove the cache to/from your favorites.
 
 ===== Waypoint tab =====
 {{anchor:waypoint_tab:}}
@@ -158,7 +158,7 @@ The waypoint information is structured like this:
 |Type and Reference|[[cachedetails#waypoint_types|Waypoint type]] and reference code (as provided by server) or ''Custom'' if the waypoint has been created by the user.|
 |Coordinates|The coordinates of the waypoint. The field might also be empty if either the owner did not provide coordinates for the waypoint or you created a waypoint without coordinates (or using the [[coordinatedialog#waypoint_calculator|waypoint calculator]] not yet providing valid coordinates).\\ \\ :!: You can tap on the coordinates to get them shown in other supported formats.|
 |Description|Contains the description for this waypoint.|
-|{{:actionbar_compass_light.png?nolink&40 |}}|This icon is shown at the right side of each waypoint if it has coordinates. A short tap will start your [[.mainmenu:settings#navigation|default navigation]], a long tap will start the [[.mainmenu:settings#navigation|secondary preffered navigation]] towards these coordinates.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|This icon is shown at the right side of each waypoint if it has coordinates. A short tap will start your [[.mainmenu:settings#navigation|default navigation]], a long tap will start the [[.mainmenu:settings#navigation|secondary preffered navigation]] towards these coordinates.|
 
 A short tap on the waypoint itself will the [[cachedetails#waypoint_editor|waypoint editor]]. A long tap on the waypoint will show a [[cachedetails#waypoint_context_menu|context menu]] providing more options for the waypoint.
 
@@ -241,10 +241,10 @@ This section contains your personal cache note. Notes you have entered on the ge
 
 
 ^ Icon ^ Name ^ Description ^
-|{{:ic_menu_waypoint_sync.png?nolink&40|}}|Copy waypoints|Will copy all self defined waypoints of this cache into the personal note. With this feature you can backup the waypoints you created for this cache into the personal note. As c:geo recognizes the used syntax such stored waypoints will be automatically recreated from the personal note.|
-|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Delete waypoints|This will delete the copied waypoints from the personal note.|
-|{{:ic_menu_upload.png?nolink&40|}}|Upload to server|Upload the local personal note to the geocaching server.\\ :!: On geocaching.com this is a premium member feature.|
-|{{:ic_menu_edit.png?nolink&40|}}|Edit personal note|This will open the editor window, where you can edit your personal note.|
+|{{:ic_menu_waypoint_sync.svg?nolink&40|}}|Copy waypoints|Will copy all self defined waypoints of this cache into the personal note. With this feature you can backup the waypoints you created for this cache into the personal note. As c:geo recognizes the used syntax such stored waypoints will be automatically recreated from the personal note.|
+|{{:ic_menu_waypoint_delete.svg?nolink&40|}}|Delete waypoints|This will delete the copied waypoints from the personal note.|
+|{{:ic_menu_upload.svg?nolink&40|}}|Upload to server|Upload the local personal note to the geocaching server.\\ :!: On geocaching.com this is a premium member feature.|
+|{{:ic_menu_edit.svg?nolink&40|}}|Edit personal note|This will open the editor window, where you can edit your personal note.|
 
 {{:en:description_personalnote_2.png?direct&400 |}}
 

@@ -1,6 +1,6 @@
 ====== c:geo Settings ======
 
-{{:ic_menu_preferences.png?nolink&50 |}}
+{{:ic_menu_preferences.svg?nolink&50 |}}
 
 The following pages describe the functions of the setting menu in c:geo.\\ \\ \\
 

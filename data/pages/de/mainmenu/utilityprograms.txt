@@ -1,6 +1,6 @@
 ====== Nützliche Apps ======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 Diese Funktion öffnet eine Ansicht, die Apps anzeigt, die entweder mit c:geo zusammenarbeiten oder zur Erweiterungen einiger Funktionen von c:geo genutzt werden können. Du kannst auf jedes Tool tippen um dessen Webseite mit mehr Informationen und/oder Downloadmöglichkeit zu öffnen.
 

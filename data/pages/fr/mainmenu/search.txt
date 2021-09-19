@@ -12,7 +12,7 @@ Toutes les fonctions de recherche utiliseront simultanément toutes les plates-f
 </WRAP>
 
 ^Type de recherche ^ Description ^
-|{{ :ic_menu_myplaces.png?nolink&30 |}}|Charge une liste des caches que vous avez placées.|
+|{{ :ic_menu_myplaces.svg?nolink&30 |}}|Charge une liste des caches que vous avez placées.|
 |Coordonées|Recherche des caches autour des coordonnées fournies. Reportez-vous à la [[..:coordinatedialog|boîte de dialogue]] des Coordonnées pour plus d'informations.|
 |Adresse|Recherche des caches autour d'une adresse postale. Nous utilisons le service de géocodage de Google pour trouver l'adresse et la convertir en coordonnées.\\ Si l'adresse a été trouvée, vous pouvez soit charger une liste des caches à proximité de cet emplacement, soit ouvrir la [[livemap|carte temps réel]] à cette adresse en cliquant sur la petite icône de carte affichée dans le résultat de la recherche.|
 |Code de la cache|Recherche un géocode spécifique dans toutes les plates-formes prises en charge en fonction du préfixe du code (par exemple, GC6JNOT ou OC1234).|

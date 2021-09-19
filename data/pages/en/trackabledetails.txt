@@ -27,10 +27,10 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 </WRAP>
 
 ^ Icon ^ Function ^ Description ^
-|{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Log touch]]|Compose a log for this trackable.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|Open in Browser|Opens your default browser to show the trackable page on the geocaching website.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Refresh|Updates all tabs of the trackable details from the server.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Menu overflow button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. On most devices this icon will not be shown as all menu functions fit into the menu bar.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Log touch]]|Compose a log for this trackable.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|Open in Browser|Opens your default browser to show the trackable page on the geocaching website.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Refresh|Updates all tabs of the trackable details from the server.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Menu overflow button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. On most devices this icon will not be shown as all menu functions fit into the menu bar.|
 
 ===== Details Tab =====
 {{anchor:details_tab:}}

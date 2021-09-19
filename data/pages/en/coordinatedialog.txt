@@ -4,7 +4,7 @@
 
 The coordinate input dialog is opened if you tap on the coordinate field while editing a [[cachedetails#waypoint_tab|waypoint]] or for entering coordinates in the [[.mainmenu:search|search]] or [[.mainmenu:goto|Go to]] menus.
 
-The {{:abc_ic_clear_normal.png?nolink&40|}} button will close the dialog without changes, the {{:abc_ic_cab_done_holo_light.png?nolink&40|}} will close the dialog and save the changes.
+The {{:ic_menu_cancel.svg?nolink&30|}} button will close the dialog without changes, the {{:ic_menu_done.svg?nolink&30|}} will close the dialog and save the changes.
 
 <WRAP center round tip 60%>
 Be sure to save the changes especially when using the waypoint calculator as no valid coordinates might be shown, but you still want to save the recent changes you made in the calculator.
@@ -49,7 +49,7 @@ c:geo offers a calculator for waypoints, which allows to make use of variables a
 
 Once you tapped on ''Calculate Coordinates'' in the [[coordinatedialog#waypoint_sources|coordinate input dialog]] this screen will be shown.
 
-The {{:abc_ic_clear_normal.png?nolink&40|}} button will close the dialog without changes, the {{:abc_ic_cab_done_holo_light.png?nolink&40|}} will close the dialog, save the changes and return to the waypoint editor.
+The {{:ic_menu_cancel.svg?nolink&30|}} button will close the dialog without changes, the {{:ic_menu_done.svg?nolink&30|}} will close the dialog, save the changes and return to the waypoint editor.
 
 <WRAP center round tip 60%>
 You can use the calculator also for preparing your field trip by entering the needed variables and formulas but not yet entering values for your variables.\\

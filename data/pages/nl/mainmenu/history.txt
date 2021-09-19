@@ -1,6 +1,6 @@
 ====== Geschiedenis ======
 
-{{:ic_menu_recent_history.png?nolink&50 |}}
+{{:ic_menu_recent_history.svg?nolink&50 |}}
 
 
 De geschiedenis lijst lijkt voornamelijk op een normale [[lists|lijst]] maar is gefilterd op caches, die je recentelijk hebt bewerkt in een online of oflline log. In tegenstelling tot normale of opgeslagen lijsten kan deze lijst caches bevatten, die niet meer opgeslagen zijn op je apparaat.

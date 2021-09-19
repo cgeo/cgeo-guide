@@ -26,11 +26,11 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
-|{{:ic_menu_compass.png?nolink&40 |}}|Bevorzugte Navigation|Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] um zum ausgewählten Cache zu navigieren.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
-|{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigation]]|Dies öffnet eine Liste aller verfügbaren [[.mainmenu:settings#navigation|Navigationstools]].|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
-|{{:ic_menu_edit.png?nolink&40 |}}|Besuch loggen|Dies öffnet die [[logging|Log-Seite]] um den Cache zu loggen.|
-|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Sprachausgabe ein-/ausschalten|Startet oder stoppt die Text-nach-Sprache Ausgabe der Richtung und Entfernung zum Ziel.\\ Du kannst die Anzeige deines Telefons ausschalten, sobald die Sprachausgabe gestartet wurde.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Bevorzugte Navigation|Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] um zum ausgewählten Cache zu navigieren.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
+|{{:ic_menu_goto.svg?nolink&40 |}}|[[navigation|Navigation]]|Dies öffnet eine Liste aller verfügbaren [[.mainmenu:settings#navigation|Navigationstools]].|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{:ic_menu_edit.svg?nolink&40 |}}|Besuch loggen|Dies öffnet die [[logging|Log-Seite]] um den Cache zu loggen.|
+|{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Sprachausgabe ein-/ausschalten|Startet oder stoppt die Text-nach-Sprache Ausgabe der Richtung und Entfernung zum Ziel.\\ Du kannst die Anzeige deines Telefons ausschalten, sobald die Sprachausgabe gestartet wurde.|
 |Im Browser öffnen||Öffnet den Cache in deinem präferierten Internetbrowser oder nutzt (wenn aktiviert in den [[.:mainmenu:settings#cache-details|Einstellungen für Cache-Details]]) in einer Chrome-Webanzeige intern in c:geo.|
 |Öffne Geochecker||Dies öffnet den Geochecker dieses Caches in deinem Webbrowser.\\ \\ :!: Dieser Menüeintrag ist nur verfügbar, wenn die Beschreibung dieses Caches einen Link zu einem (bekannten) Geochecker enthält.|
 |Persönliche Notiz||Diese Funktion öffnet den Editor für die persönliche Notiz, die du auch im [[cachedetails#description_tab|Beschreibungs-Reiter]] findest.| 
@@ -117,11 +117,11 @@ Dieser Bereich des Reiters Details enthält verschiedene Optionen um den Speiche
 
 ^ Symbol/Option ^ Beschreibung ^
 |{{ :en:livemap_popup_6.png?nolink&200 |}}|Dieses Feld gibt darüber Auskunft, ob dieser Cache in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist und seit wann er gespeichert ist (d.h. es gibt dir eine Information wie aktuell die angezeigten Informationen sind).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Ein Klick auf diese Schaltfläche aktualisiert den Cache durch Abruf der Daten vom Geocaching-Server.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Ein Klick auf diese Schaltfläche aktualisiert den Cache durch Abruf der Daten vom Geocaching-Server.|
 |{{ :en:livemap_popup_7.png?nolink&200 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, zeigt dieses Feld die entsprechende(n) Liste(n) an. Durch Klick auf den Namen der Liste öffnet sich die Liste.|
-|{{ :ic_menu_save.png?nolink&40 |}} |Diese Schaltfläche wird nur angezeigt, wenn der Cache bislang nicht in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist und speichert ihn.\\ Ein langer Klick auf diese Schaltfläche speichert den Cache in der zuletzt gewählten Liste, statt nach der Liste zu fragen.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir die Liste zu ändern oder den Cache zu einer weiteren Liste hinzuzufügen.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir den Cache von deinen Listen zu löschen.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |Diese Schaltfläche wird nur angezeigt, wenn der Cache bislang nicht in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist und speichert ihn.\\ Ein langer Klick auf diese Schaltfläche speichert den Cache in der zuletzt gewählten Liste, statt nach der Liste zu fragen.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir die Liste zu ändern oder den Cache zu einer weiteren Liste hinzuzufügen.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir den Cache von deinen Listen zu löschen.|
 
 ==== Watchlist ====
 {{anchor:watchlist:}}
@@ -132,7 +132,7 @@ Dieser Bereich erlaubt es dir den Cache auf deine persönlichen Watchlist zu set
 
 Die Watchlist ist eine Funktion des Geocaching-Anbieters. Wenn du einen Cache auf deiner Watchlist hast, erhälst du eine Mail-Benachrichtigung wenn ein neuer Logbucheintrag für diesen Cache gemacht wird.
 
-Mit der {{:ic_menu_add.png?nolink&30|}} oder {{:ic_menu_remove.png?nolink&30|}} Schaltfläche kannst du den Cache zur Watchlist hinzufügen / davon entfernen.
+Mit der {{:ic_menu_add.svg?nolink&30|}} oder {{:ic_menu_remove.svg?nolink&30|}} Schaltfläche kannst du den Cache zur Watchlist hinzufügen / davon entfernen.
 Der Wert ''Beobachter:'' zeigt dir, wie viele Personen diesen Cache auf ihrer Watchlist haben.
 
 ==== Favorit ====
@@ -142,7 +142,7 @@ Der Wert ''Beobachter:'' zeigt dir, wie viele Personen diesen Cache auf ihrer Wa
 
 Dieser Bereich zeigt an, ob du einen Favoritenpunkt für diesen Cache vergeben hast.
 
-Die {{:ic_menu_add.png?nolink&30|}} oder {{:ic_menu_remove.png?nolink&30|}} Schaltflächen werden nur angezeigt, wenn du den Cache gefunden hast und erlauben dir ihn als Favorit hinzuzufügen / zu entfernen.
+Die {{:ic_menu_add.svg?nolink&30|}} oder {{:ic_menu_remove.svg?nolink&30|}} Schaltflächen werden nur angezeigt, wenn du den Cache gefunden hast und erlauben dir ihn als Favorit hinzuzufügen / zu entfernen.
 
 ===== Wegpunkte =====
 {{anchor:waypoint_tab:}}
@@ -158,7 +158,7 @@ Die Wegpunkt-Informationen sind wie folgt strukturiert:
 |Typ und Referenz|[[cachedetails#waypoint_types|Wegpunkt-Typ]] und Referenzcode (vom Server vergeben) oder ''Benutzerdefiniert'' wenn der Wegpunkt vom Nutzer erstellt wurde.|
 |Koordinaten|Die Koordinaten des Wegpunktes. Dieses Feld könnte auch leer sein, wenn der Besitzer keine Koordinaten für diesen Wegpunkt angegeben hat oder du Wegpunkt ohne Koordinaten erstellt hast (oder der [[coordinatedialog#waypoint_calculator|Wegpunkt-Rechner]] genutzt wird, aber noch keine gültigen Koordinaten zurückgibt).\\ \\ :!: Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
 |Beschreibung|Enthält die Beschreibung für diesen Wegpunkt.|
-|{{:actionbar_compass_light.png?nolink&40 |}}|Dieses Symbol wird auf der rechten Seite jedes Wegpunktes angezeigt, der Koordinaten hat.Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] zu diesen Koordinaten.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Dieses Symbol wird auf der rechten Seite jedes Wegpunktes angezeigt, der Koordinaten hat.Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] zu diesen Koordinaten.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
 
 Ein kurzer Klick auf den Wegpunkt selbst öffnet den [[cachedetails#waypoint_editor|Wegpunkteditor]]. Ein langer Klick auf den Wegpunkt zeigt ein [[cachedetails#waypoint_context_menu|Kontextmenü]] mit mehr Optionen für diesen Wegpunkt.
 
@@ -240,10 +240,10 @@ Wenn der Besitzer ein Spoiler-Bild hochgeladen hat, findest du einen anklickbare
 Dieser Bereich enthält deine persönliche Cachenotiz. Notizen, die du auf dem Geoaching-Server hinzugefügt hast (für geocaching.com erfordert dies eine [[basicmembers|Premium-Mitgliedschaft]]) erscheinen hier. Die Schaltflächen unterhalb der Notiz erlauben dir verschiedene Aktionen, die in der folgenden Tabelle erklärt werden:
 
 ^ Symbol ^ Name ^ Beschreibung ^
-|{{:ic_menu_waypoint_sync.png?nolink&40|}}|Kopiere Wegpunkte|Kopiert alle selbstdefinierten Wegpunkte dieses Caches in die persönliche Notiz. Da c:geo die verwendete Syntax erkennt, werden so gespeicherte Wegpunkt bei Bedarf automatisch aus der persönlichen Notiz neu erstellt.|
-|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Wegpunkte löschen|Dies löscht die kopierten Wegpunkte aus der persönlichen Notiz.|
-|{{:ic_menu_upload.png?nolink&40|}}|Hochladen|Lädt die lokale persönliche Notiz auf den Geocaching Server hoch.\\ :!: Auf geocaching.com ist dies eine Funktion für Premium-Mitglieder.|
-|{{:ic_menu_edit.png?nolink&40|}}|Notiz bearbeiten|Dies öffnet ein Editor-Fenster zur Bearbeitung deiner persönlichen Notiz.|
+|{{:ic_menu_waypoint_sync.svg?nolink&40|}}|Kopiere Wegpunkte|Kopiert alle selbstdefinierten Wegpunkte dieses Caches in die persönliche Notiz. Da c:geo die verwendete Syntax erkennt, werden so gespeicherte Wegpunkt bei Bedarf automatisch aus der persönlichen Notiz neu erstellt.|
+|{{:ic_menu_waypoint_delete.svg?nolink&40|}}|Wegpunkte löschen|Dies löscht die kopierten Wegpunkte aus der persönlichen Notiz.|
+|{{:ic_menu_upload.svg?nolink&40|}}|Hochladen|Lädt die lokale persönliche Notiz auf den Geocaching Server hoch.\\ :!: Auf geocaching.com ist dies eine Funktion für Premium-Mitglieder.|
+|{{:ic_menu_edit.svg?nolink&40|}}|Notiz bearbeiten|Dies öffnet ein Editor-Fenster zur Bearbeitung deiner persönlichen Notiz.|
 
 {{:en:description_personalnote_2.png?direct&400 |}}
 

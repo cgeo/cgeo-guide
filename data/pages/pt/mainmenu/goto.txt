@@ -19,9 +19,9 @@ No caso de uma função no menu ser apresentada como ícone, poderá premir dura
 
 
 ^ Ícone ^ Descrição ^
-|{{:ic_menu_compass.png?nolink&40 |}}| Pressionando este ícone vai iniciar a sua [[.settings#navigation|ferramenta de navegação preferida]] para navegar até à coordenada selecionada.\\ Pressionando durante uns segundos vai iniciar a sua [[.settings#navigation|ferramenta de navegação secundária]].|
-|{{:ic_menu_goto.png?nolink&40 |}}|Abre a lista das [[..navigation|ferramentas de navegação]] disponíveis.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}| Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|{{:ic_menu_compass.svg?nolink&40 |}}| Pressionando este ícone vai iniciar a sua [[.settings#navigation|ferramenta de navegação preferida]] para navegar até à coordenada selecionada.\\ Pressionando durante uns segundos vai iniciar a sua [[.settings#navigation|ferramenta de navegação secundária]].|
+|{{:ic_menu_goto.svg?nolink&40 |}}|Abre a lista das [[..navigation|ferramentas de navegação]] disponíveis.|
+|{{:three_dot_vertical.svg?nolink&40 |}}| Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
 |Caches próximas| Vai pesquisar as [[.lists#cache_list|caches próximas]] às coordenadas selecionandas.| 
 |Limpar histórico| Limpa o histórico apresentado na parte inferior do ecrã.|
 

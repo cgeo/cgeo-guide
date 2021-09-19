@@ -1,6 +1,6 @@
 ======= Over c:geo ======
 
-{{:ic_menu_info_details.png?nolink&50 |}}
+{{:ic_menu_info_details.svg?nolink&50 |}}
 
 Deze pagina toont je informatie over c: geo. De pagina is georganiseerd in zes verschillende tabbladen, die je kunt openen door van links naar rechts te vegen of omgekeerd:
 

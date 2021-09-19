@@ -36,7 +36,7 @@ Encore une fois :\\
 Vous devriez vous familiariser avec les différents types, les notes de terrain, les attributs, etc, avant de commencer à chercher une cache !
 </WRAP>
 
-Une fois la cache choisie et que vous êtes prêt à vous lancer, appuyez sur l'icône ''Naviguer'' {{:ic_menu_goto.png?nolink|}} dans la bar de titre de la page de la cache. Vous avez [[.navigation|plusieurs options]] suivant vos besoins. Voici une description des méthodes de navigation les plus courantes :
+Une fois la cache choisie et que vous êtes prêt à vous lancer, appuyez sur l'icône ''Naviguer'' {{:ic_menu_goto.svg?nolink|}} dans la bar de titre de la page de la cache. Vous avez [[.navigation|plusieurs options]] suivant vos besoins. Voici une description des méthodes de navigation les plus courantes :
 
   * **[[compass|Boussole]]**:\\ Vous affiche constamment la distance et la direction de la cache.
 {{ :fr:navigate_compass.png?direct&300 |}}

@@ -1,6 +1,6 @@
 ====== Utility programs ======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 This function will open a screen showing apps, which might either work in conjunction with c:geo or can be used to enhance some features in c:geo. You can tap on each tool to open a web page with more information and/or download possibility.
 

@@ -1,6 +1,6 @@
 ====== Apuohjelmat======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 Tämä toiminto avaa näytön, jossa on lista ohjelmista, joka toimii yhdessä c:geon kanssa, tai voidaan käyttää joidenkin c:geon toimintojen parantamiseen. Voit napauttaa haluamaasi työkalua avataksesi verkkosivun lisätiedoista ja/tai latausohjeista.
 

@@ -25,11 +25,11 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 </WRAP>
 
 ^ Icoon ^ Functie ^ Omschrijving ^
-|{{:ic_menu_compass.png?nolink&40 |}}|Navigatie|Een korte druk op dit icoon zal het [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.\\ Een lange druk zal het secundaire [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.|
-|{{:ic_menu_goto.png?nolink&40 |}}|[[navigation|Navigatie]]|Zal de complete lijst met beschikbare navigatie hulpmiddelen tonen.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
-|{{:ic_menu_edit.png?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
-|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Toespraak aan/uitzetten|Dit zal de tekst-naar-spraak output van richting en afstand naar het doel aan of uitzetten.\\ Je kunt ook het scherm uitzetten als deze functie is gestart.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Navigatie|Een korte druk op dit icoon zal het [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.\\ Een lange druk zal het secundaire [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.|
+|{{:ic_menu_goto.svg?nolink&40 |}}|[[navigation|Navigatie]]|Zal de complete lijst met beschikbare navigatie hulpmiddelen tonen.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{:ic_menu_edit.svg?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
+|{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Toespraak aan/uitzetten|Dit zal de tekst-naar-spraak output van richting en afstand naar het doel aan of uitzetten.\\ Je kunt ook het scherm uitzetten als deze functie is gestart.|
 |Open in Browser||Dit zal de cache of in je browser openen of ( indien geactiveerd) in de [[.:mainmenu:settings#cache-details|cache detail instellingen]]) door middel van een chrome webview binnen c:geo.|
 |Open Geochecker||Dit zal de geochecker van de cache openen in je internet browser.\\ \\ :!: Deze menu ingang is alleen beschikbaar als de cache omschrijving van de cache een link naar een (bekende) geochecker heeft.|
 |Persoonlijke notitie||Deze functie opent de editor voor de persoonlijke notitie, die ook te vinden is in de  [[cachedetails#description_tab|omschrijving tab]]|
@@ -116,11 +116,11 @@ Dit gedeelte van de cachegegevens biedt verschillende opties om de opslagstatus 
 
 ^ Icoon/Optie ^ Omschrijving ^
 |{{ :en:livemap_popup_6.png?nolink&200 |}}|Dit veld geeft informatie als de geselecteerde cache op je apparaat is opgeslagen in je [[.mainmenu:lists|cache lijsten]] en hoe lang geleden deze is opgeslagen (Dit geeft je een indicatie over hoe up to date de getoonde informatie is).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Door op deze knop te drukken zal de cache informatie worden ververst met de laatste informatie op de  geocaching server.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Door op deze knop te drukken zal de cache informatie worden ververst met de laatste informatie op de  geocaching server.|
 |{{ :en:livemap_popup_7.png?nolink&200 |}}|Indien de geselecteerde cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit veld je de lijst(en) tonen waar deze is opgeslagen.|
-|{{ :ic_menu_save.png?nolink&40 |}} |Deze knop wordt alleen getoond als de cache nog niet is opgeslagen in je [[.mainmenu:lists|cache lijsten]] en zal deze opslaan.\\ Een lange druk op deze knop zal de cache in de laatst gebruikte lijst oplsaan. Bij een korte druk zal er om de locatie worden gevraagd.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|Als de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de locatie in de lijst te bewerken of om de cache toe te voegen aan een andere lijst.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|Indien de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de cache te verwijderen uit je lijsten.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |Deze knop wordt alleen getoond als de cache nog niet is opgeslagen in je [[.mainmenu:lists|cache lijsten]] en zal deze opslaan.\\ Een lange druk op deze knop zal de cache in de laatst gebruikte lijst oplsaan. Bij een korte druk zal er om de locatie worden gevraagd.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Als de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de locatie in de lijst te bewerken of om de cache toe te voegen aan een andere lijst.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Indien de cache al is opgeslagen in je [[.mainmenu:lists|cache lijsten]] zal dit icoon worden getoond en maakt het mogelijk om de cache te verwijderen uit je lijsten.|
 
 ==== Watchlist ====
 {{anchor:watchlist:}}
@@ -129,7 +129,7 @@ Dit gedeelte van de cachegegevens biedt verschillende opties om de opslagstatus 
 
 In dit gedeelte kun je de cache toevoegen / verwijderen uit je persoonlijke watchlist. De watchlist is een functie van de geocaching-provider. Als je een cache op je volglijst hebt, ontvang je een e-mailmelding als er een nieuw logboekitem voor deze cache is toegevoegd.
 
-De {{:ic_menu_add.png?nolink&30|}} of {{:ic_menu_remove.png?nolink&30|}} knop zal de cache toevoegen/verwijderen uit je watchlist.
+De {{:ic_menu_add.svg?nolink&30|}} of {{:ic_menu_remove.svg?nolink&30|}} knop zal de cache toevoegen/verwijderen uit je watchlist.
 De''Volgers:'' toont het aantal mensen dat deze cache op hun watchlist hebben.
 
 ==== Favorieten ====
@@ -139,7 +139,7 @@ De''Volgers:'' toont het aantal mensen dat deze cache op hun watchlist hebben.
 
 In dit gedeelte wordt weergegeven of je een favoriet punt aan deze cache hebt toegekend.
 
-De {{:ic_menu_add.png?nolink&30|}} of {{:ic_menu_remove.png?nolink&30|}} knoppen worden alleen getoond als je deze cache hebt gevonden en zal je favoriet punt toevoegen/verwijderen.
+De {{:ic_menu_add.svg?nolink&30|}} of {{:ic_menu_remove.svg?nolink&30|}} knoppen worden alleen getoond als je deze cache hebt gevonden en zal je favoriet punt toevoegen/verwijderen.
 
 ===== Waypoint tabblad =====
 {{anchor:waypoint_tab:}}
@@ -155,7 +155,7 @@ De waypoint informatie is gestructureerd zoals hieronder:
 |Type en referentie|[[cachedetails#waypoint_types|Waypoint type]] and referentiecode (zoals gegeven door de server) of ''Aangepast'' als het waypoint door de gebruiker is gemaakt.|
 |Coördinaten|De coördinaten van het waypoint. Het veld kan ook leeg zijn als de eigenaar dit leeg heeft gelaten of je zelf eem waypoint zonder coördinaten hebt gemaakt (of de [[coordinatedialog#waypoint_calculator|waypoint calculator]] is gebruikt zonder geldige coördinaten).\\ \\ :!: Je kunt op de coördinaten drukken om ze in andere ondersteunde indelingen weer te geven.|
 |Omschrijving|Bevat de omschrijving van dit waypoint.|
-|{{:actionbar_compass_light.png?nolink&40 |}}|Dit icoon wordt rechts van ieder waypoint getoond als het waypoint coördinaten heeft. Een korte druk op dit icoon zal je [[.mainmenu:settings#navigation|standaard navigatie]] opstarten, een lange klik zal je  [[.mainmenu:settings#navigation|secondaire navigatie voorkeur]] opstarten ten opzichte van deze coördinaten.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Dit icoon wordt rechts van ieder waypoint getoond als het waypoint coördinaten heeft. Een korte druk op dit icoon zal je [[.mainmenu:settings#navigation|standaard navigatie]] opstarten, een lange klik zal je  [[.mainmenu:settings#navigation|secondaire navigatie voorkeur]] opstarten ten opzichte van deze coördinaten.|
 
 Een korte druk op het waypoint zelf zal de [[cachedetails#waypoint_editor|waypoint bewerker]] openen. Een lange druk op het waypoint zal een [[cachedetails#waypoint_context_menu|context menu]] tonen met meer opties voor het waypoint.
 
@@ -236,10 +236,10 @@ Als de eigenaar een spoilerfoto heeft geüpload, kun je klikken op de link naar 
 Deze sectie bevat je persoonlijke cache-notitie. Notities die je hebt ingevoerd op de geocaching-server worden hier weergegeven (voor geocaching.com wordt synchronisatie met de server alleen ondersteund voor [[basicmembers | premium leden]]). De knoppen onder de notitie bieden verschillende opties, zoals uitgelegd in de onderstaande tabel:
 
 ^ Icoon ^ Naam ^ Beschrijving^
-|{{:ic_menu_waypoint_sync.png?nolink&40|}}|Kopieer waypoints|Dit zal alle zelf gedefinieerde wayponts van deze cache in de persoonlijke notitie kopiëren. Met deze functie kun je een back-up maken van jouw gemaakte waypoints in de persoonlijke notitie van deze cache. Omdat c:geo de syntaxis van de opgeslagen waypoints herkent, zullen deze automatisch opnieuw worden gemaakt vanuit de persoonlijke notities.|
-|{{:ic_menu_waypoint_delete.png?nolink&40|}}|Verwijder waypoints|Dit zal de gekopieerde waypoints verwijderen uit de persoonlijke notitie.|
-|{{:ic_menu_upload.png?nolink&40|}}|Upload naar server|Het uploaden van de lokale persoonlijke notitie naar de geocaching server.\\ :!: Op geocaching.com is dit een premium member functie.|
-|{{:ic_menu_edit.png?nolink&40|}}|Bewerk persoonlijke notitie|Dit zal het bewerkingsvenster openen, waar je jouw persoonlijke notitie kan bewerken.|
+|{{:ic_menu_waypoint_sync.svg?nolink&40|}}|Kopieer waypoints|Dit zal alle zelf gedefinieerde wayponts van deze cache in de persoonlijke notitie kopiëren. Met deze functie kun je een back-up maken van jouw gemaakte waypoints in de persoonlijke notitie van deze cache. Omdat c:geo de syntaxis van de opgeslagen waypoints herkent, zullen deze automatisch opnieuw worden gemaakt vanuit de persoonlijke notities.|
+|{{:ic_menu_waypoint_delete.svg?nolink&40|}}|Verwijder waypoints|Dit zal de gekopieerde waypoints verwijderen uit de persoonlijke notitie.|
+|{{:ic_menu_upload.svg?nolink&40|}}|Upload naar server|Het uploaden van de lokale persoonlijke notitie naar de geocaching server.\\ :!: Op geocaching.com is dit een premium member functie.|
+|{{:ic_menu_edit.svg?nolink&40|}}|Bewerk persoonlijke notitie|Dit zal het bewerkingsvenster openen, waar je jouw persoonlijke notitie kan bewerken.|
 
 {{:en:description_personalnote_2.png?direct&400 |}}
 

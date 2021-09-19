@@ -15,5 +15,5 @@ Nach dem Auswahl dieser Menüoption wird eine Liste der Pocket-Queries und Bookm
 Die Liste zeigt jeden existierende Pocket-Query und Bookmarkliste mit ihrem Namen als Titel. Der Untertitel gibt Informationen über die Anzahl der Caches in jedem Query / auf jeder Liste.
 Bei Pocket-Queries wird zusätzlich der Tag, an dem der Query ausgeführt wurde und die verbleibenden Tage, die der Query noch auf dem Server verfügbar ist, angezeigt.
 
-Das {{:ic_menu_save.png?nolink&20|}} Symbol kann dazu genutzt werden, den gesamten Pocket-Query / die gesamte List auf eine deiner Listen zu importieren, das {{:ic_menu_search.svg?nolink&20|}} Symbol öffnet den Pocket-Query / die Liste zur Voransicht.
+Das {{:ic_menu_save.svg?nolink&20|}} Symbol kann dazu genutzt werden, den gesamten Pocket-Query / die gesamte List auf eine deiner Listen zu importieren, das {{:ic_menu_search.svg?nolink&20|}} Symbol öffnet den Pocket-Query / die Liste zur Voransicht.
 

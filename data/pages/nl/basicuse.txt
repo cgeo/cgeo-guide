@@ -38,7 +38,7 @@ Nogmaals:\\
 Het is verstandig om jezelf vertrouwd te maken met de verschillende typen, terrein waarderingen, attributen etc. voordat je begint om een cache echt te gaan zoeken!
 </WRAP>
 
-Wanneer je uiteindelijk een cache hebt geselecteerd en klaar bent om deze te gaan zoeken, druk op het ''Navigatie'' icoontje {{:ic_menu_goto.png?nolink|}} in de titelbalk van de cache details. Je krijgt [[.navigation|verschillende opties]] afhankelijk van je behoeften. Hier is een korte beschrijving van de meest belangrijke navigatie methoden:
+Wanneer je uiteindelijk een cache hebt geselecteerd en klaar bent om deze te gaan zoeken, druk op het ''Navigatie'' icoontje {{:ic_menu_goto.svg?nolink|}} in de titelbalk van de cache details. Je krijgt [[.navigation|verschillende opties]] afhankelijk van je behoeften. Hier is een korte beschrijving van de meest belangrijke navigatie methoden:
 
   * **[[compass|Kompas]]**:\\ Dit toont continu de afstand en de richting van de cache ten opzichte van je huidige postitie.
 {{ :nl:navigate_compass.png?direct&300 |}}

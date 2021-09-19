@@ -39,7 +39,7 @@ Vielä kerran:\\
 Sinun tulisi tutustua eri kätkötyyppeihin, maastoarvoihin, attribuutteihin jne. ennen kuin etsit kätkön!
 </WRAP>
 
-Kun olet valinnut kätkön ja olet valmis etsimään sen, paina ''Navigoi''-kuvaketta {{:ic_menu_goto.png?nolink|}} kätkötietojen yläpalkissa.
+Kun olet valinnut kätkön ja olet valmis etsimään sen, paina ''Navigoi''-kuvaketta {{:ic_menu_goto.svg?nolink|}} kätkötietojen yläpalkissa.
 Sinulla on [[.navigation|useita vaihtoehtoja]] riippuen tarpeestasi. Tässä on lyhyt selitys tärkeimmistä navigaatiotavoista:
 
   * **[[compass|Kompassi]]**:\\ Tämä näyttää jatkuvasti etäisyyden ja suunnan kätkölle.

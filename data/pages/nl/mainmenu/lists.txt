@@ -73,11 +73,11 @@ De pictogrammen in de bovenste balk en de inhoud achter de Overloop menuknop wor
 ^ Icoon/Sectie ^ Functie ^ Omschrijving ^
 |{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Lijst Beheer]]|Dit gedeelte toont de naam van de huidige lijst of de zoekinformatie in het geval dat een lijst wordt geopend als een [[search|zoek resultaat]] of de pocket query naam  als de lijst is geopend vanuit een [[pocketquery|pocket query]].\\ Verder de hoeveelheid caches op de huidige lijst (beperkt tot de gefilterde caches, indien van toepassing). Als je op dit gedeelte klikt, wordt de lijst met alle cachelijsten geopend om een andere cachelijst te selecteren die moet worden weergegeven.|
 |{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indicatie|Deze regel wordt alleen weergegeven als een [[globaltypefilter|Global Cache Type Filter]] of een [[..:cachefilter|Lijst Filter]] actief is.\\ Als je op deze regel klikt, ga je rechtstreeks naar het overeenkomstige filterdialoogvenster.|
-|{{ :ic_menu_mapmode.png?nolink&50 |}}|[[livemap|Kaart]]|Als je op dit pictogram klikt, worden de caches in deze lijst weergegeven op een [[livemap|kaart]].|
-|{{ :ic_menu_filter.png?nolink&50 |}}|[[..:cachefilter|Filter]]|Als je op dit pictogram klikt, wordt een filterdialoogvenster geopend om de caches in je lijst te filteren op basis van verschillende criteria.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
-|{{ :ic_menu_sort_alphabetically.png?nolink&50 |}}|[[lists#sorting|Sorteren]]|Je kunt deze functie gebruiken om de lijst te sorteren op basis van je behoeften.|
-|{{ :ic_menu_agenda.png?nolink&50 |}}|[[lists#select_mode|Selectie modus]]|Als je deze functie gebruikt, wordt de lijst in een selectiemodus gezet, zodat je een subset van caches in de lijst kunt selecteren om de functie '' Beheer caches '' op deze selectie te gebruiken.|
+|{{ :ic_menu_mapmode.svg?nolink&50 |}}|[[livemap|Kaart]]|Als je op dit pictogram klikt, worden de caches in deze lijst weergegeven op een [[livemap|kaart]].|
+|{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filter]]|Als je op dit pictogram klikt, wordt een filterdialoogvenster geopend om de caches in je lijst te filteren op basis van verschillende criteria.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow menu button|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{ :ic_menu_sort_alphabetically.svg?nolink&50 |}}|[[lists#sorting|Sorteren]]|Je kunt deze functie gebruiken om de lijst te sorteren op basis van je behoeften.|
+|{{ :ic_menu_select_start.svg?nolink&50 |}}|[[lists#select_mode|Selectie modus]]|Als je deze functie gebruikt, wordt de lijst in een selectiemodus gezet, zodat je een subset van caches in de lijst kunt selecteren om de functie '' Beheer caches '' op deze selectie te gebruiken.|
 |[[lists#show_on_map|Toon op kaart]]||Dit is een soortgelijke functie als de '' Kaart'' functie / het pictogram hierboven uitgelegd, maar ondersteunt ook het openen van alle caches uit de lijst op andere kaarten en in externe apps.|
 |[[lists#manage_caches|Beheer caches]]||Deze optie biedt functies voor het verwijderen, vernieuwen, verplaatsen enz. van de caches in de lijst. \\ Je kunt het combineren met de '' Selectiemodus '' om de wijziging alleen toe te passen op een subset van je lijst.|
 |[[lists#manage_lists|Beheer lijsten]]||Met deze optie kun je functies wissen, de bestaande lijst wijzigen of nieuwe lijsten maken.|
@@ -96,7 +96,7 @@ Anders dan het [[globaltypefilter | Global Cache Type Filter]], is dit filter al
 </WRAP>
 
 ^ Menu item ^ Omschrijving ^
-|{{ :ic_menu_delete.png?nolink&40 |}}|Met het prullenbakpictogram bovenaan kun je de filters die je hebt toegepast verwijderen.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Met het prullenbakpictogram bovenaan kun je de filters die je hebt toegepast verwijderen.|
 |Type|Toon alleen caches met een bepaald cachetype.|
 |Grootte|Toon alleen caches van een bepaalde grootte.|
 |Terrein|Toon alleen caches van een bepaalde moeilijkheidsgraad.|

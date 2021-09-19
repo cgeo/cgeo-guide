@@ -37,9 +37,9 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 </WRAP>
 
 ^ Kuvake ^ Toiminto ^ Selite ^
-|{{ :ic_menu_send.png?nolink&40 |}}|Lähetä loki|Käytä tätä nappia lähettääksesi lokin kirjattavaksi kun olet saanut sen valmiiksi.|
-|{{ :ic_menu_add.png?nolink&40 |}}|Lisää malline|Voit tästä lisätä [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksesi kirjaukseen.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Lähetä loki|Käytä tätä nappia lähettääksesi lokin kirjattavaksi kun olet saanut sen valmiiksi.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Lisää malline|Voit tästä lisätä [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksesi kirjaukseen.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
 | |Hymiöt|Avaa listan hymiöistä jotka voit lisätä kirjaukseesi.|
 | |Toista edellinen loki|Lisää edelliseen matkaajaan kirjaamasi lokin tämän matkaajan lokin kirjaukseen.|
 

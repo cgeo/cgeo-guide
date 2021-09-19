@@ -18,12 +18,12 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 {{ :en:compass_menu.png?direct&400 |}}
 
 ^ Icon ^ Function ^ Description ^
-|{{ :ic_menu_hint.png?nolink&$0 |}}|Hint|This will show a small popup window on the compass showing the cache hint (if provided by the owner)|
-|{{ :ic_menu_mapmode.png?nolink&40 |}}|Show on map|Will open the target coordinates on the [[.mainmenu:livemap|map]].|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overflow menu button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
-|{{ :ic_menu_start_conversation.png?nolink&40 |}}|Toggle talking|Will start/stop the text-to-speech output of direction and distance towards the target.\\ You can also switch off the display once talking function has been started.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|Log Visit|Opens the [[logging|logging screen]] for cache.|
-|{{ :ic_menu_myplaces.png?nolink&40 |}}|Select Destination|Allows you to switch the compass target between the available waypoints of the cache.|
+|{{ :ic_menu_hint.svg?nolink&$0 |}}|Hint|This will show a small popup window on the compass showing the cache hint (if provided by the owner)|
+|{{ :ic_menu_mapmode.svg?nolink&40 |}}|Show on map|Will open the target coordinates on the [[.mainmenu:livemap|map]].|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow menu button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
+|{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Toggle talking|Will start/stop the text-to-speech output of direction and distance towards the target.\\ You can also switch off the display once talking function has been started.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Log Visit|Opens the [[logging|logging screen]] for cache.|
+|{{ :ic_menu_myplaces.svg?nolink&40 |}}|Select Destination|Allows you to switch the compass target between the available waypoints of the cache.|
 ===== Top section =====
 
 {{:en:compass_top.png?nolink&400 |}}

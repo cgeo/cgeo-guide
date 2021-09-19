@@ -1,6 +1,6 @@
 ======Listat / Pocket Queries ======
 
-{{:ic_menu_pocket_query_reverted.png?nolink&50 |}}
+{{:ic_menu_pocket_query.svg?nolink&50 |}}
 
 Tämä toiminto antaa selata geokätköilysivustolla olevia pocket queryja ja kirjanmerkkilistoja ja näyttää ne joko [[lists|listana]] tai tuo ne samalla tavalla kuin [[..offline#gpx_import|tuodessa GPX-tiedostoa]].
 
@@ -14,6 +14,6 @@ Tämän valikon valinnan jälkeen lista pocket queryistä ja kirjanmerkkilistois
 
 Lista näyttää jokaisen olemassa olevan pocket queryn ja kirjanmerkkilistan sekä niiden nimen otsikkoina. Alaotsikko tarjoaa tietoa montako kätköä jokainen pocket query/kirjanmerkkilista sisältää. 
 
-Pocket Queryjen osalta näkyy myös päivä jolloin haku on suoritettu, ja jäljellä olevat saatavuuspäivät palvelimella.
+Pocket Queryjen osalta näkyy myös päivä jolloin haku on suoritettu, ja palvelimella jäljellä olevat päivät.
 
-{{:ic_menu_save.png?nolink&20|}}-kuvaketta voi käyttää koko pocket queryn / listan tuomiseen yhdelle listalle, \\ {{:abc_ic_search_api_holo_light.png?nolink&20|}}-kuvake avaa pocket queryn / listan esikatselun.
+{{:ic_menu_save.svg?nolink&20|}}-kuvaketta voi käyttää koko pocket queryn / listan tuomiseen yhdelle listalle, \\ {{:ic_menu_search.svg?nolink&20|}}-kuvake avaa pocket queryn / listan esikatselun.

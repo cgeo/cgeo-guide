@@ -25,10 +25,10 @@ De pictogrammen in de bovenste balk en de inhoud achter de overloopmenu knop wor
 </WRAP>
 
 ^ Icoon ^ Functie ^ Omschrijving ^
-|{{ :ic_menu_edit.png?nolink&40 |}}|[[loggingtb|Log aanraking]]|Schrijf een log voor deze trackable.|
-|{{ :ic_menu_info_details.png?nolink&40 |}}|Open in Browser|Opent je standaard browser om de trackable pagina op de geocaching website te bekijken.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Verversen|Ververst alle tabbladen van de trackable details vanaf de server.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloopmenu knop|Als je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. Op de meeste apparaten wordt dit pictogram niet weergegeven omdat alle menufuncties in de menubalk passen.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Log aanraking]]|Schrijf een log voor deze trackable.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|Open in Browser|Opent je standaard browser om de trackable pagina op de geocaching website te bekijken.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Verversen|Ververst alle tabbladen van de trackable details vanaf de server.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Overloopmenu knop|Als je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en daarom als een lijst worden weergegeven. Op de meeste apparaten wordt dit pictogram niet weergegeven omdat alle menufuncties in de menubalk passen.|
 
 ===== Details Tab =====
 {{anchor:details_tab:}}

@@ -38,9 +38,9 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 </WRAP>
 
 ^ Icon ^ Function ^ Description ^
-|{{ :ic_menu_send.png?nolink&40 |}}|Senden|Benutze diese Schaltfläche um deinen Log abzusenden, wenn du ihn fertig geschrieben hast.|
-|{{ :ic_menu_add.png?nolink&40 |}}|Hinzufügen|Dies ermöglichst es dir entweder eine [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Log hinzuzufügen.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Senden|Benutze diese Schaltfläche um deinen Log abzusenden, wenn du ihn fertig geschrieben hast.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Hinzufügen|Dies ermöglichst es dir entweder eine [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Log hinzuzufügen.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
 | |Smileys|Öffnet eine Liste von Smiley-Markierungen, die du in deinen Logtext einfügen kannst.|
 | |Verwende das letzte Log erneut|Diese Funktion fügt den Logtext deines zuletzt geloggten Trackables in das Textfeld ein.|
 

@@ -55,9 +55,9 @@ which then automatically creates these waypoints for you:
 
 It is possible to create a textual backup of all your user-modified waypoint data in the personal note. You can upload this note to the geocaching server (if the used geocaching provider supports it) and thus easily backup your custom waypoint data. Due to the above described waypoint parsing this data can then be restored to your waypoint list in case it gets lost or is deleted from your local device.
 
-To create the textual backup, use the icon {{:ic_menu_waypoint_sync.png?nolink&40|}} under the personal note. A textual section will be created in your personal note starting with ''{c:geo-start}'' and ending with ''{c:geo-end}''. It contains all user-defined waypoint data from the waypoint list in advanced waypoint syntax (which is explained in the next section).
+To create the textual backup, use the icon {{:ic_menu_waypoint_sync.svg?nolink&30|}} under the personal note. A textual section will be created in your personal note starting with ''{c:geo-start}'' and ending with ''{c:geo-end}''. It contains all user-defined waypoint data from the waypoint list in advanced waypoint syntax (which is explained in the next section).
 
-To refresh the textual waypoint backup, tap the icon {{:ic_menu_waypoint_sync.png?nolink&40|}} again. To remove it, tap the icon {{:ic_menu_waypoint_delete.png?nolink&40|}}.
+To refresh the textual waypoint backup, tap the icon {{:ic_menu_waypoint_sync.svg?nolink&30|}} again. To remove it, tap the icon {{:ic_menu_waypoint_delete.svg?nolink&30|}}.
 
 As an example, when executed on the following waypoints:
 

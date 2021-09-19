@@ -13,10 +13,10 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 </WRAP>
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
-|{{ :ic_menu_send.png?nolink&40 |}}|Senden|benutze diese Schaltfläche um dein Log online abzusenden, nachdem du es fertig geschrieben hast.|
-|{{ :ic_menu_add.png?nolink&40 |}}|Hinzufügen|Dies erlaubt dir entweder eine Vorlage [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Logtext hinzuzufügen.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
-|{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Bild hinzufügen]]|Dies erlaubt es dir ein existierende Bild zum Log hinzuzufügen oder ein neues Bild aufzunehmen, und dann zum Log hinzuzufügen.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Senden|benutze diese Schaltfläche um dein Log online abzusenden, nachdem du es fertig geschrieben hast.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Hinzufügen|Dies erlaubt dir entweder eine Vorlage [[.mainmenu:settings#placeholder_templates|Vorlage]] oder deine Signatur zum Logtext hinzuzufügen.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{ :ic_menu_attachment.svg?nolink&40 |}}|[[logging#attach_image|Bild hinzufügen]]|Dies erlaubt es dir ein existierende Bild zum Log hinzuzufügen oder ein neues Bild aufzunehmen, und dann zum Log hinzuzufügen.|
 | |Smileys|Öffnet eine Liste von Smiley-Markierungen, die du in deinen Logtext einfügen kannst.|
 | |Offline speichern|Speichert das geschriebene Log offline anstatt es online zu senden.|
 | |Trackables sortieren|Du kannst die Trackable-Liste entweder alphabetisch nach dem Trackable-Namen oder dem Tracking-Code sortieren.|
@@ -102,12 +102,12 @@ Wenn du c:geo in den [[.mainmenu:settings#social_media|Einstellungen]]  mit [[ht
 
 Ein Tippen auf die Symbole in diesem Bereich erlaubt dir auf schnelle Weise Bilder zu deinem Log hinzuzufügen.
 
-  * {{:ic_menu_image_multi.png?nolink&30|}} öffnet einen Dateiwähler, damit du ein auf deinem Gerät vorhandenes Bild hinzufügen kannst
-  * {{:ic_menu_camera.png?nolink&30|}} öffnet die Kamera deines Gerätes um ein Bild aufzunehmen
+  * {{:ic_menu_image_multi.svg?nolink&30|}} öffnet einen Dateiwähler, damit du ein auf deinem Gerät vorhandenes Bild hinzufügen kannst
+  * {{:ic_menu_camera.svg?nolink&30|}} öffnet die Kamera deines Gerätes um ein Bild aufzunehmen
 
 Alternativ kannst du die Funktion ''Bild hinzufügen'' im Titelzeilen-Menü verwenden, um ein Bild mit erweiterten Optionen hinzuzufügen, so dass du Überschrift, Beschreibung und die gewünschte Skalierung während des Hinzufügens bereits einstellen kannst (siehe nächstes Kapitel).
 
-Nachdem das Bild hinzugefügt wurde, wird eine Vorschau im Bilder-Bereich des Logfensters angezeigt. Du kannst auf {{:ic_menu_delete.png?nolink&30|}} tippen, um das hinzugefügte Bild zu entfernen, und - wenn mehrere Bilder angefügt sind - kannst du {{:settings_details_black.png?nolink&30|}} nutzen um ihre Reihenfolge durch Ziehen & Ablegen zu verändern.
+Nachdem das Bild hinzugefügt wurde, wird eine Vorschau im Bilder-Bereich des Logfensters angezeigt. Du kannst auf {{:ic_menu_delete.svg?nolink&30|}} tippen, um das hinzugefügte Bild zu entfernen, und - wenn mehrere Bilder angefügt sind - kannst du {{:ic_menu_reorder.svg?nolink&30|}} nutzen um ihre Reihenfolge durch Ziehen & Ablegen zu verändern.
 
 Ein Klick auf das Vorschaubild öffnet den Editor, um die Bilddetails (Überschrift, Beschreibung und Skalierung) zu bearbeiten (siehe nächstes Kapitel).
 

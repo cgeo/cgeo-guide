@@ -1,6 +1,6 @@
 ====== Outils ======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 Cette fonction ouvre un écran affichant des applications qui peuvent soit fonctionner en conjonction avec c:geo soit être utilisées pour améliorer certaines fonctionnalités de c:geo. Vous pouvez cliquer sur chaque outil pour ouvrir une page Web avec plus d'informations et/ou possibilités de téléchargement.
 

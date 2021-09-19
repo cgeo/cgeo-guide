@@ -14,7 +14,7 @@ c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu
 c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
 
 <WRAP center round info 100%>
-c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 12.8.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös, kuvat mukaan lukien, ole ajan tasalla. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
+c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 2.9.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös, kuvat mukaan lukien, ole ajan tasalla. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
 </WRAP>
 
 ===== Käytön aloitus =====

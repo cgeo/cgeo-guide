@@ -1,6 +1,6 @@
 ====== Tietoja c:geosta ======
 
-{{:ic_menu_info_details.png?nolink&50 |}}
+{{:ic_menu_info_details.svg?nolink&50 |}}
 
 Tämä sivu näyttää erilaisia tietoja c:geosta.
 

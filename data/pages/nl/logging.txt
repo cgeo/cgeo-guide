@@ -11,10 +11,10 @@ Als je een bezoek voor een geocache gaat registreren, wordt het volgende scherm 
 De pictogrammen die worden weergegeven in de bovenste balk en de inhoud achter de Overloop menu knop worden dynamisch gedistribueerd op basis van de apparaatresolutie en schermoriëntatie. Het is dus mogelijk dat er meer of minder items achter de menuknop kunnen worden gevonden of in plaats daarvan worden weergegeven als pictogrammen in de bovenste balk van je apparaat. \\ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram drukken om een pop-up te krijgen met de naam van de functie .</WRAP>
 
 ^ Icoon ^ Functie ^ Omschrijving ^
-|{{ :ic_menu_send.png?nolink&40 |}}|Verzenden|Gebruik deze knop om je log online te verzenden nadat je klaar bent met het samenstellen ervan.|
-|{{ :ic_menu_add.png?nolink&40 |}}|Toevoegen|Hiermee kun je een toevoegen [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toevoegen aan de log.|
-|{{:abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Overloop menu|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en worden daarom als een lijst weergegeven. De functies die in deze lijst wordt getoond, worden ook in deze tabel beschreven.|
-|{{ :ic_menu_attachment.png?nolink&40 |}}|[[logging#attach_image|Foto koppelen]]|Hiermee kun je een bestaande afbeelding selecteren of een nieuwe foto maken, die aan het logboek wordt toegevoegd.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Verzenden|Gebruik deze knop om je log online te verzenden nadat je klaar bent met het samenstellen ervan.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Toevoegen|Hiermee kun je een toevoegen [[.mainmenu:settings#placeholder_templates|sjabloon]] of je handtekening toevoegen aan de log.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menu|Als je hier klikt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en worden daarom als een lijst weergegeven. De functies die in deze lijst wordt getoond, worden ook in deze tabel beschreven.|
+|{{ :ic_menu_attachment.svg?nolink&40 |}}|[[logging#attach_image|Foto koppelen]]|Hiermee kun je een bestaande afbeelding selecteren of een nieuwe foto maken, die aan het logboek wordt toegevoegd.|
 | |Smilies|Opent een lijst met smiley pictogrammen, die je kan toevoegen aan je bericht.|
 | |Off line opslaan|Slaat je log offline op in plaats van versturen naar de geocaching server.|
 | |Herhaal laatste log|Deze functie zal de laatste log tekst, die je gebruikt hebt in het tekstveld plaatsen.|
@@ -109,10 +109,10 @@ Onder de trackable lijst kun je op de de knop '' Alles wijzigen '' drukken om de
 
 Door op één van de iconen in dit gedeelte van je scherm te drukken kun je snel een afbeelding toevoegen aan je log.
 
-  * {{:ic_menu_image_multi.png?nolink&30|}} zal een bestandselector openen zodat je een bestaande foto kan toevoegenn vanaf je apparaat. 
-  * {{:ic_menu_camera.png?nolink&30|}} zal je camera openen zodat je apparaat een foto kan maken.
+  * {{:ic_menu_image_multi.svg?nolink&30|}} zal een bestandselector openen zodat je een bestaande foto kan toevoegenn vanaf je apparaat. 
+  * {{:ic_menu_camera.svg?nolink&30|}} zal je camera openen zodat je apparaat een foto kan maken.
 
-Nadat een afbeelding is toegevoegd, wordt een voorbeeld getoond in de afbeeldingensectie. Je kunt dit gebruiken om de bijgevoegde afbeelding te verwijderen en - als er meerdere afbeeldingen zijn bijgevoegd - gebruiken om de volgorde te wijzigen door ze te slepen en neer te zetten.
+Nadat een afbeelding is toegevoegd, wordt een voorbeeld getoond in de afbeeldingensectie. Je kunt dit {{:ic_menu_delete.svg?nolink&30|}} gebruiken om de bijgevoegde afbeelding te verwijderen en - als er meerdere afbeeldingen zijn bijgevoegd - {{:ic_menu_reorder.svg?nolink&30|}} gebruiken om de volgorde te wijzigen door ze te slepen en neer te zetten.
 
 Om de afbeeldingsdetails te bewerken, klik je erop om het detailvenster te openen, waar je bijschrift, beschrijving en schaal kunt bewerken (zie volgend hoofdstuk).
 ===== Foto koppelen =====

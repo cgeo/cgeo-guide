@@ -1,6 +1,6 @@
 ====== Aplicações Úteis ======
 
-{{:ic_menu_shopping.png?nolink&50 |}}
+{{:ic_menu_shopping.svg?nolink&50 |}}
 
 Esta função irá abrir um ecrã com algumas aplicações que, funcionam em conjunto com o c:geo, ou poderão ser utilizadas para melhorar algumas funções do c:geo. Poderá carregar em cada uma das ferramentas para abrir uma página onde poderá obter mais detalhes sobre a mesmo e/ou fazer o download da mesma.
 

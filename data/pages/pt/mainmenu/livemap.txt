@@ -24,12 +24,12 @@ No caso de uma função no menu ser apresentada como ícone, poderá premir dura
 ^ Ícone ^ Função ^ Desrição ^
 |{{ :pt:livemap_mapname.png?nolink&150 |}}|Informação do mapa|Apresenta o estado atual do mapa: ''Mapa ao vivo'' no caso da opção ao vivo estar ativa, ''Mapa'' se essa mesma opção estiver desligada, ou o nome de uma cache/lista a ser mostrada no mapa.\\ Por baixo pode visualizar o numero de caches a ser apresentadas no mapa.|
 |{{ :en:livemap_progress.png?nolink&40 |}} |Circulo de progresso|Um indicador de progresso é apresentado quando o mapa ao vivo está a carregar informação dos servidores de geocaching e/ou da sua lista de caches. Este desaparece quando o mapa ao vivo acabar de carregar estas informações.|
-|{{ :ic_menu_mylocation_off.png?nolink&40 |}}{{ :ic_menu_mylocation.png?nolink&40 |}}|Centrar posição|Este botão pode ser utilizado para centrar o mapa na sua posição atual. \\ \\ Se o mapa já estiver centrado na sua posição o ícone vai aparecer com o centro preenchido.|
-|{{ :ic_action_layers_revert.png?nolink&40 |}}|Seleção de vista de mapa| Utilize este botão para mudar o [[..:mapsources|mapa]] ativo.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Ativar/desativar ao vivo|Esta função permite ativar ou desativar o mapa ao vivo.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Guardar todas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas. Caches que já estiverem guardadas serão atualizadas durante o processo.|
-|{{ :ic_menu_set_as.png?nolink&40 |}}|Guardar não memorizadas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas, excepto as que já estiverem guardadas.|
+|{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centrar posição|Este botão pode ser utilizado para centrar o mapa na sua posição atual. \\ \\ Se o mapa já estiver centrado na sua posição o ícone vai aparecer com o centro preenchido.|
+|{{ :ic_action_layers.svg?nolink&40 |}}|Seleção de vista de mapa| Utilize este botão para mudar o [[..:mapsources|mapa]] ativo.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Ativar/desativar ao vivo|Esta função permite ativar ou desativar o mapa ao vivo.|
+|{{ :ic_menu_save_all.svg?nolink&40 |}}|Guardar todas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas. Caches que já estiverem guardadas serão atualizadas durante o processo.|
+|{{ :ic_menu_save.svg?nolink&40 |}}|Guardar não memorizadas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas, excepto as que já estiverem guardadas.|
 | |[[livemap#map_settings|Modos de mapa]]|Esta função abre um menu que contem várias opções para personalizar o mapa (Ex. esconder caches, mostrar círculos).|
 | |[[livemap#routing|Rotas]]|Esta função permite alterar o modo de rota pretendido (Ex. Linha a direito, carro, bicicleta).|
 | |[[lists#cache_list|Mostar como lista]]|Esta função converte as caches apresentadas no mapa em uma [[lists|lista]].|
@@ -68,9 +68,9 @@ This section of the map popup provides several menu options concerning the selec
 
 ^ Icon/Option ^ Description ^
 |{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the title of the selected cache.|
-|{{ :actionbar_compass_light.png?nolink&40 |}}|A short click on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
-|{{ :ic_menu_publish_invert.png?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.\\ \\ :!: This option is currently only available on the OSM:Mapnik online map and offline maps.|
-|{{ :abc_ic_menu_moreoverflow_normal_holo_light.png?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|
+|{{ :ic_menu_compass.svg?nolink&40 |}}|A short click on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
+|{{ :ic_menu_near_me.svg?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.\\ \\ :!: This option is currently only available on the OSM:Mapnik online map and offline maps.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|
 |Compass|This opens the compass for this cache.|
 |Navigate|This opens the list of all available [[settings#navigation|navigation tools]] to start one of them for this cache.|
 |Log Visit|This opens the [[..:logging|logging window]] to log the selected cache.|
@@ -106,11 +106,11 @@ This section of the map popup provides several options to manage the storage sta
 
 ^ Icon/Option ^ Description ^
 |{{ :pt:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
-|{{ :ic_menu_refresh.png?nolink&40 |}}|Clicking this button will refresh the cache information by updating it from the geocaching server.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Clicking this button will refresh the cache information by updating it from the geocaching server.|
 |{{ :pt:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[lists|cache lists]] this field shows you the list(s) it is stored in.|
-|{{ :ic_menu_save.png?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
-|{{ :ic_menu_edit.png?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
-|{{ :ic_menu_delete.png?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
 
 
 ==== Map settings ====

@@ -4,7 +4,7 @@ Kätköjen suodatusta voidaan käyttää hyödyksi useissa c:geon toiminnoissa, 
 
 ===== Suodattimiin pääsy =====
 
-Suodatinasetukset löytyvät asetusvalikon kautta klikkaamalla suodatinkuvaketta {{:ic_menu_filter.png?nolink&30|}}. 
+Suodatinasetukset löytyvät asetusvalikon kautta klikkaamalla suodatinkuvaketta {{:ic_menu_filter.svg?nolink&30|}}. 
 
 Jos suodatin on jo aktiivisena, se näytetään yläotsikossa yläpalkin alapuolella. Myös napauttamalla tätä yläotsikkoa voidaan avata suodatinasetukset. Esimerkkinä seuraava kaappaus näyttää sekä suodatinkuvakkeen että suodatinyläotsikon (ympyröity punaisella), jossa nykyinen suodatin on asetettu näyttämään vain kätköt, joiden tyyppi on "Tradi".
 
@@ -22,9 +22,9 @@ Perussuodatus mahdollistaa suodatuksen kätkötyypin, vaikeuden ja maaston mukaa
 Seuraava taulukko selostaa suodatintoiminnot:
 
 ^ Kuvake ^ Toiminto ^ Selite ^
-|{{:abc_ic_cab_done_holo_light.png?nolink&30 |}} | Aseta | Sulkee näkymän ja asettaa nykyisen näytön sisällön suodattimen mukaiseksi.|
-|{{:abc_ic_clear_normal.png?nolink&30 |}} | Peruuta | Sulkee näkymän ja peruu suodatinmuutokset. |
-|{{:ic_menu_delete.png?nolink&30 |}} | Tyhjennä | Tyhjentää suodattimen, eli asettaa sen tilaan jossa se ei suodata mitään (kaikki kätköt näytetään, kaikki maastot/vaikeudet valittu). |
+|{{:ic_menu_done.svg?nolink&30 |}} | Aseta | Sulkee näkymän ja asettaa nykyisen näytön sisällön suodattimen mukaiseksi.|
+|{{:ic_menu_cancel.svg?nolink&30 |}} | Peruuta | Sulkee näkymän ja peruu suodatinmuutokset. |
+|{{:ic_menu_delete.svg?nolink&30 |}} | Tyhjennä | Tyhjentää suodattimen, eli asettaa sen tilaan jossa se ei suodata mitään (kaikki kätköt näytetään, kaikki maastot/vaikeudet valittu). |
 |{{:en:filter-advanced-switch.png?nolink&150|}}| Perus/Edistynyt tila | Vaihtaa perus- ja [[#filter_advanced|edistyneen]] suodatustilan välillä. |
 
 Loput näytöstä on jaettu eri osioihin. Voit asettaa suodatinkriteerin useampaan kuin yhteen osioon, jolloin suodatinkriteerit yhdistellään käyttämällä JA-logiikkaa. Esimerkiksi, valintojen **Kätkötyyppi** sekä **Vaikeus** asettaminen tilaan //Tradikätkö// ja //1.0-3.0// suodattaa vain kätköt jotka sekä ovat tyyppiä //Tradikätkö// että omaavat **Vaikeus** <= 3.0.
@@ -95,9 +95,9 @@ Lisätäksesi suodatinkriteerin, napauta **Lisää suodatinkriteeri** -nappia yl
 
 Kriteerin valinta lisää kyseisen suodattimen kriteerilistaan. Kaikki kriteerit selostetaan [[#filter_criterias|täällä]].
 
-Poistaaksesi suodatinkriteerin, napauta roskakorin kuvaketta {{:ic_menu_delete.png?nolink&30 |}} sen oikeassa ylänurkassa.
+Poistaaksesi suodatinkriteerin, napauta roskakorin kuvaketta {{:ic_menu_delete.svg?nolink&30 |}} sen oikeassa ylänurkassa.
 
-Vaihtaaksesi listassa olevien suodatinkriteerien järjestystä, napauta ja vedä vetokuvaketta {{:settings_details_black.png?nolink&30 |}} sen oikeassa ylänurkassa.
+Vaihtaaksesi listassa olevien suodatinkriteerien järjestystä, napauta ja vedä vetokuvaketta {{:ic_menu_reorder.svg?nolink&30 |}} sen oikeassa ylänurkassa.
 
 ==== Lataa ja tallenna suodattimet ====
 
@@ -105,11 +105,11 @@ Suodatinkokonaisuudet voi vapaasti tallentaa ja ladata käyttäen vapaavalintais
 
 {{ :en:filter-advanced-saveload.png?direct&400 |}} 
 
-Tallentaaksesi suodattimen, napauta tallennuskuvaketta {{:ic_menu_save.png?nolink&30 |}}. Esiin tulee ikkuna, jossa voit syöttää nimen suodattimelle:
+Tallentaaksesi suodattimen, napauta tallennuskuvaketta {{:ic_menu_save.svg?nolink&30 |}}. Esiin tulee ikkuna, jossa voit syöttää nimen suodattimelle:
 
 {{:en:filter-advanced-save-dialog.png?direct&300|}} 
 
-Ladataksesi tai poistaaksesi olemassa olevan suodattimen, napauta muokkauskuvaketta {{:ic_menu_agenda.png?nolink&30|}}. Esiin tulee ikkuna, joka sisältää kaikki olemassa olevat suodattimet, ja voit valita niistä yhden ja joko ladata tai poistaa sen:
+Ladataksesi tai poistaaksesi olemassa olevan suodattimen, napauta muokkauskuvaketta {{:ic_menu_manage_list.svg?nolink&30|}}. Esiin tulee ikkuna, joka sisältää kaikki olemassa olevat suodattimet, ja voit valita niistä yhden ja joko ladata tai poistaa sen:
 
 {{ :en:filter-advanced-load-dialog.png?direct&300 |}} 
 

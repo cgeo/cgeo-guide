@@ -38,7 +38,7 @@ Di nuovo:\\
 È importante familiarizzare con i diversi tipi, valutazioni del terreno, attributi, ecc. Prima di iniziare a cercare un geocache!
 </WRAP>
 
-Quando finalmente si è selezionato un cache e si è pronti, premere l'icona ''Naviga'' {{:ic_menu_goto.png?nolink|}} nella barra del titolo dei dettagli del cache. Ci sono [[.navigation|diverse opzioni]] a seconda delle esigenze. Ecco una breve descrizione dei metodi di navigazione più importanti:
+Quando finalmente si è selezionato un cache e si è pronti, premere l'icona ''Naviga'' {{:ic_menu_goto.svg?nolink|}} nella barra del titolo dei dettagli del cache. Ci sono [[.navigation|diverse opzioni]] a seconda delle esigenze. Ecco una breve descrizione dei metodi di navigazione più importanti:
 
   * **[[compass|Bussola]]**:\\ Mostrerà costantemente la distanza e la direzione dalla cache (in relazione alla precisione del sensore GPS del dispositivo).
 {{ :en:navigate_compass.png?direct&300 |}}
