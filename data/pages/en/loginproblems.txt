@@ -1,0 +1,149 @@
+====== Login Problems ======
+
+If c:geo cannot login to the geocaching server it will show a warning on the main screen:
+
+{{ :en:loginproblems_1.png?direct&400 |}}
+
+This page provides some checks you should do to find out the reason for the login problem. Please follow the steps below in order to find the root cause of your problem and get you going again.
+
+<WRAP center round info 100%>
+Please kindly follow all steps listed below before contacting our [[mailto:support@cgeo.org|support team]].
+</WRAP>
+
+
+===== 1. Check available updates =====
+
+Sometimes changes on the geocaching server need an adaption on c:geo side as well. Outdated c:geo versions might no longer be able to login or have some other problems.
+
+
+<WRAP center round todo 60%>
+Therefore please check first of all, if there is an update of c:geo available and update your app if applicable.
+</WRAP>
+
+
+
+
+===== 2. Check geocaching website =====
+
+It is also possible, that the geocaching service itself has some outage and therefore c:geo cannot connect to it. Check if you can reach the website of your geocaching service using a web browser and that you can login on their website.
+For geocaching.com you can also check their [[https://status.geocaching.com|status page]] to see, whether there are any known problems on their side.
+
+<WRAP center round todo 60%>
+If a geocaching server is not available, you need to wait until its available again to connect with c:geo.
+</WRAP>
+
+
+===== 3. Check internet connection =====
+
+If you updated to the newest c:geo version or are already using the newest version and the problem persists, please make sure you have a working network connection. c:geo cannot login without internet connection. Also using some antivirus- or firewall apps might block internet traffic for some apps. 
+
+<WRAP center round todo 60%>
+Restore internet access and restart c:geo to trigger a new login.
+</WRAP>
+
+
+
+===== 4. Check authentication data =====
+
+==== 4a. Check your username/password ====
+
+
+If you successfully checked your internet connection and the problem in c:geo still persists, you should check the authentication data you stored in c:geo.
+
+<WRAP center round todo 60%>
+If you e.g. recently changed your password on the geocaching website, you need to apply this change also in c:geo to be able to login again.
+</WRAP>
+
+
+To check your authentication please tap on the “Not logged in…” message box shown on the main screen. 
+
+{{ :en:loginproblems_1a.png?direct&400 |}}
+
+Afterwards tap “Yes” to open the geocaching service configuration. Alternatively you can reach the service configuration from c:geo Menu → Settings → Services.
+
+
+{{ :en:loginproblems_2.png?direct&400 |}}
+
+Select the geocaching service you want to check (e.g. geocaching.com), make sure it is activated and select “Update or remove authorization”. 
+
+<WRAP center round tip 60%>
+You can also long tap on the menu item "Update or remove authorization" to fully reset the login data.
+</WRAP>
+
+{{ :en:loginproblems_3.png?direct&600 |}}
+
+
+This will open a screen, where you should again enter your username and password for that geocaching service. Afterwards select “Check authentication” to see if login is either now possible or what error is returned.
+
+
+{{ :en:loginproblems_5.png?direct&400 |}}
+
+==== 4b. Possible error messages ====
+
+<WRAP center round todo 60%>
+If you checked everything listed above and login still fails, you should look into the error cause returned by c:geo while performing the "Check of authentication data" as described above.
+</WRAP>
+
+The following chapters provide an explanation and possible fixes for all error causes.
+
+
+
+
+
+=== Login failed: Wrong username and/or password ===
+
+In 99% of cases, where this error message is shown, it really means, that you entered wrong credentials. Also, some special characters you may use in your username and/or password might look slightly different or can be confused with other characters on your Android keyboard.  
+
+<WRAP center round todo 60%>
+Please carefully check the entered username and password and be aware, that username and password are case sensitive.
+</WRAP>
+
+[[https://www.cgeo.org/faq#forgot-login|This FAQ entry]] describes how to reset your password and/or lookup your username.
+
+=== Login failed: Captcha required ===
+
+c:geo has detected, that the geocaching website requires you to solve a Captcha to login. c:geo therefore cannot login. geocaching.com might use such Captcha after detecting consecutive login failures (e.g. due to wrong password). 
+
+<WRAP center round todo 60%>
+Please login once on the geocaching website using your browser/PC, solve the Captcha there and try again with c:geo after you successfully logged in there.
+</WRAP>
+
+Furthermore geocaching.com might user such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
+
+=== Login failed: You must validate your account on the Geocaching.com website first ===
+
+You mail address and/or your account is not yet or no longer validated on the geocaching server. 
+
+<WRAP center round todo 60%>
+Please login to the geocaching website using your browser or PC and validate your mail address and/or account on the geocaching website. Afterwards try again to login with c:geo.
+</WRAP>
+
+
+=== Login failed: Unknown communication error ===
+
+In case you are using any anti-virus,firewall, Adblocker or VPN tool (e.g. F-Secure, AdAway, McAfee, Orbot, Corporate VPNs, TOR) please check if this might be blocking or disturbing your internet connection. 
+
+<WRAP center round todo 60%>
+Try disabling such tool and check if the login works now. 
+</WRAP>
+
+If the date/time is wrong this might lead to problems establishing a secure connection to the server.
+
+<WRAP center round todo 60%>
+Please also check that your phone is working with the correct date, time zone and time. 
+</WRAP>
+ 
+Sometimes network providers insert messages into the HTML-traffic which prevents c:geo from logging in while on mobile network. A clear indication for this problem is, that c:geo only works on your Wi-Fi connection at home but not while on a mobile network. 
+
+<WRAP center round todo 60%>
+In this case please go to the c:geo settings Menu → Settings → Services and enable “Identify as Android Browser”. Afterwards you might have to restart your phone to be sure these settings take effect.
+</WRAP>
+
+
+===== If nothing helps... =====
+
+Some final recommendations if none of the above solved your problem:
+
+  - Make sure to also try the "long tap" to delete your authorization data in c:geo as described in step 4 on this page. This might help in rare case when outdated tokens,cookies or certificates are used due to data caching.
+  - Consider de-installing and re-installing c:geo. After a new installation the installation wizard will help you to set up the connection as described in [[.:firststeps|First steps with c:geo]]. You might want to perform a [[.:mainmenu:settings#backup|backup]] of your data in c:geo before doing this.
+  - Contact our [[mailto:support@cgeo.org|support team]] by using the menu "Report problem" on the c:geo main screen (behind the three dot button), provide a detailed problem description and also tell us you already followed all steps on this page.

@@ -7,6 +7,7 @@
       * [[installation|Installation and update]]  
       * [[firststeps|First steps with c:geo]]
       * [[basicuse|Basic use]]
+      * [[loginproblems|Login problems]]
 
     * [[start#users_manual|Users manual]]
       * [[.mainmenu:start|Main screen]]

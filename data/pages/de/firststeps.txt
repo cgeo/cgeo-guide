@@ -17,6 +17,7 @@ Alternativ solltest du bereits vorab ein Konto auf der Webseite des Geocaching-D
 [[.mainmenu:settings#Services|Hier]] findest mehr Informationen bezüglich der von c:geo unterstützten Geocaching-Dienste.
 </WRAP>
 
+
 Beim ersten Start nach der Installation von c:geo wird dir ein Konfigurationsassistent dabei helfen, c:geo zum Laufen zu bekommen indem er dich durch die wichtigsten Konfigurationsschritte führt.
 Obwohl der Konfigurationsassistent selbsterklärend sein sollte, geben wir dir hier auf dieser Seite noch mehr Hilfe und Hintergründe. Folge den roten Markierungen der folgenden Bilder, um den Prozess zu durchlaufen. Orange Markierungen zeigen optionale Schritte oder geben zusätzliche Tipps. Du kannst auf die Bilder klicken um sie zu vergrößern.
 

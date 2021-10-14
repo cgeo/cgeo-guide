@@ -8,6 +8,7 @@
       * [[installation|Asennus ja päivitys]]  
       * [[firststeps|c:geon käytön aloitus]]
       * [[basicuse|c:geon peruskäyttö]]
+      * [[loginproblems|Kirjautumisongelmat]]
 
     * [[start#users_manual|Käyttöohje]]
       * [[.mainmenu:start|Päävalikko]]

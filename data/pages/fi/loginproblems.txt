@@ -1,0 +1,148 @@
+====== Kirjautumisongelmat ======
+
+Jos c:geo ei pysty kirjautumaan sisään geokätköilysivustolle, se näyttää päävalikossa varoituksen:
+
+{{ :en:loginproblems_1.png?direct&400 |}}
+
+Tässä sivussa on lueteltu muutamia tarkistuksia, jotka sinun olisi hyvä käydä läpi löytääksesi syyn, joka aiheuttaa ongelmia sisäänkirjautumisessa. Seuraa alla olevia vaiheita järjestyksessä, jotta löydät kirjautumisongelmien syyn ja pääset jälleen liikkeelle.
+
+<WRAP center round info 100%>
+Ole hyvä ja seuraa kaikkia alla olevia askelia ennen kuin otat yhteyttä [[mailto:support@cgeo.org|tukitiimiimme]].
+</WRAP>
+
+
+===== 1. Tarkista saatavilla olevat päivitykset =====
+
+Joskus geokätköilysivustolle tulee muutoksia, joihin c:geo vaatii vastaavasti muutoksia toimiakseen. On mahdollista, että vanhentuneet c:geon versiot eivät pysty enää kirjautumaan tai niillä on muita ongelmia.
+
+
+<WRAP center round todo 60%>
+Joten, ennen kaikkea muuta, tarkista, että onko c:geoon saatavilla päivitystä, ja päivitä sovellus, jos päivitys on saatavilla.
+</WRAP>
+
+
+
+
+===== 2. Tarkista geokätköilysivusto =====
+
+On myös mahdollista, että geokätköilypalvelulla itsellään on syystä tai toisesta palvelukatkos, ja c:geo ei pysty ottamaan yhteyttä siihen. Tarkista, pääsetkö geokätköilysivustolle, käyttämällä selainta, ja että voit kirjautua sisään heidän verkkosivuilla.
+Voit tarkistaa myös geocaching.com:in [[https://status.geocaching.com|tilasivun]], jos heidän puolella on tiedossa olevia ongelmia.
+
+<WRAP center round todo 60%>
+Jos geokätköilysivustossa on katkos, sinun tulee odottaa kunnes sivusto on käytettävissä, jotta voit ottaa siihen yhteyden c:geon avulla.
+</WRAP>
+
+
+===== 3. Tarkista internetyhteys =====
+
+Jos päivitit uudempaan c:geon versioon, tai käytät jo uusinta versiota, ja ongelmat jatkuvat, varmista, että sinulla on toimiva internetyhteys. c:geo ei voi kirjautua sisään ilman internetyhteyttä. Myös joidenkin antivirus- tai palomuurisovellusten käyttö voi estää joidenkin sovellusten internetliikenteen.
+
+<WRAP center round todo 60%>
+Palauta internetyhteys ja käynnistä c:geo uudelleen käynnistääksesi uuden kirjautumisen.
+</WRAP>
+
+
+
+===== 4. Tarkista kirjautumistiedot =====
+
+==== 4a. Tarkista käyttäjänimi/salasana ====
+
+
+Jos internetyhteytesi toimii, ja c:geon ongelma on edelleen olemassa, sinun tulisi tarkistaa c:geoon tallentamasi kirjautumistiedot.
+
+<WRAP center round todo 60%>
+Esimerkiksi, jos olet äskettäin vaihtanut salasanan geokätköilysivustolla, sinun tulee tehdä sama muutos c:geoon pystyäksesi kirjautumaan sisään.</WRAP>
+
+
+Tarkistaaksesi kirjautumisesi, napauta "Et ole kirjautunut sisään…"-viestilaatikkoa päävalikossa. 
+
+{{ :en:loginproblems_1a.png?direct&400 |}}
+
+Tämän jälkeen napauta "Kyllä" avataksesi geokätköilypalveluiden määrityksen. Vaihtoehtoisesti voit mennä palveluiden määritykseen avaamalla c:geon valikon → Asetukset → Palvelut.
+
+
+{{ :en:loginproblems_2.png?direct&400 |}}
+
+Valitse geokätköilypalvelu jonka haluat tarkistaa (kuten geocaching.com), varmista että se on aktivoitu ja valitse "Päivitä tai poista valtuutus".
+
+<WRAP center round tip 60%>
+Voit myös painaa pitkään valikkokohtaa "Päivitä tai poista valtuutus" nollataksesi kirjautumistiedot.
+</WRAP>
+
+{{ :en:loginproblems_3.png?direct&600 |}}
+
+
+Tämä avaa näytön, jossa sinun tulisi syöttää uudelleen kyseisen geokätköilypalvelun käyttäjätunnuksesi ja salasanasi. Tämän jälkeen valitse "Tarkista todennus", jotta voidaan tarkistaa onko kirjautuminen mahdollinen, vai mikä virhe ilmenee.
+
+
+{{ :en:loginproblems_5.png?direct&400 |}}
+
+==== 4b. Mahdolliset virheviestit ====
+
+<WRAP center round todo 60%>
+Jos tarkistit kaikki yllä listatut asiat ja sisäänkirjautuminen epäonnistuu silti, sinun tulisi katsoa virheviesti, jonka c:geo näyttää "Tarkista kirjautumistiedot"-vaiheen aikana, kuten selostettu yllä.
+</WRAP>
+
+Seuraavat kappaleet tarjoavat selostuksen ja mahdolliset korjaukset kaikille virheen aiheuttaville syille.
+
+
+
+
+
+=== Kirjautuminen epäonnistui: Väärä käyttäjätunnus/salasana ===
+
+99% tapauksissa joissa tämä virheviesti näytetään, se todellakin tarkoittaa että olet syöttänyt väärät kirjautumistiedot. Jotkut erikoismerkit, joita voi olla käyttäjätunnuksessasi ja/tai salasanassasi, voivat näyttää hieman erilaiselta tai voivat mennä sekaisin muiden Androidnäppäimistössäsi olevien merkkien kanssa.  
+
+<WRAP center round todo 60%>
+Tarkista huolellisesti syötetty käyttäjätunnus ja salasana, ja huomioi, että käyttäjätunnuksen ja salasanan kirjainkoko merkitsevät.
+</WRAP>
+
+[[https://www.cgeo.org/faq#forgot-login|Tämä FAQ-kohta (englanniksi)]] selostaa, kuinka nollata salasanasi ja/tai etsiä oma käyttäjätunnuksesi.
+
+=== Kirjautuminen epäonnistui: Captcha vaaditaan ===
+
+c:geo on havainnut, että geokätköilysivusto vaatii sinua ratkaisemaan Captchan kirjautuaksesi sisään. c:geo ei täten pysty kirjautumaan. geocaching.com saattaa käyttää kyseistä Captchaa, jos se on havainnut useamman epäonnistuneen sisäänkirjautumisen (kuten väärän salasanan takia).
+
+<WRAP center round todo 60%>
+Kirjaudu sisään geokätköilysivustolle käyttäen selaintasi/tietokonetta, ratkaise Captcha siellä, onnistuneen sisäänkirjautumisen jälkeen yritä kirjautua c:geossa uudelleen.
+</WRAP>
+
+Lisäksi, geocaching.com voi kysyä käyttäjältä Captchaa silloin, kun se havaitsee sisäänkirjautumisen epäilyttävästä, mustalla listalla olevasta tai ei-tunnetusta IP-osoitteesta. Tämä voi tapahtua silloin, kun käytät VPN-työkaluja, anonymisoijaa (kuten TOR), tai joitakin julkisia verkkoja. Kytke kyseiset työkalut pois päältä, ja yritä kirjautumista c:geossa uudelleen. Kannattaa myös yrittää kirjautumista c:geossa käyttäen eri internetyhteyttä (kuten mobiiliverkkoa Wifin sijaan.
+
+=== Kirjautuminen epäonnistui: Sinun on ensin vahvistettava tilisi Geocaching.com-sivustolla. ===
+
+Sähköpostiosoitteesi ja/tai tilisi ei ole vielä tai ei ole enää vahvistettu geokätköilysivustolla.
+
+<WRAP center round todo 60%>
+Kirjaudu sisään geokätköilysivustolle käyttäen selainta tai tietokonetta, ja vahvista sähköpostiosoitteesi ja/tai tilisi geokätkösivustoilla. Tämän jälkeen yritä kirjautumista uudelleen c:geossa.
+</WRAP>
+
+
+=== Kirjautuminen epäonnistui: Tuntematon kommunikaatiovirhe ===
+
+Jos käytät mitä tahansa antivirussovellusta, palomuuria, mainosten esto-ohjelmaa tai VPN-työkalua (kuten F-Secure, AdAway, McAfee, Orbot, yritys-VPNt, TOR), tarjistathan, että mikään näistä ei estä tai häiritse internetyhteyttäsi.
+
+<WRAP center round todo 60%>
+Yritä kyseisen työkalun kytkemistä pois päältä ja tarkista, jos sisäänkirjautuminen onnistuu nyt.
+</WRAP>
+
+Jos päivämäärä/aika on väärin, tämä voi johtaa ongelmia turvallisen yhteyden palvelimeen muodostamisessa.
+
+<WRAP center round todo 60%>
+Tarkista, että laitteessasi on oikea päivä, aikavyöhyke ja aika.
+</WRAP>
+ 
+Joskus verkko-operaattorit syöttävät viestejä HTML-liikenteeseen, joka estää c:geota kirjautumasta sisälle ollessaan mobiiliverkossa. Selvänä merkkinä täseä on se, että c:geo toimii vain Wi-Fi-yhteydessä kotonasi, mutta ei mobiiliverkossa.
+
+<WRAP center round todo 60%>
+Tässä tapauksessa, mene c:geon asetuksiin Valikko → Asetukset → Palvelut ja kytke "Android-selain" päälle. Tämän jälkeen voi olla, että sinun tulee käynnistää puhelimesi uudelleen, jotta asetukset tulevat voimaan.
+</WRAP>
+
+
+===== Jos mikään ei auta... =====
+
+Joitakin viimeisiä suosituksia jos mikään ylläolevista ei ratkaise ongelmaasi:
+
+  - Varmista, että yrität myös pitkää painallusta poistaaksesi c:geon todennustiedot, kuten selostettuna vaiheessa 4 tällä sivulla. Tämä voi auttaa joissakin harvoissa tapauksissa, kun vanhentuneita evästeitä tai sertifikaatteja on käytössä johtuen välimuistiin tallennetuista tiedoista.
+  - Harkitse c:geon poistamista ja asentamista uudelleen. Uudelleenasentamisen jälkee, määritys auttaa sinua määrittämään yhteyden, kuten selostettu kohdassa [[.:firststeps|c:geon käytön aloitus]]. Voi olla, että haluat suorittaa c:geossa olevien tietojesi [[.:mainmenu:settings#backup|varmuuskopioinnin]] ennen tämän tekemistä.
+  - Ota yhteys [[mailto:support@cgeo.org|tukitiimiimme]] käyttämällä päävalikon valikon kohtaa "Ilmoita ongelmasta" (kolmen pisteen valikon takana), selosta ongelma yksityiskohtaisesti, ja kerro myös, seurasitko kaikkia vaiheita tällä sivulla.

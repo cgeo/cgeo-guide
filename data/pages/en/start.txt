@@ -22,7 +22,7 @@ c:geo is only a client application for geocaching and is not associated with any
   * [[firststeps|First steps with c:geo]] - How to authenticate with geocaching services in c:geo
   * [[basicuse|Basic c:geo usage]] - What is geocaching and how to find your first geocache with c:geo
 
-
+  * [[loginproblems|Login problems]] - What to do in case of login problems?
 ===== Users' Manual =====
 {{anchor:users_manual:}}
 

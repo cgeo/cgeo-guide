@@ -32,7 +32,7 @@ Führe die folgenden Schritte auf dem alten Gerät durch:
 Führe die folgenden Schritte auf dem neuen Gerät durch:
 
   - [[.:installation|Installiere]] die gleiche c:geo Version wie auf dem alten Gerät. Wenn die Versionen unterschiedlich sind, könnte die Migration fehlschlagen und einige Einschränkungen haben.
-  - Kopiere das gespeicherte Sicherung auf das neue Gerät in einen Ordner deiner Wahl
+  - Kopiere die gespeicherte Sicherung auf das neue Gerät in einen Ordner deiner Wahl
   - Starte c:geo
   - Folge den Schritten des [[.:firststeps|Konfigurations-Assistenten]] (die Dienste-Konfiguration kannst du überspringen, da sie Teil deiner Sicherung ist) bis du die Ansicht "Erweiterte Konfiguration" erreichst
   - Wähle ''Wiederherstellen'' auf diesem Assistenten-Bildschirm, um eine Ordnerauswahl zu öffnen

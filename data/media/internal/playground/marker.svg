@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30" height="30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#fff" stroke="#383838">
+  <path id="pin" transform="matrix(1.1451 0 0 1.0688 -1.0308 .66564)" d="m14 21.197c-0.70408 0.29179-1.4046 0.93052-1.8086 1.7949-0.88162 1.8863 1.8086 4.0078 1.8086 4.0078s2.6902-2.1215 1.8086-4.0078c-0.40401-0.86441-1.1045-1.5031-1.8086-1.7949z" fill-rule="evenodd" stroke-width=".7" style="mix-blend-mode:normal"/>
+  <path id="hexa" transform="matrix(.98491 0 0 .98491 .28885 .005942)" d="m28.509 15.152-6.7239 11.79-13.572 0.071811-6.8483-11.718 6.7239-11.79 13.572-0.071811z" display="none" stroke-width=".78586"/>
+  <rect id="rect" x="3.387" y="3.387" width="23.226" height="23.226" rx="4.5852" ry="4.5852" display="none" stroke-linecap="square" stroke-width=".774"/>
+  <circle id="gc" cx="15" cy="15" r="11.613" stroke-width=".774"/>
+ </g>
+</svg>

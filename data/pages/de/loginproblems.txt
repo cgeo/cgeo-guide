@@ -1,0 +1,138 @@
+====== Probleme bei der Anmeldung ======
+
+Wenn c:geo sich nicht beim Geocaching-Server anmelden kann, wird eine Warnung auf dem Hauptbildschirm angezeigt:
+
+{{ :en:loginproblems_1.png?direct&400 |}}
+
+Diese Seite gibt dir eine Hilfestellung was du tun kannst, um die Ursache des Anmeldeproblems zu finden. Bitte folge den unten beschriebenen Schritten, um festzustellen, was die Ursache deines Problems ist und dich wieder zurück ins Spiel zu bekommen.
+
+<WRAP center round info 100%>
+Bitte befolge alle unten gelisteten Schritte bevor du unser [[mailto:support@cgeo.org|Support-Team]] kontaktiert.
+</WRAP>
+
+===== 1. Auf Aktualisierungen prüfen =====
+
+Manchmal erfordern Änderungen auf dem Geocaching-Server auch eine Anpassung auf der c:geo Seite. Veraltete c:geo Versionen könnten daher nicht mehr in der Lage sein sich anzumelden und zeigen ggf. auch weitere Probleme.
+
+<WRAP center round todo 60%>
+Bitte prüfe daher als allererstes ob eine Aktualisierung von c:geo verfügbar ist und aktualisiere deine Installation.
+</WRAP>
+
+===== 2. Geocaching-Webseite prüfen =====
+
+Es ist auch möglich, dass der Geocaching-Dienst selbst einen Ausfall hat und sich c:geo daher nicht anmelden kann. Prüfe, ob du die Geocaching-Webseite in deinem Webbrowser erreichen und dich dort anmelden kannst.
+Für geocaching.com kannst du auch deren [[https://status.geocaching.com|Status-Seite]] ansehen um festzustellen, ob es bekannte Probleme auf deren Seite gibt.
+
+<WRAP center round todo 60%>
+Wenn der Geoaching-Server nicht verfügbar ist, warte bitte bis dieser wieder erreichbar ist und versuche erneut dich mit c:geo anzumelden.
+</WRAP>
+
+===== 3. Internetverbindung prüfen =====
+
+Wenn du bereits die neueste c:geo Version nutzt aber du weiterhin Probleme hast, stelle bitte sicher, dass deine Internet-Verbindung auf dem Handy funktioniert.
+c:geo kann sich ohne eine Internet-Verbindung nicht anmelden. Des weiteren könnte auch eine AntiVirus- oder Firewall-App den Internetverkehr blockieren.
+
+<WRAP center round todo 60%>
+Stelle die Internetverbindung wieder her und starte c:geo neu, um ein erneutes Anmelden auszulösen.
+</WRAP>
+
+===== 4. Authentisierungsdaten prüfen =====
+
+==== 4a. Prüfe Benutzername/Passwort ====
+
+Wenn du deine Internetverbindung erfolgreich geprüft hast und das Problem weiterhin besteht, solltest du die Authentisierungsdaten, welche in c:geo gespeichert sind, prüfen.
+
+<WRAP center round todo 60%>
+Wenn du z.B. kürzlich dein Passwort auf der Geocaching-Webseite geändert hast, musst du diese Änderung auch in c:geo vornehmen, bevor du dich mit c:geo wieder anmelden kannst.
+</WRAP>
+
+Um deine Authentisierungsdaten zu prüfen, tippe bitte auf die "Nicht angemeldet..."-Meldung auf dem Hauptbildschirm.
+
+{{ :en:loginproblems_1a.png?direct&400 |}}
+
+Danach tippe auf "Ja" um den Konfigurationsbildschirm für Geocaching-Dienste zu prüfen. Alternativ erreichst du diese Konfigurationsseite aus dem c:geo Menü → Einstellungen → Dienste.
+
+{{ :en:loginproblems_2.png?direct&400 |}}
+
+Wähle den Geocaching-Dienst, den du prüfen willst (z.B. geocaching.com), stelle sicher, dass dieser aktiviert ist und tippe auf "Autorisierung aktualisieren oder entfernen".
+
+<WRAP center round tip 60%>
+Du kannst den Menüpunkt "Autorisierung aktualisieren oder entfernen" auch länger drücken um die Anmeldedaten komplett zurückzusetzen.
+</WRAP>
+
+{{ :en:loginproblems_3.png?direct&400 |}}
+
+{{ :en:loginproblems_4.png?direct&400 |}}
+
+Dies öffnet eine Seite, auf der du deinen Benutzernamen und Kennwort für diesen Dienst eingeben musst. Tippe dann auf "Authentifizierung überprüfen" um zu sehen, ob die Anmeldung nun möglich ist oder welche Fehlermeldung angezeigt wird.
+
+{{ :en:loginproblems_5.png?direct&400 |}}
+
+
+
+
+==== 4b. Mögliche Fehlermeldungen ====
+
+<WRAP center round todo 60%>
+Wenn du alle oben beschriebenen Punkte überprüft hast und die Anmeldung weiterhin fehlschlägt solltest du dir die Fehlermeldung anschauen, die c:geo beim Anmeldeversuch (wie oben beschrieben) zurückmeldet.
+</WRAP>
+
+Die folgenden Kapitel geben eine Erklärung und Hilfestellung für jede mögliche Fehlermeldung.
+
+=== Anmeldung fehlgeschlagen: Benutzername und/oder Kennwort falsch ===
+
+In 99% der Fälle, in denen diese Fehlermeldung angezeigt wird, meint dies in der Tat, dass du Benutzernamen und/oder Kennwort falsch eingegeben hast.  Beachte auch, dass einige spezielle Zeichen, die du evtl. in deinem Benutzernamen und/oder Kennwort benutzt, auf deiner Android-Tastatur leicht anders aussehen oder verwechselt werden können.
+
+<WRAP center round todo 60%>
+Bitte prüfe die eingegebenen Daten genauestens und beachte, die korrekte Groß- und Kleinschreibung bei Benutzername und Kennwort.
+</WRAP>
+
+[[https://www.cgeo.org/faq#forgot-login|Dieser FAQ-Eintrag]] beschreibt, wie du dein Passwort zurücksetzen kannst und/oder deinen Benutzernamen herausfinden kannst.
+
+=== Anmeldung fehlgeschlagen: Captcha erforderlich ===
+
+c:geo hat festgestellt, dass die Geocaching-Webseite das Lösen eines Captcha erfordert. c:geo kann sich daher nicht anmelden. geocaching.com benutzt solche Captchas nach mehreren erfolglosen Anmeldeversuchen (z.B. durch ein falsches Passwort). 
+
+<WRAP center round todo 60%>
+Bitte melde dich einmalig mit dem Browser/dem PC an, löse dabei das Captcha und versuche danach dich erneut mit c:geo anzumelden.
+</WRAP>
+
+Des weiteren benutzt geocaching.com solche Captchas, wenn Anmeldeversuche von verdächtigen, gesperrten oder nicht identifizierbaren IP-Adressen festgestellt werden. Dies kann passieren, wenn du VPN- oder andere Anonymisierungsdienste (z.B. TOR) oder ein öffentliches WLAN nutzt. Bitte deaktiviere solche Dienste und versuche dich erneut mit c:geo anzumelden. Du solltest auch versuchen, dich über eine andere Internetverbindung (z.B. Mobilnetz statt WLAN) anzumelden.
+
+=== Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden. ===
+
+Deine Mailadresse und/oder dein Zugang ist noch nicht oder nicht mehr auf dem Geocaching-Server validiert. 
+
+<WRAP center round todo 60%>
+Bitte melde dich mit einem Browser oder PC auf der Geocaching-Webseite an und validiere deinen Zugang/deine Mailadresse. Versuche danach erneut dich mit c:geo anzumelden.
+</WRAP>
+
+
+=== Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler ===
+
+Falls du ein Antivirus-,Firewall-, Werbeblocker oder VPN-Tool (z.B. F-Secure, AdAway, McAfee, Orbot, Firmen-VPNs, TOR) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört.
+
+<WRAP center round todo 60%>
+Versuche ein solches Tool zu deaktivieren und erneut zu prüfen, ob die Anmeldung nun funktioniert.
+</WRAP>
+
+Wenn das Datum und/oder die Uhrzeit nicht korrekt ist, kann es zu Problemen kommen eine sichere Verbindung zur Webseite aufzubauen.
+
+<WRAP center round todo 60%>
+Bitte prüfe, dass dein Telefon das richtige Datum, die richtige Zeitzone und die richtige Uhrzeit hat. 
+</WRAP>
+
+Manchmal fügen Netzwerk-Betreiber Nachrichten in den HTML-Verkehr ein, die c:geo davon abhalten sich in einem Mobilfunknetz erfolgreich einzuloggen. Ein klares Indiz für dieses Problem ist, dass c:geo nur mit deiner WLAN-Verbindung funktioniert, aber nicht im Mobilfunk-Netz. 
+
+<WRAP center round todo 60%>
+Gehe in diesem Fall bitte in das c:geo Menü → Einstellungen → Dienste und aktiviere “Als Android-Browser identifizieren”. Danach musst du evtl. dein Telefon neu starten, um sicherzustellen, dass die Einstellung aktiv ist.
+</WRAP>
+
+===== Wenn nichts hilft... =====
+
+Einige finale Empfehlungen, wenn keiner der oben genannten Schritte dein Problem gelöst hat:
+
+  - Stelle sicher, dass du auch das "lange Tippen" um deine Authentisierungsdaten in c:geo zu löschen, wie in Schritt 4 auf dieser Seite beschrieben, ausprobiert hast. Das kann in seltenen Fällen helfen, wenn veraltete Token, Cookies oder Zertifikate bedingt durch Zwischenspeicherung verwendet werden.
+  - Überlege c:geo zu deinstallieren und neu zu installieren. Nach einer Neuinstallation hilft dir der Installations-Assistent wie in [[.:firststeps|Erste Schritte mit c:geo]] beschrieben bei der Einrichtung der Verbindung. Vorher solltest du ggf. eine [[.:mainmenu:settings#backup|Sicherung]] deiner Daten in c:geo vornehmen.
+  - Kontaktiere unser [[mailto:support@cgeo.org|Support-Team]] mittels "Problem melden" auf dem c:geo Hauptbildschirm (hinter dem Dreipunkt-Knopf), füge eine detaillierte Problembeschreibung bei und teile uns auch mit, dass du bereits alle Schritte auf dieser Seite geprüft hast.
+

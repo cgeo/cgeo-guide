@@ -17,8 +17,11 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
   * [[installation|Installation und Update von c:geo]] - Wie und von wo kann c:geo installiert und aktualisiert werden?
   * [[installation#permissions|c:geo Geräte-Berechtigungen]] - Warum benötigt c:geo die angefragten Berechtigungen auf deinem Gerät?
 
-  * [[firststeps|Erste Schritte mit c:geo]] - Erster Start der App und Autorisierung des Geocaching-Dienstes
+  * [[firststeps|Erste Schritte mit c:geo]] - Erster Start der App und Anmeldung beim Geocaching-Dienst
   * [[basicuse|Grundlegende Nutzung von c:geo]] - Was ist Geocaching und wie findest du deinen ersten Geocache mit c:geo?
+
+
+  * [[loginproblems|Probleme bei der Anmeldung]] - Was tun bei Problemen mit der Anmeldung am Geocaching-Server?
 
 
 ===== Bedienungsanleitung =====
