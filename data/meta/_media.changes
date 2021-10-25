@@ -1,27 +1,3 @@
-1603355488	88.69.176.81	E	en:livemap_2.png	lineflyer			198832
-1603357411	88.69.176.81	C	en:livemap_hiding.png	lineflyer	created		469198
-1603357611	88.69.176.81	E	en:livemap_mapsettings.png	lineflyer			-634544
-1603358558	88.69.176.81	C	en:screenshot_20201022-112054_cgeo.jpg	lineflyer	created		231565
-1603358569	88.69.176.81	D	en:screenshot_20201022-112054_cgeo.jpg	lineflyer	removed		-231565
-1603358601	88.69.176.81	E	en:goto.png	lineflyer			13517
-1603359993	88.69.176.81	E	en:settings_appearance.png	lineflyer			41875
-1603361333	88.69.176.81	C	en:mainmenu:settings_cachedetails.png	lineflyer	created		223382
-1603361367	88.69.176.81	D	en:mainmenu:settings_cachedetails.png	lineflyer	removed		-223382
-1603361376	88.69.176.81	E	en:settings_cachedetails.png	lineflyer			94238
-1603364080	88.69.176.81	E	en:settings_maps_mapdata.png	lineflyer			44785
-1603364332	88.69.176.81	C	en:settings_maps_waypoints.png	lineflyer	created		148366
-1603364842	88.69.176.81	E	en:settings_maps_mapcontent.png	lineflyer			-24631
-1603365403	88.69.176.81	C	en:settings_maps_mapbehavior.png	lineflyer	created		24974
-1603365560	88.69.176.81	E	en:settings_maps_proximity.png	lineflyer			-48418
-1603366038	88.69.176.81	C	en:settings_maps_maplinecustomization.png	lineflyer	created		262321
-1603366181	88.69.176.81	C	en:settings_maps_maplinecustomization2.png	lineflyer	created		179592
-1603369703	88.69.176.81	E	en:settings_logging_otherloggingoptions.png	lineflyer			98265
-1603373554	88.69.176.81	E	en:settings_offlinedata.png	lineflyer			-16440
-1603378465	88.69.176.81	C	en:settings_other_2.png	lineflyer	created		233405
-1603378515	88.69.176.81	D	en:settings_other_2.png	lineflyer	removed		-233405
-1603378523	88.69.176.81	E	en:system_other_2.png	lineflyer			-40123
-1603379163	88.69.176.81	E	en:settings_system_backup_program.png	lineflyer			-23999
-1603379163	88.69.176.81	E	en:settings_system_backup.png	lineflyer			127222
 1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_create.png	lineflyer	created		15792
 1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_description.png	lineflyer	created		69985
 1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_details.png	lineflyer	created		126139
