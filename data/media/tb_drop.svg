@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="tb_drop">
+        <circle fill="#1B5E20" cx="12" cy="12" r="12"/>
+        <circle fill="#43A047" cx="12" cy="12" r="10"/>
+        <path fill="#fff" d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" transform="translate(3,3.4) scale(0.75)"/>
+    </svg>
+    

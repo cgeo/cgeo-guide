@@ -48,14 +48,14 @@ The following table describes the different marker types used on the live map.
 The table will only describe the different icon types, but not the different types of Geocaches. Tap on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used throughout c:geo.
 </WRAP>
 
-^ Icon ^ Description ^ 
-|{{ :my_location_chevron.png?nolink&40 |}}|This arrow is representing your current position and orientation on the map .|
-|{{ :marker.png?nolink&40 |}}|Position of a cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_disabled.png?nolink&40 |}}|Position of a disabled or archived cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_oc.png?nolink&40 |}}|Position of a cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Position of a disabled or archived cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_other.png?nolink&40 |}}|Position of a cache from another platform than geocaching.com or opencaching (e.g. extremcaching.com). The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-
+^ Icon (old) ^ Icon (new) ^ Description ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|{{ :my_location_chevron.png?nolink&40 |}}|This arrow is representing your current position and orientation on the map .|
+|{{ :marker.png?nolink&40 |}}|{{ :combined_marker_gc_pin.svg?nolink&40 |}}|Position of a cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
+|{{ :marker_disabled.png?nolink&40 |}}|{{ :combined_marker_gc_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
+|{{ :marker_oc.png?nolink&40 |}}|{{ :combined_marker_oc_pin.svg?nolink&40 |}}|Position of a cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
+|{{ :marker_disabled_oc.png?nolink&40 |}}|{{ :combined_marker_oc_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
+|{{ :marker_other.png?nolink&40 |}}|{{ :combined_marker_other_pin.svg?nolink&40 |}}|Position of a cache from another platform than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches). The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
+|{{ :marker_other.png?nolink&40 |}}|{{ :combined_marker_other_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from an another platform than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches). The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
 
 ===== Map popup window =====
 {{anchor:map_popup_window:}}
@@ -70,7 +70,7 @@ If you tap on a cache icon on the live map the following popup windows will be s
 This section of the map popup provides several menu options concerning the selected cache.
 
 ^ Icon/Option ^ Description ^
-|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the title of the selected cache.|
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the geocode of the selected cache.|
 |{{ :ic_menu_compass.svg?nolink&40 |}}|A short tap on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
 |{{ :ic_menu_near_me.svg?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|

@@ -4,22 +4,17 @@ On the [[.mainmenu:livemap|live map]] as well as on the list of your [[.mainmenu
 
 The following table describes the meaning of these markers:
 
-^ Marker ^ Name ^ Description ^
-|{{ :marker_stored.png?nolink&20 |}}|Stored|This geocache is stored offline in one of your lists.\\ This marker is only shown on the map but not in your lists, as it is logical that all caches in your lists are already stored. :-)|
-|{{ :marker_found.png?nolink&20 |}}|Found|You have already found this geocache.|
-|{{ :marker_not_found_offline.png?nolink&20 |}}|Did not find|You have a "Did not find" log for this geocache either posted online in the past or stored offline in c:geo.|
-|{{ :marker_own.png?nolink&20 |}}|Owned|This is one of your own geocaches.|
-|{{ :marker_personalnote.png?nolink&20 |}}|Personal note|A personal note is stored for this geocache.|
-|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Modified coordinates|You set new cache coordinates for this cache and it is now displayed at this modified coordinates instead of the original coordinates. A useful feature for solved mysteries or multis.|
-|{{ :marker_found_offline.png?nolink&20 |}}|Offline Found Log|You have stored an offline found log for this geocache but not yet submitted this log online.|
-|{{ :marker_note.png?nolink&20 |}}|Offline Note Log|You have stored an offline note log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
-|{{ :marker_maintenance.png?nolink&20 |}}|Offline Needs Maintenance Log|You have stored an offline "Needs maintenance" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
-|{{ :marker_owner_maintenance.png?nolink&20 |}}|Offline Owner Maintenance Log|You have stored an offline "Owner Maintenance" log for this geocache but not yet submitted this log online. \\ This status is specific for cache owners and will only be shown as long as the log is offline.|
-|{{ :marker_archive.png?nolink&20 |}}|Offline Needs Archived Log|You have stored an offline "Needs archived" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
-|{{ :marker_unknown_offline.png?nolink&20 |}}|Offline Unknown Log|You have stored an offline log of a special or unknown type for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
-|{{ :dot_traditional.png?nolink&20 |}}|Green list marker|The cache belongs to a list of stored caches for which you enabled the green list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
-|{{ :dot_multi.png?nolink&20 |}}|Orange list marker|The cache belongs to a list of stored caches for which you enabled the orange list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
-|{{ :dot_mystery.png?nolink&20 |}}|Blue list marker|The cache belongs to a list of stored caches for which you enabled the blue list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
-|{{ :dot_event.png?nolink&20 |}}|Red list marker|The cache belongs to a list of stored caches for which you enabled the red list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
-|{{ :dot_virtual.png?nolink&20 |}}|Turqoise list marker|The cache belongs to a list of stored caches for which you enabled the turqoise list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
-|{{ :dot_black.png?nolink&20 |}}|Black list marker|The cache belongs to a list of stored caches for which you enabled the tblack list marker (see [[.mainmenu:lists#manage_lists|Manage lists]]).|
+^ Marker (old) ^ Marker (new) ^ Name ^ Description ^
+|{{ :marker_stored.png?nolink&20 |}}|{{ :marker_stored.svg?nolink&20 |}}|Stored|This geocache is stored offline in one of your lists.\\ This marker is only shown on the map but not in your lists, as it is logical that all caches in your lists are already stored. :-)|
+|{{ :marker_found.png?nolink&20 |}}|{{ :marker_found.svg?nolink&20 |}}|Found|You have already found this geocache.|
+|{{ :marker_not_found_offline.png?nolink&20 |}}|{{ :marker_not_found_offline.svg?nolink&20 |}}|Did not find|You have a "Did not find" log for this geocache either posted online in the past or stored offline in c:geo.|
+|{{ :marker_own.png?nolink&20 |}}|{{ :marker_own.svg?nolink&20 |}}|Owned|This is one of your own geocaches.|
+|{{ :marker_personalnote.png?nolink&20 |}}|{{ :marker_personalnote.svg?nolink&20 |}}|Personal note|A personal note is stored for this geocache.|
+|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Modified coordinates|You set new cache coordinates for this cache and it is now displayed at this modified coordinates instead of the original coordinates. A useful feature for solved mysteries or multis.|
+| |{{ :marker_hasfinal.svg?nolink&20 |}}|Final existing|This cache has a final waypoint with valid coordinates defined (but the cache marker has not been moved to this final).|
+|{{ :marker_found_offline.png?nolink&20 |}}|{{ :marker_found_offline.svg?nolink&20 |}}|Offline Found Log|You have stored an offline found log for this geocache but not yet submitted this log online.|
+|{{ :marker_note.png?nolink&20 |}}|{{ :marker_note.svg?nolink&20 |}}|Offline Note Log|You have stored an offline note log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
+|{{ :marker_maintenance.png?nolink&20 |}}|{{ :marker_maintenance.svg?nolink&20 |}}|Offline Needs Maintenance Log|You have stored an offline "Needs maintenance" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
+|{{ :marker_owner_maintenance.png?nolink&20 |}}|{{ :marker_owner_maintenance.svg?nolink&20 |}}|Offline Owner Maintenance Log|You have stored an offline "Owner Maintenance" log for this geocache but not yet submitted this log online. \\ This status is specific for cache owners and will only be shown as long as the log is offline.|
+|{{ :marker_archive.png?nolink&20 |}}|{{ :marker_archive.svg?nolink&20 |}}|Offline Needs Archived Log|You have stored an offline "Needs archived" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
+|{{ :marker_unknown_offline.png?nolink&20 |}}|{{ :marker_unknown_offline.svg?nolink&20 |}}|Offline Unknown Log|You have stored an offline log of a special or unknown type for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|

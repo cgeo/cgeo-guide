@@ -170,12 +170,12 @@ Ein Klick auf ''Wegpunkt hinzufügen'' öffnet den [[cachedetails#waypoint_edito
 Bei den Wegpunkten gibt es verschiedene Wegpunkt-Typen, wie im Folgenden dargestellt:
 
 ^ Symbol ^ Name ^ Beschreibung ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parken|Parkkoordination für diesen Cache.|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Station mit Frage|Ein Wegpunkt eines Caches, beim dem keine physische Station versteckt ist, sondern typischerweise eine Frage beantwortet werden muss, die ggf. in der Beschreibung des Wegpunktes genannt ist.|
-|{{ :waypoint_stage.png?nolink&40 |}}|Station eines Multi-Caches|Ein Wegpunkt eines Caches, wo eine physische Station versteckt ist, die mehr Informationen zum Lösen des Caches beinhaltet.|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Ausgangspunkt|Die Koordinaten dieses Wegpunktes geben typischerweise eine Hilfestellung um den den Weg zum Caches oder zum nächsten Wegpunkt zu finden.|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Referenzpunkt|Eine generischer Referenzpunkt, der zu verschiedenen Zwecken genutzt werden kann.|
-|{{ :waypoint_flag.png?nolink&40 |}}|Final|Gibt die Position des Cache-Behälters an.|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parken|Parkkoordination für diesen Cache.|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Station mit Frage|Ein Wegpunkt eines Caches, beim dem keine physische Station versteckt ist, sondern typischerweise eine Frage beantwortet werden muss, die ggf. in der Beschreibung des Wegpunktes genannt ist.|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Station eines Multi-Caches|Ein Wegpunkt eines Caches, wo eine physische Station versteckt ist, die mehr Informationen zum Lösen des Caches beinhaltet.|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Ausgangspunkt|Die Koordinaten dieses Wegpunktes geben typischerweise eine Hilfestellung um den den Weg zum Caches oder zum nächsten Wegpunkt zu finden.|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Referenzpunkt|Eine generischer Referenzpunkt, der zu verschiedenen Zwecken genutzt werden kann.|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Final|Gibt die Position des Cache-Behälters an.|
 
 ==== Wegpunkteditor ====
 {{anchor:waypoint_editor:}}

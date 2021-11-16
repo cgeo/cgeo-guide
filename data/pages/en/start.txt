@@ -131,4 +131,4 @@ As c:geo is continuously being improved and updated, this user guide may not ref
 
   * [[https://github.com/cgeo/|c:geo development on GitHub]]
   * [[http://www.cgeo.org/development|Get involved and contribute to c:geo development]]
-  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xtap&hosted_button_id=AQBS7UP76CXW2|Donate via PayPal]]
+  * [[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AQBS7UP76CXW2|Donate via PayPal]]

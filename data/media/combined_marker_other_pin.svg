@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 36 36" id="combined_marker_other_pin">
+		<path id="pin" transform="matrix(1.3815 0 0 1.2895 -1.5719 .70603)" d="m14 21.197c-0.70408 0.29179-1.4046 0.93052-1.8086 1.7949-0.88162 1.8863 1.8086 4.0078 1.8086 4.0078s2.6902-2.1215 1.8086-4.0078c-0.40401-0.86441-1.1045-1.5031-1.8086-1.7949z" fill="#fff" fill-rule="evenodd" stroke="#383838" stroke-width=".5802" style="mix-blend-mode:normal"/>
+		<path id="marker_other" transform="matrix(.60556 0 0 .60558 8.0827 -2.1743)" d="m42.711 33.316-13.358 23.137h-26.716l-13.358-23.137 13.358-23.137h26.716z" fill="#fff" stroke="#383838" stroke-width="1.2385"/>
+	</svg>
+	

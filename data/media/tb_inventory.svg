@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="tb_inventory">
+        <circle fill="#455A64" cx="12" cy="12" r="12"/>
+        <circle fill="#90A4AE" cx="12" cy="12" r="10"/>
+        <path fill="#fff" d="M4 21H20V8H4M14 15V18H10V15H7L12 10L17 15M3 3H21V7H3" transform="translate(4.5,4.5) scale(0.625)"/>
+    </svg>
+

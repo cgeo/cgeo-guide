@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="dot_marker_archive_offline">
+        <circle id="background" fill="#fff" cx="12" cy="12" r="12"/>
+        <circle id="foreground" fill="#D32F2F" cx="12" cy="12" r="10"/>
+        <path d="m7.2 16.8 9.6-9.6" stroke="#fff" stroke-width="2.5"/>
+        <path d="m16.8 16.8-9.6-9.6" stroke="#fff" stroke-width="2.5"/>
+    </svg>
+    

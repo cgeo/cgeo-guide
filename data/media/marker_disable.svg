@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="marker_disable">
+        <circle fill="#455A64" cx="12" cy="12" r="12"/>
+        <circle fill="#90A4AE" cx="12" cy="12" r="10"/>
+        <path fill="#fff" d="M14,19H18V5H14M6,19H10V5H6V19Z" transform="translate(4.5,4.5) scale(0.625)"/>
+    </svg>
+    

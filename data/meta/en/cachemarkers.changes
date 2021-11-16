@@ -26,3 +26,13 @@
 1574430077	2.203.226.16	E	en:cachemarkers	lineflyer	Add black dot		194
 1608731091	2.205.118.1	E	en:cachemarkers	lineflyer	Support DNF		-63
 1608731110	2.205.118.1	E	en:cachemarkers	lineflyer	Support DNF		-4
+1637064999	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add column for new markers		57
+1637065222	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add new markers into new column (WIP)		452
+1637065546	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add marker for final exisiting below modified coords		184
+1637065584	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cachemarkers	lineflyer	Fix broken table		3
+1637065679	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing		0
+1637066665	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use SVG for final existing		0
+1637066713	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing round #2		0
+1637066771	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing round #3		-10
+1637066803	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Seperate list marker table (will be moved or changed later)		1
+1637090218	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cachemarkers	lineflyer	Remove color list marker (will be replaced by another page)		-1178

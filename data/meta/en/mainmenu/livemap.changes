@@ -300,3 +300,9 @@
 1630357220	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[LiveMap] use svg		-83
 1630528780	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[LiveMap] use svg		3
 1630529070	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[Direction line] use correct svg		3
+1637070741	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] Add column for new icons		29
+1637070753	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		2
+1637070811	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		83
+1637070982	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		550
+1637071551	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		46
+1637074110	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Top section] Top bar in popup shows now geocode but not the name		2

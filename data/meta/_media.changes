@@ -1,32 +1,3 @@
-1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_create.png	lineflyer	created		15792
-1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_description.png	lineflyer	created		69985
-1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_details.png	lineflyer	created		126139
-1603742170	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:udc_waypoints.png	lineflyer	created		98228
-1603745671	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:quickaccess_creation.png	lineflyer	created		159135
-1603745671	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:quickaccess_all.png	lineflyer	created		260414
-1603745671	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:widget_creation1.png	lineflyer	created		44986
-1603745672	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:widget_creation2.png	lineflyer	created		232223
-1603745672	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	en:widget_all.png	lineflyer	created		706455
-1603795508	88.69.176.81	C	en:brouter_configure1.png	lineflyer	created		18261
-1603795508	88.69.176.81	C	en:brouter_configure2.png	lineflyer	created		70404
-1603795508	88.69.176.81	C	en:brouter_configure5.png	lineflyer	created		202560
-1603795508	88.69.176.81	C	en:brouter_configure4.png	lineflyer	created		442901
-1603795508	88.69.176.81	C	en:brouter_configure3.png	lineflyer	created		703722
-1603795508	88.69.176.81	C	en:brouter_configure6.png	lineflyer	created		394597
-1603795508	88.69.176.81	C	en:brouter_with.png	lineflyer	created		1142069
-1603795509	88.69.176.81	C	en:brouter_without.png	lineflyer	created		1106511
-1603799103	88.69.176.81	C	en:brouter_individualroute.png	lineflyer	created		1545419
-1604935147	2.203.226.133	E	en:description_personalnote.png	lineflyer			3710
-1604935189	2.203.226.133	C	en:description_personalnote_2.png	lineflyer	created		115391
-1604935490	2.203.226.133	C	ic_menu_waypoint_delete.png	lineflyer	created		9709
-1604935490	2.203.226.133	C	ic_menu_waypoint_sync.png	lineflyer	created		10817
-1604935490	2.203.226.133	C	ic_menu_upload.png	lineflyer	created		9274
-1605015972	2.203.226.133	C	send2cgeo.png	lineflyer	created		75439
-1605016083	2.203.226.133	C	ic_launcher_contacts.png	lineflyer	created		22325
-1605027120	2.203.226.133	C	en:contacts_usage_1.png	lineflyer	created		115064
-1605027233	2.203.226.133	C	c-geo_contacts_play_icon.png	lineflyer	created		78492
-1605027432	2.203.226.133	C	ic_launcher_contacts-playstore.png	lineflyer	created		115234
-1605027813	2.203.226.133	C	en:contacts_usage_2.png	lineflyer	created		177841
 1607463710	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:mainmenu:mainmenu_2.jpg	silviopen	creata		80475
 1607463760	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:mainmenu_2.jpg	silviopen	creata		80475
 1607541998	146.241.0.117	C	it:main_topbarmenu.png	silviopen	creata		284084
@@ -106,8 +77,8 @@
 1615151487	2.205.118.224	C	en:settings_map_maplinecustomization2.png	lineflyer	created		172967
 1615151548	2.205.118.224	D	en:settings_map_maplinecustomization2.png	lineflyer	removed		-172967
 1615151553	2.205.118.224	E	en:settings_maps_maplinecustomization2.png	lineflyer			-6625
-1615151778	2.205.118.224	E	en:settings_maps_maplinecustomization.png	lineflyer			-123694
 1615151778	2.205.118.224	E	en:settings_maps_maplinecustomization2.png	lineflyer			-31278
+1615151778	2.205.118.224	E	en:settings_maps_maplinecustomization.png	lineflyer			-123694
 1615152027	2.205.118.224	C	en:settings_maps_other.png	lineflyer	created		11953
 1615152816	2.205.118.224	E	en:cachedetails_topbar.png	lineflyer			-214248
 1615153781	2.205.118.224	C	en:cachedetails_topbar3.png	lineflyer	created		77656
@@ -115,13 +86,6 @@
 1615153781	2.205.118.224	E	en:cachedetails_topbar.png	lineflyer			0
 1615153781	2.205.118.224	C	en:cachedetails_topbar4.png	lineflyer	created		52655
 1617622617	2.202.19.198	E	en:livemap_mapsettings.png	lineflyer			-590217
-1617625084	2.202.19.198	C	en:firststeps_wizard_01_welcome.png	lineflyer	created		86970
-1617625084	2.202.19.198	C	en:firststeps_wizard_02_permission.png	lineflyer	created		94019
-1617625084	2.202.19.198	C	en:firststeps_wizard_03_permission_file.png	lineflyer	created		130419
-1617625084	2.202.19.198	C	en:firststeps_wizard_04_permission_file_confirm.png	lineflyer	created		82151
-1617625084	2.202.19.198	C	en:firststeps_wizard_05_permission_gps.png	lineflyer	created		106038
-1617625084	2.202.19.198	C	en:firststeps_wizard_06_permission_gps_confirm.png	lineflyer	created		84418
-1617625084	2.202.19.198	C	en:firststeps_wizard_08_basefolder_selector.png	lineflyer	created		30285
 1617625084	2.202.19.198	C	en:firststeps_wizard_07_basefolder.png	lineflyer	created		176449
 1617625084	2.202.19.198	C	en:firststeps_wizard_09_basefolder_confirm.png	lineflyer	created		62538
 1617625084	2.202.19.198	C	en:firststeps_wizard_10_services.png	lineflyer	created		131674
@@ -131,6 +95,13 @@
 1617625084	2.202.19.198	C	en:firststeps_wizard_14_ocauth.png	lineflyer	created		41155
 1617625084	2.202.19.198	C	en:firststeps_wizard_15_advanced.png	lineflyer	created		147638
 1617625084	2.202.19.198	C	en:firststeps_wizard_16_done.png	lineflyer	created		116721
+1617625084	2.202.19.198	C	en:firststeps_wizard_01_welcome.png	lineflyer	created		86970
+1617625084	2.202.19.198	C	en:firststeps_wizard_02_permission.png	lineflyer	created		94019
+1617625084	2.202.19.198	C	en:firststeps_wizard_03_permission_file.png	lineflyer	created		130419
+1617625084	2.202.19.198	C	en:firststeps_wizard_04_permission_file_confirm.png	lineflyer	created		82151
+1617625084	2.202.19.198	C	en:firststeps_wizard_05_permission_gps.png	lineflyer	created		106038
+1617625084	2.202.19.198	C	en:firststeps_wizard_06_permission_gps_confirm.png	lineflyer	created		84418
+1617625084	2.202.19.198	C	en:firststeps_wizard_08_basefolder_selector.png	lineflyer	created		30285
 1617637150	2.202.19.198	C	en:settings_map_mapcontent.png	lineflyer	created		78899
 1617637183	2.202.19.198	D	en:settings_map_mapcontent.png	lineflyer	removed		-78899
 1617637202	2.202.19.198	E	en:settings_maps_mapcontent.png	lineflyer			-149279
@@ -435,3 +406,128 @@
 1633006108	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems_3.png	lineflyer			369012
 1633550025	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	internal:playground:types.svg	murggel	created		22752
 1633550025	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	internal:playground:marker.svg	murggel	created		912
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_advlab.svg	murggel	angelegt		245
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_cgeo.svg	murggel	angelegt		243
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_black.svg	murggel	angelegt		244
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_disabled.svg	murggel	angelegt		243
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_event.svg	murggel	angelegt		244
+1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_found.svg	murggel	angelegt		621
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_found_offline.svg	murggel	angelegt		633
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_archive_offline.svg	murggel	angelegt		436
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_calendar.svg	murggel	angelegt		494
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_maintenance_offline.svg	murggel	angelegt		367
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_usermodifiedcoords.svg	murggel	angelegt		421
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_multi.svg	murggel	angelegt		244
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_mystery.svg	murggel	angelegt		246
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_not_found_offline.svg	murggel	angelegt		580
+1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_note_offline.svg	murggel	angelegt		491
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_special.svg	murggel	angelegt		246
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_traditional.svg	murggel	angelegt		250
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_unknown.svg	murggel	angelegt		246
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_flag.svg	murggel	angelegt		507
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_pkg.svg	murggel	angelegt		467
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_puzzle.svg	murggel	angelegt		671
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_stage.svg	murggel	angelegt		834
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_trailhead.svg	murggel	angelegt		476
+1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_waypoint.svg	murggel	angelegt		449
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_favorite.svg	murggel	angelegt		359
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_premium.svg	murggel	angelegt		744
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_voted.svg	murggel	angelegt		429
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_watchlist.svg	murggel	angelegt		655
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_announcement.svg	murggel	angelegt		499
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_archive.svg	murggel	angelegt		395
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_calendar.svg	murggel	angelegt		466
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_disable.svg	murggel	angelegt		359
+1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_found.svg	murggel	angelegt		560
+1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_found_offline.svg	murggel	angelegt		568
+1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_hasfinal.svg	murggel	angelegt		504
+1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_maintenance.svg	murggel	angelegt		326
+1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_not_found_offline.svg	murggel	angelegt		722
+1635195653	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_note.svg	murggel	angelegt		457
+1635225991	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_own.svg	murggel	created		463
+1635225991	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_owner_maintenance.svg	murggel	created		332
+1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_personalnote.svg	murggel	created		627
+1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_retract.svg	murggel	created		364
+1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_publish.svg	murggel	created		366
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_reviewer_note.svg	murggel	created		465
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_stored.svg	murggel	created		634
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_unknown_offline.svg	murggel	created		611
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_update_coordinates.svg	murggel	created		518
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_usermodifiedcoords.svg	murggel	created		388
+1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_visited.svg	murggel	created		396
+1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_personalnote.svg	murggel	created		627
+1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_retract.svg	murggel	created		364
+1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_publish.svg	murggel	created		366
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_reviewer_note.svg	murggel	created		465
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_stored.svg	murggel	created		634
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_unknown_offline.svg	murggel	created		611
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_update_coordinates.svg	murggel	created		518
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_usermodifiedcoords.svg	murggel	created		388
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_visited.svg	murggel	created		396
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_collection.svg	murggel	created		389
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_discover.svg	murggel	created		572
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_drop.svg	murggel	created		357
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_grab.svg	murggel	created		518
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_inventory.svg	murggel	created		375
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_retrieve.svg	murggel	created		363
+1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_visit.svg	murggel	created		529
+1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tick.svg	murggel	created		235
+1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	trackable_all.svg	murggel	created		656
+1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	trackable_travelbug.svg	murggel	created		610
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_advlab.svg	murggel	created		915
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_ape.svg	murggel	created		1029
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_cgeo.svg	murggel	created		622
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_cito.svg	murggel	created		961
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_earth.svg	murggel	created		7814
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_event.svg	murggel	created		746
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_giga.svg	murggel	created		2640
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_hq.svg	murggel	created		1000
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_letterbox.svg	murggel	created		644
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_locationless.svg	murggel	created		856
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_maze.svg	murggel	created		1347
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_mega.svg	murggel	created		2475
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_multi.svg	murggel	created		1950
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_mystery.svg	murggel	created		905
+1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_overlay_archived.svg	murggel	created		305
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_overlay_visited.svg	murggel	created		247
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_specialevent.svg	murggel	created		1332
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_traditional.svg	murggel	created		1436
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_unknown.svg	murggel	created		1213
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_virtual.svg	murggel	created		732
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_webcam.svg	murggel	created		894
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_wherigo.svg	murggel	created		963
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_flag.svg	murggel	created		530
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_pkg.svg	murggel	created		486
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_puzzle.svg	murggel	created		687
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_stage.svg	murggel	created		852
+1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_trailhead.svg	murggel	created		494
+1635226191	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_waypoint.svg	murggel	created		452
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_gc_pin.svg	murggel	created		616
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_gc_pin_disabled.svg	murggel	created		622
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_oc_pin.svg	murggel	created		665
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_oc_pin_disabled.svg	murggel	created		671
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_other_pin.svg	murggel	created		705
+1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_other_pin_disabled.svg	murggel	created		711
+1637071940	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	type_multi.svg	lineflyer			2896
+1637071991	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	type_cgeo.svg	lineflyer			130
+1637073759	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_1.png	lineflyer			-122447
+1637073966	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_popup_1.png	lineflyer			106258
+1637073966	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_popup_2.png	lineflyer			3926
+1637073967	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_2.png	lineflyer			-295468
+1637074068	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_popup_3.png	lineflyer			1767
+1637074213	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_popup_4.png	lineflyer			9986
+1637074295	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_popup_5.png	lineflyer			-25633
+1637087242	2a00:1e:9640:fc:fcee:b175:42ce:40e2	C	dot_marker_hasfinal.svg	lineflyer	created		574
+1637087428	2a00:1e:9640:fc:fcee:b175:42ce:40e2	C	dot_virtual.svg	lineflyer	created		246
+1637088725	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_personalnote.svg	lineflyer	gelöscht		-627
+1637088731	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_publish.svg	lineflyer	gelöscht		-366
+1637088736	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_retract.svg	lineflyer	gelöscht		-364
+1637088740	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_reviewer_note.svg	lineflyer	gelöscht		-465
+1637088745	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_stored.svg	lineflyer	gelöscht		-634
+1637088749	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_unknown_offline.svg	lineflyer	gelöscht		-611
+1637088753	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_update_coordinates.svg	lineflyer	gelöscht		-518
+1637088757	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_usermodifiedcoords.svg	lineflyer	gelöscht		-388
+1637088761	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	de:marker_visited.svg	lineflyer	gelöscht		-396
+1637090992	2a00:1e:9640:fc:fcee:b175:42ce:40e2	C	livemap_mapsettings.png	lineflyer	created		135750
+1637091045	2a00:1e:9640:fc:fcee:b175:42ce:40e2	D	livemap_mapsettings.png	lineflyer	removed		-135750
+1637091053	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:livemap_mapsettings.png	lineflyer			-195701

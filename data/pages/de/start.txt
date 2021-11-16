@@ -23,7 +23,6 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
 
   * [[loginproblems|Probleme bei der Anmeldung]] - Was tun bei Problemen mit der Anmeldung am Geocaching-Server?
 
-
 ===== Bedienungsanleitung =====
 {{anchor:users_manual:}}
 

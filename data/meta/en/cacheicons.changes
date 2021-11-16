@@ -28,3 +28,49 @@
 1622226776	163.158.160.54	E	en:cacheicons	linstylemon	Added Adventure Lab Cache		325
 1628599799	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cacheicons	lineflyer	Remove adventure lab from unknown cache type		-29
 1628600129	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	R	en:cacheicons	lineflyer	old revision restored (2021/05/28 20:32)	1622226776	29
+1636023355	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	Test avg icon implementation		0
+1637063885	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Revert to old icon in preparation of new column		0
+1637064164	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add new column		333
+1637064300	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add new icons in new column		258
+1637064437	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add special event icon		136
+1637064453	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Remove newline		-1
+1637064520	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Sort letterbox some lines up		0
+1637064570	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Sort earth caches towards the other virtual types		0
+1637064674	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Lab caches are no longer unknown cache types		-36
+1637067538	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	Add new subheadings to divide normal and compact mode		333
+1637067549	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-1
+1637067605	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	add placeholder table		42
+1637067690	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	Add first table element for trial		53
+1637067699	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
+1637067708	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
+1637067797	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		130
+1637067811	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		2
+1637067897	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		145
+1637067931	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
+1637068077	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		146
+1637068101	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		57
+1637068117	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-1
+1637068231	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		152
+1637068253	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Rename c:geo cache to user defined cache		7
+1637068262	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		0
+1637068308	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		56
+1637068445	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		132
+1637068497	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		74
+1637068674	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		213
+1637068836	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		156
+1637068927	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-3
+1637068997	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-41
+1637072026	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Add info abcout user defined caches using hexagonal icon		35
+1637072037	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		1
+1637072047	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		1
+1637087154	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	Add missing dot markers		446
+1637087313	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		103
+1637087382	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	Dot for disabled also for archived		9
+1637088394	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Add maze		275
+1637088427	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		2
+1637088460	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	Add maze		-30
+1637088495	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		30
+1637088524	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		18
+1637088600	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] Link to marker page		19
+1637089770	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	Note dot icon		-6
+1637089857	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	[Icons used on the map in compact mode] Finalized		1

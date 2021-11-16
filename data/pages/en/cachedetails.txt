@@ -167,13 +167,13 @@ Tapping on ''Add a Waypoint'' will open the [[cachedetails#waypoint_editor|waypo
 
 Waypoints can have different types as listed below:
 
-^ Icon ^ Name ^ Description ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parking Area|Parking coordinates related to the cache.|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Question to Answer|A waypoint of a cache, where no physical stage of a cache is hidden but you typically have to answer a question, which might be provided in the description of the waypoint.|
-|{{ :waypoint_stage.png?nolink&40 |}}|Stage of a Multi cache|A waypoint of a cache, where a physical stage is hidden providing more information to solve the cache.|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|The coordinates of this waypoint typically provide a guidance about the path to use to reach the cache or the next waypoint.|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Reference Point|A generic reference point, which can be used for multiple purposes.|
-|{{ :waypoint_flag.png?nolink&40 |}}|Final Location|Providing the location of the final cache container.|
+^ Icon (old) ^ Icon (new) ^ Name ^ Description ^
+|{{ :waypoint_pkg.png?nolink&40 |}}|{{ :waypoint_pkg.svg?nolink&40 |}}|Parking Area|Parking coordinates related to the cache.|
+|{{ :waypoint_puzzle.png?nolink&40 |}}|{{ :waypoint_puzzle.svg?nolink&40 |}}|Question to Answer|A waypoint of a cache, where no physical stage of a cache is hidden but you typically have to answer a question, which might be provided in the description of the waypoint.|
+|{{ :waypoint_stage.png?nolink&40 |}}|{{ :waypoint_stage.svg?nolink&40 |}}|Stage of a Multi cache|A waypoint of a cache, where a physical stage is hidden providing more information to solve the cache.|
+|{{ :waypoint_trailhead.png?nolink&40 |}}|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|The coordinates of this waypoint typically provide a guidance about the path to use to reach the cache or the next waypoint.|
+|{{ :waypoint_waypoint.png?nolink&40 |}}|{{ :waypoint_waypoint.svg?nolink&40 |}}|Reference Point|A generic reference point, which can be used for multiple purposes.|
+|{{ :waypoint_flag.png?nolink&40 |}}|{{ :waypoint_flag.svg?nolink&40 |}}|Final Location|Providing the location of the final cache container.|
 
 ==== Waypoint editor ====
 {{anchor:waypoint_editor:}}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="type_cgeo" version="1.1" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+ <path id="marker_other" transform="matrix(.60507 0 0 .6051 8.3219 -2.1594)" d="m42.711 33.316-13.358 23.137h-26.716l-13.358-23.137 13.358-23.137h26.716z" fill="#fff" stroke="#383838" stroke-width="1.2395"/>
+ <path id="background_other" transform="matrix(.50569 0 0 .50569 9.9115 1.1525)" d="m42.711 33.316-13.358 23.137h-26.716l-13.358-23.137 13.358-23.137h26.716z" fill="#f7991d"/>
+ <g transform="translate(7 7) scale(.91667)">
+  <path transform="translate(2.4 2.4) scale(.8)" d="m12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2h-16v-2c0-2.21 3.58-4 8-4z" fill="#fff"/>
+ </g>
+</svg>

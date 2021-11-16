@@ -1,24 +1,57 @@
 ====== Geocache-Symbole ======
 
-c:geo benutzt dedizierte Symbole für die unterschiedlichen verfügbaren Geoaches. Die folgende Tabelle gibt dir eine Übersicht der genutzten Symbol, den zugehörigen Cachetypen und eine grundlegende Beschreibung der jeweiligen Cachetypen.
+c:geo benutzt dedizierte Symbole für die unterschiedlichen verfügbaren Geocaches. Die folgenden Tabellen geben dir eine Übersicht der genutzten Symbol, den zugehörigen Cachetypen und eine grundlegende Beschreibung der jeweiligen Cachetypen.
 
-^ Symbol ^ Cachetyp ^ Grundlegende Beschreibung ^
-|{{ :type_traditional.png?nolink&40 |}}|Traditional-Cache|Dies ist der klassische Typ eines Geocaches. Der Geocache kann an den angegeben Koordinaten gefunden werden.|
-|{{ :type_multi.png?nolink&40 |}}|Multi-Cache|Ein Multi-Cache nutzt mindestens zwei Positionen. Der Geocache selbst ist an der finalen Position versteckt, aber du musst mehrere Positionen besuchen und eventuell Fragen beantworten oder Rätsel lösen an jeder vorherigen Station beantworten um die finale Station zu finden.|
-|{{ :type_earth.png?nolink&40 |}}|Earth-Cache|Der Standort eines Earth-Caches ist ein Standort mit besonderer geologischer Bedeutung. Das Ziel dieser Geocaches ist es dem Cacher etwas über die Geologie der Erde beizubringen. Am Standort müssen typischerweise Fragen beantwortet werden, um die Erlaubnis zu haben den Cache zu loggen. Es gibt keinen physischen Geocache an dieser Stelle. Mehr Informationen findest du unter [[http://earthcache.org|earthcache.org]].|
-|{{ :type_mystery.png?nolink&40 |}}|Mystery-Cache|Dieser Cachetyp deckt viele Möglichkeiten ab, bei denen der Cache normalerweise nicht an den angegebenen Koordinaten zu finden ist. Meistens muss der Nutzer im Vorfeld Fragen beantworten oder Rätsel lösen, um die richtigen Koordinaten herauszufinden.|
-|{{ :type_wherigo.png?nolink&40 |}}|Wherigo-Cache|Wherigo ist ein Weg standortbasierte Abenteuer zu spielen. Mit einer dedizierten Wehrigo-Appund der Cartridge-Datei des Caches spielt der Spieler ein standortbasiertes Spiel, in dem er z.B. Fragen zum Standort beantworten muss. Mehr Informationen findest du unter [[http://wherigo.com|wherigo.com]].|
-|{{ :type_virtual.png?nolink&40 |}}|Virtual-Cache|An der Position eines virtuellen Caches gibt es keinen physischen Geocache. An der Position muss stattdessen eine Aufgabe erfüllt oder eine Frage beantwortet werden. Wenn dies korrekt gemacht wurde und die Stelle wirklich besucht wurde, kann der Geocacher den Cache als gefunden loggen.|
-|{{ :type_letterbox.png?nolink&40 |}}| Letterbox Hybrid-Cache|Eine Letterbox benutzt Hinweise/Anweisungen anstelle von Koordinaten. An der finalen Position findet man einen Stempel, um seinen Besuch aufzuzeichnen.|
-|{{ :type_webcam.png?nolink&40 |}}|Webcam-Cache|Bei diesem Cachetyp musst du vor einer öffentlichen Webcam stehen und ein Bild von dir mit dieser Cam aufzeichnen. Danach muss das Bild zusammen mit deinem Logeintrag gepostet werden, um den Cachefund zu beanspruchen.|
-|{{ :type_event.png?nolink&40 |}}|Event-Cache|Manchmal organisieren Geocacher Veranstaltungen an bestimmten Plätzen zu bestimmten Terminen um sich zu treffen und über Geocaching zu diskutieren.|
-|{{ :type_mega.png?nolink&40 |}}|Mega Event-Cache|Ein Mega Event-Cache ist grundsätzlich das Gleich wie ein Event-Cache nur größer. Mindestens 500 Geocacher müssen registriert sein.|
-|{{ :type_giga.png?nolink&40 |}}|Giga Event-Cache|Ein Giga Event-Cache ist grundsätzlich das Gleich wie ein Mega Event-Cache nur nochmal größer. Mindestens 5000 Geocacher müssen registriert sein. |
-|{{ :type_cito.png?nolink&40 |}}|CITO Event-Cache|CITO Event-Caches werden organisiert um die Umwelt aufzuräumen oder eine ähnliche Aktion durchzuführen und (optional) danach einen neuen Geocache an dieser Stelle zu verstecken. CITO ist die Abkürzung für Cache-In-Trash-Out.|
-|{{ :type_ape.png?nolink&40 |}}|Project APE-Cache|Ursprünglich wurden 14 Caches dieses Typs im Jahr 2001 als Promotion für den Film "Planet der Affen" versteckt. Nur wenige davon existieren heute noch, was diesen Cachetyp zu einem der seltensten Cachetypen macht.|
-|{{ :type_hq.png?nolink&40 |}}|Groundspeak Headquarter-Cache|Es gibt nur einen Geocache dieses Typs, der sich am Hauptquartier von Groundspeak, der Firma hinter geocaching.com, in Seattle, Washington/USA befindet.|
-|{{ :type_advlab.png?nolink&40 |}}|Adventure Lab-Cache|Beim Spielen von Adventure Lab-Caches wird keine physische Dose gesucht. Du musst den Ort besuchen und die spezielle Adventure Lab-App verwenden um eine Frage vor Ort zu lösen. Wenn das gelungen ist, wird der besuchte Ort automatisch zu deinen gefundenen Caches hinzugezählt.|
-|{{ :type_unknown.png?nolink&40 |}}|Unbekannter Cachetyp|Wenn dieser Cachetyp in c:geo angezeigt wird, konnte c:geo den Typ des Caches (noch) nicht ermitteln, es handelt sich um einen Cachetyp, den c:geo nicht unterstützt oder es ist ein dedizierter Unbekannter Cache, wie er auf Opencaching-Plattformen unterstützt wird.|
-|{{ :type_cgeo.png?nolink&40 |}}|c:geo cache|Benutzt für benutzerdefinierte Caches innerhalb von c:geo|
+===== Symbole in Cache-Listen und auf der Karte =====
 
+Die folgende Tabelle zeigt die Symbole, welche in Cache-Listen und auf der Karte (wenn nicht im kompakten Modus) angezeigt werden.
 
+^ Symbol (alt) ^ Symbol (neu) ^ Cachetyp ^ Grundlegende Beschreibung ^
+|{{ :type_traditional.png?nolink&40 |}}|{{ :type_traditional.svg?nolink&40 |}}|Traditional-Cache|Dies ist der klassische Typ eines Geocaches. Der Geocache kann an den angegeben Koordinaten gefunden werden.|
+|{{ :type_multi.png?nolink&40 |}}|{{ :type_multi.svg?nolink&40 |}}|Multi-Cache|Ein Multi-Cache nutzt mindestens zwei Positionen. Der Geocache selbst ist an der finalen Position versteckt, aber du musst mehrere Positionen besuchen und eventuell Fragen beantworten oder Rätsel lösen an jeder vorherigen Station beantworten um die finale Station zu finden.|
+|{{ :type_mystery.png?nolink&40 |}}|{{ :type_mystery.svg?nolink&40 |}}|Mystery-Cache|Dieser Cachetyp deckt viele Möglichkeiten ab, bei denen der Cache normalerweise nicht an den angegebenen Koordinaten zu finden ist. Meistens muss der Nutzer im Vorfeld Fragen beantworten oder Rätsel lösen, um die richtigen Koordinaten herauszufinden.|
+|{{ :type_wherigo.png?nolink&40 |}}|{{ :type_wherigo.svg?nolink&40 |}}|Wherigo-Cache|Wherigo ist ein Weg standortbasierte Abenteuer zu spielen. Mit einer dedizierten Wehrigo-Appund der Cartridge-Datei des Caches spielt der Spieler ein standortbasiertes Spiel, in dem er z.B. Fragen zum Standort beantworten muss. Mehr Informationen findest du unter [[http://wherigo.com|wherigo.com]].|
+|{{ :type_letterbox.png?nolink&40 |}}|{{ :type_letterbox.svg?nolink&40 |}}| Letterbox Hybrid-Cache|Eine Letterbox benutzt Hinweise/Anweisungen anstelle von Koordinaten. An der finalen Position findet man einen Stempel, um seinen Besuch aufzuzeichnen.|
+|{{ :type_earth.png?nolink&40 |}}|{{ :type_earth.svg?nolink&40 |}}|Earth-Cache|Der Standort eines Earth-Caches ist ein Standort mit besonderer geologischer Bedeutung. Das Ziel dieser Geocaches ist es dem Cacher etwas über die Geologie der Erde beizubringen. Am Standort müssen typischerweise Fragen beantwortet werden, um die Erlaubnis zu haben den Cache zu loggen. Es gibt keinen physischen Geocache an dieser Stelle. Mehr Informationen findest du unter [[http://earthcache.org|earthcache.org]].|
+|{{ :type_virtual.png?nolink&40 |}}|{{ :type_virtual.svg?nolink&40 |}}|Virtual-Cache|An der Position eines virtuellen Caches gibt es keinen physischen Geocache. An der Position muss stattdessen eine Aufgabe erfüllt oder eine Frage beantwortet werden. Wenn dies korrekt gemacht wurde und die Stelle wirklich besucht wurde, kann der Geocacher den Cache als gefunden loggen.|
+|{{ :type_webcam.png?nolink&40 |}}|{{ :type_webcam.svg?nolink&40 |}}|Webcam-Cache|Bei diesem Cachetyp musst du vor einer öffentlichen Webcam stehen und ein Bild von dir mit dieser Cam aufzeichnen. Danach muss das Bild zusammen mit deinem Logeintrag gepostet werden, um den Cachefund zu beanspruchen.|
+|{{ :type_event.png?nolink&40 |}}|{{ :type_event.svg?nolink&40 |}}|Event-Cache|Manchmal organisieren Geocacher Veranstaltungen an bestimmten Plätzen zu bestimmten Terminen um sich zu treffen und über Geocaching zu diskutieren.|
+|{{ :type_mega.png?nolink&40 |}}|{{ :type_mega.svg?nolink&40 |}}|Mega Event-Cache|Ein Mega Event-Cache ist grundsätzlich das Gleich wie ein Event-Cache nur größer. Mindestens 500 Geocacher müssen registriert sein.|
+|{{ :type_giga.png?nolink&40 |}}|{{ :type_giga.svg?nolink&40 |}}|Giga Event-Cache|Ein Giga Event-Cache ist grundsätzlich das Gleich wie ein Mega Event-Cache nur nochmal größer. Mindestens 5000 Geocacher müssen registriert sein. |
+|{{ :type_cito.png?nolink&40 |}}|{{ :type_cito.svg?nolink&40 |}}|CITO Event-Cache|CITO Event-Caches werden organisiert um die Umwelt aufzuräumen oder eine ähnliche Aktion durchzuführen und (optional) danach einen neuen Geocache an dieser Stelle zu verstecken. CITO ist die Abkürzung für Cache-In-Trash-Out.|
+| |{{ :type_specialevent.svg?nolink&40 |}}|Spezieller Event-Cache|Genutzt für spezielle Event-Typen, wie z.B. Community Celebration Event.|
+|{{ :type_ape.png?nolink&40 |}}|{{ :type_ape.svg?nolink&40 |}}|Project APE-Cache|Ursprünglich wurden 14 Caches dieses Typs im Jahr 2001 als Promotion für den Film "Planet der Affen" versteckt. Nur wenige davon existieren heute noch, was diesen Cachetyp zu einem der seltensten Cachetypen macht.|
+|{{ :type_hq.png?nolink&40 |}}|{{ :type_hq.svg?nolink&40 |}}|Groundspeak Headquarter-Cache|Es gibt nur einen Geocache dieses Typs, der sich am Hauptquartier von Groundspeak, der Firma hinter geocaching.com, in Seattle, Washington/USA befindet.|
+| |{{ :type_maze.svg?nolink&40 |}}|GPS Adventures Maze Ausstellung|Dies ist ein spezieller seltener Event-Typ und repräsentiert die Teilnahme an einer GPS Adventure Labyrinthausstellung. GPS Adventure Labyrinthe sollen Menschen GPS-Technologie und Geocaching näher bringen.|
+|{{ :type_advlab.png?nolink&40 |}}|{{ :type_advlab.svg?nolink&40 |}}|Adventure Lab-Cache|Beim Spielen von Adventure Lab-Caches wird keine physische Dose gesucht. Du musst den Ort besuchen und die spezielle Adventure Lab-App verwenden um eine Frage vor Ort zu lösen. Wenn das gelungen ist, wird der besuchte Ort automatisch zu deinen gefundenen Caches hinzugezählt.|
+|{{ :type_unknown.png?nolink&40 |}}|{{ :type_unknown.svg?nolink&40 |}}|Unbekannter Cachetyp|Wenn dieser Cachetyp in c:geo angezeigt wird, konnte c:geo den Typ des Caches (noch) nicht ermitteln, es handelt sich um einen Cachetyp, den c:geo nicht unterstützt oder es ist ein dedizierter Unbekannter Cache, wie er auf Opencaching-Plattformen unterstützt wird.|
+|{{ :type_cgeo.png?nolink&40 |}}|{{ :type_cgeo.svg?nolink&40 |}}|c:geo cache|Benutzt für benutzerdefinierte Caches innerhalb von c:geo|
+
+===== Symbole im kompakten Modus der Karte =====
+
+Die folgende Tabelle zeigt die Punkt-Symbole, die genutzt werden, wenn die [[.:mainmenu:livemap##karten-schnelleinstellungen|kompakten Symbole]] auf der Karte aktiviert sind.
+Einige Cache-Typen werden in diesem Modus in einem Symbol kombiniert.
+
+^ Symbol (neu) ^ Cache-Typ ^
+|{{ :dot_traditional.svg?nolink&20 |}} |Traditional-Cache|
+|{{ :dot_multi.svg?nolink&20 |}} |Multi-Cache|
+|{{ :dot_mystery.svg?nolink&20 |}} |Mystery-Cache\\ Wherigo-Cache\\ Letterbox Hybrid-Cache|
+|{{ :dot_virtual.svg?nolink&20 |}} |Earth-Cache\\ Virtual-Cache\\ Webcam-Cache|
+|{{ :dot_event.svg?nolink&20 |}} |Alle Event-Cache Typen|
+|{{ :dot_special.svg?nolink&20 |}} |Project APE-Cache\\ Groundspeak Headquarter-Cache\\ GPS Adventures Maze Exhibit|
+|{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab-Cache|
+|{{ :dot_unknown.svg?nolink&20 |}} |Unbekannter Cache-Typ oder\\ Cache ist deaktiviert/archiviert|
+|{{ :dot_cgeo.svg?nolink&20 |}} |Benutzerdefinierter Cache|
+
+Darüber hinaus werden eine Cache-Statuswerte, die im normalen Kartenmodus durch [[.:cachemarkers|kleine Markierungen]] dargestellt werden, als dediziertes Punkt-Smybol angezeigt, wie in der folgenden Tabelle dargestellt. Diese werden dann anstelle der normalen Punkt-Symbole angezeigt:
+
+^ Symbol (neu) ^ Status ^
+|{{ :dot_found.svg?nolink&20 |}} |Cache, der als gefunden geloggt wurde|
+|{{ :dot_found_offline.svg?nolink&20 |}} |Cache, der offline als gefunden geloggt wurde|
+|{{ :dot_not_found_offline.svg?nolink&20 |}} |Cache, der als nicht gefunden geloggt wurde|
+|{{ :dot_marker_usermodifiedcoords.svg?nolink&20 |}} |Cache mit korrigierten Koordinaten\\ (Hintergrund ist entsprechend des Cache-Typs eingefärbt)|
+|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Cache, der einen gültigen Final-Wegpunkt hat\\  (Hintergrund ist entsprechend des Cache-Typs eingefärbt)|
+|{{ :dot_marker_calendar.svg?nolink&20 |}} |Event-Cache, bei dem "Werde teilnehmen" geloggt wurde|
+|{{ :dot_marker_maintenance_offline.svg?nolink&20 |}} |Cache, der einen offline "Benötigt Wartung"-Log hat|
+|{{ :dot_marker_archive_offline.svg?nolink&20 |}} |Cache, der einen offline "Sollte archiviert werden"-Log hat|
+|{{ :dot_note_offline.svg?nolink&20 |}} |Cache, der einen offline "Notiz"-Log hat|

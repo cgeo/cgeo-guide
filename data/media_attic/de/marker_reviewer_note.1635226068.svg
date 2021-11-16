@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="marker_reviewer_note">
+        <circle fill="#01579B" cx="12" cy="12" r="12"/>
+        <circle fill="#039BE5" cx="12" cy="12" r="10"/>
+        <path fill="#fff" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" transform="translate(4,3.5) scale(0.666666667)"/>
+    </svg>
+    
