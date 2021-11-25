@@ -38,9 +38,9 @@ Filter by cache type. Use checkboxes to mark/unmark the cache types you want to 
 
 c:geo supports over 20 cache types from across many geocaching services. Thus, to easify filter dialog, some selectable cache types will group other cache types. This logic was copied as closely as possible from geocaching.com behavior:
 ^ Icon ^ Cache Type Filter ^ Filters the following cache types ^
-| {{ :type_traditional.png?nolink&50 |}} | Tradi | Traditional Cache, Geocaching HQ, Project APE Cache |
-| {{ :type_event.png?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit,Geocaching HQ Block Party |
-| {{ :type_virtual.png?nolink&50 |}} | Virtual | Virtual Cache, Locationless (Reverse) Cache |
+| {{ :type_traditional.svg?nolink&50 |}} | Tradi | Traditional Cache, Geocaching HQ, Project APE Cache |
+| {{ :type_event.svg?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit,Geocaching HQ Block Party |
+| {{ :type_virtual.svg?nolink&50 |}} | Virtual | Virtual Cache, Locationless (Reverse) Cache |
 
 {{anchor:filter_basic_difficultyterrain:}}
 ==== Difficulty/Terrain Filter ====

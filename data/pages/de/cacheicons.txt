@@ -27,6 +27,21 @@ Die folgende Tabelle zeigt die Symbole, welche in Cache-Listen und auf der Karte
 |{{ :type_unknown.png?nolink&40 |}}|{{ :type_unknown.svg?nolink&40 |}}|Unbekannter Cachetyp|Wenn dieser Cachetyp in c:geo angezeigt wird, konnte c:geo den Typ des Caches (noch) nicht ermitteln, es handelt sich um einen Cachetyp, den c:geo nicht unterstützt oder es ist ein dedizierter Unbekannter Cache, wie er auf Opencaching-Plattformen unterstützt wird.|
 |{{ :type_cgeo.png?nolink&40 |}}|{{ :type_cgeo.svg?nolink&40 |}}|c:geo cache|Benutzt für benutzerdefinierte Caches innerhalb von c:geo|
 
+===== Cache-Markierungen auf der Karte =====
+
+Die folgende Tabelle zeigt die verschiedenen Rahmen um Cache-Typ Symbole abhängig vom Status des Caches. Der Pfeil zeigt auf die Koordinaten des Caches auf der Karte. Das Rahmen ist gefüllt mit dem zugehörigen Cache-Typ Smbol, die Tabelle unter zeigt als Beispiel einen Traditional-Cache.
+
+^ Symbol (neu) ^ Beschreibung ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Dein aktueller Standort.|
+|{{ :combined_marker_gc_withpin.svg?nolink&40 |}}|Aktivierter/Verfügbarer Cache von geoaching.com.|
+|{{ :disabled_combined_marker_gc_withpin.svg?nolink&40 |}}|Deaktivierter Cache von geocaching.com.|
+|{{ :archived_combined_marker_gc_withpin.svg?nolink&40 |}}|Archivierter Cache von geocaching.com.|
+|{{ :combined_marker_oc_withpin.svg?nolink&40 |}}|Aktivierter/Verfügbarer Cache von einer Opencaching-Plattform.|
+|{{ :disabled_combined_marker_oc_withpin.svg?nolink&40 |}}|Deaktivierter Cache von einer Opencaching-Plattform.|
+|{{ :archived_combined_marker_oc_withpin.svg?nolink&40 |}}|Archivierter Cache von einer Opencaching-Plattform.|
+|{{ :combined_marker_other_withpin.svg?nolink&40 |}}|Aktivierter/Verfügbarer Cache von einer anderen Quelle als geocaching.com oder Opencaching (z.B. extremcaching.com oder benutzerdefinierter Cache).|
+|{{ :disabled_combined_marker_other_withpin.svg?nolink&40 |}}|Deaktivierter Cache von einer anderen Quelle als geocaching.com oder Opencaching (z.B. extremcaching.com oder benutzerdefinierter Cache).|
+|{{ :archived_combined_marker_other_withpin.svg?nolink&40 |}}|Archivierter Cache von einer anderen Quelle als geocaching.com oder Opencaching (z.B. extremcaching.com oder benutzerdefinierter Cache).|
 ===== Symbole im kompakten Modus der Karte =====
 
 Die folgende Tabelle zeigt die Punkt-Symbole, die genutzt werden, wenn die [[.:mainmenu:livemap##karten-schnelleinstellungen|kompakten Symbole]] auf der Karte aktiviert sind.
@@ -40,8 +55,10 @@ Einige Cache-Typen werden in diesem Modus in einem Symbol kombiniert.
 |{{ :dot_event.svg?nolink&20 |}} |Alle Event-Cache Typen|
 |{{ :dot_special.svg?nolink&20 |}} |Project APE-Cache\\ Groundspeak Headquarter-Cache\\ GPS Adventures Maze Exhibit|
 |{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab-Cache|
-|{{ :dot_unknown.svg?nolink&20 |}} |Unbekannter Cache-Typ oder\\ Cache ist deaktiviert/archiviert|
+|{{ :dot_unknown.svg?nolink&20 |}} |Unbekannter Cache-Typ|
+|{{ :dot_disabled.svg?nolink&20 |}} |Deaktivierter Cache (alle Typen)|
 |{{ :dot_cgeo.svg?nolink&20 |}} |Benutzerdefinierter Cache|
+|{{ :dot_tradi_oc.svg?nolink&20 |}} |Caches von Opencaching werden mit einem quadratischen Punkt angezeigt\\ (Dieses Beispiel zeigt ein Punkt-Symbol für einen Opencaching Traditional-Cache).|
 
 Darüber hinaus werden eine Cache-Statuswerte, die im normalen Kartenmodus durch [[.:cachemarkers|kleine Markierungen]] dargestellt werden, als dediziertes Punkt-Smybol angezeigt, wie in der folgenden Tabelle dargestellt. Diese werden dann anstelle der normalen Punkt-Symbole angezeigt:
 

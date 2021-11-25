@@ -26,7 +26,7 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 |{{ :ic_action_layers.svg?nolink&40 |}}|Kartenauswahl|Benutze diese Schaltfläche um die aktive [[..:mapsources|Kartenquelle]] auswzuwählen.|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filter]]|Ein Tippen auf dieses Symbol öffnet einen Filterdialog um die Caches der Karte nach diversen Kriterien zu filtern. \\ \\ Sofern sich das Symbol in der Titelzeile befindet, öffnet sich mit einem langen Klick eine Liste deiner gespeicherten Filter, mit der du die aktive Filterung wechseln kannst.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Aktualisierung einschalten/ausschalten |Diese Funktion schaltet die Aktualisierung der Live-Karte an/aus.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Aktualisierung einschalten/ausschalten |Diese Funktion schaltet die Aktualisierung der Live-Karte an/aus.\\ \\ Wenn die Aktualisierung ausgeschaltet ist, wird das durchgestrichene Symbol angezeigt.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Alle speichern|Speichert alle auf der Karte angezeigten Caches in deine Cache-Liste. Bereits gespeicherte Caches werden dabei aktualisiert.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Neue speichern|Speichert alle auf der Karte angezeigten Caches mit Ausnahme der bereits gespeocherten Caches in deine Cache-Liste.|
 | | Kartendrehung |Dies öffnet ein Menü um die Drehung der Karte in Geräteausrichtung an- oder auszuschalten oder die manuelle Drehung zu aktivieren.\\ \\ :!: Diese Funktion ist derzeit nur für Google Maps verfügbar.|
@@ -37,23 +37,14 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 ===== Karteninhalt =====
 {{anchor:map_content:}}
 
-Die Karte nutzt deine gewählten [[..:mapsources|kartentyp]] und zeigt eine Live-Ansicht aller verfügbaren Caches an der angezeigten Position.
+Die Karte nutzt deine gewählten [[..:mapsources|Kartentyp]] und zeigt eine Live-Ansicht aller verfügbaren Caches an der angezeigten Position.
 
 Die Live-Karte zeigt dir immer eine Kombination von sowohl live geladenen Caches aller deiner aktivierten Geocaching-Dienste als auch deiner gespeicherten Caches aus deinen [[lists|Cachelisten]].
 
-Die folgende Tabelle beschreibt die verschiedenen Markierungen, die auf der Live-Karte genutzt werden.
-
 <WRAP center round tip 100%>
-Diese Tabelle beschreibt nur die verschiedenen Symboltypen, nicht die verschiedenen Typen von Geocaches. Unter den folgenden Links bekommst du Informationen über die [[..:cacheicons|Geocache-Symbole in c:geo]] und die [[..:cachemarkers|Geocache-Markierungen in c:geo]], wie sie überall in der App verwendet werden.
+Unter den folgenden Links bekommst du Informationen über die [[..:cacheicons|Geocache-Symbole in c:geo]] und die [[..:cachemarkers|Geocache-Markierungen in c:geo]], wie sie überall in der App verwendet werden.
 </WRAP>
 
-^ Symbol ^ beschreibung ^ 
-|{{ :my_location_chevron.png?nolink&40 |}}|Dieser Pfeil repräsentiert deine aktuelle Position und Ausrichtung auf der Karte.|
-|{{ :marker.png?nolink&40 |}}|Position eines Caches von geocaching.com. Der Pfeil zeigt auf die Koordinaten dieses Caches auf der Karte. Der Symbolrahmen enthält den entsprechenden [[..:cacheicons|Cachetyp]].|
-|{{ :marker_disabled.png?nolink&40 |}}|Position eines deaktivierten oder archivierten Caches von geocaching.com. Der Pfeil zeigt auf die Koordinaten dieses Caches auf der Karte. Der Symbolrahmen enthält den entsprechenden [[..:cacheicons|Cachetyp]].|
-|{{ :marker_oc.png?nolink&40 |}}|Position eines Caches von einer Opencaching-Plattform. Der Pfeil zeigt auf die Koordinaten dieses Caches auf der Karte. Der Symbolrahmen enthält den entsprechenden [[..:cacheicons|Cachetyp]].|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Position eines deaktivierten oder archivierten Caches von einer Opencaching-Plattform. Der Pfeil zeigt auf die Koordinaten dieses Caches auf der Karte. Der Symbolrahmen enthält den entsprechenden [[..:cacheicons|Cachetyp]].|
-|{{ :marker_other.png?nolink&40 |}}|Position eines Caches von einer anderen Quelle als geocaching.com oder Opencaching (z.B. extremcaching.com). Der Pfeil zeigt auf die Koordinaten dieses Caches auf der Karte. Der Symbolrahmen enthält den entsprechenden [[..:cacheicons|Cachetyp]].|
 
 
 ===== Pop-up-Fenster auf der Karte =====

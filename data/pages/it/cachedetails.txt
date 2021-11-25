@@ -107,7 +107,7 @@ Questa sezione ti consente di aggiungere/rimuovere il cache dalla tua lista di c
 
 La watchlist è una funzione del provider di geocaching. Avere un cache nella tua lista di controllo ti farà ricevere una notifica via e-mail se viene aggiunta un nuovo log per questo cache.
 
-Il pulsante {{:ic_menu_add.svg?nolink&30|}} o {{:ic_menu_remove.svg?nolink&30|}} aggiungerà/rimuoverà il cache dalla tua lista di controllo. 
+Il pulsante {{:ic_menu_watch.svg?nolink&30|}} o {{:ic_menu_watch_remove.svg?nolink&30|}} aggiungerà/rimuoverà il cache dalla tua lista di controllo. 
 Il valore ''Watchers:'' mostra quante persone hanno questa cache nella loro lista di controllo.
 
 
@@ -118,7 +118,7 @@ Il valore ''Watchers:'' mostra quante persone hanno questa cache nella loro list
 
 Questa sezione mostra se hai assegnato un punto preferito a questo cache.
 
-Il pulsante {{:ic_menu_add.svg?nolink&30|}} o {{:ic_menu_remove.svg?nolink&30|}} viee mostrato solo se hai già trovato questo cache e aggiungerà/rimuoverà il cache dai preferiti.
+Il pulsante {{:ic_menu_favorite.svg?nolink&30|}} o {{:ic_menu_favorite_remove.svg?nolink&30|}} viee mostrato solo se hai già trovato questo cache e aggiungerà/rimuoverà il cache dai preferiti.
 
 ===== Scheda Waypoint =====
 {{anchor:waypoint_tab:}}

@@ -38,9 +38,9 @@ Suodata kätkötyypin mukaan. Käytä laatikoita merkataksesi/poistaaksesi kätk
 
 c:geo tukee yli 20 kätkötyyppiä useissa geokätköilypalveluissa. Helpottaaksemme suodatusnäkymää, jotkut valittavat kätkötyypit pitävät sisällään muitakin kätkötyyppejä. Tämä logiikka kopioitiin mahdollisimman tarkasti geocaching.com:in käyttäytymisestä:
 ^ Kuvake ^ Kätkötyyppisuodatin ^ Suodattaa seuraavat kätkötyypit ^
-| {{ :type_traditional.png?nolink&50 |}} | Tradikätkö | Tradikätkö, Geocaching HQ, Project APE Cache |
-| {{ :type_event.png?nolink&50 |}} | Tapahtuma | Tapahtumakätkö, Megatapahtuma, Gigatapahtuma, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit, Geocaching HQ Block Party |
-| {{ :type_virtual.png?nolink&50 |}} | Virtuaali | Virtual Cache, Locationless (Reverse) Cache |
+| {{ :type_traditional.svg?nolink&50 |}} | Tradikätkö | Tradikätkö, Geocaching HQ, Project APE Cache |
+| {{ :type_event.svg?nolink&50 |}} | Tapahtuma | Tapahtumakätkö, Megatapahtuma, Gigatapahtuma, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit, Geocaching HQ Block Party |
+| {{ :type_virtual.svg?nolink&50 |}} | Virtuaali | Virtual Cache, Locationless (Reverse) Cache |
 
 {{anchor:filter_basic_difficultyterrain:}}
 ==== Vaikeus/Maastosuodatin ====

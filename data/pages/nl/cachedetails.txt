@@ -129,7 +129,7 @@ Dit gedeelte van de cachegegevens biedt verschillende opties om de opslagstatus 
 
 In dit gedeelte kun je de cache toevoegen / verwijderen uit je persoonlijke watchlist. De watchlist is een functie van de geocaching-provider. Als je een cache op je volglijst hebt, ontvang je een e-mailmelding als er een nieuw logboekitem voor deze cache is toegevoegd.
 
-De {{:ic_menu_add.svg?nolink&30|}} of {{:ic_menu_remove.svg?nolink&30|}} knop zal de cache toevoegen/verwijderen uit je watchlist.
+De {{:ic_menu_watch.svg?nolink&30|}} of {{:ic_menu_watch_remove.svg?nolink&30|}} knop zal de cache toevoegen/verwijderen uit je watchlist.
 De''Volgers:'' toont het aantal mensen dat deze cache op hun watchlist hebben.
 
 ==== Favorieten ====
@@ -139,7 +139,7 @@ De''Volgers:'' toont het aantal mensen dat deze cache op hun watchlist hebben.
 
 In dit gedeelte wordt weergegeven of je een favoriet punt aan deze cache hebt toegekend.
 
-De {{:ic_menu_add.svg?nolink&30|}} of {{:ic_menu_remove.svg?nolink&30|}} knoppen worden alleen getoond als je deze cache hebt gevonden en zal je favoriet punt toevoegen/verwijderen.
+De {{:ic_menu_favorite.svg?nolink&30|}} of {{:ic_menu_favorite_remove.svg?nolink&30|}} knoppen worden alleen getoond als je deze cache hebt gevonden en zal je favoriet punt toevoegen/verwijderen.
 
 ===== Waypoint tabblad =====
 {{anchor:waypoint_tab:}}

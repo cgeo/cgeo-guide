@@ -27,7 +27,7 @@ No caso de uma função no menu ser apresentada como ícone, poderá premir dura
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centrar posição|Este botão pode ser utilizado para centrar o mapa na sua posição atual. \\ \\ Se o mapa já estiver centrado na sua posição o ícone vai aparecer com o centro preenchido.|
 |{{ :ic_action_layers.svg?nolink&40 |}}|Seleção de vista de mapa| Utilize este botão para mudar o [[..:mapsources|mapa]] ativo.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Botão do menu de transbordo|Carregando neste botão vai abrir a lista de funções que não estão visíveis na barra superior do dispositivo, sendo apresentada em forma de lista. As funções desta lista estão também descritas nesta tabela.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Ativar/desativar ao vivo|Esta função permite ativar ou desativar o mapa ao vivo.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Ativar/desativar ao vivo|Esta função permite ativar ou desativar o mapa ao vivo.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Guardar todas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas. Caches que já estiverem guardadas serão atualizadas durante o processo.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Guardar não memorizadas|Guarda todas as caches apresentadas, de momento, no mapa, na lista de caches guardadas, excepto as que já estiverem guardadas.|
 | |[[livemap#map_settings|Modos de mapa]]|Esta função abre um menu que contem várias opções para personalizar o mapa (Ex. esconder caches, mostrar círculos).|

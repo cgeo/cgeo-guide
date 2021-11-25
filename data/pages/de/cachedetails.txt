@@ -132,7 +132,7 @@ Dieser Bereich erlaubt es dir den Cache auf deine persönlichen Watchlist zu set
 
 Die Watchlist ist eine Funktion des Geocaching-Anbieters. Wenn du einen Cache auf deiner Watchlist hast, erhälst du eine Mail-Benachrichtigung wenn ein neuer Logbucheintrag für diesen Cache gemacht wird.
 
-Mit der {{:ic_menu_add.svg?nolink&30|}} oder {{:ic_menu_remove.svg?nolink&30|}} Schaltfläche kannst du den Cache zur Watchlist hinzufügen / davon entfernen.
+Mit der {{:ic_menu_watch.svg?nolink&30|}} oder {{:ic_menu_watch_remove.svg?nolink&30|}} Schaltfläche kannst du den Cache zur Watchlist hinzufügen / davon entfernen.
 Der Wert ''Beobachter:'' zeigt dir, wie viele Personen diesen Cache auf ihrer Watchlist haben.
 
 ==== Favorit ====
@@ -142,7 +142,7 @@ Der Wert ''Beobachter:'' zeigt dir, wie viele Personen diesen Cache auf ihrer Wa
 
 Dieser Bereich zeigt an, ob du einen Favoritenpunkt für diesen Cache vergeben hast.
 
-Die {{:ic_menu_add.svg?nolink&30|}} oder {{:ic_menu_remove.svg?nolink&30|}} Schaltflächen werden nur angezeigt, wenn du den Cache gefunden hast und erlauben dir ihn als Favorit hinzuzufügen / zu entfernen.
+Die {{:ic_menu_favorite.svg?nolink&30|}} oder {{:ic_menu_favorite_remove.svg?nolink&30|}} Schaltflächen werden nur angezeigt, wenn du den Cache gefunden hast und erlauben dir ihn als Favorit hinzuzufügen / zu entfernen.
 
 ===== Wegpunkte =====
 {{anchor:waypoint_tab:}}

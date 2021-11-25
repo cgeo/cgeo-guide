@@ -25,12 +25,12 @@ Normalerweise definiert c:geo den Typ des Wegpunktes für Koordinaten, die in de
 Platziere dazu einfach eines der folgenden Schlüsselwörter vor die Koordinaten:
 
 ^ Symbol ^ Wegpunkt-Typ ^ Schlüsselwort in persönlicher Notiz ^ Kurz-ID in persönlicher Notiz ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parkplatz|PARKING|P|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Station mit Frage|PUZZLE|X|
-|{{ :waypoint_stage.png?nolink&40 |}}|Station eines Multi-Caches|STAGE|S|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Ausgangspunkt|TRAILHEAD|T|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Referenzpunkt|WAYPOINT|W|
-|{{ :waypoint_flag.png?nolink&40 |}}|Final|FINAL|F|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parkplatz|PARKING|P|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Station mit Frage|PUZZLE|X|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Station eines Multi-Caches|STAGE|S|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Ausgangspunkt|TRAILHEAD|T|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Referenzpunkt|WAYPOINT|W|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Final|FINAL|F|
 
 c:geo erkennt die folgenden Schlüsselwort-Formate als Erkennung für den Wegpunkt-Typ (alle unabhängig von Groß-/Kleinschreibung:
   * Der Schlüsselwort selbst

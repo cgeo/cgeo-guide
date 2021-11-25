@@ -27,7 +27,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :ic_action_layers.svg?nolink&40 |}}|Map Source Selection|Use this button to change the active [[..:mapsources|map source]]|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your map according to various criteria. \\ \\ If visible in the top bar, a long tap will open a list of the stored filters to change the active filter.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow Menu Button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off.\\ \\ If the live map is disabled, the slashed icon is shown.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Store all|Saves all caches shown on the map onto your stored caches list. Caches already stored will be refreshed during this process.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Store unsaved|Saves all caches shown on the map, except the ones already stored, onto your stored caches list.|
 | | Map rotation |This will open a menu to switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
@@ -42,20 +42,10 @@ The map will use your selected [[..:mapsources|map type]] and show a live view o
 
 The live map always shows a combination of caches loaded live from all your enabled geocaching services as well as caches stored in your [[lists|cache lists]]. 
 
-The following table describes the different marker types used on the live map.
-
 <WRAP center round tip 100%>
-The table will only describe the different icon types, but not the different types of Geocaches. Tap on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used throughout c:geo.
+Tap on the following links to get information about the [[..:cacheicons|Geocache Type Icons in c:geo]] and [[..:cachemarkers|Geocache marker icons in c:geo]], which are used throughout c:geo.
 </WRAP>
 
-^ Icon (old) ^ Icon (new) ^ Description ^ 
-|{{ :my_location_chevron.png?nolink&40 |}}|{{ :my_location_chevron.png?nolink&40 |}}|This arrow is representing your current position and orientation on the map .|
-|{{ :marker.png?nolink&40 |}}|{{ :combined_marker_gc_pin.svg?nolink&40 |}}|Position of a cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_disabled.png?nolink&40 |}}|{{ :combined_marker_gc_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from geocaching.com. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_oc.png?nolink&40 |}}|{{ :combined_marker_oc_pin.svg?nolink&40 |}}|Position of a cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|{{ :combined_marker_oc_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from an opencaching platform. The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_other.png?nolink&40 |}}|{{ :combined_marker_other_pin.svg?nolink&40 |}}|Position of a cache from another platform than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches). The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
-|{{ :marker_other.png?nolink&40 |}}|{{ :combined_marker_other_pin_disabled.svg?nolink&40 |}}|Position of a disabled or archived cache from an another platform than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches). The arrow points on the coordinates of this cache on the map. The icon frame will contain the corresponding [[..:cacheicons|cache type]]|
 
 ===== Map popup window =====
 {{anchor:map_popup_window:}}

@@ -27,7 +27,7 @@ Als een menu-item wordt weergegeven als pictogram, kun je langere tijd op het pi
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centreer Positie|Deze knop kan worden gebruikt om de kaart te centreren op je huidige positie. \\ \\ Als de kaart is gecentreerd op jouw positie zal het icoon gevuld zijn.|
 |{{ :ic_action_layers.svg?nolink&40 |}}|Kaartbron selectie|Gebruik deze knop om de actieve [[..:mapsources|kaartbron]] te wijzigen.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow Menu Knop|Door deze knop aan te raken worden alle overige functies getoond, die niet op de bovenste balk van je apparaat passen en zullen als daarvoor in de plaats als een lijst worden getoond. De functie s die in de lijst worden getoond worden ook in deze tabel worden beschreven.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Live aan- / uitzetten|Deze functie schakelt het automatisch updaten van de live kaart aan of uit.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Live aan- / uitzetten|Deze functie schakelt het automatisch updaten van de live kaart aan of uit.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Alle opslaan|Slaat alle caches op als lijst, die momenteel worden getoond op de kaart. De caches die al opgeslagen zijn zullen tijdens dit proces worden ververst.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Niet opgeslagen opslaand|Slaat alle caches, die worden getoond op de kaart op, behalve degenen die reeds zijn opgeslagen in een lijst.|
 | | Kaart rotatie |Dit opent een menu om de optie om de kaart mee te laten draaien met je apparaat in- of uit te schakelen.\\ \\ :!: Deze functie is momenteel alleen beschikbaar voor Google Maps.|

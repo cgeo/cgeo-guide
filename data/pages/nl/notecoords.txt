@@ -26,12 +26,12 @@ Normaal gesproken definieert c: geo het waypoint-type voor coördinaten die in d
 Je plaatst eenvoudig een van de onderstaande sleutelwoorden voor het coördinaat:
 
 ^ Icoon ^ Waypoint type ^ Sleutelwoord in persoonlijke notitie ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parkeerplaats|PARKING|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Te beantwoorden vraag|PUZZLE|
-|{{ :waypoint_stage.png?nolink&40 |}}|Multi-cache punt|STAGE|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|TRAILHEAD|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Referentie punt|WAYPOINT|
-|{{ :waypoint_flag.png?nolink&40 |}}|Eindbestemmingn|FINAL|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parkeerplaats|PARKING|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Te beantwoorden vraag|PUZZLE|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Multi-cache punt|STAGE|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|TRAILHEAD|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Referentie punt|WAYPOINT|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Eindbestemmingn|FINAL|
 
 Ook zullen de namen van de waypointtypen in de taal waarin je c:geo gebruikt werken, maar aangezien c: geo in veel talen beschikbaar is, vermelden we hier alleen de Engelse trefwoorden.
 

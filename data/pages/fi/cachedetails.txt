@@ -132,7 +132,7 @@ Tämä osio antaa mahdollisuuden kätkön lisäämiseen tai poistamiseen seurant
 
 Seurantalista on geokätköilysivuston toiminto. Seurantalistalla olevasta kätköstä tulee sähköpostiisi viesti joka kerta, kun kätkölle tehdään kirjaus.
 
-{{:ic_menu_add.svg?nolink&30|}} tai {{:ic_menu_remove.svg?nolink&30|}} -nappi lisää/poistaa kätkön seurantalistalta.
+{{:ic_menu_watch.svg?nolink&30|}} tai {{:ic_menu_watch_remove.svg?nolink&30|}} -nappi lisää/poistaa kätkön seurantalistalta.
 ''Seuraajia:''-arvo näyttää kuinka monen käyttäjän seurantalistalla kätkö on.
 
 ==== Suosikki ====
@@ -142,7 +142,7 @@ Seurantalista on geokätköilysivuston toiminto. Seurantalistalla olevasta kätk
 
 Tämä osio näyttää, annoitko suosikkipisteen kätkölle.
 
-{{:ic_menu_add.svg?nolink&30|}} tai {{:ic_menu_remove.svg?nolink&30|}} -nappi näytetään vain jos olet löytänyt kätkön, ja lisää/poistaa kätkön suosikeista.
+{{:ic_menu_favorite.svg?nolink&30|}} tai {{:ic_menu_favorite_remove.svg?nolink&30|}} -nappi näytetään vain jos olet löytänyt kätkön, ja lisää/poistaa kätkön suosikeista.
 
 ===== Reittipisteet-välilehti =====
 {{anchor:waypoint_tab:}}

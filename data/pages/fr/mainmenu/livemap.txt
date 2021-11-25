@@ -27,7 +27,7 @@ Dans le cas d'une icône, un appui long dessus affiche le nom de la fonctionnali
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centrer sur la position|Ce bouton peut être utilisé pour centrer la carte sur votre position actuelle.\\ \\ Si la carte est effectivement centrée sur votre position, une icône pleine est affichée.|
 |{{ :ic_action_layers.svg?nolink&40 |}}|Afficher carte|Ce bouton change la [[..:mapsources|source]] du fond de carte.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Bouton de débordement|Ce bouton ouvre un menu contenant les fonctionnalités qui ne pouvaient être affichées dans la barre supérieure de l'écran et qui apparaissent donc sous forme de liste. Ces fonctions sont également décrites dans ce tableau.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Tout enregistrer|Enregistre toutes les caches affichées sur la carte dans  votre liste de caches enregistrées. Les caches déjà enregistrées verront leurs informations mises à jour pendant ce processus.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Enregistrer les non sauvegardées|Enregistre toutes les caches affichées sur la carte sauf celles déjà enregistrées dans  votre liste de caches enregistrées.|
 | |[[livemap#map_settings|Paramètres carte]]|Ouvre un menu contenant plusieurs options pour personnaliser la carte affichée (par exemple masquer des caches, afficher les cercles, etc).|

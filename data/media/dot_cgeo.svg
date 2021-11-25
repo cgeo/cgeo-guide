@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="dot_cgeo">
-        <circle fill="#fff" cx="12" cy="12" r="12"/>
-        <circle fill="#f7991d" cx="12" cy="12" r="10"/>
-    </svg>
-    
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="dot_marker" width="14.429" height="12" version="1.1" viewBox="0 0 14.429 12" xmlns="http://www.w3.org/2000/svg">
+ <path id="dot_marker_other" d="m14.429 6-3.6074 6h-7.2145l-3.6074-6 3.6074-6h7.2145z" fill="#fff" stroke-width=".74998"/>
+ <path id="dot_background_other" d="m13.227 6-3.0062 5h-6.0125l-3.0062-5 3.0062-5h6.0125z" fill="#f7991d" stroke-width=".74998"/>
+</svg>

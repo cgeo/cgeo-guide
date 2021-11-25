@@ -132,7 +132,7 @@ This section allows you to add/remove the cache from your personal watchlist.
 
 The watchlist is a function of the geocaching provider. Having a cache on your watchlist will make you receive a mail notification if a new logbook entry is added for this cache.
 
-The {{:ic_menu_add.svg?nolink&30|}} or {{:ic_menu_remove.svg?nolink&30|}} button will add/remove the cache to/from your watchlist.
+The {{:ic_menu_watch.svg?nolink&30|}} or {{:ic_menu_watch_remove.svg?nolink&30|}} button will add/remove the cache to/from your watchlist.
 The ''Watchers:'' value shows you how many people have this cache on their watchlist.
 
 ==== Favorite ====
@@ -142,7 +142,7 @@ The ''Watchers:'' value shows you how many people have this cache on their watch
 
 This section shows, whether you awarded a favorite point to this cache.
 
-The {{:ic_menu_add.svg?nolink&30|}} or {{:ic_menu_remove.svg?nolink&30|}} buttons are only shown if you found this cache and will add/remove the cache to/from your favorites.
+The {{:ic_menu_favorite.svg?nolink&30|}} or {{:ic_menu_favorite_remove.svg?nolink&30|}} buttons are only shown if you found this cache and will add/remove the cache to/from your favorites.
 
 ===== Waypoint tab =====
 {{anchor:waypoint_tab:}}

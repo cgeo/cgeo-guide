@@ -26,7 +26,7 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, premere a lungo l'i
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centra la posizione|Questo pulsante può essere utilizzato per centrare la mappa sulla posizione corrente. Se la mappa è centrata sulla tua posizione, viene visualizzata un'icona piena.|
 |{{ :ic_action_layers.svg?nolink&40 |}}|Selezione origine mappa|Utilizzare questo pulsante per scegliere l'[[..:mapsources|origine mappa]] da visualizzare.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Pulsante del menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Abilita/disabilita live|Questa funzione attiva/disattiva l'aggiornamento della mappa live.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Abilita/disabilita live|Questa funzione attiva/disattiva l'aggiornamento della mappa live.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Archiviare tutto|Salva tutti i cache mostrati sulla mappa nell'elenco dei cache memorizzati. I cache già archiviati verranno aggiornati durante questo processo.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Archiviare non salvati|Salva tutti i cache mostrate sulla mappa, tranne quelli già memorizzati nell'elenco dei cache memorizzati.|
 | | Rotazione mappa |Apre un menu per impostare la rotazione della mappa in modalità automatica o manuale.\\ \\ :!: Questa funzione è attualmente disponibile solo per Google Maps.|

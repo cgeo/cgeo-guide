@@ -36,3 +36,6 @@
 1637066771	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing round #3		-10
 1637066803	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Seperate list marker table (will be moved or changed later)		1
 1637090218	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cachemarkers	lineflyer	Remove color list marker (will be replaced by another page)		-1178
+1637657631	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	sort table, add missing WA, change some texts		377
+1637657755	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	add visited waypoint		101
+1637657849	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	section labels		78

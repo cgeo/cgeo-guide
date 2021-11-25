@@ -29,12 +29,12 @@ Normally c:geo will define the waypoint type for coordinates found in the person
 You just place one of the following keywords in front of the coordinates:
 
 ^ Icon ^ Waypoint type ^ Keyword in personal note ^ Short ID in personal note ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parking Area|PARKING|P|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Question to Answer|PUZZLE|X|
-|{{ :waypoint_stage.png?nolink&40 |}}|Stage of a Multi cache|STAGE|S|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|TRAILHEAD|T|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Reference Point|WAYPOINT|W|
-|{{ :waypoint_flag.png?nolink&40 |}}|Final Location|FINAL|F|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parking Area|PARKING|P|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Question to Answer|PUZZLE|X|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Stage of a Multi cache|STAGE|S|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|TRAILHEAD|T|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Reference Point|WAYPOINT|W|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Final Location|FINAL|F|
 
 c:geo will recognize the following keyword formats as waypoint type identifiers (all of them case-insensitive):
   * the keyword itself 

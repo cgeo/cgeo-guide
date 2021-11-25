@@ -27,6 +27,21 @@ The following table shows the icons used in cache lists and on the map, when use
 |{{ :type_unknown.png?nolink&40 |}}|{{ :type_unknown.svg?nolink&40 |}}|Unknown Cache Type|If this cache type is shown either c:geo could not (yet) load the cache type of this Geocache, it is a cache type not explicitly supported by c:geo or it is a dedicated Unknown Type Geocache as supported on opencaching platforms.|
 |{{ :type_cgeo.png?nolink&40 |}}|{{ :type_cgeo.svg?nolink&40 |}}|User defined Cache|Used for user created caches inside of c:geo (always using hexagonal background).|
 
+===== Cache markers on the map =====
+
+The following table shows the different frames around cache type icons depending on the cache state. The arrow points to the coordinate of the cache on the map. The frame is filled with the related cache type icon, the table below show a traditional cache as an example.
+
+^ Icon (new) ^ Description ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Your current position.|
+|{{ :combined_marker_gc_withpin.svg?nolink&40 |}}|Enabled/Available cache from geocaching.com.|
+|{{ :disabled_combined_marker_gc_withpin.svg?nolink&40 |}}|Disabled cache from geocaching.com.|
+|{{ :archived_combined_marker_gc_withpin.svg?nolink&40 |}}|Archived cache from geocaching.com.|
+|{{ :combined_marker_oc_withpin.svg?nolink&40 |}}|Enabled/Available cache from an opencaching platform.|
+|{{ :disabled_combined_marker_oc_withpin.svg?nolink&40 |}}|Disabled cache from an opencaching platform.|
+|{{ :archived_combined_marker_oc_withpin.svg?nolink&40 |}}|Archived cache from an opencaching platform.|
+|{{ :combined_marker_other_withpin.svg?nolink&40 |}}|Enabled/Available cache from other sources than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches).|
+|{{ :disabled_combined_marker_other_withpin.svg?nolink&40 |}}|Disabled cache from other sources than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches).|
+|{{ :archived_combined_marker_other_withpin.svg?nolink&40 |}}|Archived cache from other sources than geocaching.com or opencaching (e.g. extremcaching.com or user defined caches).|
 ===== Icons used on the map in compact mode =====
 
 The following table shows the dot icons used when the map is set to use [[.:mainmenu:livemap#map_quick_settings|compact icons]].
@@ -41,8 +56,10 @@ Some cache types are combined into one icon in this mode.
 |{{ :dot_event.svg?nolink&20 |}} |All Event Cache Types|
 |{{ :dot_special.svg?nolink&20 |}} |Project APE Cache\\ Groundspeak Headquarter Cache\\ GPS Adventures Maze Exhibit|
 |{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab Cache|
-|{{ :dot_unknown.svg?nolink&20 |}} |Unknown Cache Type or\\ Cache is disabled/archived|
+|{{ :dot_unknown.svg?nolink&20 |}} |Unknown Cache Type|
+|{{ :dot_disabled.svg?nolink&20 |}} |Disabled Cache (All Types)|
 |{{ :dot_cgeo.svg?nolink&20 |}} |User defined Cache|
+|{{ :dot_tradi_oc.svg?nolink&20 |}} |Caches from Opencaching will be shown with a square dot\\ (this example shows a dot icon for an Opencaching traditional cache).|
 
 Additionally some cache status values, which are represented by a [[.:cachemarkers|small marker]] in normal mode (e.g. found state, modified coordinates),  will also be reflected in compact mode by using a dedicated icon as listed in the following table. These will then be shown instead of the cache type dot icon:
 

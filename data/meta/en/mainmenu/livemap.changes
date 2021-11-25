@@ -306,3 +306,7 @@
 1637070982	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		550
 1637071551	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		46
 1637074110	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Top section] Top bar in popup shows now geocode but not the name		2
+1637100075	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] change icon		49
+1637100515	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] add description for disable live		57
+1637189598	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] add linebreaks		5
+1637592458	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] Remove table. Will be placed onto the cache icons page instead		-2231

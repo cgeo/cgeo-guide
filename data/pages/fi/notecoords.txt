@@ -29,12 +29,12 @@ Normaalisti c:geo määrittää muistiinpanojen koordinaateista luodun reittipis
 Laita vain yksi seuraavista avainsanoista koordinaattien eteen:
 
 ^ Kuvake ^ Reittipisteen tyyppi ^ Muistiinpanoissa oleva avainsana ^ Muistiinpanoissa oleva lyhyttunniste ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Pysäköintialue|PARKING|P|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Vastattava kysymys|PUZZLE|X|
-|{{ :waypoint_stage.png?nolink&40 |}}|Multikätkön vaihe|STAGE|S|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Reitin alku|TRAILHEAD|T|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Viitesijainti|WAYPOINT|W|
-|{{ :waypoint_flag.png?nolink&40 |}}|Lopullinen sijainti|FINAL|F|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Pysäköintialue|PARKING|P|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Vastattava kysymys|PUZZLE|X|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Multikätkön vaihe|STAGE|S|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Reitin alku|TRAILHEAD|T|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Viitesijainti|WAYPOINT|W|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Lopullinen sijainti|FINAL|F|
 
 c:geo tunnistaa seuraavat avainsanamuodot reittipisteen tyypin tunnisteina (kirjainkoolla ei merkitystä):
   * itse avainsana

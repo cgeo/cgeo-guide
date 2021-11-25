@@ -28,7 +28,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 |{{ :ic_action_layers.svg?nolink&40 |}}|Karttanäkymä|Käytä tätä nappia vaihtaaksesi aktiivista [[..:mapsources|karttanäkymää]]|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Suodatin]]|Tämä painike avaa suodatinnäkymän, jossa voit suodattaa kartalla näkyvät kätköt erilaisten kriteerien mukaan. \\ \\ Jos näkyvillä yläpalkissa, pitkä painallus avaa tallennettujen suodattimien listan, josta voit vaihtaa aktiivisen suodattimen toiseen|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Aktivoi/poista live | Kytkee kartan live-päivityksen päälle/pois|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Aktivoi/poista live | Kytkee kartan live-päivityksen päälle/pois|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Tallenna kaikki|Tallentaa kaikki kartalla näkyvät kätköt valitsemaasi listaan. Jo tallennetut kätköt päivitetään tässä toiminnossa.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Tallenna tallentamattomat|Tallentaa kaikki (paitsi jo tallennetut) kartalla näkyvät kätköt valitsemaasi listaan.|
 | | Kartan kääntö |Tämä avaa valikon, josta voit kytkeä kartan käännön laitteen suunnan mukaiseksi päälle/pois, tai kytkeä manuaalisen käännön päälle/pois.\\ \\ :!: Tämä toiminto on tällä hetkellä saatavilla vain Google Mapsille.| 

@@ -35,9 +35,9 @@ Filter op cachetype. Gebruik selectievakjes om de cachetypes die u in de resulta
 
 c:geo ondersteunt meer dan 20 cachetypes van verschillende geocachingservices. Om de filterdialoog te vergemakkelijken, zullen sommige selecteerbare cachetypes dus andere cachetypes groeperen. Deze logica is zo goed mogelijk overgenomen van het gedrag van geocaching.com:
 ^ Icoon ^ Cache Type Filter ^ Filtert de volgende cache typen ^
-| {{ :type_traditional.png?nolink&50 |}} | Tradi | Traditionele Cache, Geocaching HQ, Project APE Cache |
-| {{ :type_event.png?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit,Geocaching HQ Block Party |
-| {{ :type_virtual.png?nolink&50 |}} | Virtual | Virtuele Cache, Locatieloze (Omgekeerde) Cache |
+| {{ :type_traditional.svg?nolink&50 |}} | Tradi | Traditionele Cache, Geocaching HQ, Project APE Cache |
+| {{ :type_event.svg?nolink&50 |}} | Event | Event Cache, Mega-Event Cache, Giga-Event Cache, Community Celebration Event, Geocaching HQ Celebration, GPS Adventures Exhibit,Geocaching HQ Block Party |
+| {{ :type_virtual.svg?nolink&50 |}} | Virtual | Virtuele Cache, Locatieloze (Omgekeerde) Cache |
 
 {{anchor:filter_basic_difficultyterrain:}}
 ==== Moeilijkheid/Terrein Filter ====
