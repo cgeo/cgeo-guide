@@ -155,6 +155,7 @@ Du kannst du folgenden Aktionen durchführen:
 |Geänderte Koordinaten hochladen|Diese Funktion lädt alle modifizierten Listing-Koordinaten von Caches auf dieser Liste zum Geocaching-Server hoch.|
 |Koordinaten für alle Caches hochladen|Diese Funktion lädt alle Listing-Koordinaten der Caches auf dieser Liste als modifizierte Koordinaten zum Geocaching-Server hoch. \\ :!: **WARNUNG:** Dies wird alle existierenden Koordinaten auf dem Server für alle (bzw. die ausgewählten) Caches deiner Liste durch die aktuellen Listing-Koordinaten in c:geo ersetzen! Dies sollte nur in speziellen Fällen verwendet werden, z.B. wenn du eine GPX-Datei mit korrigierten Koordinaten als Listing-Koordinaten importiert hast. Dies kann nicht rückgängig gemacht werden und du solltest diese Funktion nur verwenden, wenn du weißt, was du tust. In normalen Fällen solltest du stattdessen die Funktion ''Geänderte Koordinaten hochladen'' verwenden.|
 |Offline-Logs löschen|Dieser Menüeintrag ist nur sichtbar, wenn es Caches auf deiner Liste gibt, die ein Offline-Log gespeichert haben und löscht diese Offline-Logs.|
+|Cache-Symbol wählen|Diese Funktion erlaubt es dir ein benutzerdefiniertes Symbol zu setzen, welches für alle Caches dieser Liste genutzt wird. Nachdem es ausgewählt wurde, ersetzt es das normale Cachetyp-Smbol.|
 |Erstelle benutzerdefinierten Cache|Dies startet die Erstellung eines [[..:udc|benutzerdefinierten Caches]].|
 
 ==== Listen verwalten ====
@@ -169,7 +170,8 @@ Diese Menüoption enthält Funktionen zur Verwaltung deiner Cachelisten.
 |Aktuelle Liste löschen|Dies löscht die aktuelle Liste.\\ \\ :!: Beim Löschen einer Liste, welche Caches enthält, werden die Caches nicht gelöscht, sondern auf die Standardliste verschoben.|
 |Aktuelle Liste umbenennen|Vergibt einen neuen Namen für die aktuelle Liste.|
 |Caches nur auf diese Liste|Da ein einzelner Cache auf mehreren Listen gespeichert sein kann, löscht diese Funktion alle Kopien auf anderen Listen, so dass alle Caches der aktuellen Liste nicht mehr in anderen Listen auftauchen.|
-|Listenmarkierung setzen|Mit dieser Funktion kannst du den Caches auf dieser Liste eine Farbmarkierung zuweisen. Es stehen mehrere Farben zur Auswahl. Danach werden die Cache-Symbole der Caches von dieser Liste auf der Karte und in anderen Listen mit der gewählten farblichen Markierung angezeigt. Bis zu zwei Listenmarkierungen können im Cacheicon angezeigt werden.|
+|Listenmarkierung setzen|Mit dieser Funktion kannst du den Caches auf dieser Liste eine Markierung zuweisen. Es stehen mehrere Symbole zur Auswahl. Danach werden die Cache-Symbole der Caches von dieser Liste auf der Karte und in anderen Listen mit der gewählten Markierung angezeigt. Bis zu zwei Listenmarkierungen können im Cacheicon angezeigt werden.|
+|Erinnere ans Löschen wenn leer|Du kannst auswählen, ob c:geo dich fragen soll, ob eine Liste gelöscht werden soll, sobald sie leer ist.\\  Diese Option steht für die Standardliste nicht zur Verfügung.|
 
 <WRAP center round info 100%>
 Die Liste ''Standardliste'' kann nicht gelöscht werden.
@@ -186,8 +188,6 @@ Dieses Menü bietet Funktionen zum Import von Caches aus verschiedenen Quellen i
 |Pocket-Query importieren|Öffnet die [[pocketquery|Pocket-Query]]-Ansicht um Caches von deinen existierenden Pocket-Queries zu importieren.\\ \\ :!: Diese Funktion ist nur für geocaching.com [[..:basicmembers|Premium-Mitglieder]] verfügbar.|
 |[[..offline#gpx_import|Importiere GPX-Datei]]|Erlaubt es dir eine GPX-Datei aus deinem Dateisystem zu importieren.\\ Das Verzeichnis, wo GPX-Dateien zum Import gespeichert sein müssen, wird in den [[settings#gpx|Einstellungen]] festgelegt.|
 |Importiere von send2cgeo|erlaubt dir Caches unter Nutzung des [[utilityprograms|send2cgeo]]-Skriptes zu importieren.|
-|Importiere von Android|Diese Option öffnet den Android Importdialog, der es dir erlaubt eine GPX-Datei aus einer größeren Auswahl von Quellen (z.B: Google Drive) zu importieren.|
-
 ==== Exportieren ====
 {{anchor:export:}}
 

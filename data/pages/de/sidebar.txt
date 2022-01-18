@@ -17,7 +17,6 @@
         * [[.mainmenu:lists|Gespeicherte Caches]]
         * [[.mainmenu:search|Suche]]
         * [[.mainmenu:goto|Gehe zu]]
-        * [[.mainmenu:globaltypefilter|Globaler Cachetyp-Filter]]
         * [[.mainmenu:start#bottom_section|Status Infos]]
       * [[.mainmenu:settings|Einstellungen]]
       * [[start#geocaches|Geocaches]]

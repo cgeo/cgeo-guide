@@ -36,7 +36,6 @@ c:geo is only a client application for geocaching and is not associated with any
     * [[.mainmenu:lists|Stored Caches]] - View locally stored geocaches
     * [[.mainmenu:search|Search]] - Search for geocaches and trackables
     * [[.mainmenu:goto|Go to]] - Navigate to arbitrary coordinates
-    * [[.mainmenu:globaltypefilter|Global Cache Type Filter]] - Filter the displayed cache types
     * [[.mainmenu:start#bottom_section|Bottom section]] - Monitor your status information
 
   * [[.mainmenu:settings|Settings]] - Configure the application

@@ -1,15 +1,1 @@
-a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1528231852;s:8:"modified";i:1627382545;}s:7:"creator";s:4:"Lars";s:4:"user";s:9:"lineflyer";s:11:"last_change";a:8:{s:4:"date";i:1627382545;s:2:"ip";s:37:"2a00:ee2:f012:1ae:2c96:fa27:9845:dec9";s:4:"type";s:1:"E";s:2:"id";s:28:"en:mainmenu:globaltypefilter";s:4:"user";s:9:"lineflyer";s:3:"sum";s:18:"Deprecation notice";s:5:"extra";s:0:"";s:10:"sizechange";i:126;}s:11:"contributor";a:2:{s:9:"lineflyer";s:7:"Lars D.";s:9:"silviopen";s:6:"silvio";}s:11:"plugin_move";a:0:{}s:8:"relation";a:3:{s:10:"references";a:2:{s:14:"en:cachefilter";b:1;s:13:"en:cacheicons";b:1;}s:5:"media";a:2:{s:23:"main_filter_default.png";b:1;s:34:"en:global_cache_type_filter_en.png";b:1;}s:10:"firstimage";s:23:"main_filter_default.png";}s:5:"title";s:24:"Global Cache Type Filter";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:24:"global_cache_type_filter";s:5:"title";s:24:"Global Cache Type Filter";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:327:"This filter will be replaced by the new filter framework soon.
-
-Global Cache Type Filter
-
-
-
-With this menu you can filter the caches shown on the live map, nearby list, and when searching by type. Just select the cache type.
-
-
-
-
-
-
-
-The filter setting will remain active (even if you restart c:geo) until you change or reset it.";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:6:{s:4:"date";a:2:{s:7:"created";i:1528231852;s:8:"modified";i:1627382545;}s:7:"creator";s:4:"Lars";s:4:"user";s:9:"lineflyer";s:11:"last_change";a:8:{s:4:"date";i:1627382545;s:2:"ip";s:37:"2a00:ee2:f012:1ae:2c96:fa27:9845:dec9";s:4:"type";s:1:"E";s:2:"id";s:28:"en:mainmenu:globaltypefilter";s:4:"user";s:9:"lineflyer";s:3:"sum";s:18:"Deprecation notice";s:5:"extra";s:0:"";s:10:"sizechange";i:126;}s:11:"contributor";a:2:{s:9:"lineflyer";s:7:"Lars D.";s:9:"silviopen";s:6:"silvio";}s:11:"plugin_move";a:0:{}}}
+a:2:{s:7:"current";a:10:{s:4:"date";s:0:"";s:7:"creator";s:0:"";s:4:"user";s:0:"";s:11:"last_change";s:0:"";s:11:"contributor";s:0:"";s:11:"plugin_move";s:0:"";s:8:"relation";s:0:"";s:5:"title";s:0:"";s:11:"description";s:0:"";s:8:"internal";s:0:"";}s:10:"persistent";a:6:{s:4:"date";a:2:{s:7:"created";i:1528231852;s:8:"modified";i:1642540435;}s:7:"creator";s:4:"Lars";s:4:"user";s:9:"lineflyer";s:11:"last_change";a:8:{s:4:"date";i:1642540435;s:2:"ip";s:35:"2a00:1e:9640:fc:8519:db5e:a790:c37e";s:4:"type";s:1:"E";s:2:"id";s:28:"en:mainmenu:globaltypefilter";s:4:"user";s:9:"lineflyer";s:3:"sum";s:61:"Global cache type filter removed (page will be deleted later)";s:5:"extra";s:0:"";s:10:"sizechange";i:-656;}s:11:"contributor";a:2:{s:9:"lineflyer";s:7:"Lars D.";s:9:"silviopen";s:6:"silvio";}s:11:"plugin_move";a:0:{}}}

@@ -155,7 +155,8 @@ You can trigger the following actions:
 |Delete past events|This menu item is only visible if your list contains event caches and will delete all events where the event date is in the past.|
 |Upload modified coordinates|This menu item will trigger an upload of all modified listing coordinates of caches in this list to the geocaching server.|
 |Upload coordinates for all caches|This menu item will trigger an upload of all cache coordinates of caches in this list as modified coordinates to the geocaching server. \\ :!: **WARNING:** This will overwrite the existing coordinates on the server for all (selected) caches of your list with the current listing coordinates in c:geo! This is to be used only in special cases, e.g. when you imported a GPX file which contains corrected coordinates as listing coordinates. This cannot be undone and you should only use it, if you know what you are doing. In normal cases the function ''Upload modified coordinates'' in the same menu.|
-|Clear all offline logs|This menu item is only available if caches on your list have an offline log and will allow you to delete these offline logs.|
+|Clear offline logs|This menu item is only available if caches on your list have an offline log and will allow you to delete these offline logs.|
+|Set cache icon|This function allows you to define a custom icon to be used for all cached on this list. Once selected it replaces the usual cache type icons.|
 |Create user defined cache| This will start creation of a [[en:udc|user defined cache]].|
 ==== Manage Lists ====
 {{anchor:manage_lists:}}
@@ -169,7 +170,8 @@ This menu option provides options to manage your cache lists.
 |Remove current list|This will delete the current list.\\ \\ :!: Deleting a list which contains caches, will move these caches to the default list but not delete the caches.|
 |Rename current list|Assign a new name to the current list.|
 |Make list unique|As a single cache can be stored on multiple lists, this function will delete all copies on other lists, so that the caches on your current list are no longer stored on any other list.|
-|Set list marker|With this function you can assign a color marker for the caches on this list. Different colors are available to choose from. Afterwards the cache icons of caches on this list will be shown with this marker on the map and on your lists. Up to two list markers will be shown on your cache icons.|
+|Set list marker|With this function you can assign a marker icon for the caches on this list. Different icons are available to choose from. Afterwards the cache icons of caches on this list will be shown with this marker on the map and on your lists. Up to two list markers will be shown on your cache icons.|
+|Ask for deletion if empty|You can choose whether c:geo should ask to delete this list as soon as its empty.\\  This option is not available for the default list 'Stored'.|
 
 <WRAP center round info 100%>
 The list ''Stored'' is your default list and cannot be deleted.
@@ -186,7 +188,6 @@ This menu offers options to import caches onto your lists from various sources a
 |Import Pocket Query|Opens the [[pocketquery|pocket query]] screen to import caches from your existing pocket queries.\\ \\ :!: This function is only available to geocaching.com [[..:basicmembers|premium members]].|
 |[[..offline#gpx_import|Import GPX]]|Allows you to import GPX files from your file system.\\ The folder where GPX files to be imported have to be stored, can be defined in the [[settings#gpx|settings]].|
 |Import from send2cgeo|Allows you to import caches using the [[utilityprograms|send2cgeo]] script.|
-|Import from Android|This option will open the Android import menu for importing a GPX file, offering you a wider choice of possible file sources (e.g. Google Drive)|
 
 ==== Export ====
 {{anchor:export:}}

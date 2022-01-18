@@ -1,75 +1,3 @@
-1607463710	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:mainmenu:mainmenu_2.jpg	silviopen	creata		80475
-1607463760	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:mainmenu_2.jpg	silviopen	creata		80475
-1607541998	146.241.0.117	C	it:main_topbarmenu.png	silviopen	creata		284084
-1607632556	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_1.png	silviopen	creata		2604124
-1607632557	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_2.png	silviopen	creata		2680016
-1607634686	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_2.png	silviopen	creata		983027
-1607634687	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_1.png	silviopen	creata		1336458
-1607635151	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	it:livemap_popup_2.png	silviopen			94818
-1607635446	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_4.png	silviopen	creata		97567
-1607636060	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_7.png	silviopen	creata		19241
-1607636060	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_6.png	silviopen	creata		19315
-1607636060	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_5.png	silviopen	creata		52830
-1607707682	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_hint..png	silviopen	creata		45573
-1607707905	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_popup_hint.png	silviopen	created		45573
-1607709240	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_mapsettings.png	silviopen	creata		407173
-1607709547	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_routing.png	silviopen	creata		718484
-1607709805	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	it:livemap_hiding.png	silviopen	creata		444072
-1608726843	2.205.118.1	E	en:livemap_1.png	lineflyer			-844038
-1608726926	2.205.118.1	E	en:livemap_2.png	lineflyer			-184269
-1608726967	2.205.118.1	C	settings_map.png	lineflyer	created		1571
-1608727470	2.205.118.1	E	en:livemap_mapsettings.png	lineflyer			631009
-1608729081	2.205.118.1	E	en:livemap_popup_1.png	lineflyer			-68818
-1608729261	2.205.118.1	E	en:livemap_popup_2.png	lineflyer			-72080
-1608729671	2.205.118.1	E	en:livemap_popup_4.png	lineflyer			-27995
-1608732262	2.205.118.1	E	en:settings_cachedetails.png	lineflyer			59206
-1609848826	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_appearance.png	lineflyer			-102537
-1609849213	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_system_backup_program.png	lineflyer			-5002
-1609849213	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	en:settings_system_backup.png	lineflyer			-122464
-1609858337	2.205.118.1	C	en:livemap_individual_track.png	lineflyer	created		677577
-1609858706	2.205.118.1	C	en:livemap_indiviudal_track_2.png	lineflyer	created		96410
-1609858784	2.205.118.1	D	en:livemap_individual_track.png	lineflyer	removed		-677577
-1609858789	2.205.118.1	D	en:livemap_indiviudal_track_2.png	lineflyer	removed		-96410
-1609858810	2.205.118.1	C	en:livemap_indiviudal_track_2.png	lineflyer	created		96410
-1609858810	2.205.118.1	C	en:livemap_individual_track.png	lineflyer	created		677577
-1609859720	2.205.118.1	C	en:livemap_individual_route.png	lineflyer	created		223500
-1609860668	2.205.118.1	C	en:livemap_history_track_2.png	lineflyer	created		103847
-1609860668	2.205.118.1	C	en:livemap_history_track.png	lineflyer	created		595637
-1609862458	2.205.118.1	C	en:livemap_distance_info_3.png	lineflyer	created		289357
-1609862458	2.205.118.1	C	en:livemap_distance_info_1.png	lineflyer	created		235565
-1609862458	2.205.118.1	C	en:livemap_distance_info_2.png	lineflyer	created		289482
-1610529471	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_1.png	ijeantet	créée		213575
-1610529471	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_2.png	ijeantet	créée		236439
-1610529944	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_3.png	ijeantet	créée		12615
-1610529944	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_4.png	ijeantet	créée		59530
-1610529944	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_5.png	ijeantet	créée		121097
-1610529944	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_hint.png	ijeantet	créée		50998
-1610535704	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_mapname.png	ijeantet	créée		36656
-1610536122	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_7.png	ijeantet	créée		36950
-1610536122	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_popup_6.png	ijeantet	créée		42566
-1610536123	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:livemap_popup_4.png	ijeantet			188736
-1610539807	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:livemap_mapsettings.png	ijeantet	créée		740074
-1610633503	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:brouter_with.png	ijeantet	créée		815833
-1610633503	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:brouter_without.png	ijeantet	créée		828237
-1610635454	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:search_2.png	ijeantet	créée		75830
-1610635454	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:search_1.png	ijeantet	créée		264048
-1610643598	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:goto.png	ijeantet	créée		139999
-1610650100	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass.png	ijeantet	créée		363077
-1610650100	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass_menu.png	ijeantet	créée		361751
-1610660220	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass_bottom.png	ijeantet	created		19719
-1610660220	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass_top.png	ijeantet	created		47819
-1610660221	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:compass_rose.png	ijeantet	created		391751
-1610699424	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:navigation.png	ijeantet	créée		210965
-1610732307	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	helper_chirp_wolf.png	ijeantet	créée		88693
-1610796206	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:setting_2.png	ijeantet	créée		261868
-1610796206	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:settings_1.png	ijeantet	créée		1250557
-1610796297	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:settings_2.png	ijeantet	créée		261868
-1610810010	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_2.png	ijeantet	créée		34407
-1610810010	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_1.png	ijeantet	créée		85949
-1610811469	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_twitter_1.png	ijeantet	créée		11637
-1610811469	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_twitter_3.png	ijeantet	créée		94870
-1610811469	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_twitter_2.png	ijeantet	créée		92109
-1610812593	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:services_androidbrowser.png	ijeantet	créée		48947
 1611305697	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:settings_appearance.png	ijeantet	créée		127894
 1611307726	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	C	fr:settings_cachedetails.png	ijeantet	créée		224484
 1613379382	2a00:ee2:f012:696:48aa:bbed:dac1:6138	C	fr:settings_maps_mapdata.png	ijeantet	créée		105616
@@ -86,6 +14,13 @@
 1615153781	2.205.118.224	E	en:cachedetails_topbar.png	lineflyer			0
 1615153781	2.205.118.224	C	en:cachedetails_topbar4.png	lineflyer	created		52655
 1617622617	2.202.19.198	E	en:livemap_mapsettings.png	lineflyer			-590217
+1617625084	2.202.19.198	C	en:firststeps_wizard_01_welcome.png	lineflyer	created		86970
+1617625084	2.202.19.198	C	en:firststeps_wizard_02_permission.png	lineflyer	created		94019
+1617625084	2.202.19.198	C	en:firststeps_wizard_03_permission_file.png	lineflyer	created		130419
+1617625084	2.202.19.198	C	en:firststeps_wizard_04_permission_file_confirm.png	lineflyer	created		82151
+1617625084	2.202.19.198	C	en:firststeps_wizard_05_permission_gps.png	lineflyer	created		106038
+1617625084	2.202.19.198	C	en:firststeps_wizard_06_permission_gps_confirm.png	lineflyer	created		84418
+1617625084	2.202.19.198	C	en:firststeps_wizard_08_basefolder_selector.png	lineflyer	created		30285
 1617625084	2.202.19.198	C	en:firststeps_wizard_07_basefolder.png	lineflyer	created		176449
 1617625084	2.202.19.198	C	en:firststeps_wizard_09_basefolder_confirm.png	lineflyer	created		62538
 1617625084	2.202.19.198	C	en:firststeps_wizard_10_services.png	lineflyer	created		131674
@@ -95,25 +30,18 @@
 1617625084	2.202.19.198	C	en:firststeps_wizard_14_ocauth.png	lineflyer	created		41155
 1617625084	2.202.19.198	C	en:firststeps_wizard_15_advanced.png	lineflyer	created		147638
 1617625084	2.202.19.198	C	en:firststeps_wizard_16_done.png	lineflyer	created		116721
-1617625084	2.202.19.198	C	en:firststeps_wizard_01_welcome.png	lineflyer	created		86970
-1617625084	2.202.19.198	C	en:firststeps_wizard_02_permission.png	lineflyer	created		94019
-1617625084	2.202.19.198	C	en:firststeps_wizard_03_permission_file.png	lineflyer	created		130419
-1617625084	2.202.19.198	C	en:firststeps_wizard_04_permission_file_confirm.png	lineflyer	created		82151
-1617625084	2.202.19.198	C	en:firststeps_wizard_05_permission_gps.png	lineflyer	created		106038
-1617625084	2.202.19.198	C	en:firststeps_wizard_06_permission_gps_confirm.png	lineflyer	created		84418
-1617625084	2.202.19.198	C	en:firststeps_wizard_08_basefolder_selector.png	lineflyer	created		30285
 1617637150	2.202.19.198	C	en:settings_map_mapcontent.png	lineflyer	created		78899
 1617637183	2.202.19.198	D	en:settings_map_mapcontent.png	lineflyer	removed		-78899
 1617637202	2.202.19.198	E	en:settings_maps_mapcontent.png	lineflyer			-149279
 1617637660	2.202.19.198	E	en:settings_maps_mapdata.png	lineflyer			-134161
-1617652490	2.202.19.198	C	en:offlinemap_downloader_5b.png	lineflyer	created		28878
-1617652490	2.202.19.198	C	en:offlinemap_downloader_6.png	lineflyer	created		34374
-1617652490	2.202.19.198	C	en:offlinemap_downloader_5a.png	lineflyer	created		24068
-1617652490	2.202.19.198	C	en:offlinemap_downloader_2.png	lineflyer	created		31848
 1617652490	2.202.19.198	C	en:offlinemap_downloader_4.png	lineflyer	created		97971
 1617652490	2.202.19.198	C	en:offlinemap_downloader_3.png	lineflyer	created		85749
 1617652490	2.202.19.198	C	en:offlinemap_downloader_settings.png	lineflyer	created		29796
 1617652490	2.202.19.198	C	en:offlinemap_downloader_1.png	lineflyer	created		69324
+1617652490	2.202.19.198	C	en:offlinemap_downloader_5b.png	lineflyer	created		28878
+1617652490	2.202.19.198	C	en:offlinemap_downloader_6.png	lineflyer	created		34374
+1617652490	2.202.19.198	C	en:offlinemap_downloader_5a.png	lineflyer	created		24068
+1617652490	2.202.19.198	C	en:offlinemap_downloader_2.png	lineflyer	created		31848
 1617652624	2.202.19.198	C	en:offlinemap_downloader_maps.png	lineflyer	created		134098
 1617653171	2.202.19.198	E	en:offlinemap_downloader_3.png	lineflyer			964
 1617653171	2.202.19.198	E	en:offlinemap_downloader_1.png	lineflyer			921
@@ -137,8 +65,8 @@
 1617711895	2.202.19.198	C	en:logging_images.png	lineflyer	created		71460
 1617714161	2.202.19.198	C	settings_details_white.png	lineflyer	created		325
 1617714622	2.202.19.198	E	en:logging_attachimage.png	lineflyer			453253
-1617718801	2.202.19.198	E	en:system_other_2.png	lineflyer			-162775
 1617718801	2.202.19.198	E	en:system_other_1.png	lineflyer			-217874
+1617718801	2.202.19.198	E	en:system_other_2.png	lineflyer			-162775
 1617720197	2.202.19.198	E	en:settings_system_gpx.png	lineflyer			-27669
 1617720197	2.202.19.198	E	en:settings_offlinedata.png	lineflyer			-60905
 1617720477	2.202.19.198	E	en:settings_cachedetails.png	lineflyer			-207987
@@ -147,8 +75,8 @@
 1617721611	2.202.19.198	E	en:main_topbarmenu.png	lineflyer			-742770
 1617721816	2.202.19.198	C	en:main_topbarmenu_2.png	lineflyer	created		323054
 1617742610	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	C	type_cgeo.png	lineflyer	created		2796
-1617879624	2.202.19.198	C	en:seach_1_en.png	lineflyer	angelegt		53407
 1617879624	2.202.19.198	C	en:seach_2_en.png	lineflyer	angelegt		20410
+1617879624	2.202.19.198	C	en:seach_1_en.png	lineflyer	angelegt		53407
 1617879661	2.202.19.198	E	en:search_2_en.png	lineflyer			-24607
 1617879661	2.202.19.198	E	en:search_1_en.png	lineflyer			-74487
 1617879670	2.202.19.198	D	en:seach_1_en.png	lineflyer	removed		-53407
@@ -159,8 +87,8 @@
 1617880076	2.202.19.198	E	en:services_1_en.png	lineflyer			-38858
 1617880269	2.202.19.198	E	en:services_twitter_2.png	lineflyer			-69075
 1617880269	2.202.19.198	E	en:services_twitter_1.png	lineflyer			-800
-1617880392	2.202.19.198	E	en:services_androidbrowser.png	lineflyer			-7451
 1617880392	2.202.19.198	E	en:services_twitter_3.png	lineflyer			-17791
+1617880392	2.202.19.198	E	en:services_androidbrowser.png	lineflyer			-7451
 1617880497	2.202.19.198	E	en:settings_maps_proximity.png	lineflyer			-142896
 1617880653	2.202.19.198	E	en:settings_logging_otherloggingoptions.png	lineflyer			-88335
 1617880653	2.202.19.198	E	en:settings_logging_signature.png	lineflyer			-36577
@@ -563,3 +491,25 @@
 1637592858	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	disabled_combined_marker_gc_withpin.svg	lineflyer	created		1797
 1637592858	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	disabled_combined_marker_other_withpin.svg	lineflyer	created		1990
 1637592859	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	combined_marker_gc_withpin.svg	lineflyer	created		1797
+1642511929	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:livemap_mapsettings.png	lineflyer			22323
+1642513140	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_managecaches.png	lineflyer			-163910
+1642513141	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_managecaches_select.png	lineflyer			-215148
+1642513336	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_showonmap.png	lineflyer			-139098
+1642513337	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_selectmode.png	lineflyer			-207340
+1642513337	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_managelists.png	lineflyer			-228697
+1642513337	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_managecaches_select.png	lineflyer			0
+1642513337	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_managecaches.png	lineflyer			0
+1642513742	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_cache_contextmenu.png	lineflyer			-63689
+1642513742	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_1_en.png	lineflyer			-114968
+1642513843	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_trackableinfo.png	lineflyer			-3927
+1642514025	2a00:1e:9640:fc:5ddc:e891:cab2:feec	C	en:lists_menu.png	lineflyer	created		251803
+1642514061	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:list_menu.png	lineflyer			-28440
+1642514187	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:list_menu.png	lineflyer			15637
+1642514567	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_export.png	lineflyer			-102539
+1642514567	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:lists_import.png	lineflyer			-92452
+1642514751	92.212.14.117	E	en:lists_filterindication.png	lineflyer			-4255
+1642514840	92.212.14.117	E	en:lists_listchange.png	lineflyer			-4962
+1642540151	2a00:1e:9640:fc:8519:db5e:a790:c37e	E	en:udc_description.png	lineflyer			-18414
+1642540151	2a00:1e:9640:fc:8519:db5e:a790:c37e	E	en:udc_waypoints.png	lineflyer			-19146
+1642540151	2a00:1e:9640:fc:8519:db5e:a790:c37e	E	en:udc_create.png	lineflyer			10837
+1642540151	2a00:1e:9640:fc:8519:db5e:a790:c37e	E	en:udc_details.png	lineflyer			-33289

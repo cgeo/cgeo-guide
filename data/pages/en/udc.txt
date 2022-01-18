@@ -17,7 +17,7 @@ You can create user defined caches in two ways:
   - Open a list of saved caches and select ''Manage Caches'' -> ''Create user defined cache'' from the [[.mainmenu:lists#manage_caches|list menu]].
   - Long tap on the map to trigger creation of a user defined cache. This long tap function needs to be enabled in [[.mainmenu:settings#map_behavior|map behavior settings]].
 
-After performing on of these actions you will be prompted for the title of the user defined caches to be created.
+After performing on of these actions you will be prompted for the title of the user defined caches to be created. By tapping the icon in upper right of the dialog you can also select a custom cache icon for this cache.
 
 {{:en:udc_create.png?direct400|}}
 

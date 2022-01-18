@@ -15,7 +15,7 @@ The following table describes the main menu icons:
 |{{:main_stored_default.png?nolink&100|}}|[[lists|Stored Caches]]|View geocaches you have stored for offline use. You can also use stored geocaches for online caching, as a to-do list. By storing geocache information, you can avoid unnecessary network bandwidth use and delays. The total number of stored geocaches is shown in the top-right of the icon.\\ If you have organized your stored geocaches into lists, you can long press the icon to jump directly to a specific list.|
 |{{:main_search_default.png?nolink&100|}}|[[search|Search]]|Search for geocaches by keyword, geocode identification, address, user name, etc.|
 |{{:main_any_default.png?nolink&100|}}|[[goto|Go To]]|Navigate to any arbitrary location using the compass, radar, turn-by-turn navigation or any other supported navigation method.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Global Cache Type Filter]]|This will be replaced by the new [[..:cachefilter|filter framework]] soon.|
+|{{:main_filter_default.png?nolink&100|}}|Deprecated|This was replacecd by the new [[..:cachefilter|filter framework]].|
 
 
 ===== Top Bar Menu ===== 

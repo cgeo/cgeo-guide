@@ -15,7 +15,7 @@ Die folgende Tabelle gibt dir eine Übersicht über die Symbole im Hauptmenü:
 |{{:main_stored_default.png?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten. Wenn du Geocaches gespeichert hast, zeigt das Symbol in der oberen rechten Ecke die Anzahl aller gespeicherten Caches.\\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
 |{{:main_search_default.png?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.|
 |{{:main_any_default.png?nolink&100|}}|[[goto|Gehe zu]]|Navigiert zu beliebigen Koordinaten mit Hilfe von Kompass, Radar, Routenführung oder jeder anderen unterstützten Navigationsmethode.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Globaler Cachetyp-Filter]]|Dieser Filter wird in Kürze durch die neue [[..:cachefilter|Filterstruktur]] ersetzt!|
+|{{:main_filter_default.png?nolink&100|}}|Veraltet|Dieser Filter wurde durch die neue [[..:cachefilter|Filterstruktur]] ersetzt!|
 
 
 ===== Titelzeilen-Menü ===== 

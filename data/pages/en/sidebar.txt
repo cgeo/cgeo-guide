@@ -17,7 +17,6 @@
         * [[.mainmenu:lists|Stored caches]]
         * [[.mainmenu:search|Search]]
         * [[.mainmenu:goto|Go to]]
-        * [[.mainmenu:globaltypefilter|Global Cache Type Filter]]
         * [[.mainmenu:start#bottom_section|Status infos]]
       * [[.mainmenu:settings|Settings]]
       * [[start#geocaches|Geocaches]]

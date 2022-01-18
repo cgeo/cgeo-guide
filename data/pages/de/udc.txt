@@ -17,7 +17,7 @@ Du kannst benutzerdefinierte Caches auf zwei Wegen erstellen:
   - Öffne eine Liste gespeicherter Caches und wähle ''Caches verwalten'' -> ''Benutzerdefinierten Cache erstellen'' aus dem  [[.mainmenu:lists#manage_caches|Listen-Menü]].
   - Klicke lang auf auf Karte um die Erstellung eines benutzerdefinierten Caches zu starten. Diese Langklick-Funktion musst du in den [[.mainmenu:settings#map_behavior|Einstellungen für das Kartenverhalten]] aktivieren.
 
-Nach der Durchführung dieser Schritte wirst du nach dem Titel für den benutzerdefinierten Caches gefragt:
+Nach der Durchführung dieser Schritte wirst du nach dem Titel für den benutzerdefinierten Caches gefragt. Außerdem kannst du durch Klicken auf das Symbol oben rechts im Dialog ein individuelles Cachesymbol wählen.
 
 {{:en:udc_create.png?direct400|}}
 
