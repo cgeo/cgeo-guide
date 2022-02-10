@@ -66,3 +66,4 @@
 1633006145	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		0
 1633006543	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Unknown communication error] 		11
 1633007015	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[If nothing helps...] 		107
+1643139252	2a00:ee2:f012:28:55f1:b40f:58a0:aed9	e	en:loginproblems	lineflyer	[Login failed: Captcha required] 		-1

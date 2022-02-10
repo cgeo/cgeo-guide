@@ -108,7 +108,7 @@ c:geo has detected, that the geocaching website requires you to solve a Captcha 
 Please login once on the geocaching website using your browser/PC, solve the Captcha there and try again with c:geo after you successfully logged in there.
 </WRAP>
 
-Furthermore geocaching.com might user such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
+Furthermore geocaching.com might use such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
 
 === Login failed: You must validate your account on the Geocaching.com website first ===
 

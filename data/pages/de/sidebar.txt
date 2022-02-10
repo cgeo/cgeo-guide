@@ -34,7 +34,7 @@
         * [[.mainmenu:pocketquery|Pocket-Queries]]
         * [[offline#offline_logging|Offline loggen]]
         * [[offline#field_note_export|Feldnotizen]]
-        * [[offline#offline_maps|Offline-Karten]]
+        * [[offlinemaps|Offline-Karten]]
       * [[udc|Benuzterdefinierte Caches]]
 
     * [[start#quick_reference|Schnellreferenz]]

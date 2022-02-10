@@ -23,7 +23,7 @@ Die folgende Tabelle gibt einen Überblick über die Kartenquellen, die vom c:ge
 |[[https://download.mapsforge.org|Mapsforge Kartenserver]]|Weltweit|Dieser Server beinhaltet weltweite vorgebaute Karte und POIs, die mit dem neuesten Mapsforge-Writer erstellt wurden.|Angepasste Themen-Dateien werden nicht angeboten, die Karten-Dateien funktionieren am besten mit dem c:geo Standardthema.|Kostenfreie Nutzung|
 |[[https://openandromaps.org|OpenAndroMaps]]|Weltweit|OpenAndroMaps bietet herunterladbare Vektorkarten zur freien Nutzung mit Smartphones|Wir empfehlen diese Karten zusammen mit dem passenden OpenAndroMaps-Kartenthema "Elevate 4" zu nutzen, welches auch auf dieser Webseite heruntergeladen werden kann.|Kostenfreie Nutzung, Spenden willkommen|
 |[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europe|Kartendaten für Garmin-Geräte und Android-Smartphones.|Sehr detailierte Karten, aber sie benötigen ein passendes Thema (welches auch auf der Webseite heruntergeladen werden kann) um eine korrekte Ansicht zu haben.|Kostenfreie Nutzung, Spenden willkommen|
-==== herunterladen/Installieren der Karten/Designs ====
+==== Herunterladen/Installieren der Karten/Designs ====
 
 Der c:geo Karten-Downloader kann auf zwei Wegen gestartet werden:
   * Aus der [[.:mainmenu:livemap|Kartenansicht]] durch Öffnen der Kartenauswahl und Tippen auf ''<Offline-Karte herunterladen>''
