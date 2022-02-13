@@ -1,23 +1,21 @@
-====== Hauptbildschirm ======
+====== Startbildschirm ======
 
-Diese Seite beschreibt die Informationen und Funktionen des c:geo Hauptbildschirms.
+Diese Seite beschreibt die Informationen, die auf dem Startbildschirm angezegit werden und die Funktionen der unten angezeigten Navigationsleiste, die in der App durchgehend zu sehen ist.
 
-===== Hauptsymbole =====
+Der Startbildschirm zeigt dein Profilbild (erhalten von der Geocaching-Webseite) sowie deine Fund-Anzahl und den Status der Anmeldung, für alle Geocaching-Dienste, die du in c:geo aktiviert hast.
+
 {{anchor:main_icons:}}
 
 {{ :en:mainmenu_2.png?direct&400 |}}
 
-Die folgende Tabelle gibt dir eine Übersicht über die Symbole im Hauptmenü:
+Am unteren Rand des Bildschirms findest du die Hauptfunktionen, die in der folgenden Tabelle erklärt werden. Die aktive Funktion wird hervorgehoben dargestellt.
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Live-Karte]]|Die Live-Karte zeigt eine Karte mit Geocaches um deinen aktuellen Standort. Sie kann bewegt werden, um zu sehen welche Geocaches es an anderen Standorten gibt. Du brauchst eine Internetverbindung um die Karte und aktuelle Geocache-Positionen darauf zu sehen. Beachte bitte, dass die angezeigten Geocaches ggf. gefiltert sein können, siehe den nächsten Eintrag für mehr Informationen.|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|In der Nähe]]|Erstellt dir eine Liste der Geocaches in der Umgebung. Anders als die Live-Karte startet diese Menüfunktion eine Onlinesuche basierend auf deinem aktuellen Standort (wie über GPS oder Netzwerk ermittelt). Diese aktualisiert sich nicht automatisch wenn du dich bewegst. Du benötigst eine Internetverbindung um diese Funktion zu nutzen.\\ \\ Falls es kein gültiges GPS-Signal oder andere Standort-Information gibt, ist der Menüeintrag deaktiviert.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten. Wenn du Geocaches gespeichert hast, zeigt das Symbol in der oberen rechten Ecke die Anzahl aller gespeicherten Caches.\\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Gehe zu]]|Navigiert zu beliebigen Koordinaten mit Hilfe von Kompass, Radar, Routenführung oder jeder anderen unterstützten Navigationsmethode.|
-|{{:main_filter_default.png?nolink&100|}}|Veraltet|Dieser Filter wurde durch die neue [[..:cachefilter|Filterstruktur]] ersetzt!|
-
-
+|{{:main_home_default.svg?nolink&100|}}|Startbildschirm| Bringt dich zurück zum Startbildschirm.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten.\\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Karte]]|Die Live-Karte zeigt eine Karte mit Geocaches um deinen aktuellen Standort. Sie kann bewegt werden, um zu sehen welche Geocaches es an anderen Standorten gibt. Du brauchst eine Internetverbindung um die Karte und aktuelle Geocache-Positionen darauf zu sehen. Beachte bitte, dass die angezeigten Geocaches ggf. gefiltert sein können.|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.\\ Ein langes Tippen öffnet eine Liste der zuletzt geöffneten Caches.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|In der Nähe]]|Erstellt dir eine Liste der Geocaches in der Umgebung. Anders als die Live-Karte startet diese Menüfunktion eine Onlinesuche basierend auf deinem aktuellen Standort (wie über GPS oder Netzwerk ermittelt). Diese aktualisiert sich nicht automatisch wenn du dich bewegst. Du benötigst eine Internetverbindung um diese Funktion zu nutzen.|
 ===== Titelzeilen-Menü ===== 
 {{anchor:top_bar_menu:}}
 
@@ -35,26 +33,26 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 |{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Schnellsuche]]|Im Unterschied zur Suchfunktion im Hauptmenü, durchsucht die Schnellsuche sowohl alle deine gespeicherten Caches als auch Online and zeigt dir eine Ergebnisliste basierend auf deinem Suchwort. Für die Offline-Suche deckt die Suche fast alle Cacheinformationen ab wie z.B. Titel, Geocode, Beschreibung, Owner, Logeinträge and einiges mehr. Zur Online-Suche kannst du z.B. einen Geocode, Trackablecode, Nutzernamen und einiges mehr eingeben.|
 |{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Verlauf]]|Dies zeigt eine Liste von Caches, die du kürzlich mit c:geo geloggt hast. Beachte bitte, dass dies eine lokale Liste in c:geo ist und nicht mit der Liste der kürzlichnangezeigten Caches auf der Geocaching-Webseite synchronisiert wird.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
-|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Listen / Pocket-Queries]]|Öffnet eine Liste der auf dem geocaching.com Server gefundenen Pocket-Queries und Bookmarklisten (Dieser Menüeintrag ist für [[..:basicmembers|Basis-Mitglieder]] von geocaching.com nicht verfügbar).|
-|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Einstellungen]]|Dies öffnet die c:geo Konfiguration.|
-|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Sicherung]]|Dies ist eine Abkürzung zur Sicherungsfunktion, die auch in den [[settings|c:geo Einstellungen]] gefunden werden kann.|
+|{{:main_any_default.svg?nolink&40|}}|[[goto|Gehe zu]]|Navigiert zu beliebigen Koordinaten mit Hilfe von Kompass, Radar, Routenführung oder jeder anderen unterstützten Navigationsmethode.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket-Queries]]|Öffnet eine Liste der auf dem geocaching.com Server gefundenen Pocket-Queries und Bookmarklisten (Dieser Menüeintrag ist für [[..:basicmembers|Basis-Mitglieder]] von geocaching.com nicht verfügbar).|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Lesezeichen-Listen]]|Öffnet eine Liste der auf dem geocaching.com Server gefundenen  lesezeichen-Listen (Dieser Menüeintrag ist für [[..:basicmembers|Basis-Mitglieder]] von geocaching.com nicht verfügbar).|
 |{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Nützliche Apps]]|Hier findest du Links zu anderen Apps rund ums Geocaching, die im Zusammenspiel mit c:geo nützlich sein könnten.|
-|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Geocode scannen]]|Wenn eine [[utilityprograms|Barcode-Scanner]] App auf deinem Gerät installiert ist, startet diese Funktion das Scannen von Barcodes für Geocodes.|
+| | |
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Einstellungen]]|Dies öffnet die c:geo Konfiguration.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Sichern / Wiederherstellen]]|Dies ist eine Abkürzung zur Funktion Sichern/Wiederherstellen, die auch in den [[settings|c:geo Einstellungen]] gefunden werden kann.|
+| | Offline-Daten aktualisieren|Öffnet ein Menü, in dem du auf verfügbare Aktualisierungen deiner Offline-Karten und Routing-Daten prüfen kannst.|
+| | |
 |{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Über c:geo]]|Dieser Funktion zeigt Versionsinformationen von c:geo, Mitwirkende, Kontaktinformationen und andere Dinge, die wissenswert sein könnten.|
 | |Problem melden |Über diese Funktion kannst du einen Problembericht an den c:geo Support per Mail senden. :!: Bitte füge eine detaillierte Beschreibung deines Problems anbei.|
 
-===== Fusszeile =====
+===== Fußzeile =====
 {{anchor:bottom_section:}}
 
-{{ :en:mainmenu_4.png?direct&400 |}}
+{{ :en:mainmenu_4.png?direct&600 |}}
 
-In diesem Bereich des Hauptbildschirms findest du Informationen über deinen Login-Status sowie über deinen derzeitigen Standort und Satelliten-Status.
+In diesem Bereich des Startbildschirms findest du Informationen über die Anzahl gespeicherter Caches sowie deinen derzeitigen Standort und Satelliten-Status.
 
-==== Login-Status ====
-{{anchor:login_status:}}
 
-Am Anfang dieses Bereich findest du eine dedizierte Zeile mit dem Login-Status für jeden [[settings#Services|Geocaching -Dienst]], den du in den [[settings|c:geo Einstellungen]] konfiguriert und aktiviert hast.\\
-In diesem Beispiel ist dein Benutzername ''My username'' and du bist erfolgreich bei geocaching.com (''GC'') und opencaching.de (''OC.DE'') angemeldet. Die Zahl hinter dem Benutzernamen ist die Anzahl deiner Funde auf der jeweiligen Geocaching-Plattform, welche optional auch die Offlinefunde (als ''Online-Funde + Offline Funde'') anzeigt, wenn die zugehörige Funktione in deinen [[.settings#other_logging_options|Log-Optionen]] aktiviert ist.
 
 ==== Aktueller Standort ====
 {{anchor:current_location:}}
@@ -68,8 +66,8 @@ In diesem Beispiel ist der Nutzer derzeit in ''USA, New York''.
 Die letzte Zeile in diesem Bereich zeigt dir den aktuellen Status des Satellitenempsangs wie folgt (Beispiel vom Bild oben):
 
 ^Status ^ Beschreibung ^
-|Sat: 5/22|Der Satellitenempfänger deines Gerätes hat insgesamt 22 Satelliten gefunden und das Signal von 5 Satelliten wird genutzt.|
-|+- 4,65 m|Die aktuelle Standortgenauigkeit ist 4,65 Meter (könnte je nach Einstellung auch in Fuß statt Metern angezeigt werden).|
-| 0 km/h|Die aktuelle Geschwindigkeit ist 0 km/h  (könnte je nach Einstellung auch in mi/h statt km/h angezeigt werden).|
-|Last known|Zeigt die Quelle des derzeit genutzten Standortes:\\ \\ Letzte Position = Die letzte bekannte Position, die c:geo aufgezeichnet hat\\ Heim = Heim-Koordinaten, wie auf geocaching.com festgelegt \\ GPS = Position vom GPS-Empfänger\\ Netzwerk = Position mit Hilfe von Mobilnetz-Informationen ermittelt\\ Kombiniert = Nutzt sowohl Google Play Services als auch Daten vom GPS-Empfänger für eine noch genauere Standortbestimmung|
+|Sat: 16/26|Der Satellitenempfänger deines Gerätes hat insgesamt 26 Satelliten gefunden und das Signal von 16 Satelliten wird genutzt.|
+|+- 26,1 ft|Die aktuelle Standortgenauigkeit ist 26,1 Fuß (könnte je nach Einstellung auch in Metern statt Fuß angezeigt werden).|
+| 0 mph|Die aktuelle Geschwindigkeit ist 0 mph  (könnte je nach Einstellung auch in km/h statt mph angezeigt werden).|
+|Kombiniert|Zeigt die Quelle des derzeit genutzten Standortes:\\ \\ Letzte Position = Die letzte bekannte Position, die c:geo aufgezeichnet hat\\ Heim = Heim-Koordinaten, wie auf geocaching.com festgelegt \\ GPS = Position vom GPS-Empfänger\\ Netzwerk = Position mit Hilfe von Mobilnetz-Informationen ermittelt\\ Kombiniert = Nutzt sowohl Google Play Services als auch Daten vom GPS-Empfänger für eine noch genauere Standortbestimmung|
 .

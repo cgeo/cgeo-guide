@@ -1272,3 +1272,63 @@
 1643645690	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:offlinemaps	lineflyer	[herunterladen/Installieren der Karten/Designs] 		0
 1643645820	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Change link to offline maps		-9
 1643645848	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:sidebar	lineflyer	Neuer Link zu Offline-Karten		-9
+1644748715	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		0
+1644748985	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		0
+1644748998	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		0
+1644755136	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		-8
+1644755201	2a00:ee2:f012:11c:1a8:5996:e977:85f	R	en:mainmenu:start	lineflyer	old revision restored (2022/01/18 22:18)	1642540692	8
+1644757052	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		0
+1644757140	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		-274
+1644757186	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Icons] 		29
+1644757232	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Screen] 		62
+1644757267	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	Bottom nav draft		13
+1644758356	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Screen] 		4
+1644758481	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Navigation] 		-10
+1644758597	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		169
+1644758731	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		-283
+1644773592	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		69
+1644773613	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		-7
+1644774093	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		182
+1644774131	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-198
+1644774155	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		8
+1644774234	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Main Navigation] 		-5
+1644774257	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		-24
+1644774331	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Remove main screen topbar menu from sidebar		-56
+1644774399	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Outdend main function to same level as home screen, Remove Goto		-99
+1644775488	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		187
+1644775520	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		6
+1644775562	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		19
+1644775633	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		115
+1644776430	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Bottom Section] 		0
+1644776450	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Bottom Section] 		10
+1644776460	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Login status] 		-698
+1644776492	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Current location] 		-109
+1644776581	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Satellite status] 		-4
+1644776692	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:start	lineflyer	[Main screen] Outdent main functions, Remove Goto		-241
+1644776719	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:lists	lineflyer	[Stored caches] 		0
+1644776731	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:livemap	lineflyer	[Live map] 		0
+1644776757	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:search	lineflyer	use svg		0
+1644777915	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Home Screen] 		46
+1644789114	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Hauptbildschirm] 		240
+1644789360	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Hauptsymbole] 		-273
+1644789381	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Startbildschirm] 		-154
+1644789632	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		424
+1644789681	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Fusszeile] 		6
+1644789689	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Login-Status] 		-708
+1644789701	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Fusszeile] 		0
+1644789788	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Satelliten-Status] 		-1
+1644789856	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:sidebar	lineflyer	Neue Struktur Bottom-Navigation		-167
+1644789905	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:start	lineflyer	[Hauptmenü] 		-345
+1644789971	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	Description for dashboard content		57
+1644790003	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	Beschreibung des Dashboard		62
+1644790022	2a00:ee2:f012:11c:1a8:5996:e977:85f	e	en:mainmenu:start	lineflyer	word correction		-1
+1644790086	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Fusszeile] 		0
+1644790355	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] Change GoTo to use SVG icon		0
+1644790402	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-1
+1644790433	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] Use SVG for Go To icon		-1
+1644790447	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:goto	lineflyer	[Gehe zu Menü] 		0
+1644790463	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:mainmenu:goto	lineflyer	Change to SVG		0
+1644790473	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:goto	lineflyer	g		1
+1644790487	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:livemap	lineflyer	Use SVG		0
+1644790496	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:lists	lineflyer	[Gespeicherte Caches] 		0
+1644790507	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:search	lineflyer	Use SVG		0

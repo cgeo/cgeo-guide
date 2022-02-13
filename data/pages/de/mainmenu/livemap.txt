@@ -1,6 +1,6 @@
 ====== Live-Karte ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Während die Live-Karte angezeigt wird, wird der Bildschirm deines Gerätes nicht mehr automatisch abgeschaltet. Du musst die Karte verlassen, damit der Bildschirm wieder automatisch (zeitgesteuert) zum Energiesparen abgeschaltet wird. Natürlich ist es weiterhin möglich den Bildschirm manuell abzuschalten.

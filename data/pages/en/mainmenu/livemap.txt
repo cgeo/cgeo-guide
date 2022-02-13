@@ -1,6 +1,6 @@
 ====== Live map ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 While the map screen is shown your mobile device will for your convenience not automatically switch off any longer. You have to leave this screen in order to return to automatic (timed) switch-off for power conservation. Of course, manually switching on and off your mobile device still works as usual.

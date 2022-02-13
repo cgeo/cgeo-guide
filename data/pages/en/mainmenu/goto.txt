@@ -1,6 +1,6 @@
 ====== Go to menu ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 The "Go to..." menu can be used to navigate to arbitrary coordinates not bound to any geocache or geocache waypoint or to make a waypoint projection.\\ 
 

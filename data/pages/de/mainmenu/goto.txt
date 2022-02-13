@@ -1,10 +1,11 @@
 ====== Gehe zu Menü ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 Das "Gehe zu..." menü kann dazu genutzt werden to beliebigen Koordinaten zu navigieren, die nicht an einen bestimmten Geocache oder Geocache-Wegpunkt gebunden sind oder eine Wegpunkt-Projektion durchzuführen.\\ 
 
 Technisch gesehen bringt dich das "Gehe zu..." Menü zum [[..:cachedetails#waypoint_tab|Wegpunkt-Reiter]] eines c:geo internen Geocaches. Die Bedienung ist also exakt gleich zu den Wegpunkten aller anderen Geocaches in c:geo. Bitte schau in den verlinkten Artikel über den Wegpunkt-Reiter und den Wegpunkt-Editor.\\ \\ \\
+
 
 **FIXME**: New picture needed
 

@@ -1,6 +1,6 @@
 ====== Gespeicherte Caches ======
 
-{{:main_stored_default.png?nolink&100 |}}
+{{:main_stored_default.svg?nolink&100 |}}
 
 Dieses Menü zeigt die Geocaches an, die aktuell auf deinem Gerät zur Offline-Nutzung gespeichert sind. Für ein besseres Geocaching-Erlebnis ermöglicht dir c:geo die gespeicherten Caches in verschiedenen Listen zu organisieren.
 

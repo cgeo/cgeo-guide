@@ -29,14 +29,11 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
 ==== Hauptmenü ====
 {{anchor:main_menu:}}
 
-  * [[.mainmenu:start|Hauptbildschirm]]  - Die Funktionen des Hauptbildschirms
-    * [[.mainmenu:start#top_bar_menu|Titelzeilenmenü]] - Die Menüfunktionen im der Titelzeile des Hauptbildschirms
-    * [[.mainmenu:livemap|Live-Karte]] - Die Live-Karte der Geocaches
-    * [[.mainmenu:lists#cache_list|Nahbereichssuche]] - Suche nach Caches in der Umgebung
-    * [[.mainmenu:lists|Gespeicherte Caches]] - Lokal gespeicherte Geocaches
-    * [[.mainmenu:search|Suche]] - Suche nach Geocaches und Trackables
-    * [[.mainmenu:goto|Gehe zu]] - Direkte Navigation zu beliebigen Koordinaten
-    * [[.mainmenu:start#bottom_section|Status Infos]] - Die Statusinfos, die im unteren Bereich des Hauptbildschirms angezeigt werden.
+  * [[.mainmenu:start|Startbildschirm]]  - Die Funktionen des Startbildschirms
+  * [[.mainmenu:livemap|Karte]] - Die Live-Karte der Geocaches
+  * [[.mainmenu:lists#cache_list|Nahbereichssuche]] - Suche nach Caches in der Umgebung
+  * [[.mainmenu:lists|Gespeicherte Caches]] - Lokal gespeicherte Geocaches
+  * [[.mainmenu:search|Suche]] - Suche nach Geocaches und Trackables
 
   * [[.mainmenu:settings|Einstellungen]] - Konfiguration der Applikation
 

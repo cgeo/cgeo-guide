@@ -1,6 +1,6 @@
 ====== Search function ======
 
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 The search menu provides several search functions as described below. All location and user based searches will provide a [[lists|list of caches]] as result, whereas the geocode search and the trackable search will directly open the resulting [[..:cachedetails|geocache details]] or [[..:trackabledetails|trackable details]].
 \\ \\ \\ \\

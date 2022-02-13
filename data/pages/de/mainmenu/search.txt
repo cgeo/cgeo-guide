@@ -1,6 +1,6 @@
 ====== Suchfunktion ======
 
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 Das Suchmenü enthält mehrere Suchfunktionen wie unten beschrieben. Alle Standort- und nutzerspezifischen Suchfunktionen geben als Ergebnis eine [[lists|Liste von Caches]] zurück, wo hingegen die Suche nach Geocode und Trackables direkt die [[..:cachedetails|Cache-Details]] bzw. [[..:trackabledetails|Trackable-Details]] zeigt.
 \\ \\ \\ \\

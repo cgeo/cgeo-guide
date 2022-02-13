@@ -1,6 +1,6 @@
 ====== Stored caches ======
 
-{{:main_stored_default.png?nolink&100 |}}
+{{:main_stored_default.svg?nolink&100 |}}
 
 This menu lists the Geocaches currently stored on your mobile device for offline use. For a better geocaching experience, c:geo allows you to organize your stored geocaches into multiple lists.
 
