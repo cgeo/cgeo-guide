@@ -45,3 +45,4 @@ Other useful information to restore a working DokuWiki with similar functions an
   - wrap(*)
   - indexmenu(*)
   - enforcesummary
+  - anonip
