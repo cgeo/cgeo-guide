@@ -94,6 +94,7 @@ Selecting the same sorting option twice will allow you to reverse the order in t
 </WRAP>
 
 ^ Menu item ^ Description ^
+|Automatic sorting|Will sort as follows:\\ 1. Default sorting by distance\\ 2. If list contains only events, the list is sorted by event date\\ 3. If list contains a cache series with similar names, the list will be sorted by cache name.|
 |Count on Inventory|Sort according to the amount of registered trackables in the cache|
 |Date Hidden|Sort by hidden date of the cache.\\ //(If your list does only contain event caches, this will be automatically used as default sorting.)//|
 |Date Logged|Sort by the date you logged the cache|
@@ -112,7 +113,7 @@ Selecting the same sorting option twice will allow you to reverse the order in t
 |Vote (Own Rating)|Sort by your own [[http://gcvote.com|GCVote]] rating of the cache.|
 
 <WRAP center round info 100%>
-The sorting mode you selected will be kept throughout your current session or until you change it.
+The sorting mode you selected will be kept for each individual list.
 </WRAP>
 
 ==== Select mode ====

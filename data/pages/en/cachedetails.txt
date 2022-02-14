@@ -42,6 +42,7 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 {{ :en:cachedetails_topbar2.png?direct&400 |}}
 
 ^ Function ^ Description ^
+|Remove user-defined waypoints|This will delete all self created waypoints contained for this cache.\\ This menu is only shown if the cache contains user defined waypoints.|
 |Extract Waypoints|This function will scan the cache description for valid coordinates and automatically create a waypoint for each coordinate found in the listing.\\ This can be a helpful feature in case the cache owner did not create dedicated waypoints but only lists the coordinates in the cache description.|
 |Prevent/Allow waypoints from note|Activating this function will prevent/allow, that c:geo extracts coordinates found in the personal note of this cache.|
 
@@ -62,6 +63,9 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |Caches around|This option starts a [[.mainmenu:lists|nearby search]] around the coordinates of the cache and will display the results.|
 |Vote|This will open the [[http://gcvote.com|GCVote]] dialog for the cache.|
 |Ignore cache|This will put the cache on the servers ignore list.\\ \\ :!: Ignoring a cache means, that this cache will never occur again when loading data from the geocaching server. You will only be able to see the cache again by unignoring it on the geocaching website.|
+|Add to bookmark list|Will open a menu to select the desired bookmark list (from the geocaching server) to which this cache will be added then.|
+|Set cache icon|Allows to set a user defined icon for this cache, which replaced the default cache type icon.|
+
 
 ===== Details tab =====
 {{anchor:details_tab:}}
@@ -91,7 +95,8 @@ This section of the details tab provides information about the cache:
 |Hidden|The date this cache was hidden.|
 |Location|The country/state/county of this cache.|
 |Coordinates|The cache coordinates.\\ You can tap on this field to show it in different other [[.:coordformat|coordinate formats]] supported by c:geo.|
-
+|Recent logs|Will visualize the log types of the most recent logs for this cache (newest on the left).|
+ 
 <WRAP center round tip 100%>
 You can long tap on some of the fields listed above to copy the information to your clipboard or share it.
 </WRAP>
@@ -167,13 +172,13 @@ Tapping on ''Add a Waypoint'' will open the [[cachedetails#waypoint_editor|waypo
 
 Waypoints can have different types as listed below:
 
-^ Icon (old) ^ Icon (new) ^ Name ^ Description ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|{{ :waypoint_pkg.svg?nolink&40 |}}|Parking Area|Parking coordinates related to the cache.|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|{{ :waypoint_puzzle.svg?nolink&40 |}}|Question to Answer|A waypoint of a cache, where no physical stage of a cache is hidden but you typically have to answer a question, which might be provided in the description of the waypoint.|
-|{{ :waypoint_stage.png?nolink&40 |}}|{{ :waypoint_stage.svg?nolink&40 |}}|Stage of a Multi cache|A waypoint of a cache, where a physical stage is hidden providing more information to solve the cache.|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|The coordinates of this waypoint typically provide a guidance about the path to use to reach the cache or the next waypoint.|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|{{ :waypoint_waypoint.svg?nolink&40 |}}|Reference Point|A generic reference point, which can be used for multiple purposes.|
-|{{ :waypoint_flag.png?nolink&40 |}}|{{ :waypoint_flag.svg?nolink&40 |}}|Final Location|Providing the location of the final cache container.|
+^ Icon (new) ^ Name ^ Description ^
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parking Area|Parking coordinates related to the cache.|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Question to Answer|A waypoint of a cache, where no physical stage of a cache is hidden but you typically have to answer a question, which might be provided in the description of the waypoint.|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Stage of a Multi cache|A waypoint of a cache, where a physical stage is hidden providing more information to solve the cache.|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|The coordinates of this waypoint typically provide a guidance about the path to use to reach the cache or the next waypoint.|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Reference Point|A generic reference point, which can be used for multiple purposes.|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Final Location|Providing the location of the final cache container.|
 
 ==== Waypoint editor ====
 {{anchor:waypoint_editor:}}
@@ -203,6 +208,7 @@ A long tap on a waypoint will open this context menu providing you the following
 |Copy coordinates|Copy the waypoint coordinates to the clipboard.|
 |Clear coordinates|Delete the coordinates of this waypoint.\\ This option is only available on custom waypoints.|
 |Duplicate Waypoint|Creates a new waypoint using all information of the existing waypoint.\\ This option is helpful to clone a server defined waypoint in order to edit it afterwards.|
+|Copy waypoint to clipboard|Copies the coordinates of this waypoint into the system clipboard.|
 |Delete|Deletes this waypoint.\\ This option is only available on custom waypoints.|
 |Compass|Start compass navigation to the coordinates of this waypoint.|
 |Navigate|Open the full list of navigation options for this waypoint.|

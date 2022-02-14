@@ -6,7 +6,6 @@ For example c:geo will register for links starting with ''http://coord.info/GC''
 
 When being asked which app to use to open these links, you can also select c:geo as default app for this link type. Afterwards your device will directly start c:geo when such a link is tapped.
 
-<WRAP center round tip 100%>
-The downside of assigning c:geo with all geocache related links as default is, that (depending on your device and Android version) using the ''Open in browser'' function of c:geo might now only open c:geo itself.\\ \\
-You can avoid that, by activating the [[.:mainmenu:settings#cache_details|Chrome Webview]] feature in c:geo. Additionally our [[https://faq.cgeo.org#open-in-browser|FAQ]] also describes different methods to resolve this problem (e.g. in case you do not use the Google Chrome browser on your device).
+<WRAP center round important 60%>
+In Android 12 Google changed the functionality of web-links. See [[https://www.cgeo.org/faq#android12|this FAQ-entry]] for details how to enable this feature on Android 12.
 </WRAP>

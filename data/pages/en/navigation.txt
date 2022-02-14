@@ -10,8 +10,6 @@ The following table provides an overview of the different methods/tools supporte
 |Compass|Starts the c:geo built-in [[compass|compass]].|
 |Radar|Starts apps supporting a radar functionality, such as [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ A radar is similar to a compass but showing your position in the center and the target position in relation to this.|
 |Map|Opens the c:geo [[.mainmenu:livemap|map]]|
-|Static Maps|This feature was removed.|
-|Download Static Maps|This feature was removed.|
 |Locus|Starts [[.mainmenu:utilityprograms|Locus]] to display the coordinates on the map.|
 |Navigation (Driving)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] turn-by-turn navigation using the preferences for a car route.|
 |Navigation (Bike)|Starting [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]]  routing turn-by-turn navigation the preferences for a bike route.|

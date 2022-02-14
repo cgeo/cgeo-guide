@@ -23,7 +23,7 @@ If you already entered coordinates these will be converted into the selected for
 
 {{:en:coordinput_coords.png?nolink&300 |}}
 
-Use these fields to enter the coordinates. By tapping on N/W you can change to S/E as needed.
+Use these fields to enter the coordinates. By tapping on N/E you can change to S/W as needed.
 
 The layout of these input field depends on the coordinate format you selected above.
 

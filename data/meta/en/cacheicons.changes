@@ -92,3 +92,7 @@
 1637593401	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		230
 1637593734	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-953
 1637604810	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		33
+1644839044	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Remove old icons		-576
+1644839067	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:cacheicons	lineflyer	Remove superflous header		-13
+1644839085	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:cacheicons	lineflyer	Remove (new) in header		-6
+1644846388	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cacheicons	lineflyer	Remove (new) in header		-18

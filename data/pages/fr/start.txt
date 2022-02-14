@@ -30,22 +30,18 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
   * [[firststeps|Premier démarrage de c:geo]] - Démarrer l'application pour la première fois et s'authentifier sur les services de géocaching
   * [[basicuse|Les bases de c:geo]] - Qu'est-ce que le géocaching et comment trouver votre première cache grâce à c:geo ?
 
-
+  * [[loginproblems|Problèmes de connexion]] - Que faire en cas de problèmes de connexion ?
 ===== Manuel d'utilisation =====
 {{anchor:users_manual:}}
 
-==== Menu principal ====
+==== Écran principal ====
 {{anchor:main_menu:}}
 
-  * [[.mainmenu:start|Écran principal]]  - Les fonctionnalités du menu principal
-    * [[.mainmenu:start#top_bar_menu|Menu supérieur]] - Les fonctions de la barre supérieure de l'écran principal 
-    * [[.mainmenu:livemap|Carte]] - La carte temps réel des géocaches
-    * [[.mainmenu:lists#cache_list|Proches]] - Chercher des caches autour de vous
-    * [[.mainmenu:lists|Enregistrées]] - Géocaches enregistrées localement 
-    * [[.mainmenu:search|Recherche]] - Recherche de géocaches ou d'objets voyageurs
-    * [[.mainmenu:goto|Aller à]] - Navigation directe à certaines coordonnées
-    * [[.mainmenu:globaltypefilter|Filtre]] - Filtrage des caches par type
-    * [[.mainmenu:start#bottom_section|Statut]] - Vos informations de statut présentées dans la partie basse de l'écran principal
+  * [[.mainmenu:start|Écran d’accueil]] - Un tableau de bord central contenant des informations sur l'utilisateur
+  * [[.mainmenu:lists|Enregistrées]] - Géocaches enregistrées localement
+  * [[.mainmenu:livemap|Carte]] - La carte temps réel des géocaches
+  * [[.mainmenu:search|Recherche]] - Recherche de géocaches ou d'objets voyageurs
+  * [[.mainmenu:lists#cache_list|Proches]] - Chercher des caches autour de vous
 
   * [[.mainmenu:settings|Paramètres]] - Paramétrage de application
 
@@ -91,6 +87,7 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
   * [[cachemarkers|Geocache markers]]
   * [[cachedetails#waypoint_types|Waypoint types]]
   * [[mapsources|Fonds de carte]] 
+  * [[cachefilter|Cache Filtering]]
   * [[basicmembers|Limitations for geocaching.com basic members]]
   * [[coordformat|Coordinate formats]]
   * [[attributes|Attribute icons]]
@@ -108,6 +105,11 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
   * [[notecoords|Waypoints created for coordinates in personal notes]]
   * [[quick_widgets|Using quick access and widgets as shortcuts for some c:geo functions]]
   * [[replacedevice|Migrating c:geo to another device]]
+  * [[brouter|Use routed navigation c:geo]]
+
+===== Extensions et modules complémentaires =====
+{{anchor:plugins}}
+  * [[contacts|Plugin de contact]] - Plugin de contact de c:geo
 
 ===== FAQ =====
 {{anchor:faq:}}

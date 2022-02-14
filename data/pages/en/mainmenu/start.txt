@@ -37,7 +37,7 @@ To see the name of an icon in the top bar, long-press the icon.
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow menu button| Open the overflow list of top bar functions that, based on your screen size, do not appear as icons. The functions include those described in this table.|
 |{{:main_any_default.svg?nolink&40|}}|[[goto|Go To]]|Navigate to any arbitrary location using the compass, radar, turn-by-turn navigation or any other supported navigation method.|
 |{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open a list of your pocket queries from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
-|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Bookmark lists]]|Open a list of your bookmark lists from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Bookmark lists]]|Open a list of your bookmark lists from geocaching.com. This item is not available for geocaching.com [[..:basicmembers|basic members]].|
 |{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Utility programs]]|Open a list of links to additional geocaching-related apps, which can be useful in conjunction with c:geo.|
 | | |
 |{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Settings]]|Open the c:geo configuration menu.|

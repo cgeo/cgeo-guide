@@ -5,8 +5,8 @@ While we try to make every function of c:geo as accessible and self explanatory 
 All of these hidden functions are also explained in the relevant section of this user guide, but for those of you who are already familiar with all the main c:geo functions we additionally collected them here as it might enhance your usage experience:
 
 ^ How to access ^ Function ^ Link to user guide section ^
-|Long press on stored caches icon in main menu| Will let you directly pick one of your stored lists and open it, instead of first opening the list and then using the top bar to select another list|[[.mainmenu:start#main_icons|Main Menu]]|
-|Long press on global filter icon in main menu|Will reset the filter (to ''All caches'') in case a filter is currently active|[[.mainmenu:start#main_icons|Main Menu]]|
+|Long press on stored caches icon| Will let you directly pick one of your stored lists and open it, instead of first opening the list and then using the top bar to select another list|[[.mainmenu:start#main_icons|Main Menu]]|
+|Long press on search icon|Will show you a list of recently viewed caches|[[.mainmenu:start#main_icons|Main Menu]]|
 |Long press on disc icon in cache details or map popup|Will not ask for the list, where the cache shall be saved but instead use the last selection and save it|[[.mainmenu:livemap#list_management|Live Map]]\\ [[.cachedetails#list_management|Cache Details]]|
 |Long press on pencil icon in cache details|Move already saved caches to another list|[[.cachedetails#list_management|Cache Details]]|
 |Long press on compass rose icon in cache details or map popup|While a short tap will start your default navigation, a long tap on this icon will start your secondary preferred navigation (Default=Map, can be changed in [[.mainmenu:settings#navigation|settings]]).|[[.mainmenu:livemap#top_bar_menu|Live Map]]\\ [[.cachedetails#top_bar_menu|Cache Details]]|

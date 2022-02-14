@@ -10,7 +10,7 @@
 c:geo ist eine umfangreiche, jederzeit einsatzbereite open-source Geocaching-Anwendung für geocaching.com (inoffiziell) und enthält auch grundlegenden Support für andere Geocaching-Plattformen (z.B. Opencaching). Sie benötigt keinen Browser oder Exporte - einfach [[installation|herunterladen]] und direkt starten.
 
 c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit irgendeinem Geocaching-Dienstanbieter.
-
+ 
 ===== Erste Schritte =====
 {{anchor:getting_started:}}
 

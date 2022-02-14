@@ -70,3 +70,10 @@
 1643645820	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Change link to offline maps		-9
 1644774331	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Remove main screen topbar menu from sidebar		-56
 1644774399	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	en:sidebar	lineflyer	Outdend main function to same level as home screen, Remove Goto		-99
+1644835882	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Add missing newline		6
+1644835935	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Fix indentation #1		-36
+1644835984	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:sidebar	lineflyer	old revision restored (2022/01/31 17:17)	1643645820	185
+1644836016	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	New try of regrouping		-149
+1644836049	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Rename to homescreen		-6
+1644836064	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:sidebar	lineflyer	Remove newline		-7
+1644836137	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:sidebar	lineflyer	newlines		2

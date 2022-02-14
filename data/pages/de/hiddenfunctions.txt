@@ -5,8 +5,8 @@ Obwohl wir versuchen jede Funktion in c:geo so zugänglich und selbsterklärend 
 All diese versteckten Funktionen werden auch in den jeweiligen Kapiteln dieses Handbuches erklärt, aber für die, die sich schon recht gut in c:geo auskennen, haben wir sie auch hier gesammelt um noch besser mit c:geo arbeiten zu können: your usage experience:
 
 ^ Wie zugreifen ^ Funktion ^ Link zum Kapitel im Benutzerhandbuch ^
-|Langes Tippen auf das Listen-Symbol im Hauptmenü|Lässt dich direkt eine deiner gespeicherten Listen öffnen, anstatt zuerst die Ansicht zu öffnen und dann die Liste zu wechseln.|[[.mainmenu:start#main_icons|Hauptmenü]]|
-|Langes Tippen auf globalen Filter im Hauptmenü|Setzt den vorher gewählten Filter zurück (auf ''Alle Caches'')|[[.mainmenu:start#main_icons|Hauptmenü]]|
+|Langes Tippen auf das Listen-Symbol|Lässt dich direkt eine deiner gespeicherten Listen öffnen, anstatt zuerst die Ansicht zu öffnen und dann die Liste zu wechseln.|[[.mainmenu:start#main_icons|Startbildschirm]]|
+|Langes Tippen auf das Suchen-Symbol|Öffnet eine Liste der zuletzt angesehenen Caches.|[[.mainmenu:start#main_icons|Startbildschirm]]|
 |Langes Tippen auf das Disketten-Symbol|Fragt nicht nach der Liste, sondern speichert den Cache direkt mit der zuletzt genutzten Listenauswahl ab.|[[.mainmenu:livemap#list_management|Live-Karte]]\\ [[.cachedetails#list_management|Cache-Details]]|
 |Langes Tippen auf das Stift-Symbol|Verschieben eines bereits gespeicherten Caches auf eine andere Liste|[[.cachedetails#list_management|Cache-Details]]|
 |Langes Tippen auf das Kompassrosen-Symbol|Während ein kurzer Klick die Standardnavigation startet, startet ein langer Klick die zweite bevorzugte Navigation (Standard=Karte, kann in den [[.mainmenu:settings#navigation|Einstellungen]] geändert werden).|[[.mainmenu:livemap#top_bar_menu|Live-Karte]]\\ [[.cachedetails#top_bar_menu|Cache-Details]]|

@@ -42,7 +42,8 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 {{ :en:cachedetails_topbar2.png?direct&400 |}}
 
-^ Funktion ^ Beschreibung ^
+^ Funktion ^ Beschreibung ^#
+|Benutzerdefinierte Wegpunkte löschen|Löscht alle selbst erstellen Wegpunkt des Caches.\\ Wird nur angezeigt, sofern benutzerdefinierte Wegpunkte für diesen Cache existieren.|
 |Wegppunkte extrahieren|Diese Funktion durchsucht die Beschreibung des Caches nach gültigen Koordinaten und erstellt für jede gefundene Koordinate automatisch einen Wegpunkt.\\ Dies ist eine hilfreiche Funktion, wenn der Cache-Owner keine dedizierten Wegunkte erstellt sondern die Koordinaten der Wegpunkt nur in die Beschreibung geschrieben hat.|
 |Wegpunkte aus Notiz verhindern/erlauben|Verhindert/Erlaubt c:geo in der persönlichen Notiz gefundene Koordinaten als Wegpunkte zum Cache anzulegen.|
 
@@ -64,7 +65,8 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 |Caches im Umkreis|Diese Option startet eine [[.mainmenu:lists|Nahbereichssuche]] um die Koordinaten dieses Caches und zeigt die Ergebnisse.|
 |Bewerten|Dies öffnet den [[http://gcvote.com|GCVote]]-Dialog für diesen Cache.|
 |Cache ignorieren|Dies setzt den Cache auf die Ignorier-Liste des Geocaching-Servers.\\ \\ :!: Einen Cache ignorieren bedeutet, dass dieser Cache nie wieder auftauchen wird, wenn du Daten vom Geocaching-Server abrufst. Du kannst diesen Cache erst wieder sehen, wenn du ihn auf der Geocaching-Webseite von der Ignorier-Liste entfernst.|
-
+|Zu Lesezeichenliste hinzufügen|Öffnet eine Liste der Lesezeichenlisten auf dem Geocaching-Server und ermöglicht es den Cache zu einer der Listen hinzuzufügen.\\ Diese Funktion ist nur für Premium-Mitglieder von geocaching.com verfügbar.|
+|Cache-Symbol wählen|Ermöglicht es ein benutzerdefiniertes Symbol für diesen Cache zu setzen, welches das normale Cachetyp-Symbol ersetzt.|
 ===== Details =====
 {{anchor:details_tab:}}
 
@@ -93,6 +95,7 @@ Dieser Bereich des Reiters Details zeigt dir Informationen zum Cache:
 |Versteckt|Das Datum, an dem der Cache versteckt wurde.|
 |Bundesland|Das Bundesland/Land, in dem der Cache liegt.|
 |Koordinaten|Die Koordinaten des Caches.\\ Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
+|Letzte Logs|Zeigt die aktuellsten Logtypen an, die für diesen Cache geloggt wurden (neuestes links).|
 
 <WRAP center round tip 100%>
 Auf einige der genannten Felder kannst du lange tippen um ihre Information in die Zwischenablage zu kopieren oder sie zu teilen.
@@ -176,6 +179,7 @@ Bei den Wegpunkten gibt es verschiedene Wegpunkt-Typen, wie im Folgenden dargest
 |{{ :waypoint_trailhead.svg?nolink&40 |}}|Ausgangspunkt|Die Koordinaten dieses Wegpunktes geben typischerweise eine Hilfestellung um den den Weg zum Caches oder zum nächsten Wegpunkt zu finden.|
 |{{ :waypoint_waypoint.svg?nolink&40 |}}|Referenzpunkt|Eine generischer Referenzpunkt, der zu verschiedenen Zwecken genutzt werden kann.|
 |{{ :waypoint_flag.svg?nolink&40 |}}|Final|Gibt die Position des Cache-Behälters an.|
+
 
 ==== Wegpunkteditor ====
 {{anchor:waypoint_editor:}}

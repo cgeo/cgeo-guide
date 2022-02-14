@@ -6,7 +6,7 @@ The following pages describe the functions of the setting menu in c:geo.\\ \\ \\
 
 You can access the settings by tapping on the menu button (three dot button) in the upper right of the main menu and selecting ''Settings'':
 
-{{:en:settings_1_en.png?direct&250 |}}{{:en:settings_2_en.png?direct&250|}}
+{{:en:settings_1_en.png?direct&300 |}}{{:en:settings_2_en.png?direct&300|}}
 
 In this menu you will find the following categories of settings which will be described below in detail:
 
@@ -26,7 +26,7 @@ In this menu you will find the following categories of settings which will be de
 ==== Geocaching ====
 {{anchor:geocaching:}}
 
-{{ :en:services_1_en.png?direct&300 |}}
+{{ :en:services_1_en.png?direct&400 |}}
 
 In the first section of the service settings you can configure the connection to the different supported geocaching platforms.
 Currently c:geo supports the following geocaching services:
@@ -48,7 +48,7 @@ A detailed description of the authentication procedure for these geocaching serv
 
 Furthermore you can use the service menu to configure the connection to the following additional services, which are available in c:geo afterwards:
 
-{{ :en:services_2_en.png?direct&300 |}}
+{{ :en:services_2_en.png?direct&400 |}}
 
 ^ Service ^ Description ^
 |[[http://gcvote.com|GCVote]]|A platform for voting on the quality of Geocaches|
@@ -95,8 +95,8 @@ In this menu you can configure some basic user interface settings of c:geo.
 {{ :en:settings_appearance.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Light Skin|When activated c:geo is using black letters on white background instead of the default white letters on black background. //(Default: Deactivated)//|
-|Transparent background|When activated the main screen of c:geo is transparent showing your desktop wallpaper as a background. //(Default: Activated)//|
+|Theme|You can choose to use c:geo with a light or dark theme or let the theme follow your system setting.//(Default: Dark)//|
+|Wallpaper|You can choose to use your device wallpaper also as background on the c:geo home screen //(Default: Deactivated)//|
 |Show Address|When activated c:geo will use a reverse geocoding service to show the current location name instead of the location coordinates at the bottom of the main screen. //(Default: Activated)//|
 |Plain Logs|Activating this setting will show all log entries without the custom colors for enhanced readability. //(Default: Deactivated)//|
 |Select language|This setting allows you to manually set the used language for c:geo. This might be helpful in case you have problems with wrong translations in your language. A restart of c:geo is required after you modified this setting. //(Default: Use default language of the device)//|
@@ -112,12 +112,8 @@ In this menu you can configure some basic user interface settings of c:geo.
 |Last Details Page|When deactivated the cache details will always open with the page ''Details'' while activating this function will remember the last opened page and open any new caches on this page (e.g. waypoints). //(Default: Deactivated)//|
 |Show Direction|This function will show small directional arrows in all cache lists, providing coarse information about the direction of a cache relative to your device.\\ While this may help to figure out if a cache is e.g. in front or behind you, it is not designed to replace the other navigation methods in c:geo. //(Default: Activated)// \\ \\ :!: Please be aware, that for basic members of geocaching.com this function will in search results only show static direction images, but no moving arrows.|
 |Disable waypoint extraction|Enabling this setting will **globally** deactivate the feature of automatic waypoint generation for coordinates found in your personal caches notes. Alternatively you can disable the feature individually for a cache by deactivating the checkbox directly below the personal cache note.|
+|Overwrite personal cache note|Activating this setting will cause all personal notes to be overwritten by the server content instead of being merged with the local content when refreshing caches.\\ \\ :!: Activating this option might lead to data loss in your notes. Be careful.|
 |Use Chrome Webview|External website will be shown in a chrome webview window directly in c:geo instead of opening your external device browser.\\ \\ :!: This function requires Google Chrome to be installed on your device.|
-
-|Exclude Own and Found|Activating this item will hide caches you own or have already found in all online functions of c:geo. Owned and found caches will however still be shown in your saved lists of caches.|
-|Exclude Disabled|This will hide temporarily disabled caches in all online functions of c:geo. Disabled caches will however still be shown in your saved lists of caches.|
-|Exclude Archived|This will hide archived caches on the map. Archived caches will however still be shown in your saved lists of caches.|
-
 ===== Map =====
 {{anchor:map:}}
 
@@ -158,6 +154,7 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 |Show history track|With this option you can activate a track showing your position history (your movement) on the map. //(Default: Deactivated)// \\ \\ :!: Please be aware, that this will only be accurate as long as you use the map and have GPS enabled and will have gaps or jumps in case you switch your device to standby or deactivate GPS. If you would like a more reliable track recording you should rather use a specialized app.|
 |History track max. length| Allows to raise the amount of track points available for the history track. Once the limit is reached the oldest recorded points will be removed if new points are recorded. Raising the limit however allocates more memory. //(Default: 700 points)//|
 |Big icons for logged caches|If enabled the map will show big emoticons for logged caches instead of the cache type icon. A restart is required after changing this setting. //(Default: Deactivated)//|
+|D/T rating on icons|Once activated all cache type icons will have a small overlay indicating the caches D/T-rating.|
 ==== Map behavior ====
 {{anchor:map_behavior}}
 
@@ -209,7 +206,7 @@ The following table briefly describes the different lines and circles and their 
 {{ :en:settings_maps_other.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Multi-threaded (OSM)|When activated the OSM map renderer uses multiple threads on your device processor to render the map. This will speed up map drawing but might in rare cases lead to drawing problems. It should be deactivated if you encounter problems in map display. //(Default: Activated)//|
+|Multi-threaded (OSM)|When activated the OSM map renderer uses multiple threads on your device processor to render the map. This will speed up map drawing but might in rare cases lead to drawing problems. It should be deactivated if you encounter problems in map display. //(Default: Deactivated)//|
 
 ===== Logging =====
 {{anchor:logging:}}
@@ -222,6 +219,7 @@ The following table briefly describes the different lines and circles and their 
 ^ Menu item ^ Description ^
 |Signature|Tapping this option will open a text window where you can define your custom signature template appended to each log you compose with c:geo.\\ In the editor you can tap on ''Insert Template'' to get a list of possible placeholder templates you can use in your logs (see detailed table below).|
 |Insert automatically|Activating this item will automatically insert the custom signature into your log text when you start logging a cache with c:geo.\\ If this option is deactivated you can still insert your signature manually on demand by selecting ''+'' and ''Signature'' while composing your log. //(Default: Deactivated)//|
+|Log template|In this section you can add/modify/remove custom templates for your log text. The templates defined here can then be inserted when logging a cache or trackable.|
 
 === Placeholder Templates ===
 {{anchor:placeholder_templates:}}
@@ -272,6 +270,7 @@ You can find more details regarding the offline usage of c:geo on the page [[..:
 |Save images|If this option is activated c:geo will save all images contained in the caches logbooks onto your device for offline availability. You need to refresh already stored caches after activating this function to make their images available offline.\\ If this option is deselected log images will be loaded on demand only (when opening them or accessing the caches image tab) but still be saved permanent afterwards until you delete the cache from your device. //(Default: Deactivated)//|
 |Ask for List|When activated you will be asked in which list the cache shall be saved if you store a cache in c:geo. If it is deactivated all caches will be stored to the default list. //(Default: Activated)//|
 |Additional lists|If this option is activated c:geo will show all additional lists, on which a certain cache is stored in c:geo, on your cache lists. //(Default: Deactivated)//|
+|List load limit|You can use this function if you handle rather huge lists of offline stored caches. It will limit the amount of caches initially loaded from the c:geo internal database in order to increase performance. More caches can then be loaded by tapping on "Load more caches" when reaching the end of the list. //(Default:0=No Limitation)//|
 
 ==== GPX ====
 {{anchor:gpx:}}
@@ -296,7 +295,7 @@ You can find more details regarding the offline usage of c:geo on the page [[..:
 {{ :en:settings_offlinedata_maintenance.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Delete orphaned files|c:geo stores cache images, log images and other filed related to a cache in a separate directory (refer to [[settings#database_and_geocache_data|Geocache Data Directory]]). In some cases (e.g. restoring a backup) this directory might contain outdated files of caches no longer stored on the device. These outdated data can be deleted by using this function.\\ \\ :!: After deleting caches from your list, the additional geocache data will be cached by c:geo internally for 72hours to avoid re-downloading it in case of a user mistake. Afterwards it will be deleted automatically. There is no need to use this function in this case and it will also make no sense as the data is still kept during the 72 hour period.|
+|Delete orphaned files|c:geo stores cache images, log images and other filed related to a cache in a separate directory (refer to [[settings#database_and_geocache_data|Geocache Data Directory]]). In some cases (e.g. restoring a backup) this directory might contain outdated files of caches no longer stored on the device. These outdated data can be deleted by using this function.|
 
 
 ===== Navigation =====
@@ -349,13 +348,13 @@ Please refer to the [[..navigation|supported navigation methods]] for detailed i
 |Active low-power mode|The low power mode avoids using GPS and the gyroscope sensor in situations where a highly accurate location is not strictly necessary (e.g. on cache lists) at the cost of longer fixing times once high accuracy is needed again. It can help to enhance battery life in some situations.\\ We however recommend to keep this option switched off to have the highest possible accuracy which is desirable for Geocaching in general. :-)|
 |Force use of orientation sensor|On some devices the regular rotation vector sensor behaves erratically, giving the wrong direction when using the c:geo compass. In this case you can activate this option to instead use the orientation sensor, which may provide better results.\\ We recommend to enable this option only in case of compass problems on your device.|
 
-==== Acceleration & Debugging ====
+==== Debugging ====
 {{ :en:system_other_2.png?direct&400 |}}
 ^ Menu item ^ Description ^
-|Enable hardware acceleration|Hardware acceleration renders graphical elements faster on the screen and thus provides a better experience while using c:geo. However on some devices the operating system contains bugs which can make some text appear blurred (notably bold characters). Disable this option only if this happens to you.|
 |Activate debug log|c:geo can generate a lot of debugging information needed for development purposes. Please use this feature only in case you are asked to send a log to the c:geo developers or you know what you are doing.\\ \\ :!: Activating this setting will affect the stability of c:geo. Please keep debug logging disabled during normal usage of c:geo!|
 |Generate logfile|Using this option will generate a system logfile to be send to the c:geo support in case of failures or crashes. Use as advised by c:geo support team (useful in combination with activation of debug log).|
 |Create memory dump|This is a development function, which can help to debug special problems in the c:geo memory handling. Using this function is nothing helpful for you, but will only spam your internal storage with a rather huge dump file. So better not use it. :-)|
+|View downloads|Shows all pending background download processes.|
 |View settings|This debug feature opens a view where all c:geo settings can be viewed and edited in a raw format.\\ \\ :!: Changing anything here might result in unwanted behavior or c:geo no longer working. So only use this after explicit request by c:geo support!|
 
 

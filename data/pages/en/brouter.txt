@@ -1,11 +1,11 @@
-====== Using BRouter with c:geo ======
+====== Using routed navigation in c:geo ======
 
 {{:helper_brouter.png?nolink&100 |}}
 
 BRouter is a routing engine, which is integrated into c:geo. It provides navigated routes, which are calculated offline, between two coordinates based on [[https://openstreetmap.org|OpenStreetMap]] data.
 If the [[.:mainmenu:settings#navigation|routing function]] is activated, c:geo can use it to replace the normal straight line shown on map between your position and the navigation target (i.e. a cache or a waypoint) by a routed line as you can see in the example comparison below.
 
-^ Navigation without BRouter ^ Navigation with BRouter ^
+^ Navigation without Routing ^ Navigation with Routing ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 The routing can be configured to be suitable for walking, biking or car according to your needs and will help you finding your way to the destination. Additionally you can also use this routing to create individual routes involving several waypoints sequentially to plan your caching trip.
@@ -31,7 +31,7 @@ The internal BRouter engine will be used to calculate routes for mainly two func
 
 If you invoke navigation to a cache/waypoint using the map, the direction line between your position and the cache/waypoint will now use a routed line instead of a straight line.
 
-The distance information on the top right will show the routed distance additionally to the straight line distance.
+The distance information on the top right will show the routed distance additionally to the straight line distance (if activated in [[.:mainmenu:settings#offline_routing|c:geo settings]]).
 
 {{ :en:brouter_with.png?direct&400 |}}
 ==== Individual route ====

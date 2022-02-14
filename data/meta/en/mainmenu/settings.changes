@@ -304,3 +304,23 @@
 1620809691	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		379
 1620815133	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		0
 1630271459	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:settings	murggel	use svg		0
+1644853910	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	seperate pictures		2
+1644853924	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:mainmenu:settings	lineflyer	old revision restored (2021/08/29 23:10)	1630271459	-2
+1644853953	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	Separate pictures		0
+1644853964	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:mainmenu:settings	lineflyer	old revision restored (2022/02/14 16:52)	1644853924	0
+1644854051	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Appearance] Menu entry "Theme"		-35
+1644854108	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Appearance] Menu entry "Wallpaper"		-26
+1644854148	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] Remove filter for own/found		-518
+1644854229	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] 		277
+1644854251	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] 		3
+1644854325	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Map Content] 		118
+1644855691	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Maintenance] Orphaned file will now also delete cached caches		-357
+1644856001	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Generic] Add "List Load limit"		350
+1644856059	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Acceleration & Debugging] Remove acceleration menu		-348
+1644856106	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Other map settings] 		2
+1644856153	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Signature] Add Log template menu		176
+1644864654	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	[Debugging] 		66
+1644864740	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	Show initial images larger and below each other		4
+1644864757	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	R	en:mainmenu:settings	lineflyer	old revision restored (2022/02/14 19:50)	1644864654	-4
+1644864778	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	Enlarge initial pictures a bit		0
+1644864804	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	[Geocaching] Use image size 400		0

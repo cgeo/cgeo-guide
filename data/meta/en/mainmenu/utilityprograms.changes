@@ -27,3 +27,8 @@
 1605016363	2.203.226.133	E	en:mainmenu:utilityprograms	lineflyer	link to contacts plugin page		1
 1611437647	2.205.115.174	e	en:mainmenu:utilityprograms	lineflyer	Replace click by tap		-6
 1630271685	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:utilityprograms	murggel	use svg		0
+1644846819	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Remove some apps, added Chripwolf		-484
+1644846941	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Added GCWizard and ALC		225
+1644848724	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add helper app images		71
+1644848894	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add missing images and links		189
+1644848930	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add missing link to ChripWolf		72

@@ -15,8 +15,9 @@
       * [[.mainmenu:lists|Nearby Search]]
       * [[.mainmenu:lists|Stored caches]]
       * [[.mainmenu:search|Search]]
-      
+
       * [[.mainmenu:settings|Settings]]
+
       * [[start#geocaches|Geocaches]]
         * [[cachedetails|Geocache Details]]
         * [[logging|Logging of Geocaches]]

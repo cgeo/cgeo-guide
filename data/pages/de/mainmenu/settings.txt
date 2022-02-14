@@ -25,10 +25,11 @@ In diesem Menü findest du die folgenden Kategorien, welche weiter unten im Deta
 ===== Dienste =====
 {{anchor:services:}}
 
+
 ==== Geocaching ====
 {{anchor:geocaching:}}
 
-{{:en:services_1_en.png?direct&300 |}}{{:en:services_2_en.png?direct&300|}}
+{{ :en:services_1_en.png?direct&400 |}}
 
 Im ersten Bereich der Diensteeinstellungen kannst du die Verbindung zu den unterschiedlichen unterstützten Geocaching-Diensten konfigurieren. Aktuell unterstützt c:geo die folgenden Geocaching-Dienste:
 
@@ -48,6 +49,8 @@ Eine detailierte Beschreibung der Authentisierungs-Prozedur für diese Geocachin
 </WRAP>
 
 Des weiteren kannst du das Dienste-Menü zur Konfiguration weiterer zusätzlicher Dienst nutzen, die danach in c:geo zur Verfügung stehen:
+
+{{ :en:services_2_en.png?direct&400 |}}
 
 ^ Dienst ^ Beschreibung ^
 |[[http://gcvote.com|GCVote]]|Eine Plattform zur Qualitätsbewertung von Geocaches|
@@ -93,8 +96,8 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 {{ :en:settings_appearance.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Helle Oberfläche|Wenn aktiviert nutzt c:geo schwarze Schrift auf weißem Hintergrund anstatt der normalen weißen Schrift auf schwarzem Hintergrund.//(Standard: Deaktiviert)//|
-|Transparenter Hintergrund|Wenn diese Funktion aktiviert ist, ist der Hintergrund des Hauptbildschirms von c:geo transparent und zeigt deinen Desktop-Hintergrund. //(Standard: Aktiviert)//|
+|Design|Hier kannst du wählen, ob du eine helles oder dunkles Erscheinungsbild von c:geo haben möchtest. Desweiteren kannst du einstellen, dass das Erscheinungsbild den Systemeinstellungen folgen soll.//(Standard: Dunkel)//|
+|Hintergrundbild|WEnn diese Option aktiviert ist, wird das systemseitige Hintergrundbild auch als Hintergrund des Startbildschirms von c:geo genutzt. //(Standard: Deaktiviert)//|
 |Ort statt Koordinaten|Wenn aktiviert nutzt c:geo ein Dienst für umgekehrtes Geocoding um statt der aktuellen Koordinaten die Stadt/Region in der unteren Zeile des Hauptbildschirms anzuzeigen. //(Standard: Aktiviert)//|
 |Logs ohne Farben|Nach Aktivieren dieser Einstellung werden alle Logeinträge ohne benutzerdefinierte Farben angezeigt um die Lesbarkeit zu verbessern. //(Standard: Deaktiviert)//|
 |Sprache wählen|Mit dieser Einstellung kann die Sprache in c:geo manuell gesetzt werden. Dies kann hilfreich sein, wenn du Verständnisprobleme aufgrund von falschen Übersetzungen in deiner Sprache in c:geo hast. Nach einer Änderung der Option ist ein Neustart von c:geo notwendig.//(Standard: Nutzt Sprache deines Gerätes)//|
@@ -110,11 +113,9 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 |Zuletzt genutzte Seite|Wenn die Option deaktiviert ist, öffnen sich die Cache-Details immer mit der Seite ''Details''. Wenn die Funktion aktiviert ist, merkt sich c:geo die zuletzt geöffnete Seite und öffnet diese Seite zuerst beim Öffnen der Cache-Details (z.B. Wegpunkte). //(Standard: Deaktiviert)//|
 |Richtung zum Cache|Diese Funktion zeigt kleine Richtungspfeile in den Cachelisten mit der Richtung zum Cache basierend auf deiner Telefonausrichtung, die dir einen groben Anhaltspunkt geben, in welche Richtung der Cache gelegen ist. \\ Während diese Funktion dir helfen kann herauszufinden ob ein Cache z.B. vor oder hinter dir ist, ist diese Funktion nicht dazu gedacht andere Navigationsmethoden in c:geo zu ersetzen. //(Standard: Aktiviert)// \\ \\ :!: Beachte bitte, dass für Basis-Mitglieder in Suchergebnissen nur statische Bilder von Richtungspfeilen angezeigt werden, die sich nicht bewegen.|
 |Wegpunkte nicht auslesen|Das Aktivieren dieser Einstellung deaktiviert **global** die Generierung von Wegpunkten aus Koordinaten, die in der persönlichen Cachenotiz gefunden wurden. Alternativ kannst du diese Funktion auch für jeden Cache individuell abschalten, indem du das entsprechende Auswahlkästchen direkt unter der jeweiligen persönlichen Cachenotiz aktivierst.|
+|Persönliche Cache-Notiz überschreiben|Wenn diese Funktion aktiviert wird, so wird beim Aktualisieren eines Caches dessen persönliche Notiz mit dem Inhalt der Notiz auf dem Geocaching-Server überschrieben. Die lokale Notiz wird verworfen, es findet keine Zusammenführung statt.\\ \\ :!: Achtung, Gefahr von Datenverlust. Sei vorsichtig.|
 |Chrome Webanzeige verwenden|Externe Webseiten werden in einer Chrome-Webanzeige direkt in c:geo angezeigt anstatt deinen externen Geräte-Browser zu öffnen.\\ \\ :!: Zur Nutzung dieser Funktion muss Google Chrome auf deinem Gerät installiert sein.|
 
-|Eigene/Gefundene ausblenden|Nach Aktivierung dieser Funktion werden alle selbst versteckten und gefundenen Caches in allen Online-Funktionen von c:geo ausgeblendet. Eigene und versteckte Caches werden allerdings weiterhin in den gespeicherten Cachelisten angezeigt.|
-|Deaktivierte ausblenden|Dies blendet temporär nicht verfügbare Caches in allen Online-Funktionen von c:geo aus. Deaktivierte Caches werden allerdings weiterhin in deinen gespeicherten Cachelisten angezeigt.|
-|Archivierte ausblenden|Dies blendet archivierte Caches auf der Karte aus. Archivierte Caches werden allerdings weiterhin in deinen gespeicherten Cachelisten angezeigt.|
 
 ===== Karte =====
 {{anchor:map:}}
@@ -157,14 +158,14 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 |Zeige Positionsverlauf|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte anzeigt. //(Standard: Deaktiviert)// \\ \\ :!: Beachte bitte,dass sie nur genau ist so lange du die Karte nutzt und GPS aktiviert ist und wird Lücken haben, sobald du dein Gerät abschaltest oder GPS deaktivierst. Wenn du eine zuverlässige Aufzeichnung deines Tracks haben möchtest, solltest du lieber eine spezialisierte App dafür nutzen.|
 |Länge des Positionsverlaufs|Erlaubt es dir die Anzahl der Trackpunkte für den Positionsverlaufs zu erhöhen. Wenn das Limit erreicht ist, werden die ältesten Punkte gelöscht, wenn neue Punkte aufgezeichnet werden. Eine Anhebung der Begrenzung erhöht allerdings die Speicherauslastung. //(Standard: 700 Punkte)//|
 |Große Symbole für geloggte Caches|Ist diese Option aktiviert, so werden für geloggte Caches große Emoticons anstelle der Cache-Typ Symbole angezeigt. Ein Ändern der Einstellung erfordert einen Neustart von c:geo. //(Standard: Deaktivert)//|
-
+|D/T-Bewertung in Cache-Symbolen|Bei Auswahl dieser Option wird on der Ecke der Cache-Symbole ein Grafik entsprechend der D/T-Wertung des jeweiligen Caches angezeigt.|
 ==== Kartenverhalten ====
 {{anchor:map_behavior}}
 
 {{ :en:settings_maps_mapbehavior.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Langes Tippen auf Karte|Wenn eingeschaltet, kannst du auf der Karte mit langem Klick diese Funktionen ausführen:\\ 1. Ein langer Klick auf einen Cache oder Wegpunkt fügt diesen Cache/Wegpunkt zu deiner [[en:individualroute|indiviudellen Route]] hinzu.\\ 2. Ein langer Klick auf die Karte startet die Erstellung eines [[en:udc|benutzerdefinierten Caches]].\\ //(Standard: Ausgeschaltet)//|
+|Langes Tippen auf Karte|Wenn eingeschaltet, kannst du auf der Karte mit langem Klick diese Funktionen ausführen:\\ 1. Ein langer Klick auf einen Cache oder Wegpunkt fügt diesen Cache/Wegpunkt zu deiner [[livemap#individual_route|indiviudellen Route]] hinzu.\\ 2. Ein langer Klick auf die Karte startet die Erstellung eines [[..:udc|benutzerdefinierten Caches]].\\ //(Standard: Ausgeschaltet)//|
 
 ==== Annäherungsbenachrichtigung ====
 {{anchor:proximity:}}
@@ -223,6 +224,7 @@ Die folgende Tabelle gibt dir einen kurzen Überblick über die verschiedenen Li
 ^ Menüeintrag ^ Beschreibung ^
 |Signatur|Das Antippen dieses Eintrags öffnet ein Textfenster, in dem du deine benutzerdefinierte Signatur festlegen kannst, die an jedes Log, welches du mit c:geo schreibst, angehangen werden kann.\\ Im Editor kannst du auf ''Platzhalter einfügen'' tippen, um eine Liste der möglichen Platzhalter (siehe Tabelle unten) anzuzeigen, die du in deiner Vorlage nutzen kannst.|
 |Automatisch einfügen|Wenn diese Funktion aktiviert ist, wird deine benutzerdefinierte Signatur automatisch in den Logtext eingefügt, wenn du ein Log mit c:geo schreibst.\\ Wenn die Funktion deaktiviert ist, kannst du die benutzerdefinierte Signatur bei Bedarf einfügen, indem du während des Schreibens des Logs ''+'' und ''Signatur'' auswählst. //(Standard: Deaktiviert)//|
+|Log-Vorlagen|Hier kannst du mehrere Log-Vorlagen definieren, die beim Loggen eines Caches eingefügt werden können.|
 
 === Platzhalter ===
 {{anchor:placeholder_templates:}}
@@ -274,6 +276,7 @@ Mehr Details zur Offline-Nutzung findest du auf der Seite [[..:offline|Offline-N
 |Logbilder|Wenn diese Funktion aktivierst ist, wird c:geo alle Bilder, die in den Logs deiner offline gespeicherten Caches enthalten sind, abspeichern, damit sie offline verfügbar sind. Du musst nach Aktivieren dieser Option bereits gespeicherte Caches aktualisieren, damit die Bilder gespeichert werden.\\ Wenn diese Option deaktiviert ist, werden die Logbilder nur bei Bedarf (beim Öffnen der Bilder oder beim Öffnen der Bildergalerie des Caches) geladen aber danach dennoch permanent gespeichert bis du den Cache von deinen Listen löschst. //(Standard: Deaktiviert)//|
 |Nach Liste fragen|When activated you will be asked in which list the cache shall be saved if you store a cache in c:geo. If it is deactivated all caches will be stored to the default list. //(Default: Activated)//|
 |Zusätzliche Listen|Wenn diese Option aktiviert ist, wird c:geo alle weiteren Listenzugehörigkeiten eines Caches in Listen von Caches anzeigen. //(Standard: Aktiviert)//|
+|Ladelimit für Listen|Wenn du Listen mit sehr vielen Caches verwendest, kannst du hier begrenzen wie viele Caches beim Öffnen der Liste geladen werden sollen. Dies kann die Performance verbessern. Beim Erreichen des letzten Listeneintrages kannst du dann mehr Caches laden. //(Standard:0=Kein Limit)//|
 
 ==== GPX ====
 {{anchor:gpx:}}
@@ -299,7 +302,7 @@ Mehr Details zur Offline-Nutzung findest du auf der Seite [[..:offline|Offline-N
 {{ :en:settings_offlinedata_maintenance.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Verwaiste Daten löschen|c:geo speichert Bilder, Log-Bilder und weitere Dateien zu einem Cache in einem separaten Verzeichnis (siehe [[settings#database_and_geocache_data|Geocache-Datenverzeichnis]]). In manchen Fällen (z.B. beim Wiederherstellen der Datenbank) kann dieses Verzeichnis unnötige Daten von Caches enthalten, die nicht mehr auf deinem Gerät gespeichert sind. Diese veralteten Daten können mit dieser Funktion gelöscht werden.\\ \\ :!: Nach dem Löschen von Caches speichert c:geo die zugehörigen Daten für 72 Stunden um einen erneuten Download im Falle eines Versehens zu vermeiden. Es gibt in diesem Fall keine Notwendigkeit diese Funktion zu nutzen und es macht auch keinen Sinn, da die Daten dennoch für die 72 Stunden-Periode gespeichert bleiben.|
+|Verwaiste Daten löschen|c:geo speichert Bilder, Log-Bilder und weitere Dateien zu einem Cache in einem separaten Verzeichnis (siehe [[settings#database_and_geocache_data|Geocache-Datenverzeichnis]]). In manchen Fällen (z.B. beim Wiederherstellen der Datenbank) kann dieses Verzeichnis unnötige Daten von Caches enthalten, die nicht mehr auf deinem Gerät gespeichert sind. Diese veralteten Daten können mit dieser Funktion gelöscht werden.|
 ===== Navigation =====
 {{anchor:navigation:}}
 
@@ -356,16 +359,15 @@ Schaue auf die Seite [[..navigation|Unterstützte Navigationsmethoden]] für det
 |Orientierungssensor nutzen|Auf einigen Geräten verhält sich der Rotationssensor fehlerhaft und zeigt die falsche Richtung an. In diesem Fall kann ein alternativer Sensor (der Orientierungssensor) bessere Ergebnisse liefern.\\ Wir empfehlen diese Option nur bei Kompass-Problemen auf deinem Gerät zu aktivieren.|
 
 
-==== Beschleunigung & Fehlersuche ====
+==== Fehlersuche ====
 
 {{ :en:system_other_2.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Hardwarebeschleunigung aktivieren|Mittels Hardwarebeschleunigung werden grafische Elemente schneller auf dem Bildschirm dargestellt. Jedoch enthalten manche Android-Systeme Fehler, die zu verschwommenem Text (meistens bei fettgedruckten Zeichen) führen können. In diesem Fall sollte die Hardwarebeschleunigung deaktiviert werden.|
 |Debug-Log aktivieren|c:geo kann viele Debug-Informationen generieren.\\ \\ :!: Das Aktivieren dieser Einstellung wird die Stabilität von c:geo beeinträchtigen und wird nur empfohlen, um den Entwicklern eine Logdatei zu senden. Bitte das Debug-Logging bei der normalen Nutzung von c:geo abgeschaltet lassen!|
 |Logdatei erstellen|Mit dieser FUnktion wird eine System-Logdatei erstellt, die im Falle von Fehlern oder Abstürzen an den c:geo Support gesendet werden kann. Nutze diese wie vom c:geo Support angewiesen (nützlich in Kombination mit der Aktivierung des Debug-Log).|
 |Erzeuge ein Speicherabbild|Dies ist eine Entwicklungsoption, welche das Debuggen spezieller Probleme im c:geo Speicherhandling ermöglicht. Die Nutzung dieser Funktion ist für dich nicht hilfreich, sondern müllt deinen internen Speicher nur mit recht großen Dump-Files zu. Also nutze sie besser nicht. :-)|
-|Einstellungen anzeigen|Diese Debug-Funktion öffnet eine Ansicht wo alle c:geo Einstellungen in einem Rohformat angezeigt oder editiert werden können.\\ :!: Wenn hier irgendetwas verändert wird, kann dies zu unerwartetem Verhalten oder dazu führen, dass c:geo nicht länger funktioniert. Nutze es also nur nach expliziter Aufforderung vom c:geo Support!|
+|Einstellungen anzeigen|Diese Debug-Funktion öffnet eine Ansicht wo alle c:geo Einstellungen in einem Rohformat angezeigt oder editiert werden können.\\ \\ :!: Wenn hier irgendetwas verändert wird, kann dies zu unerwartetem Verhalten oder dazu führen, dass c:geo nicht länger funktioniert. Nutze es also nur nach expliziter Aufforderung vom c:geo Support!|
 
 
 ===== Sichern / Wiederherstellen =====

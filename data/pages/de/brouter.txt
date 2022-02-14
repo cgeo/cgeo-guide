@@ -1,4 +1,4 @@
-====== Nutzung von BRouter mit c:geo ======
+====== Nutzung von gerouteter Navigation mit c:geo ======
 
 {{:helper_brouter.png?nolink&100 |}}
 
@@ -15,7 +15,7 @@ Das Routing kann je nach Bedarf für Gehen, Radfahren oder Autofahren gewählt w
 
 Du kannst in den c:geo [[.:mainmenu:settings#navigation|Einstellungen für Routing/Navigation]] die interne Routing-Funktion aktivieren und weitere Einstellungen dazu festlegen (z.B. Ordner für die Routing-Daten, automatisches Herunterladen).
 
-Nachdem das Routing und der automatische Download aktiviert stind, werden die Routing-Informationen für das gewünschte geographische Gebiet automatisch heruntergeladen, wenn die Funktion erstmalig verwendet wird.
+Nachdem das Routing und der automatische Download aktiviert sind, werden die Routing-Informationen für das gewünschte geographische Gebiet automatisch heruntergeladen, wenn die Funktion erstmalig verwendet wird.
 
 <WRAP center round info 100%>
 Die Routing-Daten von BRouter können ggf. mehrere hundert Megabyte umfassen.
@@ -31,7 +31,7 @@ BRouter wird hauptsächlich für zwei Funktionen genutzt, um Routen zu berechnen
 
 Wenn du die Kartennavigation zu einem Cache/Wegpunkt aufrufst, wird die Richtungslinie zwischen deiner Position und dem Cache/Wegpunkt jetzt eine geroutete Linie statt einer geraden Verbindung sein.
 
-Die Entferungsangabe oben rechts wird dann eine geroutete Entfernung zusätzlich zur direkten Entfernung (Luftlinie) anzeigen.
+Die Entfernungsangabe oben rechts wird dann eine geroutete Entfernung zusätzlich zur direkten Entfernung (Luftlinie) anzeigen (wenn aktiviert in den [[.:mainmenu:settings#navigation|c:geo Einstellungen]]).
 
 {{ :en:brouter_with.png?direct&400 |}}
 ==== Individuelle Route ====

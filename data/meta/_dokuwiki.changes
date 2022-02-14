@@ -1332,3 +1332,118 @@
 1644790487	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:livemap	lineflyer	Use SVG		0
 1644790496	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:lists	lineflyer	[Gespeicherte Caches] 		0
 1644790507	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:search	lineflyer	Use SVG		0
+1644791222	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	e	de:start	lineflyer	g		2
+1644791249	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	e	de:start	lineflyer	g		-1
+1644832889	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-3
+1644835222	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoints submenu] 		174
+1644835230	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoints submenu] 		0
+1644835317	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Advanced submenu] 		257
+1644835480	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Cache information] 		105
+1644835882	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Add missing newline		6
+1644835935	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Fix indentation #1		-36
+1644835984	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:sidebar	lineflyer	old revision restored (2022/01/31 17:17)	1643645820	185
+1644836016	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	New try of regrouping		-149
+1644836049	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:sidebar	lineflyer	Rename to homescreen		-6
+1644836064	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:sidebar	lineflyer	Remove newline		-7
+1644836101	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:sidebar	lineflyer	newline		1
+1644836137	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:sidebar	lineflyer	newlines		2
+1644837919	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	[Démarrage rapide] 		93
+1644838315	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	[Menu principal] 		-380
+1644838438	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoint context menu] 		96
+1644838503	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	[Accès rapide] Add Cache Filtering entry		36
+1644838573	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachedetails	lineflyer	[Untermenü Wegpunkte] 		180
+1644838589	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	[Astuces et fonctions avancées] Add BRouter entry		44
+1644838653	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachedetails	lineflyer	[Untermenü Erweitert] 		245
+1644838715	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachedetails	lineflyer	[Untermenü Erweitert] 		142
+1644838732	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	Add Plugins and Addon functions		117
+1644838761	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachedetails	lineflyer	[Cacheinformationen] 		104
+1644838811	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoint types] Remove old icons		-280
+1644838888	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoint types] 		40
+1644838909	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachedetails	lineflyer	[Wegpunkttyp] 		1
+1644839044	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Remove old icons		-576
+1644839067	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:cacheicons	lineflyer	Remove superflous header		-13
+1644839085	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:cacheicons	lineflyer	Remove (new) in header		-6
+1644839173	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cacheicons	lineflyer	Alte Symbole entfernt		-597
+1644840533	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:start	ijeantet	[Plugins and Addon functions]		18
+1644840651	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:sidebar	ijeantet	[Navigation rapide] 		483
+1644842655	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:coordinatedialog	lineflyer	[Coordinate input] 		0
+1644842665	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:coordinatedialog	lineflyer	[Koordinateneingabe] 		1
+1644842887	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:navigation	lineflyer	Remove static maps		-89
+1644842918	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:navigation	lineflyer	Statische Karten entfernt		-114
+1644843228	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Rework to show PQ and bookmarks		28
+1644843261	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:mainmenu:pocketquery	lineflyer	Drafting		19
+1644843272	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	h		2
+1644843304	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Image centered		0
+1644843493	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	New images		29
+1644843521	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	IMage alignment		1
+1644843539	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:mainmenu:pocketquery	lineflyer	A		1
+1644843556	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Image alignment		-33
+1644843582	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Image alignment		8
+1644843653	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Describe Show all switch		115
+1644843725	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:pocketquery	lineflyer	Add icon for bookmarkliste		39
+1644846339	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachemarkers	lineflyer	Remove old icons #1		-591
+1644846355	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachemarkers	lineflyer	Remove old icons #2		-6
+1644846388	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cacheicons	lineflyer	Remove (new) in header		-18
+1644846416	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cacheicons	lineflyer	Remove (new) in header		-12
+1644846481	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachemarkers	lineflyer	Remove old icons		-513
+1644846502	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:cachemarkers	lineflyer	Syntaxfehler		-2
+1644846819	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Remove some apps, added Chripwolf		-484
+1644846941	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Added GCWizard and ALC		225
+1644848724	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add helper app images		71
+1644848894	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add missing images and links		189
+1644848930	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:utilityprograms	lineflyer	Add missing link to ChripWolf		72
+1644849200	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:mainmenu:utilityprograms	lineflyer	Neue Apps und alte Apps entfernt		14
+1644849261	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:intents	lineflyer	Remove hint which is no longer valid		-555
+1644849351	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:intents	lineflyer	Add important box for Android 12 problem		213
+1644849370	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:intents	lineflyer	Fix link syntax		2
+1644849442	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:intents	lineflyer	Warnungsbox für Android 12		-323
+1644849460	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:intents	lineflyer	Link repariert		2
+1644849566	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:hiddenfunctions	lineflyer	Add long press search, remove long press filter		-65
+1644849633	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:hiddenfunctions	lineflyer	Suchen Icon hinzu, Filter Icon weg		-30
+1644849666	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:hiddenfunctions	lineflyer	Syntaxfehler		0
+1644851013	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:brouter	lineflyer	Change page name		8
+1644851354	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:brouter	lineflyer	[Direction line] 		72
+1644851367	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:brouter	lineflyer	[Direction line] 		1
+1644851470	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:brouter	lineflyer	Small additions		93
+1644853910	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	seperate pictures		2
+1644853924	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:mainmenu:settings	lineflyer	old revision restored (2021/08/29 23:10)	1630271459	-2
+1644853953	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	Separate pictures		0
+1644853964	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	R	en:mainmenu:settings	lineflyer	old revision restored (2022/02/14 16:52)	1644853924	0
+1644854051	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Appearance] Menu entry "Theme"		-35
+1644854108	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Appearance] Menu entry "Wallpaper"		-26
+1644854148	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] Remove filter for own/found		-518
+1644854229	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] 		277
+1644854251	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Cache Details] 		3
+1644854325	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Map Content] 		118
+1644855691	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Maintenance] Orphaned file will now also delete cached caches		-357
+1644856001	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Generic] Add "List Load limit"		350
+1644856059	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Acceleration & Debugging] Remove acceleration menu		-348
+1644856106	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Other map settings] 		2
+1644856153	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:mainmenu:settings	lineflyer	[Signature] Add Log template menu		176
+1644856673	fe80:1ca9:8102:d179:c172:17bc:e08e:23cb	E	en:mainmenu:lists	lineflyer	[Sorting] Add automatic sorting		239
+1644856698	fe80:1ca9:8102:d179:c172:17bc:e08e:23cb	E	en:mainmenu:lists	lineflyer	[Sorting] 		-30
+1644856805	fe80:1ca9:8102:d179:c172:17bc:e08e:23cb	E	de:mainmenu:lists	lineflyer	[Sortierung] Automatische Sortierung		259
+1644856828	fe80:1ca9:8102:d179:c172:17bc:e08e:23cb	E	de:mainmenu:lists	lineflyer	[Sortierung] 		-37
+1644863859	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Geocaching] 		2
+1644863874	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Geocaching] 		-1
+1644863901	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Geocaching] 		4
+1644863920	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Geocaching] 		0
+1644864074	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Erscheinungsbild] 		37
+1644864184	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Cache-Details] 		-306
+1644864291	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		166
+1644864302	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		1
+1644864373	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		6
+1644864389	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		-1
+1644864396	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Kartenverhalten] 		1
+1644864440	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Signatur] 		119
+1644864539	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Allgemein] 		305
+1644864561	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Wartung] 		-328
+1644864598	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Beschleunigung & Fehlersuche] 		-351
+1644864654	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	[Debugging] 		66
+1644864672	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Fehlersuche] 		2
+1644864678	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	de:mainmenu:settings	lineflyer	[Fehlersuche] 		1
+1644864740	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	Show initial images larger and below each other		4
+1644864757	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	R	en:mainmenu:settings	lineflyer	old revision restored (2022/02/14 19:50)	1644864654	-4
+1644864778	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	Enlarge initial pictures a bit		0
+1644864804	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	[Geocaching] Use image size 400		0
+1644864844	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	e	de:mainmenu:settings	lineflyer	Bearbeitungsflag entfernen		1

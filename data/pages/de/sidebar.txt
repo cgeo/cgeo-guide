@@ -17,6 +17,7 @@
       * [[.mainmenu:search|Suche]]
 
       * [[.mainmenu:settings|Einstellungen]]
+
       * [[start#geocaches|Geocaches]]
         * [[cachedetails|Geocache-Details]]
         * [[logging|Loggen von Geocaches]]

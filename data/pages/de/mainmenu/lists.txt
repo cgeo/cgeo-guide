@@ -92,6 +92,7 @@ Das erneute Auswählen der gleichen Sortieroption erlaubt es die Sortierreihenfo
 </WRAP>
 
 ^ Menüeintrag ^ Beschreibung ^
+|Automatisch|Die Liste wird folgendermaßen sortiert:\\ 1. Standardmäßig nach Entfernung\\ 2. Listen, die nur Events beinhalten, werden nach Event-Datum sortiert\\ 3. Listen, die nur Caches mit ähnlichen Namen beinhalten, werden nach Cache-Name sortiert.|
 |Bewertung|Sortiert nach [[http://gcvote.com|GCVote]]-Bewertung des Caches.|
 |Eigene Bewertung|Sortiert nach deiner eigenen [[http://gcvote.com|GCVote]]-Bewertung der Caches.|
 |Entfernung|Sortiert nach Entfernung zwischen deiner Position und dem Cache.\\ //(Dies ist die Standardsortierung für Listen)//|
@@ -112,7 +113,7 @@ Das erneute Auswählen der gleichen Sortieroption erlaubt es die Sortierreihenfo
 
 
 <WRAP center round info 100%>
-Die ausgewählte Sortierung wird während der gesamten Sitzung mit c:geo beibehalten oder bis du sie änderst.
+Die ausgewählte Sortierung wird für jede Liste individuell gespeichert.
 </WRAP>
 
 ==== Auswahlmodus ====

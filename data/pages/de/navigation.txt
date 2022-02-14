@@ -10,8 +10,6 @@ Die nachstehende Tabelle gibt eine Übersicht über die verschiedenen unterstüt
 |Kompass|Startet den in c:geo eingebauten [[compass|Kompass]].|
 |Radar|Startet Apps, die eine Radarfunktion unterstützen, z.B. [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Ein Radar ist ähnlich zum Kompass, zeigt aber deine Position in der Mitte und die Zielposition in Abhängigkeit davon.|
 |Karte|Öffnet die c:geo [[.mainmenu:livemap|Karte]].|
-|Statische Karten|Diese Funktion wurde entfernt.|
-|Statische Karten herunterladen|Diese Funktion wurde entfernt.|
 |Locus|Startet [[.mainmenu:utilityprograms|Locus]] um die Koordinaten auf dessen Karte anzuzeigen.|
 |Navigation (Fahren)|Startet [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] Navigation für Autos.|
 |Navigation (Fahrrad)|Startet [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]]  Navigation für Radfahrer.|

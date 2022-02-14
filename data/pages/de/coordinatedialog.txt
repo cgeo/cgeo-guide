@@ -25,7 +25,7 @@ Wenn du bereits vorher Koordinaten eingegeben hattest, werden sie in das ausgew�
 {{:en:coordinput_coords.png?nolink&300 |}}
 
 Benutze diese Felder, um die Koordinaten einzugeben. Durch Klick auf N/E kannst du nach Bedarf auf S/W 채ndern.
-Die Anordnung der Felder h채ngt vom oben gew채hlten Koordinatenformat ab.
+Die Anordnung der Felder h채ngt vom oben gew채hlten Koordinatenformat ab. 
 
 ===== Quelle f체r Koordinaten =====
 {{anchor:coordinate_sources}}
