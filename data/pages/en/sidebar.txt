@@ -25,7 +25,7 @@
         * [[trackabledetails|Trackable Details]]
         * [[loggingtb|Logging of Trackables]]
       * [[start#coordinates_and_navigation|Coordinates and Navigation]]
-        * [[coordinatedialog#waypoint_calculator|Waypoint calculator]]
+        * [[waypointcalculator|Waypoint calculator]]
         * [[navigation|Navigation]]
         * [[compass|Compass]]
       * [[offline|Offline caching]]

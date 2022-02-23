@@ -70,4 +70,3 @@ Die letzte Zeile in diesem Bereich zeigt dir den aktuellen Status des Satelliten
 |+- 26,1 ft|Die aktuelle Standortgenauigkeit ist 26,1 Fuß (könnte je nach Einstellung auch in Metern statt Fuß angezeigt werden).|
 | 0 mph|Die aktuelle Geschwindigkeit ist 0 mph  (könnte je nach Einstellung auch in km/h statt mph angezeigt werden).|
 |Kombiniert|Zeigt die Quelle des derzeit genutzten Standortes:\\ \\ Letzte Position = Die letzte bekannte Position, die c:geo aufgezeichnet hat\\ Heim = Heim-Koordinaten, wie auf geocaching.com festgelegt \\ GPS = Position vom GPS-Empfänger\\ Netzwerk = Position mit Hilfe von Mobilnetz-Informationen ermittelt\\ Kombiniert = Nutzt sowohl Google Play Services als auch Daten vom GPS-Empfänger für eine noch genauere Standortbestimmung|
-.

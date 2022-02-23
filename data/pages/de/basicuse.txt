@@ -40,7 +40,7 @@ Du solltest dich mit den verschiedenen Typen, Geländewertungen, Attributen, usw
 Wenn du nun einen Cache ausgewählt hast und bereit zum Suchen bist, wähle das ''Navigation''-Symbol {{:ic_menu_goto.svg?nolink|}}  in der Titelzeile der Cache-Details. Du hast dann je nach Bedarf [[.navigation|mehrere Möglichkeiten]] zur Navigation. Hier ist eine kurze Beschreibung der wichtigsten Navigationsmethoden:
 
   * **[[compass|Kompass]]**:\\ Er zeigt dir dauerhaft die Entfernung und Richtung zum Cache an.
-{{ :en:navigate_compass.png?direct&300 |}}
+{{ :en:compass.png?direct&300 |}}
   
 
   * **Navigation (Fahren, Gehen, Fahrrad)**:\\ Dies startet die Routenführung mit Google Maps.

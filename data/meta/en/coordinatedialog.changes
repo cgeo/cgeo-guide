@@ -82,3 +82,5 @@
 1611437647	2.205.115.174	e	en:coordinatedialog	lineflyer	Replace click by tap		-6
 1630363263	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:coordinatedialog	murggel	[CoordDialog] use svg		-38
 1644842655	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:coordinatedialog	lineflyer	[Coordinate input] 		0
+1645358091	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:coordinatedialog	lineflyer	Remove WP calc description and link to a new page (prepare for new WP Calc)		-8274
+1645358108	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	en:coordinatedialog	lineflyer	[Waypoint Calculator] Fix link		-2

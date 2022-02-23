@@ -38,7 +38,7 @@ Si vous avez installé c:geo depuis Google Play vous recevrez une notification d
 
 De plus c:geo utilise son propre système de notifications pour vous informer de nouvelles versions ou de problèmes temporaires. Vous pouvez donc être amené à voir un message comme celui-ci sur votre écran d’accueil de c:geo :
 
-{{:fr:notification_example.png?direct&300 |}}
+{{:en:notification_example.png?direct&300 |}}
 
 Vous pouvez cliquer sur le message pour avoir plus d'information (dans le cas d'un problème temporaire) ou vous serez emmené sur Google Play pour mettre à jour l'application (dans le cas d'une publication d'une nouvelle version).
 

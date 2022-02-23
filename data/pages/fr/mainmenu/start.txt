@@ -1,24 +1,21 @@
-FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
-
 ====== Écran principal ======
 
 Cette page détaille les informations et fonctionnalités présentes sur l'écran principal de c:geo.
 
-===== Icônes principales =====
 {{anchor:main_icons:}}
 
-{{ :fr:mainmenu_2.png?direct&400 |}}
+L'écran d'accueil affiche votre photo de profil (provenant du site Web de géocaching) ainsi que votre nombre de découvertes et votre statut de connexion pour tous les services de géocaching que vous avez activés dans c:geo.
 
-La table suivante décrit les icônes du menu principal :
+{{ :en:mainmenu_2.png?direct&400 |}}
+
+Au bas de l'écran, vous trouverez les principales fonctions qui sont décrites dans le tableau suivant. La fonction actuellement active est mise en évidence.
 
 ^ Icône ^ Fonction ^ Description ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Carte]]|Affiche une carte de votre position actuelle avec les géocaches proches de vous marquées dessus. Vous pouvez faire glisser la carte pour voir les géocaches présentes à d'autres endroits. Pour voir la carte avec la position des géocaches à jour, vous avez besoin d'un accès au réseau internet. Les géocaches affichées peuvent être filtrées en suivant le Types de cache (voir ci-dessous).|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Proches]]|Liste les géocaches proches de vous. Contrairement à la carte en temps réel, cette fonction exécute en ligne une requête basée sur votre position actuelle, position acquise par le GPS ou le réseau de votre appareil. Ainsi pour utiliser cette fonctionnalité vous avez besoin d'un accès au réseau internet. Attention, la requête ne se met pas automatiquement à jour lorsque vous bougez.\\ \\ Si vous n'avez pas de signal GPS ou d'autre information de position valide, cette icône est désactivée.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Enregistrées]]|Montre les géocaches que vous avez enregistrées pour une utilisation hors-ligne. Vous pouvez également utiliser ces géocaches enregistrées pour du géocaching en ligne, comme votre liste de caches à trouver. Aussi en enregistrant les détails de ces géocaches, vous pouvez éviter une utilisation de bande passante non nécessaire ainsi que supprimer la latence aux serveurs. Le nombre total de géocaches enregistrées est affiché dans le coin en haut à droite de l'icône.\\ Si vous avez organisé vos géocaches enregistrées en différentes listes, vous pouvez aller directement à une de ces listes en appuyant longuement sur l'icône.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Recherche]]|Recherche des géocaches par mots-clés, code de la cache, adresse, nom d'utilisateur, etc.|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Aller à]]|Navigue directement aux coordonnées données en utilisant la boussole, le radar, la navigation étape par étape ou tout autre méthode de navigation supportée.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Types de cache]]|Filtre par type de caches les géocaches affichées sur la carte temps réel, lors de la recherche de cache et dans vos listes de géocaches enregistrées. Vous pouvez choisir de voir toutes les géocaches, ou celles uniquement d'un certain type. Le texte en dessous de l'icône indiques le filtre actuel.\\ Pour réinitialiser le filtre, pressez longuement sur l'icône.|
-
+|{{:main_home_default.svg?nolink&100|}}|Écran d'accueil|Revient à l'écran d'accueil.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Enregistrées]]|Montre les géocaches que vous avez enregistrées pour une utilisation hors-ligne. Vous pouvez également utiliser ces géocaches enregistrées pour du géocaching en ligne, comme votre liste de caches à trouver. Aussi en enregistrant les détails de ces géocaches, vous pouvez éviter une utilisation de bande passante non nécessaire ainsi que supprimer la latence aux serveurs.\\ Si vous avez organisé vos géocaches enregistrées en différentes listes, vous pouvez aller directement à une de ces listes en appuyant longuement sur l'icône.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Carte]]|Affiche une carte de votre position actuelle avec les géocaches proches de vous marquées dessus. Vous pouvez faire glisser la carte pour voir les géocaches présentes à d'autres endroits. Pour voir la carte avec la position des géocaches à jour, vous avez besoin d'un accès au réseau internet.|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Recherche]]|Recherche des géocaches par mots-clés, code de la cache, adresse, nom d'utilisateur, etc.\\ \\ Une longue pression sur cette icône ouvre une liste des caches récemment consultées.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Proches]]|Liste les géocaches proches de vous. Contrairement à la carte en temps réel, cette fonction exécute en ligne une requête basée sur votre position actuelle, position acquise par le GPS ou le réseau de votre appareil. Ainsi pour utiliser cette fonctionnalité vous avez besoin d'un accès au réseau internet. Attention, la requête ne se met pas automatiquement à jour lorsque vous bougez.|
 ===== Menu supérieur ===== 
 {{anchor:top_bar_menu:}}
 
@@ -29,37 +26,37 @@ Le nombre d'icônes que vous voyez dans la barre supérieure est déterminé dyn
 Pour voir le nom d'une icône de la barre supérieure, appuyez longuement dessus.
 </WRAP>
 
-{{ :fr:main_topbarmenu.png?direct&400 |}}
+{{:en:main_topbarmenu_2.png?direct&400|}}
+{{:en:main_topbarmenu.png?direct&400|}}
 
 ^ Icône ^ Fonction ^ Description ^
 |{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Recherche globale]]|Si vous êtes hors-ligne, recherche parmi vos géocaches enregistrées par titre, géocode, description, propriétaire, contenu du carnet de visites, etc. \\ Si vous avez un accès internet, recherche à la fois dans le contenu enregistré et celui en ligne. Vous pouvez alors utiliser un géocode, un code d'objet voyageur, un nom d'utilisateur, et bien plus.|
 |{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Historique]]|Liste les géocaches que vous avez récemment marquées comme visitées avec c:geo. \\ Note : c'est une liste interne à c:geo qui n'est pas synchronisée avec la liste des caches vues et marquées sur le site de géocaching.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Bouton de débordement|Ouvre une liste des fonctionnalités de la barre supérieure qui n'apparaissent pas en tant qu'icônes à cause de la taille de votre écran. Ces fonctionnalités sont celle présentes dans ce tableau.|
-|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Ouvre une liste de vos Pocket Queries depuis geocaching.com. C'est fonctionnalité n'est pas disponible pour les [[..:basicmembers|membres non-prenium]].|
+|{{:main_any_default.svg?nolink&40|}}|[[goto|Aller à]]|Navigue directement aux coordonnées données en utilisant la boussole, le radar, la navigation étape par étape ou tout autre méthode de navigation supportée.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Ouvre une liste de vos Pocket Queries depuis geocaching.com. Cette fonctionnalité n'est pas disponible pour les [[..:basicmembers|membres non-prenium]].|
+|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Bookmark lists]]|Ouvre une liste de vos listes de favoris depuis geocaching.com. Cette fonctionnalité n'est pas disponible pour les [[..:basicmembers|membres non-prenium]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Outils]]|Ouvre une liste d'applications pour le géocaching qui peuvent être utiles en complément de c:geo.|
+| | |
 |{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Paramètres]]|Ouvre le menu de configuration de c:geo.|
 |{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Sauvegarde/Restauration]]|Ouvre le menu de sauvegarde des caches et des paramètres de l'application. Vous pouvez également y accéder via les [[settings|paramètres]] de c:geo.|
-|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Outils]]|Ouvre une liste d'applications pour le géocaching qui peuvent être utiles en complément de c:geo.|
-|{{ :ic_menu_barcode.svg?nolink&40 |}}|Scanner un géocode|Permet de scanner des codes barres représentant des géocodes si un [[utilityprograms|scanner de codes barres]] est installé sur votre appareil.|
+| |Mettre à jour les données hors ligne|Contient des fonctions permettant de mettre à jour de vos fichiers cartographiques et vos données de navigation hors ligne.|
+| | |
 |{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|À propos de c:geo]]|Affiche des information à propos de c:geo telles que la version de l'application, des liens d'aide et de contact, la liste des contributeurs et plein d'autres choses intéressantes à savoir sur c:geo.| 
+| |Signaler un problème|Vous pouvez utiliser cette fonction pour envoyer un rapport de problème au support de c:geo par mail.\\ :!: Veuillez inclure une description détaillée de votre problème.|
 
 ===== Bandeau inférieur =====
 {{anchor:bottom_section:}}
 
 {{ :en:mainmenu_4.png?direct&400 |}}
 
-La partie inférieure de l'écran principal présente des informations à propos de votre statut de connexion, votre position actuelle et l'état de réception des satellites.
+La partie inférieure de l'écran principal affiche des informations sur la quantité de caches enregistrées, votre position actuelle et l'état de réception des satellite.
 
-==== Statut de connexion ====
-{{anchor:login_status:}}
 
-En haut de ce bandeau est affiché votre statut de connexion à chaque [[settings#Services|service de géocaching]] de vous avez activé et configuré dans les [[settings|paramètres]] de c:geo, avec une ligne par service.\\
-Dans l'exemple ci-dessus, l'utilisateur ''My username'' est connecté avec succès à geocaching.com (''GC'') et Opencaching.de (''OC.DE''). Le chiffre suivant le nom d'utilisateur correspond au nombre de caches trouvées par l'utilisateur sur la plateforme de géocaching en question, y compris éventuellement un nombre de caches trouvées hors ligne (affichés sous la forme ''trouvailles en ligne + trouvailles hors ligne'') si la fonction correspondante est activée dans vos [[.settings#other_logging_options|options de visite]].
 
 ==== Position actuelle ====
 {{anchor:current_location:}}
-
-En dessous des informations de connexion se trouve votre position actuelle. Ce sont les coordonnées exactes sauf si l'[[settings#Appearance|affichage d'adresse]] est activée dans les paramètres et dans ce cas elle est sous la forme 'pays, ville/région'.\\
-Dans l'exemple, la position de l'utilisateur est ''USA, New York''.
+Votre position est affichée soit par des coordonnées exactes soit, si l'[[settings#Appearance|affichage d'adresse]] est activée dans les paramètres, sous la forme 'pays, ville/région'.
 
 ==== État du GPS ====
 {{anchor:satellite_status}}
@@ -67,7 +64,7 @@ Dans l'exemple, la position de l'utilisateur est ''USA, New York''.
 La dernière ligne du bandeau présente l'état de votre connexion GPS. Le tableau explicatif ci-dessous reprend l'image du dessus comme exemple :
 
 ^Statut ^ Description ^
-|Sat: 5/22|Le récepteur de votre appareil a trouvé 22 satellites au total et la position est déterminée par 5 d'entre eux.|
-|+- 4,65 m|La précision de votre position actuelle est de 4,65 mètres. Suivant les paramètres de votre application, cela peut être affiché en pieds ou miles (système impérial).|
-| 0 km/h|Votre vitesse actuelle est de 0 km/h. Suivant les paramètres de votre application, cela peut être affiché en mph (système impérial).|
-|Last known|L'origine actuelle de votre position :\\ \\ Dernière position = dernière position connue de c:geo \\ Domicile = coordonnés de votre domicile tel que défini sur geocaching.com \\ GPS = déterminé par votre récepteur GPS \\ Réseau = déduit des informations de connexion à votre réseau mobile \\ Unifié = déterminé utilisant à la fois les Services Google Play et le récepteur GPS|
+|Sat: 16/26|Le récepteur de votre appareil a trouvé 26 satellites au total et la position est déterminée par 16 d'entre eux.|
+|+- 26,1 ft|La précision de votre position actuelle est de 26,1 pieds. Suivant les paramètres de votre application, cela peut être affiché en pieds/miles (système impérial) ou en mètres (système international).|
+| 0 mph|Votre vitesse actuelle est de 0 mph. Suivant les paramètres de votre application, cela peut être affiché en mph (système impérial) ou km/h (système international).|
+|Fused|L'origine actuelle de votre position :\\ \\ Dernière position = dernière position connue de c:geo \\ Domicile = coordonnés de votre domicile tel que défini sur geocaching.com \\ GPS = déterminé par votre récepteur GPS \\ Réseau = déduit des informations de connexion à votre réseau mobile \\ Unifié = déterminé utilisant à la fois les Services Google Play et le récepteur GPS|

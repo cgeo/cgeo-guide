@@ -1,6 +1,6 @@
 ====== Rechercher ======
 
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 Le menu de recherche propose plusieurs fonctions de recherche décrites ci-dessous. Toutes les recherches basées sur un emplacement ou un utilisateur fourniront une [[lists|liste de caches]] en résultat, tandis que la recherche par géocode et la recherche d'objet voyageur ouvriront directement la vue détaillée de la [[..:cachedetails|géocache]] ou de l'[[..:trackabledetails|objet voyageur]] en question.
 \\ \\ \\ \\

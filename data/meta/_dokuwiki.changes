@@ -1,7 +1,3 @@
-1613378871	2a00:ee2:f012:696:48aa:bbed:dac1:6138	e	fr:mainmenu:settings	ijeantet	[Map] 		2
-1613383360	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Map Data] Translate to French		247
-1613383953	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mapsources	ijeantet	Update French translation with new map sources		471
-1613385376	2a00:ee2:f012:696:48aa:bbed:dac1:6138	E	fr:mainmenu:settings	ijeantet	[Waypoints]  Translate to French		302
 1615151825	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		-22
 1615151915	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		130
 1615152147	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Mapsforge API] 		-125
@@ -1447,3 +1443,135 @@
 1644864778	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	Enlarge initial pictures a bit		0
 1644864804	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:settings	lineflyer	[Geocaching] Use image size 400		0
 1644864844	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	e	de:mainmenu:settings	lineflyer	Bearbeitungsflag entfernen		1
+1644865301	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		66
+1644865327	fe80:ecf8:395e:6dc9:8df0:56f5:1aae:b04c	E	en:mainmenu:livemap	lineflyer	[Route/Track settings] 		10
+1644920573	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:basicuse	lineflyer	[Finding your first cache with c:geo] Use existing (newer) compass picture		-9
+1644920600	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:basicuse	lineflyer	[Den ersten Geocache mit c:geo finden] Neueres Kompass-Bild nutzen		-9
+1644920775	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:mainmenu:start	lineflyer	[Satelliten-Status] 		-2
+1645089055	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:installation	ijeantet	[Mise à jour] picture update		0
+1645090536	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Icônes principales] Update with new home screen		-543
+1645091559	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Menu supérieur] Update with new home screen		665
+1645091673	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Bandeau inférieur] Update with the new home screen		-1
+1645091715	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Statut de connexion] Remove section		-816
+1645091833	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Position actuelle] Update with the new home screen		-139
+1645092087	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[État du GPS] Uopdate with the new home screen		61
+1645092102	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	e	fr:mainmenu:start	ijeantet	[État du GPS] 		2
+1645092163	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	Remove fixme		-159
+1645092340	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	e	fr:mainmenu:search	ijeantet	Change png to svg		0
+1645135643	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:cacheicons	ijeantet	Update geocaches icons and missing descriptions		1110
+1645136258	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:cacheicons	ijeantet	Add cache markers table		1758
+1645137614	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:cacheicons	ijeantet	Add icon descriptions in compact mode		2572
+1645357894	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	C	en:waypointcalculator	lineflyer	Prepare page for new WP calc, but fill with current content for now		8457
+1645358091	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:coordinatedialog	lineflyer	Remove WP calc description and link to a new page (prepare for new WP Calc)		-8274
+1645358108	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	en:coordinatedialog	lineflyer	[Waypoint Calculator] Fix link		-2
+1645358167	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	en:sidebar	lineflyer	Link to new WP calc page (preparation for new WP Calc)		-18
+1645358267	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	de:coordinatedialog	lineflyer	Wegpunktrechner auf neue Seite verschieben		-9060
+1645358366	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	C	de:waypointcalculator	lineflyer	Neu angelegt		9200
+1645358411	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	en:waypointcalculator	lineflyer	Add FIXME		110
+1645358429	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	de:waypointcalculator	lineflyer	Fixme		110
+1645358819	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	C	en:cachevariables	lineflyer	created		213
+1645358836	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:cachevariables	lineflyer	Provide heading		32
+1645361065	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:cachevariables	lineflyer	Test markdown		11242
+1645361078	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	R	en:cachevariables	lineflyer	old revision restored (2022/02/20 13:07)	1645358836	-11242
+1645436927	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:loginproblems	lineflyer	Check if 100% wrapper look better		1
+1645437004	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:loginproblems	lineflyer	Cosmetic: Set all wrappers to 100% to make the page look more compact		10
+1645437109	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:loginproblems	lineflyer	Wrapper auf 100% gesetzt		10
+1645437128	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:loginproblems	lineflyer	Wrapper auf 100% gesetzt		2
+1645437166	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:loginproblems	lineflyer	Nur Bild 4 in größer		-43
+1645437199	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	en:loginproblems	lineflyer	[4a. Check your username/password] 		1
+1645437218	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	de:loginproblems	lineflyer	Typo		0
+1645453318	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	Introduction chapter		768
+1645453827	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	Add action button description		938
+1645453849	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Action buttons] 		1
+1645453864	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		31
+1645453968	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		96
+1645454128	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable view and actions] 		309
+1645454263	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable view and actions] 		207
+1645454276	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable view and actions] 		1
+1645454302	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable view and actions] 		29
+1645454324	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Available functions] 		0
+1645454454	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable view and actions] 		164
+1645455023	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		583
+1645455062	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Operators] 		2
+1645455069	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Operators] 		-1
+1645455095	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Operators] 		3
+1645455110	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Operators] 		4
+1645455681	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		648
+1645455748	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		6
+1645455928	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		12
+1645455970	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-3
+1645455982	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-2
+1645456003	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		4
+1645456021	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-86
+1645456038	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		2
+1645456057	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		0
+1645456068	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		0
+1645456090	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		1
+1645456098	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-1
+1645456154	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		99
+1645456193	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		7
+1645456218	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		0
+1645456273	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		115
+1645456294	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-2
+1645456301	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-2
+1645456312	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		4
+1645456347	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-4
+1645456578	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		680
+1645456756	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		66
+1645456811	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		108
+1645456839	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		36
+1645456846	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		1
+1645456908	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Operators] 		1473
+1645457166	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Relational operators and conditions] 		38
+1645457329	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Relational operators and conditions] 		79
+1645457341	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Relational operators and conditions] 		1
+1645457348	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Relational operators and conditions] 		-1
+1645457442	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Supported functions] 		344
+1645457533	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	Outdend chapters		-26
+1645457626	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Supported functions] 		-2
+1645457808	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	Insert placeholder chapters		81
+1645457957	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Functions] 		1858
+1645458024	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Functions] 		9
+1645458138	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		272
+1645458213	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variables] 		2371
+1645458247	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variables] 		20
+1645458273	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variables] 		11
+1645458288	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variables] 		4
+1645458343	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Concatenations] 		1183
+1645458360	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Concatenations] 		10
+1645458429	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Concatenations] 		-610
+1645458453	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		583
+1645458477	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		1
+1645458488	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		1
+1645458499	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		0
+1645458525	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		67
+1645458581	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Ragen expressions] 		1858
+1645458648	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	Idea		102
+1645518342	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Introduction] 		-1
+1645518360	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Introduction] 		-129
+1645518408	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		40
+1645518448	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		73
+1645518461	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		1
+1645518471	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		0
+1645518479	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		1
+1645518486	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		-1
+1645518496	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		0
+1645518548	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		114
+1645518562	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Control section] 		-50
+1645520876	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		-6
+1645520987	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		201
+1645521002	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		-4
+1645521020	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		1
+1645521038	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Variable section] 		0
+1645521106	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		17
+1645521209	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Formula syntax] 		-61
+1645521240	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Numeric operators] 		-4
+1645521261	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Numeric operators] 		24
+1645521276	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Numeric operators] 		2
+1645521365	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Range expressions] 		137
+1645521371	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Range expressions] 		-1
+1645521426	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		8
+1645521439	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Overflow character] 		-67
+1645521550	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		23
+1645521571	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-115
+1645521617	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Functions] 		-1

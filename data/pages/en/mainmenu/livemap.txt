@@ -129,6 +129,10 @@ After selecting the quick settings button, which is shown on bottom center of th
 |Routing|Here you can select the desired routing mode used to draw the direction line between your position and the chosen target cache/waypoint. Either no line, a straight line or turn-by-turn navigation for pedestrian, bike or car can be used.\\ \\ :!: Turn-by-turn navigation requires an activated and configured [[..brouter|BRouter setup]].|
 |Individual route|You can select to automatically set the start point of your individual route as target for the direction line.\\ This item is only shown if an individual route is present on the map.|
 
+===== Route/Track settings =====
+{{anchor:route_track_settings}}
+
+**FIXME**
 ===== Map navigation =====
 {{anchor:map_navigation}}
 

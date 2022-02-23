@@ -40,7 +40,7 @@ You should make yourself familiar with the different types, terrain ratings, att
 If you finally selected a cache and are good to go, press the ''Navigate'' icon {{:ic_menu_goto.svg?nolink|}} in the title bar of the cache details. You will have [[.navigation|several options]] depending on your needs. Here is a brief description of the most important navigation methods:
 
   * **[[compass|Compass]]**:\\ It will constantly show you distance and direction to the cache.
-{{ :en:navigate_compass.png?direct&300 |}}
+{{ :en:compass.png?direct&300 |}}
   
 
   * **Navigation (Drive, Walk, Cycle)**:\\ This will start turn-by-turn navigation using Google Maps

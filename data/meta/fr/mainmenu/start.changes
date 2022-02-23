@@ -6,3 +6,11 @@
 1610697957	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	E	fr:mainmenu:start	ijeantet	[Statut de connexion] Update French translation		250
 1610698021	2a00:ee2:f012:34b:58fd:d995:aa7f:ab7e	e	fr:mainmenu:start	ijeantet	[Menu supérieur] 		0
 1630270358	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:start	murggel	[Menu supérieur] use svg		-45
+1645090536	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Icônes principales] Update with new home screen		-543
+1645091559	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Menu supérieur] Update with new home screen		665
+1645091673	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Bandeau inférieur] Update with the new home screen		-1
+1645091715	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Statut de connexion] Remove section		-816
+1645091833	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[Position actuelle] Update with the new home screen		-139
+1645092087	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	[État du GPS] Uopdate with the new home screen		61
+1645092102	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	e	fr:mainmenu:start	ijeantet	[État du GPS] 		2
+1645092163	fe80:650b:2403:4acd:8c56:a7b4:986f:db0a	E	fr:mainmenu:start	ijeantet	Remove fixme		-159

@@ -1,0 +1,166 @@
+**FIXME** This page is about to change as we are currently working on a whole new calculator implementation.
+
+====== Waypoint Calculator ======
+
+{{anchor:waypoint_calculator}}
+
+{{:en:coordinput_calculator.png?nolink&300 |}} 
+
+c:geo offers a calculator for waypoints, which allows to make use of variables and formulas to calculate coordinates based on the result.
+
+Once you tapped on ''Calculate Coordinates'' in the [[coordinatedialog#waypoint_sources|coordinate input dialog]] this screen will be shown.
+
+The {{:ic_menu_cancel.svg?nolink&30|}} button will close the dialog without changes, the {{:ic_menu_done.svg?nolink&30|}} will close the dialog, save the changes and return to the waypoint editor.
+
+<WRAP center round tip 60%>
+You can use the calculator also for preparing your field trip by entering the needed variables and formulas but not yet entering values for your variables.\\
+This will of course not yet provide a valid result, but you can still save the current state at any time by saving your changes in the calculator and afterwards saving the waypoint state.
+</WRAP>
+
+Tapping on the first field will open a drop down menu allowing to change between different coordinate formats as explained [[coordinatedialog#coordinate_format|here]]. All further functions are explained below.
+
+For easier understanding we will use an example of how the calculator can be used.
+
+
+===== Main variable assignment =====
+{{anchor:main_variable_assignment}}
+
+{{ :en:calculator_coordinates.png?nolink&400 |}}
+
+By default this section will show the cache coordinates as a starting point for assigning your variables.
+
+By __short tapping__ on each digit you can cycle between the following functions for this specific digit:
+
+  * **Assigning a variable to this digit**\\ Will assign the next unused variable (A-Z) to this digit.
+  * **Omit this digit**\\ Will remove this digit completely from the calculation. This will allow solutions with more than one digit in the neighboring variables.
+  * **Return to the original state**\\ Will show the original value again.
+
+Furthermore you can __long tap__ each digit to manually enter a number or variable.
+
+The result could look like this example:
+
+{{ :en:calculator_result_coord.png?nolink&400 |}}
+
+===== Main variable input =====
+{{anchor:main_variable_input}}
+
+<WRAP center round important 100%>
+For the main variables you always have to use CAPITAL letters (A-Z), whereas for the sub variables (described further down) you always have to use lower case letters (a-z)!
+</WRAP>
+
+The section below the coordinate field will show fields for all the main variables you assigned in the coordinate field. In our example it will look like this as we assigned four main variables (A,B,C,D):
+
+{{ :en:calculator_main.png?nolink&400 |}}
+
+You can now use these fields to assign a formula using sub variables (lower case a-z) to calculate the result for the main variables.
+
+The following operators are supported in these formulas:
+
+^ Operator ^ Function ^ Example ^
+|+|Addition|a+b|
+|-|Subtraction|a-b|
+|*|Multiplication|a*b|
+|/|Division|a/b|
+|%%^%%|Potentiate|a%%^%%b|
+|%|Modulo|a%10|
+|( )|Parenthesis|(a+b)*c|
+
+In our example, we use the following formulas for the main variables (as e.g. provided by the cache owner in the cache description) to continue:
+
+{{ :en:calculator_main_formulas.png?nolink&400 |}}
+
+===== Sub variable assignment =====
+{{anchor:sub_variable_assignment}}
+
+<WRAP center round important 100%>
+For the sub variables you always have to use lower case letters (a-z), whereas for the main variables (described further above) you always have to use CAPITAL letters (A-Z)!
+</WRAP>
+
+After assigning formulas to the main variables, an input field will be added automatically for each sub variable (lower case a-z) used in these formulas.
+
+These input fields can now be used to enter numeric values, which will then be used for automatic calculation of the result coordinates using the formulas provided. You can close and save the calculator state at any time now and return to the calculator to enter the next sub variable value as soon as you found it while doing your cache.
+
+<WRAP center round tip 100%>
+Depending on the amount of main and sub variables you have to swipe the variable section to reach all input fields.\\ 
+You might also rotate your device into landscape mode to have all variables visible on your display.
+</WRAP>
+
+In our example we did now find the values for a,b and c and entered them accordingly:
+
+{{ :en:calculator_sub_complete.png?nolink&400 |}}
+
+===== Result prediction =====
+{{anchor:result_prediction}}
+
+While you enter the formulas for the main variables and the values for the sub variables the result will be shown - on the fly in the result section.
+
+Digits not yet valid will be replaced by ''*'' and greyed out. Once the result produces valid coordinates the result field will be shown with all white characters.
+
+In our example a valid result is shown:
+
+{{ :en:calculator_result_final.png?nolink&400 |}}
+
+===== Calculator notes =====
+{{anchor:calculator_notes}}
+
+The last section in the calculator can be used to enter or paste notes, which can be helpful to e.g. copy parts of the cache description containing the calculations required to find the cache.
+
+The content of the calculator note will be synchronized to the note of the waypoint used to calculate.
+
+===== Using Plain Coordinate Format =====
+{{anchor:using_plain_coordinate_format}}
+
+Entering coordinates or coordinate formulas in //Plain// mode works completely different compared to the fixed formats. Instead of having a tapable field for each digit there are two free text fields to enter the latitude and longitude part of a coordinate.
+
+A single digit or a group of digits can be replaced by a formula surrounded with parenthesis. The variables used in the formulas must consist oft single CAPITAL letters.
+
+Often cache listings provide their waypoint coordinates already in this expected format. Therefore the plain mode is best suited when coordinates should be taken over "as is" from the listings.
+
+{{ :en:copy_waypoint_formulas.png?nolink&445 |}}
+
+The Plain mode works best with coordinates in [[coordformat|MinDeg format]] ''DDD° MM.MMM'''.
+
+To enter the Plain mode change the "Coordinate format" to ''Plain''.
+
+Taking the example in the screenshot above, copy the latitude (N/S) part of the coordinate into the first input field and the longitude part (E/W) into the second. If the coordinate contains formulas with variables the corresponding variable input fields appear below.
+
+{{ :en:variable_input_fields.png?nolink&400 |}}
+
+The formulas from the screenshot produce input fields for I, K, L, M and N.
+You can fill the variable fields with values in the same way as with the fixed formats described in the previous sections.
+
+As soon as the input for all variable fields is complete the result prediction usually turns into white and shows the calculated coordinate.
+
+{{ :en:result_prediction_ok.png?nolink&400 |}}
+
+In some cases the result field still stays gray because the coordinate parser could not interpret the initial coordinate input correctly. In the screenshot below there is a misplaced SPACE character between two digits of the same group which confuses the coordinate parser.
+
+{{ :en:result_prediction_fail.png?nolink&400 |}}
+
+Typical problems with coordinates copied from listings are:
+  * Lower case variable names; variables must consist of capital letters
+  * Space between digits within a group ''N45° 5.(K) (I/N)(K+L+M+N)''
+  * Space before the degree sign        ''N45 ° 5.(K)(I/N)(K+L+M+N)''
+  * Space before the decimal point      ''N45° 5 .(K)(I/N)(K+L+M+N)''
+  * Space after the decimal point       ''N45° 5. (K)(I/N)(K+L+M+N)''
+  * Wrong minus sign: There are many [[https://en.wikipedia.org/wiki/Dash|different dash signs]] - only the standard hyphen/minus sign (''-'') is accepted
+  * Wrong multiplication sign: sometimes an ''x'' or an interpunct (''·'') is taken as multiplier sign instead of an asterisk (''*'')
+  * Wrong division sign: sometimes a colon ('':'') is taken as division sign instead of a slash (''/'')
+  * Nested square brackets: ''N45° 5.[[X+Y]*10]''
+
+As with the other formats above the state of calculator can be saved at any time.
+
+===== Further information =====
+{{anchor:further_information}}
+
+The contributor of the calculator code, published some videos presenting different usage examples for the calculator:
+
+{{youtube>eN2y5mvJul4?medium}}
+
+{{youtube>NlW2BfF-tu0?medium}}
+
+{{youtube>F-ZNAKbLCJ0?medium}}
+
+{{youtube>6_BALG5192A?medium}}
+
+

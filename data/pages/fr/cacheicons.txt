@@ -2,24 +2,76 @@
 
 c:geo utilise des icônes spécifiques pour les différents types de géocaches disponibles. Le tableau suivant vous montre une vue d'ensemble des icônes utilisées, du type de cache correspondant et une description de base des caractéristiques de ce type de cache.
 
+===== Icônes dans les listes de caches et sur la carte =====
+
+Le tableau suivant présente les icônes utilisées dans les listes de cache et sur la carte, lorsqu'elles sont utilisées en mode non compact.
+
 ^ Icône ^ Type de cache ^ Description de base ^
-|{{ :type_traditional.png?nolink&40 |}}|Traditionnelle|C'est le type classique des géocaches. La cache se trouve aux coordonnées indiquées.|
-|{{ :type_multi.png?nolink&40 |}}|Multiple|Une cache multiple utilise au moins 2 positions. La cache en elle-même se trouve à la position finale mais vous devez vous rendre à plusieurs endroits et possiblement répondre à des questions ou résoudre des énigmes à chaque étape pour découvrir la position finale.|
-|{{ :type_earth.png?nolink&40 |}}|Earthcache|Une cache de ce type se trouve à un endroit d'intérêt géologique. Le but de ces géocaches est d'initier les géocacheurs à la géologie. À cet endroit il faudra répondre à des questions pour valider la cache car il n'y a pas de cache physique à trouver. Plus d'informations sont disponible sur [[https://www.geosociety.org/GSA/Education_Careers/Field_Experiences/EarthCache/GSA/fieldexp/EarthCache/home.aspx|geosociety.org]](en).|
-|{{ :type_mystery.png?nolink&40 |}}|Mystère|Ce type de géocaches couvre plusieurs possibilités où la cache n'est habituellement pas située aux coordonnées indiquées mais ont besoin d'être devinées. Typiquement il faut répondre à des question et résoudre l'énigme en description pour trouver la vrai position de la cache.|
-|{{ :type_wherigo.png?nolink&40 |}}|Wherigo|Wherigo est un moyen de participer à des aventures géolocalisées. Utilisant une application dédiée et la fiche de la cache, le géocacheur doit jouer à un jeu ou répondre à des questions, le tout basé sur sa position. Plus d'informations sur [[https://www.wherigo.com|wherigo.com]](en).|
-|{{ :type_virtual.png?nolink&40 |}}|Virtuelle|Une cache virtuelle, comme son nom l'indique, ne contient pas de cache physique. À la position indiquée le géocacheur doit remplir une mission ou répondre à une question. Si cela est fait correctement et l'endroit véritablement visité, la cache peut être marquée comme trouvée.|
-|{{ :type_letterbox.png?nolink&40 |}}| Boîte aux lettres hybride|Une géocache de type boîte aux lettres utilise des indices au lieu de coordonnées. Un tampon encreur se trouve à la destination finale pour vous permettre d'enregistrer votre découverte.|
-|{{ :type_webcam.png?nolink&40 |}}|Webcam|Pour ce type de géocaches vous devez vous placer devant une caméra publique et prendre une image de vous via cette caméra. Vous devez poster cette image dans le carnet de visites pour prétendre à votre découverte.|
-|{{ :type_event.png?nolink&40 |}}|Événement|Parfois les géocacheurs organisent des événements à certains moments et à certains endroits pour se retrouver et discuter autour du géocaching.|
-|{{ :type_mega.png?nolink&40 |}}|Méga-événement|Une cache méga-événement est identique à une cache événement mais l'événement est plus important. Un minimum de 500 géocacheurs ont besoin d'être inscrits.|
-|{{ :type_giga.png?nolink&40 |}}|Giga-événement|Une cache giga-événement est identique à une cache méga-événement mais l'événement est encore plus important. Un minimum de 5000 géocacheurs ont besoin d'être inscrits.|
-|{{ :type_cito.png?nolink&40 |}}|Événement Cache In Trash Out|Un événement Cache In Trash Out (CITO) est un événement organisé pour nettoyer l’environnement (ou faire une tâche similaire) et optionnellement placer après coup une nouvelle géocache sur le lieu du nettoyage.|
-|{{ :type_ape.png?nolink&40 |}}|Project APE Cache|À l'origine 14 géocaches de ce type ont été placées en 2001 pour promouvoir le film [[https://fr.wikipedia.org/wiki/La_Plan%C3%A8te_des_singes_(film,_2001)|La Planète des singes]]. Seulement quelques caches existent encore aujourd'hui ce qui en fait un des types de caches les plus rares.|
-|{{ :type_hq.png?nolink&40 |}}|Quartier Général (Geocaching HQ)|Il existe une unique cache de ce type située au quartier général de Groundspeak, l'entreprise derrière geocaching.com, à Seattle aux États Unis.|
-|{{ :type_unknown.png?nolink&40 |}}|Type inconnu|Si une cache de ce type apparait alors soit c:geo n'a pas (encore) chargé le type de cette géocache, soit il n'est pas supporté explicitement par c:geo, soit il s'agit du type inconnu comme définit sur les plateformes d'Opencaching.|
-|{{ :type_cgeo.png?nolink&40 |}}|Cache c:geo|Utilisé pour les caches créées par l'utilisateur à l'intérieur de c:geo.|
+|{{ :type_traditional.svg?nolink&40 |}}|Traditionnelle|C'est le type classique des géocaches. La cache se trouve aux coordonnées indiquées.|
+|{{ :type_multi.svg?nolink&40 |}}|Multiple|Une cache multiple utilise au moins 2 positions. La cache en elle-même se trouve à la position finale mais vous devez vous rendre à plusieurs endroits et possiblement répondre à des questions ou résoudre des énigmes à chaque étape pour découvrir la position finale.|
+|{{ :type_mystery.svg?nolink&40 |}}|Mystère|Ce type de géocaches couvre plusieurs possibilités où la cache n'est habituellement pas située aux coordonnées indiquées mais ont besoin d'être devinées. Typiquement il faut répondre à des question et résoudre l'énigme en description pour trouver la vraie position de la cache.|
+|{{ :type_wherigo.svg?nolink&40 |}}|Wherigo|Wherigo est un moyen de participer à des aventures géolocalisées. Utilisant une application dédiée et la fiche de la cache, le géocacheur doit jouer à un jeu ou répondre à des questions, le tout basé sur sa position. Plus d'informations sur [[https://www.wherigo.com|wherigo.com]](en).|
+|{{ :type_letterbox.svg?nolink&40 |}}| Boîte aux lettres hybride|Une géocache de type boîte aux lettres utilise des indices au lieu de coordonnées. Un tampon encreur se trouve à la destination finale pour vous permettre d'enregistrer votre découverte.|
+|{{ :type_earth.svg?nolink&40 |}}|Earthcache|Une cache de ce type se trouve à un endroit d'intérêt géologique. Le but de ces géocaches est d'initier les géocacheurs à la géologie. À cet endroit il faudra répondre à des questions pour valider la cache car il n'y a pas de cache physique à trouver. Plus d'informations sont disponible sur [[https://www.geosociety.org/GSA/Education_Careers/Field_Experiences/EarthCache/GSA/fieldexp/EarthCache/home.aspx|geosociety.org]](en).|
+|{{ :type_virtual.svg?nolink&40 |}}|Virtuelle|Une cache virtuelle, comme son nom l'indique, ne contient pas de cache physique. À la position indiquée le géocacheur doit remplir une mission ou répondre à une question. Si cela est fait correctement et l'endroit véritablement visité, la cache peut être marquée comme trouvée.|
+|{{ :type_webcam.svg?nolink&40 |}}|Webcam|Pour ce type de géocaches vous devez vous placer devant une caméra publique et prendre une image de vous via cette caméra. Vous devez poster cette image dans le carnet de visites pour prétendre à votre découverte.|
+|{{ :type_event.svg?nolink&40 |}}|Événement|Parfois les géocacheurs organisent des événements à certains moments et à certains endroits pour se retrouver et discuter autour du géocaching.|
+|{{ :type_mega.svg?nolink&40 |}}|Méga-événement|Une cache méga-événement est identique à une cache événement mais l'événement est plus important. Un minimum de 500 géocacheurs ont besoin d'être inscrits.|
+|{{ :type_giga.svg?nolink&40 |}}|Giga-événement|Une cache giga-événement est identique à une cache méga-événement mais l'événement est encore plus important. Un minimum de 5000 géocacheurs ont besoin d'être inscrits.|
+|{{ :type_cito.svg?nolink&40 |}}|Événement Cache In Trash Out|Un événement Cache In Trash Out (CITO) est un événement organisé pour nettoyer l’environnement (ou faire une tâche similaire) et optionnellement placer après coup une nouvelle géocache sur le lieu du nettoyage.|
+|{{ :type_specialevent.svg?nolink&40 |}}|Événement spécial|Utilisé pour des types d'événements spéciaux tels que les célébrations communautaires (Community Celebration Event) ou les fêtes de quartier (HQ Block Party).|
+|{{ :type_ape.svg?nolink&40 |}}|Project APE Cache|À l'origine 14 géocaches de ce type ont été placées en 2001 pour promouvoir le film [[https://fr.wikipedia.org/wiki/La_Plan%C3%A8te_des_singes_(film,_2001)|La Planète des singes]]. Seulement quelques caches existent encore aujourd'hui ce qui en fait un des types de caches les plus rares.|
+|{{ :type_hq.svg?nolink&40 |}}|Quartier Général (Geocaching HQ)|Il existe une unique cache de ce type située au quartier général de Groundspeak, l'entreprise derrière geocaching.com, à Seattle aux États Unis.|
+|{{ :type_maze.svg?nolink&40 |}}|Exposition GPS Adventures Maze|Il s'agit d'un type d'événement spécial qui représente la participation à l'exposition GPS Adventures Maze. Ces événements sont conçus pour enseigner aux gens la technologie GPS et le géocaching.|
+|{{ :type_advlab.svg?nolink&40 |}}|Adventure Lab|Lorsque vous jouez une cache Adventure Lab, vous ne cherchez pas de cache physique. Vous devez vous rendre à un endroit avec l'application spéciale Adventure Lab et répondre à une question sur place. Si tout s'est bien passé, l'endroit visité sera automatiquement ajouté à votre nombre de caches trouvées.|
+|{{ :type_unknown.svg?nolink&40 |}}|Type inconnu|Si une cache de ce type apparait alors soit c:geo n'a pas (encore) chargé le type de cette géocache, soit il n'est pas supporté explicitement par c:geo, soit il s'agit du type inconnu comme définit sur les plateformes d'Opencaching.|
+|{{ :type_cgeo.svg?nolink&40 |}}|Cache c:geo|Utilisé pour les caches créées par l'utilisateur à l'intérieur de c:geo (utilise toujours un fond hexagonal).|
+
+===== Marqueurs de cache sur la carte =====
+
+Le tableau suivant montre les différents cadres autour des icônes de type cache en fonction de l'état de la cache. La flèche pointe vers les coordonnées de la cache sur la carte. Le cadre est rempli avec l'icône du type de cache correspondant, le tableau ci-dessous utilise une cache traditionnelle comme exemple.
+
+^ Icône ^ Description ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Votre position actuelle.|
+|{{ :combined_marker_gc_withpin.svg?nolink&40 |}}|Cache activée/disponible de geocaching.com.|
+|{{ :disabled_combined_marker_gc_withpin.svg?nolink&40 |}}|Cache désactivée de geocaching.com.|
+|{{ :archived_combined_marker_gc_withpin.svg?nolink&40 |}}|Cache archivée de geocaching.com.|
+|{{ :combined_marker_oc_withpin.svg?nolink&40 |}}|Cache activée/disponible d'une plateforme d'Opencaching.|
+|{{ :disabled_combined_marker_oc_withpin.svg?nolink&40 |}}|Cache désactivée d'une plateforme d'Opencaching.|
+|{{ :archived_combined_marker_oc_withpin.svg?nolink&40 |}}|Cache archivée d'une plateforme d'Opencaching.|
+|{{ :combined_marker_other_withpin.svg?nolink&40 |}}|Cache activée/disponible d'une source autre que geocaching.com ou qu'une plateforme d'Opencaching (par exemple extremcaching.com ou une cache définie par l'utilisateur).|
+|{{ :disabled_combined_marker_other_withpin.svg?nolink&40 |}}|Cache désactivée d'une source autre que geocaching.com ou qu'une plateforme d'Opencaching (par exemple extremcaching.com ou une cache définie par l'utilisateur).|
+|{{ :archived_combined_marker_other_withpin.svg?nolink&40 |}}|Cache archivée d'une source autre que geocaching.com ou qu'une plateforme d'Opencaching (par exemple extremcaching.com ou une cache définie par l'utilisateur).|
+
+===== Icônes utilisées sur la carte en mode compact =====
+
+Le tableau suivant présente les icônes des points utilisées lorsque la carte est configurée pour utiliser des [[.:mainmenu:livemap#map_quick_settings|icônes compactes]]. Certains types de caches sont combinés en une seule icône dans ce mode.
 
 
+^ Icône ^ Type de cache ^
+|{{ :dot_traditional.svg?nolink&20 |}} |Traditionnelle|
+|{{ :dot_multi.svg?nolink&20 |}} |Multiple|
+|{{ :dot_mystery.svg?nolink&20 |}} |Mystère\\ Wherigo\\ Boîte aux lettres hybride|
+|{{ :dot_virtual.svg?nolink&20 |}} |Earthcache\\ Virtuelle\\ Webcam|
+|{{ :dot_event.svg?nolink&20 |}} |Tous les types d'événements|
+|{{ :dot_special.svg?nolink&20 |}} |Project APE Cache\\ Quartier Général \\ Exposition GPS Adventures Maze|
+|{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab|
+|{{ :dot_unknown.svg?nolink&20 |}} |Type inconnu|
+|{{ :dot_disabled.svg?nolink&20 |}} |Cache désactivée (pour tous les types)|
+|{{ :dot_cgeo.svg?nolink&20 |}} |Cache définie par l'utilisateur|
+|{{ :dot_tradi_oc.svg?nolink&20 |}} |Les caches d'Opencaching seront affichées avec un point carré (cet exemple montre une icône compacte pour une cache traditionnelle d'Opencaching).|
+
+De plus, certains statuts particuliers d'une cache, qui sont représentés par un petit marqueur en mode normal (par exemple, état trouvé, coordonnées modifiées), seront également reportés en mode compact en utilisant une icône dédiée comme indiqué dans le tableau suivant. Elles seront alors affichées à la place de l'icône compacte du type de cache : 
+
+^ Icône ^ Statut ^
+|{{ :dot_found.svg?nolink&20 |}} |Cache marquée comme trouvée|
+|{{ :dot_found_offline.svg?nolink&20 |}} |Cache marquée comme trouvée en mode hors ligne|
+|{{ :dot_not_found_offline.svg?nolink&20 |}} |Cache marquée comme non trouvée|
+|{{ :dot_marker_usermodifiedcoords.svg?nolink&20 |}} |Cache avec des coordonnées modifiées par l'utilisateur\\ (La couleur du fond dépend du type de cache)|
+|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Cache avec un point de passage final valide\\ (La couleur du fond dépend du type de cache)|
+|{{ :dot_marker_calendar.svg?nolink&20 |}} |Événement, où vous pouvez marquer votre volonté d'y assister|
+|{{ :dot_marker_maintenance_offline.svg?nolink&20 |}} |Cache marquée comme ayant besoin d'une maintenance en mode hors ligne|
+|{{ :dot_marker_archive_offline.svg?nolink&20 |}} |Cache marquée comme ayant besoin d'être archivée en mode hors ligne|
+|{{ :dot_note_offline.svg?nolink&20 |}} |Cache possédant une note en mode hors ligne|
 
 
