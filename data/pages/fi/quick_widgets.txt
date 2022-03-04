@@ -1,3 +1,5 @@
+**FIXME**
+
 ====== Pikakäyttö ja pienoisohjelmat ======
 
 Voit käyttää pikakuvakkeita ja pienoisohjelmia, jotta voit nopeasti käyttää joitakin c:geon toimintoja.

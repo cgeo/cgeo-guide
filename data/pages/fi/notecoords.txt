@@ -1,108 +1,106 @@
 ====== Muistiinpanojen käyttö reittipisteinformaation luomiseen ja tallentamiseen ======
 
-c:geo voi luoda reittipisteitä henkilökohtaisesta muistiinpanostasi. Se tukee myös käyttäjän muokkaamien tai asettamien reittipisteiden varmuuskopiointia henkilökohtaiseen muistiinpanoon. Molempien tallennussuuntien ollessa käytössä, sitä voi käyttää helposti myös reittipisteiden varmuuskopiointiin/palauttamiseen geokätköilypalveluun/palvelusta.
+c:geo voi luoda reittipisteitä käyttäen muistiinpanojasi. Se tukee myös käyttäjän muokkaamien tai määrittämien reittipisteiden varmuuskopiointia henkilökohtaiseen muistiinpanoon. Molempien suuntien ollessa käytettävissä sitä voidaan helposti käyttää kätkölle määrittämiesi reittipisteiden varmuuskopiointiin/palautukseen c:geon ja geokätköilypalvelimen välillä.
 
-Tämä sivu selostaa yksityiskohtaisesti kuinka nämä toiminnot toimivat.
+Tämä sivu selostaa yksityiskohtaisesti kuinka näitä toimintoja voidaan käyttää.
 ===== Reittipisteiden automaattinen luonti =====
 
-Jos kätkön [[cachedetails#personal_note|muistiinpanosi]] sisältävät oikeassa muodossa olevat koordinaatit (kuten ''N50 10.123 E010 34.876''), c:geo luo automaattisesti sille reittipisteen kätkön [[cachedetails#waypoint_tab|reittipistevälilehdelle]].
+Jos kätkön [[cachedetails#personal_note|henkilökohtainen muistiinpano]] sisältää pätevät koordinaatit (kuten ''N50 10.123 E010 34.876''), c:geo luo siitä automaattisesti reittipisteen kätkön [[cachedetails#waypoint_tab|reittipistevälilehdelle]].
 
-Jos esimerkiksi muistiinpanosi sisältö näyttää tältä:
+Esimerkiksi, jos henkilökohtainen muistiinpanosi näyttää tältä:
 
 {{:en:personalnote_wp_1.png?direct&600|}}
 
-c:geo luo automaattisesti reittipisteen sille:
+c:geo luo siitä automaattisesti reittipisteen:
 
 {{:en:personalnote_wp_2.png?direct&600|}}
 
-Myös useammat koordinaatit muistiinpanoissasi siirretään reittipisteiksi samalla tavalla ja reittipisteet numeroidaan sen mukaisesti.
+Myös muut henkilökohtaisesta muistiinpanostasi löytyvät pätevät koordinaatit muunnetaan vastaavasti reittipisteiksi samalla tavalla, c:geo numeroi reittipisteet automaattisesti.
 
 <WRAP center round tip 80%>
-Jos kätkön reittipisteet sisältävät jo koordinaatit, jotka löytyvät muistiinpanoistasi, c:geo ei luo uutta reittipistettä näille koordinaateille, koska oletetaan että se on tarpeeton kaksoiskappale. Kaksia koordinaatteja verrattaessa, niiden oletetaan olevat "samat" kun ne ovat identtisiä kirjoitettuna [[.:coordformat|MinDec-koordinaattimuodossa]] (esimerkiksi ''N50 10.123 E010 34.876'').
+Jos henkilökohtaisessa muistiinpanossasi olevat koordinaatit täsmäävät jo kätkössä olevaan reittipisteeseen, c:geo ei luo sille uutta reittipistettä, koska tässä tapauksessa oletetaan, että se on tarpeeton kaksoiskappale. Kaksi eri koordinaattia oletetaan olevan "samanlaisia" tässä tapauksessa kun ne ovat identtisiä kirjoitettuna [[.:coordformat|MinDec-koordinaattimuodossa]] (kuten ''N50 10.123 E010 34.876'').
 </WRAP>
 
 
-===== Avainsanojen käyttö reittipisteen tyypeissä =====
+===== Avainsanojen käyttö reittipistetyypeissä =====
 
-Normaalisti c:geo määrittää muistiinpanojen koordinaateista luodun reittipisteen tyypiksi ''Viitesijainti'', mutta voit käyttää avainsanoja muistiinpanoissasi määrittääksesi eri tyypin reittipisteelle.
+Normaalisti c:geo määrittää henkilökohtaisista muistiinpanoista löytyvän reittipisteen tyypiksi ''Viitesijainti'', mutta voit halutessasi käyttää avainsanoja muistiinpanossasi määritelläksesi reittipisteeseen toisen tyypin.
 
-Laita vain yksi seuraavista avainsanoista koordinaattien eteen:
+Sinun tulee vain syöttää koordinaattien eteen yksi seuraavista avainsanoista:
 
-^ Kuvake ^ Reittipisteen tyyppi ^ Muistiinpanoissa oleva avainsana ^ Muistiinpanoissa oleva lyhyttunniste ^
-|{{ :waypoint_pkg.svg?nolink&40 |}}|Pysäköintialue|PARKING|P|
+^ Kuvake ^ Reittipisteen tyyppi ^ Avainsana muistiinpanossa ^ Lyhyttunniste muistiinpanossa ^
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parkkipaikka|PARKING|P|
 |{{ :waypoint_puzzle.svg?nolink&40 |}}|Vastattava kysymys|PUZZLE|X|
 |{{ :waypoint_stage.svg?nolink&40 |}}|Multikätkön vaihe|STAGE|S|
-|{{ :waypoint_trailhead.svg?nolink&40 |}}|Reitin alku|TRAILHEAD|T|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Polun alku|TRAILHEAD|T|
 |{{ :waypoint_waypoint.svg?nolink&40 |}}|Viitesijainti|WAYPOINT|W|
 |{{ :waypoint_flag.svg?nolink&40 |}}|Lopullinen sijainti|FINAL|F|
 
-c:geo tunnistaa seuraavat avainsanamuodot reittipisteen tyypin tunnisteina (kirjainkoolla ei merkitystä):
+c:geo tunnistaa seuraavat avainsanamuodot reittipisteen tyypin tunnisteena (kirjainkoolla ei merkitystä):
   * itse avainsana
-  * lyhyttunniste sulkeiden sisällä (esimerkiksi ''(f)'' kun reittipiste määritellään viimeiseksi reittipisteeksi) 
-  * lyhyttunniste **heti ennen** koordinaatteja
+  * lyhyttunniste sulkeissa (kuten ''(f)'' lopullisen sijainnin määrittämiseksi)
+  * lyhyttunniste **suoraan koordinaattien edessä**
 
-Lisäksi paikalliset reittipistetyyppien nimet (kielessä jolla käytät c:geota) toimivat myös. c:geo on kuitenkin saatavilla monella kielellä joten listaamme tässä vain englanninkieliset avainsanat.
+Lisäksi käännetyt reittipistetyyppien nimet (sillä kielellä jolla käytät c:geota) toimivat myös, mutta c:geo on saatavilla monilla kielillä, joten listaamme tässä vain englanninkieliset avainsanat.
 
-Esimerkiksi katsotaan seuraavaa muistiinpanoa, joka käyttää joitakin yllä olevia variantteja, joilla luodaan erityyppisiä reittipisteitä:
+Esimerkkinä, vilkaise seuraavaa henkilökohtaista muistiinpanoa, joka käyttää ylhäällä olevia variantteja erilaisten reittipistetyyppien luomiseen:
 
 {{:en:pn_with_waypoints.png?direct&600|}}
 
-joka luo automaattisesti seuraavat reittipisteet sinulle:
+jotka luovat puolestasi seuraavat reittipisteet:
 
 {{:en:pn_created_waypoints.png?direct&600|}}
 
-===== Reittipisteiden varmuuskopiointi henkilökohtaiseen muistiinpanoon ===== 
-  
-On mahdollista luoda kaikista luomistasi ja muokkaamistasi reittipistetiedoista tekstimuotoinen varmuuskopio henkilökohtaiseen muistiinpanoon. Voit sitten lähettää tämän henkilökohtaisen muistiinpanon geokätköilysivustolle (jos se tukee sitä), täten helposti varmuuskopioiden luomasi reittipistetiedot. Yllä selostetun jäsennyksen ansiosta tämä tieto voidaan palauttaa reittipistelistallesi jos tieto syystä tai toisesta häviää tai poistetaan laitteestasi.
+===== Reittipisteiden varmuuskopiointi henkilökohtaiseen muistiinpanoon =====
 
-Luodaksesi tekstivarmuuskopion, käytä {{:ic_menu_waypoint_sync.svg?nolink&30|}}-nappia henkilökohtaisen muistiinpanon alla. Tekstimuotoinen osio luodaan muistiinpanoihin, alkaen ''{c:geo-start}'' ja päättyen ''{c:geo-end}''. Muistiinpano sisältää kaiken käyttäjän määrittämän reittipistetiedon reittipistelistasta, kirjoitettuna edistyneellä reittipistesyntaksilla (joka selostetaan seuraavassa osiossa).
-  
-Päivittääksesi tekstimuotoisen reittipistevarmuuskopion, paina uudelleen {{:ic_menu_waypoint_sync.svg?nolink&30|}}-nappia. Poistaaksesi sen, paina {{:ic_menu_waypoint_delete.svg?nolink&30|}}-nappia.
-  
-Esimerkkinä, kun toiminto suoritetaan seuraaville reittipisteille:
-  
-{{en:pn_waypoints_for_storage.png?direct&600|}} 
-  
-Toiminto luo seuraavan tekstimuotoisen varmuuskopion:
-  
-{{en:pn_with_stored_waypoints.png?direct&600|}} 
+Voit luoda tekstimuotoisen varmuuskopion luomistasi reittipisteistäsi henkilökohtaiseen muistiinpanoon. Tämän muistiinpanon voi jälkeenpäin lähettää geokätköilypalvelulle (jos käytössä oleva palvelu tukee sitä) ja näin helposti varmuuskopioida omat reittipistetiedot. Yllä selostetun reittipisteiden jäsennyksen ansiosta voit palauttaa ne myöhemmin laitteeseesi, jos ne syystä tai toisesta häviävät tai poistetaan laitteestasi
 
-Jos lataat tämän henkilökohtaisen muistiinpanon geokätköilypalvelimelle, ja poistat kätkön c:geosta laitteestasi, ja tallennat sen myöhemmin uudelleen laitteellesi, henkilökohtaisessa muistiinpanossasi olevat reittipisteet palautetaan automaattisesti.
-  
-===== Reittipisteiden muoto (edistyneille) ===== 
+Luodaksesi tekstimuotoisen varmuuskopion, käytä henkilökohtaisen muistiinpanon alta löytyvää kuvaketta {{:ic_menu_waypoint_sync.svg?nolink&30|}}. Tekstimuotoinen osio luodaan henkilökohtaiseen muistiinpanoosi, alkaen ''{c:geo-start}'' ja päättyen ''{c:geo-end}''. Se sisältää kaikki käyttähän määrittämät reittipistelistalla olevat reittipisteet edistyneessä syntaksissa (joka selostetaan seuraavassa osiossa).
 
-Ehkäpä huomasit, että muistiinpanoista luodut reittipisteet luotiin oletusnimillä kuten ''Muistiinpano 2''. Jos haluat suorittaa edistyneempiä reittipistetoimintoja muistiinpanoista, sinun tulee käyttää edistynyttä reittipistesyntaksia. Tällä voit:
-  * Muokata oletusreittipisteiden ominaisuuksia (=omistajan kuvauksessa määrittämät reittipisteet): koordinaatit ja käyttäjän muistiinpano
-  * Luoda tai muokata reittipisteen tyyppejä, nimiä ja käyttäjän muistiinpanoja käyttäjän määrittämissä reittipisteissä:
-  
-Käyttääksesi tätä toimintoa, käytä seuraavaa syntaksia henkilökohtaisessa muistiinpanossa:
-  
-''@[<etuliite>]<nimi> (<reittipisteenTyyppiTunnus>) <koordinaatit> "<käyttäjän muistiinpano>"'' 
-  
-Edistynyt muoto tunnistetaan kun se alkaa uudella rivillä merkillä ''@''. Seuraava sisältö jäsennetään: 
-  * **Reittipisteen nimi**: kaikki merkin ''@'' ja koordinaattien välillä oleva tieto oletetaan olevan osa reittipisteen nimeä, paitsi jos se on sulkeiden sisällä ''()'' 
-  * **Etuliite**: Jos heti ''@''-merkin jälkeen tulee hakasulkeet ''[]'', niin niiden sisältö oletetaan olevan muokkaamasi reittipisteen etuliite 
-  * **Käyttäjän muistiinpano**: Jos heti koordinaattien jälkeen tulee heti ''"'' (samalla tai seuraavalla rivillä), niin kaikkien tietojen ensimmäisen ''"'' ja seuraavan ''"'' välillä oletetaan oleva osa reittipisteen **käyttäjän muistiinpanoa** (sisältäen rivinvaihdot). Jos koordinaattien jälkeen ei ole merkkiä ''"'' samalla rivillä, niin tämä sisältö oletetaan olevan reittipisteen käyttäjän muistiinpano.
-  * **Reittipisteen tyyppi**: samat säännöt pätevät kuten edellisissä osioissa. 
-  * **Koordinaatit**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa koordinaattien erikoistunniste, joka on ''(NO-COORD)'', jota voidaan käyttää tyhjien koordinaattien määrittämiseksi (tämä on tarpeellinen siinä erityistapauksessa kun halutaan muokata sellaista käyttäjän muistiinpanoa joka ei sisällä koordinaatteja) 
-  * **Yhtälö**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa "erityinen" yhtälötunniste ''(F-PLAIN)'', jota voidaan käyttää määrittämään yhtälö ''yksinkertainen''-muotoon. Kätkölistaukset usein sisältävät yhtälöitä tässä muodossa. Voit määrittää minkä tahansa jo tunnetun muuttujan erikseen käyttäen ''|''-symbolia. \\ Yhtälön muotoilu tulee täyttää kriteerit, jotka selostetaan artikkelissa [[en:coordinatedialog#using_plain_coordinate_format|Yksinkertaisen koordinaattimuodon käyttö]]. \\ Jos voit määrittää muuttujien arvot vain yksi kerrallaan, on suositeltavaa kytkeä päälle "Estä reittipisteiden siirto", kunnes olet saanut kaikki arvot henkilökohtaiseen muistiinpanoon. Tämän jälkeen reittipiste voidaan luoda kaikilla arvoilla ja koordinaatit lasketaan. (Huomaa: muut muodot ovat työn alla)
-  
-Geokätköjen reittipistelista muokataan tällä tiedolla seuraavasti:
-  * Jos **etuliite** jäsennetään, ja samalla etuliitteellä oleva reittipiste on olemassa, niin oletetaan, että kyseinen reittipiste on muokattava reittipiste. Tätä yleensä käytetään vain etukäteen määritellyissä reittipisteissä.
-  * Jos löydetään reittipiste, jolla on samat koordinaatit jäsennetyn reittipisteen kanssa, niin oletetaan, että kyseinen reittipiste on muokattava reittipiste.
-  * Muuten luodaan uusi reittipiste. 
-  
-Niissä tapauksissa, kun reittipistettä muokataan, seuraavat säännöt pätevät:
-  * Etukäteen määritellyissä reittipisteissä ainoa muokattava asia on koordinaatit (jos kätkön omistaja määritteli sen tyhjäksi) sekä käyttäjän muistiinpano.
-  * Olemassa olevissa reittipisteissä, kenttiä kirjoitetaan yli vain silloin, kun ne ovat tyhjiä tai täytetty oletusarvolla (kuten järjestelmän luodulla reittipisteen nimellä)
-  * Yhtälö, joka on ''Yksinkertainen''-muodossa, adoptoidaan vain jos yhtälöä tai koordinaatteja ei ole vielä syötetty.
-  
-Seuraavat esimerkit näyttävät erilaisia tekstejä vasemmalla ja niistä luodut reittipisteet oikealla 
+Päivättääksesi tekstimuotoisen reittipistevarmuuskopion, napauta uudelleen kuvaketta {{:ic_menu_waypoint_sync.svg?nolink&30|}}. Poistaaksesi sen, napauta kuvaketta {{:ic_menu_waypoint_delete.svg?nolink&30|}}.
 
+Esimerkkinä käyttäen seuraavia reittipisteitä:
 
-^ Henkilökohtainen muistiinpano ^ Luotu reittipiste ^  
-| ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}| 
-| ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} | 
-| ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Huomaa: tämä esimerkki olettaa, että kuvauksessa on olemassa etukäteen määritelty reittipiste, jossa on etuliite S5//|{{:en:station5.png}} |
-| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Huomaa: yhtälö siirretään reittipistelaskimeen (muodossa ''Yksinkertainen'')//|{{:en:final_calculated.png}} |
+{{en:pn_waypoints_for_storage.png?direct&600|}}
 
+Tämä toiminto luo seuraavan tekstimuotoisen varmuuskopion:
+
+{{en:pn_with_stored_waypoints.png?direct&600|}}
+
+Jos lähetät tämän henkilökohtaisen muistiinpanon geokätköilypalveluun, ja poistat kätkön laitteestasi ja tallennat sen myöhemmin uudelleen c:geossa, henkilökohtaisessa muistiinpanossasi olevat reittipisteet palautetaan automaattisesti.
+
+===== Edistynyt reittipisteiden syntaksi =====
+
+Ehkäpä huomasit, että henkilökohtaisessa muistiinpanossasi olevat reittipisteet luotiin oletusnimillä kuten ''Henkilökohtainen muistiinpano 2''. Jos haluat suorittaa edistyneempiä reittipistetoimenpiteitä muistiinpanoistasi, sinun tulee käyttää edistynyttä reittipistesyntaksia. Tällä voit:
+  * Muokata etukäteen määriteltyjen reittipisteiden ominaisuuksia (=reittipisteet, jotka kätkön omistaja määritteli kuvauksessa): koordinaatit ja käyttäjän muistiinpanot
+  * Luoda tai muokata reittipisteen tyyppiä, nimeä ja reittipisteiden muistiinpanoja
+
+Käytä seuraavaa syntaksia henkilökohtaisessa muistiinpanossasi:
+
+''@[<etuliite>]<nimi> (<reittipistetyyppitunniste>) <koordinaatit> "<muistiinpano>"''
+
+Edistynyt muoto tunnistetaan, kun se alkaa ''@''-merkillä rivin alussa. Seuraava sisältö jäsennetään:
+  * **Reittipisteen nimi**: kaikki ''@'':n ja koordinaattien välillä oletetaan olevan reittipisteen nimi, paitsi jos se on sulkeissa ''()''
+  * **Etuliite**: Jos heti ''@'':n jälkeen on hakasulkeet ''[]'', niin oletetaan, että hakasulkeiden sisältö on muokattavan reittipisteiden etuliite
+  * **Muistiinpano**: Jos heti koordinaattien jälkeen on ''"'' (samalla tai seuraavalla rivillä), niin kaikki tämän ''"'' ja seuraavan ''"'' välillä oletetaan olevan osa reittipisteen **muistiinpanoa** (sisältäen rivinvaihdot). Jos koordinaattien jälkeen ei ole merkkiä ''"'', mutta sen jälkeen on silti muuta sisältöä, niin tämä sisältö oletetaan olevan reittipisteen muistiinpano.
+  * **Reittipisteen tyyppi**: samat säännöt pätevät kuten edellisissä osioissa.
+  * **Koordinaatit**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa koordinaattien erityistunniste ''(NO-COORD)'', jota voidaan käyttää tyhjien koordinaattien määrittämiseksi (tämä on tarpeellista siinä tapauksessa, jos halutaan muokata tyhjillä koordinaateilla olevan etukäteen määritellyn reittipisteen muistiinpanoa)
+  * **Kaava**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa kaavan erityistunniste ''(F-PLAIN)'', jota voidaan käyttää, kun kaava on ''perus''-muodossa. Kätköjen kuvaukset usein sisältävät kaavoja tässä muodossa. Voit määrittää kaikki tunnetut muuttujat käyttäen erottimena ''|''-merkkiä. \\ Kaavan syntaksi tulee täyttää kriteerit, jotka on selostettu osiossa [[en:coordinatedialog#using_plain_coordinate_format|Peruskoordinaattimuodon käyttö]]. \\ Jos voit määrittää muuttujat vain yksi askel kerrallaan, suositellaan, että kytket päälle toiminnon ''Estä reittipisteiden siirto'' kunnes olet syöttänyt kaikki muuttujat henkilökohtaiseen muistiinpanoon. Reittipiste voidaan tämän jälkeen kun kaikki muuttujat ja koordinaatit on laskettu. (Muita muotoja olemme vielä työstämässä)
+
+Geokätkön reittipistelistaa muokataan tällä tiedolla seuraavasti:
+  * Jos **etuliite** jäsennetään, ja on olemassa jo oleva reittipiste samalla etuliitteellä, niin oletetaan että tätä reittipistettä pitäisi muokata. Tätä käytetään yleensä vain etukäteen määritellyille reittipisteille.
+  * Jos on olemassa reittipiste samoilla koordinaateilla kuin jäsennetty reittipiste, niin oletetaan että tätä reittipistettä pitäisi muokata.
+  * Muuten luodaan uusi reittipiste.
+
+Siinä tapauksessa, jos reittipistettä muokataan, seuraavat säännöt pätevät:
+  * Etukäteen määritellyt reittipisteissä, ainoat asiat, joita voidaan muokata ovat koordinaatit (jos kätkön tekijä määritteli ne tyhjiksi) ja muistiinpano.
+  * Olemassa olevissa reittipisteissä, kentät ylikirjoitetaan vain jos ne ovat tyhjiä tai sisältävät oletusarvon (kuten järjestelmän luoma reittipisteen nimi)
+  * Kaava ''perus''-muodossa siirretään vain jos kaavaa tai koordinaatteja ei ole vielä syötetty.
+
+Seuraavat esimerkit näyttävät erilaisia tekstejä vasemmalla ja niistä luodut reittipisteet oikealla
+
+^ Henkilökohtaisen muistiinpanon teksti ^ luotu reittipiste ^
+| ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
+| ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
+| ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Huomaa: tämä esimerkki olettaa, että on kuvauksessa on olemassa reittipiste, jolla on etuliite S5//|{{:en:station5.png}} |
+| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Huomaa: Kaava siirretään jälkeenpäin reittipistelaskimeen (muoto ''Perus'')//|{{:en:final_calculated.png}} |

@@ -1,3 +1,5 @@
+**FIXME**
+
 ====== Geokätköilyyn liittyvät linkit ======
 
 c:geo rekisteröi itsensä geokätköilyyn liittyviin linkkeihin, joten c:geo näkyy mahdollisena kohdesovelluksena kun napautat yhtä näistä linkeistä toisessa sovelluksessa.

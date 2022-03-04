@@ -1,0 +1,26 @@
+====== Signification des marqueurs de géocaches ======
+
+Sur la [[.mainmenu:livemap|carte]] ainsi que sur la liste de vos [[.mainmenu:lists|caches stockés]] c:geo peut afficher de petites icônes de marquage dans les coins d'une [[cacheicons|icône de cache]] pour fournir des informations supplémentaires sans avoir besoin d'ouvrir la cache.
+
+Le tableau suivant décrit la signification de ces marqueurs :
+
+^ Marqueur ^ Nom ^ Description ^
+|En haut à gauche: Logs et logs hors-ligne|||
+|{{ :marker_found.svg?nolink&20 |}}|Trouvé|Vous avez déjà trouvé la géocache|
+|{{ :marker_not_found_offline.svg?nolink&20 |}}|Non trouvé (DNF)|Vous disposez d'un journal "Did not find" pour cette géocache, soit affiché en ligne, soit stocké hors ligne dans c:geo.|
+|{{ :marker_found_offline.svg?nolink&20 |}}|Log hors-ligne Trouvé|Vous avez enregistré un log Trouvé hors ligne pour cette géocache, mais vous ne l'avez pas encore envoyé.|
+|{{ :marker_note.svg?nolink&20 |}}|Note hors-ligne|Vous avez enregistré une note hors ligne pour cette géocache mais ne l'avez pas encore envoyé. \\ Cet état est affiché tant que le log est hors ligne.|
+|{{ :marker_maintenance.svg?nolink&20 |}}|Log de problème reporté hors-ligne|Vous avez enregistré un log hors ligne "Besoin de maintenance" pour cette géocache mais ne l'avez pas encore envoyé. \\ Cet état est affiché tant que le log est hors ligne.|
+|{{ :marker_owner_maintenance.svg?nolink&20 |}}|Log hors-ligne de maintenance|Vous avez enregistré un log hors ligne "Maintenance du propriétaire" pour cette géocache mais ne l'avez pas encore envoyé. \\ Ce statut est spécifique aux propriétaires de la cache et ne sera affiché que tant que le journal sera hors ligne.|
+|{{ :marker_archive.svg?nolink&20 |}}|Log hors-ligne de demande d'archivage|Vous avez enregistré un log hors ligne "Devrait être archivée" pour cette géocache mais ne l'avez pas encore envoyé. \\ Cet état est affiché tant que le log est hors ligne.|
+|{{ :marker_unknown_offline.svg?nolink&20 |}}|Log hors-ligne inconnu|Vous avez enregistré un log hors ligne d'un type spécial ou inconnu pour cette géocache mais ne l'avez pas encore envoyé. \\ Cet état est affiché tant que le log est hors ligne.|
+|{{ :marker_calendar.svg?nolink&20 |}}|Participera|Un cache d'événement sur lequel vous avez logué "Participera".|
+|En haut à gauche : état d’enregistrement et propriété|||
+|{{ :marker_stored.svg?nolink&20 |}}|Enregistrée|Cette géocache est stockée hors ligne dans l'une de vos listes. Ce marqueur n'apparaît que sur la carte mais pas dans vos listes, car il est logique que toutes les caches de vos listes soient déjà stockées. :-)|
+|{{ :marker_own.svg?nolink&20 |}}|Possédée|C'est une de vos géocaches.|
+|En bas à gauche : Note personnelle|||
+|{{ :marker_personalnote.svg?nolink&20 |}}|Note personnelle|Une note personnelle est enregistrée pour cette géocache.|
+|En haut à droite : information sur les coordonnées|||
+|{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Coordonnées modifiées|Les coordonnées de cette cache ont été modifiées par rapport à celles de la liste originale (soit à partir de c:geo lors de la définition d'un point de passage, soit à partir du site web des services de géocaching). La cache est maintenant affichée aux nouvelles coordonnées sur la carte. Une fonction utile pour les mystères résolues ou les multis.|
+|{{ :marker_hasfinal.svg?nolink&20 |}}|A un point de passage final|Cette cache a un point de passage "Final" défini mais pas de coordonnées modifiées. La cache est montrée aux coordonnées originales sur la carte.|
+|{{ :marker_visited.svg?nolink&20 |}}|Point de passage visité|Un point de passage visité|

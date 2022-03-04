@@ -1,3 +1,5 @@
+**FIXME**
+
 ====== Kätköjen suodatus ======
 
 Kätköjen suodatusta voidaan käyttää hyödyksi useissa c:geon toiminnoissa, kuten [[.:mainmenu:livemap|live-kartalla]], [[.:mainmenu:lists|tallennetuissa kätköissä]], tai online-[[.:mainmenu:search|haussa]]. Samaa suodatinmekanismia käytetään kaikissa näissä.

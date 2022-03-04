@@ -1575,3 +1575,96 @@
 1645521550	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		23
 1645521571	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Value types] 		-115
 1645521617	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachevariables	lineflyer	[Functions] 		-1
+1645649861	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:start	lineflyer	[Main screen] 		3
+1645649875	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	de:start	lineflyer	[Hauptmenü] 		5
+1645983496	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	e	en:cachevariables	eddiemuc			-3
+1645984197	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	en:cachevariables	eddiemuc	add comments		350
+1646051514	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:start	vike91	update about the wiki overhaul		-409
+1646051625	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:aboutcgeo	vike91	update about the wiki overhaul		11
+1646051634	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:globaltypefilter	vike91	update about the wiki overhaul		11
+1646051643	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:goto	vike91	update about the wiki overhaul		11
+1646051655	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:history	vike91	update about the wiki overhaul		11
+1646051871	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:lists	vike91	update about the wiki overhaul		11
+1646051874	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:livemap	vike91	update about the wiki overhaul		11
+1646051876	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:pocketquery	vike91	update about the wiki overhaul		11
+1646051877	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:quicksearch	vike91	update about the wiki overhaul		11
+1646051879	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:search	vike91	update about the wiki overhaul		11
+1646051881	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:settings	vike91	update about the wiki overhaul		11
+1646051883	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:start	vike91	update about the wiki overhaul		11
+1646051884	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:utilityprograms	vike91	update about the wiki overhaul		11
+1646051886	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:attributes	vike91	update about the wiki overhaul		11
+1646051888	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:basicmembers	vike91	update about the wiki overhaul		11
+1646051889	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:basicuse	vike91	update about the wiki overhaul		11
+1646051894	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:brouter	vike91	update about the wiki overhaul		11
+1646051897	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:cachedetails	vike91	update about the wiki overhaul		11
+1646051899	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:cachefilter	vike91	update about the wiki overhaul		11
+1646051901	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:cacheicons	vike91	update about the wiki overhaul		11
+1646051903	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:cachemarkers	vike91	update about the wiki overhaul		11
+1646051905	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:compass	vike91	update about the wiki overhaul		11
+1646051906	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:contacts	vike91	update about the wiki overhaul		11
+1646051913	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:coordformat	vike91	update about the wiki overhaul		11
+1646051915	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:coordinatedialog	vike91	update about the wiki overhaul		11
+1646051916	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:ebook	vike91	update about the wiki overhaul		11
+1646051918	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:ebook_help	vike91	update about the wiki overhaul		11
+1646051920	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:firststeps	vike91	update about the wiki overhaul		11
+1646051921	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:hiddenfunctions	vike91	update about the wiki overhaul		11
+1646051923	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:installation	vike91	update about the wiki overhaul		11
+1646051924	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:intents	vike91	update about the wiki overhaul		11
+1646051926	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:logging	vike91	update about the wiki overhaul		11
+1646051931	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:loggingtb	vike91	update about the wiki overhaul		11
+1646051932	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:loginproblems	vike91	update about the wiki overhaul		11
+1646051934	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mapsources	vike91	update about the wiki overhaul		11
+1646051939	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:navigation	vike91	update about the wiki overhaul		11
+1646051941	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:nfc	vike91	update about the wiki overhaul		11
+1646051944	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:notecoords	vike91	update about the wiki overhaul		11
+1646051947	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:offline	vike91	update about the wiki overhaul		11
+1646051950	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:offlinemaps	vike91	update about the wiki overhaul		11
+1646051961	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:quick_widgets	vike91	update about the wiki overhaul		11
+1646051963	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:replacedevice	vike91	update about the wiki overhaul		11
+1646051964	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:sidebar	vike91	update about the wiki overhaul		11
+1646051966	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:spoilersync	vike91	update about the wiki overhaul		11
+1646051968	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:start	vike91	update about the wiki overhaul		11
+1646051969	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:trackabledetails	vike91	update about the wiki overhaul		11
+1646051971	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:udc	vike91	update about the wiki overhaul		11
+1646126324	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:translation	paulhenrysaux	Corrections de fautes et reformulation		-2
+1646128982	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:loginproblems	paulhenrysaux	créée : traduction de toute la page		9252
+1646129512	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:loginproblems	paulhenrysaux	corrections et finalisation		-158
+1646132345	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:mainmenu:lists	paulhenrysaux	traduction de la partie "menu des listes"		702
+1646139467	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:mainmenu:lists	paulhenrysaux	fin de la traduction des sections restantes		1428
+1646155992	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachedetails	paulhenrysaux	traduction de l'onglet détails		595
+1646158055	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachedetails	paulhenrysaux	début tradcution onglet waypoints		251
+1646162332	fe80:b6fa:3e03:1793:0d84:e29e:0dbd:fb3d	E	fr:cachedetails	paulhenrysaux	suite de la traduction		846
+1646208278	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachedetails	paulhenrysaux	Fin de la traduction		363
+1646210829	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:mainmenu:livemap	paulhenrysaux	Fin de la traduction		1479
+1646211167	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:firststeps	paulhenrysaux	Diverses corrections		-155
+1646211985	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:logging	paulhenrysaux	créée : début de la traduction		9782
+1646219578	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:start	paulhenrysaux	Fin de la traduction		116
+1646224531	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:logging	paulhenrysaux	Traduction terminée		985
+1646235040	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:trackabledetails	paulhenrysaux	créée et traduit entièrement		7000
+1646235306	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:trackabledetails	paulhenrysaux	correction		1
+1646297814	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:loggingtb	paulhenrysaux	créée et début de traduction		7894
+1646298004	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:loggingtb	paulhenrysaux	corrections		0
+1646330569	fe80:b6fa:3e03:1793:0d84:e29e:0dbd:fb3d	E	fr:loggingtb	paulhenrysaux	Fin de la traduction		374
+1646357404	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:notecoords	vike91	site overhaul related delete, will create new soon!		-9864
+1646360722	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:notecoords	vike91	created		9697
+1646360935	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:brouter	vike91	site overhaul related delete, will create new soon!		-3897
+1646362089	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:brouter	vike91	luotu		4039
+1646383557	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:coordinatedialog	paulhenrysaux	créée		2810
+1646383991	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:coordinatedialog	paulhenrysaux	Fin de la traduction		-6
+1646385563	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:offline	paulhenrysaux	créée et traduit entièrement		7761
+1646385959	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:mainmenu:pocketquery	paulhenrysaux	créée et traduit entièrement		1484
+1646386833	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:udc	paulhenrysaux	créée et traduit entièrement		4250
+1646386855	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	e	fr:udc	paulhenrysaux	suppression du fix me		-159
+1646390386	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	site overhaul related edit, will fix asap!		25
+1646390956	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	translate		154
+1646390996	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:cachemarkers	paulhenrysaux	créée et traduit entièrement		3736
+1646391975	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachedetails	paulhenrysaux	[types de points de passage] nouveaux points de passage		0
+1646392176	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:replacedevice	vike91	site overhaul related delete, will create new soon!		-4094
+1646393893	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:replacedevice	vike91	luotu		4030
+1646393950	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:replacedevice	vike91	[Vanhalla laitteella tehtävät asiat] 		0
+1646393996	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:replacedevice	vike91	[Uudella laitteella tehtävät asiat] 		1
+1646394034	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646394141	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:nfc	vike91	site overhaul related delete, will create new soon!		-598
+1646394354	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:nfc	vike91	luotu		645
+1646394391	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646394465	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:spoilersync	vike91	site overhaul related delete, will create new soon!		-1730

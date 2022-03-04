@@ -1,3 +1,5 @@
+**FIXME**
+
 ====== Käyttäjän määrittämät kätköt ======
 
 Voit luoda c:geossa käyttäjän määrittämiä kätköjä. Näitä voidaan käyttää esimerkiksi uusien kätköjen suunnitteluun ja kiinnostavien paikkojen tallentamiseen.

@@ -1,0 +1,139 @@
+====== Loguer des Géocaches ======
+
+Si vous choisissez d'enregistrer une visite pour une géocache, l'écran suivant s'affiche.
+
+{{:en:logging.png?direct&300 |}}{{:en:logging_2.png?direct&300 |}}
+
+===== Menu supérieur =====
+{{anchor:top_bar_menu:}}
+
+
+
+<WRAP center round info 100%>
+Les icônes affichées dans la barre supérieure et le contenu derrière le bouton de menu de débordement sont distribués dynamiquement en fonction de la résolution de votre appareil et de l'orientation de l'écran. Ainsi, il est possible que plus ou moins d'éléments se trouvent derrière le bouton de menu ou s'affichent sous forme d'icônes dans la barre supérieure de votre appareil.\\
+Si une fonction du menu est affichée sous forme d'icône, vous pouvez appuyer longuement sur l'icône pour obtenir une fenêtre contextuelle indiquant sa fonction.
+</WRAP>
+
+^ Icône ^ Fonction ^ Description ^
+|{{ :ic_menu_send.svg?nolink&40 |}}|Envoyer|Utilisez ce bouton pour envoyer votre log en ligne après l'avoir rédigé.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Ajouter|Cela vous permet d'ajouter un [[.mainmenu:settings#placeholder_templates|modèle]] ou votre signature au log.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Options supplémentaires|En appuyant ici, vous ouvrez le menu des fonctions qui ne peuvent pas être placées dans la barre supérieure de votre appareil et qui sont donc affichées sous forme de liste. Elles sont également décrites dans ce tableau.|
+|{{ :ic_menu_attachment.svg?nolink&40 |}}|[[logging#attach_image|Images jointes]]|Cela vous permet de sélectionner une image existante ou de prendre une nouvelle photo, qui sera ajoutée au log.|
+| |Sourillards|Ouvre une liste de balises smiley que vous pouvez insérer dans votre log.|
+| |Enregistrer hors ligne|Enregistre votre journal composé uniquement hors ligne au lieu de l'envoyer en ligne.|
+| |Trier les objets voyageurs|Vous pouvez modifier l'ordre de tri de la liste des objets voyageurs, soit par nom, soit par code de suivi.|
+| |Recopier la dernière visiste|Cette fonction insère le texte du dernier log de la cache.|
+| |Effacer|Cela supprime le texte du log et réinitialise l'écran de log.|
+
+===== Écran de log =====
+{{anchor:logging_screen:}}
+
+==== Types de log ====
+{{anchor:log_types:}}
+
+{{ :en:logging_logtype.png?nolink&300 |}}
+
+^ Type de log ^ Description ^
+|Trouvé|Vous avez trouvé cette cache.\\ Il s'agit du type de logpar défaut lors de l'ouverture de l'écran de log.\\ \\ :!: Ce type de journal n'est plus disponible si vous avez déjà publié un log trouvés pour la cache.|
+|A participé|Ce type de journal est disponible uniquement pour les caches d'événements et est utilisé à la place du journal ''Trouvé''.|
+|Photo prise par la webcam|Ce type de journal est disponible uniquement pour les caches webcam et est utilisé à la place du log''Trouvé''.|
+|Participera|Ce type de log n'est disponible que pour les caches d'événements et peut être utilisé pour informer le propriétaire que vous prévoyez d'assister à l'événement.|
+|Non trouvé (DNF)|Vous n'avez pas trouvé la cache.|
+|Note|Écrire une note/commentaire pour cette cache.|
+|A besoin de Maintenance|Sélectionnez ce type de log pour signaler que la cache a besoin d'une maintenance du propriétaire.\\ \\ :!: Ce type de log n'est plus disponible pour geocaching.com et certains sites d'opencaching mais a été remplacé par la fonction [[logging#report_problem|signaler un problème]].|
+|Devrait être archivée|Sélectionnez ce type de log pour signaler que le cache doit être archivé.\\ \\ :!: e type de log n'est plus disponible pour geocaching.com mais a été remplacé par la fonction [[logging#report_problem|signaler un problème]].|
+|Maintenance Performed|Ce type de log n'est disponible que si vous êtes le propriétaire de la cache et vous permet de publier un log de maintenance du propriétaire.|
+|Désactiver|Ce type de journal n'est disponible que si vous êtes le propriétaire de la cache et peut être utilisé pour désactiver temporairement votre cache.|
+|Activer|Ce type de journal n'est disponible que si vous êtes le propriétaire du cache et que cette dernière est actuellement désactivé. Il peut être utilisé pour réactiver le cache.|
+|Archiver|Ce type de journal n'est disponible que si vous êtes le propriétaire de la cache et peut être utilisé pour l'archiver définitivement.|
+
+==== date du log ====
+{{anchor:log_date:}}
+
+{{:en:logging_date.png?nolink&300 |}}
+
+Par défaut, c:geo utilisera la date actuelle pour le journal et affichera ''Aujourd'hui'' dans ce champ. Vous pouvez cependant taper sur ce champ pour ouvrir un calendrier et sélectionner une autre date pour ce log.
+
+==== Signaler un problème ====
+{{anchor:report_problem:}}
+
+{{ :en:logging_problem.png?nolink&300 |}} 
+{{ :en:logging_problem_2.png?nolink&300 |}}
+Pour les caches de geocaching.com et de certains sites d'opencaching, vous pouvez signaler que la cache a un problème en parallèle de l'enregistrement de votre log "Trouvé" ou "Non trouvé".
+
+Tapez sur le champ pour ouvrir un menu déroulant contenant les types de rapports de problèmes disponibles (en fonction du fournisseur de géocaching, du type/statut de la cache et du type de log).:
+
+^ Élément du menu ^ Description ^
+|Aucun problème|Aucun rapport de problème ne sera joint à votre journal.\\ C'est l'élément sélectionné par défaut.|
+|Le journal de visite est plein|Informe le propriétaire que le journal de visite de la cache est plein.|
+|Container might be missing|Informe le propriétaire que la cache a probablement disparu.\\ :!: Ce type de problème n'est pas disponible       avec un journal "Found it".|
+|Le conteneur est abîmé|Informe le propriétaire que quelque chose ne va pas avec le conteneur de la géocache.|
+|La cache devrait être archivée|Informe les reviewers/administrateurs du site de géocaching que cette cache doit être archivée.|
+|Autre|Un autre problème, que vous devriez décrire plus en détail dans votre log.|
+
+==== Note de GCVote ====
+{{anchor:gcvote_rating:}}
+
+{{:en:logging_gcvote.png?nolink&300 |}}
+
+Cette section n'est affichée que si vous avez activé et autorisé [[http://gcvote.com|GCVote]] dans les [[.mainmenu:settings|paramètres]]. Vous pouvez alors l'utiliser pour sélectionner la note que vous souhaitez donner à la cache. Il vous suffit de taper sur les étoiles pour sélectionner une note comprise entre 1 et 5 étoiles par pas de 0,5 étoile. Le sous-titre vous indiquera l'équivalent textuel de la note que vous avez sélectionnée (par exemple, "Mieux que la moyenne" = 3,5 étoiles).
+
+L'évaluation sera soumise lorsque vous enverrez le log.
+
+==== Point Favori (PF) ====
+{{anchor:favorite_point:}}
+
+{{:en:logging_favorite.png?nolink&400 |}}
+
+Ce champ n'est affiché que si vous êtes membre premium de geocaching.com. En activant la case à cocher, un point favori sera attribué à la cache lors de l'envoi du log. La valeur entre parenthèses indique le nombre de points favoris restants.
+
+==== Twitter ====
+{{anchor:twitter:}}
+
+{{:en:logging_twitter.png?nolink&400 |}}
+
+Si vous avez connecté c:geo à [[https://twitter.com|Twitter]] dans les [[.mainmenu:settings#social_media|paramètres]], ce champ sera affiché. Si vous activez la case à cocher, c:geo publiera un tweet parallèlement à l'envoi de ce log.
+==== Images ====
+
+{{anchor:attach_image:}}
+
+=== Icônes d'ajout rapide ===
+
+{{ :en:logging_images.png?nolink&400 |}}
+
+Un appui sur les icônes de cette section permet de joindre rapidement une image à votre journal.
+
+  * {{:ic_menu_image_multi.svg?nolink&30|}} ouvrira un sélecteur de fichiers qui vous permettra de choisir une image existante sur votre appareil.
+  * {{:ic_menu_camera.svg?nolink&30|}} ouvre l'appareil photo de votre appareil pour prendre une photo.
+
+Vous pouvez également utiliser l'option de menu ''Joindre une image'' de la barre de titre pour ajouter une image en utilisant le menu avancé, où vous pouvez également définir la légende, la description et sélectionner la mise à l'échelle tout en ajoutant l'image (voir le chapitre suivant).
+
+Après l'ajout d'une image, un aperçu s'affiche dans la section des images. Vous pouvez utiliser {{:ic_menu_delete.svg?nolink&30|}} pour supprimer l'image jointe et, si plusieurs images sont jointes, utiliser {{:ic_menu_reorder.svg?nolink&30|}} pour changer l'ordre en les faisant glisser.
+
+Pour modifier les détails d'une image, il suffit de cliquer dessus pour ouvrir la fenêtre des détails, où vous pouvez modifier la légende, la description et l'échelle (voir chapitre suivant).
+
+=== Édition d'images ===
+
+En sélectionnant l'option de menu ''Joindre une image'' dans le menu de la [[logging#top_bar_menu|barre de menu supérieure]], vous ouvrez un nouvel écran où vous pouvez joindre une image à votre log. Vous pouvez également accéder à cette vue pour les images déjà jointes en appuyant sur l'image d'aperçu sur l'écran du journal.
+
+{{ :en:logging_attachimage.png?nolink&400 |}}
+
+La sélection de " Existant " ouvre un sélecteur de fichiers et vous permet de choisir une image existante dans votre galerie. En sélectionnant " Nouveau ", vous ouvrez la caméra de votre appareil pour prendre une nouvelle photo (tout comme les icônes rapides décrites dans le chapitre précédant).
+
+Ensuite, vous pouvez écrire une légende et fournir une description pour l'image, qui sera ajoutée à votre image sur le journal de la cache. Vous pouvez également (en option) choisir de réduire l'échelle de votre image à différentes tailles de pixels afin de réduire la quantité de données transférées lors de la publication du journal avec votre image.
+
+==== Inventaire ====
+{{anchor:inventory:}}
+
+{{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
+
+Cette section répertorie tous les objets voyageurs (TB) qui se trouvent actuellement dans votre inventaire. Elle affiche l'icône du type de TB (par exemple, Travelbug, Geokrety), le code de suivi et leur nom. Vous pouvez appuyer sur l'un d'entre eux pour afficher les [[trackabledetails|détails du TB]].
+En utilisant le menu déroulant sur le côté droit, vous pouvez sélectionner l'action que vous souhaitez effectuer avec ce TB sur cette cache :
+
+^ Élément du menu ^ Description ^
+|Ne rien faire|N'effectuez aucune action pour ce TB lors de la publication de votre log pour la cache.|
+|Visiter/transiter|Indiquez que ce TB a visité cette cache lors de la publication de votre log.|
+|Déposer|Ce TB sera déposé dans cette cache lorsque le log sera envoyé.|
+
+En dessous de la liste des TB, vous pouvez utiliser le bouton ''Tout changer'' pour sélectionner l'action pour tous les TB de votre inventaire en une seule fois.
+

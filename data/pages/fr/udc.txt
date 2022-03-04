@@ -1,0 +1,47 @@
+====== Caches personnalisées ======
+
+Vous pouvez créer des caches personnalisées avec c:geo. Celles-ci peuvent être utilisées, par exemple, pour planifier vos propres caches ou simplement pour enregistrer des points d'intérêt. 
+De plus, c:geo crée automatiquement un cache défini par l'utilisateur pour stocker vos cibles [[.mainmenu:goto|"Aller à"]].
+
+Les caches définis par l'utilisateur apparaissent avec l'indicateur [[.cacheicons|de type de cache]] des caches virtuelles dans vos listes et sur votre carte.
+
+<WRAP center round info 100%>
+Bien que vous puissiez utiliser une cache définie par l'utilisateur pour planifier vos propres caches, il n'est pas possible de soumettre votre nouvelle cache via c:geo. Les caches définies par l'utilisateur ne sont qu'une petite aide pour la planification, mais n'impliquent aucune fonction en ligne pour la soumission aux plateformes de géocaching.
+</WRAP>
+
+
+
+===== Création des caches personnelles =====
+
+Vous pouvez créer des caches personnelles de deux manières :
+  - Ouvrez une liste de caches enregistrés et sélectionnez ''Gérer les caches'' -> ''Créer un cache défini par l'utilisateur'' dans le menu [[.mainmenu:lists#manage_caches|de liste]].
+  - Appuyez longuement sur la carte pour déclencher la création d'un cache défini par l'utilisateur. Cette fonction de tapotement long doit être activée dans [[.mainmenu:settings#map_behavior|paramètres]].
+
+Après avoir effectué l'une de ces actions, vous serez invité à indiquer le titre de votre cache personnelle qui sera créée. En appuyant sur l'icône en haut à droite de la boîte de dialogue, vous pouvez également sélectionner une icône de cache personnalisée.
+
+{{:en:udc_create.png?direct400|}}
+
+Ensuite, la cache définie par l'utilisateur est créée et stockée soit dans la liste actuelle (si elle est créée à partir du menu [[.mainmenu:lists#manage_caches|de liste]]), soit dans votre liste par défaut (si elle est créée par un appui long sur la carte).
+
+Si la cache a été créée à partir de la carte, elle aura déjà les coordonnées de la cache telles que définies par l'emplacement sur lequel vous avez tapé. Si vous l'avez créée à partir de la liste, les coordonnées de la cache seront vides jusqu'à ce que vous créiez un point de passage et que vous attribuiez ses coordonnées à la liste.
+
+Voici à quoi pourrait ressembler une cache personnelle typique :
+
+^ Point de passage ^ Détails ^ Description ^
+|{{:en:udc_waypoints.png?direct300|}}|{{:en:udc_details.png?direct300|}}|{{:en:udc_description.png?direct300|}}|
+
+===== Gestion des caches personnelles =====
+
+Outre le fait que vous avez créé le cache vous-même, elle est gérée de la même manière que tous les autres caches de c:geo (comme la création de point de passage, le déplacement vers une autre liste, etc.) 
+Certaines fonctions ne sont cependant pas (encore) possibles, car il ne s'agit pas d'une cache ordinaire :
+
+^ Fonction ^ Limitation ^
+|Type de cache|Les caches définies par l'utilisateur sont un type de cache propre à c:geo.|
+|Description|Il n'est pas encore possible de saisir un texte personnalisé dans la description du cache. Elle contiendra seulement "Ceci est une cache définie par l'utilisateur". Il est prévu d'ajouter cette fonction dans les futures versions de c:geo. Comme solution de rechange, vous pouvez utiliser la note personnelle et/ou les descriptions des points de passage.|
+|Géocode|Le géocode sera automatiquement attribué par c:geo (en utilisant le préfixe ''ZZ''). Vous ne pouvez pas le modifier.|
+|D/T, Taille|Il n'est pas possible de saisir ces informations pour ce type de cache.|
+|Attributs|Les attributs ne sont supportés pour ce type de cache.|
+|Loguer|Comme il s'agit d'un cache créé localement, il n'est pas possible d'en afficher les logs.|
+|Logbook|Comme votre cache créé localement ne peut être loguée par personne, il n'a pas d'onglet de logbook.|
+|Actualiser|Comme la cache définie par l'utilisateur n'est stockée que localement, vous ne pouvez pas la rafraîchir depuis un serveur.|
+

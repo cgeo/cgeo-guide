@@ -1,3 +1,8 @@
+**FIXME**
+
+<WRAP center round info 100%>
+Tämä käyttöohje EI ole tällä hetkellä ajan tasalla, vaan sitä ollaan kauttaaltaan uusimassa. Jos huomaat sivun yläreunassa **FIXME**-kuvakkeen, niin sivu EI ole ajan tasalla.
+</WRAP>
 
 ====== c:geo Käyttöohje ======
 
@@ -12,10 +17,6 @@
 c:geo on avoimeen lähdekoodiin perustuva, täysillä ominaisuuksilla varustettu, aina käyttövalmis epävirallinen ohjelma geocaching.com:in käyttöön  ja tarjoaa perustoiminnot muihin geokätköilysovelluksiin (kuten Opencaching). Se ei vaadi selainta tai tietojen siirtoa - [[installation|asenna se]] ja ohjelma on valmis.
 
 c:geo on vain työkalu geokätköilysivustojen käyttöön ja se ei ole yhteyksissä mihinkään tiettyyn geokätköilypalveluiden tarjoajaan.
-
-<WRAP center round info 100%>
-c:geota parannetaan ja päivitetään jatkuvasti, joten on mahdollista ettei tämä käyttöohje ole ajan tasalla. \\ Viimeksi käyttöohje on kokonaan päivitetty 2.10.2021. \\ \\ Jos sivun vasemmassa laidassa on keltainen laatikko, jossa on tietoja sivun vanhentuneista tiedoista, niin voi olla, ettei sivun suomenkielinen käännös, kuvat mukaan lukien, ole ajan tasalla. \\ \\ Jos muuten huomaat sivuilla puuttuvia, vääriä tai vanhentuneita tietoja, tai sinulla on muuta palautetta, voit jättää palautetta [[https://goo.gl/forms/yEr6uKaHKdj2vZsq2|Google Forms -lomakkeen kautta]].
-</WRAP>
 
 ===== Käytön aloitus =====
 {{anchor:getting_started:}}

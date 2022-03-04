@@ -1,0 +1,145 @@
+====== Problèmes de connexion ======
+
+Si c:geo ne peut pas se connecter au serveur de géocaching, il affiche un avertissement sur l'écran d'accueil :
+
+{{ :en:loginproblems_1.png?direct&400 |}}
+
+Cette page fournit quelques vérifications que vous devriez faire pour trouver la raison du problème de connexion. Veuillez suivre les étapes ci-dessous afin de trouver la cause de votre problème et de le corriger.
+
+<WRAP center round info 100%>
+Veuillez suivre toutes les étapes énumérées ci-dessous avant de contacter notre [[mailto:support@cgeo.org|équipe de support]].
+</WRAP>
+
+
+===== 1. Vérifier les mises à jour disponibles =====
+
+Parfois, des changements sur le serveur de géocaching nécessitent une adaptation du côté de c:geo également. Les versions obsolètes de c:geo peuvent ne plus être en mesure de se connecter ou peuvent présenter d'autres problèmes.
+
+
+<WRAP center round todo 100%>
+Veuillez donc d'abord vérifier si une mise à jour de c:geo est disponible et mettre à jour votre application le cas échéant.
+</WRAP>
+
+
+
+
+===== 2. Vérifier le site de géocaching =====
+
+Il est aussi possible que le service de géocaching lui-même soit en panne et que c:geo ne puisse pas s'y connecter. Vérifiez que vous pouvez accéder au site Web de votre service de géocaching à l'aide d'un navigateur et que vous pouvez vous connecter sur leur site.
+Pour geocaching.com, vous pouvez par ailleurs vérifier leur [[https://status.geocaching.com|page d'état]] pour voir s'il y a des problèmes connus de leur côté.
+
+<WRAP center round todo 100%>
+Si un serveur de géocaching n'est pas disponible, vous devez attendre qu'il le soit à nouveau pour vous connecter avec c:geo.
+</WRAP>
+
+
+===== 3. Vérifier la connexion internet =====
+
+Si vous avez mis à jour la dernière version de c:geo ou si vous utilisez déjà la dernière version et que le problème persiste, assurez-vous que votre connexion réseau fonctionne. c:geo ne peut pas se connecter sans connexion Internet. L'utilisation de certaines applications de type antivirus ou pare-feu peut également bloquer le trafic Internet pour certaines applications.
+
+<WRAP center round todo 100%>
+Rétablissez l'accès à Internet et redémarrez c:geo pour déclencher une nouvelle tentative de connexion.
+</WRAP>
+
+
+
+===== 4. Vérifier les données d'authentification =====
+
+==== 4a. Vérifier le nom d'utilisateur/mot de passe ====
+
+
+Si vous avez vérifié votre connexion Internet et que le problème dans c:geo persiste, vous devez vérifier les données d'authentification que vous avez stockées dans c:geo.
+
+<WRAP center round todo 100%>
+Si vous avez par exemple récemment modifié votre mot de passe sur le site web de geocaching, vous devez aussi appliquer cette modification dans c:geo pour pouvoir vous reconnecter.
+</WRAP>
+
+Pour vérifier votre authentification, tapez sur le message "Not logged in..." affiché sur l'écran principal. 
+
+{{ :en:loginproblems_1a.png?direct&400 |}}
+
+Ensuite, appuyez sur "Oui" pour configurer le service de géocaching. Vous pouvez également accéder à la configuration du service à partir de Menu → Paramètres → Services. 
+
+
+{{ :en:loginproblems_2.png?direct&400 |}}
+
+Sélectionnez le service de géocaching que vous voulez vérifier (par exemple geocaching.com), assurez-vous qu'il est activé et sélectionnez "Mettre à jour ou supprimer l'autorisation". 
+
+<WRAP center round tip 100%>
+Vous pouvez par ailleurs effectuer un long appui sur "Mettre à jour ou supprimer l'autorisation" pour réinitialiser entièrement les données de connexion.
+</WRAP>
+
+{{ :en:loginproblems_3.png?direct&600 |}}
+
+
+Un écran s'ouvre alors, dans lequel vous devez à nouveau saisir votre nom d'utilisateur et votre mot de passe pour ce service de géocaching. Ensuite, sélectionnez "Vérifier l'authentification" pour voir si la connexion est maintenant possible ou quelle erreur est renvoyée.
+
+{{ :en:loginproblems_5.png?direct&400 |}}
+
+==== 4b. Messages d'erreurs possibles ====
+
+<WRAP centre round todo 100%>
+Si vous avez vérifié tout ce qui est énuméré ci-dessus et que la connexion échoue toujours, vous devriez examiner le message d'erreur renvoyée par c:geo lors de l'exécution de la "vérification des données d'authentification" comme décrit ci-dessus.
+</WRAP>
+
+Les chapitres suivants fournissent une explication et des solutions possibles pour toutes les causes d'erreur.
+
+=== Échec d'authentification : mauvais nom d'utilisateur/mot de passe ===
+
+Dans 99 % des cas, lorsque ce message d'erreur s'affiche, cela signifie réellement que vous avez saisi des informations d'identification erronées. En outre, certains caractères spéciaux que vous utilisez dans votre nom d'utilisateur et/ou votre mot de passe peuvent sembler légèrement différents ou être confondus avec d'autres caractères sur votre clavier Android.  
+
+<WRAP center round todo 100%>
+Veuillez vérifier soigneusement le nom d'utilisateur et le mot de passe saisis et sachez qu'ils sont sensibles à la casse.
+
+</WRAP>
+
+[[https://www.cgeo.org/faq#forgot-login|Cette partie de la FAQ]] décrit comment réinitialiser votre mot de passe et/ou rechercher votre nom d'utilisateur.
+
+=== Échec d'authentification : Captcha requis ===
+
+c:geo a détecté que le site geocaching vous demande de résoudre un Captcha pour vous connecter. c:geo ne peut donc pas se connecter. geocaching.com peut utiliser ce Captcha après avoir détecté plusieurs échecs de connexion consécutifs (par exemple, en raison d'un mauvais mot de passe). 
+
+<WRAP center round todo 100%>
+Veuillez donc vous connecter une fois sur le site de geocaching à l'aide de votre navigateur, résoudre le Captcha et réessayer avec c:geo après vous être connecté avec succès.
+</WRAP>
+
+En outre, geocaching.com peut utiliser ce type de Captcha pour détecter les connexions à partir d'une adresse IP suspecte, sur liste noire ou non identifiée. Cela peut arriver si vous utilisez des outils VPN, des anonymiseurs (comme TOR) ou certains réseaux Wi-Fi publics. Veuillez désactiver ces outils et réessayer de vous connecter avec c:geo. Vous pouvez également essayer de vous connecter avec c:geo en utilisant une autre connexion Internet (par exemple, un réseau mobile au lieu d'un réseau Wi-Fi).
+
+
+=== Échec de connexion : Vous devez d'abord valider votre compte sur le site Geocaching.com. ===
+
+Votre adresse e-mail et/ou votre compte n'est pas encore ou plus validé sur le serveur de géocaching. 
+
+<WRAP center round todo 100%>
+Veuillez vous connecter sur le site de geocaching à l'aide de votre navigateur et validez votre adresse e-mail et/ou votre compte. Ensuite, réessayez de vous connecter avec c:geo.
+</WRAP>
+
+
+=== Échec de connexion : Erreur de communication inconnue ===
+
+Si vous utilisez un antivirus, un pare-feu, un bloqueur de publicité ou encore un outil VPN (par exemple, F-Secure, AdAway, McAfee, Orbot, Corporate VPNs, TOR), veuillez vérifier que cela ne bloque ou ne perturbe pas votre connexion Internet. 
+
+<WRAP center round todo 100%>
+Essayez de désactiver cet outil et vérifiez si la connexion fonctionne. 
+</WRAP>
+
+Si la date et l'heure sont incorrectes, cela peut entraîner des problèmes pour établir une connexion sécurisée avec le serveur.
+
+<WRAP center round todo 100%>
+Veuillez également vérifier que votre téléphone fonctionne avec la date, le fuseau horaire et l'heure corrects.
+</WRAP>
+ 
+Parfois, les fournisseurs de réseau insèrent des messages dans le trafic HTML, ce qui empêche c:geo de se connecter lorsqu'il est sur un réseau mobile. Un indicateur clair de ce problème est le fonctionnement de c:geo sur votre connexion Wi-Fi à la maison, mais pas sur un réseau mobile.
+
+<WRAP center round todo 100%>
+Dans ce cas, rendez dans les paramètres de c:geo : Menu → Paramètres → Services et activer "Identifier comme navigateur Android". Ensuite, vous devrez peut-être redémarrer votre téléphone pour être sûr que ces paramètres prennent effet.
+</WRAP>
+
+
+===== Si rien n'aide... =====
+
+Quelques dernières recommandations si rien de ce qui précède n'a résolu votre problème :
+
+  - Assurez-vous d'essayer aussi le "long appui" pour supprimer vos données d'autorisation dans c:geo comme décrit à l'étape 4 de cette page. Cela peut être utile dans les rares cas où des jetons, des cookies ou des certificats périmés sont utilisés à cause de la mise en cache des données.
+  - Envisagez de désinstaller et de réinstaller c:geo. Après une nouvelle installation, l'assistant d'installation vous aidera à configurer la connexion comme décrit dans la section [[.:firststeps|Premiers pas avec c:geo]]. Vous pourriez vouloir effectuer une [[.:mainmenu:settings#backup|sauvegarde]] de vos données avant de le faire.
+  - Contactez notre [[mailto:support@cgeo.org|équipe de support]] en utilisant le menu "Signaler un problème" sur l'écran principal de c:geo (derrière le bouton à trois points), fournissez une description détaillée du problème et dites-nous également que vous avez déjà suivi toutes les étapes de cette page.

@@ -1,11 +1,9 @@
-FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
-
 ====== Carte temps réel ======
 
 {{:main_live_default.png?nolink&100 |}}
 
 <WRAP center round info 60%>
-Lorsque la carte est affichée, pour des raisons pratiques, l'écran de votre appareil ne se met plus en veille automatiquement. Vous devez quitter la carte pour retrouver le verrouillage automatique de votre écran qui vous permet d'économiser de la batterie. Bien sûr le verrouillage manuel fonctionne toujours comme d'habitude.
+Lorsque la carte est affichée, pour des raisons pratiques, l'écran de votre appareil ne se met plus en veille automatiquement. Vous devez quitter la carte pour retrouver le verrouillage automatique de votre écran qui vous permet d'économiser de la batterie. Bien sûr, le verrouillage manuel fonctionne toujours comme d'habitude.
 </WRAP>
 
 
@@ -172,90 +170,89 @@ L'exemple ci-dessous montre l'aspect typique de la ligne directionnelle (avec et
 Il existe deux façons d'activer la ligne directionnelle :
   - En cliquant sur une cache sur la carte et en activant la ligne directionnelle à l'aide l'icône correspondante{{:ic_menu_near_me.svg?nolink&30|}} affichée dans la [[livemap#map_popup_window|fenêtre contextuelle]].
   - En sélectionnant ''Navigation'' puis ''Carte'' depuis la [[..:cachedetails|vue détaillée]] de la cache.
-==== GPX track/route ====
+==== trace/itinéraire GPX ====
 
-You have the possibility to load a GPX track/route file which is then shown on the map. For example cache owners might provide a GPX-track/route file to follow a certain route to find a cache, or you can generate such GPX track/route with other routing tools.
-Tracks and routes both are basically GPX files, one having a recorded track of positions (track file), the other (route file) only some waymarks, for which c:geo will route you from point to point.
+Vous avez la possibilité de charger un fichier GPX trace/itinéraire qui est ensuite affiché sur la carte. Par exemple, les propriétaires de caches peuvent fournir un fichier GPX pour suivre un certain itinéraire pour trouver une cache, ou vous pouvez générer un tel fichier GPX avec d'autres outils de routage.
+Les traces et les trajets sont touts deux des fichiers GPX, l'un contenant une trace enregistrée des positions (fichier de trace), l'autre (fichier d'itinéraire) seulement quelques points de repère, pour lesquels c:geo vous conduira d'un point à un autre.
 
-The default line color is <color #22b14c>green</color> but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+La couleur par défaut de la ligne est <color #22b14c>vert</color> mais la couleur de la ligne et les paramètres d'apparence supplémentaires peuvent être configurés en fonction de vos besoins dans paramètres de  [[.:settings#map_lines_customization|personalisation des lignes sur la carte]].
 
-The example below shows the typical appearance of an individual GPX track/route.
-
+L'exemple ci-dessous montre l'apparence typique d'une trace/itinéraire GPX individuelle.
 {{ :en:livemap_individual_track.png?direct&250 |}}
 
-To load or unload a GPX track you have to use the map menu items below ''GPX track/route'' in your [[livemap#top_bar_menu|map menu]]:
+Pour charger ou décharger une piste GPX, vous devez utiliser les éléments du menu de la carte sous ''Itinéraire/trace GPX'' dans le [[livemap#top_bar_menu|menu de carte]]:
 
 {{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
 
-^Menu item ^ Description ^ 
-|Load track/route from GPX|Allows you to select a GPX file containing a track or route to display it on the map.|
-|Center on track/route|Will move/zoom the map, so that an already loaded track/route is shown completely.|
-|Unload track/route|This will remove the loaded track/route from the map.|
-==== Individual route ====
+^Élément du menu ^ Description ^ 
+|Charger une trace/itinéraire GPX|Permet de sélectionner un fichier GPX contenant une trace ou un itinéraire pour l'afficher sur la carte.|
+|Centrer sur la trace/itinéraire|Déplace/zoome sur la carte, de façon à ce que la trace/itinéraire déjà chargée soit entièrement affichée.|
+|Enlever la trace/itinéraire|Enlève la trace/itinéraire chargée de la carte. |
+==== Itinéraire personel ====
 
-An individual route can be created by long tapping several caches/waypoints on the (live) map. A route will then be drawn between each of the selected caches/waypoints in sequence of your selection. This allows you to create a custom route between caches and can be e.g. used to plan your caching trip.
+Un itinéraire individuel peut être créé en appuyant longuement sur plusieurs caches/points de passage sur la carte (en direct). Un itinéraire sera alors tracé entre chacune des caches/points de passage sélectionnés dans l'ordre de votre sélection. Cela vous permet de créer un itinéraire personnalisé entre les caches et peut être utilisé, par exemple, pour planifier votre voyage de geocaching.
 
 <WRAP center round important 60%>
-To make use of the individual route feature you need to enable the long click function on the map in your [[.:settings#map_behavior|map behavior settings]].
+Pour utiliser la fonction d'itinéraire individuel, vous devez activer la fonction de clic prolongé sur la carte dans les [[.:settings#map_behavior|paramètres de la carte]].
 </WRAP>
 
 
-The route points will either be connected by a straight line or a routed line if you have [[..:brouter|BRouter]] installed and configured. Using BRouter for this function is highly recommended to get the most out of it.
+Les points d'itinéraire seront reliés par une ligne droite ou une ligne routée si vous avez [[..:brouter|BRouter]] installé et configuré. L'utilisation de BRouter pour cette fonction est fortement recommandée pour en tirer le meilleur parti.
 
-The default line color is <color #00a2e8>blue</color> but the line color and additional parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+La couleur de la ligne par défaut est <color #00a2e8>bleu</color> mais la couleur de la ligne et les paramètres d'apparence supplémentaires peuvent être configurés en fonction de vos besoins dans paramètres de  [[.:settings#map_lines_customization|personalisation des lignes sur la carte]].
 
-The example below shows the typical appearance of an individual route.
+L'exemple ci-dessous montre l'apparence typique d'un itinéraire individuel.
 
 {{ :en:brouter_individualroute.png?direct&250 |}}
 
-While you can add and remove caches/waypoints to/from your rote by long clicking them, there are also some additional functions, which can be found below the menu item ''Individual route'' in your [[livemap#top_bar_menu|map menu]]:
+Bien que vous puissiez ajouter et supprimer des caches ou des points de passage de votre itinéraire en appuyant longuement dessus, il existe également des fonctions supplémentaires, qui se trouvent sous l'élément de menu ''Itinéraire individuel'' dans le[[livemap#top_bar_menu|menu de la carte]] :
 
 
 
 {{ en:livemap_individual_route.png?nolink&400 |}}
 
-^Menu item ^ Description ^ 
-|Load individual route|Load a previously saved individual route.|
-|Set as target automatically|If activated the routing start point will be set as direction line target automatically (showing the way from your position to the starting point of the route).\\ This can be handy while doing a geocaching tour. Long-tap on a visited cache/waypoint will remove it from your individual route, and with this option activated, your next stop on your route will be set as target automatically.|
-|Sort individual route|Will open a dialog, where you can modify the sequence or remove one or more of the selected caches/waypoints on your route; The route will then be recalculated accordingly.\\ Don't forget to hit the "save" button to save your changes to the individual route, or just leave the dialog to discard them.|
-|Center on route|Will move/zoom the map, so that an the individual route is shown completely.|
-|Export individual route|You can export your created individual route into a GPX route file.|
-|Clear individual route|This will remove the created individual route.|
-==== History track ====
+^Élément du menu ^ Description ^ 
+|Charger un itinéraire individuel|Charger un itinéraire individuel précédemment enregistré.|
+|Définir comme cible automatiquement|Si cette option est activée, le point de départ de l'itinéraire sera automatiquement défini comme cible de la ligne de direction (montrant le chemin entre votre position et le point de départ de l'itinéraire).\\ Ceci peut être pratique lors d'une tournée de géocaching. Si vous appuyez longuement sur une cache ou un point de cheminement visité, il sera retiré de votre itinéraire individuel. Si cette option est activée, le prochain arrêt de votre itinéraire sera automatiquement défini comme cible.|
+|Trier l'itinéraire individuel|Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier la séquence ou supprimer un ou plusieurs des caches ou points de passage sélectionnés sur votre itinéraire ; l'itinéraire sera alors recalculé en conséquence.\\ N'oubliez pas d'appuyer sur le bouton "Enregistrer" pour sauvegarder vos modifications sur l'itinéraire individuel, ou quittez simplement la boîte de dialogue pour les ignorer.|
+|centrer sur la trace|Déplace/zoome sur la carte, de façon à ce que l'itinéraire individuel soit entièrement affiché.|
+|Exporter l'itinéraire individuel|Vous pouvez exporter votre itinéraire individuel créé dans un fichier GPX.|
+|Enlever l'itinéraire individuel|Cela supprime l' itinéraire individuel créé.|
+==== Suivi de l'historique ====
 
-The history track provides a line of your position history (your movement) on the map.
-You have to activate the history track in your [[.:settings#map_content|map content settings]], where you can also configure additional parameters (such as maximum length of the track).
+L'historique fournit une ligne de l'historique de votre position (votre mouvement) sur la carte.
+Vous devez activer l'historique dans votre [[.:settings#map_content|paramètres du contenu de la carte]], où vous pouvez également configurer des paramètres supplémentaires (tels que la longueur maximale de la trace).
 
-The default line color is black but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings. 
+La couleur de la ligne par défaut est noir mais la couleur de la ligne et les paramètres d'apparence supplémentaires peuvent être configurés en fonction de vos besoins dans paramètres de [[.:settings#map_lines_customization|personalisation des lignes sur la carte]].
 
-The example below shows the typical appearance of a history track line. 
+L'exemple ci-dessous montre l'aspect typique d'un historique du parcours. 
 
 {{ :en:livemap_history_track.png?direct&250 |}}
 
-To configure the history track you can use the map menu items below ''History track'' in your [[livemap#top_bar_menu|map menu]]:
+Pour configurer le suivi de l'historique, vous pouvez utiliser les éléments du menu de la carte situés sous ''Suivi de l'historique'' dans le [[livemap#top_bar_menu|menu de carte]].:
 
 {{ :en:livemap_history_track_2.png?nolink&400 |}}
 
-^Menu item ^ Description ^ 
-|Export history track|Allows you to export your position history to a GPX track file.|
-|Hide/Show history track|Using this option you can turn the history track off/on. Turning it off will not clear the existing track but just stop recording and hide it.|
-|Clear history track|This will clear the position history and thus remove the existing track.|
-==== Distance information ====
+^Élément du menu ^ Description ^ 
+|Exporter l'historique|Permet d'exporter l'historique de votre position vers un fichier de suivi GPX.|
+|Afficher-cacher l'historique des parcours|Cette option vous permet d'activer ou de désactiver le suivi de l'historique. Le désactiver n'effacera pas la piste existante mais arrêtera simplement l'enregistrement et le masquera.|
+|Effacer l'historique du parcours|Cela efface l'historique des positions et supprime donc la piste existante.|
+==== Informations de distance ====
 
-While using the direction line and/or individual route c:geo will also provide several distance figures at the top of the map (can also be seen in the dedicated screenshots above). The distances are shown in meter/kilometer or feet/mile depending on your settings.
+Lorsque vous utilisez la ligne de direction et/ou l'itinéraire individuel, c:geo fournit également plusieurs chiffres de distance en haut de la carte (vous pouvez également les voir dans les captures d'écran dédiées ci-dessus). Les distances sont affichées en mètres/kilomètres ou en pieds/miles selon vos paramètres.
 
-Depending on whether you use one or both lines and whether you activated to show the straight distance in addition to the routed distance (only if [[..:brouter|Brouter]] is installed) in your [[.:settings#map_content|map content settings]] several distance figures might be shown.
+Selon que vous utilisez une ou deux lignes et que vous avez activé l'affichage de la distance en ligne droite en plus de la distance acheminée (uniquement si [[..:brouter|Brouter]] est installé) dans vos [[.:settings#map_content|paramètres de la carte]], plusieurs chiffres de distance peuvent être affichés.
 
-The picture below shows a combination of all possible distance figures. Additionally the chosen target cache/waypoint is shown on top left is the direction line is active.
+L'image ci-dessous montre une combinaison de toutes les distances possibles. De plus, le cache cible/le point de passage choisi est indiqué en haut à gauche si la ligne de direction est active.
 
 {{ :en:livemap_distance_info_1.png?direct&400 |}}
 
-Some or all of these distance figures might be shown depending on configuration and active navigation lines:
+Une partie ou la totalité de ces distances peuvent être indiquées en fonction de la configuration et des lignes de navigation actives :
 
-  - The first figure is the straight line distance for the direction line (i.e. straight distance between your current position and the chosen target cache/waypoint). The icon in front represents therefore the straight line if both routed and straight line distances are shown.
-  - The second figure is the routed line distance for the direction line (i.e. the distance between your position and the chosen target cache/waypoint according to the [[..:brouter|BRouter]] routing information). The icon in front represents therefore the routed line if both routed and straight line distances are shown.
-  - The third figure is the length of your individual route.
+  - Le premier chiffre représente la distance en ligne droite pour la ligne de direction (c'est-à-dire la distance en ligne droite ou en vol d'oiseaux entre votre position actuelle et la cache/le point de cheminement cible choisi). L'icône en face représente donc la ligne droite si les distances en ligne routée et en ligne droite sont toutes deux affichées.
+  - La deuxième figure représente la distance en ligne routée pour la ligne de direction (c'est-à-dire la distance entre votre position et la cache/point de passage cible choisi selon les informations de routage [[..:brouteur|BRouter]]). L'icône en face représente donc la ligne routée si les distances en ligne droite et routée sont toutes deux indiquées.
+  - Le troisième chiffre représente la longueur de votre itinéraire individuel.
 
-For better visibility you can click on the distances to supersize them and reduce them again. If straight and routed distances are shown each click will let you cycle between straight distance enlarged, routed distance enlarged or normal view.
+Pour une meilleure visibilité, vous pouvez cliquer sur les distances pour les agrandir et les réduire à nouveau. Si les distances droites et routières sont affichées, chaque clic vous permettra d'alterner entre la distance droite agrandie, la distance routière agrandie ou la vue normale.
 
 {{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}

@@ -1,3 +1,5 @@
+**FIXME**
+
 ====== Kirjautumisongelmat ======
 
 Jos c:geo ei pysty kirjautumaan sisään geokätköilysivustolle, se näyttää päävalikossa varoituksen:

@@ -1,55 +1,47 @@
 ====== c:geon siirto toiseen laitteeseen ======
 
-Tämä sivu selostaa menettelyn, jolla voidaan siirtää kaikki c:geon tiedot yhdestä laitteesta toiseen. Tämä ohje on kätevä esimerkiksi silloin, kun halutaan kaikki vanhan laitteen c:geo-sovelluksessa olevat kätköt ja asetukset uuteen laitteeseen.
+Tämä sivu selostaa menetelmän, jolla kootaan ja siirretään kaikki c:geon tiedot yhdestä laitteesta toiseen. Tämä voi olla käytännöllinen jos olet hankkinut uuden laitteen ja haluat siirtää kaikki tallennetut kätköt ja asetukset vanhasta laitteesta uuteen.
 
 ===== Rajoitukset =====
 
-Jos seuraat tarkasti alla olevia vaiheita, niin kaikki kätköt (sisältäen niiden tilan, muistiinpanot, offline-kirjaukset), kätköhistoria ja kaikki c:geon asetukset tulevat olemaan 100% identtisiä vanhan ja uuden laitteen välillä. Nämä ovat ne tiedot, jotka yleensä halutaan siirtää vanhasta laitteesta uuteen, jotta kätköilyä voidaan jatkaa sujuvasti myös uudella laitteella.
+Jos seuraat allaolevia vaiheita, kaikki tallennetut kätköt (mukaanlukien niiden tila, muistiinpanot, offlinekirjaukset), kätköhistoria ja c:geon kaikki asetukset ovat 100% identtisiä vanhan ja uuden laitteen välillä. Nämä ovat ne asiat, jotka yleensä halutaan siirtää sujuvasti vanhasta uuteen laitteeseen.
 
-Alla oleva siirtoprosessi ei kuitenkaan sisällytä mukaan offline-karttoja tai niiden teemoja sekä vietyjä GPX- tai muistiinpanotiedostoja. Voit helposti siirtää myös nämä tiedostot vanhan laitteen [[.:mainmenu:settings#system|juurikansiosta]] uuteen laitteeseen.
+Selostettu siirtoprosessi ei kuitenkaan sisällytä offlinekarttoja tai niiden teematiedostoja sekä vietyjä GPX/kenttämuistiinpanotiedostoja. Voit helposti siirtää myös nämä tiedostot niihin liittyvien kansioiden välillä [[.:mainmenu:settings#system|juurikansiossa]] vanhasta uuteen laitteeseen.
 
-Tallennettuja lokikirjojen lokikuvia ja kätkökuvauksien kuvia ei sisällytetä siirtoon, koska nämä on tallennettu järjestelmäkansioon, joihin käyttäjällä ei ole pääsyä. Nämä kuvat voidaan kuitenkin palauttaa päivittämällä yksitellen kyseiset kätköt uudella laitteella.
+Lokikirjojen tallennettuja kuvia sekä kätkökuvausten kuvia ei sisällytetä siirtoprosessiin, koska ne on tallennettu järjestelmäkansioon, johon käyttäjällä ei ole pääsyä. Nämä tiedot kuitenkin voidaan palauttaa helposti päivittämällä kätkön tiedot uudessa laitteessa.
 
 ===== Edellytykset =====
 
-Tarvitset seuraavat asiat siirtoprosessin suorittamiseen:
+Tarvitset seuraavat asiat siirron suorittamiseen:
 
-  * Käyttökelpoinen tiedostonhallinta molemmilla laitteilla tiedostojen käsittelyyn
-  * Mahdollisuus siirtää tiedostoja laitteesta toiseen (johto, sähköposti, pilvipalvelu, SD-kortti, bluetooth tms.)
-  * Kaksi Android-laitetta, jotka voivat pyörittää c:geota 8-)
+  * Käyttökelpoinen tiedostonhallintasovellus molemmilla laitteilla tiedostojen kopiointiin/siirtoon
+  * Mahdollisuus tiedostojen siirtoon laitteesta toiseen (johto, sähköposti, pilvitallennus, SD-kortti, Bluetooth, tms.)
+  * Kaksi Android-laitetta, jotka pystyvät pyörittämään c:geota 8-)
 
-===== Vanhalla laitteella suoritettavat vaiheet =====
+===== Vanhalla laitteella tehtävät asiat =====
 
 Suorita seuraavat vaiheet vanhalla laitteella:
 
-  - Avaa c:geo
-  - Mene c:geon asetuksiin -> Varmuuskopioi / Palauta
-  - Kytke päälle asetus, joka sisällyttää käyttäjätiedot
+  - Käynnistä c:geo
+  - Mene c:geon valikkoon → Varmuuskopioi/palauta
+  - Vahvista valinta, joka sisällyttää käyttäjätiedot varmuuskopioon
   - Napauta ''Aloita varmuuskopiointi''
-  - Merkitse ylös kansion osoite, joka näytetään "Varmuuskopiointi valmis" -viestissä (kuten ''/cgeo/backup/2021-01-02 15-20'')
-  - Voit nyt käyttää joko ''Jaa''-nappia tässä viestissä lähettääksesi varmuuskopiotiedoston (kuten sähköpostin, pilvipalvelun tai Bluetoothin kautta) tai sinun tulee avata tiedostonhallinta, paikantaa varmuuskopion sisältävä kansio (katso vaihe 5) ja tallentaa kansion sisältämät tiedostot turvalliseen sijaintiin, jotta voit palauttaa ne myöhemmin uuteen laitteeseen (Tiedostot ovat seuraavalla nimillä: ''cgeo.sqlite'' ja ''cgeo-settings.xml'').
-===== Uudella laitteella suoritettavat vaiheet =====
+  - Ota ylös muistiin kansio, joka näytetään "Varmuuskopiointi valmis"-viestissä (esim. ''/cgeo/backup/2021-01-02 15-20'')
+  - Voit nyt joko käyttää suoraan ''Jaa''-painiketta lähettääksesi varmuuskopion (kuten sähköpostitse, pilvipalveluun, Bluetoothin kautta), tai sinun tulee nyt avata tiedostonhallinta, paikallistaa varmuuskopiointikansio (katso 5. vaihe) ja tallentaa tämän kansion sisältämät tiedostot turvalliseen sijaintiin myöhempään palautukseen uudella laitteilla (Tiedostojen nimet ovat ''cgeo.sqlite'' ja ''cgeo-settings.xml'').
 
-Suorita seuraavat vaiheet uudella laitteella:
+===== Uudella laitteella tehtävät asiat =====
 
-  - [[.:installation|Asenna]] sama c:geo-versio kuin vanhalla laitteella. Jos versiot ovat erilaiset, tietojen siirto voi epäonnistua tai olla rajoittunut.
-  - Kopioi tallennetut varmuuskopiotiedostot uuteen laitteeseesi haluamaasi kansioon
-  - Avaa c:geo
-  - Noudata [[.:firststeps|ohjatun määrityksen]] vaiheita (voit ohittaa geokätköpalveluiden määrityksen koska varmuuskopiosi sisältää tilitiedot) kunnes olet näytössä "Edistyneet määritysasetukset".
-  - Valitse ''Palauta'' tällä näytöllä avataksesi tiedostonhallinnan
-  - Paikanna kansio, jonne tallensit varmuuskopiotiedostot (katso vaihe 2), valitse ''Käytä tätä kainsiota'' ja vahvista napauttamalla ''Salli''
-  - Seuraavassa näytössä valitse, että haluat palauttaa kätköt sekä reittipisteet, ja niiden lisäksi ohjelman asetukset ja valitse ''OK''
-  - (Valinnainen) Palautusprosessin aikana sinulta voidaan kysyä, käytetäänkö samaa offline-karttojen ja teemojen sekä GPX-vientien  kansioasetusta kuin vanhalla laitteellasi. Jos haluat käyttää samoja kansioita myös uudella laitteellasi, sinun tulee myöntää c:geolle käyttöluvat näihin kansioihin. Muussa tapauksessa voit ohittaa kyseisen vaiheen ja asettaa nämä kansiot manuaalisesti myöhemmin.
-  - Lopuksi, napauta ''Valmis'' sulkeaksesi ohjatun määrityksen
+Perform the following steps on the new device:
 
-**Valmista tuli!**\\
-Nyt uuden laitteen c:geossa pitäisi olla samat kätköt sekä asetukset kuin vanhalla laitteellasi.
+  - [[.:installation|Asenna]] sama c:geon versio kuin vanhalla laitteella. Jos versiot ovat erilaiset, siirtoprosessi voi epäonnistua tai olla rajoitettu.
+  - Kopioi tallennetut varmuuskopiotiedostot uuteen laitteeseen haluamaasi kansioon
+  - Käynnistä c:geo
+  - Seuraa [[.:firststeps|ohjattua määritystoimintoa]] (voit hypätä palveluiden määrityksen yli, koska varmuuskopio sisältää käyttäjätietosi) kunnes saavutat vaiheen "Edistynyt määritys".
+  - Valitse tässä määrityksen näytössä ''Palauta'' avataksesi kansion valitsimen
+  - Paikallista kansio, johon tallensit varmuuskopiotiedostot (katso vaihe 2), valitse ''Käytä tätä kansiota'' ja vahvista valitsemalla ''Salli''
+  - Seuraavassa näytössä valitse haluatko palauttaa kätköt ja niiden reittipisteet sekä ohjelman asetukset ja valitse ''OK''
+  - (Valinnainen) Palautusprosessin aikana, sinulta voidaan kysyä, haluatko käyttää vanhan laitteesi kansioasetuksia offline-kartoille ja teemoille sekä GPX-viennille uudessa laitteessasi. Jos haluat käyttää samoja kansioita myös uudessa laitteessasi, sinun tulee sallia c:geolle pääsy näihin kansioihin tässä vaiheessa. Muuten voit ohittaa tämän vaiheen ja asettaa ne manuaalisesti myöhemmin.
+  - Lopuksi napauta ''Valmis'' poistuaksesi määritystoiminnosta
 
-
-
-
-
-
-
-
-
+**Se on siinä!**\\
+Uuden laitteesi c:geon pitäisi nyt sisältää samat kätköt ja asetukset kuten ne oli vanhalla laitteellasi.

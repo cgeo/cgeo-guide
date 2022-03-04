@@ -1,0 +1,105 @@
+====== Détails sur les Objets Voyageurs (TB) ======
+
+Les pages de détails des TB vous fournissent toutes les informations sur un TB spécifique. Elles peuvent être ouvertes en cliquant sur un TB dans la page d'inventaire des [[cachedetails|caches]], dans l'inventaire affiché sur l'écran [[logging#inventory|de log]] ou par [[.mainmenu:search|recherche directe]] par le code de suivi public ou secret d'un TB.
+
+{{ :en:tbdetails_details.png?direct&400 |}}
+
+Les détails des TB sont répartis sur plusieurs onglets accessibles en glissant de gauche à droite et vice versa. L'onglet des détails s'ouvre toujours en premier.
+Dans la partie inférieure de chaque onglet, le nom de l'onglet en cours est affiché. Il est également utile pour naviguer entre les onglets. Le menu de la barre supérieure est le même pour tous les onglets. 
+
+<WRAP center round info 100%>
+Comme toutes les [[loggingtb#supported_trackables|marques de TB]] ne sont pas supportées avec toutes leurs fonctions, certains onglets peuvent être manquants selon la marque de celui-ci.
+</WRAP>
+
+Vous pouvez voir l'ordre complet des onglets dans le tableau ci-dessous. Si vous cliquez sur une des images du tableau, vous en obtiendrez une version plus grande. Si vous cliquez sur le titre, vous accéderez directement à la section correspondante de la documentation :
+
+^ [[trackabledetails#details_tab|Détails]] ^ [[trackabledetails#logbook_tab|Logbook]] ^ [[trackabledetails#images_tab|Images]] ^
+|{{ :en:tbdetails_details.png?direct&400 |}}|{{ :en:tbdetails_logbook.png?direct&400 |}}|{{ :en:tbdetails_images.png?direct&400 |}}|
+
+===== Menu supérieur =====
+{{anchor:top_bar_menu:}}
+
+La barre supérieure est disponible pour tous les onglets et fournit plusieurs fonctions :
+
+<WRAP center round info 100%>
+Les icônes affichées dans la barre supérieure et le contenu derrière le bouton de menu de débordement sont distribués dynamiquement en fonction de la résolution de votre appareil et de l'orientation de l'écran. Ainsi, il est possible que plus ou moins d'éléments se trouvent derrière le bouton de menu ou s'affichent sous forme d'icônes dans la barre supérieure de votre appareil.\\
+Si une fonction du menu est affichée sous forme d'icône, vous pouvez appuyer longuement sur l'icône pour obtenir une fenêtre contextuelle indiquant sa fonction.
+</WRAP>
+
+^ Icône ^ Fonction ^ Description ^
+|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Loguer le TB]]|Rédiger un log pour ce TB.|
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|Ouvrir la page du TB dans un navigateur|Ouvre le navigateur par défaut pour afficher la page de suivi sur le site Web de géocaching.|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Mettre à jour|Met à jour tous les onglets des détails du suivi à partir du serveur.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Accéder à plus d'options|En appuyant ici, le menu des fonctions qui n'entrent pas dans la barre supérieure de l'appareil s'ouvre et les affiche donc sous forme de liste. Sur la plupart des appareils, cette icône ne sera pas affichée, car toutes les fonctions du menu s'insèrent dans la barre de menu.|
+
+===== Onglet Détails =====
+{{anchor:details_tab:}}
+
+==== Description ====
+{{anchor:description:}}
+
+{{ :en:tbdetails_details_description.png?nolink&400 |}}
+
+La première section de l'onglet Détails du TB fournit toutes les informations pertinentes, comme le montre le tableau ci-dessous.
+
+^ Nom ^ Description ^
+|Nom|Le nom du TB.|
+|Genre|Indique la marque du TB (par exemple Travel Bug pour un TB geocaching.com, Geokrety pour un TB geokrety.org)|
+|Code de suivi|Le code de suivi public (TBxxxx) de ce TB.|
+|Propriétaire|Le nom du propriétaire de ce TB.\\  Vous pouvez appuyer sur ce champ pour ouvrir un menu contextuel permettant d'effectuer des actions liées à ce propriétaire.|
+|Se situe|Le nom de la cache ou de l'utilisateur, où ce TB a été vu/enregistré pour la dernière fois. En outre, il indique le nombre de jours écoulés depuis le dernier déplacement ou la dernière découverte de ce TB.\\ Vous pouvez appuyer sur ce champ pour obtenir plus d'informations sur la cache ou l'utilisateur.|
+|Origine|Pays d'origine de ce TB.|
+|Libéré le|La date de mise en circulation de ce TB.|
+|Distance parcourue|La distance que ce TB a déjà parcourue. Selon vos [[.mainmenu:settings#appearance|paramètres]], cette valeur peut être affichée en miles (mi) ou en kilomètres (km).|
+
+==== But ====
+{{anchor:goal:}}
+
+{{:en:tbdetails_details_goal.png?nolink&400 |}}
+
+Cette section de l'onglet détails montre l'objectif présenté par le propriétaire de ce TB.
+
+Vous pouvez taper sur la description du but pour copier le texte ou une partie du texte dans votre presse-papiers. Vous pouvez également l'utiliser pour déclencher la traduction de la description dans une autre langue.
+==== Détails ====
+
+{{:en:tbdetails_details_details.png?nolink&400 |}}
+
+Cette section de l'onglet détails montre la description présentée par le propriétaire de ce TB.
+
+Vous pouvez taper sur la description du but pour copier le texte ou une partie du texte dans votre presse-papiers. Vous pouvez par ailleurs l'utiliser pour déclencher la traduction de la description dans une autre langue. 
+
+==== Image ====
+{{anchor:image:}}
+
+{{:en:tbdetails_details_image.png?nolink&400 |}}
+
+Cette section de l'onglet des détails du TB montre l'image par défaut que le propriétaire a assigné à ce TB.
+
+En cliquant sur l'image, vous l'ouvrez dans votre visionneuse d'images par défaut. 
+
+===== Onglet Logbook =====
+{{anchor:logbook_tab:}}
+
+{{:en:tbdetails_logbook.png?direct&300 |}}
+
+Cet onglet contient une liste déroulante avec les logs, chacun contenant le nom d'utilisateur, la date et le type de log, la cache associée et le texte.
+
+En cliquant sur le nom d'utilisateur, un menu contextuel s'ouvre avec des options de recherche liées au propriétaire.
+
+En cliquant sur le texte du log, vous pouvez le copier dans votre presse-papiers. En outre, vous pouvez l'utiliser pour déclencher la traduction du log dans une autre langue. 
+
+===== Onglet Image =====
+{{anchor:image_tab:}}
+
+{{:en:tbdetails_images.png?direct&300 |}}
+
+Cet onglet contient les images disponibles pour le TB. Il contient toutes les images de la description du TB ainsi que toutes les images attachées aux logs disponibles dans l'onglet [[trackabledetails#logbook_tab|logbook]].
+
+:!:
+Ce n'est pas la même fonction que la galerie des TB sur la page web du géocaching, car seules les photos des 35 dernières traces, mais pas toutes, sont affichées ici.
+
+En cliquant sur une image, vous l'ouvrez dans votre visionneuse d'images par défaut.
+
+<WRAP center round tip 60%>
+Si l'image contient des coordonnées dans ses informations d'en-tête, une petite icône de rose des vents s'affiche dans le coin inférieur gauche de l'image. Dans ce cas, vous pouvez effectuer un appui court ou long sur cette icône pour lancer votre outil de [[navigation|navigation]] préférée ou secondaire.
+</WRAP>

@@ -1,0 +1,107 @@
+====== Log d'Objets Voyageurs (TB) ======
+
+===== Objets Voyageurs supportés =====
+{{anchor:supported_trackables:}}
+
+c:geo prend en charge différents types d'objets voyageurs fournis par différentes plateformes :
+
+^ Icône ^ Type ^ Description ^ Fonctions ^
+|{{ :trackable_travelbug.png?nolink&40 |}}|Travel Bug|Objet Voyageur de [[https://www.geocaching.com/track/|geocaching.com]]|Supporté pleinement par c:geo|
+|{{ :trackable_geokrety.png?nolink&40 |}}|GeoKrety|Objet Voyageur de [[https://www.geokrety.org|geokrety.org]]|Supporté pleinement par c:geo|
+|{{ :trackable_geolutins.png?nolink&30 |}}|GeoLutin|Objet Voyageur de [[http://www.geolutins.com|geolutins.com]]|Recherche et fonctions de bases (log impossible) seulement|
+
+===== Rechercher un objet voyageur =====
+{{anchor:searching_for_a_trackable:}}
+
+La plupart des objets voyageurs ont deux codes de différents, qui peuvent être utilisés pour identifier et rechercher l'objet voyageur :
+  * **Code public :**\\ Le code non secret de l'objet voyaheur (par exemple TBxxxx, GKxxxx, GLxxxx). Ce code peut être utilisé pour rechercher la recherche et afficher les détails du TB, mais ne peut pas être utilisé pour l'enregistrer.\\ \\ Vous pouvez utiliser le code de suivi public pour rechercher un TB en utilisant la fonction [[.mainmenu:search|recherche]] ou la barre de  [[.mainmenu:quicksearch|recherche rapide]].\\ \\ La recherche vous montrera les [[trackabledetails|détails du TB]], à partir desquels vous pouvez commencer à enregistrer le TB (si vous connaissez également son code secret de suivi).
+
+  * **Code secret :**\\ Il s'agit d'un code de suivi non public, généralement imprimé uniquement sur le TB. Ce code est nécessaire pour loguer un TB, afin de garantir que vous l'avez physiquement.\\ \\ Le code secret de suivi sera requis lors de l'écriture de votre log. Pour les TB geocaching.com, vous pouvez également utiliser le code secret dans la fonction [[.mainmenu:search|recherche]]. Cela ne fonctionnera pas pour les marques de TB autres que Travel Bugs car\\ \\ La barre de [[.mainmenu:quicksearch|recherche rapide]] peut également être utilisée pour rechercher un TB par son code secret, sauf si celui-ci commence par hasard par un identifiant réservé aux géocaches (par exemple GCxxxx, OCxxxx, OUxxxx), auquel cas c:geo ne peut pas savoir si vous recherchez le code secret d'un TB ou d'une géocache. Dans ce cas, vous devez utiliser la fonction [[.mainmenu:search|recherche]] à la place. \\ \\ La recherche vous montrera les [[trackabledetails|détails du TB]], à partir desquels vous pouvez commencer à loguer le TB.
+
+===== Loguer un objet voyageur =====
+{{anchor:logging_a_trackable:}}
+
+Depuis l'écran de vue des détails du TB, vous pouvez commencer à le loguer, ce qui ouvrira cet écran page:
+
+{{:en:loggingtb.png?direct&400 |}}
+==== Menu superieur ====
+{{anchor:top_bar_menu:}}
+
+
+<WRAP center round info 100%>
+Les icônes affichées dans la barre supérieure et le contenu derrière le bouton de menu de débordement sont distribués dynamiquement en fonction de la résolution de votre appareil et de l'orientation de l'écran. Il se peut donc que vous trouviez plus ou moins d'éléments derrière le bouton de menu ou qu'ils soient affichés sous forme d'icônes dans la barre supérieure de votre appareil.
+Si un élément de menu est représentée par une icône, vous pouvez appuyer longuement sur l'icône pour obtenir une fenêtre contextuelle indiquant sa fonction.
+</WRAP>
+
+^ Icône ^ Fonction ^ Description ^
+|{{ :ic_menu_send.svg?nolink&40 |}}|Envoyer le log|Utilisez ce bouton pour envoyer votre log ligne une fois que vous avez terminé de le rédiger.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Ajouter un modèle|Cela vous permet d'ajouter un [[.mainmenu:settings#placeholder_templates|modèle]] ou votre signature au log.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Menu des fonctions cachées|En appuyant ici, vous ouvrez le menu des fonctions qui ne peuvent pas être placées dans la barre supérieure de votre appareil et qui sont donc affichées sous forme de liste. Celles affichées dans cette liste sont également décrites dans ce tableau.|
+| |Smileys|Ouvre une liste de balises 'smiley' que vous pouvez insérer dans votre log.|
+| |Recopier le log précédent|Cette fonction insère le texte du log du dernier TB que vous avez logué.|
+
+
+==== Types de log ====
+{{anchor:log_type:}}
+
+{{ :en:loggingtb_logtype.png?nolink&400 |}}
+
+En fonction de la marque du TB, de son état actuel et si vous êtes le propriétaire du TB, différents types de logs peuvent être sélectionnés en appuyant sur ce champ :
+
+^Type de log ^ Description ^
+|Pris|Vous avez récupéré ce TB de la géocache, où il est actuellement répertorié.|
+|Découvert|Vous voulez seulement signaler que vous l'avez vu mais que vous n'avez effectué aucune autre action avec lui.|
+|Déposé|Vous l'avez placé dans une géocache.\\ \\ :!: Ce type de journal n'est disponible que pour les GeoKrety, car les logs de geocaching.com sont toujours combinés avec un log de cache et donc inclus dans la page [[logging#inventory|log des géocaches]].|
+|Visiter|Vous voulez que ce TB visite une géocache.\\ \\ :!: Ce type de journal n'est disponible que pour les GeoKrety, car les logs de geocaching.com sont toujours combinés avec un log de cache et donc inclus dans la page [[logging#inventory|log des géocaches]].|
+|Pris d'ailleur|Vous souhaitez transférer ce trackable dans votre inventaire; vous ne l'avez pas trouvé dans une cache mais l'avez récupéré auprès d'un autre utilisateur ou dans un lieu inconnu.|
+|Note|Pour écrire une note/commenter sur ce TB|
+|Enregsitrer dans votre collection|Si un TB geocaching.com est marqué comme étant à collectionner, vous pouvez utiliser ce type de log pour le déplacer de votre inventaire à votre collection personnelle de TB.|
+|Enregistrer dans votre inventaire|Si un TB geocaching.com se trouve actuellement dans votre collection, vous pouvez utiliser ce type de log pour le déplacer vers votre inventaire.|
+
+
+==== Date du log ====
+{{anchor:log_date_time:}}
+
+{{:en:loggingtb_datetime.png?nolink&400 |}}
+
+Sélectionnez la date (et l'heure - prise en charge uniquement pour les GeoKrety) associée à votre log.
+
+==== Code de suivi ====
+{{anchor:tracking_code:}}
+
+{{:en:loggingtb_trackingcode.png?nolink&400 |}}
+
+Entrez le code secret de suivi dans ce champ avant de poster votre log. Vous aurez besoin du code secret pour poster un log autre que ''Note''. GeoKrety a également besoin du code secret pour publier une ''Note''.
+
+Le code secret sera déjà affiché dans ce champ si vous l'avez utilisé pour rechercher ce TB ou si celui-ci est actuellement dans votre inventaire.
+
+
+==== Message du log ====
+{{anchor:log_text:}}
+
+{{:en:loggingtb_logtext.png?nolink&400 |}}
+
+Entrer votre texte dans cet espace.
+
+==== Réseaux sociaux ====
+{{anchor:social_media:}}
+
+{{:en:loggingtb_socialmedia.png?nolink&400 |}}
+
+Si vous avez connecté c:geo à [[https://twitter.com|Twitter]] dans les [[.mainmenu:settings#social_media|paramètres]], ce champ sera affiché. Si vous activez la case à cocher, c:geo publiera un tweet parallèlement à l'envoi de ce journal.
+
+==== Cases spéciales ====
+{{anchor:special_fields:}}
+
+{{:en:loggingtb_dropoff_gk.png?nolink&300 |}}
+
+Dans le cas où vous composez un log ''Déposé'' pour un TB GeoKrety, vous aurez besoin de définir le code géographique et/ou les coordonnées de la cache, où vous l'avez déposé.
+
+Utilisez le champ ''Géocode'' pour entrer le code géographique de la cache où vous avez déposé le TB ou tapez sur ''Coordonnées'' pour ouvrir la [[coordinatedialog|boite de dialogue d'import de coordonnées]] et entrez les coordonnées où vous l'avez déposé.
+
+===== Inventaire =====
+{{anchor:trackable_inventory:}}
+
+L'inventaire est la liste de tous les TB que vous avez actuellement entre les mains (c'est-à-dire que vous les avez récupérés dans une cache ou pris à un autre utilisateur).
+
+Pour l'instant, c:geo ne permet pas de visualiser votre inventaire. Cependant, vous pourrez voir votre inventaire complet dans la section [[logging#inventory|inventaire]] de la page [[logging|log d'une géocache]], lorsque vous rédigez un log pour une géocache.

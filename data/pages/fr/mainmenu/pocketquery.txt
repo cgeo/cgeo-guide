@@ -1,0 +1,24 @@
+====== Listes / Pocket Queries (PQ) ======
+
+{{:ic_menu_pocket_query.svg?nolink&50 |}}
+{{:ic_menu_bookmarks.svg?nolink&50 |}}
+
+Ces fonctions permettent de visualiser les PQ ou les listes existantes sur le serveur de géocaching et soit de les afficher sous forme de [[listes|liste]], soit d'importer la PQ complète, de manière similaire à [[..offline#gpx_import|importation d'un fichier GPX]].
+
+<WRAP center round info 100%>
+Ce menu n'est disponible que pour les membres premium de geocaching.com car les requêtes de poche et les listes sont des fonctions premium.
+</WRAP>
+
+Après avoir sélectionné cette fonction du menu, les listes correspondantes seront chargées à partir du serveur comme ceci:
+
+{{:en:pocketquery.png?nolink&400 |}}
+{{ :en:bookmarklists.png?nolink&400 |}}
+
+\\
+\\
+La liste affichera chaque PQ ou liste existante avec son nom comme titre. Le sous-titre fournit des informations sur le nombre de caches contenus dans chaque PQ/liste.
+Pour les PQ, il contient également le jour où la requête a été lancée et les jours restants où la requête sera disponible sur le serveur.
+
+L'icône {{:ic_menu_save.svg?nolink&20|}} peut être utilisée pour importer l'ensemble de la requête / liste dans une de vos listes, l'icône {{:ic_menu_search.svg?nolink&20|}} ouvrira la PQ pour la prévisualiser.
+
+L'interrupteur à bascule "Tout montrer" dans la barre de titre permet de masquer les requêtes / listes pour lesquelles aucun téléchargement n'est disponible.

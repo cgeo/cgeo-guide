@@ -1,51 +1,50 @@
-====== BRouterin käyttö c:geon kanssa ======
+====== Reititetyn navigoinnin käyttö c:geossa ======
 
 {{:helper_brouter.png?nolink&100 |}}
 
-BRouter on reititysmoottori, joka on integroitu c:geoon. Se tarjoaa reititetyt polut, jotka lasketaan offline-tilassa kaksien koordinaattien välillä, perustuen [[https://openstreetmap.org|OpenStreetMap]]-dataan. Jos [[.:mainmenu:settings#navigation|reititystoiminto]] on aktivoitu, c:geo voi käyttää sitä korvatakseen normaalin suoran linjan reititetyllä linjalla sijaintisi ja navigaatiosijainnin välillä (esim. kätkö tai reittipiste), kuten esimerkkivertailussa alla.
+BRouter on reititysmoottori, joka on integroitu c:geoon. Se tarjoaa reititetyn navigaation, joka lasketaan offline-tilassa kaksien koordinaattien välillä [[https://openstreetmap.org|OpenStreetMap]]-tietoihin perustuen.
+Jos [[.:mainmenu:settings#navigation|reititystoiminto]] on aktivoitu, c:geo  voi käyttää sitä korvaakseen kartalla tavallisen suoran linjan sijaintisi ja navigointikohteen (kuten kätkön tai reittipisteen) välillä reititetyllä linjalla, kuten näet alla olevassa esimerkkien vertailussa.
 
-^ Navigointi ilman BRouteria ^ Navigointi BRouterin kanssa ^
+^ Navigaatio ilman reititystä ^ Navigaatio reitityksellä ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
-Reititys voidaan määrittää kävelyä, pyöräilyä tai autolla kulkemista varten tarpeidesi mukaisesti ja auttaa löytämään sopivan polun päämäärääsi. Lisäksi voit käyttää tätä reititystä luodaksesi reittipisteitä sisältäviä yksittäisiä polkuja, jotta voit suunnitella kätköilymatkasi.
+Reititystä voidaan mukauttaa kävelyyn, pyöräilyyn tai autoiluun sopivaksi tarpeidesi mukaisesti ja auttaa sinua löytämään tien määränpäähäsi. Lisäksi voit käyttää tätä reititystä luodaksesi yksittäisiä reittejä, jotka sisältävät useita järjestyksessä olevia reittipisteitä, jotta voit suunnitella kätköilymatkasi.
 
-===== Reitityksen aktivointi =====
+===== Aktivoi reititys =====
 
-Voit aktivoida sisäisen reititystoiminnon ja määrittää lisäasetukset (kuten reititystietojen tallennuskansio, automaattinen lataus) [[.:mainmenu:settings#navigation|c:geon reititys/navigaatioasetuksissa]].
+Voit aktivoida sisäisen reititystoiminnon ja määrittää lisäasetukset (kuten reititystietojen tallennuskansion, automaattisen latauksen) [[.:mainmenu:settings#navigation|c:geon reititys/navigaatioasetuksissa]]. 
 
-Kun reititys on aktivoitu ja automaattinen lataus aktiivinen, reititystiedot halutulle maantieteelliselle alueelle ladataan automaattisesti, kun reititys reittipisteeseen aloitetaan ensimmäisen kerran.
+Kun reititys on aktivoitu ja automaattinen lataus päällä, niin reititystiedot halutulle maantieteelliselle alueelle ladataan automaattisesti, kun reititystä käytetään ensimmäisen kerran.
 
 <WRAP center round info 100%>
-BRouterin reititystiedot voivat olla kooltaan useita satoja megatavuja.
+BRouterin käyttämä reititysdata voi olla kooltaan useita satoja megatavuja.
 </WRAP>
 
 ===== Käyttö c:geossa ====
 
-Kun olet aktivoinut reitityksen kuten yllä, c:geo käyttää sitä automaattisesti. Määritystä ei tarvita c:geossa, paitsi saatat haluta vaihtaa käytettyä reititystilaa (pyöräily, kävely, autoilu) tarpeiden mukaisesti.
-Voit tehdä tämän [[.:mainmenu:livemap#map_quick_settings|kartan pika-asetuksissa]].
+Kun olet aktivoinut reitityksen yllä selostetun mukaisesti, c:geo käyttää sitä automaattisesti. Määritykselle c:geossa ei ole tarvetta, paitsi siinä tapauksessa jos haluat vaihtaa reititystilaa (pyöräily, kävely, autoilu) tarpeidesi mukaiseksi.
+Tämän voi tehdä [[.:mainmenu:livemap#map_quick_settings|kartan pika-asetuksissa]].
 
-Sisäistä BRouter-reititysmoottoria käytetään reittien laskemiseen pääasiassa kahdessa toiminnossa, kuten pikaisesti alla selitettynä. Löydät yksityiskohtaisemman selostuksen kartan navigaatioviivoista ja niiden toiminnoista tämän käyttöoppaan [[.:mainmenu:livemap#map_navigation|livekartta-osiossa]].
+Sisäistä BRouter-moottori käytetään pääasiassa kahteen toimintoon, jotka selostetaan lyhyesti alla. Löydät laajemman selostuksen kartan navigointiviivoille ja niiden toiminnoille tämän käyttöohjeen [[.:mainmenu:livemap#map_navigation|live-kartta]]-kuvauksessa.
+
 ==== Suuntaviiva ====
 
-Jos aloitat navigaation kätkölle/reittipisteelle karttaa käyttämällä, suuntaviiva sijaintisi ja kätkön/reittipisteen välillä on nyt reititetty, korvaten suoran viivan, joka menee linnuntietä.
+Jos käynnistät navigaation kätkölle/reittipisteelle käyttäen karttaa, suuntaviiva sijaintisi ja kätkön/reittipisteen välillä käyttää nyt reititettyä linjaa suoran linjan sijasta.
 
-Etäisyystieto ylhäällä oikealla näyttää reititetyn etäisyyden suoran reitin etäisyyden lisäksi.
+Etäisyystieto ylhäällä oikealla näyttää suoran etäisyyden lisäksi reititetyn etäisyyden (jos tämä on aktivoitu [[.:mainmenu:settings#offline_routing|c:geon asetuksissa]]).
 
 {{ :en:brouter_with.png?direct&400 |}}
 ==== Yksittäinen reitti ====
 
-Jotta voit käyttää yksittäisen reitin toimintoa, sinun tulee aktivoida kartan pitkän painalluksen toiminto [[.:mainmenu:settings#map_behavior|kartan käyttäytymisen asetuksissa]].
+Jotta voit käyttää yksittäisen reitin toimintoa, sinun tulee aktivoida kartan pitkän painalluksen toiminto [[.:mainmenu:settings#map_behavior|kartan käyttäytymisasetuksissa]].
 
-Tämän jälkeen voit yksinkertaisesti painaa pitkään eri kätköjä/reittipisteitä kartallasi, yhdistääksesi ne yhteen reititettyyn linjaan järjestyksessä. Tällä toiminnolla voidaan esimerkiksi suunnitella kätköilymatka kuten alla olevassa esimerkissä.
+Tämän jälkeen voit yksinkertaisesti painaa pitkään eri kätköjä/reittipisteitä kartallasi yhdistääksesi ne reititetyllä linjalla pisteestä toiseen. Tämä toiminto antaa mahdollisuuden kätköilymatkan suunnitteluun, kuten allaolevassa esimerkissä.
 
 {{ :en:brouter_individualroute.png?direct&400 |}}
 
-Poistaaksesi yhden kätkön/reittipisteen reitistäsi, paina taas sitä pitkään. Lisäksi voit käyttää ''Yksittäinen reitti''-alavalikkoa [[en:mainmenu:livemap#top_bar_menu|kartan valikossa]] lajitellaksesi, viedäksesi, tuodaksesi tai poistaaksesi yksittäisen reittisi.
+Poistaaksesi yhden kätkön/reittipisteen, yksinkertaisesti paina sitä pitkään uudelleen. Lisäksi voit käyttää alavalikkoa ''Yksittäinen reitti'' 
+ [[en:mainmenu:livemap#top_bar_menu|kartan valikossa]] lajitellaksesi, viedäksesi, tuodaksesi tai poistaaksesi yksittäisen reitin.
 
-==== Kustomointi ====
+==== Mukautus ====
 
-Välttääkseen mahdollisia c:geon käytön viiveitä, c:geo laskee oletuksena reittejä maksimissaan 10km pituuteen asti. Voit muuttaa tätä rajaa 0 ja 999 km välillä c:geon [[.:mainmenu:settings#map_content|karttasisältöasetuksissa]]. Lisäksi voit muokata erilaisten kartalla näkyvien viivojen parametrejä (paksuus, väri, läpinäkyvyys) [[.:mainmenu:settings#map_lines_customization|karttaviiva-asetuksissa]].
-
-
-
-
+Jotta mahdolliset viivästykset c:geon käytössä voidaan minimoisa, se laskee reittejä oletuksena max. 10 kilometriin asti. Tätä rajaa voidaan muokata 0 ja 999 kilometrin välillä c:geon [[.:mainmenu:settings#map_content|karttasisältöasetuksissa]]. Lisäksi voit mukauttaa erilaisten kartalla näkyvien linjojen parametrejä (paksuus, väri, läpinäkyvyys)  [[.:mainmenu:settings#map_lines_customization|karttalinjoken mukautusasetuksissa]].

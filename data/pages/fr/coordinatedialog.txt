@@ -1,0 +1,46 @@
+====== Saisie de coordonnées ======
+
+{{:en:coordinput.png?direct&300 |}}
+
+La boîte de dialogue de saisie des coordonnées s'ouvre si vous tapez sur le champ des coordonnées pendant l'édition d'un [[cachedetails#waypoint_tab|point de passage]] ou pour saisir des coordonnées dans les menus [[.mainmenu:search|de recherche]].
+
+Le bouton {{:ic_menu_cancel.svg?nolink&30|}} ferme la boîte de dialogue sans modification, le bouton {{:ic_menu_done.svg?nolink&30|}} ferme la boîte de dialogue et enregistre les modifications.
+
+<WRAP center round tip 60%>
+Veillez à sauvegarder les modifications, en particulier lorsque vous utilisez le calculateur de points de passage, car il se peut qu'aucune coordonnée valide ne s'affiche, mais vous souhaitez tout de même sauvegarder les modifications récentes que vous avez apportées dans le calculateur.
+</WRAP>
+
+===== Format des coordonnées =====
+{{anchor:coordinate_format}}
+
+{{:en:coordinput_format.png?nolink&300 |}}
+
+En appuyant sur ce champ, vous pouvez choisir différents formats de coordonnées [[coordformat|supportés]] ou sélectionner ''Texte'' pour saisir manuellement le format souhaité. Les champs de saisie des coordonnées changeront de disposition en fonction de votre sélection.
+
+Si vous avez déjà saisi des coordonnées, celles-ci seront converties dans le format sélectionné.
+===== Import de coordonnées =====
+{{anchor:coordinate_input}}
+
+{{:en:coordinput_coords.png?nolink&300 |}}
+
+Utilisez ces champs pour saisir les coordonnées. En appuyant sur N/E, vous pouvez passer à S/W si nécessaire.
+
+La disposition de ces champs de saisie dépend du format de coordonnées que vous avez sélectionné ci-dessus.
+
+===== Source des coordonnées =====
+{{anchor:coordinate_sources}}
+
+Sous les champs de saisie des coordonnées, vous trouverez plusieurs boutons permettant d'insérer des coordonnées provenant de différentes sources.
+Certains de ces boutons peut être affiché en fonction de l'endroit où vous utilisez la boîte de dialogue et d'autres conditions.
+
+^ Bouton ^ Description ^
+|Ma position|Insère votre position actuelle dans les champs de coordonnées.|
+|Coordonnées de la cache|Insère les coordonnées de la cache dans les champs de coordonnées.|
+|[[.:waypointcalculator|Calculer les coordonnées]]|Utilise les coordonnées déjà saisies ci-dessus (en option) et ouvre le calculateur de points de passage.|
+|Depuis le presse-papier|Ce bouton ne s'affiche que si votre presse-papiers contient des coordonnées valides et les colle dans les champs de coordonnées.|
+|Effacer les coordonnées|Vide les champs de coordonnées.|
+
+===== Calculateur de point de passage =====
+{{anchor:waypoint_calculator}}
+
+L'utilisation du calculateur de point de passage est décrit dans [[.:waypointcalculator|cette page du guide.]]

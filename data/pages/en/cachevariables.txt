@@ -201,7 +201,7 @@ You may specify consecutive values using '','' as a delimiter. You may exclude v
   * ''[0-3, ^1-2]'' evaluates to a range containing ''0'' and ''3''.
   * ''[0-3, ^1-2, 5]'' evaluates to a range containing ''0'', ''3'' and ''5''.
 
-When a range is used in a context where only one value is allowed (this is the case in normal calculation), the first range value is used for calculation. For example, the expression ''[8, 0-9]'' will evalulate to ''0'' in a normal calculation context, while ''[8, 0-9]'' will evalulate to ''8''.
+When a range is used in a context where only one value is allowed (this is the case in normal calculation), the first range value is used for calculation. For example, the expression ''[0-9]'' will evalulate to ''0'' in a normal calculation context, while ''[8, 0-9]'' will evalulate to ''8''.
 
 Ranges currently support only positive constant integer values. A range must always be evaluate to at least 1 value and a range may not evaluate to more than 20 values. For example the following ranges are invalid:
   * ''[]'': empty
@@ -214,3 +214,10 @@ A formula may include one or more range definitions mixed with normal other form
   * ''3*[0-2]'': evaluates to values ''0'', ''3'' and ''6''
   * ''A*[4, 7]'': for ''A=3'' this evaluates to values ''12'' and ''21''
   * ''[1-2]*[3-4]'': evaluates to ''3'', ''6'', ''4'' and ''8''.
+
+
+==== Comments ====
+
+You may enter comments into formula expressions using the ''#'' character. Comments end at next ''#'' or at end of expressions. Everything in a comment is ignored during evaluation. For example:
+  * ''A * 5 # test comment'' for ''A=3'' evaluates to ''15''
+  * ''3.14 # this is pi # * 2 # and this is two'' evaluates to ''6.28''

@@ -26,7 +26,7 @@ c:geo is only a client application for geocaching and is not associated with any
 ===== Users' Manual =====
 {{anchor:users_manual:}}
 
-==== Main screen ====
+==== Main Functions ====
 {{anchor:main_menu:}}
 
   * [[.mainmenu:start|Home Screen]] - A central dashboard with user information

@@ -26,7 +26,7 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
 ===== Bedienungsanleitung =====
 {{anchor:users_manual:}}
 
-==== Hauptmenü ====
+==== Hauptfunktionen ====
 {{anchor:main_menu:}}
 
   * [[.mainmenu:start|Startbildschirm]]  - Die Funktionen des Startbildschirms

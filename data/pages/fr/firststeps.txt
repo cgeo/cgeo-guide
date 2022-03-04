@@ -1,5 +1,3 @@
-FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
-
 ====== Premier démarrage de c:geo ======
 
 <WRAP center round important 100%>
@@ -23,7 +21,7 @@ Si vous cliquez sur ''Configurer votre/vos plateforme(s) de géocaching'' vous s
 
 ===== Configurer vos plateformes de géocaching =====
 
-Maintenant sélectionnez la plateforme de géocaching que vous voulez utiliser dans la liste des plateformes supportées. Vous pouvez vous connecter à plusieurs d'entre elles en revenant à cet écran plus tard, vous le trouverez dans ''Menu → Paramètres → Services''.
+Maintenant sélectionnez la plateforme de géocaching que vous désirez utiliser dans la liste des plateformes supportées. Vous pouvez vous connecter à plusieurs d'entre elles en revenant à cet écran plus tard, vous le trouverez dans ''Menu → Paramètres → Services''.
 
 {{:fr:services.png?direct&400}}
 
@@ -39,7 +37,7 @@ Si vous n'êtes pas encore inscrit, vous pouvez cliquer sur le bouton ''Créer u
 {{ :fr:firststeps_2.png?direct&400 }}
 
 
-Une fois la connexion effectuée, c:geo va retourner automatiquement à l'écran précédent où vous pourrez voir que la connexion est un succès car un message "Connecté en tant que" suivi de votre nom d'utilisateur y est affiché. Le bouton ''Autoriser c:geo'' est ainsi remplacé par le bouton ''Mettre à jour ou supprimer l'autorisation'' qui vous permet de mettre à jour votre identifiant et votre mot de passe pour geocaching.com. Vous pouvez également voir votre avatar geocaching.com apparaitre à droite de ce nouveau bouton.
+Une fois la connexion effectuée, c:geo va retourner automatiquement à l'écran précédent où vous pourrez voir que la connexion est un succès, car un message "Connecté en tant que" suivi de votre nom d'utilisateur y est affiché. Le bouton ''Autoriser c:geo'' est ainsi remplacé par le bouton ''Mettre à jour ou supprimer l'autorisation'' qui vous permet de mettre à jour votre identifiant et votre mot de passe pour geocaching.com. Vous pouvez également voir votre avatar geocaching.com apparaitre à droite de ce nouveau bouton.
 
 {{:fr:firststeps_3_2.png?direct&400 }}{{ :fr:firststeps_3_1.png?direct&400}}
 
@@ -47,13 +45,13 @@ Une fois la connexion effectuée, c:geo va retourner automatiquement à l'écran
 Si la connexion échoue, merci de se rendre sur la [[http://faq.cgeo.org#login-failed|FAQ]](en) pour obtenir de l'aide.
 </WRAP>
 
-Maintenant que vous êtes connecté à geocaching.com vous pouvez appuyer sur la touche retour de votre appareil jusqu'à atteindre le menu principal de c:geo. Au prochain démarrage de l'application vous arriverez automatiquement à ce menu principal.
+Maintenant que vous êtes connecté à geocaching.com vous pouvez appuyer sur la touche retour de votre appareil jusqu'à atteindre le menu principal de c:geo. Au prochain démarrage de l'application, vous arriverez automatiquement à ce menu principal.
 
 ===== Se connecter à des plateformes Opencaching =====
 
 FIXME **Modifier le guide pour montrer comment se connecter à un service d'Opencaching français**
 
-Si vous voulez vous connecter depuis c:geo à d'autres services que geocaching.com ou accéder à nouveau aux paramètres, rendez vous dans ''Menu → Paramètres → Services''
+Si vous voulez vous connecter depuis c:geo à d'autres services que geocaching.com ou accéder à nouveau aux paramètres, rendez-vous dans ''Menu → Paramètres → Services''
 
 <WRAP center round tip 100%>
 Vous pouvez trouver plus d'information sur les plateformes de géocaching supportées par c:geo [[.mainmenu:settings#Services|ici]].
@@ -64,11 +62,11 @@ Démarrez ensuite le processus de connexion en cliquant sur ''Autoriser c:geo'',
 
 {{ :fr:opencaching_1.png?direct&400 }}
 
-puis ''Demander l'autorisation'' sur l'écran suivant. Si vous n'avez pas encore de compte, vous pouvez cliquer sur le bouton ''Créer un compte'' pour ouvrir la page d'inscription de la plateforme d'Opencaching en question.
+Puis ''Demander l'autorisation'' sur l'écran suivant. Si vous n'avez pas encore de compte, vous pouvez cliquer sur le bouton ''Créer un compte'' pour ouvrir la page d'inscription de la plateforme d'Opencaching en question.
 
 {{ :fr:opencaching_2.png?direct&400 }}
 
-Votre navigateur s'ouvre et vous arrivez maintenant sur la page web de la plateforme d'Opencaching. Connectez vous sur cette page web avec votre nom d'utilisateur et votre mot de passe puis, quand cela est demandé, autorisez c:geo à accéder à votre compte Opencaching.
+Votre navigateur s'ouvre et vous arrivez maintenant sur la page web de la plateforme d'Opencaching. Connectez-vous sur cette page web avec votre nom d'utilisateur et votre mot de passe puis, quand cela est demandé, autorisez c:geo à accéder à votre compte Opencaching.
 
 {{ :fr:opencaching_3.png?direct&400 }}
 

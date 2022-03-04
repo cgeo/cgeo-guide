@@ -1,0 +1,89 @@
+====== Géocaching hors-ligne ======
+
+===== Introduction générale =====
+{{anchor:general_remarks:}}
+
+L'objectif principal de c:geo est d'avoir un accès en ligne à votre plateforme de géocaching. Cependant, c:geo offre également des fonctionnalités hors ligne permettants de l'utiliser sans connexion réseau (par exemple, lors de la pratique du geocaching à l'étranger ou en dehors de la couverture du réseau mobile).
+
+Afin d'utiliser c:geo complètement hors ligne, vous devrez préparer certaines choses en fonction de vos besoins :
+
+  * Stockez les caches que vous voulez trouver pour une utilisation hors ligne (manuellement, via [[offline#gpx_import|l'import GPX]] ou à partir d'une [[.mainmenu:pocketquery|PocketQuery (PQ)]]).
+  * Téléchargez une carte [[offline#offline_maps|hors-ligne]] pour la zone géographique où vous allez.
+  * Activez les [[.mainmenu:settings#offline_data|paramètres]] nécessaires pour, par exemple, stocker les images des log avec la cache afin de les rendre disponibles hors ligne.
+
+Cette page décrira ces scénarios d'utilisation hors ligne.
+
+<WRAP center round tip 100%>
+Si vous voulez éviter tout transfert de données, vous devriez de toute façon désactiver la connexion Internet sur votre appareil, car c:geo essaiera toujours de se connecter une fois que vous l'aurez lancé. Sur la plupart des appareils, la connexion Internet est automatiquement déconnectée en cas d'itinérance ou si la partie mobile est désactivée.
+</WRAP>
+
+
+===== Import GPX =====
+{{anchor:gpx_import:}}
+
+Les fichiers GPX contiennent des informations sur les caches et leurs points de passage. 
+Vous pouvez obtenir des fichiers GPX à partir de différentes sources, par exemple, en tant que membre premium de geocaching.com, vous pouvez exporter vos listes ou vos PQ sous forme de fichiers GPX.
+
+<WRAP center round info 100%>
+c:geo prend explicitement en charge les fichiers GPX de geocaching.com et des sites d'opencaching. Toutefois, si votre fichier GPX provient d'une autre source mais utilise la même syntaxe, il fonctionnera probablement aussi bien.
+</WRAP>
+
+Pour importer un fichier GPX, vous avez deux possibilités :
+
+  * Utilisez un navigateur de fichiers sur votre appareil, tapez sur le fichier GPX stocké sur votre appareil et sélectionnez c:geo comme application cible. Une fenêtre de sélection s'affiche, dans laquelle vous devez sélectionner la [[.mainmenu:lists|liste]] dans laquelle les caches de votre fichier GPX seront importées.
+
+  * Ouvrez une [[.mainmenu:lists|liste]] de caches stockés ou créez une nouvelle liste et sélectionnez ''Menu'' -> ''Importer'' -> ''Importer GPX''. Cela va scanner le répertoire que vous avez [[.mainmenu:lists#system|configuré]] pour être utilisé pour les importations GPX et vous proposer de choisir un fichier à partir de là.
+
+Une fois le processus d'importation terminé, la liste sélectionnée contiendra désormais les caches importées.
+
+Veuillez noter que certaines informations sur les caches ne sont pas contenues dans les fichiers GPX. Si vous avez besoin de certaines des informations suivantes, vous devez les ajouter manuellement, par exemple en actualisant la cache en ligne :
+
+^ Information ^ Description ^
+|Attributs|Pour que les fichiers GPX de geocaching.com contiennent les attributs du cache, vous devez choisir d'utiliser la version 1.0.1 du GPX sur le site Web.|
+|Notation de GCVote|GCVote étant un service externe, les informations relatives à la note ne sont pas contenues dans les fichiers GPX.|
+|Image des caches|Le fichier GPX contient les liens vers toute image que le propriétaire utilise dans sa description de la cache, mais ne contient pas l'image elle-même. Vous devez ouvrir la cache en ligne ou rafraîchir la cache pour charger les images.|
+|Images des logs|Le fichier GPX contient les liens vers les images que les utilisateurs ont jointes à leurs log, mais ne contient pas l'image elle-même. Vous devez ouvrir le cache en ligne ou rafraîchir le cache pour charger les images.|
+|Points Favoris (PF)|Pour que les fichiers GPX de geocaching.com contiennent les points favoris d'une cache, vous devez choisir d'utiliser la version GPX 1.0.1 sur le site web.|
+
+===== Logs hors-ligne =====
+{{anchor:offline_logging:}}
+
+Vous avez deux possibilités pour écrire des logs hors ligne dans c:geo :
+
+  - Écrivez vos logs comme d'habitude, mais au lieu de les envoyer en ligne, sauvegardez-les en utilisant la fonction ''Sauvegarder hosr-ligne'' dans le [[logging#top_bar_menu|menu supérieur]].
+  - Activez la fonction ''Logs hors-ligne'' dans les [[.mainmenu:settings#other_logging_options|paramètres]] qui fonctionne complètement hors ligne.
+
+Alors que la première option ne diffère pas de l'utilisation en ligne, la deuxième option remplacera le menu ''Visite du journal'' par un menu ''Journal hors ligne en un seul clic'' à tous les endroits. Dès que la fonction est activée, c:geo n'affichera pas les logs en ligne par défaut mais stockera uniquement l'état trouvé hors ligne. 
+
+Lorsque vous utilisez cette fonction, le menu contextuel suivant s'affiche :
+{{:en:onetapofflinelog.png?nolink&400|}}
+
+Il suffit de cliquer sur le type de log souhaité et votre log hors ligne sera enregistré en conséquence. L'option ''Effacer'' n'est disponible que si vous avez déjà enregistré un log hors ligne pour cette cache. Dans ce cas, le type de log déjà stocké est marqué d'une coche rouge dans ce menu.
+
+Vous pouvez également sélectionner ''Log de visite'' pour ouvrir l'écran normal de [[logging|log]] pour écrire un journal complet et le stocker.
+
+===== Export des notes de terrain =====
+{{anchor:field_note_export:}}
+
+Les notes de terrain (aussi appelées brouillons) sont prises en charge par geocaching.com et certains sites d'opencaching. Elles permettent d'enregistrer hors ligne les découvertes de caches et de les télécharger par lots sur le site Web plus tard.
+
+c:geo prend en charge l'exportation des notes de terrain ainsi que leur téléchargement automatique sur le site Web (pour geocaching.com).
+
+Les caches enregistrées hors ligne sont marquées par une ligne orange dans votre [[.mainmenu:lists|liste]] et par un smiley rouge sur la [[.mainmenu:livemap|carte]]. Pour exporter les logs, vous devez ouvrir la liste de caches enregistrées concernée ou l' [[.mainmenu:history|historique]] et sélectionner ''Menu → Exportation → Notes de terrain''.
+
+{{:en:fieldnote_export.png?nolink&400 |}}
+
+Les exportations de notes de terrain seront stockées par c:geo dans le répertoire ''/cgeo/field-notes'' de votre stockage interne avec un horodatage utilisé comme nom de fichier.
+
+Vous pouvez maintenant soit exporter uniquement le fichier de notes de terrain vers votre appareil, soit l'envoyer vers le site Web de geocaching en activant l'option ''Envoyer vers geocaching.com''.
+
+L'option ''Seulement depuis la dernière exportation'' vérifiera la date du dernier envoie sur geocaching.com et n'exportera que les notes de terrain écrits après cette date.
+
+Après avoir exporté vos notes de terrain vers le site web de geocaching, le site web indiquera que vous avez des notes de terrain en attente [[https://www.geocaching.com/my/fieldnotes.aspx|sur cette page]] et vous pourrez écrire vos logs dans votre navigateur. Sachez que cela peut prendre une minute après le téléchargement pour que le site Web affiche les notes de terrain en attente.
+
+===== Cartes hors-ligne =====
+{{anchor:offline_maps:}}
+
+c:geo prend en charge les fichiers de cartes hors ligne basés sur OpenStreetMap et utilisant le format [[http://mapsforge.net|mapsforge]].
+
+Pour en savoir plus sur l'utilisation des cartes hors ligne, consultez notre [[offlinemaps|Tutoriel sur les cartes hors ligne]].
