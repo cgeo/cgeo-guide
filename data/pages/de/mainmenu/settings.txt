@@ -158,7 +158,7 @@ Du erfährst mehr über die c:geo Offline-Karten auf der Seite [[..offline|Offli
 |Zeige Positionsverlauf|Mit dieser Option kannst du eine Spur aktivieren, die deine Positionshistorie (deine Bewegung) auf der Karte anzeigt. //(Standard: Deaktiviert)// \\ \\ :!: Beachte bitte,dass sie nur genau ist so lange du die Karte nutzt und GPS aktiviert ist und wird Lücken haben, sobald du dein Gerät abschaltest oder GPS deaktivierst. Wenn du eine zuverlässige Aufzeichnung deines Tracks haben möchtest, solltest du lieber eine spezialisierte App dafür nutzen.|
 |Länge des Positionsverlaufs|Erlaubt es dir die Anzahl der Trackpunkte für den Positionsverlaufs zu erhöhen. Wenn das Limit erreicht ist, werden die ältesten Punkte gelöscht, wenn neue Punkte aufgezeichnet werden. Eine Anhebung der Begrenzung erhöht allerdings die Speicherauslastung. //(Standard: 700 Punkte)//|
 |Große Symbole für geloggte Caches|Ist diese Option aktiviert, so werden für geloggte Caches große Emoticons anstelle der Cache-Typ Symbole angezeigt. Ein Ändern der Einstellung erfordert einen Neustart von c:geo. //(Standard: Deaktivert)//|
-|D/T-Bewertung in Cache-Symbolen|Bei Auswahl dieser Option wird on der Ecke der Cache-Symbole ein Grafik entsprechend der D/T-Wertung des jeweiligen Caches angezeigt.|
+|D/T-Bewertung in Cache-Symbolen|Bei Auswahl dieser Option wird in der Ecke der Cache-Symbole ein Grafik entsprechend der D/T-Wertung des jeweiligen Caches angezeigt.|
 ==== Kartenverhalten ====
 {{anchor:map_behavior}}
 

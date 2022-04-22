@@ -1,0 +1,14 @@
+====== Fonctions cachées ======
+
+Bien que nous nous efforcions de rendre chaque fonction de c:geo aussi accessible et explicite que possible, il existe encore des raccourcis et des fonctions avancées que vous ne trouverez peut-être pas tout de suite.
+
+Toutes ces fonctions cachées sont également expliquées dans la section correspondante de ce guide, mais pour ceux d'entre vous qui sont déjà familiarisés avec toutes les fonctions principales de c:geo, nous les avons également rassemblées ici, car cela pourrait améliorer votre expérience d'utilisation :
+
+^ Comment y accéder ^ Fonction ^ Lien vers la section appropriée du guide ^
+|Appui long sur les icônes des caches enregistrées| Vous pourrez sélectionner directement l'une de vos listes stockées et l'ouvrir, au lieu d'ouvrir d'abord la liste et d'utiliser ensuite la barre supérieure pour sélectionner une autre liste.|[[.mainmenu:start#main_icons|Menu principal]]|
+|Appui long sur l'icône de recherche|Vous montrera une liste des caches récemment consultés.|[[.mainmenu:start#main_icons|Menu principal]]|
+|Appui long sur l'icône d'enregistrement de la cache|Ne demandera pas la liste où la cache doit être sauvegardée, mais utilisera la dernière sélection et la sauvegardera.|[[.mainmenu:livemap#list_management|Carte]]\\ [[.cachedetails#list_management|Page de détails des caches]]|
+|Appui long sur l'icône de crayon sur la page de détail des caches|Déplace les caches déjà sauvegardées vers une autre liste|[[.cachedetails#list_management|Page de détails des caches]]|
+|Appui long sur la rose des vents dans la page de détails des caches|Alors qu'un appui court lance la navigation par défaut, un appui long sur cette icône lance la navigation secondaire préférée (Par Défaut=Carte, peut être modifié dans [[.mainmenu:settings#navigation|les paramètres]]).|[[.mainmenu:livemap#top_bar_menu|Carte]]\\ [[.cachedetails#top_bar_menu|Page de détails des caches]]|
+|Appui sur la notification de filtre sur la carte/des listes/sur l'icône de filtre du menu de la barre supérieure.|Si vous avez défini un [[.cachefilter|filtre]], le filtrage actif sera indiqué par une indication de filtre en haut de l'écran, sous le menu de la barre supérieure. En cliquant sur cette notification, vous accédez directement aux paramètres du filtre correspondant pour le modifier/supprimer.|[[.cachefilter|Filtrage des caches]].|
+|Tapez longuement sur n'importe quelle icône du menu de la barre supérieure|Tapez longuement sur n'importe quelle icône du menu de la barre supérieure de c:geo (à l'exception de la rose des vents, dont la fonction de tape longue est différente de celle décrite ci-dessus) pour afficher un texte d'information avec sa fonction associée. Vous pouvez l'utiliser si vous n'êtes pas sûr de la signification d'une icône de menu | par exemple [[logging#top_bar_menu|Loguer les géocaches]].|

@@ -1,10 +1,6 @@
-**FIXME**
-
-
-
 ====== Hakutoiminto ======
 
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 Hakuvalikko sisältää useita hakutoimintoja, jotka selitetään alla. Kaikki sijaintiin ja käyttäjään perustuvat haut tarjoavat tuloksena [[lists|kätkölistan]]. Kätkökoodi- tai matkaajahakua käytettäessä tuloksena avautuu suoraan sivu, joka näyttää [[..:cachedetails|kätkön tiedot]] tai [[..:trackabledetails|matkaajan tiedot]].
 \\ \\ \\ \\

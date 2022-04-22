@@ -37,8 +37,6 @@ Stelle die Internetverbindung wieder her und starte c:geo neu, um ein erneutes A
 
 ===== 4. Authentisierungsdaten prüfen =====
 
-==== 4a. Prüfe Benutzername/Passwort ====
-
 Wenn du deine Internetverbindung erfolgreich geprüft hast und das Problem weiterhin besteht, solltest du die Authentisierungsdaten, welche in c:geo gespeichert sind, prüfen.
 
 <WRAP center round todo 100%>
@@ -68,7 +66,7 @@ Dies öffnet eine Seite, auf der du deinen Benutzernamen und Kennwort für diese
 
 
 
-==== 4b. Mögliche Fehlermeldungen ====
+===== 5. Mögliche Fehlermeldungen =====
 
 <WRAP center round todo 100%>
 Wenn du alle oben beschriebenen Punkte überprüft hast und die Anmeldung weiterhin fehlschlägt solltest du dir die Fehlermeldung anschauen, die c:geo beim Anmeldeversuch (wie oben beschrieben) zurückmeldet.
@@ -76,7 +74,7 @@ Wenn du alle oben beschriebenen Punkte überprüft hast und die Anmeldung weiter
 
 Die folgenden Kapitel geben eine Erklärung und Hilfestellung für jede mögliche Fehlermeldung.
 
-=== Anmeldung fehlgeschlagen: Benutzername und/oder Kennwort falsch ===
+==== Anmeldung fehlgeschlagen: Benutzername und/oder Kennwort falsch ====
 
 In 99% der Fälle, in denen diese Fehlermeldung angezeigt wird, meint dies in der Tat, dass du Benutzernamen und/oder Kennwort falsch eingegeben hast.  Beachte auch, dass einige spezielle Zeichen, die du evtl. in deinem Benutzernamen und/oder Kennwort benutzt, auf deiner Android-Tastatur leicht anders aussehen oder verwechselt werden können.
 
@@ -86,7 +84,7 @@ Bitte prüfe die eingegebenen Daten genauestens und beachte, die korrekte Groß-
 
 [[https://www.cgeo.org/faq#forgot-login|Dieser FAQ-Eintrag]] beschreibt, wie du dein Passwort zurücksetzen kannst und/oder deinen Benutzernamen herausfinden kannst.
 
-=== Anmeldung fehlgeschlagen: Captcha erforderlich ===
+==== Anmeldung fehlgeschlagen: Captcha erforderlich ====
 
 c:geo hat festgestellt, dass die Geocaching-Webseite das Lösen eines Captcha erfordert. c:geo kann sich daher nicht anmelden. geocaching.com benutzt solche Captchas nach mehreren erfolglosen Anmeldeversuchen (z.B. durch ein falsches Passwort). 
 
@@ -96,7 +94,7 @@ Bitte melde dich einmalig mit dem Browser/dem PC an, löse dabei das Captcha und
 
 Des weiteren benutzt geocaching.com solche Captchas, wenn Anmeldeversuche von verdächtigen, gesperrten oder nicht identifizierbaren IP-Adressen festgestellt werden. Dies kann passieren, wenn du VPN- oder andere Anonymisierungsdienste (z.B. TOR) oder ein öffentliches WLAN nutzt. Bitte deaktiviere solche Dienste und versuche dich erneut mit c:geo anzumelden. Du solltest auch versuchen, dich über eine andere Internetverbindung (z.B. Mobilnetz statt WLAN) anzumelden.
 
-=== Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden. ===
+==== Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden. ====
 
 Deine Mailadresse und/oder dein Zugang ist noch nicht oder nicht mehr auf dem Geocaching-Server validiert. 
 
@@ -105,7 +103,7 @@ Bitte melde dich mit einem Browser oder PC auf der Geocaching-Webseite an und va
 </WRAP>
 
 
-=== Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler ===
+==== Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler ====
 
 Falls du ein Antivirus-,Firewall-, Werbeblocker oder VPN-Tool (z.B. F-Secure, AdAway, McAfee, Orbot, Firmen-VPNs, TOR) benutzt, prüfe bitte ob das Tool den Internetverkehr blockiert oder stört.
 

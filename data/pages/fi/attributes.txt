@@ -1,6 +1,3 @@
-**FIXME**
-
-
 ====== Attribuuttien kuvakkeet ======
 
 Tällä sivulla selitetään c:geossa käytettävien attributtikuvakkeiden tarkoitukset. Kätkön tekijä asettaa kätkölle attribuutit ja ne näytetään [[cachedetails#attributes|kätkön tietosivulla]]. 

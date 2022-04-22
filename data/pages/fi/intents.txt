@@ -1,14 +1,11 @@
-**FIXME**
+====== Geokätköilylinkit ======
 
-====== Geokätköilyyn liittyvät linkit ======
+c:geo rekisteröi itsensä käyttämään tiettyjä linkkejä, jotta c:geo voidaan näyttää yhtenä kohdesovelluksena kun avaat yhden tällaisen linkin toisessa sovelluksessa.
 
-c:geo rekisteröi itsensä geokätköilyyn liittyviin linkkeihin, joten c:geo näkyy mahdollisena kohdesovelluksena kun napautat yhtä näistä linkeistä toisessa sovelluksessa.
+Esimerkiksi c:geo rekisteröi itsensä linkkeihin, jotka alkavat ''http://coord.info/GC'', ja joita käytetään geocaching.com:in käyttäjilleen lähettämissä sähköposteissa ja osoittavat tiettyyn kätkökuvaukseen. Napauttamalla tätä linkkiä missä tahansa sovelluksessa ja valitsemalla c:geon kohdesovellukseksi, voit avata linkkiin liittyvät kätkön tiedot c:geossa. Sama pätee myös muihin geokätköpalveluihin liittyviin linkkeihin.
 
-Esimerkiksi c:geo rekisteröi itsensä linkkeihin, jotka alkavat ''http://coord.info/GC'' jota käytetään geocaching.comin käyttäjilleen lähettämissä sähköpostiviesteissä ja kohteena on tietyn kätkön tiedot. Tällaisen linkin napautus missä tahansa sovelluksessa ja c:geon valitseminen kohdesovelluksena avaa linkissä olevan kätkön tiedot suoraan c:geossa. Sama pätee myös muiden geokätköilysivustoiden linkkeihin.
+Kun sinulta kysytään, mitä sovellusta käytetään linkin avaamiseen, voit myös valita c:geon oletussovellukseksi kyseisen linkkityypin avaamiseen. Jälkeenpäin laitteesi avaa suoraan c:geon kun tällaista linkkiä napautetaan.
 
-Kun sinulta kysytään mitä sovellusta käytetään näiden linkkien aukaisuun, voit myös valita c:geon oletussovellukseksi tälle linkkityypille. Tämän jälkeen laitteesi avaa c:geon suoraan kun tällaista linkkiä klikataan.
-
-<WRAP center round tip 100%>
-Kaikkien geokätköilylinkkien asettamisella c:geolla avattavaksi on huono puoli, että (riippuen laittestasi ja Android-versiosta) käytettäessä ''Avaa selaimessa'' toimintoa c:geossa, kätkön tiedot aukeavat uudelleen itse c:geossa selaimen sijaan.\\ \\
-Voit välttää tämän aktivoimalla [[.:mainmenu:settings#cache_details|Chrome Webview]]-ominaisuuden c:geossa. Lisäksi [[https://faq.cgeo.org#open-in-browser|FAQmme (englanniksi)]] selostaa erilaisia tapoja tämän ongelman ratkaisemiseksi (esimerkiksi siinä tapauksessa kun et käytä Google Chromea laitteellasi).
+<WRAP center round important 60%>
+Androidin versio 12 muutti linkkien toiminnallisuutta. Katso [[https://www.cgeo.org/faq#android12|tätä UKK-kohtaa (englanniksi)]] kuinka aktivoida tämä toiminto Android 12:ssa.
 </WRAP>

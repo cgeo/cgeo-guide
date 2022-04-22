@@ -1,17 +1,17 @@
-====== Lokikuvien synkronointi c:geoon ======
+====== Spoilerikuvien synkronointi c:geoon ======
 
-Jotkut GPSr-laitteet (kuten Garmin) tarjoavat mahdollisuuden manuaaliseen lokikuvien lataamiseen laitteeseen myöhempää offline-käyttöä varten. Työkalut kuten [[https://gsak.net|GSAK]] täten tarjoavat toiminnon, joka generoi GPSr-laitekohtaisen offline-hakemiston lokikuvien synkronointiin.
-c:geo pystyy latamaan ja näyttämään lokikuvat online-tilassa, mutta jotkut käyttäjät tahtovat käyttää c:geota offline-tilassa, mutta myös lokikuvat saatavilla.
+Jotkut GPSr-laitteet (kuten Garmin) tarjoavat mahdollisuuden spoilerikuvien manuaaliseen lataamiseen laitteeseen, jotta niitä voidaan käyttää myöhemmin offlinekätköilyssä. Työkalut kuten [[https://gsak.net|GSAK]] sisältävät toiminnon, jolla voidaan generoida GPSr-spesifiset offline-kansiohakemiston spoilerikuvien synkronointiin.
+c:geo kykenee lataamaan ja näyttämään spoilerikuvat online-tilassa, mutta jotkut käyttäjät haluavat käyttää c:geota täysin offline-tilassa, samalla käyttäen saatavilla olevia spoilerikuvia.
 
-Täten c:geo tukee lokikuvien synkronointia käyttämällä alla olevaa hakemistostruktuuria (kuten GPSr-laitteissa) seuraavasti:
+Joten c:geo tukee spoilerikuvien synkronointia käyttäen seuraavia spesifisiä kansiohakemistoja (kuten GPSr-laitteissa) seuraavasti:
 
 <WRAP center round tip 100%>
-Seuraava ohje saattaa näyttää monimutkaiselta, mutta jos käytät vastaavia lokikuvien synkronointityökaluja, koko hakemistostruktuuri luodaan ja lokikuvat lisätään automaattisesti. Kaikki mitä sinun tyypillisesti tarvitsee tietää, on oikea juurikansio (sisältäen hakemistostruktuurin), joka kopioidaan c:geo-laitteellesi.
+Seuraava voi näyttää monimutkaiselta, mutta jos käytät vastaavia spoilerien synkronointityökaluja, koko kansiorakenne luodaan ja spoilerikuvat lisätään automaattisesti. Kaikki mitä sinun tulee tietää on oikea juurikansio, joka kopioidaan c:geon sisältävän laitteen kansioon.
 </WRAP>
 
-  * Juurikansio: \\ Juurikansio geokätköjen spoilerikuville riippuu siitä, minne olet määritellyt c:geon oman juurikansion. Sinun tulee käyttää ''BGeocachePhotos/''-kansiota [[.:mainmenu:settings#base_folder_geolocation_orientation|c:geon oman juurikansion]] alla. Tyypillisesti tämä on sijainnissa ''/cgeo/GeocachePhotos/'', jos käytät oletusasetusta.
+  * Juurikansio: \\ Juurikansion sijainti spoilerien synkronointia varten riippuu siitä, minne olet määrittänyt itse c:geon juurikansion. Sinun tulee käyttää ''GeocachePhotos/''-kansiota [[.:mainmenu:settings#base_folder_geolocation_orientation|c:geon juurikansion]] alla. Täten se tyypillisesti sijaitsee sisäisen tallennustilan kansiossa ''/cgeo/GeocachePhotos/'', jos käytät oletusasetuksia.
 
-  * Hakemistorakenne: \\ Juurikansion alla olevan hakemistorakenteen on noudatettava seuraavaa sääntöä:\\ ''/geokoodin viimeinen merkki/geokoodin toiseksi viimeinen merkki/Täysi geokoodi/'' \\ \\ Esimerkiksi: Jos kätkön koodi on GC123ABC, kyseisen kätkön lokikuvien kansio on ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+  * Hakemiston rakenne: \\ Juurikansion alla olevan hakemiston tulee noudattaa seuraavaa sääntöä:\\ ''/geokoodin viimeinen merkki/geokoodin toiseksi viimeinen merkki/täysi geokoodi/'' \\ \\ Esimerkiksi, jos kätkön geokoodi on GC123ABC, hakemisto sijaitsee kohteessa ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
     
 
 

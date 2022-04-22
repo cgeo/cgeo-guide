@@ -1,5 +1,3 @@
-**FIXME**
-
 ====== Offline-kätköily ======
 
 ===== Yleiset huomiot =====
@@ -78,7 +76,7 @@ Offline-tilassa kirjatut kätköt merkataan [[.mainmenu:lists|listoissa]] oranss
 
 {{:en:fieldnote_export.png?nolink&400 |}}
 
-c:geo tallentaa kenttämuistiinpanot laitteessasi hakemistoon ''/cgeo/fielfdnotes'' sisäiseen muistiin, sisältäen tiedoston nimenä päivämäärän/aikaleiman, kuten näytetään vientinäytössä.
+c:geo tallentaa kenttämuistiinpanot laitteessasi hakemistoon ''/cgeo/field-notes'' sisäiseen muistiin, sisältäen tiedoston nimenä päivämäärän/aikaleiman, kuten näytetään vientinäytössä.
 
 Voit nyt joko viedä kenttämuistiinpanotiedoston vain laitteellesi, tai halutessasi ladata ne geokätköilysivustolle valitsemalla ''Lataa geocaching.comiin''.
 

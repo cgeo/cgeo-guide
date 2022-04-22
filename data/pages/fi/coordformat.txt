@@ -1,6 +1,3 @@
-**FIXME**
-
-
 ====== Koordinaattimuodot ======
 
 c:geo tukee useita koordinaattimuotoja seuraavasti:

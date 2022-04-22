@@ -1,6 +1,3 @@
-**FIXME**
-
-
 ====== Asennus ja päivitys  ======
 
 ===== Asennuslähde =====

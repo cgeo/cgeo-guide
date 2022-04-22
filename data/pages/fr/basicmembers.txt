@@ -1,0 +1,19 @@
+====== Limitations pour les membres basiques ======
+
+[[https://www.geocaching.com|geocaching.com]] propose une adhésion de base gratuite ainsi qu'une adhésion premium, qui nécessite un paiement annuel. L'adhésion premium comprend certaines fonctionnalités supplémentaires, qui ne sont pas disponibles pour les membres de base.
+
+Bien que c:geo soit en soi une application open-source dont l'utilisation est totalement gratuite, certaines fonctions de c:geo ne sont disponibles que pour les membres premium de geocaching.com, qui utilisent ces fonctions premium. En outre, certaines fonctions de c:geo fonctionneront différemment ou de manière limitée pour les membres de base.
+
+c:geo n'a aucune relation commerciale avec geocaching.com. L'abonnement premium est un produit de [[https://www.geocaching.com|geocaching.com]] et doit être obtenu sur leur site web. Vous devez décider vous-même si vous souhaitez utiliser un abonnement premium sur geocaching.com en fonction de vos besoins.
+
+Le tableau suivant donne un aperçu des différences et des limitations applicables aux membres de base de c:geo :
+
+ 
+^ Fonction ^ Limitation/Différence for basic members ^
+|Caches pour le membres premium seulement|Sur geocaching.com, le propriétaire de la cache peut restreindre la visibilité de ses caches aux seuls membres premium. En tant que membre de base, vous ne pourrez pas accéder à la [[cachedetails|page de détails de la cache]] de ces caches ni voir leur emplacement.|
+|[[.mainmenu:lists|Résultat de recherche]]|Pour les membres de base, les résultats de la recherche ne contiendront pas les coordonnées ou toute autre information détaillée. Il ne sera donc pas possible de cartographier une liste de résultats de recherche et vous devrez d'abord ouvrir ou stocker les caches pour pouvoir les utiliser sur la carte.|
+|[[.mainmenu:pocketquery|Pocket Query]]|Les PQ sont une fonctionnalité réservée aux membres premium. Par conséquent, cette option de menu ne sera affichée dans c:geo que si vous êtes un membre premium.|
+|[[cachedetails#favorite|Points Favoris]]|L'attribution de points favoris aux caches trouvées est une fonction réservée aux membres premium. Toutes les fonctions du menu liées à l'attribution de points favoris ne seront pas montrées aux membres de base.|
+|[[cachedetails#personal_note|Envoie des notes personelles]]|Si tous les utilisateurs peuvent créer des notes personnelles, seuls les membres premium peuvent télécharger leurs notes qui seront stockées sur la page de la cache du serveur de géocaching.|
+|Caches Adventure lab|Ce type de cache de [[http://labs.geocaching.com|labs.geocaching.com]] sont montrés seulement pour les membres premium.|
+

@@ -1,11 +1,8 @@
-**FIXME**
-
-
 ====== Lataa tämä käyttöopas ======
 
 Sinulla on kolme eri vaihtoehtoa ladataksesi tämän käyttöoppaan offline-käyttöön:
 
-  * ''Tee PDF''-nappi oikeassa sivupalkissa luo PDF-tiedoston nykyisestä sivusta ja aloittaa sen latauksen.\\ Tämä vaihtoehto luo vain yksittäisiä PDF-tiedostoja yksittäisestä aiheesta/sivusta, joka on sillä hetkellä näkyvillä.
+  * ''Tee PDF''-nappi oikeassa sivupalkissa luo PDF-tiedoston nykyisestä sivusta ja tarjoaa sen latausta.\\ Tämä vaihtoehto luo vain yksittäisiä PDF-tiedostoja yksittäisestä aiheesta/sivusta, joka on sillä hetkellä näkyvillä.
 
   * ''Lisää kirjaan''-nappi oikeassa sivupalkissa lisää näkyvillä olevan sivun ladattavien sivujen listaan.\\ Voit käyttää tätä toimintoa lisätäksesi sivuja tähän listaan. Kun olet lisännyt listaan ainakin yhden sivun, joka sivun yläreunassa näytetään tieto-osio, jossa voit lisätä sivuja, poistaa niitä, ja lopulta luoda yhden PDF-tiedoston valitsemista sivuistasi haluamassasi sivujärjestyksessä.
 

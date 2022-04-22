@@ -1,9 +1,6 @@
-**FIXME**
-
-
 ====== Live-kartta  ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Kätevyyden vuoksi, laitteesi näyttö ei sammu kun kartta on näkyvillä. Sinun tulee siirtyä eri näyttöön palauttaaksesi automaattisen (ajoitetun) näytön sammuttamisen virran säästämiseksi, mutta tarvittaessa voit myös käyttää laitteen omaa virtanappia näytön sammuttamiseksi.
@@ -30,7 +27,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 |{{ :ic_action_layers.svg?nolink&40 |}}|Karttanäkymä|Käytä tätä nappia vaihtaaksesi aktiivista [[..:mapsources|karttanäkymää]]|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Suodatin]]|Tämä painike avaa suodatinnäkymän, jossa voit suodattaa kartalla näkyvät kätköt erilaisten kriteerien mukaan. \\ \\ Jos näkyvillä yläpalkissa, pitkä painallus avaa tallennettujen suodattimien listan, josta voit vaihtaa aktiivisen suodattimen toiseen|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Klikkaamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
-|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Aktivoi/poista live | Kytkee kartan live-päivityksen päälle/pois|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Aktivoi/poista live | Kytkee kartan live-päivityksen päälle/pois\\ Jos livekartta on pois käytöstä, yliviivattu kuvake näytetään.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Tallenna kaikki|Tallentaa kaikki kartalla näkyvät kätköt valitsemaasi listaan. Jo tallennetut kätköt päivitetään tässä toiminnossa.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Tallenna tallentamattomat|Tallentaa kaikki (paitsi jo tallennetut) kartalla näkyvät kätköt valitsemaasi listaan.|
 | | Kartan kääntö |Tämä avaa valikon, josta voit kytkeä kartan käännön laitteen suunnan mukaiseksi päälle/pois, tai kytkeä manuaalisen käännön päälle/pois.\\ \\ :!: Tämä toiminto on tällä hetkellä saatavilla vain Google Mapsille.| 
@@ -46,19 +43,9 @@ Kartta käyttää valitsemaasi [[..:mapsources|karttatyyppiä]] ja näyttää li
 
 Live-kartta näyttää aina yhdistetyn kartan kaikista c:geoon yhdistetyistä karttapalveluista, sekä kaikki kätköt jotka on tallennettu [[lists|kätkölistoihin]].
 
-Seuraava taulukko selittää live-kartalla käytettävät erilaiset merkinnät.
-
 <WRAP center round tip 100%>
-Tämä taulukko selittää vain erilaiset kuvaketyypit, mutta ei erilaisia kätkötyyppejä. c:geossa käytetään myös erilaisia [[..:cacheicons|kätkötyyppikuvakkeita]] sekä [[..:cachemarkers|kätkömerkkikuvakkeita]].
+Napauta seuraavia linkkejä saadaksesi tietoja c:geossa käytössä olevista [[..:cacheicons|kätkötyyppikuvakkeista]] sekä [[..:cachemarkers|kätkömerkkikuvakkeista]].
 </WRAP>
-
-^ Kuvake ^ Selite ^ 
-|{{ :my_location_chevron.png?nolink&40 |}}|Tämä nuoli näyttää kartalla nykyisen sijaintisi ja suuntasi.|
-|{{ :marker.png?nolink&40 |}}|Geocaching.comin kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
-|{{ :marker_disabled.png?nolink&40 |}}|Ei käytössä olevan tai arkistoidun geocaching.comin kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen. |
-|{{ :marker_oc.png?nolink&40 |}}|Opencaching-sivuston kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Ei käytössä olevan tai arkistoidun Opencaching-sivuston kätkön sijainti. Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
-|{{ :marker_other.png?nolink&40 |}}|Muun kuin geocaching.com tai opencaching-sivuston kätkön sijainti (kuten extremcaching.com). Nuoli osoittaa kätkön koordinaatteihin kartalla. Tämä kehys sisältää myös [[..:cacheicons|kätkötyypin]] kuvakkeen.|
 
 
 ===== Kartan popup-ikkuna =====
@@ -84,9 +71,7 @@ Tämä osio kartan popup-ikkunasta antaa useita toimintoja liittyen valittuun k�
 |Toggle talking|Aloittaa tai lopettaa tekstistä puheeksi -toiminnon, joka selostaa suunnan ja etäisyyden kohteeseen englanniksi.\\ Voit myös sammuttaa näytön kun tekstistä puheeksi -toiminto on aktivoitu.|
 |Kätköt lähistöllä|Avaa [[lists|Lähistöllä]]-haun, joka hakee kätkön lähistöllä olevat muut kätköt ja näyttää tulokset listana.|
 |Avaa selaimessa|Avaa kätkön tiedot selaimessa, käyttäen laitteesi internet-selainta.|
-|Poista|Poistaa kätkön kaikista offline-listoistasi.|
 |Jaa kätkö|Avaa Androidin jakamistoiminnon, jolla voit jakaa kätkön ystävillesi.|
-|Estä muistiinpanoista luodut reittipisteet|Tämä estää c:geota siirtämästä muistiinpanoista löytyviä koordinaatteja tämän kätkön reittipisteiksi.|
 
 ==== Kätkön tiedot ====
 {{anchor:cache_information}}
@@ -105,7 +90,7 @@ Joitakin tietoja saattaa puuttua, riippuen lataustilasta (johtuen esimerkiksi ka
 |Arviointi|Näyttää kätkön laatuarvioinnin [[http://gcvote.com|GCVotesta]], jos tämä palvelu on kytketty päälle [[settings#services|c:geon asetuksista]]. Arvo näytetään sekä graafisesti että numeroina.\\ Sulkeissa oleva arvo on kätkölle annettujen äänien määrä. |
 |Suosikki|Kätkön saamien suosikkipisteiden (geocaching.com) tai suosittelujen (opencaching) määrä.|
 |Lisätietoja|Avaa kyseisen kätkön [[..:cachedetails|kätkötietosivun]], joka tarjoaa täyden informaation kyseisestä kätköstä.|
-|{{:​ic_menu_hint.svg?nolink&​40|}}|Tämä painike on saatavilla vain jos kätköllä on omistajan vihje tai henkilökohtainen muistiinpano. Painike näyttää vihjeen ja/tai muistiinpanon ponnahdusikkunan [[#​hint_section|alaosassa]].|
+|{{:ic_menu_hint.svg?40|}}|Tämä painike on saatavilla vain jos kätköllä on omistajan vihje tai henkilökohtainen muistiinpano. Painike näyttää vihjeen ja/tai muistiinpanon ponnahdusikkunan [[#​hint_section|alaosassa]].|
 
 ==== Listojen hallinta ====
 {{anchor:list_management:}}
@@ -137,16 +122,135 @@ Kun napautat pika-asetusnappia kartan alareunan keskellä, seuraava näyttö nä
 
 {{ :en:livemap_mapsettings.png?direct&400 |}}
 
-^ Toiminto ^ Selite ^ 
-|Näytä omat/löydetyt kätköt|Asettaa sen, näytetäänkö omat/löydetyt kätkösi kartalla.\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.| 
-|Näytä hyllytetyt kätköt|Asettaa sen, näytetäänkö hyllytetyt kätköt kartalla.\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.| 
-|Näytä arkistoidut kätköt|Asettaa sen, näytetäänkö arkistoidut kätköt kartalla.\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.\\ \\ :!: Arkistoituja kätköjä ei koskaan haeta geokätköilysivustoilta, mutta sinulla voi olla listoissasi arkistoituja kätköjä, ja tämä asetus vaikuttaa niiden näyttömiseen kartalla.| 
-|Näytä alkuperäiset reittipisteet|Jos kätköllä on muokatut listakoordinaatit, ja alkuperäiset koordinaatit sisältävä reittipiste automaattisesti luotuna, tämä valinta asettaa sen, näytetäänkö kyseinen alkuperäinen reittipiste kartalla.\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.| 
-|Näytä parkkipaikka-reittipisteet|Asettaa sen, näytetäänkö "Parkkipaikka"-tyyppiset reittipisteet kartalla.\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.| 
-|Näytä vieraillut reittipisteet|Asettaa sen, näytetäänkö kartalla reittipisteet, jotka olet asettanut tilaan "Vierailtu".\\ Tämä on sama valinta kuin [[settings#cache_details|c:geon asetuksissa]] ja sen vaihtaminen täällä vaihtaa sen myös asetuksissa.| 
-|Näytä ympyrät|Voit tästä valita näytetäänkö kartalla kaikkien fyysisten reittipisteiden (kuten tradikätköjen, kätköjen fyysisten reittipisteiden, korjatut koordinaatit sisältävä mysteerikätkö) ympärillä ympyrä, joiden säde on 161 metriä (0.1 mailia). Tämä on minimivälimatka, joiden välillä geocaching.com:iin asetettujen kätköjen välillä täytyy olla. Toiminto voi auttaa paikan etsimisessä ja uuden kätkön piilottamisessa.|
-|Näytä suunta|Tämä kytkee suuntasi näytön kartalla pois/päälle.|
-|Käytä pieniä kuvakkeita|Tämä valinta asettaa kätköjen klassiset kätkökuvakkeet näkymään pelkästään värillisenä pisteenä. Värit on määritetty kätkökuvakkeen värin mukaiseksi (esimerkiksi tradikätköt näkyvät vihreänä pisteenä). Voit asettaa tämän ominaisuuden päälle/pois tai automaattiseksi. Automaattinen tila vaihtaa klassisten ja pienten kuvakkeiden välillä riippuen zoomaustasosta.|
-|Reititys|Tästä voit valita haluamasi reititystilan, jota käytetään suuntaviivan piirtämiseen sijaintisi ja valitun kätkön/reittipisteen välillä. Voit valita joko linnuntien (suoran linjan) tai tarkat reittiohjeet kävelyä, pyöräilyä tai autoilua varten.\\ \\ :!: Tarkat reittiohjeet vaativat, että [[..brouter|BRouter]]-sovellus on asennettu ja määritetty asianmukaisesti.|
+^ Kategoria ^ Selite ^ 
+|Näytä kätköt|Voit tästä valita näytettävät kätkön niiden tilan mukaan.\\ Tästä muutetut asetukset asetetaan automaattisesti live-kartan [[..:cachefilter|suodattimeksi]].|
+|Näytä reittipisteet|Voit valita tästä näytettävät reittipisteet niiden tyypin tilan mukaan.|
+|Näytä muu|Tämä osio sisältää valinnat muiden elementtien piilottamiseksi kartalta.|
+|Käytä pieniä kuvakkeita|Tällä valinnalla voit vaihtaa klassisesta kätkökuvakenäkymästä kompaktiin tilaan, jossa kätköt näytetään pieninä värillisinä pisteinä. Voit asettaa tämän pois/päälle ja automaattiseksi. Automaattinen tila vaihtaa tilaa automaattisesti riippuen kartan zoomaustasosta.|
+|Reititys|Tästä voit valita halutun käytettävän reititystilan suuntaviivan piirtämiseen sijaintisi sekä kätkön/reittipisteen välillä. Voit käyttää joko ei suuntaviivaa, suora viiva, tai reititetty suuntaviiva kävelyä, pyöräilyä tai autoilua varten.\\ \\ :!: Reititetty navigaatio vaatii aktiivisen ja määritetyn [[..brouter|BRouter-asennuksen]].|
+|Yksittäinen reitti|Voit tästä valita yksittäisen reitin aloituspisteen suuntaviivan kohteeksi.\\ Tämä valinta näytetään vain, jos yksittäinen reitti on kartalla läsnä.|
+
+===== Reitin/polun asetukset =====
+{{anchor:route_track_settings}}
 
 
+===== Karttanavigaatio =====
+{{anchor:map_navigation}}
+
+c:geo tarjoaa useita eri vaihtoehtoja auttaakseen sinua navigoimaan käyttäen erilaisia viivoja (live-)kartalla:
+
+  * Se voi näyttää **suuntaviivan** sijaintisi ja valitun kätkön/reittipisteen välillä.
+  * Voit ladata **GPX-reitin/polun**, joka sitten näytetään kartalla.
+  * Voit asettaa **yksittäisen reitin** useiden kätköjen/reittipisteiden välillä.
+  * c:geo voi valinnaisesti piirtää **jälkihistorian**, joka näyttää sijaintihistoriasi (liikkeesi) kartalla.
+
+Parhaan hyödyn saamiseksi suuntaviivasta ja yksittäisestä reitistä, suosittelemme asentamaan ja määrittämään [[..:brouter|BRouter]]-sovelluksen, kuten selostettuna käyttäjäoppaamme linkatussa osiossa. Tämä tarjoaa reititetyn viivan suoran viivan sijaan.
+
+Erilaiset viiva- ja reittityypit selostetaan alla yksityiskohtaisesti.
+
+==== Suuntaviiva ====
+
+Suuntaviiva on karttaviiva, joka yhdistää nykyisen sijaintisi ja valitsemasi kätkön/reittipisteen. Tämä voi olla suora linja tai reititetty linja, jos olet asentanut ja määrittänyt [[..:brouter|BRouter]]in.
+
+Viivan oletusväri on <color #ed1c24>punainen</color>, mutta viivan väriä ja muita ulkonäköasetuksia voidaan muuttaa tarpeidesi mukaisesti [[.:settings#map_lines_customization|karttaviivojen mukautusasetuksissa]].
+
+Alla oleva esimerkki näyttää suuntaviivan tyypillisen käytön (BRouterilla ja ilman).
+
+^ Suuntaviiva ilman Brouteria ^ Suuntaviiva Brouterilla ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+On olemassa kaksi tapaa suuntaviivan aktivointiin:
+  - Napauta kartalla näkyvää kätköä, ja aktivoi suuntaviiva [[livemap#map_popup_window|kartan ponnahdusikkunassa]] näkyvää kuvaketta {{:ic_menu_near_me.svg?nolink&30|}} käyttäen.
+  - Käytä navigaatiota [[..:cachedetails|kätkön tietosivulta]] avataksesi kartan, joka sisältää suuntaviivan.
+
+==== GPX jälki/reitti ====
+
+Voit ladata c:geoon GPX jälki/reittitiedoston, joka näytetään kartalla. Esimerkiksi kätkön omistajat voivat tarjota GPX-jälki/reittitiedostoa, jota seurata kätkön löytämiseksi, tai voit luoda sellaisen GPX-jäljen/reitin muilla reititystyökaluilla.
+Jäljet ja reitit ovat kumpikin periaatteessa GPX-tiedostoja, toisessa on nauhoitettu sijaintireitti (jälkitiedosto), toinen (reittitiedosto) sisältää vain joitakin reittipisteitä, jonka c:geo reitittää pisteestä pisteeseen.
+
+Viivan oletusväri on <color #22b14c>vihreä</color>, mutta viivan väriä ja muita ulkonäköasetuksia voidaan muuttaa tarpeidesi mukaisesti [[.:settings#map_lines_customization|karttaviivojen mukautusasetuksissa]].
+
+Allaoleva esimerkki näyttää yksittäisen GPX-jäljen/reitin tyypillisen näkymän.
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+Ladataksesi tai tyhjentääksesi GPX-jäljen, sinun tulee käyttää kartan valikkoa, nimekkeen ''GPX jälki/reitti'' [[livemap#top_bar_menu|kartan valikossa]]:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^ Valinta ^ Selite ^ 
+|Lataa jälki/reitti GPX:stä|Voit valita tästä jäljen tai reitin sisältävän GPX-tiedosto, joka näytetään kartalla.|
+|Keskitä reittiin/jälkeen|Siirtää/zoomaa karttaa siten, että jo ladattu jälki/reitti näytetään kokonaan.|
+|Tyhjennä reitti/jälki|Tyhjentää ladatun jäljen/reitin kartalta.|
+
+==== Yksittäinen reitti ====
+
+Yksittäinen reitti voidaan luoda painamalla pitkään useita kätköjä/reittipisteitä (live-)kartalla. Valintasi mukaan piirretään reitti valittujen kätköjen/reittipisteiden välillä järjestyksessä. Tämä antaa sinulle mahdollisuuden luoda mukautettu reitti kätköjen välillä. Voit käyttää tätä esim. kätköilymatkan suunnitteluun.
+
+<WRAP center round important 60%>
+Jotta voit käyttää yksittäisen reitin toimintoa, sinun tulee aktivoida pitkän painalluksen toiminto [[.:settings#map_behavior|kartan käyttäytymisen asetuksissa]].
+</WRAP>
+
+
+Reittipisteet yhdistetään joko suoralla tai reititetyllä viivalla (jos olet asentanut ja määrittänyt [[..:brouter|BRouterin]]). Suosittelemme vahvasti BRouterin käyttöä parhaan hyödyn saamiseksi.
+
+
+Viivan oletusväri on <color #00a2e8>sininen</color>, mutta viivan väriä ja muita ulkonäköasetuksia voidaan muuttaa tarpeidesi mukaisesti [[.:settings#map_lines_customization|karttaviivojen mukautusasetuksissa]].
+
+Allaoleva esimerkki näyttää yksittäisen reitin tyypillisen näkymän.
+
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+Sillä aikaa kun voit lisätä ja poistaa kätköjä/reittipisteitä yksittäiseen reittiin painamalla niitä pitkään, saatavilla on kuitenkin joitakin lisätoimintoja, jotka löytyvät valinnan ''Yksittäinen reitti'' alla [[livemap#top_bar_menu|kartan valikosta]]:
+
+
+
+{{ en:livemap_individual_route.png?nolink&400 |}}
+
+^ Valinta ^ Kuvaus ^ 
+|Lataa yksittäinen reitti|Lataa aiemmin tallennettu yksittäinen reitti.|
+|Aseta kohteeksi|Tämä valinta asettaa yksittäisen reitin alkupisteen suuntaviivan kohteeksi (näyttäen reitin sijaintisi ja reitin alkupisteen välillä).\\ Tämä voi olla kätevä kun olet geokätköilymatkalla. Saat poistettua vieraillun kätkön/reittipisteen yksittäisestä reitistä painamalla sitä pitkään, ja kun tämä valinta on valittuna, seuraava kohde reitilläsi asetetaan automaattiseksi seuraavaksi kohteeksi.|
+|Lajittele yksittäinen reitti|Avaa näkymän, jossa voit muokata reittisi järjestystä ja/tai poistaa haluamasi kätköt/reittipisteet; jälkeenpäin reitti lasketaan uudelleen automaattisesti.\\ Ethän unohda napauttaa "tallenna"-painiketta tallentaaksesi muutokset yksittäiseen reittiin. Voit poistua tallentamatta muutoksia siirtymällä edelliseen näkymään.|
+|Keskitä reittiin|Siirtää/zoomaa karttaa siten, että yksittäinen reitti näkyy kokonaan.|
+|Vie yksittäinen reitti|Voit viedä luomasi yksittäisen reitin GPX-reittitiedostoksi.|
+|Tyhjennä yksittäinen reitti|Tyhjentää luodun yksittäisen reitin.|
+
+==== Jälkihistoria ====
+
+Jälkihistoria tarjoaa viivan, joka näyttää sijaintihistoriasi (liikeesi) kartalla.
+Sinun tulee aktivoida jälkihistoria [[.:settings#map_content|kartan sisällön asetuksissa]], jossa voit myös määrittää lisäasetuksia (kuten jäljen maksimipituuden).
+
+Viivan oletusväri on musta, mutta viivan väriä ja muita ulkonäköasetuksia voidaan muuttaa tarpeidesi mukaisesti [[.:settings#map_lines_customization|karttaviivojen mukautusasetuksissa]].
+
+Allaoleva esimerkki näyttää jälkihistorian tyypillisen näkymän.
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+Määrittääksesi jälkihistorian, voit käyttää valintaa ''Jälkihistoria'' [[livemap#top_bar_menu|kartan valikossa]]:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^ Valinta ^ Kuvaus ^ 
+|Vie jälkihistoria|Voit tästä viedä jälkihistorian GPX-jälkitiedostona.|
+|Näytä/piilota jälkihistoria|Tästä voit kytkeä jälkihistorian päälle/pois. Sen kytkeminen pois päältä ei pyyhi olemassa olevaa jälkeä, vaan lakkaa sen jäljittämisen ja piilottaa sen.|
+|Poista jälkihistoria|Tämä tyhjentää sijaintihistorian ja täten olemassa olevan jäljen.|
+
+==== Etäisyystiedot ====
+
+Käytettäessä suuntaviivaa ja/tai yksittäistä reittiä, c:geo tarjoaa myös useita etäisyystietoja kartan yläosassa (kuten alla olevissa näyttökaappauksissa). Näytettävät etäisyydet näytetään metreinä/kilometreinä tai jalkoina/maileina riippuen asetuksistasi.
+
+Riippuen, käytätkö yhtä vai molempaa viivaa ja oletko aktivoinut suoran etäisyyden näytön reititetyn etäisyyden lisäksi (vain jos [[..:brouter|Brouter]] on asennettu) [[.:settings#map_content|kartan sisältöasetuksissa]], voi olla, että näytetään useampi etäisyystieto.
+
+Alla oleva kuva näyttää kaikkien mahdollisten etäisyystietojen yhdistelmän. Lisäksi vasemmalla ylhäällä näytetään kohteeksi asetettu kätkö/reittipiste, jos suuntaviiva on aktiivinen.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Jotkut tai kaikki näistä etäisyystiedoista voivat näkyä, riippuen määritetyistä ja aktiivisista navigaatioviivoista:
+
+  - Ensimmäinen etäisyystieto on suuntaviivan suora etäisyys (eli suora linja sijaintisi ja valitun kätkön/reittipisteen välillä). Kuvake esittää etäisyystiedon olevan suoran etäisyyden etäisyystieto, jos sekä reititetty että suora etäisyys näytetään.
+  - Toinen etäisyystieto on suuntaviivan reititetty etäisyys (eli [[..:brouter|BRouterin]] reitittämä linja sijaintisi ja valitun kätkön/reittipisteen välillä). Kuvake esittää etäisyystiedon olevan reititetyn etäisyyden etäisyystieto, jos sekä reititetty että suora etäisyys näytetään.
+  - Kolmas etäisyystieto on yksittäisen reittisi pituus.
+
+Paremman näkyvyyden saamiseksi, voit napauttaa etäisyystietoja laajentaaksesi ja pienentääksesi niitä. Jos sekä suora että reititetty tieto on saatavilla, voit napauttaa ison suoran etäisyyden, ison reititetyn etäisyyden ja normaalin näkymän välillä.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}

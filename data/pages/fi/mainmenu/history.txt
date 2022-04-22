@@ -1,5 +1,3 @@
-**FIXME**
-
 ====== Historia ======
 
 {{:ic_menu_recent_history.svg?nolink&50 |}}

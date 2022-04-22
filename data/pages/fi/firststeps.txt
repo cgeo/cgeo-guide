@@ -1,82 +1,36 @@
-**FIXME**
-
 ====== c:geon käytön aloitus ======
 
-<WRAP center round important 100%>
-Käyttääksesi c:geota, tarvitset käyttäjätilin valitsemallasi geokätköilysivustolla. c:geo tukee tällä hetkellä [[https://www.geocaching.com|geocaching.comia,]] kansainvälistä kaupallista geokätköilysivustoa, ja myös Opencaching-sivustoa useissa maissa (kuten [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], ja monta muuta sivustoa). Valitse haluamasi sivusto, ja luo käyttäjätili etukäteen heidän omalla verkkosivulla (Peruskäyttäjän tili on yleensä ilmainen). \\ \\ c:geo ei toimi ilman käyttäjätiliä!
+{{:logo_big.png?nolink&200 |}}
+
+Tämä sivu auttaa sinua c:geon käytön aloituksessa. Se selostaa, kuinka määrittää c:geo ensimmäistä käyttöä varten ja helpottaa määritystoiminnon käyttämistä. Määritystoiminto aukeaa c:geon ensimmäisen käynnistyksen yhteydessä.
+
+Etsitkö c:geon asennusohjeita? Ne löydät [[.:installation|asennuksen ohjesivulta]].
+
+
+<WRAP center round info 100%>
+**Jotta voit käyttää c:geota, tarvitset käyttäjätilin valitsemassasi geokätköilypalvelussa. Ilman sellaista tiliä c:geo ei näytä yhtään kätköä!** \\
+Jos sinulla ei ole vielä tällaista tiliä, c:geo voi ohjata sinut halutun geokätköilypalvelun rekisteröintisivulle määrityksen aikana, jossa voit luoda tilin (perusjäsenyys on yleensä ilmainen).\\
+Toissijaisesti sinun tulee luoda tili etukäteen geokätköilypalvelun verkkosivuilla ja käyttää siellä käytettyjä kirjautumistietoja c:geon määritystoiminnossa.
 </WRAP>
-
-===== c:geon rekisteröinti Geocaching.comissa =====
-
-Kun käynnistät c:geon ensimmäistä kertaa asennuksen jälkeen, sinut ohjataan automaattisesti seuraavalle "Käytön aloitus" -näytölle.
-
-{{:en:getting_started.png?direct&400 }}
-
-Se selostaa c:geon tarvitsemät [[installation#​permissions|käyttöluvat]], tarjoaa linkkejä tähän käyttöohjeeseen sekä - mitä tärkeintä - tarjoaa painikkeen yhteyden muodostamiseksi geokätköilyn palveluntarjoajiin.
-
-Kun napautat ''"Aseta geokätköilyn palveluntarjoajat"''​ sinut viedään suoraan asetuksiin, joista voit tunnistautua c:geolla haluamiisi geokätköilysivustoihin, kuten alla.
-
-**Jos haluat päästä ensiasennuksen jälkeen takaisin palveluntarjoajien asetuksiin, löydät ne seuraavasti:\\ 
-''​Valikko → Asetukset → Palvelut''​**  
-
----- 
-
-===== Aseta geokätköilypalvelu(t) ===== 
-
-Valitse nyt tuettujen sivustojen listalta geokätköilypalvelu, mitä haluat käyttää. Voit tunnistautua useampaan palveluun palaamalla tähän näyttöön myöhemmin. Löydät ne ''Valikko → Asetukset → Palvelut''.
-
-{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
-
-===== c:geon rekisteröinti Geocaching.comin kanssa ===== 
-
-Kun olet valinnut tuettujen sivustojen listalta ''​geocaching.com'', napauta seuraavaksi ''Valtuuta c:geo'' kuten alla::
-
-{{ :en:firststeps_1_en.png?direct&400 }}
-
-Kun olet napauttanut ''Valtuuta c:geo'', avautuu ikkuna, jossa voit syöttää geocaching.comin käyttäjätunnuksen ja salasanan, sitten klikata ''Tarkista todennus''.\\
-Jos sinulla ei ole vielä tiliä, voit napauttaa ''Luo käyttäjätili'' avataksesi geocaching.comin rekisteröintisivun.
-
-{{ :en:firststeps_3_en.png?direct&400 }}
-
-Kun rekisteröinti on suoritettu onnistuneesti, c:geo palaa automaattisesti palveluvalikkoon. Kun näet käyttäjänimesi sekä avatarisi näytöllä, niin rekisteröinti on onnistunut.
-
-{{ :en:firststeps_2_en.png?direct&400 }}
-
-<WRAP center round help 100%>
-Jos rekisteröinti epäonnistuu, niin käy [[http://faq.cgeo.org#login-failed|FAQ (englanniksi)]] saadaksesi apua.
-</WRAP>
-
-Nyt sinun tulee vain klikata taaksepäin laitteellasi päästäksesi c:geon päävalikkoon. Seuraavalla käynnistyksellä c:geo avaa päävalikon automaattisesti.
-
-===== c:geon rekisteröinti Opencaching.comissa =====
-
-Jos haluat yhdistää c:geon muuhun palveluun kuin geocaching.com, tai mennäksesi uudelleen palveluvalikkoon, löydät ne seuraavasti:\\
-''Valikko → Asetukset → Palvelut''
 
 <WRAP center round tip 100%>
-Löydät lisää tietoa c:geon tukemista geokätköilysivustoista [[.mainmenu:settings#Services|täältä]].
+Löydät lisätietoja c:geon tukemista geokätköilypalveluista [[.mainmenu:settings#Services|täällä]].
 </WRAP>
 
-Valitse geokätköilysivusto johon haluat yhdistää, ja aktivoi palvelu napauttamalla ''Aktivoi'' -laatikkoa. Tämän jälkeen aloita valtuutusprosessi napauttamalla ''Valtuuta c:geo''.
+Kun olet asentanut c:geon, ensimmäisellä käynnistyskerralla ohjattu määritystoiminto auttaa sinua tarvittavan määrityksen sekä asennusvaiheiden läpi. Vaikka pyrimme siihen, että määritystoiminto on mahdollisimman itsestäänselvä, annamme kuitenkin hieman lisää opastusta ja taustatietoja tällä sivulla. Noudata punaisia merkintöjä seuraavissa kuvissa edetäksesi prosessissa. Oranssit merkinnät osoittavat valinnaiset vaiheet tai tarjoavat lisävinkkejä. Voit klikata kuvia isommaksi.
 
-{{ :en:oc_en_1.png?direct&400 }}
+/* Author comment: Table layout plugin used below to enforce 300px for the wizard pictures */
 
-ja ''Aloita valtuutus'' seuraavalla näytöllä. Jos sinulla ei ole vielä tiliä, voit napauttaa''Luo käyttäjätili'' avataksesi rekisteröintisivun Opencaching-sivustolla.
+{{tablelayout?colwidth="300px,-"}}
+^ Määrityksen näkymä ^ Selitys ^
+|{{:en:firststeps_wizard_01_welcome.png?direct&300 |}}|Napauta ''Seuraava'' aloittaaksesi määritystoiminnon. Jos olet edistynyt käyttäjä ja haluat määrittää c:geon manuaalisesti tai haluat ajaa määrityksen myöhemmin, voit napauttaa ''Ei nyt'' ohittaaksesi määrityksen.\\ \\ Niin pitkään kuin määritystä ei ole tehty, määritystoiminto näytetään joka c:geon käynnistyskerralla tai voit käynnistää sen manuaalisesti valitsemalla ''Ohjattu määritystoiminto'' kotivalikon yläpalkissa.|
+|{{:en:firststeps_wizard_02_permission.png?direct&300 |}}|Määritystoiminto kysyy luvat, jotka c:geo tarvitsee laitteessasi ja tarjoavat selityksen, miksi näitä lupia tarvitaan.\\ \\ <WRAP center round important 100%> Huomaathan, että c:geo ei toimi oikein ilman näitä lupia!</WRAP><WRAP center round tip 100%>Riippuen Android-versiostasi, määritystoiminto saattaa ohittaa lupien määritysvaiheen, koska olet antanut luvat jo c:geon asennusvaiheessa.</WRAP>\\ \\ Napauta ''Seuraava'' aloittaaksesi lupien antoprosessin.|
+|{{:en:firststeps_wizard_03_permission_file.png?direct&300 |}}|Tällä näytöllä olevan ''Seuraava''-napin napauttamisen jälkeen sinulta kysytään antamaan c:geolle pääsy tiedostojen lukemiseen ja kirjoittamiseen. Tämä lupa tarvitaan geokätköjen tallentamiseen offline-tilassa. Lisäksi c:geo voi tuoda ja viedä GPX-tiedostoja, offlinekirjauksia ja muuta.\\ \\ Tässä vaiheessa aukeaa Androidin ikkuna kysyen tätä lupaa, vahvista lupa painamalla ''Salli''.\\ {{:en:firststeps_wizard_04_permission_file_confirm.png?direct&200 |}} |
+|{{:en:firststeps_wizard_05_permission_gps.png?direct&300 |}}|Tällä näytöllä olevan ''Seuraava''-napin napauttamisen jälkeen sinulta kysytään antamaan c:geolle lupa sijaintisi hakuun. Tämä lupa tarvitaan, koska c:geo käyttää sijaintiasi laskeakseen etäisyyden ja suunnan geokätköille ja näyttämään sijaintisi kartalla.\\ \\ Tässä vaiheessa aukeaa Androidin ikkuna kysyen tätä lupaa, vahvista lupa painamalla ''Käytettäessä sovellusta''.\\ {{:en:firststeps_wizard_06_permission_gps_confirm.png?direct&200 | }}| 
+|{{:en:firststeps_wizard_07_basefolder.png?direct&300 |}}|c:geo tallentaa kaiken käyttäjän saatavilla olevan tiedon (kuten GPX-tiedostot, offlinekirjauksen, yms.) juurikansion alle, jonka sinun tulee luoda tai valita seuraavassa vaiheessa ja antaa c:geolle pääsy kyseiseen kansioon. Voit valita minkä tahansa kansion, jota haluat käyttää, mutta suosittelemme käyttämään kansiota ''/cgeo/'' sisäisessä muistissa.\\ \\ Napin ''Seuraava'' napauttamisen jälkeen esiin tulee Androidin kansiovalitsin, jossa voit navigoida kansioidesi välillä ja luoda tai valita halutun kansion. Huomaathan valikon (merkitty alla oranssilla) joka tarjoaa lisävalintoja, kuten tallennustilan valinnan (esim. sisäinen tai SD-kortti) tai uuden kansion luomisen. Kun olet valinnut halutun sijainnin, napauta ''Käytä tätä kansiota'' ja jälkeenpäin napauta ''Salli'' vahvistaaksesi. \\ \\ <WRAP center round info 100%>Koska kansiovalitsin on osa Android-käyttöjärjestelmääsi, se saattaa näyttää erilaiselta laitteesta ja Android-versiosta riippuen.</WRAP>\\ {{:en:firststeps_wizard_08_basefolder_selector.png?direct&200|}}{{:en:firststeps_wizard_09_basefolder_confirm.png?direct&200|}}|
+|{{:en:firststeps_wizard_10_services.png?direct&300 |}}|Nyt sinun tulee avata yhteys haluttuun geokätköilypalveluun joko napauttamalla ''geocaching.com'' tai ''Opencaching & muut''.\\ \\ ''geocaching.com'':in napauttamisen jälkeen näet valtuutussivun, johon sinun tulee syöttää käyttäjätiedot, jota käytät geocaching.com-verkkosivulla.\\ \\ Jos sinulla ei ole vielä tiliä, voit mennä rekisteröintisivulle napauttamalla ''Luo käyttäjätili'' (oranssilla merkattuna alla). Tämä avaa geocaching.com:in rekisteröintisivun, jossa voit luoda tilisi.\\ \\ <WRAP center round info 100%>Huomaathan, että c:geo ei tue valtuutusta Googlen, Facebookin tai Applen kautta. Käytäthän siis tavallista käyttäjänimi/salasana -tapaa luodaksesi tilin ja kirjautuaksesi. Katso [[https://faq.cgeo.org/#facebook-login|FAQ (englanniksi)]] kuinka palauttaa tilisi salasana.</WRAP>{{:en:firststeps_wizard_11_GCAuth.png?direct&200|}}<WRAP center round help 100%>Jos rekisteröinti epäonnostuu, vilkaise [[http://faq.cgeo.org#login-failed|FAQ (englanniksi)]] avun saamiseksi.</WRAP>Kun napautat määrityksessä ''Opencaching & muut'', näet listan tuetuista palveluista, jossa voit - samalla tavalla kuten esimerkissä ylhäällä - valita halutun palvelun ja valtuuttaa c:geon käyttämään kyseistä geokätköilypalvelua tai luoda tilin.\\ {{:en:firststeps_wizard_14_OCAuth.png?direct&200 | }}|
+|{{:en:firststeps_wizard_15_Advanced.png?direct&300 |}}|Tämä määrityksen vaihe tarjoaa edistyneitä määritysvalintoja, jotka ovat valinnaisia. Kokeneet käyttäjät voivat käyttää tätä vaihetta ladatakseen offline-karttoja, reitityssovelluksia tai palauttaa olemassa olevan c:geon varmuuskopion.\\ Alla on linkkejä näihin edistyneisiin ominaisuuksiin liittyviin tämän käyttöohjeen sivuihin:\\ \\ [[.:offlinemaps|Offline-karttojen lataus ja käyttö c:geossa]]\\ [[.:brouter|Reitityksen käyttö c:geossa]]\\ [[.:mainmenu:settings#restore|Varmuuskopioiden palautus]]\\ \\ Jos olet ensikertalainen, voit valita ''Ohita'' tällä kertaa. Mainitut asiat voi määrittää myös myöhemmässä vaiheessa.|
+|{{:en:firststeps_wizard_16_done.png?direct&300 |}}|Viimeinen ohjatun määrityksen näkymä tarjoaa yhteenvedon määrityksen tuloksista. Optimaalisesti se näyttää samalta kuten esimerkki ohessa.\\ Jos jotkut vaiheet eivät onnistuneet, voit käyttää nappia ''Edellinen'' mennäksesi takaisin ja tarkistaa asian, muuten napauta ''Valmis'' sulkeaksesi määrityksen. \\ \\ **Iloista kätköilyä c:geon kanssa!**|
 
-{{ :en:oc_en_2.png?direct&400 }}
-
-Sinut ohjataan nyt Opencaching-sivustolle selaimellasi. Kirjaudu sisään käyttäjänimelläsi ja salasanallasi - ja jos vaaditaan - anna seuraavalla sivulla c:geolle käyttölupa Opencaching-tilillesi.
-
-{{ :en:oc_en_3.png?direct&400 }}
-
-Kun rekisteröinti on suoritettu, c:geon pitäisi avautua uudelleen ja näyttää onnistunut rekisteröinti.
-
-{{ :en:oc_en_4.png?direct&400 }}
-
-<WRAP center round tip 100%>
-Jos saat virhesanoman tai et palaa c:geohon, yritä rekisteröityä toisella selaimella. Tarkista myös että aika ja päivämäärä ovat laitteessasi oikein.
-</WRAP>
-
-
-
-
+Määrityksen jälkeen sinut tuodaan c:geon kotivalikkoon.
+Jatka käyttöohjeemme sivulle [[.:basicuse|Peruskäyttö]] oppiaksesi kuinka löytää ensimmäinen kätkösi c:geolla.

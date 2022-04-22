@@ -1,488 +1,3 @@
-1615151825	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		-22
-1615151915	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Map lines customization] 		130
-1615152147	2.205.118.224	E	en:mainmenu:settings	lineflyer	[Mapsforge API] 		-125
-1615152295	2.205.118.224	E	de:mainmenu:settings	lineflyer	[Anpassung der Kartenlinien] 		161
-1615152505	2.205.118.224	E	de:mainmenu:settings	lineflyer	[Mapsforge API] 		-192
-1615153510	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		712
-1615153544	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		-1
-1615153583	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		1
-1615153606	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		1
-1615153635	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		0
-1615153663	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		3
-1615153805	2.205.118.224	E	en:cachedetails	lineflyer	[Waypoints submenu] 		-1
-1615153814	2.205.118.224	E	en:cachedetails	lineflyer	[Share/Export submenu] 		-2
-1615153838	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		-169
-1615153849	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		-2
-1615154078	2.205.118.224	E	en:cachedetails	lineflyer	[Top bar menu] 		0
-1615154355	2.205.118.224	E	en:cachedetails	lineflyer	[Waypoints submenu] 		27
-1615154363	2.205.118.224	E	en:cachedetails	lineflyer	[Share/Export submenu] 		27
-1615154371	2.205.118.224	E	en:cachedetails	lineflyer	[Advanced submenu] 		27
-1615154633	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		574
-1615154648	2.205.118.224	E	de:cachedetails	lineflyer	[Untermenü Erweitert] 		-1
-1615154673	2.205.118.224	E	de:cachedetails	lineflyer	[Titelzeilen-Menü] 		3
-1615885329	188.238.105.29	E	fi:mainmenu:utilityprograms	vike91	update		5
-1615885377	188.238.105.29	E	fi:attributes	vike91	update		-10
-1615885426	188.238.105.29	E	fi:installation	vike91	[Päivitys] 		-7
-1615885946	188.238.105.29	E	fi:brouter	vike91	[Yksittäinen reitti] 		-5
-1615886321	188.238.105.29	E	fi:contacts	vike91	update		-25
-1615886726	188.238.105.29	E	fi:firststeps	vike91	update		12
-1615886900	188.238.105.29	E	fi:start	vike91	update		0
-1615886995	188.238.105.29	E	fi:intents	vike91	update		0
-1615887142	188.238.105.29	E	fi:logging	vike91	update		-3
-1615896250	188.238.105.29	E	fi:mainmenu:goto	vike91	update		2
-1615896281	188.238.105.29	E	fi:coordformat	vike91	update		1
-1615896332	188.238.105.29	E	fi:ebook_help	vike91	update		-17
-1615896456	188.238.105.29	E	fi:hiddenfunctions	vike91	update		4
-1615896493	188.238.105.29	E	fi:nfc	vike91	update		2
-1615896657	188.238.105.29	E	fi:udc	vike91	update		10
-1617622901	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Map quick settings] Update screenshot, update description		2
-1617623021	2.202.19.198	E	de:mainmenu:livemap	lineflyer	[Karten-Schnelleinstellungen] 		-36
-1617625125	2.202.19.198	E	en:firststeps	lineflyer	Info		-5
-1617625184	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		18
-1617625192	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-3
-1617625200	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		4
-1617625292	2.202.19.198	E	en:firststeps	lineflyer	Start from scrath due to new installation wizard		-3029
-1617625446	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-229
-1617625497	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		145
-1617625504	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617625657	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		108
-1617625681	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		8
-1617625865	2.202.19.198	E	en:firststeps	lineflyer	.		3
-1617625960	2.202.19.198	E	en:firststeps	lineflyer	New Chapter structure 		122
-1617626041	2.202.19.198	E	en:firststeps	lineflyer	.		21
-1617626093	2.202.19.198	E	en:firststeps	lineflyer	.		-56
-1617626137	2.202.19.198	E	en:firststeps	lineflyer	.		4
-1617626206	2.202.19.198	E	en:firststeps	lineflyer	.		136
-1617626246	2.202.19.198	E	en:firststeps	lineflyer	Include icon to make it look nicer		35
-1617626309	2.202.19.198	E	en:firststeps	lineflyer	Logo update		-6
-1617626319	2.202.19.198	E	en:firststeps	lineflyer	.		4
-1617626331	2.202.19.198	E	en:firststeps	lineflyer	.		0
-1617626401	2.202.19.198	E	en:firststeps	lineflyer	.		0
-1617626421	2.202.19.198	E	en:firststeps	lineflyer	.		0
-1617626495	2.202.19.198	E	en:firststeps	lineflyer	[Install c:geo] 		1075
-1617626594	2.202.19.198	E	en:firststeps	lineflyer	[Install c:geo] 		-919
-1617626806	2.202.19.198	E	en:firststeps	lineflyer	[First Start Wizard] 		229
-1617627088	2.202.19.198	E	en:firststeps	lineflyer	.		324
-1617627138	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		0
-1617627152	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		0
-1617627170	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		-7
-1617627198	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		7
-1617627356	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		203
-1617627407	2.202.19.198	E	en:firststeps	lineflyer	.		39
-1617627484	2.202.19.198	E	en:firststeps	lineflyer	[Configuration Wizard] 		93
-1617627511	2.202.19.198	E	en:firststeps	lineflyer	[Needed permissions] 		460
-1617628015	2.202.19.198	E	en:firststeps	lineflyer	[Install c:geo] 		-183
-1617628109	2.202.19.198	E	en:firststeps	lineflyer	New Chapter structure		-28
-1617628188	2.202.19.198	E	en:firststeps	lineflyer	[Provide permissions] 		-217
-1617628198	2.202.19.198	E	en:firststeps	lineflyer	[Provide permissions] 		1
-1617628283	2.202.19.198	E	en:firststeps	lineflyer	.		-34
-1617628414	2.202.19.198	E	en:firststeps	lineflyer	.		71
-1617628462	2.202.19.198	E	en:firststeps	lineflyer	.		3
-1617628540	2.202.19.198	E	en:firststeps	lineflyer	.		90
-1617629243	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		30
-1617629365	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		247
-1617629420	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		72
-1617629468	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		75
-1617629494	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		12
-1617629508	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617629590	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-82
-1617629613	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617629753	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		221
-1617629954	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		491
-1617629970	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617629994	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617630014	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617630023	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617630071	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-7
-1617630454	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		774
-1617630464	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617630522	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		92
-1617630596	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		180
-1617630610	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617630638	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617630664	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617630681	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617630707	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		4
-1617630723	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617631140	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		51
-1617631170	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-4
-1617631180	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617631194	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617631211	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617631289	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617631318	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		8
-1617631381	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617631437	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-12
-1617631621	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		35
-1617631640	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617631673	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617631706	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617631719	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-34
-1617631733	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		34
-1617631755	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617631770	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617631788	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617631815	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617631833	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617632030	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		76
-1617632073	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617632108	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		32
-1617632124	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		5
-1617632159	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		13
-1617632248	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		234
-1617632289	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617632312	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617632390	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		28
-1617632407	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-134
-1617632463	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		133
-1617632508	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617632528	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-239
-1617632545	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		12
-1617632572	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		234
-1617632609	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-234
-1617632640	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		62
-1617632652	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-12
-1617632712	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		136
-1617632733	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-8
-1617632752	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		8
-1617632784	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617632929	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		310
-1617632952	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617632972	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-9
-1617633115	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		215
-1617633164	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		117
-1617633282	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		74
-1617633328	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-282
-1617633359	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617633383	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		283
-1617633399	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617633441	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-55
-1617633473	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617633496	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617633528	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		55
-1617633571	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-53
-1617633636	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617633665	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		26
-1617633683	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617633694	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617633816	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		239
-1617633897	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617633954	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617633974	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-6
-1617634005	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		8
-1617634060	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		74
-1617634288	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		401
-1617634507	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		326
-1617634559	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		36
-1617634633	2.202.19.198	E	en:firststeps	lineflyer	Wrap configuration		-114
-1617634709	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		35
-1617634741	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617634770	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-5
-1617634839	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617634916	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617634939	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		1
-1617635149	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		97
-1617635183	2.202.19.198	E	en:firststeps	lineflyer	[Finalize] 		-145
-1617635207	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		141
-1617635246	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		0
-1617635364	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		140
-1617635385	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		-1
-1617635452	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		6
-1617635472	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		2
-1617635556	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		94
-1617635607	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		3
-1617635644	2.202.19.198	E	en:firststeps	lineflyer	[First steps with c:geo] 		8
-1617635747	2.202.19.198	E	en:firststeps	lineflyer	Finalize		-243
-1617635869	2.202.19.198	E	en:sidebar	lineflyer	Add installation and update pageto sidebar		51
-1617635968	2.202.19.198	E	en:firststeps	lineflyer	Introduction		54
-1617636022	2.202.19.198	E	en:firststeps	lineflyer	Refer to installation page		104
-1617636067	2.202.19.198	e	en:sidebar	lineflyer	Fix typo		2
-1617636165	2.202.19.198	e	de:sidebar	lineflyer	Add installation page		57
-1617636198	2.202.19.198	D	de:firststeps	lineflyer	Empty		-4700
-1617636203	2.202.19.198	C	de:firststeps	lineflyer	angelegt		7601
-1617637226	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Content] Remove "Show direction"		-446
-1617637337	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Content] 		201
-1617637466	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Karteninhalt] Remove direction line add big cions		-265
-1617638671	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Data] 		-211
-1617638805	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Data] 		327
-1617638827	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Data] 		3
-1617639019	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		-305
-1617639218	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		409
-1617639267	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		1
-1617639452	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Data] 		249
-1617639467	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Map Data] 		-1
-1617639570	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Kartendaten] 		308
-1617639753	2.202.19.198	E	en:offlinemaps	lineflyer	[Downloading maps/themes] 		77
-1617639766	2.202.19.198	E	en:offlinemaps	lineflyer	[Downloading maps/themes] 		4
-1617639823	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual installation] 		-4
-1617639849	2.202.19.198	E	en:offlinemaps	lineflyer	[Downloading maps and themes] 		-2
-1617639881	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual download] 		21
-1617639903	2.202.19.198	E	en:offlinemaps	lineflyer	[Download and Installation] 		10
-1617639910	2.202.19.198	E	en:offlinemaps	lineflyer	[c:geo internal map downloader] 		-45
-1617639930	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual installation] 		15
-1617639945	2.202.19.198	E	en:offlinemaps	lineflyer	[Automatic download and installation] 		31
-1617639962	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual download and installation] 		11
-1617639974	2.202.19.198	E	en:offlinemaps	lineflyer	[Installation] 		-2
-1617639985	2.202.19.198	E	en:offlinemaps	lineflyer	[Map files] 		-2
-1617639993	2.202.19.198	E	en:offlinemaps	lineflyer	[Themes] 		-2
-1617640006	2.202.19.198	E	en:offlinemaps	lineflyer	[Configuration] 		-2
-1617640268	2.202.19.198	E	en:offlinemaps	lineflyer	[Automatic download and installation] 		321
-1617640297	2.202.19.198	E	en:offlinemaps	lineflyer	[Automatic download and installation] 		5
-1617640498	2.202.19.198	E	en:offlinemaps	lineflyer	[Automatic download and installation] 		268
-1617640515	2.202.19.198	E	en:offlinemaps	lineflyer	[Download sources] 		22
-1617640529	2.202.19.198	E	en:offlinemaps	lineflyer	[Map downloader] 		10
-1617641975	2.202.19.198	E	en:offlinemaps	lineflyer	[Map downloader] 		1133
-1617642035	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual download and installation] 		100
-1617642089	2.202.19.198	E	en:offlinemaps	lineflyer	[Configuration] 		-2687
-1617642100	2.202.19.198	E	en:offlinemaps	lineflyer	[Installation] 		-1693
-1617642109	2.202.19.198	E	en:offlinemaps	lineflyer	[Manual download and installation] 		-145
-1617642147	2.202.19.198	E	en:offlinemaps	lineflyer	[Download sources] 		-1792
-1617642169	2.202.19.198	E	en:offlinemaps	lineflyer	[Automatic download and installation] 		1794
-1617642208	2.202.19.198	E	en:offlinemaps	lineflyer	[Download sources] 		-325
-1617642230	2.202.19.198	E	en:offlinemaps	lineflyer	.		11
-1617642248	2.202.19.198	E	en:offlinemaps	lineflyer	[Usage] 		-160
-1617642265	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map file] 		1
-1617642276	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the theme] 		2
-1617642309	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting map files] 		-48
-1617642355	2.202.19.198	E	en:offlinemaps	lineflyer	[Advanced theme options] 		-2
-1617642477	2.202.19.198	E	en:offlinemaps	lineflyer	[Download sources] 		-302
-1617642495	2.202.19.198	E	en:offlinemaps	lineflyer	[Download sources] 		-11
-1617642528	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map downloader] 		6
-1617652537	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		57
-1617652656	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		52
-1617652669	2.202.19.198	E	en:offlinemaps	lineflyer	.		-1
-1617652694	2.202.19.198	E	en:offlinemaps	lineflyer	.		0
-1617652709	2.202.19.198	E	en:offlinemaps	lineflyer	.		0
-1617652764	2.202.19.198	E	en:offlinemaps	lineflyer	.		-3
-1617652778	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		2
-1617652832	2.202.19.198	E	en:offlinemaps	lineflyer	.		1
-1617652889	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		85
-1617652937	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		2
-1617652976	2.202.19.198	E	en:offlinemaps	lineflyer	.		0
-1617653016	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		49
-1617653034	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		-1
-1617653237	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		84
-1617653256	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		0
-1617653319	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		100
-1617653334	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		-1
-1617653395	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		54
-1617653410	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		0
-1617653486	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		229
-1617654023	2.202.19.198	E	en:offlinemaps	lineflyer	[Using the map/theme downloader] 		164
-1617654087	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		233
-1617654223	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		357
-1617654252	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		0
-1617654267	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		1
-1617654304	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		-1
-1617654337	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		-1
-1617654411	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		287
-1617654438	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		4
-1617654451	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		3
-1617654480	2.202.19.198	E	en:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		77
-1617654843	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting map files] 		0
-1617654858	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting a theme] 		0
-1617654902	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting a theme] 		2
-1617654997	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting map files] 		152
-1617655018	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting a theme] 		-49
-1617655034	2.202.19.198	E	en:offlinemaps	lineflyer	[Selecting a theme] 		2
-1617655062	2.202.19.198	D	de:offlinemaps	lineflyer	Start from scrath due to new downloader		-9938
-1617655067	2.202.19.198	C	de:offlinemaps	lineflyer	angelegt		7589
-1617687681	2.202.19.198	E	de:firststeps	lineflyer	Translate1		82
-1617688078	2.202.19.198	E	de:firststeps	lineflyer	.		208
-1617688100	2.202.19.198	E	de:firststeps	lineflyer	.		1
-1617688492	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		186
-1617688525	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		-1
-1617688543	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		2
-1617688826	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		73
-1617691975	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		22
-1617692090	2.202.19.198	E	en:firststeps	lineflyer	.		-2
-1617692122	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		-2
-1617693275	2.202.19.198	e	en:firststeps	lineflyer	typo		22
-1617693528	2.202.19.198	E	de:firststeps	lineflyer	.		-33
-1617693570	2.202.19.198	e	en:firststeps	lineflyer	typo		-12
-1617693802	2.202.19.198	E	de:firststeps	lineflyer	.		90
-1617693830	2.202.19.198	E	de:firststeps	lineflyer	.		0
-1617694180	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		232
-1617696218	2.202.19.198	E	de:firststeps	lineflyer	[Erste Schritte mit c:geo] 		-55
-1617696230	2.202.19.198	E	de:firststeps	lineflyer	Seite fertig		-179
-1617702204	2.202.19.198	E	de:offlinemaps	lineflyer	[Offline Map Tutorial] 		9
-1617702429	2.202.19.198	E	de:offlinemaps	lineflyer	[Introduction] 		114
-1617702469	2.202.19.198	E	de:offlinemaps	lineflyer	[Automatic download and installation] 		20
-1617702630	2.202.19.198	E	de:offlinemaps	lineflyer	[Download sources] 		82
-1617702966	2.202.19.198	E	de:offlinemaps	lineflyer	[Download and install the maps/themes] 		192
-1617702994	2.202.19.198	E	en:offlinemaps	lineflyer	[Download and install the maps/themes] use tap isntead of click		-4
-1617703244	2.202.19.198	E	de:offlinemaps	lineflyer	[herunterladen/Installieren der Karten/Designs] 		278
-1617703321	2.202.19.198	E	en:offlinemaps	lineflyer	Info box		182
-1617703622	2.202.19.198	E	de:offlinemaps	lineflyer	[herunterladen/Installieren der Karten/Designs] 		136
-1617703815	2.202.19.198	E	de:offlinemaps	lineflyer	[Check on updates for downloaded maps] 		150
-1617706486	2.202.19.198	E	de:offlinemaps	lineflyer	[Heruntergeladene Karten auf Aktualisierungen prüfen] 		59
-1617706510	2.202.19.198	E	de:offlinemaps	lineflyer	[Usage] 		20
-1617706540	2.202.19.198	e	en:offlinemaps	lineflyer	New caption		4
-1617706559	2.202.19.198	E	de:offlinemaps	lineflyer	[Nutzung von Offline-Karte] 		1
-1617706665	2.202.19.198	E	de:offlinemaps	lineflyer	[Selecting map files] 		52
-1617709756	2.202.19.198	E	de:offlinemaps	lineflyer	[Auswahl der Kartendatei] 		2
-1617709850	2.202.19.198	E	de:offlinemaps	lineflyer	[Selecting a theme] 		30
-1617709981	2.202.19.198	E	de:offlinemaps	lineflyer	[Advanced theme options] 		50
-1617710066	2.202.19.198	E	de:offlinemaps	lineflyer	[Further reading on offline maps] 		19
-1617710075	2.202.19.198	E	de:offlinemaps	lineflyer	Final		-179
-1617711143	2.202.19.198	E	en:logging	lineflyer	[Top bar menu] 		0
-1617711354	2.202.19.198	E	en:logging	lineflyer	[Report problem] 		4
-1617711376	2.202.19.198	E	de:logging	lineflyer	[Problem melden] 		4
-1617711591	2.202.19.198	E	en:logging	lineflyer	[Twitter] 		24
-1617711801	2.202.19.198	E	en:logging	lineflyer	[Images] 		299
-1617711810	2.202.19.198	E	en:logging	lineflyer	[Images] 		-2
-1617711820	2.202.19.198	E	en:logging	lineflyer	[Images] 		-2
-1617711919	2.202.19.198	E	en:logging	lineflyer	[Images] 		42
-1617711935	2.202.19.198	E	en:logging	lineflyer	[Images] 		0
-1617712087	2.202.19.198	E	en:logging	lineflyer	[Images] 		338
-1617714041	2.202.19.198	E	en:logging	lineflyer	[Images] 		29
-1617714216	2.202.19.198	E	en:logging	lineflyer	[Images] 		39
-1617714227	2.202.19.198	E	en:logging	lineflyer	[Images] 		-2
-1617714268	2.202.19.198	E	en:logging	lineflyer	[Images] 		22
-1617714805	2.202.19.198	E	en:logging	lineflyer	[Images] 		272
-1617714815	2.202.19.198	E	en:logging	lineflyer	[Attach image] 		-895
-1617714919	2.202.19.198	E	en:logging	lineflyer	[Images] 		778
-1617714944	2.202.19.198	E	en:logging	lineflyer	[Inventory] 		-2
-1617717880	2.202.19.198	E	en:logging	lineflyer	[Images] 		5
-1617717911	2.202.19.198	E	de:logging	lineflyer	[Titelzeilen-Menü] 		0
-1617717929	2.202.19.198	E	de:logging	lineflyer	[Twitter] 		1
-1617718029	2.202.19.198	E	de:logging	lineflyer	[Twitter] 		1842
-1617718372	2.202.19.198	E	de:logging	lineflyer	[Images] 		195
-1617718432	2.202.19.198	E	en:logging	lineflyer	[Images] 		112
-1617718520	2.202.19.198	E	de:logging	lineflyer	[Bilder] 		116
-1617718539	2.202.19.198	E	de:logging	lineflyer	[Bilder] 		21
-1617718548	2.202.19.198	E	de:logging	lineflyer	[Bild hinzufügen] 		-1003
-1617718928	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geolocation & Orientation] 		247
-1617719591	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geolocation & Orientation] 		13
-1617719729	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Positionierung & Orientierung] 		304
-1617719759	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Base folder, Geolocation & Orientation] 		4
-1617719775	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Positionierung & Orientierung] 		13
-1617720252	2.202.19.198	E	en:mainmenu:settings	lineflyer	[GPX] 		-289
-1617720284	2.202.19.198	E	de:mainmenu:settings	lineflyer	[GPX] 		-323
-1617720710	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Waypoints] 		0
-1617720722	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Wegpunkte] 		0
-1617721160	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Top section] 		-157
-1617721176	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Top section] 		-96
-1617721219	2.202.19.198	E	de:mainmenu:livemap	lineflyer	[Oberer Bereich] 		-64
-1617721864	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		42
-1617721875	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		0
-1617721886	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-1
-1617721895	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		0
-1617721906	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		0
-1617721925	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		2
-1617721938	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-2
-1617722001	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		107
-1617722012	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		1
-1617722020	2.202.19.198	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		1
-1617722820	2.202.19.198	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		-12
-1617722902	2.202.19.198	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		180
-1617723201	2.202.19.198	C	en:replacedevice	lineflyer	created		276
-1617723427	2.202.19.198	E	en:replacedevice	lineflyer	Initialize page		275
-1617723666	2.202.19.198	E	en:replacedevice	lineflyer	[Prerequisites] 		251
-1617724164	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the old device] 		682
-1617724227	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the old device] 		-22
-1617724412	2.202.19.198	E	en:replacedevice	lineflyer	[Migrate c:geo to another device] 		293
-1617724437	2.202.19.198	E	en:replacedevice	lineflyer	[Prerequisites] 		25
-1617724460	2.202.19.198	E	en:replacedevice	lineflyer	[Prerequisites] 		11
-1617724482	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		27
-1617724522	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the old device] 		0
-1617724680	2.202.19.198	E	en:replacedevice	lineflyer	[Migrate c:geo to another device] 		218
-1617724706	2.202.19.198	E	en:replacedevice	lineflyer	[Migrate c:geo to another device] 		25
-1617724837	2.202.19.198	E	en:replacedevice	lineflyer	[Limitations] 		172
-1617724889	2.202.19.198	E	en:replacedevice	lineflyer	[Limitations] 		37
-1617726671	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		832
-1617726829	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		-13
-1617726868	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		-19
-1617727323	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		110
-1617727363	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		83
-1617727389	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		3
-1617727401	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		-41
-1617727421	2.202.19.198	E	en:replacedevice	lineflyer	[Optional steps] 		-34
-1617727595	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		496
-1617727700	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the old device] 		-18
-1617727756	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		-21
-1617727813	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the old device] 		13
-1617727846	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		2
-1617731829	2.202.19.198	C	de:replacedevice	lineflyer	angelegt		3842
-1617732159	2.202.19.198	E	de:replacedevice	lineflyer	[Migrate c:geo to another device] 		53
-1617732522	2.202.19.198	E	de:replacedevice	lineflyer	[Limitations] 		140
-1617732644	2.202.19.198	E	de:replacedevice	lineflyer	[Prerequisites] 		57
-1617732964	2.202.19.198	E	de:replacedevice	lineflyer	[Tasks on the old device] 		147
-1617733018	2.202.19.198	E	de:replacedevice	lineflyer	[Tasks on the new device] 		8
-1617733030	2.202.19.198	E	de:replacedevice	lineflyer	[Auf dem alten Gerät] 		2
-1617733323	2.202.19.198	E	de:replacedevice	lineflyer	[Auf dem neuen Gerät] 		149
-1617733726	2.202.19.198	E	en:replacedevice	lineflyer	[Tasks on the new device] 		-82
-1617733969	2.202.19.198	E	de:replacedevice	lineflyer	[Auf dem neuen Gerät] 		-116
-1617734157	2.202.19.198	E	de:replacedevice	lineflyer	[Auf dem neuen Gerät] 		26
-1617734166	2.202.19.198	E	de:replacedevice	lineflyer	[Auf dem neuen Gerät] 		0
-1617734235	2.202.19.198	E	en:sidebar	lineflyer	Adding "migrate between devices" in special function category		62
-1617734278	2.202.19.198	e	en:sidebar	lineflyer	Typo		-2
-1617734304	2.202.19.198	E	de:sidebar	lineflyer	Migrate device		65
-1617734332	2.202.19.198	e	de:sidebar	lineflyer	syntax		1
-1617734349	2.202.19.198	E	de:replacedevice	lineflyer	[c:geo auf ein anderes Gerät übertragen] 		-2
-1617734368	2.202.19.198	e	de:replacedevice	lineflyer	Remove fixme		-179
-1617734421	2.202.19.198	E	en:start	lineflyer	[Special Functions and Hints] Add migration to another device link		57
-1617734444	2.202.19.198	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		62
-1617736792	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:translation	lineflyer	[Requirements] Remove self registration, it was disabled		-398
-1617742033	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:start	lineflyer	[Useful Links] Remove G+ link		-71
-1617742052	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	de:start	lineflyer	[Nützliche Links] Remoev G+ links		-72
-1617742733	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	en:cacheicons	lineflyer	Add c:geo own cache type		91
-1617742780	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	de:cacheicons	lineflyer	Add c:geo own cache type		104
-1617879141	2.202.19.198	E	en:hiddenfunctions	lineflyer	Add long press pencil icon		135
-1617879201	2.202.19.198	E	de:hiddenfunctions	lineflyer	Langtipp auf Stift-Symbol hinzugefügt		154
-1617879258	2.202.19.198	e	de:hiddenfunctions	lineflyer	Typos/Wording		6
-1617880093	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
-1617880108	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		2
-1617880119	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		-1
-1617880131	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
-1617880160	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Geocaching] 		1
-1617882367	2.202.19.198	E	en:intents	lineflyer	Add hint to chrome webview		103
-1617882440	2.202.19.198	E	en:intents	lineflyer	.		32
-1617882493	2.202.19.198	E	en:intents	lineflyer	.		81
-1617882606	2.202.19.198	E	de:intents	lineflyer	Add hint to chrome webview		218
-1617882785	2.202.19.198	E	en:spoilersync	lineflyer	Add base folder construction		192
-1617882801	2.202.19.198	e	en:spoilersync	lineflyer	.		0
-1617882853	2.202.19.198	E	en:spoilersync	lineflyer	Add link to base folder setting		60
-1617882886	2.202.19.198	E	en:mainmenu:settings	lineflyer	[Base folder, Geolocation & Orientation] 		48
-1617887496	2.202.19.198	E	de:mainmenu:settings	lineflyer	[Basisordner, Positionierung & Orientierung] 		5
-1617887635	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte aus Koordinaten in der persönlichen Notiz] 		17
-1617887856	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		180
-1617887911	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		14
-1617887967	2.202.19.198	E	en:notecoords	lineflyer	[Automatic creation of waypoints] 		2
-1617887997	2.202.19.198	E	de:notecoords	lineflyer	[Automatische Erstellung von Wegpunkten] 		-9
-1617888105	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		45
-1617888152	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] 		1
-1617888296	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		369
-1617888359	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] wording		5
-1617888505	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		-2
-1617889197	2.202.19.198	e	en:notecoords	lineflyer	[Using keywords for waypoint types] wording		-25
-1617889272	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		24
-1617889284	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		-12
-1617889321	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		3210
-1617892124	2.202.19.198	E	en:notecoords	lineflyer	[Advanced waypoint syntax] 		7
-1617892265	2.202.19.198	E	en:notecoords	lineflyer	[Using Personal Notes to create and store waypoint information] 		364
-1617892429	2.202.19.198	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		1055
-1617892682	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		268
-1618314867	2.202.19.198	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Remove trail history no longer on top level of that menu. Removed		-108
-1619023638	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:start	ijeantet	Add missing entries		411
-1619025223	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map behavior] First translation to French		79
-1619025321	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		4
-1619025454	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Comportement de la carte] Fix broken links		7
-1619027833	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map Content] First translation to French		66
-1619029612	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Proximity Notification] First translation to French		501
-1619046187	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	en:mainmenu:settings	ijeantet	[Restore] Fix typo		-1
-1619046295	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Restore] First translation to French		272
-1619047256	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Create Backup] First translation to French		345
-1619047305	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Backup / Restore] Translation to French		9
-1619048821	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Navigation] First translation to French		269
-1619051048	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Acceleration & Debugging] First translation to French		427
-1619051127	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[System] Translation to French		2
-1619051957	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Geolocation & Orientation] First translation to French		408
-1619083512	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Contenu de la carte] Update picture link		0
-1619084499	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Offline Data] First translation to French		36
-1619085265	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Generic] First translation to French		310
-1619085492	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[GPX] First translation to French		-264
-1619087589	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Database and Geocache data] First translation to French		407
 1619088253	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Maintenance] First translation to French		272
 1619093764	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Logging] Translation to French		0
 1619094849	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] First translation to French		191
@@ -1668,3 +1183,210 @@
 1646394354	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:nfc	vike91	luotu		645
 1646394391	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
 1646394465	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:spoilersync	vike91	site overhaul related delete, will create new soon!		-1730
+1646395123	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:spoilersync	vike91	luotu		1790
+1646395139	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:spoilersync	vike91	update		-1
+1646395194	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646395665	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:intents	vike91	site overhaul related delete, will create new soon!		-1523
+1646395991	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:intents	vike91	luotu		1129
+1646396009	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:intents	vike91	update		-8
+1646396059	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:intents	vike91	update		1
+1646396075	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:intents	vike91	update		1
+1646396163	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646396600	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:cachefilter	paulhenrysaux	créée et début de traduction		19791
+1646397446	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:quick_widgets	vike91	site overhaul related delete, will create new soon!		-2050
+1646398317	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:quick_widgets	vike91	luotu		2100
+1646398378	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646398466	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:basicmembers	vike91	site overhaul related delete, will create new soon!		-2446
+1646399408	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:basicmembers	vike91	luotu		2501
+1646399438	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646402057	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:offlinemaps	vike91	site overhaul related delete, will create new soon!		-8070
+1646404983	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:offlinemaps	vike91	luotu		8095
+1646405130	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:offlinemaps	vike91	[Tarkista ladattujen karttojen päivitykset] 		-6
+1646405198	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646405241	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:udc	vike91	site overhaul related delete, will create new soon!		-3847
+1646406607	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:udc	vike91	luotu		3893
+1646406648	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:udc	vike91	fix		2
+1646406679	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:udc	vike91	[Käyttäjän määrittämän kätkön luonti] 		-1
+1646406695	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:udc	vike91	[Käyttäjän määrittämien kätköjen käsittely] 		0
+1646406745	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-13
+1646406817	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:mainmenu:globaltypefilter	vike91	english page doesn't exist anymore so delete		-935
+1646406892	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:cachemarkers	vike91	site overhaul related delete, will create new soon!		-4394
+1646408062	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:cachemarkers	vike91	luotu		3825
+1646408079	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachemarkers	vike91	update		1
+1646408180	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646424500	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646424724	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:coordinatedialog	vike91	site overhaul related delete, will create new soon!		-11187
+1646425488	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:notecoords	vike91	[Edistynyt reittipisteiden syntaksi] 		37
+1646425900	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:coordinatedialog	vike91	luotu		2527
+1646426085	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:contacts	vike91	site overhaul related delete, will create new soon!		-3187
+1646428054	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:contacts	vike91	luotu		3215
+1646428085	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:contacts	vike91	[c:geon yhteystiedot-lisäosa] 		2
+1646428169	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-6
+1646428211	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:navigation	vike91	site overhaul related delete, will create new soon!		-3712
+1646429701	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:navigation	vike91	luotu		3635
+1646429744	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646429877	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:mainmenu:pocketquery	vike91	site overhaul related delete, will create new soon!		-1134
+1646430512	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:mainmenu:pocketquery	vike91	luotu		1437
+1646430609	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-11
+1646430994	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:attributes	vike91	update		-12
+1646431074	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646466345	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachefilter	paulhenrysaux	traduction d'une partie du mode avancé		892
+1646492712	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachefilter	paulhenrysaux	traduction d'une partie du mode avancé		345
+1646557851	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachefilter	paulhenrysaux	traduction d'une partie du mode avancé		385
+1646564968	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	en:cachemarkers	lineflyer	Fix table columns		-4
+1646565323	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	de:cachemarkers	lineflyer	Sort markers by used corners		376
+1646569416	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachefilter	paulhenrysaux	traduction d'une partie des types de filtrage		635
+1646670831	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	nl:start	jos	[Aan de slag met c:geo] 		1
+1646671040	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:cachefilter	paulhenrysaux	Fin de la traduction		537
+1646671374	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	nl:mainmenu:start	jos	[Hoofdmenu pictogrammen] 		1
+1646671576	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	nl:mainmenu:start	jos	[Satelliet status] 		-1
+1646672456	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	nl:basicuse	jos	[Wat is Geocaching?] 		2
+1646673026	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	nl:start	jos	[Over deze handleiding] 		-1
+1646677264	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachemarkers	vike91	update		-4
+1646677565	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:logging	vike91	site overhaul related delete, will create new soon!		-9437
+1646682429	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:logging	vike91	luotu		9881
+1646682473	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646682519	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:cacheicons	vike91	site overhaul related delete, will create new soon!		-4824
+1646686086	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:cacheicons	vike91	luotu		9644
+1646686133	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646686334	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:ebook_help	vike91	update		-14
+1646686451	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:firststeps	vike91	site overhaul related delete, will create new soon!		-4342
+1646691056	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:firststeps	vike91	luotu		7855
+1646691088	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:firststeps	vike91	update		-3
+1646691131	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:firststeps	vike91	update		-3
+1646691214	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:firststeps	vike91	update		-2
+1646691256	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646691370	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:hiddenfunctions	vike91	update		-11
+1646691389	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646691517	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:loggingtb	vike91	update		-13
+1646691539	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:loggingtb	vike91	update		1
+1646691561	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646691687	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:installation	vike91	update		-12
+1646691725	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646692030	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:loginproblems	vike91	update		12
+1646692067	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:loginproblems	vike91	update		-11
+1646692100	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646693470	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		-356
+1646693490	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		-1
+1646693511	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		3
+1646693643	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-130
+1646694022	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		4
+1646694099	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:coordformat	vike91	update		-12
+1646694125	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646694145	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:mainmenu:utilityprograms	vike91	site overhaul related delete, will create new soon!		-3676
+1646694932	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:mainmenu:utilityprograms	vike91	luotu		3854
+1646694988	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646695144	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mapsources	vike91	update		-54
+1646695199	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646695427	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:basicuse	vike91	[Miten löydät ensimmäisen kätkösi c:geolla] 		-9
+1646695454	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:basicuse	vike91	update		-13
+1646695487	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646695696	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		199
+1646695768	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		18
+1646718174	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:mainmenu:lists	vike91	site overhaul related delete, will create new soon!		-18127
+1646725012	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:mainmenu:lists	vike91	luotu		16897
+1646725048	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:lists	vike91	[Tuo] 		1
+1646725076	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:lists	vike91	[Vie] 		9
+1646725154	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-20
+1646725497	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachefilter	vike91	[Tekstisuodattimet] 		0
+1646725584	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachefilter	vike91	[Lokikirjaussuodatin] 		2
+1646725623	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachefilter	vike91	update		-11
+1646725660	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646725707	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:aboutcgeo	vike91	[Tietoja c:geosta] 		-32
+1646725745	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:aboutcgeo	vike91	update		21
+1646788433	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[c:geon asetukset] 		0
+1646788468	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[c:geon asetukset] 		-6
+1646788582	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Geocaching] 		0
+1646788648	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Geocaching] 		0
+1646788893	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Ulkoasu] 		0
+1646789257	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Kätkön tiedot] 		-113
+1646789479	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Kartan sisältö] 		153
+1646789495	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Kartan sisältö] 		1
+1646789559	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Kartan käyttäytyminen] 		6
+1646789748	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Allekirjoitus] 		207
+1646789756	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Allekirjoitus] 		1
+1646790041	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Muut lokkausasetukset] 		-3
+1646790231	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Yleinen] 		357
+1646790296	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Ylläpito] 		-366
+1646790365	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Juurikansio, Geolokaatio & Orientaatio] 		1
+1646790405	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Juurikansio, Geolokaatio & Orientaatio] 		0
+1646790440	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Laitteistokiihdytys & Vianetsintä] 		1
+1646790456	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Laitteistokiihdytys & Vianetsintä] 		-22
+1646790522	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	[Vianetsintä] 		-277
+1646790578	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:settings	vike91	update		-12
+1646790598	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646790754	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:offline	vike91	[Kenttämuistiinpanojen vienti] 		0
+1646790777	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:offline	vike91	update		-11
+1646790824	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-40
+1646844014	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:basicmembers	paulhenrysaux	créée et traduit entièrement		2713
+1646844676	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:coordformat	paulhenrysaux	créée et traduit entièrement		1042
+1646844854	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	C	fr:attributes	paulhenrysaux	créée et début de traduction		8936
+1646977290	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:goto	vike91	update		-78
+1646977638	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:trackabledetails	vike91	[Yläpalkin valikko] 		9
+1646977701	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:trackabledetails	vike91	update		-13
+1646977724	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646977905	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Yläpalkin valikko] 		15
+1646978028	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Reittipisteet-alavalikko] 		229
+1646978042	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Reittipisteet-alavalikko] 		1
+1646978211	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Lisäasetukset-alavalikko] 		270
+1646978400	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Kätkön tiedot] 		117
+1646978499	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Listojen hallinta] 		50
+1646978602	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Reittipisteiden tyypit] 		0
+1646978733	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Reittipisteen alavalikko] 		88
+1646978781	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Omat muistiinpanot] 		1
+1646978803	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	[Omat muistiinpanot] 		1
+1646978887	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:cachedetails	vike91	update		-12
+1646978921	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-20
+1646978993	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:search	vike91	update		-13
+1646979065	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Live-kartta] 		0
+1646979163	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		71
+1646979260	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kartan sisältö] 		-1399
+1646979317	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Yläosa] 		-217
+1646979406	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kätkön tiedot] 		-7
+1646979426	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kätkön tiedot] 		-6
+1646980041	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kartan pika-asetukset] 		-1899
+1646983459	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	update		9188
+1646983490	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Suuntaviiva] 		-1
+1646983596	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646983670	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:ebook	vike91	update		32
+1646983787	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	D	fi:mainmenu:start	vike91	site overhaul related delete, will create new soon!		-7370
+1646985020	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		-140
+1646986608	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	C	fi:mainmenu:start	vike91	luotu		6785
+1646986647	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:start	vike91	[Kotivalikko] 		-7
+1646986735	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-11
+1646986917	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:history	vike91	update		-11
+1646986991	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:quicksearch	vike91	update		-11
+1646987043	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646987141	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:compass	vike91	update		-12
+1646987165	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:sidebar	vike91	update		-10
+1646987242	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	update		-104
+1646987428	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	[Tästä käyttöohjeesta] 		-61
+1646987450	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	[Tästä käyttöohjeesta] 		40
+1646987548	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:start	vike91	[Tästä käyttöohjeesta] 		211
+1647706008	fe80:c56d:eb28:162e:b0dd:d63b:b2c7:345c	C	fr:offlinemaps	paulhenrysaux	créée et début de traduction		8296
+1648238444	fe80:c56d:eb28:162e:b0dd:d63b:b2c7:345c	E	fr:offlinemaps	paulhenrysaux	Fin de la traduction		1060
+1648238611	fe80:c56d:eb28:162e:b0dd:d63b:b2c7:345c	C	fr:intents	paulhenrysaux	créée et traduit entièrement		1238
+1649690915	fe80:c3a4:7454:7fb6:bf94:5668:70fc:8ae3	E	en:loginproblems	lineflyer	Outdent chapter 4b as chapter 5 for better readability		-39
+1649691002	fe80:c3a4:7454:7fb6:bf94:5668:70fc:8ae3	E	de:loginproblems	lineflyer	Kapitel 4b als Kapitel 5 zur besseren Übersicht		-35
+1649789394	fe80:746e:c124:dee3:6ffe:a8b6:37ed:0c80	C	fr:hiddenfunctions	paulhenrysaux	créée		3325
+1649789635	fe80:746e:c124:dee3:6ffe:a8b6:37ed:0c80	E	fr:hiddenfunctions	paulhenrysaux	Fin de la traduction		-406
+1649789831	fe80:746e:c124:dee3:6ffe:a8b6:37ed:0c80	C	fr:nfc	paulhenrysaux	créée et traduit entièrement		717
+1650307327	fe80:746e:c124:dee3:6ffe:a8b6:37ed:0c80	C	fr:spoilersync	paulhenrysaux	créée et traduit entièrement		2134
+1650307347	fe80:746e:c124:dee3:6ffe:a8b6:37ed:0c80	e	fr:spoilersync	paulhenrysaux	suppression du fix me		-159
+1650619470	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Add explanation of D/T marker (WIP)		556
+1650619535	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Add images for D/T		102
+1650619569	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Tweak size of D/T		30
+1650619836	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Finalize D/T markers		151
+1650619933	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Fix table syntax and finalize format		-2
+1650619948	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		1
+1650619964	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		-1
+1650620057	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:mainmenu:settings	lineflyer	[Map Content] Link to cache marker page for D/T icons		111
+1650620436	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	de:cachemarkers	lineflyer	Erklärung für Markierungen für D/T		949
+1650620519	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	de:mainmenu:settings	lineflyer	[Karteninhalt] Tippfehler		0
+1650620546	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		-1
+1650620572	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	de:cachemarkers	lineflyer	Typo		1
+1650621402	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	WIP Attribute colors		438
+1650621934	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Color groups of attributes		-144
+1650621970	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Add caption for attribute table itself		83
+1650622730	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Change text order		1
+1650623013	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	de:attributes	lineflyer	Farbkategorien für Attribute		355

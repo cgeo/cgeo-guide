@@ -1,0 +1,11 @@
+====== Liens de Géocaching======
+
+c:geo s'enregistrera pour les hyperliens spécifiques au géocaching, de sorte que c:geo sera affiché comme application cible possible, lorsque vous tapez sur l'un de ces liens dans une autre application.
+
+Par exemple, c:geo s'enregistrera pour les liens commençant par ''http://coord.info/GC'', qui est utilisé dans les e-mails envoyés par geocaching.com à ses utilisateurs et qui cible une certaine liste de caches. En cliquant sur ce lien dans n'importe quelle application et en sélectionnant c:geo comme application cible, vous ouvrirez directement les détails de la cache liée dans c:geo. Il en va de même pour les liens liés au géocaching sur d'autres plateformes de géocaching.
+
+Lorsqu'on vous demande quelle application utiliser pour ouvrir ces liens, vous pouvez également sélectionner c:geo comme application par défaut pour ce type de lien. Par la suite, votre appareil lancera directement c:geo lorsque vous toucherez un tel lien.
+
+<WRAP center round important 60%>
+Dans Android 12, Google a modifié la fonctionnalité des liens web. Voir [[https://www.cgeo.org/faq#android12|cette entrée de la FAQ]] pour savoir comment activer cette fonctionnalité sur Android 12.
+</WRAP>

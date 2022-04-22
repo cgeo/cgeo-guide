@@ -1,81 +1,72 @@
-**FIXME**
+====== Kotivalikko ======
 
+Tämä sivu selostaa kotivalikossa näytettävät tiedot ja alapalkin tarjoamat toiminnot, joita sovellus tarjoaa.
 
-
-====== Päävalikko ======
-
-Tämä sivu selostaa c:geon päävalikossa näkyvät tiedot ja toiminnot.
-
-===== Pääkuvakkeet =====
 {{anchor:main_icons:}}
+
+Kotivalikko näyttää profiilikuvasi (kuten näkyy geokätköilypalvelussa) ja c:geossa aktivoimiesi geokätköilypalveluissa oleva löytömäärä sekä kirjautumistila.
 
 {{ :en:mainmenu_2.png?direct&400 |}}
 
-Seuraava taulukko selostaa päävalikon kuvakkeet:
+Näytön alareunassa löytyvät c:geon päätoiminnot, jotka selostetaan seuraavassa taulukossa. Tällä hetkellä käytössä oleva toiminto on korostettu.
 
-^ Kuvake ^ Toiminto ^ Selite ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Live-kartta]]|Näyttää kartan, jossa sijaintisi on keskipisteessä, ja lähellä olevat kätköt merkattuna. Voit vetää karttaa eri suuntiin nähdäksesi geokätköt eri sijainnissa. Tarvitset internet-yhteyden, jotta kätköt ja niiden sijainnit näkyvät. Näytettävät geokätköt voidaan suodattaa käyttäen Yleistä kätkötyyppisuodatinta, lisätietoja alempana.|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Lähistöllä]]|Listaa lähellä olevat geokätköt. Toisin kuin live-kartta, tämä toiminto luo uuden haun perustuen nykyiseen sijaintiisi, GPS:istä tai verkkoosi perustuvaan tietoon perustuen. Haku ei päivity automaattisesti siirtyessäsi. Käyttääksesi tätä toimintoa sinulla tulee oleva toimiva internet-yhteys.\\ \\ Jos c:geolla ei ole riittävää sijaintia tai ollenkaan sijaintitietoja, niin tämä valinta on pois päältä.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Tallennettu]]|Selaa offline-tilaa varten tallentamiasi kätköjä. Voit käyttää tallennettuja geokätköjä myös online-kätköilyyn, esimerkiksi tehtävälistana. Tallentamalla geokätköt voit mahdollisesti välttää tarpeettoman verkkoliikenteen ja viiveet. Tallennettujen geokätköjen yhteismäärä näkyy kuvakkeen oikeassa ylänurkassa.\\ Jos olet järjestänyt geokätköt useampaan listaan, voit painaa tätä kuvaketta pitkään mennäksesi suoraan tiettyyn listaan.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Hae]]|Hae geokätköjä avainsanan, kätkökoodin, osoitteen, käyttäjätunnuksen jne. avulla|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Siirry]]|Navigoi haluttuihin koordinaatteihin käyttäen kompassia, tutkaa, askel askeleelta navigoinnilla tai millä tahansa tuetulla navigointitavalla.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Yleinen kätkötyyppisuodatin]]|Tämä korvataan lähiaikoina uudella [[..:cachefilter|suodatinkehyksellä]].|
-
+^ Kuvake ^ Toiminto ^ Kuvaus ^
+|{{:main_home_default.svg?nolink&100|}}|Etusivu| Palaa kotivalikkoon.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Tallennettu]]|Katsele geokätköjä, jotka olet tallentanut offlinekäyttöön. Voit käyttää tallennettuja geokätköjä myös online-tilassa, to-do -listana. Tallentamalla geokätköjen tiedot etukäteen voit välttää tarpeetonta verkon käyttöä ja viiveitä. \\ Jos olet järjestänyt tallennetut geokätköt eri listoihin, voit painaa tätä kuvaketta pitkään hypätäksesi tiettyyn listaan.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Kartta]]|Näyttää kartan, joka on keskitetty nykyiseen sijaintiisi, sekä lähistöllä olevat geokätköt. Voit vetää karttaa nähdäksesi muiden paikkojen geokätköt. Verkkoyhteys tarvitaan ajantasaisien geokätkösijaintien näyttämiseksi|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Hae]]|Etsi geokätköjä avainsanan, geokoodin, osoitteen, käyttäjänime jne. mukaan.\\ \\ Tämän kuvakkeen pitkä painallus avaa listan viimeksi selatuista kätköistä.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Lähistöllä]]|Listaa lähistöllä olevat geokätköt. Toisin kuin livekartta, tämä toiminto luo online-haun perustuen GPS:n tai verkon tarjoamaan sijaintiisi. Haku ei automaattisesti päivity kun siirryt paikasta toiseen. Verkkoyhteys tarvitaan tämän toiminnon käyttämiseksi.|
 
 ===== Yläpalkin valikko ===== 
 {{anchor:top_bar_menu:}}
 
-
-Päävalikon yläosa sisältää lisätoimintoja, näytettynä joko kuvakkeena yläpalkissa, tai piilotettuna kolmen pisteen valikossa. Kaikki toiminnot on selitetty alla.
+Kotivalikon yläosio sisältää lisätoimintoja, jotka näytetään joko yläpalkin kuvakkeena tai on piilotettu ylivuotovalikon napin taakse (kolmen pisteen painike). Saatavilla olevat toiminnot selostetaan alla.
 
 <WRAP center round info 100%>
-Yläpalkissa näytettävien kuvakkeiden määrä määritellään dynaamisesti, näyttösi resoluution ja suunnan mukaisesti.
-Loput ylävalikon valinnoista on kolmen pisteen menun takana.\\
-Paina kuvaketta pitkään nähdäksesi toiminnon nimen.
+Yläpalkissa näytettävät kuvakkeet sekä sisältö ylivuotovalikkonapin takana jaetaan dynaamisesti laitteesi resoluutioon ja näytön suuntaan perustuen. Täten on mahdollista, että laitteesi yläpalkissa näytettävät kuvakkeet ja ylivuotovalikon takana näytettävien valintojen määrä voi vaihdella näytetystä.\\
+Kun valikon valinta näytetään kuvakkeena, voit painaa sitä pitkään nähdäksesi ponnahdusikkunan, joka selostaa kuvakkeen toiminnon.
 </WRAP>
 
-{{:en:main_topbarmenu_2.png?direct&400|}} 
+{{:en:main_topbarmenu_2.png?direct&400|}}
 {{:en:main_topbarmenu.png?direct&400|}}
 
-^ Kuvake ^ Toiminto ^ Selite ^
-|{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Pikahaku]]|Offline-tilassa voit tästä etsiä tallennetuistasi geokätköistä kätkön nimen, kätkökoodin, kuvauksen, omistajan, lokitekstin tai muun vastaavan avulla. \\ Online-tilassa voit tästä etsiä sekä tallennetuista että netistä. Voit käyttää tässä tallennettujen geokätköjen tietoja, matkaajan koodia, kätkökoodia, käyttäjänimeä ja paljon muuta.|
-|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Historia]]|Näytä geokätköt, jotka olet viimeksi kirjannut c:geolla. \\ Huomioi: Lista on paikallinen c:geossa, eikä sitä synkronoida geocaching.comin viimeksi selattujen kätköjen kanssa.|
-|{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Näytä toimintovalikko, joka sisältää toiminnot, joita ei näytetä kuvakkeena, vaan on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
-|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Listat / Pocket Queries]]|Avaa listasi Pocket Queryista ja kirjanmerkkilistoista geocaching.com-palvelimelta. Tämä ei ole saatavilla geocaching.com:in [[..:basicmembers|peruskäyttäjille]].|
-|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Asetukset]]|Avaa c:geon asetukset|
-|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Varmuuskopioi]]|Avaa varmuuskopiointitoiminnon, joka löytyy myös [[settings|c:geo asetuksista]].|
-|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Apuohjelmat]]|Avaa listan muihin käteviin geokätköilyyn liittyvistä ohjelmista, joita voi käyttää c:geon ohessa.|
-|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Skannaa geokoodi]]|Jos ohjelma [[utilityprograms|Barcode Scanner]] on asennettu laitteeseesi, avaa ohjelman ja etsii geokoodeja.|
-|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Tietoja c:geosta]]|Näyttää c:geon version tiedot, kehittäjät, kontaktilinkit ja muita kivoja juttuja c:geosta.|
-| |Ilmoita ongelmasta|Voit käyttää tätä toimintoa lähettääksesi ongelmaraportin c:geon tuelle sähköpostin kautta.\\ :!: Sisällytäthän yksityiskohtaisen selostuksen ongelmasta viestiisi.|
+
+^ Kuvake ^ Toiminto ^ Kuvaus ^
+|{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Pikahaku]]|Jos olet offline-tilassa, etsi tallennetusta geokätköistä käyttäen kätkön nimeä, geokoodia, kuvausta, omistajan nimeä, lokikirjausta jne. \\ Jos olet online-tilassa, etsi sekä tallennetuista että online-sisällöstä. Voit käyttää geokoodia, matkaajan koodia, käyttäjänimeä ja monia muita hakutermejä.|
+|{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Historia]]|Selaa viimeksi c:geossa kirjaamiesi kätköjen listaa. \\ Huomaa: Lista on paikallinen c:geossa, eikä sitä synkronoida geokätköpalvelussa olevan viimeksi selattujen geokätköjen listan kanssa.|
+|{{ :three_dot_vertical.svg?nolink&40 |}}|Ylivuotovalikon painike|Avaa yläpalkin toimintojen ylivuotolistan, jotka näytön koosta riippuen, eivät näy kuvakkeina. Myös nämä toiminnot selostetaan tässä taulukossa.|
+|{{:main_any_default.svg?nolink&40|}}|[[goto|Siirry]]|Navigoi mihin tahansa mielivaltaiseen sijaintiin käyttäen kompassia, tutkaa, opastettua navigointia tai mitä tahansa tuettua navigaatiotapaa.|
+|{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Avaa listan geocaching.comissa olevista Pocket Queryistäsi.  Tämä valinta ei ole saatavilla geocaching.comin [[..:basicmembers|peruskäyttäjille]].|
+|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Kirjanmerkkilistat]]|Avaa listan geocaching.comissa olevista kirjanmerkkilistoistasi. Tämä valinta ei ole saatavilla geocaching.comin [[..:basicmembers|peruskäyttäjille]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Apuohjelmat]]|Avaa listan, joka sisältää linkit geokätköilyyn liittyviin apusovelluksiin, joita voidaan käyttää c:geon kanssa tai ohessa.|
+| | |
+|{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Asetukset]]|Avaa c:geon määritysvalikon.|
+|{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Varmuuskopioi/Palauta]]|Vie sinut suoraan varmuuskopiointi/palautustoimintoon, joka löytyy myös [[settings|c:geon asetuksista]].|
+| | Päivitä offline-tiedot|Sisältää toimintoja, jolla voit tarkistaa saatavilla olevat päivitykset offline-karttatiedostoihin ja reititystietoihin.|
+| | |
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Tietoja c:geosta]]|Näet tästä c:geon versiotiedot, osallistujat, yhteystiedot ja muuta kivaa tietoa c:geosta.|
+| |Ilmoita ongelmasta|Voit käyttää tätä toimintoa lähettääksesi sähköpostitse ongelmaraportin c:geon tukeen.\\ :!: Ole hyvä ja sisällytä yksityiskohtainen selostus ongelmastasi.|
 
 ===== Alaosio =====
 {{anchor:bottom_section:}}
 
-{{ :en:mainmenu_4.png?direct&400 |}}
+{{ :en:mainmenu_4.png?direct&600 |}}
 
-Päävalikon alaosio näyttää sinulle tietoja kirjautumisen tilasta, nykyisen sijainnin sekä satelliittien tilan.
+Kotivalikon alaosio näyttää tiedot tallennettujen kätköjen määrästä, nykyisestä sijainnistasi sekä satelliittivastaanoton tilatiedot.
 
-==== Kirjautumisen tila ====
-{{anchor:login_status:}}
-
-Alaosion yläosa näyttää jokaisen aktiivisen [[settings#Services|geokätköilysivuston]] kirjautumisen tilan, jotka olet määritellyt [[settings|c:geon asetuksissa]], jokainen omalla rivillään.\\
-Yllä olevassa esimerkissä käyttäjänimi ''My username'' on onnistuneesti kirjautunut geocaching.com-palveluun (''GC'') sekä opencaching.de-palveluun (''OC.DE''). Numero käyttäjänimen jälkeen näyttää kyseiseen geokätköilysivustoon kirjatut löydöt, valinnaisesti numeron perässä näytetään myös offline-kirjauksien määrä (muodossa ''online-löydöt + offline-löydöt''), jos asetus on aktivoitu [[.settings#other_logging_options|lokkausasetuksissa]].
 
 ==== Nykyinen sijainti ====
 {{anchor:current_location:}}
 
-Kirjautumisen tilan alapuolella oleva tieto on nykyinen sijaintisi. Se näytetään joko koordinaattimuodossa, tai jos [[settings#Appearance|Näytä osoite]] on aktivoitu, maa, sekä alue, jossa olet.\\
-Esimerkissä käyttäjä on paikassa ''USA, New York''.
+Nykyinen sijaintisi näytetään joko koordinaatteina, tai jos [[settings#Appearance|Näytä osoite]] on aktivoitu, maana ja kaupunkina/alueena.
 
 ==== Satelliittien tila ====
 {{anchor:satellite_status}}
 
-Tämän osion viimeinen rivi osoittaa satelliittien vastaanoton (alla oleva taulukko käyttää yllä olevan kuvan tietoja):
+Tämän osion alarivi näyttää senhetkisen satelliittivastaanoton tilan. Allaoleva taulukko käyttää ylläolevaa kuvaa esimerkkinä.
 
-^ Tila ^ Selite ^
-|Satelliitti: 5/22|Laitteesi satelliittivastaanotin on löytänyt 22 satelliittia ja signaali on kiinnittynyt 5 satelliittiin.|
-|+- 4,65 m|Nykyinen paikannuksen tarkkuus on 4,65 metriä. Riippuen laitteesi asetuksista tämä voi myös näkyä jalkoina (feet).|
-| 0 km/h|Nykyinen nopeus in 0 km/h. Riippuen laitteesi asetuksista tämä voi näkyä myös muodossa jalkaa tunnissa (ft/h).|
-|Viimeisin tunnettu|Sijainnin tunnistamisessa käytettävä lähde:\\ \\ Viimeisin tunnettu = Viimeisin sijainti, jonka c:geo on muodostanut\\ Koti = Geocaching.comissa määritellyt kotikoordinaatit \\ GPS = GPS-vastaanottimen tarjoama sijainti\\ Verkkoyhteys = Mobiiliverkosta päätelty sijainti\\ Yhdistetty = Sekä Google Play Palveluita että GPS-vastaanottimen dataa käyttäen päätelty sijainti|
-
+^ Tila ^ Kuvaus ^
+|Sat: 16/26|Laitteen satelliittivastaanotin on löytänyt yhteensä 26 satelliittia ja signaali on kiinnitetty 16 satelliittiin.|
+|+- 26,1 ft|Nykyinen paikallistamisen tarkkuus on 26,1 jalkaa. Riippuen laitteesi asetuksista, tämä voidaan näyttää metreinä.|
+| 0 mph|Nykyinen nopeus on 0 mph. Riippuen laitteesi asetuksista, tämä voidaan näyttää muodossa km/h.|
+|Yhdistetty|Käytössä oleva sijaintilähde:\\ \\ Viimeisin tunnettu = Viimeisin c:geon saama tunnettu sijainti\\ Koti = geocaching.comissa määrittämäsi kotikoordinaatit \\ GPS = GPS-vastaanottimen tarjoama \\ Verkko = Päätelty mobiiliverkon tiedoista\\ Yhdistetty = Päätelty käyttäen Google Play Palveluita ja GPS-vastaanotinta|

@@ -85,7 +85,7 @@ Edistynyt muoto tunnistetaan, kun se alkaa ''@''-merkillä rivin alussa. Seuraav
   * **Muistiinpano**: Jos heti koordinaattien jälkeen on ''"'' (samalla tai seuraavalla rivillä), niin kaikki tämän ''"'' ja seuraavan ''"'' välillä oletetaan olevan osa reittipisteen **muistiinpanoa** (sisältäen rivinvaihdot). Jos koordinaattien jälkeen ei ole merkkiä ''"'', mutta sen jälkeen on silti muuta sisältöä, niin tämä sisältö oletetaan olevan reittipisteen muistiinpano.
   * **Reittipisteen tyyppi**: samat säännöt pätevät kuten edellisissä osioissa.
   * **Koordinaatit**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa koordinaattien erityistunniste ''(NO-COORD)'', jota voidaan käyttää tyhjien koordinaattien määrittämiseksi (tämä on tarpeellista siinä tapauksessa, jos halutaan muokata tyhjillä koordinaateilla olevan etukäteen määritellyn reittipisteen muistiinpanoa)
-  * **Kaava**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa kaavan erityistunniste ''(F-PLAIN)'', jota voidaan käyttää, kun kaava on ''perus''-muodossa. Kätköjen kuvaukset usein sisältävät kaavoja tässä muodossa. Voit määrittää kaikki tunnetut muuttujat käyttäen erottimena ''|''-merkkiä. \\ Kaavan syntaksi tulee täyttää kriteerit, jotka on selostettu osiossa [[en:coordinatedialog#using_plain_coordinate_format|Peruskoordinaattimuodon käyttö]]. \\ Jos voit määrittää muuttujat vain yksi askel kerrallaan, suositellaan, että kytket päälle toiminnon ''Estä reittipisteiden siirto'' kunnes olet syöttänyt kaikki muuttujat henkilökohtaiseen muistiinpanoon. Reittipiste voidaan tämän jälkeen kun kaikki muuttujat ja koordinaatit on laskettu. (Muita muotoja olemme vielä työstämässä)
+  * **Kaava**: samat säännöt pätevät kuten edellisissä osioissa. Lisäksi on olemassa kaavan erityistunniste ''(F-PLAIN)'', jota voidaan käyttää, kun kaava on ''yksinkertainen''-muodossa. Kätköjen kuvaukset usein sisältävät kaavoja tässä muodossa. Voit määrittää kaikki tunnetut muuttujat käyttäen erottimena ''|''-merkkiä. \\ Kaavan syntaksi tulee täyttää kriteerit, jotka on selostettu osiossa [[en:coordinatedialog#using_plain_coordinate_format|Yksinkertaisen koordinaattimuodon käyttö]]. \\ Jos voit määrittää muuttujat vain yksi askel kerrallaan, suositellaan, että kytket päälle toiminnon ''Estä reittipisteiden siirto'' kunnes olet syöttänyt kaikki muuttujat henkilökohtaiseen muistiinpanoon. Reittipiste voidaan tämän jälkeen kun kaikki muuttujat ja koordinaatit on laskettu. (Muita muotoja olemme vielä työstämässä)
 
 Geokätkön reittipistelistaa muokataan tällä tiedolla seuraavasti:
   * Jos **etuliite** jäsennetään, ja on olemassa jo oleva reittipiste samalla etuliitteellä, niin oletetaan että tätä reittipistettä pitäisi muokata. Tätä käytetään yleensä vain etukäteen määritellyille reittipisteille.
@@ -95,7 +95,7 @@ Geokätkön reittipistelistaa muokataan tällä tiedolla seuraavasti:
 Siinä tapauksessa, jos reittipistettä muokataan, seuraavat säännöt pätevät:
   * Etukäteen määritellyt reittipisteissä, ainoat asiat, joita voidaan muokata ovat koordinaatit (jos kätkön tekijä määritteli ne tyhjiksi) ja muistiinpano.
   * Olemassa olevissa reittipisteissä, kentät ylikirjoitetaan vain jos ne ovat tyhjiä tai sisältävät oletusarvon (kuten järjestelmän luoma reittipisteen nimi)
-  * Kaava ''perus''-muodossa siirretään vain jos kaavaa tai koordinaatteja ei ole vielä syötetty.
+  * Kaava ''yksinkertainen''-muodossa siirretään vain jos kaavaa tai koordinaatteja ei ole vielä syötetty.
 
 Seuraavat esimerkit näyttävät erilaisia tekstejä vasemmalla ja niistä luodut reittipisteet oikealla
 
@@ -103,4 +103,4 @@ Seuraavat esimerkit näyttävät erilaisia tekstejä vasemmalla ja niistä luodu
 | ''@ A good parking place N50 11.456 E010 35.345 park under the oak tree'' | {{:en:parkingplace.png}}|
 | ''@ (X) marks the spot N50 12.010 E010 33.783'' |{{:en:marksthespot.png}} |
 | ''@[S5]Station 5 (X) (NO-COORD) "We have to think about this later"'' \\ \\ //Huomaa: tämä esimerkki olettaa, että on kuvauksessa on olemassa reittipiste, jolla on etuliite S5//|{{:en:station5.png}} |
-| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Huomaa: Kaava siirretään jälkeenpäin reittipistelaskimeen (muoto ''Perus'')//|{{:en:final_calculated.png}} |
+| ''@Final (F) (F-PLAIN) N48 AB.(C*D/2) E 9 (C-D).(A+B) |A=a+b|a=5| "Formula is calculated with the variables"'' \\ \\ //Huomaa: Kaava siirretään jälkeenpäin reittipistelaskimeen (muoto ''yksinkertainen'')//|{{:en:final_calculated.png}} |

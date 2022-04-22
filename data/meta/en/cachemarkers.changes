@@ -41,3 +41,12 @@
 1637657849	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	section labels		78
 1644846339	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachemarkers	lineflyer	Remove old icons #1		-591
 1644846355	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachemarkers	lineflyer	Remove old icons #2		-6
+1646564968	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	en:cachemarkers	lineflyer	Fix table columns		-4
+1650619470	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Add explanation of D/T marker (WIP)		556
+1650619535	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Add images for D/T		102
+1650619569	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Tweak size of D/T		30
+1650619836	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:cachemarkers	lineflyer	Finalize D/T markers		151
+1650619933	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Fix table syntax and finalize format		-2
+1650619948	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		1
+1650619964	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		-1
+1650620546	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	e	en:cachemarkers	lineflyer	Typo		-1

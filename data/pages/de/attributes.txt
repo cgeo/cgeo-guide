@@ -6,9 +6,20 @@ Diese Seite enthält eine Übersicht aller verfügbaren Attribut-Symbole, die in
 Du kannst auf den Bereich Attribute in den Cache-Detail tippen um statt den Symbolen eine Textbeschreibung zu sehen.
 </WRAP>
 
-Die meisten Symbole können durch Durchstreichen {{:attribute_strikethru.png?nolink&20|}} negiert werden (z.B. "Rund um die Uhr verfügbar" wird zu "Nicht rund um die Uhr verfügbar").
+Einige Attribute sind farblich wie folgt in verschiedene Kategorien gruppiert:
+
+^ Farbe ^ Kategorie ^
+| Blau | Entfernung / Dauer |
+| Grün | Cache-Ort |
+| Grau | Umgebung des Caches |
+| Rot | Ausrüstung |
+| Braun | Bezogen auf den Cache-Typ |
+| Schwarz | Berechtigungen |
 
 Nicht alle Attribute werden von allen Geocaching-Diensten unterstützt.
+
+Die folgende Tabelle gibt eine Übersicht der Bedeutung aller Attribut-Symbole.
+Die meisten Symbole können durch Durchstreichen {{:attribute_strikethru.png?nolink&20|}} negiert werden (z.B. "Rund um die Uhr verfügbar" wird zu "Nicht rund um die Uhr verfügbar").
 
 ^ Symbol ^ Beschreibung ^
 |{{:attribute_abandonedbuilding.png?nolink&40 |}}|Dieser Geocache befindet sich in einem verlassenen Gebäude|

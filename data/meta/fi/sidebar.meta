@@ -1,28 +1,33 @@
-a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1531796811;s:8:"modified";i:1646394391;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1646394391;s:2:"ip";s:39:"fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a";s:4:"type";s:1:"E";s:2:"id";s:10:"fi:sidebar";s:4:"user";s:6:"vike91";s:3:"sum";s:6:"update";s:5:"extra";s:0:"";s:10:"sizechange";i:-10;}s:11:"contributor";a:1:{s:6:"vike91";s:25:"Ville Heikkinen (Finnish)";}s:5:"title";s:14:"Pikanavigointi";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:14:"pikanavigointi";s:5:"title";s:14:"Pikanavigointi";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:520:"Pikanavigointi
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1531796811;s:8:"modified";i:1646987165;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1646987165;s:2:"ip";s:39:"fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a";s:4:"type";s:1:"E";s:2:"id";s:10:"fi:sidebar";s:4:"user";s:6:"vike91";s:3:"sum";s:6:"update";s:5:"extra";s:0:"";s:10:"sizechange";i:-10;}s:11:"contributor";a:1:{s:6:"vike91";s:25:"Ville Heikkinen (Finnish)";}s:5:"title";s:11:"Pikavalikko";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:11:"pikavalikko";s:5:"title";s:11:"Pikavalikko";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:524:"Pikavalikko
 
-	*  FIXME c:geo käyttöohje
-			*  FIXME Tietoja c:geosta 
-
-
-	*  FIXME Käytön aloitus
-			*  FIXME Asennus ja päivitys  
-			*  FIXME Ensimmäiset vaiheet c:geossa
-			*  FIXME Peruskäyttö
-			*  FIXME Kirjautumisongelmat
+	*  c:geo käyttöohje
+			*  Tietoja c:geosta 
 
 
-	*  FIXME Käyttöohje
-			*  FIXME Kotinäyttö
-			*  FIXME Kartta
-			*  FIXME Haku lähistöltä
-			*  FIXME Tallennetut kätköt
-			*  FIXME Haku
+	*  Käytön aloitus
+			*  Asennus ja päivitys  
+			*  Ensimmäiset vaiheet c:geossa
+			*  Peruskäyttö
+			*  Kirjautumisongelmat
 
 
-	*  FIXME Asetukset
+	*  Käyttöohje
+			*  Kotivalikko
+			*  Kartta
+			*  Haku lähistöltä
+			*  Tallennetut kätköt
+			*  Haku
 
-	*  FIXME Geokätköt
-				*  FIXME Geokätkön tiedot
-				*  FIXME Geokätköjen kirjaaminen
 
-			*  FIXME…";}s:8:"relation";a:2:{s:10:"references";a:38:{s:8:"fi:start";b:1;s:15:"fi:installation";b:1;s:13:"fi:firststeps";b:1;s:11:"fi:basicuse";b:1;s:16:"fi:loginproblems";b:1;s:17:"fi:mainmenu:start";b:1;s:19:"fi:mainmenu:livemap";b:1;s:17:"fi:mainmenu:lists";b:1;s:18:"fi:mainmenu:search";b:1;s:20:"fi:mainmenu:settings";b:1;s:15:"fi:cachedetails";b:1;s:10:"fi:logging";b:1;s:19:"fi:trackabledetails";b:1;s:12:"fi:loggingtb";b:1;s:21:"fi:waypointcalculator";b:0;s:13:"fi:navigation";b:1;s:10:"fi:compass";b:1;s:10:"fi:offline";b:1;s:23:"fi:mainmenu:pocketquery";b:1;s:14:"fi:offlinemaps";b:1;s:6:"fi:udc";b:1;s:13:"fi:cacheicons";b:1;s:15:"fi:cachemarkers";b:1;s:13:"fi:mapsources";b:1;s:14:"fi:cachefilter";b:1;s:15:"fi:basicmembers";b:1;s:14:"fi:coordformat";b:1;s:13:"fi:attributes";b:1;s:27:"fi:mainmenu:utilityprograms";b:1;s:10:"fi:intents";b:1;s:6:"fi:nfc";b:1;s:18:"fi:hiddenfunctions";b:1;s:14:"fi:spoilersync";b:0;s:13:"fi:notecoords";b:1;s:16:"fi:quick_widgets";b:1;s:16:"fi:replacedevice";b:1;s:10:"fi:brouter";b:1;s:11:"fi:contacts";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1531796811;s:8:"modified";i:1646394391;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1646394391;s:2:"ip";s:39:"fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a";s:4:"type";s:1:"E";s:2:"id";s:10:"fi:sidebar";s:4:"user";s:6:"vike91";s:3:"sum";s:6:"update";s:5:"extra";s:0:"";s:10:"sizechange";i:-10;}s:11:"contributor";a:1:{s:6:"vike91";s:25:"Ville Heikkinen (Finnish)";}}}
+	*  Asetukset
+
+	*  Geokätköt
+				*  Geokätkön tiedot
+				*  Geokätköjen kirjaaminen
+
+			*  Matkaajat
+				*  Matkaajan tiedot
+				*  Matkaajien kirjaaminen
+
+			*  Koordinaatit ja navigointi
+				*  FIXME Reit…";}s:8:"relation";a:2:{s:10:"references";a:38:{s:8:"fi:start";b:1;s:15:"fi:installation";b:1;s:13:"fi:firststeps";b:1;s:11:"fi:basicuse";b:1;s:16:"fi:loginproblems";b:1;s:17:"fi:mainmenu:start";b:1;s:19:"fi:mainmenu:livemap";b:1;s:17:"fi:mainmenu:lists";b:1;s:18:"fi:mainmenu:search";b:1;s:20:"fi:mainmenu:settings";b:1;s:15:"fi:cachedetails";b:1;s:10:"fi:logging";b:1;s:19:"fi:trackabledetails";b:1;s:12:"fi:loggingtb";b:1;s:21:"fi:waypointcalculator";b:0;s:13:"fi:navigation";b:1;s:10:"fi:compass";b:1;s:10:"fi:offline";b:1;s:23:"fi:mainmenu:pocketquery";b:1;s:14:"fi:offlinemaps";b:1;s:6:"fi:udc";b:1;s:13:"fi:cacheicons";b:1;s:15:"fi:cachemarkers";b:1;s:13:"fi:mapsources";b:1;s:14:"fi:cachefilter";b:1;s:15:"fi:basicmembers";b:1;s:14:"fi:coordformat";b:1;s:13:"fi:attributes";b:1;s:27:"fi:mainmenu:utilityprograms";b:1;s:10:"fi:intents";b:1;s:6:"fi:nfc";b:1;s:18:"fi:hiddenfunctions";b:1;s:14:"fi:spoilersync";b:1;s:13:"fi:notecoords";b:1;s:16:"fi:quick_widgets";b:1;s:16:"fi:replacedevice";b:1;s:10:"fi:brouter";b:1;s:11:"fi:contacts";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1531796811;s:8:"modified";i:1646987165;}s:7:"creator";s:15:"Ville Heikkinen";s:4:"user";s:6:"vike91";s:11:"last_change";a:8:{s:4:"date";i:1646987165;s:2:"ip";s:39:"fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a";s:4:"type";s:1:"E";s:2:"id";s:10:"fi:sidebar";s:4:"user";s:6:"vike91";s:3:"sum";s:6:"update";s:5:"extra";s:0:"";s:10:"sizechange";i:-10;}s:11:"contributor";a:1:{s:6:"vike91";s:25:"Ville Heikkinen (Finnish)";}}}

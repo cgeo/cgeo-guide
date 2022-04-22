@@ -1,7 +1,3 @@
-**FIXME**
-
-
-
 ====== c:geon peruskäyttö ======
 
 Tämä sivu selittää muutamia perusteita geokätköilystä, sekä kuinka c:geota käytetään geokätköjen etsimiseen.
@@ -45,13 +41,13 @@ Kun olet valinnut kätkön ja olet valmis etsimään sen, paina ''Navigoi''-kuva
 Sinulla on [[.navigation|useita vaihtoehtoja]] riippuen tarpeestasi. Tässä on lyhyt selitys tärkeimmistä navigaatiotavoista:
 
   * **[[compass|Kompassi]]**:\\ Tämä näyttää jatkuvasti etäisyyden ja suunnan kätkölle.
-{{ :en:navigate_compass.png?direct&300 |}}
+{{ :en:compass.png?direct&300 |}}
   
 
   * **Navigointi (Ajo, Kävely, Pyöräily)**:\\ Tämä aloittaa askel askeleelta navigoinnin Google Mapsissa
 {{ :en:navigate_driving.png?direct&300 |}}
 
-  * **Tutka** (valinnainen):\\ Jos olet asentanut [[.mainmenu:utilityprograms|ohjelman, joka tukee tutkatoimintoja,]] tämä aukaisee tutkanäytön. Tämä on samankaltainen kompassin kanssa, mutta työskentelytapa on erikainen. Näet kätkön koordinaatit merkkinä tutkalla. Jos merkki menee tutkan keskelle, olet saavuttanut kätkön koordinaatit.
+  * **Tutka** (valinnainen):\\ Jos olet asentanut [[.mainmenu:utilityprograms|ohjelman, joka tukee tutkatoimintoja,]] tämä aukaisee tutkanäytön. Tämä on samankaltainen kompassin kanssa, mutta työskentelytapa on erilainen. Näet kätkön koordinaatit merkkinä tutkalla. Jos merkki menee tutkan keskelle, olet saavuttanut kätkön koordinaatit.
 <WRAP center round tip 100%>
 Tämä on vain lyhyt esittely c:geon toiminnoista. Jatka [[start#users_manual|käyttöohjeen]] lukemista oppiaksesi lisää c:geon toiminnoista ja valikoista.
 </WRAP>

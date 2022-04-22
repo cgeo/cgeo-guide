@@ -45,9 +45,6 @@ Restore internet access and restart c:geo to trigger a new login.
 
 ===== 4. Check authentication data =====
 
-==== 4a. Check your username/password ====
-
-
 If you successfully checked your internet connection and the problem in c:geo still persists, you should check the authentication data you stored in c:geo.
 
 <WRAP center round todo 100%>
@@ -78,7 +75,7 @@ This will open a screen, where you should again enter your username and password
 
 {{ :en:loginproblems_5.png?direct&400 |}}
 
-==== 4b. Possible error messages ====
+===== 5. Possible error messages =====
 
 <WRAP center round todo 100%>
 If you checked everything listed above and login still fails, you should look into the error cause returned by c:geo while performing the "Check of authentication data" as described above.
@@ -87,10 +84,7 @@ If you checked everything listed above and login still fails, you should look in
 The following chapters provide an explanation and possible fixes for all error causes.
 
 
-
-
-
-=== Login failed: Wrong username and/or password ===
+==== Login failed: Wrong username and/or password ====
 
 In 99% of cases, where this error message is shown, it really means, that you entered wrong credentials. Also, some special characters you may use in your username and/or password might look slightly different or can be confused with other characters on your Android keyboard.  
 
@@ -100,7 +94,7 @@ Please carefully check the entered username and password and be aware, that user
 
 [[https://www.cgeo.org/faq#forgot-login|This FAQ entry]] describes how to reset your password and/or lookup your username.
 
-=== Login failed: Captcha required ===
+==== Login failed: Captcha required ====
 
 c:geo has detected, that the geocaching website requires you to solve a Captcha to login. c:geo therefore cannot login. geocaching.com might use such Captcha after detecting consecutive login failures (e.g. due to wrong password). 
 
@@ -110,7 +104,7 @@ Please login once on the geocaching website using your browser/PC, solve the Cap
 
 Furthermore geocaching.com might use such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
 
-=== Login failed: You must validate your account on the Geocaching.com website first ===
+==== Login failed: You must validate your account on the Geocaching.com website first ====
 
 You mail address and/or your account is not yet or no longer validated on the geocaching server. 
 
@@ -119,7 +113,7 @@ Please login to the geocaching website using your browser or PC and validate you
 </WRAP>
 
 
-=== Login failed: Unknown communication error ===
+==== Login failed: Unknown communication error ====
 
 In case you are using any anti-virus,firewall, Adblocker or VPN tool (e.g. F-Secure, AdAway, McAfee, Orbot, Corporate VPNs, TOR) please check if this might be blocking or disturbing your internet connection. 
 

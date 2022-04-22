@@ -1,21 +1,24 @@
-**FIXME**
-
-======Listat / Pocket Queries ======
+====== Kirjanmekkilistat / Pocket Queries ======
 
 {{:ic_menu_pocket_query.svg?nolink&50 |}}
+{{:ic_menu_bookmarks.svg?nolink&50 |}}
 
-Tämä toiminto antaa selata geokätköilysivustolla olevia pocket queryja ja kirjanmerkkilistoja ja näyttää ne joko [[lists|listana]] tai tuo ne samalla tavalla kuin [[..offline#gpx_import|tuodessa GPX-tiedostoa]].
+Nämä toiminnot sallivat geokätköpalvelussa olemassaolevien pocket queryjesi tai kirjanmerkkilistojesi selailun ja näyttää ne joko [[lists|listana]] tai antaa mahdollisuuden tuoda koko pocket queryn samalla tavalla kuten [[..offline#gpx_import|tuodessa GPX-tiedostoa]].
 
 <WRAP center round info 100%>
-Tämä valikko on saatavilla vain geocaching.com:in premiumjäsenille, koska pocket query on premium-ominaisuus.
+Tämä valikko on saatavilla vain geocaching.comin premiumkäyttäjille, koska pocket queryt ja kirjanmerkkilistat ovat premiumominaisuuksia.
 </WRAP>
 
-Tämän valikon valinnan jälkeen lista pocket queryistä ja kirjanmerkkilistoista ladataan palvelimelta:
+Tämän valikon valinnan jälkeen valitut listat ladataan palvelusta kuten seuraavassa:
 
 {{:en:pocketquery.png?nolink&400 |}}
+{{ :en:bookmarklists.png?nolink&400 |}}
 
-Lista näyttää jokaisen olemassa olevan pocket queryn ja kirjanmerkkilistan sekä niiden nimen otsikkoina. Alaotsikko tarjoaa tietoa montako kätköä jokainen pocket query/kirjanmerkkilista sisältää. 
+\\
+\\
+Lista näyttää olemassa olevat pocket queryt tai kirjanmerkkilistat, sen nimen otsikkona. Alaotsikko tarjoaa tiedon, kuinka monta kätköä pocket queryyn/listaan sisältyy.
+Pocket queryille alaotsikko sisältää myös päivämäärän, jolloin pocket query ajettiin viimeksi, ja jäljellä olevien saatavuuspäivien määrä palvelussa.
 
-Pocket Queryjen osalta näkyy myös päivä jolloin haku on suoritettu, ja palvelimella jäljellä olevat päivät.
+Kuvaketta {{:ic_menu_save.svg?nolink&20|}} voidaan käyttää koko pocket queryn / listan lataamiseen yhdelle listoistasi, kuvake  {{:ic_menu_search.svg?nolink&20|}} avaa pocket queryn esikatselunäkymään.
 
-{{:ic_menu_save.svg?nolink&20|}}-kuvaketta voi käyttää koko pocket queryn / listan tuomiseen yhdelle listalle, \\ {{:ic_menu_search.svg?nolink&20|}}-kuvake avaa pocket queryn / listan esikatselun.
+Otsikossa oleva kytkin "Näytä kaikki" sallii niiden queryjen / listojen piilotuksen, joiden lataaminen ei ole saatavilla.

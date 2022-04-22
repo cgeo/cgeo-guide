@@ -6,9 +6,22 @@ This page provides an overview about all attribute icons used in c:geo. The attr
 You can tap on the attribute section in the cache details to view a textual description instead of the icons.
 </WRAP>
 
+Not all attributes are available for all geocaching services.
+
+Some attributes are grouped into different colors representing different categories of attributes as follows:
+
+^ Color ^ Category ^
+| Blue | Distance / Duration |
+| Green | Cache location |
+| Grey | Around the cache |
+| Red | Equipment |
+| Brown | Cache type related |
+| Black | Permissions |
+
+The following table lists all available attributes and their textual description.
+
 Most of the icons can be negated if they are strike through like this: {{:attribute_strikethru.png?nolink&20|}} (e.g. "Available 24/7" would be negated to "Not available 24/7"). 
 
-Not all attributes are available for all geocaching services.
 
 ^ Icon ^ Description ^
 |{{:attribute_abandonedbuilding.png?nolink&40 |}}|The geocache is located in an abandoned building|

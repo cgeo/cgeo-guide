@@ -5,7 +5,7 @@ On the [[.mainmenu:livemap|live map]] as well as on the list of your [[.mainmenu
 The following table describes the meaning of these markers:
 
 ^ Marker ^ Name ^ Description ^
-|Upper-Left: Logs and offline logs||||
+|Upper-Left: Logs and offline logs|||
 |{{ :marker_found.svg?nolink&20 |}}|Found|You have already found this geocache.|
 |{{ :marker_not_found_offline.svg?nolink&20 |}}|Did not find|You have a "Did not find" log for this geocache either posted online in the past or stored offline in c:geo.|
 |{{ :marker_found_offline.svg?nolink&20 |}}|Offline Found Log|You have stored an offline found log for this geocache but not yet submitted this log online.|
@@ -15,12 +15,22 @@ The following table describes the meaning of these markers:
 |{{ :marker_archive.svg?nolink&20 |}}|Offline Needs Archived Log|You have stored an offline "Needs archived" log for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
 |{{ :marker_unknown_offline.svg?nolink&20 |}}|Offline Unknown Log|You have stored an offline log of a special or unknown type for this geocache but not yet submitted this log online. \\ This status will only be shown as long as the log is offline.|
 |{{ :marker_calendar.svg?nolink&20 |}}|Will attend|An event cache that you posted a "Will attend" log on.|
-|Upper-Right: Stored and Own||||
+|Upper-Right: Stored and Own|||
 |{{ :marker_stored.svg?nolink&20 |}}|Stored|This geocache is stored offline in one of your lists.\\ This marker is only shown on the map but not in your lists, as it is logical that all caches in your lists are already stored. :-)|
 |{{ :marker_own.svg?nolink&20 |}}|Owned|This is one of your own geocaches.|
-|Lower-Left: Personal Note||||
+|Lower-Left: Personal Note|||
 |{{ :marker_personalnote.svg?nolink&20 |}}|Personal note|A personal note is stored for this geocache.|
-|Lower-Right: Coordinate information||||
+|Lower-Right: Coordinate information|||
 |{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Modified coordinates|The coordinates of this cache have been modified from the original listing coordinates (either from within c:geo when defining a waypoint or from the geocaching services website). The cache is now shown at the new coordinates on the map. A useful feature for solved mysteries or multis.|
 |{{ :marker_hasfinal.svg?nolink&20 |}}|Has "Final" waypoint|This cache has a "Final" waypoint defined but no modified coordinates. The cache is shown at the original coordinates on the map.|
 |{{ :marker_visited.svg?nolink&20 |}}|Visited waypoint|A waypoint that has been marked as visited.|
+
+
+Furthermore you can optionally activate markers representing the D/T-rating of the cache (see [[.:mainmenu:settings#map_content|map content settings]]). Such marker consists of two half circles, where the filling state of the left half represents the D-rating and the filling state of the right half represents the T-rating. This allows you to easily estimate the approximate D/T on each cache shown on map without the need to open the cache details.
+
+The more each half is filled and the more it changes from green over yellow to red, the higher the respective rating. The following table provides some examples of D/T-rating representation:
+
+^ Marker ^ Difficulty ^ Terrain ^
+|{{ :dt_marker_example1.svg?nolink&20 |}}|2.0|5.0|
+|{{ :dt_marker_example2.svg?nolink&20 |}}|3.0|1.0| 
+|{{ :dt_marker_example3.svg?nolink&20 |}}|4.0|2.5| 

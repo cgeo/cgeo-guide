@@ -1,5 +1,3 @@
-**FIXME**
-
 ====== Piilotetut toiminnot ======
 
 Yritämme tehdä jokaisen toiminnon sekä saavutettavaksi että niin itsestäänselvänä kuin mahdollista, niin c:geossa on joitakin oikopolkuja ja edistyneitä toimintoja, joita et löydä välttämättä heti.

@@ -19,3 +19,7 @@
 1531131256	2.205.118.198	E	en:attributes	lineflyer			1833
 1603359488	88.69.176.81	E	en:attributes	lineflyer	typo		1
 1611437647	2.205.115.174	e	en:attributes	lineflyer	Replace click by tap		-2
+1650621402	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	WIP Attribute colors		438
+1650621934	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Color groups of attributes		-144
+1650621970	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Add caption for attribute table itself		83
+1650622730	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Change text order		1

@@ -1,35 +1,28 @@
-**FIXME**
-
-
-
 ====== Navigaatiotavat/työkalut ======
 
-Kun avaat navigaation koordinaatteihin, alla oleva valikko näytetään halutun navigaatiotavan/työkalun valitsemiseksi.
+Kun aktivoit navigaation koordinaatteihin, seuraava valikko näytetään, josta voit valita sopivan navigaatiotavan/työkalun.
 
 {{ :en:navigation.png?direct&400 |}}
 
-Seuraava taulukko näyttää yleisnäkymän tuetuista tavoista/työkaluista. Jotkut valinnat näytetään vain jos kyseinen työkalu on asennettu. Voit muokata tätä valikkoa [[.mainmenu:settings#navigation|asetuksissa]].
+Seuraava taulukko tarjoaa yleisnäkymän erilaisista tuetuista tavoista/työkaluista, joita c:geo tukee. Jotkut kohdat näkyvät vain, jos kyseinen työkalu on asennettu. Voit mukauttaa tässä valikossa näytettäviä valintoja [[.mainmenu:settings#navigation|asetuksissa]].
 
 ^ Nimi ^ Selite ^
-|Kompassi|Avaa c:geon sisäänrakennetun [[compass|kompassin]].|
-|Tutka|Avaa ohjelman, joka tukee tutkaominaisuutta kuten [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Tutka on samankaltainen kuin kompassi, mutta näyttää sijaintisi keskellä ja kohdesijainnin sijaintisi suhteen.|
+|Kompassi|Avaa c:geon sisäisen [[compass|kompassin]].|
+|Tutka|Käynnistää sovelluksen, joka tukee tutkatoimintoa, kuten [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Tutka on samankaltainen kuin kompassi, mutta näyttää sijaintisi keskellä ja kohteen sijainnin sijaintisi suhteen.|
 |Kartta|Avaa c:geon [[.mainmenu:livemap|kartan]]|
-|Staattinen kartta|Tämä toiminto on poistettu.|
-|Lataa staattinen kartta|Tämä toiminto on poistettu.|
-|Locus|Avaa [[.mainmenu:utilityprograms|Locus-sovelluksen]] näyttääkseen koordinaatit kartalla.|
-|Navigointi (Ajo)|Aloittaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] yksityiskohtaisen navigoinnin autolla ajamiseen kätkölle.|
-|Navigointi (Pyöräily)|Aloittaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] yksityiskohtaisen navigaation pyörällä ajamiseen kätkölle.|
-|Navigointi (kävely)|Aloittaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] yksityiskohtaisen navigaation kävelemiseen kätkölle.|
-|Navigointi (liikenteessä)|Aloittaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] yksityiskohtaisen navigoinnin kätkölle käyttäen julkista liikennettä.|
-|Katunäkymä|Avaa [[https://play.google.com/store/apps/details?id=com.google.android.street|Googlen katunäkymän]] koordinaateissa.|
-|OruxMaps (Online)|Avaa [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMapsin]] käyttäen yksityiskohtaista online-navigointia kätkölle.|
-|OruxMaps (Offline)|Avaa [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMapsin]] käyttäen yksityiskohtaista offline-navigointia ktkölle.|
-|Sygic (Kävely)|Aloittaa [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygicin]] yksityiskohtaisen navigoinnin kätkölle kävelemistä varten|
-|Sygic (Ajo)|Aloittaa [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygicin]] yksityiskohtaisen navigoinnin kätkölle ajamista varten|
-|OsmAnd|Aloittaa [[https://play.google.com/store/apps/details?id=net.osmand|OSMAnd]] yksityiskohtaisen offline-navigaation|
-|Google Maps ajo-ohjeet|Avaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]], joka näyttää listan ajo-ohjeista nykyisestä sijainnista koordinaatteihin.|
-|WhereYouGo|Tämä valinta on saatavilla vain Wherigo-kätköille ja avaa [[.mainmenu:utilityprograms|WhereYouGo-sovelluksen]] tarvittavan kasetin lataamiseen ja kätkön eri vaiheisiin navigoimiseksi.|
-|Pebble|Avaa kompassin pebble-laitteessasi käyttäen [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]] -sovellusta.|
-|Maps.me|Aloittaa yksityiskohtaisen offline-navigaation käyttäen [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] -sovellusta.|
-|Muut ulkoiset sovellukset|Tämä avaa valikon, joista voi valita muun navigointisovelluksen, jota c:geo ei suoraan tue.\\ Tämän valinnan käyttö yleensä avaa sovelluksen valintavalikon laitteessasi, joka näyttää kaikki sovellukset, jotka pystyvät käyttämään koordinaatteja sisältäviä linkkejä.|
-
+|Locus|Käynnistää [[.mainmenu:utilityprograms|Locus]]-sovelluksen koordinaattien näyttämiseen kartalla.|
+|Navigointi (ajo)|Käynnistää [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]] opastetun navigaation käyttäen autoiluprofiilia.|
+|Navigointi (pyöräily)|Käynnistää [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]] opastetun navigaation käyttäen pyöräilyprofiilia.|
+|Navigointi (kävely)|Käynnistää [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]] opastetun navigaation käyttäen kävelyprofiilia.|
+|Navigointi (julkinen liikenne)|Käynnistää [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]] opastetun navigaation käyttäen julkista liikennettä.|
+|Katunäkymä|Käynnistää [[https://play.google.com/store/apps/details?id=com.google.android.street|Googlen katunäkymän]] koordinaateissa.|
+|OruxMaps (Online)|Käynnistää [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMapsin]] käyttäen opastettua navigointia online-tilassa.|
+|OruxMaps (Offline)|Käynnistää [[https://play.google.com/store/apps/details?id=com.orux.oruxmapsDonate|OruxMapsin]] käyttäen opastettua navigointia offline-tilassa.|
+|Sygic (kävely)|Käynnistää [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygicin]] opastetun navigaation käyttäen kävelyprofiilia.|
+|Sygic (ajo)|Käynnistää [[https://play.google.com/store/apps/details?id=com.sygic.aura|Sygicin]] opastetun navigaation käyttäen ajoprofiilia.|
+|OsmAnd|Käynnistää [[https://play.google.com/store/apps/details?id=net.osmand|OSMAndin]] opastetun navigaation offline-tilassa.|
+|Google Maps ajo-ohjeet|Avaa [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Mapsin]] ja näyttää ajo-ohjeet listana nykyisestä sijainnistasi koordinaatteihin.|
+|WhereYouGo|Tämä valinta on saatavilla vain Wherigo-kätköille ja avaa [[.mainmenu:utilityprograms|WhereYouGo]]:n tarvittavan kasetin lataukseen ja tämän jälkeen navigointiin eri kätkön vaiheiden välillä.|
+|Pebble|Aloittaa kompassin pebble-laitteessasi käyttäen [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]]-sovellusta.|
+|Maps.me|Käynnistää navigaation offline-tilassa käyttäen [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] -sovellusta.|
+|Muut ulkoiset sovellukset|Tämä tuo esille valikon, joka sisältää sovellukset, joita c:geo ei suoraan tue.\\ Tämän valinnan käyttö yleensä avaa sovellusvalintaikkunan, joka näyttää kaikki sovellukset, jotka voivat käsitellä koordinaatteja sisältäviä linkkejä.|

@@ -1,0 +1,5 @@
+====== Partage par NFC ======
+
+Il est possible de partager facilement des caches entre utilisateurs de c:geo si les deux appareils prennent en charge la technologie [[https://en.wikipedia.org/wiki/Near-field_communication|near field communication]] (NFC) :
+
+Assurez-vous que NFC est activé sur les deux appareils. Ensuite, ouvrez simplement le [[cachedetails|la page de détails]] d'une cache sur un appareil et placez-le dos à dos avec le second appareil. Le premier appareil devrait alors afficher une fenêtre c:geo de taille réduite, sur laquelle vous pouvez maintenant appuyer pour envoyer le contenu au second appareil, ce qui lancera automatiquement c:geo et affichera la même cache sur le second appareil.

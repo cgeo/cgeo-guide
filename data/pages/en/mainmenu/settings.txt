@@ -154,7 +154,7 @@ Learn more about the c:geo offline maps by reading the chapter about [[..offline
 |Show history track|With this option you can activate a track showing your position history (your movement) on the map. //(Default: Deactivated)// \\ \\ :!: Please be aware, that this will only be accurate as long as you use the map and have GPS enabled and will have gaps or jumps in case you switch your device to standby or deactivate GPS. If you would like a more reliable track recording you should rather use a specialized app.|
 |History track max. length| Allows to raise the amount of track points available for the history track. Once the limit is reached the oldest recorded points will be removed if new points are recorded. Raising the limit however allocates more memory. //(Default: 700 points)//|
 |Big icons for logged caches|If enabled the map will show big emoticons for logged caches instead of the cache type icon. A restart is required after changing this setting. //(Default: Deactivated)//|
-|D/T rating on icons|Once activated all cache type icons will have a small overlay indicating the caches D/T-rating.|
+|D/T rating on icons|Once activated all cache type icons will have a small overlay indicating the caches D/T-rating. You will find an explanation of those markers on the [[..:cachemarkers|cache marker page]] of this user guide.|
 ==== Map behavior ====
 {{anchor:map_behavior}}
 

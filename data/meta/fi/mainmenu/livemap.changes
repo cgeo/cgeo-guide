@@ -52,3 +52,12 @@
 1630598348	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:mainmenu:livemap	vike91	small change to remove the changed flag		-1
 1637100170	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	fi:mainmenu:livemap	murggel	[Yläpalkin valikko] change enable / disable live icon		49
 1646051874	fe80:3d0a:54b3:2a32:5e89:8800:77bc:3209	E	fi:mainmenu:livemap	vike91	update about the wiki overhaul		11
+1646979065	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Live-kartta] 		0
+1646979163	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		71
+1646979260	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kartan sisältö] 		-1399
+1646979317	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Yläosa] 		-217
+1646979406	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kätkön tiedot] 		-7
+1646979426	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kätkön tiedot] 		-6
+1646980041	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Kartan pika-asetukset] 		-1899
+1646983459	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	update		9188
+1646983490	fe80:25cc:26d2:2b25:209c:9d4d:3dc6:266a	E	fi:mainmenu:livemap	vike91	[Suuntaviiva] 		-1

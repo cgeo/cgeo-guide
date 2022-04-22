@@ -5,16 +5,32 @@ Sowohl auf der [[.mainmenu:livemap|Live-Karte]] als auch in deinen Liste deiner 
 Die folgende Tabelle beschreibt die Bedeutung dieser Markierungen:
 
 ^ Markierung ^ Name ^ Beschreibung ^
-|{{ :marker_stored.svg?nolink&20 |}}|Gespeichert|Dieser Cache ist Offline in deinen Listen gespeichert.\\ Diese Markierung wird nur auf der Karte aber nicht in den Listen angezeigt, da es logisch ist, dass jeder Cache deiner Liste bereits gespeichert ist :-)|
+|Oben links: Logs und Offline-Logs|||
 |{{ :marker_found.svg?nolink&20 |}}|Gefunden|Du hast diesen Cache bereits gefunden.|
 |{{ :marker_not_found_offline.svg?nolink&20 |}}|Nicht Gefunden|Du hast einen Log vom Typ ''Nicht Gefunden'' für diesen Cache entweder in der Vergangenheit online gepostet oder einen entsprechenden Offline-Log in c:geo gespeichert.|
-|{{ :marker_own.svg?nolink&20 |}}|Im Besitz|Dies ist einer deiner eigenen Caches.|
-|{{ :marker_personalnote.svg?nolink&20 |}}|Persönliche Notiz|Eine persönliche Notiz ist für den Cache gespeichert.|
-|{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Geänderte Koordinaten|Du hast für diesen Cache neue Cache-Koordinaten gesetzt und der Cache wird nun an diesen modifizierten Koordinaten angezeigt. Hilfreiche Funktion für gelöste Mysteries oder Multis.|
-|{{ :marker_hasfinal.svg?nolink&20 |}}|Final existiert|Für diesen Cache existiert ein Final-Wegpunkt mit gültigen Koordinaten (aber die Cache-Markierung wurde nicht zu diesen Final-Koordinaten verschoben).|
 |{{ :marker_found_offline.svg?nolink&20 |}}|Gefunden (Offline)|Du hast einen Offline-Log vom Typ ''Gefunden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.|
 |{{ :marker_note.svg?nolink&20 |}}|Bemerkung (Offline)|Du hast einen Offline-Log vom Typ ''Bemerkung'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
 |{{ :marker_maintenance.svg?nolink&20 |}}|Benötigt Wartung (Offline)|Du hast einen Offline-Log vom Typ ''Benötigt Wartung'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
 |{{ :marker_owner_maintenance.svg?nolink&20 |}}|Wartung durchgeführt (Offline)|Du hast einen Offline-Log vom Typ ''Nicht Gefunden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status ist spezifisch für Cache-Besitzer und wird nur so lange angezeigt, wie der Log offline ist.|
 |{{ :marker_archive.svg?nolink&20 |}}|Sollte archiviert werden (Offline)|Du hast einen Offline-Log vom Typ ''Sollte archiviert werden'' für diesen Cache gespeichert aber noch nicht online abgeschickt.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
 |{{ :marker_unknown_offline.svg?nolink&20 |}}|Unbekannter Log (Offline)|Du hast einen Offline-Log mit einem speziellen oder unbekannten Logtyp für diesen Cache gespeichert.\\ Dieser Status wird nur so lange angezeigt, wie der Log offline ist.|
+|{{ :marker_calendar.svg?nolink&20 |}}|Werde teilnehmen|Ein Event-Cache, für den du "Werde teilnehmen" geloggt hast.|
+|Oben rechts: Gespeicherte und Eigene|||
+|{{ :marker_stored.svg?nolink&20 |}}|Gespeichert|Dieser Cache ist Offline in deinen Listen gespeichert.\\ Diese Markierung wird nur auf der Karte aber nicht in den Listen angezeigt, da es logisch ist, dass jeder Cache deiner Liste bereits gespeichert ist :-)|
+|{{ :marker_own.svg?nolink&20 |}}|Im Besitz|Dies ist einer deiner eigenen Caches.|
+|Unten links: Persönliche Notiz|||
+|{{ :marker_personalnote.svg?nolink&20 |}}|Persönliche Notiz|Eine persönliche Notiz ist für den Cache gespeichert.|
+|Unten rechts: Infos zu Koordinaten|||
+|{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Geänderte Koordinaten|Du hast für diesen Cache neue Cache-Koordinaten gesetzt und der Cache wird nun an diesen modifizierten Koordinaten angezeigt. Hilfreiche Funktion für gelöste Mysteries oder Multis.|
+|{{ :marker_hasfinal.svg?nolink&20 |}}|Final existiert|Für diesen Cache existiert ein Final-Wegpunkt mit gültigen Koordinaten (aber die Cache-Markierung wurde nicht zu diesen Final-Koordinaten verschoben).|
+|{{ :marker_visited.svg?nolink&20 |}}|Besuchter Wegpunkt|Ein Wegpunkt, der ale besucht markiert wurde.|
+
+
+Darüberhinaus kannst du optional Markierungen aktivieren, die die D/T-Bewertung der Caches anzeigen (siehe [[.:mainmenu:settings##karteninhalt|Einstellungen für den Karteninhalt]]). Solch eine Markierung besteht aus zwei Halbkreisen, wobei der Füllstand des linken Halbkreis die D-Wertung und der Füllstand des rechten Halbkreises die T-Wertung darstellt. Dies erlaubt es die D/T-Wertung jedes Caches auf der Karte auf einfache Weise abzuschätzen ohne die Notwendigkeit die Cache-Details zu öffnen.
+
+Je mehr die jeweilige Hälfte gefüllt ist und je stärker sich diese von grün über gelb nach rot verändert, desto höher ist die jeweilige Wertung. Die folgende Tabelle enthält einige Beispiele dieser Darstellung der D/T-Wertung:
+
+^ Markierung ^ Schwierigkeit (D) ^ Gelände (T) ^
+|{{ :dt_marker_example1.svg?nolink&20 |}}|2.0|5.0|
+|{{ :dt_marker_example2.svg?nolink&20 |}}|3.0|1.0| 
+|{{ :dt_marker_example3.svg?nolink&20 |}}|4.0|2.5| 

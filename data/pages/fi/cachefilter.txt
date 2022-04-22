@@ -1,5 +1,3 @@
-**FIXME**
-
 ====== Kätköjen suodatus ======
 
 Kätköjen suodatusta voidaan käyttää hyödyksi useissa c:geon toiminnoissa, kuten [[.:mainmenu:livemap|live-kartalla]], [[.:mainmenu:lists|tallennetuissa kätköissä]], tai online-[[.:mainmenu:search|haussa]]. Samaa suodatinmekanismia käytetään kaikissa näissä.
@@ -186,7 +184,7 @@ Tekstityyppi sekä **Hakukenttä**än syötetty teksti määrittävät yhdessä 
 | Sisältää | Suodattaa kaikki kätköt, joissa suodatettu kenttä sisältää missä tahansa kohdassa **hakukentässä** olevan tekstin.| 
 | Alkaa | Suodattaa kaikki kätköt, joissa suodatettu kenttä alkaa **hakukentässä** olevalla tekstillä.| 
 | Päättyy | Suodattaa kaikki kätköt, joissa suodatettu kenttä päättyy **hakukentässä** olevalla tekstillä.| 
-| Kuvio | Suodattaa kaikki kätköt, joissa suodatetussa kentässä oleva arvo täsmää **hakukentässä** olevaan kuvioon. Voit käyttää jokerimerkkejä **?** ja *****. ***** edustaa nollaa, yhtä tai useampaa merkkiä, kun **?** edustaa vain yhtä merkkiä. Esimerkiksi kuvio \'H?mburg*\' palauttaa tulokseksi esim. \'Homburg\' tai \'Hamburg at Night\' mutta ei \'A day in Hamburg\' tai \'Hahmburg\' |
+| Kuvio | Suodattaa kaikki kätköt, joissa suodatetussa kentässä oleva arvo täsmää **hakukentässä** olevaan kuvioon. Voit käyttää jokerimerkkejä **?** ja *****. ***** edustaa nollaa, yhtä tai useampaa merkkiä, kun **?** edustaa vain yhtä merkkiä. Esimerkiksi kuvio ''H?mburg*'' palauttaa tulokseksi esim. ''Homburg'' tai ''Hamburg at Night'' mutta ei ''A day in Hamburg'' tai ''Hahmburg'' |
 
 Käyttämällä valintaa **Sama kirjainkoko** voit päättää merkitseekö kirjainkoko haussa.
 
@@ -274,8 +272,8 @@ Lokikirjaussuodatin suodattaa kätköt niihin tehtyjen kirjausten mukaan, ja nä
 {{ :en:filter-criteria-logentry.png?direct&400 |}} 
 
 Voit valita, suodatetaanko kätköt lokikirjausten mukaan seuraavasti:
- * tietyltä käyttäjältä (esim. //EddieMuc//), tai
- * sisältäen tietyn tekstin (kuten //TFTC//)
+  * tietyltä käyttäjältä (esim. //EddieMuc//), tai
+  * sisältäen tietyn tekstin (kuten //TFTC//)
 
 Käytä **Sisällytä** / **Rajaa pois** -nappeja suodattaaksesi kätköt niin, että ne joko **sisältävät** tai **eivät sisällä** lokikirjaukset, jotka täyttävät kriteerit.
 

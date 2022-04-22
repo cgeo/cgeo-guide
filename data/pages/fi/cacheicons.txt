@@ -1,28 +1,75 @@
-**FIXME**
+====== Geokätkökuvakkeet ======
+
+c:geo käyttää omia kuvakkeitaan eri saatavilla oleville geokätkötyypeille. Seuraavat taulukot tarjoavat yleisnäkymän käytetyistä kuvakkeista, vastaavam kätkötyypin ja peruskuvauksen kyseisen kätkötyypin ominaispiirteistä.
+
+===== Kuvakkeet kätkölistoilla ja kartalla =====
+
+Seuraava taulukko näyttää kätkölistoilla sekä kartalla käytettävät kuvakkeet, kun käytetään ei-kompaktia tilaa.
+
+^ Kuvake ^ Kätkötyyppi ^ Peruskuvaus ^
+|{{ :type_traditional.svg?nolink&40 |}}|Tradikätkö|Tämä on geokätköjen klassinen tyyppi. Geokätkö löytyy annetuista koordinaateista.|
+|{{ :type_multi.svg?nolink&40 |}}|Multikätkö|Multikätkö käyttää vähintään kahta sijaintia. Itse geokätkö sijaitsee lopullisessa sijainnissa, mutta sinun tulee vierailla useissa sijainneissa ja mahdollisesti ratkaista kysymyksiä/arvoituksia joka vaiheessa, jotta voit ratkaista lopullisen sijainnin.|
+|{{ :type_mystery.svg?nolink&40 |}}|Mysteerikätkö|Tämä geokätkö kattaa monia mahdollisuuksia, yleensä kätkö ei sijaitse annetuissa koordinaateissa, vaan lopullinen sijainti on ratkaistava. Tyypillisesti etsijän tulee vastata kysymyksiin tai ratkaista kuvauksessa oleva arvoitus ratkaistakseen lopullisen sijainnin.|
+|{{ :type_wherigo.svg?nolink&40 |}}|Wherigo-kätkö|Wherigo on tapa pelata sijaintiin perustuvia seikkailuja. Käyttäen erillistä Wherigo-sovellusta ja kätkökasettitiedostoa, geokätköilijän tulee pelata sijaintiin perustuvaa peliä tai vastata sijaintiin perustuviin kysymyksiin. Lisää tietoa löydät osoitteesta [[http://wherigo.com|wherigo.com]]. |
+|{{ :type_letterbox.svg?nolink&40 |}}| Geolodju-hybridikätkö| Kirjelaatikkokätkö käyttää vihjeitä koordinaattien sijaan. Viimeisestä sijainnista löytyvästä geokätköstä löytyy leima, jolla voidaan leimata vierailu kätköllä.|
+|{{ :type_earth.svg?nolink&40 |}}|Earth-kätkö|Earth-kätkön sijainti on sijainti, joka on geologisesti kiinnostava. Näiden geokätköjen tavoitteena on opettaa kätköilijöille maapallon geologiaa. Earth-kätkön sijainnissa kätköilijän tulee tyypillisesti vastata geologisiin kysymyksiin kirjatakseen kätkön löydetyksi. Lisää tietoa löytyy osoitteesta [[http://earthcache.org|earthcache.org]].|
+|{{ :type_virtual.svg?nolink&40 |}}|Virtuaalikätkö| Virtuaalikätkön sijainti ei sisällä fyysistä geokätköä. Virtuaalikätkön sijainnissa on tehtävä, joka tulee suorittaa, tai on vastattava kysymykseen. Jos tämä on tehty oikein, ja sijainnissa on oikeasti käyty, niin geokätkö voidaan kirjata löydetyksi.|
+|{{ :type_webcam.svg?nolink&40 |}}|Webcam-kätkö|Tässä geokätkötyypissä sinun tulee seisoa julkisen webkameran edessä ja napata kuva tästä kamerasta. Jälkeenpäin kuva tulee liittää kirjaukseen, jotta voit kirjata kätkön löydetyksi.|
+|{{ :type_event.svg?nolink&40 |}}|Tapahtumakätkö|Joskus geokätköilijät järjestävät tapahtumia tietyssä paikassa ja tiettynä aikana. Tapahtumassa tavataan muita geokätköilijöitä ja keskustellaan geokätköilystä.|
+|{{ :type_mega.svg?nolink&40 |}}|Megatapahtuma|Megatapahtuma on periaatteessa sama kuin tapahtumakätkö, mutta tapahtuma on isompi. Vähintään 500 geokätköilijän tulee ilmoittautua.|
+|{{ :type_giga.svg?nolink&40 |}}|Gigatapahtuma|Gigatapahtuma on periaatteessa sama kuin megatapahtuma, mutta tapahtuma on vieläkin isompi. Vähintään 5000 geokätköilijän tulee ilmoittautua.|
+|{{ :type_cito.svg?nolink&40 |}}|CITO-tapahtumakätkö|CITO-tapahtumakätköt järjestetään ympäristön siivoamista tai vastaavaa tehtävää varten sekä (valinnaisesti) jälkeenpäin uuden geokätkön piilotukseen alueelle. CITO on lyhenne termistä Cache-In-Trash-Out.|
+|{{ :type_specialevent.svg?nolink&40 |}}|Erikoistapahtumakätkö|Käytetään erikoistapahtumakätköihin kuten Community Celebration Event tai HQ Block Party -tapahtumakätköihin.|
+|{{ :type_ape.svg?nolink&40 |}}|Project APE Cache|14 tämäntyyppistä geokätköä asetettiin alun perin vuonna 2001 elokuvan "Apinoiden Planeetta" tukemiseen. Näistä vain muutama on olemassa tänä päivänä, mikä tekee sen yhdeksi harvinaisimmista geokätkötyypeistä.|
+|{{ :type_hq.svg?nolink&40 |}}|Groundspeak Headquarter Cache|On olemassa vain yksi tämän tyyppinen geokätkö. Geokätkö sijaitsee Groundspeakin päämajassa (yritys Geocaching.comin takana), ja sijaitsee Seattlessa, Washingtonissa, Yhdysvalloissa.|
+|{{ :type_maze.svg?nolink&40 |}}|GPS Adventures Maze Exhibit|Tämä on harvinainen erikoistapahtumatyyppi ja edustaa GPS Adventures Maze-näyttelyn läsnäoloa. GPS Adventures Maze on suunniteltu opettamaan ihmisille GPS-teknologiaa ja geokätköilyä.|
+|{{ :type_advlab.svg?nolink&40 |}}|Adventure Lab-kätkö|Etsiessä Adventure Lab-kätköä, sijainnissa ei ole fyysistä kätköä. Sinun tulee vierailla sijainnissa käyttäen erityistä Adventure Lab -sovellusta ja vastata kysymykseen siellä. Jos tämä meni oikein, niin vierailtu sijainti lisätään automaattisesti löydettyjen kätköjesi määrään.|
+|{{ :type_unknown.svg?nolink&40 |}}|Tuntematon kätkötyyppi|Jos tämä kätkötyyppi näytetään, joko c:geo ei voinut (vielä) ladata geokätkön tyyppiä, se ei ole kätkötyyppi jota c:geo tukee tai se on oma Tuntematon Geokätkö -tyyppinsä, jota tuetaan opencaching-palveluissa.|
+|{{ :type_cgeo.svg?nolink&40 |}}|Käyttäjän määrittämä kätkö|Käytetään käyttäjän c:geossa määrittämille kätköille (aina käyttäen kuusikulmioista taustaa).|
+
+===== Kätkömerkit kartalla =====
+
+Seuraava taulukko näyttää erilaisia kätkökehyksiä, jotka näytetään kätkötyypin ympärillä, riippuen kätkön tilasta. Nuoli osoittaa kätkön sijaintiin kartalla. Kehys täytetään kätkötyypin kuvakkeella, allaoleva taulukko käyttää tradikätköä esimerkkinä.
+
+^ Kuvake ^ Selite ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Nykyinen sijaintisi.|
+|{{ :combined_marker_gc_withpin.svg?nolink&40 |}}|Geocaching.comin saatavilla oleva kätkö.|
+|{{ :disabled_combined_marker_gc_withpin.svg?nolink&40 |}}|Geocaching.comin hyllytetty kätkö.|
+|{{ :archived_combined_marker_gc_withpin.svg?nolink&40 |}}|Geocaching.comin arkistoitu kätkö.|
+|{{ :combined_marker_oc_withpin.svg?nolink&40 |}}|Opencaching-palvelussa saatavilla oleva kätkö.|
+|{{ :disabled_combined_marker_oc_withpin.svg?nolink&40 |}}|Opencaching-palvelussa hyllytetty kätkö.|
+|{{ :archived_combined_marker_oc_withpin.svg?nolink&40 |}}|Opencaching-palvelussa arkistoitu kätkö.|
+|{{ :combined_marker_other_withpin.svg?nolink&40 |}}|Muussa kuin geocaching.com tai opencaching-palvelussa saatavilla oleva kätkö (kuten extremcaching.com tai käyttäjän määrittämät kätköt).|
+|{{ :disabled_combined_marker_other_withpin.svg?nolink&40 |}}|Muussa kuin geocaching.com tai opencaching-palvelussa hyllytetty kätkö (kuten extremcaching.com tai käyttäjän määrittämät kätköt).|
+|{{ :archived_combined_marker_other_withpin.svg?nolink&40 |}}|Muussa kuin geocaching.com tai opencaching-palvelussa arkistoitu kätkö (kuten extremcaching.com tai käyttäjän määrittämät kätköt).|
+===== Kartalla käytettävät kuvakkeet (kompakti tila) =====
+
+Seuraava taulukko näyttää käytössä olevat pistekuvakkeet kun kartta on asetettu käyttämään [[.:mainmenu:livemap#map_quick_settings|komoakteja kuvakkeita]].
+Jotkut kätkötyypit yhdistetään yhdeksi kuvakkeeksi tässä tilassa.
 
 
-====== Geokätköjen kuvakkeet ======
+^ Kuvake ^ Kätkötyyppi ^
+|{{ :dot_traditional.svg?nolink&20 |}} |Tradikätkö|
+|{{ :dot_multi.svg?nolink&20 |}} |Multikätkö|
+|{{ :dot_mystery.svg?nolink&20 |}} |Mysteerikätkö\\ Wherigo-kätkö\\ Geolodju-hybridikätkö|
+|{{ :dot_virtual.svg?nolink&20 |}} |Earth-kätkö\\ Virtuaalikätkö\\ Webcam-kätkö|
+|{{ :dot_event.svg?nolink&20 |}} |Kaikki tapahtumakätkötyypit|
+|{{ :dot_special.svg?nolink&20 |}} |Project APE Cache\\ Groundspeak Headquarter Cache\\ GPS Adventures Maze Exhibit|
+|{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab-kätkö|
+|{{ :dot_unknown.svg?nolink&20 |}} |Tuntematon kätkötyyppi|
+|{{ :dot_disabled.svg?nolink&20 |}} |Hyllytetty kätkö (kaikki tyypit)|
+|{{ :dot_cgeo.svg?nolink&20 |}} |Käyttäjän määrittämä kätkö|
+|{{ :dot_tradi_oc.svg?nolink&20 |}} |Kätköt Opencaching-palvelusta näytetään neliöpisteellä\\ (tämä esimerkki näyttää pistekuvakkeen Opencaching-palvelun tradikätkölle).|
 
-c:geo käyttää omia kuvakkeitaan erilaisten saatavilla olevien kätkötyyppien näyttämiseksi. Tämä taulukko tarjoaa yleisnäkymän käytetyistä kuvakkeista, kätkötyypin sekä perusselitteen kätkötyypin perusominaisuuksista.
+Lisäksi jotkut kätkötilat, jotka näytetään normaalissa tilassa [[.:cachemarkers|pienellä kuvakkeella]] (kuten löydetty-tila, muutetut koordinaatit) näytetään myös pienessä tilassa käyttäen omaa kuvaketta, kuten seuraavassa taulukossa. Tällöin näytetään kyseinen kuvake kätkötyyppipisteen sijaan:
 
-^ Kuvake ^ Kätkötyyppi ^ Selite ^
-|{{ :type_traditional.png?nolink&40 |}}|Tradikätkö|Tämä on klassinen kätkötyyppi. Kätkö löytyy annetuista koodinaateista.|
-|{{ :type_multi.png?nolink&40 |}}|Multikätkö|Multikätkössä on vähintään kaksi sijaintia. Kätkö itse on viimeisessä sijainnissa, mutta sinun tulee vierailla useassa paikassa ja mahdollisesti ratkaista kysymyksiä/pulmia kussakin sijainnissa löytääksesi viimeisen sijainnin paikan.|
-|{{ :type_earth.png?nolink&40 |}}|Earth-kätkö|Earth-kätkö on sijoitettu paikkaan, joka on geologisesti kiinnostava kohde. Näiden kätköjen tarjoitus on opettaa kätköilijöille asioita maapallon geologiasta. Kätkön kirjaamiseksi tulee yleensä vastata kysymyksiin, joihin löytyy vastaukset vain paikan päältä. Paikan päällä ei ole fyysistä geokätköä. Lisätietoja sivustosta [[http://earthcache.org|earthcache.org]].|
-|{{ :type_mystery.png?nolink&40 |}}|Mysteerikätkö|Tämä kätkötyyppi kattaa monenlaisia kätköjä, joissa kätkö ei tyypillisesti ole ilmoitetuissa koordinaateissa, mutta on ratkaistavissa. Tyypillisesti kätköilijän tulee vastata kysymyksiin tai ratkaista kätkön kuvauksessa oleva pulma kätkön lopullisen sijainnin paljastamikseksi.|
-|{{ :type_wherigo.png?nolink&40 |}}|Wherigo-kätkö|Wherigo on tapa pelata sijaintiin riippuvia seikkailuja. Käyttäen erillistä Wherigo-sovellusta ja kätkön kasettitoedostoa, kätköilijän on pelattava sijaintiin liittyvää peliä tai vastattava sijaintiin liittyviin kysymyksiin. Lisää tietoa  [[http://wherigo.com|wherigo.com]] |
-|{{ :type_virtual.png?nolink&40 |}}|Virtuaalikätkö|Virtuaalikätkön sijainti ei sisällä fyysistä geokätköä. Sijainnissa tulee rarkaista tehtävä tai vastata kysymykseen. Jos tämä tehdään oikein ja sijainnissa on oikeasti vierailtu, tämä kätkötyyppi voidaan kirjata löydetyksi.|
-|{{ :type_letterbox.png?nolink&40 |}}|Letterbox hybridikätkö|Letterbox-kätkö käyttää vihjeitä koordinaattien sijaan. Viimeisessä sijainnissa on kätkön lisäksi myös leima, jolla voi merkata vierailunsa.|
-|{{ :type_webcam.png?nolink&40 |}}|Webkamerakätkö|Tässä kätkötyypissä sinun tulee seisoa julkisen webkameran edessä ja napata kuva tästä kamerasta. Jälkeenpäin kuva tulee lähettää lokikirjauksen kanssa löydön todentamiseksi.|
-|{{ :type_event.png?nolink&40 |}}|Tapahtumakätkö|Joskus geokätköilijät järjestävät tapahtumia tietyssä ajassa ja paikassa tavatakseen ja keskustellakseen geokätköilystä muiden geokätköilijöiden kanssa.|
-|{{ :type_mega.png?nolink&40 |}}|Mega-tapahtumakätkö|Mega-tapahtumakätkö on sama kuin tapahtuma-kätkö, mutta tapahtuma on isompi. Ainakin 500 geokätköilijän tulee ilmoittautua.|
-|{{ :type_giga.png?nolink&40 |}}|Giga-tapahtumakätkö|Giga-tapahtumakätkö on sama kuin Mega-tapahtumakätkö, mutta tapahtuma on vieläkin isompi. Ainakin 5000 geokätköilijän tulee ilmoittautua.|
-|{{ :type_cito.png?nolink&40 |}}|Siivoustapahtuma (CITO)|Siivoustapahtuma on tapahtuma, joka järjestetään ympäristön siivousta tai vastaavaa varten. Jälkeenpäin voidaan asettaa uusi geokätkö samaan paikkaan. CITO on lyhenne sanoista Cache-In-Trash-Out. |
-|{{ :type_ape.png?nolink&40 |}}|Project APE-kätkö|Vuonna 2001 asetettiin 14 geokätköä elokuvan "Apinoiden Planeetta" tukemiseksi. Vain muutama geokätkö on vielä jäljellä tänä päivänä, mikä tekee tämän tyypin harvinaisemmaksi tyypiksi.|
-|{{ :type_hq.png?nolink&40 |}}|Groundspeakin päämaja-kätkö|Vain yksi tätä tyyppiä oleva kätkö on olemassa, ja se sijaitsee Groundspeakin (yritys Geocaching.com:in takana) päämajassa, Seattlessa, Washingtonissa, USAssa.|
-|{{ :type_advlab.png?nolink&40 |}}|Adventure Lab -kätkö|Pelatessa Adventure Lab-kätköä, fyysistä kätköä ei ole saatavilla. Sinun tulee vierailla sijainnissa erityistä Adventure Lab -sovellusta käyttäen ja vastata sijainnissa sovelluksen antamaan kysymykseen. Jos vastaus on oikein, niin vierailtu sijainti lisätään automaattisesti löydettyjen kätköjen määrääsi.|
-|{{ :type_unknown.png?nolink&40 |}}|Tuntematon kätkötyyppi|Jos tämä kätkötyyppi näytetään, joko c:geo ei pystynyt (vielä) latamaan kätkön tyyppiä, tai se on kätkö, jota ei täysin tueta c:geossa (kuten Lab-kätköt geocaching.comissa) tai se on erillinen Tuntematon kätkötyyppi (opencachingin tukema kätkötyyppi)|
-|{{ :type_cgeo.png?nolink&40 |}}|c:geon kätkö|Käytetään c:geossa käyttäjän luomiin sisäisiin kätköihin|
-
-
-
+^ Kuvake ^ Tila ^
+|{{ :dot_found.svg?nolink&20 |}} |Kätkö kirjattu löydetyksi|
+|{{ :dot_found_offline.svg?nolink&20 |}} |Kätkö kirjattu löydetyksi offline-tilassa|
+|{{ :dot_not_found_offline.svg?nolink&20 |}} |Kätkö kirjattu ei-löydetyksi|
+|{{ :dot_marker_usermodifiedcoords.svg?nolink&20 |}} |Kätkössä on käyttäjän muuttamat koordinaatit\\ (taustan väri riippuu kätkön tyypistä)|
+|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Kätkössä on pätevä viimeinen reittipiste\\ (taustan väri riippuu kätkön tyypistä)|
+|{{ :dot_marker_calendar.svg?nolink&20 |}} |Tapahtumakätkö, johon ilmoittauduit|
+|{{ :dot_marker_maintenance_offline.svg?nolink&20 |}} |Kätköön on kirjattu huollon tarve offline-tilassa|
+|{{ :dot_marker_archive_offline.svg?nolink&20 |}} |Kätköön on kirjattu arkistoinnin tarve offline-tilassa|
+|{{ :dot_note_offline.svg?nolink&20 |}} |Kätköön on kirjattu huomio offline-tilassa|

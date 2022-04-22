@@ -1,0 +1,14 @@
+====== Format des coordonnées ======
+
+c:geo prend en charge plusieurs formats de coordonnées, dont les suivants:
+
+^ Format ^ Notation ^ Exemple ^ Description ^
+|MinDec|DDD° MM.MMM'|N 51° 20.382 E 007° 01.820|Degrés et minutes décimales|
+|DMS|DDD° MM' SS.SSS"|N 51° 20' 22.920" E 007° 01' 49.200"|Degrés, minutes décimales et secondes|
+|DegDec|DDD.DDDDD°|51.339700° 7.030333°|Degrés décimaux|
+|UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universal Transverse Mercator|
+
+Le format Degrés et minutes décimales est couramment utilisé pour le Geocaching.
+Pour les coordonnées existantes dans les caches ou les points de passage, vous pouvez changer le format affiché en appuyant brièvement sur les coordonnées.
+
+Lorsque vous utilisez la [[coordinatedialog|boite de dialogue d'import des coordonnées]], vous pouvez sélectionner le format souhaité dans l'en-tête de la boîte de dialogue selon les notations énumérées ci-dessus, à l'exception de l'UTM, qui n'est pas encore pris en charge comme format de saisie.

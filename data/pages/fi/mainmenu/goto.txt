@@ -1,18 +1,13 @@
-**FIXME**
-
-
 ====== Siirry-valikko ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 Siirry-valikkoa voidaan käyttää mielivaltaisiin koordinaatteihin navigoimiseen, joita ei löydy mistään kätköstä. Sillä voidaan myös laskea reittipiste käyttäen suuntaa ja etäisyyttä.\\
 
-Teknisesti "Siirry"-valikko vie sinut [[fi:udc|c:geon sisäisen kätkön]] [[fi:cachedetails#waypoint_tab|reittipisteet-välilehdelle]]. Eli käyttötapa on täsmälleen samanlainen kuten missä tahansa muussa c:geossa olevassa kätkössä. Luethan reittipistevälilehden ja reittipiste-editorin selosteet linkatulla sivulla.\\ \\ \\
+Teknisesti "Siirry"-valikko vie sinut [[fi:udc|c:geon sisäisen kätkön]] [[fi:cachedetails#waypoint_tab|reittipisteet-välilehdelle]]. Eli käyttötapa on täsmälleen samanlainen kuten missä tahansa muussa c:geossa olevassa kätkössä. Luethan reittipistevälilehden ja reittipiste-editorin selosteet linkin kautta löytyvällä sivulla.\\ \\ \\
 
 {{ :en:goto.png?400 |}}
-
-Tällä käyttöohjeen sivulla selostamme vain pari tyypillistä käyttötapaa.
- 		 	
+	 	
 ===== Kuinka laskea reittipiste käyttäen suuntaa ja etäisyyttä =====
  		 	
   - Napauta "Lisää reittipiste"​

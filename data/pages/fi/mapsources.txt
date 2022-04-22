@@ -1,6 +1,3 @@
-**FIXME**
-
-
 ====== Karttalähteet ======
 
 Seuraavat karttatyypit ovt saatavilla c:geossa.
@@ -15,6 +12,7 @@ Voit vaihtaa karttatyyppien välillä [[.mainmenu:settings#maps|asetuksissa]] ta
 |OSM:Offline|[[offlinemaps|Offline-kartat]], jotka on renderöity [[http://mapsforge.net|Mapsforge]]-muodossa olevista offline-kartoista.\\ OSM:Offline-nimen sijaan saatavilla olevien karttojen nimet on näkyvillä karttavalikossa.|
 
 <WRAP center round info 100%>
-Tällä hetkellä c:geo tukee vain Google Mapsin v1-versiota, joka ei tue kartan kääntöä, joten kaikki kartat näytetään pohjoinen ylhäällä. Uusien Google Maps -versioiden tuonti ohjelmaan on kuitenkin työn alla.
+
+Tällä hetkellä kartan kääntö (kävelysuuntaan) toimii vain Google Mapsissa. Kaikki muut kartat näytetään pohjoinen ylhäällä. Olemme kuitenkin työstämässä ongelmaa.
 </WRAP>
 

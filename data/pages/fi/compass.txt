@@ -1,6 +1,3 @@
-**FIXME**
-
-
 ====== Kompassi ======
 
 Kompassi on c:geon sisäänrakennettu työkalu. Voit aloittaa kompassin [[cachedetails|kätkön tietosivulta]] joko kätkön koordinaatteihin tai mihin tahansa kätkön [[cachedetails#waypoint_tab|reittipisteeseen]].

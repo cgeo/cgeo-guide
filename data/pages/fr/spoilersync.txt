@@ -1,0 +1,17 @@
+====== Synchroniser les photos spoileurs avec c:geo ======
+
+Certains GPS (par exemple Garmin) offrent la possibilité de charger manuellement les images de spoilers sur ces appareils afin de les avoir à disposition pour une utilisation hors-ligne. Des outils comme [[https://gsak.net|GSAK]] ont donc une fonctionnalité permettant de générer ces structures de répertoire hors ligne spécifiques aux GPSr pour synchroniser les images de spoilers.
+Bien que c:geo soit capable de télécharger et d'afficher les images de spoilers en ligne, certains utilisateurs peuvent vouloir utiliser c:geo complètement hors ligne tout en disposant des images de spoilers.
+
+C'est pourquoi c:geo permet de synchroniser les images spoiler à l'aide de ces structures de répertoire spécifiques (identiques à celles des appareils GPSr) comme suit :
+
+<WRAP center round tip 100%>
+Ce qui suit peut sembler très compliqué, mais si vous utilisez les outils de synchronisation des spoilers correspondants, toute la structure du répertoire sera créée et les images des spoilers seront ajoutées automatiquement. Tout ce que vous devez savoir, c'est le répertoire de base correct dans lequel copier la structure du répertoire sur votre périphérique c:geo.
+</WRAP>
+
+  * Répertoire de base : \\ Le répertoire de base pour la synchronisation dépend de l'endroit où vous avez défini le répertoire de base de c:geo lui-même. Vous devez utiliser le dossier ''GeocachePhotos/'' sous le [[.:mainmenu:settings#base_folder_geolocation_orientation|répertoire de base de c:geo]] lui-même. Typiquement, c'est ''/cgeo/GeocachePhotos/'' si vous utilisez la configuration par défaut.
+
+  * Structure du répertoire : \\ La structure des sous-répertoires utilise les règles suivantes:\\ ''/Dernier caractère du géocode/avant dernier caractère du geocode/geocode/'' \\ \\ Exemple : Si la cache est GC123ABC, le répertoire correspondant est ''/cgeo/GeocachePhotos/C/B/GC123ABC/''.
+    
+
+

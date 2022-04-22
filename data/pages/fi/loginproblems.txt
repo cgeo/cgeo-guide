@@ -1,5 +1,3 @@
-**FIXME**
-
 ====== Kirjautumisongelmat ======
 
 Jos c:geo ei pysty kirjautumaan sisään geokätköilysivustolle, se näyttää päävalikossa varoituksen:
@@ -18,7 +16,7 @@ Ole hyvä ja seuraa kaikkia alla olevia askelia ennen kuin otat yhteyttä [[mail
 Joskus geokätköilysivustolle tulee muutoksia, joihin c:geo vaatii vastaavasti muutoksia toimiakseen. On mahdollista, että vanhentuneet c:geon versiot eivät pysty enää kirjautumaan tai niillä on muita ongelmia.
 
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Joten, ennen kaikkea muuta, tarkista, että onko c:geoon saatavilla päivitystä, ja päivitä sovellus, jos päivitys on saatavilla.
 </WRAP>
 
@@ -30,7 +28,7 @@ Joten, ennen kaikkea muuta, tarkista, että onko c:geoon saatavilla päivitystä
 On myös mahdollista, että geokätköilypalvelulla itsellään on syystä tai toisesta palvelukatkos, ja c:geo ei pysty ottamaan yhteyttä siihen. Tarkista, pääsetkö geokätköilysivustolle, käyttämällä selainta, ja että voit kirjautua sisään heidän verkkosivuilla.
 Voit tarkistaa myös geocaching.com:in [[https://status.geocaching.com|tilasivun]], jos heidän puolella on tiedossa olevia ongelmia.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Jos geokätköilysivustossa on katkos, sinun tulee odottaa kunnes sivusto on käytettävissä, jotta voit ottaa siihen yhteyden c:geon avulla.
 </WRAP>
 
@@ -39,7 +37,7 @@ Jos geokätköilysivustossa on katkos, sinun tulee odottaa kunnes sivusto on kä
 
 Jos päivitit uudempaan c:geon versioon, tai käytät jo uusinta versiota, ja ongelmat jatkuvat, varmista, että sinulla on toimiva internetyhteys. c:geo ei voi kirjautua sisään ilman internetyhteyttä. Myös joidenkin antivirus- tai palomuurisovellusten käyttö voi estää joidenkin sovellusten internetliikenteen.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Palauta internetyhteys ja käynnistä c:geo uudelleen käynnistääksesi uuden kirjautumisen.
 </WRAP>
 
@@ -52,7 +50,7 @@ Palauta internetyhteys ja käynnistä c:geo uudelleen käynnistääksesi uuden k
 
 Jos internetyhteytesi toimii, ja c:geon ongelma on edelleen olemassa, sinun tulisi tarkistaa c:geoon tallentamasi kirjautumistiedot.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Esimerkiksi, jos olet äskettäin vaihtanut salasanan geokätköilysivustolla, sinun tulee tehdä sama muutos c:geoon pystyäksesi kirjautumaan sisään.</WRAP>
 
 
@@ -67,7 +65,7 @@ Tämän jälkeen napauta "Kyllä" avataksesi geokätköilypalveluiden määrityk
 
 Valitse geokätköilypalvelu jonka haluat tarkistaa (kuten geocaching.com), varmista että se on aktivoitu ja valitse "Päivitä tai poista valtuutus".
 
-<WRAP center round tip 60%>
+<WRAP center round tip 100%>
 Voit myös painaa pitkään valikkokohtaa "Päivitä tai poista valtuutus" nollataksesi kirjautumistiedot.
 </WRAP>
 
@@ -81,7 +79,7 @@ Tämä avaa näytön, jossa sinun tulisi syöttää uudelleen kyseisen geokätk�
 
 ==== 4b. Mahdolliset virheviestit ====
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Jos tarkistit kaikki yllä listatut asiat ja sisäänkirjautuminen epäonnistuu silti, sinun tulisi katsoa virheviesti, jonka c:geo näyttää "Tarkista kirjautumistiedot"-vaiheen aikana, kuten selostettu yllä.
 </WRAP>
 
@@ -95,7 +93,7 @@ Seuraavat kappaleet tarjoavat selostuksen ja mahdolliset korjaukset kaikille vir
 
 99% tapauksissa joissa tämä virheviesti näytetään, se todellakin tarkoittaa että olet syöttänyt väärät kirjautumistiedot. Jotkut erikoismerkit, joita voi olla käyttäjätunnuksessasi ja/tai salasanassasi, voivat näyttää hieman erilaiselta tai voivat mennä sekaisin muiden Androidnäppäimistössäsi olevien merkkien kanssa.  
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Tarkista huolellisesti syötetty käyttäjätunnus ja salasana, ja huomioi, että käyttäjätunnuksen ja salasanan kirjainkoko merkitsevät.
 </WRAP>
 
@@ -105,7 +103,7 @@ Tarkista huolellisesti syötetty käyttäjätunnus ja salasana, ja huomioi, ett�
 
 c:geo on havainnut, että geokätköilysivusto vaatii sinua ratkaisemaan Captchan kirjautuaksesi sisään. c:geo ei täten pysty kirjautumaan. geocaching.com saattaa käyttää kyseistä Captchaa, jos se on havainnut useamman epäonnistuneen sisäänkirjautumisen (kuten väärän salasanan takia).
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Kirjaudu sisään geokätköilysivustolle käyttäen selaintasi/tietokonetta, ratkaise Captcha siellä, onnistuneen sisäänkirjautumisen jälkeen yritä kirjautua c:geossa uudelleen.
 </WRAP>
 
@@ -115,7 +113,7 @@ Lisäksi, geocaching.com voi kysyä käyttäjältä Captchaa silloin, kun se hav
 
 Sähköpostiosoitteesi ja/tai tilisi ei ole vielä tai ei ole enää vahvistettu geokätköilysivustolla.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Kirjaudu sisään geokätköilysivustolle käyttäen selainta tai tietokonetta, ja vahvista sähköpostiosoitteesi ja/tai tilisi geokätkösivustoilla. Tämän jälkeen yritä kirjautumista uudelleen c:geossa.
 </WRAP>
 
@@ -124,19 +122,19 @@ Kirjaudu sisään geokätköilysivustolle käyttäen selainta tai tietokonetta, 
 
 Jos käytät mitä tahansa antivirussovellusta, palomuuria, mainosten esto-ohjelmaa tai VPN-työkalua (kuten F-Secure, AdAway, McAfee, Orbot, yritys-VPNt, TOR), tarjistathan, että mikään näistä ei estä tai häiritse internetyhteyttäsi.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Yritä kyseisen työkalun kytkemistä pois päältä ja tarkista, jos sisäänkirjautuminen onnistuu nyt.
 </WRAP>
 
 Jos päivämäärä/aika on väärin, tämä voi johtaa ongelmia turvallisen yhteyden palvelimeen muodostamisessa.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Tarkista, että laitteessasi on oikea päivä, aikavyöhyke ja aika.
 </WRAP>
  
 Joskus verkko-operaattorit syöttävät viestejä HTML-liikenteeseen, joka estää c:geota kirjautumasta sisälle ollessaan mobiiliverkossa. Selvänä merkkinä täseä on se, että c:geo toimii vain Wi-Fi-yhteydessä kotonasi, mutta ei mobiiliverkossa.
 
-<WRAP center round todo 60%>
+<WRAP center round todo 100%>
 Tässä tapauksessa, mene c:geon asetuksiin Valikko → Asetukset → Palvelut ja kytke "Android-selain" päälle. Tämän jälkeen voi olla, että sinun tulee käynnistää puhelimesi uudelleen, jotta asetukset tulevat voimaan.
 </WRAP>
 

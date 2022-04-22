@@ -26,7 +26,7 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[installation|Installatie en updaten van c:geo]] – Hoe en waar kan c:geo worden geïnstalleerd en worden geüpdatet?
   * [[installation#permissions|c:geo toestemming machtigingen op apparaten]] – Waarom heeft c:geo de gevraagde machtigingen nodig op je apparaat?
 
-  * [[firststeps|Eerste stappen met c:geo]] – Starten van de app en het authentiseren van de geocaching services
+  * [[firststeps|Eerste stappen met c:geo]] – Starten van de app en het authentiseren van de geocaching services.
   * [[basicuse| Basisgebruik van c:geo]] - Wat is Geocaching en hoe vind je jouw eerste geocache met c:geo?
 
 
@@ -123,7 +123,7 @@ Als je een speciaal probleem of fout hebt, kijk dan ook eens naar onze [[http://
   * [[ebook_help|Download een PDF versie van deze handleiding]]
 
 <WRAP center round info 100%>
-Aangezien c:geo voortdurend geavanceerd en bijgewerkt wordt, is het mogelijk dat deze gebruikershandleiding niet de meest recente wijzigingen toont of vooruitloopt op de actuele c:geo versie.
+Aangezien c:geo voortdurend geavanceerd en bijgewerkt word, is het mogelijk dat deze gebruikershandleiding niet de meest recente wijzigingen toont of vooruitloopt op de actuele c:geo versie.
 </WRAP>
 
 ===== Handige Links =====

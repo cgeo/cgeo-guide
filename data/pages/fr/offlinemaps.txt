@@ -1,0 +1,135 @@
+====== Tutoriel pour l'utilisation des cartes hors-ligne ======
+
+===== Introduction =====
+
+c:geo supporte les carte vectorielles hors-ligne [[https://www.openstreetmap.org|Openstreetmap]] utilisant le format [[https://mapsforge.net|mapsforge]].
+
+L'utilisation d'une carte hors ligne avec c:geo en combinaison avec des caches stockés vous permet d'utiliser c:geo complètement hors ligne (par exemple, lorsque vous ne voulez ou ne pouvez pas utiliser une connexion avec les données mobiles).
+
+Outre les fichiers de cartes hors ligne, c:geo prend également en charge les thèmes de cartes connexes. En utilisant un thème de carte personnalisé en combinaison avec une carte hors ligne, vous pouvez personnaliser l'affichage de la carte en fonction de vos besoins (par exemple, lignes de hauteur, marquage des sentiers de randonnée, etc.) Certaines cartes hors ligne nécessitent même l'installation d'un thème correspondant pour s'afficher correctement.
+
+Ce tutoriel décrit comment télécharger, installer et configurer ces cartes et thèmes hors-ligne.
+
+===== Téléchargement et installation automatiques =====
+
+c:geo prend en charge le téléchargement et l'installation automatisés de cartes hors-ligne provenant de diverses sources.
+
+==== Sources de téléchargement ====
+{{anchor:mapsources}}
+
+Le tableau suivant donne un aperçu des sources de fichiers prises en charge par le téléchargeur de cartes c:geo :
+
+^ Nom ^ Couverture ^Description ^ Remarques ^ Prix ^
+|[[https://download.mapsforge.org|Dépôt de cartes Mapsforge]]|Monde entier|Ce serveur héberge des cartes et des POI préétablis dans le monde entier, générés avec la dernière version des plugins mapsforge-writer.|Les fichiers de thème personnalisés ne sont pas proposés, les fichiers de carte fonctionnent mieux lorsqu'on utilise le thème par défaut c:geo.|Gratuit|
+|[[https://openandromaps.org|OpenAndroMaps]]|Monde entier|OpenAndroMaps propose des cartes vectorielles téléchargeables gratuitement pour les smartphones|Nous vous recommandons d'utiliser ces cartes avec le thème cartographique correspondant d'OpenAndroMaps, "Elevate 4", qui est proposé pour être téléchargé automatiquement par notre téléchargeur de cartes après le téléchargement d'une carte.|Gratuit, Donations appreciées|
+|[[https://freizeitkarte-osm.de|Freizeitkarte OSM]]|Europe|Fichiers cartographiques pour les appareils Garmin et les smartphones Android.|Cartes très détaillées, mais nécessitant le thème correspondant (qui sera proposé au téléchargement automatiquement par notre téléchargeur de cartes) pour avoir une vue correcte.|Gratuit, Donations appreciées|
+
+==== Télécharger et intsaller les cartes/thèmes ====
+
+Le téléchargeur peut être démarré de deux manières:
+  * A partir de la [[.:mainmenu:livemap|carte]] en ouvrant le sélecteur de carte et en tapant sur "<Télécharger des cartes hors-ligne>".
+{{ :en:offlinemap_downloader_maps.png?direct&300 |}}
+
+  * Dans les [[.:mainmenu:settings|paramètres de la carte]], en sélectionnant "Télécharger des cartes hors-ligne".
+{{ :en:offlinemap_downloader_settings.png?direct&300 |}}
+
+
+Après avoir ouvert le téléchargeur de cartes, vous pouvez choisir la source à partir de laquelle vous souhaitez télécharger la carte en ouvrant le menu déroulant affiché en haut. Pour en savoir plus sur les différentes sources de cartes, veuillez consulter [[offlinemaps#mapsources|cette liste]] ou cliquer sur l'icône en forme de cœur en haut à droite dans le téléchargeur de cartes.
+
+{{ :en:offlinemap_downloader_2.png?direct&400 |}}
+
+Dans cet exemple, nous utilisons "Mapsforge" comme source cartographique et nous voulons télécharger la carte hors ligne du Mexique.
+
+La liste de niveau supérieur est généralement triée par régions géographiques grossières (généralement, les continents) et devient plus spécifique à chaque niveau inférieur. Tapez sur l'icône de la loupe pour ouvrir la liste/région souhaitée et voir son contenu. Si vous avez finalement trouvé le fichier de carte que vous voulez installer, tapez simplement sur l'icône de disque à côté de celui-ci pour lancer le processus de téléchargement.
+
+{{:en:offlinemap_downloader_1.png?direct&300 |}}{{:en:offlinemap_downloader_3.png?direct&300|}}
+
+<WRAP center round important 100%>
+Le téléchargement d'une carte peut entraîner un trafic réseau élevé ! Assurez-vous d'utiliser un réseau Wifi ou un autre réseau non limité avant de commencer le téléchargement.
+</WRAP>
+
+Confirmez dans la boîte de dialogue suivante pour lancer le téléchargement.
+
+{{ :en:offlinemap_downloader_4.png?direct&400 |}}
+
+Le téléchargement lui-même est effectué en arrière-plan par le gestionnaire de téléchargement de votre appareil. Lorsque le transfert est terminé, le fichier est transféré dans le dossier c:geo map et défini automatiquement comme carte actuelle.
+
+<WRAP center round info 100%>
+Le mieux est de laisser c:geo actif pendant le téléchargement, de sorte qu'une fois le téléchargement terminé, c:geo puisse reprendre directement la carte téléchargée.
+</WRAP>
+
+{{:en:offlinemap_downloader_5a.png?direct&400|}}{{ :en:offlinemap_downloader_5b.png?direct&400|}}
+
+Si la carte téléchargée nécessite un thème de carte dédié (ne s'applique pas aux cartes Mapsforge), le téléchargeur vous demandera ensuite automatiquement si vous souhaitez également le télécharger et l'installer.
+
+{{ :en:offlinemap_downloader_6.png?direct&400 |}}
+
+C'est tout ce que vous avez à faire. La carte téléchargée (et éventuellement le thème téléchargé) sera automatiquement sélectionnée pour être utilisée dans votre affichage de carte.
+
+Si vous avez besoin de plus d'une carte hors ligne, vous pouvez répéter le processus si nécessaire.
+
+==== Vérifier les mises à jour pour les cartes téléchargées ====
+
+Vous pouvez également utiliser le téléchargeur de cartes pour vérifier les mises à jour régulières de vos cartes et thèmes déjà téléchargés. Ouvrez simplement le téléchargeur comme décrit dans le chapitre ci-dessus.
+
+Cliquez sur le bouton ''Vérifier les mises à jour'' pour que le téléchargeur vérifie automatiquement si des versions plus récentes des cartes et des thèmes que vous avez téléchargés sont disponibles.
+
+{{ :en:offlinemap_downloader_update_1.png?direct&400 |}}
+
+Le téléchargeur vous indiquera soit qu'aucune mise à jour de carte n'est disponible, soit la liste des fichiers qui peuvent être mis à jour. Pour mettre à jour les cartes/thèmes, il suffit de cliquer sur l'icône de disque à côté du nom du fichier.
+
+{{ :en:offlinemap_downloader_update_2a.png?direct&400 |}}
+
+{{ :en:offlinemap_downloader_update_2.png?direct&400 |}}
+
+
+
+Une fois la mise à jour téléchargée, il vous sera demandé si vous souhaitez écraser la carte existante (plus ancienne) ou renommer la carte téléchargée. En général, vous souhaitez remplacer l'ancienne carte, c'est pourquoi vous devez sélectionner ''Écraser''.
+
+{{ :en:offlinemap_downloader_update_3.png?direct&400 |}}
+
+Vous devez répéter le processus pour chaque carte/thème que vous souhaitez mettre à jour.
+
+===== Usage des cartes hors-ligne =====
+
+
+==== Sélectionner les fichiers de carte ====
+
+c:geo affichera tous les fichiers de cartes hors ligne téléchargés dans le menu de sélection des cartes sur votre carte (en direct) et vous pourrez l'utiliser pour passer d'une carte hors ligne installée à une autre.
+
+{{ :en:offlinemap_map_selector_2.png?direct&400 |}}
+
+Vous pouvez également utiliser c:geo Menu -> Paramètres -> Carte et tapez sur ''Sélectionner la source des cartes'' pour sélectionner la carte hors ligne à utiliser.
+
+{{ :en:offlinemap_map_selector.png?direct&400 |}}
+
+Une fois sélectionné, c:geo utilisera continuellement ce fichier en tant que carte au lieu d'utiliser les cartes en ligne.
+
+==== Sélectionner un thème ====
+
+Après avoir sélectionné le fichier de carte hors ligne à utiliser, vous pouvez attribuer le thème qui sera utilisé pour le rendu de la carte.
+
+Vous pouvez le faire dans le menu de la carte (en direct) en utilisant l'option de menu ''Sélectionner le thème de la carte''. Si vous avez installé un thème en même temps que votre carte hors ligne, veillez à sélectionner le thème correspondant ici.
+
+{{ :en:offlinemap_theme_selector.jpg?direct&400 |}}
+
+
+
+
+
+==== Options avancées des thèmes ====
+
+Si vous avez installé un thème, vous pouvez ajuster et configurer la visibilité de certains éléments de la carte en fonction de vos besoins. Vous pouvez trouver l'option correspondante dans le menu de la carte (en direct) sous ''Options du thème''.
+
+{{ :en:offlinemap_advanced_themeoptions.jpg?direct&400 |}}
+
+Vous pouvez y sélectionner un style de carte de base (par exemple, randonnée, vélo, voiture) et le personnaliser ensuite en activant/désactivant des éléments supplémentaires de la carte.
+
+{{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
+
+===== Plus d'informations sur les cartes hors-ligne =====
+
+Liens vers des tutoriels et guides réalisés par des utilisateurs de c:geo
+
+^ Lien ^ Langage ^ Description ^ 
+|[[https://www.saarfuchs.com/2019/05/cgeo-so-einfach-kann-geocaching-sein-vortragsfolien-2019.html|Saarfuchs Blog]]|Allemand|Tutoriel sur les usages hors-ligne de c:geo|

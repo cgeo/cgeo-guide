@@ -1,98 +1,98 @@
-**FIXME**
-
-
 ====== Geokätköjen kirjaaminen ======
 
-Jos päätät kirjata kätköllä käyntisi, seuraava näyttö tulee näkyville.
+Jos päätät kirjata käyntisi geokätköllä, seuraava näyttö tulee esille.
 
 {{:en:logging.png?direct&300 |}}{{:en:logging_2.png?direct&300 |}}
 
-===== Yläosan valikko =====
+===== Yläpalkin valikko =====
 {{anchor:top_bar_menu:}}
 
+
+
 <WRAP center round info 100%>
-Kuvakkeet yläpalkissa ja sisältö kolmen pisteen menun takana jaetaan dynaamisesti laitteesi näytön resoluution ja näytön suunnan mukaisesti. Joten on mahdollista, että näytettyjen kuvakkeiden sekä menun takaa löytyvien valintojen määrä vaihtelee.\\
-Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdäksesi sen toiminnon nimen.
+Yläpalkissa näytettävät kuvakkeet sekä sisältö ylivuotovalikkonapin takana jaetaan dynaamisesti laitteesi resoluutioon ja näytön suuntaan perustuen. Täten on mahdollista, että laitteesi yläpalkissa näytettävät kuvakkeet ja ylivuotovalikon takana näytettävien valintojen määrä voi vaihdella näytetystä.\\
+Kun valikon valinta näytetään kuvakkeena, voit painaa sitä pitkään nähdäksesi ponnahdusikkunan, joka selostaa kuvakkeen toiminnon.
 </WRAP>
 
 ^ Kuvake ^ Toiminto ^ Selite ^
-|{{ :ic_menu_send.svg?nolink&40 |}}|Lähetä|Tästä painikkeesta voit lähettää kirjauksesi palvelimelle, kun olet saanut sen valmiiksi.|
-|{{ :ic_menu_add.svg?nolink&40 |}}|Lisää|Lisää kirjaukseen joko [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksen.|
-|{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä tulee esille valikko, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
-|{{ :ic_menu_attachment.svg?nolink&40 |}}|[[logging#attach_image|Liitä kuva]]|Voit tästä lisätä olemassa olevan kuvan, tai avata kameran, jolla otettu kuva lisätään kirjaukseen.|
-| |Hymiöt|Avaa listan hymiöistä, joita voit lisätä kirjaukseen.|
-| |Offline-tallennus|Tallentaa kirjauksen offline-tilassa sen sijaan, että se lähetetään palvelimelle.|
-| |Järjestä reissaajat|Voit vaihtaa hallussa olevien reissaajien järjestystä joko matkaajan nimen tai matkaajan seurantakoodin mukaan.|
-| |Toista edellinen loki|Toistaa edelliseen kätköösi kirjaaman lokin kyseisen kätkön kirjauksen tekstikenttään.|
-| |Tyhjennä|Poistaa logikirjauksen ja nollaa kirjausnäytön.|
+|{{ :ic_menu_send.svg?nolink&40 |}}|Lähetä|Kun olet saanut kirjauksen valmiiksi, lähetä se palveluun käyttämällä tätä nappia.|
+|{{ :ic_menu_add.svg?nolink&40 |}}|Lisää|Tämä mahdollistaa joko [[.mainmenu:settings#placeholder_templates|mallineen]] tai allekirjoituksesi lisäämisen kirjaukseen.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Ylivuotonappi|Napauttamalla tästä aukeaa valikko, joka sisältää toiminnot, jotka eivät sopineet laitteesi yläpalkkiin, mutta sen sijaan ne näytetään listana. Myös toiminnot tästä listassa selostetaan tässä taulukossa.|
+|{{ :ic_menu_attachment.svg?nolink&40 |}}|[[logging#attach_image|Liitä kuva]]|Voit liittää tästä olemassa olevan kuvan, tai ottaa uuden kuvan, joka liitetään kirjaukseen.|
+| |Hymiöt|Avaa listan hymiötunnisteista, joita voit liittää kirjaukseesi.|
+| |Offline-tallennus|Tallentaa kirjoittamasi kirjauksen vain offline-tilassa, palveluun lähettämisen sijaan.|
+| |Järjestä reissaajat|Voit vaihtaa reissaajalistan järjestystä joko nimen tai seurantakoodin mukaan.|
+| |Toista edellinen loki|Tämä toiminto syöttää kirjauskenttään tekstin, jota käytit edellisen kätkön kirjaukseen.|
+| |Tyhjennä|Tämä tyhjentää lokikirjauksen ja nollaa kirjausnäytön.|
 
-===== Kirjausnäkymä =====
+===== Kirjausnäyttö =====
 {{anchor:logging_screen:}}
 
-==== Lokityypit ====
+==== Kirjaustyypit ====
 {{anchor:log_types:}}
 
 {{ :en:logging_logtype.png?nolink&300 |}}
 
-^ Lokityyppi ^ Selite ^
-|Löytyi|Olet löytänyt kätkön.\\ Tämä on oletuslokityyppi, kun kirjausnäyttö avataan.\\ \\ :!: Tämä lokityyppi ei ole enää saatavilla, jos olet jo kirjannut löytökirjauksen kätkölle.|
-|Osallistui|Tämä lokityyppi on saatavilla vain tapahtumakätköille. Käytetään tapahtumakätköissä ''Löytyi''-kirjauksen sijaan.|
-|Webcam-kuva otettu|Tämä lokityyppi on saatavilla vain webcam-kätköille. Käytetään webcam-kätköissä ''Löytyi''-kirjauksen sijaan.|
-|Osallistuu|Tämä lokityyppi on saatavilla vain tapahtumakätköille. Ilmoittaa omistajalle aikeestasi osallistua tapahtumaan.|
-|Ei löytynyt|Et löytänyt kätköä.|
-|Jätä huomio|Kirjoita kommentti/muistiinpano kätkölle.|
-|Tarvitsee huoltoa|Valitse tämä lokityyppi jos kätkö tarvitsee mielestäsi huoltoa.\\ \\ :!: Tämä lokityyppi ei ole enää saatavilla geocaching.comissa ja joissakin opencaching-sivustoissa, vaan se on korvattu [[logging#report_problem|Ilmoita ongelmasta ]]-toiminnolla.|
-|Needs Archived|Valitse tämä lokityyppi jos kätkö tulisi mielestäsi arkistoida.\\ \\ :!: Tämä lokityyppi ei ole enää saatavilla geocaching.comissa ja joissakin opencaching-sivustoissa, vaan se on korvattu [[logging#report_problem|Ilmoita ongelmasta ]]-toiminnolla.|
-|Huolto suoritettu|Tämä lokityyppi on saatavilla vain, jos olet kätkön omistaja. Kirjaa kätkön huollon.|
-|Ei käytössä|Tämä lokityyppi on saatavilla vain, jos olet kätkön omistaja. Hyllyttää kätkön.|
-|Käytössä|Tämä lokityyppi on saatavilla vain, jos olet kätkön omistaja. Aktivoi kätkön käyttöön.|
-|Arkistoitu|Tämä lokityyppi on saatavilla vain, jos olet kätkön omistaja. Arkistoi kätkön.|
+^ Kirjaustyyppi ^ Selite ^
+|Löytyi|Löysit tämän kätkön.\\ Tämä on oletuskirjaustyyppi kirjausnäytön avautuessa.\\ \\ :!: Tämä lokityyppi ei ole enää saatavilla jos olet jo kirjannut löytökirjauksen tälle kätkölle.|
+|Osallistui|Tämä kirjaustyyppi on saatavilla vain tapahtumakätköille ja käytössä vain näille ''Löytyi''-kirjauksen sijaan.|
+|Webcam-kuva otettu|Tämä kirjaustyyppi on saatavilla vain webcam-kätköille ja käytössä vain näille ''Löytyi''-kirjauksen sijaan.|
+|Osallistuu|Tämä kirjaustyyppi on saatavilla vain tapahtumakätköille. Voit ilmoittaa tällä kirjaustyypillä tapahtuman järjestäjälle aikeestasi osallistua tapahtumaan.|
+|Ei löytynyt|Et löytänyt tätä kätköä.|
+|Jätä huomio|Kirjoita kätkölle kommentti/huomio.|
+|Tarvitsee huoltoa|Valitse tämä kirjaustyyppi raportoidaksesi omistajalle että kätkö tarvitsee huoltoa.\\ \\ :!: Tämä kirjaustyyppi ei ole enää saatavilla geocaching.comissa ja joissakin opencaching-palveluissa, vaan on korvattu [[logging#report_problem|ongelmanilmoitustoiminnolla]].|
+|Kätkö pitäisi arkistoida|Valitse tämä kirjaustyyppi raportoidaksesi, että tämä kätkö tulisi arkistoida.\\ \\ :!: Tämä kirjaustyyppi ei ole enää saatavilla geocaching.comissa ja joissakin opencaching-palveluissa, vaan on korvattu [[logging#report_problem|ongelmanilmoitustoiminnolla]].|
+|Huolto suoritettu|Tämä kirjaustyyppi on saatavilla vain, jos olet kätkön omistaja. Voit ilmoittaa tällä kirjaustyypillä kätkölle suorittamastasi huollosta.|
+|Ei käytössä|Tämä kirjaustyyppi on saatavilla vain, jos olet kätkön omistaja. Voit ilmoittaa tällä kirjaustyypillä, että otat kätkön väliaikaisesti hyllylle.|
+|Käytössä|Tämä kirjaustyyppi on saatavilla vain, jos olet kätkön omistaja. Voit ilmoittaa tällä kirjaustyypillä, että kätkö on jälleen löydettävissä.|
+|Arkistoitu|Tämä kirjaustyyppi on saatavilla vain, jos olet kätkön omistaja. Voit tällä kirjaustyypillä arkistoida kätkösi pysyvästi.|
 
 ==== Kirjauspäivä ====
 {{anchor:log_date:}}
 
 {{:en:logging_date.png?nolink&300 |}}
 
-Oletuksena c:geo käyttää nykyistä päivää kirjauksessa ja näyttää ''Tänään'' tässä kentässä. Voit kuitenkin napauttaa kenttää avataksesi kalenterityökalun ja valita toisen kirjauspäivän.
+Oletuksena c:geo käyttää kirjaukselle nykyistä päivää ja näyttää tässä kentässä ''Tänään''. Voit kuitenkin napauttaa tätä kenttää avataksesi kalenterityökalun ja valita kirjaukselle toisen päivän.
 
 ==== Ilmoita ongelmasta ====
 {{anchor:report_problem:}}
 
 {{ :en:logging_problem.png?nolink&300 |}} 
 {{ :en:logging_problem_2.png?nolink&300 |}}
-Geocaching.com sekä joidenkin opencaching-sivustojen kätköjen kohdalla voit ilmoittaa, että kätkössä on ongelma, lähetettäessä "Löytyi" tai "Ei löytynyt" -kirjausta.
+Kätköille, jotka ovat geocaching.comissa ja joissakin opencaching-palveluissa, voit ilmoittaa kätkön ongelmasta, samalla kun kirjaat "Löytyi"- tai "Ei löytynyt"-kirjauksen.
 
-
-Napauta kenttää avataksesi valikon, joka sisältää seuraavat ongelmaraportit (riippuen kätköilysivustosta, kätkötyypistä, kätkön tilasta ja lokityypistä):
+Napauta tätä kenttää avataksesi pudotusvalikon, joka sisältää saatavilla olevat ongelmaraportit (riippuen geokätköilypalvelusta, kätkötyypistä, kätkön tilasta ja kirjaustyypistä):
 
 ^ Valinta ^ Selite ^
-|Ei ongelmaa|Ongelmaraporttia ei liitetä kirjaukseesi.\\ Oletusvalinta.|
+|Ei ongelmaa|Ei ongelmaa-raportti liitetään kirjaukseesi.\\ Tämä on oletusvalinta.|
 |Loki on täynnä|Ilmoittaa omistajalle, että kätkön lokikirja on täynnä.|
-|Kätkö saattaa olla kadonnut|Ilmoistaa omistajalle, että kätkö voi olla kadonnut.\\ :!: Ei voida käyttää "Löytyi"-kirjauksen kanssa.|
-|Kätkö on vahingoittunut|Ilmoittaa omistajalle, että kätkössä on jotain vialla.|
-|Kätkö pitäisi arkistoida|Ilmoittaa kätkötarkistajille/moderaattoreille, että kätkö tulisi arkistoida.|
-|Muu|Jokin muu ongelma, joka tulisi selittää lokikirjauksessa.|
+|Kätkö saattaa olla kadonnut|Ilmoittaa omistajalle, että kätkörasia voi olla hävinnyt.\\ :!: Tämä ongelmatyyppi ei ole saatavilla käytettäessä "Löytyi"-kirjausta.|
+|Kätkö on vahingoittunut|Ilmoittaa omistajalle, että kätkörasiassa on jotakin vikaa.|
+|Kätkö pitäisi arkistoida|Ilmoittaa geokätköilypalvelun tarkastajille/ylläpitäjille, että tämä kätkö pitäisi arkistoida.|
+|Muu|Muu ongelma, joka sinun tulisi selostaa tarkemmin kirjauksessasi.|
 
-==== GCVote-arviointi ====
+==== GCVote-arvostelu ====
 {{anchor:gcvote_rating:}}
 
 {{:en:logging_gcvote.png?nolink&300 |}}
 
-Tämä osio näytetään vain, jos olet aktivoinut ja kirjautunut [[http://gcvote.com|GCVoteen]] [[.mainmenu:settings|asetuksissa]]. Voit sitten käyttää tätä toimintoa antaaksesi arvion kätkön laadusta. Napauta vain tähtiä valitaksesi arvioinnin 1 ja 5 tähden välillä, 0.5 tähden välein. Tähtien alla oleva teksti näyttää vastaavan tekstiarvioinnin tähtien mukaan.
+Tämä osio näytetään vain, jos olet aktivoinut ja valtuuttanut [[http://gcvote.com|GCVoten]] [[.mainmenu:settings|asetuksissa]]. Voit sitten valita tähdistä arvostelusi kätkön laadusta. Napauta tähtiä valitaksesi arvostelun 1 ja 5 välillä 0.5 tähden välein. Alateksti näyttää tekstimuotoisen vastineen valitsemalle arvostelullesi. (esim. "Keskimääräistä parempi" = 3.5 tähteä).
 
-Arviointi lähetetään, kun lähetät lokikirjauksen.
+Arvostelu lähetetään kun lähetät kirjauksen.
+
 ==== Suosikkipiste ====
 {{anchor:favorite_point:}}
 
 {{:en:logging_favorite.png?nolink&400 |}}
 
-Tämä kenttä on näkyvillä vain, jos olet geocaching.com:in premium-jäsen. Tämä valinta antaa suosikkipisteen kätkölle. Sulkeissa oleva arvo on käyttäjätililläsi saatavilla olevien suosikkipisteiden määrä.
+Tämä kenttä näytetään vain, jos olet geocaching.comin premiumjäsen. Valitsemalla laatikon, annat kätkölle suosikkipisteen kirjauksen lähetyksen yhteydessä. Sulkeissa oleva arvo näyttää käytettävissäsi olevat suosikkipisteet.
+
 ==== Twitter ====
 {{anchor:twitter:}}
 
 {{:en:logging_twitter.png?nolink&400 |}}
 
-Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:settings#social_media|asetuksissa]], tämä kenttä näytetään. Jos valitset tämän valinnan, niin c:geo lähettää twiittauksen logikirjauksen lähetyksen yhteydessä.
+Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:settings#social_media|asetuksissa]], tämä kenttä näytetään. Jos valitset laatikon, niin c:geo lähettää twiitin kirjauksen lähetyksen yhteydessä.
 
 ==== Kuvat ====
 {{anchor:attach_image:}}
@@ -101,38 +101,39 @@ Jos olet yhdistänyt c:geon [[https://twitter.com|Twitteriin]] [[.mainmenu:setti
 
 {{ :en:logging_images.png?nolink&400 |}}
 
-Napauttamalla tämän osion kuvakkeita voit lisätä nopeasti kuvia lokikirjaukseesi nopeasti.
+Voit lisätä kuvia kirjaukseen nopeasti napauttamalla tämän osion kuvakkeita.
 
-  * {{:ic_menu_image_multi.svg?nolink&30|}} avaa tiedoston valitsimen, jotta voit valita olemassa olevan kuvan laitteestasi
-  * {{:ic_menu_camera.svg?nolink&30|}} avaa kameran laitteessasi, jotta voit ottaa kuvan
+  * {{:ic_menu_image_multi.svg?nolink&30|}} avaa tiedoston valinnan, jolla voit valita laitteestasi olemassa olevan kuvan
+  * {{:ic_menu_camera.svg?nolink&30|}} avaa laitteesi kameran kuvan ottamista varten
 
-Vaihtoehtoisesti voit käyttää otsikkopalkin valikon toimintoa ''Liitä kuva'' lisätäksesi kuvan käyttäen edistynyttä valikkoa, jossa voit myös lisätä kuvatekstin, kuvauksen ja valita kuvan skaalauksen kuvan lisäyksen yhteydessä (katso seuraava kappale).
+Vaihtoehtoisesti voit käyttää yläpalkin valintaa ''Liitä kuva'' lisätäksesi kuvan käyttäen lisävalintoja, jossa voit myös määritellä kuvatekstin, kuvauksen ja valita skaalauksen kuvan lisäyksen yhteydessä (katso seuraava kappale).
 
-Kuvan lisäyksen jälkeen näytetään kuvat-osiossa esikatselukuva. Voit käyttää {{:ic_menu_delete.svg?nolink&30|}} poistaaksesi liitetyn kuvan ja -jos kirjaukseen on liitetty useampi kuva - käyttää {{:ic_menu_reorder.svg?nolink&30|}} vaihtaaksesi kuvien järjestystä vetämällä ja pudottamalla niitä.
+Kuvan lisäyksen jälkeen esikatselu näytetään kuvaosiossa. Voit käyttää painiketta {{:ic_menu_delete.svg?nolink&30|}} poistaaksesi lisätyn kuvan ja -jos useita kuvia on liitetty - käyttää {{:ic_menu_reorder.svg?nolink&30|}}-säädintä vaihtaaksesi järjestystä vetämällä ja pudottamalla niitä.
 
-Muokataksesi kuvan tietoja, klikkaa niitä avataksesi yksityiskohtanäkymän, jossa voit muokata kuvatekstiä, kuvausta ja skaalausta (katso seuraava kappale).
+Muokataksesi kuvan tietoja, napauta niitä avataksesi tietoikkunan, missä voit muokata kuvatekstiä, kuvausta ja skaalausta (katso seuraava kappale).
 
-=== Kuvien muokkaus ===
+=== Muokkaa kuvan tietoja ===
 
-[[logging#top_bar_menu|Yläpalkin valikon]] kautta löytyvä ''Liitä kuva'' avaa uuden näytön, jossa voit liittää kuvan kirjaukseesi. Voit avata tämän näkymän myös napauttamalla jo liitettyjä kuvia napauttamalla niiden esikatselukuvaa kirjausnäytössä.
+Valitsemalla valikon kohdan ''Liitä kuva'' [[logging#top_bar_menu|yläpalkista]] avautuu uusi näkymä, jossa voit liittää kuvan kirjaukseesi. Pääset tähän näkymään myös kirjausnäkymässä jo liitettyjen kuvien esikatselua napauttamalla.
 
 {{ :en:logging_attachimage.png?nolink&400 |}}
 
-Valitsemalla ''Selaa...'' avautuu tiedostoselain, josta voit valita olemassa olevan kuvan galleriastasi. Valitsemalla ''Uusi'' kamera avautuu, jolla voit ottaa uuden kuvan (samat kuin pikakuvakkeet, jotka selostettiin edellisessä kappaleessa).
+Valitsemalla ''Selaa...'' avautuu tiedoston valinta jossa voit valita galleriastasi jo olemassa olevan kuvan. Valitsemalla ''Uusi'' avautuu kamera (myös edellisessä osiossa selostetut pikakuvakkeet toimivat näin).
 
-Tämän jälkeen voit kirjoittaa kuvatekstin ja kuvauksen kuvalle, jotka liitetään kätkökirjaukseesi liitettävään kuvaan.
-Voit myös (valinnaisesti) skaalata alaspäin kuvaasi eri pikselikokoihin, jotta voit vähentää lähetettävän datan määrää, kun kuva lähetetään lokikirjauksesi yhteydessä.
+Jälkeenpäin voit kirjoittaa kuvatekstin ja asettaa kuvauksen, joka lisätään kätkökirjauksesi kuvaan.
+Voit myös (valinnaisesti) skaalata kuvaasi pienemmäksi eri pikselikokoihin, jotta voit vähentää datan määrää, joka kuluu kun kirjauksesi kuvan kanssa lähetetään palveluun.
 
-===== Tavaraluettelo =====
+==== Tavaraluettelo ====
 {{anchor:inventory:}}
 
 {{:en:logging_inventory.png?nolink&300 |}}{{ :en:logging_inventory_2.png?nolink&300 |}}
 
-Tämä osio listaa kaikki tällä hetkellä hallussasi olevat matkaajat. Se näyttää jokaisen matkaajan kohdalla matkaajan tyypin, (esim. Travel Bug, Geokrety), seurantakoodin sekä matkaajien nimet. Voit napauttaa matkaajan nimeä nähdäksesi kyseisen [[trackabledetails|matkaajan tiedot]]. Jokaisen matkaajan oikealla puolella on valikko, josta voit valita mitä kyseiselle matkaajalle tehdään kätköön liittyen:
+Tämä osio listaa kaikki matkaajat, jotka ovat tällä hetkellä hallussasi. Se näyttää matkaajan tyypin kuvakkeen (kuten Travelbug, Geokrety), seurantakoodin ja matkaajien nimen. Voit napauttaa mitä tahansa niistä nähdäksesi  [[trackabledetails|matkaajan tiedot]].
+Käyttämällä pudotusvalikkoa oikealla puolella, voit valita toiminnon, jonka haluat tehdä tällä kätköllä sille matkaajalle:
 
 ^ Valinta ^ Selite ^
-|Ei toimintoa|Älä tee mitään matkaajalle kun loki lähetetään kätkösivulle.|
-|Vieraili|Merkitse matkaajan vierailu tälle kätkölle kun loki lähetetään kätkösivulle.|
-|Jätetty paikalle|Matkaaja tiputetaan kätköön kun loki lähetetään kätkösivulle.|
+|Ei toimintoa|Älä tee mitään tämän matkaajan suhteen kun lähetät kirjauksen kätkölle.|
+|Vieraili|Tämä matkaaja merkataan tässä kätkössä vierailluksi kun lähetät kirjauksen kätkölle.|
+|Jätetty paikalle|Tämä matkaaja pudotetaan tähän kätköön kun lähetät kirjauksen kätkölle.|
 
-Tavaraluettelon alapuolella on nappi ''Muuta kaikki'', josta voit valita kaikille hallussasi oleville matkaajille saman toiminnon yhdellä kertaa.
+Tavaraluettelon alla on nappi ''Muuta kaikki'', josta voit valita kerralla yhden toiminnon kaikille luettelossa oleville matkaajille.

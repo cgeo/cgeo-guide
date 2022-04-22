@@ -1,7 +1,3 @@
-**FIXME**
-
-
-
 ====== Matkaajan tiedot ======
 
 Matkaajan tietosivut näyttävät kaikki tiedot tietystä matkaajasta. Matkaajan tietosivun voi aukaista napauttamalla matkaajaa [[cachedetails|kätkön tietojen]] tavaraluettelossa, [[logging#inventory|kirjausnäkymän]] tavaraluettelossa tai suorittamalla [[.mainmenu:search|haun]] julkisella tai salaisella matkaajan seurantakoodilla.
@@ -31,7 +27,7 @@ Kun valikon valinta on näytetty kuvakkeena, voit painaa sitä pitkään nähdä
 </WRAP>
 
 ^ Kuvake ^ Toiminto ^ Selite ^
-|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Lokkaa]]|Kirjaa loki tälle matkaajalle.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|[[loggingtb|Kirjaa kosketus]]|Kirjaa loki tälle matkaajalle.|
 |{{ :ic_menu_info_details.svg?nolink&40 |}}|Avaa selaimessa|Avaa matkaajaan liittyvän geokätköilysivuston sivun oletusselaimessa.|
 |{{ :ic_menu_refresh.svg?nolink&40 |}}|Päivitä|Päivittää uusimmat tiedot palvelimelta kaikille välilehdille.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Kolmen pisteen menu|Napauttamalla tästä esille tulee toimintomenu, joka sisältää toiminnot, jotka eivät ole sopinut laitteesi yläpalkkiin, ja on siirretty tähän listaan. Kaikki toiminnot tässä menulistassa esitellään tässä taulukossa.|
