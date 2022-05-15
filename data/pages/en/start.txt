@@ -42,7 +42,7 @@ c:geo is only a client application for geocaching and is not associated with any
 
   * [[cachedetails|Geocache details]] - View geocache details
   * [[Logging|Logging of Geocaches]] - Log your geocache finds
-
+  * [[cachevariables|Cache Variables]] - Using variables for cache related calculations
 ==== Trackables ====
 {{anchor:trackables:}}
 

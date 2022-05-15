@@ -21,6 +21,7 @@
       * [[start#geocaches|Geocaches]]
         * [[cachedetails|Geocache Details]]
         * [[logging|Logging of Geocaches]]
+        * [[cachevariables|Cache Variables]]
       * [[start#trackables|Trackables]]
         * [[trackabledetails|Trackable Details]]
         * [[loggingtb|Logging of Trackables]]

@@ -1,61 +1,3 @@
-1619088253	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Maintenance] First translation to French		272
-1619093764	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Logging] Translation to French		0
-1619094849	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] First translation to French		191
-1619096602	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other logging options] First translation to French		292
-1619099587	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Placeholder Templates] First translation to French		196
-1619099762	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Réseaux sociaux] Improve translation		-4
-1619103806	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Map lines customization] Fist translation to French		434
-1619124381	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		2
-1619124575	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Mapsforge API]		-363
-1619125094	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	Remove Fixme as the page is fully translated to French		-159
-1619125537	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Other map settings] First translation to French		332
-1619125724	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Add missing parameter		148
-1619125748	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:settings	ijeantet	[Personnalisation des traits de la carte] Fix typo		-1
-1619132274	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Données cartographiques] Add missing parameters		433
-1619173405	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:settings	ijeantet	[Signature] Fix typo		1
-1619174219	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	C	fr:mainmenu:lists	ijeantet	[Stored caches] Begin French translation		17592
-1619174330	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:mainmenu:search	ijeantet	Fix typo		-4
-1619174579	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:cacheicons	ijeantet	Add c:geo cache type		124
-1619174620	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	e	fr:cacheicons	ijeantet	Fix typo		1
-1619333559	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Cache list] First translation to French		391
-1619336828	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Load more option] First tranlastion to French		30
-1619338817	2a00:ee2:f012:24e:18bc:5d9f:6a37:2442	E	fr:mainmenu:lists	ijeantet	[Context menu] First translation to French		106
-1619425769	2.202.19.198	E	de:mainmenu:lists	lineflyer	Ersetze Klick durch Tipp		6
-1619452516	2.202.19.198	E	de:notecoords	lineflyer	[Advanced waypoint syntax] 		220
-1619509489	2.202.19.198	E	de:coordformat	lineflyer	Ersetze Klick durch Tipp		1
-1619510144	2.202.19.198	E	de:notecoords	lineflyer	[Backup waypoints in personal note] 		11
-1619526890	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		146
-1619526942	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		46
-1619527108	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		152
-1619528061	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		9
-1619528081	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		-1
-1619528096	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		0
-1619528185	2.202.19.198	E	en:notecoords	lineflyer	[Backup waypoints in personal note] 		51
-1619528421	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		108
-1619528447	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		-1
-1619529052	2.202.19.198	E	de:notecoords	lineflyer	[Wegpunkte in der persönlichen Notiz sichern] 		-21
-1619529418	2.202.19.198	E	de:notecoords	lineflyer	[Erweiterte Wegpunkt-Syntax] 		190
-1619529461	2.202.19.198	E	en:notecoords	lineflyer	[Advanced waypoint syntax] 		5
-1619529485	2.202.19.198	E	de:notecoords	lineflyer	[Erweiterte Wegpunkt-Syntax] 		5
-1620035892	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	zh:sidebar	lineflyer	n		1
-1620805176	2.205.118.53	E	en:mainmenu:settings	lineflyer	[c:geo Settings] 		39
-1620808735	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Map Content] 		-579
-1620808757	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Map Content] Remove navigation items. They are now in Settings - Navigation		-1
-1620808989	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Navigation] 		28
-1620809158	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		1019
-1620809213	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		-112
-1620809231	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		-2
-1620809242	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		-1
-1620809276	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		5
-1620809413	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		629
-1620809627	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		399
-1620809691	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		379
-1620815101	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Navigation] 		2350
-1620815133	2.205.118.53	E	en:mainmenu:settings	lineflyer	[Offline-Routing] 		0
-1620815189	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Navigationswerkzeuge] 		3
-1620815278	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Karteninhalt] 		-665
-1620815858	2.205.118.53	E	de:mainmenu:settings	lineflyer	[Offline-Routing] 		442
-1620815977	2.205.118.53	E	de:mainmenu:settings	lineflyer	[c:geo Einstellungen] 		10
 1621375201	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] fixed typo		1
 1621377260	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:cachedetails	murggel	[Persönliche Notiz] fix typo		1
 1621546141	2a00:1e:9640:fc:11d4:e0d5:a3ef:c983	E	de:mainmenu:livemap	lineflyer	[Oberer Bereich] 		-105
@@ -1390,3 +1332,35 @@
 1650621970	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Add caption for attribute table itself		83
 1650622730	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	en:attributes	lineflyer	Change text order		1
 1650623013	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	de:attributes	lineflyer	Farbkategorien für Attribute		355
+1652519719	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	en:start	lineflyer	[Geocaches] Add link to cache variables		88
+1652519730	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	en:start	lineflyer	[Geocaches] 		-1
+1652519767	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	en:sidebar	lineflyer	Add cache variables page to sidebar		46
+1652519782	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	en:sidebar	lineflyer	typo		-1
+1652519815	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	en:cachevariables	lineflyer	Remove FIXMEs		-198
+1652520190	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	C	de:cachevariables	lineflyer	angelegt		15440
+1652520862	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	Übersetzung Kontrollbereich		213
+1652520897	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Variablenbereich] 		-1
+1652521197	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Formula syntax] 		-41
+1652521465	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Value types] 		38
+1652521498	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Wertetypen] 		12
+1652521559	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Numeric operators] 		12
+1652521573	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Typen von Variablen] 		-2
+1652521649	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Numerische Operatoren] 		-35
+1652522224	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Relational operators and conditions] 		158
+1652522255	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	en:cachevariables	lineflyer	Fix wrong example (if cascade)		-1
+1652522372	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Vergleichende Operatoren und Bedingungen] 		-23
+1652522404	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	en:cachevariables	lineflyer	[Functions] Table header typo		1
+1652522569	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Functions] 		102
+1652522830	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Funktionen] 		46
+1652522856	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Typen von Variablen] 		36
+1652523099	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Funktionen] 		49
+1652524176	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Variables] 		274
+1652524266	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Concatenations] 		155
+1652524581	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Verkettungen] 		-118
+1652524802	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Overflow character] 		-2
+1652524955	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:start	lineflyer	[Geocaches] 		95
+1652524973	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:sidebar	lineflyer	Cachevariablen verlinkt		45
+1652525830	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Range expressions] 		89
+1652526387	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Ausdrücke für Wertebereiche] 		66
+1652526531	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Comments] 		19
+1652526560	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	de:cachevariables	lineflyer	Fixme entfernt		-179

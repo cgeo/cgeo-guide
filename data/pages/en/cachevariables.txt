@@ -1,7 +1,3 @@
-**FIXME** This will be used to describe the new tab on cache details used for cache variables.
-
-**FIXME** We could add a chapter with some practical How-To examples (e.g. typical lettervalue case)
-
 ====== Cache Variables ======
 
 ===== Introduction =====
@@ -112,7 +108,7 @@ This means, that if the function was given 5 parameters then:
 * Else if the third parameter is true, then the fourth parameter is returned
 * Else the fifth parameter is returned
 
-For example ''if(A==5;50;A==4;40;30)'' will evaluate to ''50'' if ''A=50'', to ''40'' if ''A=4'' and to ''30'' for any other value of ''A''.
+For example ''if(A==5;50;A==4;40;30)'' will evaluate to ''50'' if ''A=5'', to ''40'' if ''A=4'' and to ''30'' for any other value of ''A''.
 
 ^ Operator ^ Meaning ^ Example ^
 |''==''| Checks for equality | ''2==2'' evaluates to ''1''(=true)|
@@ -130,7 +126,7 @@ An example for a one-parameter function call is ''sin(90)''. An example for a tw
 
 The following functions are defined:
 
-^ Function ^ Synonyms ^ Description ^ Parameter1 ^ Parameter 2 ^ Example ^
+^ Function ^ Synonyms ^ Description ^ Parameter 1 ^ Parameter 2 ^ Example ^
 |''sqrt''|-|calculates square root of given parameter|numeric parameter| - |''sqrt(9)'' evaluates to ''3''|
 |''sin''/''cos''/''tan'' |-| calculates sinus/cosinus/tangens of given parameter | numeric parameter in degree(!)| - | ''sin(90)'' evaluates to ''1''|
 |''abs''|-| calculates absolute value | numeric parameter | - | ''abs(-34)'' evaluates to ''34''|
