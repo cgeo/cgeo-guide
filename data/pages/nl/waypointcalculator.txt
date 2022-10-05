@@ -1,0 +1,163 @@
+**FIXME** Deze pagina zal binnenkort worden aangepast, omdat wij een hele nieuwe calculator gaan implementeren
+===== Waypoint Calculator =====
+{{anchor:waypoint_calculator}}
+
+{{:en:coordinput_calculator.png?nolink&300 |}} 
+
+c:geo biedt een calculator voor waypoints aan die het mogelijk maakt om gebruik te maken van variabelen en formules om zo de coördinaten te berekenen.
+
+Wanneer je drukt op ''Coördinaten bereken'' in het [[coordinatedialog#waypoint_sources|coördinaten invoer scherm]] zal dit scherm worden getoond.
+
+De {{:ic_menu_cancel.svg?nolink&30|}} knop zal het scherm sluiten zonder aanpassingen. De {{:ic_menu_done.svg?nolink&30|}} zal het scherm sluiten, de wijzigingen opslaan en terug gaan naar de waypoint bewerker.
+
+<WRAP center round tip 60%>
+Je kunt de calculator ook gebruiken om je trip voor te bereiden door de benodigde variabelen en formules in te voeren, maar nog geen waarden voor je variabelen in te voeren.\\
+
+Dit zal natuurlijk nog geen geldig resultaat opleveren, maar je kunt de huidige status op elk moment opslaan door je wijzigingen in de calculator op te slaan en daarna de status van het waypoint te bewaren.
+</WRAP>
+
+Als je op het eerste veld klikt, wordt een vervolgkeuzemenu geopend waarin je kunt wisselen tussen verschillende coördinaatformaten, zoals [[coordinatedialog#coordinate_format|hier]] uitgelegd . Alle verdere functies worden hieronder uitgelegd.
+
+Ter verduidelijking gebruiken we een voorbeeld hoe de calculator kan worden gebruikt.
+
+
+==== Hoofd variabele toewijzing ====
+{{anchor:main_variable_assignment}}
+
+{{ :en:calculator_coordinates.png?nolink&400 |}}
+
+Standaard toont deze sectie de cachecoördinaten als een startpunt voor het toewijzen van je variabelen.
+
+Door __kort te drukken__ op ieder cijfer kun je schakelen tussen de volgende functies voor dit specifieke karakter:
+
+  * **Assigning a variable to this digit**\\ Zal de volgende ongebruikte variabele (A-Z) aan dit cijfer toewijzen.
+  * **Dit cijfer weglaten**\\ Verwijdert dit cijfer volledig uit de berekening. Hierdoor kunnen oplossingen met meer dan één cijfer in de naburige variabelen worden gebruikt.
+  * **Keer terug naar de originele staat **\\ Zal de oorspronkelijke waarde opnieuw tonen.
+
+Verder kunt je  __lang drukken__  om cijfer te  gebruiken en handmatig een cijfer of variabele in te voeren.
+
+Het resultaat zou er als volgt uit kunnen zien:
+
+{{ :en:calculator_result_coord.png?nolink&400 |}}
+
+==== Hoofd variable invoer ====
+{{anchor:main_variable_input}}
+
+<WRAP center round important 100%>
+Voor de hoofdvariabelen moet je altijd HOOFDLETTERS gebruiken (A-Z), terwijl je voor de subvariabelen (verderop beschreven) altijd kleine letters (a-z) moet gebruiken!
+</WRAP>
+
+Het gedeelte onder het coördinaatveld toont velden voor alle hoofdvariabelen die je in het coördinaatveld hebt toegewezen. In ons voorbeeld zal dit er zo uitzien omdat we vier hoofdvariabelen (A, B, C, D) hebben toegewezen:
+
+{{ :en:calculator_main.png?nolink&400 |}}
+
+Je kunt deze velden nu gebruiken om een formule toe te wijzen met behulp van subvariabelen (kleine letters a-z) om het resultaat voor de hoofdvariabelen te berekenen.
+
+De volgende operators worden ondersteund in deze formules:
+
+^ Operator ^ Functie ^ Voorbeeld^
+|+|Optellen|a+b|
+|-|Aftrekken|a-b|
+|*|Vermenigvuldigen|a*b|
+|/|Delen|a/b|
+|%%^%%|Machtsverheffen|a%%^%%b|
+|%|Modulo|a%10|
+|( )|Haakjes|(a+b)*c|
+
+In ons voorbeeld gebruiken we de volgende formules voor de hoofdvariabelen (zoals bijvoorbeeld door de cache-eigenaar in de cachebeschrijving) om door te gaan:
+
+{{ :en:calculator_main_formulas.png?nolink&400 |}}
+
+==== Sub variabelen toewijzing ====
+{{anchor:sub_variable_assignment}}
+
+<WRAP center round important 100%>
+Voor de subvariabelen moet je altijd kleine letters gebruiken (a-z), terwijl je voor de hoofdvariabelen (zoals hierboven beschreven) altijd HOOFDLETTERS (A-Z) moet gebruiken!
+</WRAP>
+
+Nadat formules zijn toegewezen aan de hoofdvariabelen, wordt automatisch een invoerveld toegevoegd voor elke subvariabele (kleine letters a-z) die in deze formules wordt gebruikt.
+
+Deze invoervelden kunnen nu worden gebruikt om numerieke waarden in te voeren, die vervolgens worden gebruikt voor automatische berekening van de resultaatcoördinaten met behulp van de verstrekte formules. 
+Je kunt de rekenmachine status nu op elk moment sluiten en opslaan en terugkeren naar de rekenmachine om de volgende subvariabele-waarde in te voeren zodra je deze hebt gevonden tijdens het uitvoeren van de cache.
+
+<WRAP center round tip 100%>
+Afhankelijk van het aantal hoofd- en subvariabelen moet je de variabele sectie vegen om alle invoervelden te bereiken. \\Je kunt je apparaat ook in de liggende modus draaien om alle variabelen zichtbaar te maken op je scherm.
+</WRAP>
+In ons voorbeeld hebben we nu de waarden voor a, b en c gevonden en dienovereenkomstig ingevoerd:
+
+{{ :en:calculator_sub_complete.png?nolink&400 |}}
+
+==== Resultaat voorspelling ====
+{{anchor:result_prediction}}
+
+Terwijl je de formules voor de hoofdvariabelen en de waarden voor de subvariabelen invoert, wordt het resultaat getoond - on the fly in de resultaten sectie.
+
+Cijfers die nog niet geldig zijn, worden vervangen door ''*'' en grijs weergegeven. 
+Zodra het resultaat geldige coördinaten oplevert, wordt het resultaatveld getoond met alle witte karakters.
+
+In ons voorbeeld wordt een geldig resultaat getoond:
+
+{{ :en:calculator_result_final.png?nolink&400 |}}
+
+==== Reken notities ====
+{{anchor:calculator_notes}}
+
+De laatste sectie in de rekenmachine kan worden gebruikt om notities in te voeren of te plakken, wat handig kan zijn voor bijv. het kopiëren van delen van de cache-beschrijving met de benodigde berekeningen om de cache te vinden.
+
+De inhoud van de reken notities wordt gesynchroniseerd met de notitie van het waypoint dat is gebruikt om te berekenen.
+==== Gebruik van het platte coördinaten formaat ====
+{{anchor:using_plain_coordinate_format}}
+
+Het invoeren van coördinaten of coördinaatformules in // platte// -modus werkt compleet anders dan de vaste formaten. In plaats van een klikbaar veld voor elk cijfer, zijn er twee vrije tekstvelden om het breedte- en lengtegraadgedeelte van een coördinaat in te voeren.
+Een enkel cijfer of een groep cijfers kan worden vervangen door een formule omringd met haakjes. De variabelen die in de formules worden gebruikt, moeten uit enkele HOOFDLETTERS bestaan.
+
+Cache-lijsten bieden vaak hun waypoint-coördinaten al in dit verwachte formaat. Daarom is de gewone modus het meest geschikt wanneer coördinaten moeten worden overgenomen "zoals ze zijn" uit de cache.
+
+{{ :en:copy_waypoint_formulas.png?nolink&445 |}}
+
+De gewone modus werkt het beste met coördinaten in [[coordformat|MinDeg format]] ''DDD° MM.MMM'''.
+
+Als je de modus Plat wilt openen, wijzig je het 'Coördinatenformaat' in '' Plat''.
+
+Neem het voorbeeld in de bovenstaande schermafbeelding en kopieer de breedtegraad (N/Z) -gedeelte van de coördinaat naar het eerste invoerveld en het lengtegraad gedeelte (O/W) naar het tweede. Als de coördinaat formules met variabelen bevat, verschijnen de overeenkomstige variabele invoervelden hieronder.
+
+{{ :en:variable_input_fields.png?nolink&400 |}}
+
+De formules van de schermafbeelding produceren invoervelden voor I, K, L, M en N.
+Je kunt de variabele velden met waarden op dezelfde manier vullen als met de vaste formaten die in de vorige secties zijn beschreven.
+
+Zodra de invoer voor alle variabele velden is voltooid, wordt de resultaatvoorspelling meestal wit en wordt het berekende coördinaat weergegeven.
+
+{{ :en:result_prediction_ok.png?nolink&400 |}}
+
+In sommige gevallen blijft het resultaatveld grijs omdat de coördinatenparser de initiële coördinaatinvoer niet correct kon interpreteren. In de onderstaande schermafbeelding is er een misplaatste SPATIE tussen twee cijfers van dezelfde groep die de coördinaten-parser verwart.
+
+{{ :en:result_prediction_fail.png?nolink&400 |}}
+
+Typische problemen met coördinaten gekopieerd van lijsten zijn:
+  * Variabelen in kleine letters; variabelen moeten bestaan uit hoofdletters
+  * Spatie tussen cijfers binnen een groep ''N45° 5.(K) (I/N)(K+L+M+N)''
+  * Spatie voor het graadteken        ''N45 ° 5.(K)(I/N)(K+L+M+N)''
+  * Spatie voor de decimale punt      ''N45° 5 .(K)(I/N)(K+L+M+N)''
+  * Spatie na de decimale punt        ''N45° 5. (K)(I/N)(K+L+M+N)''
+  * Verkeerd minteken: er zijn er veel [[https://nl.wikipedia.org/wiki/Gedachtestreepje|verschillende streepjes tekens]] - alleen het standaard koppelteken / minteken ('' - '') wordt geaccepteerd.
+  * Verkeerd vermenigvuldigingsteken: soms wordt een '' x '' of een punt ('' · '') genomen als vermenigvuldigingsteken in plaats van een asterisk ('' * '')
+  * Verkeerd delingsteken: soms wordt een dubbele punt ('': '') genomen als deelteken in plaats van een schuine streep ('' / '')
+  * Geneste vierkante haakjes: ''N45° 5.[[X+Y]*10]''
+
+Net als bij de andere formaten hierboven kan de rekenstatus op elk moment worden opgeslagen.
+
+===== Meer informatie =====
+{{anchor:further_information}}
+
+De maker van de calculator, publiceerde enkele video's met voorbeelden voor het gebruik van de calculator::
+
+{{youtube>eN2y5mvJul4?medium}}
+
+{{youtube>NlW2BfF-tu0?medium}}
+
+{{youtube>F-ZNAKbLCJ0?medium}}
+
+{{youtube>6_BALG5192A?medium}}
+
+

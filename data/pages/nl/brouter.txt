@@ -1,71 +1,52 @@
-====== BRouter gebruiken met c:geo ======
+====== Gerouteerde navigatie gebruiken in c:geo ======
 
 {{:helper_brouter.png?nolink&100 |}}
 
-BRouter is een kleine app voor Android dat genavigeerde routes aanbiedt welke offline zijn gecalculeerd tussen twee coördinaten, gebaseerd op [[https://openstreetmap.org|OpenStreetMap]] data.
+BRouter is een routeringsengine die is geïntegreerd in c:geo.
+Het biedt genavigeerde routes, die offline worden berekend, tussen twee coördinaten op basis van [[https://openstreetmap.org|OpenStreetMap]]-gegevens.
 
-Als Brouter is geïnstalleerd en is geconfigureerd op je apparaat zal c:geo deze gebruiken en in plaats van de normale rechte lijn op een kaart  een gerouteerfe lijn tonen tussen je positie en het doel (bijv. een cache of een waypoint). Zoals je kunt zien in de onderstaande afbeelding.
+Als de [[.:mainmenu:settings#navigation|routing function]] is geactiveerd, kan c:geo deze gebruiken om de normale rechte lijn op de kaart tussen je positie en het navigatiedoel (d.w.z. een cache of een waypoint) te vervangen door een gerouteerde lijn zoals je kunt zien in de onderstaande voorbeeldvergelijking.
 
 ^ Navigatie zonder BRouter ^ Navigatie met BRouter ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
 De route kan worden geconfigureerd om geschikt te zijn voor wandelen, fietsen of auto volgens je behoeften en zal helpen om je weg naar de bestemming te vinden. Daarnaast kun je deze routering ook gebruiken om individuele routes te maken met verschillende waypoints achter elkaar om je caching-reis te plannen.
 
-===== Installeren en configureren van BRouter =====
+===== Routering activeren =====
 
-Je kunt BRouter downloaden en installeren via [[https://play.google.com/store/apps/details?id=btools.routingapp|Google Play]] of rechtstreeks vanaf hun [[https://brouter.de/ brouter/offline.html|website]].
+Je kunt de interne routeringsfunctie activeren en verdere instellingen definiëren (zoals opslagmap voor routeringsbestanden, automatisch downloaden) in [[.:mainmenu:settings#navigation|dec:geo routering/navigatie instellingen]].
 
-Nadat Brouter is geïnstalleerd, moet je route-informatie downloaden voor het gewenste geografische gebied zodat BRouter offline routes kan berekenen. Zonder deze gedownloade routeringsinformatie zal BRouter niet werken (geen online routering ondersteund).
-Om de benodigde routeringsinformatie te downloaden, start je de BRouter-app en selecteer je '' Download Manager '' zoals hieronder weergegeven. De functie '' Brouter App '' is niet nodig voor c: geo.
+Nadat routering is geactiveerd en automatisch downloaden actief is, wordt de routeringsinformatie voor het gewenste geografische gebied automatisch gedownload wanneer de routeringsfunctie voor de eerste keer wordt aangeroepen.
 
-{{ :en:brouter_configure1.png?direct&400 |}}
-
-BRouter zal je informeren dat het een grotere hoeveelheid gegevens moet downloaden (afhankelijk van de grootte van het geografische gebied waarvoor je routeringsinformatie wilt downloaden). Zorg ervoor dat je geen gemeten netwerk gebruikt of voldoende quota heeft voordat je doorgaat door '' I know'' te selecteren.
-
-{{ :en:brouter_configure2.png?direct&400 |}}
-
-Brouter toont nu een wereldkaart en je moet het gebied aanraken waarvoor je routegegevens wilt downloaden om in te zoomen en het raster van de beschikbare routegegevens tegels te zien. 
-
-{{ :en:brouter_configure3.png?direct&400 |}}
-
-
-Nadat je hebt ingezoomd, kun je de tegels (wordt groen gemarkeerd) van de gewenste geografische zone (s) selecteren en ''Start Download'' selecteren om het downloaden van routegegevens voor dit gebied te starten.
-
-{{ :en:brouter_configure4.png?direct&400 |}}
-
-<WRAP center round info 100%>
-De downloadsnelheid is met BRouter beperkt tot 4 Mbit / s. Dus afhankelijk van het aantal routeringstegels dat je hebt geselecteerd, duurt de download een poosje. Zorg ervoor dat BRouter op de voorgrond open blijft terwijl het downloaden bezig is.
+<WRAP centrum ronde info 100%>
+De routeringsgegevens van BRouter kunnen enkele honderden megabytes groot zijn.
 </WRAP>
 
-Na een succesvolle download toont de tegelkaart nu de gedownloade tegels in blauw. 
+===== Gebruiken in c:geo ====
 
-{{ :en:brouter_configure6.png?direct&400 |}}
+Zodra je de routering hebt geactiveerd zoals hierboven beschreven, zal c:geo deze automatisch gebruiken. Er is geen configuratie nodig in c:geo, behalve dat je misschien de gebruikte routemodus (Fiets, Lopen, Auto) wilt wijzigen volgens je eigen behoeften.
+Je kunt dit doen in de [[.:mainmenu:livemap#map_quick_settings|snelle kaartinstellingen]].
 
-Je bent nu klaar om te gaan, maar onthoud dat je hier nieuwe tegels moet downloaden als je de navigatiefunctie in andere geografische gebieden wilt gebruiken dan die ke zojuist hebt gedownload. Je kunt ook de bestaande routeringsinformatie van tijd tot tijd bijwerken door de benodigde tegels opnieuw te downloaden met deze downloadmanager.
+De interne BRouter-engine zal worden gebruikt om routes te berekenen voor hoofdzakelijk twee functies, zoals hieronder kort wordt beschreven. Een volledige beschrijving van de kaartnavigatielijnen en hun functies staan in de [[.:mainmenu:livemap#map_navigation|live kaart]] beschrijving van deze gebruikershandleiding.
 
+==== Richtingslijn ====
 
-===== Gebruik in c:geo ====
+Als je navigatie naar een cache/waypoint oproept met behulp van de kaart, zal de richtingslijn tussen je positie en de cache/waypoint nu een gerouteerde lijn gebruiken in plaats van een rechte lijn.
 
-Wanneer je Brouter hebt geïnstalleerd en geconfigureerd zoals hierboven beschreven, zal c:geo het automatisch gaan gebruiken en hoeft er niets in c:geo worden geconfigureerd, behalve de gewenste routering modus (fietse, lopen of auto).Je kunt dit doen in de  [[.:mainmenu:livemap#map_quick_settings|snelle kaartinstellingen]].
-
-Brouter zal worden gebruikt om de route te berekenen voor twee functies zoals hieronder beschreven. Je kunt een complete beschrijving van de kaart navigatie en haar functie lezen in de [[.:mainmenu:livemap#map_navigation|live kaart]] beschrijving van deze handleiding.
-
-==== Richting lijn ====
-
-Als je de navigatie naar een cache / waypoint oproept met behulp van de kaart, gebruikt de richtingslijn tussen je positie en de cache / waypoint nu een gerouteerde lijn in plaats van een rechte lijn.
-
-De afstandsinformatie rechtsboven toont de gerouteerde afstand naast de afstand in een rechte lijn. 
+De afstandsinformatie rechtsboven toont de gerouteerde afstand naast de rechte lijnafstand (indien geactiveerd in [[.:mainmenu:settings#offline_routing|c:geo instellingen]]).
 
 {{ :en:brouter_with.png?direct&400 |}}
+
 ==== Individuele route ====
 
-Om gebruik te maken van de individuele routefunctie, moet je de functie voor lang klikken op de kaart in je [[.:mainmenu:settings#map_behavior|kaart gedrag instellingen]].
+Om gebruik te maken van de individuele routefunctie moet je de lange drukfunctie op de kaart inschakelen in je [[.:mainmenu:settings#map_behavior|kaartgedrag instellingen]].
 
-Vervolgens kun je eenvoudig achter elkaar lang op verschillende caches/waypoints op de kaart klikken om ze de een na de ander met een gerouteerde lijn te verbinden. Deze functie b.v. maakt het plannen van uw caching-trip mogelijk, zoals in het onderstaande voorbeeld wordt getoond.
+Vervolgens kun je eenvoudig achtereenvolgens lang achter elkaar op verschillende caches/waypoints op de kaart drukken om ze de een na de ander met een gerouteerde lijn te verbinden. Deze functie b.v. maakt het plannen van je caching-trip mogelijk, zoals weergegeven in het onderstaande voorbeeld.
 
 {{ :en:brouter_individualroute.png?direct&400 |}}
 
-Om een cache / waypoint uit je route te verwijderen, klik je er gewoon nogmaals lang op. Verder kun je het submenu ''Individuele route'' op je [[en:mainmenu:livemap#top_bar_menu|kaartmenu]] gebruiken om je individuele routes te sorteren, exporteren, importeren of te wissen.
+Om één cache/waypoint van je route te verwijderen, tik je er gewoon nogmaals lang op. Verder kun je het submenu ''Individuele route'' op je [[nl:mainmenu:livemap#top_bar_menu|kaartmenu]] gebruiken om je individuele route te sorteren, exporteren, importeren of wissen.
+
 
 ==== Aanpassingen ====
 

@@ -4,12 +4,24 @@ Deze pagina biedt een overzicht van alle attributen pictogrammen die worden gebr
 De attributen worden gebruikt door een cache-eigenaar om de kenmerken van een cache te beschrijven en worden weergegeven op de [[cachedetails#attributes|cache details]] pagina. 
 
 <WRAP center round tip 100%>
-Je kunt op het kenmerkgedeelte in de cachegegevens klikken om een tekstuele beschrijving te bekijken in plaats van de pictogrammen.
+Je kunt op het kenmerkgedeelte in de cachegegevens drukken om een tekstuele beschrijving te bekijken in plaats van de pictogrammen.
 </WRAP>
+
+Niet alle attributen zijn beschikbaar voor alle geocachingdiensten.
+
+Sommige attributen zijn als volgt gegroepeerd in verschillende kleuren die verschillende categorieën attributen vertegenwoordigen:
+
+^ Kleur ^ Categorie ^
+| Blauw | Afstand/ Duur |
+| Groen| Cache locatie |
+| Grijs | Rondom de cache |
+| Rood | Gereedschap |
+| Bruin | Cache type gerelateerd |
+| Zwart | Rechten |
 
 De meeste pictogrammen kunnen worden genegeerd als ze op deze manier worden doorgehaald: {{:attribute_strikethru.png? Nolink & 20 |}} (bijvoorbeeld '24/7 beschikbaar' zou worden genegeerd als 'Niet 24/7 beschikbaar'). 
 
-Niet alle attributen zijn beschikbaar op alle geocaching-services.
+De volgende tabel bevat alle beschikbare attributen en hun tekstuele beschrijving.
 
 ^ Icoon ^ Omschrijving ^
 |{{:attribute_abandonedbuilding.png?nolink&40 |}}|De geocache ligt in/bij een verlaten gebouw|

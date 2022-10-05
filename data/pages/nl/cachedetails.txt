@@ -5,7 +5,7 @@ Ze kunnen worden geopend door op een cache in een [[.mainmenu:lists|lijst]] te k
 {{ :nl:cachedetails_details2.png?direct&300 |}}
 
 De cachegegevens worden verdeeld over verschillende tabbladen die toegankelijk zijn door van links naar rechts te vegen of omgekeerd. Tenzij je dit hebt gewijzigd in het [[.mainmenu:settings#cache_details|instellingen]] wordt het tabblad met de details altijd eerst geopend. \\
-Op het [[cachedetails#bottom_section|onderste gedeelte]] van elk tabblad zie je de naam van het huidige tabblad en kun je dit ook gebruiken om tussen de tabbladen te navigeren. Het [[cachedetails#top_bar_menu| menu bovenin het scherm]]  is hetzelfde op alle tabbladen.
+Op het onderste gedeelte van elk tabblad zie je de naam van het huidige tabblad en kun je dit ook gebruiken om tussen de tabbladen te navigeren. Het [[cachedetails#top_bar_menu| menu bovenin het scherm]]  is hetzelfde op alle tabbladen.
 
 Je kunt de volledige volgorde van de tabbladen in de onderstaande tabel bekijken. Als je op de afbeeldingen in de tabel klikt, wordt een grotere versie geopend. Als je op de kop klikt, kom je direct in het relevante gedeelte van deze gebruikershandleiding:
 
@@ -30,7 +30,7 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 |{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
 |{{:ic_menu_edit.svg?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
 |{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Toespraak aan/uitzetten|Dit zal de tekst-naar-spraak output van richting en afstand naar het doel aan of uitzetten.\\ Je kunt ook het scherm uitzetten als deze functie is gestart.|
-|Open in Browser||Dit zal de cache of in je browser openen of ( indien geactiveerd) in de [[.:mainmenu:settings#cache-details|cache detail instellingen]]) door middel van een chrome webview binnen c:geo.|
+|Open in Browser||Dit zal de cache of in je browser openen of (indien geactiveerd in de [[.:mainmenu:settings#cache-details|cache detail instellingen]]) door middel van een chrome webview binnen c:geo.|
 |Open Geochecker||Dit zal de geochecker van de cache openen in je internet browser.\\ \\ :!: Deze menu ingang is alleen beschikbaar als de cache omschrijving van de cache een link naar een (bekende) geochecker heeft.|
 |Persoonlijke notitie||Deze functie opent de editor voor de persoonlijke notitie, die ook te vinden is in de  [[cachedetails#description_tab|omschrijving tab]]|
 |Waypoints||Een submenu met de opties met betrekking op de waypoints van deze cache (zie volgend hoofdstuk voor meer uitleg).|
@@ -43,7 +43,7 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 {{ :en:cachedetails_topbar2.png?direct&400 |}}
 
 ^ Functie ^ Omschrijving^
-|Gebruiker gedefinieerde waypoints verwijderen|Verwijdert alle door de gebruiker gedefinieerde waypoints uit de cache.|
+|Gebruiker gedefinieerde waypoints verwijderen|Verwijdert alle door de gebruiker gedefinieerde waypoints uit de cache. \\ Dit menu wordt alleen weergegeven als de cache door de gebruiker gedefinieerde waypoints bevat.|
 |Exporteer Waypoints|Deze functie zal in de cache omschrijving scannen naar geldige coördinaten en hier automatisch een waypoint van maken.\\ Dit kan handig zijn als de cache eigenaar geen waypoints heeft gemaakt en alleen in de omschrijving heeft geplaatst.|
 |Waypoints uit notitie voorkomen / toestaan|Door deze functie te activeren zal c:geo coördinaten gevonden in persoonlijke notities toevoegen als waypoints in de cache.|
 
@@ -64,7 +64,8 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 |Caches rondom|Deze optie start een [[.mainmenu:lists|zoek nabij]] functie om caches in de omgeving van deze cache te tonen.|
 |Stem|Dit zal de [[http://gcvote.com|GCVote]] formulier openen voor deze cache.|
 |Negeer cache|Dit zal de cache op de negeerlijst van de server zetten.\\ \\ :!: Negeren van een cache betekent dat de cache nooit meer wordt geladen van de server. Je kunt deze alleen nog zien als je hem van deze lijst afhaalt op de geocaching website.|
-
+|Toevoegen aan bladwijzerlijst|Zal een menu openen om de gewenste bladwijzerlijst te selecteren (van de geocachingserver) waaraan deze cache dan wordt toegevoegd.|
+|Cache-pictogram instellen|Hiermee kun je een door de gebruiker gedefinieerd pictogram voor deze cache instellen, dat het standaard-cachetype-pictogram vervangt.|
 ===== Details tab =====
 {{anchor:details_tab:}}
 
@@ -94,6 +95,7 @@ This section of the details tab provides information about the cache:
 |Verstopt|De verstopdatum van deze cache.|
 |Locatie|Het land / staat / provincie waar de cache zich bevindt.|
 |Coördinaten|De cache coördinaten.\\ Je kunt hierop drukken om het [[.:coordformat|coordinate formaat]] van de coördinaten aan te passen in andere vormen, die door c:geo worden ondersteund.|
+|Recente logboeken|Zal de logboektypen van de meest recente logboeken voor deze cache visualiseren (nieuwste aan de linkerkant).|
 
 <WRAP center round tip 100%>
 Door lang te drukken op een aantal van de hierboven genoemde velden kun je de informatie naar je klembord kopiëren en delen.
@@ -167,11 +169,11 @@ Door te drukken op ''Waypoint toevoegen'' zal de [[cachedetails#waypoint_editor|
 Waypoints kunnen verschillende typen bevatten, zoals hieronder wordt beschreven:
 
 ^ Icoon ^ Naam ^ Omschrijving ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parkeergelegenheid|Coördinaten met betrekking tot deze cache waar geparkeerd kan worden.|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Te beantwoorden vraag|Een waypoint voor een cache, waar geen fysiek stadium van een cache is verstopt, maar typisch moet hier een vraag worden beantwoord, die in de omschrijving van het waypoint kan worden getoond.|
-|{{ :waypoint_stage.png?nolink&40 |}}|Multicache-punt|Een waypoint van een cache, waar fysiek iets is verstopt met meer informatie om de cache op te lossen.|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Trailhead|De coördinaten van dit waypoint geven een begeleiding voor het pad dat gebruikt moet worden om de cache of een volgend waypoint te bereiken.|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Referentie punt|Een generiek referenctie punt dat voor verschillende doeleinden kan worden gebruikt.|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parkeergelegenheid|Coördinaten met betrekking tot deze cache waar geparkeerd kan worden.|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Te beantwoorden vraag|Een waypoint voor een cache, waar geen fysiek stadium van een cache is verstopt, maar typisch moet hier een vraag worden beantwoord, die in de omschrijving van het waypoint kan worden getoond.|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Multicache-punt|Een waypoint van een cache, waar fysiek iets is verstopt met meer informatie om de cache op te lossen.|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|De coördinaten van dit waypoint geven een begeleiding voor het pad dat gebruikt moet worden om de cache of een volgend waypoint te bereiken.|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Referentie punt|Een generiek referenctie punt dat voor verschillende doeleinden kan worden gebruikt.|
 |{{ :waypoint_flag.png?nolink&40 |}}|Eindbestemming|De locatie van de uiteindelijke cache container.|
 
 ==== Waypoint berwerker====
@@ -192,7 +194,7 @@ De volgende tabel geeft een beschrijving van de invoervelden van de waypoint bew
 ==== Waypoint context menu ====
 {{anchor:waypoint_context_menu:}}
 
-{{:nl:details_waypoint_context.png?direct&300 |}}
+{{:en:details_waypoint_context.png?direct&300 |}}
 Een lange druk op een waypoint opent dit contextmenu en biedt je de volgende opties voor dit waypoint:
 
 ^ Optie ^ Omschrijving ^ 
@@ -201,6 +203,7 @@ Een lange druk op een waypoint opent dit contextmenu en biedt je de volgende opt
 |Coördinaten kopiëren|Kopieer de coördinaten van het waypoint naar het klembord.|
 |Coördinaten wissen|Verwijder de coördinaten van dit waypoint.\\ Deze optie is alleen beschikbaar voor aangepaste waypoints.|
 |Dubbel Waypoint|Maakt een nieuw waypoint met alle informatie van het bestaande waypoint.\\ Deze optie is handig om een door de server geleverd waypoint te klonen om dit nadien te bewerken.|
+|Kopieer waypoint naar klembord|Kopieert de coördinaten van dit waypoint naar het systeemklembord.|
 |Verwijderen|Verwijdert dit waypoint.\\ Deze optie is alleen beschikbaar voor aangepaste waypoints.|
 |Kompas|Start de kompas navigatie voor de coördinaten van dit waypoint.|
 |Navigeer|Opent de volledige lijst met naviagatie opties voor dit waypoint.|

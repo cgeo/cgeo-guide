@@ -1,0 +1,155 @@
+====== Inlogproblemen ======
+
+Als c:geo niet kan inloggen op de geocaching-server, wordt er een waarschuwing weergegeven op het hoofdscherm:
+
+{{ :en:loginproblems_1.png?direct&400 |}}
+
+Deze pagina biedt enkele controles die je moet doen om de reden voor het inlogprobleem te achterhalen. Volg de onderstaande stappen om de oorzaak van het probleem te vinden en je weer op weg te helpen.
+
+<WRAP center round info 100%>
+Volg alsjeblieft alle onderstaande stappen voordat je contact opneemt met ons [[mailto:support@cgeo.org|support team]].
+</WRAP>
+
+
+===== 1. Controleer beschikbare updates =====
+
+Soms hebben wijzigingen op de geocaching-server ook een aanpassing aan c:geo-kant nodig. Verouderde c:geo-versies kunnen mogelijk niet langer inloggen of hebben andere problemen.
+
+
+<WRAP centrum ronde todo 100%>
+Controleer daarom eerst of er een update van c:geo beschikbaar is en update de app indien van toepassing.
+</WRAP>
+
+
+
+
+===== 2. Controleer de geocachingwebsite =====
+
+Het is ook mogelijk dat de geocaching-service zelf een storing heeft en dat c:geo er daarom geen verbinding mee maken. 
+Controleer of je de website van je geocachingdienst kunt bereiken via een webbrowser en of je op hun website kunt inloggen.
+Voor geocaching.com kun je ook op hun [[https://status.geocaching.com|statuspagina]] kijken of er aan hun kant bekende problemen zijn.
+
+<WRAP centrum ronde todo 100%>
+Als er geen geocachingserver beschikbaar is, moet je wachten tot deze weer beschikbaar is om verbinding te maken met c:geo.
+</WRAP>
+===== 3. Controleer de internetverbinding =====
+
+Als je hebt geüpdatet naar de nieuwste c:geo-versie of al de nieuwste versie gebruikt en het probleem blijft bestaan, zorg er dan voor dat je een werkende netwerkverbinding hebt. 
+C:geo kan niet inloggen zonder internetverbinding. Ook het gebruik van sommige antivirus- of firewall-apps kan het internetverkeer voor sommige apps blokkeren.
+
+<WRAP centrum ronde todo 100%>
+Herstel de internettoegang en start c: geo opnieuw om een nieuwe login te activeren.
+</WRAP>
+
+
+===== 4. Controleer authenticatiegegevens =====
+
+Als je met succes je internetverbinding hebt gecontroleerd en het probleem in c:geo blijft bestaan, moet je de authenticatiegegevens controleren die je in c:geo hebt opgeslagen.
+
+<WRAP center round todo 100%>
+Als je bijv. onlangs het wachtwoord op de geocachingwebsite hebt gewijzigd, moet je deze wijziging ook toepassen in c:geo om opnieuw in te kunnen loggen.
+</WRAP>
+
+
+Om je authenticatie te controleren, tik je op het berichtvenster "Niet ingelogd..." weergegeven op het hoofdscherm. 
+
+{{ :en:loginproblems_1a.png?direct&400 |}}
+
+Tik daarna op "Ja" om de configuratie van de geocachingservice te openen. Als alternatief kun je de serviceconfiguratie bereiken via c:geo Menu → Instellingen → Services.
+
+
+{{ :en:loginproblems_2.png?direct&400 |}}
+
+Selecteer de geocachingservice die je wilt controleren (bijv. geocaching.com), zorg ervoor dat deze is geactiveerd en selecteer "Autorisatie bijwerken of verwijderen".
+
+<WRAP center round tip 100%>
+Je kunt ook lang op het menu-item "Autorisatie bijwerken of verwijderen" tikken om de inloggegevens volledig opnieuw in te stellen.
+</WRAP>
+
+{{ :en:loginproblems_3.png?direct&600 |}}
+
+
+Dit opent een scherm, waar je opnieuw je gebruikersnaam en wachtwoord voor die geocachingservice moet invoeren. 
+Selecteer daarna "Controleer authenticatie" om te zien of inloggen nu mogelijk is of welke fout wordt geretourneerd.
+
+
+{{ :en:loginproblems_5.png?direct&400 |}}
+
+===== 5. Mogelijke foutmeldingen =====
+
+<WRAP centrum ronde todo 100%>
+Als je alles hierboven hebt gecontroleerd en het inloggen nog steeds mislukt, moet je de foutoorzaak onderzoeken die door c:geo is geretourneerd tijdens het uitvoeren van de "Controle van authenticatiegegevens" zoals hierboven beschreven.
+</WRAP>
+
+De volgende hoofdstukken geven uitleg en mogelijke oplossingen voor alle foutoorzaken.
+
+
+==== Inloggen mislukt: Verkeerde gebruikersnaam en/of wachtwoord ====
+
+In 99% van de gevallen, waar deze foutmelding wordt weergegeven, betekent dit echt dat je verkeerde inloggegevens hebt ingevoerd. 
+Ook kunnen sommige speciale tekens die je in de gebruikersnaam en/of wachtwoord gebruikt er iets anders uitzien of kunnen worden verward met andere tekens op je Android-toetsenbord.
+
+<WRAP centrum ronde todo 100%>
+Controleer de ingevoerde gebruikersnaam en het wachtwoord zorgvuldig en houd er rekening mee dat gebruikersnaam en wachtwoord hoofdlettergevoelig zijn.
+</WRAP>
+
+[[https://www.cgeo.org/faq#forgot-login|Dit FAQ-item]] beschrijft hoe je het wachtwoord opnieuw kunt instellen en/of uw gebruikersnaam kunt opzoeken.
+
+==== Inloggen mislukt: Captcha vereist ====
+
+c:geo heeft gedetecteerd dat de geocachingwebsite vereist dat je een Captcha oplost om in te loggen. 
+C:geo kan daarom niet inloggen. Geocaching.com kan dergelijke Captcha gebruiken na het detecteren van opeenvolgende inlogfouten (bijvoorbeeld door een verkeerd wachtwoord).
+
+<WRAP centrum ronde todo 100%>
+Log een keer in op de geocachingwebsite met je browser/pc, los daar de Captcha op en probeer het opnieuw met c:geo nadat je daar succesvol bent ingelogd.
+</WRAP>
+
+Bovendien kan geocaching.com dergelijke Captcha gebruiken bij het detecteren van aanmeldingen van een verdacht, op de zwarte lijst of niet-geïdentificeerd IP-adres. 
+Dit kan gebeuren als je VPN-tools, anonimizers (zoals TOR) of sommige openbare Wi-Fi-netwerken gebruikt. 
+Deactiveer dergelijke tools en probeer opnieuw in te loggen met c:geo. 
+Je kunt ook proberen in te loggen met c:geo via een andere internetverbinding (bijvoorbeeld mobiel netwerk in plaats van wifi).
+
+==== Inloggen mislukt: je moet eerst je account valideren op de Geocaching.com website ====
+
+Je e-mailadres en/of je account is nog niet of niet meer gevalideerd op de geocachingserver.
+
+<WRAP centrum ronde todo 100%>
+Log in op de geocachingwebsite met je browser of pc en valideer je e-mailadres en/of account op de geocachingwebsite. 
+Probeer daarna opnieuw in te loggen met c:geo.
+</WRAP>
+==== Inloggen mislukt: onbekende communicatiefout ====
+
+Als je een antivirus-, firewall-, Adblocker- of VPN-tool gebruikt (bijv. F-Secure, AdAway, McAfee, Orbot, Corporate VPN's, TOR), controleer dan of dit je internetverbinding blokkeert of verstoort.
+
+<WRAP centrum ronde todo 100%>
+Probeer een dergelijke tool uit te schakelen en controleer of de login nu werkt.
+</WRAP>
+
+Als de datum/tijd verkeerd is, kan dit leiden tot problemen bij het tot stand brengen van een beveiligde verbinding met de server.
+
+<WRAP centrum ronde todo 100%>
+Controleer ook of je telefoon werkt met de juiste datum, tijdzone en tijd.
+</WRAP>
+ 
+Soms voegen netwerkproviders berichten in het HTML-verkeer in, waardoor c:geo niet kan inloggen op een mobiel netwerk. 
+Een duidelijke indicatie voor dit probleem is dat c:geo alleen op je wifi-verbinding thuis werkt, maar niet op een mobiel netwerk.
+
+<WRAP centrum ronde todo 100%>
+Ga in dit geval naar het c:geo-instellingenmenu → Instellingen → Services en schakel "Identificeren als Android-browser" in. 
+Daarna moet je mogelijk je telefoon opnieuw opstarten om er zeker van te zijn dat deze instellingen van kracht worden.
+</WRAP>
+===== If nothing helps... =====
+
+Some final recommendations if none of the above solved your problem:
+
+  - Make sure to also try the "long tap" to delete your authorization data in c:geo as described in step 4 on this page. This might help in rare case when outdated tokens,cookies or certificates are used due to data caching.
+  - Consider de-installing and re-installing c:geo. After a new installation the installation wizard will help you to set up the connection as described in [[.:firststeps|First steps with c:geo]]. You might want to perform a [[.:mainmenu:settings#backup|backup]] of your data in c:geo before doing this.
+  - Contact our [[mailto:support@cgeo.org|support team]] by using the menu "Report problem" on the c:geo main screen (behind the three dot button), provide a detailed problem description and also tell us you already followed all steps on this page.
+
+===== Als niets helpt... =====
+
+Enkele laatste aanbevelingen als geen van bovenstaande je probleem heeft opgelost:
+
+  * Zorg ervoor dat je ook de "lange tik" probeert om je autorisatiegegevens in c:geo te verwijderen, zoals beschreven in stap 4 op deze pagina. Dit kan in zeldzame gevallen helpen wanneer verouderde tokens, cookies of certificaten worden gebruikt vanwege gegevenscaching.
+  * Overweeg om c:geo te de-installeren en opnieuw te installeren. Na een nieuwe installatie zal de installatiewizard je helpen om de verbinding tot stand te brengen zoals beschreven in [[.:firststeps|First steps with c:geo]]. Misschien wil je een [[.:mainmenu:settings#backup|backup]] van je gegevens in c:geo uitvoeren voordat je dit doet.
+  * Neem contact op met ons [[mailto:support@cgeo.org|support team]] via het menu "Probleem melden" op het hoofdscherm van c:geo (achter de knop met drie stippen), geef een gedetailleerde probleembeschrijving en vertel ons ook alle stappen die je op deze pagina al hebt gevolgd.

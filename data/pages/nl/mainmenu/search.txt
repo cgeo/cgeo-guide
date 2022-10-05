@@ -1,8 +1,7 @@
 
 
 ====== Zoekfunctie ======
-
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 Het zoekmenu biedt verschillende zoekfuncties zoals hieronder beschreven. Alle op locatie en gebruiker gebaseerde zoekopdrachten zullen een [[lists|lijst met caches]] als resultaat opleveren, terwijl de geocode-zoekopdracht en de trackable search direct de resulterende [[..:cachedetails|geocache details]] of [[..:trackabledetails|trackable details]] zullen openen.
 

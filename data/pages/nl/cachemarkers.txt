@@ -2,18 +2,35 @@
 
 Op de [[.mainmenu: livemap | live kaart]] en in de lijst van je [[.mainmenu: lists| opgeslagen caches]] kan c:geo kleine markeerpictogrammen in de hoeken van een [[cacheicons|geocache icoon]] laten zien om aanvullende informatie te geven zonder de cachegegevens te openen.
 
-De volgende tabel beschrijft de betekenis van deze markeringen:
+De volgende tabellen beschrijven de betekenis van deze markeringen en de positie op het pictogram:
 
 ^Markering ^Naam ^Omschrijving ^
-|{{ :marker_stored.png?nolink&20 |}}|Opgeslagen|Deze geocache is offline opgeslagen in een van je lijsten. \\ Deze markering wordt alleen weergegeven op de kaart maar niet in je lijsten, omdat het logisch is dat alle caches in je lijsten al zijn opgeslagen. :-) |
-|{{ :marker_found.png?nolink&20 |}}|Gevonden|Je hebt deze geocache al gevonden.|
-|{{ :marker_own.png?nolink&20 |}}|In bezit|Dit is een van je eigen geocaches.|
-|{{ :marker_personalnote.png?nolink&20 |}}|Persoonlijke notitie|Voor deze geocache is een persoonlijke notitie opgeslagen.|
-|{{ :marker_usermodifiedcoords.png?nolink&20 |}}|Gemocificeerde coördinaten|Je stelt nieuwe cachecoördinaten in voor deze cache en deze wordt nu weergegeven op deze gewijzigde coördinaten in plaats van de originele coördinaten. Een handige functie voor opgeloste mysteries of multicaches.|
-|{{ :marker_found_offline.png?nolink&20 |}}|Offline gevonden log|Je hebt een offline gevonden log voor deze geocache opgeslagen, maar deze log nog niet online ingediend.|
-|{{ :marker_not_found_offline.png?nolink&20 |}}|Niet gevonden|Je hebt een "Niet gevonden" log voor deze geocache online geplaatst in het verleden of offline opgeslagen in c:geo.|
-|{{ :marker_note.png?nolink&20 |}}|Offline Notitie log|/je hebt een offline notitie voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
-|{{ :marker_maintenance.png?nolink&20 |}}|Offline onderhoud log|Je hebt een offline log "Onderhoud nodig" voor deze geocache opgeslagen, maar deze log nog niet online ingediend.\\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
-|{{ :marker_owner_maintenance.png?nolink&20 |}}|Offline eigenaarsonderhoud log|Je hebt een offline log 'Eigenaarsonderhoud' voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status is specifiek voor cache-eigenaren en wordt alleen weergegeven zolang het logboek offline is.|
-|{{ :marker_archive.png?nolink&20 |}}|Offline moet worden gearchiveerd log|Je hebt voor deze geocache een offline log met de vereiste Gearchiveerde gegevens opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
-|{{ :marker_unknown_offline.png?nolink&20 |}}|Offline onbekende log|Je hebt een offline log van een speciaal of onbekend type opgeslagen voor deze geocache, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang de log offline is.|
+^  **Positie**: Linksboven \\ **Type**: Logs en offline logs  ^^^
+|{{ :marker_found.svg?nolink&20 |}}|Gevonden|Je hebt deze geocache al gevonden.|
+|{{ :marker_not_found_offline.svg?nolink&20 |}}|Niet gevonden|Je hebt een "Niet gevonden" (DNF) log voor deze geocache online geplaatst in het verleden of offline opgeslagen in c:geo.|
+|{{ :marker_found_offline.svg?nolink&20 |}}|Offline gevonden log|Je hebt een offline gevonden log voor deze geocache opgeslagen, maar deze log nog niet online ingediend.|
+|{{ :marker_note.svg?nolink&20 |}}|Offline Notitie log|/je hebt een offline notitie voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_maintenance.svg?nolink&20 |}}|Offline onderhoud log|Je hebt een offline log "Onderhoud nodig" voor deze geocache opgeslagen, maar deze log nog niet online ingediend.\\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_owner_maintenance.svg?nolink&20 |}}|Offline eigenaarsonderhoud log|Je hebt een offline log 'Eigenaarsonderhoud' voor deze geocache opgeslagen, maar deze log nog niet online ingediend. \\ Deze status is specifiek voor cache-eigenaren en wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_archive.svg?nolink&20 |}}|Offline moet worden gearchiveerd log|Je hebt voor deze geocache een offline log met de vereiste Gearchiveerde gegevens opgeslagen, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang het logboek offline is.|
+|{{ :marker_unknown_offline.svg?nolink&20 |}}|Offline onbekende log|Je hebt een offline log van een speciaal of onbekend type opgeslagen voor deze geocache, maar deze log nog niet online ingediend. \\ Deze status wordt alleen weergegeven zolang de log offline is.|
+|{{ :marker_calendar.svg?nolink&20 |}}|Zal aanwezig zijn|Een event cache waarvoor je een "Zal aanwezig zijn" melding hebt geplaatst.|
+^  **Positie**: Rechtsboven\\ **Type**: Opgeslagen en eigen  ^^^
+|{{ :marker_stored.svg?nolink&20 |}}|Opgeslagen|Deze geocache is offline opgeslagen in een van je lijsten. \\ Deze markering wordt alleen weergegeven op de kaart maar niet in je lijsten, omdat het logisch is dat alle caches in je lijsten al zijn opgeslagen. :-) |
+|{{ :marker_own.svg?nolink&20 |}}|In bezit|Dit is een van je eigen geocaches.|
+^  **Positie**: Linksonder\\ **Type**: Persoonlijke notities  ^^^
+|{{ :marker_personalnote.svg?nolink&20 |}}|Persoonlijke notitie|Voor deze geocache is een persoonlijke notitie opgeslagen.|
+^  **Positie**: Rechtsonder\\ **Type**: Coördinaat informatie  ^^^
+|{{ :marker_usermodifiedcoords.svg?nolink&20 |}}|Gemocificeerde coördinaten|Je stelt nieuwe cachecoördinaten in voor deze cache en deze wordt nu weergegeven op deze gewijzigde coördinaten in plaats van de originele coördinaten. Een handige functie voor opgeloste mysteries of multicaches.|
+|{{ :marker_hasfinal.svg?nolink&20 |}}|Heeft "Finale" waypoint|Deze cache heeft een "Finale" waypoint gedefinieerd, maar geen aangepaste coördinaten. De cache wordt getoond op de originele coördinaten op de kaart.|
+|{{ :marker_visited.svg?nolink&20 |}}|Bezocht waypoint|Een waypoint dat als bezocht is gemarkeerd.|
+
+Verder kun je optioneel markeringen activeren die de D/T-classificatie van de cache vertegenwoordigen (zie [[.:mainmenu:settings#map_content|kaartinhoud-instellingen]]). Een dergelijke markering bestaat uit twee halve cirkels, waarbij de vulstatus van de linkerhelft de D-classificatie vertegenwoordigt en de vulstatus van de rechterhelft de T-classificatie. Hierdoor kun je gemakkelijk de geschatte D/T schatten voor elke cache die op de kaart wordt weergegeven, zonder dat je de cachedetails hoeft te openen.
+
+Hoe meer elke helft is gevuld en hoe meer deze van groen over geel naar rood verandert, hoe hoger de respectieve beoordeling. De volgende tabel geeft enkele voorbeelden van weergave van D/T-classificaties:
+
+^ Markering ^ Moeilijkheidsgraad ^ Terrein ^
+|{{ :dt_marker_example1.svg?nolink&20 |}}|2.0|5.0|
+|{{ :dt_marker_example2.svg?nolink&20 |}}|3.0|1.0|
+|{{ :dt_marker_example3.svg?nolink&20 |}}|4.0|2.5|
+

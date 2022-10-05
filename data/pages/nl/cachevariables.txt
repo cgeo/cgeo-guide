@@ -1,0 +1,210 @@
+====== Cache Variables ======
+
+===== Introductie =====
+
+Voor elke [[.:cachedetails|geocache detailweergave]] biedt c:geo een tabblad genaamd "Variabelen" om te noteren en berekeningen uit te voeren met formules en variabelen die je nodig hebt voor deze cache.
+
+{{ :en:cachevariables_1.png?direct&400 |}}
+
+Dit kan handig zijn als je b.v. voor een multi-cache in het veld waarden moet verzamelen en hiermee wiskundige berekeningen moet uitvoeren om naar de volgende fase of de finale te gaan.
+
+Je kunt dit tabblad met variabelen gebruiken als een op zichzelf staande helper om wat berekeningen uit te voeren of je kunt ook elke hier gedefinieerde variabele hergebruiken voor het genereren van een nieuw [[.:waypointcalculator|berekend waypoint]] voor deze cache.
+
+De volgende secties op deze pagina beschrijven de inhoud en functionaliteit van het variabele tabblad.
+
+===== Bedieningsgedeelte =====
+
+Boven aan het variabele tabblad zie je een reeks knoppen die functies bieden om het variabele gedeelte hieronder te vullen:
+
+{{ :en:cachevariables_2.png?nolink&400 |}}
+
+^ Knop ^ Beschrijving ^
+|{{:en:cachevariable_add.png?nolink&50|}}|Voeg handmatig een variabele toe aan de weergave door de naam op te geven.|
+|{{:en:cachevariable_add_distinct.png?nolink&60|}}|Voeg automatisch de volgende vrije variabele in alfabetische volgorde toe aan de weergave.|
+|{{:en:cachevariable_scan.png?nolink&200|}}|Deze functie scant de geocachebeschrijving op mogelijke formules die erin zitten en biedt ze aan om ze over te nemen naar het tabblad met variabelen. Elke geselecteerde gevonden formule wordt toegevoegd als inhoud van een nieuwe variabele.|
+|{{:en:cachevariable_tidyup.png?nolink&200|}}|Hiermee worden alle variabelen zonder waarde of formule verwijderd en kan worden gebruikt voor het geval je per ongeluk veel variabelen hebt aangemaakt of sommige ervan hebt gewist en ze niet langer nodig hebt.|
+|{{:en:cachevariable_deleteall.png?nolink&200|}}|Hiermee worden alle gedefinieerde variabelen en hun waarden verwijderd.|
+|{{:en:cachevariables_help.png?nolink&200|}}|Opent deze pagina in je browser|
+===== Variabele sectie =====
+
+{{ :en:cachevariables_3.png?direct&400 |}}
+
+In deze sectie kun je de waarde of formule voor de gegenereerde variabelen invoeren. Je kunt hier de volgende acties uitvoeren:
+
+^ Knop ^ Actie ^
+|{{:en:cachevariables_variable.png?nolink&30|}}|Klik op de naam van de variabele om deze te wijzigen.|
+|{{:en:cachevariables_functions.png?nolink&30|}}|Klik op de "functie"-knop om het waardeveld vooraf in te vullen met de gewenste [[.:cachevariables#functions|ondersteunde functie]].|
+|{{:en:cachevariables_value.png?nolink&200|}}|Vul het waardeveld handmatig in met een waarde of een formule met behulp van de [[.:cachevariables#formula_syntax|formulesyntaxis]].|
+|{{:en:cachevariables_delete.png?nolink&50|}}|Gebruik het prullenbakpictogram om de variabele te verwijderen.|
+
+De tekst onder het waardeveld toont een voorbeeld van een resultaat. Dit kan het concrete resultaat van de formule zijn of hints met betrekking tot syntaxisfouten of ontbrekende waarden.
+
+===== Formule syntaxis =====
+
+Het waardeveld van elke variabele kan verschillende soorten waarden en ook andere variabelen bevatten. Het ondersteunt tal van wiskundige bewerkingen, evenals verschillende (deels aan geocaching gerelateerde) numerieke en tekenreeksgerelateerde functies, zoals hieronder beschreven.
+
+<WRAP centrum ronde info 100%>
+Wees niet bang voor de syntaxis. Hoewel het vrij complexe bewerkingen ondersteunt, kan het ook worden gebruikt voor eenvoudige en duidelijke berekeningen, zoals je van elke rekenmachine gewend bent. Sommige ondersteunde functies zijn waarschijnlijk alleen voor gevorderde gebruikers.
+</WRAP>
+
+De syntaxis wordt in de volgende subhoofdstukken in detail uitgelegd.
+Hier zie je lijst met voorbeelden van wat wordt ondersteund.
+
+  * ''2*2+3'' wordt geëvalueerd tot ''7''
+  * ''2*(2+3)'' zal evalueren tot ''10''
+  * ''3*sin(90)'' zal evalueren tot ''3''
+
+  * ''4+length('test')'' wordt geëvalueerd tot ''8''
+  * ''rot13('abc')'' zal evalueren tot ''nop''
+  * ''lettervalue('cache')'' wordt geëvalueerd tot ''20''
+  * ''checksum(lettervalue('cache'))'' wordt geëvalueerd tot ''2''
+
+  * ''A + A*2'' met ''A=3'' wordt geëvalueerd tot ''9''
+  * ''AA(A+1)'' met ''A=3'' wordt geëvalueerd tot ''334''
+  * ''$hello + 1'' met variabele ''hello=24'' zal evalueren tot ''25''
+  * ''$hello(A+1)'' met ''A=3'' en ''hello=24'' wordt geëvalueerd tot ''244''
+  * ''${hello}8A'' met ''A=3'' en ''hello=24'' wordt geëvalueerd tot ''2483''
+==== Waardetypes ====
+
+De formulesyntaxis ondersteunt drie typen waarden.
+Typen is een ruim begrip, in het algemeen zal de evaluatie van de formule proberen de gegeven waarden zo goed mogelijk te laten passen.
+
+^ Type ^ Beschrijving ^ Letterlijke syntaxis ^ Voorbeelden ^
+|Geheel getal | Getal zonder decimalen | Gebruik cijfers | ''1234'', ''-3''|
+|Decimaal | Getal met decimalen | Gebruik cijfers met decimale punt of komma | ''3.14'', ''-3.14'', ''3,14''|
+|String | Tekst | Waarde omringen met ''%%'%%'' of ''%%"%%''\\ Om de ''%%'...'%%'' of ''%%"..." te gebruiken %%'' zichzelf, typ ''%%''%%'' of ''%%""%%''| ''%%'test'%%'', ''%%"test"% %''\\ ''"Hij zei ""ja""!"''|
+==== Numeric operators ====
+
+The following numeric operators are supported:
+
+^ Operator ^ Function ^ Example ^
+|''+''|Addition|''2+4'' evaluates to '' 6''|
+|''-''|Subtraction\\ (or negating a number)|''6-4'' evaluates to ''2''\\ ''-(5-2)'' evaluates to ''-3''|
+|''*''|Multiplication|''3*4'' evaluates to ''12''|
+|''/''|Division|''12/3'' evaluates to ''4''|
+|''%''|Modulo|''12%5'' evaluates to ''2''|
+|''^''|Potentiate|''3^3'' evaluates to ''9''|
+|''!''|Factorize|''4!'' evaluates to ''24''|
+
+==== Relational operators and conditions ====
+
+Relational operators like ''<'' or ''=='' can be used to compare two values with each other. In general, such an operation will return the value ''1'' if the comparison yields true and the value ''0'' if it yields false. 
+
+For example, the expression ''3 < 4'' will compute to the value ''1''.
+
+Relational operators are especially used in the ''if'' function. This function evaluates its first parameter. If this parameter is true (means: has a value > 0 or is a non-empty string) then it returns its second parameter. Else, and if it has a third parameter, the third parameter is returned.
+
+The ''if'' function accepts any number of parameters and interprets them in an "if-then-if-then-if-then-...-else" cascade. 
+
+This means, that if the function was given 5 parameters then:
+* If the first parameter is true, then the second is returned
+* Else if the third parameter is true, then the fourth parameter is returned
+* Else the fifth parameter is returned
+
+For example ''if(A==5;50;A==4;40;30)'' will evaluate to ''50'' if ''A=5'', to ''40'' if ''A=4'' and to ''30'' for any other value of ''A''.
+
+^ Operator ^ Meaning ^ Example ^
+|''==''| Checks for equality | ''2==2'' evaluates to ''1''(=true)|
+| ''<>'' | Checks for inequality. | ''3<>2'' evaluates to ''1''(=true)|
+|''<'' | Is less than | ''3<4'' evaluates to ''1''(=true)|
+| ''<='' | Is less or equal than | ''3<=3'' evaluates to ''1''(=true)|
+|''>'' | Is greater than | ''3>4'' evaluates to ''0''(=false)|
+|''>=''| Is greater or equal than | ''5>=5'' evaluates to ''1''(=true)|
+
+==== Functions ====
+
+Functions all start with a letter, contain only letters and digits and have a directly attached parameter list in parenthesis. Multiple parameters are separated using '';''.
+
+An example for a one-parameter function call is ''sin(90)''. An example for a two-parameter function call is ''rot('test'; 13)''.
+
+The following functions are defined:
+
+^ Function ^ Synonyms ^ Description ^ Parameter 1 ^ Parameter 2 ^ Example ^
+|''sqrt''|-|calculates square root of given parameter|numeric parameter| - |''sqrt(9)'' evaluates to ''3''|
+|''sin''/''cos''/''tan'' |-| calculates sinus/cosinus/tangens of given parameter | numeric parameter in degree(!)| - | ''sin(90)'' evaluates to ''1''|
+|''abs''|-| calculates absolute value | numeric parameter | - | ''abs(-34)'' evaluates to ''34''|
+|''round''|-| rounds decimal values mathematically | value to round | optional: number of places to round to | ''round(4.65)'' evaluates to ''5'', ''round(4.65;1)'' evaluates to ''4.7''|
+|''if''|-| evaluates conditions and returns conditional values | list of if-then-else-values. See previous section for details | - | ''if(3<4;5;6)'' evaluates to ''5''|
+|''checksum''|''cs''| calculates checksum of given numeric value. Calculates lettervalue if given paramter is of type text | positive integer or text | - | ''checksum(345)'' evaluates to ''12''|
+|''ichecksum''|''ics''| calculates iterative checksum of given numeric value. Starts from lettervalue if given parameter is of type text | positive integer or text | - | ''ichecksum(345)'' evaluates to ''3''|
+|''lettervalue''|''lv'', ''wordvalue'', ''wv'' | calculates lettervalue of given string value | string | - | ''lettervalue('test')'' evaluates to ''64''|
+|''rot''|-| calculates rotated string of given string value | string | count to rotate by | ''rot('abc'; 1)'' evaluates to '''bcd'''|
+|''rot13''|-| calculates rotated-13 of given string value | string | - | ''rot13('abc')'' evaluates to '''nop'''|
+|''roman''|-| scans a given string value as a roman number and returns its decimal value | string | - | ''roman('VI')'' evaluates to ''6''.|
+|''vanity''|''vanitycode'', ''vc''| returns the vanity code of a string | string | - | ''vanity('cgeo')'' evaluates to ''2436''.|
+
+
+==== Variables ====
+
+Variables are used in a formula as placeholders for values. When a formula containing a variable is evaluated, it needs to be passed a value for each of the contained variables in order to be correctly evaluated. 
+
+Variable names are case sensitive and have to start with an alphanumeric char. Remaining chars can be alphanumeric or digits. 
+Examples for legal variable names are: ''Test'', ''T1'', ''t'', ''Tt123''. Examples for non-legal variable names are: ''1a'', ''2''
+
+One-letter-variables can just be typed into the formula and will be evaluated along. For example, the formula ''A + 2'' is valid. If ''A'' has the value ''5'', the formula will evaluate to ''7''.
+
+If multiple chars are concatenated within a formula, they will be interpreted as individual one-letter-variables. For example, the formula ''AA + 2'' will be interpreted as variable ''A'' concatenated two times and adding ''2'' afterwards. If ''A=4'', this formula will evaluate to ''44 + 2 = 46''. See following section for more details wrt concatenation.
+
+Variable names longer than one char can be declared in Unix-Bash-Style by prepending their name with ''$''. For example, a variable named ''Test'' is can be referenced using ''$Test''. The formulua ''$Test + 2'' is valid. If value for variable ''Test'' is ''4'' the formula will evaluate to ''6''. 
+
+In situations where variable name conflicts with following alphas/chars, the variable name can be enclosed in ''{}'' to differentiate it from following text. For example, the following expression will concatenate the value of variable ''Test'' with the value of variable ''A'': ''${Test}A''
+ 
+Some more complex examples:
+
+  * The formula ''A + $A * $Test - t'' uses three variables named ''A'', ''Test'' and ''t''. The variable ''A'' is used in two places. Assuming ''A=2'', ''Test=3'' and ''t=1'', the formula would evaluate to ''7''.
+  * The formula ''AA + b + $A1'' uses three variables ''A'', ''b'' and ''A1''. Assuming ''A=2'', ''b=3'' and ''A1=4'', the formula would evaluate to ''29'' ( = 22 + 3 + 4)
+  * The formula ''AB(B+1)'' uses two variables ''A'' and ''B''. Assuming ''A=2'' and ''B=3'', the formula would evaluate to ''234'' 
+  * The formula ''$AB(B)(B+1)'' uses two variables ''AB'' and ''B''. Assuming ''AB=2'' and ''B=5'', the formula would evaluate to ''256'' 
+  * Using ''{}'' syntax, the previous example could also be written like this: ''${AB}B(B+1)''
+
+==== Concatenations ====
+
+If multiple expressions are concatenated directly after another with no separating operator, values are concatenated to a consecutive expression. This expression evaluates to a number if it forms a valid numeric expression, otherwise it evaluates to a text value.
+
+Expressions, which can be concatenated, include e.g. integer digits, variables, expressions in parenthesis and the Overflow character (see next subsection).
+
+For example, the formula ''AA(A+4)55$Test(3)'' contains two variables ''A'' and ''Test''. Assuming ''A=9'' and ''Test=70'', it would evaluate to ''991355703''.
+==== Overflow character ====
+
+In concatenated expressions, the character ''_'' can be used as an overflow sign. It is a placeholder for possible spillovers if numeric variables evaluate to a value with more than one digit, otherwise it is filled with 0. 
+
+An example should make the usage clear:
+
+  * The Formula ''1A'' with ''A=2'' will evaluate to ''12''
+  * The Formula ''1_A'' with ''A=2'' will evaluate to ''102''
+  * The Formula ''1_A'' with ''A=23'' will evaluate to ''123''
+  * The Formula ''%%1__A%%'' with ''A=23'' will evaluate to ''1023''
+  * The Formula ''%%1__%%A'' with ''A=234'' will evaluate to ''1234''
+
+
+==== Bereikuitdrukkingen ====
+
+Je kunt bereiken in formules specificeren met ''[]''. Dit is nodig wanneer variabelen worden gebruikt in een context waarin een reeks waarden moet worden herhaald. Een prominent voorbeeld is de functie [[.:waypointcalculator|Genereer Waypoints]].
+
+**FIXME** Link to anchor on waypoint calc page as soon as its updated to cover waypoint generation
+
+Een voorbeeld voor een bereikuitdrukking is ''[0-9]''. Dit specificeert een bereik met 10 waarden (de integerwaarden 0 tot 9).
+
+Je kunt opeenvolgende waarden opgeven met '','' als scheidingsteken. Je kunt waarden of waardebereiken uitsluiten door er een ''^'' aan toe te voegen. Bereiken worden van links naar rechts ontleed, waardoor een volgorde wordt gegeven aan de elementen in het bereik. De volgende zijn bijvoorbeeld geldige bereikspecificaties:
+  * ''[0-2, 4]'' resulteert in een bereik dat ''0'', ''1'', ''2'' en ''4'' bevat.
+  * ''[0-3, ^1-2]'' resulteert in een bereik dat ''0'' en ''3'' bevat.
+  * ''[0-3, ^1-2, 5]'' wordt geëvalueerd tot een bereik dat ''0'', ''3'' en ''5'' bevat.
+
+Wanneer een bereik wordt gebruikt in een context waarin slechts één waarde is toegestaan ​​(dit is het geval bij normale berekeningen), wordt de eerste bereikwaarde gebruikt voor de berekening. Bijvoorbeeld, de uitdrukking ''[0-9]'' zal evalueren tot ''0'' in een normale berekeningscontext, terwijl ''[8, 0-9]'' zal evalueren tot ''8''.
+
+Bereiken ondersteunen momenteel alleen positieve constante gehele getallen. Een bereik moet altijd worden geëvalueerd tot ten minste 1 waarde en een bereik mag niet worden geëvalueerd tot meer dan 20 waarden. De volgende bereiken zijn bijvoorbeeld ongeldig:
+  * ''[]'': leeg
+  * ''[5, ^0-9]'': evalueert naar leeg
+  * ''[0-1000]'': evalueert tot meer dan 20 inzendingen
+  * ''[-5]'': negatieve int niet toegestaan
+  * ''[A]'': variabelen niet toegestaan
+
+Een formule kan een of meer bereikdefinities bevatten, gemengd met normale andere formuleonderdelen. De volgende formules zijn bijvoorbeeld geldig:
+  * ''3*[0-2]'': evalueert tot waarden ''0'', ''3'' en ''6''
+  * ''A*[4, 7]'': voor ''A=3'' resulteert dit in de waarden ''12'' en ''21''
+  * ''[1-2]*[3-4]'': evalueert tot ''3'', ''6'', ''4'' en ''8''.
+==== Opmerkingen ====
+
+Je kunt opmerkingen in formule-uitdrukkingen invoeren met het teken ''#''. Opmerkingen eindigen bij de volgende ''#'' of aan het einde van uitdrukkingen. Alles in een opmerking wordt tijdens de evaluatie genegeerd. Bijvoorbeeld:
+   * ''A * 5 # testcommentaar'' voor ''A=3'' evalueert tot ''15''
+   * ''3.14 # dit is pi # * 2 # en dit is twee'' evalueert tot ''6.28''

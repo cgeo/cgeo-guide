@@ -1,22 +1,21 @@
 ====== Hoofdscherm ======
 
-Deze pagina beschrijft de informatie op en de functies van het c:Geo hoofdscherm.
+Deze pagina beschrijft de informatie die op het startscherm wordt weergegeven en de functies van de onderste navigatie-elementen die in de hele app zichtbaar zijn.
 
-===== Hoofdmenu pictogrammen =====
 {{anchor:main_icons:}}
 
-{{ :nl:mainmenu_2.png?direct&400 |}}
+Het startscherm toont je profielfoto (afgeleid van de geocachingwebsite) evenals je aantal vondsten en inlogstatus voor alle geocachingdiensten die je in c:geo hebt geactiveerd.
 
-In de volgende tabel worden de hoofdmenu pictogrammen beschreven:
+{{ :en:mainmenu_2.png?direct&400 |}}
 
-^ Icoon ^ Functie ^ Omschrijving ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Live kaart]]|Toon een kaart gecentreerd op je huidige locatie met nabijgelegen geocaches erop. Je kunt de kaart slepen om geocaches op andere locaties te bekijken. Als je de kaart met de nieuwste geocachelocaties wilt bekijken, heb je online toegang tot het netwerk nodig. De weergegeven geocaches kunnen worden gefilterd met behulp van het Global Cache Type Filter (zie hieronder).|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Dichtbij]]|Maak een lijst van de nabijgelegen geocaches. In tegenstelling tot de livekaart, maakt deze functie een online query op basis van je huidige locatie, zoals verkregen door GPS of van het netwerk. De vraag wordt niet automatisch bijgewerkt wanneer je verplaatst. Om deze functie te gebruiken, heb je online-netwerktoegang nodig. \\ \\ Als je geen geldig GPS-signaal of andere locatiegegevens hebt, is dit pictogram uitgeschakeld.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Opgeslagen]]|Bekijk geocaches die je hebt opgeslagen voor offline gebruik. Je kunt ook opgeslagen geocaches gebruiken voor online caching, als een takenlijst. Door geocachegegevens op te slaan, kun je onnodig gebruik van netwerkbandbreedte en vertragingen voorkomen. Het totale aantal opgeslagen geocaches wordt weergegeven in de rechterbovenhoek van het pictogram. \\ Als je je opgeslagen geocaches in lijsten hebt georganiseerd, kun je lang op het pictogram drukken om rechtstreeks naar een specifieke lijst te gaan.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Zoeken]]|Zoek naar geocaches op trefwoord, geocode-identificatie, adres, gebruikersnaam, etc.|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Ga naar]]|Navigeer naar een willekeurige locatie met behulp van het kompas, de radar, stap voor stap navigatie of een andere ondersteunde navigatiemethode.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Alle cache types]]|Filter de geocaches die worden getoond op de livekaart, zoekactie en je opgeslagen geocachelijsten op geocachetype. Je kunt ervoor kiezen om alle geocaches te zien, of alleen die van een specifiek type. De tekst onder het pictogram geeft het momenteel actieve filter aan. \\ Om het filter leeg te maken, druk je lang op het pictogram.|
+Onderaan het scherm vind je de belangrijkste functies die in de volgende tabel worden beschreven. De momenteel actieve functie wordt gemarkeerd.
 
+^ Icoon ^ Functie ^ Omschrijving^
+|{{:main_home_default.svg?nolink&100|}}|Startscherm| Gaat terug naar het startscherm.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Opgeslagen Caches]]|Bekijk geocaches die je hebt opgeslagen voor offline gebruik. Je kunt opgeslagen geocaches ook gebruiken voor online caching als een takenlijst. Door geocache-informatie op te slaan, kun je onnodig gebruik van netwerkbandbreedte en vertragingen voorkomen. \\ Als je je opgeslagen geocaches in lijsten hebt ingedeeld, kun je lang op het pictogram drukken om direct naar een specifieke lijst te gaan.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Kaart]]|Toon een kaart gecentreerd op je huidige locatie, met geocaches in de buurt erop gemarkeerd. Je kunt de kaart slepen om geocaches op andere locaties te bekijken. Om de kaart met actuele geocachelocaties te zien, heb je online netwerktoegang nodig.|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Zoeken]]|Zoeken naar geocaches op trefwoord, geocode-identificatie, adres, gebruikersnaam, enz.\\ \\ Een lange tik op dit pictogram opent een lijst met recent bekeken caches.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Dichtbij]]|Maak een lijst van de nabijgelegen geocaches. In tegenstelling tot de livekaart, creëert deze functie een online zoekopdracht op basis van je huidige locatie, zoals verkregen via GPS of het netwerk. De zoekopdracht wordt niet automatisch bijgewerkt wanneer je je verplaatst. Om deze functie te gebruiken, heb je online netwerktoegang nodig.|
 
 ===== Bovenste balk menu===== 
 {{anchor:top_bar_menu:}}
@@ -25,45 +24,43 @@ Het bovenste gedeelte van het hoofdscherm bevat aanvullende functies die worden 
 <WRAP center round info 100%>
 Het aantal pictogrammen dat je in de bovenste balk ziet, wordt dynamisch bepaald op basis van de apparaat-resolutie en schermoriëntatie. De overige items in de bovenste balk bevinden zich achter de knop van het overloopmenu. \\Als je de naam van een pictogram in de bovenste balk wilt zien, houd je het pictogram lang ingedrukt.
 </WRAP>
-
-{{ :nl:main_topbarmenu.png?direct&400 |}}
+{{:en:main_topbarmenu_2.png?direct&400|}}
+{{:en:main_topbarmenu.png?direct&400|}}
 
 ^ Icon ^ Function ^ Description ^
 |{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Snel zoeken]]|Als je offline bent, doorzoek je je opgeslagen geocaches met behulp van titel, geocode, beschrijving, eigenaar, logboekinhoud, enzovoort. \\ Als je netwerktoegang hebt, zoek je in zowel opgeslagen als online inhoud. Je kunt een geocode, een traceerbare code, een gebruikersnaam en nog veel meer invoeren.|
 |{{ :ic_menu_recent_history.svg?nolink&40 |}} |[[history|Geschiedenis]]|Bekijk een lijst met geocaches die je recent hebt geregistreerd met c:geo. \\ Opmerking: de lijst is lokaal in c:geo en is niet gesynchroniseerd met de recent weergegeven cachelijst op de geocaching-website.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overloopmenu button| Open de overlooplijst met functies van de bovenste balk die, op basis van uw schermgrootte, niet als pictogrammen worden weergegeven. De functies omvatten de functies die worden beschreven in deze tabel|
+|{{:main_any_default.svg?nolink&40|}}|[[goto|Ga Naar]]|Navigeer naar een willekeurige locatie met behulp van het kompas, radar, stapsgewijze navigatie of een andere ondersteunde navigatiemethode.|
 |{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open een lijst van je pocket queries op geocaching.com. Dit item is niet beschikbaar voor geocaching.com [[..:basicmembers|basic members]].|
+|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Bladwijzerlijsten]]|Opent een lijst van he bladwijzers vanuit geocaching.com. Dit item is niet beschrikbaar voor geocaching.com [[..:basicmembers|basisleden]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Opent een lijst met links naar aanvullendel geocaching-gerelateerde apps, die handig kunnen zijn als toevoeging aan c:geo.|
 |{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Instellingen]]|Open het c:geo configuratie menu.|
 |{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Backup]]|Start de back-up functie van de instellingen, die ook te vinden is in de [[settings|c:geo instellingen]].|
-|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Open een lijst met links naar aanvullende geocaching-gerelateerde apps, die handig kunnen zijn in combinatie met c:geo.|
-|{{ :ic_menu_barcode.svg?nolink&40 |}}|[[utilityprograms|Scan geocode]]|Als er een [[utilityprograms|barcode scanner]] app is geïnstalleerd op je apparaat kun je deze hier lanceren en barcodes scannen dat geocodes bevat.|
-|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk de c:geo versie informatie, bijdragers, contact links en andere wetenswaardigheden over c:geo.|
-| |Rapporteer probleem|Je kunt deze functie gebruiken om een probleem te melden aan de c:geo support per mail.\\ :!: Omschrijf zo gedetailleerd mogelijk je probleem!|
+| | Update offline gegevens|Bevat functies om te controleren op updates van je offline kaartbestanden en routegegevens.|
+| | |
+|{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk c:geo versie-informatie, bijdragers, contactlinks en andere leuke dingen over c:geo.|
+| |Rapporteer probleem|Je kunt deze functie gebruiken om een probleemrapport per e-mail naar het c:geo-support team te sturen.\\ :!: Voeg een gedetailleerde beschrijving van je probleem toe.|
 
 ===== Onderste Sectie =====
 {{anchor:bottom_section:}}
 
-{{ :en:mainmenu_4.png?direct&400 |}}
+{{ :en:mainmenu_4.png?direct&600 |}}
 
-Het onderste gedeelte van het hoofdscherm bevat informatie over je aanmeldingsstatus, je huidige locatie en de status van de satellietontvangst.
+Het onderste gedeelte van het hoofdscherm toont informatie over het aantal opgeslagen caches, je huidige locatie en satellietontvangststatus.
 
-==== Login status ====
-{{anchor:login_status:}}
-
-In het bovenste gedeelte van de onderste sectie wordt je aanmeldingsstatus weergegeven voor elke [[settings#Services | Geocaching service]] die je hebt geconfigureerd en ingeschakeld in de [[settings| c:geo-instellingen]], waarbij elke service op een eigen rij staat. \\
-In het bovenstaande voorbeeld is de gebruiker '' Mijn gebruikersnaam '' succesvol aangemeld bij geocaching.com ('' GC '') en opencaching.de ('' OC.DE ''). Het cijfer dat na de gebruikersnaam wordt getoond, is het huidige aantal vondsten van de gebruiker op het betreffende geocachingplatform, optioneel toegevoeg met het aantal offline logs (getoond als '' het aantal vondsten + offline vondsten'') als de bijbehorende functie is geactiveerd in je [[.settings#other_logging_options|log opties]].
 ==== Huidige locatie ====
 {{anchor:current_location:}}
 
-Onder de login status-informatie staat je huidige locatie. Het wordt weergegeven als coördinaten of als de instelling [[settings# Appearance| Adres weergeven]] is ingeschakeld, als land en stad / regio. \\In het bovenstaande voorbeeld bevindt de gebruiker zich in '' VS, New York ''
+Uw locatie wordt weergegeven als coördinaten, of als de [[settings#Appearance|Toon adres]] optie is ingeschakeld, als land en stad/regio.
 
-==== Satelliet status ====
+==== Satellite status ====
 {{anchor:satellite_status}}
 
 De onderste rij in dit gedeelte toont je de huidige status van de satellietontvangst. Als voorbeeld gebruikt de onderstaande tabel de informatie uit de bovenstaande afbeelding:
 
 ^Status ^ Omschrijving ^
-|Sat: 5/22|De satellietontvanger op het apparaat heeft in totaal 22 satellieten gevonden en het signaal is op 5 van deze bevestigd.|
-|+- 4,65 m|De huidige positioneringsnauwkeurigheid is 4,65 meter. Afhankelijk van uw app-instellingen kan dit ook in voet worden weergegeven.|
-| 0 km/h|De huidige snelheid is 0 km / h. Afhankelijk van je app-instellingen kan dit in ft / h worden weergegeven.|
-|Laatst bekend|De momenteel gebruikte locatiebron:\\ \\ Laatst bekend = Laatst bekende positie verworven door c:geo\\ Thuis = Thuis coördinaten zoals gedifinieerd op geocaching.com \\ GPS = Geleverd door GPS-ontvanger\\ Network = Afgeleid van mobiele netwerkinformatie\\ Gecombineerd = Bepaald met behulp van zowel Google Play-services als GPS-ontvanger|
+|Sat: 16/26|De satellietontvanger op het apparaat heeft in totaal 26 satellieten gevonden en het signaal is vastgezet op 16 ervan.|
+|+- 26,1 ft|De huidige positioneringsnauwkeurigheid is 26,1 voet. Afhankelijk van je app-instellingen kan dit worden weergegeven in meters.|
+| 0 mph|De huidige snelheid is 0 mph. Afhankelijk van uw app-instellingen kan dit worden weergegeven in km/u.|
+|Fused|De momenteel gebruikte locatiebron:\\ \\ Laatst bekend = Laatst bekende positie verkregen door c:geo\\ Home = Thuiscoördinaten zoals gedefinieerd op geocaching.com \\ GPS = Geleverd door GPS-ontvanger\\ Netwerk = Afgeleid van mobiel netwerk informatie\\ Fused = Bepaald met behulp van zowel Google Play-services als GPS-ontvanger|

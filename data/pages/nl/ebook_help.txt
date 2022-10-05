@@ -7,8 +7,8 @@ Je hebt drie verschillende opties om deze gebruikershandleiding voor offline geb
   * Druk op het ''Voeg toe aan boek'' icoon op de rechter zijbalk om de huidige pagina toe te voegen aan een lijsgt van pagina's om te dowloaden.\\ Je kunt deze functie gebruiken om meer pagina's aan deze lijst toe te voegen. Nadat je ten minste één pagina hebt toegevoegd, wordt boven elke pagina een info sectie weergegeven waarmee je meer pagina's kunt toevoegen, pagina's kunt verwijderen en uiteindelijk één PDF kunt genereren met alle geselecteerde pagina's in aangepaste volgorde.
 
   * Download een snapshot van de volledige gebruikershandleiding door op één van deze links te klikken:\\ 
-             * [[https://manual.cgeo.org/&do=export_pdfns&book_ns=nl&book_title=cgeo_Userguide|Download snapshot van de complete gebruikershandleiding in PDF (Nederlands)]]\\ //(Wees geduldig als je op deze link drukt, het kan even duren om de PDF te genereren). //
-             * [[https://manual.cgeo.org/&do=export_pdfns&book_ns=en&book_title=cgeo_Userguide|Download snapshot van de complete gebruikershandleiding in PDF (Engels)]]\\ //(Wees geduldig als je op deze link drukt, het kan even duren om de PDF te genereren). //
+    * [[https://manual.cgeo.org/&do=export_pdfns&book_ns=nl&book_title=cgeo_Userguide|Download snapshot van de complete gebruikershandleiding in PDF (Nederlands)]]\\ //(Wees geduldig als je op deze link drukt, het kan even duren om de PDF te genereren). //
+    * [[https://manual.cgeo.org/&do=export_pdfns&book_ns=en&book_title=cgeo_Userguide|Download snapshot van de complete gebruikershandleiding in PDF (Engels)]]\\ //(Wees geduldig als je op deze link drukt, het kan even duren om de PDF te genereren). //
 
 
 <WRAP center round info 100%>

@@ -3,15 +3,6 @@
 ** Welkom bij de c:geo online gebruikershandleiding! **
 {{ :logo_big.png?nolink&200 |}} 
 
-<WRAP center round alert 100%>
-** Deze site is momenteel in bewerking! **
-Hoewel we de gebruikershandleiding nu als voltooid beschouwen, willen we graag eerst je feedback ontvangen. Als je informatie mist of onvolledige of verkeerde beschrijvingen ziet, geef ons je [[support@cgeo.org?subject=User Guide Feedback|feedback]]!
-
-We zijn begonnen deze gids te vertalen naar andere talen. We hebben medewerkers nodig die ons willen helpen deze handleiding in hun moedertaal te vertalen. Als je ons wilt helpen, [[support@cgeo.org?Subject=User Guide Translation|laat het ons weten]].
-
-De Nederlandse versie is compleet vertaald, maar moet er moet nog een eindcontrole plaatsvinden. Er kunnen hier en daar nog fouten in staan.
-</WRAP>
-
 
 ===== Over c:geo ====
 {{anchor:about_cgeo:}}
@@ -29,23 +20,21 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[firststeps|Eerste stappen met c:geo]] – Starten van de app en het authentiseren van de geocaching services.
   * [[basicuse| Basisgebruik van c:geo]] - Wat is Geocaching en hoe vind je jouw eerste geocache met c:geo?
 
+  * [[loginproblems|Inlogproblemen]] - Wat te doen bij inlogproblemen?
 
 
 ===== Handleiding =====
 {{anchor:users_manual:}}
 
-==== Hoofdmenu ====
+==== Basisfuncties====
 {{anchor:main_menu:}}
 
-    * [[.mainmenu:start|Hoofdscherm]]  - De functies van het hoofdmenu.
-    * [[.mainmenu:start#top_bar_menu|Menu bovenste balk]] - De functies in het menu in de bovenste sectie van het hoofdscherm. 
+    * [[.mainmenu:start|Hoofdscherm]]  - Een centraal dashboard met gebruikersinformatie.
     * [[.mainmenu:livemap|Live kaart]] - De live kaart van geocaches
-    * [[.mainmenu:lists#cache_list|Dichtbij zoeken]] - Zoek naar caches in de buurt
+    * [[.mainmenu:lists#cache_list|Dichtbij Zoeken]] - Zoek naar caches in de buurt
     * [[.mainmenu:lists|Opgeslagen caches]] - Lokaal opgeslagen geocaches
     * [[.mainmenu:search|Zoeken]] - Zoek naar Geocaches en Trackables
-    * [[.mainmenu:goto|Ga naar]] - Directe navigatie naar willekeurige coördinaten
-    * [[.mainmenu:globaltypefilter|Algemeen Cache Type Filter]] - Filtering van cache typen
-    * [[.mainmenu:start#bottom_section|Status info]] - De status informatie die getoond wordt in de onderste sectie van het hoofdscherm
+
     * [[.mainmenu:settings|Instellingen]] - Configureer de applicatie
 
 ==== Geocaches ====
@@ -53,6 +42,7 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
 
   * [[cachedetails|Geocache details]] - Uitleg over de geocaching details pagina
   * [[Logging|Het loggen van Geocaches]] - Het loggen van je Geocaching vondsten
+  * [[cachevariables|Cache Variables]] - Variabelen gebruiken om cache gerelateerde berekeningen te maken
 
 ==== Trackables ====
 {{anchor:trackables:}}
@@ -71,12 +61,12 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
 ==== Offline functies ====
 {{anchor:offline_functions:}}
 
-   * [[offline|Offline caching]] - Offline gebruik
-   * [[offline#gpx_import|GPX import]] - Importeren van caches uit GPX bestanden
-   * [[.mainmenu:pocketquery|Pocket queries]] - Bekijken en importeren van Pocket Queries
-   * [[offline#offline_logging|Offline loggen]] - Offline loggen van caches
-   * [[offline#field_note_export|Veldnotities]] - Exporteren van veldnotities
-   * [[offline#offline_maps|Offline kaarten]] - Gebruik van offline kaarten 
+  * [[offline|Offline caching]] - C:geo offline gebruiken
+    * [[offline#gpx_import|GPX import]] - Importeren van caches uit GPX bestanden
+    * [[.mainmenu:pocketquery|Bladwijzerlijstten en Pocket queries]] - Bekijken en importeren van Bladwijzer lijsten en Pocket Queries
+    * [[offline#offline_logging|Offline loggen]] - Offline loggen van caches
+    * [[offline#field_note_export|Veldnotities]] - Exporteren van veldnotities
+    * [[offline#offline_maps|Offline kaarten]] - Gebruik van offline kaarten 
 
 ==== Gebruiker gedefinieerde caches ====
 {{anchor:udc:}}
@@ -94,24 +84,25 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[basicmembers|Beperkingen voor basisleden]]
   * [[coordformat|Cooördinaat formaten]]
   * [[attributes|Attributen]]
-  * [[.mainmenu:utilityprograms|Hulpprogramma's]]
+  * [[.mainmenu:utilityprograms|Andere nuttige apps]]
 
 ===== Speciale functies en hints =====
 {{anchor:special_functions_and_hints:}}
 
-  * [[intents|Geocaching gerelateerde links]]
-  * [[nfc|Caches delen met NFC]]
+  * [[offlinemaps|Offline kaart tutorial]]
+  * [[intents|Open geocaching gerelateerde links]]
   * [[hiddenfunctions|Verborgen functies in c:geo]]
+  * [[nfc|Caches delen met NFC]]
   * [[https://send2.cgeo.org|Gebruik van send2cgeo]]
   * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
   * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
   * [[quick_widgets|Snelle toegang en widgets gebruiken als snelkoppelingen voor sommige c: geo-functies]]
   * [[replacedevice|C:geo migreren naar een ander apparaat]]
+  * [[brouter|Gerouteerde navigatie gebruiken in c:geo]]
 
 ===== Plugins and Addon functions =====
 {{anchor:plugins}}
-  * [[contacts|Contacts plugin]] - c:geo contacten plugin
-  * [[brouter|Brouter]] - Gebruik maken van brouter met c:geo
+  * [[contacts|Contacten plugin]] - c:geo contacten plugin
 ===== FAQ =====
 {{anchor:faq:}}
 

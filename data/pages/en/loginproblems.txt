@@ -104,6 +104,7 @@ Please login once on the geocaching website using your browser/PC, solve the Cap
 
 Furthermore geocaching.com might use such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
 
+If you are using the geocaching.com app on your mobile, it might also help if you open that app, log off, close the app, restart and login again.
 ==== Login failed: You must validate your account on the Geocaching.com website first ====
 
 You mail address and/or your account is not yet or no longer validated on the geocaching server. 

@@ -1,15 +1,15 @@
 
 
 ====== Live kaart======
-
-{{:main_live_default.png?nolink&100 |}}
+	
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Terwijl het kaartscherm wordt weergegeven, wordt je mobiele apparaat voor het gemak niet automatisch uitgeschakeld. Je moet dit scherm verlaten om terug te keren naar de automatische (getimede) uitschakeling voor energiebesparing. Natuurlijk werkt het handmatig in- en uitschakelen van uw mobiele apparaat nog steeds zoals gewoonlijk.
 </WRAP>
 
 
-{{ :nl:livemap_1.png?direct&400 |}}
+{{ :en:livemap_1.png?direct&400 |}}
 
 ===== Bovenste balk=====
 {{anchor:top_bar_menu:}}
@@ -23,9 +23,11 @@ Als een menu-item wordt weergegeven als pictogram, kun je langere tijd op het pi
 
 ^ Icoon ^ Functie ^ Omschrijving ^
 |{{ :en:livemap_mapname.png?nolink&150 |}}|Kaart info|Toont de status van de huidige kaart: ''Live kaart'' in het geval de kaart live is, ''Kaart'' als de live modus uitgeschakeld is of de naam van een lijst.\\ Daarnaast wordt het aantal caches weergegeven, die op de kaart worden getoond.|
-|{{ :en:livemap_progress.png?nolink&40 |}} |Voortgang indicator|Er wordt een draaiende voortgang indicator getoond wanneer de live kaart aan het laden is van de geocaching servers en/of van je cachelijst. Het zal verdwijnen als de live kaart klaar is met laden.|
-|{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centreer Positie|Deze knop kan worden gebruikt om de kaart te centreren op je huidige positie. \\ \\ Als de kaart is gecentreerd op jouw positie zal het icoon gevuld zijn.|
+|{{ :settings_map.png?nolink&40 |}}|[[livemap#map_settings|Kaartinstellingen]]|Deze knop wordt onderaan in het midden van de kaart weergegeven en opent een menu met snelle instellingen met verschillende opties om de kaartweergave aan te passen (bijvoorbeeld het verbergen van bepaalde elementen).|
+|{{ :en:livemap_progress.png?nolink&80 |}} |Voortgang spinner|Een kleine blauwe lijn direct onder de titelbalk wordt weergegeven als voortgangsindicator terwijl de livekaart gegevens laadt van de geocachingservers en/of van je cachelijsten. Het zal verdwijnen als de live-kaart is geladen.|
+|{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centreer Positie|Deze knop kan worden gebruikt om de kaart op je huidige positie te centreren. \\ \\ Als de kaart op je positie is gecentreerd, wordt een gevuld pictogram weergegeven.|
 |{{ :ic_action_layers.svg?nolink&40 |}}|Kaartbron selectie|Gebruik deze knop om de actieve [[..:mapsources|kaartbron]] te wijzigen.|
+|{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filter]]|Als je op dit pictogram drukt, wordt een filterdialoogvenster geopend om de caches op je kaart te filteren op basis van verschillende criteria. \\ \\ Indien zichtbaar in de bovenste balk, zal een lange tik een lijst openen met de opgeslagen filters om het actieve filter te wijzigen.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow Menu Knop|Door deze knop aan te raken worden alle overige functies getoond, die niet op de bovenste balk van je apparaat passen en zullen als daarvoor in de plaats als een lijst worden getoond. De functie s die in de lijst worden getoond worden ook in deze tabel worden beschreven.|
 |{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Live aan- / uitzetten|Deze functie schakelt het automatisch updaten van de live kaart aan of uit.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Alle opslaan|Slaat alle caches op als lijst, die momenteel worden getoond op de kaart. De caches die al opgeslagen zijn zullen tijdens dit proces worden ververst.|
@@ -35,6 +37,8 @@ Als een menu-item wordt weergegeven als pictogram, kun je langere tijd op het pi
 | | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
 | | Individuele route |Dit zal een submenu openen voor het beheren, laden of verbergen van een [[livemap#map_navigation|individuele route]], welke je kan maken door langdurig op een element van de kaart te drukken. Dit gedrag moet worden geactiveerd in  [[.settings#map_behavior|kaart gedrag instellingen]].|
 | |[[lists#cache_list|Show as list]]|This will display all caches shown on the map as [[lists|cache list]].|
+
+
 ===== Kaart inhoud =====
 {{anchor:map_content:}}
 
@@ -42,26 +46,17 @@ De kaart zal je het geselecteerde [[..:mapsources|kaart type]] tonen met een liv
 
 De live kaart toont altijd een combinatie van caches van de door jou ingestelde geocaching platformen alsmede opgeslagen caches in jouw  [[lists|cache lijsten]] als niet opgeslagen caches. 
 
-De volgende tabel brschrijft de verschillende markeringstypen die gebruikt worden op de live kaart.
 
 <WRAP center round tip 100%>
-De tabel zal alleen de verschillende icoontjes beschrijven, niet de verschillende typen geocaches. Druk op de volgende link voor meer informatie over de [[..:cacheicons|Geocache Iconen]] en [[..:cachemarkers|Geocache markering  iconen in c:geo]], welke door heel c:geo worden gebruikt.
+Druk op de volgende links om informatie te krijgen over [[..:cacheicons|Geocache Type iconen in c:geo]] en [[..:cachemarkers|Geocache markerings iconen in c:geo]], welke overal in c:geo worden gebruikt.
 </WRAP>
-
-^ Icoon ^ Omschrijving ^ 
-|{{ :my_location_chevron.png?nolink&40 |}}|Deze pijl toont jouw huidige positie en oriëntatie op de kaart.|
-|{{ :marker.png?nolink&40 |}}|Positie van een cache van geocaching.com. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
-|{{ :marker_disabled.png?nolink&40 |}}|Positie van een uitgeschakelde of gearchiveerde cache van geocaching.com. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
-|{{ :marker_oc.png?nolink&40 |}}|Positie van een cache van opencaching platform. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Positie van een uitgeschakelde of gearchiveerde cache van opencaching platform. De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
-|{{ :marker_other.png?nolink&40 |}}|Positie van een cache van een ander platform dan geocaching.com of opencaching (bijv. extremcaching.com). De pijl wijst naar de coördinaten van de cache op de kaart. Het frame van het icoontje zal het corresponderende [[..:cacheicons|cache type]] bevatten.|
-
 ===== Kaart popup scherm=====
 {{anchor:map_popup_window:}}
 
 Als je op een cache drukt op de live kaart zal er een popup scherm verschijnen boven de map met informatie over de geselecteerde cache:
 
-{{:nl:.mainmenu:livemap_popup_1.png?direct&400 |}}{{ :nl:.mainmenu:livemap_popup_2.png?direct&400 |}}
+
+{{:en:livemap_popup_1.png?direct&400 |}}{{ :en:livemap_popup_2.png?direct&400 |}}
 
 ==== Bovenste sectie ====
 {{anchor:top_section:}}
@@ -79,6 +74,7 @@ Deze sectie van de kaart toont verschillende menu opties voor de geselecteerde c
 |Caches rondom|Deze optie maakt een lijst van [[lists|caches dichtbij]] de coördinaten van de geselecteerde cache en zal de resultaten tonen.|
 |Open in browser|Deze optie opent de geselecteerde cache items op de  geocaching webpagina door middel van je internet browser.|
 |Deel cache|Dit zal een link naar de geselecteerde cache maken door middel van de ingebouwde Android deel opties.|
+|Wisselen praten|Start of stopt de tekst-naar-spraakuitvoer van richting en afstand naar het doel. Je kunt het display ook uitschakelen nadat de spreekfunctie is gestart.|
 
 ==== Cache informatie ====
 {{anchor:cache_information}}
@@ -114,6 +110,7 @@ Deze sectie van het popup scherm toont enkele opties voor het beheren van de ops
 |{{ :ic_menu_edit.svg?nolink&40 |}}|Als de cache al is opgeslagen in je [[lists|cache lijsten]] zal dit icoontje worden getoond en maakt het mogelijk om de lijst aan te passen of toe te voegen aan een andere lijst.|
 |{{ :ic_menu_delete.svg?nolink&40 |}}|Als de cache al is opgeslagen in je [[lists|cache lijsten]] zal dit icoontje worden getoond en maakt het mogelijk om de cache te verwijderen uit je lijsten.|
 
+/* Author comment: Vanaf hier gebleven (Linsty)*/
 ==== Hint/aantekening sectie ====
 {{anchor:hint_section:}}
 
@@ -122,35 +119,142 @@ Als je gedrukt hebt op de hint knop, the hint van de eigenaar en /of je persoonl
 {{ :en:livemap_popup_hint.png?direct&400 |}}
 
 
-===== Kaartinstellingen =====
+===== Snelle (kaart)instellingen =====
 {{anchor:map_settings}}
 
-Na het selecteren van de menufunctie '' Kaartinstellingen '' wordt het volgende optiescherm getoond:
+/* Author comment: Vanaf hier gebleven (Linsty)*/
+Na het selecteren van de menufunctie '' Snelle instellingen '' wordt het volgende optiescherm getoond:
+{{ :en:livemap_mapsettings.png?direct&400 |}}
 
-{{ :nl:livemap_mapsettings.png?direct&400 |}}
+^ Categorie ^ Omschrijving ^ 
+|Toon caches|Schakel of caches op de kaart worden weergegeven, afhankelijk van hun huidige staat.\\ De instellingen die hier worden gebruikt, worden automatisch toegepast als een live  [[..:cachefilter|filter]].|
+|Toon waypoints|Schakel of waypoints op de kaart worden weergegeven, afhankelijk van het type of de staat.|
+|Toon andere|Dit gedeelte bevat opties om andere elementen op de kaart te verbergen.|
+|Compacte iconen gebruiken|Met deze optie kun je overschakelen van de klassieke weergave van het cachepictogram naar een compacte weergave met enkelvoudige caches als alleen een gekleurde stip. Je kunt deze functie instellen op aan/uit en automatische modus. De automatische modus schakelt tussen klassieke en compacte weergave, afhankelijk van het zoomniveau.|
+|Routering|Hier kun je de gewenste routeringsmodus selecteren die wordt gebruikt om de richtingslijn te trekken tussen je positie en de gekozen doelcache/waypoint. Geen lijn, een rechte lijn of stapsgewijze navigatie voor voetganger, fiets of auto kan worden gebruikt.\\ \\ :!: Voor stapsgewijze navigatie is een geactiveerde en geconfigureerde [[..brouter|BRouter-setup nodig] ]].|
+|Individuele route|Je kunt ervoor kiezen om automatisch het startpunt van je individuele route als doel voor de richtingslijn in te stellen.\\ Dit item wordt alleen weergegeven als een individuele route op de kaart aanwezig is.|
 
-^ Optie ^ Omschrijving ^ 
-|Verberg eigen/gevonden caches|Indien geactiveerd, zijn je eigen en gevonden caches verborgen op de kaart. \\ Dit is dezelfde optie als ook beschikbaar in [[settings#cache_details|c:geo instellingen]] en als je het hier verandert zal het ook permanent veranderen in je instellingen. Houd er rekening mee dat er een technische beperking geldt voor het verbergen van je eigen en gevonden caches, zoals uitgelegd op de pagina [[settings # cache_details | instellingen]] |
-|Verberg uitgeschakelde caches|Als geactiveerde uitgeschakelde caches op de kaart zijn verborgen. \\ Dit is dezelfde optie als ook beschikbaar in [[settings# cache_details | c:geo-instellingen]] en dit wordt gewijzigd zal dit ook permanent in je instellingen worden gewijzigd. Houd er rekening mee dat er een technische beperking geldt voor het verbergen van verborgen caches, zoals uitgelegd op de pagina [[settings # cache_details | instellingen]] |
-|Toon richting|Hiermee wordt de richtingslijn / -routering tussen je positie en een geselecteerde cache in- of uitgeschakeld.|
-|Toon cirkels|Indien geactiveerd zal c:geo cirkels tonen met een afstand van 161 meter rond alle fysieke waypoints (dat wil zeggen traditionele caches, fysieke stadia van een cache, mystery caches met gecorrigeerde coördinaten). Dit is de minimale afstand die caches moeten hebben op geocaching.com en deze cirkel kan handig zijn wanneer je van plan bent een nieuwe cache te verbergen en een positie zoekt.|
-|Toon spoor|Met deze optie kun je een route activeren die je positiegeschiedenis (je beweging) op de kaart toont. Dit is dezelfde optie die ook beschikbaar is in [[settings#map_content|c:geo instellingen]]. Als je dit hier wijzigt, verandert dit ook permanent in uw instellingen.|
-|Gebruik compacte iconen|Deze optie schakelt over van de klassieke weergave van het cachepictogram naar een compacte weergave die alleen caches als een gekleurde stip toont. De kleuren vertegenwoordigen het cachetype volgens de kleur van het klassieke pictogram (bijv Traditional caches worden getoond als groene stip).|
 
-===== Routering=====
-{{anchor:routing:}}
+===== Route-/Spoorinstellingen =====
+{{anchor:route_track_settings}}
 
-Na het selecteren van de menufunctie '' Routering '' wordt het volgende optiescherm getoond:
+**FIXME**
 
-<WRAP center round info 60%>
-Deze instelling wordt alleen weergegeven als een ondersteunde [[utilityprograms |routeringsapp]] is geïnstalleerd en beschikbaar is.
+===== Kaart navigatie =====
+{{anchor:map_navigation}}
+
+c:geo biedt verschillende opties om te helpen bij het navigeren met behulp van verschillende lijnen die op de (live) kaart zijn getekend:
+
+  * Het kan een **richtingslijn** tonen tussen je positie en een gekozen doelcache/waypoint.
+  * Je kunt een **GPX spoor/route** laden, deze wordt dan op de kaart getoond.
+  * Je kunt een **individuele route** instellen tussen verschillende caches/waypoints.
+  * c:geo kan optioneel een **geschiedenisspoor** tekenen met de positiegeschiedenis (je beweging) op de kaart.
+
+Om het meeste uit de richtingslijn en individuele route te halen, wordt aanbevolen om de app [[..:brouter|BRouter]] te installeren en configureren zoals beschreven in het gekoppelde gedeelte van onze gebruikershandleiding. Dit maakt gerouteerde lijnen mogelijk in plaats van alleen een rechte verbindingslijn.
+
+De verschillende lijn- en spoortypes worden hieronder in meer detail beschreven.
+==== Rechte lijn ====
+
+De richtingslijn is een kaartlijn die je huidige positie verbindt met een gekozen doelcache/waypoint. Dit kan een rechte lijn zijn of een gerouteerde lijn als je [[..:brouter|BRouter]] hebt geïnstalleerd en geconfigureerd.
+
+De standaard lijnkleur is <color #ed1c24>rood</color>, maar lijnkleur en extra weergaveparameters kunnen worden geconfigureerd volgens ja behoeften binnen de instellingen van de [[.:settings#map_lines_customization|kaartlijn aanpassingen]].
+
+Het onderstaande voorbeeld toont het typische uiterlijk van de richtingslijn (met en zonder Brouter).
+
+^ Richtingslijn zonder BRouter ^ Richtingslijn met BRouter ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+Er zijn twee manieren om de richtingslijn te activeren:
+  * Tik op een cache, die op de kaart wordt weergegeven, en activeer de richtingslijn met het bijbehorende pictogram {{:ic_menu_near_me.svg?nolink&30|}} getoond in de [[livemap#map_popup_window|kaart popup]].
+  * Vanuit het [[..:cachedetails|cache details menu]] gebruik 'Navigeer - Toon op kaart' om de kaart te openen inclusief een richtingslijn.
+
+==== GPX spoor/route ====
+
+Je hebt de mogelijkheid om een GPX spoor/route-bestand te laden dat vervolgens op de kaart wordt weergegeven. 
+Cache-eigenaren kunnen bijvoorbeeld een GPX-track/route-bestand verstrekken om een bepaalde route te volgen om een cache te vinden, of je kunt zo'n GPX-track/route genereren met andere routeringstools.
+Tracks en routes zijn beide in principe GPX-bestanden, de ene heeft een opgenomen spoor van posities (track-bestand), de andere (route-bestand) slechts enkele wegmarkeringen, waarvoor c:geo je van punt naar punt zal leiden.
+
+De standaard lijnkleur is <color #22b14c>groen</color>, maar de lijnkleur en aanvullende weergaveparameters kunnen worden geconfigureerd volgens uw behoeften binnen de [[.:settings#map_lines_customization|kaartlijnaanpassing]]-instellingen.
+
+Het onderstaande voorbeeld toont het typische uiterlijk van een individuele GPX-track/route.
+
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+Om een GPX-track te laden of te verwijderen, moet je de kaartmenu-items gebruiken onder ''GPX-track/route'' in je [[livemap#top_bar_menu|kaartmenu]]:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^Menu item ^ Omschrijving^ 
+|Spoor/Route laden vanuit GPX|Hiermee kunt je een GPX-bestand met een spoor of route selecteren om dit op de kaart weer te geven.|
+|Centreer op spoor/route|Zal de kaart verplaatsen/zoomen, zodat een reeds geladen track/route volledig wordt weergegeven.|
+|Uitladen spoort/route|Hiermee wordt de geladen track/route van de kaart verwijderd.|
+
+==== Individuele route ====
+
+Een individuele route kan worden gemaakt door meerdere caches/waypoints lang aan te tikken op de (live) kaart. Er wordt dan een route getekend tussen elk van de geselecteerde caches/waypoints in volgorde van uw selectie. Hiermee kun je een aangepaste route tussen caches maken en bijv. gebruiken om je caching-trip te plannen.
+
+<WRAP center round important 60%>
+Om gebruik te maken van de individuele route-functie, moet je de lange tik-functie op de kaart in je [[.:settings#map_behavior|kaart gedrag instellingen]].
 </WRAP>
 
-{{:nl:livemap_routing.png?direct&400 |}}
 
-^ Optie ^ Omschrijving ^
-|Rechte lijn|Dit toont een directe lijn (hemelsbreed) tussen jouw positie en de geselecteerde cache.|
-|Wandelen|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor voetgangers.|
-|Fiets|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor fietsers.|
-|Auto|Hiermee wordt de routing-app ingesteld om een lijn te tekenen volgens de stapsgewijze navigatie voor auto's.|
+De routepunten worden verbonden door een rechte lijn of een gerouteerde lijn als je [[..:brouter|BRouter]] hebt geïnstalleerd en geconfigureerd. Het gebruik van BRouter voor deze functie wordt ten zeerste aanbevolen om er het maximale uit te halen.
 
+De standaard lijnkleur is <color #00a2e8>blauw</color> maar de lijnkleur en aanvullende parameters kunnen naar wens worden geconfigureerd binnen de [[.:settings#map_lines_customization|Kaartlijn aanpassingen]].
+
+Het onderstaande voorbeeld toont het typische uiterlijk van een individuele route.
+
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+Hoewel je caches/waypoints van/naar je hoofd kunt toevoegen en verwijderen door er lang op te tikken, zijn er ook enkele extra functies, die je kunt vinden onder het menu-item ''Individuele route'' in je [[livemap#top_bar_menu|kaartmenu]]:
+
+{{ en:livemap_individual_route.png?nolink&400 |}}
+
+^Menu item ^ Omschrijving ^ 
+|Laad individuele route|Laad een eerder opgeslagen individuele route.|
+|Automatisch instellen als doel|Indien geactiveerd, wordt het startpunt van de route automatisch ingesteld als doel van de richtingslijn (de weg tonen van uw positie naar het startpunt van de route).\\ Dit kan handig zijn tijdens het doen van een geocaching-tour. Als je lang op een bezochte cache/waypoint tikt, wordt deze van je individuele route verwijderd en als deze optie is geactiveerd, wordt je volgende stop op de route automatisch als doel ingesteld.|
+|Sorteer individuele route|Opent een dialoogvenster waarin je de volgorde kunt wijzigen of één of meer van de geselecteerde caches/waypoints op de route kunt verwijderen; De route wordt dan dienovereenkomstig opnieuw berekend.\\ Vergeet niet op de knop "opslaan" te drukken om je wijzigingen aan de individuele route op te slaan, of verlaat het dialoogvenster om ze te negeren.|
+|Centreer op route|Zal de kaart verplaatsen/zoomen, zodat de individuele route volledig wordt weergegeven.|
+|Exporteer individuele route|Je kunt de gemaakte individuele route exporteren naar een GPX-routebestand.|
+|Wis individuele route|Hiermee wordt de gemaakte individuele route verwijderd.|
+
+==== Geschiedenis spoor ====
+ 
+Het geschiedenisspoor biedt een lijn van je positiegeschiedenis (je beweging) op de kaart.
+Je moet de geschiedenistrack activeren in de [[.:settings#map_content|Kaartinhoud instellingen]], waar je ook extra parameters kunt configureren (zoals de maximale lengte van de track).
+
+De standaard lijnkleur is zwart, maar de lijnkleur en aanvullende weergaveparameters kunnen worden geconfigureerd volgens je behoeften binnen de [[.:settings#map_lines_customization|kaartlijnaanpassing]]-instellingen.
+
+Het onderstaande voorbeeld toont het typische uiterlijk van een geschiedenisspoorlijn.
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+Om de geschiedenistrack te configureren, kun je de kaartmenu-items gebruiken onder ''Geschiedenis spoor'' in je [[livemap#top_bar_menu|kaartmenu]]:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^Menu item ^ Beschrijving^ 
+|Exporteer geschiedenis spoor|Hiermee kun je jouw positiegeschiedenis exporteren naar een GPX-trackbestand.|
+|Verberg/Toon geschiedenis spoor|Met deze optie kun je de geschiedenistrack in-/uitschakelen. Als je het uitschakelt, wordt het bestaande nummer niet gewist, maar stop je gewoon met opnemen en verberg je het.|
+|Wis geschiedenis spoor|Hiermee wordt de positiegeschiedenis gewist en zo de bestaande track verwijderd.|
+
+==== Afstandsinformatie ====
+
+Bij gebruik van de richtingslijn en/of individuele route geeft c:geo ook verschillende afstandscijfers bovenaan de kaart (ook te zien in de speciale schermafbeeldingen hierboven). De afstanden worden weergegeven in meter/kilometer of voet/mijl, afhankelijk van je instellingen.
+
+Afhankelijk van of je één of beide lijnen gebruikt en of je geactiveerd hebt om naast de gerouteerde afstand ook de rechte afstand weer te geven (alleen als [[..:brouter|Brouter]] is geïnstalleerd) in je [[.:settings#map_content| instellingen voor kaartinhoud]] kunnen verschillende afstandscijfers worden weergegeven.
+
+Onderstaande afbeelding toont een combinatie van alle mogelijke afstandscijfers. Bovendien wordt de gekozen doelcache/waypoint linksboven weergegeven als de richtingslijn actief is.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Sommige of al deze afstandscijfers kunnen worden weergegeven, afhankelijk van de configuratie en actieve navigatielijnen:
+
+  * Het eerste cijfer is de rechte lijnafstand voor de richtingslijn (d.w.z. rechte afstand tussen je huidige positie en de gekozen doelcache/waypoint). Het pictogram vooraan vertegenwoordigt daarom de rechte lijn als zowel de gerouteerde als de rechte lijnafstanden worden weergegeven.
+  * Het tweede cijfer is de gerouteerde lijnafstand voor de richtingslijn (d.w.z. de afstand tussen je positie en de gekozen doelcache/waypoint volgens de [[..:brouter|BRouter]] routeringsinformatie). Het pictogram vooraan vertegenwoordigt daarom de gerouteerde lijn als zowel de gerouteerde als de rechte lijnafstanden worden weergegeven.
+  * Het derde cijfer is de lengte van uw individuele route.
+
+Voor een betere zichtbaarheid kun je op de afstanden drukken om ze te vergroten en weer te verkleinen. Als rechte en gerouteerde afstanden worden weergegeven, kun je met elke druk wisselen tussen vergrote rechte afstand, vergrote gerouteerde afstand of normale weergave.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}

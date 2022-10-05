@@ -1,538 +1,3 @@
-1621375201	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] fixed typo		1
-1621377260	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	e	de:cachedetails	murggel	[Persönliche Notiz] fix typo		1
-1621546141	2a00:1e:9640:fc:11d4:e0d5:a3ef:c983	E	de:mainmenu:livemap	lineflyer	[Oberer Bereich] 		-105
-1621984367	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	it:mainmenu:lists	silviopen	[Elenco Cache]  correti alcuni refusi		-48
-1621984482	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	it:mainmenu:lists	silviopen	[Carica più opzioni] 		-15
-1622143086	163.158.160.54	E	nl:start	linstylemon	removed google + and changed url paypal		-69
-1622143585	163.158.160.54	E	nl:sidebar	linstylemon	add quick widget and replace device to menu		136
-1622143704	163.158.160.54	C	nl:replacedevice	linstylemon	aangemaakt		3746
-1622143856	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		1
-1622144548	163.158.160.54	E	nl:notecoords	linstylemon	[Using keywords for waypoint types]  translated		107
-1622144589	163.158.160.54	E	nl:start	linstylemon	[Speciale functies en hints] 		-1
-1622144986	163.158.160.54	E	nl:contacts	linstylemon	page updated to latest changes		-3
-1622145153	163.158.160.54	E	nl:contacts	linstylemon	[c:geo contacts plugin] 		182
-1622145300	163.158.160.54	E	nl:contacts	linstylemon	[Installation] translation		17
-1622145494	163.158.160.54	E	nl:contacts	linstylemon	[Usage] 		130
-1622145608	163.158.160.54	E	nl:contacts	linstylemon	[Data privacy statement] 		1
-1622146031	163.158.160.54	E	nl:contacts	linstylemon	[What information is collected by the c:geo contacts plugin?] 		13
-1622146401	163.158.160.54	E	nl:contacts	linstylemon	translation		53
-1622146519	163.158.160.54	E	nl:contacts	linstylemon	translated		-4
-1622146544	163.158.160.54	E	nl:contacts	linstylemon	completed translation		-165
-1622146587	163.158.160.54	e	nl:start	linstylemon	[Plugins and Addon functions] 		-1
-1622147139	163.158.160.54	E	nl:brouter	linstylemon	translated		45
-1622148975	163.158.160.54	E	nl:brouter	linstylemon	translation		123
-1622149729	163.158.160.54	E	nl:brouter	linstylemon	[Usage in c:geo] 		4
-1622149830	163.158.160.54	E	nl:brouter	linstylemon	[Direction line] 		6
-1622150000	163.158.160.54	E	nl:brouter	linstylemon	[Individual route] 		96
-1622150354	163.158.160.54	E	nl:brouter	linstylemon	[Customization] 		9
-1622150396	163.158.160.54	E	nl:brouter	linstylemon	completed translation		-165
-1622150413	163.158.160.54	E	nl:start	linstylemon	[Plugins and Addon functions] 		-1
-1622150492	163.158.160.54	E	nl:quick_widgets	linstylemon	page updated to latest changes		-3
-1622150571	163.158.160.54	E	nl:quick_widgets	linstylemon	[Quick access and widget functions] 		27
-1622150680	163.158.160.54	E	nl:quick_widgets	linstylemon	[Quick access] 		160
-1622150819	163.158.160.54	E	nl:quick_widgets	linstylemon	[Widgets] 		99
-1622150861	163.158.160.54	e	nl:start	linstylemon	[Speciale functies en hints] 		-1
-1622150898	163.158.160.54	E	nl:quick_widgets	linstylemon	completed translation		-165
-1622150967	163.158.160.54	E	nl:installation	linstylemon	[Updaten van c:geo] 		0
-1622151513	163.158.160.54	E	nl:mainmenu:start	linstylemon	[Bovenste balk menu] 		167
-1622152332	163.158.160.54	E	nl:mainmenu:livemap	linstylemon	[Bovenste balk] 		709
-1622152355	163.158.160.54	E	nl:mainmenu:livemap	linstylemon	[Bovenste balk] 		-401
-1622152432	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Cache lijst] 		0
-1622152572	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Lijsten beheren] 		0
-1622153084	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		506
-1622153238	163.158.160.54	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		0
-1622153254	163.158.160.54	C	nl:udc	linstylemon	aangemaakt		3409
-1622153383	163.158.160.54	e	nl:sidebar	linstylemon			51
-1622153510	163.158.160.54	E	nl:start	linstylemon	UDC		160
-1622153737	163.158.160.54	E	nl:udc	linstylemon	[User defined caches] 		146
-1622153748	163.158.160.54	E	nl:udc	linstylemon	[Gebruiker gedefineerde caches] 		1
-1622154265	163.158.160.54	E	nl:udc	linstylemon	[Creation of user defined caches] 		128
-1622154699	163.158.160.54	E	nl:udc	linstylemon	[Handling of user defined caches] 		55
-1622154716	163.158.160.54	E	nl:udc	linstylemon	completed translation		-165
-1622155286	163.158.160.54	E	nl:mainmenu:goto	linstylemon	completed translation		-1001
-1622156486	163.158.160.54	E	nl:cachedetails	linstylemon	[Bovenste balk menu] 		-709
-1622157564	163.158.160.54	E	nl:cachedetails	linstylemon	completed translation		1589
-1622217600	163.158.160.54	E	nl:logging	linstylemon	[Rapporteer probleem] 		4
-1622218008	163.158.160.54	E	nl:logging	linstylemon	Added images		1048
-1622218247	163.158.160.54	E	nl:logging	linstylemon	[Quick add icons] 		-628
-1622218418	163.158.160.54	E	nl:logging	linstylemon	[Afbeeldingen] 		448
-1622218637	163.158.160.54	E	nl:logging	linstylemon	[Foto koppelen] 		-53
-1622218892	163.158.160.54	e	nl:offline	linstylemon			-5
-1622222963	163.158.160.54	E	nl:cacheicons	linstylemon	[Geocache Iconen] 		116
-1622226661	163.158.160.54	E	nl:cacheicons	linstylemon	[Geocache Iconen] 		353
-1622226776	163.158.160.54	E	en:cacheicons	linstylemon	Added Adventure Lab Cache		325
-1622228849	163.158.160.54	E	nl:offlinemaps	linstylemon	[Downloaden van kaarten/thema's] 		5838
-1622229262	163.158.160.54	E	nl:intents	linstylemon	chrome view		258
-1622229672	163.158.160.54	E	nl:spoilersync	linstylemon	changed basedirectory		250
-1622229942	163.158.160.54	E	nl:translation	linstylemon	Changed requirements		-414
-1622924651	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	en:basicmembers	lineflyer	Add adventure lab as PM feature		150
-1622924713	2a00:ee2:f012:5ee:9455:da99:5c2c:8d23	E	de:basicmembers	lineflyer	Add adventure lab as PM feature		157
-1622958729	85.76.42.36	E	fi:sidebar	vike91	update		107
-1622958769	85.76.42.36	E	fi:sidebar	vike91	update		1
-1622960610	85.76.42.36	C	fi:replacedevice	vike91	luotu		4088
-1622960630	85.76.42.36	E	fi:replacedevice	vike91	[Vanhalla laitteella suoritettavat vaiheet] 		-5
-1622960712	85.76.42.36	E	fi:start	vike91	update		-16
-1622960876	85.76.42.36	E	fi:basicmembers	vike91	update		173
-1622961111	85.76.42.36	E	fi:cacheicons	vike91	update		500
-1622961218	85.76.42.36	E	fi:hiddenfunctions	vike91	update		145
-1622961386	85.76.42.36	E	fi:intents	vike91	update		223
-1622961737	85.76.42.36	E	fi:trackabledetails	vike91	update		16
-1622961999	85.76.42.36	E	fi:spoilersync	vike91	update		237
-1622962060	85.76.42.36	E	fi:quick_widgets	vike91	update		1
-1622962318	85.76.42.36	E	fi:mainmenu:lists	vike91	update		-11
-1622962387	85.76.42.36	E	fi:firststeps	vike91	update		9
-1622962453	85.76.42.36	E	fi:mainmenu:search	vike91	update		1
-1622962635	85.76.42.36	E	fi:mainmenu:start	vike91	update		191
-1622963044	85.76.42.36	C	fi:mainmenu:aboutcgeo	vike91	luotu		981
-1622963498	85.76.42.36	C	fi:mainmenu:history	vike91	luotu		960
-1622964185	85.76.42.36	C	fi:mainmenu:quicksearch	vike91	luotu		1939
-1622964784	85.76.42.36	C	fi:ebook	vike91	luotu		254
-1622964840	85.76.42.36	E	fi:ebook	vike91	bad finnish translation on book template warning		92
-1622964866	85.76.42.36	E	fi:ebook	vike91	lnkfix		-3
-1622965167	85.76.42.36	E	fi:compass	vike91	update		3
-1622965351	85.76.42.36	E	fi:coordinatedialog	vike91	update		0
-1622966714	85.76.42.36	E	fi:logging	vike91	update		1275
-1622966888	85.76.42.36	E	fi:loggingtb	vike91	update		2
-1622967098	85.76.42.36	E	fi:offline	vike91	update		0
-1622967239	85.76.42.36	E	fi:mainmenu:livemap	vike91	update		-109
-1623064886	2001:14bb:440:ee9:dd73:a872:472e:d251	E	fi:notecoords	vike91	update		807
-1623064940	2001:14bb:440:ee9:dd73:a872:472e:d251	E	fi:notecoords	vike91	[Reittipisteiden varmuuskopiointi henkilökohtaiseen muistiinpanoon] 		0
-1623073412	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:offlinemaps	vike91	Revised the whole page due to many many changes.		-1627
-1623075201	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:cachedetails	vike91	updatew		754
-1623078246	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:mainmenu:settings	vike91	update		2148
-1623078302	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:mainmenu:settings	vike91	[Luo varmuuskopio] 		0
-1623078441	2001:14bb:cb:b112:6906:265c:87ce:c21d	E	fi:start	vike91	[Tietoja c:geosta] 		212
-1625083551	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:notecoords	murggel	[Advanced waypoint syntax] 		1123
-1625083682	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:notecoords	murggel	added formula syntax (also the previous change)		-3
-1625084003	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] Beschreibung des tags (F-PLAIN)		1239
-1625090242	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:notecoords	murggel	[Advanced waypoint syntax] other formula formats are in progress		42
-1625090290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:notecoords	murggel	[Erweiterte Wegpunkt-Syntax] die restlichen Formel-Formate sind in Arbeit		53
-1625503981	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:start	eddiemuc	[Quick Reference] 		36
-1625506932	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	en:cachefilter	eddiemuc	created		3883
-1625507252	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			0
-1625507333	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			39
-1625507356	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-26
-1625507471	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:sidebar	eddiemuc			40
-1625510314	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	C	fi:cachefilter	vike91	luotu		3919
-1625510534	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:start	vike91	update		40
-1625510573	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:sidebar	vike91	update		44
-1625511450	2001:14bb:69f:7ff8:cd46:30c4:5387:5471	E	fi:notecoords	vike91	update		1244
-1625576588	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc	[Basic filtering] 		-189
-1625590961	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			5073
-1625591088	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			1
-1625634775	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			6
-1625635157	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-1
-1625635885	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2472
-1625638712	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			2
-1625638918	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			-48
-1625639275	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	eddiemuc			596
-1625674806	160.46.252.18	e	en:cachefilter	eddiemuc			808
-1625675599	160.46.252.18	e	en:cachefilter	eddiemuc			1534
-1625677003	160.46.252.18	e	en:cachefilter	eddiemuc			3793
-1625677166	160.46.252.18	e	en:cachefilter	eddiemuc	[Distance filter] 		6
-1625677188	160.46.252.18	e	en:cachefilter	eddiemuc	[Log Entry filter] 		4
-1626549347	163.158.160.54	e	nl:trackabledetails	linstylemon			-1
-1626549457	163.158.160.54	e	nl:start	linstylemon	[Snelle Referenties] 		32
-1626556214	163.158.160.54	C	nl:cachefilter	linstylemon	created and translated		20076
-1626556227	163.158.160.54	e	nl:cachefilter	linstylemon			-165
-1626556317	163.158.160.54	e	nl:mainmenu:search	linstylemon			0
-1626557252	163.158.160.54	e	nl:cachemarkers	linstylemon			-79
-1626557347	163.158.160.54	E	nl:basicmembers	linstylemon	Added Adventure Lab Cache		157
-1626558247	163.158.160.54	E	nl:notecoords	linstylemon	Added Advanced Waypoints syntax section		4363
-1626558793	163.158.160.54	E	nl:notecoords	linstylemon	[Advanced waypoint syntax]  translated		520
-1626559083	163.158.160.54	e	nl:sidebar	linstylemon			44
-1626559128	163.158.160.54	e	nl:start	linstylemon			61
-1626559192	163.158.160.54	e	nl:replacedevice	linstylemon	[Migrate c:geo to another device] translated		41
-1626559272	163.158.160.54	e	nl:replacedevice	linstylemon	[Limitations] 		129
-1626559323	163.158.160.54	e	nl:replacedevice	linstylemon	[Prerequisites] 		55
-1626559377	163.158.160.54	e	nl:replacedevice	linstylemon	[Tasks on the old device] 		59
-1626559511	163.158.160.54	E	nl:replacedevice	linstylemon	translation complete		113
-1626559521	163.158.160.54	e	nl:replacedevice	linstylemon			-165
-1626608857	2001:14bb:a4:cfd3:d036:23ba:3af3:4520	E	fi:cachefilter	vike91	update		16047
-1626608880	2001:14bb:a4:cfd3:d036:23ba:3af3:4520	E	fi:start	vike91	[Tietoja c:geosta] 		1
-1626817119	2a00:1e:9640:fc:1007:2493:897b:b806	E	de:start	lineflyer	[Schnellreferenz] 		35
-1626817149	2a00:1e:9640:fc:1007:2493:897b:b806	C	de:cachefilter	lineflyer	angelegt		18132
-1626817170	2a00:1e:9640:fc:1007:2493:897b:b806	E	de:start	lineflyer	[Schnellreferenz] 		0
-1627045784	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:translation	ijeantet	[Prérequis] Remove self registration		-465
-1627046265	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	fr:cachedetails	ijeantet	créée		22473
-1627047057	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:cachedetails	ijeantet	[Geocache Details] First translation to French		188
-1627299599	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:cachedetails	ijeantet	[Top bar menu] First translation to French		395
-1627330499	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:sidebar	lineflyer	Add cache filter to german sidebar		40
-1627330619	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	change link		-1
-1627330627	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Cache Filtering] 		-1
-1627330884	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	Fix some typos and fix links to be language independant		-12
-1627330901	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	D	de:cachefilter	lineflyer	reset		-18132
-1627331064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	de:cachefilter	lineflyer	angelegt		18311
-1627331113	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	Replace click by tap		-4
-1627331241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachefilter	lineflyer	translate		-89
-1627331470	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic filtering] 		57
-1627331486	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	lineflyer	[Basic filtering] 		0
-1627331697	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Standardfilter] 		33
-1627332115	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Cache Type Filter] 		70
-1627332270	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		143
-1627332350	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1646
-1627332459	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		-593
-1627332530	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		1167
-1627332540	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		28
-1627332561	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Advanced filtering] 		29
-1627332849	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Difficulty/Terrain Filter] 		102
-1627333438	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Basic status filter] 		152
-1627333600	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		47
-1627333811	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Advanced filtering] 		30
-1627333883	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Creating and deleting filter criteria] 		174
-1627333927	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Creating and deleting filter criteria] 		37
-1627334248	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Hinzufügen und Entfernen von Filterkriterien] 		1
-1627334457	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Load and save filters] 		147
-1627334876	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Additional filter options] 		48
-1627334953	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Available filter criteria] 		31
-1627373859	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Basic"] 		51
-1627373952	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "Details"] 		45
-1627373996	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Category "Details"] 		2
-1627374376	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		117
-1627374384	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Kategorie "Details"] 		-1
-1627374617	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Category "User Specific"] 		89
-1627374692	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[Filtering] removed 		-1786
-1627374754	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[List menu] Link to new filter page		-1
-1627374815	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] Add filter function		174
-1627374874	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Filter] entfernt		-1989
-1627374902	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Listenmenü] LInk filter to new filter page		-1
-1627374920	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	lineflyer	[Listenmenü] 		0
-1627374939	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:livemap	lineflyer	[Titelzeilen-Menü] 		181
-1627374956	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	lineflyer	[Top Bar Menu] 		-1
-1627374970	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:livemap	lineflyer	.		1
-1627375001	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter criteria details] 		3
-1627375596	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Text filters] 		126
-1627375783	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		10
-1627375800	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		4
-1627375816	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		13
-1627376187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Text filters] 		0
-1627376347	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Textfilter] 		45
-1627376558	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Date filters] 		87
-1627376598	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Datumfilter] 		2
-1627376673	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Status filter] 		104
-1627376716	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-28
-1627376848	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Status filter] 		1
-1627376930	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		1
-1627376956	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	lineflyer	[Basic status filter] 		47
-1627377009	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		1
-1627377017	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Filter laden und speichern] 		-1
-1627377064	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Einfacher Statusfilter] 		-1
-1627377081	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		-1
-1627377577	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Statusfilter] 		167
-1627377804	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Attributes filter] 		29
-1627377914	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Size filter] 		65
-1627380241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Favorites filter] 		106
-1627380420	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Log Entry filter] 		50
-1627381555	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Logs Count filter] 		-35
-1627381747	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Distance filter] 		97
-1627381974	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Entfernungsfilter] 		-1
-1627382112	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	[Dynamic Checkbox filters] 		121
-1627382124	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	lineflyer	Remove Fixme		-179
-1627382219	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Main Icons] 		-206
-1627382289	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	lineflyer	[List menu] 		-50
-1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
-1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:lists	lineflyer	Batch replace link to filter page		-1
-1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
-1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
-1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
-1627382545	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:globaltypefilter	lineflyer	Deprecation notice		126
-1627382603	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:globaltypefilter	lineflyer	Depracation notice		131
-1627382661	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Hauptsymbole] 		-230
-1627382731	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Top Bar Menu] PQ menu now also contains bookmark lists		27
-1627382754	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		28
-1627382841	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:pocketquery	lineflyer	Include lists as well as PQs		121
-1627382936	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:pocketquery	lineflyer	Listen hinzufügen statt nur PQ		161
-1627401684	85.76.113.117	E	fi:mainmenu:globaltypefilter	vike91	update		122
-1627401706	85.76.113.117	E	fi:mainmenu:globaltypefilter	vike91	oops,fix		8
-1627401827	85.76.113.117	E	fi:mainmenu:livemap	vike91	update		183
-1627401865	85.76.113.117	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		2
-1627402060	85.76.113.117	E	fi:mainmenu:pocketquery	vike91	update		130
-1627402203	85.76.113.117	E	fi:mainmenu:start	vike91	update		-171
-1627502611	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:hiddenfunctions	murggel	add long click on filter-indication and filter-menu-icon		321
-1627502900	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:hiddenfunctions	murggel	langer Klick auf Filter-Symbol		357
-1627502962	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachedetails	murggel	[Listenverwaltung] fix typo		2
-1627503031	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	murggel	[Zugriff auf Filter] 		141
-1627503062	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:cachefilter	murggel	[Zugriff auf Filter] langer Klick		1
-1627503113	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cachefilter	murggel	[Accessing filter] long click		99
-1627503462	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:livemap	murggel	[Top Bar Menu] long click on filter		112
-1627503621	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:livemap	murggel	[Titelzeilen-Menü] long click on filter-icon		182
-1627503743	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:lists	murggel	[Listenmenü] long click on filter-icon		182
-1627503803	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:lists	murggel	[List menu] long click on filter-icon		112
-1627735895	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:hiddenfunctions	vike91	update		387
-1627735995	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		145
-1627736013	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:livemap	vike91	[Yläpalkin valikko] 		-1
-1627736093	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:mainmenu:lists	vike91	[Listavalikko] 		139
-1627737351	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:cachefilter	vike91	update		1552
-1627737430	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:cachefilter	vike91	[Suodattimien lisäasetukset] 		0
-1627738062	2001:14bb:a4:c997:6050:f444:1e01:4d16	E	fi:start	vike91	[Tietoja c:geosta] 		0
-1627827316	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:firststeps	lineflyer	Typo		-1
-1627888215	2001:14bb:a2:f8ae:c03:9d5a:bf50:9e78	E	fi:firststeps	vike91	A small change to remove the outdated flag		3
-1627903539	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:brouter	lineflyer	Focus description on internal brouter implementation rather than external Brouter app		-1775
-1627903616	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:start	lineflyer	[Plugins and Addon functions] Move brouter link to other chapter		-50
-1627903657	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] Place link to BRouter page into special functions chapter		68
-1627903695	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] 		-9
-1627904072	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	Internes Routing		-1964
-1627904113	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:brouter	lineflyer	[Activate routing] Add info banner about data size		110
-1627904131	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	[Routing aktivieren] 		1
-1627904153	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:brouter	lineflyer	[Nutzung in c:geo] 		-16
-1627905953	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] 		6
-1627905978	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] New menu item naming. Set Destination is removed		-146
-1627906222	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top section] Add explanation of orientation button and figures		454
-1627906303	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	[Titelzeilenmenü] 		-118
-1627906369	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:compass	lineflyer	[Top Bar Menu] Add "Select Destination". It was not really removed.		146
-1627906517	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	Ziel wählen wieder hinzugefügt		143
-1627906702	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:compass	lineflyer	[Oberer Bereich] 		519
-1627906760	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Erweiterungen und Zusatzfunktionen] 		-56
-1627906788	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Spezielle Funktionen und Tipps] 		60
-1627906830	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	en:sidebar	lineflyer	Move Brouter link from plugins to special functions		26
-1627906852	2a00:1e:9640:fc:5e7:171b:7588:92eb	e	en:start	lineflyer	[Special Functions and Hints] 		-15
-1627906871	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:start	lineflyer	[Benutzerdefinierte Caches] 		1
-1627906977	2a00:1e:9640:fc:5e7:171b:7588:92eb	E	de:sidebar	lineflyer	Brouter verschoben		34
-1627921628	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test svg		49
-1627921695	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	tt		8
-1627922117	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test svg2		-16
-1627922187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test		10
-1627922229	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	t		2
-1627923049	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:sidebar	vike91	update		33
-1627923174	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:start	vike91	update		-3
-1627925103	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:compass	vike91	update		474
-1627925829	2001:14bb:a2:f8ae:cc85:e78c:5c24:59d4	E	fi:brouter	vike91	update		-1757
-1628599799	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:cacheicons	lineflyer	Remove adventure lab from unknown cache type		-29
-1628600129	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	R	en:cacheicons	lineflyer	old revision restored (2021/05/28 20:32)	1622226776	29
-1628608471	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	lineflyer	[Top Bar Menu] 		-14
-1628609939	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] 		-8
-1628727329	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:mainmenu:start	vike91	update		-14
-1628727424	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:cacheicons	vike91	small change to get the changed flag off		7
-1628727454	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		1
-1628727492	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		-1
-1628727512	2001:14bb:c5:fd96:e0b1:fe87:a988:333d	E	fi:start	vike91	[Tietoja c:geosta] 		2
-1630163095	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:mainmenu:start	murggel	[Top Bar Menu] use svg		-31
-1630267919	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:pocketquery	murggel	use svg		-22
-1630268000	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
-1630268070	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
-1630269800	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
-1630269810	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:quicksearch	murggel	[Quick Search] use svg		-14
-1630269885	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:pocketquery	murggel	[Pocket Query] use svg		-23
-1630269996	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:pocketquery	murggel	[Pocket Query] use svg		-23
-1630270058	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:pocketquery	murggel	[Pocket Query] use svg		-23
-1630270358	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:start	murggel	[Menu supérieur] use svg		-45
-1630270457	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:start	murggel	[Titelzeilen-Menü] use svg		-37
-1630270553	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:start	murggel	[Menu della barra superiore] use svg		-45
-1630270714	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:start	murggel	[Menu Superior] use svg		-45
-1630270808	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:start	murggel	[Bovenste balk menu] use svg		-45
-1630270975	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:history	murggel	[History] use svg		0
-1630270995	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:history	murggel	[History] use svg		0
-1630271013	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:history	murggel	[History] use svg		0
-1630271148	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:start	murggel	[Yläpalkin valikko] use svg		-31
-1630271376	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:history	murggel	[History] use svg		0
-1630271459	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:settings	murggel	use svg		0
-1630271486	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:settings	murggel	use svg		0
-1630271518	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:settings	murggel	use svg		0
-1630271536	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:settings	murggel	use svg		0
-1630271553	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:settings	murggel	use svg		0
-1630271572	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:settings	murggel	use svg		0
-1630271685	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:utilityprograms	murggel	use svg		0
-1630271722	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:utilityprograms	murggel	[Utility programs] use svg		0
-1630271744	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:utilityprograms	murggel	[Utility programs] use svg		0
-1630271759	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:utilityprograms	murggel	[Utility programs] use svg		0
-1630271778	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:utilityprograms	murggel	[Utility programs] use svg		0
-1630271796	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:utilityprograms	murggel	[Utility programs] use svg		0
-1630271827	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:aboutcgeo	murggel	[About] use svg		0
-1630271841	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:aboutcgeo	murggel	[About] use svg		0
-1630271858	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:aboutcgeo	murggel	[About] use svg		0
-1630271879	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:aboutcgeo	murggel	[About] use svg		0
-1630271899	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:aboutcgeo	murggel	[About] use svg		0
-1630353384	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachedetails	murggel	[Geocache Details] use svg		-32
-1630353603	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachedetails	murggel	[Geocache Details] use svg		-32
-1630353824	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:cachedetails	murggel	[Geocache Details] use svg		-32
-1630354205	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:cachedetails	murggel	[Geocache Details] use svg		-32
-1630354362	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:cachedetails	murggel	[Geocache Details] use svg		-32
-1630354598	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:cachedetails	murggel	[Geocache Details] use svg		-32
-1630354958	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:logging	murggel	[Logging] use svg		-31
-1630355084	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:logging	murggel	[Logging Geocache] use svg		-31
-1630355157	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:logging	murggel	[Logging Geocache] use svg		-31
-1630355663	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	nl:logging	murggel	[Logging Geocache] use svg		47
-1630355952	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:basicuse	murggel	[cgeo Basics] use svg		0
-1630355985	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:basicuse	murggel	[cgeo Basics] use svg		0
-1630356082	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:basicuse	murggel	[cgeo Basics] use svg		0
-1630356127	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:basicuse	murggel	[cgeo Basics] use svg		0
-1630356155	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:basicuse	murggel	[cgeo Basics] use svg		0
-1630356208	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:basicuse	murggel	[cgeo Basics] use svg		0
-1630356258	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:basicuse	murggel	[cgeo Basics] use svg		0
-1630357220	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[LiveMap] use svg		-83
-1630357530	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:livemap	murggel	[LiveMap] use svg		-76
-1630357760	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:livemap	murggel	[LiveMap] use svg		-66
-1630357993	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:livemap	murggel	[LiveMap] use svg		-76
-1630358237	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:livemap	murggel	[LiveMap] use svg		-76
-1630358437	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:livemap	murggel	[LiveMap] use svg		-66
-1630358590	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:livemap	murggel	[LiveMap] use svg		-73
-1630358979	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:loggingtb	murggel	[Trackable handling] use svg		-24
-1630359024	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:loggingtb	murggel	[Trackable handling] use svg		-24
-1630359066	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:loggingtb	murggel	[Trackable handling] use svg		-24
-1630359101	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:loggingtb	murggel	[Trackable handling] use svg		-24
-1630359290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:trackabledetails	murggel	[Trackable details] use svg		-24
-1630359346	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:trackabledetails	murggel	[Trackable details] use svg		-24
-1630359411	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:trackabledetails	murggel	[Trackable details] use svg		-24
-1630359454	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:trackabledetails	murggel	[Trackable details] use svg		-24
-1630359626	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:goto	murggel	[Go to] use svg		-24
-1630359795	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:search	murggel	[Search function] use svg		0
-1630359826	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:search	murggel	[Search function] use svg		0
-1630359853	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:search	murggel	[Search function] use svg		0
-1630359879	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:search	murggel	[Search function] use svg		0
-1630359902	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:search	murggel	[Search function] use svg		0
-1630359929	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:search	murggel	[Search function] use svg		0
-1630359952	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:search	murggel	[Search function] use svg		0
-1630360143	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360224	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360311	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360395	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360462	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360525	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:lists	murggel	[Stored Caches] use svg		-18
-1630360718	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:compass	murggel	[Compass] use svg		-24
-1630360766	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:compass	murggel	[Compass] use svg		-24
-1630360834	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:compass	murggel	[Compass] use svg		-24
-1630360884	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:compass	murggel	[Compass] use svg		-24
-1630360939	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:compass	murggel	[Compass] use svg		-24
-1630361047	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	fr:mainmenu:goto	murggel	[Go to] use svg		-8
-1630361149	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:navigation	murggel	[Navigation] use svg		0
-1630361441	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:pocketquery	murggel	[Pocket Query] use svg		0
-1630361509	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:pocketquery	murggel	[Pocket Query] use svg		0
-1630361532	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:pocketquery	murggel	[Pocket Query] use svg		0
-1630361556	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:pocketquery	murggel	[Pocket Query] use svg		0
-1630361733	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:notecoords	murggel	[NoteCoords] use svg		0
-1630361789	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:notecoords	murggel	[NoteCoords] use svg		0
-1630361869	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:notecoords	murggel	[NoteCoords] use svg		0
-1630362290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	murggel	[CacheFilter] use svg		-21
-1630362418	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:cachefilter	murggel	[CacheFilter] use svg		-25
-1630362545	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:cachefilter	murggel	[CacheFilter] use svg		-21
-1630362656	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:cachefilter	murggel	[CacheFilter] use svg		-21
-1630362800	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:lists	murggel	use svg		0
-1630362827	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:lists	murggel	use svg		0
-1630362842	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	murggel	use svg		0
-1630362857	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:lists	murggel	use svg		0
-1630363263	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:coordinatedialog	murggel	[CoordDialog] use svg		-38
-1630363272	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:coordinatedialog	murggel	[CoordDialog] use svg		-38
-1630363328	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:coordinatedialog	murggel	[CoordDialog] use svg		-38
-1630363416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:coordinatedialog	murggel	[CoordDialog] use svg		-37
-1630528780	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528806	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528834	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fi:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528858	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528883	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528901	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	nl:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630528919	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	pt:mainmenu:livemap	murggel	[LiveMap] use svg		3
-1630529070	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:mainmenu:livemap	murggel	[Direction line] use correct svg		3
-1630529106	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:mainmenu:livemap	murggel	[Richtungslinie] use correct svg		3
-1630529151	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:livemap	murggel	[Ligne directionnelle] use correct svg		3
-1630529170	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:livemap	murggel	[Linea di direzione] use correct svg		3
-1630598177	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:mainmenu:pocketquery	vike91	update		-9
-1630598348	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:mainmenu:livemap	vike91	small change to remove the changed flag		-1
-1630598385	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:mainmenu:quicksearch	vike91	small change to remove the changed flag		0
-1630598431	2001:14bb:69e:3f66:945f:eafa:3201:b1c4	E	fi:start	vike91	update		-1
-1632130709	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:firststeps	lineflyer	typo		1
-1632130786	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	en:loginproblems	lineflyer	created		29
-1632130984	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	Initial page		1471
-1632131014	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	chapter		22
-1632131088	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Generic] 		92
-1632131168	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		194
-1632131223	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		109
-1632131241	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		4
-1632131408	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		-92
-1632131445	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	R	en:loginproblems	lineflyer	old revision restored (2021/09/20 11:47)	1632131241	92
-1632131455	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	R	en:loginproblems	lineflyer	old revision restored (2021/09/20 11:50)	1632131408	-92
-1632131552	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		407
-1632131597	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		276
-1632131688	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		257
-1632131716	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	m		-11
-1632131743	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		12
-1632131788	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		0
-1632131814	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check internet connection] 		2
-1632131829	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		4
-1632131847	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		18
-1632131879	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		14
-1632131899	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		37
-1632131909	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		1
-1632131918	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		1
-1632131934	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check internet connection] 		38
-1632131949	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		-275
-1632131994	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check authentication data] 		40
-1632132109	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check authentication data] 		234
-1632132787	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check authentication data] 		2673
-1632132814	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	Chaptering		-4
-1632132854	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Possible error messages] 		36
-1632132937	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Wrong username and/or password.] 		42
-1632132979	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Wrong username and/or password.] 		1
-1632132997	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Wrong username and/or password.] 		1
-1632133053	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Captcha required.] 		30
-1632221336	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	de:replacedevice	murggel	[Auf dem neuen Gerät] fix typo		0
-1632999379	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		3
-1632999396	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		0
-1632999413	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check available updates] 		3
-1632999424	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check geocaching website] 		3
-1632999433	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check internet connection] 		3
-1632999441	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[3. Check internet connection] 		0
-1632999471	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Check authentication data] 		3
-1632999511	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	Heading		4
-1632999524	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Possible error messages] 		4
-1632999578	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	Heading		-4
-1632999619	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		18
-1632999721	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		20
-1632999822	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4b. Possible error messages] 		317
-1633000019	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Wrong username and/or password] 		38
-1633000056	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Captcha required] 		61
-1633000101	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: You must validate your account on the Geocaching.com website first] 		66
-1633000194	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Unknown communication error] 		129
-1633001381	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		28
-1633001398	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		1
-1633001407	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		1
-1633001434	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		0
-1633001594	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		183
-1633001789	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:start	lineflyer	[Getting Started] 		75
-1633001823	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:sidebar	lineflyer	Added page login problems		42
-1633001867	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:sidebar	lineflyer	Correct indentation		-1
-1633001918	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	C	de:loginproblems	lineflyer	angelegt		6723
-1633002004	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:start	lineflyer	[Erste Schritte] 		70
-1633002056	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:sidebar	lineflyer	Seite für LoginProbleme 		41
-1633003532	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login Problems] 		95
-1633003651	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[1. Check available updates] 		64
-1633003702	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login-Probleme] 		29
-1633003740	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login Problems] 		36
-1633003895	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[2. Check geocaching website] 		12
-1633004034	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[3. Check internet connection] 		51
-1633004059	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[4. Check authentication data] 		4
-1633004110	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[4a. Check your username/password] 		65
-1633004138	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		-43
-1633004612	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[4a. Prüfe Benutzername/Passwort] 		199
-1633004685	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		139
-1633004833	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[4b. Possible error messages] 		33
-1633004930	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login failed: Wrong username and/or password] 		123
-1633004970	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login failed: Wrong username and/or password] 		19
-1633005087	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login failed: Captcha required] 		56
-1633005132	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login failed: You must validate your account on the Geocaching.com website first] 		16
-1633005229	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Login failed: Unknown communication error] 		104
-1633005274	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	.		0
-1633005290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler] 		5
-1633005848	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	If nothing helps		773
-1633005876	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[If nothing helps...] 		3
-1633005946	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Unknown communication error] 		3
-1633005975	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		-2
-1633006090	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	Remove picture 4		-40
-1633006145	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[4a. Check your username/password] 		0
-1633006529	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	Struktur 		56
-1633006543	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[Login failed: Unknown communication error] 		11
-1633006573	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[Anmeldung fehlgeschlagen: Unbekannter Kommunikationsfehler] 		776
-1633006882	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	[If nothing helps...] 		167
-1633007015	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:loginproblems	lineflyer	[If nothing helps...] 		107
-1633007102	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	Add backup link		103
-1633007131	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:loginproblems	lineflyer	Remove fixme		-179
-1633007158	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:start	lineflyer	[Erste Schritte] 		45
-1633007189	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:sidebar	lineflyer	Umbenennung Anmeldeprobleme		12
-1633007207	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:start	lineflyer	[Getting Started] 		1
-1633007255	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	de:start	lineflyer	[Erste Schritte] 		-5
-1633160416	2001:14bb:671:7872:9db1:c0e9:4ff9:e5c7	E	fi:sidebar	vike91	update		46
-1633160509	2001:14bb:671:7872:9db1:c0e9:4ff9:e5c7	E	fi:start	vike91	update		103
-1633163653	2001:14bb:671:7872:9db1:c0e9:4ff9:e5c7	C	fi:loginproblems	vike91	luotu		8576
-1633163769	2001:14bb:671:7872:9db1:c0e9:4ff9:e5c7	E	fi:loginproblems	vike91	[Jos mikään ei auta...] 		1
 1635193625	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	E	de:cacheicons	lineflyer	Adventure Lab hinzugefügt		334
 1635193676	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	e	de:cacheicons	lineflyer	Unbekannter Typ = kein Adventure		-18
 1635193711	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	e	de:cacheicons	lineflyer	Bindestriche		0
@@ -1364,3 +829,225 @@
 1652526387	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Ausdrücke für Wertebereiche] 		66
 1652526531	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	de:cachevariables	lineflyer	[Comments] 		19
 1652526560	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	de:cachevariables	lineflyer	Fixme entfernt		-179
+1654329281	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	added cache variables		88
+1654329302	fe80:4bca:3398:f46b:63ad:527b:4436:6576	C	nl:cachevariables	linstylemon	aangemaakt cache variables		16473
+1654329401	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cachevariables	linstylemon			-1161
+1654329740	fe80:4bca:3398:f46b:63ad:527b:4436:6576	C	nl:waypointcalculator	linstylemon	aangemaakt		8732
+1654329903	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Geocaches] 		1
+1654330370	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:coordinatedialog	linstylemon	[Coordinate input] 		44
+1654330467	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:coordinatedialog	linstylemon	[Coordinate input] 		0
+1654330900	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	Translation: Waypoint Calculator		104
+1654330966	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Waypoint Calculator] 		4
+1654331007	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Main variable assignment] 		83
+1654331107	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Main variable input] 		65
+1654331125	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:waypointcalculator	linstylemon	[Hoofd variable invoer] 		-1
+1654331197	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Sub variable assignment] translate to dutch		127
+1654331239	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Result prediction] 		54
+1654331336	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Calculator notes] translation dutch		50
+1654331389	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Using Plain Coordinate Format] 		254
+1654331443	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Further information] 		-10
+1654331462	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	[Further information] 		-4
+1654331741	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:waypointcalculator	linstylemon	finished translation of page		-164
+1654331962	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:coordinatedialog	linstylemon	[Waypoint Calculator] 		-1179
+1654332067	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:coordinatedialog	linstylemon	Waypoint calculator section transfered to wp page		-7798
+1654333527	fe80:4bca:3398:f46b:63ad:527b:4436:6576	C	nl:loginproblems	linstylemon	aangemaakt		7668
+1654335741	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:sidebar	linstylemon	Updated dutch quick navigation (same as english)		-336
+1654335816	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:sidebar	linstylemon			9
+1654336221	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[c:geo Gebruikershandleiding] 		-729
+1654336360	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:sidebar	linstylemon			2
+1654336422	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:sidebar	linstylemon			-1
+1654336485	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Aan de slag met c:geo] 		72
+1654336498	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Aan de slag met c:geo] 		0
+1654336665	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Hoofdmenu] 		-418
+1654336774	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Geocaches] 		18
+1654336846	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:sidebar	linstylemon			2
+1654336922	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Offline functies] 		12
+1654336983	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Snelle Referenties] 		4
+1654337165	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Speciale functies en hints] 		105
+1654337184	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Plugins and Addon functions] 		-62
+1654337202	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Plugins and Addon functions] 		1
+1654337389	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:sidebar	linstylemon			-146
+1654337421	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:sidebar	linstylemon			-2
+1654337692	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login Problems] 		41
+1654337802	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[1. Check available updates] translated in dutch		10
+1654337915	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[2. Check geocaching website] 		590
+1654337980	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[3. Check internet connection] 		65
+1654338001	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:loginproblems	linstylemon			-574
+1654338229	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[4. Check authentication data] 		116
+1654338247	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login Problems] 		0
+1654338318	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[5. Possible error messages] 		51
+1654338415	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login failed: Wrong username and/or password] 		110
+1654338544	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login failed: Captcha required] 		987
+1654338598	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login failed: You must validate your account on the Geocaching.com website first] 		391
+1654338616	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:loginproblems	linstylemon	[Login failed: You must validate your account on the Geocaching.com website first] 		-408
+1654338646	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login failed: Captcha required] 		-887
+1654338765	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[Login failed: Unknown communication error] 		61
+1654339003	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	[If nothing helps...] 		1010
+1654339032	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:loginproblems	linstylemon	Fixed me deleted: everything is translated		-165
+1654339049	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Aan de slag met c:geo] 		-1
+1654339213	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Aan de slag met c:geo] 		2
+1654339319	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Basisfuncties] 		10
+1654339492	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Aan de slag met c:geo] 		1
+1654339517	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Basisfuncties] 		-5
+1654339566	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Coördinaten en Navigatie] 		1
+1654339616	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Offline functies] 		1
+1654339634	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Gebruiker gedefinieerde caches] 		1
+1654339815	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Snelle Referenties] 		6
+1654339920	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Speciale functies en hints] 		4
+1654339965	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Over deze handleiding] 		1
+1654342932	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:firststeps	linstylemon	page updated with last info from english page and translated		2838
+1654342986	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Aan de slag met c:geo] 		-1
+1654343011	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Aan de slag met c:geo] 		-2
+1654344733	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:start	linstylemon	page updated with last info from english page and translated		-1117
+1654344820	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Live kaart] 		-1
+1654344882	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Live kaart] 		2
+1654345666	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Bovenste balk] 		689
+1654345836	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Kaart inhoud] 		-1615
+1654345935	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Kaart popup scherm] 		-19
+1654346066	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Bovenste sectie] 		172
+1654346252	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Hint/aantekening sectie] 		50
+1654346333	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Kaartinstellingen] 		50
+1654365708	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Kaartinstellingen] 		-663
+1654365814	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Routering] 		-759
+1654365835	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Route-/Spoorinstellingen] 		857
+1654365870	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Map navigation] 		1073
+1654365901	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Direction line] 		1371
+1654365941	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[GPX track/route] 		2486
+1654365969	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Individual route] 		1198
+1654365991	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[History track] 		1917
+1654366150	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Map navigation] 		101
+1654366834	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Direction line] 		66
+1654367268	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[GPX track/route] 		157
+1654367288	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Map navigation] 		1
+1654367853	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Individual route] 		199
+1654368172	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[History track] 		121
+1654368457	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:livemap	linstylemon	[Distance information] 		132
+1654368502	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Basisfuncties] 		-1
+1654368591	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Opgeslagen caches] 		-4
+1654369038	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Cache lijst] 		80
+1654369405	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Context menu] 		91
+1654369641	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Sorteren] 		290
+1654369763	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		12
+1654369843	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Caches beheren] 		223
+1654369982	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Lijsten beheren] 		544
+1654370001	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Lijsten beheren] 		0
+1654370023	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Importeer] 		-198
+1654370081	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:lists	linstylemon	[Filtering] 		-2011
+1654370123	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Basisfuncties] 		-1
+1654370182	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Basisfuncties] 		-1
+1654370249	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Basisfuncties] 		0
+1654370373	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:search	linstylemon	[Zoekfunctie] 		-1
+1654370424	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Basisfuncties] 		-1
+1654370507	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[c:geo Instellingen] 		0
+1654370549	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[c:geo Instellingen] 		0
+1654370705	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[c:geo Instellingen] 		-10
+1654370806	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Geocaching] 		-36
+1654371035	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Uiterlijk] 		-59
+1654371357	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Cache Details] 		100
+1654371373	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Map] 		2
+1654371669	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Kaartgegevens] 		30
+1654371724	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Kaartgegevens] 		1186
+1654371913	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Waypoints] 		173
+1654372163	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Kaartgegevens] 		-288
+1654372209	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Mapsforge API] 		-615
+1654372260	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Kaart inhoud] 		437
+1654372348	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Map behavior] 		79
+1654372418	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Kaart gedrag] 		4558
+1654372721	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Proximity Notification] 		156
+1654373060	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Map lines customization] 		174
+1654373159	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Other map settings] 		53
+1654373248	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Handtekening] 		219
+1654373391	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Templates] 		150
+1654373418	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Templates] 		23
+1654373535	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Andere opties voor log] 		205
+1654373728	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Offline gegevens] 		618
+1654373783	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Generiek] 		238
+1654374096	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[GPX] 		2336
+1654374182	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Database en Geocache data] 		604
+1654374234	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Navigatie] 		1
+1654374278	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[GPX] 		-528
+1654374502	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Systeem] 		1944
+1654374719	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Base folder, Geolocation & Orientation] 		1492
+1654374930	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Backup] 		280
+1654374950	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:mainmenu:settings	linstylemon	[Create Backup] 		-1
+1654374998	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Database en Geocache gegevens] 		-2337
+1654375142	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:settings	linstylemon	[Diverse andere systeem instellingen] 		-2511
+1654375166	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Basisfuncties] 		-1
+1654375719	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:ebook_help	linstylemon			-22
+1654375765	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:ebook_help	linstylemon			4
+1654375791	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Over deze handleiding] 		-1
+1654375889	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:navigation	linstylemon	removed static maps		-278
+1654375930	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Coördinaten en Navigatie] 		-1
+1654376427	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:pocketquery	linstylemon	pocketquery's updated to info from english version		291
+1654376515	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:mainmenu:pocketquery	linstylemon			8
+1654376577	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Offline functies] 		43
+1654376670	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:udc	linstylemon	[Maken van gebruiker gedefinieerde caches] 		135
+1654376700	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Gebruiker gedefinieerde caches] 		-1
+1654377218	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cacheicons	linstylemon	Geocaching icons updated		483
+1654377246	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cacheicons	linstylemon	[Geocache Iconen] 		1546
+1654377490	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cacheicons	linstylemon	[Cache markers on the map] 		149
+1654377515	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cacheicons	linstylemon	[Cache markeringen op de kaart] 		2285
+1654377942	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cacheicons	linstylemon	[Icons used on the map in compact mode] 		259
+1654377995	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	en:cacheicons	linstylemon	[Icons used on the map in compact mode] : corrected typo wayppoint		-1
+1654378018	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654378169	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:coordformat	linstylemon			0
+1654378188	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654378519	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:attributes	linstylemon	page updated with last info from english page and translated		398
+1654378537	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654378793	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:mainmenu:utilityprograms	linstylemon	page updated with last info from english page and translated		389
+1654378915	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:mainmenu:utilityprograms	linstylemon	page updated with last info from english page and translated		257
+1654378932	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654379015	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:intents	linstylemon	page updated with last info from english page and translated		-384
+1654379037	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1654379085	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:nfc	linstylemon			0
+1654379101	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1654407135	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Introduction] 		77
+1654407292	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Control section] translated (Dutch)		116
+1654407399	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Bedieningsgedeelte] 		0
+1654407500	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Variable section] translated		64
+1654407759	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Formula syntax] translated		103
+1654407855	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Value types] 		52
+1654408089	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Range expressions] translated		207
+1654408151	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	[Comments] translated		42
+1654408185	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachevariables	linstylemon	Removed translation Fix Me, page is translated		-165
+1654408210	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Geocaches] 		-1
+1654411173	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachemarkers	linstylemon	page updated with last info from english page and translated		1676
+1654411210	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654411422	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cachedetails	linstylemon	[Waypoints submenu] 		99
+1654411508	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Geavanceerd submenu] 		326
+1654411603	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Cache information] 		130
+1654411701	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Waypoint typen] 		0
+1654411856	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Waypoint context menu] 		101
+1654411882	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Waypoint context menu] 		0
+1654411923	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Snelle Referenties] 		-1
+1654412069	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:hiddenfunctions	linstylemon			-71
+1654412753	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:hiddenfunctions	linstylemon	page updated with last info from english page and translated		510
+1654412789	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1654413093	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[BRouter gebruiken met c:geo] 		671
+1654413167	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Routering activeren] 		27
+1654413274	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Usage in c:geo] 		673
+1654413351	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Gebruiken in c:geo] 		441
+1654413378	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Richtingslijn] 		0
+1654413497	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Richtingslijn] 		823
+1654413529	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Individuele route] 		1
+1654413574	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Richting lijn] 		0
+1654413652	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Individuele route] 		485
+1654413663	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Installeren en configureren van BRouter] 		-2381
+1654413678	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Gebruik in c:geo] 		-627
+1654413689	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Richtingslijn] 		-367
+1654413702	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Individuele route] 		-811
+1654413717	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:brouter	linstylemon	[Maatwerk] 		-487
+1654413733	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:start	linstylemon	[Speciale functies en hints] 		-1
+1654414130	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:mainmenu:lists	linstylemon			-3
+1654414228	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:mainmenu:settings	linstylemon			0
+1654414296	fe80:4bca:3398:f46b:63ad:527b:4436:6576	E	nl:cachedetails	linstylemon	[Geocache Details] 		-32
+1654414396	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cachedetails	linstylemon	[Bovenste balk menu] 		-2
+1654415100	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cacheicons	linstylemon			-1
+1654415240	fe80:4bca:3398:f46b:63ad:527b:4436:6576	e	nl:cachefilter	linstylemon			0
+1657022754	fe80:97fb:ed02:9d8a:dc06:4b4a:2a2b:144b	C	fr:cachevariables	paulhenrysaux	créée : début de la traduction		15727
+1657022894	fe80:97fb:ed02:9d8a:dc06:4b4a:2a2b:144b	E	fr:start	paulhenrysaux	mise à jour : ajout page "Calculs avec variable"		121
+1657023689	fe80:35df:0191:d2f9:ab13:5c22:2e70:7460	E	fr:sidebar	paulhenrysaux	Fin de la traductionet MAJ		-3
+1663790886	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:loginproblems	moving-bits	[Login failed: Captcha required] 		146
+1663790974	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] 		175
+1664002493	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	de:cachevariables	moving-bits	[Numerische Operatoren] 		1
+1664002516	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:cachevariables	moving-bits	[Numeric operators] 		1

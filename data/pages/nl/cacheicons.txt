@@ -1,23 +1,71 @@
-
 ====== Geocache Iconen ======
 
-c:geo maakt gebruik van speciale pictogrammen voor de verschillende soorten Geocaches die beschikbaar zijn. De volgende tabel geeft een overzicht van de gebruikte pictogrammen, het bijbehorende cachetype en een basisbeschrijving van de karakteristieke kenmerken van dit cachetype.
+c:geo maakt gebruik van speciale pictogrammen voor de verschillende soorten Geocaches die beschikbaar zijn. De volgende tabellen geven een overzicht van de gebruikte pictogrammen, het bijbehorende cachetype en een basisbeschrijving van de karakteristieke kenmerken van dit cachetype.
 
 ^ Icoon ^ Cache Type ^ Basisbeschrijving ^
-|{{ :type_traditional.png?nolink&40 |}}|Traditional Cache|Dit is het klassieke type geocache. De geocache kan op de gegeven coördinaten worden gevonden.|
-|{{ :type_multi.png?nolink&40 |}}|Multi Cache|Een multi cache maakt gebruik van minimaal twee locaties. De geocache zelf is op de eindlocatie, maar om deze te kunnen loggen dienen enkele locaties te worden bezocht waarbij mogelijk vragen moeten worden beantwoord of raadsels worden opgelost.|
-|{{ :type_earth.png?nolink&40 |}}|Earth Cache|De locatie van een earth cache heeft een bepaalde geologische waarde. Het doel van dit type geocaches is om geocachers iets te leren van de geologie van de aarde. Op de locatie dienen in de meeste gevallen vragen te worden beantwoord om de geocache te kunnen loggen. Er is geen fysieke geocache op deze locatie. Meer informatie over dit type cache is te vinden op [[http://earthcache.org|earthcache.org]].|
-|{{ :type_mystery.png?nolink&40 |}}|Mystery Cache|Dit type geocache heeft meerdere mogelijkheden waarbij in de meeste gevallen de locatie niet als coördinaat wordt gegeven, maar op een andere manier moet worden gevonden. In de meeste gevallen kan deze locatie worden gevonden door het beantwoorden van vragen of het oplossen van een raadsel in de cachebeschrijving. |
-|{{ :type_wherigo.png?nolink&40 |}}|Wherigo Cache|Wherigo is een manier om op een locatie gebaseerde manier een avontuur te beleven door gebruik te maken van een speciale Wherigo app en het cache cartridge bestand. De geocacher moet een op de locatie gebaseerd spel spelen of antwoorden geven. Meer informatie over dit cache type is te vinden op [[http://wherigo.com|wherigo.com]] |
-|{{ :type_virtual.png?nolink&40 |}}|Virtual Cache| Op een virtuele cache locatie is geen fysieke geocache te vinden. Op deze locatie moet een opdracht worden uitgevoerd of een vraag te worden beantwoord. Als dit goed is gedaan en de locatie is werkelijk bezocht mag de geocache als gevonden worden gelogd. |
-|{{ :type_letterbox.png?nolink&40 |}}| Letterbox Hybrid Cache| Een letterbox geocache gebruikt aanwijzingen in plaats van coördinaten. Er kan op de eindlocatie een stempel worden gevonden om je bezoek te noteren. |
+|{{ :type_traditional.svg?nolink&40 |}}|Traditional Cache|Dit is het klassieke type geocache. De geocache kan op de gegeven coördinaten worden gevonden.|
+|{{ :type_multi.svg?nolink&40 |}}|Multi Cache|Een multi cache maakt gebruik van minimaal twee locaties. De geocache zelf is op de eindlocatie, maar om deze te kunnen loggen dienen enkele locaties te worden bezocht waarbij mogelijk vragen moeten worden beantwoord of raadsels worden opgelost.|
+|{{ :type_earth.svg?nolink&40 |}}|Earth Cache|De locatie van een earth cache heeft een bepaalde geologische waarde. Het doel van dit type geocaches is om geocachers iets te leren van de geologie van de aarde. Op de locatie dienen in de meeste gevallen vragen te worden beantwoord om de geocache te kunnen loggen. Er is geen fysieke geocache op deze locatie. Meer informatie over dit type cache is te vinden op [[http://earthcache.org|earthcache.org]].|
+|{{ :type_mystery.svg?nolink&40 |}}|Mystery Cache|Dit type geocache heeft meerdere mogelijkheden waarbij in de meeste gevallen de locatie niet als coördinaat wordt gegeven, maar op een andere manier moet worden gevonden. In de meeste gevallen kan deze locatie worden gevonden door het beantwoorden van vragen of het oplossen van een raadsel in de cachebeschrijving. |
+|{{ :type_wherigo.svg?nolink&40 |}}|Wherigo Cache|Wherigo is een manier om op een locatie gebaseerde manier een avontuur te beleven door gebruik te maken van een speciale Wherigo app en het cache cartridge bestand. De geocacher moet een op de locatie gebaseerd spel spelen of antwoorden geven. Meer informatie over dit cache type is te vinden op [[http://wherigo.com|wherigo.com]] |
+|{{ :type_virtual.svg?nolink&40 |}}|Virtual Cache| Op een virtuele cache locatie is geen fysieke geocache te vinden. Op deze locatie moet een opdracht worden uitgevoerd of een vraag te worden beantwoord. Als dit goed is gedaan en de locatie is werkelijk bezocht mag de geocache als gevonden worden gelogd. |
+|{{ :type_letterbox.svg?nolink&40 |}}| Letterbox Hybrid Cache| Een letterbox geocache gebruikt aanwijzingen in plaats van coördinaten. Er kan op de eindlocatie een stempel worden gevonden om je bezoek te noteren. |
 |{{ :type_webcam.png?nolink&40 |}}|Webcam Cache|Voor dit geocache type moet je voor een publieke webcam gaan staan en een foto door deze camera laten maken. Nadien moet de foto toegevoegd worden aan je log om je vondst te claimen. |
-|{{ :type_event.png?nolink&40 |}}|Event Cache|Soms organiseren geocachers evenementen op een specifieke plaats en tijd om elkaar te ontmoeten en te praten over Geocaching.|
-|{{ :type_mega.png?nolink&40 |}}|Mega Event Cache|Een Mega Event Cache is in principe hetzelfde als een Event Cache, maar het evenement is groter.  Er moeten minimaal 500 geocachers worden geregistreerd. |
+|{{ :type_event.svg?nolink&40 |}}|Event Cache|Soms organiseren geocachers evenementen op een specifieke plaats en tijd om elkaar te ontmoeten en te praten over Geocaching.|
+|{{ :type_mega.svg?nolink&40 |}}|Mega Event Cache|Een Mega Event Cache is in principe hetzelfde als een Event Cache, maar het evenement is groter.  Er moeten minimaal 500 geocachers worden geregistreerd. |
 |{{ :type_giga.png?nolink&40 |}}|Giga Event Cache|Een Giga Event Cache is in principe hetzelfde als een Mega Event Cache, maar is nog groter. Er moeten minimaal 5000 geocachers worden geregistreerd. |
-|{{ :type_cito.png?nolink&40 |}}|CITO Event Cache|CITO Event Cache is een evenement dat georganiseerd wordt met als doel om de omgeving schoon te maken of een gelijksoortige taak waarbij (optioneel) nadien een nieuwe geocache wordt geplaatst op deze locatie. CITO is de afkorting van Cache-In-Trash-Out (Cache erin troep eruit). |
-|{{ :type_ape.png?nolink&40 |}}|Project APE Cache|Er zijn 14 Geocaches van dit type en zijn oorspronkelijk in 2011 gelegd als promotie van de film "Planet of the Apes".  Slechts enkele van deze geocaches bestaan nog, wat dit cache type één van de zeldzaamste Geocache typen maakt. |
-|{{ :type_hq.png?nolink&40 |}}|Groundspeak Headquarter Cache|Er is slechts één Geocache van dit type, gestationeerd op het hoofdkantoor van Groundspeak, het bedrijf achter Geocaching.com, in Seattle, Washington, Verenigde Staten. |
-|{{ :type_unknown.png?nolink&40 |}}|Onbekend Cache Type|Indien dit cache type wordt getoond kan c:geo dit type (nog) niet laden of wordt het cache type niet expliciet door c:geo ondersteund (bijv. Lab Caches op geocaching.com) of het is een Onbekend Cache type zoals gebruikt wordt op opencaching platformen. |
-|{{ :type_advlab.png?nolink&40 |}}|Adventure Lab Cache|Bij het spelen van een Adventure Lab Cache is geen fysieke cache te vinden. Je moet met de speciale Adventure Lab Cache app een locatie bezoeken en daar een vraag beantwoorden. Als dit goed is gegaan wordt de bezochte locatie automatisch als gevonden cache opgeteld bij je aantal gevonden caches.|
-|{{ :type_cgeo.png?nolink&40 |}}|c:geo cache|Wordt gebruikt voor door de gebruiker gedefinieerde caches in c: geo |
+|{{ :type_cito.svg?nolink&40 |}}|CITO Event Cache|CITO Event Cache is een evenement dat georganiseerd wordt met als doel om de omgeving schoon te maken of een gelijksoortige taak waarbij (optioneel) nadien een nieuwe geocache wordt geplaatst op deze locatie. CITO is de afkorting van Cache-In-Trash-Out (Cache erin troep eruit). |
+|{{ :type_ape.svg?nolink&40 |}}|Project APE Cache|Er zijn 14 Geocaches van dit type en zijn oorspronkelijk in 2011 gelegd als promotie van de film "Planet of the Apes".  Slechts enkele van deze geocaches bestaan nog, wat dit cache type één van de zeldzaamste Geocache typen maakt. |
+|{{ :type_hq.svg?nolink&40 |}}|Groundspeak Headquarter Cache|Er is slechts één Geocache van dit type, gestationeerd op het hoofdkantoor van Groundspeak, het bedrijf achter Geocaching.com, in Seattle, Washington, Verenigde Staten. |
+|{{ :type_unknown.svg?nolink&40 |}}|Onbekend Cache Type|Indien dit cache type wordt getoond kan c:geo dit type (nog) niet laden of wordt het cache type niet expliciet door c:geo ondersteund (bijv. Lab Caches op geocaching.com) of het is een Onbekend Cache type zoals gebruikt wordt op opencaching platformen. |
+|{{ :type_advlab.svg?nolink&40 |}}|Adventure Lab Cache|Bij het spelen van een Adventure Lab Cache is geen fysieke cache te vinden. Je moet met de speciale Adventure Lab Cache app een locatie bezoeken en daar een vraag beantwoorden. Als dit goed is gegaan wordt de bezochte locatie automatisch als gevonden cache opgeteld bij je aantal gevonden caches.|
+|{{ :type_cgeo.svg?nolink&40 |}}|c:geo cache|Wordt gebruikt voor door de gebruiker gedefinieerde caches in c: geo. (Ze hebben altijd een hexadiagonale achtergrond.|
+|{{ :type_specialevent.svg?nolink&40 |}}|Speciaal Event Cache|Gebruikt voor speciale soorten evenementen zoals b.v. Community Celebration Event of HQ Block Party.| 
+|{{ :type_maze.svg?nolink&40 |}}|GPS Adventures Maze Exhibit|Dit is een speciaal zeldzaam evenementtype en vertegenwoordigt het bijwonen van de GPS Adventures Maze Exhibit. GPS Adventures Mazes zijn ontworpen om mensen te leren over GPS-technologie en geocaching.| 
+===== Cache markeringen op de kaart =====
+
+De volgende tabel toont de verschillende frames rond pictogrammen van het cachetype, afhankelijk van de cachestatus. De pijl wijst naar de coördinaat van de cache op de kaart. Het frame is gevuld met het bijbehorende pictogram van het cachetype, de onderstaande tabel toont een traditionele cache als voorbeeld.
+
+^ Icon ^ Beschrijving ^ 
+|{{ :my_location_chevron.png?nolink&40 |}}|Je huidige positie|
+|{{ :combined_marker_gc_withpin.svg?nolink&40 |}}|Ingeschakelde/beschikbare cache van geocaching.com.|
+|{{ :disabled_combined_marker_gc_withpin.svg?nolink&40 |}}|Uitgeschakelde cache van geocaching.com.|
+|{{ :archived_combined_marker_gc_withpin.svg?nolink&40 |}}|Geärchiveerde cache van geocaching.com.|
+|{{ :combined_marker_oc_withpin.svg?nolink&40 |}}|Ingeschakelde/beschikbare cache van een opencaching platform.|
+|{{ :disabled_combined_marker_oc_withpin.svg?nolink&40 |}}|Uitgeschakelde cache van een opencaching platform..|
+|{{ :archived_combined_marker_oc_withpin.svg?nolink&40 |}}|Geärciveerde cache van een opencaching platform.|
+|{{ :combined_marker_other_withpin.svg?nolink&40 |}}|Ingeschakelde/beschikbare cache van andere bronnen dan geocaching.com of opencaching (bijv. extremcaching.com of door gebruiker gedefinieerde caches).|
+|{{ :disabled_combined_marker_other_withpin.svg?nolink&40 |}}|Uitgeschakelde cache van andere bronnen dan geocaching.com of opencaching (bijv. extremcaching.com of door gebruiker gedefinieerde caches).|
+|{{ :archived_combined_marker_other_withpin.svg?nolink&40 |}}|Geärchiveerde cache van andere bronnen dan geocaching.com of opencaching (bijv. extremcaching.com of door gebruiker gedefinieerde caches).|
+
+===== Pictogrammen in compacte modus =====
+
+De volgende tabel toont de puntpictogrammen die worden gebruikt wanneer de kaart is ingesteld om [[.:mainmenu:livemap#map_quick_settings|compacte pictogrammen]] te gebruiken.
+
+Sommige cachetypen worden in deze modus gecombineerd tot één pictogram.
+
+^ Pictogram ^ Cache Type ^
+|{{ :dot_traditional.svg?nolink&20 |}} |Traditional/Traditionele Cache|
+|{{ :dot_multi.svg?nolink&20 |}} |Multi Cache|
+|{{ :dot_mystery.svg?nolink&20 |}} |Mystery Cache\\ Wherigo Cache\\ Letterbox Hybrid Cache|
+|{{ :dot_virtual.svg?nolink&20 |}} |Earth Cache\\ Virtual Cache\\ Webcam Cache|
+|{{ :dot_event.svg?nolink&20 |}} |Alle Event Cache Types|
+|{{ :dot_special.svg?nolink&20 |}} |Project APE Cache\\ Groundspeak Headquarter Cache\\ GPS Adventures Maze Exhibit|
+|{{ :dot_advlab.svg?nolink&20 |}} |Adventure Lab Cache|
+|{{ :dot_unknown.svg?nolink&20 |}} |Onbekende Cache Type|
+|{{ :dot_disabled.svg?nolink&20 |}} |Uitgeschakelde Cache (All Types)|
+|{{ :dot_cgeo.svg?nolink&20 |}} |Door gebruiker gedefinieerde Cache|
+|{{ :dot_tradi_oc.svg?nolink&20 |}} |Caches van Opencaching zullen worden getoond met een vierkante stip\\ (dit voorbeeld toont een puntpictogram voor een traditionele Opencaching-cache).|
+
+Bovendien zullen sommige cachestatuswaarden, die in de normale modus worden weergegeven door een [[.:cachemarkers|kleine markering]] (bijv. gevonden staat, gewijzigde coördinaten), ook worden weergegeven in de compacte modus door een speciaal pictogram te gebruiken, zoals hieronder in de tabel. Deze worden dan weergegeven in plaats van het puntpictogram van het cachetype:
+
+^ Pictogram ^ Status ^
+|{{ :dot_found.svg?nolink&20 |}} |Cache gelogd als gevonden.|
+|{{ :dot_found_offline.svg?nolink&20 |}} |Cache offline gelogd als gevonden.|
+|{{ :dot_not_found_offline.svg?nolink&20 |}} |Cache gelogd als niet gevonden.|
+|{{ :dot_marker_usermodifiedcoords.svg?nolink&20 |}} |Cache met door de gebruiker gewijzigde coördinaten\\ (Achtergrond is gekleurd afhankelijk van het cachetype).|
+|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Cache met een geldig definitief waypoint\\ (achtergrond is gekleurd afhankelijk van het cachetype).|
+|{{ :dot_marker_calendar.svg?nolink&20 |}} |Event cache, waarvoor je je hebt aangemeld.|
+|{{ :dot_marker_maintenance_offline.svg?nolink&20 |}} |Cache offline aangemeld als onderhoud nodig.|
+|{{ :dot_marker_archive_offline.svg?nolink&20 |}} |Cache offline aangemeld als om te worden gearchiveerd.|
+|{{ :dot_note_offline.svg?nolink&20 |}} |Cache offline gelogd met een aantekening.|

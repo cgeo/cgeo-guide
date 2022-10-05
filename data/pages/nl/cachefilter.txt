@@ -1,6 +1,6 @@
 ====== Cachefiltering ======
 
-Cachefiltering kan op verschillende plaatsen in c:geo worden toegepast, b.v. op de [[:en:mainmenu:livemap|Live Kaart]], in [[:en:mainmenu:lists|Opgeslagen caches]] of bij het uitvoeren van online cache [[:en:mainmenu:search|Zoeken]]. Op al deze plaatsen wordt hetzelfde filtermechanisme gebruikt.
+Cachefiltering kan op verschillende plaatsen in c:geo worden toegepast, b.v. op de [[:nl:mainmenu:livemap|Live Kaart]], in [[:nl:mainmenu:lists|Opgeslagen caches]] of bij het uitvoeren van online cache [[:nl:mainmenu:search|Zoeken]]. Op al deze plaatsen wordt hetzelfde filtermechanisme gebruikt.
 
 ===== Toegang tot filter =====
 

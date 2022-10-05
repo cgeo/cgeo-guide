@@ -9,6 +9,6 @@ c:geo ondersteunt meerdere coördinaat formaten zoals hieronder beschreven:
 |UTM|ZONE EASTING NORTHING|32U E 362807 N 5689444|Universele Transverse Mercator|
 
 Het MinDec-formaat wordt vaak gebruikt voor Geocaching-doeleinden.
-Voor bestaande coördinaten in cache of waypoints kun je het weergegeven formaat wijzigen door kort op de coördinaten te klikken.
+Voor bestaande coördinaten in cache of waypoints kun je het weergegeven formaat wijzigen door kort op de coördinaten te drukken.
 
 Wanneer je het [[coordinatedialog|coördinaten invoer scherm]] gebruikt kun je het gewenste formaat in he kop van het scherm kiezen volgens de notaties in bovenstaande lijst, behalve UTM, omdat dit als invoer formaat nog niet is ondersteund.

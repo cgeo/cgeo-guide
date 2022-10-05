@@ -1,76 +1,75 @@
 ====== Snelle Navigatie ======
-{{anchor:start}}
-* [[start|c:geo Handleiding]]
-      * [[start#about_cgeo|Over c:geo]]
-      * [[start#getting_started| Aan de slag met c:geo ]]
-          * [[installation|Installatie en updaten van c:geo]] 
-          * [[installation#permissions|c:geo toestemming machtigingen op apparaten]] 
-          * [[firststeps|Eerste stappen met c:geo]] 
-          * [[basicuse| Basisgebruik van c:geo]] 
-{{anchor:manual}}   
+  * [[start|c:geo Handleiding]]
+    * [[start#about_cgeo|Over c:geo]]
+
+    * [[start#getting_started| Aan de slag met c:geo]]
+      * [[installation|Installeren en updaten]]
+      * [[installation#permissions|c:geo toestemming machtigingen op apparaten]]
+      * [[firststeps|Eerste stappen met c:geo]] 
+      * [[basicuse| Basisgebruik van c:geo]] {{anchor:manual}}  
+      * [[loginproblems|Inlogproblemen]]
+
     * [[start#users_manual|Handleiding]]
-    
-    * [[start#mainmenu|Hoofdmenu]]
-          * [[.mainmenu:start|Hoofdscherm]]
-          * [[.mainmenu:start#top_bar_menu|Menu bovenste balk]]
-          * [[.mainmenu:livemap|Live kaart]]
-          * [[.mainmenu:lists|Dichtbij zoeken]]
-          * [[.mainmenu:lists|Opgeslagen caches]]
-          * [[.mainmenu:search|Zoeken]]
-          * [[.mainmenu:goto|Ga naar]]
-          * [[.mainmenu:globaltypefilter|Algemeen Cache Type Filter ]]
-          * [[.mainmenu:start#bottom_section|Status info]]
-          * [[.mainmenu:settings|Instellingen]]
-    
+      * [[.mainmenu:start|Startscherm]]
+      * [[.mainmenu:livemap|Live kaart]]
+      * [[.mainmenu:lists|Dichtbij zoeken]]
+      * [[.mainmenu:lists|Opgeslagen caches]]
+      * [[.mainmenu:search|Zoeken]]
+
+      * [[.mainmenu:settings|Instellingen]]
+
     * [[start#geocaches|Geocaches]]
-          * [[cachedetails|Geocache Details]] 
-          * [[logging|Het loggen van Geocaches]]
-   
-    * [[start#trackables|Trackables]]    
+      * [[cachedetails|Geocache Details]] 
+      * [[logging|Het loggen van Geocaches]]
+      * [[cachevariables|Cache Variabelen*]]
+
+      * [[start#trackables|Trackables]]    
           * [[trackabledetails|Trackable Details]]
           * [[loggingtb|Loggen van Trackables]]
-    
+
     * [[start#coordinates_and_navigation|Coördinaten en Navigatie]]
-          * [[coordinatedialog|Coördinaten invoer scherm]]
-          * [[coordinatedialog#waypoint_calculator|Waypoint calculator]]
-          * [[navigation|Navigatie]]
-          * [[compass|Kompas]]
-   
-    * [[start#offline_functions|Offline functies]]   
-          * [[offline|Offline caching]]
-          * [[offline#gpx_import|GPX import]]
-          * [[.mainmenu:pocketquery|Pocket queries]]
-          * [[offline#offline_logging|Offline loggen]]
-          * [[offline#field_note_export|Veld notities]]
-          * [[offline#offline_maps|Offline kaarten]] 
-          * [[udc|Gebruiker gedefinieerde caches]]
+      * [[coordinatedialog|Coördinaten invoer scherm]]
+      * [[waypointcalculator|Waypoint calculator]]
+      * [[navigation|Navigatie]]
+      * [[compass|Kompas]]
+
+    * [[offline|Offline caching]]
+      * [[offline#gpx_import|GPX import]]
+      * [[.mainmenu:pocketquery|Pocket queries]]
+      * [[offline#offline_logging|Offline loggen]]
+      * [[offline#field_note_export|Veld notities]]
+      * [[offline#offline_maps|Offline kaarten]] 
+
+    * [[udc|Gebruiker gedefinieerde caches]]
 
     * [[start#quick_reference|Snelle referenties]]
-          * [[cacheicons|Geocache typen]]
-          * [[cachemarkers|Geocache markering pictogrammen]]
-          * [[cachedetails#waypoint_types|Waypoint typen]]
-          * [[mapsources|Kaartbronnen]]
-          * [[cachefilter|Cache Filtering]]
-          * [[basicmembers|Beperkingen voor basisleden]]
-          * [[coordformat|Coördinaat formaten]]
-          * [[attributes|Attributen]]
-          * [[.mainmenu:utilityprograms|Hulpprogramma's]]
-   
-    * [[start#special_functions_and_hints|Speciale functies en hints]]
-          * [[offlinemaps|Offline kaart handleiding]]
-          * [[intents|Geocaching gerelateerde links]]
-          * [[nfc|Caches delen met NFC]]
-          * [[hiddenfunctions|Verborgen functies in c:geo]]
-          * [[http://send2.cgeo.org|Send to c:geo]]
-          * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
-          * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
-          * [[quick_widgets|Snelle toegang en widgets gebruiken ]]
-          * [[replacedevice|C:geo migreren naar een ander apparaat]]
-    
+      * [[cacheicons|Geocache typen]]
+      * [[cachemarkers|Geocache markeringen]]
+      * [[cachedetails#waypoint_types|Waypoint typen]]
+      * [[mapsources|Kaartbronnen]]
+      * [[cachefilter|Cache Filtering]]
+      * [[basicmembers|Beperkingen voor basisleden]]
+      * [[coordformat|Coördinaat formaten]]
+      * [[attributes|Attributen]]
+      * [[.mainmenu:utilityprograms|Andere nuttige apps]]
+
+    * [[start#special_functions_and_hints|Speciale functies en tips]]
+      * [[offlinemaps|Offline kaart handleiding]]
+      * [[intents|Geocaching gerelateerde links]]
+      * [[nfc|Caches delen met NFC]]
+      * [[hiddenfunctions|Verborgen functies in c:geo]]
+      * [[http://send2.cgeo.org|Send to c:geo]]
+      * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]
+      * [[notecoords|Waypoints gemaakt uit coördinaten in persoonlijke notities]]
+      * [[quick_widgets|Snelle toegang en widgets gebruiken ]]
+      * [[replacedevice|C:geo migreren naar een ander apparaat]]
+      * [[brouter|Gerouteerde navigatie gebruiken in c:geo]]
+
+    * [[start#plugins|Plugins en Addon functies]]
+      * [[contacts|Contacten plugin]]
+
     * [[start#faq|FAQ]]
-    
+
     * [[start#about_this_manual|Over deze handleiding]]
-          * [[translation|Help deze handleiding vertalen!]]
-          * [[ebook_help|Download een PDF versie van deze handleiding]]
-   
+
     * [[start#useful_links|Handige Links]]

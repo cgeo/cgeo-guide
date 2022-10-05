@@ -1,17 +1,26 @@
-====== Pocket Queries ======
+====== Bladwijzer lijsten en Pocketquery's ======
 
 {{:ic_menu_pocket_query.svg?nolink&50 |}}
+{{:ic_menu_bookmarks.svg?nolink&50 |}}
 
-Met deze functie kun je de bestaande pocketquery's op de geocaching-server bekijken en ze weergeven als een [[lists|lijst]] of de hele pocket query importeren gelijksoortig als [[..offline#gpx_import|een GPX bestand importeren]].
+Met deze functies kun je de bestaande pocketquery's op de geocaching-server of bladwijzer lijsten bekijken en ze weergeven als een [[lists|lijst]] of de hele pocket query importeren gelijksoortig als [[..offline#gpx_import|een GPX bestand importeren]].
+
 
 <WRAP center round info 100%>
-Dit menu is alleen beschikbaar voor premium leden van geocaching.com premium members, omdat pocket queries een premium functie is.
+Dit menu is alleen beschikbaar voor premium leden van geocaching.com premium members, omdat pocketqueries en bladwijzer lijsten premium functies zijn.
 </WRAP>
 
-Na het selecteren van deze menufunctie wordt de lijst met pocketquery's als volgt vanaf de server geladen:
+Na het selecteren van deze menufunctie worden de corresponderende lijsten als volgt vanaf de server geladen:
 
 {{:en:pocketquery.png?nolink&400 |}}
+{{ :en:bookmarklists.png?nolink&400 |}}
+
+
+----
+
 
 In de lijst wordt elke bestaande pocketquery met de naam als titel weergegeven. De ondertitel biedt informatie over het aantal caches in elke query, de dag waarop de query is uitgevoerd en de resterende dagen dat de query beschikbaar zal zijn op de server.
 
-Het {{:ic_menu_save.svg?nolink&20|}} icoon kan worden gebruikt om de hele pocket query naar één van je lijsten te laden, het  {{:ic_menu_search.svg?nolink&20|}} icoon zal de pocket query voor preview openen.
+Het {{:ic_menu_save.svg?nolink&20|}} icoon kan worden gebruikt om de hele pocket query / lijst naar één van je lijsten te laden, het  {{:ic_menu_search.svg?nolink&20|}} icoon zal de pocket query als preview openen.
+
+Met de wisselknop "Alles weergeven" in de titelbalk kun je die zoekopdrachten / lijsten verbergen waarvoor geen download beschikbaar is.

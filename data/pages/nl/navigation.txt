@@ -12,8 +12,6 @@ De volgende tabel biedt een overzicht van de verschillende ondersteunde methoden
 |Kompas|Start het in c:geo gebouwde [[compass|kompas]].|
 |Radar|Start apps die een radarfunctionaliteit ondersteunen, zoals [[.mainmenu:utilityprograms|GPS Status & Toolbox]].\\ Een radar lijkt op een kompas maar toont je positie in het midden en de doelpositie in relatie hiermee.|
 |Toon op kaart|Opent the c:geo [[.mainmenu:livemap|kaart]]|
-|Statische kaart|Opent de [[offline#static_maps|statische kaarten]] die eerder zijn gedownload.|
-|Download statische kaart|Deze optie is alleen beschikbaar als [[offline # static_maps | statische kaarten]] nog niet is gedownload en de statische kaarten probeert te downloaden.|
 |Locus|Start [[.mainmenu:utilityprograms|Locus]] om de coördinaten op de kaart weer te geven.|
 |Navigeer (Rijden)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie per auto.|
 |Navigeer (Fiets)|Start [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] stap voor stap navigatie per fiets.|

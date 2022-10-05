@@ -18,6 +18,7 @@ Je kunt op twee manieren een gebruiker gedefinieerde cache maken:
   - Druk langdurig op de kaart om een gebruikers gedefinieerde cache aan te maken. De functie om langdurig op de kaart te drukken moet wel worden aangezet in de [[.mainmenu:settings#map_behavior|kaart gedrag instellingen]].
 
 Na één van deze acties zal er met een prompt gevraagd worden om een titel van de te maken gebruikers gedefinieerde cache.
+Door op het pictogram rechtsboven in het dialoogvenster te tikken, kun je ook een aangepast cachepictogram voor deze cache selecteren.
 
 {{:en:udc_create.png?direct400|}}
 

@@ -1,82 +1,36 @@
-
 ====== De eerste stappen met c:geo ======
+{{:logo_big.png?nolink&200 |}}
+Deze pagina helpt je om aan de slag te gaan met c:geo. Het beschrijft hoe je het voor het eerste gebruik moet instellen en zal je helpen de configuratiewizard te begrijpen die wordt weergegeven bij de eerste start van c:geo.
 
-<WRAP center round important 100%>
-Om c:geo te gebruiken heb je een account nodig van een geocaching platform van je keuze. c:geo ondersteunt momenteel [[https://www.geocaching.com|geocaching.com]], een internationaal commercieel geocaching platform, en Opencaching platformen uit verschillende landen(bijv. [[https://www.opencaching.us|Opencaching USA]], [[https://www.opencache.uk|Opencaching UK]], en veel meer). Selecteer het platform dat je gaat gebruiken en maak een gebruikersaccount op de website van het gewenste platform. (Basis accounts zijn over het algemeen gratis).\\ \\
-Zonder een account op één van de geocaching platformen zal c:geo niet werken!
+Raadpleeg onze [[.:installation|installatie pagina]] voor instructies over het installeren van c:geo.
+
+<WRAP center round info 100%>
+**Om c:geo te gebruiken, heb je een account nodig van een geocachingdienst naar keuze. Zonder zo'n account zal c:geo geen caches tonen!** \\
+Als je nog niet zo'n geocaching-account hebt, kan c:geo je tijdens het instellen naar de registratiepagina van je gewenste geocaching-service leiden, zodat je een account kunt aanmaken (Basisaccounts zijn meestal gratis).\\
+Je kunt ook van tevoren een account aanmaken op de website van de geocachingservice en de inloggegevens gebruiken bij het instellen van c:geo.
 </WRAP>
-
-===== Aan de slag =====
-
-Als je c:geo voor de eerste keer na installatie start, word je rechtstreeks naar het volgende scherm "Aan de slag" geleid:
-
-{{:nl:getting_started.png?direct&400 }}
-Het legt de [[installation#permissions|machtigingen]] uit die c:geo nodig heeft op je apparaat, toont links naar deze handleiding en - het belangrijkste - toont een button om de connectie in te stellen naar de geocaching platformen.
-
-Als je op de button ''"Configureer je geocaching platform(en)"'' drukt zul je meteen naar de service instellingen worden gebracht en kun je c:geo authoriseren om te communiceren met het geocaching platform van je keuze zoals hieronder wordt beschreven.
-
-**Als je na de eerste start opnieuw toegang wilt tot de service-instellingen, vind je ze in:\\
-''Menu → Instellingen → Diensten''**
-
-----
-
-===== Configureer je geocaching platform(en) =====
-
-Selecteer nu het geocaching platform dat je gaat gebruiken uit de lijst van de ondersteunde platformen. Je kunt er verschillenden configureren door terug te gaan naar dit scherm hieronder. Je kan dit scherm vinden in ''Menu → Instellingen → Diensten''.
-
-{{:en:services_2_en.png?direct&400|}}{{:en:services_1_en.png?direct&400 |}}
-
-===== C:geo verbinden met geocaching.com =====
-
-Nadat je ''geocaching.com'' in de lijst van ondersteunde geocaching platformen hebt geselecteerd vink je __Activeren__ aan en druk je op de button ''Autoriseer c:geo'' zoals hieronder wordt getoond:
-
-{{ :nl:firststeps_1_nl.png?direct&400 }}
-
-Nadat je op de button ''Autoriseer c:geo'' hebt gedrukt zal er een venster verschijnen waar je jouw gebruikersnaam en wachtwoord voor geocaching.com kunt invullen. Tenslotte druk je op ''Controleer authenticatie''.\\
-Als je nog geen account hebt kun je op de button ''Account aanmaken'' drukken om de registratiepagina van geocaching.com te openen.
-
-{{ :nl:firststeps_3_nl.png?direct&400 }}
-
-Na afronding van de registratie zal c:geo automatisch naar het diensten menu gaan en kun je bekijken of de registratie succelsvol heeft verlopen. Je gebruikersnaam en avatar zullen dan worden getoond:
-
-{{ :en:firststeps_2_en.png?direct&400 }}
-
-<WRAP center round help 100%>
-Indien de registratie is mislukt kijk dan op [[http://faq.cgeo.org#login-failed|FAQ]] om hulp te krijgen.
-</WRAP>
-
-Klik nu op de terug functie op je apparaat om naar het hoofdmenu van c:geo te gaan. De volgende keer wanneer c:geo wordt gestart zal c:geo automatisch naar het hoofdmenu gaan.
-
-===== C:geo verbinden met Opencaching platformen =====
-
-Als je c:geo wilt verbinden met een andere service dan geocaching.com of de service-instellingen opnieuw wilt openen, vind je ze in:\\
-''Menu → Instellingen → Diensten''
 
 <WRAP center round tip 100%>
-Voor meer informatie over de geocaching-services die worden ondersteund door c:geo klik [[.mainmenu:settings#Services|hier]].
+Je kunt [[.mainmenu:settings#Services|hier]] meer informatie vinden over de geocachingdiensten die worden ondersteund door c:geo.
 </WRAP>
 
-Selecteer een geocachingplatform waarmee je verbinding wilt maken en activeer de service in het volgende scherm door op het vak '' Activeren '' te klikken. 
-Start daarna het autorisatieproces door op '' autoriseer c:geo '' te klikken.
+Bij de eerste keer opstarten na het installeren van c:geo zal een configuratiewizard je op weg helpen door je door de essentiële configuratie- en instellingsstappen te leiden. Hoewel de configuratiewizard voor zich spreekt, zullen we je op deze pagina wat meer uitleg en achtergrond geven. 
+Volg de rode markeringen in de volgende afbeeldingen om het proces te doorlopen. 
+Oranje markeringen geven optionele stappen weer of geven aanvullende tips. 
+Je kunt op onderstaande afbeeldingen klikken om ze te vergroten.
 
-{{ :nl:oc_nl_1.png?direct&400 }}
+/* Author comment: Table layout plugin used below to enforce 300px for the wizard pictures */
 
-Druk vervolgens op ''Start authorisatie'' in het volgende scherm. Als je nog geen account hebt, kunt u op de knop '' Account aanmaken '' klikken om de registratiepagina van het OpenCaching-platform te openen.
+{{tablelayout?colwidth="300px,-"}}
+^ Scherm configuratiewizard ^ Uitleg ^
+|{{:en:firststeps_wizard_01_welcome.png?direct&300 |}}|Druk op ''Volgende'' om de configuratiewizard te starten. Als je een gevorderde gebruiker bent en c:geo handmatig wilt configureren of als je de installatie later wilt uitvoeren, kun je op ''Niet nu'' drukken om de wizard te omzeilen.\\ \\ Zolang de installatie niet is voltooid , wordt de wizard weergegeven bij elke start van c:geo of je kunt deze handmatig starten door ''Configuratiewizard'' te selecteren in het titelbalkmenu op het hoofdscherm.|
+|{{:en:firststeps_wizard_02_permission.png?direct&300 |}}|De wizard vraagt naar de machtigingen die c:geo nodig heeft op je apparaat en geeft uitleg over waarom deze machtigingen nodig zijn.\\ \\ <WRAP-centrum rond belangrijk 100%> Houd er rekening mee dat c:geo niet werkt zonder deze machtigingen ! </WRAP><WRAP center round tip 100%>Afhankelijk van je Android-versie kunnen de toestemmingsstappen van de wizard worden overgeslagen, omdat je de toestemmingen al hebt gegeven tijdens het installeren van c:geo.</WRAP>\\ \\ Tik op '' Volgende'' om het toestemmingsproces te starten.|
+|{{:en:firststeps_wizard_03_permission_file.png?direct&300 |}}|Nadat je op ''Volgende'' op dit scherm hebt gedrukt, word je gevraagd om c:geo toestemming te geven voor toegang tot je bestandssysteem om gegevens te lezen en op te slaan. Dit is nodig om geocaches op te slaan voor offline gebruik. Verder kan c:geo GPX-bestanden, offline logs en nog veel meer importeren en exporteren.\\ \\ Er verschijnt nu een Android-dialoogvenster waarin je wordt gevraagd dit te bevestigen door op te tikken''Toestaan''.\\ {{:en:firststeps_wizard_04_permission_file_confirm.png?direct&200 |}}|
+|{{:en:firststeps_wizard_07_basefolder.png?direct&300 |}}|c:geo zal alle voor de gebruiker toegankelijke gegevens (zoals GPX-bestanden, offline logs, enz.) opslaan onder een basismap, die je in de volgende stap moet maken of selecteren en c:geo toegang tot die map moet geven. Je kunt elke map kiezen die je wilt gebruiken, we raden echter aan om ''/cgeo/'' op je interne opslag te gebruiken.\\ \\ Nadat je op ''Volgende'' hebt getikt, verschijnt er een Android-mapkiezer, waarmee je navigeert door je mappen en stelt je in staat de gewenste map aan te maken of te selecteren. Let op het menu I (hieronder oranje gemarkeerd) dat meer opties biedt, zoals het selecteren van de opslag (bijvoorbeeld interne of SD-kaart) of het maken van een nieuwe map. Nadat je de gewenste locatie hebt geselecteerd, druk je op ''Deze map gebruiken'' en daarna op ''Toestaan'' om te bevestigen. \\ \\ <WRAP center round info 100%>Omdat de directorykiezer deel uitmaakt van je Android-besturingssysteem, kan deze er enigszins anders uitzien, afhankelijk van het apparaat en de Android-versie.</WRAP>\\ {{:en:firststeps_wizard_08_basefolder_selector.png?direct&200|}}{{:en:firststeps_wizard_09_basefolder_confirm.png?direct&200|}}|
+|{{:en:firststeps_wizard_10_services.png?direct&300 |}}|Nu moet je de verbinding met de gewenste geocaching-service instellen door op ''geocaching.com'' of ''Opencaching & anderen'' te tikken.\\ \\ Nadat je op ''geocaching.com'' hebt getikt, zie je de authenticatie pagina, waar je jouw bestaande inloggegevens voor de website van geocaching.com moet invoeren.\\ \\ Als je nog geen account hebt, kun je naar de pagina voor het maken van een account gaan door op ''Een account aanmaken'' te tikken ( zie oranje gemarkeerd vak hieronder). Dit opent de registratiepagina van geocaching.com, waar je een account kunt aanmaken.\\ \\ <WRAP center round info 100%>Let op, c:geo ondersteunt geen autorisatie met Google, Facebook of Apple. Gebruik daarom in plaats daarvan de gewone gebruikersnaam/wachtwoordmethode voor het maken en inloggen van een account. Leer [[https://faq.cgeo.org/#facebook-login|in onze FAQ]] hoe je een wachtwoord voor je account kunt ophalen.</WRAP>{{:en:firststeps_wizard_11_GCAuth.png?direct&200|}}<WRAP centrum ronde hulp 100%> Als de registratie mislukt, kijk dan in onze [[http://faq.cgeo.org#login-failed|FAQ]] voor hulp.</WRAP> Als je op ''Opencaching & Anderen'' drukt op het wizardscherm zie je in plaats daarvan een lijst met ondersteunde services, waar je - vergelijkbaar met het bovenstaande voorbeeld - de gewenste service kunt selecteren en daarna autoriseren voor die geocachingservices of een account aanmaken.\\ {{:en:firststeps_wizard_14_OCAuth.png?direct&200 | }}|
+|{{:en:firststeps_wizard_15_Advanced.png?direct&300 |}}|Deze stap van de wizard biedt geavanceerde instellingsopties, die optioneel zijn. Ervaren gebruikers kunnen deze stap gebruiken om offline kaarten, begeleidende router-apps te downloaden of bestaande c:geo-back-ups te herstellen.\\ Hier zijn enkele links naar de relevante pagina's met gebruikershandleidingen voor deze geavanceerde functies:\\ \\ [[.:offlinemaps|Offline kaarten downloaden en gebruiken met c:geo]]\\ [[.:brouter|Brouter gebruiken in c:geo]]\\ [[.:mainmenu:settings#restore|Back-ups terugzetten]]\\ \\ Als je voor het eerst een gebruiker bent, kun je nu gewoon ''Overslaan'' selecteren. De genoemde opties kunnen op een later tijdstip ook handmatig worden geconfigureerd.|
+|{{:en:firststeps_wizard_16_done.png?direct&300 |}}|Het laatste scherm van de configuratiewizard geeft een samenvatting van de resultaten. In het ideale geval zou het eruit moeten zien als het getoonde voorbeeld.\\ Als sommige stappen worden weergegeven als niet voltooid, kun je ''Vorige'' gebruiken om terug te gaan en het opnieuw te controleren, anders druk je gewoon op ''Voltooien'' om de wizard te sluiten.\\ \\ **Happy Caching met c:geo!**|
 
-{{ :nl:oc_nl_2.png?direct&400 }}
-
-Je wordt nu naar de webpagina van het OpenCaching-platform in je browser gebracht. Log in op de webpagina met je gebruikersnaam en wachtwoord en - indien nodig - ga akkoord op de volgende pagina om c:geo-toegang te geven tot je Opencaching-account.
-
-{{ :en:oc_en_3.png?direct&400 }}
-
-Na het voltooien van de registratie zou c:geo opnieuw moeten openen en de succesvolle registratie melden:
-
-{{ :nl:oc_nl_4.png?direct&400 }}
-
-<WRAP center round tip 100%>
-Als je een foutmelding krijgt of alsje niet terugkeert naar c:geo, probeer dan een andere browser te gebruiken voor de registratie. Controleer ook of de datum en tijd op je apparaat correct zijn ingesteld.
-</WRAP>
-
-
-
+Na het voltooien van de configuratiewizard zul je naar het hoofdscherm van c:geo worden gebracht.
+Ga verder op onze [[.:basicuse|Basisgebruikspagina]] om te leren hoe je je eerste cache kunt vinden met c:geo.
 

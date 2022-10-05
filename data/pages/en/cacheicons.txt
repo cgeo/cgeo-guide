@@ -68,7 +68,7 @@ Additionally some cache status values, which are represented by a [[.:cachemarke
 |{{ :dot_found_offline.svg?nolink&20 |}} |Cache offline logged as found|
 |{{ :dot_not_found_offline.svg?nolink&20 |}} |Cache logged as not found|
 |{{ :dot_marker_usermodifiedcoords.svg?nolink&20 |}} |Cache with user modified coordinates\\ (Background is colored depending on cache type)|
-|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Cache which has a valid final wayppoint\\ (Background is colored depending on cache type)|
+|{{ :dot_marker_hasfinal.svg?nolink&20 |}} |Cache which has a valid final waypoint\\ (Background is colored depending on cache type)|
 |{{ :dot_marker_calendar.svg?nolink&20 |}} |Event cache, where you logged a will attend|
 |{{ :dot_marker_maintenance_offline.svg?nolink&20 |}} |Cache offline logged as in need of maintenance|
 |{{ :dot_marker_archive_offline.svg?nolink&20 |}} |Cache offline logged as to be archived|

@@ -90,7 +90,7 @@ The following numeric operators are supported:
 |''*''|Multiplication|''3*4'' evaluates to ''12''|
 |''/''|Division|''12/3'' evaluates to ''4''|
 |''%''|Modulo|''12%5'' evaluates to ''2''|
-|''^''|Potentiate|''3^3'' evaluates to ''9''|
+|''^''|Potentiate|''3^3'' evaluates to ''27''|
 |''!''|Factorize|''4!'' evaluates to ''24''|
 
 ==== Relational operators and conditions ====

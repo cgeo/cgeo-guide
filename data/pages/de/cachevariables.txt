@@ -86,7 +86,7 @@ Die folgenden numerischen Operationen werden unterstützt:
 |''*''|Multiplikation|''3*4'' ergibt ''12''|
 |''/''|Division|''12/3'' ergibt ''4''|
 |''%''|Modulo|''12%5'' ergibt ''2''|
-|''^''|Potenzieren|''3^3'' ergibt ''9''|
+|''^''|Potenzieren|''3^3'' ergibt ''27''|
 |''!''|Faktorisieren|''4!'' ergibt ''24''|
 
 ==== Vergleichende Operatoren und Bedingungen ====

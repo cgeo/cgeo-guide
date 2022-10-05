@@ -1,5 +1,3 @@
-FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la traduction**\\ //(supprimez ce paragraphe une fois la traduction terminée)//
-
 ====== Navigation rapide ======
 
   * [[start|Guide d'utilisation de c:geo]]
@@ -20,23 +18,24 @@ FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la 
          
     * [[.mainmenu:settings|Paramètres]]
 
-    * [[start#geocaches|Géocaches]]
-      * [[cachedetails|Geocache Details]]
-      * [[logging|Logging of Geocaches]]
+    * [[start#geocaches|géocaches]]
+      * [[cachedetails|Détails des geocaches]]
+      * [[logging|Loguer les géocaches]]
+      * [[cachevariables|Variables des géocaches]]
     * [[start#trackables|Objets voyageurs]]
-      * [[trackabledetails|Trackable Details]]
-      * [[loggingtb|Logging of Trackables]]
+      * [[trackabledetails|Détails des TB]]
+      * [[loggingtb|Loguer des TB]]
     * [[start#coordinates_and_navigation|Coordonnées et navigation]]
-      * [[coordinatedialog#waypoint_calculator|Waypoint calculator]]
+      * [[coordinatedialog#waypoint_calculator|Calculateur de point de passage]]
       * [[navigation|Navigation]]
       * [[compass|Boussole]]
-    * [[offline|Fonctions hors ligne]]
-      * [[offline#gpx_import|GPX import]]
+    * [[offline|Fonctions hors-ligne]]
+      * [[offline#gpx_import|Import GPX]]
       * [[.mainmenu:pocketquery|Pocket queries]]
-      * [[offline#offline_logging|Offline logging]]
-      * [[offline#field_note_export|Field Notes]]
-      * [[offline#offline_maps|Offline Maps]] 
-    * [[udc|User defined caches]]
+      * [[offline#offline_logging|Logs hors-ligne]]
+      * [[offline#field_note_export|Notes de terrain]]
+      * [[offline#offline_maps|Cartes hors-ligne]] 
+    * [[udc|Caches personelles]]
 
 
     * [[start#quick_reference|Accès rapide]]
@@ -44,26 +43,26 @@ FIXME **Cette page n'est pas encore traduite entièrement. Merci de terminer la 
       * [[cachemarkers|Geocache markers]]
       * [[cachedetails#waypoint_types|Waypoint types]]
       * [[mapsources|Fonds de carte]]
-      * [[cachefilter|Cache Filtering]]
-      * [[basicmembers|Basic member limitations]]
-      * [[coordformat|Coordinate formats]]
-      * [[attributes|Attribute icons]]
+      * [[cachefilter|Filtrage des caches]]
+      * [[basicmembers|Limitations pour les membres non-premiums]]
+      * [[coordformat|Formats de coordonnées]]
+      * [[attributes|Icônes des attributs]]
       * [[.mainmenu:utilityprograms|Outils]]
 
     * [[start#special_functions_and_hints|Astuces et fonctions avancées]]
-      * [[offlinemaps|Offline map tutorial]]
+      * [[offlinemaps|Tutoriel sur les cartes hors-ligne]]
       * [[intents|Ouvrir les liens Geocaching avec c:geo]]
       * [[hiddenfunctions|Fonctions cachées de c:geo]]
       * [[nfc|Partager des caches par NFC]]
       * [[https://send2.cgeo.org|Utiliser Send2cgeo]].
-      * [[spoilersync|Synchronizing spoiler pictures from external sources to c:geo]]
-      * [[notecoords|Waypoints created for coordinates in personal notes]]
-      * [[quick_widgets|Using quick access and widgets as shortcuts for some c:geo functions]]
-      * [[replacedevice|Migrating c:geo to another device]]
-      * [[brouter|Use routed navigation c:geo]]
+      * [[spoilersync|Synchroniser les photos spoileurs à partir d'une autre source avec c:geo]]
+      * [[notecoords|Création de waypoints à partir des coordonnées dans les notes personelles]]
+      * [[quick_widgets|Utiliser les raccourcis et widgets pour des fonctions de c:geo]]
+      * [[replacedevice|Migrer c:geo vers un autre appareil]]
+      * [[brouter|Utiliser le routage dans c:geo]]
 
     * [[start#plugins|Extensions et modules complémentaires]]
-      * [[contacts|Contacts plugin]]
+      * [[contacts|Plug-in de Contacts]]
 
     * [[start#faq|FAQ]]
 
