@@ -1,107 +1,3 @@
-1633550025	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	internal:playground:types.svg	murggel	created		22752
-1633550025	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	internal:playground:marker.svg	murggel	created		912
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_cgeo.svg	murggel	angelegt		243
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_black.svg	murggel	angelegt		244
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_disabled.svg	murggel	angelegt		243
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_event.svg	murggel	angelegt		244
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_found.svg	murggel	angelegt		621
-1635195648	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_advlab.svg	murggel	angelegt		245
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_archive_offline.svg	murggel	angelegt		436
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_calendar.svg	murggel	angelegt		494
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_maintenance_offline.svg	murggel	angelegt		367
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_marker_usermodifiedcoords.svg	murggel	angelegt		421
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_multi.svg	murggel	angelegt		244
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_mystery.svg	murggel	angelegt		246
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_not_found_offline.svg	murggel	angelegt		580
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_note_offline.svg	murggel	angelegt		491
-1635195649	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_found_offline.svg	murggel	angelegt		633
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_special.svg	murggel	angelegt		246
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_traditional.svg	murggel	angelegt		250
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_unknown.svg	murggel	angelegt		246
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_flag.svg	murggel	angelegt		507
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_pkg.svg	murggel	angelegt		467
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_puzzle.svg	murggel	angelegt		671
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_stage.svg	murggel	angelegt		834
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_trailhead.svg	murggel	angelegt		476
-1635195650	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	dot_waypoint_waypoint.svg	murggel	angelegt		449
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_favorite.svg	murggel	angelegt		359
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_premium.svg	murggel	angelegt		744
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_voted.svg	murggel	angelegt		429
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	filter_watchlist.svg	murggel	angelegt		655
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_announcement.svg	murggel	angelegt		499
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_archive.svg	murggel	angelegt		395
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_calendar.svg	murggel	angelegt		466
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_disable.svg	murggel	angelegt		359
-1635195651	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_found.svg	murggel	angelegt		560
-1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_found_offline.svg	murggel	angelegt		568
-1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_hasfinal.svg	murggel	angelegt		504
-1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_maintenance.svg	murggel	angelegt		326
-1635195652	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_not_found_offline.svg	murggel	angelegt		722
-1635195653	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_note.svg	murggel	angelegt		457
-1635225991	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_own.svg	murggel	created		463
-1635225991	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_owner_maintenance.svg	murggel	created		332
-1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_personalnote.svg	murggel	created		627
-1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_retract.svg	murggel	created		364
-1635226067	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_publish.svg	murggel	created		366
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_reviewer_note.svg	murggel	created		465
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_stored.svg	murggel	created		634
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_unknown_offline.svg	murggel	created		611
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_update_coordinates.svg	murggel	created		518
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_usermodifiedcoords.svg	murggel	created		388
-1635226068	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	de:marker_visited.svg	murggel	created		396
-1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_personalnote.svg	murggel	created		627
-1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_retract.svg	murggel	created		364
-1635226155	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_publish.svg	murggel	created		366
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_reviewer_note.svg	murggel	created		465
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_stored.svg	murggel	created		634
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_unknown_offline.svg	murggel	created		611
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_update_coordinates.svg	murggel	created		518
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_usermodifiedcoords.svg	murggel	created		388
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	marker_visited.svg	murggel	created		396
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_collection.svg	murggel	created		389
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_discover.svg	murggel	created		572
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_drop.svg	murggel	created		357
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_grab.svg	murggel	created		518
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_inventory.svg	murggel	created		375
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_retrieve.svg	murggel	created		363
-1635226156	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tb_visit.svg	murggel	created		529
-1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	tick.svg	murggel	created		235
-1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	trackable_all.svg	murggel	created		656
-1635226188	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	trackable_travelbug.svg	murggel	created		610
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_advlab.svg	murggel	created		915
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_ape.svg	murggel	created		1029
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_cgeo.svg	murggel	created		622
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_cito.svg	murggel	created		961
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_earth.svg	murggel	created		7814
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_event.svg	murggel	created		746
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_giga.svg	murggel	created		2640
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_hq.svg	murggel	created		1000
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_letterbox.svg	murggel	created		644
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_locationless.svg	murggel	created		856
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_maze.svg	murggel	created		1347
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_mega.svg	murggel	created		2475
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_multi.svg	murggel	created		1950
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_mystery.svg	murggel	created		905
-1635226189	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_overlay_archived.svg	murggel	created		305
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_unknown.svg	murggel	created		1213
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_virtual.svg	murggel	created		732
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_webcam.svg	murggel	created		894
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_wherigo.svg	murggel	created		963
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_flag.svg	murggel	created		530
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_pkg.svg	murggel	created		486
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_puzzle.svg	murggel	created		687
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_stage.svg	murggel	created		852
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_trailhead.svg	murggel	created		494
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_overlay_visited.svg	murggel	created		247
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_specialevent.svg	murggel	created		1332
-1635226190	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	type_traditional.svg	murggel	created		1436
-1635226191	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	waypoint_waypoint.svg	murggel	created		452
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_gc_pin.svg	murggel	created		616
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_gc_pin_disabled.svg	murggel	created		622
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_oc_pin.svg	murggel	created		665
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_oc_pin_disabled.svg	murggel	created		671
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_other_pin.svg	murggel	created		705
-1635226209	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	C	combined_marker_other_pin_disabled.svg	murggel	created		711
 1637071940	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	type_multi.svg	lineflyer			2896
 1637071991	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	type_cgeo.svg	lineflyer			130
 1637073759	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:livemap_1.png	lineflyer			-122447
@@ -131,6 +27,8 @@
 1637099418	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_email.svg	murggel			-180
 1637099418	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_face.svg	murggel			-410
 1637099418	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_emoticons.svg	murggel			-191
+1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_recent_history.svg	murggel			-125
+1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_preferences.svg	murggel			-487
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_favorite.svg	murggel	angelegt		303
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_favorite_remove.svg	murggel	angelegt		402
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_home.svg	murggel	angelegt		192
@@ -138,8 +36,6 @@
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_message.svg	murggel	angelegt		192
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_owned.svg	murggel	angelegt		282
 1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_pocket_query.svg	murggel			-186
-1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_recent_history.svg	murggel			-125
-1637099419	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_preferences.svg	murggel			-487
 1637099420	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_save.svg	murggel			-207
 1637099420	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	ic_menu_save_all.svg	murggel			-236
 1637099420	2a00:ee2:f012:525:2c3d:378f:722d:95ee	C	ic_menu_sync_enabled.svg	murggel	angelegt		380
