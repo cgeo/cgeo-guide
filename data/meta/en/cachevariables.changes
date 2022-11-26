@@ -103,3 +103,5 @@
 1652522255	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	E	en:cachevariables	lineflyer	Fix wrong example (if cascade)		-1
 1652522404	fe80:f3a6:6ca6:06c1:a28e:d28c:9cfd:750c	e	en:cachevariables	lineflyer	[Functions] Table header typo		1
 1664002516	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:cachevariables	moving-bits	[Numeric operators] 		1
+1669373624	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Functions] Add TRUNC function		260
+1669373904	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Range expressions] New syntax for range expressions		14

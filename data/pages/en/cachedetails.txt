@@ -275,7 +275,7 @@ Color markes indicate the different log type allowing an easy distinction betwee
 
 Tapping on the username will open a context menu with owner related [[.mainmenu:search|search options]].
 
-Long tap on the log text allows you to copy the text to your clipboard. Furthermore you can use it to trigger [[.mainmenu:utilityprograms|translating]] the log into another language.
+Long tap on the log text allows you to copy part of the text or the whole log to your clipboard. Furthermore you can use it to trigger [[.mainmenu:utilityprograms|translating]] the log into another language.
 
 ===== Inventory tab =====
 {{anchor:inventory_tab:}}

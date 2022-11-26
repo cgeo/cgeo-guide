@@ -1,4 +1,4 @@
-====== Cache Variables ======
+====== Cache Variabelen ======
 
 ===== Introductie =====
 
@@ -70,114 +70,114 @@ De formulesyntaxis ondersteunt drie typen waarden.
 Typen is een ruim begrip, in het algemeen zal de evaluatie van de formule proberen de gegeven waarden zo goed mogelijk te laten passen.
 
 ^ Type ^ Beschrijving ^ Letterlijke syntaxis ^ Voorbeelden ^
-|Geheel getal | Getal zonder decimalen | Gebruik cijfers | ''1234'', ''-3''|
+|Heel getal | Getal zonder decimalen | Gebruik cijfers | ''1234'', ''-3''|
 |Decimaal | Getal met decimalen | Gebruik cijfers met decimale punt of komma | ''3.14'', ''-3.14'', ''3,14''|
-|String | Tekst | Waarde omringen met ''%%'%%'' of ''%%"%%''\\ Om de ''%%'...'%%'' of ''%%"..." te gebruiken %%'' zichzelf, typ ''%%''%%'' of ''%%""%%''| ''%%'test'%%'', ''%%"test"% %''\\ ''"Hij zei ""ja""!"''|
-==== Numeric operators ====
+|String | Tekst | Waarde omringen met ''%%'%%'' of ''%%"%%''\\  Om de ''%%'...'%%'' of ''%%"..."%%'' zelf te gebruiken, typ ''%%''%%'' of ''%%""%%''| ''%%'test'%%'', ''%%"test"%%''\\ ''"Hij zei ""ja""!"''|
 
-The following numeric operators are supported:
+==== Numerieke operatoren ====
 
-^ Operator ^ Function ^ Example ^
-|''+''|Addition|''2+4'' evaluates to '' 6''|
-|''-''|Subtraction\\ (or negating a number)|''6-4'' evaluates to ''2''\\ ''-(5-2)'' evaluates to ''-3''|
-|''*''|Multiplication|''3*4'' evaluates to ''12''|
-|''/''|Division|''12/3'' evaluates to ''4''|
-|''%''|Modulo|''12%5'' evaluates to ''2''|
-|''^''|Potentiate|''3^3'' evaluates to ''9''|
-|''!''|Factorize|''4!'' evaluates to ''24''|
+De volgende Numerieke operatoren worden ondersteund:
 
-==== Relational operators and conditions ====
+^ Operator ^ Functie ^ Voorbeelden ^
+|''+''|Optellen|''2+4'' evalueert naar '' 6''|
+|''-''|Aftrekken|''6-4'' evalueert naar ''2''\\ ''-(5-2)'' evalueert naar ''-3''|
+|''*''|Vermenigvuldigen|''3*4'' evalueert naar ''12''|
+|''/''|Delen|''12/3'' evalueert naar ''4''|
+|''%''|Modulo|''12%5'' evalueert naar ''2''|
+|''^''|Machtsverheffen|''3^3'' evalueert naar ''9''|
+|''!''|Factorisatie|''4!'' evalueert naar ''24''|
 
-Relational operators like ''<'' or ''=='' can be used to compare two values with each other. In general, such an operation will return the value ''1'' if the comparison yields true and the value ''0'' if it yields false. 
+==== Relationele operatoren en voorwaarden ====
 
-For example, the expression ''3 < 4'' will compute to the value ''1''.
+Relationele operatoren zoals ''<'' of ''=='' kunnen worden gebruikt om twee waarden met elkaar te vergelijken. In het algemeen zal een dergelijke bewerking de waarde ''1'' retourneren als de vergelijking waar oplevert en de waarde ''0'' als het onwaar oplevert.
 
-Relational operators are especially used in the ''if'' function. This function evaluates its first parameter. If this parameter is true (means: has a value > 0 or is a non-empty string) then it returns its second parameter. Else, and if it has a third parameter, the third parameter is returned.
+De uitdrukking ''3 < 4'' wordt bijvoorbeeld berekend tot de waarde ''1''.
 
-The ''if'' function accepts any number of parameters and interprets them in an "if-then-if-then-if-then-...-else" cascade. 
+Relationele operatoren worden vooral gebruikt in de ''if''-functie. Deze functie evalueert zijn eerste parameter. Als deze parameter waar is (betekent: heeft een waarde > 0 of is een niet-lege tekenreeks), dan retourneert deze de tweede parameter. Anders, en als het een derde parameter heeft, wordt de derde parameter geretourneerd.
 
-This means, that if the function was given 5 parameters then:
-* If the first parameter is true, then the second is returned
-* Else if the third parameter is true, then the fourth parameter is returned
-* Else the fifth parameter is returned
+De ''if''-functie accepteert een willekeurig aantal parameters en interpreteert ze in een "als-dan-als-als-dan-...-anders" cascade.
 
-For example ''if(A==5;50;A==4;40;30)'' will evaluate to ''50'' if ''A=5'', to ''40'' if ''A=4'' and to ''30'' for any other value of ''A''.
+Dit betekent dat als de functie 5 parameters heeft gekregen, dan:
+* Als de eerste parameter waar is, wordt de tweede geretourneerd
+* Anders, als de derde parameter waar is, wordt de vierde parameter geretourneerd
+* Anders wordt de vijfde parameter geretourneerd
 
-^ Operator ^ Meaning ^ Example ^
-|''==''| Checks for equality | ''2==2'' evaluates to ''1''(=true)|
-| ''<>'' | Checks for inequality. | ''3<>2'' evaluates to ''1''(=true)|
-|''<'' | Is less than | ''3<4'' evaluates to ''1''(=true)|
-| ''<='' | Is less or equal than | ''3<=3'' evaluates to ''1''(=true)|
-|''>'' | Is greater than | ''3>4'' evaluates to ''0''(=false)|
-|''>=''| Is greater or equal than | ''5>=5'' evaluates to ''1''(=true)|
+Bijvoorbeeld ''if(A==5;50;A==4;40;30)'' wordt geëvalueerd tot ''50'' als ''A=5'', tot ''40'' als '' A=4'' en naar ''30'' voor elke andere waarde van ''A''.
 
-==== Functions ====
+^ Operator ^ Betekenis ^ Voorbeeld ^
+|''==''| Controles op gelijkheid | ''2==2'' resulteert in ''1''(=true)|
+| ''<>'' | Controleert op ongelijkheid. | ''3<>2'' resulteert in ''1''(=true)|
+|''<'' | Is kleiner dan | ''3<4'' resulteert in ''1''(=true)|
+| ''<='' | Is kleiner of gelijk aan | ''3<=3'' resulteert in ''1''(=true)|
+|''>'' | Is groter dan | ''3>4'' resulteert in ''0''(=false)|
+|''>=''| Is groter of gelijk aan | ''5>=5'' resulteert in ''1''(=true)|
 
-Functions all start with a letter, contain only letters and digits and have a directly attached parameter list in parenthesis. Multiple parameters are separated using '';''.
+==== Functies ====
 
-An example for a one-parameter function call is ''sin(90)''. An example for a two-parameter function call is ''rot('test'; 13)''.
+Functies beginnen allemaal met een letter, bevatten alleen letters en cijfers en hebben een direct gekoppelde parameterlijst tussen haakjes. Meerdere parameters worden gescheiden met '';''.
 
-The following functions are defined:
+Een voorbeeld van een functieaanroep met één parameter is ''sin(90)''. Een voorbeeld van een functieaanroep met twee parameters is ''rot('test'; 13)''.
 
-^ Function ^ Synonyms ^ Description ^ Parameter 1 ^ Parameter 2 ^ Example ^
-|''sqrt''|-|calculates square root of given parameter|numeric parameter| - |''sqrt(9)'' evaluates to ''3''|
-|''sin''/''cos''/''tan'' |-| calculates sinus/cosinus/tangens of given parameter | numeric parameter in degree(!)| - | ''sin(90)'' evaluates to ''1''|
-|''abs''|-| calculates absolute value | numeric parameter | - | ''abs(-34)'' evaluates to ''34''|
-|''round''|-| rounds decimal values mathematically | value to round | optional: number of places to round to | ''round(4.65)'' evaluates to ''5'', ''round(4.65;1)'' evaluates to ''4.7''|
-|''if''|-| evaluates conditions and returns conditional values | list of if-then-else-values. See previous section for details | - | ''if(3<4;5;6)'' evaluates to ''5''|
-|''checksum''|''cs''| calculates checksum of given numeric value. Calculates lettervalue if given paramter is of type text | positive integer or text | - | ''checksum(345)'' evaluates to ''12''|
-|''ichecksum''|''ics''| calculates iterative checksum of given numeric value. Starts from lettervalue if given parameter is of type text | positive integer or text | - | ''ichecksum(345)'' evaluates to ''3''|
-|''lettervalue''|''lv'', ''wordvalue'', ''wv'' | calculates lettervalue of given string value | string | - | ''lettervalue('test')'' evaluates to ''64''|
-|''rot''|-| calculates rotated string of given string value | string | count to rotate by | ''rot('abc'; 1)'' evaluates to '''bcd'''|
-|''rot13''|-| calculates rotated-13 of given string value | string | - | ''rot13('abc')'' evaluates to '''nop'''|
-|''roman''|-| scans a given string value as a roman number and returns its decimal value | string | - | ''roman('VI')'' evaluates to ''6''.|
-|''vanity''|''vanitycode'', ''vc''| returns the vanity code of a string | string | - | ''vanity('cgeo')'' evaluates to ''2436''.|
+De volgende functies zijn gedefinieerd:
 
+^ Functie ^ Synoniemen ^ Beschrijving ^ Parameter 1 ^ Parameter 2 ^ Voorbeeld ^
+|''sqrt''|-|berekent vierkantswortel van gegeven parameter|numerieke parameter| - |''sqrt(9)'' evalueert naar ''3''|
+|''sin''/''cos''/''tan'' |-|berekent sinus/cosinus/tangens van gegeven parameter | numerieke parameter in graden(!)| - | ''sin(90)'' evalueert tot ''1''|
+|''abs''|-|berekent absolute waarde | numerieke parameter | - | ''abs(-34)'' evalueert tot ''34''|
+|''round''|-|rondt decimale waarden wiskundig af | waarde om af te ronden | optioneel: aantal plaatsen om op af te ronden | ''round(4.65)'' evalueert tot ''5'', ''round(4.65;1)'' evalueert tot ''4.7''|
+|''if''|-|evalueert voorwaarden en retourneert voorwaardelijke waarden | lijst met als-dan-anders-waarden. Zie vorige sectie voor details | - | ''if(3<4;5;6)'' evalueert tot ''5''|
+|''checksum''|''cs''|berekent de controlesom van de gegeven numerieke waarde. Berekent letterwaarde als gegeven parameter van het type tekst is | positief geheel getal of tekst | - | ''checksum(345)'' evalueert tot ''12''|
+|''ichecksum''|''ics''|berekent iteratieve controlesom van een gegeven numerieke waarde. Begint vanaf letterwaarde als de gegeven parameter van het type tekst is | positief geheel getal of tekst | - | ''ichecksum(345)'' evalueert tot ''3''|
+|''lettervalue''|''lv'', ''wordvalue'', ''wv'' |berekent letterwaarde van gegeven stringwaarde | tekenreeks | - | ''lettervalue('test')'' evalueert tot ''64''|
+|''rot''|-|berekent geroteerde string van gegeven stringwaarde | tekenreeks | tel om te roteren met | ''rot('abc'; 1)'' evalueert naar '''bcd'''|
+|''rot13''|-|berekent gedraaid-13 van gegeven stringwaarde | tekenreeks | - | ''rot13('abc')'' evalueert tot '''nop'''|
+|''roman''|-|scant een gegeven tekenreekswaarde als een Romeins getal en retourneert de decimale waarde | tekenreeks | - | ''roman('VI')'' evalueert tot ''6''.|
+|''vanity''|''vanitycode'', ''vc''|geeft de vanity-code van een string terug | tekenreeks | - | ''vanity('cgeo')'' evalueert tot ''2436''.|
 
-==== Variables ====
+==== Variabelen ====
 
-Variables are used in a formula as placeholders for values. When a formula containing a variable is evaluated, it needs to be passed a value for each of the contained variables in order to be correctly evaluated. 
+Variabelen worden in een formule gebruikt als tijdelijke aanduidingen voor waarden. Wanneer een formule die een variabele bevat, wordt geëvalueerd, moet er een waarde aan worden doorgegeven voor elk van de opgenomen variabelen om correct te kunnen worden geëvalueerd.
 
-Variable names are case sensitive and have to start with an alphanumeric char. Remaining chars can be alphanumeric or digits. 
-Examples for legal variable names are: ''Test'', ''T1'', ''t'', ''Tt123''. Examples for non-legal variable names are: ''1a'', ''2''
+Namen van variabelen zijn hoofdlettergevoelig en moeten beginnen met een alfanumeriek teken. Resterende tekens kunnen alfanumeriek of cijfers zijn.
+Voorbeelden voor namen van wettelijke variabelen zijn: ''Test'', ''T1'', ''t'', ''Tt123''. Voorbeelden van namen van niet-wettelijke variabelen zijn: ''1a'', ''2''
 
-One-letter-variables can just be typed into the formula and will be evaluated along. For example, the formula ''A + 2'' is valid. If ''A'' has the value ''5'', the formula will evaluate to ''7''.
+Variabelen van één letter kunnen gewoon in de formule worden getypt en worden mee geëvalueerd. Zo is de formule ''A + 2'' geldig. Als ''A'' de waarde ''5'' heeft, wordt de formule geëvalueerd tot ''7''.
 
-If multiple chars are concatenated within a formula, they will be interpreted as individual one-letter-variables. For example, the formula ''AA + 2'' will be interpreted as variable ''A'' concatenated two times and adding ''2'' afterwards. If ''A=4'', this formula will evaluate to ''44 + 2 = 46''. See following section for more details wrt concatenation.
+Als meerdere tekens binnen een formule worden aaneengeschakeld, worden ze geïnterpreteerd als afzonderlijke éénlettervariabelen. De formule ''AA + 2'' wordt bijvoorbeeld geïnterpreteerd als variabele ''A'', twee keer aaneengeschakeld en daarna ''2''. Als ''A=4'', zal deze formule resulteren in ''44 + 2 = 46''. Zie de volgende sectie voor meer details tov aaneenschakeling.
 
-Variable names longer than one char can be declared in Unix-Bash-Style by prepending their name with ''$''. For example, a variable named ''Test'' is can be referenced using ''$Test''. The formulua ''$Test + 2'' is valid. If value for variable ''Test'' is ''4'' the formula will evaluate to ''6''. 
+Variabelenamen die langer zijn dan één char kunnen in Unix-Bash-Style gedeclareerd worden door hun naam vooraf te laten gaan aan ''$''. Er kan bijvoorbeeld naar een variabele met de naam ''Test'' worden verwezen met ''$Test''. De formule ''$Test + 2'' is geldig. Als de waarde voor variabele ''Test'' ''4'' is, wordt de formule geëvalueerd tot ''6''.
 
-In situations where variable name conflicts with following alphas/chars, the variable name can be enclosed in ''{}'' to differentiate it from following text. For example, the following expression will concatenate the value of variable ''Test'' with the value of variable ''A'': ''${Test}A''
+In situaties waarin de naam van de variabele in strijd is met de volgende alfa's/tekens, kan de naam van de variabele worden ingesloten in ''{}'' om deze te onderscheiden van de volgende tekst. De volgende uitdrukking zal bijvoorbeeld de waarde van variabele ''Test'' samenvoegen met de waarde van variabele ''A'': ''${Test}A''
  
-Some more complex examples:
+Enkele meer complexe voorbeelden:
 
-  * The formula ''A + $A * $Test - t'' uses three variables named ''A'', ''Test'' and ''t''. The variable ''A'' is used in two places. Assuming ''A=2'', ''Test=3'' and ''t=1'', the formula would evaluate to ''7''.
-  * The formula ''AA + b + $A1'' uses three variables ''A'', ''b'' and ''A1''. Assuming ''A=2'', ''b=3'' and ''A1=4'', the formula would evaluate to ''29'' ( = 22 + 3 + 4)
-  * The formula ''AB(B+1)'' uses two variables ''A'' and ''B''. Assuming ''A=2'' and ''B=3'', the formula would evaluate to ''234'' 
-  * The formula ''$AB(B)(B+1)'' uses two variables ''AB'' and ''B''. Assuming ''AB=2'' and ''B=5'', the formula would evaluate to ''256'' 
-  * Using ''{}'' syntax, the previous example could also be written like this: ''${AB}B(B+1)''
+  * De formule ''A + $A * $Test - t'' gebruikt drie variabelen genaamd ''A'', ''Test'' en ''t''. De variabele ''A'' wordt op twee plaatsen gebruikt. Uitgaande van ''A=2'', ''Test=3'' en ''t=1'', zou de formule resulteren in ''7''.
+  * De formule ''AA + b + $A1'' gebruikt drie variabelen ''A'', ''b'' en ''A1''. Uitgaande van ''A=2'', ''b=3'' en ''A1=4'', zou de formule resulteren in ''29'' (= 22 + 3 + 4)
+  * De formule ''AB(B+1)'' gebruikt twee variabelen ''A'' en ''B''. Uitgaande van ''A=2'' en ''B=3'', zou de formule resulteren in ''234''
+  * De formule ''$AB(B)(B+1)'' gebruikt twee variabelen ''AB'' en ''B''. Uitgaande van ''AB=2'' en ''B=5'', zou de formule resulteren in ''256''
+  * Met de syntaxis ''{}'' kan het vorige voorbeeld ook als volgt worden geschreven: ''${AB}B(B+1)''
 
-==== Concatenations ====
+==== Aaneenschakelingen ====
 
-If multiple expressions are concatenated directly after another with no separating operator, values are concatenated to a consecutive expression. This expression evaluates to a number if it forms a valid numeric expression, otherwise it evaluates to a text value.
+Als meerdere uitdrukkingen direct na elkaar worden aaneengeschakeld zonder scheidingsoperator, worden waarden aaneengeschakeld tot een opeenvolgende uitdrukking. Deze uitdrukking evalueert tot een getal als het een geldige numerieke uitdrukking vormt, anders evalueert het tot een tekstwaarde.
 
-Expressions, which can be concatenated, include e.g. integer digits, variables, expressions in parenthesis and the Overflow character (see next subsection).
+Expressies, die aaneengeschakeld kunnen worden, omvatten b.v. gehele cijfers, variabelen, uitdrukkingen tussen haakjes en het Overloop-teken (zie volgende paragraaf).
 
-For example, the formula ''AA(A+4)55$Test(3)'' contains two variables ''A'' and ''Test''. Assuming ''A=9'' and ''Test=70'', it would evaluate to ''991355703''.
-==== Overflow character ====
+De formule ''AA(A+4)55$Test(3)'' bevat bijvoorbeeld twee variabelen ''A'' en ''Test''. Uitgaande van ''A=9'' en ''Test=70'', zou dit resulteren in ''991355703''.
 
-In concatenated expressions, the character ''_'' can be used as an overflow sign. It is a placeholder for possible spillovers if numeric variables evaluate to a value with more than one digit, otherwise it is filled with 0. 
+==== Overloopteken ====
 
-An example should make the usage clear:
+In aaneengeschakelde uitdrukkingen kan het teken ''_'' worden gebruikt als overloopteken. Het is een tijdelijke aanduiding voor mogelijke overloopeffecten als numerieke variabelen resulteren in een waarde met meer dan één cijfer, anders wordt het gevuld met 0.
 
-  * The Formula ''1A'' with ''A=2'' will evaluate to ''12''
-  * The Formula ''1_A'' with ''A=2'' will evaluate to ''102''
-  * The Formula ''1_A'' with ''A=23'' will evaluate to ''123''
-  * The Formula ''%%1__A%%'' with ''A=23'' will evaluate to ''1023''
-  * The Formula ''%%1__%%A'' with ''A=234'' will evaluate to ''1234''
-
+Een voorbeeld zou het gebruik duidelijk moeten maken:
+  * De formule ''1A'' met ''A=2'' zal resulteren in ''12''
+  * De formule ''1_A'' met ''A=2'' zal resulteren in ''102''
+  * De formule ''1_A'' met ''A=23'' zal resulteren in ''123''
+  * De formule ''%%1__A%%'' met ''A=23'' zal resulteren in ''1023''
+  * De formule ''%%1__%%A'' met ''A=234'' zal resulteren in ''1234''
 
 ==== Bereikuitdrukkingen ====
+
 
 Je kunt bereiken in formules specificeren met ''[]''. Dit is nodig wanneer variabelen worden gebruikt in een context waarin een reeks waarden moet worden herhaald. Een prominent voorbeeld is de functie [[.:waypointcalculator|Genereer Waypoints]].
 
@@ -203,7 +203,8 @@ Een formule kan een of meer bereikdefinities bevatten, gemengd met normale ander
   * ''3*[0-2]'': evalueert tot waarden ''0'', ''3'' en ''6''
   * ''A*[4, 7]'': voor ''A=3'' resulteert dit in de waarden ''12'' en ''21''
   * ''[1-2]*[3-4]'': evalueert tot ''3'', ''6'', ''4'' en ''8''.
-==== Opmerkingen ====
+  * 
+==== Opmerkingen====
 
 Je kunt opmerkingen in formule-uitdrukkingen invoeren met het teken ''#''. Opmerkingen eindigen bij de volgende ''#'' of aan het einde van uitdrukkingen. Alles in een opmerking wordt tijdens de evaluatie genegeerd. Bijvoorbeeld:
    * ''A * 5 # testcommentaar'' voor ''A=3'' evalueert tot ''15''

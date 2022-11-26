@@ -128,6 +128,7 @@ Die folgenden Funktionen sind definiert:
 |''sin''/''cos''/''tan'' |-| Berechnet Sinus/Cosinus/Tangens des gegebenen Parameters | Numerischer Parameter in Grad(!)| - | ''sin(90)'' ergibt ''1''|
 |''abs''|-| Berechnet den absoluten Wert | Numerischer Parameter | - | ''abs(-34)'' ergibt ''34''|
 |''round''|-| Rundet Dezimalwerte mathematisch | Zu rundender Wert | Optional: Anzahl der Stellen für die Rundung | ''round(4.65)'' ergibt ''5'', ''round(4.65;1)'' ergibt ''4.7''|
+|''trunc''|-| Schneidet Dezimalwerte auf die (optional) angegebene Anzahl von Stellen | Abzuschneidender Wert | Optional: Anzahl Nachkommastellen, die nach dem Abschneiden verbleiben sollen (Standard:0)| ''trunc(123.456)'' ergibt ''123'', ''trunc(123.456;2)'' ergibt ''123.45'' |
 |''if''|-| Wertet Bedingungen aus und gibt davon abhängige Werte zurück| Liste von wenn-dann-sonst Werten. Siehe vorheriges Kapitel für Details. | - | ''if(3<4;5;6)'' ergibt ''5''|
 |''checksum''|''cs''| Berechnet die Quersumme des angegebenen numerischen Wertes. Berechnet den Buchstabenwert, wenn der angegebene Parameter ein Text ist | Positive Ganzzahlen oder Text | - | ''checksum(345)'' ergibt ''12''|
 |''ichecksum''|''ics''| Berechnet die absolute/iterierte Quersumme des angegebenen numerischen Wertes. Startet beim Buchstabenwert, wenn der angegebene Parameter ein Text ist. | Positive Ganzzahl oder Text | - | ''ichecksum(345)'' ergibt ''3''|
@@ -185,35 +186,35 @@ Ein Beispiel sollte die Nutzung klarer machen:
 
 ==== Wertebereiche ====
 
-Du kannst in Formeln Wertebereiche angeben, in dem du ''[]'' nutzt. Dies wird benötigt, wenn du Variablen über einen bestimmten Wertebereich auswerten willst. Ein prominentes Beispiel ist die Funktion zur [[.:waypointcalculator|Generierung von Wegpunkten]].
+Du kannst in Formeln Wertebereiche angeben, in dem du ''[:]'' nutzt. Dies wird benötigt, wenn du Variablen über einen bestimmten Wertebereich auswerten willst. Ein prominentes Beispiel ist die Funktion zur [[.:waypointcalculator|Generierung von Wegpunkten]].
 
 **FIXME** Link to anchor on waypoint calc page as soon as its updated to cover waypoint generation with ranges.
 
-Ein Beispiel für einen Wertebereich-Ausdruck ist ''[0-9]''. Dies gibt einen Bereich mit 10 Werte (die Zahlenwerte 0 bis 9) an.
+Ein Beispiel für einen Wertebereich-Ausdruck ist ''[:0-9]''. Dies gibt einen Bereich mit 10 Werte (die Zahlenwerte 0 bis 9) an.
 
 Du kannst mit dem Trennzeichen '','' fortlaufende Werte angeben. Du kannst Werte oder Wertebereiche durch Voranstellen von ''^'' ausschließen.
 Die Bereiche werden von links-nach-rechts gelesen und ergeben daraus die Anordnung der Elemente im Bereich. Die folgenden Beispiele zeigen gültige Bereichsangaben:
  
-  * ''[0-2, 4]'' ergibt einen Wertebereich, der ''0'', ''1'', ''2'' and ''4'' enthält.
-  * ''[0-3, ^1-2]'' ergibt einen Wertebereich, der  ''0'' and ''3'' enthält.
-  * ''[0-3, ^1-2, 5]'' ergibt einen Wertebereich, der  ''0'', ''3'' and ''5'' enthält.
+  * ''[:0-2, 4]'' ergibt einen Wertebereich, der ''0'', ''1'', ''2'' and ''4'' enthält.
+  * ''[:0-3, ^1-2]'' ergibt einen Wertebereich, der  ''0'' and ''3'' enthält.
+  * ''[:0-3, ^1-2, 5]'' ergibt einen Wertebereich, der  ''0'', ''3'' and ''5'' enthält.
 
-Wenn ein Wertebereich in einem Kontext verwendet wird, in dem nur ein Einzelwert erlaubt ist (das ist bei normalen Berechnungen der Fall), wird der erste Wert im Bereich für die Berechnung genommen. Beispielsweise wird der Wertebereich ''[0-9]'' in normalen Berechnungen als ''0'' angenommen, während ''[8, 0-9]'' als ''8'' angenommen wird.
+Wenn ein Wertebereich in einem Kontext verwendet wird, in dem nur ein Einzelwert erlaubt ist (das ist bei normalen Berechnungen der Fall), wird der erste Wert im Bereich für die Berechnung genommen. Beispielsweise wird der Wertebereich ''[0-9]'' in normalen Berechnungen als ''0'' angenommen, während ''[:8, 0-9]'' als ''8'' angenommen wird.
 
 Wertebereiche unterstützen aktuell nur positive konstante Ganzzahlen. Ein Bereich muss immer mindestens einen Wert und nicht mehr als zwanzig Werte enthalten. 
 Beispielsweise sind die folgenden Wertebereiche ungültig:
 
-  * ''[]'': leer
-  * ''[5, ^0-9]'': ergibt leer
-  * ''[0-1000]'': ergibt mehr als zwanzig Werte
-  * ''[-5]'': negative Zahlen nicht erlaubt
-  * ''[A]'': Variablen nicht erlaubt
+  * ''[:]'': leer
+  * ''[:5, ^0-9]'': ergibt leer
+  * ''[:0-1000]'': ergibt mehr als zwanzig Werte
+  * ''[:-5]'': negative Zahlen nicht erlaubt
+  * ''[:A]'': Variablen nicht erlaubt
 
 Eine Formel kann eine oder mehrere Wertebereiche gemischt mit normalen anderen Formelelementen enthalten. Zum Beispiel sind folgende Formeln gültig:
 
-  * ''3*[0-2]'': ergibt die Werte ''0'', ''3'' und ''6''
-  * ''A*[4, 7]'': Für ''A=3'' ergibt dies die Werte ''12'' and ''21''
-  * ''[1-2]*[3-4]'': ergibt ''3'', ''6'', ''4'' und ''8''.
+  * ''3*[:0-2]'': ergibt die Werte ''0'', ''3'' und ''6''
+  * ''A*[:4, 7]'': Für ''A=3'' ergibt dies die Werte ''12'' and ''21''
+  * ''[:1-2]*[:3-4]'': ergibt ''3'', ''6'', ''4'' und ''8''.
 
 
 ==== Kommentare ====

@@ -131,6 +131,7 @@ The following functions are defined:
 |''sin''/''cos''/''tan'' |-| calculates sinus/cosinus/tangens of given parameter | numeric parameter in degree(!)| - | ''sin(90)'' evaluates to ''1''|
 |''abs''|-| calculates absolute value | numeric parameter | - | ''abs(-34)'' evaluates to ''34''|
 |''round''|-| rounds decimal values mathematically | value to round | optional: number of places to round to | ''round(4.65)'' evaluates to ''5'', ''round(4.65;1)'' evaluates to ''4.7''|
+|''trunc''|-| Truncates decimal values to the (optional) provided number of places | value to truncate | optional: Number of places to remain after truncation (default:0) | ''trunc(123.456)'' evaluates to ''123'', ''trunc(123.456;2)'' evaluates to ''123.45'' |
 |''if''|-| evaluates conditions and returns conditional values | list of if-then-else-values. See previous section for details | - | ''if(3<4;5;6)'' evaluates to ''5''|
 |''checksum''|''cs''| calculates checksum of given numeric value. Calculates lettervalue if given paramter is of type text | positive integer or text | - | ''checksum(345)'' evaluates to ''12''|
 |''ichecksum''|''ics''| calculates iterative checksum of given numeric value. Starts from lettervalue if given parameter is of type text | positive integer or text | - | ''ichecksum(345)'' evaluates to ''3''|
@@ -139,7 +140,6 @@ The following functions are defined:
 |''rot13''|-| calculates rotated-13 of given string value | string | - | ''rot13('abc')'' evaluates to '''nop'''|
 |''roman''|-| scans a given string value as a roman number and returns its decimal value | string | - | ''roman('VI')'' evaluates to ''6''.|
 |''vanity''|''vanitycode'', ''vc''| returns the vanity code of a string | string | - | ''vanity('cgeo')'' evaluates to ''2436''.|
-
 
 ==== Variables ====
 
@@ -186,30 +186,30 @@ An example should make the usage clear:
 
 ==== Range expressions ====
 
-You can specify ranges in formulas using ''[]''. This is needed when variables are used in a context where a range of values should be iterated over. A prominent example is the [[.:waypointcalculator|Generate Waypoints]] function.
+You can specify ranges in formulas using ''[:]''. This is needed when variables are used in a context where a range of values should be iterated over. A prominent example is the [[.:waypointcalculator|Generate Waypoints]] function.
 
 **FIXME** Link to anchor on waypoint calc page as soon as its updated to cover waypoint generation with ranges.
 
-An example for a range expression is ''[0-9]''. This specifies a range with 10 values (the integer values 0 to 9).
+An example for a range expression is ''[:0-9]''. This specifies a range with 10 values (the integer values 0 to 9).
 
 You may specify consecutive values using '','' as a delimiter. You may exclude values or value ranges by prepending a ''^'' to it. Ranges are parsed from left-to-right, giving an order to the elements in the range. For example the following are valid range specifications:
-  * ''[0-2, 4]'' evaluates to a range containing ''0'', ''1'', ''2'' and ''4''.
-  * ''[0-3, ^1-2]'' evaluates to a range containing ''0'' and ''3''.
-  * ''[0-3, ^1-2, 5]'' evaluates to a range containing ''0'', ''3'' and ''5''.
+  * ''[:0-2, 4]'' evaluates to a range containing ''0'', ''1'', ''2'' and ''4''.
+  * ''[:0-3, ^1-2]'' evaluates to a range containing ''0'' and ''3''.
+  * ''[:0-3, ^1-2, 5]'' evaluates to a range containing ''0'', ''3'' and ''5''.
 
-When a range is used in a context where only one value is allowed (this is the case in normal calculation), the first range value is used for calculation. For example, the expression ''[0-9]'' will evalulate to ''0'' in a normal calculation context, while ''[8, 0-9]'' will evalulate to ''8''.
+When a range is used in a context where only one value is allowed (this is the case in normal calculation), the first range value is used for calculation. For example, the expression ''[:0-9]'' will evaluate to ''0'' in a normal calculation context, while ''[:8, 0-9]'' will evaluate to ''8''.
 
 Ranges currently support only positive constant integer values. A range must always be evaluate to at least 1 value and a range may not evaluate to more than 20 values. For example the following ranges are invalid:
-  * ''[]'': empty
-  * ''[5, ^0-9]'': evaluates to empty
-  * ''[0-1000]'': evaluates to more than 20 entries
-  * ''[-5]'': negative int not allowed
-  * ''[A]'': variables not allowed
+  * ''[:]'': empty
+  * ''[:5, ^0-9]'': evaluates to empty
+  * ''[:0-1000]'': evaluates to more than 20 entries
+  * ''[:-5]'': negative int not allowed
+  * ''[:A]'': variables not allowed
 
 A formula may include one or more range definitions mixed with normal other formula parts. For example the following formulas are valid:
-  * ''3*[0-2]'': evaluates to values ''0'', ''3'' and ''6''
-  * ''A*[4, 7]'': for ''A=3'' this evaluates to values ''12'' and ''21''
-  * ''[1-2]*[3-4]'': evaluates to ''3'', ''6'', ''4'' and ''8''.
+  * ''3*[:0-2]'': evaluates to values ''0'', ''3'' and ''6''
+  * ''A*[:4, 7]'': for ''A=3'' this evaluates to values ''12'' and ''21''
+  * ''[:1-2]*[:3-4]'': evaluates to ''3'', ''6'', ''4'' and ''8''.
 
 
 ==== Comments ====

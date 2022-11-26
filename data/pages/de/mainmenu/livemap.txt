@@ -80,7 +80,7 @@ Einige Informationen könnten je nach Ladestatus des Caches evtl. nicht angezeig
 
 {{ :en:livemap_popup_4.png?direct&400 |}}
 
-^ Bezeichnung ^ beschreibung ^
+^ Bezeichnung ^ Beschreibung ^
 |Typ|[[..:cacheicons|Typ]] des ausgewählten Caches.|
 |Geocode|Geocode des ausgewählten Caches.|
 |Entfernung|Entfernung zwischen dem ausgewählten Cache und deiner aktuellen Position.|
@@ -88,6 +88,7 @@ Einige Informationen könnten je nach Ladestatus des Caches evtl. nicht angezeig
 |Gelände|Geländebewertung (T) des ausgewählten Caches als Dezimalwert und graphische Darstellung.|
 |Bewertung|Zeigt die Qualitätsbewertung von [[http://gcvote.com|GCVote]], sofern dieser Dienst in den [[settings#services|c:geo Einstellungen]] aktiviert wurde, als Dezimalwert und graphische Darstellung.\\ Der in Klammern angezeigte Wert ist die Anzahl der Stimmen, die für diesen Cache abgegeben wurden.|
 |Favorit|Die Anzahl der Favoritenpunkte (geocaching.com) oder Empfehlungen (Opencaching-Plattformen), die dem ausgewählten Cache verliehen wurden.|
+|Letzte Logs|Zeigt die aktuellsten Logtypen an, die für diesen Cache geloggt wurden (neuestes links).|
 |Mehr Details|Diese Schaltfläche öffnet die [[..:cachedetails|Cachedetail-Seite]] des ausgewählten Caches mit mehr Informationen über den Cache.|
 |{{:ic_menu_hint.svg?nolink&40|}}|Diese Schaltfläche ist nur verfügbar, wenn der Cache einen Hinweis des Owners und/oder eine persönliche Notiz hat. Durch Drücken der Schaltfläche wird der Hinweis und/oder die persönliche Notiz [[#hint_section|unten]] im Popup-Fenster angezeigt.|
 ==== Listenverwaltung ====

@@ -1,152 +1,3 @@
-1635452084	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	E	en:start	lineflyer	[Useful Links] Fix donation link		2
-1635452434	2a00:ee2:f012:1b6:ccd3:c957:e07:66d7	E	de:start	lineflyer	Warum wird das nicht im Changelog angezeigt?		-1
-1636023355	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	Test avg icon implementation		0
-1637063885	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Revert to old icon in preparation of new column		0
-1637064164	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add new column		333
-1637064300	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add new icons in new column		258
-1637064437	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Add special event icon		136
-1637064453	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Remove newline		-1
-1637064520	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Sort letterbox some lines up		0
-1637064570	2a00:1e:9640:fc:a590:97eb:50a3:19	E	en:cacheicons	lineflyer	Sort earth caches towards the other virtual types		0
-1637064674	2a00:1e:9640:fc:a590:97eb:50a3:19	e	en:cacheicons	lineflyer	Lab caches are no longer unknown cache types		-36
-1637064999	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add column for new markers		57
-1637065222	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add new markers into new column (WIP)		452
-1637065546	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Add marker for final exisiting below modified coords		184
-1637065584	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cachemarkers	lineflyer	Fix broken table		3
-1637065679	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing		0
-1637066665	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use SVG for final existing		0
-1637066713	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing round #2		0
-1637066771	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Use correct marker for final existing round #3		-10
-1637066803	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachemarkers	lineflyer	Seperate list marker table (will be moved or changed later)		1
-1637066943	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachedetails	lineflyer	[Waypoint types] Add colum for new icons		31
-1637067025	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cachedetails	lineflyer	[Waypoint types] Add new icons		215
-1637067103	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cachedetails	lineflyer	[Waypoint types] Typo in new icon name		0
-1637067538	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	Add new subheadings to divide normal and compact mode		333
-1637067549	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-1
-1637067605	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	add placeholder table		42
-1637067690	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	Add first table element for trial		53
-1637067699	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
-1637067708	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
-1637067797	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		130
-1637067811	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		2
-1637067897	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		145
-1637067931	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		0
-1637068077	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		146
-1637068101	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		57
-1637068117	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-1
-1637068231	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		152
-1637068253	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Rename c:geo cache to user defined cache		7
-1637068262	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		0
-1637068308	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		56
-1637068445	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		132
-1637068497	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		74
-1637068674	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		213
-1637068836	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		156
-1637068927	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-3
-1637068997	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		-41
-1637070741	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] Add column for new icons		29
-1637070753	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		2
-1637070811	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		83
-1637070982	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		550
-1637071551	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] 		46
-1637072026	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Add info abcout user defined caches using hexagonal icon		35
-1637072037	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		1
-1637072047	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		1
-1637074110	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Top section] Top bar in popup shows now geocode but not the name		2
-1637087154	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	Add missing dot markers		446
-1637087313	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		103
-1637087382	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	Dot for disabled also for archived		9
-1637087845	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	Neue Spalte für neue Symbole		93
-1637087864	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	t		-1
-1637087979	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	Neue Symbole		289
-1637088067	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	 b		141
-1637088394	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] Add maze		275
-1637088427	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		2
-1637088460	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	Add maze		-30
-1637088495	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		30
-1637088524	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons in cache lists and on the map] 		18
-1637088600	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] Link to marker page		19
-1637088702	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	Neues Kapitel in englisch (zu übersetzen)		2101
-1637088888	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	Kapitel		190
-1637089003	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		213
-1637089099	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		277
-1637089163	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Icons used on the map in compact mode] 		1
-1637089293	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Icons used on the map in compact mode] 		65
-1637089344	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		10
-1637089534	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		32
-1637089690	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		33
-1637089752	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		23
-1637089770	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	Note dot icon		-6
-1637089857	2a00:1e:9640:fc:fcee:b175:42ce:40e2	e	en:cacheicons	lineflyer	[Icons used on the map in compact mode] Finalized		1
-1637089882	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Geocache-Symbole] 		1
-1637090068	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		-1
-1637090218	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	en:cachemarkers	lineflyer	Remove color list marker (will be replaced by another page)		-1178
-1637090367	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachemarkers	lineflyer	Neue Spalte		-1236
-1637090455	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachemarkers	lineflyer	Neue Symbole		189
-1637090482	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachemarkers	lineflyer	b		40
-1637090613	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachemarkers	lineflyer	Neue Symbole		234
-1637090642	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachemarkers	lineflyer	Typo		1
-1637090725	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachedetails	lineflyer	[Wegpunkttyp] 		0
-1637090733	2a00:1e:9640:fc:fcee:b175:42ce:40e2	E	de:cachedetails	lineflyer	[Wegpunkttyp] 		0
-1637099759	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	de:cachedetails	murggel	[Watchlist] change icon		8
-1637099929	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	de:cachedetails	murggel	[Favorit] change icon		14
-1637100075	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] change icon		49
-1637100170	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	fi:mainmenu:livemap	murggel	[Yläpalkin valikko] change enable / disable live icon		49
-1637100311	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:mainmenu:livemap	murggel	[Titelzeilen-Menü] change disable / enable live icon		49
-1637100384	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	de:mainmenu:livemap	murggel	[Titelzeilen-Menü] Add description for live enable / disable icon		92
-1637100515	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] add description for disable live		57
-1637100689	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cachedetails	murggel	[Watchlist] use new icons		8
-1637100807	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:cachedetails	murggel	[Favorite] new favorite icons		14
-1637100856	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	nl:cachedetails	murggel	[Watchlist] new watch icons		8
-1637100888	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	nl:cachedetails	murggel	[Favorieten] new favorite icons		14
-1637100929	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fr:cachedetails	murggel	[Watchlist] new watch-icons		8
-1637100962	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fr:cachedetails	murggel	[Favorite] new favorite-icons		14
-1637101075	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fi:cachedetails	murggel	[Seurantalista] new watch icons		8
-1637101110	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fi:cachedetails	murggel	[Suosikki] new favorite icons		14
-1637101167	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	it:cachedetails	murggel	[Watchlist] new watch icons		8
-1637101205	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	it:cachedetails	murggel	[Preferito] new favorite icons		14
-1637136193	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		164
-1637136208	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		2
-1637145732	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:cachemarkers	lineflyer	HasFinal hinzugefügt		211
-1637145990	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		193
-1637189598	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	en:mainmenu:livemap	murggel	[Top Bar Menu] add linebreaks		5
-1637189761	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	pt:mainmenu:livemap	murggel	[Menu Superior]  new icon for disable / enable live		49
-1637189862	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	nl:mainmenu:livemap	murggel	[Bovenste balk]  new icon for disable / enable live		49
-1637189940	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	it:mainmenu:livemap	murggel	[Menu della barra superiore]  new icon for disable / enable live		49
-1637190006	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fr:mainmenu:livemap	murggel	[Menu supérieur] new icon for disable / enable live		49
-1637592458	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:mainmenu:livemap	lineflyer	[Map content] Remove table. Will be placed onto the cache icons page instead		-2231
-1637592533	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	New chapter cache markers (taken from Live Map - Map Content)		2092
-1637592576	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-14
-1637592618	2a00:ee2:f012:525:2c3d:378f:722d:95ee	R	en:cacheicons	lineflyer	old revision restored (2021/11/22 15:48)	1637592533	14
-1637592695	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-103
-1637592719	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		1
-1637592948	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		24
-1637593018	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-226
-1637593035	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		2
-1637593052	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-41
-1637593139	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		758
-1637593263	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		1
-1637593324	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-1
-1637593334	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-231
-1637593401	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		230
-1637593734	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Cache markers on the map] 		-953
-1637593942	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		1553
-1637594192	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:cacheicons	lineflyer	[Cache markers on the map] 		132
-1637594288	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:mainmenu:livemap	lineflyer	[Karteninhalt] 		-1605
-1637594417	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	de:mainmenu:livemap	lineflyer	[Karteninhalt] 		0
-1637604810	2a00:ee2:f012:525:2c3d:378f:722d:95ee	E	en:cacheicons	lineflyer	[Icons used on the map in compact mode] 		33
-1637657631	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	sort table, add missing WA, change some texts		377
-1637657755	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	add visited waypoint		101
-1637657849	2a01:c22:c969:8c00:4090:3126:47e7:398a	E	en:cachemarkers	ztnfny	section labels		78
-1637658213	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	en:cachefilter	lineflyer	[Cache Type Filter] Use new svg icons		0
-1637658275	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	de:cachefilter	lineflyer	[Cache-Typ Filter] Change to SVG		0
-1637658302	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	fi:cachefilter	lineflyer	[Kätkötyyppisuodatin] Change to SVG icons		0
-1637658365	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	nl:cachefilter	lineflyer	[Cache Type Filter] Chane to SVG icons		0
-1637662066	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	de:cacheicons	lineflyer	[Symbole im kompakten Modus der Karte] 		31
-1637662147	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	en:notecoords	lineflyer	[Using keywords for waypoint types] use SVG icons		0
-1637662177	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	de:notecoords	lineflyer	[Nutzung von Schlüsselwörtern für Wegpunkttypen] 		0
-1637662207	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	fi:notecoords	lineflyer	[Avainsanojen käyttö reittipisteen tyypeissä] Use SVG icons		0
-1637662233	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	nl:notecoords	lineflyer	[Sleutelwoorden gebruiken voor waypoint-types] Use SVG icons		0
 1642509597	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		19
 1642509618	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		-1
 1642509697	2a00:1e:9640:fc:5ddc:e891:cab2:feec	E	en:mainmenu:livemap	lineflyer	[Map quick settings] 		11
@@ -1049,3 +900,51 @@
 1664002493	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	de:cachevariables	moving-bits	[Numerische Operatoren] 		1
 1664002516	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:cachevariables	moving-bits	[Numeric operators] 		1
 1666293547	fe80:d97e:f540:c69d:ab5a:b017:769a:0ee9	E	en:offlinemaps	ztnfny	add hillshading		1652
+1667027840	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:loginproblems	linstylemon	[Inloggen mislukt: Captcha vereist] 		185
+1667028120	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:loginproblems	linstylemon	[Inloggen mislukt: Captcha vereist] 		13
+1667028532	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		1
+1667029305	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numeric operators]		-7475
+1667029347	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numeric operators] 		9
+1667029545	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numerieke operatoren] 		1735
+1667029662	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Relationele operatoren en voorwaarden] 		2234
+1667029804	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 09:45)	1667029545	-2234
+1667029827	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Relationele operatoren en voorwaarden] 		2232
+1667029902	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Cache Variables] 		1
+1667030257	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Functies] 		200
+1667030371	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Variabelen] 		2705
+1667030427	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen ] 		656
+1667030485	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
+1667030576	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:00)	1667030427	-669
+1667030621	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
+1667030662	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:02)	1667030576	-669
+1667030715	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken] 		669
+1667030746	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:02)	1667030576	-669
+1667030809	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
+1667030901	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:05)	1667030746	-669
+1667030961	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:cachevariables	linstylemon	[Opmerkingen] 		670
+1667031097	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:08)	1667030901	-670
+1667031146	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen] 		660
+1667031189	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:11)	1667031097	-660
+1667031955	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	test why some text disappears		-2654
+1667032094	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen] 		-33
+1667032116	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		-5
+1667032128	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		-5
+1667032210	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:00)	1667030427	2697
+1667033449	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	* 		534
+1667033496	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken] 		137
+1667033611	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:cachevariables	linstylemon	x		-138
+1667033969	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	fix		129
+1667113134	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:offlinemaps	linstylemon	[Downloaden en intalleren va kaarten/thema's] 		3
+1667113194	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:offlinemaps	linstylemon	[Downloaden en intalleren va kaarten/thema's] 		-4
+1667113397	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:offlinemaps	linstylemon	Add Hillshading section 1		248
+1667113795	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:offlinemaps	linstylemon	[Hillshading] 		1617
+1669373624	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Functions] Add TRUNC function		260
+1669373752	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:cachevariables	lineflyer	[Funktionen] TRUNC Funktion hinzugefügt		280
+1669373904	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Range expressions] New syntax for range expressions		14
+1669373999	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:cachevariables	lineflyer	[Wertebereiche] Neue Syntax für Variablenbereiche		15
+1669377118	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	en:waypointcalculator	lineflyer	Update FIXME to alert		47
+1669377176	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:waypointcalculator	lineflyer	FIXME in Alert einbinden		44
+1669377529	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	en:cachedetails	lineflyer	[Logbook tab] Add ability to copy part of log text		25
+1669377582	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	de:cachedetails	lineflyer	[Logbuch] Hinweis, dass auch Teile des Logtextes kopiert werden können		29
+1669378282	fe80:29c8:5c6b:3f8c:a9b9:7b06:11c9:f6fd	E	en:mainmenu:livemap	lineflyer	[Cache information] Add recent logs explanation		104
+1669378366	fe80:29c8:5c6b:3f8c:a9b9:7b06:11c9:f6fd	E	de:mainmenu:livemap	lineflyer	[Cacheinformation] Letzte Logs hinzugefügt, Tippfehler behoben		104

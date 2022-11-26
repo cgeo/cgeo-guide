@@ -88,6 +88,7 @@ Some of the information might not be shown depending on the loading status of th
 |Terrain|Terrain rating of the selected cache shown as decimal value as well as graphical.|
 |Rating|Shows the quality rating of this cache from [[http://gcvote.com|GCVote]] if this service is enabled in the [[settings#services|c:geo settings]] as decimal value as well as graphical.\\ The value shown in parenthesis is the number of votes given for this cache.|
 |Favorite|The amount of favorite points (geocaching.com) or recommendations (Opencaching platforms) the selected cache has been awarded. The percentage value is the amount of favorite points divided by the number of total finds.|
+|Recent logs|Will visualize the log types of the most recent logs for this cache (newest on the left).|
 |More details|This button will take you to the [[..:cachedetails|cache detail page]] of the selected cache providing the full information for this geocache.|
 |{{:ic_menu_hint.svg?40|}}|This button is only available if the cache as a owners hint or a personal note stored. Tapping the button will display the hint and/or personal note at the [[#hint_section|bottom]] of the popup window.|
 

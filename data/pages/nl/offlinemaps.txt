@@ -34,7 +34,7 @@ De c:geo kaart downloader ka op twee manieren worden gestart:
 {{ :en:offlinemap_downloader_maps.png?direct&300 |}}
 
   * Vanuit de [[.:mainmenu:settings|kaart instellingen]] en ''Offline kaart downloaden'' te selecteren.
-  * 
+
 {{ :en:offlinemap_downloader_settings.png?direct&300 |}}
 
 
@@ -64,7 +64,7 @@ Het beste is om c: geo actief te houden tijdens het downloaden, zodat c: Geo de 
 
 {{:en:offlinemap_downloader_5a.png?direct&400|}}{{ :en:offlinemap_downloader_5b.png?direct&400|}}
 
-s de gedownloade kaart een speciaal kaartthema vereist (niet van toepassing op Mapsforge), zal de downloader u achteraf automatisch vragen of u het benodigde thema ook wilt downloaden en installeren. 
+Als de gedownloade kaart een speciaal kaartthema vereist (niet van toepassing op Mapsforge), zal de downloader je achteraf automatisch vragen of u het benodigde thema ook wilt downloaden en installeren. 
 
 {{ :en:offlinemap_downloader_6.png?direct&400 |}}
 
@@ -243,6 +243,36 @@ Als je een thema hebt geinstalleerd, kun je de zichtbaarheid van bepaalde kaart 
 Hier kun je een basis kaartstijl (bijv. Lopen, Fietsen, Auto) selecteren en nadien naar eigen wensen aanpassen door extra elementen van de kaart te activeren/deactiveren.
 
 {{ :en:offlinemap_advanced_themeoptions_2.jpg?direct&400 |}}
+
+==== Hillshading ====
+
+Hillshading is een techniek om topografische reliëfkaarten te maken door een lichteffect aan de kaart toe te voegen om hoogteverschillen aan te geven. Hellend wordt verduisterd/verlicht om een ​​3D-effect te genereren.
+
+=== Hoe gebruik je hillshading in c:geo? ===
+
+Hillshading is alleen beschikbaar met offline kaarten. Om het te gebruiken, configureer je een map met de hilldshading-definitiebestanden in "Instellingen> Kaart> Kaart Arcering Bestanden map".
+
+=== Waar zijn de bestanden met hellingsschaduwen te krijgen? ===
+
+Er zijn meerdere bronnen voor bestanden met hellingsschaduwen met verschillende dekking en resolutie. De bestanden zijn vereist in "hgt"-formaat en moeten in de "Kaart Arcering Bestanden map" van uw apparaat worden geplaatst.
+
+De meeste bronnen bieden ze per graaddekking aan, met populaire formaten als 1" (1x1°, resolutie van 30m) en 3" (3x3°, resolutie 90m).
+
+Bronnen:
+
+^ URL                                                                          ^ Coverage                 ^ Resolution ^
+| https://sonny.4lima.de                                                       | Europa                   | 1", 3"     |
+| http://viewfinderpanoramas.org/dem3.html                                     | Wereld                    | 3", 15"    |
+| http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org1.htm | VS, Europa, Nieuw Zeeland | 1"         |
+
+
+=== Hillshading en aangepaste thema's ===
+Hillshading vereist ondersteuning door het kaartthema. Als je de bestanden correct hebt geplaatst maar geen schaduw op de heuvels ziet, kan dit te wijten zijn aan je kaartthema. Schakel over naar c:geos "standaard" kaartthema om te zien of het dan werkt.
+
+Als dat het geval is, gebruik dan een ander kaartthema of neem contact op met de auteur van de kaartthema's om heuvelsschaduwen te ondersteunen.
+
+
+
 
 ===== Meer lezen over offline kaarten =====
 

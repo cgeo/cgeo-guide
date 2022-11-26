@@ -109,6 +109,8 @@ Dit kan gebeuren als je VPN-tools, anonimizers (zoals TOR) of sommige openbare W
 Deactiveer dergelijke tools en probeer opnieuw in te loggen met c:geo. 
 Je kunt ook proberen in te loggen met c:geo via een andere internetverbinding (bijvoorbeeld mobiel netwerk in plaats van wifi).
 
+Als je de app van geocaching.com op je mobiel gebruikt, kan het ook helpen om deze app te openen en uit te loggen en vervolgens de app te sluiten. Daarna open je de app opnieuw en logt opnieuw in.
+
 ==== Inloggen mislukt: je moet eerst je account valideren op de Geocaching.com website ====
 
 Je e-mailadres en/of je account is nog niet of niet meer gevalideerd op de geocachingserver.

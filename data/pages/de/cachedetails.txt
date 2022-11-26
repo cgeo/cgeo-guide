@@ -273,7 +273,7 @@ Farbmarkierungen zeigen die unterschiedlichen Logtypen an und ermöglichen eine 
 
 Ein Klick auf den Benutzernamen öffnet ein Kontextmenü mit benutzerspezifischen [[.mainmenu:search|Suchoptionen]].
 
-Ein langer Klick auf den Logtext ermöglicht es den Text in die Zwischenablage zu kopieren. Des weiteren kannst du dies nutzen um den Logtext in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
+Ein langer Klick auf den Logtext ermöglicht es Teile des Textes oder den ganzen Text in die Zwischenablage zu kopieren. Des weiteren kannst du dies nutzen um den Logtext in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
 
 ===== Inventar =====
 {{anchor:inventory_tab:}}
