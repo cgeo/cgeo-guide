@@ -27,7 +27,7 @@ Als een menu-item wordt weergegeven als pictogram, kun je lang op het pictogram 
 ^ Icoon ^ Functie ^ Omschrijving ^
 |{{:ic_menu_compass.svg?nolink&40 |}}|Navigatie|Een korte druk op dit icoon zal het [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.\\ Een lange druk zal het secundaire [[.mainmenu:settings#navigation|navigatie hulpmiddel ]] van je voorkeur opstarten.|
 |{{:ic_menu_goto.svg?nolink&40 |}}|[[navigation|Navigatie]]|Zal de complete lijst met beschikbare navigatie hulpmiddelen tonen.|
-|{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menu icoon|CAls je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Overloop menu icoon|Als je hier drukt, wordt het menu geopend met functies die niet in de bovenste balk van je apparaat passen en die daarom als een lijst worden weergegeven. De functies die in deze lijst worden getoond, worden ook in deze tabel beschreven.|
 |{{:ic_menu_edit.svg?nolink&40 |}}|Log bezoek|Dit opent het [[logging|logboek scherm]] om de cache te loggen.|
 |{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Toespraak aan/uitzetten|Dit zal de tekst-naar-spraak output van richting en afstand naar het doel aan of uitzetten.\\ Je kunt ook het scherm uitzetten als deze functie is gestart.|
 |Open in Browser||Dit zal de cache of in je browser openen of (indien geactiveerd in de [[.:mainmenu:settings#cache-details|cache detail instellingen]]) door middel van een chrome webview binnen c:geo.|

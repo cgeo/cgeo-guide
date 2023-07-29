@@ -1,4 +1,7 @@
-**FIXME** Deze pagina zal binnenkort worden aangepast, omdat wij een hele nieuwe calculator gaan implementeren
+<WRAP center round important 60%>
+**FIXME**  Deze pagina zal binnenkort worden aangepast, omdat wij een hele nieuwe calculator gaan implementeren.
+</WRAP>
+
 ===== Waypoint Calculator =====
 {{anchor:waypoint_calculator}}
 

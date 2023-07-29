@@ -144,13 +144,13 @@ c:geo provides several options to help you with navigation using different lines
   * You can set an **individual route** between several caches/waypoints. 
   * c:geo can optionally draw a **history track** showing the position history (your movement) on the map.
 
-To get the most out of the direction line and individual route it is recommended to install and configure the [[..:brouter|BRouter]] app as described in the linked section of our user guide. This will enable routed lines instead of just a straight connection line.
+To get the most out of the direction line and individual route it is recommended to use [[..:brouter|BRouter]] as described in the linked section of our user guide. This will enable routed lines instead of just a straight connection line.
 
 The different line and track types are described in more detail below.
 
 ==== Direction line ====
 
-The direction line is a map line which connects your current position with a chosen target cache/waypoint. This can be either a straight line or a routed line if you have [[..:brouter|BRouter]] installed and configured.
+The direction line is a map line which connects your current position with a chosen target cache/waypoint. This can be either a straight line or a routed line if you have configured [[..:brouter|BRouter]].
 
 The default line color is <color #ed1c24>red</color> but line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
 

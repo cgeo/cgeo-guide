@@ -2,14 +2,14 @@
 
 {{:helper_brouter.png?nolink&100 |}}
 
-Brouter ist eine c:geo interne Routing-Einheit, die auf [[https://openstreetmap.org|OpenStreetMap]] basierende navigierte Routen, welche offline berechntet werden, zwischen zwei Koordinaten zur Verfügung stellt.
+Brouter ist eine c:geo interne Routing-Einheit, um offline eine Route zwischen zwei Koordinaten zu berechnen. (Dabei greift es auf zuvor heruntergeladene Routingdaten zurück, die auf Basis von Daten auf [[https://openstreetmap.org|OpenStreetMap]] erstellt wurden.)
 
-Wenn die [[.:mainmenu:settings#navigation|Routing-Funktion]] auf deinem Gerät aktiviert ist, kann c:geo dies utzen, um die normale gerade Linie, die auf der Karte zwischen deiner Position und dem Navigationsziel (Cache/Wegpunkt) angezeigt wird, durch eine geroutete Linie zu ersetzen, wie du im Beispielvergleich unten sehen kannst.
+Wenn die [[.:mainmenu:settings#navigation|Routing-Funktion]] auf deinem Gerät aktiviert ist, kann c:geo dies nutzen, um die normale gerade Linie, die auf der Karte zwischen deiner Position und dem Navigationsziel (Cache/Wegpunkt) angezeigt wird, durch eine geroutete Linie zu ersetzen, wie du im Beispielvergleich unten sehen kannst.
 
 ^ Navigation ohne BRouter ^ Navigation mit BRouter ^
 |{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
 
-Das Routing kann je nach Bedarf für Gehen, Radfahren oder Autofahren gewählt werden und wird dir helfen, deinen Weg zum Ziel zu finden. Des weiteren kannst du dieses Routing auch zur Erstellung von individuellen Routen über mehrere Wegpunkte hintereinander nutzen, um z.B. deinen Caching-Trip zu planen.
+Das Routing kann je nach Bedarf für Gehen, Radfahren oder Autofahren gewählt werden und wird dir helfen, deinen Weg zum Ziel zu finden. Desweiteren kannst du dieses Routing auch zur Erstellung von individuellen Routen über mehrere Wegpunkte hintereinander nutzen, um z.B. deinen Caching-Trip zu planen.
 
 ===== Routing aktivieren =====
 

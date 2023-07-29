@@ -25,7 +25,7 @@ Die folgende Tabelle zeigt die Symbole, welche in Cache-Listen und auf der Karte
 |{{ :type_maze.svg?nolink&40 |}}|GPS Adventures Maze Ausstellung|Dies ist ein spezieller seltener Event-Typ und repräsentiert die Teilnahme an einer GPS Adventure Labyrinthausstellung. GPS Adventure Labyrinthe sollen Menschen GPS-Technologie und Geocaching näher bringen.|
 |{{ :type_advlab.svg?nolink&40 |}}|Adventure Lab-Cache|Beim Spielen von Adventure Lab-Caches wird keine physische Dose gesucht. Du musst den Ort besuchen und die spezielle Adventure Lab-App verwenden um eine Frage vor Ort zu lösen. Wenn das gelungen ist, wird der besuchte Ort automatisch zu deinen gefundenen Caches hinzugezählt.|
 |{{ :type_unknown.svg?nolink&40 |}}|Unbekannter Cachetyp|Wenn dieser Cachetyp in c:geo angezeigt wird, konnte c:geo den Typ des Caches (noch) nicht ermitteln, es handelt sich um einen Cachetyp, den c:geo nicht unterstützt oder es ist ein dedizierter Unbekannter Cache, wie er auf Opencaching-Plattformen unterstützt wird.|
-|{{ :type_cgeo.svg?nolink&40 |}}|c:geo cache|Benutzt für benutzerdefinierte Caches innerhalb von c:geo|
+|{{ :type_cgeo.svg?nolink&40 |}}|c:geo cache|Genutzt für benutzerdefinierte Caches innerhalb von c:geo|
 
 ===== Cache-Markierungen auf der Karte =====
 

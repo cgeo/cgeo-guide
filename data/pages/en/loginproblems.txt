@@ -96,15 +96,28 @@ Please carefully check the entered username and password and be aware, that user
 
 ==== Login failed: Captcha required ====
 
-c:geo has detected, that the geocaching website requires you to solve a Captcha to login. c:geo therefore cannot login. geocaching.com might use such Captcha after detecting consecutive login failures (e.g. due to wrong password). 
+c:geo has detected, that due to security reasons the geocaching website requires you to solve a Captcha to login. c:geo therefore cannot login. 
+
+This can be triggered by the following situations:
+  * You tried to login with a wrong password several times
+  * You tried to login from a suspicious IP address (e.g. a public WiFi, from a foreign country, using VPN or anonymizer services)
+  * The mail address stored in your profile at geocaching.com is not verified or no longer valid
+
+To overcome this problem please proceed as follows:
 
 <WRAP center round todo 100%>
-Please login once on the geocaching website using your browser/PC, solve the Captcha there and try again with c:geo after you successfully logged in there.
+Use your device's browser to go to geocaching.com, login to the website and solve the shown CAPTCHA.
+Afterwards go to c:geo Start - Menu - Settings - Services - geocaching.com and use "Update authorization" to doublecheck your username and password and try to login again.
 </WRAP>
 
-Furthermore geocaching.com might use such Captcha, when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
+Furthermore geocaching.com might use such captcha when detecting logins from an suspicious, blacklisted or unidentified IP-address. Such might happen if you use VPN tools, anonymizers (like TOR) or some public Wi-Fi networks. 
+
+<WRAP center round todo 100%>
+Please deactivate such tools and try again to login with c:geo. You might also want to try logging in with c:geo using a different internet connection (e.g. mobile network instead of Wi-Fi).
+</WRAP>
 
 If you are using the geocaching.com app on your mobile, it might also help if you open that app, log off, close the app, restart and login again.
+
 ==== Login failed: You must validate your account on the Geocaching.com website first ====
 
 You mail address and/or your account is not yet or no longer validated on the geocaching server. 

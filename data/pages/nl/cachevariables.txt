@@ -125,6 +125,7 @@ De volgende functies zijn gedefinieerd:
 |''sin''/''cos''/''tan'' |-|berekent sinus/cosinus/tangens van gegeven parameter | numerieke parameter in graden(!)| - | ''sin(90)'' evalueert tot ''1''|
 |''abs''|-|berekent absolute waarde | numerieke parameter | - | ''abs(-34)'' evalueert tot ''34''|
 |''round''|-|rondt decimale waarden wiskundig af | waarde om af te ronden | optioneel: aantal plaatsen om op af te ronden | ''round(4.65)'' evalueert tot ''5'', ''round(4.65;1)'' evalueert tot ''4.7''|
+|''trunc''|-| Kapt decimale waarden af tot het (optioneel) opgegeven aantal plaatsen | waarde om af te kappen | optioneel: het aantal resterende plaatsen na afkappen (standaard: 0) | ''trunc(123.456)'' wordt ''123'', ''trunc(123.456;2)'' wordt ''123.45'' |
 |''if''|-|evalueert voorwaarden en retourneert voorwaardelijke waarden | lijst met als-dan-anders-waarden. Zie vorige sectie voor details | - | ''if(3<4;5;6)'' evalueert tot ''5''|
 |''checksum''|''cs''|berekent de controlesom van de gegeven numerieke waarde. Berekent letterwaarde als gegeven parameter van het type tekst is | positief geheel getal of tekst | - | ''checksum(345)'' evalueert tot ''12''|
 |''ichecksum''|''ics''|berekent iteratieve controlesom van een gegeven numerieke waarde. Begint vanaf letterwaarde als de gegeven parameter van het type tekst is | positief geheel getal of tekst | - | ''ichecksum(345)'' evalueert tot ''3''|
@@ -179,30 +180,30 @@ Een voorbeeld zou het gebruik duidelijk moeten maken:
 ==== Bereikuitdrukkingen ====
 
 
-Je kunt bereiken in formules specificeren met ''[]''. Dit is nodig wanneer variabelen worden gebruikt in een context waarin een reeks waarden moet worden herhaald. Een prominent voorbeeld is de functie [[.:waypointcalculator|Genereer Waypoints]].
+Je kunt bereiken in formules specificeren met ''[:]''. Dit is nodig wanneer variabelen worden gebruikt in een context waarin een reeks waarden moet worden herhaald. Een prominent voorbeeld is de functie [[.:waypointcalculator|Genereer Waypoints]].
 
 **FIXME** Link to anchor on waypoint calc page as soon as its updated to cover waypoint generation
 
-Een voorbeeld voor een bereikuitdrukking is ''[0-9]''. Dit specificeert een bereik met 10 waarden (de integerwaarden 0 tot 9).
+Een voorbeeld voor een bereikuitdrukking is ''[:0-9]''. Dit specificeert een bereik met 10 waarden (de integerwaarden 0 tot 9).
 
 Je kunt opeenvolgende waarden opgeven met '','' als scheidingsteken. Je kunt waarden of waardebereiken uitsluiten door er een ''^'' aan toe te voegen. Bereiken worden van links naar rechts ontleed, waardoor een volgorde wordt gegeven aan de elementen in het bereik. De volgende zijn bijvoorbeeld geldige bereikspecificaties:
-  * ''[0-2, 4]'' resulteert in een bereik dat ''0'', ''1'', ''2'' en ''4'' bevat.
-  * ''[0-3, ^1-2]'' resulteert in een bereik dat ''0'' en ''3'' bevat.
-  * ''[0-3, ^1-2, 5]'' wordt geëvalueerd tot een bereik dat ''0'', ''3'' en ''5'' bevat.
+  * ''[:0-2, 4]'' resulteert in een bereik dat ''0'', ''1'', ''2'' en ''4'' bevat.
+  * ''[:0-3, ^1-2]'' resulteert in een bereik dat ''0'' en ''3'' bevat.
+  * ''[:0-3, ^1-2, 5]'' wordt geëvalueerd tot een bereik dat ''0'', ''3'' en ''5'' bevat.
 
-Wanneer een bereik wordt gebruikt in een context waarin slechts één waarde is toegestaan ​​(dit is het geval bij normale berekeningen), wordt de eerste bereikwaarde gebruikt voor de berekening. Bijvoorbeeld, de uitdrukking ''[0-9]'' zal evalueren tot ''0'' in een normale berekeningscontext, terwijl ''[8, 0-9]'' zal evalueren tot ''8''.
+Wanneer een bereik wordt gebruikt in een context waarin slechts één waarde is toegestaan ​​(dit is het geval bij normale berekeningen), wordt de eerste bereikwaarde gebruikt voor de berekening. Bijvoorbeeld, de uitdrukking ''[:0-9]'' zal evalueren tot ''0'' in een normale berekeningscontext, terwijl ''[:8, 0-9]'' zal evalueren tot ''8''.
 
 Bereiken ondersteunen momenteel alleen positieve constante gehele getallen. Een bereik moet altijd worden geëvalueerd tot ten minste 1 waarde en een bereik mag niet worden geëvalueerd tot meer dan 20 waarden. De volgende bereiken zijn bijvoorbeeld ongeldig:
-  * ''[]'': leeg
-  * ''[5, ^0-9]'': evalueert naar leeg
-  * ''[0-1000]'': evalueert tot meer dan 20 inzendingen
-  * ''[-5]'': negatieve int niet toegestaan
-  * ''[A]'': variabelen niet toegestaan
+  * ''[:]'': leeg
+  * ''[:5, ^0-9]'': evalueert naar leeg
+  * ''[:0-1000]'': evalueert tot meer dan 20 inzendingen
+  * ''[:-5]'': negatieve int niet toegestaan
+  * ''[:A]'': variabelen niet toegestaan
 
 Een formule kan een of meer bereikdefinities bevatten, gemengd met normale andere formuleonderdelen. De volgende formules zijn bijvoorbeeld geldig:
-  * ''3*[0-2]'': evalueert tot waarden ''0'', ''3'' en ''6''
-  * ''A*[4, 7]'': voor ''A=3'' resulteert dit in de waarden ''12'' en ''21''
-  * ''[1-2]*[3-4]'': evalueert tot ''3'', ''6'', ''4'' en ''8''.
+  * ''3*[:0-2]'': evalueert tot waarden ''0'', ''3'' en ''6''
+  * ''A*[:4, 7]'': voor ''A=3'' resulteert dit in de waarden ''12'' en ''21''
+  * ''[:1-2]*[:3-4]'': evalueert tot ''3'', ''6'', ''4'' en ''8''.
   * 
 ==== Opmerkingen====
 

@@ -138,12 +138,12 @@ c:geo bietet mehrere Optionen um dir bei der Navigation durch verschiedene Linie
   * Du kannst eine **individuelle Route** zwischen mehreren Caches/Wegpunkten anlegen.
   * c:geo kann optional eine **Positionsverlaufs-Linie** anzeigen, die den Verlauf deiner Position (deine Bewegung) auf der Karte anzeigt.
 
-Um das beste aus der Richtungslinie und der individuellen Route herauszuholen, empfehlen wir die App [[.:brouter|BRouter]], wie im verlinkten Kapitel des Benutzerhandbuchs beschrieben, zu installieren und konfigurieren. Das ermöglicht es eine geroutete Linie statt nur einer geradlinigen Verbindung zu nutzen.
+Um das beste aus der Richtungslinie und der individuellen Route herauszuholen, empfehlen wir die Nutzung von [[.:brouter|BRouter]], wie im verlinkten Kapitel des Benutzerhandbuchs beschrieben. Das ermöglicht es eine geroutete Linie statt nur einer geradlinigen Verbindung zu nutzen.
 
 Die verschiedenen Linien- und Trackarten werden nachfolgend im Detail beschrieben.
 ==== Richtungslinie ====
 
-Die Richtungslinie ist eine Kartenlinie, die deine aktuelle Position mit dem ausgewählten Ziel-Cache/Wegpunkt verbindet. Es kann entweder eine gerade Linie (Luftlinie) sein oder eine geroutete Linie, wenn du [[..:brouter|BRouter]] installier und konfiguriert hast.
+Die Richtungslinie ist eine Kartenlinie, die deine aktuelle Position mit dem ausgewählten Ziel-Cache/Wegpunkt verbindet. Es kann entweder eine gerade Linie (Luftlinie) sein oder eine geroutete Linie, wenn du [[..:brouter|BRouter]] konfiguriert hast.
 
 Die Standardfarbe für diese Linie ist <color #ed1c24>rot</color>, die Linienfarbe und weitere Erscheinungsparameter können aber nach deinen Bedürfnissen im Menü für die [[.:settings#map_lines_customization|Anpassung der Kartenlinien]] eingestellt werden.
 

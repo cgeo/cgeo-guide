@@ -1,5 +1,4 @@
 
-
 ====== Live kaart======
 	
 {{:main_live_default.svg?nolink&100 |}}
@@ -92,6 +91,7 @@ Sommige informatie zal mogelijk niet worden getoond afhankelijk van de laad stat
 |Terrein|De moeilijkheidsgraad van het terrein waar de geselecteerde cache gevonden moet worden in zowel een decimaal getal als een grafische weergave.|
 |Waardering|Toont de kwaliteit van deze cache uit de database van [[http://gcvote.com|GCVote]] indien deze service is geactiveerd in de [[settings#services|c:geo instellingen]]. De waarde wordt getoond als decimaal getal en als grafische weergave.\\ De waarde tussen haakjes is het aantal stemmen, die zijn uitgebracht voor deze cache.|
 |Favoriet|Het aantal favorieten (geocaching.com) of waarderingen (Opencaching platforms) van de geselecteerde cache.|
+|Recente logs|Zal de logtypes van de meest recente logs voor deze cache visualiseren (nieuwste aan de linkerkant).|
 |Meer details|Deze knop brengt je naar de [[..:cachedetails|cache details pagina]] van de geselecteerde waar de complete informatie over deze cache bekeken kan worden.|
 |{{:ic_menu_hint.svg?nolink&40|}}|Deze knop is alleen beschikbaar als de eigenaar van de cache een hint of persoonlijke notitie heeft geplaatst [[#hint_section|onderin ]] het popup scherm.|
 
@@ -150,12 +150,12 @@ c:geo biedt verschillende opties om te helpen bij het navigeren met behulp van v
   * Je kunt een **individuele route** instellen tussen verschillende caches/waypoints.
   * c:geo kan optioneel een **geschiedenisspoor** tekenen met de positiegeschiedenis (je beweging) op de kaart.
 
-Om het meeste uit de richtingslijn en individuele route te halen, wordt aanbevolen om de app [[..:brouter|BRouter]] te installeren en configureren zoals beschreven in het gekoppelde gedeelte van onze gebruikershandleiding. Dit maakt gerouteerde lijnen mogelijk in plaats van alleen een rechte verbindingslijn.
+Om het meeste uit de richtingslijn en individuele route te halen, wordt aanbevolen om de app [[..:brouter|BRouter]] te gebruiken zoals beschreven in het gekoppelde gedeelte van onze gebruikershandleiding. Dit maakt gerouteerde lijnen mogelijk in plaats van alleen een rechte verbindingslijn.
 
 De verschillende lijn- en spoortypes worden hieronder in meer detail beschreven.
 ==== Rechte lijn ====
 
-De richtingslijn is een kaartlijn die je huidige positie verbindt met een gekozen doelcache/waypoint. Dit kan een rechte lijn zijn of een gerouteerde lijn als je [[..:brouter|BRouter]] hebt geïnstalleerd en geconfigureerd.
+De richtingslijn is een kaartlijn die je huidige positie verbindt met een gekozen doelcache/waypoint. Dit kan een rechte lijn zijn of een gerouteerde lijn als je [[..:brouter|BRouter]] hebt geconfigureerd.
 
 De standaard lijnkleur is <color #ed1c24>rood</color>, maar lijnkleur en extra weergaveparameters kunnen worden geconfigureerd volgens ja behoeften binnen de instellingen van de [[.:settings#map_lines_customization|kaartlijn aanpassingen]].
 

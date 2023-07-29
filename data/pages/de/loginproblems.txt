@@ -86,15 +86,30 @@ Bitte prüfe die eingegebenen Daten genauestens und beachte, die korrekte Groß-
 
 ==== Anmeldung fehlgeschlagen: Captcha erforderlich ====
 
-c:geo hat festgestellt, dass die Geocaching-Webseite das Lösen eines Captcha erfordert. c:geo kann sich daher nicht anmelden. geocaching.com benutzt solche Captchas nach mehreren erfolglosen Anmeldeversuchen (z.B. durch ein falsches Passwort). 
+c:geo hat festgestellt, dass die Geocaching-Webseite aus Sicherheitsgründen das Lösen eines Captcha erfordert. c:geo kann sich daher nicht anmelden. 
+
+Dies kann durch die folgenden Situationen ausgelöst werden:
+
+  * Du hast mehrfach versucht dich mit einem falschen Passwort anzumelden
+  * Du hast versucht dich von einer verdächtigen IP-Adresse aus anzumelden (z.B. einem öffentlichen WLAN, aus dem Ausland, Nutzung eines VPN- oder Anonymisierungs-Dienstes)
+  * Die Mail-Adresse, die in deinem Profil auf geocaching.com hinterlegt ist, ist nicht mehr gültig oder nicht bestätigt
+
+
+Um das Problem zu lösen, führe bitte folgende Schritte aus:
 
 <WRAP center round todo 100%>
-Bitte melde dich einmalig mit dem Browser/dem PC an, löse dabei das Captcha und versuche danach dich erneut mit c:geo anzumelden.
+Nutze den Browser deines Gerätes, um dich auf geocaching.com anzumelden und dabei das angezeigte CAPTCHA zu lösen.
+Danach gehst du in c:geo zu Start - Menü - Einstellungen - Dienste - geocaching.com und nutzt "Autorisierung aktualisieren", um Nutzername und Passwort zu prüfen und dich erneut anzumelden.
 </WRAP>
 
-Des weiteren benutzt geocaching.com solche Captchas, wenn Anmeldeversuche von verdächtigen, gesperrten oder nicht identifizierbaren IP-Adressen festgestellt werden. Dies kann passieren, wenn du VPN- oder andere Anonymisierungsdienste (z.B. TOR) oder ein öffentliches WLAN nutzt. Bitte deaktiviere solche Dienste und versuche dich erneut mit c:geo anzumelden. Du solltest auch versuchen, dich über eine andere Internetverbindung (z.B. Mobilnetz statt WLAN) anzumelden.
+Desweiteren benutzt geocaching.com solche Captchas, wenn Anmeldeversuche von verdächtigen, gesperrten oder nicht identifizierbaren IP-Adressen festgestellt werden. Dies kann passieren, wenn du VPN- oder andere Anonymisierungsdienste (z.B. TOR) oder ein öffentliches WLAN nutzt. 
+
+<WRAP center round todo 100%>
+Bitte deaktiviere solche Dienste und versuche dich erneut mit c:geo anzumelden. Du solltest auch versuchen, dich über eine andere Internetverbindung (z.B. Mobilnetz statt WLAN) anzumelden.
+</WRAP>
 
 Falls Du auch die geocaching.com App auf Deinem Handy nutzt, kann es auch helfen, wenn Du Dich dort abmeldest, die App beendest, neu startest und anschließend neu anmeldest.
+
 ==== Anmeldung fehlgeschlagen: Die Anmeldedaten müssen zuerst auf Geocaching.com validiert werden. ====
 
 Deine Mailadresse und/oder dein Zugang ist noch nicht oder nicht mehr auf dem Geocaching-Server validiert. 
