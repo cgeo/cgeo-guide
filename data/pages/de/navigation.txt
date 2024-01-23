@@ -25,5 +25,6 @@ Die nachstehende Tabelle gibt eine Übersicht über die verschiedenen unterstüt
 |WhereYouGo|Dieser Eintrag ist nur bei Whereigo-Caches verfügbar und startet die App [[.mainmenu:utilityprograms|WhereYouGo]] um die benötigte Cardridge herunterzuladen und den Cache zu spielen.|
 |Pebble|Startet einen Kompass auf deiner Pebble-Uhr mit Hilfe der [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]]-App.|
 |Maps.me|Startet die Offline-Routenführung mit [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]].|
+|OrganicMaps|Startet die Offline-Routenführung mit [[https://play.google.com/store/apps/details?id=app.organicmaps|OrganicMaps]].|
 |Andere externe App|Dies startet andere Apps, die nicht explizit von c:geo unterstützt werden.\\ Die Nutzung dieser Option öffnet normalerweise eine Dialog zur App-Auwahl mit allen installierten Apps, die in der Lage sind einen Link mit Koordinaten zu verstehen.|
 

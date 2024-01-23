@@ -26,6 +26,7 @@ De volgende tabel biedt een overzicht van de verschillende ondersteunde methoden
 |Google Maps aanwijzingen|Opent [[https://play.google.com/store/apps/details?id=com.google.android.apps.maps|Google Maps]] om een lijst met routebeschrijvingen van je huidige positie naar de coördinaten weer te geven.|
 |WhereYouGo|Dit item is alleen beschikbaar voor WhereiGo-caches en opent [[.mainmenu:utilityprograms | WhereYouGo]] om de benodigde cartridge te downloaden en verder te navigeren door de stadia van de cache.|
 |Pebble|Start kompas op je pebble apparaat met behulp van de [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigatie]] app.|
-|Maps.me|Start offline turn-by-turn navigation using the [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] app.|
+|Maps.me|Start offline stapsgewijze navigatie met behulp van de [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] app.|
+|OrganicMaps|Start offline stapsgewijze navigatie met behulp van de [[https://play.google.com/store/apps/details?id=app.organicmaps|OrganicMaps]] app.|
 |Andere externe apps|Dit roept andere apps aan die niet expliciet worden ondersteund door c:geo.\\ Als u deze optie gebruikt, wordt meestal een dialoogvenster voor app-selectie op uw apparaat geopend met alle apps die koppelingen met coördinaten kunnen verwerken.|
 

@@ -97,17 +97,23 @@ Controleer de ingevoerde gebruikersnaam en het wachtwoord zorgvuldig en houd er 
 
 ==== Inloggen mislukt: Captcha vereist ====
 
-c:geo heeft gedetecteerd dat de geocachingwebsite vereist dat je een Captcha oplost om in te loggen. 
-C:geo kan daarom niet inloggen. Geocaching.com kan dergelijke Captcha gebruiken na het detecteren van opeenvolgende inlogfouten (bijvoorbeeld door een verkeerd wachtwoord).
+C:geo heeft ontdekt dat de geocachingwebsite om veiligheidsredenen vereist dat je een Captcha oplost om in te loggen. c:geo kan daarom niet inloggen. Dit kan worden veroorzaakt door de volgende situaties:
+  * Je hebt meerdere keren geprobeerd in te loggen met een verkeerd wachtwoord
+  * Je hebt geprobeerd in te loggen vanaf een verdacht IP-adres (bijvoorbeeld een openbare WiFi, vanuit het buitenland, met behulp van VPN of anonimiseringsdiensten)
+  * Het e-mailadres dat is opgeslagen in je profiel op geocaching.com is niet geverifieerd of niet langer geldig
 
-<WRAP centrum ronde todo 100%>
-Log een keer in op de geocachingwebsite met je browser/pc, los daar de Captcha op en probeer het opnieuw met c:geo nadat je daar succesvol bent ingelogd.
+Ga als volgt te werk om dit probleem op te lossen:
+
+<WRAP center round todo 100%>
+Gebruik de browser van je apparaat om naar geocaching.com te gaan, log in op de website en los de weergegeven CAPTCHA op.
+Ga daarna naar c:geo Start - Menu - Instellingen - Diensten - geocaching.com en gebruik "Update autorisatie" om je gebruikersnaam en wachtwoord nogmaals te controleren en probeer opnieuw in te loggen
 </WRAP>
 
-Bovendien kan geocaching.com dergelijke Captcha gebruiken bij het detecteren van aanmeldingen van een verdacht, op de zwarte lijst of niet-geïdentificeerd IP-adres. 
-Dit kan gebeuren als je VPN-tools, anonimizers (zoals TOR) of sommige openbare Wi-Fi-netwerken gebruikt. 
-Deactiveer dergelijke tools en probeer opnieuw in te loggen met c:geo. 
-Je kunt ook proberen in te loggen met c:geo via een andere internetverbinding (bijvoorbeeld mobiel netwerk in plaats van wifi).
+Bovendien kan geocaching.com dergelijke captcha gebruiken bij het detecteren van logins vanaf een verdacht, op de zwarte lijst geplaatst of ongeïdentificeerd IP-adres. Dit kan gebeuren als u VPN-tools, anonimizers (zoals TOR) of sommige openbare Wi-Fi-netwerken gebruikt.
+
+<WRAP center round todo 100%>
+Deactiveer dergelijke tools en probeer opnieuw in te loggen met c:geo. Je kunt ook proberen in te loggen met c:geo via een andere internetverbinding (bijvoorbeeld een mobiel netwerk in plaats van wifi).
+</WRAP>
 
 Als je de app van geocaching.com op je mobiel gebruikt, kan het ook helpen om deze app te openen en uit te loggen en vervolgens de app te sluiten. Daarna open je de app opnieuw en logt opnieuw in.
 

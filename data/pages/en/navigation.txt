@@ -25,5 +25,6 @@ The following table provides an overview of the different methods/tools supporte
 |WhereYouGo|This item is only available for Wherigo caches and will open [[.mainmenu:utilityprograms|WhereYouGo]] to download the needed cartridge and further navigate through the stages of the cache.|
 |Pebble|Start compass on your pebble device using the [[https://play.google.com/store/apps/details?id=com.webmajstr.pebble_gc|Pebble Navigation]] app.|
 |Maps.me|Start offline turn-by-turn navigation using the [[https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro|maps.me]] app.|
+|OrganicMaps|Start offline turn-by-turn navigation using the [[https://play.google.com/store/apps/details?id=app.organicmaps|OrganicMaps]] app.|
 |Other external apps|This invokes other apps not explicitly supported by c:geo.\\ Using this option will usually open an app selection dialog on your device presenting all apps capable of digesting links containing coordinates.|
 

@@ -1,56 +1,3 @@
-1663790886	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:loginproblems	moving-bits	[Login failed: Captcha required] 		146
-1663790974	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] 		175
-1664002493	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	de:cachevariables	moving-bits	[Numerische Operatoren] 		1
-1664002516	fe80:f2b2:dd0c:ac00:d3a8:7b5a:34e2:1995	E	en:cachevariables	moving-bits	[Numeric operators] 		1
-1666293547	fe80:d97e:f540:c69d:ab5a:b017:769a:0ee9	E	en:offlinemaps	ztnfny	add hillshading		1652
-1667027840	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:loginproblems	linstylemon	[Inloggen mislukt: Captcha vereist] 		185
-1667028120	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:loginproblems	linstylemon	[Inloggen mislukt: Captcha vereist] 		13
-1667028532	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		1
-1667029305	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numeric operators]		-7475
-1667029347	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numeric operators] 		9
-1667029545	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Numerieke operatoren] 		1735
-1667029662	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Relationele operatoren en voorwaarden] 		2234
-1667029804	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 09:45)	1667029545	-2234
-1667029827	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Relationele operatoren en voorwaarden] 		2232
-1667029902	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Cache Variables] 		1
-1667030257	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Functies] 		200
-1667030371	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Variabelen] 		2705
-1667030427	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen ] 		656
-1667030485	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
-1667030576	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:00)	1667030427	-669
-1667030621	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
-1667030662	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:02)	1667030576	-669
-1667030715	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken] 		669
-1667030746	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:02)	1667030576	-669
-1667030809	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken ] 		669
-1667030901	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:05)	1667030746	-669
-1667030961	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:cachevariables	linstylemon	[Opmerkingen] 		670
-1667031097	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:08)	1667030901	-670
-1667031146	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen] 		660
-1667031189	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:11)	1667031097	-660
-1667031955	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	test why some text disappears		-2654
-1667032094	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Aaneenschakelingen] 		-33
-1667032116	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		-5
-1667032128	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Waardetypes] 		-5
-1667032210	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	R	nl:cachevariables	linstylemon	oude revisie hersteld (2022/10/29 10:00)	1667030427	2697
-1667033449	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	* 		534
-1667033496	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	[Overloopteken] 		137
-1667033611	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:cachevariables	linstylemon	x		-138
-1667033969	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:cachevariables	linstylemon	fix		129
-1667113134	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:offlinemaps	linstylemon	[Downloaden en intalleren va kaarten/thema's] 		3
-1667113194	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	e	nl:offlinemaps	linstylemon	[Downloaden en intalleren va kaarten/thema's] 		-4
-1667113397	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:offlinemaps	linstylemon	Add Hillshading section 1		248
-1667113795	fe80:39fb:486a:f12b:085b:b831:0a10:6fc6	E	nl:offlinemaps	linstylemon	[Hillshading] 		1617
-1669373624	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Functions] Add TRUNC function		260
-1669373752	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:cachevariables	lineflyer	[Funktionen] TRUNC Funktion hinzugefügt		280
-1669373904	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	en:cachevariables	lineflyer	[Range expressions] New syntax for range expressions		14
-1669373999	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:cachevariables	lineflyer	[Wertebereiche] Neue Syntax für Variablenbereiche		15
-1669377118	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	en:waypointcalculator	lineflyer	Update FIXME to alert		47
-1669377176	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	E	de:waypointcalculator	lineflyer	FIXME in Alert einbinden		44
-1669377529	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	en:cachedetails	lineflyer	[Logbook tab] Add ability to copy part of log text		25
-1669377582	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	de:cachedetails	lineflyer	[Logbuch] Hinweis, dass auch Teile des Logtextes kopiert werden können		29
-1669378282	fe80:29c8:5c6b:3f8c:a9b9:7b06:11c9:f6fd	E	en:mainmenu:livemap	lineflyer	[Cache information] Add recent logs explanation		104
-1669378366	fe80:29c8:5c6b:3f8c:a9b9:7b06:11c9:f6fd	E	de:mainmenu:livemap	lineflyer	[Cacheinformation] Letzte Logs hinzugefügt, Tippfehler behoben		104
 1685197348	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	de:mainmenu:livemap	moving-bits	[Karten-Navigation] 		-27
 1685197404	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	en:mainmenu:livemap	moving-bits	[Map navigation] 		-26
 1685197467	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	en:mainmenu:livemap	moving-bits	[Direction line] 		-14
@@ -68,3 +15,7 @@
 1688841068	fe80:927a:3d62:e64b:b06e:34d3:c2a3:fcbc	E	de:brouter	moving-bits	[Nutzung von gerouteter Navigation mit c:geo] 		53
 1689357060	fe80:a72a:bfef:a0a7:0985:46f9:83a7:9d4f	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		0
 1689774393	fe80:113e:88f7:d999:4825:8404:a91a:b926	E	de:mainmenu:lists	lineflyer	[Listenmenü] 		-55
+1692478431	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	de:navigation	moving-bits	OrganicMaps ergänzt		132
+1692478487	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	en:navigation	moving-bits	Added OrganicMaps		145
+1692774372	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:loginproblems	linstylemon	changes from english to Dutch		549
+1692774611	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:navigation	linstylemon	[Navigatie methoden/hulpmiddelen] english changes into dutch		159
