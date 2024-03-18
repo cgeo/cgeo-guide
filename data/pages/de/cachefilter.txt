@@ -48,6 +48,7 @@ Filtert nach **Schwierigkeit** und **Gelände**. Nutze die jeweiligen Schiebereg
 Beachte, dass bei Filterung auf den gesamten Bereich (//1.0-5.0//) auch Caches inkludiert werden, die keine **Schwierigkeits**- bzw. **Gelände**wertung haben (z.B. benutzerdefinierte Caches).
 
 ==== Einfacher Statusfilter ====
+{{anchor:filter_basic_status:}}
 
 Erlaubt es nach dem aktuellen Status eines Caches zu filtern. Du kannst auswählen, ob Caches abhängig von ihrem Status gefiltert werden sollen. Dieser Filter ist auch mit mehr Optionen im [[#filter_advanced|erweiterten]] Modus verfügbar.
 
@@ -159,7 +160,7 @@ In den folgenden Kapiteln werden einige Filterkriterien näher erläutert..
 | Gespeichert seit | Filtert Caches basiert auf der Zeit, die sie in c:geo gespeichert sind (z.B. vor wie vielen Tagen wurde der Cache zuletzt in c:geo aktualisiert). | 
 
 
-{{anchor:filter_criterias:}}
+{{anchor:filter_criterias_details:}}
 ===== Details zu Filterkriterien =====
 
 {{anchor:filter_criteria_text:}}
@@ -182,7 +183,7 @@ Die Textfilter-Methode bestimmt zusammen mit dem eingegebenen Wert im **Suchtext
 
 Nutze die Auswahl **Groß-/Kleinschreibung beachten**  um festzulegen, ob die Suche Groß-und Kleinschreibung unterscheiden soll oder nicht.
 
-{{anchor:filter_criteria_text:}}
+{{anchor:filter_criteria_date:}}
 ==== Datumfilter ====
 
 Der Datumfilter filtert nach einem Datum in bestimmten Feldern der Cachedaten, z.B. im Versteckdatum. Die Datumfilter funktionen alle nach dem gleichen Prinzip und werden hier am Beispiel des //Versteckdatum// erklärt.

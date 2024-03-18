@@ -50,6 +50,7 @@ Filtrez par **Difficulté** ou **Terrain**. Utilisez les curseurs respectifs pou
 Notez que si vous définissez le filtre sur toute la plage (//1.0-5.0//), vous inclurez également dans le résultat les caches qui n'ont pas du tout de **Difficulté** / **Terrain** (comme par exemple les caches personelles). 
 
 
+{{anchor:filter_basic_status:}}
 ==== Filtre basique par statut ====
 
 Permet de filtrer par l'état actuel d'une cache. Vous pouvez choisir de filtrer les caches en fonction de leur état. Ce filtre est également disponible avec plus d'options dans le mode [[#filter_advanced|avancé]].
@@ -163,7 +164,7 @@ Dans les sections suivantes, certains critères de filtrage sont expliqués plus
 | Date de la dernière mise à jour | Filtre les caches en fonction de leur dernière mise à jour dans c:geo (par exemple, le dernier rafraîchissement des données hors ligne de cette cache remonte à combien de jours). | 
 
 
-{{anchor:filter_criterias:}}
+{{anchor:filter_criterias_details:}}
 ===== Détails des critères de filtrage =====
 
 {{anchor:filter_criteria_text:}}
@@ -186,7 +187,7 @@ Le type de texte et la valeur saisie dans le champ **Texte de recherche** déter
 
 Utilisez la case à cocher **Sensible à la casse** pour décider si la correspondance du texte doit être sensible à la casse ou non. 
 
-{{anchor:filter_criteria_text:}}
+{{anchor:filter_criteria_date:}}
 ==== Filtre par date ====
 
 Les filtres de date recherchent une date dans un champ de date spécifique des données du cache, par exemple la date cachée. Ils fonctionnent tous de la même manière et sont expliqués ici en utilisant //Date de pose// comme exemple.

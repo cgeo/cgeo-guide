@@ -19,3 +19,7 @@
 1692478487	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	en:navigation	moving-bits	Added OrganicMaps		145
 1692774372	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:loginproblems	linstylemon	changes from english to Dutch		549
 1692774611	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:navigation	linstylemon	[Navigatie methoden/hulpmiddelen] english changes into dutch		159
+1708642172	fe80:19bf:7892:491a:abab:a566:d4b2:b319	E	en:cachefilter	murggel	fix wrong anchors		12
+1708643684	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	de:cachefilter	murggel	fix wrong anchor 		40
+1708643802	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fi:cachefilter	murggel	fix wrong anchor		39
+1708643885	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fr:cachefilter	murggel	fix wrong anchor		40

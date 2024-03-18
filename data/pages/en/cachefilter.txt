@@ -50,7 +50,7 @@ Filter by **Difficulty** or **Terrain**. Use the respective sliders to select a 
 Note that setting the filter to the whole range (//1.0-5.0//) will also include caches in the result which don't have a **Difficulty** / **Terrain** at all (like e.g. user-defined caches). 
 
 
-{{anchor:filter_advanced:}}
+{{anchor:filter_basic_status:}}
 
 ==== Basic status filter ====
 
@@ -165,7 +165,7 @@ In follow-up sections, some filter criteria are explained in more detail.
 | Stored Since | Filters caches based on their storage age in c:geo (e.g. how many days ago was this cache's offline data last refreshed). | 
 
 
-{{anchor:filter_criterias:}}
+{{anchor:filter_criterias_details:}}
 ===== Filter criteria details =====
 
 {{anchor:filter_criteria_text:}}
@@ -188,7 +188,7 @@ The text type together with the text value entered in field **Search Text** dete
 
 Use the **Match case** checkbox to decide whether text matching should occur case-sensitive or not. 
 
-{{anchor:filter_criteria_text:}}
+{{anchor:filter_criteria_date:}}
 ==== Date filters ====
 
 Date filters filter for a date in a specific date field of the cache data, e.g. the hidden date. They all work the same way and are explained here using //Hidden Date// as an example.
