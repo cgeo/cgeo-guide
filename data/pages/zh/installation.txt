@@ -1,0 +1,74 @@
+====== 安装与更新方式 ======
+
+
+===== 安装资源 =====
+{{anchor:installation_source:}}
+
+安装c:geo的方式有很多种，如下表所示：
+
+^ 资源 ^ 详情 ^
+|[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|这是安装和更新c:geo最简单的方式，您还可以定期收到最新版本的更新推送。如果您有Google账号并可以在设备上使用Google Play应用，建议使用这种方式安装和更新c:geo。|
+|[[https://github.com/cgeo/cgeo/releases/latest|APK文件]]|如果您无法使用Google Play (并且有直接安装应用的经验）， 可以从我们的Github仓库上下载c:geo最新版本的APK文件。\\ :!: 请注意，在这种情况下，您将不会收到Google Play的更新推送。但是，如果您的版本已经过时，c:geo主页会显示 [[installation#update|notification]] ，您需要手动下载新的APK文件来更新。|
+|[[https://fdroid.cgeo.org/|FDroid仓库]]|这个选项适用于想要基于FDroid构建自己的版本并且知道自己在做什么的进阶用户。|
+
+
+
+===== 权限 =====
+{{anchor:permissions:}}
+
+在安装过程中或首次启动应用程序时（取决于Android版本），您将被告知并需要同意c:geo在您的设备上获得以下权限：
+
+^ 权限 ^ 详情^
+|定位|c：geo需要获取您设备上的GPS信息，以便定位并计算您到藏宝点的距离与方向。|
+|照片/媒体/文件|一旦您将藏宝点设为离线使用，c:geo将把数据写入到您的手机储存或SD卡。 此外，c:geo将使用您的手机存储进行文件的导入和导出以及离线地图的读取。\\ 如果您在日记中附加照片，c:geo将使用您的设备相机。|
+
+<WRAP center round important 100%>
+请确保授予这些权限，否则c:geo将无法正常工作！
+</WRAP>
+
+===== 更新 =====
+{{anchor:update:}}
+
+我们将不定时发布c:geo的更新。
+
+<WRAP center round tip 100%>
+我们建议您在有新版本可用时尽快更新，因为旧版本可能无法正常使用(例如c:geo在紧急维修漏洞或服务器端改变的情况下)。
+</WRAP>
+
+如果您是从Google Play安装的c：geo，一旦有新版本您将会收到Google Play的更新通知。您只需跟随通知指示或在Google Play中打开c：geo以进行更新。
+
+此外，c：geo还使用通知系统来提醒您有新版本可用或存在临时问题。您可能会在c：geo主页上看到类似这样的消息：
+
+{{:en:notification_example.png?direct&300 |}}
+
+您可以点击该消息以获取更多信息（存在临时问题时）或前往Google Play更新您的安装（有更新通知时）。
+
+
+===== 测试版 =====
+{{anchor:beta_version:}}
+
+如果一个新版本已经准备好发布（即“发布候选版本”），我们首先会将其作为测试版发布，以获取用户反馈并发现开发过程中忽视的问题。
+
+<WRAP center round info 100%>
+通常测试版是稳定的，但仍有小概率部分功能无法正常工作。然而我们鼓励您使用它，因为这将给我们的开发工作带来极大的帮助！
+</WRAP>
+
+测试版也会上传到Google Play，并且可以与正式版无缝自动更新。您只需要通过以下链接在Google Play上启用c:geo的测试版：
+
+[[https://play.google.com/apps/testing/cgeo.geocaching|成为c:geo的测试员!]]
+
+激活测试版后，您将通过Google Play同时接收测试版和正式版。这意味着您将仍然接收所有正式版本，但当测试版可用时，也将额外接收更新。此外，作为测试版测试员，您可以通过Google Play反馈表向我们反馈或提交问题报告。
+
+您订阅了测试版后，Google Play（由于某种原因）总是在商店中显示为“c：geo（测试版）”，即使我们当前没有可用的测试版，且您使用的是正式版。您可以查看[[.mainmenu:aboutcgeo|关于c：geo]]，以确认当前是否在使用测试版本：如果版本号中有后缀“-RC”，则是测试版本。
+
+如果您希望停止测试版测试，只需在上述链接取消选择测试版。之后，您可能需要从设备上卸载测试版本并从Google Play重新安装正式版本。
+
+===== 开发版本 =====
+{{anchor:development version:}}
+
+查看链接[[https://www.cgeo.org/development|开发部分]]，了解更多关于开发版本的信息。
+
+
+
+
+

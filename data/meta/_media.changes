@@ -1,9 +1,3 @@
-1650620694	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_syringe.png	lineflyer			1825
-1650620694	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_teamwork.png	lineflyer			3491
-1650620694	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_thorn.png	lineflyer			3777
-1650620694	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_ticks.png	lineflyer			4103
-1650620694	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_snowmobiles.png	lineflyer			1666
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_tide.png	lineflyer			3038
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	C	attribute_trackables.png	lineflyer	angelegt		6034
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_touristok.png	lineflyer			1057
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_treeclimbing.png	lineflyer			1529
@@ -14,7 +8,13 @@
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_wading.png	lineflyer			1617
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_water.png	lineflyer			3301
 1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_webcam.png	lineflyer			868
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_wheelchair.png	lineflyer			3026
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_wherigo.png	lineflyer			2496
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_winter.png	lineflyer			3502
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_wirelessbeacon.png	lineflyer			3996
+1714948419	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:filter-criteria-status.png	murggel			471499
+1715029886	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:history.png	murggel			-222195
+1715030184	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-access.png	murggel			286751
+1715030211	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-access.png	murggel			286751
+1715030365	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-access.png	murggel			-270446
+1715030400	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-access.png	murggel			-270446
+1715030467	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-basic.png	murggel			-10209
+1715030550	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-basic.png	murggel			-10209
+1715030647	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-advanced.png	murggel			6729
+1715030732	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-advanced.png	murggel			6729

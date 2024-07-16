@@ -128,36 +128,64 @@ In den folgenden Kapiteln werden einige Filterkriterien näher erläutert..
 
 ==== Kategorie "Basis" ====
 
-^ Filter ^ Beschreibung ^ 
-| Cache-Beschreibung | Ein [[#filter_criteria_text|Textfilter]] für die Beschreibung des Caches. |
-| Cache-Name | Ein [[#filter_criteria_text|Textfilter]] für den Namen des Caches. |
-| Cache-Besitzer | Ein [[#filter_criteria_text|Textfilter]] für den Besitzer des Caches. |
-| Cache-Typ | Filter für den Cachetyp. Dies ist ein Basisfilter, wie  [[#filter_basic_cachetype|hier]] beschrieben. |
-| HVersteckdatum | Ein [[#filter_criteria_date|Datumfilter]] für das Versteckdatum des Caches. |
-| Status | Filtert Caches nach mehreren Statuswerten, z.B. Gefunden, Eigene, Deaktiviert oder Archiviert. Dieser Filter wird [[#filter_criteria_status|hier]] näher beschrieben. |
+^ Filter ^ Beschreibung ^ online ^
+| Cache-Beschreibung | Ein [[#filter_criteria_text|Textfilter]] für die Beschreibung des Caches. | {{ :ic_menu_sync_disabled.svg }} | 
+| Cache-Name | Ein [[#filter_criteria_text|Textfilter]] für den Namen des Caches. | {{ :ic_menu_sync_enabled.svg }} | 
+| Cache-Besitzer | Ein [[#filter_criteria_text|Textfilter]] für den Besitzer des Caches. | {{ :ic_menu_sync_enabled.svg }} | 
+| Cache-Typ | Filter für den Cachetyp. Dies ist ein Basisfilter, wie  [[#filter_basic_cachetype|hier]] beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
+| Versteckdatum | Ein [[#filter_criteria_date|Datumfilter]] für das Versteckdatum des Caches. | {{ :ic_menu_sync_enabled.svg }} |
+| Status | Filtert Caches nach mehreren Statuswerten, z.B. Gefunden, Eigene, Deaktiviert oder Archiviert. Dieser Filter wird [[#filter_criteria_status|hier]] näher beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
 
 ==== Kategorie "Details" ====
 
-^ Filter ^ Beschreibung ^ 
-| Cache-Attribute | Filtert Caches mit Hilfe der Cache-Attriebute wie z.B. "Empfohlen für Kinder" oder "Heimliches Vorgehen". Dieser Filter wird [[#filter_criteria_attributes|hier]] genauer beschrieben. |
-| Cache-Größe | Filtert Caches nach ihrer Filters caches for her size (e.g. Regular, Small, Micro). This filter is explained in more details [[#filter_criteria_size|here]]. |
-| Schwierigkeit | Filtert Caches nach ihrer Schwierigkeit. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. |
-| Favoriten | Fitlert Caches nach der Anzahl der Favoritenpunkte. Dieser Filter wird [[#filter_criteria_favorites|hier]] genauer beschrieben. |
-| Letztes Funddatum | Ein [[#filter_criteria_date|Datumfilter]] für das Datum, an dem ein Cache zuletzt gefunden wurde. |
-| Ort | Ein [[#filter_criteria_text|Textfilter]] für den Ort des Caches (z.B. Bundesland oder Staat). Während der Eingabe gibt dieser Textfilter Vorschläge zur Komplettierung basierend auf den auf deinem Gerät gespeicherten Caches (z.B. "Deutschland" oder "Bayern"). |
-| Logeintrag | Filteret Caches basierend auf dem Inhalt der Logeinträge. Dieser Filter wird [[#filter_criteria_logentry|hier]] genauer beschrieben. |
-| Anzahl Logs | Filtert Caches basierend auf der Anzahl ihrer Logs. Dieser Filter wird [[#filter_criteria_logscount|hier]] genauer beschrieben. |
-| Herkunft | Filtert Caches nach ihrer Quelle/Herkunft, z.B. //geocaching.com// oder //opencaching.de// Dies ist ein  [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. |
-| Gelände | Filtert Caches nach ihrer Geländewertung. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. |
+^ Filter ^ Beschreibung ^ online ^
+| Cache-Attribute | Filtert Caches mit Hilfe der Cache-Attriebute wie z.B. "Empfohlen für Kinder" oder "Heimliches Vorgehen". Dieser Filter wird [[#filter_criteria_attributes|hier]] genauer beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
+| Cache-Größe | Filtert Caches nach ihrer Filters caches for her size (e.g. Regular, Small, Micro). This filter is explained in more details [[#filter_criteria_size|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Schwierigkeit | Filtert Caches nach ihrer Schwierigkeit. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. | {{ :ic_menu_sync_enabled.svg }} |
+| Favoriten | Filtert Caches nach der Anzahl der Favoritenpunkte. Dieser Filter wird [[#filter_criteria_favorites|hier]] genauer beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
+| Letztes Funddatum | Ein [[#filter_criteria_date|Datumfilter]] für das Datum, an dem ein Cache zuletzt gefunden wurde. | {{ :ic_menu_sync_disabled.svg }} |
+| Ort | Ein [[#filter_criteria_text|Textfilter]] für den Ort des Caches (z.B. Bundesland oder Staat). Während der Eingabe gibt dieser Textfilter Vorschläge zur Komplettierung basierend auf den auf deinem Gerät gespeicherten Caches (z.B. "Deutschland" oder "Bayern"). | {{ :ic_menu_sync_disabled.svg }} |
+| Logeintrag | Filteret Caches basierend auf dem Inhalt der Logeinträge. Dieser Filter wird [[#filter_criteria_logentry|hier]] genauer beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
+| Anzahl Logs | Filtert Caches basierend auf der Anzahl ihrer Logs. Dieser Filter wird [[#filter_criteria_logscount|hier]] genauer beschrieben. | {{ :ic_menu_sync_enabled.svg }} |
+| Herkunft | Filtert Caches nach ihrer Quelle/Herkunft, z.B. //geocaching.com// oder //opencaching.de// Dies ist ein  [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. | {{ :ic_menu_sync_disabled.svg }} |
+| Gelände | Filtert Caches nach ihrer Geländewertung. Dies ist ein Basisfilter, der [[#filter_basic_difficultyterrain|hier]] näher beschrieben wird. | {{ :ic_menu_sync_enabled.svg }} |
 
 ==== Kategorie "Benutzerspezifisch" ====
 
-^ Filter ^ Beschreibung ^ 
-| Entfernung | Filtert caches nach ihrer Entfernung zu einem bestimmten Punkt. Dieser Filter wird [[#filter_criteria_distance|hier]] genauer beschrieben. | 
-| Offline-Log | Ein [[#filter_criteria_text|Textfilter]] für existierende Offline-Logs. | 
-| Persönliche Notizen | Ein [[#filter_criteria_text|Textfilter]] für die persönlichen Cachenotizen. | 
-| Gespeicherte Listen | Filtert Caches nach ihrer Zugehörigkeit zu benutzerspezifischen Listen. Dies ist ein [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. | 
-| Gespeichert seit | Filtert Caches basiert auf der Zeit, die sie in c:geo gespeichert sind (z.B. vor wie vielen Tagen wurde der Cache zuletzt in c:geo aktualisiert). | 
+^ Filter ^ Beschreibung ^ online ^
+| Entfernung | Filtert caches nach ihrer Entfernung zu einem bestimmten Punkt. Dieser Filter wird [[#filter_criteria_distance|hier]] genauer beschrieben. |  {{ :ic_menu_sync_enabled.svg }} |
+| Offline-Log | Ein [[#filter_criteria_text|Textfilter]] für existierende Offline-Logs. |  {{ :ic_menu_sync_disabled.svg }} |
+| Persönliche Notizen | Ein [[#filter_criteria_text|Textfilter]] für die persönlichen Cachenotizen. |  {{ :ic_menu_sync_disabled.svg }} |
+| Gespeicherte Listen | Filtert Caches nach ihrer Zugehörigkeit zu benutzerspezifischen Listen. Dies ist ein [[#filter_criteria_dynamiccheckboxlist|dynamischer Auswahlfilter]]. |  {{ :ic_menu_sync_disabled.svg }} |
+| Gespeichert seit | Filtert Caches basiert auf der Zeit, die sie in c:geo gespeichert sind (z.B. vor wie vielen Tagen wurde der Cache zuletzt in c:geo aktualisiert). |  {{ :ic_menu_sync_disabled.svg }} |
+
+{{anchor:filter_criterias_platform:}} 
+ ==== Unterstützung der Geocaching-Dienst für die Online-Suche ==== 
+  
+Die folgende Tabelle beschreibt die Unterstützung der unterschiedlichen Geocaching-Dienste für 'Suchen mit Filtern' und Filtern in der Live-Map. Die restlichen Filterkriterien werden lokal auf den heruntergeladenen Cache-Daten ("light-version") ausgeführt, bereits schon gespeicherte Information werden dabei nicht berücksichtigt.
+
+Für die Filterung in Offline-Caches (z.B. Suche in Listen) wird ausschließlich mit den gespeicherten Informationen gearbeitet.
+  
+
+^ Attribute      ^ Geocaching.com       ^ Okapi (e.g. opencaching.de)         ^ SU (geocaching.su)  ^
+|Operatoren | <color #22b14c>✔</color> AND \\ <color #ed1c24>✘</color> OR wird nicht unterstützt \\ <color #ed1c24>✘</color> INVERS wird nicht unterstützt |<color #22b14c>✔</color> AND \\ <color #ed1c24>✘</color> OR wird nicht unterstützt \\ <color #ed1c24>✘</color> INVERS wird nicht unterstützt |<color #ed1c24>✘</color> AND wird nicht unterstützt \\ <color #ed1c24>✘</color> OR wird nicht unterstützt \\ <color #ed1c24>✘</color> INVERS wird nicht unterstützt \\ \\ Es wird nur ein Kriterium angewendet \\ (Entfernung -> Cache-Name -> Cache-Besitzer ) | 
+|  Kategorie "Basis"  |||| 
+|Cache-Name |<color #22b14c>✔</color> Nur ganze Wörter möglich\\ <color #ed1c24>✘</color> Pattern wird nicht unterstützt|<color #22b14c>✔</color> Pattern wird unterstützt|<color #22b14c>✔</color> Nur einfache Suche möglich \\ <color #ed1c24>✘</color> Pattern wird nicht unterstützt | 
+|Cache-Besitzer|<color #22b14c>✔</color> Genaue user-id wird benötigt\\ <color #ed1c24>✘</color> Wildcards werden nicht unterstützt|<color #22b14c>✔</color> Genaue user-id wird benötigt \\ <color #ed1c24>✘</color> Wildcards werden nicht unterstützt |<color #22b14c>✔</color> Genaue user-id wird benötigt \\ <color #22b14c>✔</color> Wildcards werden unterstützt| 
+|Cache-Typ |<color #22b14c>✔</color> |<color #22b14c>✔</color> |<color #ed1c24>✘</color>| 
+|Versteckdatum  |<color #22b14c>✔</color> |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>| 
+|Status |<color #22b14c>✔</color> own, found, disabled |<color #22b14c>✔</color> own, found, disabled, archived |<color #ed1c24>✘</color>| 
+|  Kategorie "Details"  |||| 
+|Cache-Attribute |<color #22b14c>✔</color> Nur für Premium-Mitglieder |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>| 
+|Cache-Größe|<color #22b14c>✔</color> |<color #22b14c>✔</color> |<color #ed1c24>✘</color>| 
+|Schwierigkeit|<color #22b14c>✔</color> Nur ein Bereich |<color #22b14c>✔</color> Nur ein Bereich |<color #ed1c24>✘</color>| 
+|Gelände|<color #22b14c>✔</color> Nur ein Bereich |<color #22b14c>✔</color> Nur ein Bereich |<color #ed1c24>✘</color>| 
+|D/T Kombiniert|<color #22b14c>✔</color> |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>| 
+|Favoriten |<color #22b14c>✔</color> Minimum wird unterstützt \\ <color #ed1c24>✘</color> Maximum wird nicht unterstützt  \\ <color #ed1c24>✘</color> Relative Werte werde nicht unterstützt  |<color #22b14c>✔</color> Minimum wird unterstützt \\ <color #ed1c24>✘</color> Maximum wird nicht unterstützt \\ <color #22b14c>✔</color> Relative Werte werde unterstützt |<color #ed1c24>✘</color>| 
+|Logeintrag  (Gefunden von)|<color #22b14c>✔</color> "Gefunden von" \\ <color #22b14c>✔</color> "Nicht gefunden von" \\ <color #ed1c24>✘</color> Wildcards werden nicht unterstützt |<color #22b14c>✔</color> "Gefunden von" \\ <color #22b14c>✔</color> "Nicht gefunden von" \\ <color #ed1c24>✘</color> Wildcards werden nicht unterstützt |<color #ed1c24>✘</color>| 
+|Anzahl Logs  |<color #ed1c24>✘</color>|<color #22b14c>✔</color> |<color #ed1c24>✘</color>| 
+|  Kategorie "Benutzerspezifisch"  |||| 
+|Entfernung|<color #22b14c>✔</color> Rechteckiger Bereich\\ <color #ed1c24>✘</color> Kreisabstand wird nicht unterstützt  |<color #22b14c>✔</color> Rechteckiger Bereich\\ <color #22b14c>✔</color> Kreisabstand wird unterstützt|<color #22b14c>✔</color> Rechteckiger Bereich\\ <color #22b14c>✔</color> Kreisabstand wird unterstützt| 
 
 
 {{anchor:filter_criterias_details:}}
@@ -204,6 +232,7 @@ Der Statusfilter filtert nach mehreren Werten des Cachestatus und sieht folgende
 Um Caches im Status **Aktiv**, **Deaktiviert**  oder **Archiviert**  einzubeziehen/auszuschließen, aktiviere/deaktiviere die entsprechenden Felder oben im Filter.
 
 Die weiteren Statusoptionen erlauben es dir, einen von drei Werten auszuwählen:
+^ Option ^ Beschreibung ^ 
 |**Alle**| Caches werden nicht nach diesem Kriterium gefiltert.|
 |**Ja**| Nur Caches, die dieses Kriterium erfüllen werden im Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Ja// nur gefundene Caches im Filterergebnis angezeigt.|
 |**Nein**| Nur Caches, die das Kriterium **NOT** erfüllen werden in das Resultat einbezogen. Zum Beispiel werden durch Setzen von **Gefunden** auf //Nein// nur nicht gefundene Caches in das Resultat einbezogen.|
@@ -212,7 +241,9 @@ Die folgenden Statusfilter ist verfügbar (Die Beschreibung gibt hier an, was ge
 
 
 ^ Statusfilter ^ Beschreibung ^ 
-| Gefunden | Filters nach Caches, die du gefunden hast. | 
+| Gefunden | Filtert nach Caches, die du gefunden hast. | 
+| Nicht gefunden | Filtert nach Caches, die du als ''Nicht gefunden'' geloggt hast. | 
+| Hat Offline-Gefunden-Log | Filtert nach Caches, für die du ein Offline-''Gefunden''-Log gespeichert hast. |
 | Eigener | Filtert nach deinen eigenen Caches. | 
 | Gespeichert | Filtert nach Caches, die lokal gespeichert sind. |
 | Eigener Favorit | Filtert nach Caches, denen du einen Favoritenpunkt gegeben hast. |
@@ -222,6 +253,7 @@ Die folgenden Statusfilter ist verfügbar (Die Beschreibung gibt hier an, was ge
 | Hat eigene Wertung | Filtert nach Caches, denen du eine Bewertung gegeben hast. |
 | Hat Offline-Log | Filtert nach Caches, für die du ein Offline-Log gespeichert hast. |
 | Gelöster Mystery | Filtert nach Mystery-Caches, die als //gelöst// angesehen werden. Ein Mystery wird dann als //gelöst// angesehen, wenn dieser entweder veränderte Listing-Koordinaten hat oder einen Final-Wegpunkt mit gültigen Koordinaten vorhanden ist. |
+| Mit eigenen Wegpunkten | Filtert nach Caches, für die du eigene Wegpunkte erzeugt hast. |
 
 
 {{anchor:filter_criteria_attributes:}}

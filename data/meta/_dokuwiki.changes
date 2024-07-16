@@ -1,18 +1,3 @@
-1685197348	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	de:mainmenu:livemap	moving-bits	[Karten-Navigation] 		-27
-1685197404	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	en:mainmenu:livemap	moving-bits	[Map navigation] 		-26
-1685197467	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	en:mainmenu:livemap	moving-bits	[Direction line] 		-14
-1685197485	fe80:5863:03f0:afda:461a:054f:4e92:6d22	E	de:mainmenu:livemap	moving-bits	[Richtungslinie] 		-15
-1685946787	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	E	nl:mainmenu:livemap	linstylemon	Changed parts translated		79
-1685947839	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	E	nl:cachedetails	linstylemon	removed typo		-1
-1685947985	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	E	nl:waypointcalculator	linstylemon	Changed the fix me		56
-1685948066	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	e	nl:waypointcalculator	linstylemon	typo		-11
-1685948337	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	E	nl:cachevariables	linstylemon	[Functies] added truncate		257
-1685948664	fe80:9589:a79f:8f40:91a8:8a60:d3e4:ed1e	E	nl:cachevariables	linstylemon	[Bereikuitdrukkingen]  added : to formulas		16
-1686601637	fe80:05d7:aa1d:ea25:09ff:cdd0:fdd8:0ac4	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] 		623
-1686601960	fe80:05d7:aa1d:ea25:09ff:cdd0:fdd8:0ac4	E	en:loginproblems	moving-bits	[Login failed: Captcha required] 		462
-1688420796	fe80:800a:bb94:6c8a:c16b:1f3a:4740:c948	E	de:cacheicons	lineflyer	[Geocache-Symbole] 		1
-1688420806	fe80:800a:bb94:6c8a:c16b:1f3a:4740:c948	E	de:cacheicons	lineflyer	[Geocache-Symbole] 		-1
-1688841068	fe80:927a:3d62:e64b:b06e:34d3:c2a3:fcbc	E	de:brouter	moving-bits	[Nutzung von gerouteter Navigation mit c:geo] 		53
 1689357060	fe80:a72a:bfef:a0a7:0985:46f9:83a7:9d4f	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		0
 1689774393	fe80:113e:88f7:d999:4825:8404:a91a:b926	E	de:mainmenu:lists	lineflyer	[Listenmenü] 		-55
 1692478431	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	de:navigation	moving-bits	OrganicMaps ergänzt		132
@@ -23,3 +8,22 @@
 1708643684	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	de:cachefilter	murggel	fix wrong anchor 		40
 1708643802	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fi:cachefilter	murggel	fix wrong anchor		39
 1708643885	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fr:cachefilter	murggel	fix wrong anchor		40
+1714948289	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:cachefilter	murggel	[Status filter] add new filters		269
+1714948838	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	de:cachefilter	murggel	[Statusfilter] neue Filter-Optionen hinzugefügt		318
+1715000996	fe80:4f01:2b6d:c9b4:02b8:a28d:10cc:6cbd	E	nl:cachefilter	linstylemon	Changes English text implemented		1424
+1717310089	fe80:348f:d83b:7327:572f:7efa:072f:56ad	C	zh:installation	nancy	创建		5194
+1717311499	fe80:348f:d83b:7327:572f:7efa:072f:56ad	E	zh:installation	nancy	创建新页面：翻译安装资源、权限部分		-29
+1717739225	fe80:348f:d83b:7327:572f:7efa:072f:56ad	E	zh:installation	nancy	翻译了权限和更新部分		-290
+1718141125	fe80:fa01:400f:760e:8c67:3afd:d594:4ccb	E	en:cachefilter	murggel	add platform capabilities for online-search		4250
+1720715333	fe80:288a:f55b:e909:5244:86f7:563a:9eab	E	zh:installation	nancy	翻译了测试版部分，完成该页全部翻译；Translated the beta version section.Finished		-550
+1720717056	fe80:05ce:43dd:bbf9:043a:21c5:703e:a213	e	zh:start	nancy	更新；update		141
+1720873950	fe80:3c79:a9e6:de9c:01ca:5b94:c7a9:ee78	C	zh:firststeps	nancy	创建，翻译；new page		7043
+1721148804	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	de:cachefilter	murggel	Unterstützung der Geocaching-Dienst für die Online-Suche		4936
+1721149143	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:cachefilter	murggel	Fix Tabellen-Header-Formatierung		24
+1721159799	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:mainmenu:lists	murggel	[Listenmenü] 		-9
+1721159901	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	nl:mainmenu:lists	murggel	[Lijst menu] 		-53
+1721160011	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	internal:playground:playground	murggel	add testpage1		34
+1721160028	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	C	internal:playground:testpage1	murggel	created		10
+1721160047	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	internal:playground:testpage1	murggel	delete		-10
+1721160075	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	internal:playground:playground	murggel	remove testpage1		-36
+1721160084	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	nl:mainmenu:globaltypefilter	murggel	Delete site globaltypefilter		-734

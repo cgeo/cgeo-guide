@@ -38,3 +38,5 @@
 1630362290	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	en:cachefilter	murggel	[CacheFilter] use svg		-21
 1637658213	2a00:1e:9640:fc:183d:ebfd:9f67:86f2	E	en:cachefilter	lineflyer	[Cache Type Filter] Use new svg icons		0
 1708642172	fe80:19bf:7892:491a:abab:a566:d4b2:b319	E	en:cachefilter	murggel	fix wrong anchors		12
+1714948289	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:cachefilter	murggel	[Status filter] add new filters		269
+1718141125	fe80:fa01:400f:760e:8c67:3afd:d594:4ccb	E	en:cachefilter	murggel	add platform capabilities for online-search		4250

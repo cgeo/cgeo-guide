@@ -133,36 +133,66 @@ In follow-up sections, some filter criteria are explained in more detail.
 
 ==== Category "Basic" ====
 
-^ Filter ^ Description ^ 
-| Cache Description | A [[#filter_criteria_text|text filter]] for the cache's description |
-| Cache Name | A [[#filter_criteria_text|text filter]] for the cache's Name |
-| Cache Owner | A [[#filter_criteria_text|text filter]] for the cache's Owner |
-| Cache Type | Filter for the cache type. This is a basic filter which is described [[#filter_basic_cachetype|here]] |
-| Hidden Date | A [[#filter_criteria_date|date filter]] for the cache's hide date |
-| Status | Filters caches using various status values e.g. Found, Owned, Disabled or Archived. This filter is explained in more details [[#filter_criteria_status|here]]. |
+^ Filter ^ Description ^ online ^
+| Cache Description | A [[#filter_criteria_text|text filter]] for the cache's description | {{ :ic_menu_sync_disabled.svg }} |
+| Cache Name | A [[#filter_criteria_text|text filter]] for the cache's Name | {{ :ic_menu_sync_enabled.svg }} |
+| Cache Owner | A [[#filter_criteria_text|text filter]] for the cache's Owner | {{ :ic_menu_sync_enabled.svg }} |
+| Cache Type | Filter for the cache type. This is a basic filter which is described [[#filter_basic_cachetype|here]] | {{ :ic_menu_sync_enabled.svg }} |
+| Hidden Date | A [[#filter_criteria_date|date filter]] for the cache's hide date | {{ :ic_menu_sync_enabled.svg }} |
+| Status | Filters caches using various status values e.g. Found, Owned, Disabled or Archived. This filter is explained in more details [[#filter_criteria_status|here]]. | {{ :ic_menu_sync_enabled.svg }} |
 
 ==== Category "Details" ====
 
-^ Filter ^ Description ^ 
-| Cache Attributes | Filters caches using Cache Attributes e.g. "Recommended for kids" or "Stealth necessary". This filter is explained in more details [[#filter_criteria_attributes|here]]. |
-| Cache Size | Filters caches by their size (e.g. Regular, Small, Micro). This filter is explained in more details [[#filter_criteria_size|here]]. |
-| Difficulty | Filters caches by their difficulty. This is a basic filter which is described [[#filter_basic_difficultyterrain|here]]. |
-| Favorites | Filters caches by assigned favorite points. This filter is explained in more details [[#filter_criteria_favorites|here]]. |
-| Last Found Date | A [[#filter_criteria_date|date filter]] for the cache's last found date. |
-| Location | A [[#filter_criteria_text|text filter]] for the cache's Location (e.g. Country or State). On typing this text filter will make completion suggestions such as "Germany" or "Bavaria" depending on the locations of caches stored on your device. |
-| Log Entry | Filters caches based on content stored in one of it's log entries. This filter is explained in more details [[#filter_criteria_logentry|here]]. |
-| Logs Count | Filters caches based on logs count. This filter is explained in more details [[#filter_criteria_logscount|here]]. |
-| Origin | Filters caches based on their origin e.g. //Geocaching.com// or //opencaching.de//. This is a [[#filter_criteria_dynamiccheckboxlist|Dynamic checkbox filter]]. |
-| Terrain | Filters caches by their terrain. This is a basic filter which is described [[#filter_basic_difficultyterrain|here]]. |
+^ Filter ^ Description ^ online ^
+| Cache Attributes | Filters caches using Cache Attributes e.g. "Recommended for kids" or "Stealth necessary". This filter is explained in more details [[#filter_criteria_attributes|here]]. |{{ :ic_menu_sync_enabled.svg }} |
+| Cache Size | Filters caches by their size (e.g. Regular, Small, Micro). This filter is explained in more details [[#filter_criteria_size|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Difficulty | Filters caches by their difficulty. This is a basic filter which is described [[#filter_basic_difficultyterrain|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Favorites | Filters caches by assigned favorite points. This filter is explained in more details [[#filter_criteria_favorites|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Last Found Date | A [[#filter_criteria_date|date filter]] for the cache's last found date. | {{ :ic_menu_sync_disabled.svg }} |
+| Location | A [[#filter_criteria_text|text filter]] for the cache's Location (e.g. Country or State). On typing this text filter will make completion suggestions such as "Germany" or "Bavaria" depending on the locations of caches stored on your device. | {{ :ic_menu_sync_disabled.svg }} |
+| Log Entry | Filters caches based on content stored in one of it's log entries. This filter is explained in more details [[#filter_criteria_logentry|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Logs Count | Filters caches based on logs count. This filter is explained in more details [[#filter_criteria_logscount|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Origin | Filters caches based on their origin e.g. //Geocaching.com// or //opencaching.de//. This is a [[#filter_criteria_dynamiccheckboxlist|Dynamic checkbox filter]]. | {{ :ic_menu_sync_disabled.svg }} |
+| Terrain | Filters caches by their terrain. This is a basic filter which is described [[#filter_basic_difficultyterrain|here]]. | {{ :ic_menu_sync_enabled.svg }} |
 
 ==== Category "User Specific" ====
 
-^ Filter ^ Description ^ 
-| Distance | Filters caches for their distance from a certain point. This filter is described in more details [[#filter_criteria_distance|here]]. | 
-| Offline Log | A [[#filter_criteria_text|text filter]] for existing offline logs. | 
-| Personal Note | A [[#filter_criteria_text|text filter]] for cache's personal note. | 
-| Stored Lists | Filters caches based on their presence in a user-defined list. This is a [[#filter_criteria_dynamiccheckboxlist|Dynamic checkbox filter]]. | 
-| Stored Since | Filters caches based on their storage age in c:geo (e.g. how many days ago was this cache's offline data last refreshed). | 
+^ Filter ^ Description ^ online ^
+| Distance | Filters caches for their distance from a certain point. This filter is described in more details [[#filter_criteria_distance|here]]. | {{ :ic_menu_sync_enabled.svg }} |
+| Offline Log | A [[#filter_criteria_text|text filter]] for existing offline logs. | {{ :ic_menu_sync_disabled.svg }} |
+| Personal Note | A [[#filter_criteria_text|text filter]] for cache's personal note. | {{ :ic_menu_sync_disabled.svg }} | 
+| Stored Lists | Filters caches based on their presence in a user-defined list. This is a [[#filter_criteria_dynamiccheckboxlist|Dynamic checkbox filter]]. | {{ :ic_menu_sync_disabled.svg }} | 
+| Stored Since | Filters caches based on their storage age in c:geo (e.g. how many days ago was this cache's offline data last refreshed). | {{ :ic_menu_sync_disabled.svg }} | 
+
+
+{{anchor:filter_criterias_platform:}}
+==== Platform capabilities for online-search ====
+
+The following table lists the search capabilities of the different caching platforms for 'Search by filter' and search in live map. The remaining search is done locally on downloaded cache-data ("light-version"), already stored information is not considered.
+
+For search in offline-caches (e.g. search in lists) the filter-search is completly done in c:geo with the stored information.
+
+
+^Attribute ^Geocaching.com ^Okapi (e.g. opencaching.de)^ SU (geocaching.su)^
+|Operators | <color #22b14c>✔</color> AND \\ <color #ed1c24>✘</color> OR not supported \\ <color #ed1c24>✘</color> INVERS not supported |<color #22b14c>✔</color> AND \\ <color #ed1c24>✘</color> OR not supported \\ <color #ed1c24>✘</color> INVERS not supported |<color #ed1c24>✘</color> AND not supported \\ <color #ed1c24>✘</color> OR not supported \\ <color #ed1c24>✘</color> INVERS not supported \\ \\ only one filter is applied \\ (Distance -> Name -> Owner) |
+|  Category "Basic"  ||||
+|Cache Name |<color #22b14c>✔</color> whole words \\ <color #ed1c24>✘</color> pattern not supported|<color #22b14c>✔</color> pattern supported  |<color #22b14c>✔</color> simple search \\ <color #ed1c24>✘</color> pattern not supported |
+|Cache Owner |<color #22b14c>✔</color> exact user-id \\ <color #ed1c24>✘</color> no wildcard |<color #22b14c>✔</color> exact user-id \\ <color #ed1c24>✘</color> no wildcard  |<color #22b14c>✔</color> exact user-id \\ <color #22b14c>✔</color> wildcard |
+|Cache Type |<color #22b14c>✔</color> |<color #22b14c>✔</color> |<color #ed1c24>✘</color>|
+|Hidden Date |<color #22b14c>✔</color> |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>|
+|Status |<color #22b14c>✔</color> own, found, disabled |<color #22b14c>✔</color> own, found, disabled, archived |<color #ed1c24>✘</color>|
+|  Category "Details"  ||||
+|Cache Attributes |<color #22b14c>✔</color> for premium only |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>|
+|Cache Size|<color #22b14c>✔</color> |<color #22b14c>✔</color> |<color #ed1c24>✘</color>|
+|Difficulty |<color #22b14c>✔</color> one range |<color #22b14c>✔</color> one range |<color #ed1c24>✘</color>|
+|Terrain |<color #22b14c>✔</color> one range |<color #22b14c>✔</color> one range |<color #ed1c24>✘</color>|
+|D/T Combined |<color #22b14c>✔</color> |<color #ed1c24>✘</color>|<color #ed1c24>✘</color>|
+|Favorites |<color #22b14c>✔</color> minimum value \\ <color #ed1c24>✘</color> maximum value not supported \\ <color #ed1c24>✘</color> relative value not supported |<color #22b14c>✔</color> minimum value \\ <color #ed1c24>✘</color> maximum value not supported \\ <color #22b14c>✔</color> relative value |<color #ed1c24>✘</color>|
+|Log Entry (Found by)|<color #22b14c>✔</color> "found by" \\ <color #22b14c>✔</color> "not found by" \\ <color #ed1c24>✘</color> no wildcard |<color #22b14c>✔</color> "found by" \\ <color #22b14c>✔</color> "not found by" \\ <color #ed1c24>✘</color> no wildcard |<color #ed1c24>✘</color>|
+|Logs Count |<color #ed1c24>✘</color>|<color #22b14c>✔</color> |<color #ed1c24>✘</color>|
+|  Category "User Specific"  ||||
+|Distance |<color #22b14c>✔</color> boxed \\ <color #ed1c24>✘</color> circular not supported |<color #22b14c>✔</color> boxed \\ <color #22b14c>✔</color> circular |<color #22b14c>✔</color> boxed \\ <color #22b14c>✔</color> circular|
+
 
 
 {{anchor:filter_criterias_details:}}
@@ -208,6 +238,7 @@ To include/exclude caches in states **Active**, **Disabled** or **Archived**, ma
 
 The other status options all allow you to set one of three values for it:
 
+^ Option ^ Description ^ 
 |**All**| Caches should not be filtered according to this criteria.|
 |**Yes**| Only caches meeting this criteria will be included in result. For example, setting **Found** to //Yes// will lead to only found caches being included in the filter result.|
 |**No**| Only caches **NOT** meeting this criteria will be included in result. For example, setting **Found** to //No// will lead to only not-found caches being included in the filter result.|
@@ -216,8 +247,10 @@ The following status filters are available (Description says what is filtered if
 
 ^ Status Filter ^ Description ^ 
 | Found | Filters for caches you have found. | 
+| Did not find| Filters for caches you have logged as "did not found". | 
+| Has Offline Found Log | Filters caches which have a locally stored offline "found" log. |
 | Owned | Filters for caches you own. | 
-| Stored | Filters for caches which are stored locally. |
+| Stored | Filters caches which are stored locally. |
 | Own Favorite | Filters for caches where you gave a favorite point. |
 | On Watchlist | Filters for caches on your watchlist. |
 | Premium | Filters for Premium caches (geocaching.com only) |
@@ -225,7 +258,7 @@ The following status filters are available (Description says what is filtered if
 | Has Own Vote | Filters caches where you gave a vote. |
 | Has Offline Log | Filters caches which have a locally stored offline log. |
 | Solved Mystery | Filters mystery caches which are considered //solved//. A mystery is considered //solved// if it has either changed coordinates or a valid final waypoint filled with coordinates. |
-
+| Has User Defined Waypoints | Filters caches which has user defined waypoints. |
 
 {{anchor:filter_criteria_attributes:}}
 ==== Attributes filter ====

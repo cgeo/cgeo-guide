@@ -8,7 +8,7 @@ a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1534416747;s:8:"modified
 			*  Installeren en updaten
 			*  c:geo toestemming machtigingen op apparaten
 			*  Eerste stappen met c:geo 
-			*   Basisgebruik van c:geo <a name="manual"></a>
+			*   Basisgebruik van c:geo <a id="manual"></a>  
 			*  Inlogproblemen
 
 

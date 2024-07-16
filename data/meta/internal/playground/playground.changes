@@ -27,3 +27,5 @@
 1627922117	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test svg2		-16
 1627922187	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	test		10
 1627922229	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	internal:playground:playground	lineflyer	t		2
+1721160011	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	internal:playground:playground	murggel	add testpage1		34
+1721160075	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	internal:playground:playground	murggel	remove testpage1		-36

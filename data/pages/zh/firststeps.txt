@@ -1,0 +1,41 @@
+等待修复  **此页面没有被翻译完全。请帮助翻译本页。**\\ //(当全文翻译完时请移除这个段落。)//
+
+====== c:geo的第一步 ======
+
+{{:logo_big.png?nolink&200 |}}
+
+本页面将帮助您开始使用 c:geo。您将知道如何为首次使用进行设置，并理解 c:geo 首次启动时显示的配置向导。
+
+有关如何安装 c:geo 的说明，请参考[[.:installation|安装页面]]。
+
+<WRAP center round info 100%>
+**为了使用 c:geo，您需要一个geocaching账户。没有这账户，c:geo 将不会显示任何藏宝点！** \\
+如果您还没有geocaching账户，c:geo 会在设置过程中引导您到geocaching的注册页面，以便您创建一个账户（基础账户通常是免费的）。\\
+或者，您也可以提前在geocaching上创建一个账户，并在设置 c:geo 时使用。
+</WRAP>
+
+<WRAP center round tip 100%>
+您可以在[[.mainmenu:settings#Services|这里]]找到更多geocaching服务的相关信息。
+
+</WRAP>
+
+在首次启动 c:geo时，配置向导将引导您完成基本配置与设置。虽然配置向导应该是不言自明的，但我们将在本页面上为您提供更多的指导和背景信息。按照以下图片中的红色标记来完成这个过程。橙色标记将显示可选步骤或提供额外提示。您可以点击下面的图片来放大它们。
+
+/* Author comment: Table layout plugin used below to enforce 300px for the wizard pictures */
+
+{{tablelayout?colwidth="300px,-"}}
+^ Wizard screen ^ Explanation ^
+|{{:en:firststeps_wizard_01_welcome.png?direct&300 |}}|点击"下一步"开始配置向导。如果您是高级用户并希望手动配置 c:geo，或者想稍后运行设置，您可以点击"暂不"跳过向导。\\ \\  只要设置未完成，向导将在每次启动 c:geo 时显示，或者您可以通过选择主屏幕标题栏菜单中的"配置向导"手动启动它。|
+|{{:en:firststeps_wizard_02_permission.png?direct&300 |}}|向导将请求c:geo在您的设备上需要的权限，并说明为什么需要这些权限。\\ \\ <WRAP center round important 100%> 请注意，如果没有这些权限，c:geo 将无法运行！  </WRAP><WRAP center round tip 100%>基于您的 Android 版本，向导的权限步骤可能会被跳过，因为您在安装 c:geo 时已经提供了这些权限。</WRAP>\\ \\点击"下一步"开始权限授予过程。|
+|{{:en:firststeps_wizard_03_permission_file.png?direct&300 |}}|点击"下一步"后，系统将请求您授予 c:geo  访问文件系统的权限，以读取和存储数据。这是为了能够离线存储藏点。此外，c:geo 可以导入和导出 GPX 文件、离线日志等。\\ \\  现在将出现一个 Android 对话框，要求您通过点击"允许"来确认。\\ {{:en:firststeps_wizard_04_permission_file_confirm.png?direct&200 |}} |
+|{{:en:firststeps_wizard_05_permission_gps.png?direct&300 |}}|在此屏幕上点击"下一步"后，系统将请求您授予 c:geo 访问您位置的权限。这是必需的，因为 c:geo  需要您的位置来计算到藏点的距离和方向，并在地图上显示您的位置。\\ \\ 现在将出现一个 Android  对话框，要求您通过点击"使用应用期间允许"来确认。\\ {{:en:firststeps_wizard_06_permission_gps_confirm.png?direct&200 | }}| 
+|{{:en:firststeps_wizard_07_basefolder.png?direct&300 |}}|您需要在下一步创建或选择一个基本文件夹，c:geo将在该文件夹存储所有用户可访问的数据（如 GPX 文件、离线日志等），并获取访问该文件夹的权限。您可以选择任何您想使用的文件夹，但我们建议在您的内部存储中创建一个新文件夹 "/cgeo/"。\\ \\ After tapping on ''Next'' an Android directory selector will show up, which lets you navigate through your folders and allows you to create or select the desired folder. Note the menu I(marked in orange below) which offers more options like selecting the storage (e.g. internal or SD card) or creating a new folder. Once you selected the desired location tap ''Use this folder'' and afterwards tap ''Allow'' to confirm. \\ \\ <WRAP center round info 100%>As the directory selector is part of your Android operating system it might look slightly different depending on device and Android version.</WRAP>\\ {{:en:firststeps_wizard_08_basefolder_selector.png?direct&200|}}{{:en:firststeps_wizard_09_basefolder_confirm.png?direct&200|}}|
+|{{:en:firststeps_wizard_10_services.png?direct&300 |}}|Now you need to setup the connection to your desired geocaching service by either tapping on ''geocaching.com'' or ''Opencaching & others''.\\ \\ After tapping ''geocaching.com'' you will see the authentication page, where you have to enter your existing login credentials for the website of geocaching.com.\\ \\ If you do not yet own an account, you can go to the account creation page by tapping ''Create an account'' (see orange marked box below). This will open the geocaching.com registration page, where you can create your account.\\ \\ <WRAP center round info 100%>Please note, that c:geo does not support authorization with Google, Facebook or Apple. Therefore please use the plain username/password method instead for account creation and login. Learn [[https://faq.cgeo.org/#facebook-login|in our FAQ]] how to retrieve a password for your account.</WRAP>{{:en:firststeps_wizard_11_GCAuth.png?direct&200|}}<WRAP center round help 100%>If the registration fails, please take a look in our [[http://faq.cgeo.org#login-failed|FAQ]] to get help.</WRAP>When tapping ''Opencaching & Others'' on the wizard screen you will instead see a list of supported services, where you can - similar to the example above - select the desired service and afterwards authorize to those geocaching services or create an account.\\ {{:en:firststeps_wizard_14_OCAuth.png?direct&200 | }}|
+|{{:en:firststeps_wizard_15_Advanced.png?direct&300 |}}|This step of the wizard provides advanced setup options, which are optional. Experienced users might use this step to download offline maps, companion Router apps or restore existing c:geo backups.\\ Here are some links to the relevant user guide pages for these advanced features:\\ \\ [[.:offlinemaps|Downloading and using offline maps with c:geo]]\\ [[.:brouter|Using Brouter with c:geo]]\\ [[.:mainmenu:settings#restore|Restoring backups]]\\ \\ If you are first time user you might just select ''Skip'' for now. The mentioned options can also be configured manually at a later point of time.|
+|{{:en:firststeps_wizard_16_done.png?direct&300 |}}|The least screen of the configuration wizard provides a summary of the results. Ideally it should look like the example shown.\\ If some steps are shown as not completed you might use ''Previous'' to go back and check again, else just tap on ''Finish'' to close the wizard.\\ \\ **Happy Caching with c:geo!**|
+
+After completing the configuration wizard you will be taken to the c:geo main screen.
+Continue on our [[.:basicuse|Basic use page]] to learn how to find your first cache with c:geo.
+
+
+

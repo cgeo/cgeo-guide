@@ -42,13 +42,34 @@ c:geo ondersteunt meer dan 20 cachetypes van verschillende geocachingservices. O
 {{anchor:filter_basic_difficultyterrain:}}
 ==== Moeilijkheid/Terrein Filter ====
 
-FFilter op **Moeilijkheidsgraad** of **Terrein**. Gebruik de respectieve schuifregelaars om een reeks waarden te selecteren waarop je caches wilt filteren. Het filteren wordt inclusief gedaan, b.v. het instellen van de schuifregelaar op //1.5-3.0// omvat b.v. caches met **Moeilijkheid** //1.5// in het resultaat, maar niet die met **Moeilijkheid** = //1.0//.
+Filter op **Moeilijkheidsgraad** of **Terrein**. Gebruik de respectieve schuifregelaars om een reeks waarden te selecteren waarop je caches wilt filteren. Het filteren wordt inclusief gedaan, b.v. het instellen van de schuifregelaar op //1.5-3.0// omvat b.v. caches met **Moeilijkheid** //1.5// in het resultaat, maar niet die met **Moeilijkheid** = //1.0//.
 
 Merk op dat het instellen van het filter op het hele bereik (//1.0-5.0//) ook caches in het resultaat zal bevatten die helemaal geen **Moeilijkheid** / **Terrein** hebben (zoals bijv. door de gebruiker gedefinieerde caches).
+{{anchor:filter_basic_status:}}
 
+==== Standaard status filter ====
+
+U kunt hier filteren op de huidige status van de cache. In het [[#filter_advanced|geavanceerde filter]] heeft u meer keuzes.
+
+{{ :en:filter_basic_status.png?direct&400 |}}
+
+Om caches toe te voegen of uit te sluiten in de status **Actief**, **Uitgeschakeld** of **Gearchiveerd**, markeer/demarkeer de respectievelijke knoppen aan de bovenkant van het filter.
+
+De andere status opties kunnen allemaal één van de volgende drie waarden hebben:
+
+|**Alle**| Caches hoeven niet op dit criterium gefilterd te worden.|
+|**Ja**| Alleen caches die aan dit criterium voldoen moeten in de resultaten worden meegenomen. Bijvoorbeeld, de instelling **Gevonden** op //Ja // zal alleen leiden tot gevonden caches in het filter resultaat.|
+|**Nee**| Alleen caches die **NIET** voldoen aan dit criterium zullen worden toegevoegd aan het resultaat. Bijvoorbeeld, de instelling **Gevonden** op //Nee// zal alleen leiden tot caches in het filter resultaat die niet gevonden zijn.|
+
+De volgende status filters zijn beschikbaar (De omschrijving vertelt wat er wordt gefilterd als je kies voor //Ja//):
+
+^ Status Filter ^ Omschrijving^ 
+| Gevonden | Filtert op caches die je hebt gevonden. | 
+| Eigendom | Filtert op caches die van jou zijn. | 
+| Heeft Offline Gevonden log | Filtert op caches waarvan je een lokaal opgeslagen offline log hebt. |
 
 {{anchor:filter_advanced:}}
-===== Geanavceerde filtering =====
+===== Geavanceerde filtering =====
 
 Om geavanceerde filterfuncties te gebruiken, zet u de **Basis/Geavanceerde modusschakelaar** aan. Dit zal de lay-out van het filterdialoogvenster veranderen in iets als dit:
 
@@ -177,11 +198,13 @@ Het statusfilter filtert op verschillende cachestatuswaarden en ziet er als volg
 
 {{ :en:filter-criteria-status.png?direct&400 |}} 
 
-Om caches op te nemen/uit te sluiten in de statussen **Actief**, **Uitgeschakeld** of **Gearchiveerd**, markeer je de respectievelijke fiches boven aan het filter.
-Met de andere statusopties kun je er allemaal een van de drie waarden voor instellen:
-* **Alle**: Caches mogen niet worden gefilterd op basis van deze criteria.
-* **Ja**: Oalleen caches die aan deze criteria voldoen, worden in het resultaat opgenomen. Als je bijvoorbeeld **Gevonden** instelt op //Ja//, worden alleen gevonden caches in het filterresultaat opgenomen.
-* **Nee**: Alleen caches die **NIET** aan deze criteria voldoen, worden in het resultaat opgenomen. Als je bijvoorbeeld **Gevonden** instelt op //Nee//, worden alleen niet-gevonden caches in het filterresultaat opgenomen.
+Om caches toe te voegen of uit te sluiten in de status **Actief**, **Uitgeschakeld** of **Gearchiveerd**, markeer/demarkeer de respectievelijke knoppen aan de bovenkant van het filter.
+
+De andere status opties kunnen allemaal één van de volgende drie waarden hebben:
+
+|**Alle**| Caches hoeven niet op dit criterium gefilterd te worden.|
+|**Ja**| Alleen caches die aan dit criterium voldoen moeten in de resultaten worden meegenomen. Bijvoorbeeld, de instelling **Gevonden** op //Ja // zal alleen leiden tot gevonden caches in het filter resultaat.|
+|**Nee**| Alleen caches die **NIET** voldoen aan dit criterium zullen worden toegevoegd aan het resultaat. Bijvoorbeeld, de instelling **Gevonden** op //Nee// zal alleen leiden tot caches in het filter resultaat die niet gevonden zijn.|
 
 De volgende statusfilters zijn beschikbaar (beschrijving zegt wat er wordt gefilterd als je //Ja// kiest):
 
