@@ -1,6 +1,6 @@
 ====== Caches enregistrées ======
 
-{{:main_stored_default.png?nolink&100 |}}
+{{:main_stored_default.svg?nolink&100 |}}
 
 Ce menu répertorie les géocaches actuellement stockées sur votre appareil pour une utilisation hors ligne. Pour une meilleure expérience de géocaching, c:geo vous permet d'organiser vos géocaches enregistrées dans plusieurs listes.
 
@@ -70,7 +70,7 @@ Si une entrée de menu est affichée sous forme d'icône, vous pouvez appuyer lo
 
 ^ Icône/Section ^ Fonction ^ Description ^
 |{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Gestion des listes]]|Cette section affiche soit le nom de la liste actuelle, soit les informations de recherche dans le cas où une liste est ouverte en tant que [[search|résultat de recherche]] ou le nom de la pocket query dans le cas où la liste est ouverte à partir d'une [[pocketquery|pocket query]].\\ En outre, le nombre de caches de la liste actuelle (limité aux caches filtrées, le cas échéant). En cliquant sur cette section, vous ouvrirez la liste de toutes les listes de caches pour sélectionner une autre liste de caches à afficher.|
-|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|Cette ligne n'apparaîtra que dans le cas où un [[globaltypefilter|Filtre de type de cache global]] ou un [[..:cachefilter|Filtre de liste]] est actif.\\ En tapant sur cette ligne, vous accédez directement à la boîte de dialogue du filtre correspondant.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Filter indication|Cette ligne n'apparaîtra que dans le cas où un [[..:cachefilter|Filtre de liste]] est actif.\\ En tapant sur cette ligne, vous accédez directement à la boîte de dialogue du filtre correspondant.|
 |{{ :ic_menu_mapmode.svg?nolink&50 |}}|[[livemap|Afficher la liste sur la carte]]|Si vous appuyez sur cette icône, les caches de cette liste apparaîtront sur une [[livemap|carte]].|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filtrer]]|En cliquant sur cette icône, vous ouvrirez une boîte de dialogue permettant de filtrer les caches de votre liste selon divers critères.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|autres fonctions|En appuyant ici, vous ouvrez le menu des fonctions qui ne peuvent pas être placées dans la barre supérieure de votre appareil et qui sont donc affichées sous forme de liste. Les fonctions affichées dans cette liste sont également décrites dans ce tableau.|
@@ -82,30 +82,6 @@ Si une entrée de menu est affichée sous forme d'icône, vous pouvez appuyer lo
 |[[lists#import|Importer]]||Cette option permet d'importer des caches de plusieurs sources dans vos listes de caches.|
 |[[lists#export|Exporter]]||Cette option permet d'exporter des caches ou des parties de cache de plusieurs façons.|
 
-==== Filtrer ====
-{{anchor:filtering:}}
-
-Cette fonction permet de filtrer la liste selon différents critères. 
-
-{{ :en:lists_filtermenu.png?direct&400 |}}
-
-<WRAP center round info 100%>
-Autre que le [[globaltypefilter|Filtre global du type de cache]] ce filtre ne s'applique qu'aux listes, mais peut être combiné avec un filtre global si nécessaire.
-</WRAP>
-
-^ Élément du menu ^ Description ^
-|{{ :ic_menu_delete.svg?nolink&40 |}}|L'icône de la corbeille située en haut vous permet de supprimer les filtres que vous avez appliqués.|
-|Type|Afficher uniquement les caches d'un certain type.|
-|Size|Afficher uniquement les caches d'une certaine taille.|
-|Terrain|N'afficher que les caches avec une plage donnée de cotation terrain.|
-|Difficulty|N'afficher que les caches avec une plage donnée de cotation difficulté.|
-|Attributes|Filtrez la liste par par attributs (par exemple, "Bâtiment abandonné", "Cache de nuit").\\ \\ :!: Ce filtre ne donnera des résultats fiables que s'il est utilisé sur une liste de caches stockés, mais pas pour les résultats de recherche .|
-|Status|Filtrer les caches ayant un certain statut dans c:geo (par exemple "Trouvé", "Avec Trackables", "PM-seulement").|
-|Origin|Afficher uniquement les caches provenant d'un site de géocaching spécifique (par exemple, "geocaching.com", "opencaching.us").|
-|Distance|N'afficher que les caches situées à une certaine distance de votre position actuelle.\\ \\ :!: La liste filtrée ne sera pas mise à jour si vous changez de position. Dans ce cas, vous devez réappliquer le filtre pour obtenir une liste filtrée mise à jour.|
-|Favorites|N'afficher que les caches ayant un certain nombre de points favoris.|
-|Favorites [%]|N'afficher que les caches ayant un certain pourcentage de points favoris.\\ \\ :!: Ce filtre ne donnera des résultats fiables que s'il est utilisé sur une liste de caches stockés, mais pas pour les résultats de recherche|
-|With personal data|Vous permet de filtrer les caches dans lesquels vous avez ajouté des informations personelles(par exemple, les logs hors ligne, les notes personnelles).|
 
 ==== Trier ====
 {{anchor:sorting:}}

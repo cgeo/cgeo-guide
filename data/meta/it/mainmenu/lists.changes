@@ -12,3 +12,6 @@
 1627382416	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	lineflyer	Batch replace link to filter page		-2
 1630360462	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	murggel	[Stored Caches] use svg		-18
 1630362842	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:lists	murggel	use svg		0
+1721681230	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	e	it:mainmenu:lists	murggel	[Cache salvati] Use svg		0
+1721683295	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:lists	murggel	[Filtri] remove link to global filter		-176
+1721683699	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:lists	murggel	Remove global filter		-64

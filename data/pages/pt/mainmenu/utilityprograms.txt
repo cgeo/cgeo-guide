@@ -1,3 +1,5 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
 ====== Aplicações Úteis ======
 
 {{:ic_menu_shopping.svg?nolink&50 |}}
@@ -5,8 +7,8 @@
 Esta função irá abrir um ecrã com algumas aplicações que, funcionam em conjunto com o c:geo, ou poderão ser utilizadas para melhorar algumas funções do c:geo. Poderá carregar em cada uma das ferramentas para abrir uma página onde poderá obter mais detalhes sobre a mesmo e/ou fazer o download da mesma.
 
 ^ Logótipo ^ Nome ^ Descrição ^
-|{{ :cgeo.png?nolink&100 |}}|[[https://send2.cgeo.org|Send to c:geo]]|O Send to c:geo é uma extensão para o browser no seu computador. Ao navegar no geoaching.com, poderá enviar caches diretamente para o seu smartphone carregando apenas um botão no browser.|
-|{{ :cgeo.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=cgeo.contacts|c:geo - plugin contactos]]|Permite abrir um contacto (da sua agenda de contactos) diretamente a partir de um [[..cachedetails#logbook_tab|registo (log)]]. Assim será mais fácil pedir ajuda aos seus amigos.|
+|{{ :send2cgeo.png?nolink&100 |}}|[[https://send2.cgeo.org|Send to c:geo]]|O Send to c:geo é uma extensão para o browser no seu computador. Ao navegar no geoaching.com, poderá enviar caches diretamente para o seu smartphone carregando apenas um botão no browser.|
+|{{ :ic_launcher_contacts.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=cgeo.contacts|c:geo - plugin contactos]]|Permite abrir um contacto (da sua agenda de contactos) diretamente a partir de um [[..cachedetails#logbook_tab|registo (log)]]. Assim será mais fácil pedir ajuda aos seus amigos.|
 |{{ :helper_brouter.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=btools.routingapp|Brouter Offline Navigation]]|O BRouter fornece o cálculo de percursos offline. Se estiver instalado e tiver os ficheiros necessários o c:geo mostrará automaticamente uma rota para a cache no [[livemap|mapa]].|
 |{{ :helper_pocketquery.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=org.pquery|Pocket Query Creator]]|Permite a fácil criação e download de Pocket Queries baseados na sua posição atual ou num ponto selecionado no mapa. Requer uma conta premium no geocaching.com.|
 |{{ :helper_google_translate.png?nolink&100 |}}|[[https://play.google.com/store/apps/details?id=com.google.android.apps.translate|Google Tradutor]]|Se fizer o download dos pacotes de tradução do Google Tradutor, poderá facilmente traduzir as descrições das geocaches no c:geo, premindo continuamente sobre a descrição da mesma (mesmo sem ligação à internet).|

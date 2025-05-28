@@ -219,3 +219,5 @@
 1644838811	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoint types] Remove old icons		-280
 1644838888	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:cachedetails	lineflyer	[Waypoint types] 		40
 1669377529	fe80:2dbf:d5ff:5bbe:083e:d12a:4c66:140a	e	en:cachedetails	lineflyer	[Logbook tab] Add ability to copy part of log text		25
+1721165935	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	en:cachedetails	murggel	[Geocache Details] use correct screenshot for friends log		1
+1724881360	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	en:cachedetails	murggel	[Hint section] add reference to Settings "Encrypt Hint"		110

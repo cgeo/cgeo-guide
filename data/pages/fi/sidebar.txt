@@ -51,7 +51,6 @@
     * [[start#special_functions_and_hints|Erikoistoiminnot ja vihjeet]]
       * [[offlinemaps|Offlinekarttatutoriaali]]
       * [[intents|Geokätköilyyn liittyvien linkkien käyttö]]
-      * [[nfc|Kätköjen jakaminen NFC:n kautta]]
       * [[hiddenfunctions|c:geon piilotetut toiminnot]]
       * [[http://send2.cgeo.org|Lähetä c:geoon (englanniksi)]]
       * [[spoilersync|Spoilerikuvien synkronointi c:geoon ulkoisista lähteistä]]

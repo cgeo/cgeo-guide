@@ -5,17 +5,18 @@ Esta página descreve a informação e as funções do ecrã inicial do c:geo.
 ===== Ícones Principais =====
 {{anchor:main_icons:}}
 
-{{ :PT:mainmenu_2.png?direct&400 |}}
+{{ :en:mainmenu_2.png?direct&400 |}}
 
 A tabela seguinte fornece uma visão geral dos ícones do menu principal:
 
 ^ Ícone ^ Função ^ Descrição ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Mapa]]|O mapa apresenta uma vista ao vivo da sua localização e as geocaches à volta. Pode arrastar este mapa e ver geocaches em outras localizações. É necessária conexão à internet para ver tanto o mapa como a localização mais atualizada das caches. Por favor note que as caches apresentadas estão sujeitas a filtragem, ver em baixo para mais informação.|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Por Perto]]|Apresenta uma lista de geocaches por perto. Ao contrário do mapa ao vivo, esta função, mostra uma consulta online com base na sua localização (adquirida através do GPS ou da rede) Não atualiza automaticamente quando muda de localização. É necessária conexão à internet para utilizar esta função.\\ \\ Caso não exista um sinal GPS válido ou outro meio de localização, este menu será desativado.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Memória]]|Apresenta as suas caches guardadas, prontas para uso offline. No entanto, poderá utilizar esta lista tanto para uso offline, sem conexão à internet, como também para utilização online como se fosse uma lista de "a fazer". Esta lista evita tráfego e atrasos desnecessários. Se já existirem caches guardadas então este ícone mostrará o número de caches guardadas, na parte superior direita.\\ Poderá carregar durante uns segundos neste ícone para ir diretamente para uma lista em específico.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Pesquisar]]|Pesquisa caches por palavras-chave, Geo-código, endereço, nome de utilizador, etc.|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Ir Para]]|Navega para uma localização, utilizando o compasso, o radar, ou outros métodos de navegação suportados.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Filtro global de tipo de cache ]]| Filtra as geocaches, apresentadas no mapa, na pesquisa e nas listas, por tipo de cache. Poderá visualizar todas as caches ou apenas as caches de um determinado tipo. O texto por baixo deste ícone irá apresentar o tipo de cache ativo no momento.\\ Poderá premir, durante uns segundos, este ícone para restaurar o filtro geral.|
+|{{:main_home_default.svg?nolink&100|}}|Ecrã Inicial| Regressa ao ecrã inicial.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Memória]]|Apresenta as suas caches guardadas, prontas para uso offline. No entanto, poderá utilizar esta lista tanto para uso offline, sem conexão à internet, como também para utilização online como se fosse uma lista de "a fazer". Esta lista evita tráfego e atrasos desnecessários. Se já existirem caches guardadas então este ícone mostrará o número de caches guardadas, na parte superior direita.\\ Poderá carregar durante uns segundos neste ícone para ir diretamente para uma lista em específico.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Mapa]]|O mapa apresenta uma vista ao vivo da sua localização e as geocaches à volta. Pode arrastar este mapa e ver geocaches em outras localizações. É necessária conexão à internet para ver tanto o mapa como a localização mais atualizada das caches. Por favor note que as caches apresentadas estão sujeitas a filtragem, ver em baixo para mais informação.|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Pesquisar]]|Pesquisa caches por palavras-chave, Geo-código, endereço, nome de utilizador, etc.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Por Perto]]|Apresenta uma lista de geocaches por perto. Ao contrário do mapa ao vivo, esta função, mostra uma consulta online com base na sua localização (adquirida através do GPS ou da rede) Não atualiza automaticamente quando muda de localização. É necessária conexão à internet para utilizar esta função.\\ \\ Caso não exista um sinal GPS válido ou outro meio de localização, este menu será desativado.|
+
+
 
 ===== Menu Superior =====
 {{anchor:top_bar_menu:}}
@@ -27,7 +28,8 @@ Os ícones apresentados na barra superior e os conteúdos escondidos no menu sã
 No caso de uma função no menu ser apresentada como ícone, poderá premir durante uns segundos o mesmo para ver a sua função.
 </WRAP>
 
-{{ :pt:main_topbarmenu.png?direct&400 |}}
+{{:en:main_topbarmenu_2.png?direct&400|}}
+{{:en:main_topbarmenu.png?direct&400|}}
 
 ^ Ícone ^ Função ^ Descrição ^
 |{{ :ic_menu_search.svg?nolink&40 |}}|[[quicksearch|Procurar cahces]]|Ao contrário da função pesquisar do menu principal, esta pesquisa vai procurar uma lista de caches guardadas na memória assim como as online, e vai apresentar uma lista de resultados com base no termo pesquisado. No caso de caches guardadas esta função vai pesquisar quase toda a informação da cache (titulo, geo-código, descrição, dono, registos (logs), etc.) No caso das caches não guardadas poderá pesquisar geo-códigos, códigos de trackable, nome de utilizador, etc.|
@@ -44,7 +46,7 @@ No caso de uma função no menu ser apresentada como ícone, poderá premir dura
 ===== Secção Inferior =====
 {{anchor:​bottom_section:}}
 
-{{ :pt:mainmenu_4.png?direct&400 |}}
+{{ :en:mainmenu_4.png?direct&400 |}}
 
 A parte inferior do ecrã inicial mostra informação sobre o estado da sua sessão e informação sobre a localização atual e o está do satélite.
 

@@ -1,6 +1,6 @@
 ====== Ir Para ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 O menu "Ir Para..." pode ser usado para navegar para qualquer coordenada, mesmo não existindo nenhuma geocache ou ponto de interesse no local. Pode ainda ser utilizado para planear pontos de interesse.\\ \\ \\ \\
 

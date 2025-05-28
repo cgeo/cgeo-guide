@@ -1,3 +1,5 @@
+**FIXME** JAVÍTANDÓ **Az oldal még nincs teljesen lefordítva. Kérjük, segítsen a befejezésében!**\\ //(Töröljük ezt a bekezdést a fordítás elkészültekor.)//
+
 ====== Gyors navigáció ======
 
   * [[start|c:geo használati útmutató]]
@@ -48,7 +50,6 @@
 
     * [[start#special_functions_and_hints|Speciális funkciók és segítségek]]
       * [[intents|Geocachinggel kapcsolatos linkek használata]]
-      * [[nfc|Ládák megosztása NFC-vel]]
       * [[hiddenfunctions|A c:geo rejtett funkciói]]
       * [[http://send2.cgeo.org|Küldés a c:geo-nak]]
 

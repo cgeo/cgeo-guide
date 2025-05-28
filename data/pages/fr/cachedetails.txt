@@ -10,7 +10,7 @@ Dans la [[cachedetails#bottom_section|partie inférieure]] de chaque onglet, vou
 Vous pouvez voir l'ordre complet des onglets dans le tableau ci-dessous. Cliquez sur les images du tableau pour ouvrir une version plus grande et cliquez sur le titre pour accéder directement à la section correspondante de ce guide d'utilisation :
 
 ^ [[cachedetails#waypoint_tab|Points de passage]] ^ [[cachedetails#details_tab|Détails]] ^ [[cachedetails#description_tab|Description]]^ [[cachedetails#logbook_tab|Carnet de visites]] ^ [[cachedetails#logbook_tab|Vous/Amis]] ^[[cachedetails#inventory_tab|Inventaire]] ^ [[cachedetails#image_tab|Images]] ^
-|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook2.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
 
 ===== Menu supérieur =====
 {{anchor:top_bar_menu:}}

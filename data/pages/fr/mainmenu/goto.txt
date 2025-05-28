@@ -1,6 +1,6 @@
 ====== Aller à ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 Le menu ''Aller à'' peut être utilisé pour naviguer vers des coordonnées arbitraires non liées à un point de passage ou une géocache ou pour faire une prévision de point de passage.\\
 

@@ -1,0 +1,24 @@
+等待修复  **此页面没有被翻译完全。请帮助翻译本页。**\\ //(当全文翻译完时请移除这个段落。)//
+
+====== 搜索功能 ======
+
+{{:main_search_default.svg?nolink&100 |}}
+
+The search menu provides several search functions as described below. All location and user based searches will provide a [[lists|list of caches]] as result, whereas the geocode search and the trackable search will directly open the resulting [[..:cachedetails|geocache details]] or [[..:trackabledetails|trackable details]].
+\\ \\ \\ \\
+
+{{:en:search_1_en.png?direct&400|}}{{ :en:search_2_en.png?direct&400|}}
+
+<WRAP center round info 100%>
+Basically all search functions will use all enabled geocaching platforms simultaneously and provide the result in a combined list across all geocaching services. This depends on the functions supported by the specific geocaching service as listed in [[settings#Services|the service setting menu]].
+</WRAP>
+
+^Search Function ^ Description ^
+|{{ :ic_menu_myplaces.svg?nolink&30 |}}|Tapping this icon will load a list of your owned caches|
+|Coordinates|Search for caches around coordinates provided. Refer to the [[..:coordinatedialog|Coordinate dialog]] for more information.|
+|Address|Search for caches around a street address. We use the Google geo coding service to find the address and convert it into coordinates.\\ If the address has been found you can either load the list of caches nearby this location or open the [[livemap|live map]] at this address by tapping on the small map icon shown in the search result.|
+|Geo Code|Search for a specific geo code in all supported platforms depending on the code prefix (e.g. GC77, OC1234).|
+|Keywords|Search for caches **starting with** the keyword provided.\\ \\ :!: A keyword search for all caches **containing** the keyword is currently not possible due to technical limitations.|
+|Found by user|Search for caches found by the username provided.|
+|Hidden by user|Search for caches hidden by the username provided.|
+|Trackable|Search for a trackable by using its public or secret tracking code. This search supports geocaching.com trackables as well as other trackable services (e.g, [[http://geokrety.org|GeoKrety]]).|

@@ -1,6 +1,6 @@
 ====== Vai a ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 Il menu "Vai a ..." può essere utilizzato per navigare verso coordinate arbitrarie non legate a nessun waypoint geocache o per creare una proiezione di waypoint.\\ 
 

@@ -32,3 +32,6 @@
 1630528883	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:livemap	murggel	[LiveMap] use svg		3
 1630529170	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	it:mainmenu:livemap	murggel	[Linea di direzione] use correct svg		3
 1637189940	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	it:mainmenu:livemap	murggel	[Menu della barra superiore]  new icon for disable / enable live		49
+1721171038	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:mainmenu:livemap	murggel	[Contenuto della mappa]  update icons		71
+1721171805	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	it:mainmenu:livemap	murggel	Add fixme		154
+1721684460	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:livemap	murggel	Use svg		0

@@ -22,7 +22,7 @@ Like all outdoor activities, geocaching can be dangerous. Geocaching is done at 
 
 ===== Finding your first cache with c:geo =====
 
-From c:geo main menu use the ''Live Map'' {{:main_live_default.png?nolink|}} or the ''Nearby'' {{:main_nearby_default.png?nolink|}} menus of c:geo to see which caches are around you.
+From c:geo main menu use the ''Live Map'' {{:main_live_default.svg?nolink&30}} or the ''Nearby'' {{:main_nearby_default.svg?nolink&30}} menus of c:geo to see which caches are around you.
 
 {{:en:livemap_1.png?direct&300|}}{{ :en:lists_1_en.png?direct&300|}}
 

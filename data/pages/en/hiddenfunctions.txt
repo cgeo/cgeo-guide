@@ -15,3 +15,18 @@ All of these hidden functions are also explained in the relevant section of this
 |Long tap on any icon of the top bar menu|Long tap on any of the icons shown in the top bar menu throughout c:geo (except the compass rose, due to its different long tap function as described above) will show an info text with its associated function. You can use this, if you are unsure about the meaning of a menu icon.|e.g.[[logging#top_bar_menu|Logging Geocaches]]|
 
 
+
+==== Manual config options in settings ====
+
+Additionally, we have some very specific configuration options, which are relevant under certain circumstances only, and which we do not present in settings to keep them more legible. You can use settings => system => view settings to add or edit such settings.
+
+^Key ^Type ^Default ^Usage ^Supported version
+|autorenameDownloads |boolean|true|File names of maps downloaded with c:geo will be changed to a more legible form automatically, e. g. "berlin_oam.osm.map" will be changed to "Berlin (OAM)" | 2025.02.09-NB |
+
+==== Other manual configuration ====
+
+== Display name for downloaded map files ==
+
+Every map downloaded with c:geo has a so-called companion file with additional info. This file has the same name as the map file, but with an additional "-cgeo.txt". This file holds extra info about the download, e. g. date & time of download to support the update functionality.
+
+Starting with version 2025.02.XX (not yet published) you can edit the value of the "displayname" entry to change the name under which this map will be listed in c:geo (including sorting). This feature is supported in UnifiedMap only.

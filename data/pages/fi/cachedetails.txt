@@ -10,7 +10,7 @@ Jokaisen välilehden [[cachedetails#bottom_section|alaosassa]] näet nykyisen v�
 Näet täydellisen listan välilehdistä alla olevassa taulukossa. Kuvien napautus avaa isomman version, otsikoiden napautus vie sinut tässä käyttöoppaassa kyseisen välilehden omaan osioon:
 
 ^ [[cachedetails#waypoint_tab|Reittipisteet]] ^ [[cachedetails#details_tab|Yksityiskohdat]] ^ [[cachedetails#description_tab|Kuvaus]]^ [[cachedetails#logbook_tab|Lokikirja]] ^ [[cachedetails#logbook_tab|Ystävien/omat lokit]] ^[[cachedetails#inventory_tab|Tavaraluettelo]] ^ [[cachedetails#image_tab|Kuvat]] ^
-|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook2.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
 
 ===== Yläpalkin valikko =====
 {{anchor:top_bar_menu:}}

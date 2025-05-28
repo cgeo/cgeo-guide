@@ -10,7 +10,7 @@ Im [[cachedetails#bottom_section|unteren Bereich]] des aktuellen Karteireiters s
 Du kannst die komplette Anordnung der Karteireiter in der unten stehenden Tabelle sehen. Ein Klick auf das Bild in der Tabelle öffnet eine größere Version des Bildes, ein Klick auf die Überschrift bringt dich direkt zum jeweiligen Bereich im Benutzerhandbuch:
 
 ^ [[cachedetails#waypoint_tab|Wegpunkte]] ^ [[cachedetails#details_tab|Details]] ^ [[cachedetails#description_tab|Beschreibung]]^ [[cachedetails#logbook_tab|Logbuch]] ^ [[cachedetails#logbook_tab|Logbuch (Freunde/Eigene)]] ^[[cachedetails#inventory_tab|Inventar]] ^ [[cachedetails#image_tab|Bilder]] ^
-|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook2.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
 
 ===== Titelzeilen-Menü =====
 {{anchor:top_bar_menu:}}
@@ -232,6 +232,8 @@ Du kannst auf die Cachebeschreibung tippen um den Text oder teile davon in die Z
 {{:en:description_hint_encoded.png?direct&400 |}}{{ :en:description_hint_decoded.png?direct&400 |}}
 
 Dieser Bereich beinhaltet den geheimen Hinweis, wenn der Besitzer einen solchen eingegeben hat. Standardmäßig ist dieser Hinweis verschlüsselt (linkes Bild) um die Cachesuche nicht zu leicht zu machen (Spoiler). Um den Hinweis zu entschlüsseln, tippe einfach auf den verschlüsselten Text (rechtes Bild).
+\\ Du kannst den Hinweis auch standardmäßig unverschlüsselt anzeigen lassen [[de:mainmenu:settings#cache_details|c:geo Einstellungen - Cache-Details - Hinweis verschlüsseln]].
+ 		 	
 
 Wenn der Besitzer ein Spoiler-Bild hochgeladen hat, findest du einen anklickbaren Link zu diesem Bilder unterhalb des Hinweistextes.
 

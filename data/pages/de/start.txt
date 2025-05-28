@@ -34,7 +34,6 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
   * [[.mainmenu:lists#cache_list|Nahbereichssuche]] - Suche nach Caches in der Umgebung
   * [[.mainmenu:lists|Gespeicherte Caches]] - Lokal gespeicherte Geocaches
   * [[.mainmenu:search|Suche]] - Suche nach Geocaches und Trackables
-
   * [[.mainmenu:settings|Einstellungen]] - Konfiguration der Applikation
 
 ==== Geocaches ====
@@ -86,13 +85,11 @@ c:geo ist nur ein Client für das Geocaching und steht nicht in Verbindung mit i
   * [[coordformat|Koordinatenformate]]
   * [[attributes|Attribut-Symbole]]
   * [[.mainmenu:utilityprograms|Andere nützliche Apps]]
-
 ===== Spezielle Funktionen und Tipps =====
 {{anchor:special_functions_and_hints:}}
 
   * [[offlinemaps|Anleitung für Offline-Karten]]
   * [[intents|Nutzung von Geocaching-bezogenen Links]]
-  * [[nfc|Caches mit NFC teilen]]
   * [[hiddenfunctions|Versteckte Funktionen in c:geo]]
   * [[https://send2.cgeo.org|Nutzung von send2cgeo]]
   * [[spoilersync|Synchronisierung von Spoilerbildern zu c:geo]]

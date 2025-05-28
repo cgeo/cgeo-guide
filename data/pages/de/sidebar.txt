@@ -51,7 +51,6 @@
     * [[start#special_functions_and_hints|Spezielle Funktionen und Tipps]]
       * [[offlinemaps|Anleitung für Offline-Karten]]
       * [[intents|Nutzung von Geocaching-bezogenen Links]]
-      * [[nfc|Caches mit NFC teilen]]
       * [[hiddenfunctions|Versteckte Funktionen in c:geo]]
       * [[http://send2.cgeo.org|Send to c:geo]]
       * [[spoilersync|Synchronisierung von Spoilerbildern zu c:geo]]

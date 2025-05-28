@@ -1,6 +1,6 @@
 ====== Cache salvati ======
 
-{{:main_stored_default.png?nolink&100 |}}
+{{:main_stored_default.svg?nolink&100 |}}
 
 Questo menù elenca i Geocache attualmente archiviati sul tuo dispositivo mobile per l'utilizzo offline. Per una migliore esperienza di geocaching, c:geo ti consente di organizzare i tuoi geocache in più elenchi.
 
@@ -71,7 +71,7 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lung
 
 ^ Icona/Sezione ^ Funzione ^ Descrizione ^
 |{{ :en:lists_listchange.png?nolink&150 |}}|[[lists#manage_lists|Gestione liste]]|TQuesta sezione mostra il nome dell'elenco corrente o le informazioni di ricerca nel caso in cui un elenco venga aperto come [[search|risultato della ricerca]], oppure il nome della pocket query nel caso in cui l'elenco venga aperto da una [[pocketquery|pocket query]].\\ Inoltre la quantità di cache nell'elenco corrente (limitata i cache filtrati, se applicabile). Facendo clic su questa sezione si aprirà l'elenco di tutti gli elenchi di cache per selezionare un altro elenco di cache da visualizzare.|
-|{{ :en:lists_filterindication.png?nolink&150 |}}|Tipo di filtro|Questa riga verrà visualizzata solo nel caso in cui sia attivo un filtro [[globaltypefilter|globale sul tipo di cache]] oppure un [[..:cachefilter|filtro sull'elenco]].\\ Facendo clic su questa riga si accederà direttamente alla finestra di dialogo del filtro corrispondente.|
+|{{ :en:lists_filterindication.png?nolink&150 |}}|Tipo di filtro|Questa riga verrà visualizzata solo nel caso in cui sia attivo un [[..:cachefilter|filtro sull'elenco]].\\ Facendo clic su questa riga si accederà direttamente alla finestra di dialogo del filtro corrispondente.|
 |{{ :ic_menu_mapmode.svg?nolink&50 |}}|[[livemap|Mostra sulla mappa]]|Facendo clic su questa icona verranno visualizzati i cache di questo elenco su una [[livemap|mappa]].|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filtro]]|Facendo clic su questa icona si apre una finestra di dialogo per filtrare i cache nell'elenco in base a vari criteri.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Menu di overflow|Facendo clic qui si aprirà il menu delle funzioni che non si adattano alla barra superiore del dispositivo, quindi vengono visualizzate come un elenco. Le funzioni mostrate in questo elenco sono descritte anche in questa tabella.|
@@ -89,10 +89,6 @@ Nel caso in cui una voce di menu sia mostrata come un'icona, puoi premere a lung
 Questa funzione consente di filtrare l'elenco in base a vari criteri.
 
 {{ :en:lists_filtermenu.png?direct&400 |}}
-
-<WRAP center round info 100%>
-Il [[globaltypefilter|Filtro per tipo di cache]], si applica solo agli elenchi, ma può essere combinato con altri filtri se necessario.
-</WRAP>
 
 ^ Voce di Menù ^ Descrizione ^
 |{{ :ic_menu_delete.svg?nolink&40 |}}|L'icona del cestino in alto ti consente di eliminare i filtri applicati.|

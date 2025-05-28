@@ -40,3 +40,4 @@
 1708642172	fe80:19bf:7892:491a:abab:a566:d4b2:b319	E	en:cachefilter	murggel	fix wrong anchors		12
 1714948289	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:cachefilter	murggel	[Status filter] add new filters		269
 1718141125	fe80:fa01:400f:760e:8c67:3afd:d594:4ccb	E	en:cachefilter	murggel	add platform capabilities for online-search		4250
+1721163998	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	en:cachefilter	murggel	[Accessing filter] use root-media		-3

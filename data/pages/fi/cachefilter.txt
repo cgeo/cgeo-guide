@@ -10,7 +10,7 @@ Jos suodatin on jo aktiivisena, se näytetään yläotsikossa yläpalkin alapuol
 
 Tämän ilmoituksen pitkä painallus avaa tallennettujen suodattimien listan, josta voit vaihtaa aktiivisen suodattimen.
 
-{{ :en:filter-access.png?direct&400 |}}
+{{ :filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}
 ===== Perussuodatus =====

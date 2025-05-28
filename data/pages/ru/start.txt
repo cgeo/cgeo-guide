@@ -96,7 +96,6 @@ c:geo это лишь клиентское приложение для геок�
 {{anchor:special_functions_and_hints:}}
 
   * [[intents|Using geocaching related links]]
-  * [[nfc|Sharing caches with NFC]]
   * [[hiddenfunctions|Hidden functions in c:geo]]
   * [[https://send2.cgeo.org|Using send2cgeo]]
 

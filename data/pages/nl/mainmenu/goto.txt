@@ -1,7 +1,6 @@
-
 ====== Ga naar menu ======
 
-{{:main_any_default.png?nolink&100 |}}
+{{:main_any_default.svg?nolink&100 |}}
 
 Het "Ga naar..." menu kan hebruikt worden om te navigeren naar willekeurige coördinaten, die niet zijn gebonden aan een geocache,  geocache waypoint of een gemaakte projectie.\\ \\ \\ \\
 

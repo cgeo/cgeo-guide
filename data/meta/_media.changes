@@ -1,20 +1,159 @@
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	C	attribute_trackables.png	lineflyer	angelegt		6034
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_touristok.png	lineflyer			1057
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_treeclimbing.png	lineflyer			1529
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_usb_cache.png	lineflyer			1081
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_unknown.png	lineflyer			1719
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_uv.png	lineflyer			2875
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	C	attribute_video_surveil.png	lineflyer	angelegt		4767
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_wading.png	lineflyer			1617
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_water.png	lineflyer			3301
-1650620695	fe80:d1ef:7b3f:e4b8:94ae:db6e:6b35:1eb4	E	attribute_webcam.png	lineflyer			868
-1714948419	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:filter-criteria-status.png	murggel			471499
-1715029886	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:history.png	murggel			-222195
-1715030184	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-access.png	murggel			286751
-1715030211	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-access.png	murggel			286751
-1715030365	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-access.png	murggel			-270446
-1715030400	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-access.png	murggel			-270446
-1715030467	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-basic.png	murggel			-10209
-1715030550	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-basic.png	murggel			-10209
-1715030647	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	en:filter-advanced.png	murggel			6729
-1715030732	fe80:bc3e:a46e:4605:7101:cb51:d67f:731f	E	filter-advanced.png	murggel			6729
+1721161998	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:settings:services_1.png	murggel	gelöscht		-93768
+1721162002	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:settings:services_2.png	murggel	gelöscht		-110101
+1721162179	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:global_cache_type_filter.png	murggel	gelöscht		-762546
+1721162218	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:main_topbarmenu.png	murggel	gelöscht		-1467681
+1721162294	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:mainmenu_2.png	murggel	gelöscht		-1219128
+1721162324	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:notification_example.png	murggel	gelöscht		-1873260
+1721162344	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:notification_example.png.png	murggel	gelöscht		-1873260
+1721162423	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_flag.svg	murggel	gelöscht		-727
+1721162439	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_pkg.svg	murggel	gelöscht		-583
+1721162458	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_puzzle.svg	murggel	gelöscht		-1214
+1721162472	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_stage.svg	murggel	gelöscht		-773
+1721162495	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_trailhead.svg	murggel	gelöscht		-549
+1721162508	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:waypoint_waypoint.svg	murggel	gelöscht		-941
+1721162955	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:firststeps_1.png	murggel	gelöscht		-83465
+1721162966	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:firststeps_2.png	murggel	gelöscht		-200951
+1721162971	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:firststeps_3.png	murggel	gelöscht		-152108
+1721162998	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:getting_started_de.png	murggel	gelöscht		-353203
+1721163011	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:settings_1.png	murggel	gelöscht		-1014782
+1721163017	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	de:settings_2.png	murggel	gelöscht		-213015
+1721163090	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222200_cgeo.jpg	murggel	gelöscht		-535942
+1721163219	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222210_cgeo.jpg	murggel	gelöscht		-293078
+1721163237	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222226_cgeo.jpg	murggel	gelöscht		-833650
+1721163248	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222233_cgeo.jpg	murggel	gelöscht		-242860
+1721163266	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222240_cgeo.jpg	murggel	gelöscht		-681619
+1721163283	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222252_cgeo.jpg	murggel	gelöscht		-360669
+1721163293	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fi:screenshot_20180915-222418_cgeo.jpg	murggel	gelöscht		-321273
+1721164050	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:filter-access.png	murggel	gelöscht		-189898
+1721164239	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced.png	murggel	gelöscht		-83028
+1721164245	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-switch.png	murggel	gelöscht		-1702
+1721164249	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-saveload.png	murggel	gelöscht		-5224
+1721164254	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-save-dialog.png	murggel	gelöscht		-7793
+1721164258	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-load-dialog.png	murggel	gelöscht		-20118
+1721164262	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-criterias.png	murggel	gelöscht		-17738
+1721164267	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-addremovecriteria.png	murggel	gelöscht		-53213
+1721164271	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-advanced-additional-options.png	murggel	gelöscht		-12171
+1721164293	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	filter-basic.png	murggel	gelöscht		-61611
+1721164355	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	it:livemap_hiding.png	murggel	gelöscht		-444072
+1721164363	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:livemap_hiding.png	murggel	gelöscht		-469198
+1721164431	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:livemap_routing.png	murggel	gelöscht		-216220
+1721164438	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	it:livemap_routing.png	murggel	gelöscht		-718484
+1721164450	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	nl:livemap_routing.png	murggel	gelöscht		-193015
+1721164544	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:mainmenu_1.png	murggel	excluído		-2045748
+1721164549	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:mainmenu_3.png	murggel	excluído		-114840
+1721164578	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	it:mainmenu:mainmenu_2.jpg	murggel	excluído		-80475
+1721164691	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	nl:mainmenu:livemap_popup_2.png	murggel	gelöscht		-241918
+1721164942	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	nl:mainmenu_2.png	murggel	gelöscht		-1042869
+1721165376	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	it:livemap_popup_hint..png	murggel	gelöscht		-45573
+1721166722	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_commit_search_api_holo_light.png	murggel	gelöscht		-616
+1721166725	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_ab_back_holo_light.png	murggel	gelöscht		-460
+1721166728	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_cab_done_holo_light.png	murggel	gelöscht		-719
+1721166779	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_clear_normal.png	murggel	gelöscht		-1945
+1721166784	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_go_search_api_holo_light.png	murggel	gelöscht		-1252
+1721166788	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_menu_moreoverflow_normal_holo_light.png	murggel	gelöscht		-788
+1721166791	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_menu_share_holo_light.png	murggel	gelöscht		-720
+1721166795	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	abc_ic_search_api_holo_light.png	murggel	gelöscht		-5573
+1721166830	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	ic_menu_goto.png	murggel	gelöscht		-915
+1721167018	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_own.png	murggel	removed		-849
+1721167045	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_archive.png	murggel	removed		-704
+1721167048	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_notreliable.png	murggel	removed		-604
+1721167051	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_overlay_notreliable.png	murggel	removed		-1708
+1721167060	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_found.png	murggel	removed		-1084
+1721167063	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_found_offline.png	murggel	removed		-1079
+1721167067	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_maintenance.png	murggel	removed		-1009
+1721167069	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_not_found_offline.png	murggel	removed		-1112
+1721167073	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_owner_maintenance.png	murggel	removed		-1091
+1721167076	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_personalnote.png	murggel	removed		-675
+1721167079	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_stored.png	murggel	removed		-663
+1721167082	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_unknown_offline.png	murggel	removed		-1052
+1721167085	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_usermodifiedcoords.png	murggel	removed		-559
+1721167089	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_note.png	murggel	removed		-676
+1721168228	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	ic_menu_mapmode.png	murggel	removed		-4427
+1721169694	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_waypoint.png	murggel	eliminata		-840
+1721169706	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_trailhead.png	murggel	eliminata		-840
+1721169710	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_stage.png	murggel	eliminata		-854
+1721169716	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_puzzle.png	murggel	eliminata		-907
+1721169724	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_pkg.png	murggel	eliminata		-784
+1721169791	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	waypoint_flag.png	murggel	verwijderd		-736
+1721169994	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_virtual.png	murggel	verwijderd		-270
+1721169997	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_traditional.png	murggel	verwijderd		-282
+1721170000	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_mystery.png	murggel	verwijderd		-287
+1721170003	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_multi.png	murggel	verwijderd		-279
+1721170006	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_event.png	murggel	verwijderd		-279
+1721170010	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	dot_black.png	murggel	verwijderd		-332
+1721170148	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	attribute_kids_2.png	murggel	verwijderd		-5113
+1721170170	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	main_map_deault.svg	murggel	verwijderd		-1287
+1721170465	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	en:lists_2_en.png	murggel	gelöscht		-46889
+1721171094	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_other.png	murggel	excluído		-2346
+1721171103	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_oc.png	murggel	excluído		-2156
+1721171135	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker.png	murggel	excluído		-2477
+1721171139	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_disabled.png	murggel	excluído		-2375
+1721171142	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	marker_disabled_oc.png	murggel	excluído		-1592
+1721172807	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_mystery.png	murggel	gelöscht		-1515
+1721172811	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_traditional.png	murggel	gelöscht		-1248
+1721172816	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_unknown.png	murggel	gelöscht		-1463
+1721172820	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_virtual.png	murggel	gelöscht		-906
+1721172830	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_wherigo.png	murggel	gelöscht		-1359
+1721172837	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_multi.png	murggel	gelöscht		-1924
+1721172912	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_webcam.png	murggel	verwijderd		-1292
+1721172915	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_mega.png	murggel	verwijderd		-1258
+1721172920	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_letterbox.png	murggel	verwijderd		-1100
+1721172923	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_hq.png	murggel	verwijderd		-621
+1721172931	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_giga.png	murggel	verwijderd		-2087
+1721172935	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_event.png	murggel	verwijderd		-1099
+1721172938	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_earth.png	murggel	verwijderd		-1582
+1721172942	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_cito.png	murggel	verwijderd		-1324
+1721172946	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_cgeo.png	murggel	verwijderd		-2796
+1721172951	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_ape.png	murggel	verwijderd		-1111
+1721172955	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	type_advlab.png	murggel	verwijderd		-869
+1721173102	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	actionbar_cgeo.png	murggel	gelöscht		-1865
+1721173109	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	D	actionbar_compass_light.png	murggel	gelöscht		-906
+1721682113	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	nl:main_topbarmenu.png	murggel	eliminata		-990254
+1721682618	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_stored_default.png	murggel	eliminata		-4614
+1721682629	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	it:main_topbarmenu.png	murggel	eliminata		-284084
+1721682635	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:main_topbarmenu.png	murggel	eliminata		-350163
+1721683091	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_any_default.png	murggel	excluído		-5115
+1721683722	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_filter_default.png	murggel	eliminata		-2634
+1721683733	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_nearby_disabled.png	murggel	eliminata		-3922
+1721683784	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_search_default.png	murggel	excluído		-4707
+1721684325	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_nearby_default.png	murggel	excluído		-4536
+1721684370	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	it:mainmenu_2.jpg	murggel	gelöscht		-80475
+1721684391	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:mainmenu_2.png	murggel	gelöscht		-643529
+1721684394	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:mainmenu_4.png	murggel	gelöscht		-36131
+1721684471	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	main_live_default.png	murggel	excluído		-4799
+1721685479	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:livemap_routing.png	murggel	removed		-141461
+1721685663	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_add.png	murggel	removed		-1339
+1721685669	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_agenda.png	murggel	removed		-1702
+1721685699	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_attachment.png	murggel	removed		-1699
+1721685742	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_barcode.png	murggel	gelöscht		-3975
+1721685746	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_camera.png	murggel	gelöscht		-2061
+1721685749	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	internal:playground:ic_menu_search.png	murggel	gelöscht		-956
+1721685753	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_compass.png	murggel	gelöscht		-1252
+1721685779	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_delete.png	murggel	gelöscht		-1413
+1721685783	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_edit.png	murggel	gelöscht		-1931
+1721685788	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_filter.png	murggel	gelöscht		-2454
+1721685792	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_hint.png	murggel	gelöscht		-795
+1721685796	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_image_multi.png	murggel	gelöscht		-1732
+1721685803	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_info_details.png	murggel	gelöscht		-4891
+1721685845	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_mylocation_off.png	murggel	gelöscht		-2660
+1721685850	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_mylocation.png	murggel	gelöscht		-5172
+1721685855	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_myplaces.png	murggel	gelöscht		-2109
+1721685858	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_pocket_query_reverted.png	murggel	gelöscht		-1796
+1721685861	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_preferences.png	murggel	gelöscht		-4407
+1721685864	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_publish_invert.png	murggel	gelöscht		-1557
+1721685867	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_recent_history.png	murggel	gelöscht		-3001
+1721685870	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_refresh.png	murggel	gelöscht		-2857
+1721685874	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_remove.png	murggel	gelöscht		-2661
+1721685877	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_rotate.png	murggel	gelöscht		-3113
+1721685910	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_save.png	murggel	gelöscht		-1546
+1721685913	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_send.png	murggel	gelöscht		-1775
+1721685916	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_set_as.png	murggel	gelöscht		-1805
+1721685919	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_share.png	murggel	gelöscht		-2422
+1721685922	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_shopping.png	murggel	gelöscht		-3141
+1721685926	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_sort_alphabetically.png	murggel	gelöscht		-2133
+1721685929	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_start_conversation.png	murggel	gelöscht		-2130
+1721685933	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_upload.png	murggel	gelöscht		-9274
+1721685936	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_waypoint_delete.png	murggel	gelöscht		-9709
+1721685940	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_waypoint_sync.png	murggel	gelöscht		-10817
+1721686014	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_action_layers_revert.png	murggel	gelöscht		-1399
+1724881687	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	en:settings_cachedetails.png	murggel			164491

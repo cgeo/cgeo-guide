@@ -56,7 +56,6 @@
     * [[start#special_functions_and_hints|Speciale functies en tips]]
       * [[offlinemaps|Offline kaart handleiding]]
       * [[intents|Geocaching gerelateerde links]]
-      * [[nfc|Caches delen met NFC]]
       * [[hiddenfunctions|Verborgen functies in c:geo]]
       * [[http://send2.cgeo.org|Send to c:geo]]
       * [[spoilersync|Spoiler afbeeldingen naar c:geo synchroniseren]]

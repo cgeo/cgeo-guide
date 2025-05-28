@@ -90,7 +90,6 @@ c:geo is only a client application for geocaching and is not associated with any
   * [[offlinemaps|Offline map tutorial]]
   * [[intents|Open geocaching-related links with c:geo]]
   * [[hiddenfunctions|Hidden functions in c:geo]]
-  * [[nfc|Sharing geocaches through NFC]]
   * [[https://send2.cgeo.org|Using Send2cgeo]].
   * [[spoilersync|Synchronizing spoiler pictures from external sources to c:geo]]
   * [[notecoords|Waypoints created for coordinates in personal notes]]

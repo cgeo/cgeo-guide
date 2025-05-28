@@ -174,7 +174,7 @@ Waypoints kunnen verschillende typen bevatten, zoals hieronder wordt beschreven:
 |{{ :waypoint_stage.svg?nolink&40 |}}|Multicache-punt|Een waypoint van een cache, waar fysiek iets is verstopt met meer informatie om de cache op te lossen.|
 |{{ :waypoint_trailhead.svg?nolink&40 |}}|Trailhead|De coördinaten van dit waypoint geven een begeleiding voor het pad dat gebruikt moet worden om de cache of een volgend waypoint te bereiken.|
 |{{ :waypoint_waypoint.svg?nolink&40 |}}|Referentie punt|Een generiek referenctie punt dat voor verschillende doeleinden kan worden gebruikt.|
-|{{ :waypoint_flag.png?nolink&40 |}}|Eindbestemming|De locatie van de uiteindelijke cache container.|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Eindbestemming|De locatie van de uiteindelijke cache container.|
 
 ==== Waypoint berwerker====
 {{anchor:waypoint_editor:}}

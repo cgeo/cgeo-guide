@@ -1,16 +1,3 @@
-1689357060	fe80:a72a:bfef:a0a7:0985:46f9:83a7:9d4f	E	de:cacheicons	lineflyer	[Symbole in Cache-Listen und auf der Karte] 		0
-1689774393	fe80:113e:88f7:d999:4825:8404:a91a:b926	E	de:mainmenu:lists	lineflyer	[Listenmenü] 		-55
-1692478431	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	de:navigation	moving-bits	OrganicMaps ergänzt		132
-1692478487	fe80:0f63:b721:ee8b:82d5:5cba:9c94:192f	e	en:navigation	moving-bits	Added OrganicMaps		145
-1692774372	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:loginproblems	linstylemon	changes from english to Dutch		549
-1692774611	fe80:8f23:b485:a9fa:ac69:d1b2:892c:7030	E	nl:navigation	linstylemon	[Navigatie methoden/hulpmiddelen] english changes into dutch		159
-1708642172	fe80:19bf:7892:491a:abab:a566:d4b2:b319	E	en:cachefilter	murggel	fix wrong anchors		12
-1708643684	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	de:cachefilter	murggel	fix wrong anchor 		40
-1708643802	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fi:cachefilter	murggel	fix wrong anchor		39
-1708643885	fe80:a6de:45d7:0057:6e34:655d:566a:d537	e	fr:cachefilter	murggel	fix wrong anchor		40
-1714948289	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	en:cachefilter	murggel	[Status filter] add new filters		269
-1714948838	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	de:cachefilter	murggel	[Statusfilter] neue Filter-Optionen hinzugefügt		318
-1715000996	fe80:4f01:2b6d:c9b4:02b8:a28d:10cc:6cbd	E	nl:cachefilter	linstylemon	Changes English text implemented		1424
 1717310089	fe80:348f:d83b:7327:572f:7efa:072f:56ad	C	zh:installation	nancy	创建		5194
 1717311499	fe80:348f:d83b:7327:572f:7efa:072f:56ad	E	zh:installation	nancy	创建新页面：翻译安装资源、权限部分		-29
 1717739225	fe80:348f:d83b:7327:572f:7efa:072f:56ad	E	zh:installation	nancy	翻译了权限和更新部分		-290
@@ -27,3 +14,111 @@
 1721160047	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	internal:playground:testpage1	murggel	delete		-10
 1721160075	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	internal:playground:playground	murggel	remove testpage1		-36
 1721160084	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	nl:mainmenu:globaltypefilter	murggel	Delete site globaltypefilter		-734
+1721160456	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fr:mainmenu:lists	murggel	Remove globaltypefilter and adapt picture [Lijst menu] 		-58
+1721160821	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	fr:mainmenu:lists	murggel	[Filtrer] remove		-2116
+1721160871	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	D	fr:mainmenu:globaltypefilter	murggel	Remove globaltypefilter		-849
+1721160995	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:start	murggel	[Hauptfunktionen]		-1
+1721161017	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:start	murggel	[Schermata principale] 		-103
+1721161070	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:sidebar	murggel	Remove globaltypefilter		-70
+1721161195	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	pt:hiddenfunctions	murggel	Remove globaltypefilter		-68
+1721161238	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	pt:sidebar	murggel	Remove globaltypefilter		-72
+1721161294	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	pt:start	murggel	[Menu Principal] Remove globaltypefilter		-110
+1721163940	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	nl:cachefilter	murggel	[Toegang tot filter] use root-media		-3
+1721163976	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fr:cachefilter	murggel	[Accéder au filtre] use root-media		-3
+1721163988	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	fi:cachefilter	murggel	[Suodattimiin pääsy] use root-media		-3
+1721163998	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	en:cachefilter	murggel	[Accessing filter] use root-media		-3
+1721164008	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:cachefilter	murggel	[Zugriff auf Filter] use root-media		-3
+1721165935	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	en:cachedetails	murggel	[Geocache Details] use correct screenshot for friends log		1
+1721168967	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:cachedetails	murggel	[Geocache-Details] 		1
+1721169013	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fi:cachedetails	murggel	[Kätkön tiedot] 		1
+1721169034	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fr:cachedetails	murggel	[Vue détaillée d'une géocache] 		1
+1721169056	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:cachedetails	murggel	[Dettagli geocache] 		1
+1721169672	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:cachedetails	murggel	[Tipi di waypoint] update icons		0
+1721169783	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	nl:cachedetails	murggel	[Waypoint typen] 		0
+1721171031	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fr:mainmenu:livemap	murggel	[Contenu de la carte] update icons		71
+1721171038	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	it:mainmenu:livemap	murggel	[Contenuto della mappa]  update icons		71
+1721171045	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	pt:mainmenu:livemap	murggel	[Conteúdo do Mapa]  update icons		71
+1721171805	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	it:mainmenu:livemap	murggel	Add fixme		154
+1721171829	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	fr:mainmenu:livemap	murggel	Add fixme		154
+1721171955	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	it:cachedetails	murggel	Add fixme		154
+1721172275	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	it:start	murggel	Add fixme		154
+1721172670	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	pt:cacheicons	murggel	update icons		154
+1721172890	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	nl:cacheicons	murggel	[Geocache Iconen] update icons		0
+1721173240	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	nl:mainmenu:utilityprograms	murggel	update icons		21
+1721173261	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	nl:mainmenu:utilityprograms	murggel	Remove GPS locker		-259
+1721173440	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	pt:mainmenu:utilityprograms	murggel	update icons		175
+1721677641	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	de:start	murggel	[Spezielle Funktionen und Tipps] Remove NFC		-34
+1721677679	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	ca:start	murggel	[Special functions and hints] Remove NFC		-36
+1721677722	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	en:start	murggel	[Special Functions and Hints] Remove NFC		-42
+1721677744	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fi:start	murggel	[Erikoistoiminnot ja vinkit] Remove NFC		-50
+1721677783	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:start	murggel	[Astuces et fonctions avancées] Remove NFC		-39
+1721677812	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	hu:start	murggel	[Speciális funkciók és segítségek] Remove NFC		-40
+1721677862	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:start	murggel	[Funzioni speciali e suggerimenti] Remove NFC		-49
+1721677887	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	nl:start	murggel	[Speciale functies en hints] Remove NFC		-33
+1721677915	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:start	murggel	[Dicas e funções especiais] Remove NFC		-39
+1721678013	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	ru:start	murggel	[Special functions and hints] Remove NFC		-36
+1721678052	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	zh:start	murggel	[特殊功能和提示] Remove NFC		-36
+1721678156	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	en:sidebar	murggel	[QuickNavigation] Remove NFC		-40
+1721678216	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	ca:sidebar	murggel	[QuickNavigation] Remove NFC		-40
+1721678245	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	de:sidebar	murggel	[QuickNavigation] Remove NFC		-38
+1721678258	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fi:sidebar	murggel	[QuickNavigation] Remove NFC		-50
+1721678274	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:sidebar	murggel	[QuickNavigation] Remove NFC		-44
+1721678289	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	hu:sidebar	murggel	[QuickNavigation] Remove NFC		-44
+1721678378	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	hu:sidebar	murggel	Add fixme		175
+1721678407	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:sidebar	murggel	Remove NFC		-40
+1721678430	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	nl:sidebar	murggel	[QuickNavigation] Remove NFC		-37
+1721678447	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:sidebar	murggel	[QuickNavigation] Remove NFC		-43
+1721678464	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	ru:sidebar	murggel	[QuickNavigation] Remove NFC		-40
+1721678482	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	zh:sidebar	murggel	[QuickNavigation] Remove NFC		-40
+1721678731	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:nfc	murggel	Remove NFC		-722
+1721678744	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	nl:nfc	murggel	Remove NFC		-753
+1721678755	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	fr:nfc	murggel	Remove NFC		-717
+1721678763	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	fi:nfc	murggel	Remove NFC		-645
+1721678777	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	en:nfc	murggel	Remove NFC		-588
+1721678785	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	de:nfc	murggel	Remove NFC		-664
+1721681230	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	e	it:mainmenu:lists	murggel	[Cache salvati] Use svg		0
+1721682187	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:start	murggel	[Schermata principale] adapt screenshots (use english ones)		-575
+1721682247	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:start	murggel	[Schermata principale] adapt screenshots (use english ones)		40
+1721682567	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:mainmenu:start	murggel	[Ecrã Inicial] adapt screenshots (use english ones)		-510
+1721682746	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:mainmenu:goto	murggel	Use svg		0
+1721683026	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	nl:mainmenu:goto	murggel	Use svg		-1
+1721683038	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:goto	murggel	Use svg		0
+1721683087	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:mainmenu:goto	murggel	Use svg		0
+1721683295	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:lists	murggel	[Filtri] remove link to global filter		-176
+1721683338	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	pt:mainmenu:globaltypefilter	murggel	Remove global filter		-729
+1721683699	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:lists	murggel	Remove global filter		-64
+1721683712	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	it:mainmenu:globaltypefilter	murggel	Remove global filter		-716
+1721683761	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:search	murggel	Use svg		0
+1721683777	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:mainmenu:search	murggel	Use svg		0
+1721684062	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	en:basicuse	murggel	Use svg		4
+1721684132	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	de:basicuse	murggel	Use svg		6
+1721684189	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fi:basicuse	murggel	Use svg		6
+1721684207	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:basicuse	murggel	Use svg		6
+1721684224	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:basicuse	murggel	Use svg		6
+1721684291	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	nl:basicuse	murggel	Use svg		6
+1721684319	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:basicuse	murggel	Use svg		6
+1721684423	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:mainmenu:livemap	murggel	Use svg		0
+1721684446	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:mainmenu:livemap	murggel	Use svg		0
+1721684460	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	it:mainmenu:livemap	murggel	Use svg		0
+1721684769	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	e	de:start	murggel	[Schnellreferenz] 		-1
+1721684795	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	e	ca:start	murggel	[Special functions and hints] 		-1
+1721685464	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	pt:mainmenu:livemap	murggel	[Mapa] Adapt to english version		8636
+1722011450	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	E	zh:sidebar	nancy	update & translation		532
+1722011582	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	E	zh:start	nancy	update		-43
+1722011609	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	e	zh:sidebar	nancy			-306
+1722069671	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:basicuse	nancy	创建;翻译标题		3779
+1722069832	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	e	zh:start	nancy			0
+1722070349	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:loginproblems	nancy	创建；翻译标题		8220
+1722070693	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:mainmenu:start	nancy	创建页面&翻译标题；Create Page & Translate Title		6371
+1722074396	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:mainmenu:livemap	nancy	创建页面&翻译标题；Create Page & Translate Title		20629
+1722413766	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:mainmenu:lists	nancy	创建页面&翻译标题；Create Page & Translate Title		16033
+1722413823	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:mainmenu:search	nancy	创建页面&翻译标题；Create Page & Translate Title		2214
+1722414011	fe80:8b82:1f6e:529a:f9b1:de96:6807:3be1	C	zh:mainmenu:settings	nancy	创建页面&翻译标题；Create Page & Translate Title		36655
+1724881308	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	en:mainmenu:settings	murggel	[Cache Details] add setting "encrypt hint"		282
+1724881360	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	en:cachedetails	murggel	[Hint section] add reference to Settings "Encrypt Hint"		110
+1724881913	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	de:mainmenu:settings	murggel	[Cache-Details] add Setting "Hinweis verschlüsseln"		339
+1724882214	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	de:cachedetails	murggel	[Hinweis] Link auf Default-Einstellungen hinzugefügt		186
+1731812289	fe80:cf8c:9270:2794:8935:03b8:fdbd:05f6	C	zh:cachedetails	nancy	创建		25270
+1736941634	fe80:cf8c:9270:2794:8935:03b8:fdbd:05f6	E	zh:firststeps	nancy	补充完整		-818
+1739099866	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	de:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1463
+1739100531	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	en:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1163

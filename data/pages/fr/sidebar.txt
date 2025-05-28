@@ -53,7 +53,6 @@
       * [[offlinemaps|Tutoriel sur les cartes hors-ligne]]
       * [[intents|Ouvrir les liens Geocaching avec c:geo]]
       * [[hiddenfunctions|Fonctions cachées de c:geo]]
-      * [[nfc|Partager des caches par NFC]]
       * [[https://send2.cgeo.org|Utiliser Send2cgeo]].
       * [[spoilersync|Synchroniser les photos spoileurs à partir d'une autre source avec c:geo]]
       * [[notecoords|Création de waypoints à partir des coordonnées dans les notes personelles]]

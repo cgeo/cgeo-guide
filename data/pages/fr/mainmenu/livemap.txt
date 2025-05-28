@@ -1,6 +1,8 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
 ====== Carte temps réel ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Lorsque la carte est affichée, pour des raisons pratiques, l'écran de votre appareil ne se met plus en veille automatiquement. Vous devez quitter la carte pour retrouver le verrouillage automatique de votre écran qui vous permet d'économiser de la batterie. Bien sûr, le verrouillage manuel fonctionne toujours comme d'habitude.
@@ -48,11 +50,11 @@ Le tableau présente seulement les différents types de balises mais pas les dif
 
 ^ Icône ^ Description ^ 
 |{{ :my_location_chevron.png?nolink&40 |}}|Cette flèche représente votre position actuelle sur la carte.|
-|{{ :marker.png?nolink&40 |}}|Position d'une cache de geocaching.com. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
-|{{ :marker_disabled.png?nolink&40 |}}|Position d'une cache désactivée ou archivée de geocaching.com. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
-|{{ :marker_oc.png?nolink&40 |}}|Position d'une cache d'une plateforme d'Opencaching. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Position d'une cache désactivée ou archivée d'une plateforme d'Opencaching. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
-|{{ :marker_other.png?nolink&40 |}}|Position d'une cache d'une autre plateforme que geocaching.com ou Opencaching (par exemple extremcaching.com). La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
+|{{ :combined_marker_gc_pin.svg?nolink&40 |}}|Position d'une cache de geocaching.com. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
+|{{ :combined_marker_gc_pin_disabled.svg?nolink&40 |}}|Position d'une cache désactivée ou archivée de geocaching.com. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
+|{{ :combined_marker_oc_pin.svg?nolink&40 |}}|Position d'une cache d'une plateforme d'Opencaching. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
+|{{ :combined_marker_oc_pin_disabled.svg?nolink&40 |}}|Position d'une cache désactivée ou archivée d'une plateforme d'Opencaching. La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
+|{{ :combined_marker_other_pin.svg?nolink&40 |}}|Position d'une cache d'une autre plateforme que geocaching.com ou Opencaching (par exemple extremcaching.com). La flèche pointe aux coordonnées de cette cache sur la carte et ce cadre contient le [[..:cacheicons|type de cache]] correspondant.|
 
 ===== Fenêtre contextuelle =====
 {{anchor:map_popup_window:}}

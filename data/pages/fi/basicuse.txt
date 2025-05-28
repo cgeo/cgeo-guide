@@ -22,7 +22,7 @@ Kuten kaikki ulkoilma-aktiviteetit, geokätköily voi olla vaarallista. Harrasta
 
 ===== Miten löydät ensimmäisen kätkösi c:geolla =====
 
-c:geon päävalikossa valitse ''Live-kartta'' {{:main_live_default.png?nolink|}} tai ''Lähistöllä'' {{:main_nearby_default.png?nolink|}} painike nähdäksesi mitkä kätköt ovat lähelläsi.
+c:geon päävalikossa valitse ''Live-kartta'' {{:main_live_default.svg?nolink&30|}} tai ''Lähistöllä'' {{:main_nearby_default.svg?nolink&30|}} painike nähdäksesi mitkä kätköt ovat lähelläsi.
 
 {{:en:livemap_1.png?direct&300|}}{{ :en:lists_1_en.png?direct&300|}}
 

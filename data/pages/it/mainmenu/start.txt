@@ -5,17 +5,16 @@ Questa pagina descrive le informazioni visualizzate e le funzioni della schermat
 ===== Icone principali =====
 {{anchor:main_icons:}}
 
-{{ :it:mainmenu_2.jpg?direct&400 |}}
+{{ :en:mainmenu_2.png?direct&400 |}}
 
 La tabella seguente descrive le icone del menu principale:
 
 ^ Icona ^ Funzione ^ Descrizione ^
-|{{:main_live_default.png?nolink&100|}}|[[livemap|Mappa]]|Mostra una mappa centrata sulla posizione corrente, con i geocache nelle vicinanze contrassegnati su di essa. È possibile trascinare la mappa per visualizzare i geocache in altre posizioni. Per visualizzare la mappa con le posizioni geocache aggiornate, è necessario l'accesso alla rete dati cellulare. I geocache visualizzati possono essere filtrati utilizzando il filtro del tipo di cache globale (vedere di seguito).|
-|{{:main_nearby_default.png?nolink&100|}}{{:main_nearby_disabled.png?nolink&100|}}|[[lists#cache_list|Vicini]]|Elenca i geocache nelle vicinanze. A differenza della mappa live, questa funzione crea una query in linea basata sulla tua posizione attuale, così come acquisita dal GPS o dalla rete. La query non si aggiorna automaticamente quando ci si sposta. Per utilizzare questa funzione, è necessario l'accesso alla rete in linea.\\ \\ Se non si dispone di un segnale GPS valido o di altre informazioni sulla posizione, questa icona è disabilitata.|
-|{{:main_stored_default.png?nolink&100|}}|[[lists|Salvati]]|Visualizza i geocache archiviate per l'utilizzo offline. È inoltre possibile utilizzare i geocache archiviate per la memorizzazione nella cache in linea, come un elenco di cose da fare. Memorizzando le informazioni sui geocache, è possibile evitare l'utilizzo e i ritardi non necessari della larghezza di banda della rete. Il numero totale di geocache memorizzate è mostrato in alto a destra dell'icona.\\ Se si sono organizzati i propri geocache in elenchi, premere a lungo l'icona per passare direttamente a un elenco specifico.|
-|{{:main_search_default.png?nolink&100|}}|[[search|Cerca]]|Cerca i geocache per parola chiave, identificazione del codice geografico, indirizzo, nome utente, ecc.|
-|{{:main_any_default.png?nolink&100|}}|[[goto|Vai a]]|Naviga verso qualsiasi posizione arbitraria utilizzando la bussola, il radar, la navigazione passo passo o qualsiasi altro metodo di navigazione supportato.|
-|{{:main_filter_default.png?nolink&100|}}|[[globaltypefilter|Fitri per tipo di cache]]| Filtra i geocache visualizzati sulla mappa live, nella ricerca e sugli elenchi di geocache archiviati per tipo di geocache. È possibile scegliere di visualizzare tutte i geocache o solo quelle di un tipo specifico. Il testo sotto l'icona indica il filtro attualmente attivo.\\ Per cancellare il filtro, premere a lungo l'icona.|
+|{{:main_home_default.svg?nolink&100|}}|Schermata principale| Ritorna alla schermata iniziale.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Salvati]]|Visualizza i geocache archiviate per l'utilizzo offline. È inoltre possibile utilizzare i geocache archiviate per la memorizzazione nella cache in linea, come un elenco di cose da fare. Memorizzando le informazioni sui geocache, è possibile evitare l'utilizzo e i ritardi non necessari della larghezza di banda della rete. Il numero totale di geocache memorizzate è mostrato in alto a destra dell'icona.\\ Se si sono organizzati i propri geocache in elenchi, premere a lungo l'icona per passare direttamente a un elenco specifico.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Mappa]]|Mostra una mappa centrata sulla posizione corrente, con i geocache nelle vicinanze contrassegnati su di essa. È possibile trascinare la mappa per visualizzare i geocache in altre posizioni. Per visualizzare la mappa con le posizioni geocache aggiornate, è necessario l'accesso alla rete dati cellulare. I geocache visualizzati possono essere filtrati utilizzando il filtro del tipo di cache globale (vedere di seguito).|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Cerca]]|Cerca i geocache per parola chiave, identificazione del codice geografico, indirizzo, nome utente, ecc.|
+|{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Vicini]]|Elenca i geocache nelle vicinanze. A differenza della mappa live, questa funzione crea una query in linea basata sulla tua posizione attuale, così come acquisita dal GPS o dalla rete. La query non si aggiorna automaticamente quando ci si sposta. Per utilizzare questa funzione, è necessario l'accesso alla rete in linea.\\ \\ Se non si dispone di un segnale GPS valido o di altre informazioni sulla posizione, questa icona è disabilitata.|
 
 
 ===== Menu della barra superiore ===== 
@@ -28,7 +27,8 @@ Il numero di icone mostrate nella barra in alto è determinato dinamicamente, in
 Per vedere il nome di un'icona nella barra in alto, premi a lungo l'icona.
 </WRAP>
 
-{{ :it:main_topbarmenu.png?direct&400 |}}
+{{:en:main_topbarmenu_2.png?direct&400|}}
+{{:en:main_topbarmenu.png?direct&400|}}
 
 ^ Icona ^ Funzione ^ Descrizione ^
 |{{ :ic_menu_search.svg?nolink&40 |}} |[[quicksearch|Ricerca rapida]]|Se sei offline, cerca tra geocache memorizzati utilizzando titolo, geo-code, descrizione, proprietario, contenuto del registro, ecc. \\ Se si dispone dell'accesso alla rete, cerca nei contenuti archiviati e in linea. È possibile inserire un geo-code, il codice di un trackable, un nome utente e molto altro.|

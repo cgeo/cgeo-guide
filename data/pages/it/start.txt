@@ -1,3 +1,5 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
 ====== c:geo Guida Utente ======
 
 **Benvenuti nella guida utente in linea di c:geo!**
@@ -36,7 +38,6 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
     * [[.mainmenu:lists|Salvati]] - Visualizza i geocache salvati
     * [[.mainmenu:search|Cerca]] - Cerca geocache e trackable
     * [[.mainmenu:goto|Vai a]] - Navigare verso coordinate personalizzate
-    * [[.mainmenu:globaltypefilter|Filtro tipo cache globale]] - Filtrare i tipi di cache visualizzati
     * [[.mainmenu:start#bottom_section|Sezione inferiore]] – Visualizzare informazioni sullo stato
 
   * [[.mainmenu:settings|Impostazioni]] - Configurare l’applicazione
@@ -93,7 +94,6 @@ c:geo è solo un'applicazione client per il geocaching e non è associata a uno 
   * [[offlinemaps|Tutorial sulla mappa offline]]
   * [[intents|Aprire i collegamenti relativi al geocaching con c:geo]]
   * [[hiddenfunctions|Funzioni nascoste in c:geo]]
-  * [[nfc|Condivisione di geocache tramite NFC]]
   * [[https://send2.cgeo.org|Utilizzo di Send2cgeo]].
   * [[spoilersync|Sincronizzazione di immagini spoiler da fonti esterne a c:geo]]
   * [[notecoords|Waypoint creati per le coordinate nelle note personali]]

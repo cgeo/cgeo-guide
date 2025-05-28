@@ -20,3 +20,6 @@
 1630529151	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	e	fr:mainmenu:livemap	murggel	[Ligne directionnelle] use correct svg		3
 1637190006	2a00:ee2:f012:525:2c3d:378f:722d:95ee	e	fr:mainmenu:livemap	murggel	[Menu supérieur] new icon for disable / enable live		49
 1646210829	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	fr:mainmenu:livemap	paulhenrysaux	Fin de la traduction		1479
+1721171031	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	fr:mainmenu:livemap	murggel	[Contenu de la carte] update icons		71
+1721171829	fe80:1f4a:f0d6:d834:6251:9b09:0485:bb43	e	fr:mainmenu:livemap	murggel	Add fixme		154
+1721684423	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	E	fr:mainmenu:livemap	murggel	Use svg		0

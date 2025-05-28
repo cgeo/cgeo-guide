@@ -15,7 +15,6 @@
         * [[.mainmenu:lists|Memória]]
         * [[.mainmenu:search|Pesquisar]]
         * [[.mainmenu:goto|Ir Para]]
-        * [[.mainmenu:globaltypefilter|Filtro global de tipo de cache]]
         * [[.mainmenu:start#bottom_section|Estado]]
       * [[.mainmenu:settings|Definições]]
       * [[start#geocaches|Geocaches]]
@@ -41,7 +40,6 @@
 
     * [[start#special_functions_and_hints|Dicas e funções especiais]]
       * [[intents|Usar links relacionados com geocaching]]
-      * [[nfc|Partilha de caches via NFC]]
       * [[hiddenfunctions|Funções escondidas no c:geo]]
       * [[http://send2.cgeo.org|Utilizar send2cgeo]]
 

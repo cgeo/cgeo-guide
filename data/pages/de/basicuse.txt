@@ -22,7 +22,7 @@ Geocaching kann - wie jeder Outdoor-Aktivität - gefährlich sein. Du praktizier
 
 ===== Den ersten Geocache mit c:geo finden =====
 
-Nutze vom c:geo Hauptbildschirm die Menüeinträge ''Live-Karte'' {{:main_live_default.png?nolink|}} oder ''In der Nähe'' {{:main_nearby_default.png?nolink|}} um zu sehen welches Caches sich in der Umgebung befinden.
+Nutze vom c:geo Hauptbildschirm die Menüeinträge ''Live-Karte'' {{:main_live_default.svg?nolink&30|}} oder ''In der Nähe'' {{:main_nearby_default.svg?nolink&30|}} um zu sehen welches Caches sich in der Umgebung befinden.
 
 {{:en:livemap_1.png?direct&300|}}{{ :en:lists_1_en.png?direct&300|}}
 

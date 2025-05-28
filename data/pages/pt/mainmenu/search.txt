@@ -1,6 +1,6 @@
 ====== Pesquisar ======
 
-{{:main_search_default.png?nolink&100 |}}
+{{:main_search_default.svg?nolink&100 |}}
 
 O menu de pesquisa fornece várias funções, que serão descritas em baixo. Todas as pesquisas com base na localização ou com base no utilizador apresentam uma [[lists|lista de caches]], enquanto que pesquisas por geo código e por trackable iram abrir diretamente os [[..:cachedetails|detalhes da geocache]] ou os [[..:trackabledetails|detalhes do trackable]].
 \\ \\ \\ \\

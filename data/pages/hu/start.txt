@@ -95,7 +95,6 @@ A c:geo egy általános geocaching kliens alkalmazás, nincs kapcsolatban egyik 
 {{anchor:special_functions_and_hints:}}
 
   * [[intents|Geocachinggel kapcsolatos linkek használata]]
-  * [[nfc|Ládák megosztása NFC-vel]]
   * [[hiddenfunctions|A c:geo rejtett funkciói]]
   * [[https://send2.cgeo.org|A send2cgeo használata]]
 

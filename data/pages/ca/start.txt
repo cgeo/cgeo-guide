@@ -96,10 +96,8 @@ c:geo is only a client application for geocaching and is not associated with any
 {{anchor:special_functions_and_hints:}}
 
   * [[intents|Using geocaching related links]]
-  * [[nfc|Sharing caches with NFC]]
   * [[hiddenfunctions|Hidden functions in c:geo]]
   * [[https://send2.cgeo.org|Using send2cgeo]]
-
 ===== FAQ =====
 {{anchor:faq:}}
 

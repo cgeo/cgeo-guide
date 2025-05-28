@@ -15,3 +15,17 @@ All diese versteckten Funktionen werden auch in den jeweiligen Kapiteln dieses H
 |Langes Tippen auf eines der Titelzeilen-Symbole|Ein langer Klick auf eines der Symbole in der Titelzeile (außer der Kompassrose, wegen ihrer anderen Funktion bei langem Klick) zeigt einen Informationstext mit der Funktion des Symbols. Du kannst dies nutzen, wenn du unsicher bzgl. der Bedeutung eines Menüsymbols bist.|z.B. [[logging#top_bar_menu|Geocache loggen]]|
 
 
+==== Manuelle Konfigurationsoptionen in den Einstellungen ====
+
+Darüber hinaus gibt es einige sehr spezielle Konfigurationseinstellungen, die nur in besonderen Konstellationen relevant sind, und die wir daher nicht an der Oberfläche anbieten, um diese nicht weiter zu überfrachten. Über Einstellungen => System => Einstellungen bearbeiten können die entsprechenden Einstellungen angelegt und bearbeitet werden.
+
+^Schlüssel ^Typ ^Standardwert ^Zweck ^Unterstützt ab ^
+|autorenameDownloads |boolean|true|Dateinamen von über c:geo heruntergeladenen Karten werden automatisch in eine leichter lesbare Form umbenannt. So wird beispielsweise "berlin_oam.osm.map" umgewandelt zu "Berlin (OAM)" | 2025.02.09-NB |
+
+==== Sonstige manuelle Konfigurationsoptionen ====
+
+== Anzeigename für heruntergeladene Kartendateien ==
+
+Zu jeder direkt in c:geo heruntergeladenen Karte gibt es eine Datei mit weiteren Informationen. Diese hat denselben Dateinamen wie die Karte mit einem zusätzlich angehängten "-cgeo.txt". In dieser Datei wird beispielsweise das Datum des letzten Downloads dieser Karte vermerkt, um die Update-Funktion zu unterstützen.
+
+Ab Version (2025.02.xx / noch nicht veröffentlicht) kann in dieser Datei der Wert des Eintrags "displayname" angepasst werden, um den in c:geo angezeigten Namen der Karte anzupassen. Dies hat auch Einfluss auf die Sortierung der Karten. Diese Funktion wird nur in der Vereinheitlichten Karte / UnifiedMap unterstützt.

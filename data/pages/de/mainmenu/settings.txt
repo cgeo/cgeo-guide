@@ -115,6 +115,7 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 |Wegpunkte nicht auslesen|Das Aktivieren dieser Einstellung deaktiviert **global** die Generierung von Wegpunkten aus Koordinaten, die in der persönlichen Cachenotiz gefunden wurden. Alternativ kannst du diese Funktion auch für jeden Cache individuell abschalten, indem du das entsprechende Auswahlkästchen direkt unter der jeweiligen persönlichen Cachenotiz aktivierst.|
 |Persönliche Cache-Notiz überschreiben|Wenn diese Funktion aktiviert wird, so wird beim Aktualisieren eines Caches dessen persönliche Notiz mit dem Inhalt der Notiz auf dem Geocaching-Server überschrieben. Die lokale Notiz wird verworfen, es findet keine Zusammenführung statt.\\ \\ :!: Achtung, Gefahr von Datenverlust. Sei vorsichtig.|
 |Chrome Webanzeige verwenden|Externe Webseiten werden in einer Chrome-Webanzeige direkt in c:geo angezeigt anstatt deinen externen Geräte-Browser zu öffnen.\\ \\ :!: Zur Nutzung dieser Funktion muss Google Chrome auf deinem Gerät installiert sein.|
+|Hinweis verschlüsseln|Nach Aktivieren dieser Option wird der vom Owner angegebene Hinweis verschlüsselt angezeigt, um die Cachesuche nicht zu leicht zu machen (Spoiler).\\ Du kannst die Verschlüsselung auch standardmäßig abschalten.\\ //(Standard: Deaktiviert)// \\ Siehe [[de:cachedetails#hint_section|Geocache Details - Hinweis]]|
 
 
 ===== Karte =====

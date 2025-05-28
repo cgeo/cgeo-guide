@@ -10,7 +10,7 @@ Si un filtre est déjà actif, il est affiché sous la forme d'une ligne d'en-t�
 
 Une long appui sur cette indication ouvrira une liste des filtres enregistrés pour changer le filtre actif.
 
-{{ :en:filter-access.png?direct&400 |}}
+{{ :filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}
 ===== Filtrage basique =====

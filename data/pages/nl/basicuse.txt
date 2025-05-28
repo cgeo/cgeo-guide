@@ -21,7 +21,7 @@ Zoals alle buitenactiviteiten kan geocaching gevaarlijk zijn. Geocaching gebeurt
 
 ===== Je eerste cache vinden met c:geo =====
 
-In het c:geo hoofdmenu kun je de items ''Live kaart'' {{:main_live_default.png?nolink|}} of ''Dichtbij'' {{:main_nearby_default.png?nolink|}} kiezen om de caches in je omgeving te bekijken.
+In het c:geo hoofdmenu kun je de items ''Live kaart'' {{:main_live_default.svg?nolink&30|}} of ''Dichtbij'' {{:main_nearby_default.svg?nolink&30|}} kiezen om de caches in je omgeving te bekijken.
 
 {{:nl:livemap_1.png?direct&300|}}{{ :nl:lists_1_nl.png?direct&300|}}
 

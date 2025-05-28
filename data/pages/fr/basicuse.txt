@@ -21,7 +21,7 @@ Comme toute activité extérieure, le géocaching peut être dangereux. Le géoc
 
 ===== Trouver votre première cache avec c:geo =====
 
-Depuis le menu principal de c:geo, utilisez les menus ''Carte'' {{:main_live_default.png?nolink|}} ou ''Proches'' {{:main_nearby_default.png?nolink|}} de c:geo pour voir quelles caches sont autour de vous.
+Depuis le menu principal de c:geo, utilisez les menus ''Carte'' {{:main_live_default.svg?nolink&30|}} ou ''Proches'' {{:main_nearby_default.svg?nolink&30|}} de c:geo pour voir quelles caches sont autour de vous.
 
 {{:fr:livemap_1.png?direct&300|}}{{ :fr:lists_nearby.png?direct&300|}}
 

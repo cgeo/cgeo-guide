@@ -21,7 +21,7 @@ Como qualquer atividade ao ar livre o Geocaching pode ser perigoso. Nem o c:geo,
 
 ===== Encontrar a primeira cache com o c:geo =====
 
-A partir do menu principal aceda a ''Mapa'' {{:main_live_default.png?nolink|}} ou ''Por perto'' {{:main_nearby_default.png?nolink|}} para ver as caches à sua volta.
+A partir do menu principal aceda a ''Mapa'' {{:main_live_default.svg?nolink&30|}} ou ''Por perto'' {{:main_nearby_default.svg?nolink&30|}} para ver as caches à sua volta.
 
 {{:pt:livemap_1.png?direct&300|}}{{ :pt:lists_1_pt.png?direct&300|}}
 

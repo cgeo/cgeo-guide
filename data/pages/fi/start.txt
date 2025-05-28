@@ -94,7 +94,6 @@ c:geo on vain käyttäjäsovellus geokätköilyyn eikä ole kytköksissä mihink
   * [[offlinemaps|Offlinekarttatutoriaali]]
   * [[intents|Geokätköilyyn liittyvien linkkien avaaminen c:geossa]]
   * [[hiddenfunctions|c:geon piilotetut toiminnot]]
-  * [[nfc|Geokätköjen jakaminen c:geon kautta]]
   * [[https://send2.cgeo.org|Send2cgeo:n käyttö]]
   * [[spoilersync|Spoilerikuvien synkronointi c:geoon]]
   * [[notecoords|Henkilökohtaisista muistiinpanoista löytyneistä koordinaateista luodut reittipisteet]]

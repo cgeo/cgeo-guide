@@ -1,3 +1,5 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
 ====== Dettagli geocache ======
 
 Le pagine dei dettagli del cache forniscono tutte le informazioni su un cache specifica. Possono essere aperti facendo clic su un cache in una [[.mainmenu:lists|lista]], dalla [[.mainmenu:livemap#map_popup_window|mappa live]] o tramite la [[.mainmenu:search|ricerca]] diretta del codice di un cache (il geocode).
@@ -9,7 +11,7 @@ I dettagli del cache sono distribuiti su diverse schede accessibili scorrendo ve
 Puoi vedere l'ordine completo delle schede nella tabella sottostante. Cliccando sulle immagini nella tabella si aprirà una versione ingrandita, cliccando sul titolo si accederà direttamente alla relativa sezione di questa guida utente:
 
 ^ [[cachedetails#waypoint_tab|Waypoint]] ^ [[cachedetails#details_tab|Dettaglio]] ^ [[cachedetails#description_tab|Descrizione]]^ [[cachedetails#logbook_tab|Logbook]] ^ [[cachedetails#logbook_tab|Log tuoi e degli amici]] ^[[cachedetails#inventory_tab|Oggetti]] ^ [[cachedetails#image_tab|Immagini]] ^
-|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook2.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
 
 ===== Menu della barra superiore =====
 {{anchor:top_bar_menu:}}
@@ -146,12 +148,12 @@ Facendo clic su ''Aggiungi un waypoint'' si aprirà l'[[cachedetails#waypoint_ed
 I waypoint possono avere diversi tipi come elencato di seguito:
 
 ^ Icona ^ Nome ^ Descrizione ^
-|{{ :waypoint_pkg.png?nolink&40 |}}|Parcheggio|Coordinate di un parcheggio consigliato per questo cache.|
-|{{ :waypoint_puzzle.png?nolink&40 |}}|Domanda a cui rispondere|Un waypoint di un cache, in cui non è stato nascosto nulla, ma in genere è necessario rispondere a una domanda, solitamente fornita nella descrizione del waypoint.|
-|{{ :waypoint_stage.png?nolink&40 |}}|Fase di un cache multiplo|Un punto di passaggio di un cache, in cui una oggetto fisico è stato nascosto, che fornirà ulteriori informazioni per risolvere il cache.|
-|{{ :waypoint_trailhead.png?nolink&40 |}}|Indicazioni|Le coordinate di questo waypoint in genere forniscono una guida sul percorso da seguire per raggiungere il cache o il waypoint successivo.|
-|{{ :waypoint_waypoint.png?nolink&40 |}}|Punto di riferimento|Un punto di riferimento generico, che può essere utilizzato per più scopi.|
-|{{ :waypoint_flag.png?nolink&40 |}}|Destinazione finale|Indica la posizione del contenitore per il finale del cache.|
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parcheggio|Coordinate di un parcheggio consigliato per questo cache.|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Domanda a cui rispondere|Un waypoint di un cache, in cui non è stato nascosto nulla, ma in genere è necessario rispondere a una domanda, solitamente fornita nella descrizione del waypoint.|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Fase di un cache multiplo|Un punto di passaggio di un cache, in cui una oggetto fisico è stato nascosto, che fornirà ulteriori informazioni per risolvere il cache.|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Indicazioni|Le coordinate di questo waypoint in genere forniscono una guida sul percorso da seguire per raggiungere il cache o il waypoint successivo.|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Punto di riferimento|Un punto di riferimento generico, che può essere utilizzato per più scopi.|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Destinazione finale|Indica la posizione del contenitore per il finale del cache.|
 
 ==== Editor di waypoint ====
 {{anchor:waypoint_editor:}}

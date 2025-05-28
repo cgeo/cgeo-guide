@@ -42,7 +42,6 @@ O c:geo é apenas uma aplicação para ser usada no geocaching e não está asso
     * [[.mainmenu:lists|Memória]] - Ver Geocaches guardadas na memória local
     * [[.mainmenu:search|Pesquisar]] - Pesquisa por Geocaches e Trackables
     * [[.mainmenu:goto|Ir Para]] - Navegar para uma coordenada
-    * [[.mainmenu:globaltypefilter|Filtro global de tipo de cache]] - Filtrar as caches apresentadas por tipo
     * [[.mainmenu:start#bottom_section|Secção Inferior]] - Monitorize a informação do estado.
 
   * [[.mainmenu:settings|Definições]] - Configurar a aplicação
@@ -93,7 +92,6 @@ O c:geo é apenas uma aplicação para ser usada no geocaching e não está asso
 
   * [[intents|Abri links relacionados (com geocaching) no c:geo]]
   * [[hiddenfunctions|Funções escondidas no c:geo]]
-  * [[nfc|Partilha de caches via NFC]]
   * [[https://send2.cgeo.org|Utilizar send2cgeo]].
 
 ===== FAQ =====

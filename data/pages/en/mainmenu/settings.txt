@@ -114,6 +114,7 @@ In this menu you can configure some basic user interface settings of c:geo.
 |Disable waypoint extraction|Enabling this setting will **globally** deactivate the feature of automatic waypoint generation for coordinates found in your personal caches notes. Alternatively you can disable the feature individually for a cache by deactivating the checkbox directly below the personal cache note.|
 |Overwrite personal cache note|Activating this setting will cause all personal notes to be overwritten by the server content instead of being merged with the local content when refreshing caches.\\ \\ :!: Activating this option might lead to data loss in your notes. Be careful.|
 |Use Chrome Webview|External website will be shown in a chrome webview window directly in c:geo instead of opening your external device browser.\\ \\ :!: This function requires Google Chrome to be installed on your device.|
+|Encrypt hint|Activating this option will show the secret hint provided by the owner encoded, to not spoil the cache location.\\ Deactivating this option will show the hint decoded.\\ //(Default: Activated)// \\ See [[en:cachedetails#hint_section|Geocache Details - Hint section]]|
 ===== Map =====
 {{anchor:map:}}
 

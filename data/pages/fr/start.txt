@@ -97,8 +97,7 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
   * [[offlinemaps|Tutoriel sur les cartes hors-ligne]]
   * [[intents|Ouvrir les liens Geocaching avec c:geo]]
   * [[hiddenfunctions|Fonctions cachées de c:geo]]
-  * [[nfc|Partager des caches par NFC]]
-  * [[https://send2.cgeo.org|Utiliser Send2cgeo]].
+   * [[https://send2.cgeo.org|Utiliser Send2cgeo]].
   * [[spoilersync|Synchronisation des images de spoilers de sources externes avec c:geo]]
   * [[notecoords|Points de passage créés par les coordonnées saisies dans les notes personnelles]]
   * [[quick_widgets|Utilisation de l'accès rapide et des widgets comme raccourcis pour certaines fonctions de c:geo]]

@@ -2,7 +2,7 @@ FIXME **This page is not fully translated, yet. Please help completing the trans
 
 ====== Mapa ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Para facilitar o uso, enquanto estiver na vista de mapa, o seu dispositivo não vai desligar automaticamente o ecrã. Para voltar ao modo automático, para conservar energia, é necessário sair deste mesmo ecrã. No entanto, a opção de desligar e ligar manualmente o ecrã funciona de forma normal.
@@ -49,17 +49,18 @@ A tabela apenas descreve os diferentes tipos de ícones, não descrevendo os tip
 
 ^ Ícone ^ Descrição ^ 
 |{{ :my_location_chevron.png?nolink&40 |}}|Esta seta representa a sua posição e orientação atual no mapa.|
-|{{ :marker.png?nolink&40 |}}|Posição de uma cache do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
-|{{ :marker_disabled.png?nolink&40 |}}|Posição de uma cache desativada/arquivada do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
-|{{ :marker_oc.png?nolink&40 |}}|Posição de uma cache de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Posição de uma cache desativada/arquivada de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
-|{{ :marker_other.png?nolink&40 |}}|Posição de uma cache de uma outra plataforma (ex. extremcaching.com). A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :combined_marker_gc_pin.svg?nolink&40 |}}|Posição de uma cache do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :combined_marker_gc_pin_disabled.svg?nolink&40 |}}|Posição de uma cache desativada/arquivada do geocaching.com. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :combined_marker_oc_pin.svg?nolink&40 |}}|Posição de uma cache de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :combined_marker_oc_pin_disabled.svg?nolink&40 |}}|Posição de uma cache desativada/arquivada de uma plataforma opencaching. A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+|{{ :combined_marker_other_pin.svg?nolink&40 |}}|Posição de uma cache de uma outra plataforma (ex. extremcaching.com). A seta aponta para a coordenada desta cache no mapa. No interior deste ícone estará o [[..:cacheicons|icone de cache]] correspondente.|
+
 ===== Map popup window =====
 {{anchor:map_popup_window:}}
 
-If you click on a cache icon on the live map the following popup windows will be shown above the map, providing additional information for the selected cache:
+If you tap on a cache icon on the live map the following popup windows will be shown above the map, providing additional information for the selected cache:
 
-{{:pt:livemap_popup_1.png?direct&400 |}}{{ :pt:livemap_popup_2.png?direct&400 |}}
+{{:en:livemap_popup_1.png?direct&400 |}}{{ :en:livemap_popup_2.png?direct&400 |}}
 
 ==== Top section ====
 {{anchor:top_section:}}
@@ -67,25 +68,25 @@ If you click on a cache icon on the live map the following popup windows will be
 This section of the map popup provides several menu options concerning the selected cache.
 
 ^ Icon/Option ^ Description ^
-|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the title of the selected cache.|
-|{{ :ic_menu_compass.svg?nolink&40 |}}|A short click on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
-|{{ :ic_menu_near_me.svg?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.\\ \\ :!: This option is currently only available on the OSM:Mapnik online map and offline maps.|
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the geocode of the selected cache.|
+|{{ :ic_menu_compass.svg?nolink&40 |}}|A short tap on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
+|{{ :ic_menu_near_me.svg?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|
 |Compass|This opens the compass for this cache.|
 |Navigate|This opens the list of all available [[settings#navigation|navigation tools]] to start one of them for this cache.|
 |Log Visit|This opens the [[..:logging|logging window]] to log the selected cache.|
+|Toggle talking|Will start or stop the text-to-speech output of direction and distance towards the target.\\ You can also switch off the display once talking function has been started.|
 |Caches around|This option starts a [[lists|nearby search]] around the coordinates of the selected cache and will display the results.|
 |Open in browser|This option opens the cache listing on the geocaching web page using your internet browser.|
-|Remove|This option will delete the cache from your stored lists. FIXME **GITHUB -> KANN WEG**|#
 |Share Cache|Will share a link to the cache using the built-in Android share options.|
 
 ==== Cache information ====
 {{anchor:cache_information}}
 
 The middle section of the map popup window shows helpful information about the selected cache.
-Some of the information might not be shown depending on the loading status of the selected cache (e.g. due to the [livemap#strategy| loading strategy]].
+Some of the information might not be shown depending on the loading status of the selected cache (e.g. due to the [[livemap#strategy| loading strategy]]).
 
-{{ :pt:livemap_popup_4.png?direct&400 |}}
+{{ :en:livemap_popup_4.png?direct&400 |}}
 
 ^ Heading ^ Description ^
 |Type|[[..:cacheicons|Type]] of the selected cache.|
@@ -94,53 +95,167 @@ Some of the information might not be shown depending on the loading status of th
 |Difficulty|Difficulty rating of the selected cache shown as decimal value as well as graphical.|
 |Terrain|Terrain rating of the selected cache shown as decimal value as well as graphical.|
 |Rating|Shows the quality rating of this cache from [[http://gcvote.com|GCVote]] if this service is enabled in the [[settings#services|c:geo settings]] as decimal value as well as graphical.\\ The value shown in parenthesis is the number of votes given for this cache.|
-|Favorite|The amount of favorite points (geocaching.com) or recommendations (Opencaching platforms) the selected cache has been awarded.|
+|Favorite|The amount of favorite points (geocaching.com) or recommendations (Opencaching platforms) the selected cache has been awarded. The percentage value is the amount of favorite points divided by the number of total finds.|
+|Recent logs|Will visualize the log types of the most recent logs for this cache (newest on the left).|
 |More details|This button will take you to the [[..:cachedetails|cache detail page]] of the selected cache providing the full information for this geocache.|
+|{{:ic_menu_hint.svg?40|}}|This button is only available if the cache as a owners hint or a personal note stored. Tapping the button will display the hint and/or personal note at the [[#hint_section|bottom]] of the popup window.|
 
 ==== List managegment ====
 {{anchor:list_management:}}
 
 This section of the map popup provides several options to manage the storage state of the selected cache.
 
-{{ :pt:livemap_popup_5.png?direct&400 |}}
+{{ :en:livemap_popup_5.png?direct&400 |}}
 
 ^ Icon/Option ^ Description ^
-|{{ :pt:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
-|{{ :ic_menu_refresh.svg?nolink&40 |}}|Clicking this button will refresh the cache information by updating it from the geocaching server.|
-|{{ :pt:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[lists|cache lists]] this field shows you the list(s) it is stored in.|
+|{{ :en:livemap_popup_6.png?nolink&200 |}}|This field provides information if the selected cache is stored on your [[lists|cache lists]] and for how long the cache is stored (i.e. gives you an indication of how up-to-date the shown details are).|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Tapping this button will refresh the cache information by updating it from the geocaching server.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|In case the selected cache is already stored in your [[lists|cache lists]] this field shows you the list(s) it is stored in.|
 |{{ :ic_menu_save.svg?nolink&40 |}} |This button is only shown if the selected cache is not yet stored in your [[lists|cache lists]] and will store it.\\ A long press on this icon will store the cache to the last used list, instead of asking for the list.|
 |{{ :ic_menu_edit.svg?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to modify the list or add the cache to another list.|
 |{{ :ic_menu_delete.svg?nolink&40 |}}|If the selected cache is already stored in your [[lists|cache lists]] this icon is shown and allows you to delete the cache from your lists.|
 
+==== Hint/Note section ====
+{{anchor:hint_section:}}
 
-==== Map settings ====
+If you tapped the hint button in the cache information section of the popup window, the owners hint and/or your personal note will be shown at the bottom of the popup window. In case of a long text you can scroll this part of the popup window.
+
+{{ :en:livemap_popup_hint.png?direct&400 |}}
+
+
+===== Map quick settings =====
 {{anchor:map_settings}}
 
-After selecting the menu function ''Map settings'' the following option screen will be shown:
+After selecting the quick settings button, which is shown on bottom center of the map the following settings screen will be shown:
 
-{{ :pt:livemap_mapsettings.png?direct&400 |}}
+{{ :en:livemap_mapsettings.png?direct&400 |}}
 
-^ Option ^ Description ^ 
-|Hide own/found caches|If activated your owned and found caches are hidden on the map. \\ This is the same option as also available in [[settings#cache_details|c:geo settings]] and changing it here will change it also permanently in your settings. Please note, that some technical limitation apply for hiding your owned and found caches as explained on the [[settings#cache_details|settings page]] |
-|Hide disabled caches|If activated disabled caches are hidden on the map. \\ This is the same option as also available in [[settings#cache_details|c:geo settings]] and changing it here will change it also permanently in your settings. Please note, that some technical limitation apply for hiding hidden caches as explained on the [[settings#cache_details|settings page]] |
-|Show direction|This will enable/disable the direction line/routing shown between your position and a selected cache.|
-|Show circles|If activated c:geo will show circles with a distance of 1/10 mile (161 meters) around all physical waypoints (i.e. traditional caches, physical stages of a cache, mystery caches with corrected coordinates). This is the minimum distance placed caches need to have on geocaching.com and these circle might be helpful when you are planning to hide a new cache and are looking for a position.|
-|Show trail|With this option you can activate a trail showing your position history (your movement) on the map. This is the same option as also available in [[settings#map_content|c:geo settings]] and changing it here will change it also permanently in your settings.|
+^ Category ^ Description ^ 
+|Show caches|Toggle whether caches are shown on the map depending on their current state.\\ The settings used here will automatically be applied as a live [[..:cachefilter|filter]].|
+|Show waypoints|Toggle whether whether waypoints are shown in the map depedning on their type or state.|
+|Show other|This section contains options to hide other elements on the map.|
+|Use compact icons|With this option you can switch from the classic cache icon view to a compact view showing single caches as a colored dot only. You can set this feature to on/off and automatic mode. The automatic mode will toggle between classic and compact view depending on zoom level.|
+|Routing|Here you can select the desired routing mode used to draw the direction line between your position and the chosen target cache/waypoint. Either no line, a straight line or turn-by-turn navigation for pedestrian, bike or car can be used.\\ \\ :!: Turn-by-turn navigation requires an activated and configured [[..brouter|BRouter setup]].|
+|Individual route|You can select to automatically set the start point of your individual route as target for the direction line.\\ This item is only shown if an individual route is present on the map.|
 
-==== Routing ====
-{{anchor:routing:}}
+===== Route/Track settings =====
+{{anchor:route_track_settings}}
 
-After selecting the menu function ''Routing'' the following option screen will be shown:
+**FIXME**
+===== Map navigation =====
+{{anchor:map_navigation}}
 
-<WRAP center round info 60%>
-This setting is will only be shown if a supported [[utilityprograms|routing app]] is installed and available.
+c:geo provides several options to help you with navigation using different lines drawn on the (live) map: 
+
+  * It can show a **direction line** between your position and a chosen target cache/waypoint.
+  * You can load an **GPX track/route**, which will then be shown on the map.
+  * You can set an **individual route** between several caches/waypoints. 
+  * c:geo can optionally draw a **history track** showing the position history (your movement) on the map.
+
+To get the most out of the direction line and individual route it is recommended to use [[..:brouter|BRouter]] as described in the linked section of our user guide. This will enable routed lines instead of just a straight connection line.
+
+The different line and track types are described in more detail below.
+
+==== Direction line ====
+
+The direction line is a map line which connects your current position with a chosen target cache/waypoint. This can be either a straight line or a routed line if you have configured [[..:brouter|BRouter]].
+
+The default line color is <color #ed1c24>red</color> but line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of the direction line (with and without Brouter).
+
+^ Direction line without BRouter ^ Direction line with BRouter ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+There are two ways to activate the direction line:
+  - Tap on a cache, which is shown on map, and activate the direction line with the corresponding icon{{:ic_menu_near_me.svg?nolink&30|}}shown in the [[livemap#map_popup_window|map popup]].
+  - From [[..:cachedetails|cache details menu]] use Navigation - Map to open the map including direction line.
+==== GPX track/route ====
+
+You have the possibility to load a GPX track/route file which is then shown on the map. For example cache owners might provide a GPX-track/route file to follow a certain route to find a cache, or you can generate such GPX track/route with other routing tools.
+Tracks and routes both are basically GPX files, one having a recorded track of positions (track file), the other (route file) only some waymarks, for which c:geo will route you from point to point.
+
+The default line color is <color #22b14c>green</color> but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of an individual GPX track/route.
+
+{{ :en:livemap_individual_track.png?direct&250 |}}
+
+To load or unload a GPX track you have to use the map menu items below ''GPX track/route'' in your [[livemap#top_bar_menu|map menu]]:
+
+{{ :en:livemap_indiviudal_track_2.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Load track/route from GPX|Allows you to select a GPX file containing a track or route to display it on the map.|
+|Center on track/route|Will move/zoom the map, so that an already loaded track/route is shown completely.|
+|Unload track/route|This will remove the loaded track/route from the map.|
+==== Individual route ====
+
+An individual route can be created by long tapping several caches/waypoints on the (live) map. A route will then be drawn between each of the selected caches/waypoints in sequence of your selection. This allows you to create a custom route between caches and can be e.g. used to plan your caching trip.
+
+<WRAP center round important 60%>
+To make use of the individual route feature you need to enable the long tap function on the map in your [[.:settings#map_behavior|map behavior settings]].
 </WRAP>
 
-{{:pt:livemap_routing.png?direct&400 |}}
 
-^ Option ^ Description ^
-|Straight line|This will show a direct line (air distance) between your position and the selected cache.|
-|Walk|This will set the routing app to draw a line following turn-by-turn navigation for pedestrians.|
-|Bicycle|This will set the routing app to draw a line following turn-by-turn navigation for bikers.|
-|Car|This will set the routing app to draw a line following turn-by-turn navigation for cars.|
+The route points will either be connected by a straight line or a routed line if you have [[..:brouter|BRouter]] installed and configured. Using BRouter for this function is highly recommended to get the most out of it.
+
+The default line color is <color #00a2e8>blue</color> but the line color and additional parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings.
+
+The example below shows the typical appearance of an individual route.
+
+{{ :en:brouter_individualroute.png?direct&250 |}}
+
+While you can add and remove caches/waypoints to/from your rote by long tapping them, there are also some additional functions, which can be found below the menu item ''Individual route'' in your [[livemap#top_bar_menu|map menu]]:
+
+
+
+{{ en:livemap_individual_route.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Load individual route|Load a previously saved individual route.|
+|Set as target automatically|If activated the routing start point will be set as direction line target automatically (showing the way from your position to the starting point of the route).\\ This can be handy while doing a geocaching tour. Long-tap on a visited cache/waypoint will remove it from your individual route, and with this option activated, your next stop on your route will be set as target automatically.|
+|Sort individual route|Will open a dialog, where you can modify the sequence or remove one or more of the selected caches/waypoints on your route; The route will then be recalculated accordingly.\\ Don't forget to hit the "save" button to save your changes to the individual route, or just leave the dialog to discard them.|
+|Center on route|Will move/zoom the map, so that an the individual route is shown completely.|
+|Export individual route|You can export your created individual route into a GPX route file.|
+|Clear individual route|This will remove the created individual route.|
+==== History track ====
+
+The history track provides a line of your position history (your movement) on the map.
+You have to activate the history track in your [[.:settings#map_content|map content settings]], where you can also configure additional parameters (such as maximum length of the track).
+
+The default line color is black but the line color and additional appearance parameters can be configured according to your needs within the [[.:settings#map_lines_customization|map line customization]] settings. 
+
+The example below shows the typical appearance of a history track line. 
+
+{{ :en:livemap_history_track.png?direct&250 |}}
+
+To configure the history track you can use the map menu items below ''History track'' in your [[livemap#top_bar_menu|map menu]]:
+
+{{ :en:livemap_history_track_2.png?nolink&400 |}}
+
+^Menu item ^ Description ^ 
+|Export history track|Allows you to export your position history to a GPX track file.|
+|Hide/Show history track|Using this option you can turn the history track off/on. Turning it off will not clear the existing track but just stop recording and hide it.|
+|Clear history track|This will clear the position history and thus remove the existing track.|
+==== Distance information ====
+
+While using the direction line and/or individual route c:geo will also provide several distance figures at the top of the map (can also be seen in the dedicated screenshots above). The distances are shown in meter/kilometer or feet/mile depending on your settings.
+
+Depending on whether you use one or both lines and whether you activated to show the straight distance in addition to the routed distance (only if [[..:brouter|Brouter]] is installed) in your [[.:settings#map_content|map content settings]] several distance figures might be shown.
+
+The picture below shows a combination of all possible distance figures. Additionally the chosen target cache/waypoint is shown on top left is the direction line is active.
+
+{{ :en:livemap_distance_info_1.png?direct&400 |}}
+
+Some or all of these distance figures might be shown depending on configuration and active navigation lines:
+
+  - The first figure is the straight line distance for the direction line (i.e. straight distance between your current position and the chosen target cache/waypoint). The icon in front represents therefore the straight line if both routed and straight line distances are shown.
+  - The second figure is the routed line distance for the direction line (i.e. the distance between your position and the chosen target cache/waypoint according to the [[..:brouter|BRouter]] routing information). The icon in front represents therefore the routed line if both routed and straight line distances are shown.
+  - The third figure is the length of your individual route.
+
+For better visibility you can tap on the distances to supersize them and reduce them again. If straight and routed distances are shown each tap will let you cycle between straight distance enlarged, routed distance enlarged or normal view.
+
+{{:en:livemap_distance_info_2.png?direct&400 |}} {{:en:livemap_distance_info_3.png?direct&400 |}}
+
 

@@ -1,0 +1,309 @@
+等待修复  **此页面没有被翻译完全。请帮助翻译本页。**\\ //(当全文翻译完时请移除这个段落。)//
+
+====== Geocache-Details ======
+
+Die Cache-Detail Seite enthält alle Informationen über einen bestimmten Cache. Sie kann durch Klick auf einen Cache in einer [[.mainmenu:lists|Liste]],von der [[.mainmenu:livemap#map_popup_window|Live-Karte]] oder durch direkte [[.mainmenu:search|Suche]] nach dem Geocode des Caches geöffnet werden.
+
+{{ :en:cachedetails_details.png?direct&300 |}}
+
+Die Cache-Details verteilen sich über mehrere Karteireiter, die durch Wischen von links nach rechts oder umgekehrt zugreifbar sind. Die Cache-Details öffnen sich immer zuerst mit dem Reiter "Details", außer du hast dies in den [[.mainmenu:settings#cache_details|Einstellungen]] geändert.\\
+Im [[cachedetails#bottom_section|unteren Bereich]] des aktuellen Karteireiters siehst du den Namen des Reiters und kannst dort auch zwischen den Karteireitern wechseln. Das [[cachedetails#top_bar_menu|Titelzeilen-Menü]] ist auf allen Reitern identisch.
+
+Du kannst die komplette Anordnung der Karteireiter in der unten stehenden Tabelle sehen. Ein Klick auf das Bild in der Tabelle öffnet eine größere Version des Bildes, ein Klick auf die Überschrift bringt dich direkt zum jeweiligen Bereich im Benutzerhandbuch:
+
+^ [[cachedetails#waypoint_tab|Wegpunkte]] ^ [[cachedetails#details_tab|Details]] ^ [[cachedetails#description_tab|Beschreibung]]^ [[cachedetails#logbook_tab|Logbuch]] ^ [[cachedetails#logbook_tab|Logbuch (Freunde/Eigene)]] ^[[cachedetails#inventory_tab|Inventar]] ^ [[cachedetails#image_tab|Bilder]] ^
+|{{:en:cachedetails_waypoints.png?direct&400 |}}|{{:en:cachedetails_details.png?direct&400 |}}|{{:en:cachedetails_description.png?direct&400 |}}|{{:en:cachedetails_logbook.png?direct&400 |}}|{{:en:cachedetails_logbook2.png?direct&400 |}}|{{:en:cachedetails_inventory.png?direct&400 |}}|{{:en:cachedetails_images.png?direct&400 |}}|
+
+===== Titelzeilen-Menü =====
+{{anchor:top_bar_menu:}}
+
+{{ :en:cachedetails_topbar.png?direct&400 |}}
+
+Die Titelzeile ist auf allen Reitern verfügbar und enthält verschiedenen Funktionen für den Cache:
+
+<WRAP center round info 100%>
+Die Symbole in der Titelzeile und der Inhalt hinter dem Überlauf-Symbol werden dynamisch basierend auf deiner Geräteauflösung und Bildschirmausrichtung verteilt. Daher ist es möglich, dass auf deinem Gerät mehr oder weniger Einträge entweder als Symbol angezeigt oder hinter dem Menü-Symbol versteckt sind.\\
+Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol tippen um seine Funktion angezeigt zu bekommen.
+</WRAP>
+
+
+^ Symbol ^ Funktion ^ Beschreibung ^
+|{{:ic_menu_compass.svg?nolink&40 |}}|Bevorzugte Navigation|Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] um zum ausgewählten Cache zu navigieren.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
+|{{:ic_menu_goto.svg?nolink&40 |}}|[[navigation|Navigation]]|Dies öffnet eine Liste aller verfügbaren [[.mainmenu:settings#navigation|Navigationstools]].|
+|{{:three_dot_vertical.svg?nolink&40 |}}|Überlauf-Menü|Ein Klick öffnet das Menü der Funktionen, die nicht mehr als Symbol in die Titelzeile auf deinem Gerät passen und daher als Liste angezeigt werden. Die Funktionen in dieser Liste werden auch alle in dieser Tabelle beschrieben.|
+|{{:ic_menu_edit.svg?nolink&40 |}}|Besuch loggen|Dies öffnet die [[logging|Log-Seite]] um den Cache zu loggen.|
+|{{ :ic_menu_start_conversation.svg?nolink&40 |}}|Sprachausgabe ein-/ausschalten|Startet oder stoppt die Text-nach-Sprache Ausgabe der Richtung und Entfernung zum Ziel.\\ Du kannst die Anzeige deines Telefons ausschalten, sobald die Sprachausgabe gestartet wurde.|
+|Im Browser öffnen||Öffnet den Cache in deinem präferierten Internetbrowser oder nutzt (wenn aktiviert in den [[.:mainmenu:settings#cache-details|Einstellungen für Cache-Details]]) in einer Chrome-Webanzeige intern in c:geo.|
+|Öffne Geochecker||Dies öffnet den Geochecker dieses Caches in deinem Webbrowser.\\ \\ :!: Dieser Menüeintrag ist nur verfügbar, wenn die Beschreibung dieses Caches einen Link zu einem (bekannten) Geochecker enthält.|
+|Persönliche Notiz||Diese Funktion öffnet den Editor für die persönliche Notiz, die du auch im [[cachedetails#description_tab|Beschreibungs-Reiter]] findest.| 
+|Wegpunkte||Enthält ein Untermenü mit Optionen zu den Wegpunkten des Caches (siehe Folgekapitel).|
+|Teilen/Exportieren||Untermenü mit Optionen zum Teilen oder Exportieren des Caches oder seiner Informationen (siehe Folgekapitel).|
+|Erweitert||Enthält erweiterte Funktionen für diesen Cache.|
+
+==== Untermenü Wegpunkte ====
+
+{{ :en:cachedetails_topbar2.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^#
+|Benutzerdefinierte Wegpunkte löschen|Löscht alle selbst erstellen Wegpunkt des Caches.\\ Wird nur angezeigt, sofern benutzerdefinierte Wegpunkte für diesen Cache existieren.|
+|Wegppunkte extrahieren|Diese Funktion durchsucht die Beschreibung des Caches nach gültigen Koordinaten und erstellt für jede gefundene Koordinate automatisch einen Wegpunkt.\\ Dies ist eine hilfreiche Funktion, wenn der Cache-Owner keine dedizierten Wegunkte erstellt sondern die Koordinaten der Wegpunkt nur in die Beschreibung geschrieben hat.|
+|Wegpunkte aus Notiz verhindern/erlauben|Verhindert/Erlaubt c:geo in der persönlichen Notiz gefundene Koordinaten als Wegpunkte zum Cache anzulegen.|
+
+==== Untermenü Teilen/Exportieren ====
+
+{{ :en:cachedetails_topbar3.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^
+|Cache teilen|Teilt einen Link zum Cache mit Hilfe der in Android eingebauten Teilungsoptionen.|
+|GPX|Erlaubt es den Cache als GPX-Datei zu exportieren.|
+|Field Notes|Exportiert dein Offline-Log für diesen Cache als FieldNote-Datei.|
+
+
+==== Untermenü Erweitert ====
+
+{{ :en:cachedetails_topbar4.png?direct&400 |}}
+
+^ Funktion ^ Beschreibung ^
+|Caches im Umkreis|Diese Option startet eine [[.mainmenu:lists|Nahbereichssuche]] um die Koordinaten dieses Caches und zeigt die Ergebnisse.|
+|Bewerten|Dies öffnet den [[http://gcvote.com|GCVote]]-Dialog für diesen Cache.|
+|Cache ignorieren|Dies setzt den Cache auf die Ignorier-Liste des Geocaching-Servers.\\ \\ :!: Einen Cache ignorieren bedeutet, dass dieser Cache nie wieder auftauchen wird, wenn du Daten vom Geocaching-Server abrufst. Du kannst diesen Cache erst wieder sehen, wenn du ihn auf der Geocaching-Webseite von der Ignorier-Liste entfernst.|
+|Zu Lesezeichenliste hinzufügen|Öffnet eine Liste der Lesezeichenlisten auf dem Geocaching-Server und ermöglicht es den Cache zu einer der Listen hinzuzufügen.\\ Diese Funktion ist nur für Premium-Mitglieder von geocaching.com verfügbar.|
+|Cache-Symbol wählen|Ermöglicht es ein benutzerdefiniertes Symbol für diesen Cache zu setzen, welches das normale Cachetyp-Symbol ersetzt.|
+===== Details =====
+{{anchor:details_tab:}}
+
+Dies ist der Karteireiter der standardmäßig zuerst geöffnet wird (außer du hast dies in den [[.mainmenu:settings#cache_details|Einstellungen]] verändert) und zeigt dir die wichtigsten Informationen über den Cache.
+
+
+==== Cacheinformationen ====
+{{anchor:cache_information:}}
+
+{{ :en:details_cacheinfo.png?direct&400 |}}
+
+Dieser Bereich des Reiters Details zeigt dir Informationen zum Cache:
+
+^ Zeile ^ Beschreibung ^ 
+|Name|Der Titel des Caches.|
+|Typ|[[cacheicons|Typ]] des Caches.|
+|Geocode|Geocode des Caches.|
+|Status|Der Status des Caches. Dies zeigt dir, ob du den Cache bereits gefunden hast (inkl. Funddatum) oder du ein Offline-Log für ihn gespeichert hast. Des weiteren gibt es es eine Information darüber, ob der Cache deaktiviert, acrchiviert oder nur für Premium-Mitglieder verfügbar ist.|
+|Entfernung|Entfernung zwischen den Cachekoordinaten und deiner aktuellen Position.|
+|Schwierigkeit|Schwierigkeitsbewertung (D) des Caches als Dezimalwert und graphische Darstellung.|
+|Gelände|Geländebewertung (T) des Caches als Dezimalwert und graphische Darstellung.|
+|Bewertung|Zeigt die Qualitätsbewertung von [[http://gcvote.com|GCVote]], sofern dieser Dienst in den [[.mainmenu:settings#services|c:geo Einstellungen]] aktiviert wurde, als Dezimalwert und graphische Darstellung.\\ Der in Klammern angezeigte Wert ist die Anzahl der Stimmen, die für diesen Cache abgegeben wurden.|
+|Favorit|Die Anzahl der Favoritenpunkte (geocaching.com) oder Empfehlungen (Opencaching-Plattformen), die dem Cache verliehen wurden. Die Prozentangabe ist die Anzahl der Favoritenpunkte geteilt durch die Anzahl der Funde.|
+|Eigene Bewertung|Zeigt die Bewertung, die du diesem Cache über [[http://gcvote.com|GCVote]] gegebn hast, wenn dieser Dienst in den [[.mainmenu:settings#services|c:geo Einstellungen]] aktiviert ist, als Dezimalwert und graphische Darstellung.|
+|Besitzer|Der Benutzername des Besitzers dieses Caches.\\ Du kannst auf dieses Feld tippen um ein Kontextmenü zu öffnen das dir benutzerspezifische Optionen anbietet.|
+|Versteckt|Das Datum, an dem der Cache versteckt wurde.|
+|Bundesland|Das Bundesland/Land, in dem der Cache liegt.|
+|Koordinaten|Die Koordinaten des Caches.\\ Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
+|Letzte Logs|Zeigt die aktuellsten Logtypen an, die für diesen Cache geloggt wurden (neuestes links).|
+
+<WRAP center round tip 100%>
+Auf einige der genannten Felder kannst du lange tippen um ihre Information in die Zwischenablage zu kopieren oder sie zu teilen.
+</WRAP>
+
+
+==== Attribute ====
+{{anchor:attributes:}}
+
+{{:en:details_attribute_icon.png?direct&400 |}}{{ :en:details_attribute_text.png?direct&400 |}}
+
+Dieser Bereich des Reiters Details zeigt dir die Attribute, die der Cachebesitzer diesem Cache zugewiesen hat, als Symbole. Dieser Bereich kann auch fehlen, wenn der Besitzer dem Cache keine Attribute zugewiesen hat.
+
+Du kannst auf die [[attributes|Attribut-Symbole]] tippen, um sie stattdessen als Textliste anzeigen zu lassen.
+
+==== Listenverwaltung ====
+{{anchor:list_management:}}
+
+Dieser Bereich des Reiters Details enthält verschiedene Optionen um den Speicherstatus des Caches zu verwalten.
+
+{{ :en:livemap_popup_5.png?direct&400 |}}
+
+^ Symbol/Option ^ Beschreibung ^
+|{{ :en:livemap_popup_6.png?nolink&200 |}}|Dieses Feld gibt darüber Auskunft, ob dieser Cache in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist und seit wann er gespeichert ist (d.h. es gibt dir eine Information wie aktuell die angezeigten Informationen sind).|
+|{{ :ic_menu_refresh.svg?nolink&40 |}}|Ein Klick auf diese Schaltfläche aktualisiert den Cache durch Abruf der Daten vom Geocaching-Server.|
+|{{ :en:livemap_popup_7.png?nolink&200 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, zeigt dieses Feld die entsprechende(n) Liste(n) an. Durch Klick auf den Namen der Liste öffnet sich die Liste.|
+|{{ :ic_menu_save.svg?nolink&40 |}} |Diese Schaltfläche wird nur angezeigt, wenn der Cache bislang nicht in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist und speichert ihn.\\ Ein langer Klick auf diese Schaltfläche speichert den Cache in der zuletzt gewählten Liste, statt nach der Liste zu fragen.|
+|{{ :ic_menu_edit.svg?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir die Liste zu ändern oder den Cache zu einer weiteren Liste hinzuzufügen.|
+|{{ :ic_menu_delete.svg?nolink&40 |}}|Wenn der Cache bereits in deinen [[.mainmenu:lists|Cachelisten]] gespeichert ist, wird dieses Schaltfläche angezeigt und erlaubt dir den Cache von deinen Listen zu löschen.|
+
+==== Watchlist ====
+{{anchor:watchlist:}}
+
+{{:en:details_watchlist.png?direct&400 |}}
+
+Dieser Bereich erlaubt es dir den Cache auf deine persönlichen Watchlist zu setzen bzw. davon zu entfernen.
+
+Die Watchlist ist eine Funktion des Geocaching-Anbieters. Wenn du einen Cache auf deiner Watchlist hast, erhälst du eine Mail-Benachrichtigung wenn ein neuer Logbucheintrag für diesen Cache gemacht wird.
+
+Mit der {{:ic_menu_watch.svg?nolink&30|}} oder {{:ic_menu_watch_remove.svg?nolink&30|}} Schaltfläche kannst du den Cache zur Watchlist hinzufügen / davon entfernen.
+Der Wert ''Beobachter:'' zeigt dir, wie viele Personen diesen Cache auf ihrer Watchlist haben.
+
+==== Favorit ====
+{{anchor:favorite}}
+
+{{:en:details_favorite.png?direct&400 |}}
+
+Dieser Bereich zeigt an, ob du einen Favoritenpunkt für diesen Cache vergeben hast.
+
+Die {{:ic_menu_favorite.svg?nolink&30|}} oder {{:ic_menu_favorite_remove.svg?nolink&30|}} Schaltflächen werden nur angezeigt, wenn du den Cache gefunden hast und erlauben dir ihn als Favorit hinzuzufügen / zu entfernen.
+
+===== Wegpunkte =====
+{{anchor:waypoint_tab:}}
+
+{{:en:cachedetails_waypoints.png?direct&300 |}}
+
+Dieser Reiter enthält alle Informationen zu den Wegpunkten des Caches. Er zeigt die vom Besitzer erstellten Wegpunkte und ermöglichst es dir eigene Wegpunkte für diesen Cache hinzuzufügen.
+
+Die Wegpunkt-Informationen sind wie folgt strukturiert:
+
+^ Zeile ^ Beschreibung ^ 
+|Titel|Symbol und Titel des Wegpunktes|
+|Typ und Referenz|[[cachedetails#waypoint_types|Wegpunkt-Typ]] und Referenzcode (vom Server vergeben) oder ''Benutzerdefiniert'' wenn der Wegpunkt vom Nutzer erstellt wurde.|
+|Koordinaten|Die Koordinaten des Wegpunktes. Dieses Feld könnte auch leer sein, wenn der Besitzer keine Koordinaten für diesen Wegpunkt angegeben hat oder du Wegpunkt ohne Koordinaten erstellt hast (oder der [[coordinatedialog#waypoint_calculator|Wegpunkt-Rechner]] genutzt wird, aber noch keine gültigen Koordinaten zurückgibt).\\ \\ :!: Du kannst in dieses Feld tippen um die Koordinaten in anderen von c:geo unterstützten [[.:coordformat|Koordinatenformaten]] anzuzeigen.|
+|Beschreibung|Enthält die Beschreibung für diesen Wegpunkt.|
+|{{:ic_menu_compass.svg?nolink&40 |}}|Dieses Symbol wird auf der rechten Seite jedes Wegpunktes angezeigt, der Koordinaten hat.Ein kurzer Klick startet deine [[.mainmenu:settings#navigation|Standardnavigation]] zu diesen Koordinaten.\\ Ein langer Klick startet deine [[.mainmenu:settings#navigation|zweite bevorzugte Navigation]].|
+
+Ein kurzer Klick auf den Wegpunkt selbst öffnet den [[cachedetails#waypoint_editor|Wegpunkteditor]]. Ein langer Klick auf den Wegpunkt zeigt ein [[cachedetails#waypoint_context_menu|Kontextmenü]] mit mehr Optionen für diesen Wegpunkt.
+
+Ein Klick auf ''Wegpunkt hinzufügen'' öffnet den [[cachedetails#waypoint_editor|Wegpunkteditor]] um einen eigenen benutzerdefinierten Wegpunkt für diesen Cache zu erstellen.
+
+==== Wegpunkttyp ====
+{{anchor:waypoint_types:}}
+
+Bei den Wegpunkten gibt es verschiedene Wegpunkt-Typen, wie im Folgenden dargestellt:
+
+^ Symbol ^ Name ^ Beschreibung ^
+|{{ :waypoint_pkg.svg?nolink&40 |}}|Parken|Parkkoordination für diesen Cache.|
+|{{ :waypoint_puzzle.svg?nolink&40 |}}|Station mit Frage|Ein Wegpunkt eines Caches, beim dem keine physische Station versteckt ist, sondern typischerweise eine Frage beantwortet werden muss, die ggf. in der Beschreibung des Wegpunktes genannt ist.|
+|{{ :waypoint_stage.svg?nolink&40 |}}|Station eines Multi-Caches|Ein Wegpunkt eines Caches, wo eine physische Station versteckt ist, die mehr Informationen zum Lösen des Caches beinhaltet.|
+|{{ :waypoint_trailhead.svg?nolink&40 |}}|Ausgangspunkt|Die Koordinaten dieses Wegpunktes geben typischerweise eine Hilfestellung um den den Weg zum Caches oder zum nächsten Wegpunkt zu finden.|
+|{{ :waypoint_waypoint.svg?nolink&40 |}}|Referenzpunkt|Eine generischer Referenzpunkt, der zu verschiedenen Zwecken genutzt werden kann.|
+|{{ :waypoint_flag.svg?nolink&40 |}}|Final|Gibt die Position des Cache-Behälters an.|
+
+
+==== Wegpunkteditor ====
+{{anchor:waypoint_editor:}}
+
+{{ :en:details_waypoint_editor.png?direct&400 |}}
+
+Die folgende Tabelle gibt eine Übersicht über die Eingabefelder im Wegpunkteditor:
+
+^ Bereich ^ Beschreibung ^
+|{{ :en:waypoint_editor_coords.png?nolink&400 |}}|Ein Klick auf das Koordinatenfeld öffnet den [[coordinatedialog|Koordinaten Eingabedialog]].|
+|{{ :en:waypoint_editor_projection.png?nolink&400 |}}|Nach Eingabe der Koordinaten können die Felder ''Richtung in °'' und ''Entfernung'' genutzt werden um eine Koordinaten-Projektion durchzuführen. Beim Abspeichern des Wegpunktes werden dann die Koordinaten entsprechend den Projektionsdaten berechnet und entsprechend gespeichert.|
+|{{ :en:waypoint_editor_typeselector.png?nolink&400 |}}|Ein Klick auf dieses Feld öffnet ein Drop-Down Menü um den gewünschten [[cachedetails#waypoint_types|Wegpunkttyp]] auszuwählen.|
+|{{ :en:waypoint_editor_title_note.png?nolink&400 |}}|In diese Felder kannst du den Titel des Wegpunktes und eine benutzerdefinierte Notiz eingeben.\\ Das Feld ''Titel'' wird automatisch in Abhängigkeit des Wegpunkttyps vorgeschlagen.|
+|{{ :en:waypoint_editor_visited.png?nolink&400 |}}|Durch Aktivieren dieser Schaltfläche wird der Wegpunkt als besucht markiert, und damit in der Wegpunktliste mit einem Haken versehen und auf der Karte mit transparentem Hintergrund dargestellt.|
+|{{ :en:waypoint_editor_change.png?nolink&400 |}}|Du kannst optional die Listingkoordinaten des Caches durch die Koordinaten dieses Wegpunktes ersetzen. Dies kann zum einen lokal erfolgen oder (wenn der Geocaching-Dienst es unterstützt) zusätzlich auch auf dem Geocaching-Server.\\ Dies ist eine hilfreiche Funktion um das Cachesymbol zu den wirklichen Final-Koordinaten (z.B. gelöster Mystery-Cache oder letzte Station eines Multi-Cache) zu verschieben und dieses auch permanent auf dem Geocaching-Server zu speichern.|
+
+==== Wegpunkt-Kontextmenü ====
+{{anchor:waypoint_context_menu:}}
+
+{{:en:details_waypoint_context.png?direct&300 |}}
+
+Ein langer Klick auf einen Wegpunkt öffnet ein Kontextmenü, welches folgende Optionen für den Wegpunkt enthält:
+
+^ Option ^ Beschreibung ^ 
+|Bearbeiten|Startet den Editor für diesen Wegpunkt.\\ Gleiche Funktion wie ein kurzer Klick auf den Wegpunkt.|
+|Besucht|Markiert den Wegpunkt als besucht, und versieht ihn damit in der Wegpunktliste mit einem Haken und stellt ihn auf der Karte mit transparentem Hintergrund dar.|
+|Kopiere Koordinaten|Kopiert die Koordinaten des Wegpunktes in die Zwischenablage.|
+|Koordinaten löschen|Löscht die Koordinaten des Wegpunktes.\\ Diese Option ist nur bei benutzerdefinierten Wegpunkten verfügbar.|
+|Wegpunkt duplizieren|Erstellt einen neuen Wegpunkt mit allen Informationen aus dem bestehenden Wegpunkt.\\ Diese Option ist hilfreich um einen vom Server vorgegebenen Wegpunkt zu klonen um ihn danach editieren zu können.|
+|Löschen|Löscht den Wegpunkt.\\ Diese Option ist nur bei benutzerdefinierten Wegpunkten verfügbar.|
+|Kompass|Startet die Navigation mit dem Kompass zu diesem Wegpunkt.|
+|Navigieren|Öffnet die vollständige Auswahl der Navigationstools für diesen Wegpunkt.|
+|Caches im Umkreis|Führt eine Nahbereichssuche nach Caches um die Koordinaten dieses Wegpunktes durch.|
+
+===== Beschreibung =====
+{{anchor:description_tab:}}
+
+==== Cachebeschreibung ====
+{{anchor:cache_description:}}
+
+{{:en:cachedetails_description.png?direct&300 |}}
+
+Der Reiter Beschreibung enthält hauptsächlich die Cachebeschreibung, die der Besitzer bereitgestellt hat. Unter der scrollbaren Cachebeschreibung findest du weitere Bereiche für den [[cachedetails#hint_section|Hinweis zum Cache]] und für deine [[cachedetails#personal_note|persönliche Cachenotiz]].
+
+Du kannst auf die Cachebeschreibung tippen um den Text oder teile davon in die Zwischenablage zu kopieren. Des weiteren kannst du diese Funktion dazu nutzen die Beschreibung in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
+
+==== Hinweis ====
+{{anchor:hint_section:}}
+
+{{:en:description_hint_encoded.png?direct&400 |}}{{ :en:description_hint_decoded.png?direct&400 |}}
+
+Dieser Bereich beinhaltet den geheimen Hinweis, wenn der Besitzer einen solchen eingegeben hat. Standardmäßig ist dieser Hinweis verschlüsselt (linkes Bild) um die Cachesuche nicht zu leicht zu machen (Spoiler). Um den Hinweis zu entschlüsseln, tippe einfach auf den verschlüsselten Text (rechtes Bild).
+\\ Du kannst den Hinweis auch standardmäßig unverschlüsselt anzeigen lassen [[de:mainmenu:settings#cache_details|c:geo Einstellungen - Cache-Details - Hinweis verschlüsseln]].
+ 		 	
+
+Wenn der Besitzer ein Spoiler-Bild hochgeladen hat, findest du einen anklickbaren Link zu diesem Bilder unterhalb des Hinweistextes.
+
+
+==== Persönliche Notiz ====
+{{anchor:personal_note:}}
+
+{{ :en:description_personalnote.png?direct&400 |}}
+
+Dieser Bereich enthält deine persönliche Cachenotiz. Notizen, die du auf dem Geoaching-Server hinzugefügt hast (für geocaching.com erfordert dies eine [[basicmembers|Premium-Mitgliedschaft]]) erscheinen hier. Die Schaltflächen unterhalb der Notiz erlauben dir verschiedene Aktionen, die in der folgenden Tabelle erklärt werden:
+
+^ Symbol ^ Name ^ Beschreibung ^
+|{{:ic_menu_waypoint_sync.svg?nolink&40|}}|Kopiere Wegpunkte|Kopiert alle selbstdefinierten Wegpunkte dieses Caches in die persönliche Notiz. Da c:geo die verwendete Syntax erkennt, werden so gespeicherte Wegpunkt bei Bedarf automatisch aus der persönlichen Notiz neu erstellt.|
+|{{:ic_menu_waypoint_delete.svg?nolink&40|}}|Wegpunkte löschen|Dies löscht die kopierten Wegpunkte aus der persönlichen Notiz.|
+|{{:ic_menu_upload.svg?nolink&40|}}|Hochladen|Lädt die lokale persönliche Notiz auf den Geocaching Server hoch.\\ :!: Auf geocaching.com ist dies eine Funktion für Premium-Mitglieder.|
+|{{:ic_menu_edit.svg?nolink&40|}}|Notiz bearbeiten|Dies öffnet ein Editor-Fenster zur Bearbeitung deiner persönlichen Notiz.|
+
+{{:en:description_personalnote_2.png?direct&400 |}}
+
+Dies ist das Bearbeitungsfenster für deine persönliche Notiz, in dem du diese eingeben oder ändern kannst. Die Aktivierung der Auswahl ''Wegpunkt-Extraktion verhindern'' verhindert, dass c:geo in der persönlichen Notiz gefundene Koordinaten automatisch als Wegpunkte zu diesem Cache hinzufügt.
+
+<WRAP center round info 100%>
+Wenn sich die persönliche Notiz auf dem Server von der lokal gespeicherten Notiz unterscheidet, wird c:geo bei der Aktualisierung des Caches beide Notizen beibehalten und sie durch ''- - -'' trennen.
+</WRAP>
+
+===== Logbuch =====
+{{anchor:logbook_tab:}}
+
+{{:en:cachedetails_logbook.png?direct&300 |}}
+
+Die Cachedetails können zwei unterschiedliche Logbuch-Reiter enthalten. Der Reiter ''Logbuch'' enthält die aktuellsten 35 Logeinträge des Caches, während der Reiter ''Logbuch (Eigene/Freunde)'' alle Logs deiner Geocaching-Freunde (eine Server-Funktion auf geocaching.com) sowie deine eigenen Logs enthält.
+
+Am Anfang des Logbuchs findest du eine Log-Zusammenfassung für den Cache, die eine Information darüber gibt, welche Logtypen und wie viele Logs für diese Cache geschrieben wurden.
+
+Darunter siehst du eine scrollbare Liste der Logeinträge; jeder enthält den Benutzernamen, das Logdatum, die Gesamtfundzahl des Benutzers und den Logtext.\\
+Farbmarkierungen zeigen die unterschiedlichen Logtypen an und ermöglichen eine einfache Unterscheidung zwischen "guten" Logtypen (z.B. Gefunden, Aktiviert) und "schlechten" Logtypen (z.B. Nicht gefunden, Deaktiviert).
+
+:!:  Wenn ein Logeintrag verräterische Hinweise enthält, kann der Nutzer entscheiden den Logeintrag zu verschlüsseln. In diesem Fall musst du auf den Logeintrag tippen, um den Logtext zu entschlüsseln.
+
+Ein Klick auf den Benutzernamen öffnet ein Kontextmenü mit benutzerspezifischen [[.mainmenu:search|Suchoptionen]].
+
+Ein langer Klick auf den Logtext ermöglicht es Teile des Textes oder den ganzen Text in die Zwischenablage zu kopieren. Des weiteren kannst du dies nutzen um den Logtext in eine andere Sprache zu [[.mainmenu:utilityprograms|übersetzen]].
+
+===== Inventar =====
+{{anchor:inventory_tab:}}
+
+{{:en:cachedetails_inventory.png?direct&300 |}}
+
+Dieser Reiter zeigt das Trackable-Inventar des Caches. Der Reiter ist nur vorhanden, wenn der Cache Trackables enthält.
+
+Es wird das Typsymbol und der Name des Trackables angezeigt. Ein Klick auf einen Listeneintrag öffnet die [[trackabledetails|Trackable-Details]] mit mehr Informationen zu dem Trackable.
+
+===== Bilder =====
+{{anchor:image_tab:}}
+
+{{ :en:cachedetails_images.png?direct&300 |}}
+
+Dieser Reiter enthält die für den Cache verfügbaren Bilder. Er enthält sowohl alle Bilder aus der Cachebeschreibung als auch alle Bilder, die an den im [[cachedetails#logbook_tab|Logbuch-Reiter]] angezeigten Logeinträgen angehangen wurden.
+
+:!:
+Dies ist nicht die gleiche Funktion, wie die Cache-Galerie auf der Geocaching-Webseite, da sie nur die Logbilder der 35 neuesten Logeinträge aber nicht alle Bilder enthält.
+
+Ein Klick auf ein Bild öffnet das Bild in deinem Standard-Bildbetrachter.
+
+<WRAP center round tip 50%>
+Wenn das Bild in den Metadaten Koordinaten enthält, wird unten links im Bild eine kleine Kompassrose angezeigt. In diesem Fall kannst du dieses Symbol kurz oder lang antippen um deine bevorzugte oder zweite bevorzugte [[navigation|Navigation]] zu starten. Ein langer Klick auf das Bild selbst öffnet ein Kontextmenü, wo du einen neuen Wegpunkt aus den gefundenen Koordinaten erstellen kannst.
+</WRAP>
+
+
+
+

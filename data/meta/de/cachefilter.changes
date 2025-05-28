@@ -50,3 +50,4 @@
 1714948838	fe80:8e9a:29ac:0ec5:84f3:7d7c:9f3d:44e7	E	de:cachefilter	murggel	[Statusfilter] neue Filter-Optionen hinzugefügt		318
 1721148804	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	E	de:cachefilter	murggel	Unterstützung der Geocaching-Dienst für die Online-Suche		4936
 1721149143	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:cachefilter	murggel	Fix Tabellen-Header-Formatierung		24
+1721164008	fe80:b2c7:4377:a6bf:fe69:ae45:a456:c583	e	de:cachefilter	murggel	[Zugriff auf Filter] use root-media		-3

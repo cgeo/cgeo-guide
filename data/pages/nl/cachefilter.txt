@@ -7,7 +7,7 @@ Cachefiltering kan op verschillende plaatsen in c:geo worden toegepast, b.v. op 
 Filterinstellingen zijn bereikbaar via het optiemenu door op het filterpictogram {{:ic_menu_filter.svg?nolink&30|}} te klikken.
 
 Als er al een filter actief is, wordt deze weergegeven als een kopregel onder de titelbalk. door op deze kopregel te klikken, zijn ook de filterinstellingen te bereiken. De volgende schermafbeelding toont bijvoorbeeld zowel het filterpictogram als de filterkopregel (rood omcirkeld) waar het huidige filter is ingesteld om alleen caches van het type "Traditioneel" weer te geven.
-{{ :en:filter-access.png?direct&400 |}}
+{{ :filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}
 ===== Basisfiltering =====

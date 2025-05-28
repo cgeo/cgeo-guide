@@ -15,17 +15,17 @@
 ==== 关于 c:geo ====
 {{anchor:about_cgeo:}}
 
-c:geo 是一个用于 geocaching.com 的开放源代码、功能齐全、随时可用的非官方客户端，并为其他地理藏宝平台（例如 Opencaching）提供基本支持。它不需要网络浏览器或导出 - 只需安装并立即启动。
+c:geo 是一个基于 geocaching.com 的开放源代码、功能齐全、随时可用的非官方客户端，并为其他地理藏宝平台（例如 Opencaching）提供基本支持。它不需要网络浏览器或导出 - 只需安装并立即启动。
 
 c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任何特定的地理藏宝服务提供商相关联。
 ===== 入门 =====
 {{anchor:getting_started:}}
 
-  * [[installation|c:geo 的安装和更新]] - 怎样以及从哪儿安装 c:geo 并获取更新？
-  * [[installation#permissions|c:geo 设备权限]] - 为什么 c:geo 需要在你的设备上请求的这些权限？
+  * [[installation|安装和更新]] - 怎样以及从哪儿安装 c:geo 并获取更新？
+  * [[installation#permissions|设备权限]] - 为什么 c:geo 需要在你的设备上请求的这些权限？
 
-  * [[firststeps|c:geo 的第一步]] - 应用程序的首次启动和地理藏宝服务的身份验证
-  * [[basicuse|c:geo 的基本用法]] - 什么是地理藏宝以及怎样用 c:geo 找到你的第一个藏点？
+  * [[firststeps|第一步]] - 应用程序的首次启动和地理藏宝服务的身份验证
+  * [[basicuse|基础操作]] - 什么是地理藏宝以及怎样用 c:geo 找到你的第一个藏点？
   * [[loginproblems|登录问题]] - 登录出现问题怎么办
 
 ===== 用户手册 =====
@@ -39,7 +39,6 @@ c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任�
   * [[.mainmenu:lists#cache_list|附近搜寻]] - 搜寻附近的藏点
   * [[.mainmenu:lists|保存藏点]] - 本地储存的藏点
   * [[.mainmenu:search|搜索]] - 搜索藏点和可追踪物
-
   * [[.mainmenu:settings|设置]] - 应用中的设置
 
 ==== 藏点 ====
@@ -53,13 +52,13 @@ c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任�
 {{anchor:trackables:}}
 
   * [[trackabledetails|可追踪物详情]] - 可追踪物页面的解释
-  * [[loggingtb|可追踪物处理]] - 可追踪物的处理和日志记录
+  * [[loggingtb|可追踪物处理]] - 可追踪物的搜索和日志记录
 
 ==== 坐标和导航 ====
 {{anchor:coordinates_and_navigation:}}
 
-  * [[coordinatedialog|坐标输入对话框]] - 坐标输入的解释
-  * [[coordinatedialog#waypoint_calculator|航点计算器]] - 航点计算器的使用
+  * [[coordinatedialog|坐标输入框]] - 坐标输入的解释
+  * [[coordinatedialog#waypoint_calculator|坐标计算器]] - 航点计算器的使用
   * [[navigation|导航]] - 支持的导航方案和工具的解释
   * [[compass|指南针]] - 指南针的使用
 
@@ -67,7 +66,7 @@ c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任�
 {{anchor:offline_functions:}}
 
   * [[offline|离线地理藏宝]] - 离线使用
-    * [[offline#gpx_import|GPX 导入]] - 从 GPX 文件导入藏点
+    * [[offline#gpx_import|GPX导入]] - 从 GPX 文件导入藏点
     * [[.mainmenu:pocketquery|口袋查询]] - 查看和导入口袋查询
     * [[offline#offline_logging|离线记录]] - 离线记录藏点
     * [[offline#field_note_export|实地记录]] - 导出实地记录
@@ -83,7 +82,7 @@ c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任�
 
   * [[cacheicons|藏点类型]]
   * [[cachemarkers|藏点标记]]
-  * [[cachedetails#waypoint_types|路点类型]]
+  * [[cachedetails#waypoint_types|航点类型]]
   * [[mapsources|地图来源]] 
   * [[cachefilter|藏点筛选]]
   * [[basicmembers|geocaching.com 基本会员的限制]]
@@ -93,16 +92,15 @@ c:geo 只是一个用于地理藏宝的客户端应用程序，并且未与任�
 
 ===== 特殊功能和提示 =====
 {{anchor:special_functions_and_hints:}}
-  * [[offlinemaps|Offline map tutorial]]
+  * [[offlinemaps|离线地图教程]]
   * [[intents|使用地理藏宝相关的链接]]
   * [[hiddenfunctions|c:geo 中的隐藏功能]]
-  * [[nfc|使用 NFC 分享藏点]]
   * [[https://send2.cgeo.org|使用 send2cgeo]]
   * [[spoilersync|从外部来源上传剧透照片到c：geo]]
   * [[notecoords|为个人笔记中的坐标创建航点]]
   * [[quick_widgets|使用快速访问和小部件作为某些c:geo功能的快捷方式]]
   * [[replacedevice|将 c:geo 迁移到另一设备]]
-  * [[brouter|在 c:geo 中使用路由导航]]
+  * [[brouter|在 c:geo 中使用路线导航]]
 
 ===== 插件和附加功能 =====
 {{anchor:plugins}}

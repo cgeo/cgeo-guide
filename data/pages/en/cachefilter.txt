@@ -10,7 +10,7 @@ In case a filter is already active, it is shown as a header line below the title
 
 A long tap on this indication will open a list of the stored filters to change the active filter.
 
-{{ :en:filter-access.png?direct&400 |}}
+{{ :filter-access.png?direct&400 |}}
 
 {{anchor:filter_basic:}}
 ===== Basic filtering =====

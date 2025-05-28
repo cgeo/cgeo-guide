@@ -1,6 +1,8 @@
+FIXME **This page is not fully translated, yet. Please help completing the translation.**\\ //(remove this paragraph once the translation is finished)//
+
 ====== Mappa Live ======
 
-{{:main_live_default.png?nolink&100 |}}
+{{:main_live_default.svg?nolink&100 |}}
 
 <WRAP center round info 60%>
 Mentre viene visualizzata la schermata della mappa, il dispositivo mobile per comodità non si spegnerà più automaticamente. È necessario uscire da questa schermata per tornare allo spegnimento automatico (temporizzato) per il risparmio energetico. Ovviamente, l'accensione e lo spegnimento manuale del dispositivo mobile continuano a funzionare normalmente.
@@ -50,11 +52,11 @@ La tabella descrive solo i diversi tipi di icone, non i diversi tipi di geocache
 
 ^ Icona ^ Descrizione ^ 
 |{{ :my_location_chevron.png?nolink&40 |}}|Questa freccia rappresenta la posizione e l'orientamento correnti sulla mappa.|
-|{{ :marker.png?nolink&40 |}}|Posizione di un cache da geocaching.com. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
-|{{ :marker_disabled.png?nolink&40 |}}|Posizione di un cache disabilitato o archiviato from geocaching.com. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
-|{{ :marker_oc.png?nolink&40 |}}|Posizione di un cache da una piattaforma di opencaching. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
-|{{ :marker_disabled_oc.png?nolink&40 |}}|Posizione di un cache disabilitato o archiviato da una piattaforma di opencaching. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
-|{{ :marker_other.png?nolink&40 |}}|Posizione di un cache da un'altra piattaforma rispetto a geocaching.com o opencaching (ad es. Extremcaching.com). La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
+|{{ :combined_marker_gc_pin.svg?nolink&40 |}}|Posizione di un cache da geocaching.com. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
+|{{ :combined_marker_gc_pin_disabled.svg?nolink&40 |}}|Posizione di un cache disabilitato o archiviato from geocaching.com. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
+|{{ :combined_marker_oc_pin.svg?nolink&40 |}}|Posizione di un cache da una piattaforma di opencaching. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
+|{{ :combined_marker_oc_pin_disabled.svg?nolink&40 |}}|Posizione di un cache disabilitato o archiviato da una piattaforma di opencaching. La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
+|{{ :combined_marker_other_pin.svg?nolink&40 |}}|Posizione di un cache da un'altra piattaforma rispetto a geocaching.com o opencaching (ad es. Extremcaching.com). La punta della freccia indica la posizione di questo cache sulla mappa. La cornice dell'icona conterrà il [[..:cacheicons|tipo di cache]] corrispondente|
 
 
 ===== Finestra popup della mappa =====

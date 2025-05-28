@@ -15,7 +15,6 @@
         * [[.mainmenu:lists|Salvati]]
         * [[.mainmenu:search|Cerca]]
         * [[.mainmenu:goto|Vai a]]
-        * [[.mainmenu:globaltypefilter|Filtro globale tipo di cache]]
         * [[.mainmenu:start#bottom_section|Informazioni sullo stato]]
       * [[.mainmenu:settings|Impostazioni]]
       * [[start#geocaches|Geocache]]
@@ -48,7 +47,6 @@
 
     * [[start#special_functions_and_hints|Special functions and hints]]
       * [[intents|Using Geocaching related links]]
-      * [[nfc|Sharing caches with NFC]]
       * [[hiddenfunctions|Hidden functions in c:geo]]
       * [[http://send2.cgeo.org|Send to c:geo]]
 
