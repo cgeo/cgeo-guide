@@ -86,6 +86,10 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 
 ==== Sorting ====
 {{anchor:sorting:}}
+Sorting settings are reachable via the options menu by clicking the sort-entry {{:ic_menu_sort_alphabetically.svg?nolink&30|}}.
+
+If a sorting method other than automatic has been selected, it is shown as a header line below the title bar. By tapping this header line, the sorting settings can also be reached (similar to [[..:cachefilter|Cache Filtering]]). 
+A long tap on this indication will reverse the sort order. 
 
 {{ :en:lists_sorting.png?direct&400 |}}
 

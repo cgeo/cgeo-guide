@@ -20,3 +20,14 @@
 1627502611	2a00:ee2:f012:1ae:2c96:fa27:9845:dec9	E	en:hiddenfunctions	murggel	add long click on filter-indication and filter-menu-icon		321
 1644849566	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	en:hiddenfunctions	lineflyer	Add long press search, remove long press filter		-65
 1739100531	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	en:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1163
+1756336170	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add tapping for sorting order		621
+1756336354	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap for bottom navigation map		218
+1756336734	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on current location		129
+1756336970	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap for geocode search		122
+1756337104	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add Live map to long tap on pencil icon		62
+1756337368	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap to map source selection		156
+1756337577	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on live mode indication		152
+1756337945	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on compass rose to switch map rotation mode		243
+1756338300	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	[Log date] Add long tap to use last used date		138
+1756339048	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add click on cache-popup-title to set user icon		204
+1756415100	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	en:hiddenfunctions	murggel	[Hidden functions] 		-69

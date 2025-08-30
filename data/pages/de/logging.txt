@@ -52,6 +52,8 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 Standardmäßig wird c:geo das aktuelle Datum auswählen und ''Heute'' in diesem Feld anzeigen. Du kannst allerdings auf das Feld tippen, um ein Kalendertool zu öffnen, wo du ein anderes Datum für deinen Log auswählen kannst.
 
+Mit langem Tippen auf das Feld kannst du das zuletzt verwendete Datum auswählen.
+
 ==== Problem melden ====
 {{anchor:report_problem:}}
 

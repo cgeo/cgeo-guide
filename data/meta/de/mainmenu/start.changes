@@ -38,3 +38,6 @@
 1644790086	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Fusszeile] 		0
 1644790433	2a00:ee2:f012:11c:1a8:5996:e977:85f	E	de:mainmenu:start	lineflyer	[Titelzeilen-Menü] Use SVG for Go To icon		-1
 1644920775	fe80:0b0f:a39e:b777:49aa:2897:3d78:a75c	E	de:mainmenu:start	lineflyer	[Satelliten-Status] 		-2
+1756415251	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:start	murggel	[Aktueller Standort] Füge Langes Tippen hinzu		73
+1756415555	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:start	murggel	[Startbildschirm] Füge langes Tippen auf Karte hinzu		90
+1756415591	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	de:mainmenu:start	murggel	[Startbildschirm] 		9

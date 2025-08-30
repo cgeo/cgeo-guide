@@ -54,6 +54,8 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 
 By default c:geo will use the current date for the log and show ''Today'' in this field. You can however tap on this field to open a calendar tool and select another date for this log.
 
+Long tap on this field will use the last date used.
+
 ==== Report problem ====
 {{anchor:report_problem:}}
 

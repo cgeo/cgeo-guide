@@ -12,9 +12,9 @@ Am unteren Rand des Bildschirms findest du die Hauptfunktionen, die in der folge
 
 ^ Symbol ^ Funktion ^ Beschreibung ^
 |{{:main_home_default.svg?nolink&100|}}|Startbildschirm| Bringt dich zurück zum Startbildschirm.|
-|{{:main_stored_default.svg?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten.\\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
-|{{:main_live_default.svg?nolink&100|}}|[[livemap|Karte]]|Die Live-Karte zeigt eine Karte mit Geocaches um deinen aktuellen Standort. Sie kann bewegt werden, um zu sehen welche Geocaches es an anderen Standorten gibt. Du brauchst eine Internetverbindung um die Karte und aktuelle Geocache-Positionen darauf zu sehen. Beachte bitte, dass die angezeigten Geocaches ggf. gefiltert sein können.|
-|{{:main_search_default.svg?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.\\ Ein langes Tippen öffnet eine Liste der zuletzt geöffneten Caches.|
+|{{:main_stored_default.svg?nolink&100|}}|[[lists|Gespeicherte Caches]]|Zeigt deine gespeicherten Caches, die bereit zur Offline-Nutzung sind. Du kannst diese Liste nicht nur zur Offline-Nutzung ohne Internetverbindung nutzen, sondern auch für die Online-Nutzung als eine Art ToDo-Liste. Das Speichern auf der Liste vermeidet unnötigen Internetverkehr und Wartezeiten.\\ \\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Karte]]|Die Live-Karte zeigt eine Karte mit Geocaches um deinen aktuellen Standort. Sie kann bewegt werden, um zu sehen welche Geocaches es an anderen Standorten gibt. Du brauchst eine Internetverbindung um die Karte und aktuelle Geocache-Positionen darauf zu sehen. Beachte bitte, dass die angezeigten Geocaches ggf. gefiltert sein können.\\ \\ Du kannst das Symbol auch lange tippen, um direkt auf eine bestimmte Liste zuzugreifen.|
+|{{:main_search_default.svg?nolink&100|}}|[[search|Suche]]|Sucht nach Geocaches mittels Stichwort, Geocode, Adresse, Benutzername, usw.\\ \\ Ein langes Tippen öffnet eine Liste der zuletzt geöffneten Caches.|
 |{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|In der Nähe]]|Erstellt dir eine Liste der Geocaches in der Umgebung. Anders als die Live-Karte startet diese Menüfunktion eine Onlinesuche basierend auf deinem aktuellen Standort (wie über GPS oder Netzwerk ermittelt). Diese aktualisiert sich nicht automatisch wenn du dich bewegst. Du benötigst eine Internetverbindung um diese Funktion zu nutzen.|
 ===== Titelzeilen-Menü ===== 
 {{anchor:top_bar_menu:}}
@@ -60,6 +60,7 @@ In diesem Bereich des Startbildschirms findest du Informationen über die Anzahl
 Unterhalb des Login-Status siehst du deinen aktuellen Standort entweder in Form von Koordination oder (falls [[settings#Appearance|Zeige Adresse]] aktiviert ist) die Stadt/Region, wo du dich aufhältst.\\
 In diesem Beispiel ist der Nutzer derzeit in ''USA, New York''.
 
+Langes Tippen kopiert deine aktuellen Koordinaten in die Zwischenablage.
 ==== Satelliten-Status ====
 {{anchor:satellite_status}}
 

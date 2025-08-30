@@ -24,13 +24,13 @@ In case a menu entry is shown as an icon you can long press the icon to get a po
 |{{ :settings_map.png?nolink&40 |}}|[[livemap#map_settings|Map settings]]|This button is shown on bottom center of the map and will open a quick settings menu containing several options to customize the map display (e.g. hiding of certain elements).|
 |{{ :en:livemap_progress.png?nolink&80 |}} |Progress spinner|A small blue line directly underneath the title bar is shown as progress indicator while the live map is loading data from the geocaching servers and/or from your cache lists. It will disappear if the live map has finished loading.|
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Center Position|This button can be used to center the map on your current position. \\ \\ If the map is centered to your position a filled icon is shown.|
-|{{ :ic_action_layers.svg?nolink&40 |}}|Map Source Selection|Use this button to change the active [[..:mapsources|map source]]|
+|{{ :ic_action_layers.svg?nolink&40 |}}|Map Source Selection|Use this button to change the active [[..:mapsources|map source]]\\ \\ If visible in the top bar, a long tap will choose the last used map source.|
 |{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filter]]|Tapping this icon will open a filter dialog to filter the caches on your map according to various criteria. \\ \\ If visible in the top bar, a long tap will open a list of the stored filters to change the active filter.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overflow Menu Button|Tapping here will open the menu of functions not fitting into the top bar on your device, thus being displayed as a list instead. The function shown in this list are also described in this table.|
-|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off.\\ \\ If the live map is disabled, the slashed icon is shown.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Enable/disable live|This function turns the live map update on/off.\\ \\ If the live map is disabled, the slashed icon is shown.\\ \\ Long tap will activate plain offline mode.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Store all|Saves all caches shown on the map onto your stored caches list. Caches already stored will be refreshed during this process.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Store unsaved|Saves all caches shown on the map, except the ones already stored, onto your stored caches list.|
-| | Map rotation |This will open a menu to switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps.|
+| | Map rotation |This will open a menu to switch rotation of the map according to device heading off/on or enable manual rotation.\\ \\ :!: This function is currently only available for Google Maps. \\ \\ If the rotation is not switched off and the compass rose is shown on the map, a long tap on the compass rose will also show the options to switch rotation of the map.|
 | | History track |Opens a sub menu containing option to show/hide, clear and export the history track (the history of your movement).|
 | | GPX track/route |Allows you to load/unload and show the content of a [[livemap#map_navigation|GPX track/route file]] on the map.|
 | | Individual route |This will open a sub menu to manage, load or hide an [[livemap#map_navigation|individual route]], which you created by long tapping elements on the map. The long tap function needs to be enabled in [[.settings#map_behavior|map behavior settings]].|
@@ -60,7 +60,7 @@ If you tap on a cache icon on the live map the following popup windows will be s
 This section of the map popup provides several menu options concerning the selected cache.
 
 ^ Icon/Option ^ Description ^
-|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the geocode of the selected cache.|
+|{{ :en:livemap_popup_3.png?nolink&150 |}}|Showing the [[..:cacheicons|Cache type icon]] and the geocode of the selected cache.\\ \\ Tap on the title allows to set a user defined icon for this cache, which replaces the default cache type icon ([[..:cachedetails#advanced_submenu| Set cache icon]]).|
 |{{ :ic_menu_compass.svg?nolink&40 |}}|A short tap on this icon will start your [[settings#navigation|default navigation]] tool to navigate to the selected cache.\\ A long press will start your [[settings#navigation|secondary navigation]] tool.|
 |{{ :ic_menu_near_me.svg?nolink&40 |}}|This options turns on/off the direction line/routing between your position and the position of the selected cache.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|This option opens a menu list with additional options also described in this table.|

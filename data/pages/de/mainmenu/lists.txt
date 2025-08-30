@@ -84,6 +84,10 @@ Wenn ein Menüeintrag als Symbol angezeigt wird, kannst du lange auf das Symbol 
 
 ==== Sortierung ====
 {{anchor:sorting:}}
+Die Sortieroptionen sind über das Optionsmenü durch Klick auf das Soriter-Symbol {{:ic_menu_sort_alphabetically.svg?nolink&30|}} zugänglich.
+
+Falls du eine andere Sortieroption als "automatisch" ausgewählt hast, wird dies als Kopfzeile unterhalb der Titelzeile angezeigt. Durch Tippen dieser Kopfzeile kannst du ebenso auf die Sortieroptionen zugreifen (analog zu [[..:cachefilter|Cache Filterung]]).
+Langes Tippen kehrt die Sortierreihenfolge um.
 
 {{ :en:lists_sorting.png?direct&400 |}}
 

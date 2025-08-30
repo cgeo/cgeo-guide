@@ -13,7 +13,7 @@ At the bottom of the screen you will find the main functions which are described
 ^ Icon ^ Function ^ Description ^
 |{{:main_home_default.svg?nolink&100|}}|Home screen| Returns to the home screen.|
 |{{:main_stored_default.svg?nolink&100|}}|[[lists|Stored Caches]]|View geocaches you have stored for offline use. You can also use stored geocaches for online caching, as a to-do list. By storing geocache information, you can avoid unnecessary network bandwidth use and delays. \\ If you have organized your stored geocaches into lists, you can long press the icon to jump directly to a specific list.|
-|{{:main_live_default.svg?nolink&100|}}|[[livemap|Map]]|Show a map centered on your current location, with nearby geocaches marked on it. You can drag the map to view geocaches in other locations. To see the map with up-to-date geocache locations, you need online network access.|
+|{{:main_live_default.svg?nolink&100|}}|[[livemap|Map]]|Show a map centered on your current location, with nearby geocaches marked on it. You can drag the map to view geocaches in other locations. To see the map with up-to-date geocache locations, you need online network access. \\\ If you have organized your stored geocaches into lists, you can long press the icon to jump directly to a specific list.|
 |{{:main_search_default.svg?nolink&100|}}|[[search|Search]]|Search for geocaches by keyword, geocode identification, address, user name, etc.\\ \\ A long tap on this icon opens a list of recently viewed caches.|
 |{{:main_nearby_default.svg?nolink&100|}}|[[lists#cache_list|Nearby]]|List the nearby geocaches. Unlike the live map, this function creates an online query based on your current location, as acquired from GPS or the network. The query does not automatically update when you move. To use this function, you need online network access.|
 
@@ -59,6 +59,8 @@ The bottom section of the main screen shows information about the amount of stor
 {{anchor:current_location:}}
 
 You location is either shown as coordinates, or if the [[settings#Appearance|Show address]] setting is enabled, as country and city/region.
+
+Long tap on this information copies the current coordinates to the clipboard.
 
 ==== Satellite status ====
 {{anchor:satellite_status}}
