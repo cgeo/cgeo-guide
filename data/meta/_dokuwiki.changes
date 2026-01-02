@@ -1,4 +1,3 @@
-1731812289	fe80:cf8c:9270:2794:8935:03b8:fdbd:05f6	C	zh:cachedetails	nancy	创建		25270
 1736941634	fe80:cf8c:9270:2794:8935:03b8:fdbd:05f6	E	zh:firststeps	nancy	补充完整		-818
 1739099866	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	de:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1463
 1739100531	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	en:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1163
@@ -32,3 +31,5 @@
 1756416268	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	de:hiddenfunctions	murggel	[Versteckte Funktionen] 		-1
 1756416385	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:logging	murggel	[Logdatum] Langes Tippen auf Datum		83
 1756416734	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:lists	murggel	[Sortierung] Aktionen mit der Sortier-Kopfzeile		452
+1763890492	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	en:loginproblems	moving-bits	[Login failed: Captcha required] Update Captcha block according to support system info		1713
+1763891083	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] Anpassung an aktualisierte englischsprachige Variante		1667
