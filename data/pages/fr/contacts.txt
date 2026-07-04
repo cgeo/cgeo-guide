@@ -1,0 +1,43 @@
+====== c:geo contacts plugin ======
+
+{{:ic_launcher_contacts-playstore.png?nolink&200 |}}
+
+Il s’agit d’un plugin de contacts pour c:geo. Il ne fonctionnera que si l’application c:geo est installée et vous permet d'accéder directement à vos contacts lorsque vous appuyez sur un nom d’utilisateur dans c:geo.
+
+La raison pour laquelle cette fonctionnalité est proposée sous forme de plugin plutôt que directement intégrée à l’application principale c:geo est que les anciennes versions d’Android ne pouvaient afficher les demandes d’autorisation qu’au moment de l’installation, et non pendant l’utilisation. Comme la demande d’autorisation d’accéder aux contacts de l’utilisateur n'était pas forcément facilement compréhensible pour certaines personnes, nous avons décidé de séparer cette fonctionnalité dans un plugin dédié. Ainsi, les utilisateurs intéressés par cette fonction — et donc susceptibles de comprendre la demande d’autorisation associée — peuvent l’utiliser, tandis que les autres ne sont pas dérangés par cette demande.
+
+Cependant, Android prend désormais en charge les autorisations pendant l’exécution, et nous pourrions donc décider de réintégrer dans le futur cette fonctionnalité dans l’application principale.
+===== Installation =====
+
+Vous pouvez télécharger et installer le plugin c:geo contacts depuis [[https://play.google.com/store/apps/details?id=cgeo.contacts|Google Play]].
+
+Après l’installation, il n’apparaîtra pas comme une icône ou une application distincte sur l'appareil : le plugin s’intègre directement dans c:geo et ajoute la fonction d’accès aux contacts lorsque vous appuyez sur un nom d’utilisateur.
+===== Utilisation =====
+
+Lorsque vous appuyez sur un nom d’utilisateur à différents endroits dans c:geo (par ex. dans le [[.:cachedetails#logbook_tab|journal de la cache]]), le menu affichera une option permettant d’ouvrir la fiche de contact correspondante dans les contacts de votre téléphone. Cela vous permettra d’appeler ou d’envoyer directement un message à cet utilisateur.
+
+{{:en:contacts_usage_1.png?direct&300 |}} {{:en:contacts_usage_2.png?direct&300|}}
+
+Pour que cette fonction puisse trouver une correspondance, le nom d’utilisateur doit être enregistré dans le champ ''Nom'' ou ''Alias''/''Surnom'' de votre contact. Veillez à enregistrer le nom de géocacheur de la personne exactement tel qu’il apparaît dans c:geo dans l’un de ces champs du contact correspondant.
+
+Le plugin tentera également de trouver une correspondance si le nom de géocacheur est identique au nom complet enregistré dans votre liste de contacts.
+
+
+
+
+===== Déclaration de confidentialité des données =====
+
+
+==== Quelles informations sont collectées par le plugin c:geo contacts ? ====
+
+Le plugin de contacts a besoin de l’autorisation d’accéder aux contacts présents sur votre appareil. Il accèdera à vos contacts afin de pouvoir retrouver les informations correspondant à d’autres géocacheurs. Le plugin c:geo contacts n’accède à vos contacts que lorsque vous en faites la demande en sélectionnant l’option « Ouvrir la fiche de contact » dans c:geo. Tant que vous n’utilisez pas cette fonction, le plugin n’accède à aucune donnée de vos contacts.
+
+==== Comment les informations sont-elles utilisées par le plugin c:geo contacts ? ====
+
+Lorsque vous sélectionnez ''Ouvrir la fiche de contact'', le plugin c:geo contacts lit vos données de contact afin de rechercher une éventuelle correspondance entre le nom du géocacheur et le champ nom ou surnom de vos contacts. Il n’écrit jamais dans vos données de contact et ne stocke aucune de vos informations de contact ni dans c:geo ni dans le plugin lui-même.
+
+
+==== Avec qui ces informations sont-elles partagées ? ====
+
+Vos données de contact ne seront ni copiées dans c:geo, ni partagées avec des tiers.
+

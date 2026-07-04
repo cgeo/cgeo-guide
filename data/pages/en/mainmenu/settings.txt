@@ -95,7 +95,8 @@ In this menu you can configure some basic user interface settings of c:geo.
 {{ :en:settings_appearance.png?direct&400 |}}
 
 ^ Menu item ^ Description ^
-|Theme|You can choose to use c:geo with a light or dark theme or let the theme follow your system setting.//(Default: Dark)//|
+|Theme|You can choose to use c:geo with a light or dark theme or let the theme follow your system setting.//(Default: System)//|
+|Colored light / dark theme|You can choose to use c:geo with a [[..:hiddenfunctions#manual_config|colored toolbar]] for cache-views.//(Default: Activated)//|
 |Wallpaper|You can choose to use your device wallpaper also as background on the c:geo home screen //(Default: Deactivated)//|
 |Show Address|When activated c:geo will use a reverse geocoding service to show the current location name instead of the location coordinates at the bottom of the main screen. //(Default: Activated)//|
 |Plain Logs|Activating this setting will show all log entries without the custom colors for enhanced readability. //(Default: Deactivated)//|

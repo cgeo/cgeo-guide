@@ -182,6 +182,7 @@ To load or unload a GPX track you have to use the map menu items below ''GPX tra
 |Center on track/route|Will move/zoom the map, so that an already loaded track/route is shown completely.|
 |Unload track/route|This will remove the loaded track/route from the map.|
 ==== Individual route ====
+{{anchor:individual_route}}
 
 An individual route can be created by long tapping several caches/waypoints on the (live) map. A route will then be drawn between each of the selected caches/waypoints in sequence of your selection. This allows you to create a custom route between caches and can be e.g. used to plan your caching trip.
 
@@ -207,7 +208,7 @@ While you can add and remove caches/waypoints to/from your rote by long tapping 
 ^Menu item ^ Description ^ 
 |Load individual route|Load a previously saved individual route.|
 |Set as target automatically|If activated the routing start point will be set as direction line target automatically (showing the way from your position to the starting point of the route).\\ This can be handy while doing a geocaching tour. Long-tap on a visited cache/waypoint will remove it from your individual route, and with this option activated, your next stop on your route will be set as target automatically.|
-|Sort individual route|Will open a dialog, where you can modify the sequence or remove one or more of the selected caches/waypoints on your route; The route will then be recalculated accordingly.\\ Don't forget to hit the "save" button to save your changes to the individual route, or just leave the dialog to discard them.|
+|Sort individual route|Will open a dialog, where you can modify the sequence or remove one or more of the selected caches/waypoints on your route; The route will then be recalculated accordingly.\\ Don't forget to hit the "save" button to save your changes to the individual route, or just leave the dialog to discard them.\\ \\ Long tap on the title or detail allows you to move the cache/waypoint and its successors to the top of the route.|
 |Center on route|Will move/zoom the map, so that an the individual route is shown completely.|
 |Export individual route|You can export your created individual route into a GPX route file.|
 |Clear individual route|This will remove the created individual route.|

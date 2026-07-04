@@ -175,11 +175,12 @@ Um eine(n) GPX-Track/Route zu laden oder entladen, musst du die Menüeinträge u
 |Track/Route zentrieren|Bewegt und zoomt die Karte so, dass ein bereits geladener Track komplett auf der Karte angezeigt wird.|
 |Track/Route entladen|Dies entfernt eine(n) geladene(n) Track/Route von der Karte.|
 ==== Individuelle Route ====
+{{anchor:individual_route}}
 
-Eine individuelle Route kann durch langen Klick auf mehrere Caches/Wegpunkte auf der (Live-)Karte erstellt werden. Es wird dann eine Route zwischen jedem ausgewählten Cache/Wegpunkt in der Reihenfolge der Auswahl gezeichnet. Dies erlaubt es es eine benutzerspezifische Route zwischen Cache zu erstellen und kann z.B. zur Planung deines Caching-Trips genutzt werden.
+Eine individuelle Route kann durch langes Tippen auf mehrere Caches/Wegpunkte auf der (Live-)Karte erstellt werden. Es wird dann eine Route zwischen jedem ausgewählten Cache/Wegpunkt in der Reihenfolge der Auswahl gezeichnet. Dies erlaubt es es eine benutzerspezifische Route zwischen Cache zu erstellen und kann z.B. zur Planung deines Caching-Trips genutzt werden.
 
 <WRAP center round important 60%>
-Um die individuelle Routenfunktion nutzen zu können, musst du das Langklick-Funktion für die Karten in deinen [[.:settings#map_behavior|Einstellungen zum Kartenverhalten]] aktivieren.
+Um die individuelle Routenfunktion nutzen zu können, musst du die Lange-Tippen-Funktion für die Karten in deinen [[.:settings#map_behavior|Einstellungen zum Kartenverhalten]] aktivieren.
 </WRAP>
 
 Die Routenpunkte werden entweder durch eine gerade Linie (Luftinie) oder alternativ durch eine geroutete Linie verbunden, wenn du [[..:brouter|BRouter]] installiert hast. Die Nutzung von BRouter wird wärmstens empfohlen, um das meiste aus dieser Funktion herauszuholen.
@@ -190,14 +191,14 @@ Das unten stehende Beispiel zeigt das typische Aussehen einer individuellen Rout
 
 {{ :en:brouter_individualroute.png?direct&250 |}}
 
-Während du Caches/Wegpunkte durch langen Klick zur Route hinzufügen oder entfernen kannst, gibt es auch einige weitere Funktionen, die du im Menü ''Individuelle Route'' in deinem [[livemap#top_bar_menu|Kartenmenü]] finden kannst:
+Während du Caches/Wegpunkte durch langes Tippen zur Route hinzufügen oder entfernen kannst, gibt es auch einige weitere Funktionen, die du im Menü ''Individuelle Route'' in deinem [[livemap#top_bar_menu|Kartenmenü]] finden kannst:
 
 {{ en:livemap_individual_route.png?nolink&400 |}}
 
 ^ Meüeintrag ^ Beschreibung ^ 
 |Individuelle Route laden|Lädt eine vorher gespeicherte individuelle Route.|
-|Automatisch als Ziel setzen|Wenn aktiviert, wird der Startpunkt der Route als aktuelles Ziel für die Richtungslinie gesetzt (und zeigt somit den Weg zwischen der aktuellen Position zum Start der Route).\\ Das kann auf einer Geocaching-Tour praktisch sein. Ein Langklick auf einen bereits besuchten Routenpunkt entfernt diesen und dadurch wird, wenn diese Option aktiviert ist, automatisch das Ziel auf den nächsten Routenpunkt gesetzt.|
-|individuelle Route sortieren|Dies öffnet einen Dialog, in dem du die Reihenfolge der Routenpunkte verändern oder einzelne Routenpunkte löschen kannst; die Route wird anschließend neu berechnet.\\ Vergiss nicht die "Speichern"-Schaltfläche zu drücken um die Änderungen zu speichern, oder einfach den Dialog verlassen um die Änderungen zu verwerfen.|
+|Automatisch als Ziel setzen|Wenn aktiviert, wird der Startpunkt der Route als aktuelles Ziel für die Richtungslinie gesetzt (und zeigt somit den Weg zwischen der aktuellen Position zum Start der Route).\\ Das kann auf einer Geocaching-Tour praktisch sein. Durch langes Tippen auf einen bereits besuchten Routenpunkt wird dieser entfernt und dadurch wird, wenn diese Option aktiviert ist, automatisch das Ziel auf den nächsten Routenpunkt gesetzt.|
+|Individuelle Route sortieren|Dies öffnet einen Dialog, in dem du die Reihenfolge der Routenpunkte verändern oder einzelne Routenpunkte löschen kannst; die Route wird anschließend neu berechnet.\\ Vergiss nicht die "Speichern"-Schaltfläche zu drücken um die Änderungen zu speichern, oder einfach den Dialog verlassen um die Änderungen zu verwerfen.\\ \\ Langes Tippen auf den Titel oder die Details ermöglicht es dir, den Routenpunkt  und seine Nachfolger an die Spitze der Route zu verschieben.|
 |Route zentrieren|Bewegt und zoomt die Karte so, dass eine bereits geladene Route komplett auf der Karte angezeigt wird.|
 |Exportiere individuelle Route|Du kannst deine individuelle Route in eine GPX-Datei exportieren.|
 |Individuelle Route löschen|Das entfernt die erstellte individuelle Route.|

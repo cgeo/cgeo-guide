@@ -1,0 +1,57 @@
+====== Migrer c:geo vers un autre appareil ======
+
+Cette page décrit la procédure permettant de transférer toutes vos données c:geo d’un appareil à un autre. Cela peut être utile, par exemple, si vous avez un nouvel appareil et souhaitez transférer toutes les caches enregistrées ainsi que vos paramètres de l’ancien vers le nouvel appareil.
+
+===== Limitations =====
+
+Si vous suivez les étapes ci‑dessous, toutes les caches enregistrées (y compris leur statut, leurs notes, leurs logs hors ligne), l’historique des caches ainsi que tous les paramètres de c:geo seront identiques à 100 % entre l’ancien et le nouvel appareil. Ce sont généralement les éléments principaux que vous souhaitez transférer sans difficulté vers le nouvel appareil.
+
+Le processus de migration décrit n’inclut toutefois pas les fichiers de cartes/thèmes hors ligne ni les fichiers GPX ou notes de terrain exportés. Vous pouvez facilement les transférer en les copiant depuis les dossiers correspondants situés sous le [[.:mainmenu:settings#system|dossier de base]] de l’ancien appareil vers le nouvel appareil.
+
+Les images de logs enregistrées depuis les journaux de caches ainsi que les images provenant des descriptions de caches ne seront pas incluses dans cette migration, car elles sont stockées dans un dossier système non accessible à l’utilisateur. Elles peuvent cependant être restaurées facilement en actualisant les caches concernées sur le nouvel appareil.
+
+===== Prérequis =====
+
+Vous aurez besoin des choses suivantes pour effectuer l'opération :
+
+  * Un bon explorateur de fichiers sur les deux appareils pour copier/déplacer des fichiers
+  * Un moyen de transférer des fichiers d’un appareil à l’autre (câble, e‑mail, stockage cloud, carte SD, Bluetooth, etc.)
+  * Deux appareils Android capables d’exécuter c:geo 8-)
+
+===== Tâches sur l’ancien appareil =====
+
+Effectuez les étapes suivantes sur l’ancien appareil :
+
+  - Lancez c:geo
+  - Allez dans Menu c:geo → Sauvegarde/Restauration
+  - Activez l’option permettant d’inclure les données de compte dans la sauvegarde
+  - Appuyez sur ''Démarrer la sauvegarde''
+  - Notez le chemin du dossier indiqué dans le message « Sauvegarde terminée » (par ex. ''/cgeo/backup/2021-01-02 15-20'')
+  - Vous pouvez soit utiliser directement le bouton ''Partager'' dans ce message pour envoyer la sauvegarde (par ex. par e‑mail, stockage cloud, Bluetooth), soit ouvrir un explorateur de fichiers, localiser le dossier de sauvegarde (voir étape 5) et conserver les fichiers qu’il contient dans un endroit sûr pour les restaurer plus tard sur le nouvel appareil (les fichiers se nomment ''cgeo.sqlite'' et ''cgeo-settings.xml'').
+
+===== Tâches sur le nouvel appareil =====
+
+Effectuez les étapes suivantes sur le nouvel appareil :
+
+  - [[.:installation|Installez]] la même version de c:geo que sur l’ancien appareil. Si les versions diffèrent, la migration peut échouer ou présenter certaines limitations.
+  - Copiez les fichiers de sauvegarde stockés sur le nouvel appareil dans un dossier de votre choix
+  - Démarrez c:geo
+  - Suivez les étapes de l’[[.:firststeps|assistant de configuration]] (vous pouvez ignorer la configuration des services, car votre sauvegarde contient vos données de compte) jusqu’à atteindre l’écran « Configuration avancée ».
+  - Sélectionnez ''Restaurer'' sur cet écran pour ouvrir un sélecteur de dossier
+  - Localisez le dossier contenant vos fichiers de sauvegarde (voir étape 2), sélectionnez ''Utiliser ce dossier'' puis confirmez avec ''Autoriser''
+  - Dans la boîte de dialogue suivante, choisissez de restaurer les caches et waypoints ainsi que les paramètres du programme, puis sélectionnez ''OK''
+  - (Optionnel) Pendant la restauration, il peut vous être demandé si vous souhaitez utiliser les paramètres de dossiers pour les cartes/thèmes hors ligne et les exports GPX provenant de votre ancien appareil. Si vous souhaitez utiliser les mêmes répertoires sur votre nouvel appareil, vous devrez accorder à c:geo l’accès aux dossiers correspondants. Sinon, vous pouvez refuser et les définir manuellement plus tard.
+  - Enfin, appuyez sur ''Terminer'' pour quitter l’assistant de configuration
+
+**C’est tout !**\\
+c:geo sur votre nouvel appareil devrait maintenant contenir les mêmes caches et les mêmes paramètres que sur votre ancien appareil.
+
+
+
+
+
+
+
+
+
+

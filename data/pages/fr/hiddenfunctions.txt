@@ -12,3 +12,14 @@ Toutes ces fonctions cachées sont également expliquées dans la section corres
 |Appui long sur la rose des vents dans la page de détails des caches|Alors qu'un appui court lance la navigation par défaut, un appui long sur cette icône lance la navigation secondaire préférée (Par Défaut=Carte, peut être modifié dans [[.mainmenu:settings#navigation|les paramètres]]).|[[.mainmenu:livemap#top_bar_menu|Carte]]\\ [[.cachedetails#top_bar_menu|Page de détails des caches]]|
 |Appui sur la notification de filtre sur la carte/des listes/sur l'icône de filtre du menu de la barre supérieure.|Si vous avez défini un [[.cachefilter|filtre]], le filtrage actif sera indiqué par une indication de filtre en haut de l'écran, sous le menu de la barre supérieure. En cliquant sur cette notification, vous accédez directement aux paramètres du filtre correspondant pour le modifier/supprimer.|[[.cachefilter|Filtrage des caches]].|
 |Tapez longuement sur n'importe quelle icône du menu de la barre supérieure|Tapez longuement sur n'importe quelle icône du menu de la barre supérieure de c:geo (à l'exception de la rose des vents, dont la fonction de tape longue est différente de celle décrite ci-dessus) pour afficher un texte d'information avec sa fonction associée. Vous pouvez l'utiliser si vous n'êtes pas sûr de la signification d'une icône de menu | par exemple [[logging#top_bar_menu|Loguer les géocaches]].|
+
+==== Autres configurations manuelles ====
+== Nom d’affichage pour les fichiers de cartes téléchargés ==
+Chaque carte téléchargée avec c:geo possède un fichier compagnon contenant des informations supplémentaires. Ce fichier porte le même nom que le fichier de carte, mais avec un suffixe « -cgeo.txt ». Il contient des informations additionnelles sur le téléchargement, par exemple la date et l’heure, afin de permettre la fonctionnalité de mise à jour.
+
+À partir de la version 2025.02.XX, vous pouvez modifier la valeur de l’entrée « displayname » pour changer le nom sous lequel cette carte sera affichée dans c:geo (y compris pour le tri). Cette fonctionnalité est uniquement prise en charge dans UnifiedMap.
+
+== Valeurs de décalage pour la saturation et la luminosité de la barre d’outils colorée ==
+La barre d’outils est colorée dans les vues liées à une cache. La couleur est dérivée de la couleur associée au type de cache.
+
+À partir de la version 2026.01.26-NB, vous pouvez configurer les décalages de saturation et de luminosité (voir [[https://en.wikipedia.org/wiki/HSL_and_HSV|HSL et HSV]]) pour ces couleurs.

@@ -146,13 +146,6 @@ Een duidelijke indicatie voor dit probleem is dat c:geo alleen op je wifi-verbin
 Ga in dit geval naar het c:geo-instellingenmenu → Instellingen → Services en schakel "Identificeren als Android-browser" in. 
 Daarna moet je mogelijk je telefoon opnieuw opstarten om er zeker van te zijn dat deze instellingen van kracht worden.
 </WRAP>
-===== If nothing helps... =====
-
-Some final recommendations if none of the above solved your problem:
-
-  - Make sure to also try the "long tap" to delete your authorization data in c:geo as described in step 4 on this page. This might help in rare case when outdated tokens,cookies or certificates are used due to data caching.
-  - Consider de-installing and re-installing c:geo. After a new installation the installation wizard will help you to set up the connection as described in [[.:firststeps|First steps with c:geo]]. You might want to perform a [[.:mainmenu:settings#backup|backup]] of your data in c:geo before doing this.
-  - Contact our [[mailto:support@cgeo.org|support team]] by using the menu "Report problem" on the c:geo main screen (behind the three dot button), provide a detailed problem description and also tell us you already followed all steps on this page.
 
 ===== Als niets helpt... =====
 

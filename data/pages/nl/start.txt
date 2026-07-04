@@ -7,9 +7,9 @@
 ===== Over c:geo ====
 {{anchor:about_cgeo:}}
 
-c:geo is een open source, volledig functionele, altijd kant-en-klare niet-officiële client voor geocaching.com en biedt basisondersteuning voor andere geocaching-platforms (zoals OpenCaching). Het vereist geen webbrowser of andere vormen van export - installeer het gewoon en begin meteen.
+c:geo is een open source, volledig functioneel, niet-officieel programma voor onder andere geocaching.com en biedt basisondersteuning voor andere geocaching-platforms (zoals OpenCaching). Het vereist geen webbrowser - installeer de app en begin meteen.
 
-c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan een specifieke geocaching-serviceprovider.
+c:geo is alleen een clienttoepassing voor het spel geocaching en is niet gekoppeld aan een specifieke geocaching-serviceprovider.
 
 ===== Aan de slag met c:geo =====
 {{anchor:getting_started:}}
@@ -17,10 +17,10 @@ c:geo is alleen een clienttoepassing voor geocaching en is niet gekoppeld aan ee
   * [[installation|Installatie en updaten van c:geo]] – Hoe en waar kan c:geo worden geïnstalleerd en worden geüpdatet?
   * [[installation#permissions|c:geo toestemming machtigingen op apparaten]] – Waarom heeft c:geo de gevraagde machtigingen nodig op je apparaat?
 
-  * [[firststeps|Eerste stappen met c:geo]] – Starten van de app en het authentiseren van de geocaching services.
+  * [[firststeps|Eerste stappen met c:geo]] – Starten van de app en het autoriseren van de geocaching(.com) services.
   * [[basicuse| Basisgebruik van c:geo]] - Wat is Geocaching en hoe vind je jouw eerste geocache met c:geo?
 
-  * [[loginproblems|Inlogproblemen]] - Wat te doen bij inlogproblemen?
+  * [[loginproblems|Inlogproblemen]] - Wat te doen bij inlogproblemen op de app?
 
 
 ===== Handleiding =====

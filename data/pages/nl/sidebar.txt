@@ -10,7 +10,7 @@
       * [[loginproblems|Inlogproblemen]]
 
     * [[start#users_manual|Handleiding]]
-      * [[.mainmenu:start|Startscherm]]
+      * [[.mainmenu:start|Homescherm]]
       * [[.mainmenu:livemap|Live kaart]]
       * [[.mainmenu:lists|Dichtbij zoeken]]
       * [[.mainmenu:lists|Opgeslagen caches]]

@@ -331,3 +331,5 @@
 1756337810	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add long tap on compass rose to switch map rotation mode		173
 1756338787	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add click on cache-popup-title to set user icon		176
 1756338913	fe80:e292:c298:40fa:925f:465f:9c39:731d	e	en:mainmenu:livemap	murggel			-5
+1772656552	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:livemap	murggel	[Individual route] long tap		119
+1775603575	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	en:mainmenu:livemap	murggel	[Individual route] add anchor		28

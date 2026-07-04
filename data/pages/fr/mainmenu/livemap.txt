@@ -23,18 +23,20 @@ Dans le cas d'une icône, un appui long dessus affiche le nom de la fonctionnali
 
 ^ Icône ^ Fonction ^ Description ^
 |{{ :fr:livemap_mapname.png?nolink&150 |}}|Informations sur la carte|Affiche l'état actuel de la carte : ''Carte temps réel'' dans le cas de la carte en direct, ''Carte'' si le temps réel est désactivé ou encore le nom d'une liste de caches affichées sur la carte.\\ Le nombre de caches visibles sur la carte est également indiqué.|
+|{{ :settings_map.png?nolink&40 |}}|[[livemap#map_settings|Paramètres rapides de la carte]]|Ce bouton apparaît au centre inférieur de la carte et ouvre un menu de réglages rapides contenant plusieurs options pour personnaliser l’affichage de la carte (par ex. masquer certains éléments).|
 |{{ :en:livemap_progress.png?nolink&80 |}} |Barre de chargement|Une petite ligne bleue faisant office d'indicateur de progression est présente juste en dessous de la barre de titre lorsque la carte et les données sont en chargement depuis les serveurs de géocaching et/ou depuis vos listes de caches. Elle disparait une fois que la carte a fini de charger.|
 |{{ :ic_menu_mylocation_off.svg?nolink&40 |}}{{ :ic_menu_mylocation.svg?nolink&40 |}}|Centrer sur la position|Ce bouton peut être utilisé pour centrer la carte sur votre position actuelle.\\ \\ Si la carte est effectivement centrée sur votre position, une icône pleine est affichée.|
-|{{ :ic_action_layers.svg?nolink&40 |}}|Afficher carte|Ce bouton change la [[..:mapsources|source]] du fond de carte.|
+|{{ :ic_action_layers.svg?nolink&40 |}}|Sélection source carte|Ce bouton change la [[..:mapsources|source]] du fond de carte. \\ \\ Si elle est visible dans la barre supérieure, un appui long sélectionnera la dernière source de carte utilisée.|
+|{{ :ic_menu_filter.svg?nolink&50 |}}|[[..:cachefilter|Filtrer]]|Un appui sur cette icône ouvrira une boîte de dialogue permettant de filtrer les caches affichées sur votre carte selon divers critères. \\ \\ Si elle est visible dans la barre supérieure, un appui long ouvrira la liste des filtres enregistrés afin de modifier le filtre actif.|
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Bouton de débordement|Ce bouton ouvre un menu contenant les fonctionnalités qui ne pouvaient être affichées dans la barre supérieure de l'écran et qui apparaissent donc sous forme de liste. Ces fonctions sont également décrites dans ce tableau.|
-|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.|
+|{{ :ic_menu_sync_enabled.svg?nolink&40 |}} {{ :ic_menu_sync_disabled.svg?nolink&40 |}}|Activer/Désactiver temps réel|Ce bouton active/désactive la mise à jour en temps réel de la carte.\\ \\ Si la carte en direct est désactivée, l’icône barrée est affichée.\\ \\ Un appui long activera le mode hors‑ligne simple.|
 |{{ :ic_menu_save_all.svg?nolink&40 |}}|Tout enregistrer|Enregistre toutes les caches affichées sur la carte dans  votre liste de caches enregistrées. Les caches déjà enregistrées verront leurs informations mises à jour pendant ce processus.|
 |{{ :ic_menu_save.svg?nolink&40 |}}|Enregistrer les non sauvegardées|Enregistre toutes les caches affichées sur la carte sauf celles déjà enregistrées dans  votre liste de caches enregistrées.|
-| |[[livemap#map_settings|Paramètres carte]]|Ouvre un menu contenant plusieurs options pour personnaliser la carte affichée (par exemple masquer des caches, afficher les cercles, etc).|
-| |[[livemap#routing|Calcul de l'itinéraire]]|Ce bouton permet de changer les préférences de calcul d'itinéraire (à vol d'oiseau, à pied, à vélo, en voiture).|
+| | Rotation de carte |Cela ouvrira un menu permettant de modifier la rotation de la carte : activer ou désactiver la rotation selon l’orientation de l’appareil, ou activer la rotation manuelle. \\ \\ :!: Cette fonction n’est actuellement disponible que pour Google Maps. \\ \\ Si la rotation n’est pas désactivée et que la boussole est affichée sur la carte, un appui long sur celle‑ci affichera également les options de rotation de la carte.|
+| | Historique des routes |Ouvre un sous‑menu contenant des options pour afficher/masquer, effacer et exporter l’historique des traces (l’historique de vos déplacements).|
+| | Trace/route GPX |Vous permet de charger/décharger et d’afficher sur la carte le contenu d’un [[livemap#traceitineraire_gpx|fichier de trace/itinéraire GPX]].|
+| | Route individuelle |Ouvre un sous‑menu permettant de gérer, charger ou masquer un [[livemap#itineraire_personnel|itinéraire personnel]] que vous avez créé en effectuant un appui long sur des éléments de la carte. La fonction d’appui long doit être activée dans les [[.settings#map_behavior|paramètres de comportement de la carte]].|
 | |[[lists#cache_list|Lister les caches]]|Affiche toutes les caches présentes sur la carte sous forme de [[lists|liste]].|
-| |[[settings#map_content|Effacer l'historique des traces]]|Disponible si l'affichage du parcours est activé dans les [[livemap#map_settings|paramètres]] de la carte. Cela va supprimer l'historique de vos trajets de la carte.|
-
 ===== Contenu de la carte =====
 {{anchor:map_content:}}
 

@@ -6,19 +6,22 @@ De volgende pagina's beschrijven de functies en het instellingsmenu in c:geo.\\ 
 
 Je hebt toegang tot de instellingen door op de menuknop (knop met drie punten) rechtsboven in het hoofdmenu te klikken en '' Instellingen '' te selecteren:
 
-{{:en:settings_1_en.png?direct&300 |}}{{:en:settings_2_en.png?direct&300|}}
+{{:en:home-settings-en.png?direct&300 |}}{{:en:settings-en.png?direct&300|}}
 
 In dit menu vind je de volgende categorieën met betrekking tot de  instellingen die hieronder in detail worden beschreven:
 
 ^ Icoon ^ Menu item ^ Inhoud ^
-|{{:settings_cloud_black.png?nolink |}}|[[settings#services|Diensten]]|CConfigureer geocaching-services die je wilt gebruiken, wijzig je gebruikersaccountgegevens en toegang tot aanvullende services zoals [[http://gcvote.com|GCVote]], [[http://send2.cgeo.org|send2cgeo]]|
+|{{:settings_cloud_black.png?nolink |}}|[[settings#services|Diensten]]|CConfigureer geocaching-services die je wilt gebruiken, wijzig je gebruikersaccountgegevens en toegang tot aanvullende services zoals [[http://bettercaching.org|BetterCaching]], [[http://send2.cgeo.org|send2cgeo]]|
 |{{:settings_eye_black.png?nolink|}}|[[settings#appearance|Uiterlijk]]|Configureer afstandseeenheden, taal en app kleuren.|
 |{{:settings_details_black.png?nolink|}}|[[settings#cache_details|Cache Details]]|Pas de weergave van cachegegevens aan en verberg bepaalde caches|
-|{{:settings_map_black.png?nolink|}}|[[settings#map|Kaart]]|Configureer Kaartbronnen, mappen voor offline kaarten en stel offline kaarten en kaartdetails in.|
+|{{:settings_map_black.png?nolink|}}|[[settings#map|Map sources]]|Configureer Kaartbronnen, mappen voor offline kaarten en stel offline kaarten en kaartdetails in.|
+|{{:settings_map_black.png?nolink|}}|[[settings#map|Map content]]|Configureer Kaartbronnen, mappen voor offline kaarten en stel offline kaarten en kaartdetails in.|
 |{{:settings_pen_black.png?nolink|}}|[[settings#logging|Logboek]]|Pas logboekopties aan en maak of wijzig je logging-handtekening.|
 |{{:settings_sdcard_black.png?nolink|}}|[[settings#offline_data|Offline gegevens]]|Instellingen voor statische kaarten en offline opslag van logbestanden en extra gegevens.|
+|{{:settings_routing.png?nolink|}}|Routing|Alles wat je nodig hebt voor routes.|
 |{{:settings_nut_black.png?nolink|}}|[[settings#system|System]]|Configureer app-mappen en andere systeemspecifieke instellingen|
 |{{:settings_backup_white.png?nolink|}}|[[settings#backup|Backup & Herstel]]|Back-up en herstel van cache/waypoint-gegevens en programma-instellingen uitvoeren|
+
 
 ===== Diensten =====
 {{anchor:services:}}
@@ -26,20 +29,20 @@ In dit menu vind je de volgende categorieën met betrekking tot de  instellingen
 ==== Geocaching ====
 {{anchor:geocaching:}}
 
-{{ :en:services_1_en.png?direct&400 |}}
+{{ :en:settings-services.png?direct&400 |}}
                                                                                                                                                        
 In het eerste gedeelte van de service-instellingen kun je de verbinding met de verschillende ondersteunde geocachingplatforms configureren.
 Momenteel ondersteunt c:geo de volgende geocaching-services:
 
 ^ Dienst ^ Beschrijving ^
 | [[https://www.geocaching.com | geocaching.com]] | Momenteel het grootste commerciële Geocaching-platform met verborgen caches wereldwijd |
+| [[https://adventure.geocaching.com/ | Geocaching.com Adventure Lab]] | Momenteel het grootste commerciële Geocaching-platform met verborgen caches wereldwijd |
 | [[https://www.opencaching.de | OpenCaching Germany]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in de hele wereld met focus op Duitsland, Oostenrijk, Zwitserland, Italië en Spanje |
 | [[https://www.opencaching.pl | OpenCaching Poland]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in Polen |
 | [[https://www.opencaching.nl | OpenCaching Nederland]] | Open-source en gratis te gebruiken Geocaching-platform voor geocaches in Nederland |
 | [[https://www.opencaching.us | Opencaching USA]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in de Verenigde Staten van Amerika |
 | [[https://www.opencaching.ro | OpenCaching Romania]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in Roemenië |
 | [[https://www.opencache.uk | Opencaching UK]] | Open-source en gratis te gebruiken Geocaching-platform voor Geocaches in het Verenigd Koninkrijk |
-| [[https://www.extremcaching.com | extremcaching.com]] | Particulier geocaching-geocachingplatform met focus op Geocaches met een hoge terreinklasse in Duitstalige regio's |
 | [[https://www.geocaching.su | Geocaching Russia]] | Particulier geocachingplatform voor geocaches in Rusland |
 
 <WRAP center round info 100%>
@@ -48,37 +51,22 @@ Een gedetailleerde beschrijving van de authenticatieprocedure voor deze geocachi
 Verder kun je het servicemenu gebruiken om de verbinding met de volgende aanvullende services te configureren, die later beschikbaar zijn in c:geo:
 
 ^ Dienst ^ Beschrijving ^
-| [[http://gcvote.com | GCVote]] | Een platform om te stemmen over de kwaliteit van Geocaches |
-| [[https://geokrety.org | GeoKrety]] | Een alternatief platform voor trackables |
+| [[https://geokrety.org | GeoKrety]] | Een alternatief platform voor trackables. |
 | [[http://send2.cgeo.org | Send2cgeo]] | Biedt een browserscript aan om Geocaches rechtstreeks naar c:geo te importeren met één klik van de geocaching-website op je pc. Neem een kijkje op de website van send2cgeo voor meer informatie over deze tool.|
-
+| [[https://bettercacher.org | BetterCacher]] | Een site die, subjectief, favoriete geocaches toont.|
 ==== Sociale media ====
 {{anchor:social_media:}}
 
-{{ :en:services_twitter_1.png?direct&400 |}}
-
-Je kunt c:geo autoriseren om te posten op [[https://www.twitter.com | Twitter]] telkens wanneer je een log voor een cache of een trackable verstuurt.
-
-{{ :nl:services_twitter_2.png?direct&400 |}}
-
-Om te autoriseren op Twitter, activeer je de dienst en klik je op '' Autoriseer c:geo ''.Onder de autorisatieknoppen kunt je de sjablonen wijzigen die worden gebruikt om een bericht op Twitter te plaatsen. Deze sjabloon gebruikt dezelfde [[settings # placeholder_templates | placeholder-sjablonen]] als in je [[settings#logging|logboek handtekening]].
-
-{{ :nl:services_twitter_3.png?direct&400 |}}
-
-Klik op de volgende pagina op '' Autorisatie starten '' om de Twitter-webpagina te openen, waar je jouw Twitter-gebruikersnaam en -wachtwoord moet invoeren en daarna akkoord gaat om c:geo toe te staan om namens jou op Twitter te posten.
+^ Menu item ^ Omschrijving ^
+|Social link|Op dit moment zijn er geen social media platforms waar c:geo mee te verbinden is.|
 
 
-<WRAP center round tip 100%>
-c:geo ondersteunt alleen Twitter als een sociaal netwerk. Omdat het ontwikkelteam beperkte middelen heeft en zich richt op nieuwe geocachingfuncties, hebben we momenteel geen plannen om een Facebook-verbinding te implementeren.Als u echter al een Twitter-gebruiker bent en / of op zoek bent naar een manier om uw bevindingen op Facebook te plaatsen, houd er dan rekening mee dat het mogelijk is om Twitter aan Facebook te koppelen. Hierdoor zullen al je tweets ook op Facebook worden geplaatst (inclusief de c:geo tweets).
-
-Meer info hierover op de  [[https://support.twitter.com/articles/31113-using-twitter-with-facebook/|Twitter support-website]].</WRAP>
+Omdat het ontwikkelteam beperkte middelen heeft en zich richt op nieuwe geocaching functies, hebben we momenteel geen plannen om social media verbindingen te implementeren.
 ==== Andere instellingen ====
 {{anchor:other_settings:}}
 
-{{ :en:services_androidbrowser.png?direct&400 |}}
-
 ^ Menu item ^ Omschrijving ^
-|Android browser|Om compatibiliteitsredenen gebruikt c:geo normaliter de identificatie van een normale pc-webbrowser bij het openen van de services. Aangezien sommige mobiele netwerkproviders het gebruik van je mobiele netwerkverbinding op een pc niet toestaan, kunnen ze het geïdentificeerde verkeer blokkeren om zich op een pc-webbrowser te richten, waardoor c:geo onbruikbaar wordt. In dit geval werken sommige services mogelijk niet of kun je niet eens geautoriseerd worden. Als je deze instelling inschakelt, wordt in plaats daarvan c:geo geïdentificeerd als een mobiele Android-browser om dit probleem op te lossen. \\We raden je aan deze optie alleen in te schakelen in geval van problemen.|
+|Android browser|Het is niet (meer) nodig om c:geo te laten doen alsof het programma een browser is. Deze optie is niet meer beschikbaar. |
 ===== Uiterlijk =====
 {{anchor:appearance:}}
 

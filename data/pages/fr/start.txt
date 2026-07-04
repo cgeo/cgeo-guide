@@ -46,9 +46,9 @@ C'est une application prête à l'emploi : installez et utilisez-la immédiateme
 ==== Géocaches ====
 {{anchor:geocaches:}}
 
-  * [[cachedetails|Détails des Géocache]] - Explications sur la page de détail des géocaches
+  * [[cachedetails|Détails des Géocaches]] - Explications sur la page de détail des géocaches
   * [[Logging|Log]] - Loguer vos découvertes de géocaches
-  * [[cachevariables|Calculs avec varaibles]] - Utilisation des variables pour des calculs en relation avec la géocache
+  * [[cachevariables|Calculs avec variables]] - Utilisation des variables pour des calculs en relation avec la géocache
 
 ==== Objets voyageurs ====
 {{anchor:trackables:}}

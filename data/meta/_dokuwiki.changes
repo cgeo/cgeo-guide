@@ -1,6 +1,3 @@
-1736941634	fe80:cf8c:9270:2794:8935:03b8:fdbd:05f6	E	zh:firststeps	nancy	补充完整		-818
-1739099866	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	de:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1463
-1739100531	fe80:b673:8175:df21:7427:bb6d:269d:3b39	E	en:hiddenfunctions	moving-bits	hidden config options Kartendownload ergänzt		1163
 1756335683	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:lists	murggel	Add visualization for sorting order		419
 1756336170	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add tapping for sorting order		621
 1756336354	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap for bottom navigation map		218
@@ -33,3 +30,86 @@
 1756416734	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:lists	murggel	[Sortierung] Aktionen mit der Sortier-Kopfzeile		452
 1763890492	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	en:loginproblems	moving-bits	[Login failed: Captcha required] Update Captcha block according to support system info		1713
 1763891083	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] Anpassung an aktualisierte englischsprachige Variante		1667
+1771623807	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:settings	murggel	[Appearance] Colored light / dark theme		149
+1771623853	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:hiddenfunctions	murggel	[Manual config options in settings] colored toolbar		382
+1771623935	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	en:hiddenfunctions	murggel	[Manual config options in settings] colored toolbar		52
+1771624436	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:settings	murggel	[Appearance] Default Theme: System		2
+1771624477	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:settings	murggel	[Appearance] Colored theme: Activated		6
+1771624679	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	de:mainmenu:settings	murggel	[Erscheinungsbild] Farbiges Design		193
+1771624723	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:settings	murggel	[Appearance] 		16
+1771624755	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	de:mainmenu:settings	murggel	[Erscheinungsbild] 		14
+1771624959	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] farbige Toolbar		441
+1771624988	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] 		14
+1771625281	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:hiddenfunctions	murggel	[Other manual configuration] colored actionbar		355
+1771625541	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	de:hiddenfunctions	murggel	[Sonstige manuelle Konfigurationsoptionen] farbige Toolbar		396
+1771625599	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] 		10
+1771625615	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] 		8
+1771625632	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	de:hiddenfunctions	murggel	[Sonstige manuelle Konfigurationsoptionen] 		9
+1771625669	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	e	en:hiddenfunctions	murggel	[Other manual configuration] 		11
+1772460267	fe80:23f3:9f7f:353a:b68b:e3f3:fe05:d723	E	fr:hiddenfunctions	alranapa	Ajout "Autres configurations manuelles"		1174
+1772646997	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	C	fr:contacts	alranapa	créée		3264
+1772647458	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[c:geo contacts plugin] 		332
+1772647562	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[Installation] 		110
+1772647653	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[With whom is the information shared?] 		18
+1772647715	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[How is the information used by the c:geo contacts plugin?] 		77
+1772647802	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[What information is collected by the c:geo contacts plugin?] 		92
+1772647976	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[Data privacy statement] 		24
+1772648178	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	[Usage] 		181
+1772648242	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:contacts	alranapa	Traduction FR terminée		-159
+1772648293	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	e	fr:start	alranapa	[Géocaches] 		0
+1772648319	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:start	alranapa	[Géocaches] 		1
+1772649015	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	C	fr:brouter	alranapa	créée		3966
+1772650222	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Using routed navigation in c:geo] traduction paragraphe		110
+1772650794	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Activate routing] traduction FR		103
+1772650932	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Usage in c:geo] traduction FR		124
+1772651085	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Direction line] traduction FR		67
+1772651263	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Individual route] traduction FR		218
+1772651577	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	[Customization] traduction FR		129
+1772651614	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:brouter	alranapa	Fin de traduction FR		-159
+1772651657	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	C	fr:replacedevice	alranapa	créée		3740
+1772651769	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	[Migrate c:geo to another device] +FR		79
+1772651857	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	[Limitations] + FR		280
+1772651936	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	[Prerequisites]  + FR		59
+1772652106	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	[Tasks on the old device]  + FR		170
+1772652288	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	[Tasks on the new device] + FR		286
+1772652308	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	E	fr:replacedevice	alranapa	Fin traduction FR		-159
+1772656552	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:livemap	murggel	[Individual route] long tap		119
+1772656818	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:hiddenfunctions	murggel	[Hidden functions] sort individual routes		208
+1772657376	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	de:hiddenfunctions	murggel	[Versteckte Funktionen] Individuelle route		262
+1772657687	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	de:mainmenu:livemap	murggel	[Individuelle Route] Langes Tippen		164
+1772662285	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	e	fr:mainmenu:livemap	alranapa	[Itinéraire personel] typo		1
+1772662468	fe80:3508:7b71:35f5:fbff:5386:32f1:5154	e	fr:mainmenu:livemap	alranapa	[Menu supérieur] ajout trad manquantes		1487
+1773945695	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:start	novw	"lopend" Nederlands		-29
+1773945810	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:start	novw	"lopend" Nederlands		4
+1773946024	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	e	nl:installation	novw	Google Play bestaat niet. Heet: Google Play Store. "lopend" Nederlands gemaakt		70
+1773946265	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:installation	novw	[Machtigingen] 		36
+1773946819	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:installation	novw	Google Play bestaat niet. Heet: Google Play Store. "lopend" Nederlands gemaakt		34
+1773946984	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:installation	novw	Notifications erbij. Lopend Nederlands. Fotocamera apart.		126
+1773947424	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	e	nl:installation	novw	"lopend" Nederlands		100
+1773948059	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	extremcaching & GCvote: bestaan niet meer BetterCacher: nieuw		-169
+1773948297	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	twitter???		-1274
+1773948464	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	niet nodig, niet beschikbaar		-612
+1773953054	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	nw screenshots. "offline data" verwijderd. 		297
+1773953219	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	[c:geo Instellingen] 		-23
+1773953433	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	[c:geo Instellingen] 		14
+1773953621	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	routing heeft geen pagina		-20
+1773954055	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	nl:mainmenu:settings	novw	[Geocaching] 		167
+1774120822	fe80:d8ff:ba50:aad5:24d5:6a0d:8403:b1c3	E	nl:mainmenu:settings	novw	lelijke banner		6
+1774122458	fe80:d8ff:ba50:aad5:24d5:6a0d:8403:b1c3	E	nl:basicuse	novw	[Wat is Geocaching?] 		149
+1774124594	fe80:d8ff:ba50:aad5:24d5:6a0d:8403:b1c3	E	nl:basicuse	novw	[Je eerste cache vinden met c:geo] 		605
+1775603245	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	en:hiddenfunctions	murggel	Add anchor		25
+1775603322	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	en:mainmenu:settings	murggel	[Appearance] adjust anchor		-13
+1775603378	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] add anchor		25
+1775603406	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	de:mainmenu:settings	murggel	[Erscheinungsbild] adjust anchor		-27
+1775603494	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	de:hiddenfunctions	murggel	[Manuelle Konfigurationsoptionen in den Einstellungen] adjust anchor		-12
+1775603575	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	en:mainmenu:livemap	murggel	[Individual route] add anchor		28
+1775603595	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	de:mainmenu:livemap	murggel	[Individuelle Route] add anchor		28
+1775603772	fe80:254f:0882:4339:51dc:0cbf:b827:7594	E	de:hiddenfunctions	murggel	[Versteckte Funktionen] adjust anchor		-2
+1776617743	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	e	nl:basicuse	novw	typo		0
+1776617996	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	e	nl:loginproblems	novw	engels én nederlands?		-878
+1776618118	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	e	nl:loginproblems	novw	tweetalig "if nothing else helps" / engels verwijdeerd		-3
+1776618181	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	E	nl:start	novw	inlogproblemen >in de app		10
+1776620423	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	E	nl:mainmenu:start	novw	[Bovenste balk menu] 		176
+1776620579	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	E	nl:mainmenu:start	novw	startscherm of hoofdscherm?		0
+1776620888	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	E	nl:mainmenu:start	novw	hoofdscherm ipv startscherm		0
+1776627678	fe80:e784:fe83:46d4:3089:d281:9ee1:fba8	e	nl:sidebar	novw	Startscherm vs homescherm 		-1

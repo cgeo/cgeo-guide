@@ -1,0 +1,53 @@
+====== Utilisation de la navigation routée dans c:geo ======
+
+{{:helper_brouter.png?nolink&100 |}}
+
+BRouter est un moteur de calcul d’itinéraires intégré à c:geo. Il fournit des trajets guidés, calculés hors ligne, entre deux coordonnées à partir des données d’[[https://openstreetmap.org|OpenStreetMap]].
+Si la [[.:mainmenu:settings#navigation|navigation]] est activée, c:geo peut l’utiliser pour remplacer la ligne droite habituelle affichée sur la carte entre votre position et la cible de navigation (c’est‑à‑dire une cache ou un waypoint) par un itinéraire routé, comme illustré dans la comparaison ci‑dessous.
+
+^ Navigation sans routage ^ Navigation avec routage ^
+|{{:en:brouter_without.png?direct&250|}}|{{:en:brouter_with.png?direct&250|}}|
+
+Le routage peut être configuré pour la marche, le vélo ou la voiture selon vos besoins, et vous aidera à trouver votre chemin jusqu’à la destination. Vous pouvez également utiliser ce routage pour créer des itinéraires personnalisés incluant plusieurs waypoints successifs afin de planifier votre sortie géocaching.
+
+===== Activer le routage =====
+
+Vous pouvez activer la fonction de routage interne et définir d’autres paramètres (comme le dossier de stockage des fichiers de routage ou le téléchargement automatique) dans [[.:mainmenu:settings#navigation|les paramètres de routage/navigation de c:geo]].
+
+Une fois le routage activé et le téléchargement automatique en marche, les données de routage pour la zone géographique souhaitée seront automatiquement téléchargées lors de la première utilisation de la fonction de routage.
+
+<WRAP center round info 100%>
+Les données de routage de BRouter peuvent représenter plusieurs centaines de mégaoctets.
+</WRAP>
+
+===== Utilisation dans c:geo =====
+
+Une fois le routage activé comme décrit ci‑dessus, c:geo l’utilisera automatiquement. Aucune configuration supplémentaire n’est nécessaire dans c:geo, sauf si vous souhaitez modifier le mode de routage utilisé (vélo, marche, voiture) selon vos besoins.
+Vous pouvez effectuer ce réglage dans les [[.:mainmenu:livemap#map_quick_settings|paramètres rapides de la carte]].
+
+Le moteur interne BRouter sera utilisé pour calculer des itinéraires pour deux fonctions principales, décrites brièvement ci‑dessous. Vous trouverez une description complète des lignes de navigation sur la carte et de leurs fonctions dans la section [[.:mainmenu:livemap#map_navigation|carte en direct]] de ce guide utilisateur.
+
+==== Ligne de direction ====
+
+Si vous lancez la navigation vers une cache ou un waypoint depuis la carte, la ligne de direction entre votre position et la cache/waypoint utilisera désormais un itinéraire routé au lieu d’une ligne droite.
+
+L’information de distance en haut à droite affichera la distance routée en plus de la distance en ligne droite (si cette option est activée dans les [[.:mainmenu:settings#offline_routing|paramètres de c:geo]]).
+
+{{ :en:brouter_with.png?direct&400 |}}
+
+==== Itinéraire personnalisé ====
+
+Pour utiliser la fonction d’itinéraire personnalisé, vous devez activer l’appui long sur la carte dans vos [[.:mainmenu:settings#map_behavior|paramètres de comportement de la carte]].
+
+Vous pouvez ensuite effectuer un appui long successivement sur différentes caches ou différents waypoints de votre carte pour les relier les uns après les autres par un itinéraire routé. Cette fonction permet par exemple de planifier votre sortie géocaching, comme illustré dans l’exemple ci‑dessous.
+
+{{ :en:brouter_individualroute.png?direct&400 |}}
+
+Pour retirer une cache ou un waypoint de votre itinéraire, il suffit d’effectuer à nouveau un appui long dessus. Vous pouvez également utiliser le sous‑menu ''Itinéraire personnalisé'' dans votre [[en:mainmenu:livemap#top_bar_menu|menu de la carte]] pour trier, exporter, importer ou effacer votre itinéraire personnalisé.
+
+==== Personnalisation ====
+
+Pour minimiser les éventuels ralentissements lors de l’utilisation de c:geo, les itinéraires sont calculés par défaut jusqu’à une longueur maximale de 10 km. Vous pouvez personnaliser cette limite entre 0 et 999 km dans les [[.:mainmenu:settings#map_content|paramètres de contenu de la carte]] de c:geo. Vous pouvez également personnaliser les paramètres (épaisseur, couleur et opacité) des différentes lignes affichées sur la carte dans les [[.:mainmenu:settings#map_lines_customization|paramètres de personnalisation des lignes de la carte]].
+
+
+

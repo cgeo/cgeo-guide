@@ -1,10 +1,10 @@
 ====== Hoofdscherm ======
 
-Deze pagina beschrijft de informatie die op het startscherm wordt weergegeven en de functies van de onderste navigatie-elementen die in de hele app zichtbaar zijn.
+Deze pagina beschrijft de informatie die op het hoofdscherm wordt weergegeven en de functies van de onderste navigatie-elementen die in de hele app zichtbaar zijn.
 
 {{anchor:main_icons:}}
 
-Het startscherm toont je profielfoto (afgeleid van de geocachingwebsite) evenals je aantal vondsten en inlogstatus voor alle geocachingdiensten die je in c:geo hebt geactiveerd.
+Het hoofdscherm toont je profielfoto (afgeleid van de geocachingwebsite) evenals je aantal vondsten en inlogstatus voor alle geocachingdiensten die je in c:geo hebt geactiveerd.
 
 {{ :en:mainmenu_2.png?direct&400 |}}
 
@@ -33,14 +33,14 @@ Het aantal pictogrammen dat je in de bovenste balk ziet, wordt dynamisch bepaald
 |{{ :three_dot_vertical.svg?nolink&40 |}}|Overloopmenu button| Open de overlooplijst met functies van de bovenste balk die, op basis van uw schermgrootte, niet als pictogrammen worden weergegeven. De functies omvatten de functies die worden beschreven in deze tabel|
 |{{:main_any_default.svg?nolink&40|}}|[[goto|Ga Naar]]|Navigeer naar een willekeurige locatie met behulp van het kompas, radar, stapsgewijze navigatie of een andere ondersteunde navigatiemethode.|
 |{{ :ic_menu_pocket_query.svg?nolink&40 |}} |[[pocketquery|Pocket Queries]]|Open een lijst van je pocket queries op geocaching.com. Dit item is niet beschikbaar voor geocaching.com [[..:basicmembers|basic members]].|
-|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Bladwijzerlijsten]]|Opent een lijst van he bladwijzers vanuit geocaching.com. Dit item is niet beschrikbaar voor geocaching.com [[..:basicmembers|basisleden]].|
-|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Opent een lijst met links naar aanvullendel geocaching-gerelateerde apps, die handig kunnen zijn als toevoeging aan c:geo.|
+|{{ :ic_menu_bookmarks.svg?nolink&40 |}} |[[pocketquery|Bladwijzerlijsten]]|Opent een lijst van je bladwijzers vanuit geocaching.com. Dit item is niet beschikbaar voor geocaching.com [[..:basicmembers|basisleden]].|
+|{{ :ic_menu_shopping.svg?nolink&40 |}}|[[utilityprograms|Hulpprogramma's]]|Opent een lijst met links naar aanvullende geocaching-gerelateerde hulpprogtramma's|
+| | whereIgo player|whereIgo speler waar momenteel geen aparte gebruiksaanwijzing van beschikbaar is.|
 |{{ :ic_menu_preferences.svg?nolink&40 |}}|[[settings|Instellingen]]|Open het c:geo configuratie menu.|
 |{{ :ic_menu_rotate.svg?nolink&40 |}}|[[settings#backup|Backup]]|Start de back-up functie van de instellingen, die ook te vinden is in de [[settings|c:geo instellingen]].|
 | | Update offline gegevens|Bevat functies om te controleren op updates van je offline kaartbestanden en routegegevens.|
-| | |
 |{{ :ic_menu_info_details.svg?nolink&40 |}}|[[aboutcgeo|Over c:geo]]|Bekijk c:geo versie-informatie, bijdragers, contactlinks en andere leuke dingen over c:geo.|
-| |Rapporteer probleem|Je kunt deze functie gebruiken om een probleemrapport per e-mail naar het c:geo-support team te sturen.\\ :!: Voeg een gedetailleerde beschrijving van je probleem toe.|
+| |Rapporteer probleem|Je kunt deze functie gebruiken om een probleemrapport per e-mail naar het c:geo-support team te sturen.\\ :!: Voeg een zo gedetailleerd mogelijke beschrijving van je probleem toe. Bedenk dat C:GEO door vrijwilligers word gemaakt en onderhouden. Een antwoord komt meestal niet heel snel!|
 
 ===== Onderste Sectie =====
 {{anchor:bottom_section:}}

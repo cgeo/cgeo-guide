@@ -96,7 +96,8 @@ In diesem Menü kannst du einige grundlegende Einstellungen zum Erscheinungsbild
 {{ :en:settings_appearance.png?direct&400 |}}
 
 ^ Menüeintrag ^ Beschreibung ^
-|Design|Hier kannst du wählen, ob du eine helles oder dunkles Erscheinungsbild von c:geo haben möchtest. Desweiteren kannst du einstellen, dass das Erscheinungsbild den Systemeinstellungen folgen soll.//(Standard: Dunkel)//|
+|Design|Hier kannst du wählen, ob du eine helles oder dunkles Erscheinungsbild von c:geo haben möchtest. Desweiteren kannst du einstellen, dass das Erscheinungsbild den Systemeinstellungen folgen soll.//(Standard: System)//|
+|Farbiges helles / dunkles Design|Du kannst wählen, ob du für Cache-Ansichten eine [[..:hiddenfunctions#manual_config|farbige Toolbar]] haben möchtest.//(Default: Aktiviert)//|
 |Hintergrundbild|WEnn diese Option aktiviert ist, wird das systemseitige Hintergrundbild auch als Hintergrund des Startbildschirms von c:geo genutzt. //(Standard: Deaktiviert)//|
 |Ort statt Koordinaten|Wenn aktiviert nutzt c:geo ein Dienst für umgekehrtes Geocoding um statt der aktuellen Koordinaten die Stadt/Region in der unteren Zeile des Hauptbildschirms anzuzeigen. //(Standard: Aktiviert)//|
 |Logs ohne Farben|Nach Aktivieren dieser Einstellung werden alle Logeinträge ohne benutzerdefinierte Farben angezeigt um die Lesbarkeit zu verbessern. //(Standard: Deaktiviert)//|

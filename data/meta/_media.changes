@@ -1,12 +1,3 @@
-1721685919	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_share.png	murggel	gelöscht		-2422
-1721685922	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_shopping.png	murggel	gelöscht		-3141
-1721685926	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_sort_alphabetically.png	murggel	gelöscht		-2133
-1721685929	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_start_conversation.png	murggel	gelöscht		-2130
-1721685933	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_upload.png	murggel	gelöscht		-9274
-1721685936	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_waypoint_delete.png	murggel	gelöscht		-9709
-1721685940	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_menu_waypoint_sync.png	murggel	gelöscht		-10817
-1721686014	fe80:4962:18d7:3f59:8bdb:2afc:cb18:dbd5	D	ic_action_layers_revert.png	murggel	gelöscht		-1399
-1724881687	fe80:39e6:e390:fc2f:70c4:574f:82de:8af9	E	en:settings_cachedetails.png	murggel			164491
 1757183857	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	E	logo_big.png	lineflyer			55274
 1757183987	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	E	logo.png	lineflyer			67481
 1757184041	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	C	en:logo.png	lineflyer	created		14241
@@ -18,3 +9,15 @@
 1757184297	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	D	de:logo.png	lineflyer	gelöscht		-9976
 1757184303	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	E	logo.png	lineflyer			-4265
 1757184376	fe80:3c4e:ac4a:8acb:de09:9c07:8945:fe91	E	logo.png	lineflyer			-4152
+1771624219	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:settings_appearance.png	murggel			-33456
+1773951344	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	C	en:home-settings-en.png	novw	created		5879083
+1773951563	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	en:home-settings-en.png	novw			-490881
+1773951686	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	en:home-settings-en.png	novw			0
+1773951878	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	C	en:settings-en.png	novw	aangemaakt		419152
+1773952515	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	C	en:settings-routing.png	novw	aangemaakt		1195
+1773952698	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	en:settings-routing.png	novw			-103
+1773952974	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	C	settings_routing.png	novw	aangemaakt		1092
+1773953330	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	E	en:home-settings-en.png	novw			-5045351
+1773953819	fe80:cc7c:a6ee:2263:e818:6317:c4a7:8996	C	en:settings-services.png	novw	aangemaakt		321306
+1774123493	fe80:d8ff:ba50:aad5:24d5:6a0d:8403:b1c3	C	en:cachedetails-details.png	novw	created		712538
+1776619163	fe80:2a5d:ab7e:b2f7:2a70:a0bd:b905:221c	E	en:main_topbarmenu.png	novw			253952
