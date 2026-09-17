@@ -1,33 +1,3 @@
-1756335683	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:lists	murggel	Add visualization for sorting order		419
-1756336170	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add tapping for sorting order		621
-1756336354	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap for bottom navigation map		218
-1756336571	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:start	murggel	[Current location] Add long tap		79
-1756336734	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on current location		129
-1756336878	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:search	murggel	Add long tap for geocode search		62
-1756336970	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap for geocode search		122
-1756337104	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add Live map to long tap on pencil icon		62
-1756337285	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add long tap to map source selection		81
-1756337368	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap to map source selection		156
-1756337561	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add long tap on live mode indication		48
-1756337577	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on live mode indication		152
-1756337810	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add long tap on compass rose to switch map rotation mode		173
-1756337945	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add long tap on compass rose to switch map rotation mode		243
-1756338117	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:logging	murggel	[Log date] Add long tap to use last used date		53
-1756338300	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	[Log date] Add long tap to use last used date		138
-1756338787	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:mainmenu:livemap	murggel	Add click on cache-popup-title to set user icon		176
-1756338913	fe80:e292:c298:40fa:925f:465f:9c39:731d	e	en:mainmenu:livemap	murggel			-5
-1756339048	fe80:e292:c298:40fa:925f:465f:9c39:731d	E	en:hiddenfunctions	murggel	Add click on cache-popup-title to set user icon		204
-1756415019	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:hiddenfunctions	murggel	[Versteckte Funktionen] Hinzufügen diverser Funktionen 		2287
-1756415100	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	en:hiddenfunctions	murggel	[Hidden functions] 		-69
-1756415251	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:start	murggel	[Aktueller Standort] Füge Langes Tippen hinzu		73
-1756415515	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	en:mainmenu:start	murggel	[Home Screen] Add long click for map view		125
-1756415555	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:start	murggel	[Startbildschirm] Füge langes Tippen auf Karte hinzu		90
-1756415591	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	de:mainmenu:start	murggel	[Startbildschirm] 		9
-1756415753	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:search	murggel	Langes Tippen auf Geocode		66
-1756416234	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:livemap	murggel	Füge Funktionen für langes Tippen hinzu		526
-1756416268	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	e	de:hiddenfunctions	murggel	[Versteckte Funktionen] 		-1
-1756416385	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:logging	murggel	[Logdatum] Langes Tippen auf Datum		83
-1756416734	fe80:ae43:b3cb:a3a2:5148:ed28:6140:4f89	E	de:mainmenu:lists	murggel	[Sortierung] Aktionen mit der Sortier-Kopfzeile		452
 1763890492	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	en:loginproblems	moving-bits	[Login failed: Captcha required] Update Captcha block according to support system info		1713
 1763891083	fe80:d0dc:d808:6bbb:79be:6a32:968d:3a75	E	de:loginproblems	moving-bits	[Anmeldung fehlgeschlagen: Captcha erforderlich] Anpassung an aktualisierte englischsprachige Variante		1667
 1771623807	fe80:bdc7:d916:b057:5b98:5f7d:1442:63e1	E	en:mainmenu:settings	murggel	[Appearance] Colored light / dark theme		149
