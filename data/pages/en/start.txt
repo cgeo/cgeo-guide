@@ -12,6 +12,9 @@ c:geo is an open source, full-featured, always ready-to-go unofficial Android cl
 
 c:geo is only a client application for geocaching and is not associated with any specific geocaching service provider.
 
+<WRAP center round info 100%>
+As c:geo is continuously being improved and updated, this user guide may not reflect the most recent app version.
+</WRAP>
 
 ===== Getting Started =====
 {{anchor:getting_started:}}
@@ -113,9 +116,6 @@ If you encounter a problem or error, please check our [[http://faq.cgeo.org|FAQ]
   * [[translation|Help translate this user guide!]]
   * [[ebook_help|Download a PDF version of this guide]]
 
-<WRAP center round info 100%>
-As c:geo is continuously being improved and updated, this user guide may not reflect the most recent app version.
-</WRAP>
 
 ===== Useful Links =====
 {{anchor:useful_links:}}

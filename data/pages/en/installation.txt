@@ -9,21 +9,24 @@ You have several options from where to install c:geo as listed in the table belo
 ^ Source ^ Description ^
 |[[https://play.google.com/store/apps/details?id=cgeo.geocaching|Google Play]]|The easiest way for installing c:geo and also receiving the regular updates to new versions. If you have a Google Account and use the Google Play app on your device, you should use this way to install and update c:geo.|
 |[[https://github.com/cgeo/cgeo/releases/latest|APK file]]|If you do not use Google Play (and are experienced with direct app installation), you can download the APK file of the latest c:geo release from our Github repository.\\ \\ :!: Please be aware, that you will not be receive updated versions from Google Play in this case. You will however see a [[installation#update|notification]] within c:geo in case your version is outdated, but you m have to manually update it by downloading the new APK file.|
-|[[https://fdroid.cgeo.org/|FDroid Repository]]|This is for advanced users who want to build their own version based on FDroid and know what they are doing.|
+|[[https://fdroid.cgeo.org/|FDroid Repository]]|This is for advanced users who want to build their own version based on FDroid or include our repository as a dedicated packet source in their FDroid client.|
 
 
 
 ===== Permissions =====
 {{anchor:permissions:}}
 
-During the installation process or when first starting the app (depending on Android version) you will be informed and need to agree, that c:geo needs certain permissions on your device:
+On the first startup of c:geo or when you first time access certain functions in c:geo you will be informed and need to agree, that c:geo needs certain permissions on your device. In addition some permissions are granted implicitly by your Android system.
+
+The following table provides a reasoning for all explicit and implicit permissions c:geo might request on your device:
 
 ^ Permission ^ Explanation ^
 |Location|Of course c:geo needs access to the GPS on your device to locate your position and calculate distance and direction to geocaches.|
-|Photos/Media/Files|c:geo will write data onto your phone storage or SD card as soon as you save geocaches for offline use. Furthermore c:geo will use your phone storage for import and export of files and reading of offline maps.\\ In case you attach a photo to a log, c:geo needs to use your device camera.|
+|Contacts|This is an optional permission allowing c:geo to access your device phonebook to look up geocachers using their geocaching name. It is only done on demand each time you use the [[contacts|open contact card]] function in c:geo. |
+|Notifications|This is an optional permission to allow c:geo to notify you when certain actions are completed (e.g. cache updates, map downloads)  or conditions apply (e.g. cache proximity notification on map).|
 
 <WRAP center round important 100%>
-Make sure to grant these permissions as otherwise c:geo will not work as expected!
+Make sure to grant the permission for precise location as otherwise c:geo will not work as expected!
 </WRAP>
 
 ===== Update =====
